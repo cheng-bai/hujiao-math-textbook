@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-1-1",
   "book_id": "x1",
   "section": "1.1",
   "title": "直线的倾斜角与斜率",
   "section_json": "batch/sections/x1/x1-1-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-1",
-  "fingerprint": "68ddd71306aede11a69c1dd50c922babae355c7ed6e516b771686cc7b68c9cea",
+  "fingerprint": "a86456adeb9ccf14ebdbbe015bf96a04ba8af49622844d1b60214287e0b3ceff",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -65,11 +65,78 @@
     "images/book-c71088e2254e42f4abb1.jpg",
     "images/book-e1bb977a64c738df346f.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 4,
+    "matched_source_groups": 4,
+    "moved_source_paragraphs": 4,
+    "attached_paragraphs": 4,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-1-1-ex-1",
+        "example_number": 1,
+        "source_id": "x1-1-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 151
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-1-ex-2",
+        "example_number": 2,
+        "source_id": "x1-1-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 151
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-1-ex-3",
+        "example_number": 3,
+        "source_id": "x1-1-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 151
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-1-ex-3",
+        "example_number": 3,
+        "source_id": "x1-1-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 151
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 4,
+    "current_section": "1.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "638374a443a1026bff5247cbeaf7e8ac72855a96a4bf537e813d72ef9b965563",
-    "student.html": "0a072f7510a380bb4281ef9ab0925c0c95debc04b308899b71eb9cf620e34b33",
-    "student.zip": "2d1e67c2de585bd241321a9755bc198ac4f4a704db54bc769ffca6afc35d133e",
-    "content.json": "d868665adf5acfc22306fddbef2480b5d53de92d21baf333822e0bdd31abcd73"
+    "teacher.html": "b845cb2df0a74815c4aa011c8733f49c801c8781c3ceb6e1bd207963544aaaf8",
+    "student.html": "53328aa2931699e6342d1f51cba202871834f8271aa874d0c882d75cb5d87be2",
+    "student.zip": "7179171289f2d396ac70e221c4f7a0d4676c2897c4c6bab66cc71dca13328df7",
+    "content.json": "d5aea3d3c0937f1e4598124718b5ea4f0ceb690046af238c057e7fb57eab19a5",
+    "teacher-guidance.json": "e5c0fa301b4ffc1ebf9b255a89c4d5ad232cd4195458b0995fc2266bb88434f7"
   }
 }

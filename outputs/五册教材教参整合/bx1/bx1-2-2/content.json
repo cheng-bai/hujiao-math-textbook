@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 2.2 不等式的求解\n\n### 对学重点\n\n一元二次不等式的求解, 分式不等式的求解, 含绝对值的不等式的求解: 理解一元二次不等式的求解原理, 熟练掌握一元二次不等式的求解方法. 理解分式不等式求解的思想方法, 能熟练求解分式不等式. 理解含绝对值的不等式的求解方法, 会解较简单的含绝对值的不等式.\n\n### 内容分析\n\n“2.2 不等式的求解”包括一元一次不等式及一元一次不等式组的求解、一元二次不等式的求解、分式不等式的求解、含绝对值的不等式的求解四部分内容.\n\n1. 一元一次不等式及一元一次不等式组的求解\n\n将初中的数字系数一元一次不等式及一元一次不等式组的求解扩展为字母系数的情形,渗透了参数意识和数形结合思想,是对初中内容的回顾和适当提升.\n\n2. 一元二次不等式的求解\n\n多数教材是通过一元二次函数的图像结合零点, 用图像法求解一元二次不等式. 其优点是直观, 容易理解和记忆, 缺点是观点提升较早, 和不等式的性质以及初中已知的一元一次不等式的求解方法联系不够紧密, 逻辑上依赖图像, 先有图像后再根据图像研究性质. 本套教材遵循由式到函数、由静到动、由特殊到一般的认识规律, 因此将数形结合求解一元二次不等式的思想方法移到函数一章, 那时再运用二次函数的零点并结合图像总体上把握不等式的求解, 使学生观念的提升更加自然、顺畅. 同时, 也强化了数学运算, 加强了不等式性质的训练. 这既与初中求解一元一次不等式的方法体系一脉相承,又能很好地巩固集合交和并的概念,使抽象的概念得到落实和强化, 更好培养学生逻辑推理、数学运算等方面的素养.\n\n一元二次不等式的求解是不等式求解部分的核心和关键. 教材遵循由特殊到一般的认识规律, 由具体的例子出发, 归纳总结出一般的求解方法.\n\n首先,处理二次项系数为正时的情形,按照一元二次方程判别式 $\\Delta$ 的符号,分为 $\\Delta  > 0,\\Delta  = 0,\\Delta  < 0$ 及不等号 $> , < , \\geq  , \\leq$ 共十二种情形,分别加以讨论 (在实际教学中, 可重点讲若干典型的情况, 其余的由学生自己思考与总结).\n\n设 $a{x}^{2} + {bx} + c = 0\\left( {a > 0}\\right)$ 的两根为 ${x}_{1}\\text{、}{x}_{2}\\left( {{x}_{1} \\leq  {x}_{2}}\\right)$ .\n\n情形(1): $\\Delta  > 0$ 时, ${x}_{1} < {x}_{2}$ .\n\n$$\na{x}^{2} + {bx} + c = a\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) .\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  > 0 \\Leftrightarrow  x < {x}_{1}\\text{或}x > {x}_{2}\\text{;}\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  < 0 \\Leftrightarrow  {x}_{1} < x < {x}_{2};\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  \\geq  0 \\Leftrightarrow  x \\leq  {x}_{1}\\text{或}x \\geq  {x}_{2}\\text{;}\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  \\leq  0 \\Leftrightarrow  {x}_{1} \\leq  x \\leq  {x}_{2}.\n$$\n\n情形(2): $\\Delta  = 0$ 时, ${x}_{1} = {x}_{2}$ .\n\n$$\n\\begin{gather} a\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  = a{\\left( x - {x}_{1}\\right) }^{2}. \\\\ a{\\left( x - {x}_{1}\\right) }^{2} > 0 \\Leftrightarrow  x \\neq  {x}_{1}; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} \\geq  0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} < 0 \\Leftrightarrow  x \\in  \\varnothing ; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} \\leq  0 \\Leftrightarrow  x = {x}_{1}. \\end{gather}\n$$\n\n情形 $\\left( 3\\right)  : \\Delta  < 0$ 时,无实根.\n\n$$\n\\begin{gather} a{x}^{2} + {bx} + c = a{\\left( x + m\\right) }^{2} + n\\left( {n > 0}\\right) . \\\\ a{\\left( x + m\\right) }^{2} + n > 0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x + m\\right) }^{2} + n \\geq  0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x + m\\right) }^{2} + n < 0 \\Leftrightarrow  x \\in  \\varnothing ; \\\\ a{\\left( x + m\\right) }^{2} + n \\leq  0 \\Leftrightarrow  x \\in  \\varnothing . \\end{gather}\n$$\n\n### 3. 分式不等式的求解\n\n分式不等式的求解有两种基本思路, 一是转化为不等式组求解, 二是转化为整式不等式求解, 在本节的导入部分对这两种思路都做了说明. 分式不等式求解的基本类型是分子和分母都是一次式的情形, 其求解可以看做是一元二次不等式求解的应用, 关键是根据不等式的具体形式正确转化为一元二次不等式或不等式组.\n\n$$\n\\frac{f\\left( x\\right) }{g\\left( x\\right) } > 0 \\Leftrightarrow  f\\left( x\\right) g\\left( x\\right)  > 0;\n$$\n\n$$\n\\begin{aligned}  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } < 0 \\Leftrightarrow  f\\left( x\\right) g\\left( x\\right)  < 0; \\\\  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } \\geq  0 \\Leftrightarrow  \\left\\{  \\begin{array}{l} f\\left( x\\right) g\\left( x\\right)  \\geq  0, \\\\  g\\left( x\\right)  \\neq  0; \\end{array}\\right. \\\\  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } \\leq  0 \\Leftrightarrow  \\left\\{  \\begin{array}{l} f\\left( x\\right) g\\left( x\\right)  \\leq  0, \\\\  g\\left( x\\right)  \\neq  0. \\end{array}\\right. \\end{aligned}\n$$\n\n其中, $f\\left( x\\right) \\text{、}g\\left( x\\right)$ 为关于 $x$ 的一元多项式.\n\n4. 含绝对值不等式的求解\n\n求解含绝对值的不等式的基本方法是根据绝对值的定义、几何意义和不等式的性质, 去掉式中的绝对值符号, 化为不含绝对值的不等式求解.\n\n含绝对值的不等式的求解的两种最基本的情形, 即\n\n$$\n\\left| x\\right|  < a \\Leftrightarrow   - a < x < a\\left( {a > 0}\\right)\n$$\n\n及\n\n$$\n\\left| x\\right|  \\geq  a \\Leftrightarrow  x \\geq  a\\text{ 或 }x \\leq   - a\\left( {a > 0}\\right) .\n$$\n\n实际上这两种基本情形可以推广为\n\n$$\n\\left| {f\\left( x\\right) }\\right|  < g\\left( x\\right)  \\Leftrightarrow   - g\\left( x\\right)  < f\\left( x\\right)  < g\\left( x\\right) ; \\tag{1}\n$$\n\n$$\n\\left| {f\\left( x\\right) }\\right|  \\geq  g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  \\geq  g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  \\leq   - g\\left( x\\right) . \\tag{2}\n$$\n\n其中, $f\\left( x\\right) \\text{、}g\\left( x\\right)$ 为关于 $x$ 的一元多项式.\n\n类似可得\n\n$$\n\\left| {f\\left( x\\right) }\\right|  \\leq  g\\left( x\\right)  \\Leftrightarrow   - g\\left( x\\right)  \\leq  f\\left( x\\right)  \\leq  g\\left( x\\right) ; \\tag{3}\n$$\n\n$$\n\\left| {f\\left( x\\right) }\\right|  > g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  > g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  <  - g\\left( x\\right) . \\tag{4}\n$$\n\n下面证明 (1)(2). (3)(4)的证明是类似的.\n\n设集合 $A = \\{ x\\left| \\right| f\\left( x\\right)  \\mid   < g\\left( x\\right) , x \\in  \\mathbf{R}\\} , B = \\{ x \\mid   - g\\left( x\\right)  < f\\left( x\\right)  < g\\left( x\\right)$ , $x \\in  \\mathbf{R}\\}$ . 为证明 (1),要证明 $A = B$ . 因为\n\n$$\n{x}_{0} \\in  A \\Rightarrow  \\left| {f\\left( {x}_{0}\\right) }\\right|  < g\\left( {x}_{0}\\right)  \\Rightarrow   - g\\left( {x}_{0}\\right)  < f\\left( {x}_{0}\\right)  < g\\left( {x}_{0}\\right)  \\Rightarrow  {x}_{0} \\in  B;\n$$\n\n反之\n\n$$\n{x}_{0} \\in  B \\Rightarrow   - g\\left( {x}_{0}\\right)  < f\\left( {x}_{0}\\right)  < g\\left( {x}_{0}\\right)  \\Rightarrow  \\left| {f\\left( {x}_{0}\\right) }\\right|  < g\\left( {x}_{0}\\right)  \\Rightarrow  {x}_{0} \\in  A.\n$$\n\n从而 $A = B$ .\n\n由于 $A = B$ ,从而 $\\bar{A} = \\bar{B}$ ,于是\n\n$$\n\\{ x\\left| \\right| f\\left( x\\right)  \\mid   \\geq  g\\left( x\\right) , x \\in  \\mathbf{R}\\}  = \\{ x \\mid  f\\left( x\\right)  \\geq  g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  \\leq   - g\\left( x\\right) , x \\in  \\mathbf{R}\\} ,\n$$\n\n于是, $\\left| {f\\left( x\\right) }\\right|  \\geq  g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  \\geq  g\\left( x\\right)$ 或 $f\\left( x\\right)  \\leq   - g\\left( x\\right)$ ,从而(2)成立.\n\n对于较复杂的含绝对值的不等式, 可以用换元的手段进行不等式的等价化简及变形, 将其转化为基本的情形, 再用基本方法求解.\n\n以下为本章 2.2 节全部例题的解析.\n\n例 1 复习和巩固一元一次型不等式求解的基本方法, 并正确表示其解集. 这是求解不等式单元的过渡和准备, 旨在温故知新、推陈出新.\n\n例 2 的目的是复习用交集求一次不等式组解集的基本方法, 巩固交集的概念, 并为后续不等式求解作准备.\n\n例 3、例 4 由特殊例子出发,提炼出在判别式 $\\Delta  > 0$ 时,不等号为大于或小于两种基本情形下的求解方法, 并进一步归纳出表 2-1 所示的一般性结果.\n\n例 5 的目的是介绍在二次项系数为负时的等价变形方法. 此时, 在不等式两端同乘 -1 , 将二次项系数的符号转化为正, 同时改变不等号的方向, 从而转化为基本类型, 并按表 2-1 所示进行求解.\n\n例 6 中第 (1)(2) 小题考虑的是 $\\Delta  = 0$ ,且不等号为大于 (>) 或小于等于值类) 的情形.\n\n例 6 中第 (3)(4)小题考虑的是 $\\Delta  < 0$ ,且不等号为大于等于(≥)或小于等于(≤) 的情形.\n\n一元二次不等式求解的程序是:(1)二次项系数化为正； (2)求出两根； (3)由不等式符号写出解集. 应注意所处理的都是一元二次不等式中二次项系数为正数的情形, 在二次项系数为负数的情形需要先转化为正数情形, 再进行求解.\n\n例 7 是一元二次不等式组求解. 教学中应重点引导学生在数轴上正确找出两个不等式解集的公共部分, 正确地表示其交集.\n\n例 8、例 9 是不等式求解的逆向问题, 即在已知解集的情形下, 求系数所满足的关系或者系数值. 这是韦达定理及一元二次不等式求解的综合运用.\n\n例 10 是分式不等式求解的最基本类型. 将其正确转化为二次不等式就能求解, 旨在突出求解的原理.\n\n例 11 旨在强调不等式的等价变形方法: 先移项将其一端化为零, 再化为不等式组求解.\n\n例 12 说明对于分式的分子或分母中恒正的二次式, 可以通过直接约分或去分母化简不等式. 本例分母二项式是恒正的, 可直接去分母, 化为整式不等式求解.\n\n例 11、例 12 是强调不等式求解中三种基本的等价变形方法: (1) 移项后所得不等式与原不等式等价; (2)不等式两端同乘正数所得不等式与原不等式等价; 同乘负数并改变不等号方向所得不等式与原不等式等价; (3) 不等式两端同乘或同除以恒正的多项式所得不等式与原不等式等价.\n\n例 13 是应用题, 重点是根据实际问题的意义建立相应的不等式组求解, 是分式不等式的具体应用. 教学中应注意实际问题中的字母含义对其取值范围的限定, 以及变量的单位和求解精度要求.\n\n与初中代数相比, 分式不等式的求解对学生的运算能力要求有较大提高, 应加强必要的训练, 以期切实熟练掌握, 更好落实数学运算方面的核心素养.\n\n例 14、例 15 是含绝对值的不等式求解的两种最基本情形的简单实例, 旨在说明所用的方法.\n\n例 16、例 17 旨在介绍去掉绝对值符号的步骤和方法. 这种分区域讨论不等式的求解方法, 虽然初中有所涉及, 但现在的要求更高, 应先分段取交再各段取并, 从而求出解集. 教学中应注意分段的标准, 各段解的得出方法与表达形式, 以及以解集的形式表述原不等式的解, 简化书写过程.\n\n初学时, 不建议用下面的方法处理例 16:\n\n$$\n\\left| {{2x} - 1}\\right|  > x \\Leftrightarrow  {2x} - 1 > x\\text{或}{2x} - 1 <  - x\n$$\n\n$$\n\\Leftrightarrow  x > 1\\text{或}x < \\frac{1}{3}\n$$\n\n$$\n\\Leftrightarrow  x \\in  \\left( {-\\infty ,\\frac{1}{3}}\\right)  \\cup  \\left( {1, + \\infty }\\right) \\text{.}\n$$\n\n理由是不等式右端不是常数,不同于 $\\left| {{2x} - 1}\\right|  > a$ ,学生理解起来可能有较大困难.\n\n### 注意事项\n\n高中数学不等式求解的重点是一元二次不等式, 它是求解其他复杂不等式的基础, 应熟练掌握. 在二次不等式求解问题中, 一些较复杂的问题, 如已知解集求系数所满足的条件等逆向问题, 需借助二次函数来解决, 建议放入第五章函数的应用部分处理. 现阶段教学的重点是掌握数字系数不等式的求解.\n\n$\\left| x\\right|  < a \\Leftrightarrow   - a < x < a\\left( {a > 0}\\right)$ 及 $\\left| x\\right|  \\geq  a \\Leftrightarrow  x \\geq  a$ 或 $x \\leq   - a\\left( {a > 0}\\right)$ 是含绝对值的不等式求解的基本模型, 应熟练掌握.\n\n在分类讨论求解含绝对值的不等式时, 应注意逻辑关系, 先分类再做交, 最后取并集. 在每一分类部分, 求得的不等式要和分类所得的前提做交集, 此时用不等式表示解集比用区间一般更为简洁. 然后对各类取并集, 最后将求得的解集用区间形式表示.\n\n求解分式不等式 $\\frac{f\\left( x\\right) }{g\\left( x\\right) } > h\\left( x\\right)$ 有两种变形的策略: (1) 转化为不等式组求解: $\\left\\{  {\\begin{array}{l} f\\left( x\\right)  > g\\left( x\\right) h\\left( x\\right) , \\\\  g\\left( x\\right)  > 0 \\end{array}\\text{ 或 }\\left\\{  {\\begin{array}{l} f\\left( x\\right)  < g\\left( x\\right) h\\left( x\\right) , \\\\  g\\left( x\\right)  < 0; \\end{array}\\text{ (2) 转化为整式不等式求解: }\\frac{f\\left( x\\right) }{g\\left( x\\right) } > }\\right. }\\right. \\; h\\left( x\\right)  \\Leftrightarrow  \\frac{f\\left( x\\right)  - g\\left( x\\right) h\\left( x\\right) }{g\\left( x\\right) } > 0 \\Leftrightarrow  g\\left( x\\right) \\left( {f\\left( x\\right)  - g\\left( x\\right) h\\left( x\\right) }\\right)  > 0$ . 应根据运算量的大小选择合适的策略.\n\n不等式等价变形的基本方法有: 移项; 不等式两端同乘正数; 不等式两端同乘或同除以恒正的代数式. 在同乘负数时要改变不等号的方向.\n\n本章从不等式性质的角度学习不等式的求解方法, 在第五章中还将学习从函数角度求解不等式, 教学中应注意学习的阶段性和层次性.\n\n### 教学建议\n\n复习一元一次不等式及一元一次不等式组求解, 正确求出不等式组的解集.\n\n从熟悉的情景中引入一元二次不等式, 明确一元二次不等式的概念.\n\n从特殊情形下的一元二次不等式的求解出发, 归纳、总结出一般的求解规律, 引导发现、讲清道理. 现阶段不宜用二次函数的图像来说明一元二次不等式的求解规律, 该方法将在第五章函数的应用部分讨论.\n\n运用不等式的性质, 将一元二次不等式转化为一元一次不等式组求解, 是教材中处理一元二次不等式的基本思想. 一元二次不等式的求解过程体现了从特殊到一般的思考过程, 教材从特例出发提炼共性、总结归纳一般规律, 并以这种规律为指导求解具体的不等式. 这种由特殊到一般再到特殊的过程, 体现了数学中的归纳与演绎过程, 体现了数学的研究规律, 教学中应加以启发、引导, 落实有关数学素养的培养.\n\n一元二次不等式求解的规律及结论反映在教材表 2-1 及表 2-2 中. 求解程序是: (1)二次项系数化正；(2)求出对应方程的实根；(3)结合根的情况和不等式的符号写出解集.\n\n一元二次不等式是分式不等式求解的基础,分式不等式 $\\frac{{ax} + b}{{cx} + d} > 0(a\\text{、}b\\text{、}c\\text{、}d \\in$ R) 等的求解可以视为一元二次不等式的应用. 将分式不等式 $\\frac{{ax} + b}{{cx} + d} > 0(a\\text{、}b\\text{、}c\\text{、}d \\in$ R) 等价变形,化为二次不等式 $\\left( {{ax} + b}\\right) \\left( {{cx} + d}\\right)  > 0$ ,要比化为不等式组 $\\left\\{  \\begin{array}{l} {ax} + b > 0, \\\\  {cx} + d > 0 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} {ax} + d < 0, \\\\  {cx} + d < 0 \\end{array}\\right.$ 求解简单. 教学中应强调分式不等式等价变形的基本思想, 注意与分式方程求解的比较. 需要特别指出, 由于方程的根的个数一般是有限的, 可以通过检验的方法排除分式方程化为整式方程时的增根, 而分式不等式的解通常含有无限个元素, 无法一一检验, 必须采用等价变形. 学生要体会处理等式与不等式时的异同.\n\n分式不等式求解的关键是等价变形. 在不等式两端同乘或同除以一个量时要注意与等式时的区别. 在等式情形, 只要该量不等于零, 得到的式子就与原来的式子等价, 但在不等式的情形, 同乘正的量后才能保持原来的不等号方向不变, 而在乘负的量时, 必须改变原有不等号的方向. 如果不能确定所乘量的符号, 就要分别讨论. 可举例说明 $\\frac{f\\left( x\\right) }{g\\left( x\\right) } > h\\left( x\\right)$ 化成 $f\\left( x\\right)  > g\\left( x\\right) h\\left( x\\right)$ 这一错误变形的原因,以及正确的变形方法.\n\n对含绝对值不等式的求解,教材中给了两种基本模型: $\\left| x\\right|  < a \\Leftrightarrow   - a < x < \\; a\\left( {a > 0}\\right)$ 和 $\\left| x\\right|  > a \\Leftrightarrow  x > a$ 或 $x <  - a\\left( {a > 0}\\right)$ ,并以 $\\left| {x + a}\\right|  + \\left| {x + b}\\right|  < c$ 型不等式的求解为例, 介绍了根据零点和绝对值的定义, 分类讨论脱去绝对值符号进行求解的基本思想. 教学中应注意分类的标准、逻辑关系以及表达方法, 建议在每一子类中用不等式表示解, 最后综合得出用区间形式表示的解集.",
+    "markdown": "#### 2.2 不等式的求解\n\n### 对学重点\n\n一元二次不等式的求解, 分式不等式的求解, 含绝对值的不等式的求解: 理解一元二次不等式的求解原理, 熟练掌握一元二次不等式的求解方法. 理解分式不等式求解的思想方法, 能熟练求解分式不等式. 理解含绝对值的不等式的求解方法, 会解较简单的含绝对值的不等式.\n\n### 内容分析\n\n“2.2 不等式的求解”包括一元一次不等式及一元一次不等式组的求解、一元二次不等式的求解、分式不等式的求解、含绝对值的不等式的求解四部分内容.\n\n1. 一元一次不等式及一元一次不等式组的求解\n\n将初中的数字系数一元一次不等式及一元一次不等式组的求解扩展为字母系数的情形,渗透了参数意识和数形结合思想,是对初中内容的回顾和适当提升.\n\n2. 一元二次不等式的求解\n\n多数教材是通过一元二次函数的图像结合零点, 用图像法求解一元二次不等式. 其优点是直观, 容易理解和记忆, 缺点是观点提升较早, 和不等式的性质以及初中已知的一元一次不等式的求解方法联系不够紧密, 逻辑上依赖图像, 先有图像后再根据图像研究性质. 本套教材遵循由式到函数、由静到动、由特殊到一般的认识规律, 因此将数形结合求解一元二次不等式的思想方法移到函数一章, 那时再运用二次函数的零点并结合图像总体上把握不等式的求解, 使学生观念的提升更加自然、顺畅. 同时, 也强化了数学运算, 加强了不等式性质的训练. 这既与初中求解一元一次不等式的方法体系一脉相承,又能很好地巩固集合交和并的概念,使抽象的概念得到落实和强化, 更好培养学生逻辑推理、数学运算等方面的素养.\n\n一元二次不等式的求解是不等式求解部分的核心和关键. 教材遵循由特殊到一般的认识规律, 由具体的例子出发, 归纳总结出一般的求解方法.\n\n首先,处理二次项系数为正时的情形,按照一元二次方程判别式 $\\Delta$ 的符号,分为 $\\Delta  > 0,\\Delta  = 0,\\Delta  < 0$ 及不等号 $> , < , \\geq  , \\leq$ 共十二种情形,分别加以讨论 (在实际教学中, 可重点讲若干典型的情况, 其余的由学生自己思考与总结).\n\n设 $a{x}^{2} + {bx} + c = 0\\left( {a > 0}\\right)$ 的两根为 ${x}_{1}\\text{、}{x}_{2}\\left( {{x}_{1} \\leq  {x}_{2}}\\right)$ .\n\n情形(1): $\\Delta  > 0$ 时, ${x}_{1} < {x}_{2}$ .\n\n$$\na{x}^{2} + {bx} + c = a\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) .\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  > 0 \\Leftrightarrow  x < {x}_{1}\\text{或}x > {x}_{2}\\text{;}\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  < 0 \\Leftrightarrow  {x}_{1} < x < {x}_{2};\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  \\geq  0 \\Leftrightarrow  x \\leq  {x}_{1}\\text{或}x \\geq  {x}_{2}\\text{;}\n$$\n\n$$\na\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  \\leq  0 \\Leftrightarrow  {x}_{1} \\leq  x \\leq  {x}_{2}.\n$$\n\n情形(2): $\\Delta  = 0$ 时, ${x}_{1} = {x}_{2}$ .\n\n$$\n\\begin{gather} a\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right)  = a{\\left( x - {x}_{1}\\right) }^{2}. \\\\ a{\\left( x - {x}_{1}\\right) }^{2} > 0 \\Leftrightarrow  x \\neq  {x}_{1}; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} \\geq  0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} < 0 \\Leftrightarrow  x \\in  \\varnothing ; \\\\ a{\\left( x - {x}_{1}\\right) }^{2} \\leq  0 \\Leftrightarrow  x = {x}_{1}. \\end{gather}\n$$\n\n情形 $\\left( 3\\right)  : \\Delta  < 0$ 时,无实根.\n\n$$\n\\begin{gather} a{x}^{2} + {bx} + c = a{\\left( x + m\\right) }^{2} + n\\left( {n > 0}\\right) . \\\\ a{\\left( x + m\\right) }^{2} + n > 0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x + m\\right) }^{2} + n \\geq  0 \\Leftrightarrow  x \\in  \\mathbf{R}; \\\\ a{\\left( x + m\\right) }^{2} + n < 0 \\Leftrightarrow  x \\in  \\varnothing ; \\\\ a{\\left( x + m\\right) }^{2} + n \\leq  0 \\Leftrightarrow  x \\in  \\varnothing . \\end{gather}\n$$\n\n### 3. 分式不等式的求解\n\n分式不等式的求解有两种基本思路, 一是转化为不等式组求解, 二是转化为整式不等式求解, 在本节的导入部分对这两种思路都做了说明. 分式不等式求解的基本类型是分子和分母都是一次式的情形, 其求解可以看做是一元二次不等式求解的应用, 关键是根据不等式的具体形式正确转化为一元二次不等式或不等式组.\n\n$$\n\\frac{f\\left( x\\right) }{g\\left( x\\right) } > 0 \\Leftrightarrow  f\\left( x\\right) g\\left( x\\right)  > 0;\n$$\n\n$$\n\\begin{aligned}  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } < 0 \\Leftrightarrow  f\\left( x\\right) g\\left( x\\right)  < 0; \\\\  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } \\geq  0 \\Leftrightarrow  \\left\\{  \\begin{array}{l} f\\left( x\\right) g\\left( x\\right)  \\geq  0, \\\\  g\\left( x\\right)  \\neq  0; \\end{array}\\right. \\\\  & \\frac{f\\left( x\\right) }{g\\left( x\\right) } \\leq  0 \\Leftrightarrow  \\left\\{  \\begin{array}{l} f\\left( x\\right) g\\left( x\\right)  \\leq  0, \\\\  g\\left( x\\right)  \\neq  0. \\end{array}\\right. \\end{aligned}\n$$\n\n其中, $f\\left( x\\right) \\text{、}g\\left( x\\right)$ 为关于 $x$ 的一元多项式.\n\n4. 含绝对值不等式的求解\n\n求解含绝对值的不等式的基本方法是根据绝对值的定义、几何意义和不等式的性质, 去掉式中的绝对值符号, 化为不含绝对值的不等式求解.\n\n含绝对值的不等式的求解的两种最基本的情形, 即\n\n$$\n\\left| x\\right|  < a \\Leftrightarrow   - a < x < a\\left( {a > 0}\\right)\n$$\n\n及\n\n$$\n\\left| x\\right|  \\geq  a \\Leftrightarrow  x \\geq  a\\text{ 或 }x \\leq   - a\\left( {a > 0}\\right) .\n$$\n\n实际上这两种基本情形可以推广为\n\n$$\n\\left| {f\\left( x\\right) }\\right|  < g\\left( x\\right)  \\Leftrightarrow   - g\\left( x\\right)  < f\\left( x\\right)  < g\\left( x\\right) ; \\tag{1}\n$$\n\n$$\n\\left| {f\\left( x\\right) }\\right|  \\geq  g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  \\geq  g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  \\leq   - g\\left( x\\right) . \\tag{2}\n$$\n\n其中, $f\\left( x\\right) \\text{、}g\\left( x\\right)$ 为关于 $x$ 的一元多项式.\n\n类似可得\n\n$$\n\\left| {f\\left( x\\right) }\\right|  \\leq  g\\left( x\\right)  \\Leftrightarrow   - g\\left( x\\right)  \\leq  f\\left( x\\right)  \\leq  g\\left( x\\right) ; \\tag{3}\n$$\n\n$$\n\\left| {f\\left( x\\right) }\\right|  > g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  > g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  <  - g\\left( x\\right) . \\tag{4}\n$$\n\n下面证明 (1)(2). (3)(4)的证明是类似的.\n\n设集合 $A = \\{ x\\left| \\right| f\\left( x\\right)  \\mid   < g\\left( x\\right) , x \\in  \\mathbf{R}\\} , B = \\{ x \\mid   - g\\left( x\\right)  < f\\left( x\\right)  < g\\left( x\\right)$ , $x \\in  \\mathbf{R}\\}$ . 为证明 (1),要证明 $A = B$ . 因为\n\n$$\n{x}_{0} \\in  A \\Rightarrow  \\left| {f\\left( {x}_{0}\\right) }\\right|  < g\\left( {x}_{0}\\right)  \\Rightarrow   - g\\left( {x}_{0}\\right)  < f\\left( {x}_{0}\\right)  < g\\left( {x}_{0}\\right)  \\Rightarrow  {x}_{0} \\in  B;\n$$\n\n反之\n\n$$\n{x}_{0} \\in  B \\Rightarrow   - g\\left( {x}_{0}\\right)  < f\\left( {x}_{0}\\right)  < g\\left( {x}_{0}\\right)  \\Rightarrow  \\left| {f\\left( {x}_{0}\\right) }\\right|  < g\\left( {x}_{0}\\right)  \\Rightarrow  {x}_{0} \\in  A.\n$$\n\n从而 $A = B$ .\n\n由于 $A = B$ ,从而 $\\bar{A} = \\bar{B}$ ,于是\n\n$$\n\\{ x\\left| \\right| f\\left( x\\right)  \\mid   \\geq  g\\left( x\\right) , x \\in  \\mathbf{R}\\}  = \\{ x \\mid  f\\left( x\\right)  \\geq  g\\left( x\\right) \\text{ 或 }f\\left( x\\right)  \\leq   - g\\left( x\\right) , x \\in  \\mathbf{R}\\} ,\n$$\n\n于是, $\\left| {f\\left( x\\right) }\\right|  \\geq  g\\left( x\\right)  \\Leftrightarrow  f\\left( x\\right)  \\geq  g\\left( x\\right)$ 或 $f\\left( x\\right)  \\leq   - g\\left( x\\right)$ ,从而(2)成立.\n\n对于较复杂的含绝对值的不等式, 可以用换元的手段进行不等式的等价化简及变形, 将其转化为基本的情形, 再用基本方法求解.\n\n以下为本章 2.2 节全部例题的解析.\n\n一元二次不等式求解的程序是:(1)二次项系数化为正； (2)求出两根； (3)由不等式符号写出解集. 应注意所处理的都是一元二次不等式中二次项系数为正数的情形, 在二次项系数为负数的情形需要先转化为正数情形, 再进行求解.\n\n与初中代数相比, 分式不等式的求解对学生的运算能力要求有较大提高, 应加强必要的训练, 以期切实熟练掌握, 更好落实数学运算方面的核心素养.\n\n初学时, 不建议用下面的方法处理例 16:\n\n$$\n\\left| {{2x} - 1}\\right|  > x \\Leftrightarrow  {2x} - 1 > x\\text{或}{2x} - 1 <  - x\n$$\n\n$$\n\\Leftrightarrow  x > 1\\text{或}x < \\frac{1}{3}\n$$\n\n$$\n\\Leftrightarrow  x \\in  \\left( {-\\infty ,\\frac{1}{3}}\\right)  \\cup  \\left( {1, + \\infty }\\right) \\text{.}\n$$\n\n理由是不等式右端不是常数,不同于 $\\left| {{2x} - 1}\\right|  > a$ ,学生理解起来可能有较大困难.\n\n### 注意事项\n\n高中数学不等式求解的重点是一元二次不等式, 它是求解其他复杂不等式的基础, 应熟练掌握. 在二次不等式求解问题中, 一些较复杂的问题, 如已知解集求系数所满足的条件等逆向问题, 需借助二次函数来解决, 建议放入第五章函数的应用部分处理. 现阶段教学的重点是掌握数字系数不等式的求解.\n\n$\\left| x\\right|  < a \\Leftrightarrow   - a < x < a\\left( {a > 0}\\right)$ 及 $\\left| x\\right|  \\geq  a \\Leftrightarrow  x \\geq  a$ 或 $x \\leq   - a\\left( {a > 0}\\right)$ 是含绝对值的不等式求解的基本模型, 应熟练掌握.\n\n在分类讨论求解含绝对值的不等式时, 应注意逻辑关系, 先分类再做交, 最后取并集. 在每一分类部分, 求得的不等式要和分类所得的前提做交集, 此时用不等式表示解集比用区间一般更为简洁. 然后对各类取并集, 最后将求得的解集用区间形式表示.\n\n求解分式不等式 $\\frac{f\\left( x\\right) }{g\\left( x\\right) } > h\\left( x\\right)$ 有两种变形的策略: (1) 转化为不等式组求解: $\\left\\{  {\\begin{array}{l} f\\left( x\\right)  > g\\left( x\\right) h\\left( x\\right) , \\\\  g\\left( x\\right)  > 0 \\end{array}\\text{ 或 }\\left\\{  {\\begin{array}{l} f\\left( x\\right)  < g\\left( x\\right) h\\left( x\\right) , \\\\  g\\left( x\\right)  < 0; \\end{array}\\text{ (2) 转化为整式不等式求解: }\\frac{f\\left( x\\right) }{g\\left( x\\right) } > }\\right. }\\right. \\; h\\left( x\\right)  \\Leftrightarrow  \\frac{f\\left( x\\right)  - g\\left( x\\right) h\\left( x\\right) }{g\\left( x\\right) } > 0 \\Leftrightarrow  g\\left( x\\right) \\left( {f\\left( x\\right)  - g\\left( x\\right) h\\left( x\\right) }\\right)  > 0$ . 应根据运算量的大小选择合适的策略.\n\n不等式等价变形的基本方法有: 移项; 不等式两端同乘正数; 不等式两端同乘或同除以恒正的代数式. 在同乘负数时要改变不等号的方向.\n\n本章从不等式性质的角度学习不等式的求解方法, 在第五章中还将学习从函数角度求解不等式, 教学中应注意学习的阶段性和层次性.\n\n### 教学建议\n\n复习一元一次不等式及一元一次不等式组求解, 正确求出不等式组的解集.\n\n从熟悉的情景中引入一元二次不等式, 明确一元二次不等式的概念.\n\n从特殊情形下的一元二次不等式的求解出发, 归纳、总结出一般的求解规律, 引导发现、讲清道理. 现阶段不宜用二次函数的图像来说明一元二次不等式的求解规律, 该方法将在第五章函数的应用部分讨论.\n\n运用不等式的性质, 将一元二次不等式转化为一元一次不等式组求解, 是教材中处理一元二次不等式的基本思想. 一元二次不等式的求解过程体现了从特殊到一般的思考过程, 教材从特例出发提炼共性、总结归纳一般规律, 并以这种规律为指导求解具体的不等式. 这种由特殊到一般再到特殊的过程, 体现了数学中的归纳与演绎过程, 体现了数学的研究规律, 教学中应加以启发、引导, 落实有关数学素养的培养.\n\n一元二次不等式求解的规律及结论反映在教材表 2-1 及表 2-2 中. 求解程序是: (1)二次项系数化正；(2)求出对应方程的实根；(3)结合根的情况和不等式的符号写出解集.\n\n一元二次不等式是分式不等式求解的基础,分式不等式 $\\frac{{ax} + b}{{cx} + d} > 0(a\\text{、}b\\text{、}c\\text{、}d \\in$ R) 等的求解可以视为一元二次不等式的应用. 将分式不等式 $\\frac{{ax} + b}{{cx} + d} > 0(a\\text{、}b\\text{、}c\\text{、}d \\in$ R) 等价变形,化为二次不等式 $\\left( {{ax} + b}\\right) \\left( {{cx} + d}\\right)  > 0$ ,要比化为不等式组 $\\left\\{  \\begin{array}{l} {ax} + b > 0, \\\\  {cx} + d > 0 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} {ax} + d < 0, \\\\  {cx} + d < 0 \\end{array}\\right.$ 求解简单. 教学中应强调分式不等式等价变形的基本思想, 注意与分式方程求解的比较. 需要特别指出, 由于方程的根的个数一般是有限的, 可以通过检验的方法排除分式方程化为整式方程时的增根, 而分式不等式的解通常含有无限个元素, 无法一一检验, 必须采用等价变形. 学生要体会处理等式与不等式时的异同.\n\n分式不等式求解的关键是等价变形. 在不等式两端同乘或同除以一个量时要注意与等式时的区别. 在等式情形, 只要该量不等于零, 得到的式子就与原来的式子等价, 但在不等式的情形, 同乘正的量后才能保持原来的不等号方向不变, 而在乘负的量时, 必须改变原有不等号的方向. 如果不能确定所乘量的符号, 就要分别讨论. 可举例说明 $\\frac{f\\left( x\\right) }{g\\left( x\\right) } > h\\left( x\\right)$ 化成 $f\\left( x\\right)  > g\\left( x\\right) h\\left( x\\right)$ 这一错误变形的原因,以及正确的变形方法.\n\n对含绝对值不等式的求解,教材中给了两种基本模型: $\\left| x\\right|  < a \\Leftrightarrow   - a < x < \\; a\\left( {a > 0}\\right)$ 和 $\\left| x\\right|  > a \\Leftrightarrow  x > a$ 或 $x <  - a\\left( {a > 0}\\right)$ ,并以 $\\left| {x + a}\\right|  + \\left| {x + b}\\right|  < c$ 型不等式的求解为例, 介绍了根据零点和绝对值的定义, 分类讨论脱去绝对值符号进行求解的基本思想. 教学中应注意分类的标准、逻辑关系以及表达方法, 建议在每一子类中用不等式表示解, 最后综合得出用区间形式表示的解集.",
     "provenance": [
       {
         "source": "teacher",
@@ -100,8 +100,31 @@
         "end": 562
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 复习和巩固一元一次型不等式求解的基本方法, 并正确表示其解集. 这是求解不等式单元的过渡和准备, 旨在温故知新、推陈出新.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -131,8 +154,31 @@
         "end": 582
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 的目的是复习用交集求一次不等式组解集的基本方法, 巩固交集的概念, 并为后续不等式求解作准备.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -202,8 +248,32 @@
         "end": 612
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3、例 4 由特殊例子出发,提炼出在判别式 $\\Delta  > 0$ 时,不等号为大于或小于两种基本情形下的求解方法, 并进一步归纳出表 2-1 所示的一般性结果.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          3,
+          4
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -233,8 +303,32 @@
         "end": 652
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3、例 4 由特殊例子出发,提炼出在判别式 $\\Delta  > 0$ 时,不等号为大于或小于两种基本情形下的求解方法, 并进一步归纳出表 2-1 所示的一般性结果.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          3,
+          4
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -264,8 +358,31 @@
         "end": 662
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 的目的是介绍在二次项系数为负时的等价变形方法. 此时, 在不等式两端同乘 -1 , 将二次项系数的符号转化为正, 同时改变不等号的方向, 从而转化为基本类型, 并按表 2-1 所示进行求解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          5
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -403,8 +520,46 @@
         "end": 716
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 6 中第 (1)(2) 小题考虑的是 $\\Delta  = 0$ ,且不等号为大于 (>) 或小于等于值类) 的情形.\n\n### 教参原文提示\n\n例 6 中第 (3)(4)小题考虑的是 $\\Delta  < 0$ ,且不等号为大于等于(≥)或小于等于(≤) 的情形.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -517,8 +672,31 @@
         "end": 746
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7 是一元二次不等式组求解. 教学中应重点引导学生在数轴上正确找出两个不等式解集的公共部分, 正确地表示其交集.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          7
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -548,8 +726,32 @@
         "end": 764
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 8、例 9 是不等式求解的逆向问题, 即在已知解集的情形下, 求系数所满足的关系或者系数值. 这是韦达定理及一元二次不等式求解的综合运用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          8,
+          9
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -579,8 +781,32 @@
         "end": 770
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 8、例 9 是不等式求解的逆向问题, 即在已知解集的情形下, 求系数所满足的关系或者系数值. 这是韦达定理及一元二次不等式求解的综合运用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          8,
+          9
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -748,8 +974,31 @@
         "end": 802
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 10 是分式不等式求解的最基本类型. 将其正确转化为二次不等式就能求解, 旨在突出求解的原理.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          10
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -779,8 +1028,47 @@
         "end": 822
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 11 旨在强调不等式的等价变形方法: 先移项将其一端化为零, 再化为不等式组求解.\n\n### 教参原文提示\n\n例 11、例 12 是强调不等式求解中三种基本的等价变形方法: (1) 移项后所得不等式与原不等式等价; (2)不等式两端同乘正数所得不等式与原不等式等价; 同乘负数并改变不等号方向所得不等式与原不等式等价; (3) 不等式两端同乘或同除以恒正的多项式所得不等式与原不等式等价.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          11
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          11,
+          12
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -810,8 +1098,47 @@
         "end": 830
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 12 说明对于分式的分子或分母中恒正的二次式, 可以通过直接约分或去分母化简不等式. 本例分母二项式是恒正的, 可直接去分母, 化为整式不等式求解.\n\n### 教参原文提示\n\n例 11、例 12 是强调不等式求解中三种基本的等价变形方法: (1) 移项后所得不等式与原不等式等价; (2)不等式两端同乘正数所得不等式与原不等式等价; 同乘负数并改变不等号方向所得不等式与原不等式等价; (3) 不等式两端同乘或同除以恒正的多项式所得不等式与原不等式等价.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          12
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          11,
+          12
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -841,8 +1168,31 @@
         "end": 856
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 13 是应用题, 重点是根据实际问题的意义建立相应的不等式组求解, 是分式不等式的具体应用. 教学中应注意实际问题中的字母含义对其取值范围的限定, 以及变量的单位和求解精度要求.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          13
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -932,8 +1282,32 @@
         "end": 888
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 14、例 15 是含绝对值的不等式求解的两种最基本情形的简单实例, 旨在说明所用的方法.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -963,8 +1337,32 @@
         "end": 902
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 14、例 15 是含绝对值的不等式求解的两种最基本情形的简单实例, 旨在说明所用的方法.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -994,8 +1392,32 @@
         "end": 916
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 16、例 17 旨在介绍去掉绝对值符号的步骤和方法. 这种分区域讨论不等式的求解方法, 虽然初中有所涉及, 但现在的要求更高, 应先分段取交再各段取并, 从而求出解集. 教学中应注意分段的标准, 各段解的得出方法与表达形式, 以及以解集的形式表述原不等式的解, 简化书写过程.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          16,
+          17
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -1025,8 +1447,32 @@
         "end": 932
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 16、例 17 旨在介绍去掉绝对值符号的步骤和方法. 这种分区域讨论不等式的求解方法, 虽然初中有所涉及, 但现在的要求更高, 应先分段取交再各段取并, 从而求出解集. 教学中应注意分段的标准, 各段解的得出方法与表达形式, 以及以解集的形式表述原不等式的解, 简化书写过程.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 451
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx1-2-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 232,
+            "end": 451
+          }
+        ],
+        "examples_referenced": [
+          16,
+          17
+        ],
+        "section": "2.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

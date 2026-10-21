@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 7.2 随机变量的分布与特征\n\n### 教学重点\n\n(1)通过具体实例,了解随机变量的含义；\n\n(2)理解随机变量分布；\n\n(3)理解期望与方差的概念,并会进行计算；\n\n(4)感悟随机变量的分布及其数字特征的意义.\n\n核心概念: 随机变量的分布、期望、方差.\n\n核心素养:数学运算、数据分析.\n\n### 内容分析\n\n本节旨在帮助学生了解随机变量的概念及其分布, 理解随机变量的期望与方差, 感悟随机变量的分布及其数字特征的意义, 知道可以通过随机变量更好地刻画随机现象.\n\n(1)随机变量. 如果在一次试验中,试验可能出现的结果可以用一个变量 $X$ 来表示,并且 $X$ 是随着试验的结果的不同而变化的,那么我们把这样的变量 $X$ 叫做一个随机变量. 随机变量常用大写字母 $X, Y,\\cdots$ 表示. 这是随机变量的一个描述性定义. 其正式定义为: 以样本空间作为定义域的一个函数 $X$ 称为一个随机变量,即对样本空间 $\\Omega$ 中任意给定的元素 $\\omega$ ,都有唯一的实数 $X\\left( \\omega \\right)$ 与之对应. 注意,教师应该清楚随机变量是满足某种条件的一个函数.\n\n(2)随机变量的分布. 随机变量所有可能的取值以及相应的概率,称为随机变量的分布.\n\n将随机变量 $X$ 所有可能的取值 ${x}_{i}$ 与其对应的概率 ${p}_{i}\\left( {i = 1,2,\\cdots , n}\\right)$ 列表如下:\n\n<table><tr><td>$X$</td><td>${x}_{1}$</td><td>${x}_{2}$</td><td>...</td><td>${x}_{i}$</td><td>...</td><td>${x}_{n}$</td></tr><tr><td>$P$</td><td>${p}_{1}$</td><td>${p}_{2}$</td><td>...</td><td>${p}_{i}$</td><td>...</td><td>${p}_{n}$</td></tr></table>\n\n称上表为随机变量 $X$ 的概率分布律,简称分布,也称分布列. 还可以表示为 $\\left( \\begin{array}{llllll} {x}_{1} & {x}_{2} & \\cdots & {x}_{i} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{i} & \\cdots & {p}_{n} \\end{array}\\right)$ ,其中 ${p}_{1} + {p}_{2} + \\cdots  + {p}_{i} + \\cdots  + {p}_{n} = 1$ . 随机变量的分布表达了取值的可能性大小,也显示了随机变量的(全部)随机性.\n\n(3)随机变量的数学期望. 设一个随机变量 $X$ 所有可能的取值是 ${x}_{1},{x}_{2},\\cdots$ , ${x}_{n}$ ,这些值相应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则 $E\\left\\lbrack  X\\right\\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \\cdots  + {x}_{n}{p}_{n}$ 叫做这个随机变量的数学期望, 简称期望, 也称均值. 因为期望实际上是由某个分布所确定的, 所以也称为该分布的期望. 数学期望是一个加权平均, 其中的权是随机变量取值对应的概率. 随机变量的期望是一个确定的数, 刻画了这个随机变量的平均取值水平.\n\n期望的线性性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $E\\left\\lbrack  {aX}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 是两个随机变量,那么 $E\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差. 随机变量 $X$ 的方差 $D\\left\\lbrack  X\\right\\rbrack$ 定义为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack$ , 可变形为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}$ . 方差衡量此随机变量对其期望的偏离度或分散程度,即其随机程度. $D\\left\\lbrack  X\\right\\rbrack$ 的算术平方根 $\\sqrt{D\\left\\lbrack  X\\right\\rbrack  }$ 叫做随机变量 $X$ 的标准差,它也是一个衡量随机变量波动大小的量.\n\n(4)随机变量的方差. 设一个随机变量 $X$ 所有可能取值是 ${x}_{1},{x}_{2},\\cdots ,{x}_{n}$ ,其对应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = {\\left( {x}_{1} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{1} + {\\left( {x}_{2} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{2} + \\cdots  + {\\left( {x}_{n} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{n}\n$$\n\n称为这个随机变量 $X$ 的方差. 随机变量的方差反映了随机变量的取值相对于期望的平均波动的大小(离散程度).\n\n方差的性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {aX}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 分别是两个独立的随机变量,那么 $D\\left\\lbrack  {X + Y}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack$ .\n\n例 1 旨在帮助学生理解分布的概念, 练习 7.2(1)、习题 7.2A 组第 1 题是对此概念的巩固.\n\n例 2 说明对于同一个随机试验, 研究的随机变量不同, 其分布也不同.\n\n例 3 要求自主构造一个随机变量, 表现出问题的开放性, 是例 2 的延伸. 本例还可以构造与教科书上不同的随机变量,例如,用 $Y$ 表示年降水量级别, $Y = 1\\text{、}2\\text{、}3$ 分别表示年降水量为 0~200、200~400 和 400 以上,求其分布. 教学中,应注意充分发挥学生的主动性.\n\n\n例 4 旨在帮助学生理解期望的概念. 习题 7.2A 组第 2、3 题是对此概念的巩固.\n\n例 5 有一定的难度. 首先,要确定随机试验的样本空间的元素个数及随机变量 $X$ 取 $k$ 时的事件含有的基本事件数,前者应用乘法原理,后者应用组合数. 其次,在计算 $X$ 的期望时要应用二项式定理,技巧性较高,要通过分析算式的结构找到突破点. 练习 7.2(2)旨在帮助学生理解期望的概念,并会进行计算.\n\n例 6 是例 4 的延续, 旨在帮助学生理解方差的概念.\n\n例 7 是例 4 的延伸, 旨在应用方差的性质. 习题 7.2A 组第 4 题是对方差计算内容的巩固.\n\n### 注意事项\n\n随机变量 $X$ 可取不同的值,而期望 $E\\left\\lbrack  X\\right\\rbrack$ 是一个不变的值,由 $X$ 的分布唯一确定,所以也称为 $X$ 的概率分布的数学期望,它反映了 $X$ 取值的平均水平.\n\n期望表示随机变量在随机试验中取值的平均值, 它是概率意义下的平均值, 不是相应数值的算术平均数. 期望的线性性质②可以推广到任意有限个随机变量的情况, 即成立 $E\\left\\lbrack  {{X}_{1} + {X}_{2} + \\cdots  + {X}_{n}}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack   + \\cdots  + E\\left\\lbrack  {X}_{n}\\right\\rbrack$ .\n\n随机变量的期望还有以下性质:\n\n① 若 $c$ 为常数,则 $E\\left\\lbrack  c\\right\\rbrack   = c$ .\n\n② 如果 $X\\text{、}Y$ 是两个相互独立的随机变量,那么 $E\\left\\lbrack  {XY}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   \\cdot  E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差还有以下性质:\n\n① 若 $c$ 为常数,则 $D\\left\\lbrack  c\\right\\rbrack   = 0$ .\n\n② 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {X + a}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack$ .\n\n对于连续性随机变量 $\\xi$ ,其密度函数为 $f\\left( x\\right)$ ,若 $E\\left\\lbrack  {\\xi }^{2}\\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{x}^{2}f\\left( x\\right) \\mathrm{d}x$ 存在, 则 $D\\left\\lbrack  \\xi \\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{\\left\\lbrack  x - E\\left( \\xi \\right) \\right\\rbrack  }^{2}f\\left( x\\right) \\mathrm{d}x$ 称为 $\\xi$ 的方差. 连续型随机变量的数字特征的计算不作教学要求, 此处给出仅供教师参考.\n\n### 教学建议\n\n尽管随机变量的名字中用了“变量”这两个字, 但实际上它是一个函数. 随机变量的取值在随机现象发生前是随机的.\n\n下面的性质可以在解决问题时使用: 若 $X$ 为随机变量, $a\\text{、}b$ 为实数, 则 $E\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack   + b, D\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .",
+    "markdown": "#### 7.2 随机变量的分布与特征\n\n### 教学重点\n\n(1)通过具体实例,了解随机变量的含义；\n\n(2)理解随机变量分布；\n\n(3)理解期望与方差的概念,并会进行计算；\n\n(4)感悟随机变量的分布及其数字特征的意义.\n\n核心概念: 随机变量的分布、期望、方差.\n\n核心素养:数学运算、数据分析.\n\n### 内容分析\n\n本节旨在帮助学生了解随机变量的概念及其分布, 理解随机变量的期望与方差, 感悟随机变量的分布及其数字特征的意义, 知道可以通过随机变量更好地刻画随机现象.\n\n(1)随机变量. 如果在一次试验中,试验可能出现的结果可以用一个变量 $X$ 来表示,并且 $X$ 是随着试验的结果的不同而变化的,那么我们把这样的变量 $X$ 叫做一个随机变量. 随机变量常用大写字母 $X, Y,\\cdots$ 表示. 这是随机变量的一个描述性定义. 其正式定义为: 以样本空间作为定义域的一个函数 $X$ 称为一个随机变量,即对样本空间 $\\Omega$ 中任意给定的元素 $\\omega$ ,都有唯一的实数 $X\\left( \\omega \\right)$ 与之对应. 注意,教师应该清楚随机变量是满足某种条件的一个函数.\n\n(2)随机变量的分布. 随机变量所有可能的取值以及相应的概率,称为随机变量的分布.\n\n将随机变量 $X$ 所有可能的取值 ${x}_{i}$ 与其对应的概率 ${p}_{i}\\left( {i = 1,2,\\cdots , n}\\right)$ 列表如下:\n\n<table><tr><td>$X$</td><td>${x}_{1}$</td><td>${x}_{2}$</td><td>...</td><td>${x}_{i}$</td><td>...</td><td>${x}_{n}$</td></tr><tr><td>$P$</td><td>${p}_{1}$</td><td>${p}_{2}$</td><td>...</td><td>${p}_{i}$</td><td>...</td><td>${p}_{n}$</td></tr></table>\n\n称上表为随机变量 $X$ 的概率分布律,简称分布,也称分布列. 还可以表示为 $\\left( \\begin{array}{llllll} {x}_{1} & {x}_{2} & \\cdots & {x}_{i} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{i} & \\cdots & {p}_{n} \\end{array}\\right)$ ,其中 ${p}_{1} + {p}_{2} + \\cdots  + {p}_{i} + \\cdots  + {p}_{n} = 1$ . 随机变量的分布表达了取值的可能性大小,也显示了随机变量的(全部)随机性.\n\n(3)随机变量的数学期望. 设一个随机变量 $X$ 所有可能的取值是 ${x}_{1},{x}_{2},\\cdots$ , ${x}_{n}$ ,这些值相应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则 $E\\left\\lbrack  X\\right\\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \\cdots  + {x}_{n}{p}_{n}$ 叫做这个随机变量的数学期望, 简称期望, 也称均值. 因为期望实际上是由某个分布所确定的, 所以也称为该分布的期望. 数学期望是一个加权平均, 其中的权是随机变量取值对应的概率. 随机变量的期望是一个确定的数, 刻画了这个随机变量的平均取值水平.\n\n期望的线性性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $E\\left\\lbrack  {aX}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 是两个随机变量,那么 $E\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差. 随机变量 $X$ 的方差 $D\\left\\lbrack  X\\right\\rbrack$ 定义为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack$ , 可变形为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}$ . 方差衡量此随机变量对其期望的偏离度或分散程度,即其随机程度. $D\\left\\lbrack  X\\right\\rbrack$ 的算术平方根 $\\sqrt{D\\left\\lbrack  X\\right\\rbrack  }$ 叫做随机变量 $X$ 的标准差,它也是一个衡量随机变量波动大小的量.\n\n(4)随机变量的方差. 设一个随机变量 $X$ 所有可能取值是 ${x}_{1},{x}_{2},\\cdots ,{x}_{n}$ ,其对应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = {\\left( {x}_{1} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{1} + {\\left( {x}_{2} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{2} + \\cdots  + {\\left( {x}_{n} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{n}\n$$\n\n称为这个随机变量 $X$ 的方差. 随机变量的方差反映了随机变量的取值相对于期望的平均波动的大小(离散程度).\n\n方差的性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {aX}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 分别是两个独立的随机变量,那么 $D\\left\\lbrack  {X + Y}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack$ .\n\n### 注意事项\n\n随机变量 $X$ 可取不同的值,而期望 $E\\left\\lbrack  X\\right\\rbrack$ 是一个不变的值,由 $X$ 的分布唯一确定,所以也称为 $X$ 的概率分布的数学期望,它反映了 $X$ 取值的平均水平.\n\n期望表示随机变量在随机试验中取值的平均值, 它是概率意义下的平均值, 不是相应数值的算术平均数. 期望的线性性质②可以推广到任意有限个随机变量的情况, 即成立 $E\\left\\lbrack  {{X}_{1} + {X}_{2} + \\cdots  + {X}_{n}}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack   + \\cdots  + E\\left\\lbrack  {X}_{n}\\right\\rbrack$ .\n\n随机变量的期望还有以下性质:\n\n① 若 $c$ 为常数,则 $E\\left\\lbrack  c\\right\\rbrack   = c$ .\n\n② 如果 $X\\text{、}Y$ 是两个相互独立的随机变量,那么 $E\\left\\lbrack  {XY}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   \\cdot  E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差还有以下性质:\n\n① 若 $c$ 为常数,则 $D\\left\\lbrack  c\\right\\rbrack   = 0$ .\n\n② 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {X + a}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack$ .\n\n对于连续性随机变量 $\\xi$ ,其密度函数为 $f\\left( x\\right)$ ,若 $E\\left\\lbrack  {\\xi }^{2}\\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{x}^{2}f\\left( x\\right) \\mathrm{d}x$ 存在, 则 $D\\left\\lbrack  \\xi \\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{\\left\\lbrack  x - E\\left( \\xi \\right) \\right\\rbrack  }^{2}f\\left( x\\right) \\mathrm{d}x$ 称为 $\\xi$ 的方差. 连续型随机变量的数字特征的计算不作教学要求, 此处给出仅供教师参考.\n\n### 教学建议\n\n尽管随机变量的名字中用了“变量”这两个字, 但实际上它是一个函数. 随机变量的取值在随机现象发生前是随机的.\n\n下面的性质可以在解决问题时使用: 若 $X$ 为随机变量, $a\\text{、}b$ 为实数, 则 $E\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack   + b, D\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .",
     "provenance": [
       {
         "source": "teacher",
@@ -108,8 +108,31 @@
         "end": 404
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在帮助学生理解分布的概念, 练习 7.2(1)、习题 7.2A 组第 1 题是对此概念的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -139,8 +162,31 @@
         "end": 450
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 说明对于同一个随机试验, 研究的随机变量不同, 其分布也不同.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -170,8 +216,31 @@
         "end": 468
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3 要求自主构造一个随机变量, 表现出问题的开放性, 是例 2 的延伸. 本例还可以构造与教科书上不同的随机变量,例如,用 $Y$ 表示年降水量级别, $Y = 1\\text{、}2\\text{、}3$ 分别表示年降水量为 0~200、200~400 和 400 以上,求其分布. 教学中,应注意充分发挥学生的主动性.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -334,8 +403,31 @@
         "end": 540
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 旨在帮助学生理解期望的概念. 习题 7.2A 组第 2、3 题是对此概念的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -365,8 +457,31 @@
         "end": 602
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 有一定的难度. 首先,要确定随机试验的样本空间的元素个数及随机变量 $X$ 取 $k$ 时的事件含有的基本事件数,前者应用乘法原理,后者应用组合数. 其次,在计算 $X$ 的期望时要应用二项式定理,技巧性较高,要通过分析算式的结构找到突破点. 练习 7.2(2)旨在帮助学生理解期望的概念,并会进行计算.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          5
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -513,8 +628,31 @@
         "end": 712
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 6 是例 4 的延续, 旨在帮助学生理解方差的概念.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "prose",
@@ -589,8 +727,31 @@
         "end": 776
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7 是例 4 的延伸, 旨在应用方差的性质. 习题 7.2A 组第 4 题是对方差计算内容的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ],
+        "examples_referenced": [
+          7
+        ],
+        "section": "7.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

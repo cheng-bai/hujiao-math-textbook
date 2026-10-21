@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-7-1",
   "book_id": "x2",
   "section": "7.1",
   "title": "条件概率与相关公式",
   "section_json": "batch/sections/x2/x2-7-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-7-1",
-  "fingerprint": "7a24f196ee5a3c79dcd82cb7a24cb7096280b308a9a1362915dac3bcd0cd5f33",
+  "fingerprint": "0624e24f6b46cfe5d967893ee22a179387606a9b532206dc397e61bac728c3c8",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -29,11 +29,114 @@
   "student_images": [
     "images/book-fd4f1ccfe628131eab9e.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 6,
+    "source_paragraphs": 6,
+    "matched_source_groups": 6,
+    "moved_source_paragraphs": 6,
+    "attached_paragraphs": 7,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-7-1-ex-4",
+        "example_number": 4,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-1",
+        "example_number": 1,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-2",
+        "example_number": 2,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-3",
+        "example_number": 3,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-4",
+        "example_number": 4,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-5",
+        "example_number": 5,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-1-ex-6",
+        "example_number": 6,
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 6,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 7,
+    "current_section": "7.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "fc0db1a9255e88b61126402610d9cc86bce0c64d49c2c25f7fcf4202d2212abd",
-    "student.html": "78b5731263eb501085cb8c09dcf26dabb301edfd3d3f624aaba757f4e1d595c4",
-    "student.zip": "9b73e004acabd23795a8c4feb04816c36a9162acc3e15e38711ac3c73860578a",
-    "content.json": "dda5ebc1eee6ffdd79382d36dd709efaae47d4296b88fae5de74734bb7e07b67"
+    "teacher.html": "5679a352b6778242e2082fe97c58633d7dd623f901a40114c51901a0ea4b43db",
+    "student.html": "3a2479614c3467e08c2fea3092ff48eb8515c679165860a2468efee0f8964c07",
+    "student.zip": "456d935c60dcf8fb84dedca3103c47a4b91c6b39229420d1f39ed30585a5d8c7",
+    "content.json": "80e6cb7ea0a841d39c10d733269e99f48f5bed092a4518b6f4fc58d84186c86c",
+    "teacher-guidance.json": "327b2a404f5efa621466005796ed10282ecca7833230c35e5de90478a76de0b6"
   }
 }

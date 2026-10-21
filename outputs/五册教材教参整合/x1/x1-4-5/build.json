@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-4-5",
   "book_id": "x1",
   "section": "4.5",
   "title": "用迭代序列求 √2的近似值",
   "section_json": "batch/sections/x1/x1-4-5.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-5",
-  "fingerprint": "6056e644b15eadf654831dc0c39611936c6548e2553e3d6c85ffcc507d223b1f",
+  "fingerprint": "c5b8e0f24b0df88125863bdd2360b3ad76e0284ec8bbc34762d2535ef68254a5",
   "status": "rendered",
   "questions": 3,
   "answers": 3,
@@ -21,11 +21,29 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "4.5"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7c89cb1b2782e4cbd90ca98c6a530e43e69f604216cbe6c09c3d6018ca1b80df",
-    "student.html": "081a3e22793859c85c6ad877e4cad8d72587649e4fe45fb5ccb5a4d928d2698a",
-    "student.zip": "e34a07a16607bb74882378f88e299bfc6267052243d92ce2ef1c01df86e448a5",
-    "content.json": "6df2ff57524efbfbd70d9f3af81f259334c5de60e898cfbc693d9bb8ccd09869"
+    "teacher.html": "aa76ce7659f404ba3e4f91013f6ed2a01b04fac9d5a975c5f0caab50994de776",
+    "student.html": "0eb4106e81c7503c3e6a19efdbcdd760e459b3ca5e0bf90db0c738e599f2b37e",
+    "student.zip": "7b42fe4278041d5ccc8477ea45e5bc5ad305d5315e31549c7db12a24b63d904e",
+    "content.json": "6df2ff57524efbfbd70d9f3af81f259334c5de60e898cfbc693d9bb8ccd09869",
+    "teacher-guidance.json": "8ed0127615d206e7949ff66657dd8208e411aa6c1ddc52208f023aceeaa0ca41"
   }
 }

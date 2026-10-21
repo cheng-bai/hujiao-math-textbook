@@ -9,6 +9,7 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from test_print import unlock_access
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'outputs/五册教材教参整合'
@@ -21,6 +22,7 @@ def main():
             raise AssertionError(name)
         checks.append(name)
     def ready(page):
+        unlock_access(page)
         page.wait_for_function("document.documentElement.dataset.visualReady==='true'")
         page.wait_for_function("[...document.querySelectorAll('.visual-block .visual-frame-status')].every(el=>el.hidden)")
     exports = []

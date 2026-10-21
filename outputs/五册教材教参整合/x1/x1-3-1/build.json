@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-3-1",
   "book_id": "x1",
   "section": "3.1",
   "title": "空间向量及其运算",
   "section_json": "batch/sections/x1/x1-3-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-1",
-  "fingerprint": "9bbe35e7ee6ad35306c2cce8d77e6dff2ca06cbbb0ccd50c6bc4e8e7552b3387",
+  "fingerprint": "e9453863427ceeba49a593693433ee6bc6def8b064eb0fa3f8624031a8458049",
   "status": "rendered",
   "questions": 18,
   "answers": 18,
@@ -110,11 +110,78 @@
     "images/book-c22343343dd015d6ac1e.jpg",
     "images/book-f54d4f53539962a19fcb.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 7,
+    "matched_source_groups": 4,
+    "moved_source_paragraphs": 7,
+    "attached_paragraphs": 7,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-3-1-ex-1",
+        "example_number": 1,
+        "source_id": "x1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 131
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-1-ex-2",
+        "example_number": 2,
+        "source_id": "x1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 131
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-1-ex-3",
+        "example_number": 3,
+        "source_id": "x1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 131
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-1-ex-4",
+        "example_number": 4,
+        "source_id": "x1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 131
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 4,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 4,
+    "current_section": "3.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "a4d772c3f00cd1f2ad8307dfec77ef84b1a242cf5c9a6f7dd5673a39085f7457",
-    "student.html": "a714240abbf174c7738926b99a73227ed8879aa422435c183f703113fcdd44d7",
-    "student.zip": "a486d59c47c5583be125923c414a1356d3c883a44371db874ee927042a7c8da3",
-    "content.json": "274d2ea054ff8f0fe1394787ee642e9de409e455f5f8bada2b982b97ff3a4999"
+    "teacher.html": "34d41fb6cffcc7d321bcd70cc559274aada214a3974c25f087847d8978b78fe8",
+    "student.html": "7bd7a8c6d2badc4013bf39c33b26f65fea4cd78b41ba8ce4c164c75e682528e0",
+    "student.zip": "95d4ae8b906ec7cc57a1f7d6722ffd4930df8dfe4d6253f701f6657ff7d84a9c",
+    "content.json": "4b5a3d497cb60b50c1f6da8a5233ef04071a7851e1c505d45ad6a5426338322c",
+    "teacher-guidance.json": "64e85bfd745b392353ef35e8db0ec59302e86cff79e3e473f2b01ea17b05ab6f"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-13-6",
   "book_id": "bx3",
   "section": "13.6",
   "title": "统计活动",
   "section_json": "batch/sections/bx3/bx3-13-6.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-6",
-  "fingerprint": "c6e7e5193af6dd6a60d3c507fe239bc2c21bd7c919882e102e42c3e991579c21",
+  "fingerprint": "005d675b468692c670967c2b257c438ebb7eb635a94cfff6b64a270e7943195c",
   "status": "rendered",
   "questions": 6,
   "answers": 6,
@@ -21,11 +21,29 @@
     "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "13.6"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "896e93104e1b4cfafba92ad8f4900255aade3e1d490aaca1d66beb61a3937156",
-    "student.html": "a61bf5fe014a03f1eb155cf268a6d25ad0a07aae599fa7020655b396bcd7358f",
-    "student.zip": "19bdf223c80b8265993d9777418aada3fd1ebef8fd5f376ddf2d449f6c50f2c7",
-    "content.json": "29020397638bf156928bca6ca18039bf656c8601150ab4a6005063ec8ab759ab"
+    "teacher.html": "14e7ecd11f2cca7573fe5b43502d57d9dbeca6a0df8c3a400b11b92a8ee4cd9a",
+    "student.html": "02ec006a4a8580bffb650865291d4b0429824f9cceea2ac665333c7fa4a63564",
+    "student.zip": "9231ca9eeadcecf474a0c792fc00aafc3a8a68dd363fee664ebbabf4e21f7859",
+    "content.json": "29020397638bf156928bca6ca18039bf656c8601150ab4a6005063ec8ab759ab",
+    "teacher-guidance.json": "89611d18168e96825b1e2d82b543e5db1ecc37ef2069f565cbdab17b84fd80ed"
   }
 }

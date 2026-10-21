@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-6-1",
   "book_id": "x2",
   "section": "6.1",
   "title": "乘法原理与加法原理",
   "section_json": "batch/sections/x2/x2-6-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-1",
-  "fingerprint": "05736cbe2b5411d235e927a738bdba0e653d3dd87a53bd1d746984c4fff6d9f4",
+  "fingerprint": "2ade86fa7cbbdca18d76b2012fad0bab498a25cc106188b0f0de4e03d13c7daa",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -47,11 +47,102 @@
     "images/book-7f4f648441e607a3ba80.jpg",
     "images/book-fc386f949d6d9b328591.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 5,
+    "source_paragraphs": 5,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 6,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-6-1-ex-1",
+        "example_number": 1,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-1-ex-2",
+        "example_number": 2,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-1-ex-3",
+        "example_number": 3,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-1-ex-4",
+        "example_number": 4,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-1-ex-6",
+        "example_number": 6,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-1-ex-5",
+        "example_number": 5,
+        "source_id": "x2-6-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 64,
+            "end": 96
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 6,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 6,
+    "current_section": "6.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2b4d75e941ffe8fa6b427d68dc84fa303f6f93b28663916bc1bbcdaee2cb1482",
-    "student.html": "d2637ebffe5323560ac79c9ad95e320fe88030b1595235da09337849e5509a93",
-    "student.zip": "36bf6beda354ca0ed91df68f6dad02590bb663ce8262368b89c939742434f16e",
-    "content.json": "2aed1f1674f0586c539efaa4740c7dfcde5adcaf24e6693dbe6d79cf78301db6"
+    "teacher.html": "f965b601f6d634ad9ed7bfb1602f7450cac9a75f20838fbe34ef7d82cffc8999",
+    "student.html": "398893e11992d5e82b63b7378136c72afa7697b3c419f302b45ecf09aa33c962",
+    "student.zip": "67665c5dcc1e65d6ac91eab6312cccf8ecf3ab32c92d04f28e7ead5f4077fc57",
+    "content.json": "a465b118fdaa4b8b399334e20ffe326be8b913ea7078dd46680ee0276032c7b0",
+    "teacher-guidance.json": "ae53df1634471b2d2492b4f2e895fb54b60565cabe5bba1b80fade8fd18b26cc"
   }
 }

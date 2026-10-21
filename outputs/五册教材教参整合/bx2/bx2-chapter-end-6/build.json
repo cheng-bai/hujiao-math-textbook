@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-chapter-end-6",
   "book_id": "bx2",
   "section": "chapter-end-6",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/bx2/bx2-chapter-end-6.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-chapter-end-6",
-  "fingerprint": "ddb327923d555b014ea89c3c8abf98e217cc445d69149cfdcadc529eb3103e8f",
+  "fingerprint": "22256e3398c3d682457c37f95875ff7e96596df596225a00677dd96bba35dc79",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -45,11 +45,29 @@
     "images/book-1207fe997cf876469255.jpg",
     "images/book-9b57d9b4f377afa19179.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "71eaf8f71a3dae8338147151ba3134c0fc9cd6c69416833e6ef6b2076e271b33",
-    "student.html": "1a072dac3cf9b2d3e012d1a2cdc9fcef637fd328c707fc86dd5eb2b6c5cfcf67",
-    "student.zip": "998e271b1024d5df5624940fcdbfa6f6e15aad693d74aa98c72f478422a94d8d",
-    "content.json": "972f5e9b058a4806f710b9fb454158424063a9e4ab34b758876f22b348d5278d"
+    "teacher.html": "2107f66bd01c2ff05bd6ee06665bfbdd6f20b3a688a596cc1c7eb64f67f1c5d7",
+    "student.html": "296999df76a62d26986f8dd2ea5100d8e7292b78e863751174fe55bb4f839294",
+    "student.zip": "c5950d494a0aa230cc60de7c5aaa170ce88c87064087264950fab2c451f5c915",
+    "content.json": "972f5e9b058a4806f710b9fb454158424063a9e4ab34b758876f22b348d5278d",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

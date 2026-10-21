@@ -8,6 +8,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+from test_print import unlock_access
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs/五册教材教参整合'
 DEST=OUT/'deep-verification'
@@ -62,6 +63,7 @@ def main():
             page.close()
         page=browser.new_page(viewport={'width':1440,'height':1000});page.on('pageerror',lambda e:errors.append(str(e)))
         page.goto((OUT/'deep-index.html').as_uri())
+        unlock_access(page)
         check('gallery has seven choices',page.locator('[data-index]').count()==7)
         for i,a in enumerate([next(s for s in specs if s['id']==x) for x in ('chord-midpoint-domain','parameter-cubic-roots','line-plane-minimum-angle','counting-equal-multiplicity','bayes-base-rate','ssa-circle-ray','cube-plane-transitions')]):
             page.locator(f'[data-index="{i}"]').click()
@@ -76,6 +78,7 @@ def main():
         page.screenshot(path=str(DEST/'gallery-mobile.png'),full_page=True)
         for a in specs:
             p=a['placements'][0];sid=p['sectionId'];page.goto((OUT/sid.split('-')[0]/sid/'teacher.html').as_uri())
+            unlock_access(page)
             page.wait_for_function('document.documentElement.dataset.visualReady === "true"')
             frame=next(f for f in page.frames if f!=page.main_frame and f.evaluate('window.LAB_SPEC?.id||null')==a['id'])
             frame.wait_for_function('Boolean(window.__textbookLab)')

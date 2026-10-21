@@ -20,7 +20,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 7.3 函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像\n\n### 教学重点\n\n结合具体实例,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 以及表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的实际意义. 会用三角函数解决简单的实际问题, 体会可利用三角函数构建刻画周期变化事物的数学模型.\n\n在 $A > 0,\\omega  > 0$ 的情况下,分别研究 $y = A\\sin x\\text{、}y = \\sin {\\omega x}\\text{、}y = \\sin \\left( {x + \\varphi }\\right)$ 的图像,并发现它们与 $y = \\sin x$ 的图像之间的关系. 能借助图像理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义, 了解参数的变化对函数图像的影响.\n\n会用五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的大致图像.\n\n### 内容分析\n\n“函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像”是第一节“正弦函数的图像与性质”的深入. 它包含三部分内容: 一是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 表达式中参数 $A$ 、 $\\omega$ 、 $\\varphi$ 的意义；二是参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的变化对图像的影响; 三是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 图像的画法.\n\n从一个实际生活中大家熟悉的钟表转动问题引入函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ ,并直接给出简谐振动中物体离开平衡位置的位移 $y$ 与时间 $x$ 的函数关系 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\; \\left( {A > 0,\\omega  > 0}\\right)$ ,使学生了解研究函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像的必要性,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n例 1 借助图像,让学生体会参数 $A\\text{、}\\omega \\text{、}\\varphi$ 变化对函数图像的影响.\n\n例 2 是为了使学生掌握用前面学过的五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,并进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n例 3 的目的是让学生体会到, 可以利用三角函数构建刻画周期变化事物的数学模型,并使学生进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 在实际问题中的意义.\n\n探究与实践“潮汐的函数模拟”取自一个实际问题的数据. 若学生选择函数 $y = \\; A\\sin \\left( {{\\omega x} + \\varphi }\\right)  + B$ 进行模拟,需要学生考虑函数最大值的平均值和最小值的平均值, 计算出这两个平均值的差, 还要学会处理图像上两个最高点的水平距离, 两个最低点的水平距离等数据,由此找出参数 $A\\text{、}\\omega \\text{、}\\varphi$ 和 $B$ 的适当的值.\n\n课后阅读“声音中的三角函数”让学生进一步感受三角函数在解决具体周期变化规律问题中的作用.\n\n习题 7.3A 组的第 3 题和 B 组的第 3 题不需要学生具有相关的物理知识. 例如, 在 B 组的第 3 题中, 已直接给出了三相交流电的线电压的有效值的定义, 学生只需结合定义利用所学的数学知识就可以解决. 通过这些练习, 可以使学生体会到三角函数在现实世界中的应用.\n\n### 注意事项\n\n本节的知识重点是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像及其表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n需要掌握的内容是:\n\n(1)对于函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ (其中参数 $A > 0,\\omega  > 0)$ ,要知道: $A$ 增大时图像的振幅增大, $\\omega$ 增大时图像相邻两个零点的间距减小, $\\varphi$ 增大时图像向左平移;\n\n(2)给定参数 $A\\text{、}\\omega \\text{、}\\varphi$ ,能用五点法作出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像；\n\n(3)给出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,能从图像中确定参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的值.\n\n需要注意的是,参数 $A\\text{、}\\omega \\text{、}\\varphi$ 对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响不应超过例 1 中的定性要求, 特别是不应要求学生在不止一个参数变化时掌握函数图像的变换.\n\n### 教学建议\n\n本节内容较丰富,根据学生实际情况,教学过程中可以用 1 课时或 1.5 课时完成.\n\n例 1 的教学过程中, 建议充分利用计算器、计算机画出三角函数的直观图像, 帮助学生观察、比较并发现它们的变化规律, 再通过计算验证相应的结论. 可以分两步进行以分散难点: 第一步在三个不同的直角坐标系中分别画出 $y = 2\\sin x$ 与 $y = \\sin x$ 的图像; $y = \\sin {2x}$ 与 $y = \\sin x$ 的图像; $y = \\sin \\left( {x + \\frac{\\pi }{2}}\\right)$ 与 $y = \\sin x$ 的图像. 第二步把它们的图像放到同一个直角坐标系中,进行观察与比较. 参数 $A\\text{、}\\omega \\text{、}\\varphi$ 分别对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响仅限于本例给出的定性结果,避免编制更复杂的习题.\n\n例 2 中可以先回顾五点 (作图) 法画正弦函数的过程, 再确定函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的五个关键点,作出它的大致图像.\n\n探究与实践活动建议让学生以研究报告或小论文的形式进行小结,培养学生数学建模的素养.",
+    "markdown": "#### 7.3 函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像\n\n### 教学重点\n\n结合具体实例,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 以及表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的实际意义. 会用三角函数解决简单的实际问题, 体会可利用三角函数构建刻画周期变化事物的数学模型.\n\n在 $A > 0,\\omega  > 0$ 的情况下,分别研究 $y = A\\sin x\\text{、}y = \\sin {\\omega x}\\text{、}y = \\sin \\left( {x + \\varphi }\\right)$ 的图像,并发现它们与 $y = \\sin x$ 的图像之间的关系. 能借助图像理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义, 了解参数的变化对函数图像的影响.\n\n会用五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的大致图像.\n\n### 内容分析\n\n“函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像”是第一节“正弦函数的图像与性质”的深入. 它包含三部分内容: 一是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 表达式中参数 $A$ 、 $\\omega$ 、 $\\varphi$ 的意义；二是参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的变化对图像的影响; 三是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 图像的画法.\n\n从一个实际生活中大家熟悉的钟表转动问题引入函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ ,并直接给出简谐振动中物体离开平衡位置的位移 $y$ 与时间 $x$ 的函数关系 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\; \\left( {A > 0,\\omega  > 0}\\right)$ ,使学生了解研究函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像的必要性,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n探究与实践“潮汐的函数模拟”取自一个实际问题的数据. 若学生选择函数 $y = \\; A\\sin \\left( {{\\omega x} + \\varphi }\\right)  + B$ 进行模拟,需要学生考虑函数最大值的平均值和最小值的平均值, 计算出这两个平均值的差, 还要学会处理图像上两个最高点的水平距离, 两个最低点的水平距离等数据,由此找出参数 $A\\text{、}\\omega \\text{、}\\varphi$ 和 $B$ 的适当的值.\n\n课后阅读“声音中的三角函数”让学生进一步感受三角函数在解决具体周期变化规律问题中的作用.\n\n习题 7.3A 组的第 3 题和 B 组的第 3 题不需要学生具有相关的物理知识. 例如, 在 B 组的第 3 题中, 已直接给出了三相交流电的线电压的有效值的定义, 学生只需结合定义利用所学的数学知识就可以解决. 通过这些练习, 可以使学生体会到三角函数在现实世界中的应用.\n\n### 注意事项\n\n本节的知识重点是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像及其表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n需要掌握的内容是:\n\n(1)对于函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ (其中参数 $A > 0,\\omega  > 0)$ ,要知道: $A$ 增大时图像的振幅增大, $\\omega$ 增大时图像相邻两个零点的间距减小, $\\varphi$ 增大时图像向左平移;\n\n(2)给定参数 $A\\text{、}\\omega \\text{、}\\varphi$ ,能用五点法作出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像；\n\n(3)给出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,能从图像中确定参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的值.\n\n需要注意的是,参数 $A\\text{、}\\omega \\text{、}\\varphi$ 对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响不应超过例 1 中的定性要求, 特别是不应要求学生在不止一个参数变化时掌握函数图像的变换.\n\n### 教学建议\n\n本节内容较丰富,根据学生实际情况,教学过程中可以用 1 课时或 1.5 课时完成.\n\n探究与实践活动建议让学生以研究报告或小论文的形式进行小结,培养学生数学建模的素养.",
     "provenance": [
       {
         "source": "teacher",
@@ -152,6 +152,43 @@
         "source": "teacher",
         "start": 236,
         "end": 236
+      },
+      {
+        "source": "teacher",
+        "start": 190,
+        "end": 241
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -209,6 +246,43 @@
         "source": "teacher",
         "start": 238,
         "end": 238
+      },
+      {
+        "source": "teacher",
+        "start": 190,
+        "end": 241
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -261,6 +335,28 @@
         "source": "teacher",
         "start": 210,
         "end": 210
+      },
+      {
+        "source": "teacher",
+        "start": 190,
+        "end": 241
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },

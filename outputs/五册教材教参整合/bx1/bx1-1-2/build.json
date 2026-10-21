@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx1-1-2",
   "book_id": "bx1",
   "section": "1.2",
   "title": "常用逻辑用语",
   "section_json": "batch/sections/bx1/bx1-1-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-1-2",
-  "fingerprint": "d6b69b7cf74516a298225628dbe8ef5a098029c9958812dd610ab794daaeca67",
+  "fingerprint": "e4d8ab6d21795156333c53c1375e7e914372735fc144fa4bed42cddeef6ee52d",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -21,11 +21,126 @@
     "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/01 必修第一册 第1章 集合与逻辑.md": "5e894f38d1d271f0a2e3029d4a0fe38206bd658580f736515e804333d79b592e"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 8,
+    "source_paragraphs": 9,
+    "matched_source_groups": 8,
+    "moved_source_paragraphs": 9,
+    "attached_paragraphs": 9,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx1-1-2-ex-1",
+        "example_number": 1,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-2",
+        "example_number": 2,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-3",
+        "example_number": 3,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-4",
+        "example_number": 4,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-5",
+        "example_number": 5,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-5",
+        "example_number": 5,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-6",
+        "example_number": 6,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-1-2-ex-7",
+        "example_number": 7,
+        "source_id": "bx1-1-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 174,
+            "end": 233
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 7,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 8,
+    "current_section": "1.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "c4d9154175fd40f588f09574d88db82bbbdba8a90195bd06cbd2c9501ade6e8b",
-    "student.html": "75bbaf8c50107ce2989ab37e90df33103c304f6af4712b5e93de3fc492f2c2b9",
-    "student.zip": "a472fbfc01db06ff242c13ba7d70d948a3f1b09fe7b47f875a264163a6a1a4b9",
-    "content.json": "f79199b46740a23cae1c8652db706f4fecbedd23e5a0f888b61441028bdbd3eb"
+    "teacher.html": "76988ed4d0d66643e6ec19846ead4a07b5ed7f09fa2846494a4139669107b1af",
+    "student.html": "3c6f97312d51eb541fc5768f834714c37d29d19f109d041b45a7bf7294ce66b8",
+    "student.zip": "3952d7f6303be24af6324dbf61060c33ae69bd3d3f49717ccd66cd07967001a3",
+    "content.json": "91c3b65c53775f9d7d1603fbd617182291348dd859049c80cb4d2c674e939503",
+    "teacher-guidance.json": "ed207c5a9adbd70675e4aeb866aff1752617be2260100bf3bd78243107658cc3"
   }
 }

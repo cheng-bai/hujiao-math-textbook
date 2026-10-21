@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx1-3-1",
   "book_id": "bx1",
   "section": "3.1",
   "title": "幂与指数",
   "section_json": "batch/sections/bx1/bx1-3-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-3-1",
-  "fingerprint": "e12b73642e3fb0764ab03b72c6ab1a44d92d2394edeb35e87527a0326a0857b1",
+  "fingerprint": "0094af538ec12e3a132cdedeefbe77cec65abcdbae3ef32a7e8f8df5f064522e",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -29,11 +29,90 @@
   "student_images": [
     "images/book-a8836bbf1b491528f535.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 3,
+    "matched_source_groups": 3,
+    "moved_source_paragraphs": 3,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx1-3-1-ex-1",
+        "example_number": 1,
+        "source_id": "bx1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 145
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-3-1-ex-2",
+        "example_number": 2,
+        "source_id": "bx1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 145
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-3-1-ex-3",
+        "example_number": 3,
+        "source_id": "bx1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 145
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-3-1-ex-4",
+        "example_number": 4,
+        "source_id": "bx1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 145
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-3-1-ex-5",
+        "example_number": 5,
+        "source_id": "bx1-3-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 76,
+            "end": 145
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 5,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 5,
+    "current_section": "3.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9c4a2ba7ab70aa1fb3e964b7d01c017714f4490fe4c35dd1437a5046405d9065",
-    "student.html": "4736a1b88224dc4b3402b1baddc4d0a0d695bcebc2e019c75f9653c330604581",
-    "student.zip": "f01ab059cfc5240ea4b62f0df09f71813f5aba6b48194aede4705b6b79e63bc4",
-    "content.json": "de12673fa73026967a4816db2f06d447f0333be6206efb23cd9e1344cc4f41e5"
+    "teacher.html": "21c86b6082622ff486011844afb343cbf5bd5ee4ec7f008910b35aba14973b14",
+    "student.html": "abb2ff5dada14c23c8e41e731292662c242943b475b6b11b6d740b52832dc27b",
+    "student.zip": "d33341c2a625a7c9d9f4d689cf8d6a28cdf677e4a119ef8ed291c76ce25dee53",
+    "content.json": "e98c4e200ad90b5428e16885517bca1942e59a475c1047550012bd01c2d9d8e9",
+    "teacher-guidance.json": "ac0e14e7539f8234e0bdb3b1e523eaa315f21ec30e9828eef7d97b18a4df1b32"
   }
 }

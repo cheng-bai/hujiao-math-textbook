@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-chapter-end-4",
   "book_id": "x1",
   "section": "chapter-end-4",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/x1/x1-chapter-end-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-chapter-end-4",
-  "fingerprint": "80868294023016408e35dcf9e5c68da24f710b802ddf509dd11742168b60adfc",
+  "fingerprint": "b559aa037f348f6e9113e4af57dfd998c85d85401dbee5cef06a9b7d76a143ba",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -35,11 +35,29 @@
     "images/book-0d0c62f7da5a5967c8b8.jpg",
     "images/book-5f60495395eef6b590f6.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "670d2f4ec71b3bc20049356eca280cf1b681b971f68f68b4f8bf2a9360c9637a",
-    "student.html": "4c29cf48b5295b672ef02922341c5dc71bb0bca1920fd1bbf79491afe5f05946",
-    "student.zip": "fa5d28f6e0e78c95f0fbfe48768487d38ba76415b6adcc91269331fd0105a7d5",
-    "content.json": "2598c21eafeca554d8545478872b48a2641f5557aa7ba1a3e4b6e3b92b60c1a9"
+    "teacher.html": "c182c577cb1fed852865679786455bb3268b887536de6bc3b2a635cae2d9c12a",
+    "student.html": "0bead4bd3c2454cec3e138ee49a70b690e16e5eb89023bbb8ea491697203a125",
+    "student.zip": "b5f666b316043ba02bf45d57ec61286ed4b84847d13e39b07b708e043f044145",
+    "content.json": "2598c21eafeca554d8545478872b48a2641f5557aa7ba1a3e4b6e3b92b60c1a9",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-8-1",
   "book_id": "bx2",
   "section": "8.1",
   "title": "向量的概念和线性运算",
   "section_json": "batch/sections/bx2/bx2-8-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-1",
-  "fingerprint": "8bb3ba62dd184a2456edd73c12aeb15468b34fcb28d07647f4accc615027d29b",
+  "fingerprint": "c3305877e642fe6af7c64809de87cdd78cac9881829c39f7cfdd645b70069d43",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -158,11 +158,29 @@
     "images/book-e4c9725361877e5e6217.jpg",
     "images/book-ec36e8899fef947d272d.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "5d7cc8638d3e5886b544dcedc3df8159113719f1ffcce9488f9c9f235ce994be",
-    "student.html": "ce41668afdd19b2fa098f669271ccb567740ae85cb4e887f1f9d0bfa736bd2b1",
-    "student.zip": "dc08d4e83d2e82a2d007ecfcf0eadbb5cb484dd62607cf1d1fde02254f67748e",
-    "content.json": "74e8b973464843a07f3ce4fb9b7bf34ced84a7847736ae6d1cb31500ddbee2b4"
+    "teacher.html": "ff0ee3b4465a13c3a595cb3e6a30cf2884534f7de601a80819e72b80ec74f31e",
+    "student.html": "6daab8ada5ff2e84e03aab8fc2f297e5d0193836162b934fd2267219cfe2ab82",
+    "student.zip": "462e14b666c4b4fb8e89ea8bd6fb3a596aa858d0319839a73f873d9c73096461",
+    "content.json": "74e8b973464843a07f3ce4fb9b7bf34ced84a7847736ae6d1cb31500ddbee2b4",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-8-4",
   "book_id": "bx2",
   "section": "8.4",
   "title": "向量的应用",
   "section_json": "batch/sections/bx2/bx2-8-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-4",
-  "fingerprint": "e73d4141b7a6117c42ac574ef13aa699ab83dc336e4afc951cb3e6773d0fc330",
+  "fingerprint": "e3f3640704e7e7e15f799912007db8804dac68f468b7c47e230095b948256f9d",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -77,11 +77,90 @@
     "images/book-b21294e3b3266d019b31.jpg",
     "images/book-e6872ee56eb3c507430b.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 5,
+    "source_paragraphs": 6,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 6,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 6,
+    "attachments": [
+      {
+        "question_id": "bx2-8-4-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-8-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 381
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-8-4-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-8-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 381
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-8-4-ex-4",
+        "example_number": 4,
+        "source_id": "bx2-8-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 381
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-8-4-ex-5",
+        "example_number": 5,
+        "source_id": "bx2-8-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 381
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-8-4-ex-7",
+        "example_number": 7,
+        "source_id": "bx2-8-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 381
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 5,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 5,
+    "current_section": "8.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d0dc322216eef57bbe3a801f38d66a20db2ab8f5143ea77f5a1226e2480e36df",
-    "student.html": "00f0c14f56b48c24cc11fe93220aa3f0d8c3b4533d0b8de5216b35efc9a6525f",
-    "student.zip": "577fbe63ecc1a706c002b5c1ad87576e8f6576137e0fc948f1f4c0f8d1e98841",
-    "content.json": "0568edd3c55d64030775af3264eff94dea5e52bc036134ad6e581ac09349d7e2"
+    "teacher.html": "fc053428d764a6ac4de54a2584a738aae7fc2a88abda0d5374194113a731fcb1",
+    "student.html": "d61cd18e31bd4edd7d57dff902d81bf587a3ea0d465e6c6bb7581a465138f870",
+    "student.zip": "68262bf70ab9f70334cba17633249b5142d064884fe0d49512c73a44d6f9217c",
+    "content.json": "b3fb504a2c8a06fdc7db01e058e2b626cd4e063e85bf2ba181417f7b45361444",
+    "teacher-guidance.json": "065e4aa2aba1ef4d30805bf5e2429ca0f11db02e7ebaa5ffd4f85b0e30e4839d"
   }
 }

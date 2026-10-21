@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-1-4",
   "book_id": "x1",
   "section": "1.4",
   "title": "点到直线的距离",
   "section_json": "batch/sections/x1/x1-1-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-4",
-  "fingerprint": "aa8abe1090edef5225ad7b0db70a2089f73c663a9d187604f267981c264e4ebe",
+  "fingerprint": "460faf00e02c66e05d41f0cb00c737d6d9a0c6093ae90f8dd68a9e3ae3582d31",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -34,11 +34,66 @@
   "student_images": [
     "images/book-b3eea358c5acbbb85044.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 5,
+    "matched_source_groups": 3,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-1-4-ex-1",
+        "example_number": 1,
+        "source_id": "x1-1-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 426,
+            "end": 527
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-4-ex-2",
+        "example_number": 2,
+        "source_id": "x1-1-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 426,
+            "end": 527
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-4-ex-3",
+        "example_number": 3,
+        "source_id": "x1-1-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 426,
+            "end": 527
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 3,
+    "current_section": "1.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "b080cf1b44ef29496b08bd2c3f56ee6c3659a429a22b9ef5673430cf7978e279",
-    "student.html": "e39228f3a9ce1b7a581c1a8e9db09a351871f633a107b1c8175f39fab10d85af",
-    "student.zip": "233e0e9281e177e7ebf657b95fdd33402b6224983f7813b5ab524aff14e7e207",
-    "content.json": "3a2a1bb42308553ce4260026577f179c54ccf8a5991816c1c4d5c4f49fb6960d"
+    "teacher.html": "082e5a0de898c3718ac5856e226480bbc7c63475eb28fceb89e542ddc5bbb5e3",
+    "student.html": "1229a7d3863cafc2280e03679cb1c51701080701dd13cf16b32fe3489adcd156",
+    "student.zip": "94a6bdf01dc0b9aa26c9b78a150eb6d0cfe24dd3fd523fa0e53ae421f4d5b13b",
+    "content.json": "cd815ccd4b7e1cf8d6b98de17b756f983fb6ba271abe98aeeed730cabecdf29a",
+    "teacher-guidance.json": "721b49e43b84daaf00fdfb65ed7449e82bd582147fe7361cfdf90b439c12e5e7"
   }
 }

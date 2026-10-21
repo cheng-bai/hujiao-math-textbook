@@ -9,6 +9,17 @@ import json
 import fitz
 from playwright.sync_api import sync_playwright
 
+TEST_PASSPHRASE = 'xdf3.1415926'
+
+
+def unlock_access(page):
+    """Enter the shared test credential when a first-party page uses the gate."""
+    form = page.locator('#access-form')
+    if form.count() and form.is_visible():
+        page.locator('#access-passphrase').fill(TEST_PASSPHRASE)
+        page.locator('#access-form button[type="submit"]').click()
+        page.wait_for_function('document.documentElement.dataset.accessState === "granted"')
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'designs/2026-10-19-沪教版教材教参整合样章'
 REPORT = OUT / 'verification/密度与打印优化'
@@ -22,6 +33,7 @@ def check(label, passed):
 
 def ready(page, path):
     page.goto(path.as_uri())
+    unlock_access(page)
     page.wait_for_function('document.documentElement.dataset.math === "rendered" && [...document.images].every(i => i.complete && i.naturalWidth > 0)')
     page.evaluate('document.fonts.ready')
 

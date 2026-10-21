@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-chapter-end-1",
   "book_id": "x1",
   "section": "chapter-end-1",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/x1/x1-chapter-end-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-chapter-end-1",
-  "fingerprint": "8eb73510755875c1b65be7c7d4b51a9633bccde5cd855d08c0284f39b41e20ea",
+  "fingerprint": "147a4c575f600499b658540415c78d44db2b38afb465d61db9a0d600bc5d30be",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -21,11 +21,29 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "a5461ffe203b431ef947877e1374b872cfbf8517e40da122ff501c62abb79db9",
-    "student.html": "068adc28f34f0d14676cfe329d8257fd49b7d9511d431821baf09700d22bb283",
-    "student.zip": "8261de28229e3609302e08176cdd28cee9de2707bcae05845c2f7df87739ec8e",
-    "content.json": "b82f0f2559e91028dc8fafd070a66121c63f0d0440e98228ac18569fd1334d4c"
+    "teacher.html": "1da29bd9076ea387c2803552762793ce8de9f2282ebe3051dcdfc0554b0dc8f3",
+    "student.html": "c7d4f390bc3896577cf87916350800fc87b7c688f55f9842217e5852c3ee3215",
+    "student.zip": "fe22f4d14d0a9cf295f2d32075f07d4fe6d2f5731185b7c135f29820ada2477d",
+    "content.json": "b82f0f2559e91028dc8fafd070a66121c63f0d0440e98228ac18569fd1334d4c",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

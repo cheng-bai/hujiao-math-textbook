@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-13-1",
   "book_id": "bx3",
   "section": "13.1",
   "title": "总体与样本",
   "section_json": "batch/sections/bx3/bx3-13-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-1",
-  "fingerprint": "7fd29988bb2aebd626478984d3c32ba203c20b4e977eef9161ff161c10592471",
+  "fingerprint": "f701f95527d6e524d67903103ac73ba6e215adce0e73a4390f4e5348f7f00fc8",
   "status": "rendered",
   "questions": 9,
   "answers": 9,
@@ -35,11 +35,29 @@
     "images/book-0a97af12f57385870d8a.jpg",
     "images/book-fda968e9a23e4deb74e6.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "13.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "afcbe55393cb996d987536c2011ec384f716e8220cf4c48662c39c205bead93a",
-    "student.html": "b8c7bbc3d3eff4a620a054fb8fcfc4dacc257c81f53911ac8f6bba652fe6a5a8",
-    "student.zip": "0723acf26e5bb9577b74ee277c4d79fe6fdc8cbfda976a0e2c34012e5aed42bb",
-    "content.json": "7d02a7fd2e0f06aec8a9cd1115b3e6575d073e5ec9317988c8fd8bdc9914206b"
+    "teacher.html": "41a5780b7f20e1a0823c361602794e603d33a6b411f60d7d945cd6b8b9c4fb39",
+    "student.html": "8d5293e254f22e6294652c22a6aa1cdf960853c83b07a2b62141dac997b10d48",
+    "student.zip": "3121b30a62ff647f8881535809879a902e2d7a7d40962e818e83fd94b6be9bfb",
+    "content.json": "7d02a7fd2e0f06aec8a9cd1115b3e6575d073e5ec9317988c8fd8bdc9914206b",
+    "teacher-guidance.json": "12ffbdc5053f14134b410f3212ea1e307c45d7d3ae8bf4a93fce88b86f462442"
   }
 }

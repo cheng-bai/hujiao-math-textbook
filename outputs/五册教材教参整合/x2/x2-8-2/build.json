@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-8-2",
   "book_id": "x2",
   "section": "8.2",
   "title": "一元线性回归分析",
   "section_json": "batch/sections/x2/x2-8-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-8-2",
-  "fingerprint": "bf1be9a41f84813d47523f60b2a73d20b3c6b127fb77dfa051acb6647b83cc58",
+  "fingerprint": "3ad5e7ccfd77a0c7c60b2a9d8c96e78ae214d35ef167cf4703b75b598a8c6a15",
   "status": "rendered",
   "questions": 15,
   "answers": 15,
@@ -75,11 +75,93 @@
     "images/book-1807fea9c7dc326cab13.jpg",
     "images/book-73ae20f7f6df456d6a03.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 4,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 2,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-8-2-ex-1",
+        "example_number": 1,
+        "source_id": "x2-8-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 188,
+            "end": 381
+          }
+        ]
+      },
+      {
+        "question_id": "x2-8-2-ex-1",
+        "example_number": 1,
+        "source_id": "x2-8-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 188,
+            "end": 381
+          }
+        ]
+      }
+    ],
+    "unmatched": [
+      {
+        "source_id": "x2-8-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 188,
+            "end": 381
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "8.3",
+        "reason": "section-mismatch",
+        "unconfirmed_examples": [],
+        "text": "例 1 实际上是为了巩固 ${\\chi }^{2}$ 检验的步骤,建议让学生自主解决."
+      },
+      {
+        "source_id": "x2-8-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 188,
+            "end": 381
+          }
+        ],
+        "examples_referenced": [
+          2,
+          3
+        ],
+        "section": "8.3",
+        "reason": "section-mismatch",
+        "unconfirmed_examples": [
+          2,
+          3
+        ],
+        "text": "例 2 与例 3 是为了展现 $2 \\times  2$ 列联表独立性检验的进一步应用,让学生体会在不能拒绝原假设 ${H}_{0}$ 的情形下,统计结论的表述方式."
+      }
+    ],
+    "matched_examples": 1,
+    "unmatched_groups": 2,
+    "unmatched_paragraphs": 2,
+    "attachment_count": 2,
+    "current_section": "8.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "91791ad2d15dbe6e4ee7a5c0b1a86eef73075d97383f36b4772ec6d6d2046923",
-    "student.html": "a1710fc114df68ebd0cbe586ea7cead1d01cb31e89a486665efece0979e91b24",
-    "student.zip": "0789b0039dd2a9bb92dadc3c923500de7ef60657ed5c038911baffb79f969d3e",
-    "content.json": "1eaeedc85483e7ef6b00f5c7193e06f3e1cd87a0f5dd47bf8bf6750d47e21a21"
+    "teacher.html": "e586de67df877b35e358eecde414c60178770ceff4f09dcc09cb5c76bf7a7b1b",
+    "student.html": "b5ef2bb77d0f55a2005207f0b51c3079c878352e031cb2954c1a8c0e1089d24e",
+    "student.zip": "3af4c0b85c69548903be96797f46f30fbd389e10bd47e2d7c3e1ea23f36b5bc2",
+    "content.json": "7b568d23d2e7347aaa7f92091322632f567a34b51abbae68e79a66de679939c4",
+    "teacher-guidance.json": "d22e19d81a34eb801aca02bd9763d5ea97cdc8cbc8127f25ef3c59aec8444b7f"
   }
 }

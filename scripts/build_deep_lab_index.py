@@ -6,6 +6,7 @@ use_project_root()
 import html
 import json
 from pathlib import Path
+from site_access import install_assets, install_page
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'outputs/五册教材教参整合/deep-index.html'
 FAMILIES = ('deep-geometry', 'deep-analysis', 'deep-spatial')
@@ -37,5 +38,7 @@ addEventListener('message',event=>{if(event.source===frame.contentWindow&&event.
 document.querySelectorAll('[data-index]').forEach(b=>b.addEventListener('click',()=>select(+b.dataset.index)));select(Math.max(0,items.findIndex(a=>a.id===location.hash.slice(1))));
 </script></body></html>'''.replace('BUTTONS',buttons).replace('PAYLOAD',json.dumps(items,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c'))
     OUT.write_text(document, encoding='utf-8')
+    install_assets()
+    install_page(OUT)
     print(OUT)
 if __name__ == '__main__':main()

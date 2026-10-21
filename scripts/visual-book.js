@@ -303,6 +303,7 @@
     });
     $('#visual-undo').disabled = !history.length;
     renderLibrary();
+    window.dispatchEvent(new Event('book-layout-updated'));
   }
   function renderAnchorOptions() {
     initializeAnchorSelect();

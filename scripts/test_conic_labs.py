@@ -11,6 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
+from test_print import unlock_access
 
 ROOT = Path(__file__).resolve().parents[1]
 BOOK = ROOT / 'outputs/五册教材教参整合/x1'
@@ -25,6 +26,7 @@ def check(name, condition):
 
 
 def ready(page):
+    unlock_access(page)
     page.wait_for_function("document.documentElement.dataset.visualReady === 'true'")
     page.wait_for_function("[...document.querySelectorAll('.book-body .visual-frame-status')].every(el=>el.hidden)")
 

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 3,
+  "source_paragraphs": 5,
+  "matched_source_groups": 3,
+  "moved_source_paragraphs": 5,
+  "attached_paragraphs": 5,
+  "reused_existing_paragraphs": 0,
+  "attachments": [
+    {
+      "question_id": "x1-1-4-ex-1",
+      "example_number": 1,
+      "source_id": "x1-1-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 426,
+          "end": 527
+        }
+      ]
+    },
+    {
+      "question_id": "x1-1-4-ex-2",
+      "example_number": 2,
+      "source_id": "x1-1-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 426,
+          "end": 527
+        }
+      ]
+    },
+    {
+      "question_id": "x1-1-4-ex-3",
+      "example_number": 3,
+      "source_id": "x1-1-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 426,
+          "end": 527
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "matched_examples": 3,
+  "unmatched_groups": 0,
+  "unmatched_paragraphs": 0,
+  "attachment_count": 3,
+  "current_section": "1.4"
+}

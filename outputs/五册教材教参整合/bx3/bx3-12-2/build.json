@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-12-2",
   "book_id": "bx3",
   "section": "12.2",
   "title": "古典概率",
   "section_json": "batch/sections/bx3/bx3-12-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-2",
-  "fingerprint": "fb1d0badd8c3291aeda7174c40694ee225df986433f7ef4670cbcdd6d0dd31ca",
+  "fingerprint": "7c330599b7dd57125f855b661cd1a5d26ac5bacfa42b28390edea73ec8d570f4",
   "status": "rendered",
   "questions": 29,
   "answers": 29,
@@ -35,11 +35,29 @@
     "images/book-2b37789c65a27aa2fcfd.jpg",
     "images/book-4294e453d45980844836.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "12.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "72a153b430011d8a7b668789daf4710ab871dbd0822ee7548d4c7e49e553a2ae",
-    "student.html": "fe773a4d9bbb5d7c5e86202848b3f336c1439a2961b731554b19fd8f9331f33f",
-    "student.zip": "8e62939a2935aa387ae59d45d8753ed7ac0fb1a81e77392f85dd7316b9c62930",
-    "content.json": "b1a6df10c74ef87b1d9761d2d148c3b179eae4770194b7a76b3e71074c1dd3e4"
+    "teacher.html": "d4a9f52612ae6e320d001dcb694bee89feb654e05a8a78dec2b42f2b6406ac9f",
+    "student.html": "198d23ee17105948bb9cd428bdecd531ad5aa0dd4ad20cf5eaeeb50d7786b596",
+    "student.zip": "0024e00569348463fa0a3c3478b5d684f36b00bd19d7e9217f7415dc5aa86af2",
+    "content.json": "b1a6df10c74ef87b1d9761d2d148c3b179eae4770194b7a76b3e71074c1dd3e4",
+    "teacher-guidance.json": "d36ded34de93ca3627d1b1351b0f4126f1380a934cc549c623a7556689087b65"
   }
 }

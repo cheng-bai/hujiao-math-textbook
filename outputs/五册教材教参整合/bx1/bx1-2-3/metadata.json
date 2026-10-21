@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx1-2-3",
   "book_id": "bx1",
   "section": "2.3",
   "title": "基本不等式及其应用",
   "section_json": "batch/sections/bx1/bx1-2-3.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-2-3",
-  "fingerprint": "32e0b5e75da616a369d6cd6a08da166eab1de052d9993ead9c0f33a2428c56d7",
+  "fingerprint": "c4d9938107882e1de75e70d42eb3c8d8588e33cc208e4889584bde7435328d21",
   "status": "rendered",
   "questions": 31,
   "answers": 31,
@@ -41,11 +41,138 @@
     "images/book-a56c71b0fea95c60084f.jpg",
     "images/book-c6c1621909dc37d1aa56.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 7,
+    "source_paragraphs": 7,
+    "matched_source_groups": 7,
+    "moved_source_paragraphs": 7,
+    "attached_paragraphs": 9,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx1-2-3-ex-1",
+        "example_number": 1,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-2",
+        "example_number": 2,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-3",
+        "example_number": 3,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-4",
+        "example_number": 4,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-5",
+        "example_number": 5,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-6",
+        "example_number": 6,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-7",
+        "example_number": 7,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-8",
+        "example_number": 8,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      },
+      {
+        "question_id": "bx1-2-3-ex-9",
+        "example_number": 9,
+        "source_id": "bx1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 452,
+            "end": 557
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 9,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 9,
+    "current_section": "2.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ac476b787fc959575d066d4af57d5bc055e82525af2b49e167b05eb9dc8402af",
-    "student.html": "4618f956fd5d2f95933b7bcb1c1db638f48ebe5ca44cd98a910e566cc206307d",
-    "student.zip": "b0487156830d41a90034e2ed07f1fb05efd5ef2fe0a58674358d0e8087819657",
-    "content.json": "dcc9e7532f901f8ff93d5cad84f8dea3e6bbe96c97b05b9ac28b2c17e03e6bfa"
+    "teacher.html": "49e9467431d5805ccd06a00ebc0e039cc14fdb78ddda5409db032e80fd0876ee",
+    "student.html": "9558b2257ab6867c92268abc9270b7e1babe99b53bd6723b1f169c545cffe3e5",
+    "student.zip": "1f03e6d90a13b60b36b77aa37352cf0ba8c3410dc8e4ad453a75e71d406a6daf",
+    "content.json": "56e6ad8393f9bb2eb61e121a07fdea0c06f31b1e3958289aeae45d97de0df517",
+    "teacher-guidance.json": "802223ff897dfc17385116a58d98f7c51491b5a188d7f97bdfeb000b07debd39"
   }
 }

@@ -16,12 +16,14 @@ import traceback
 import zipfile
 from pathlib import Path
 from markdown_it import MarkdownIt
+from site_access import access_head, install_assets, NAMES as ACCESS_NAMES
+from example_guidance import prepare_example_guidance
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'outputs/五册教材教参整合'
 TEMPLATE = ROOT / 'scripts/build_sample.py'
 VENDOR = ROOT / 'designs/2026-10-19-沪教版教材教参整合样章/8.2-向量的数量积/vendor-katex'
-VERSION = 'batch-render-v1.4'
+VERSION = 'batch-render-v1.5'
 IMAGE_RE = re.compile(r'!\[([^\]]*)\]\(((?:[^()]|\([^()]*\))+)\)')
 
 
@@ -100,6 +102,7 @@ def visual_files(data, student):
 def shared_assets(book_id):
     dest = OUTPUT / safe(book_id) / '_shared'
     dest.mkdir(parents=True, exist_ok=True)
+    install_assets(dest)
     for name in ['book.css', 'book.js']:
         source, target = ROOT / 'scripts' / name, dest / name
         if not target.exists() or sha(source) != sha(target):
@@ -157,7 +160,8 @@ def shared_assets(book_id):
 
 def fingerprint(path, data):
     parts = [VERSION, sha(__file__), sha(path), sha(TEMPLATE)]
-    extras = [ROOT / 'scripts/book.css', ROOT / 'scripts/book.js', *sorted(VENDOR.rglob('*'))]
+    extras = [ROOT / 'scripts/book.css', ROOT / 'scripts/book.js', ROOT / 'scripts/site_access.py', ROOT / 'scripts/example_guidance.py',
+              *(ROOT / 'scripts' / name for name in ACCESS_NAMES), *sorted(VENDOR.rglob('*'))]
     if data['book_id'] in ['bx1', 'bx2', 'bx3', 'x1', 'x2']:
         extras.extend([ROOT / 'scripts/visual-book.css', ROOT / 'scripts/visual-book.js', *sorted((ROOT / 'scripts/visual-assets').glob('*'))])
     for p in extras:
@@ -214,6 +218,41 @@ def approved_components(blocks, source_links):
     return scope
 
 
+def page_index(blocks, components, student=False):
+    """Use the rendered block IDs, never inferred question numbers, as anchors."""
+    esc = lambda value: html.escape(str(value), quote=True)
+    links = []
+    for block in blocks:
+        if student and (block.get('teacher_only') or block['type'] in ['intro', 'teacher', 'editor']):
+            continue
+        kind = block['type']
+        if kind not in ['section', 'heading', 'question'] and not block.get('emphases'):
+            continue
+        category = block.get('category', '')
+        filter_kind = 'example' if category == '例题' else 'exercise' if kind == 'question' else 'content'
+        title = block.get('title', '') or category
+        inline = components['render_md'](html.escape(title, quote=False)).strip()
+        inline = re.sub(r'^<p>|</p>$', '', inline)
+        number = f'<span>{esc(block.get("number", ""))}</span>' if kind == 'section' else ''
+        if kind in ['section', 'heading', 'question']:
+            preview = ''
+            if kind == 'question':
+                stem = IMAGE_RE.sub(' ', block.get('markdown', ''))
+                stem = re.sub(r'\$\$[\s\S]*?\$\$|(?<!\$)\$[^$\n]*\$', ' ', stem)
+                stem = re.sub(r'\\[A-Za-z]+|[\\{}_^`*>#]', ' ', stem)
+                stem = re.sub(r'\s+', ' ', stem).strip(' .,;:，。；：、')
+                stem = stem[:72].rstrip()
+                if len(re.sub(r'\s+', ' ', block.get('markdown', '')).strip()) > 72 and stem:
+                    stem += '…'
+                if stem:
+                    preview = f'<small class="toc-preview">{esc(stem)}</small>'
+            search_label = title + (' ' + stem if kind == 'question' and stem else '')
+            links.append(f'<a class="toc-link toc-{kind}" href="#{esc(block["id"])}" data-toc-kind="{filter_kind}" data-toc-label="{esc(search_label)}">{number}<span class="toc-title">{inline}</span>{preview}</a>')
+        for mark in block.get('emphases', []):
+            links.append(f'<a class="toc-link toc-key" href="#{esc(mark["id"])}" data-toc-kind="content" data-toc-label="{esc(mark["title"])}">{esc(mark["title"])}</a>')
+    return ''.join(links)
+
+
 def page(data, blocks, components, student=False):
     esc = lambda s: html.escape(str(s), quote=True)
     section, title = esc(data['section']), esc(data['title'])
@@ -235,8 +274,9 @@ def page(data, blocks, components, student=False):
     if active:
         parts.append('</section>')
     modules = [b for b in blocks if b['type'] == 'section' and not (student and b.get('teacher_only'))]
-    nav = ''.join(f'<a href="#{esc(b["id"])}"><span>{esc(b["number"])}</span>{esc(b["title"])}</a>' for b in modules)
+    nav = page_index(blocks, components, student)
     controls = '<span class="student-tag">学生阅读版 · 不含题答与教师内容</span>' if student else '<button id="answer-toggle" aria-pressed="false">隐藏全部答案</button><button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a>'
+    controls = '<button id="toc-toggle" aria-expanded="false" aria-controls="page-sidebar">本页索引</button>' + controls
     controls += '<button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button>'
     visual_assets = ''
     controls += '<button id="visual-open">可视化模块</button>'
@@ -259,8 +299,8 @@ def page(data, blocks, components, student=False):
 @media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
 </style>'''
     return f'''<!doctype html>
-<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{section} {title} · {'学生阅读版' if student else '教师整合版'}</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css">{visual_assets}{extra_style}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
-<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="{'#top' if student else '../index.html'}">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">{esc(data['book_title'])} / {esc(data.get('chapter_title', ''))}</div><div class="spine-number">{section}</div><nav aria-label="本节目录">{nav}</nav><div class="sidebar-foot">沪教数学讲义<br>{'学生独立文件' if student else '教师阅读 / 备课'}</div></aside>
+<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{section} {title} · {'学生阅读版' if student else '教师整合版'}</title>{access_head('../_shared/')}<link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css">{visual_assets}{extra_style}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><noscript><p>请启用 JavaScript，再输入访问口令进入阅读。</p></noscript><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><button id="toc-backdrop" aria-label="关闭本页索引" tabindex="-1" hidden></button><aside class="sidebar" id="page-sidebar"><button id="toc-dismiss" aria-label="关闭本页索引">×</button><a class="brand" href="{'#top' if student else '../index.html'}">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">{esc(data['book_title'])} / {esc(data.get('chapter_title', ''))}</div><div class="spine-number">{section}</div><div class="toc-tools"><label for="toc-search">本页索引</label><input type="search" id="toc-search" placeholder="查找正文、例题或题号"><select id="toc-filter" aria-label="索引内容筛选"><option value="all">全部位置</option><option value="content">正文与概念</option><option value="example">只看例题</option><option value="exercise">练习与习题</option></select><p id="toc-count" role="status" aria-live="polite"></p></div><nav class="page-toc" aria-label="本节目录">{nav}</nav><div class="sidebar-foot">{'学生独立文件' if student else '教师阅读 / 备课'} · 点击索引定位</div></aside>
 <div class="book-shell"><header class="toolbar"><span class="toolbar-label">{'学生阅读' if student else '教师阅读'} <span class="subtle">/ {section}</span></span><div class="controls">{controls}</div></header><main id="reading">{warning}<header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION {section}</div><p class="edition">{'学生阅读版' if student else '教师整合版'} / 沪教版高中数学</p><h1>{title}<span class="cover-dot">.</span></h1><p class="cover-deck">{esc(data['book_title'])}<br>{esc(data.get('chapter_title',''))} · 保留教材主线与原题</p><div class="chapter-meta"><span>{len(modules)} 个阅读模块</span><span>{examples} 个例题</span><span>{len(questions)-examples} 道练习与习题</span></div></header><div class="book-body">{''.join(parts)}</div><footer class="book-footer"><p>{foot}</p><a href="#top">返回本节开头 ↑</a></footer></main></div>{components['print_panel'](student)}<div id="status" role="status" aria-live="polite"></div></body></html>'''
 
 
@@ -337,6 +377,7 @@ def render_section(path, force=False):
                 for mark in b['emphases']:
                     for boundary in ['start', 'end']:
                         mark[boundary] = len(IMAGE_RE.sub(image, original_text[:mark[boundary]]))
+    blocks, guidance_report = prepare_example_guidance(blocks)
     components = approved_components(blocks, source_links)
     view_data = {**data, 'issues': issues}
     teacher, student = page(view_data, blocks, components), page(view_data, blocks, components, True)
@@ -347,7 +388,7 @@ def render_section(path, force=False):
     standalone = student.replace('../_shared/', '').replace('href="../index.html"', 'href="#top"')
     with zipfile.ZipFile(out / 'student.zip', 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr('student.html', standalone)
-        for name in ['book.css', 'book.js']:
+        for name in ['book.css', 'book.js', *ACCESS_NAMES]:
             z.write(shared / name, name)
         for name in ['visual-book.css', 'visual-book.js']:
             z.write(shared / name, name)
@@ -360,9 +401,10 @@ def render_section(path, force=False):
             if (out / ref).is_file():
                 z.write(out / ref, ref)
     question_blocks = [b for b in blocks if b['type'] == 'question']
-    report = {'schema_version': 1, 'version': VERSION, 'id': data['id'], 'book_id': data['book_id'], 'section': data['section'], 'title': data['title'], 'section_json': str(path), 'output': str(out), 'fingerprint': fp, 'status': 'rendered_with_issues' if issues else 'rendered', 'questions': len(question_blocks), 'answers': sum(bool(q['answer'].strip()) for q in question_blocks), 'teacher_file': 'teacher.html', 'student_file': 'student.html', 'student_zip': 'student.zip', 'assets': assets, 'issues': issues, 'source_hashes': data.get('source_hashes', {}), 'student_images': student_images, 'math_review': 'separate'}
+    save_json(out / 'teacher-guidance.json', guidance_report)
+    report = {'schema_version': 1, 'version': VERSION, 'id': data['id'], 'book_id': data['book_id'], 'section': data['section'], 'title': data['title'], 'section_json': str(path), 'output': str(out), 'fingerprint': fp, 'status': 'rendered_with_issues' if issues else 'rendered', 'questions': len(question_blocks), 'answers': sum(bool(q['answer'].strip()) for q in question_blocks), 'teacher_file': 'teacher.html', 'student_file': 'student.html', 'student_zip': 'student.zip', 'assets': assets, 'issues': issues, 'source_hashes': data.get('source_hashes', {}), 'student_images': student_images, 'teacher_guidance': guidance_report, 'math_review': 'separate'}
     save_json(out / 'content.json', blocks)
-    report['artifact_hashes'] = {name: sha(out / name) for name in ['teacher.html', 'student.html', 'student.zip', 'content.json']}
+    report['artifact_hashes'] = {name: sha(out / name) for name in ['teacher.html', 'student.html', 'student.zip', 'content.json', 'teacher-guidance.json']}
     save_json(build_path, report)
     save_json(out / 'metadata.json', report)
     return report

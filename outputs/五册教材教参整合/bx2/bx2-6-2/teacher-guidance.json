@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 13,
+  "source_paragraphs": 13,
+  "matched_source_groups": 13,
+  "moved_source_paragraphs": 13,
+  "attached_paragraphs": 0,
+  "reused_existing_paragraphs": 17,
+  "attachments": [
+    {
+      "question_id": "bx2-6-2-ex-1",
+      "example_number": 1,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-2",
+      "example_number": 2,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-3",
+      "example_number": 3,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-4",
+      "example_number": 4,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-5",
+      "example_number": 5,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-6",
+      "example_number": 6,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-7",
+      "example_number": 7,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-8",
+      "example_number": 8,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-9",
+      "example_number": 9,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-10",
+      "example_number": 10,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-11",
+      "example_number": 11,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-12",
+      "example_number": 12,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-13",
+      "example_number": 13,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-14",
+      "example_number": 14,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-15",
+      "example_number": 15,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-16",
+      "example_number": 16,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "question_id": "bx2-6-2-ex-17",
+      "example_number": 17,
+      "source_id": "bx2-6-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "matched_examples": 17,
+  "unmatched_groups": 0,
+  "unmatched_paragraphs": 0,
+  "attachment_count": 17,
+  "current_section": "6.2"
+}

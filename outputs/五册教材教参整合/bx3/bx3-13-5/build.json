@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-13-5",
   "book_id": "bx3",
   "section": "13.5",
   "title": "统计估计",
   "section_json": "batch/sections/bx3/bx3-13-5.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-5",
-  "fingerprint": "85f0cc2ab000aa59af057ce6f6afafc32e865e367c2b17eed1d42baa40e43a42",
+  "fingerprint": "54a7c4fd2b24471d6e654e8468611a5a2e64e4d16abb9874f5bc9de743d30b25",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -61,11 +61,110 @@
     "images/book-db2c4030d536755f3e1e.jpg",
     "images/book-f3a5eed0b8fe99312900.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 6,
+    "source_paragraphs": 6,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-13-5-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-13-5-b13",
+        "example_number": 2,
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-13-5-ex-3",
+        "example_number": 3,
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-13-5-ex-4",
+        "example_number": 4,
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-13-5-ex-5",
+        "example_number": 5,
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ]
+      }
+    ],
+    "unmatched": [
+      {
+        "source_id": "bx3-13-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 256,
+            "end": 325
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "13.5",
+        "reason": "missing-or-ambiguous-example-block",
+        "unconfirmed_examples": [
+          6
+        ],
+        "text": "例 6 的“如何确定阶梯电价的电量临界值”可以转化为“如何确定该市居民用电量的百分位数”, 也就是求总体分布的百分位数. 如何确定阶梯电价的问题就转化为用样本的数字特征来估计总体的数字特征, 也即用收集到的“200 户居民的用电量”这一样本的百分位数来估计“该市居民用电量”这个总体的百分位数,从而确定阶梯电价的电量临界值. 在实际应用中, 很多统计问题的解答都可以转化为估计总体的分布信息."
+      }
+    ],
+    "matched_examples": 5,
+    "unmatched_groups": 1,
+    "unmatched_paragraphs": 1,
+    "attachment_count": 5,
+    "current_section": "13.5"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9a627ee53507c62dfc312098cd0dd9849ca549035d964719458479e28e2311e6",
-    "student.html": "8507072ca9c84fad94b9bd9454a09070556cc4d57418588e5fa0175ca460229b",
-    "student.zip": "1d7510d209697efb19e184ba42c112aa080998cdb74c852ae9ee5ecf500728d0",
-    "content.json": "eaf86c7b21ede158c4ff825b3402e5d8dabdaa67090e5934f232f070b951e74a"
+    "teacher.html": "bd597419647bd916cbefbb0460dc9482afb0fe5315c6a1206a5578242d512059",
+    "student.html": "306e8a1ca0c8406ef84c63f8e819746b539a73ae10aedf8efb6f9fd483b220e3",
+    "student.zip": "f28002ee4ba8307e3681e5e9309a99ba38c7392570195121782bba86e212d4d7",
+    "content.json": "dc065f26778172473276ac7fbf3e12b652f0fe1705638a001640547772759738",
+    "teacher-guidance.json": "6b2498195dea8943f0f99a99b62c60d8db100cad9ca91c5bf5c0cb65086ae1dd"
   }
 }

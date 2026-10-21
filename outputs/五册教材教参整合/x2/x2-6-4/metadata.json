@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-6-4",
   "book_id": "x2",
   "section": "6.4",
   "title": "计数原理在古典概率中的应用",
   "section_json": "batch/sections/x2/x2-6-4.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-4",
-  "fingerprint": "80a86642a7c1675cd359b679ef0102e3a94688f830aec5e3da2e7074ed81e04c",
+  "fingerprint": "0eeeb023248a97047c2070d93f38e021e0f9db6771c60cf2971edb53933df339",
   "status": "rendered",
   "questions": 10,
   "answers": 10,
@@ -21,11 +21,66 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 3,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-6-4-ex-1",
+        "example_number": 1,
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-4-ex-2",
+        "example_number": 2,
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-4-ex-3",
+        "example_number": 3,
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 3,
+    "current_section": "6.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "cf420bc6b9064e2e882286702dfd2d770f891d24c89e488a772867b06b248184",
-    "student.html": "b25c0831fde138c1030e7bb74ca67f881e77b438e783295e710fc27deb5a90f9",
-    "student.zip": "041dca433fcc57606136f97bd27ce12676bc8c7334e05bad12267d5e8f9062f4",
-    "content.json": "f86ae1ce454c9cda26253c98f17635cfdd89f301b42857bcad56e75819e7f004"
+    "teacher.html": "ba8c238372f13cc5b4b2e973eb77eaf1b57838b7ab74115847f4115cae74ce05",
+    "student.html": "05adbe14d5c1b70819863dc7924ab2ac1439142c38ae58461d42527e24a7fb0d",
+    "student.zip": "0c5959977b9227cfb42ddf2e5c0a573aa7b45473d50f46ec9434228454b6c84b",
+    "content.json": "0d3019a1b0d35621d5cad27101d664b6cd1cf574506f504d1fca0b2a156e5f63",
+    "teacher-guidance.json": "c49429d2d10a4c582b6c9552540c2bebb5f61ace81c69032f6e499e162a5cc5c"
   }
 }

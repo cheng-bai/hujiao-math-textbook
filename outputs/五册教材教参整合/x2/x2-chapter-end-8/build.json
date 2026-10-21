@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-chapter-end-8",
   "book_id": "x2",
   "section": "chapter-end-8",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/x2/x2-chapter-end-8.json",
   "output": "outputs/五册教材教参整合/x2/x2-chapter-end-8",
-  "fingerprint": "457b7a79ac3b746bbb1eb5cb5f2f167c4d78653186b7e30232b4c55787469345",
+  "fingerprint": "f733fc94c45436821227516c7362bcbbe0b0af891c1164c1aebbaf0d2e623e9d",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -69,11 +69,29 @@
   "student_images": [
     "images/book-afc71d55a64a8ca4f130.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "20c6416ac101e1cbf9eca8dc53c96b9ff81366b73426ea3c55b3e43ed9b3b250",
-    "student.html": "b3284bb4a915736a41682149daa71079c693c7ca0249b7e58b16984bc8b43649",
-    "student.zip": "65044e90bb7a55c16dbc7ccc6b44e11e4dc0531267f216724ba3c20a1a823e08",
-    "content.json": "b35df6187fd999eb196227df990af37e46bbc9f28f95e62b0b4afb1a24cd43e3"
+    "teacher.html": "cbf3bde409c393a54998ed83a8c90c7a673d007cf2cceeb1a8e117b9cd5c69d1",
+    "student.html": "fff7c6881d16a7b20eaa7d769a8433038c293579179466f2f157ff3967163a20",
+    "student.zip": "bc2af5238feee40617723bb06a794c3f4533fa6cab8ac6004568b85ba92be6b4",
+    "content.json": "b35df6187fd999eb196227df990af37e46bbc9f28f95e62b0b4afb1a24cd43e3",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

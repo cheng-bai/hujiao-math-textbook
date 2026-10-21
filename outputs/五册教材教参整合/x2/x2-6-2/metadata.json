@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-6-2",
   "book_id": "x2",
   "section": "6.2",
   "title": "排列",
   "section_json": "batch/sections/x2/x2-6-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-2",
-  "fingerprint": "a6a089616f2cc9eb758d1c53b0c4895919ddb37458caa6d48815c2a6d6545b14",
+  "fingerprint": "bbe98f1bd09723794136fdd44bf0d13851397fa0cd2200155c98dc3fb91b0ea9",
   "status": "rendered",
   "questions": 30,
   "answers": 30,
@@ -51,11 +51,138 @@
     "images/book-c02d8eb8de90fa1e43c9.jpg",
     "images/book-d3d18ee3dd005f545eee.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 6,
+    "source_paragraphs": 6,
+    "matched_source_groups": 6,
+    "moved_source_paragraphs": 6,
+    "attached_paragraphs": 9,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-6-2-ex-1",
+        "example_number": 1,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-2",
+        "example_number": 2,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-3",
+        "example_number": 3,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-4",
+        "example_number": 4,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-5",
+        "example_number": 5,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-6",
+        "example_number": 6,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-7",
+        "example_number": 7,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-8",
+        "example_number": 8,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      },
+      {
+        "question_id": "x2-6-2-ex-9",
+        "example_number": 9,
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 9,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 9,
+    "current_section": "6.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "3182931d6dbb7285bfc48f02b4bc3d5cecfc5e90b1f41de58fc3131dddb20477",
-    "student.html": "010ff39784a62df41b672546c161d60d2b508ca31deb033f86c6c5b5233b0a2e",
-    "student.zip": "ad32bba50eafeb07d411e5b63ac90f3f6dbc51b660445457e2d3c4b8efb93ff9",
-    "content.json": "f1e75e96dd7517bfb8511165069a69980a5df33c952f6f2f3d1ea7e29939cbae"
+    "teacher.html": "f350e02236506f0a0c3d4f010ebb2e15e68c2e9f1a285eaa00779a63d4d92b06",
+    "student.html": "c8df7b5fed9b05332e1c17ffdc9c2b0258ca83d87cf67809fdb1af97236d8fa4",
+    "student.zip": "dfca6f90dcc8a570f4b612f5639a36aa7c3222029638458574bc73b7adb8a7f5",
+    "content.json": "52009ce98c6fa4ccda9bd1d834ad64cb72ef7eed428c5f528dc21092b4d5b8d0",
+    "teacher-guidance.json": "d6d8be8db6b11e64390e4770037816fe5a19ece44853ec3163886471bd6c5b86"
   }
 }

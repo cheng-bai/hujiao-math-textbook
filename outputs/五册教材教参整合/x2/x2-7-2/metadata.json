@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-7-2",
   "book_id": "x2",
   "section": "7.2",
   "title": "随机变量的分布与特征",
   "section_json": "batch/sections/x2/x2-7-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-7-2",
-  "fingerprint": "9372b4da4303d7ab2cd4a2c4726bb8f654c8ebfbebb6d0c1f2430bc6a9c9de57",
+  "fingerprint": "5d601f8794bcd12520b633dddf912f0b228523aae7d9cacafdec5d3fe71c6bf2",
   "status": "rendered",
   "questions": 21,
   "answers": 21,
@@ -27,11 +27,114 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 7,
+    "source_paragraphs": 7,
+    "matched_source_groups": 7,
+    "moved_source_paragraphs": 7,
+    "attached_paragraphs": 7,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-7-2-ex-1",
+        "example_number": 1,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-2",
+        "example_number": 2,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-3",
+        "example_number": 3,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-4",
+        "example_number": 4,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-5",
+        "example_number": 5,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-6",
+        "example_number": 6,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      },
+      {
+        "question_id": "x2-7-2-ex-7",
+        "example_number": 7,
+        "source_id": "x2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 155,
+            "end": 249
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 7,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 7,
+    "current_section": "7.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2466c65b6995ad640c7e153d55cace26a619d1c3894d42967d5a23943fb8135f",
-    "student.html": "2bda03e3230229d55fe6f6f07026bfb3356025e778465fc0e1de58567ab4e837",
-    "student.zip": "06c6e6b6dd1c2fa750285749bd5451a1cace9501fe7d3fe8ee57554cb94858df",
-    "content.json": "c7792cf726dcad97a2929f9dd67fd387de009d35ac306e777a7f8720ccaf6ed9"
+    "teacher.html": "7f5cf2e92aac6479e4ca95429bd8c982547e3377fd65bd8409729952217749d7",
+    "student.html": "0b482f7cbb563302554ea8a4b4ad5fd27ce53e022648ea2bb424ced5e164a38e",
+    "student.zip": "d035eae29f16b56803b617b2c68782c3ef4087ade9c4568874d4fb8e3883255f",
+    "content.json": "fb61d02b945a43f5b01840055af9d3493bda1c720814c7334c1b6292468e93f8",
+    "teacher-guidance.json": "70a581d5ef60d9d7b67f8edcabd52d9e7d8eaed6cdb1a733eedff6aecd6a8079"
   }
 }

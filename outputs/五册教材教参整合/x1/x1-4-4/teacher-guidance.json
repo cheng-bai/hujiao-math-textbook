@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 3,
+  "source_paragraphs": 7,
+  "matched_source_groups": 2,
+  "moved_source_paragraphs": 6,
+  "attached_paragraphs": 6,
+  "reused_existing_paragraphs": 0,
+  "attachments": [
+    {
+      "question_id": "x1-4-4-ex-1",
+      "example_number": 1,
+      "source_id": "x1-4-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 218,
+          "end": 267
+        }
+      ]
+    },
+    {
+      "question_id": "x1-4-4-ex-2",
+      "example_number": 2,
+      "source_id": "x1-4-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 218,
+          "end": 267
+        }
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "source_id": "x1-4-4-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 218,
+          "end": 267
+        }
+      ],
+      "examples_referenced": [
+        3,
+        4
+      ],
+      "section": "4.4",
+      "reason": "missing-or-ambiguous-example-block",
+      "unconfirmed_examples": [
+        4
+      ],
+      "text": "例 3、例 4 这两例的共同特点都是先猜想再论证. 例 3 先算出前几项的值,并观察这些项的值与相应项的序数间的内在规律, 然后猜想通项公式的可能形式. 例 4 是先假设存在这样的常数,因为是恒等式,故当 $n = 1,2,3$ 时的等式均成立,因此可以得到关于 $a\\text{、}b\\text{、}c$ 的三元一次方程组进而求解,从而得到猜想. 不论是例 3 还是例 4,此时所得到的猜想是以对部分已知事实的归纳为依据的,因此猜想是一种合情推理, 是探索新知识、发现新规律的非常重要的一步; 但由于猜想是建立在不够充分的事实基础上, 还存在正确与错误两种可能性, 必须进一步证明, 这时就可以用数学归纳法. 这说明只有将数学归纳法与合情推理结合起来, 才能体现归纳一猜想一论证这样一种科学的思维模式."
+    }
+  ],
+  "matched_examples": 2,
+  "unmatched_groups": 1,
+  "unmatched_paragraphs": 1,
+  "attachment_count": 2,
+  "current_section": "4.4"
+}

@@ -234,10 +234,11 @@ def render_block(b, student=False):
     if kind == 'question':
         answer = ''
         if not student:
-            answer = f'<details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body">{render_md(b["answer"])}{provenance(b["answer_provenance"])}</div></details>'
+            analysis = ''
             if b['teacher_analysis']:
                 label = '编辑整合 · 情境限定' if b.get('edited_analysis') else '教参 · 例题分析'
-                answer += f'<aside class="question-analysis teacher-only"><span class="eyebrow">{label}</span>{render_md(b["teacher_analysis"])}{provenance(b["analysis_provenance"])}</aside>'
+                analysis = f'<aside class="question-analysis teacher-only"><span class="eyebrow">{label}</span>{render_md(b["teacher_analysis"])}{provenance(b["analysis_provenance"])}</aside>'
+            answer = f'<details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body">{render_md(b["answer"])}{provenance(b["answer_provenance"])}{analysis}</div></details>'
         category = 'example' if b['category'] == '例题' else ('practice' if b['category'].startswith('练习') else 'homework')
         return f'<article class="question" id="{b["id"]}" data-question-id="{b["id"]}" data-category="{category}"><div class="question-label">{b["title"]}</div><div class="question-body">{text}</div>{"" if student else provenance(b["provenance_question"])}{answer}</article>'
     if kind in ['teacher', 'editor', 'intro']:

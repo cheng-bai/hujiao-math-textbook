@@ -83,3 +83,50 @@ body #print-output{display:block!important;width:auto!important;margin:0!importa
 /* Contain trailing margins; image-heavy stems need room for every caption. */
 #print-output .question{display:flow-root}
 #print-output .print-compact-figures .question-body img{max-height:34mm}
+
+/* A compact page index reuses the book's left-hand reading rail. */
+@media screen{
+html{scroll-padding-top:var(--reader-offset,80px)}
+.book-body [id]{scroll-margin-top:12px}
+.sidebar,body:not(.spacious) .sidebar{padding-top:24px;padding-bottom:16px;gap:0}
+.sidebar .volume-label{margin-top:22px;font-size:10px;line-height:1.6}
+.sidebar .spine-number{font-size:36px;letter-spacing:-1px;margin:8px 0 15px}
+.sidebar .sidebar-foot{padding-top:14px;font-size:10px;flex-shrink:0}
+.toc-tools{font-family:"PingFang SC",sans-serif;flex-shrink:0}
+.toc-tools label{display:block;font-size:12px;font-weight:600;color:var(--forest);margin-bottom:8px}
+.toc-tools input,.toc-tools select{width:100%;min-width:0;border:1px solid #c4cdbd;border-radius:3px;background:#f9faf5;color:var(--ink);font:11px/1.6 "PingFang SC",sans-serif;padding:7px 8px}
+.toc-tools input:focus,.toc-tools select:focus{outline:2px solid var(--forest);outline-offset:1px}
+.toc-tools select{margin-top:6px}
+#toc-count{font-size:10px;color:#73816c;margin:7px 0;line-height:1.6}
+.sidebar .page-toc{display:block;flex:1;min-height:50px;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;margin:0 -8px 0 -3px;padding:0 8px 0 3px}
+.page-toc .toc-link{border:0;border-radius:3px;margin:1px 0;padding:6px 8px;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.page-toc .toc-link[hidden]{display:none}
+.page-toc .toc-section{font-size:13px;font-weight:600;border-top:1px solid #d0dac8;padding-top:10px;margin-top:8px}
+.page-toc .toc-section span{margin-right:5px;font-size:10px}
+.page-toc .toc-link .toc-title{font-size:inherit;margin-right:0;color:inherit}
+.page-toc .toc-heading{color:#596952;font-weight:600}
+.page-toc .toc-question{padding-left:17px;font-size:11px;color:#69775f}
+.page-toc .toc-preview{display:-webkit-box;margin-top:2px;color:#8a9184;font-size:10px;font-weight:400;line-height:1.45;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.page-toc .toc-key{padding-left:17px;color:#966043;font-size:11px}
+.page-toc .toc-link:hover{background:#e3e9db;color:var(--forest)}
+.page-toc .toc-link.active{background:#dce6d3;color:#234c3a;box-shadow:inset 2px 0 #aa583e}
+#toc-toggle,#toc-dismiss,#toc-backdrop{display:none}
+.question-analysis h3,.question-analysis h4{font-size:15px;margin:12px 0 7px}
+.answer-body>.question-analysis{border-top:1px solid #d8dfcf;margin-top:16px;padding:12px 0 0;border-left:0}
+}
+@media screen and (max-width:720px){
+.sidebar,body:not(.spacious) .sidebar{position:fixed;inset:0 auto 0 0;z-index:62;width:min(330px,88vw);height:100dvh;display:flex;padding:22px 20px 16px;transform:translateX(-105%);transition:transform .18s ease;box-shadow:10px 0 40px #243c291a}
+body.toc-open{overflow:hidden}
+body.toc-open .sidebar{transform:translateX(0)}
+.sidebar .brand{font-size:21px;padding-right:25px}
+.sidebar .brand span{display:block;margin:6px 0 0;font-size:10px}
+.sidebar .volume-label,.sidebar .spine-number,.sidebar .sidebar-foot{display:block}
+.sidebar .volume-label{margin-top:16px}
+.sidebar .spine-number{font-size:28px;margin:6px 0 12px}
+.sidebar .page-toc{overflow-x:hidden}
+.page-toc .toc-link{white-space:normal}
+#toc-toggle{display:inline-block}
+#toc-dismiss{display:block;position:absolute;right:16px;top:20px;background:none;border:0;font-size:26px;color:var(--forest);line-height:1;padding:3px 8px}
+#toc-backdrop:not([hidden]){display:block;position:fixed;inset:0;z-index:61;background:#172a2355;border:0;backdrop-filter:blur(2px)}
+}
+@media print{#toc-backdrop,#toc-toggle,#toc-dismiss{display:none!important}}

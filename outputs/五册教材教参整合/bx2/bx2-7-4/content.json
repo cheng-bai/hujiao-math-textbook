@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 7.4 正切函数的图像与性质\n\n### 教学重点\n\n建立正切函数的概念,借助单位圆画出正切函数 $y = \\tan x$ 在 $\\left( {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right)$ 的图像, 掌握正切函数的图像特征.\n\n掌握正切函数的奇偶性、周期性、单调性和值域.\n\n### 内容分析\n\n类似对正弦函数图像与性质的研究方法, 得到正切函数的图像与性质. 对于正切函数 $y = \\tan x$ 在 $\\left( {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right)$ 上的单调性,我们利用函数单调性的定义给出了证明.\n\n例 1 是正切函数的定义域和单调性的应用,只需学生掌握形如 $y = A\\tan \\left( {{\\omega x} + \\varphi }\\right) \\; \\left( {A > 0,\\omega  > 0}\\right)$ 的函数的单调区间的问题,例题已严格控制了难度.\n\n例 2 是正切函数周期性的应用,对于形如 $y = A\\tan \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 的函数,可以得到其周期 $T = \\frac{\\pi }{\\omega }$ .\n\n探究与实践“球门的张角问题”是“二期课改”教材中一道例题的改编,将其作为一个课后数学建模的活动. 球门是一个立体的图形, 从不同的角度考虑问题可能会得到不同的答案. 此问题作为一个课后探究活动, 使得学生有更多时间思考并建立恰当的数学模型.\n\n### 注意事项\n\n关于正切函数 $y = \\tan x$ 的最小正周期是 $\\pi$ ,可以仿照正弦函数最小正周期的证明. 证明如下: 若 $T$ 是正切函数 $y = \\tan x$ 的最小正周期,由周期函数的定义有 $\\tan x \\; = \\tan \\left( {x + T}\\right)$ ,即函数 $y = \\tan x$ 与函数 $y = \\tan \\left( {x + T}\\right)$ 是同一函数,它们的图像完全重合. 因此,将函数 $y = \\tan x$ 的图像向左平移 $T$ 个长度单位,所得图像与 $y = \\tan x$ 原来的图像完全重合. 显然 $T = \\pi$ 是正切函数 $y = \\tan x$ 的一个周期. 若其最小正周期满足 $0 < T < \\pi$ ,由 $\\tan x = \\tan \\left( {x + T}\\right)$ ,并在式中特取 $x = 0$ ,就得到 $\\tan T = 0$ ,这在 $0 < T < \\pi$ 时不成立,所以函数 $y = \\tan \\left( {x + T}\\right)$ 的图像不会与函数 $y = \\tan x$ 的图像重合. 这说明正切函数不会有小于 $\\pi$ 的正周期,从而其最小正周期为 $\\pi$ . 这个证明和正弦函数的最小正周期的证明完全类似, 在教学过程中不必呈现.\n\n### 教学建议\n\n例 1 中,对于函数 $y = \\tan \\left( {\\frac{\\pi }{6}x + \\frac{\\pi }{3}}\\right)$ 的单调区间,这里引用 “二期课改” 的做法, 因为 $\\frac{\\pi }{6}x + \\frac{\\pi }{3}$ 与 $x$ 的递增或递减变化一致,所以可以转化为正切函数的单调性加以说明. 在此没有用到复合函数的单调性判断方法, 教学过程中要注意控制难度.\n\n探究与实践活动中建议让学生以研究报告或小论文的形式进行小结, 以培养学生数学建模的素养.",
+    "markdown": "#### 7.4 正切函数的图像与性质\n\n### 教学重点\n\n建立正切函数的概念,借助单位圆画出正切函数 $y = \\tan x$ 在 $\\left( {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right)$ 的图像, 掌握正切函数的图像特征.\n\n掌握正切函数的奇偶性、周期性、单调性和值域.\n\n### 内容分析\n\n类似对正弦函数图像与性质的研究方法, 得到正切函数的图像与性质. 对于正切函数 $y = \\tan x$ 在 $\\left( {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right)$ 上的单调性,我们利用函数单调性的定义给出了证明.\n\n探究与实践“球门的张角问题”是“二期课改”教材中一道例题的改编,将其作为一个课后数学建模的活动. 球门是一个立体的图形, 从不同的角度考虑问题可能会得到不同的答案. 此问题作为一个课后探究活动, 使得学生有更多时间思考并建立恰当的数学模型.\n\n### 注意事项\n\n关于正切函数 $y = \\tan x$ 的最小正周期是 $\\pi$ ,可以仿照正弦函数最小正周期的证明. 证明如下: 若 $T$ 是正切函数 $y = \\tan x$ 的最小正周期,由周期函数的定义有 $\\tan x \\; = \\tan \\left( {x + T}\\right)$ ,即函数 $y = \\tan x$ 与函数 $y = \\tan \\left( {x + T}\\right)$ 是同一函数,它们的图像完全重合. 因此,将函数 $y = \\tan x$ 的图像向左平移 $T$ 个长度单位,所得图像与 $y = \\tan x$ 原来的图像完全重合. 显然 $T = \\pi$ 是正切函数 $y = \\tan x$ 的一个周期. 若其最小正周期满足 $0 < T < \\pi$ ,由 $\\tan x = \\tan \\left( {x + T}\\right)$ ,并在式中特取 $x = 0$ ,就得到 $\\tan T = 0$ ,这在 $0 < T < \\pi$ 时不成立,所以函数 $y = \\tan \\left( {x + T}\\right)$ 的图像不会与函数 $y = \\tan x$ 的图像重合. 这说明正切函数不会有小于 $\\pi$ 的正周期,从而其最小正周期为 $\\pi$ . 这个证明和正弦函数的最小正周期的证明完全类似, 在教学过程中不必呈现.\n\n### 教学建议\n\n探究与实践活动中建议让学生以研究报告或小论文的形式进行小结, 以培养学生数学建模的素养.",
     "provenance": [
       {
         "source": "teacher",
@@ -261,6 +261,43 @@
         "source": "teacher",
         "start": 266,
         "end": 266
+      },
+      {
+        "source": "teacher",
+        "start": 242,
+        "end": 269
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-7-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 242,
+            "end": 269
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.4",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "bx2-7-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 242,
+            "end": 269
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.4",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -298,6 +335,28 @@
         "source": "teacher",
         "start": 256,
         "end": 256
+      },
+      {
+        "source": "teacher",
+        "start": 242,
+        "end": 269
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-7-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 242,
+            "end": 269
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "7.4",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },

@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 6.4 计数原理在古典概率中的应用\n\n### 教学重点\n\n明确等可能事件的含义, 了解计数原理和计数模型在古典概率中的应用, 能灵活使用计数方法计算古典概率.\n\n### 内容分析\n\n古典概率的计算是计数原理的主要应用之一. 虽然学生在初中阶段已经接触过概率的计算, 但由于没有掌握完整的计数理论, 只能利用枚举的方法计算涉及数量较小的问题. 本节旨在阐明计数原理的重要应用, 为进一步学习概率理论作准备.\n\n例 1 旨在说明如何利用计数方法计算古典概率. 配套练习为练习 6.4 的第 1、2 题, 习题 6.4A 组的第 1、2 题及习题 6.4B 组的第 3 题.\n\n例 2 和例 3 旨在说明如何利用“对立事件”的方法计算古典概率, 例 3 可以作为进一步研究的例子. 配套练习为练习 6.4 的第 2 题及习题 6.4B 组的第 1、2 题.\n\n### 注意事项\n\n本节是对计数原理的基本运用, 既是对计数原理和排列组合的回顾总结, 又为进一步学习概率知识作准备. 由于只有 1 课时, 因此不可能面面俱到, 教学过程中应突出计数原理的使用.\n\n### 教学建议\n\n在教学过程中. 应当加强对 “等可能事件” 这一概念的辨析, 淡化计算技巧, 避免繁杂的问题. 对于典型的问题, 可以采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
+    "markdown": "#### 6.4 计数原理在古典概率中的应用\n\n### 教学重点\n\n明确等可能事件的含义, 了解计数原理和计数模型在古典概率中的应用, 能灵活使用计数方法计算古典概率.\n\n### 内容分析\n\n古典概率的计算是计数原理的主要应用之一. 虽然学生在初中阶段已经接触过概率的计算, 但由于没有掌握完整的计数理论, 只能利用枚举的方法计算涉及数量较小的问题. 本节旨在阐明计数原理的重要应用, 为进一步学习概率理论作准备.\n\n### 注意事项\n\n本节是对计数原理的基本运用, 既是对计数原理和排列组合的回顾总结, 又为进一步学习概率知识作准备. 由于只有 1 课时, 因此不可能面面俱到, 教学过程中应突出计数原理的使用.\n\n### 教学建议\n\n在教学过程中. 应当加强对 “等可能事件” 这一概念的辨析, 淡化计算技巧, 避免繁杂的问题. 对于典型的问题, 可以采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
     "provenance": [
       {
         "source": "teacher",
@@ -75,8 +75,31 @@
         "end": 1180
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在说明如何利用计数方法计算古典概率. 配套练习为练习 6.4 的第 1、2 题, 习题 6.4A 组的第 1、2 题及习题 6.4B 组的第 3 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 161,
+        "end": 182
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "6.4",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -106,8 +129,32 @@
         "end": 1214
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 和例 3 旨在说明如何利用“对立事件”的方法计算古典概率, 例 3 可以作为进一步研究的例子. 配套练习为练习 6.4 的第 2 题及习题 6.4B 组的第 1、2 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 161,
+        "end": 182
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ],
+        "examples_referenced": [
+          2,
+          3
+        ],
+        "section": "6.4",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -137,8 +184,32 @@
         "end": 1228
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 和例 3 旨在说明如何利用“对立事件”的方法计算古典概率, 例 3 可以作为进一步研究的例子. 配套练习为练习 6.4 的第 2 题及习题 6.4B 组的第 1、2 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 161,
+        "end": 182
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 161,
+            "end": 182
+          }
+        ],
+        "examples_referenced": [
+          2,
+          3
+        ],
+        "section": "6.4",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

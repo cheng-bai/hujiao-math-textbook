@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-7-1",
   "book_id": "bx2",
   "section": "7.1",
   "title": "正弦函数的图像与性质",
   "section_json": "batch/sections/bx2/bx2-7-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-1",
-  "fingerprint": "d7b41b7392fbb46634d6e4ae5d028c769dc632420cc18bf29ef3f1fed7f9e404",
+  "fingerprint": "6180d6c025e856eb4130f2d23db1fb5d77744da38a14009aa20f5b2effb6e2fd",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -113,11 +113,138 @@
     "images/book-f419a9e2fbd7a353e7b6.jpg",
     "images/book-f8bc04c390b6b3fccb46.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 9,
+    "source_paragraphs": 9,
+    "matched_source_groups": 9,
+    "moved_source_paragraphs": 9,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 9,
+    "attachments": [
+      {
+        "question_id": "bx2-7-1-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-3",
+        "example_number": 3,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-4",
+        "example_number": 4,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-5",
+        "example_number": 5,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-6",
+        "example_number": 6,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-7",
+        "example_number": 7,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-8",
+        "example_number": 8,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-1-ex-9",
+        "example_number": 9,
+        "source_id": "bx2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 161
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 9,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 9,
+    "current_section": "7.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ad27907f9902db3faae08c8eee35fa82cd16ed9ef5a690668b9ae971b1dbcb3c",
-    "student.html": "cd6b1fd2875d304d54d8168b402eff188a6450b818b79a192053ec3c542cc4a1",
-    "student.zip": "d389af6a6345c7ab035838db0abf5202c9b395611a058009e8f40071ddda7bb1",
-    "content.json": "511c252a1d00068bf1a6209f23f7568f1cf622cef60548ee81bde84641818de3"
+    "teacher.html": "25ffc9895d4e124c0dca5ca602dfbd59b76150ade14a8814d4a156d3b545d7eb",
+    "student.html": "51735e985b9cd633d88d199931880350f3963566273091ad7aa8b9bb95bb3081",
+    "student.zip": "1c84785c753d6a4302f2f6108dd5505ccf96d8aac721419aa96655d8b49c0a7b",
+    "content.json": "226aa7f2a8f585588dd84393df1567d2506324db86b598c9b58b34a7d643e0b5",
+    "teacher-guidance.json": "dad82fdcd09a48e13e17159ca2023811f68558faefe561e2fc0628b969b4cf07"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-12-3",
   "book_id": "bx3",
   "section": "12.3",
   "title": "频率与概率",
   "section_json": "batch/sections/bx3/bx3-12-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-3",
-  "fingerprint": "083f5289d5f5b5a105aff23ef5696d1698ad655d52aa8d056d4de4d665d0144c",
+  "fingerprint": "302c2285b7c7bf97674ca763510bea5260446177f3eecd735a95c51f0c13b085",
   "status": "rendered",
   "questions": 7,
   "answers": 7,
@@ -35,11 +35,29 @@
     "images/book-aa49596eb850ce6043aa.jpg",
     "images/book-ecf6a736fbb967412baf.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "12.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ac9be3f1c2c4db9251afc453db603ad0317b347b062f16ab5be27ca9744f0acd",
-    "student.html": "444d01d8b1bea51db96c398bf30097d7be9d7edabe05b5d2fbae440e3008c408",
-    "student.zip": "9e659adbdf1361ae725d05818186963a316fa42adfd7cd457bd9fdf3bc091e31",
-    "content.json": "2e07dc1a03490d258757da1ac2f522f3f59daf40d92cbfa1851732eba19b3d58"
+    "teacher.html": "f5af112705b27265e490126829feacf1f2085fc4e2c88765f5bb1bc9ac1ab36f",
+    "student.html": "679a35aa26316d2ec0900e2e17e1ac68c719bbd00ee94059fa4d68eb1b47e665",
+    "student.zip": "45f9f7d4868902e0fa6b7bd406754973ee4d496d21589dc98145c91a019cc347",
+    "content.json": "2e07dc1a03490d258757da1ac2f522f3f59daf40d92cbfa1851732eba19b3d58",
+    "teacher-guidance.json": "0298f94a5380b67508c648290f198f81228271b426cd1c06e1482d211fef083a"
   }
 }

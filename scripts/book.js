@@ -46,20 +46,124 @@ notesToggle?.addEventListener('click', () => {
   announce(hide ? '已隐藏教师批注；学生分享请使用独立学生包' : '已显示教师批注');
 });
 
+const toc = document.querySelector('.page-toc');
 const navLinks = [...document.querySelectorAll('nav a')];
-const observer = new IntersectionObserver((entries) => {
-  const visible = entries.filter((item) => item.isIntersecting);
-  if (visible.length) {
-    const id = visible[0].target.id;
-    navLinks.forEach((link) => {
-      const active = link.hash === '#' + id;
-      link.classList.toggle('active', active);
-      if (active) link.setAttribute('aria-current', 'location');
-      else link.removeAttribute('aria-current');
+const tocSearch = document.querySelector('#toc-search');
+const tocFilter = document.querySelector('#toc-filter');
+const tocToggle = document.querySelector('#toc-toggle');
+const tocDismiss = document.querySelector('#toc-dismiss');
+const tocBackdrop = document.querySelector('#toc-backdrop');
+const sidebar = document.querySelector('#page-sidebar');
+const readerToolbar = document.querySelector('.toolbar');
+function syncReaderOffset() {
+  document.documentElement.style.setProperty('--reader-offset', `${Math.ceil(readerToolbar?.getBoundingClientRect().height || 0) + 12}px`);
+}
+if (readerToolbar) new ResizeObserver(syncReaderOffset).observe(readerToolbar);
+syncReaderOffset();
+
+function setTocOpen(open, restoreFocus = false) {
+  document.body.classList.toggle('toc-open', open);
+  tocToggle?.setAttribute('aria-expanded', String(open));
+  if (tocBackdrop) tocBackdrop.hidden = !open;
+  const concealed = innerWidth <= 720 && !open;
+  if (sidebar) {
+    sidebar.inert = concealed;
+    if (concealed) sidebar.setAttribute('aria-hidden', 'true');
+    else sidebar.removeAttribute('aria-hidden');
+  }
+  if (open) tocSearch?.focus({ preventScroll: true });
+  else if (restoreFocus) tocToggle?.focus({ preventScroll: true });
+}
+setTocOpen(false);
+tocToggle?.addEventListener('click', () => setTocOpen(!document.body.classList.contains('toc-open')));
+tocDismiss?.addEventListener('click', () => setTocOpen(false, true));
+tocBackdrop?.addEventListener('click', () => setTocOpen(false, true));
+document.addEventListener('keydown', (event) => {
+  if (!document.body.classList.contains('toc-open')) return;
+  if (event.key === 'Escape') setTocOpen(false, true);
+  if (event.key === 'Tab') {
+    const stops = [...sidebar.querySelectorAll('a,button,input,select')].filter(el => !el.hidden && el.getClientRects().length);
+    const first = stops[0], last = stops.at(-1);
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }
+});
+function revealAnchor(hash, scroll = true) {
+  let id;
+  try { id = decodeURIComponent(hash.slice(1)); } catch (_) { return; }
+  const target = document.getElementById(id);
+  if (target) {
+    syncReaderOffset();
+    for (let ancestor = target.parentElement; ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.matches('details')) ancestor.open = true;
+    }
+    target.setAttribute('tabindex', '-1');
+    if (scroll) requestAnimationFrame(() => {
+      target.focus({ preventScroll: true });
+      target.scrollIntoView({ block: 'start', behavior: 'instant' });
     });
   }
-}, { rootMargin: '-12% 0px -60% 0px' });
-document.querySelectorAll('.section-heading').forEach((section) => observer.observe(section));
+}
+navLinks.forEach(link => link.addEventListener('click', () => {
+  setTocOpen(false);
+  revealAnchor(link.hash);
+}));
+addEventListener('hashchange', () => revealAnchor(location.hash));
+addEventListener('book-layout-updated', () => {
+  // Re-open a directly linked concept if visualization layout folds its source again.
+  revealAnchor(location.hash, false);
+  scheduleToc();
+});
+function filterToc() {
+  const normalize = text => text.toLocaleLowerCase().replace(/例题/g, '例').replace(/[\s·]/g, '');
+  const query = normalize((tocSearch?.value || '').trim());
+  const kind = tocFilter?.value || 'all';
+  let count = 0;
+  navLinks.forEach(link => {
+    link.hidden = !(kind === 'all' || link.dataset.tocKind === kind) ||
+      !normalize(link.dataset.tocLabel || link.textContent).includes(query);
+    if (!link.hidden) count++;
+  });
+  const status = document.querySelector('#toc-count');
+  if (status) status.textContent = count ? `${count} 处可跳转位置` : '没有匹配位置，请调整关键词或筛选';
+}
+tocSearch?.addEventListener('input', filterToc);
+tocFilter?.addEventListener('change', filterToc);
+filterToc();
+const tocTargets = navLinks.map(link => ({ link, target: document.getElementById(decodeURIComponent(link.hash.slice(1))) }))
+  .filter(item => item.target);
+let activeToc;
+let tocScheduled = false;
+function updateToc() {
+  tocScheduled = false;
+  const threshold = (document.querySelector('.toolbar')?.getBoundingClientRect().height || 0) + 35;
+  let current = tocTargets[0];
+  for (const item of tocTargets) {
+    if (!item.target.getClientRects().length || item.target.closest('details:not([open])')) continue;
+    if (item.target.getBoundingClientRect().top <= threshold) current = item;
+    else break;
+  }
+  if (current?.link === activeToc) return;
+  activeToc?.classList.remove('active');
+  activeToc?.removeAttribute('aria-current');
+  activeToc = current?.link;
+  activeToc?.classList.add('active');
+  activeToc?.setAttribute('aria-current', 'location');
+  if (toc && activeToc && !activeToc.hidden && !toc.matches(':hover') && !sidebar?.contains(document.activeElement)) {
+    const box = activeToc.getBoundingClientRect(), bounds = toc.getBoundingClientRect();
+    if (box.top < bounds.top || box.bottom > bounds.bottom) toc.scrollTop += box.top - bounds.top - toc.clientHeight / 3;
+  }
+}
+function scheduleToc() { if (!tocScheduled) { tocScheduled = true; requestAnimationFrame(updateToc); } }
+addEventListener('scroll', scheduleToc, { passive: true });
+addEventListener('resize', () => {
+  setTocOpen(innerWidth <= 720 && document.body.classList.contains('toc-open'));
+  scheduleToc();
+});
+addEventListener('site-access-granted', () => { revealAnchor(location.hash); scheduleToc(); });
+addEventListener('site-access-locked', () => setTocOpen(false));
+if (document.documentElement.dataset.accessState === 'granted') revealAnchor(location.hash);
+scheduleToc();
 function updateProgress() {
   const max = document.documentElement.scrollHeight - innerHeight;
   document.querySelector('.reading-progress').style.width = `${max > 0 ? scrollY / max * 100 : 0}%`;

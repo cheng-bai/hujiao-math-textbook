@@ -50,7 +50,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "##### 7.1 条件概率与相关公式\n\n### 教学重点\n\n(1)结合古典概型,了解条件概率；\n\n(2)能计算简单随机事件的条件概率；\n\n(3)会利用乘法公式计算概率；\n\n(4)会利用全概率公式计算概率；\n\n(5)*了解贝叶斯公式.\n\n核心概念: 条件概率、条件概率公式、全概率公式.\n\n核心素养:数学抽象、数学运算.\n\n### 内容分析\n\n本节旨在通过具体实例, 进一步介绍概率中的一些重要概念及计算概率的条件概率公式、全概率公式等, 进一步揭示概率的直观含义.\n\n(1)条件概率. 在事件 $A$ 发生的条件下,事件 $B$ 发生,试验结果必须是既在 $A$ 中又在 $B$ 中的事件,即必须属于 $A \\cap  B$ ,这等于是在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率. 于是,条件概率 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ . 将该式的分子、 分母都除以 $\\left| \\Omega \\right|$ ,就得到 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ . 这是一个以古典概率模型为前提所得到的公式,但其思想方法可以推广.\n\n(2)概率的乘法公式. 事件 $A\\text{、}B$ 同时发生的概率等于 $A$ 发生的概率与在 $A$ 发生的条件下 $B$ 发生的概率的乘积,即 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right)$ . 从样本空间的角度看,求 $P\\left( {A \\cap  B}\\right)$ 时,是在原来的样本空间 $\\Omega$ 中进行讨论的. 而求 $P\\left( {B \\mid  A}\\right)$ 时,由于已经知道事件 $A$ 发生,所考虑的样本空间就不是 $\\Omega$ 而是 $A$ 了. 因此,事件“ $A \\cap  B$ ”与事件“ $B \\mid  A$ ” 是完全不同的事件,它们之间的联系由乘法公式揭示.\n\n(3)全概率公式. 把样本空间 $\\Omega$ 分成 $n$ 个两两不同时发生(两两互斥)的事件 ${\\Omega }_{1}$ , ${\\Omega }_{2},\\cdots ,{\\Omega }_{n}$ ,即 $\\Omega  = {\\Omega }_{1} \\cup  {\\Omega }_{2} \\cup  \\cdots  \\cup  {\\Omega }_{n}$ ,且当 $i \\neq  j$ 时有 ${\\Omega }_{i} \\cap  {\\Omega }_{j} = \\varnothing$ . 这样就可以将一个复杂事件的概率分解成若干个简单事件的概率之和,即指一个事件 $A$ 发生的概率 $P\\left( A\\right)$ 是其在不同条件下发生的概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的加权平均,其中条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的权重为 $P\\left( {\\Omega }_{k}\\right) , k = 1,2,\\cdots , n$ ,即成立 $P\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right)$ ,这是一个简单直观的重要公式.\n\n例 4 回答了日常生活中抽签时抽到好签的概率是否与抽签顺序有关的问题.\n\n(4)*贝叶斯公式. 贝叶斯公式为利用搜集到的信息对原有判断进行修正提供了有效的手段. 在贝叶斯公式及其变形中, $P\\left( {{\\Omega }_{i} \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right) }{P\\left( A\\right) } = P\\left( {\\Omega }_{i}\\right)$ . $\\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) }{P\\left( A\\right) }$ . 对于任意给定的 $i$ 来说, $P\\left( {\\Omega }_{i}\\right)$ 称为事件 ${\\Omega }_{i}$ 的先验概率. 一个已经发生了的事件 $A$ 可以看作一个新的信息,在 $A$ 发生的条件下, ${\\Omega }_{i}$ 发生的概率 $P\\left( {{\\Omega }_{i} \\mid  A}\\right)$ 可以看作对原概率 $P\\left( {\\Omega }_{i}\\right)$ 的一个矫正,称为后验概率. 贝叶斯公式提供了一种通过不断学习经验来认识随机现象的思想, 是机器学习的理论基础之一.\n\n通常,在事件 $B$ 发生的条件下发生事件 $A$ 的概率,与在事件 $A$ 发生的条件下发生事件 $B$ 的概率是不一样的. 然而,这两者具有确定的关系,贝叶斯公式就是对这种关系的陈述,即成立 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  B}\\right) P\\left( B\\right) }{P\\left( A\\right) }$ .\n\n例 1、例 2 旨在帮助学生理解条件概率,并直接运用条件概率公式求解. 练习 7.1 (1)的第 1、3 题旨在辨析条件概率以及两个事件同时发生的概率,习题 7.1A 组第 1、 2 题是对这两道例题的巩固.\n\n例 3 是为了说明全概率公式的直观意义, 在没有给出公式之前, 启发学生能自主获得.\n\n例 4 以特殊事例进行建模, 通过应用全概率公式计算, 说明抽签的结果与抽签顺序无关. 教学中, 还可以继续证明第四、第五个人摸到白球的概率, 使学生透彻理解抽签时抽到好签的概率与抽签顺序无关.\n\n例 5 先厘清第一次摸球后黑球可能在 A 罐中, 也可能在 B 罐中, 进而分类讨论两种情况下的条件概率, 并应用全概率公式求解. 练习 7.1(2) 的第 2、3 题、习题 7.1A 组第 3、4 题是对该例题的巩固.\n\n例 6 以一个实际问题为背景, 求在检测呈阳性反应时, 该人患有这种疾病的条件概率, 而已知信息是患有这种疾病检测呈阳性反应的概率及不患有这种疾病检测呈阳性反应的概率. 建立典型的贝叶斯公式模型, 是后验概率对先验概率的一个矫正, 并在该例的基础上, 给出一般形式的贝叶斯公式.\n\n### 注意事项\n\n注意“求事件 $A$ 发生且事件 $B$ 发生的概率”与“已知事件 $A$ 发生,求事件 $B$ 发生的概率”两者的不同. 在实际问题中, 需注意分辨.\n\n如果事件 $A$ 是否发生对事件 $B$ 发生的概率没有影响,即 $P\\left( {B \\mid  A}\\right)  = P\\left( B\\right)$ ,就称两个事件 $A\\text{、}B$ 相互独立,并把这两个事件叫做相互独立事件.\n\n贝叶斯公式诱导出一种统计学观点, 也是哲学观点: 事件的概率可以根据出现的新信息来进行修正.\n\n### 教学建议\n\n计算条件概率通常有两种基本方法: 一是根据定义,得 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ ; 二是改变样本空间,即在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率,得 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ .",
+    "markdown": "##### 7.1 条件概率与相关公式\n\n### 教学重点\n\n(1)结合古典概型,了解条件概率；\n\n(2)能计算简单随机事件的条件概率；\n\n(3)会利用乘法公式计算概率；\n\n(4)会利用全概率公式计算概率；\n\n(5)*了解贝叶斯公式.\n\n核心概念: 条件概率、条件概率公式、全概率公式.\n\n核心素养:数学抽象、数学运算.\n\n### 内容分析\n\n本节旨在通过具体实例, 进一步介绍概率中的一些重要概念及计算概率的条件概率公式、全概率公式等, 进一步揭示概率的直观含义.\n\n(1)条件概率. 在事件 $A$ 发生的条件下,事件 $B$ 发生,试验结果必须是既在 $A$ 中又在 $B$ 中的事件,即必须属于 $A \\cap  B$ ,这等于是在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率. 于是,条件概率 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ . 将该式的分子、 分母都除以 $\\left| \\Omega \\right|$ ,就得到 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ . 这是一个以古典概率模型为前提所得到的公式,但其思想方法可以推广.\n\n(2)概率的乘法公式. 事件 $A\\text{、}B$ 同时发生的概率等于 $A$ 发生的概率与在 $A$ 发生的条件下 $B$ 发生的概率的乘积,即 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right)$ . 从样本空间的角度看,求 $P\\left( {A \\cap  B}\\right)$ 时,是在原来的样本空间 $\\Omega$ 中进行讨论的. 而求 $P\\left( {B \\mid  A}\\right)$ 时,由于已经知道事件 $A$ 发生,所考虑的样本空间就不是 $\\Omega$ 而是 $A$ 了. 因此,事件“ $A \\cap  B$ ”与事件“ $B \\mid  A$ ” 是完全不同的事件,它们之间的联系由乘法公式揭示.\n\n(3)全概率公式. 把样本空间 $\\Omega$ 分成 $n$ 个两两不同时发生(两两互斥)的事件 ${\\Omega }_{1}$ , ${\\Omega }_{2},\\cdots ,{\\Omega }_{n}$ ,即 $\\Omega  = {\\Omega }_{1} \\cup  {\\Omega }_{2} \\cup  \\cdots  \\cup  {\\Omega }_{n}$ ,且当 $i \\neq  j$ 时有 ${\\Omega }_{i} \\cap  {\\Omega }_{j} = \\varnothing$ . 这样就可以将一个复杂事件的概率分解成若干个简单事件的概率之和,即指一个事件 $A$ 发生的概率 $P\\left( A\\right)$ 是其在不同条件下发生的概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的加权平均,其中条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的权重为 $P\\left( {\\Omega }_{k}\\right) , k = 1,2,\\cdots , n$ ,即成立 $P\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right)$ ,这是一个简单直观的重要公式.\n\n(4)*贝叶斯公式. 贝叶斯公式为利用搜集到的信息对原有判断进行修正提供了有效的手段. 在贝叶斯公式及其变形中, $P\\left( {{\\Omega }_{i} \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right) }{P\\left( A\\right) } = P\\left( {\\Omega }_{i}\\right)$ . $\\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) }{P\\left( A\\right) }$ . 对于任意给定的 $i$ 来说, $P\\left( {\\Omega }_{i}\\right)$ 称为事件 ${\\Omega }_{i}$ 的先验概率. 一个已经发生了的事件 $A$ 可以看作一个新的信息,在 $A$ 发生的条件下, ${\\Omega }_{i}$ 发生的概率 $P\\left( {{\\Omega }_{i} \\mid  A}\\right)$ 可以看作对原概率 $P\\left( {\\Omega }_{i}\\right)$ 的一个矫正,称为后验概率. 贝叶斯公式提供了一种通过不断学习经验来认识随机现象的思想, 是机器学习的理论基础之一.\n\n通常,在事件 $B$ 发生的条件下发生事件 $A$ 的概率,与在事件 $A$ 发生的条件下发生事件 $B$ 的概率是不一样的. 然而,这两者具有确定的关系,贝叶斯公式就是对这种关系的陈述,即成立 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  B}\\right) P\\left( B\\right) }{P\\left( A\\right) }$ .\n\n### 注意事项\n\n注意“求事件 $A$ 发生且事件 $B$ 发生的概率”与“已知事件 $A$ 发生,求事件 $B$ 发生的概率”两者的不同. 在实际问题中, 需注意分辨.\n\n如果事件 $A$ 是否发生对事件 $B$ 发生的概率没有影响,即 $P\\left( {B \\mid  A}\\right)  = P\\left( B\\right)$ ,就称两个事件 $A\\text{、}B$ 相互独立,并把这两个事件叫做相互独立事件.\n\n贝叶斯公式诱导出一种统计学观点, 也是哲学观点: 事件的概率可以根据出现的新信息来进行修正.\n\n### 教学建议\n\n计算条件概率通常有两种基本方法: 一是根据定义,得 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ ; 二是改变样本空间,即在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率,得 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ .",
     "provenance": [
       {
         "source": "teacher",
@@ -154,8 +154,32 @@
         "end": 50
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1、例 2 旨在帮助学生理解条件概率,并直接运用条件概率公式求解. 练习 7.1 (1)的第 1、3 题旨在辨析条件概率以及两个事件同时发生的概率,习题 7.1A 组第 1、 2 题是对这两道例题的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          1,
+          2
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -185,8 +209,32 @@
         "end": 86
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1、例 2 旨在帮助学生理解条件概率,并直接运用条件概率公式求解. 练习 7.1 (1)的第 1、3 题旨在辨析条件概率以及两个事件同时发生的概率,习题 7.1A 组第 1、 2 题是对这两道例题的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          1,
+          2
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -354,8 +402,31 @@
         "end": 154
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3 是为了说明全概率公式的直观意义, 在没有给出公式之前, 启发学生能自主获得.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -385,8 +456,46 @@
         "end": 212
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 回答了日常生活中抽签时抽到好签的概率是否与抽签顺序有关的问题.\n\n### 教参原文提示\n\n例 4 以特殊事例进行建模, 通过应用全概率公式计算, 说明抽签的结果与抽签顺序无关. 教学中, 还可以继续证明第四、第五个人摸到白球的概率, 使学生透彻理解抽签时抽到好签的概率与抽签顺序无关.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      },
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -416,8 +525,31 @@
         "end": 232
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 先厘清第一次摸球后黑球可能在 A 罐中, 也可能在 B 罐中, 进而分类讨论两种情况下的条件概率, 并应用全概率公式求解. 练习 7.1(2) 的第 2、3 题、习题 7.1A 组第 3、4 题是对该例题的巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          5
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -585,8 +717,31 @@
         "end": 294
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 6 以一个实际问题为背景, 求在检测呈阳性反应时, 该人患有这种疾病的条件概率, 而已知信息是患有这种疾病检测呈阳性反应的概率及不患有这种疾病检测呈阳性反应的概率. 建立典型的贝叶斯公式模型, 是后验概率对先验概率的一个矫正, 并在该例的基础上, 给出一般形式的贝叶斯公式.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 99,
+        "end": 154
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 99,
+            "end": 154
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "7.1",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

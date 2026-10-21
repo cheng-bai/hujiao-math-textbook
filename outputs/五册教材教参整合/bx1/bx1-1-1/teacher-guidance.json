@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 12,
+  "source_paragraphs": 13,
+  "matched_source_groups": 12,
+  "moved_source_paragraphs": 13,
+  "attached_paragraphs": 13,
+  "reused_existing_paragraphs": 0,
+  "attachments": [
+    {
+      "question_id": "bx1-1-1-ex-1",
+      "example_number": 1,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-2",
+      "example_number": 2,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-3",
+      "example_number": 3,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-4",
+      "example_number": 4,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-5",
+      "example_number": 5,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-6",
+      "example_number": 6,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-7",
+      "example_number": 7,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-8",
+      "example_number": 8,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-9",
+      "example_number": 9,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-10",
+      "example_number": 10,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-11",
+      "example_number": 11,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-1-1-ex-12",
+      "example_number": 12,
+      "source_id": "bx1-1-1-b3",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 86,
+          "end": 173
+        }
+      ]
+    }
+  ],
+  "unmatched": [],
+  "matched_examples": 12,
+  "unmatched_groups": 0,
+  "unmatched_paragraphs": 0,
+  "attachment_count": 12,
+  "current_section": "1.1"
+}

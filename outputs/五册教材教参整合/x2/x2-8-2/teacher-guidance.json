@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 4,
+  "source_paragraphs": 4,
+  "matched_source_groups": 2,
+  "moved_source_paragraphs": 2,
+  "attached_paragraphs": 2,
+  "reused_existing_paragraphs": 0,
+  "attachments": [
+    {
+      "question_id": "x2-8-2-ex-1",
+      "example_number": 1,
+      "source_id": "x2-8-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 188,
+          "end": 381
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-2-ex-1",
+      "example_number": 1,
+      "source_id": "x2-8-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 188,
+          "end": 381
+        }
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "source_id": "x2-8-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 188,
+          "end": 381
+        }
+      ],
+      "examples_referenced": [
+        1
+      ],
+      "section": "8.3",
+      "reason": "section-mismatch",
+      "unconfirmed_examples": [],
+      "text": "例 1 实际上是为了巩固 ${\\chi }^{2}$ 检验的步骤,建议让学生自主解决."
+    },
+    {
+      "source_id": "x2-8-2-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 188,
+          "end": 381
+        }
+      ],
+      "examples_referenced": [
+        2,
+        3
+      ],
+      "section": "8.3",
+      "reason": "section-mismatch",
+      "unconfirmed_examples": [
+        2,
+        3
+      ],
+      "text": "例 2 与例 3 是为了展现 $2 \\times  2$ 列联表独立性检验的进一步应用,让学生体会在不能拒绝原假设 ${H}_{0}$ 的情形下,统计结论的表述方式."
+    }
+  ],
+  "matched_examples": 1,
+  "unmatched_groups": 2,
+  "unmatched_paragraphs": 2,
+  "attachment_count": 2,
+  "current_section": "8.2"
+}

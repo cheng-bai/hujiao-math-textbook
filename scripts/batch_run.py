@@ -12,6 +12,7 @@ import json
 import re
 import time
 import traceback
+from site_access import install_project_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH = ROOT / 'batch'
@@ -40,7 +41,8 @@ def jobs(catalog, book_ids=None):
 
 def fingerprint(path):
     digest = hashlib.sha256(path.read_bytes())
-    for name in ['batch_render.py', 'batch_validate.py', 'book.css', 'book.js', 'build_sample.py']:
+    for name in ['batch_render.py', 'batch_validate.py', 'book.css', 'book.js', 'build_sample.py',
+                 'site_access.py', 'site-access.css', 'site-access.js', 'example_guidance.py']:
         dependency = ROOT / 'scripts' / name
         if dependency.is_file():
             digest.update(name.encode())
@@ -115,7 +117,10 @@ def write_portal(catalog):
                 validation = json.loads(validation_file.read_text(encoding='utf-8')) if validation_file.is_file() else {}
                 build_file = node / 'metadata.json'
                 build = json.loads(build_file.read_text(encoding='utf-8')) if build_file.is_file() else {}
-                passed = validation.get('status') == 'passed' and state.get('status') == 'validated'
+                rendered_file = node / 'build.json'
+                rendered_build = json.loads(rendered_file.read_text(encoding='utf-8')) if rendered_file.is_file() else {}
+                current_validation = bool(rendered_build.get('fingerprint')) and validation.get('build_fingerprint') == rendered_build['fingerprint']
+                passed = validation.get('status') == 'passed' and state.get('status') == 'validated' and current_validation
                 blocked = state.get('status') == 'blocked'
                 for target in [stats, totals]:
                     target['sections'] += 1
@@ -191,6 +196,7 @@ def write_portal(catalog):
 批量脚本与恢复命令见项目 `batch/README.md`。不依赖聊天中保留全书上下文，不创建后台计划任务。
 '''
     (OUTPUT / '交付与核验说明.md').write_text(notes, encoding='utf-8')
+    install_project_pages()
     return summary
 
 

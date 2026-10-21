@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-8-3",
   "book_id": "x2",
   "section": "8.3",
   "title": "2×2 列联表",
   "section_json": "batch/sections/x2/x2-8-3.json",
   "output": "outputs/五册教材教参整合/x2/x2-8-3",
-  "fingerprint": "d1dc165e93a3f0bde29cc6e94353c746c2d4b7524a39bd49d69b02afa8c13a4c",
+  "fingerprint": "831c3a1630c5031f75b4f93abdc2a27851629d611ab5f4aabae3eeea0f749be6",
   "status": "rendered",
   "questions": 8,
   "answers": 8,
@@ -21,11 +21,29 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md": "70596878acb5841fc585358b25ed22582bd7da897b937db8c9a7ae644baacb67"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "8.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ec9b3c27a5fdd240a4ab49621e19ee56ba923a036a64030ff884ebe64ac86b61",
-    "student.html": "25a90af7e0ae16f969373e8c8d169896f831c513c677a2e81100ddfa04c4459a",
-    "student.zip": "541980d50e854324a622ac05046295f191a93eff15f6c8239427d065811da726",
-    "content.json": "18b24c1bc6c3dd24c9c5cf108d9c5a6bbfbdb7e856046f65a3851a7ea0ae791c"
+    "teacher.html": "92f2f45554f645370c8cabe61170436b1467be4e3afbf4652928ffa5a73b3907",
+    "student.html": "80570cde716a9faea179e8a4992a196084048b3082c46f57800e6964722f4d28",
+    "student.zip": "242590e1cdfa88372fdb6f605e459d69044bd8f3ba8b60512620e2fe3491e393",
+    "content.json": "18b24c1bc6c3dd24c9c5cf108d9c5a6bbfbdb7e856046f65a3851a7ea0ae791c",
+    "teacher-guidance.json": "b9fae47dd3f7d69d5bba57b8d90c9f9b14163cbc77bd5cb6406751e311cdbcd4"
   }
 }

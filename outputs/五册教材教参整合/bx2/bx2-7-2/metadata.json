@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-7-2",
   "book_id": "bx2",
   "section": "7.2",
   "title": "余弦函数的图像与性质",
   "section_json": "batch/sections/bx2/bx2-7-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-2",
-  "fingerprint": "ced4539174ebef831f5f5ce06b0a5c164c1ca20eca56dde1e21df5f93ade796a",
+  "fingerprint": "1fd8d389c1184ae5d1e69810e5586854503fff2ba06c7c4f02c8dc9c2f04c0c9",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -35,11 +35,54 @@
     "images/book-0ab74014bf2e2872b3cc.jpg",
     "images/book-75454739f85619cc65e0.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 2,
+    "attachments": [
+      {
+        "question_id": "bx2-7-2-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 162,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-2-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-7-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 162,
+            "end": 189
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 2,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 2,
+    "current_section": "7.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "458153d907c565b154de9fcd1120788838c2159bcea89663ca17005252b3c1aa",
-    "student.html": "9f5a324b6b98449f0195320263f8796f13d8e98064f450d4b00abe0e675cc03f",
-    "student.zip": "f6b4005be048bf533e2ec5b87b5f998d00a0279ccfcbf98a5c1bd1202bcdcb63",
-    "content.json": "7cdb5c429c3682741743c085a707340fe49e1f6266854fbbdd573600ec675a25"
+    "teacher.html": "10a191a3f0a3c83ff3d5e9fcec5641679e45a44e48fb6e74bf54acc3b2bb485d",
+    "student.html": "584fed839df40c2aa221036b59b706f4e5160e770069328acd47f31f397fb105",
+    "student.zip": "7f85e9622acb97c35e147c5b4c4f86ebff7ed5dd29fe72f1e67b9ee659a8af9b",
+    "content.json": "4bd22c50527d6d7f5fcc1549c315c37e12c295a4bf2e152a192eea220a88b176",
+    "teacher-guidance.json": "db213af9ef43683d816edfd505246814e796e626bc0b8f438ee460af5f962acf"
   }
 }

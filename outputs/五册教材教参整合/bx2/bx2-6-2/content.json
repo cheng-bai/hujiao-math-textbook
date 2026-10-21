@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 6.2 常用三角公式\n\n### 教学重点\n\n通过推导两角差的余弦公式, 知道两角差的余弦公式的意义.\n\n能从两角差的余弦公式推导两角和与差的正弦、余弦、正切公式, 二倍角的正弦、余弦、正切公式, 并了解它们的内在联系.\n\n能运用上述公式进行简单的恒等变换, 包括推导出半角公式、积化和差公式、和差化积公式(这三组公式不强行要求记忆).\n\n### 内容分析\n\n本教材中, 两角和与差的正弦、余弦、正切公式是在两角差的余弦公式的基础上, 通过诱导公式与同角三角关系推导得到的, 由此可进一步得到其常用的特例一二倍角公式. 半角公式可视为由二倍角公式的变化形成, 而积化和差、和差化积公式可视为由两角和与差的正弦、余弦公式变形而成. 积化和差公式与和差化积公式又可以相互推导. 因此, 需要熟悉两角差的余弦公式的推导过程, 灵活掌握恒等变换中的正用、逆用和变化应用, 将本节中的各个公式有机联系起来.\n\n例 1 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角和与差的余弦公式. 要注意本题的解答方法不唯一.\n\n例 2 旨在例示如何在相对复杂的情况下使用两角差的余弦公式, 其中在同角三角平方关系的使用中, 由角所属的象限确定相应三角值的符号是解题的关键.\n\n例 3 旨在通过关注角之间的联系, 合理用已知角表示目标角, 再使用两角差的余弦公式. 注意, 学生容易直接使用两角和的余弦公式, 再使用解方程的方法求得目标角的余弦, 但这并不是最优的方法. 通过本例让学生体会可以从不同的角度思考问题, 从而合理选择公式和算法.\n\n例 4 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角差的正弦公式.\n\n例 5 旨在例示如何使用两角和与差的正弦公式进行恒等变换. 其中,观察等式右侧的特征是合理使用公式的关键.\n\n例 6 和例 7 旨在体现如何在简单的情形中使用两角和与差的正切公式.\n\n例 8 是关于斜三角形的一个常见又比较重要的结论, 而其证明用的是两角和的正切公式的一个常见变化形式. 学生需要熟悉两角和与差公式的一些常见变化形式.\n\n例 9 可以为求解向量绕原点旋转作预备, 进而可推导出平面直角坐标系的坐标旋转公式. 由于本题综合了三角的定义和两角和的正弦与余弦公式, 不但有典型性, 更有较强的综合性.\n\n例 10 将单角化为复合角, 被称为辅助角公式. 本例综合了三角的定义与两角和或差的正弦公式的逆向使用,且事实上还存在着某种构造性的应用,这个公式的掌握对学生来讲是相对困难的.\n\n例 11 旨在例示如何在简单的情形中使用二倍角公式.\n\n例 12 旨在说明如何从二倍角公式推导三倍角的余弦公式, 进一步可以用类似方法推导多倍角的相应公式. 该公式曾在历史上为三次方程的求解提供了重要的思路, 但在教学上不应强调记忆该公式, 只需掌握其推导方法和体会转化的思想.\n\n例 13 旨在说明二倍角公式如何用来“降次”或“升次”. 虽然本题为证明恒等式, 但重要的是需要掌握二倍角公式的正用或逆用的方法.\n\n例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.\n\n### 注意事项\n\n在两角差的余弦公式的推导中, 由于角为任意角, 在平面直角坐标系中采用了解析方法通过构造图形而加以证明. 这种推导方法有利于提升学生的分析和论证能力, 培养学生的数学素养.\n\n本节中很多的三角公式是有适用条件的, 在教学过程中应予注意, 以保证数学的严谨性,但不宜对此有较高的要求.\n\n在三角恒等变换过程中, 熟悉公式的特征才能够合理正用、逆用或变化使用公式; 观察角(已知角和目标角)之间的联系也会影响公式选用的合理性; 而涉及到平方关系的表达式在开方运算过程中往往与角所属象限的三角的符号选择有关. 以上三点是本节公式使用的难点, 需要在学习中予以强调. 事实上, 这些在本节公式的推导过程中都分别有所体现, 在教学中必须注重分析和展现这些要点.\n\n### 教学建议\n\n辅助角公式是在下一章三角函数学习中常用的工具. 辅助角公式在教学上不仅是重点, 而且由于综合了等式的构造、三角的定义、两角和与差公式的逆向使用等知识和方法, 更是教学中的难点.\n\n二倍角公式与半角公式存在天然的联系, 在二倍角公式的逆用和变化使用中需要适当控制难度.\n\n半角公式、积化和差公式与和差化积公式在教学中不必过分展开, 不需要强调记忆, 更不必强调使用这些公式进行化简、求值与证明. 体会推导过程中的知识来源、 恒等变换方法及数学思想, 让学生知道这些公式并在需要时能够查阅或推导, 就达到了该小节的教学目的.",
+    "markdown": "#### 6.2 常用三角公式\n\n### 教学重点\n\n通过推导两角差的余弦公式, 知道两角差的余弦公式的意义.\n\n能从两角差的余弦公式推导两角和与差的正弦、余弦、正切公式, 二倍角的正弦、余弦、正切公式, 并了解它们的内在联系.\n\n能运用上述公式进行简单的恒等变换, 包括推导出半角公式、积化和差公式、和差化积公式(这三组公式不强行要求记忆).\n\n### 内容分析\n\n本教材中, 两角和与差的正弦、余弦、正切公式是在两角差的余弦公式的基础上, 通过诱导公式与同角三角关系推导得到的, 由此可进一步得到其常用的特例一二倍角公式. 半角公式可视为由二倍角公式的变化形成, 而积化和差、和差化积公式可视为由两角和与差的正弦、余弦公式变形而成. 积化和差公式与和差化积公式又可以相互推导. 因此, 需要熟悉两角差的余弦公式的推导过程, 灵活掌握恒等变换中的正用、逆用和变化应用, 将本节中的各个公式有机联系起来.\n\n### 注意事项\n\n在两角差的余弦公式的推导中, 由于角为任意角, 在平面直角坐标系中采用了解析方法通过构造图形而加以证明. 这种推导方法有利于提升学生的分析和论证能力, 培养学生的数学素养.\n\n本节中很多的三角公式是有适用条件的, 在教学过程中应予注意, 以保证数学的严谨性,但不宜对此有较高的要求.\n\n在三角恒等变换过程中, 熟悉公式的特征才能够合理正用、逆用或变化使用公式; 观察角(已知角和目标角)之间的联系也会影响公式选用的合理性; 而涉及到平方关系的表达式在开方运算过程中往往与角所属象限的三角的符号选择有关. 以上三点是本节公式使用的难点, 需要在学习中予以强调. 事实上, 这些在本节公式的推导过程中都分别有所体现, 在教学中必须注重分析和展现这些要点.\n\n### 教学建议\n\n辅助角公式是在下一章三角函数学习中常用的工具. 辅助角公式在教学上不仅是重点, 而且由于综合了等式的构造、三角的定义、两角和与差公式的逆向使用等知识和方法, 更是教学中的难点.\n\n二倍角公式与半角公式存在天然的联系, 在二倍角公式的逆用和变化使用中需要适当控制难度.\n\n半角公式、积化和差公式与和差化积公式在教学中不必过分展开, 不需要强调记忆, 更不必强调使用这些公式进行化简、求值与证明. 体会推导过程中的知识来源、 恒等变换方法及数学思想, 让学生知道这些公式并在需要时能够查阅或推导, 就达到了该小节的教学目的.",
     "provenance": [
       {
         "source": "teacher",
@@ -114,6 +114,28 @@
         "source": "teacher",
         "start": 168,
         "end": 168
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -151,6 +173,28 @@
         "source": "teacher",
         "start": 170,
         "end": 170
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -188,6 +232,28 @@
         "source": "teacher",
         "start": 172,
         "end": 172
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -333,6 +399,28 @@
         "source": "teacher",
         "start": 174,
         "end": 174
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -370,6 +458,28 @@
         "source": "teacher",
         "start": 176,
         "end": 176
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          5
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -407,6 +517,29 @@
         "source": "teacher",
         "start": 178,
         "end": 178
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          6,
+          7
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -444,6 +577,29 @@
         "source": "teacher",
         "start": 178,
         "end": 178
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          6,
+          7
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -594,6 +750,28 @@
         "source": "teacher",
         "start": 180,
         "end": 180
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          8
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -641,6 +819,28 @@
         "source": "teacher",
         "start": 182,
         "end": 182
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          9
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -678,6 +878,28 @@
         "source": "teacher",
         "start": 184,
         "end": 184
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          10
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -871,6 +1093,28 @@
         "source": "teacher",
         "start": 186,
         "end": 186
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          11
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -908,6 +1152,28 @@
         "source": "teacher",
         "start": 188,
         "end": 188
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          12
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -945,6 +1211,28 @@
         "source": "teacher",
         "start": 190,
         "end": 190
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          13
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -1120,6 +1408,31 @@
         "source": "teacher",
         "start": 192,
         "end": 192
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -1157,6 +1470,31 @@
         "source": "teacher",
         "start": 192,
         "end": 192
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -1194,6 +1532,31 @@
         "source": "teacher",
         "start": 192,
         "end": 192
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },
@@ -1231,6 +1594,31 @@
         "source": "teacher",
         "start": 192,
         "end": 192
+      },
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 209
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "bx2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 154,
+            "end": 209
+          }
+        ],
+        "examples_referenced": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
       }
     ]
   },

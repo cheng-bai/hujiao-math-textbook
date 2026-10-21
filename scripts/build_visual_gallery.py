@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 from urllib.parse import quote
+from site_access import install_assets, install_page
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_AUDIT = ROOT / 'docs/textbook-visual-selection.json'
@@ -196,6 +197,9 @@ def main() -> None:
 <footer>本索引根据可视化选择清单与教材章节目录生成。页面与缩略图使用本地相对链接；资源未生成时显示待重建提示。可视化交互用于解释数学关系，不替代完整证明、题答校核或全书内容审定。</footer></main></body></html>'''
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(html_doc, encoding='utf-8')
+    if args.output.resolve().is_relative_to(ROOT / 'outputs'):
+        install_assets()
+        install_page(args.output)
     print(json.dumps({'output': str(args.output), 'nodes': section_total, 'newModules': len(assets),
                       'existingConicModules': len(existing), 'placements': unique_placements,
                       'visualizedSections': visible_sections, 'newModuleSections': selected_sections,

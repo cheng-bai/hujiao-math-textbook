@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 6.3 组合\n\n### 教学重点\n\n明确组合和组合数的概念, 掌握组合数的计算方法, 能进行与组合数有关的简单恒等式的推导和证明.\n\n### 内容分析\n\n组合是基本的计数模型之一, 也是乘法原理的一个最主要的应用. 学生对组合的计数经验较少, 对这部分内容的理解, 既需要学生对乘法原理的本质有深层次的认识, 熟练掌握组合数的计算, 也要熟练运用符号语言. 这部分内容的学习效果直接影响到后面学习二项式定理和概率等内容, 在教学中, 教师需要处理好问题难度和典型性之间的关系.\n\n例 1 旨在明确“排列”与“组合”的区别.\n\n例 2 要求利用枚举法分别写出 “每场比赛的两支球队” (组合) 和 “冠亚军的所有可能情况” (排列), 旨在进一步指出, 对于实际的计数问题, 要根据问题的本质属性判断是 “排列问题”还是 “组合问题”. 练习 6.3(1)的第 1、2 题以数学中的例子进一步阐明两者的区别.\n\n例 3 是几何中的组合问题. 配套练习为习题 6.3A 组的第 1 题及习题 6.3B 组的第 3 题.\n\n例 4 是选用学生熟悉的体育比赛赛制编排的组合问题, 是例 2 的延伸.\n\n例 5 和例 6 选用学生熟悉的实际生活中的计数问题, 是对“排列”和“组合”的进一步辨析,综合使用乘法原理与组合计算方法. 练习 6.3(2)的第 2 题,习题 6.3A 组的第 2、3、5 题, 习题 6.3B 组的第 4 题, 均可以作为这两个例子的配套练习. 另外, 习题 6.3A 组的第 4、6 题, 可以作为“从反面计算”的例子.\n\n例 7、例 8、例 9 旨在使学生掌握组合数的一般计算方法. 例 8 作为组合数的两个常用性质, 需要学生熟练掌握, 两种说明方法都需要向学生明示. 配套练习为练习 6.3(3)的第 1、2 题,习题 6.3A 组的第 7 至 9 题,习题 6.3B 组的第 2、5 题.\n\n### 注意事项\n\n“排列”与“组合”的区别不仅仅在于“有序”和“无序”,在一般情况下,综合性计数问题遵循的策略是 “先选择,后排列”,这从组合数的推导过程中就可以看出来. 组合数的推导过程是将 “排列” 问题从两个不同的角度来进行考虑, 一是直接使用乘法原理, 二是先选择元素, 对这些元素进行排列, 再使用乘法原理, 从而得到组合数的计算表达式. 在教学过程中,“先选择,后排列”的计数方法是需要不断向学生强调的,练习 6.3(2)第 2 题的第(2)小题使用的就是 “先选择,后排列”的计数方法.\n\n### 教学建议\n\n在教学过程中, 应当加强对典型问题的剖析, 突出对组合本质的理解, 要淡化技巧, 避免繁杂的问题. 对于典型的组合问题, 可以从不同的角度进行考虑及阐述, 并采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
+    "markdown": "#### 6.3 组合\n\n### 教学重点\n\n明确组合和组合数的概念, 掌握组合数的计算方法, 能进行与组合数有关的简单恒等式的推导和证明.\n\n### 内容分析\n\n组合是基本的计数模型之一, 也是乘法原理的一个最主要的应用. 学生对组合的计数经验较少, 对这部分内容的理解, 既需要学生对乘法原理的本质有深层次的认识, 熟练掌握组合数的计算, 也要熟练运用符号语言. 这部分内容的学习效果直接影响到后面学习二项式定理和概率等内容, 在教学中, 教师需要处理好问题难度和典型性之间的关系.\n\n### 注意事项\n\n“排列”与“组合”的区别不仅仅在于“有序”和“无序”,在一般情况下,综合性计数问题遵循的策略是 “先选择,后排列”,这从组合数的推导过程中就可以看出来. 组合数的推导过程是将 “排列” 问题从两个不同的角度来进行考虑, 一是直接使用乘法原理, 二是先选择元素, 对这些元素进行排列, 再使用乘法原理, 从而得到组合数的计算表达式. 在教学过程中,“先选择,后排列”的计数方法是需要不断向学生强调的,练习 6.3(2)第 2 题的第(2)小题使用的就是 “先选择,后排列”的计数方法.\n\n### 教学建议\n\n在教学过程中, 应当加强对典型问题的剖析, 突出对组合本质的理解, 要淡化技巧, 避免繁杂的问题. 对于典型的组合问题, 可以从不同的角度进行考虑及阐述, 并采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
     "provenance": [
       {
         "source": "teacher",
@@ -100,8 +100,31 @@
         "end": 792
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在明确“排列”与“组合”的区别.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -131,8 +154,31 @@
         "end": 808
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 要求利用枚举法分别写出 “每场比赛的两支球队” (组合) 和 “冠亚军的所有可能情况” (排列), 旨在进一步指出, 对于实际的计数问题, 要根据问题的本质属性判断是 “排列问题”还是 “组合问题”. 练习 6.3(1)的第 1、2 题以数学中的例子进一步阐明两者的区别.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -287,8 +333,31 @@
         "end": 886
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3 是几何中的组合问题. 配套练习为习题 6.3A 组的第 1 题及习题 6.3B 组的第 3 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -318,8 +387,31 @@
         "end": 894
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 是选用学生熟悉的体育比赛赛制编排的组合问题, 是例 2 的延伸.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -349,8 +441,32 @@
         "end": 910
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 和例 6 选用学生熟悉的实际生活中的计数问题, 是对“排列”和“组合”的进一步辨析,综合使用乘法原理与组合计算方法. 练习 6.3(2)的第 2 题,习题 6.3A 组的第 2、3、5 题, 习题 6.3B 组的第 4 题, 均可以作为这两个例子的配套练习. 另外, 习题 6.3A 组的第 4、6 题, 可以作为“从反面计算”的例子.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -380,8 +496,32 @@
         "end": 932
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 和例 6 选用学生熟悉的实际生活中的计数问题, 是对“排列”和“组合”的进一步辨析,综合使用乘法原理与组合计算方法. 练习 6.3(2)的第 2 题,习题 6.3A 组的第 2、3、5 题, 习题 6.3B 组的第 4 题, 均可以作为这两个例子的配套练习. 另外, 习题 6.3A 组的第 4、6 题, 可以作为“从反面计算”的例子.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -518,8 +658,33 @@
         "end": 974
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在使学生掌握组合数的一般计算方法. 例 8 作为组合数的两个常用性质, 需要学生熟练掌握, 两种说明方法都需要向学生明示. 配套练习为练习 6.3(3)的第 1、2 题,习题 6.3A 组的第 7 至 9 题,习题 6.3B 组的第 2、5 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -549,8 +714,33 @@
         "end": 1016
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在使学生掌握组合数的一般计算方法. 例 8 作为组合数的两个常用性质, 需要学生熟练掌握, 两种说明方法都需要向学生明示. 配套练习为练习 6.3(3)的第 1、2 题,习题 6.3A 组的第 7 至 9 题,习题 6.3B 组的第 2、5 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -580,8 +770,33 @@
         "end": 1078
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在使学生掌握组合数的一般计算方法. 例 8 作为组合数的两个常用性质, 需要学生熟练掌握, 两种说明方法都需要向学生明示. 配套练习为练习 6.3(3)的第 1、2 题,习题 6.3A 组的第 7 至 9 题,习题 6.3B 组的第 2、5 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 131,
+        "end": 160
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 131,
+            "end": 160
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

@@ -12,6 +12,7 @@ from pathlib import Path
 
 import fitz
 from playwright.sync_api import sync_playwright
+from test_print import unlock_access
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'outputs/五册教材教参整合/x1'
@@ -62,6 +63,7 @@ def main() -> None:
         page.on('pageerror', lambda error: errors.append(str(error)))
         page.on('request', lambda request: external_requests.append(request.url) if request.url.startswith(('http:', 'https:')) else None)
         page.goto(TEACHER_ELLIPSE.as_uri(), wait_until='load')
+        unlock_access(page)
         page.wait_for_function('document.documentElement.dataset.visualReady === "true" && document.documentElement.dataset.math === "rendered"')
         page.evaluate('localStorage.removeItem("hujiao-x1-visual-layout-v1")')
         page.reload(wait_until='load')
@@ -112,6 +114,7 @@ def main() -> None:
         download_info.value.save_as(config_path)
 
         page.goto(TEACHER_PLANE.as_uri(), wait_until='load')
+        unlock_access(page)
         page.wait_for_function('document.documentElement.dataset.visualReady === "true"')
         page.locator('#visual-open').click()
         check('跨章节页面读取同一册独立配置而不误用椭圆资源', page.locator('.visual-block').count() == 0 and page.locator('#visual-resource-list .visual-card').count() == 1)
@@ -125,6 +128,7 @@ def main() -> None:
         check('模型CSP无外网请求', not external_requests)
 
         page.goto(STUDENT_ELLIPSE.as_uri(), wait_until='load')
+        unlock_access(page)
         page.wait_for_function('document.documentElement.dataset.visualReady === "true"')
         check('真实学生版只显示被教师标记可见的1个模块', page.locator('.visual-block').count() == 1)
         check('学生版在插入后仍物理隔离全部答案与教师块', page.locator('.answer,.question-analysis,.teacher-only').count() == 0 and page.locator('.book-body .question').count() > 0)
@@ -142,6 +146,7 @@ def main() -> None:
             archive.extractall(EVIDENCE / 'portable-student-package')
         portable = EVIDENCE / 'portable-student-package/student.html'
         page.goto(portable.as_uri(), wait_until='load')
+        unlock_access(page)
         page.wait_for_function('document.documentElement.dataset.visualReady === "true" && document.documentElement.dataset.math === "rendered"')
         page.locator('#visual-open').click()
         page.locator('#visual-import-file').set_input_files(str(config_path))

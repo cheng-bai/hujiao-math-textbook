@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-12-1",
   "book_id": "bx3",
   "section": "12.1",
   "title": "随机现象与样本空间",
   "section_json": "batch/sections/bx3/bx3-12-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-1",
-  "fingerprint": "04302ef57c4b14aea424c0d6e9df8b0c1b49039c7d0cd038dd6a5ec81f3298ed",
+  "fingerprint": "285a82d845941e2f5e14e06cfa46d4fbc36331e397dad0a10eb208b883789be7",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -41,11 +41,29 @@
     "images/book-a01f29ae8e473c6c63cd.jpg",
     "images/book-e76ec97cb50a203c0245.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "12.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "0032293581f8449a61e77bbf0996bd181bde506e0d9d792f8c577fab379ab588",
-    "student.html": "8c6a70b8a96a66ff394cdfb16d2f7a31ebd746ec14aca87b5dcf380663ded30e",
-    "student.zip": "da5564273ad08b9bd6d241b9136530d9ae9c04e846cca4efd6e29d68fdac4683",
-    "content.json": "e7a18d0c8cf03cf9b7ea8f98e7202529b292de2cdce7c151a20465fc9c2510cf"
+    "teacher.html": "179d12125256bf0ff4ae2667b1cfee4031a91498cffe38bb0adbf40c6c018a7d",
+    "student.html": "245e00ad57899b36b241f0c1175229321d2f38e0f17d8ce0370df390305325ce",
+    "student.zip": "51f9eb040a0c91ec50841928796902b753a8e12b968317a71fddfc51d72bca68",
+    "content.json": "e7a18d0c8cf03cf9b7ea8f98e7202529b292de2cdce7c151a20465fc9c2510cf",
+    "teacher-guidance.json": "f5a8a3d16a60994d574dacc2fc0e146437f3040d1e221855ba624cffdffe94ba"
   }
 }

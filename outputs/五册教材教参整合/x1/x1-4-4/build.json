@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-4-4",
   "book_id": "x1",
   "section": "4.4",
   "title": "数学归纳法",
   "section_json": "batch/sections/x1/x1-4-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-4",
-  "fingerprint": "2152bb614c7ca2d28af54644d68cbf34d1a3089733ce65a16c62a9adc57190f0",
+  "fingerprint": "9adda70c5c3e1a25bd00e22e5e6309c64434217c46798f535cb7dc2340260c70",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -21,11 +21,75 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 7,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 6,
+    "attached_paragraphs": 6,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-4-4-ex-1",
+        "example_number": 1,
+        "source_id": "x1-4-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 218,
+            "end": 267
+          }
+        ]
+      },
+      {
+        "question_id": "x1-4-4-ex-2",
+        "example_number": 2,
+        "source_id": "x1-4-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 218,
+            "end": 267
+          }
+        ]
+      }
+    ],
+    "unmatched": [
+      {
+        "source_id": "x1-4-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 218,
+            "end": 267
+          }
+        ],
+        "examples_referenced": [
+          3,
+          4
+        ],
+        "section": "4.4",
+        "reason": "missing-or-ambiguous-example-block",
+        "unconfirmed_examples": [
+          4
+        ],
+        "text": "例 3、例 4 这两例的共同特点都是先猜想再论证. 例 3 先算出前几项的值,并观察这些项的值与相应项的序数间的内在规律, 然后猜想通项公式的可能形式. 例 4 是先假设存在这样的常数,因为是恒等式,故当 $n = 1,2,3$ 时的等式均成立,因此可以得到关于 $a\\text{、}b\\text{、}c$ 的三元一次方程组进而求解,从而得到猜想. 不论是例 3 还是例 4,此时所得到的猜想是以对部分已知事实的归纳为依据的,因此猜想是一种合情推理, 是探索新知识、发现新规律的非常重要的一步; 但由于猜想是建立在不够充分的事实基础上, 还存在正确与错误两种可能性, 必须进一步证明, 这时就可以用数学归纳法. 这说明只有将数学归纳法与合情推理结合起来, 才能体现归纳一猜想一论证这样一种科学的思维模式."
+      }
+    ],
+    "matched_examples": 2,
+    "unmatched_groups": 1,
+    "unmatched_paragraphs": 1,
+    "attachment_count": 2,
+    "current_section": "4.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7b784a0207b6726b93d647952464fee1755b70911d7f7adcbc58762229d55e71",
-    "student.html": "a9f99f6de6b92b621cf28218bfd8887ad1528452b776c5e49734af991d9aacfa",
-    "student.zip": "1cdd1e2fe07180d05052847e47cbdd6d016eedd7a0a2c6c307a4e5ba034a1928",
-    "content.json": "eeb542f07d6221575b1479538517c5ba3138592923eaca2750106e1a4b67a393"
+    "teacher.html": "1cf0d5a9395dc83e4d61c25a334d68a9466ca2376226880d6120c4f37aa5c0a5",
+    "student.html": "3d0bcb5b13c0a4be25be72c7194e8c3dcd12b312bc9a2ac904109b5925ddcc56",
+    "student.zip": "194e71e6491c6fc32fd83326363084984ac34f0fc8c6d4dd8aec03c4f04b5c7e",
+    "content.json": "24106f4abfe4693c5f3746ced8e321c6bb5f373d5ea68fcdbb05bf93d2df507f",
+    "teacher-guidance.json": "9f4ff1143c65bcc40588a72f72d17ab42af8b6ca12265e80bf475ecc4b4458ca"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-7-3",
   "book_id": "bx2",
   "section": "7.3",
   "title": "正弦型函数的图像",
   "section_json": "batch/sections/bx2/bx2-7-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-3",
-  "fingerprint": "cb7f03d1b5007b78a2d1d9603aafa48f4c0a0bde1519129ccc152fff8b0c457c",
+  "fingerprint": "123d509f75ca0d3761c1e9f9b128824abe50c3e4c3307000680d673c4444addb",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -83,11 +83,90 @@
     "images/book-d0a09a077cad632f4318.jpg",
     "images/book-d9fa1731e0da84241a08.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 5,
+    "source_paragraphs": 5,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 5,
+    "attachments": [
+      {
+        "question_id": "bx2-7-3-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-3-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-3-ex-3",
+        "example_number": 3,
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-3-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-7-3-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 241
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 5,
+    "current_section": "7.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "8aaa9a3b2d5710bb7aa649acdebcb78a5253c645d0f4de1d63e6d8178c3e7a02",
-    "student.html": "a057c3561e94c378e06988105b9fa8051e8144136bb8d03574fa4e96c6fa3c42",
-    "student.zip": "fe00a02f2ca97f6090298b6c68c1ac7a529f302a78699a2a96c3ee67bf1c6117",
-    "content.json": "df17bf648022f7b3874d6662ca7d9c3d9322021154c89abc7a0bb57f2f4467ee"
+    "teacher.html": "747a2ce48686915dac55b08be62ebf75525a7c59b165cca419a5caa71b2040f4",
+    "student.html": "471fb13b71a30dd67e5c26f2f0c1bc00abdcb4b01c491d27d4bc3b8a17b4b562",
+    "student.zip": "4b1365a6e198c831dc0200a903fefe30615804afdd6659102dccfe42e5be92e9",
+    "content.json": "d3e350f250e488c99587c8f2cc68f09a2ecdee93e67bfc3d1e3996e6d58212a4",
+    "teacher-guidance.json": "30a0a5236750e78e3c352c89bc6601716fc6c23ab4dda6d3d5acbb1c387f86cd"
   }
 }

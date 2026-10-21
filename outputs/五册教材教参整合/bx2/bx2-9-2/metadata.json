@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-9-2",
   "book_id": "bx2",
   "section": "9.2",
   "title": "复数的几何意义",
   "section_json": "batch/sections/bx2/bx2-9-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-2",
-  "fingerprint": "bb644025a513c7a2cbc8f5803e294361e77a9297d7cda752b0ea20ff1d4021a7",
+  "fingerprint": "bc8f36a20af0fed56e4a9ef55db9a924c548766b78c4b5f6440a4d5418b72124",
   "status": "rendered",
   "questions": 34,
   "answers": 34,
@@ -69,11 +69,150 @@
     "images/book-e09cd335187449b2d22c.jpg",
     "images/book-f0e87af96787158cf694.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 10,
+    "source_paragraphs": 10,
+    "matched_source_groups": 10,
+    "moved_source_paragraphs": 10,
+    "attached_paragraphs": 1,
+    "reused_existing_paragraphs": 9,
+    "attachments": [
+      {
+        "question_id": "bx2-9-2-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-3",
+        "example_number": 3,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-4",
+        "example_number": 4,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-5",
+        "example_number": 5,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-6",
+        "example_number": 6,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-7",
+        "example_number": 7,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-8",
+        "example_number": 8,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-9",
+        "example_number": 9,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-2-ex-7",
+        "example_number": 7,
+        "source_id": "bx2-9-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 138,
+            "end": 189
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 9,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 10,
+    "current_section": "9.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1b2e5ebd794695704ba2cf6b538f23ea6cdf44f0b4fde8209df578e2a3e95c11",
-    "student.html": "4c0afedf5255d6ed759c1e70202be7f5e17885a0b5f002db7a2230e27d6bf359",
-    "student.zip": "bffdbdafea1a022a70752032ffd4a93ffb15786a400ccc39f94ca0b06a25e329",
-    "content.json": "1a6f921a61b02e85d6a1e4558f75a41ea5a5584740f9e0b9d8adabbd58906438"
+    "teacher.html": "1ef40fd5ccfbde1aafd9b9ce7a245042683a4e89d685d0d1500a1119316028d9",
+    "student.html": "3d6f03487bd0598ed9a3b0850b7ef376111af062671e68f2176ef2742f3e89a2",
+    "student.zip": "2f33ed1ad1fc921f3778a79d7659f18d9ae7a7a1256ab81ce53f00c052b7f84e",
+    "content.json": "e6e059a1e74071243f27c716ac8537140629900551a439a1aa913c2e4cba008a",
+    "teacher-guidance.json": "9b842bfa61c0ea4cd5d837e176649f0267fb70fc7ce67e1afa5b40205e27433f"
   }
 }

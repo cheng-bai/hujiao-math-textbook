@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-9-3",
   "book_id": "bx2",
   "section": "9.3",
   "title": "实系数一元二次方程",
   "section_json": "batch/sections/bx2/bx2-9-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-3",
-  "fingerprint": "67ef131cd4150ed0dee6f685b1111e3fceb1cbdf3548e7c8e45f9b679b78c6ec",
+  "fingerprint": "79623686492705adab42c2510c8a5bd0244941d7d6df3b410ca2ec36136853c6",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -21,11 +21,78 @@
     "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 4,
+    "matched_source_groups": 4,
+    "moved_source_paragraphs": 4,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 4,
+    "attachments": [
+      {
+        "question_id": "bx2-9-3-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-9-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 223
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-3-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-9-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 223
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-3-ex-3",
+        "example_number": 3,
+        "source_id": "bx2-9-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 223
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-3-ex-4",
+        "example_number": 4,
+        "source_id": "bx2-9-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 190,
+            "end": 223
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 4,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 4,
+    "current_section": "9.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "faf21d466961e4945c83c1e86faff7f02b442ab2c35a59e05bde7e5e636778a8",
-    "student.html": "30cae5188bcde008f074e15011d198078d09c1ae181f3c71cb951e4e5ea7b1ea",
-    "student.zip": "0df71e550483db7cffae80ccb0c60ce81b653e0c89e15fdc2fd95f7877c2fe40",
-    "content.json": "2cdbe6e84bbd3c5368eb389b936af3157d7c73df579339658b7f807f81fc418a"
+    "teacher.html": "341d9c45df77090d3ab86246b046ff8c901d96d4e3cb4437da816a4616ceeaac",
+    "student.html": "ee2026bb97bc79c44692085155bdf639b4e5b7073d86fef4825dd712434935fa",
+    "student.zip": "b1ea8d0e1677c5c85f703513b3c6a74dee9ed8b69b9961737e80a976888d9675",
+    "content.json": "1389c9a5ea1315a3db5a44685880d5facd025251e96f862abf445e3dc4596ece",
+    "teacher-guidance.json": "51bb8b3f7cce3552a1a4f9a02fce0bed5cacff4151636db0103fcf84e02b5390"
   }
 }

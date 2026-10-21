@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-chapter-end-7",
   "book_id": "x2",
   "section": "chapter-end-7",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/x2/x2-chapter-end-7.json",
   "output": "outputs/五册教材教参整合/x2/x2-chapter-end-7",
-  "fingerprint": "a83f8de4db48301539faca63da315bd119b2409ed197fd00894b4b3beed3c1f3",
+  "fingerprint": "47f3edb4ab6fc335995b8a8299b56c6314f5417b64384a14951123ec97921e14",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -21,11 +21,29 @@
     "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "e1f999c043aecb37b2a381e69c8632ce9edfb68ffb9c8c269dcb5747a3e89459",
-    "student.html": "211a7f34995faacf22ed6a805d5c16458d7587dc6a680d54d3c91e02dca326cb",
-    "student.zip": "2ab7096321c6182a15f4a8e5b9b6f0238d0c50fb426b75f5d521e51906ff4e08",
-    "content.json": "8e2e2aa73e8f4714f65b8f573cced66ed2469562b5e1686e5f288e4cf99b758e"
+    "teacher.html": "4868a23d12875383ba4ba555fb9433bc2a5cdb8fbf7dbdf8abef99e4a44c94f6",
+    "student.html": "c76ffb3674999894d75a8f5d77ffa5a6cdc4d7387fd33ab8c770ca437cce89f6",
+    "student.zip": "e0f0414edb07707ba98ff1723504cec6ae7537ebebdd913a6e21b3d07b8a5cc3",
+    "content.json": "8e2e2aa73e8f4714f65b8f573cced66ed2469562b5e1686e5f288e4cf99b758e",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

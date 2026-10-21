@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-10-5",
   "book_id": "bx3",
   "section": "10.5",
   "title": "异面直线间的距离",
   "section_json": "batch/sections/bx3/bx3-10-5.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-5",
-  "fingerprint": "1a10b181566eec4fa672c04b87b2466b9e58e518c0d5148c5b50d1a235691cd0",
+  "fingerprint": "3bb1a9b959097f79aa3b649954dded6da6f278187d2345809d869ee444514afd",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -77,11 +77,54 @@
     "images/book-deaf82bc9b485e525de6.jpg",
     "images/book-f757bac3c32b30256337.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 2,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-10-5-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-10-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 446,
+            "end": 479
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-5-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-10-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 446,
+            "end": 479
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 2,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 2,
+    "current_section": "10.5"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "93703b5101aa72c3fb2d69b0cd2537333fff3d82b0dda0b0bab04ffa87b6afb5",
-    "student.html": "e5b2ad8b5d4b3d38203608ff361f1faef3533e923873a43c494bd9d2d243ac30",
-    "student.zip": "c42c98ef498df33ce9dd30fad1e25175f15eeae4c1df0366f46716c20a0c5db4",
-    "content.json": "5cf16539bd1b06fcaf1bf28150e391549cd09a2f94bb5d14334d8df0c3501eab"
+    "teacher.html": "088e1f18e415758d5c5e754ed2e8ddc81d8c4404e38ca16f469aa569683a32e5",
+    "student.html": "262758465bf4ac66131727564163cab1b2fd75dada0b22be32b697399e7adedd",
+    "student.zip": "b1c93c79085ff394b6aa81f54db7a284c289c568e4d5af2e9569cebf126bd696",
+    "content.json": "a6465afd54cffeaef3803d7db72e737371ec99dec8d7eb137ec5efe9d90b74b5",
+    "teacher-guidance.json": "4a0e14185c59c29d2fb7787cf7fe3365bdf951db29a7abab65db6d076a6e0e31"
   }
 }

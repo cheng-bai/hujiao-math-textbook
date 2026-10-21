@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-9-4",
   "book_id": "bx2",
   "section": "9.4",
   "title": "复数的三角形式",
   "section_json": "batch/sections/bx2/bx2-9-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-4",
-  "fingerprint": "9524607be29691b9f681b46e0cfebd2363a9d51f3e8922247f7ad7c3079e2735",
+  "fingerprint": "b614baeac18ad248fcea1ff79d51d6b03bfec4cb337c1e2aa4f72581da8b8db5",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -46,11 +46,102 @@
     "images/book-b5172134040683ec25c0.jpg",
     "images/book-e29bb1431e5b8bf69655.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 5,
+    "source_paragraphs": 5,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 6,
+    "attachments": [
+      {
+        "question_id": "bx2-9-4-ex-1",
+        "example_number": 1,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-4-ex-2",
+        "example_number": 2,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-4-ex-3",
+        "example_number": 3,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-4-ex-4",
+        "example_number": 4,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-4-ex-5",
+        "example_number": 5,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      },
+      {
+        "question_id": "bx2-9-4-ex-6",
+        "example_number": 6,
+        "source_id": "bx2-9-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 224,
+            "end": 259
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 6,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 6,
+    "current_section": "9.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "54fdab611acb47ce732bf97d71c1d2a59a7814b081c3d8bb6befc605b66a9382",
-    "student.html": "a6da7889ef958547133b4bf2b3dc1803d77140858b20679d54a5f5ed4d53e845",
-    "student.zip": "581b5e6a9a6170565ab550d7b6d12886ea7ace6118e03fc16526098cad0b490d",
-    "content.json": "c015ba5a839462000d6976cfe86e82b1a20a03e8d187d07a6f9ba089f477a12e"
+    "teacher.html": "e5b9cf8627c94ec0916f098a702cdc94fd22c1b3ee61cd2cf6237fd54af37def",
+    "student.html": "f2f345f6985fff318a3206792e8b789004ff408ba3536634063352194a507587",
+    "student.zip": "f0fdac39847478f4bb72d980abd819aad962fceaed47a7703b491434db934151",
+    "content.json": "e2fb9e2d6ed0c0bc7abd8633ce57808c3a389d0b4d06eceda9e72693e82fa90c",
+    "teacher-guidance.json": "4c63802996cb7b391df27bf8a72b101e4c39450640c4ccee5197a79100171b5d"
   }
 }

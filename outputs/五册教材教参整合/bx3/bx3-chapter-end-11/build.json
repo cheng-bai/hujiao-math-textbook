@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-chapter-end-11",
   "book_id": "bx3",
   "section": "chapter-end-11",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/bx3/bx3-chapter-end-11.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-chapter-end-11",
-  "fingerprint": "b639395980c208b16b06032c8cd379efc77fd667ca21f7f7ce5c7c4729c99f1a",
+  "fingerprint": "1321355b987c0cde2287272a83778b13c642be56357ed627a38b7d7ced83bc7b",
   "status": "rendered",
   "questions": 23,
   "answers": 23,
@@ -95,11 +95,29 @@
     "images/book-fa5e6f2e0a15fe5aeee9.jpg",
     "images/book-fed70f1b2400abce662c.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "822169a6f2136b38137bb8bd6c656e320dd1d3e96b6d34dff6bcb660016fb267",
-    "student.html": "160f6fd8252b8c760ec7e8c2726401a1aeaacbc13a7d82acedf9efeb3c3e0a31",
-    "student.zip": "82285aa71eac47630a8dba7ab70f6d16a27b85d460bbb2fefcde692195100e27",
-    "content.json": "7ec9640aed55dc405ba51a3154de6319da71e295d6098179fc437fafcd3cc7c4"
+    "teacher.html": "799841f33c8a69f9e158d79e1d83720a8a5ffa6b67534ec358be28a3e3518a33",
+    "student.html": "ae84d1fa89b333510a04c53d011caa610f28bf15ccb495b0f41b51ab8d91257e",
+    "student.zip": "c3cf4fd00f79eab618d4575f9b4f32bb3cdaeafbc1e11579b539850b4ccf358b",
+    "content.json": "7ec9640aed55dc405ba51a3154de6319da71e295d6098179fc437fafcd3cc7c4",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-11-3",
   "book_id": "bx3",
   "section": "11.3",
   "title": "多面体与旋转体",
   "section_json": "batch/sections/bx3/bx3-11-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-11-3",
-  "fingerprint": "7005587e83eeaac1f99061a820ad7be1376516dc5b603378bc2f7ec008675bd7",
+  "fingerprint": "43da09bf104bbecaa3bcbf195442bedf06bfca06f27718e63b89796d8ca7f0b3",
   "status": "rendered",
   "questions": 9,
   "answers": 9,
@@ -105,11 +105,29 @@
     "images/book-c33f4ccc82be1c9bb247.jpg",
     "images/book-d6e91273af59db010235.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": "11.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d2a831bf1fc0425229e83c857b058f7489a5e552a5054322e76b7a0ef8414888",
-    "student.html": "fa59615f3e11c3abe246d32938ce20e8ab8c95819992bd1a6a3596b4fb265ed4",
-    "student.zip": "748323c44a5a0323206d4d12a50545b33b43052df891f715bff3d8413cb447dd",
-    "content.json": "5478497fc65b7b018c2418ca91eea8e490647e10300b505f02fb6e1138f19c5c"
+    "teacher.html": "3b2bda43535aeafe6c53ad4901347bf71af3a00e462c1e4f10de33fb084cc81e",
+    "student.html": "71bc00e674cf0f6ca2f37b65bb9276d5699a9d03cb38abda48e2723f64653ff9",
+    "student.zip": "365a2c3b7875936596b4bc0607c3a0227bfef600adc18be7446ac593c4b51959",
+    "content.json": "5478497fc65b7b018c2418ca91eea8e490647e10300b505f02fb6e1138f19c5c",
+    "teacher-guidance.json": "a8ba41842db1d0333703cbb195b671b4ceff6c529ba4cce9d0f1229573c506bb"
   }
 }

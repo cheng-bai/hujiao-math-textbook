@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 6.5 二项式定理\n\n### 教学重点\n\n理解二项展开式中项的特点, 能够写出二项展开式中指定的项, 掌握与组合数有关的恒等式的简单处理方法, 了解二项式定理的简单应用.\n\n### 内容分析\n\n二项式定理是初中学过的乘法公式的推广. 为了从 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 等展开式中寻找一般的展开规律, 学生需要对计数原理、组合的概念与计算有比较深入的理解, 教师可以结合杨辉三角等内容, 对一般规律进行深入浅出的剖析, 尝试从不同角度进行解释. 在研究组合数的性质时, “代入法”是一种常用的方法. 通过本节的学习, 可以为进一步学习概率理论 (随机变量的分布) 作好准备.\n\n例 1 旨在说明二项式定理的应用, 它也可以利用杨辉三角解决. 配套练习为练习 6.5(1)第1题的第(1)小题,习题 6.5A 组的第 1 至 4 题及习题 6.5B 组的第 3、4 题.\n\n例 2 将减法运算改写为相应的加法运算, 旨在说明在求一个二项式的展开式时,需要改写为 ${\\left( a + b\\right) }^{n}$ 的标准形式. 配套练习为练习 6.5(1)的第 1 题及习题 6.5A 组的第 1 题.\n\n例 3 利用二项式定理证明整除性, 这是二项式定理的一个常见的应用. 配套练习为练习 ${6.5}\\left( 1\\right)$ 的第 2 题.\n\n例 4 使用换元法和代入法求二项展开式中全部(或部分)项的系数之和,这是研究二项式的展开式的系数满足性质的常用方法. 配套练习为练习 6.5(2) 的第 1 题及习题 6.5B 组的第 1 题.\n\n例 5 和例 6 研究了组合数的单调变化规律和二项式的展开式中各项系数的单调变化规律, 使用的是数列单调性的处理方法. 这部分内容对学生的要求较高, 教师可根据学生的实际情况给予必要的分解处理. 配套练习为练习 6.5 (2) 的第 2 题、习题 6.5A 组的第 4 题及习题 6.5B 组的第 2 题.\n\n### 注意事项\n\n二项式定理的理论基础是 “加法原理”(分类)与 “组合”, 也是 “加法原理” 与 “组合” 的一个重要模型(例如, 在课后阅读材料中, 利用组合的定义和多项式的乘法法则证明二项式定理). 这部分内容的教与学不仅要在展开式规律的发现和证明上, 也要在组合数恒等式的推导过程中发挥数学模型的功能, 但要适当注意问题的难度. 例如, 可以向学生介绍用数学模型 “求包含 $n$ 个元素的集合的子集个数” 来证明 ${\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{1} + \\; {\\mathrm{C}}_{n}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{n} = {2}^{n}$ ,但不建议向学生介绍 ${\\mathrm{C}}_{n}^{0}{\\mathrm{C}}_{m}^{k} + {\\mathrm{C}}_{n}^{1}{\\mathrm{C}}_{m}^{k - 1} + {\\mathrm{C}}_{n}^{2}{\\mathrm{C}}_{m}^{k - 2} + \\cdots  + {\\mathrm{C}}_{n}^{k}{\\mathrm{C}}_{m}^{0} = {\\mathrm{C}}_{n + m}^{k} \\; \\left( {m\\text{、}n\\text{、}k \\in  \\mathbb{N}, k \\leq  m, k \\leq  n}\\right)$ 的证明.\n\n### 教学建议\n\n在教学过程中,教师应充分利用学生熟悉的 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 的展开规律,引导学生从计数原理和计数模型的角度考虑一般情形. 在使用二项式定理证明或处理与组合数的性质有关的问题中, 应当控制问题的难度, 减少繁杂的问题.",
+    "markdown": "#### 6.5 二项式定理\n\n### 教学重点\n\n理解二项展开式中项的特点, 能够写出二项展开式中指定的项, 掌握与组合数有关的恒等式的简单处理方法, 了解二项式定理的简单应用.\n\n### 内容分析\n\n二项式定理是初中学过的乘法公式的推广. 为了从 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 等展开式中寻找一般的展开规律, 学生需要对计数原理、组合的概念与计算有比较深入的理解, 教师可以结合杨辉三角等内容, 对一般规律进行深入浅出的剖析, 尝试从不同角度进行解释. 在研究组合数的性质时, “代入法”是一种常用的方法. 通过本节的学习, 可以为进一步学习概率理论 (随机变量的分布) 作好准备.\n\n### 注意事项\n\n二项式定理的理论基础是 “加法原理”(分类)与 “组合”, 也是 “加法原理” 与 “组合” 的一个重要模型(例如, 在课后阅读材料中, 利用组合的定义和多项式的乘法法则证明二项式定理). 这部分内容的教与学不仅要在展开式规律的发现和证明上, 也要在组合数恒等式的推导过程中发挥数学模型的功能, 但要适当注意问题的难度. 例如, 可以向学生介绍用数学模型 “求包含 $n$ 个元素的集合的子集个数” 来证明 ${\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{1} + \\; {\\mathrm{C}}_{n}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{n} = {2}^{n}$ ,但不建议向学生介绍 ${\\mathrm{C}}_{n}^{0}{\\mathrm{C}}_{m}^{k} + {\\mathrm{C}}_{n}^{1}{\\mathrm{C}}_{m}^{k - 1} + {\\mathrm{C}}_{n}^{2}{\\mathrm{C}}_{m}^{k - 2} + \\cdots  + {\\mathrm{C}}_{n}^{k}{\\mathrm{C}}_{m}^{0} = {\\mathrm{C}}_{n + m}^{k} \\; \\left( {m\\text{、}n\\text{、}k \\in  \\mathbb{N}, k \\leq  m, k \\leq  n}\\right)$ 的证明.\n\n### 教学建议\n\n在教学过程中,教师应充分利用学生熟悉的 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 的展开规律,引导学生从计数原理和计数模型的角度考虑一般情形. 在使用二项式定理证明或处理与组合数的性质有关的问题中, 应当控制问题的难度, 减少繁杂的问题.",
     "provenance": [
       {
         "source": "teacher",
@@ -108,8 +108,31 @@
         "end": 1404
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在说明二项式定理的应用, 它也可以利用杨辉三角解决. 配套练习为练习 6.5(1)第1题的第(1)小题,习题 6.5A 组的第 1 至 4 题及习题 6.5B 组的第 3、4 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -139,8 +162,31 @@
         "end": 1408
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 将减法运算改写为相应的加法运算, 旨在说明在求一个二项式的展开式时,需要改写为 ${\\left( a + b\\right) }^{n}$ 的标准形式. 配套练习为练习 6.5(1)的第 1 题及习题 6.5A 组的第 1 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -170,8 +216,31 @@
         "end": 1434
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3 利用二项式定理证明整除性, 这是二项式定理的一个常见的应用. 配套练习为练习 ${6.5}\\left( 1\\right)$ 的第 2 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -308,8 +377,31 @@
         "end": 1516
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 使用换元法和代入法求二项展开式中全部(或部分)项的系数之和,这是研究二项式的展开式的系数满足性质的常用方法. 配套练习为练习 6.5(2) 的第 1 题及习题 6.5B 组的第 1 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -339,8 +431,32 @@
         "end": 1560
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 和例 6 研究了组合数的单调变化规律和二项式的展开式中各项系数的单调变化规律, 使用的是数列单调性的处理方法. 这部分内容对学生的要求较高, 教师可根据学生的实际情况给予必要的分解处理. 配套练习为练习 6.5 (2) 的第 2 题、习题 6.5A 组的第 4 题及习题 6.5B 组的第 2 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -370,8 +486,32 @@
         "end": 1574
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 和例 6 研究了组合数的单调变化规律和二项式的展开式中各项系数的单调变化规律, 使用的是数列单调性的处理方法. 这部分内容对学生的要求较高, 教师可根据学生的实际情况给予必要的分解处理. 配套练习为练习 6.5 (2) 的第 2 题、习题 6.5A 组的第 4 题及习题 6.5B 组的第 2 题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-5-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 183,
+            "end": 210
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "6.5",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

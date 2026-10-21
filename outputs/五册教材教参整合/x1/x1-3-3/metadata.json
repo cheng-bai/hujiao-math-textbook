@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-3-3",
   "book_id": "x1",
   "section": "3.3",
   "title": "空间向量的坐标表示",
   "section_json": "batch/sections/x1/x1-3-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-3",
-  "fingerprint": "b8ae50cb58d8203b217f0a8c2a2710f8ae8567a8c37eeca6be1447136e4285b3",
+  "fingerprint": "8bc5a15ab34b399d501325aa3b682d6ada05dfb8abecae6a14a4c425b2f70369",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -85,11 +85,54 @@
     "images/book-abe2861932c7f2a41a7d.jpg",
     "images/book-b00d9dc06b625f1007b9.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 2,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-3-3-ex-1",
+        "example_number": 1,
+        "source_id": "x1-3-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 176,
+            "end": 225
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-3-ex-2",
+        "example_number": 2,
+        "source_id": "x1-3-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 176,
+            "end": 225
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 2,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 2,
+    "current_section": "3.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1b662e1b81456c39176b553bf2665e784bc2fc69c87e7ab6a45d38f98f04e0a8",
-    "student.html": "b13ae1979fe1095a5bf64c9970d26a8d22b89ae93a882f83b8f7269f3342a967",
-    "student.zip": "a0d9ebb4ff524bd9fc8c0f9593aab1a3efedafcd03931fb25be584705220310f",
-    "content.json": "bb6b5fd3e531d60f1aa94d657286dd33056cbd4367be7988448f2578f1337dd7"
+    "teacher.html": "cea683c388a071f21be7efa8cbf3263c1c29076ddb989855e67277817a92a362",
+    "student.html": "05df5bbf751c769a237a9691ec4c19431823b278466f9a1d126ec310e5ab4b01",
+    "student.zip": "1ca93a5eccae2cf7e110853780f7810ce97d42426c7d48ece8f545fb213e7849",
+    "content.json": "525cebf070b466b2dd51b247ebb411766e37921e8625bf9b44e3adfebdbb1c4d",
+    "teacher-guidance.json": "faa201cb9d96418183a32932a7a8388e792e166e4ad7ee72f5a008507f7ffbc5"
   }
 }

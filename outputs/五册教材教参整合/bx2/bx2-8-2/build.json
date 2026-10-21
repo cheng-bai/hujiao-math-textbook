@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx2-8-2",
   "book_id": "bx2",
   "section": "8.2",
   "title": "向量的数量积",
   "section_json": "batch/sections/bx2/bx2-8-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-2",
-  "fingerprint": "17516bea3b9ff6eaa829718f3845c19056544d198bdd723e36a3cd278ed0c05f",
+  "fingerprint": "2edede3361978008ab67762b6cb5904629679e42f8091ab5619d48f16f4a2420",
   "status": "rendered",
   "questions": 32,
   "answers": 32,
@@ -64,11 +64,29 @@
     "images/book-bf2cfee938c14a142be6.jpg",
     "images/book-d1e2defaaf448c372c7b.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "676eb8a1c90ecfbe0f962bc7b851ca47004a9141d17ea229e918eadce835a51a",
-    "student.html": "fde02ceb33d08bfdaa8ae40907ea4aca69c8e2fb00cf35d38a03d50b1a673046",
-    "student.zip": "3db1dfdf43bfdb47f47bca9cd49df8dbfe3ebe0d16cfdfa5f155f7bf6ce5bfb7",
-    "content.json": "b898cec15888cb1ac151c382170b1b115f522f6584cf240cd04dd2e1a0d5f96e"
+    "teacher.html": "94efb373570e14ebbda52674e0fb31248df66966bf68351c92ea3a207cc45a1b",
+    "student.html": "cd18c52a380aca055916acdbc043e99fc9f8376280f1dbf945694095a57ae705",
+    "student.zip": "c974ba5fff5474f0732e8038d5bc4e3a4a9121d858a3af48d2fe467259d7d57f",
+    "content.json": "b898cec15888cb1ac151c382170b1b115f522f6584cf240cd04dd2e1a0d5f96e",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

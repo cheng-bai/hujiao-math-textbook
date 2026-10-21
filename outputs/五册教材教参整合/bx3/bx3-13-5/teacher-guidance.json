@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "policy": "explicit-example-reference-and-same-section-only",
+  "source_groups": 6,
+  "source_paragraphs": 6,
+  "matched_source_groups": 5,
+  "moved_source_paragraphs": 5,
+  "attached_paragraphs": 5,
+  "reused_existing_paragraphs": 0,
+  "attachments": [
+    {
+      "question_id": "bx3-13-5-ex-1",
+      "example_number": 1,
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ]
+    },
+    {
+      "question_id": "bx3-13-5-b13",
+      "example_number": 2,
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ]
+    },
+    {
+      "question_id": "bx3-13-5-ex-3",
+      "example_number": 3,
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ]
+    },
+    {
+      "question_id": "bx3-13-5-ex-4",
+      "example_number": 4,
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ]
+    },
+    {
+      "question_id": "bx3-13-5-ex-5",
+      "example_number": 5,
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ]
+    }
+  ],
+  "unmatched": [
+    {
+      "source_id": "bx3-13-5-b1",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 256,
+          "end": 325
+        }
+      ],
+      "examples_referenced": [
+        6
+      ],
+      "section": "13.5",
+      "reason": "missing-or-ambiguous-example-block",
+      "unconfirmed_examples": [
+        6
+      ],
+      "text": "例 6 的“如何确定阶梯电价的电量临界值”可以转化为“如何确定该市居民用电量的百分位数”, 也就是求总体分布的百分位数. 如何确定阶梯电价的问题就转化为用样本的数字特征来估计总体的数字特征, 也即用收集到的“200 户居民的用电量”这一样本的百分位数来估计“该市居民用电量”这个总体的百分位数,从而确定阶梯电价的电量临界值. 在实际应用中, 很多统计问题的解答都可以转化为估计总体的分布信息."
+    }
+  ],
+  "matched_examples": 5,
+  "unmatched_groups": 1,
+  "unmatched_paragraphs": 1,
+  "attachment_count": 5,
+  "current_section": "13.5"
+}

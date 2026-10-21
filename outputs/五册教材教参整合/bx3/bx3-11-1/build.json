@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-11-1",
   "book_id": "bx3",
   "section": "11.1",
   "title": "柱体",
   "section_json": "batch/sections/bx3/bx3-11-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-11-1",
-  "fingerprint": "48bae076fc8f0189e250ea6307217cab0a8a32d4af12f4de61e1e7ecba551aa1",
+  "fingerprint": "74dc31ea2391a376a9877393f5c10558fe7c0d0dbc732ad9a9bc4b6eb74c0bcc",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -117,11 +117,66 @@
     "images/book-ca7451252a892c45084a.jpg",
     "images/book-e94d872bccdb4593f1fd.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 3,
+    "matched_source_groups": 3,
+    "moved_source_paragraphs": 3,
+    "attached_paragraphs": 3,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-11-1-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-11-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 98,
+            "end": 137
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-11-1-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-11-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 98,
+            "end": 137
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-11-1-ex-3",
+        "example_number": 3,
+        "source_id": "bx3-11-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 98,
+            "end": 137
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 3,
+    "current_section": "11.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "78fe3de692df900b1565e678f12150c1f401459c58d95c73856334842d348365",
-    "student.html": "4a7e6d2ca1b945dc13e98872f0c4ec5fd0b994be99730651218a13b5aef78a88",
-    "student.zip": "7aa953521bbd328a477a1d4c18afe1793c3ae8a081b4e280d7c63791d81ff370",
-    "content.json": "a3980741cfd2fd26b9cd59e2e31aa83d7fe806ffc7255fca3c65336ce869ad9e"
+    "teacher.html": "3c2c0e1f42f8445d0cd4342de4695429f85aee0d000020356df09bfda4954e0a",
+    "student.html": "be010c63e21e9863ebd3fa4c04267312dca4c02ec2f04c0349dfbf41e1320afa",
+    "student.zip": "aed76b2f92dad7be96014515dc60847556cd618a63d8709cfee69b2a79bd8da3",
+    "content.json": "7d24e09bd1fa5c7d70f6c9c22f65aaed9552f543a05653ef432ded94d8c0b181",
+    "teacher-guidance.json": "8febd13e2fdbebc4984549c36a9a86cfca60e968f33b28936ce0115fa6964277"
   }
 }

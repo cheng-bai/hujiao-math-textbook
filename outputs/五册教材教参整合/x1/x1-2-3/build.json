@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-2-3",
   "book_id": "x1",
   "section": "2.3",
   "title": "双曲线",
   "section_json": "batch/sections/x1/x1-2-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-3",
-  "fingerprint": "dc6f22c647cedb456806596ef56b02bb3e61fa1ba579ba5e44086d3abe485e40",
+  "fingerprint": "f915502028bdb6cfd8e9a56faabca4508242fb38e8674ba8aeba979ec41f9c6a",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -120,11 +120,114 @@
     "images/book-d270cff8f2064397647a.jpg",
     "images/book-dcdf2c6266e5c12e537d.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 7,
+    "source_paragraphs": 9,
+    "matched_source_groups": 7,
+    "moved_source_paragraphs": 9,
+    "attached_paragraphs": 9,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-2-3-ex-1",
+        "example_number": 1,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-2",
+        "example_number": 2,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-3",
+        "example_number": 3,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-4",
+        "example_number": 4,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-5",
+        "example_number": 5,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-6",
+        "example_number": 6,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      },
+      {
+        "question_id": "x1-2-3-ex-7",
+        "example_number": 7,
+        "source_id": "x1-2-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 516,
+            "end": 719
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 7,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 7,
+    "current_section": "2.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "fb34476d90f3dd6baa6a6b08a937fd542534803188d05513312253cb35f85d9b",
-    "student.html": "26177f01bfa68cb779c91104426404cf5b28dff1d1ac5f9d8c6761cdddd525cb",
-    "student.zip": "91102eb96531580b2e1d5eb175fed9646776a006d09bfc36119ad3987ed0a5be",
-    "content.json": "9b6a9dd04f55d715e245377f9d385c263ca9185798248a13326bce76649bd705"
+    "teacher.html": "6bc9bb51f0ffa90c1da630767932ed8eb8c1b9614e219699e904c88693fc53d6",
+    "student.html": "0bf9262b84d6bde0a2c828c4f8c11a6b7fc04be8307b4a3508bb5cbb916fe4b0",
+    "student.zip": "4a7662f78e6d505e993df043f39588da4e645a8a419dc3d6523ca06f5399db9d",
+    "content.json": "f0c0c57638c19b3642fa868726d1d8ea0c9887ba32fd49656260e9022d292694",
+    "teacher-guidance.json": "8d23dac986394d35a41e2b514f0d6acfd605fe16d575c2f35ea8d53e91b05d5f"
   }
 }

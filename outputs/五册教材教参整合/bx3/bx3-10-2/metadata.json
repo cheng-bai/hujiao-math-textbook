@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-10-2",
   "book_id": "bx3",
   "section": "10.2",
   "title": "直线与直线的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-2",
-  "fingerprint": "b70a790ff9f2f77f54b264302a455c20737a0e55a7ebf8e892565c3887467257",
+  "fingerprint": "83263f01bd9d4a6f65d7903c4fd7c0a4f164367c75aab932fa4082d461e7cc00",
   "status": "rendered",
   "questions": 26,
   "answers": 26,
@@ -212,11 +212,90 @@
     "images/book-f65ca6ee25e058c603d3.jpg",
     "images/book-f6c1977f5cd51f812196.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 5,
+    "source_paragraphs": 5,
+    "matched_source_groups": 5,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-10-2-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-10-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 168,
+            "end": 243
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-2-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-10-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 168,
+            "end": 243
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-2-ex-3",
+        "example_number": 3,
+        "source_id": "bx3-10-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 168,
+            "end": 243
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-2-ex-4",
+        "example_number": 4,
+        "source_id": "bx3-10-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 168,
+            "end": 243
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-2-ex-5",
+        "example_number": 5,
+        "source_id": "bx3-10-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 168,
+            "end": 243
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 5,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 5,
+    "current_section": "10.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "cec596730a38ae8683df8a621c34ac840e5da6d09098958c1846059ecd695f2a",
-    "student.html": "5b317ae07a8439bad208ea5d2b259599b0fa22bb13e88187669d98e3d632348a",
-    "student.zip": "d9f37ec0d6fc7f6ec92c1ac46b1da11f1ede54225e928e1b73bbcb7db7fc984e",
-    "content.json": "eaa2af887fd220fbedd7c2a4ceceec69e5eab672ee2c06c807c5d87ecbb5a3c1"
+    "teacher.html": "472365471800248b182ad2867654f7befd377a933998a8c86c8bea590653b1ab",
+    "student.html": "c24cb3088c9ebdfe3209a3981093eed9e943381e4e034f0ee8305d5a1746ff96",
+    "student.zip": "81e117cc9a1892e32df6d094bcd260da11abb09dbf35aa3082aded749d964c34",
+    "content.json": "5e78724673ee0b22bdc120f554e4c414ecd076bee11314e9dcc08dba80bf50e7",
+    "teacher-guidance.json": "8d5e45e7879019179fd4eb63a48d3e404d5e1b0b8860d020c06fe3bf0a7a40a4"
   }
 }

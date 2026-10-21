@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x2-5-1",
   "book_id": "x2",
   "section": "5.1",
   "title": "导数的概念及意义",
   "section_json": "batch/sections/x2/x2-5-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-1",
-  "fingerprint": "cca1e49024fd6f0b7bfd8942a55fe898f5192a3037ee574ba2f039f4208b399e",
+  "fingerprint": "8046bd017bb66807fc703cff2ba49cedc9996f3db49a4d59795d4e5cf809a643",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -64,11 +64,90 @@
     "images/book-e201580de1b1bd905641.jpg",
     "images/book-fadc1c0f1398226900dd.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 4,
+    "matched_source_groups": 4,
+    "moved_source_paragraphs": 4,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x2-5-1-ex-1",
+        "example_number": 1,
+        "source_id": "x2-5-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 109,
+            "end": 164
+          }
+        ]
+      },
+      {
+        "question_id": "x2-5-1-ex-2",
+        "example_number": 2,
+        "source_id": "x2-5-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 109,
+            "end": 164
+          }
+        ]
+      },
+      {
+        "question_id": "x2-5-1-ex-3",
+        "example_number": 3,
+        "source_id": "x2-5-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 109,
+            "end": 164
+          }
+        ]
+      },
+      {
+        "question_id": "x2-5-1-ex-4",
+        "example_number": 4,
+        "source_id": "x2-5-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 109,
+            "end": 164
+          }
+        ]
+      },
+      {
+        "question_id": "x2-5-1-ex-5",
+        "example_number": 5,
+        "source_id": "x2-5-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 109,
+            "end": 164
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 5,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 5,
+    "current_section": "5.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2a3ac2d1f2373c90cd77b01d5daa5085896c75294e0c1a076eb2e1c47e745443",
-    "student.html": "ffb1e573e1ef9681f687e58f72b7347797e8d9767335dd417b4c9ecceddca30c",
-    "student.zip": "cff81fc89eae97a0cd506b681045865287bd5a428ce746d32babc201fcc205cd",
-    "content.json": "97061a4929cd507fbdb463db93f2c2345dfd54b1da0318013b9040bc7457a714"
+    "teacher.html": "1fc5ee46d563f2102ae8e67243d5bb90a6c06ba6f78f6ba7d6a0160fad38d74c",
+    "student.html": "2d7660fe2670a99b866af3eb823929e20774c463f44d4ee4a87b798aa9bfb013",
+    "student.zip": "865684ceb264cfe507f9cc79a41043119745e19ce7a169000c044790533b8c3b",
+    "content.json": "af560c959f4103564ee4290e0130dd6079d48f6410a2bf4943f7035f83e837aa",
+    "teacher-guidance.json": "e0932ce98312b62a11f51a2141fce1b63e4d60e1a973bcb25a49d122fa0c0bff"
   }
 }

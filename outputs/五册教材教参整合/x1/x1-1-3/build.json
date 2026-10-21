@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-1-3",
   "book_id": "x1",
   "section": "1.3",
   "title": "两条直线的位置关系",
   "section_json": "batch/sections/x1/x1-1-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-3",
-  "fingerprint": "ecf833f67863028fc501164d3c5e78656780b7921981da09598375573a6598c4",
+  "fingerprint": "5be4570c63cc92c0cd541be47de5a1c74f7a67b015f491acf5bd682ff57a5429",
   "status": "rendered",
   "questions": 33,
   "answers": 33,
@@ -40,11 +40,114 @@
     "images/book-66d9bb394d9c82b708aa.jpg",
     "images/book-aff38c8d1345400f75cb.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 3,
+    "matched_source_groups": 3,
+    "moved_source_paragraphs": 3,
+    "attached_paragraphs": 7,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-1-3-ex-1",
+        "example_number": 1,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-2",
+        "example_number": 2,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-3",
+        "example_number": 3,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-4",
+        "example_number": 4,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-5",
+        "example_number": 5,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-6",
+        "example_number": 6,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      },
+      {
+        "question_id": "x1-1-3-ex-7",
+        "example_number": 7,
+        "source_id": "x1-1-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 290,
+            "end": 425
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 7,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 7,
+    "current_section": "1.3"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "4985c3eb5a7ffd3cb3d328e794a6b60125e18a9a9c0ee8dbf58d2d12b1c7cb5d",
-    "student.html": "4b1c3cbd5325f9001b84c67f79de5b284a543b7a489a5fb9ee4573829440261c",
-    "student.zip": "14f320fd82d59913b423aa61a4f3c98cc39423db99fb54f30709d5a6a6866c36",
-    "content.json": "cc441ac926fe49ae26c9c3418afa3f1dc70db4f0d8fa73a342bf01504d98b20e"
+    "teacher.html": "ed1e514f861be87b90828a4fb518bb4f82ec884708769cbc8abde0afbb8fabc0",
+    "student.html": "bb19390dcfaa1e0202827730932b692088b646bbdc2bcfd674b7a80fa2a09e0a",
+    "student.zip": "ff983f626f47f9b53995b64a6e996540b44476e4d5b7a921da2e6e1bbd2d79f2",
+    "content.json": "983075d6fd2e9a3710324e081ddaca06de8aa6e0b1d7ca413f4404b4a5977ab7",
+    "teacher-guidance.json": "19b8ca8127e875cc784132220eaf3ffafd692809aad1d768735a4e48845a9866"
   }
 }

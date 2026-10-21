@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-10-1",
   "book_id": "bx3",
   "section": "10.1",
   "title": "平面及其基本性质",
   "section_json": "batch/sections/bx3/bx3-10-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-1",
-  "fingerprint": "7fe4ff32a49d55d1aa766e8a8a1484e7df3cb68c258fb7a61c2a02760be5ed16",
+  "fingerprint": "859e420e04f348b2db497bb562b647d4375a98cce12526a4fb8a0d478ee986dd",
   "status": "rendered",
   "questions": 29,
   "answers": 29,
@@ -199,11 +199,78 @@
     "images/book-fc8d0647e50c272df31c.jpg",
     "images/book-ffc7c0ffc025788ff28a.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 4,
+    "source_paragraphs": 4,
+    "matched_source_groups": 4,
+    "moved_source_paragraphs": 4,
+    "attached_paragraphs": 4,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-10-1-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-10-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 100,
+            "end": 167
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-1-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-10-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 100,
+            "end": 167
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-1-ex-3",
+        "example_number": 3,
+        "source_id": "bx3-10-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 100,
+            "end": 167
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-1-ex-4",
+        "example_number": 4,
+        "source_id": "bx3-10-1-b3",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 100,
+            "end": 167
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 4,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 4,
+    "current_section": "10.1"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "5b08eed51d679441725013d984ae86eee43151248b02ae1df6b2c0137f915025",
-    "student.html": "9c6b4d900c4214ed68f1eaba0c802d4fedb248834323346b5b48f2434e35a979",
-    "student.zip": "9f4a0144f11c5b77def9082a87f188d5fa3b08d6e23c94aa4c41cf6b6cb3168c",
-    "content.json": "cde0193bf3186272d6df44a84c28821eac9111f8f9c30998e8c8037039658429"
+    "teacher.html": "d603a825dbd5d77197a56490df3d539aaf17917b595db7ac093bf91106883cd7",
+    "student.html": "002ed8d1208a2c084109ee700baf040ebe3e92ad0894337d0ebc548478409d11",
+    "student.zip": "813d644288aee9153830f53d682b7a718287d4140c39d3b3db3d502b52ece5c9",
+    "content.json": "507ad02d4e091fcbe7ab920060010b4eac6511b61c6c58e3c8a93f9ff851128e",
+    "teacher-guidance.json": "0005a1595d0fdb46b4ddba6901433c25de09c8900ef31bfc6eca9362d571f97f"
   }
 }

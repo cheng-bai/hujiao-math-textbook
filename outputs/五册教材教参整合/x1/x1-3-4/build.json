@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-3-4",
   "book_id": "x1",
   "section": "3.4",
   "title": "空间向量在立体几何中的应用",
   "section_json": "batch/sections/x1/x1-3-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-4",
-  "fingerprint": "b6a2fcf92fbb0a73469a69f3c2ad05b440a7ec88d576b491ce6a585455012147",
+  "fingerprint": "95f2d8087b633b88dad3b48e77f42e0dc2ba952265c93fbf5725e7311ef191a5",
   "status": "rendered",
   "questions": 28,
   "answers": 28,
@@ -154,11 +154,114 @@
     "images/book-e64d31b654883e5c9964.jpg",
     "images/book-e8b36c2c184e8f92def3.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 7,
+    "source_paragraphs": 7,
+    "matched_source_groups": 7,
+    "moved_source_paragraphs": 7,
+    "attached_paragraphs": 7,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-3-4-ex-1",
+        "example_number": 1,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-2",
+        "example_number": 2,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-3",
+        "example_number": 3,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-4",
+        "example_number": 4,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-5",
+        "example_number": 5,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-6",
+        "example_number": 6,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-4-ex-7",
+        "example_number": 7,
+        "source_id": "x1-3-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 226,
+            "end": 331
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 7,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 7,
+    "current_section": "3.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1cd58cc4577b1e3c30f190aefedbf1372d60bcd015e2ad2bf8f8c908c1f77924",
-    "student.html": "d827a54316d917182fddcf8c9193e7e80c2eee89caa7e5d171224258546af6c1",
-    "student.zip": "ece77af58275052e9a99151e6ac99ece0b71f9c1389399386724f7c09837ea14",
-    "content.json": "c76dacca7bdd06690f4313bdcb428cab3f6b22a1e1e0de59c126cf482bccd440"
+    "teacher.html": "daa21bd11e2f556d18275e3e7503e541e7fda08b77e962773c8b0ae5266292e2",
+    "student.html": "34abeba6241b462ad09a1e826dc265a7600500264fca36ef86cb46c320732708",
+    "student.zip": "dae0283b996535cfadcff142a7d0b3a33370c370f17dc7d5d1b7586da307602d",
+    "content.json": "b89e38cfbcd042e9c63c55eb3a43c393386819dfb9f71eaaff60f2d8599a8716",
+    "teacher-guidance.json": "3c47a613ac3fb12b36a34d9b1e440475d54c66790c648f903675daff76f54d68"
   }
 }

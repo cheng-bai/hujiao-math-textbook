@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx1-chapter-end-5",
   "book_id": "bx1",
   "section": "chapter-end-5",
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/bx1/bx1-chapter-end-5.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-5",
-  "fingerprint": "dd64234a008c9fbc14056706a9faa34d4d8c862cf86f78628629e2aad1ee33e6",
+  "fingerprint": "c72b0b47a256a3a367f90faba82771f2e919c1ab9231d3cffbe4b54b03465848",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -37,11 +37,29 @@
     "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 0,
+    "source_paragraphs": 0,
+    "matched_source_groups": 0,
+    "moved_source_paragraphs": 0,
+    "attached_paragraphs": 0,
+    "reused_existing_paragraphs": 0,
+    "attachments": [],
+    "unmatched": [],
+    "matched_examples": 0,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 0,
+    "current_section": null
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d144cccb260a09fbf4b5e2321f980a77ef39735c063897fe851ff48ce65f750d",
-    "student.html": "20c232e0bb78637d0a88ace44f1a5ebe995357ed8cbe83cceaf6a18f831a9a78",
-    "student.zip": "f20fcf01a61357fa5a929926fad059e703d3aee30578d012e3d81dbcab93a92f",
-    "content.json": "8abf84e80a55bdb1f692bd9cbe53136dfaa0b77726c25b89b06640b1a7ff5fbf"
+    "teacher.html": "3ceed0d2cde7f7a0765f5626b602bb9414367596d98c57e85d41b1787e0e1875",
+    "student.html": "fd2656d2a62e85ace72f41441608515b960a76c632ecb661a922870d2a0922f9",
+    "student.zip": "44d83c503acbfcb1dc5ef9a5a4ed41a9966cc6a325da37825c43d60cc299f162",
+    "content.json": "8abf84e80a55bdb1f692bd9cbe53136dfaa0b77726c25b89b06640b1a7ff5fbf",
+    "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }
 }

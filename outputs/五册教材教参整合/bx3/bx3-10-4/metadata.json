@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-10-4",
   "book_id": "bx3",
   "section": "10.4",
   "title": "平面与平面的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-4",
-  "fingerprint": "e3e4b1476bd5f3f4c48155a1776cce2f56eae9e9c59015c54419f1e67080e730",
+  "fingerprint": "2c8cee277992d7e82f1086c4e063feb4db27610b2448e2815f3bcb32d48c5f57",
   "status": "rendered",
   "questions": 25,
   "answers": 25,
@@ -152,11 +152,54 @@
     "images/book-d2554bb81dc85a9dcae4.jpg",
     "images/book-db2a7f507bef8e367273.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 2,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-10-4-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-10-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 362,
+            "end": 445
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-10-4-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-10-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 362,
+            "end": 445
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 2,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 2,
+    "current_section": "10.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d553133a152c69927caf88afaac7d7c9fff4bdfeb10a011fd5204464447d5eed",
-    "student.html": "a4085b806b119144de608457a3db3146f0199fda500d9139a7a33b6ea10891ef",
-    "student.zip": "37e8e2870c46ffa2c48452938485c2da2a3473cc6a3e8e32652cedcc3f2bcb52",
-    "content.json": "637d293f4d6ad293dc47efe9c2c459eb54732e5c29b6d7b7085be63435e6cabb"
+    "teacher.html": "0894c0e918efa40a98494dfab5a63dee3a7ee0c6cb9233cab825a35f1e775acd",
+    "student.html": "456f7bd80a1dd3108fc08f7efb47640e33bf5f93aa70023de47a18065881b388",
+    "student.zip": "860f47b17f8d52ff8499dfe8c9c5ce58b9606bea7d35712d65cf1e7f350cd2a1",
+    "content.json": "da610aa9378dcee1ff7c2e468b3eaef48586b35b16634e976bd651ca49393d1b",
+    "teacher-guidance.json": "f643e7abd3e10c5b40ea48f507a2886b67bb2c295119bd86c9f2f5e8f3873925"
   }
 }

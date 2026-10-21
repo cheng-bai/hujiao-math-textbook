@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 6.2 排列\n\n### 教学重点\n\n明确排列和排列数的概念, 掌握排列数的计算方法, 能进行与排列数有关的简单恒等式的推导和证明.\n\n### 内容分析\n\n排列是基本的计数模型之一, 是乘法原理的一个最主要的应用, 学习排列是对学生已有的计数经验的理论提升. 对这部分内容的理解, 既需要学生认识乘法原理的本质, 熟练掌握排列数的计算, 也要熟练运用符号语言. 这部分内容的学习效果直接影响到后面对组合的学习, 在教学中, 教师需要处理好问题难度和典型性之间的关系.\n\n例 1 旨在利用枚举法,使学生了解“排列”的含义,明确其核心特点为“元素之间的相对顺序”. 通过这个例子, 学生也能初步体会如何计算满足一定条件的排列数, 为后面学习排列数的计算作好准备. 练习 6.2(1) 的第 1、2 题和习题 6.2A 组的第 1、2 题均是可以使用枚举法解决的排列问题.\n\n例 2 和例 3 提供了解决排列问题的常用方法一一对应, 一个排列可以对应为将若干个不同的元素放在有编号的位子上. 对应也是解决计数问题的常用方法, 不过限于学生的知识基础, 教材中只涉及简单的对应. 练习 6.2(2) 的第 1、2 题和习题 6.2A 组的第 3 至 5 题的处理方法本质上均可以看作对应.\n\n例 4 是有限制条件的排列问题. 构造三位正整数时, 需考虑到百位数不能为 0 , 因此,可以先考虑受限制的位子的排法,再考虑其他位子元素的排列；或者先考虑受限制的元素的排法, 再考虑其他位子元素的排列. 另一方面, 本题提供了从反面思考问题的角度, 这也是解决计数问题的常用策略. 练习 6.2(2) 的第 1、2 题, 习题 6.2A 组的第 6 题, 习题 6.2B 组的第 4 至 6 题是例 4 的延伸.\n\n例 5 是两种常见的排列问题: 给定元素间隔排列或相邻排列. 练习 ${6.2}\\left( 2\\right)$ 的第 2 题、习题 6.2B 组的第 2 题是这两种方法的应用和深化.\n\n例 6 是一个综合运用排列与加法原理的问题. 旨在说明, 在综合使用计数方法求解的问题中, 一般先从分类开始, 将问题分解成若干“类”, 而在每一类的计算中, 则使用相应的计数模型或计数原理.\n\n例 7、例 8、例 9 旨在明确排列数的表达形式和表达规律,并涉及排列数的化简计算和简单恒等式的证明. 练习 6.2(3) 的第 1、2 题, 习题 6.2A 组的第 7 至 9 题是对排列数计算公式的应用.\n\n### 注意事项\n\n在计数过程中, “对应”是一种常用的方法. 在学习计数原理之初, 教师可以通过一些简单的例子说明“对应”的方法, 但要控制问题的难度. 例 2 和排列数的推导过程就使用了“对应”方法.\n\n对于排列问题, 应关注对计数过程的剖析, 突出乘法原理的本质. 对一个问题应尽可能从多种角度进行分析, 比较不同计数过程的异同, 分析可能产生错误结果的原因(参见例 4 和例 5).\n\n要注意对常用方法和典型问题的总结, 如 “从反面计算” “间隔排列” “相邻排列”等.\n\n### 教学建议\n\n在教学过程中, 应当突出对排列本质的理解, 加强对典型问题的剖析, 而淡化技巧, 避免繁杂的问题. 对于典型的排列问题, 可以从不同的角度进行考虑, 采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
+    "markdown": "#### 6.2 排列\n\n### 教学重点\n\n明确排列和排列数的概念, 掌握排列数的计算方法, 能进行与排列数有关的简单恒等式的推导和证明.\n\n### 内容分析\n\n排列是基本的计数模型之一, 是乘法原理的一个最主要的应用, 学习排列是对学生已有的计数经验的理论提升. 对这部分内容的理解, 既需要学生认识乘法原理的本质, 熟练掌握排列数的计算, 也要熟练运用符号语言. 这部分内容的学习效果直接影响到后面对组合的学习, 在教学中, 教师需要处理好问题难度和典型性之间的关系.\n\n### 注意事项\n\n在计数过程中, “对应”是一种常用的方法. 在学习计数原理之初, 教师可以通过一些简单的例子说明“对应”的方法, 但要控制问题的难度. 例 2 和排列数的推导过程就使用了“对应”方法.\n\n对于排列问题, 应关注对计数过程的剖析, 突出乘法原理的本质. 对一个问题应尽可能从多种角度进行分析, 比较不同计数过程的异同, 分析可能产生错误结果的原因(参见例 4 和例 5).\n\n要注意对常用方法和典型问题的总结, 如 “从反面计算” “间隔排列” “相邻排列”等.\n\n### 教学建议\n\n在教学过程中, 应当突出对排列本质的理解, 加强对典型问题的剖析, 而淡化技巧, 避免繁杂的问题. 对于典型的排列问题, 可以从不同的角度进行考虑, 采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
     "provenance": [
       {
         "source": "teacher",
@@ -100,8 +100,31 @@
         "end": 320
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在利用枚举法,使学生了解“排列”的含义,明确其核心特点为“元素之间的相对顺序”. 通过这个例子, 学生也能初步体会如何计算满足一定条件的排列数, 为后面学习排列数的计算作好准备. 练习 6.2(1) 的第 1、2 题和习题 6.2A 组的第 1、2 题均是可以使用枚举法解决的排列问题.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -131,8 +154,32 @@
         "end": 350
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 和例 3 提供了解决排列问题的常用方法一一对应, 一个排列可以对应为将若干个不同的元素放在有编号的位子上. 对应也是解决计数问题的常用方法, 不过限于学生的知识基础, 教材中只涉及简单的对应. 练习 6.2(2) 的第 1、2 题和习题 6.2A 组的第 3 至 5 题的处理方法本质上均可以看作对应.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          2,
+          3
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -162,8 +209,32 @@
         "end": 372
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 和例 3 提供了解决排列问题的常用方法一一对应, 一个排列可以对应为将若干个不同的元素放在有编号的位子上. 对应也是解决计数问题的常用方法, 不过限于学生的知识基础, 教材中只涉及简单的对应. 练习 6.2(2) 的第 1、2 题和习题 6.2A 组的第 3 至 5 题的处理方法本质上均可以看作对应.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          2,
+          3
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -318,8 +389,31 @@
         "end": 470
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 是有限制条件的排列问题. 构造三位正整数时, 需考虑到百位数不能为 0 , 因此,可以先考虑受限制的位子的排法,再考虑其他位子元素的排列；或者先考虑受限制的元素的排法, 再考虑其他位子元素的排列. 另一方面, 本题提供了从反面思考问题的角度, 这也是解决计数问题的常用策略. 练习 6.2(2) 的第 1、2 题, 习题 6.2A 组的第 6 题, 习题 6.2B 组的第 4 至 6 题是例 4 的延伸.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -349,8 +443,31 @@
         "end": 524
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 是两种常见的排列问题: 给定元素间隔排列或相邻排列. 练习 ${6.2}\\left( 2\\right)$ 的第 2 题、习题 6.2B 组的第 2 题是这两种方法的应用和深化.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          5
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -380,8 +497,31 @@
         "end": 554
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 6 是一个综合运用排列与加法原理的问题. 旨在说明, 在综合使用计数方法求解的问题中, 一般先从分类开始, 将问题分解成若干“类”, 而在每一类的计算中, 则使用相应的计数模型或计数原理.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          6
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -546,8 +686,33 @@
         "end": 626
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在明确排列数的表达形式和表达规律,并涉及排列数的化简计算和简单恒等式的证明. 练习 6.2(3) 的第 1、2 题, 习题 6.2A 组的第 7 至 9 题是对排列数计算公式的应用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -577,8 +742,33 @@
         "end": 668
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在明确排列数的表达形式和表达规律,并涉及排列数的化简计算和简单恒等式的证明. 练习 6.2(3) 的第 1、2 题, 习题 6.2A 组的第 7 至 9 题是对排列数计算公式的应用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -608,8 +798,33 @@
         "end": 700
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 7、例 8、例 9 旨在明确排列数的表达形式和表达规律,并涉及排列数的化简计算和简单恒等式的证明. 练习 6.2(3) 的第 1、2 题, 习题 6.2A 组的第 7 至 9 题是对排列数计算公式的应用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 97,
+        "end": 130
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-6-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 97,
+            "end": 130
+          }
+        ],
+        "examples_referenced": [
+          7,
+          8,
+          9
+        ],
+        "section": "6.2",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

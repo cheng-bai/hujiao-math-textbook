@@ -15,7 +15,7 @@ from pathlib import Path, PurePosixPath
 import fitz
 from playwright.sync_api import sync_playwright
 from batch_render import OUTPUT, ROOT, VENDOR, output_dir, render_section, save_json, section_paths, sha, visual_files
-from test_print import choose
+from test_print import choose, unlock_access
 
 VERSION = 'batch-validate-v1.5'
 MATH_RE = re.compile(r'\$\$[\s\S]*?\$\$|(?<!\$)\$(?!\$)[^$\n]+\$')
@@ -72,6 +72,7 @@ def rendered_source_formula_count(page):
 
 def ready(page, path):
     page.goto(Path(path).as_uri(), wait_until='load', timeout=30000)
+    unlock_access(page)
     page.wait_for_function('document.documentElement.dataset.math !== undefined', timeout=15000)
     page.wait_for_function("document.documentElement.dataset.visualReady === 'true'", timeout=15000)
     page.wait_for_function("[...document.querySelectorAll('.book-body .visual-frame-status')].every(el=>el.hidden)", timeout=15000)
@@ -238,7 +239,7 @@ def validate_section(path, browser, force=False):
         with zipfile.ZipFile(out/'student.zip') as archive:
             names=archive.namelist()
             check('student_zip_crc',archive.testzip() is None)
-            allowed=set(['student.html','book.css','book.js','visual-book.css','visual-book.js',*build['student_images']])
+            allowed=set(['student.html','book.css','book.js','visual-book.css','visual-book.js','site-access.css','site-access.js',*build['student_images']])
             allowed.update('visual-assets/'+name for name in visual_files(data, True))
             allowed.update('vendor-katex/'+p.relative_to(VENDOR).as_posix() for p in VENDOR.rglob('*') if p.is_file())
             check('student_zip_allowlist',set(names)==allowed and len(names)==len(set(names)) and all(not PurePosixPath(n).is_absolute() and '..' not in PurePosixPath(n).parts and '\\' not in n and not n.startswith(('sources/','_sources/','content/','verification/','images/private-')) and not n.endswith('-teacher.js') and n!='visual-assets/module-data.js' for n in names))

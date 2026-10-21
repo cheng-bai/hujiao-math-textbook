@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "x1-3-2",
   "book_id": "x1",
   "section": "3.2",
   "title": "空间向量基本定理",
   "section_json": "batch/sections/x1/x1-3-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-2",
-  "fingerprint": "261770340b04a43990de5059505ea3741da16c657b12812a605978c33b79c7c0",
+  "fingerprint": "faa38984ca6f605046916e2bc6bfefac052b9f13d254129628566f2e261c9f54",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -71,11 +71,66 @@
     "images/book-bd07e665ba89dd021ba2.jpg",
     "images/book-f49b6e5ebec584fb48d6.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 3,
+    "source_paragraphs": 5,
+    "matched_source_groups": 3,
+    "moved_source_paragraphs": 5,
+    "attached_paragraphs": 5,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "x1-3-2-ex-1",
+        "example_number": 1,
+        "source_id": "x1-3-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 132,
+            "end": 175
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-2-ex-2",
+        "example_number": 2,
+        "source_id": "x1-3-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 132,
+            "end": 175
+          }
+        ]
+      },
+      {
+        "question_id": "x1-3-2-ex-3",
+        "example_number": 3,
+        "source_id": "x1-3-2-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 132,
+            "end": 175
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 3,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 3,
+    "current_section": "3.2"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "e5b54328236bf6b34045eefe59d69515b5dd4ba839269c60ec1d359c876a8270",
-    "student.html": "3e5e7de52009587c89ae41b78ede9b10c6bd6f48d7c26762e5f8c5a0a162f3e7",
-    "student.zip": "6333ef745c200f0084b748a3e028cd2ed20dfcbf7ffdc24a444f4057bd800505",
-    "content.json": "7ded8d28ff02113039b7ad7e4f41a6ab58b502de0623698c3f8c913acdcfdf09"
+    "teacher.html": "a399eb77dc4e2558a9b30aaa166eae8046ed58b5ca364abc083f8f0b4843e7e7",
+    "student.html": "b2bd537942cf05dc3077c067c3235a386d4d2265cfef34615f5b70492d879155",
+    "student.zip": "012f06cc8f67a643962dd6973bd669e9bbfa12982504a9eb3ae06b16a64c86a3",
+    "content.json": "4c8a4855cfe4b6a5d0565862b06e2476994eb40c4f42e1d4ab3f4221ac237476",
+    "teacher-guidance.json": "0746e02b3edc0de03ab222fd1a3e7b69a68956c9a14c452b31a938bc9df44810"
   }
 }

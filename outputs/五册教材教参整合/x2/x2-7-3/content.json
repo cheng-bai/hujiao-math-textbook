@@ -19,7 +19,7 @@
   {
     "type": "teacher",
     "title": "正式教参 · 教材分析与教学建议",
-    "markdown": "#### 7.3 常用分布\n\n### 教学重点\n\n(1)通过具体实例,了解伯努利分布；\n\n(2)掌握二项分布、超几何分布及其数字特征(期望和方差),并能解决简单的实际问题;\n\n(3)通过误差模型,了解服从正态分布的随机变量.\n\n核心概念: 二项分布、超几何分布、正态分布.\n\n核心素养:数学建模、数据分析、数学运算等.\n\n### 内容分析\n\n本节旨在帮助学生了解几个重要的概率模型及其分布, 解决简单的实际问题.\n\n(1)伯努利分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 若伯努利试验成功,则相应的随机变量取值为 1 ; 若伯努利试验失败, 则相应的随机变量取值为 0 . 只取两个值的随机变量称为伯努利型, 其分布称为伯努利分布,也称随机变量 $X$ 服从参数为 $p$ 的两点分布或者 0-1 分布,其分布列为 $\\left( \\begin{matrix} 1 & 0 \\\\  p & 1 - p \\end{matrix}\\right)$ . 此时 $E\\left\\lbrack  X\\right\\rbrack   = p, D\\left\\lbrack  X\\right\\rbrack   = p - {p}^{2}$ .\n\n(2)二项分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 独立地重复该试验 $n$ 次,用 $X$ 表示成功的次数,则随机变量 $X$ 的分布称为二项分布,也称成功次数 $X$ 服从参数为 $n$ 和 $p$ 的二项分布 $B\\left( {n, p}\\right)$ ,其分布列为 $\\left( \\begin{matrix} 0 & 1 & 2 & \\cdots & k & \\cdots & n \\\\  {q}^{n} & {C}_{n}^{1}p{q}^{n - 1} & {C}_{n}^{2}{p}^{2}{q}^{n - 2} & \\cdots & {C}_{n}^{k}{p}^{k}{q}^{n - k} & \\cdots & {p}^{n} \\end{matrix}\\right)$ . 于是, $E\\left\\lbrack  X\\right\\rbrack   = {np}, D\\left\\lbrack  X\\right\\rbrack   = \\; {np}\\left( {1 - p}\\right)$ .\n\n(3)超几何分布. 从一个装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋中依次随机且不放回地取 $n$ 个球,其中的白球数 $X$ 的分布称为超几何分布. 此随机变量 $X$ 的分布是 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{a}^{k}{\\mathrm{C}}_{b}^{n - k}}{{\\mathrm{C}}_{a + b}^{n}}$ ,其中 $k \\leq  n, k \\leq  a, n - k \\leq  b$ . 如果随机变量 $X$ 服从参数为 $N\\text{、}M\\text{、}n$ 的超几何分布,其中 $N = a + b, M = a$ ,那么 $E\\left( X\\right)  = \\frac{nM}{N}, D\\left( X\\right) \\; = \\frac{n\\left( {N - n}\\right) \\left( {N - M}\\right) M}{{N}^{2}\\left( {N - 1}\\right) }$ .\n\n(4)正态分布. 若随机变量 $X$ 的概率分布律为 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ ,则称该分布为正态分布. ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 称为正态分布的密度函数,其中 $x \\in  \\mathbf{R},\\mu$ 及 ${\\sigma }^{2}$ 是参数,且 $\\sigma  > 0, - \\infty  < \\mu  <  + \\infty$ ,参数 $\\mu$ 和 ${\\sigma }^{2}$ 分别为正态变量的数学期望和方差.\n\n期望为 $\\mu$ 、标准差为 $\\sigma$ 的正态分布通常记作 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n\n正态分布的密度函数 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 的图像叫做正态曲线,也称钟形曲线 (图 7-R1). 该函数图像与 $x$ 轴所夹部分的面积为 1,即 ${\\int }_{-\\infty }^{+\\infty }{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right) \\mathrm{d}x = \\; {\\int }_{-\\infty }^{+\\infty }\\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}\\mathrm{\\;d}x = 1.$\n\n![bo_d402pi3ef24c73d2tha0_64_609_931_427_282_0.jpg](images/private-476ae303bf2a5310cedb.jpg)\n\n图 7-R1\n\n若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $P\\left( {X \\leq  x}\\right)  = {\\int }_{-\\infty }^{x}{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( t\\right) \\mathrm{d}t$ 称为概率分布函数.\n\n由于本教材中未涉及有关积分的内容, 因此我们换一种说法来认识正态分布.\n\n设 $X$ 是一个取实数值的随机变量. 如果对任何给定的实数 $a$ 与 $b\\left( {a < b}\\right) , X$ 落在区间 $\\left( {a, b}\\right)$ 上的概率 $P\\left( {a < X < b}\\right)$ 等于三条直线: $y = 0\\text{、}x = a\\text{、}x = b$ 与正态密度函数 $y = {\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)$ 的图像所围的区域面积 (图 7-R2),那么 $X$ 服从正态分布,或更准确地说, $X$ 服从参数为 $\\mu \\text{、}{\\sigma }^{2}$ 的正态分布,记为 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n![bo_d402pi3ef24c73d2tha0_64_577_1731_492_304_0.jpg](images/private-d1e11a011c29b01f4cdc.jpg)\n\n图 7-R2\n\n$X$ 在 $\\left( {-\\infty , + \\infty }\\right)$ 内取值的概率为 $1.X$ 在区间 $\\left( {\\mu  - \\sigma ,\\mu  + \\sigma }\\right) \\text{、}(\\mu  - {2\\sigma },\\mu  + \\; {2\\sigma })$ 及 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 内取值的概率分别是 ${68.3}\\%$ 、 ${95.4}\\%$ 及 ${99.7}\\%$ . 由于 $X$ 在区间 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 之外取值的概率是 ${0.3}\\%$ ,因此其取值几乎都在距 $x = \\mu$ 三倍标准差之内,这就是正态分布的 ${3\\sigma }$ 原则.\n\n数学期望为 0 、标准差为 1 的正态分布叫做标准正态分布,记为 $X \\sim  N\\left( {0,1}\\right)$ . 标准正态分布的密度函数为 $\\varphi \\left( x\\right)  = \\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{x}^{2}}{2}}$ . 函数 $y = \\varphi \\left( x\\right)$ 从 $- \\infty$ 到 $x$ 的累计面积称为标准正态分布函数,即 $\\Phi \\left( x\\right)  = {\\int }_{-\\infty }^{x}\\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{t}^{2}}{2}}\\mathrm{\\;d}t$ ,它具有性质 $\\Phi \\left( {-x}\\right)  = 1 - \\Phi \\left( x\\right) .\\Phi \\left( x\\right)$ 的解析式不作教学要求, 此处给出仅供教师参考.\n\n正态分布可以转化为标准正态分布. 若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $\\frac{X - \\mu }{\\sigma } \\sim  N\\left( {0,1}\\right)$ .\n\n例 1 旨在帮助学生理解伯努利试验.\n\n例 2 用例题的方式计算二项分布的期望和方差, 使本节内容完整. 练习 7.3(1) 进一步巩固二项分布.\n\n例 3 是不放回摸球模型, 通过特殊问题的解决引出超几何分布. 教学中可以设计一些问题, 启发学生思考, 进一步理解超几何分布的内涵.\n\n例 4 是例 3 的延续, 计算超几何分布的期望, 因为这样的计算对学生来说比较困难, 所以没有直接利用期望公式进行计算, 而是另外构造等价的随机变量来计算期望. 该例题没有计算方差, 教学中, 对于学有余力的学生, 可以提出直接利用公式计算期望和方差的问题, 请学生探究.\n\n例 5 、例 6 是对正态分布的应用, 主要是运用正态分布的密度函数图像的对称性来实现问题的转化. 例 6 将正态分布转化为标准正态分布, 解决问题后进一步指出正态分布的 ${3\\sigma }$ 原则,体现应用性. 习题 7.3B 组第 3 题将其进一步巩固.\n\n### 注意事项\n\n二项分布必须同时满足以下两个条件: ① 在一次试验中试验结果只有 $A$ 与 $\\bar{A}$ 这两个,且事件 $A$ 发生的概率为 $p$ ,事件 $\\bar{A}$ 发生的概率为 $1 - p$ ; ②试验可以独立重复地进行,即每次重复做一次试验,事件 $A$ 发生的概率均为同一常数 $p$ ,事件 $\\bar{A}$ 发生的概率均为 $1 - p$ .\n\n超几何分布的特征: 一个容量为 $N$ 的总体内含有两种不同的事物 $A\\left( {M\\text{个}}\\right)$ 及 $B\\left( {N - M\\text{个}}\\right)$ ,任取 $n$ 个,其中恰有 $X$ 个 $A$ . 符合该条件的即可断定是超几何分布, 按照超几何分布的分布列 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}}\\left( {k = 0,1,2,\\cdots , m}\\right)$ 进行处理.\n\n当 $n$ 较小、而 $N$ 较大时,有近似公式 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}} \\approx  {\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k}$ ,其中 $p = \\frac{M}{N}, q = 1 - p$ (此公式不作教学要求). 这说明此时超几何分布的概率计算可以近似地用二项分布来代替. 超几何分布是不放回抽样, 而二项分布是放回抽样. 这说明, 当总体容量 $N$ 很大时,不放回抽样近似于放回抽样.\n\n### 教学建议\n\n根据二项分布, 直观地说, 做一件事情, 不管成功概率多小, 只要执着地努力, 重复的次数足够多, 就有很大可能会成功.\n\n如果某个随机现象是由一些互相独立的偶然因素所引起的, 而且每一个偶然因素在总体的变化中都只是起着均匀、微小的作用, 那么相应于这种随机现象的随机变量的概率分布将近似服从正态分布. 正态分布是生活中的一个常用词, 但正确地理解数据非常重要, 应该通过误差模型来学习服从正态分布的随机变量. 但是正态分布的一些事实与结论, 要用到微积分的知识才能证明, 并且学生目前能够解决的问题类型也非常有限,主要限于变换以后的对称问题. 标准正态变量 $X$ 在区间 $\\left( {{x}_{1},{x}_{2}}\\right)$ 内的概率公式为: $P\\left( {{x}_{1} < X \\leq  {x}_{2}}\\right)  = P\\left( {X \\leq  {x}_{2}}\\right)  - P\\left( {X \\leq  {x}_{1}}\\right)  = \\Phi \\left( {x}_{2}\\right)  - \\Phi \\left( {x}_{1}\\right)$ .",
+    "markdown": "#### 7.3 常用分布\n\n### 教学重点\n\n(1)通过具体实例,了解伯努利分布；\n\n(2)掌握二项分布、超几何分布及其数字特征(期望和方差),并能解决简单的实际问题;\n\n(3)通过误差模型,了解服从正态分布的随机变量.\n\n核心概念: 二项分布、超几何分布、正态分布.\n\n核心素养:数学建模、数据分析、数学运算等.\n\n### 内容分析\n\n本节旨在帮助学生了解几个重要的概率模型及其分布, 解决简单的实际问题.\n\n(1)伯努利分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 若伯努利试验成功,则相应的随机变量取值为 1 ; 若伯努利试验失败, 则相应的随机变量取值为 0 . 只取两个值的随机变量称为伯努利型, 其分布称为伯努利分布,也称随机变量 $X$ 服从参数为 $p$ 的两点分布或者 0-1 分布,其分布列为 $\\left( \\begin{matrix} 1 & 0 \\\\  p & 1 - p \\end{matrix}\\right)$ . 此时 $E\\left\\lbrack  X\\right\\rbrack   = p, D\\left\\lbrack  X\\right\\rbrack   = p - {p}^{2}$ .\n\n(2)二项分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 独立地重复该试验 $n$ 次,用 $X$ 表示成功的次数,则随机变量 $X$ 的分布称为二项分布,也称成功次数 $X$ 服从参数为 $n$ 和 $p$ 的二项分布 $B\\left( {n, p}\\right)$ ,其分布列为 $\\left( \\begin{matrix} 0 & 1 & 2 & \\cdots & k & \\cdots & n \\\\  {q}^{n} & {C}_{n}^{1}p{q}^{n - 1} & {C}_{n}^{2}{p}^{2}{q}^{n - 2} & \\cdots & {C}_{n}^{k}{p}^{k}{q}^{n - k} & \\cdots & {p}^{n} \\end{matrix}\\right)$ . 于是, $E\\left\\lbrack  X\\right\\rbrack   = {np}, D\\left\\lbrack  X\\right\\rbrack   = \\; {np}\\left( {1 - p}\\right)$ .\n\n(3)超几何分布. 从一个装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋中依次随机且不放回地取 $n$ 个球,其中的白球数 $X$ 的分布称为超几何分布. 此随机变量 $X$ 的分布是 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{a}^{k}{\\mathrm{C}}_{b}^{n - k}}{{\\mathrm{C}}_{a + b}^{n}}$ ,其中 $k \\leq  n, k \\leq  a, n - k \\leq  b$ . 如果随机变量 $X$ 服从参数为 $N\\text{、}M\\text{、}n$ 的超几何分布,其中 $N = a + b, M = a$ ,那么 $E\\left( X\\right)  = \\frac{nM}{N}, D\\left( X\\right) \\; = \\frac{n\\left( {N - n}\\right) \\left( {N - M}\\right) M}{{N}^{2}\\left( {N - 1}\\right) }$ .\n\n(4)正态分布. 若随机变量 $X$ 的概率分布律为 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ ,则称该分布为正态分布. ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 称为正态分布的密度函数,其中 $x \\in  \\mathbf{R},\\mu$ 及 ${\\sigma }^{2}$ 是参数,且 $\\sigma  > 0, - \\infty  < \\mu  <  + \\infty$ ,参数 $\\mu$ 和 ${\\sigma }^{2}$ 分别为正态变量的数学期望和方差.\n\n期望为 $\\mu$ 、标准差为 $\\sigma$ 的正态分布通常记作 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n正态分布的密度函数 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 的图像叫做正态曲线,也称钟形曲线 (图 7-R1). 该函数图像与 $x$ 轴所夹部分的面积为 1,即 ${\\int }_{-\\infty }^{+\\infty }{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right) \\mathrm{d}x = \\; {\\int }_{-\\infty }^{+\\infty }\\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}\\mathrm{\\;d}x = 1.$\n\n![bo_d402pi3ef24c73d2tha0_64_609_931_427_282_0.jpg](images/private-476ae303bf2a5310cedb.jpg)\n\n图 7-R1\n\n若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $P\\left( {X \\leq  x}\\right)  = {\\int }_{-\\infty }^{x}{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( t\\right) \\mathrm{d}t$ 称为概率分布函数.\n\n由于本教材中未涉及有关积分的内容, 因此我们换一种说法来认识正态分布.\n\n设 $X$ 是一个取实数值的随机变量. 如果对任何给定的实数 $a$ 与 $b\\left( {a < b}\\right) , X$ 落在区间 $\\left( {a, b}\\right)$ 上的概率 $P\\left( {a < X < b}\\right)$ 等于三条直线: $y = 0\\text{、}x = a\\text{、}x = b$ 与正态密度函数 $y = {\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)$ 的图像所围的区域面积 (图 7-R2),那么 $X$ 服从正态分布,或更准确地说, $X$ 服从参数为 $\\mu \\text{、}{\\sigma }^{2}$ 的正态分布,记为 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n![bo_d402pi3ef24c73d2tha0_64_577_1731_492_304_0.jpg](images/private-d1e11a011c29b01f4cdc.jpg)\n\n图 7-R2\n\n$X$ 在 $\\left( {-\\infty , + \\infty }\\right)$ 内取值的概率为 $1.X$ 在区间 $\\left( {\\mu  - \\sigma ,\\mu  + \\sigma }\\right) \\text{、}(\\mu  - {2\\sigma },\\mu  + \\; {2\\sigma })$ 及 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 内取值的概率分别是 ${68.3}\\%$ 、 ${95.4}\\%$ 及 ${99.7}\\%$ . 由于 $X$ 在区间 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 之外取值的概率是 ${0.3}\\%$ ,因此其取值几乎都在距 $x = \\mu$ 三倍标准差之内,这就是正态分布的 ${3\\sigma }$ 原则.\n\n数学期望为 0 、标准差为 1 的正态分布叫做标准正态分布,记为 $X \\sim  N\\left( {0,1}\\right)$ . 标准正态分布的密度函数为 $\\varphi \\left( x\\right)  = \\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{x}^{2}}{2}}$ . 函数 $y = \\varphi \\left( x\\right)$ 从 $- \\infty$ 到 $x$ 的累计面积称为标准正态分布函数,即 $\\Phi \\left( x\\right)  = {\\int }_{-\\infty }^{x}\\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{t}^{2}}{2}}\\mathrm{\\;d}t$ ,它具有性质 $\\Phi \\left( {-x}\\right)  = 1 - \\Phi \\left( x\\right) .\\Phi \\left( x\\right)$ 的解析式不作教学要求, 此处给出仅供教师参考.\n\n正态分布可以转化为标准正态分布. 若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $\\frac{X - \\mu }{\\sigma } \\sim  N\\left( {0,1}\\right)$ .\n\n### 注意事项\n\n二项分布必须同时满足以下两个条件: ① 在一次试验中试验结果只有 $A$ 与 $\\bar{A}$ 这两个,且事件 $A$ 发生的概率为 $p$ ,事件 $\\bar{A}$ 发生的概率为 $1 - p$ ; ②试验可以独立重复地进行,即每次重复做一次试验,事件 $A$ 发生的概率均为同一常数 $p$ ,事件 $\\bar{A}$ 发生的概率均为 $1 - p$ .\n\n超几何分布的特征: 一个容量为 $N$ 的总体内含有两种不同的事物 $A\\left( {M\\text{个}}\\right)$ 及 $B\\left( {N - M\\text{个}}\\right)$ ,任取 $n$ 个,其中恰有 $X$ 个 $A$ . 符合该条件的即可断定是超几何分布, 按照超几何分布的分布列 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}}\\left( {k = 0,1,2,\\cdots , m}\\right)$ 进行处理.\n\n当 $n$ 较小、而 $N$ 较大时,有近似公式 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}} \\approx  {\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k}$ ,其中 $p = \\frac{M}{N}, q = 1 - p$ (此公式不作教学要求). 这说明此时超几何分布的概率计算可以近似地用二项分布来代替. 超几何分布是不放回抽样, 而二项分布是放回抽样. 这说明, 当总体容量 $N$ 很大时,不放回抽样近似于放回抽样.\n\n### 教学建议\n\n根据二项分布, 直观地说, 做一件事情, 不管成功概率多小, 只要执着地努力, 重复的次数足够多, 就有很大可能会成功.\n\n如果某个随机现象是由一些互相独立的偶然因素所引起的, 而且每一个偶然因素在总体的变化中都只是起着均匀、微小的作用, 那么相应于这种随机现象的随机变量的概率分布将近似服从正态分布. 正态分布是生活中的一个常用词, 但正确地理解数据非常重要, 应该通过误差模型来学习服从正态分布的随机变量. 但是正态分布的一些事实与结论, 要用到微积分的知识才能证明, 并且学生目前能够解决的问题类型也非常有限,主要限于变换以后的对称问题. 标准正态变量 $X$ 在区间 $\\left( {{x}_{1},{x}_{2}}\\right)$ 内的概率公式为: $P\\left( {{x}_{1} < X \\leq  {x}_{2}}\\right)  = P\\left( {X \\leq  {x}_{2}}\\right)  - P\\left( {X \\leq  {x}_{1}}\\right)  = \\Phi \\left( {x}_{2}\\right)  - \\Phi \\left( {x}_{1}\\right)$ .",
     "provenance": [
       {
         "source": "teacher",
@@ -108,8 +108,31 @@
         "end": 892
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 1 旨在帮助学生理解伯努利试验.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          1
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -139,8 +162,31 @@
         "end": 932
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 2 用例题的方式计算二项分布的期望和方差, 使本节内容完整. 练习 7.3(1) 进一步巩固二项分布.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          2
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -277,8 +323,31 @@
         "end": 974
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 3 是不放回摸球模型, 通过特殊问题的解决引出超几何分布. 教学中可以设计一些问题, 启发学生思考, 进一步理解超几何分布的内涵.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          3
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -308,8 +377,31 @@
         "end": 1020
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 4 是例 3 的延续, 计算超几何分布的期望, 因为这样的计算对学生来说比较困难, 所以没有直接利用期望公式进行计算, 而是另外构造等价的随机变量来计算期望. 该例题没有计算方差, 教学中, 对于学有余力的学生, 可以提出直接利用公式计算期望和方差的问题, 请学生探究.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          4
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",
@@ -511,8 +603,32 @@
         "end": 1142
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 、例 6 是对正态分布的应用, 主要是运用正态分布的密度函数图像的对称性来实现问题的转化. 例 6 将正态分布转化为标准正态分布, 解决问题后进一步指出正态分布的 ${3\\sigma }$ 原则,体现应用性. 习题 7.3B 组第 3 题将其进一步巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "question",
@@ -542,8 +658,32 @@
         "end": 1180
       }
     ],
-    "teacher_analysis": "",
-    "analysis_provenance": []
+    "teacher_analysis": "### 教参原文提示\n\n例 5 、例 6 是对正态分布的应用, 主要是运用正态分布的密度函数图像的对称性来实现问题的转化. 例 6 将正态分布转化为标准正态分布, 解决问题后进一步指出正态分布的 ${3\\sigma }$ 原则,体现应用性. 习题 7.3B 组第 3 题将其进一步巩固.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_guidance_sources": [
+      {
+        "source_id": "x2-7-3-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 250,
+            "end": 324
+          }
+        ],
+        "examples_referenced": [
+          5,
+          6
+        ],
+        "section": "7.3",
+        "provenance_precision": "source-block-line-range"
+      }
+    ]
   },
   {
     "type": "heading",

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-13-4",
   "book_id": "bx3",
   "section": "13.4",
   "title": "统计图表",
   "section_json": "batch/sections/bx3/bx3-13-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-4",
-  "fingerprint": "d3614d61587ce1e86d6df211afe67e7a98a72cfa14fc98e87fe7ef58ea306f87",
+  "fingerprint": "58e6a4916c91720b2e64989132517a4a5851bb4977cadaf99a9a291b53591a3f",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -100,11 +100,42 @@
     "images/book-a93845bcf5c73a18148d.jpg",
     "images/book-cb2837f6491601cca6d1.jpg"
   ],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 1,
+    "source_paragraphs": 1,
+    "matched_source_groups": 1,
+    "moved_source_paragraphs": 1,
+    "attached_paragraphs": 1,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-13-4-ex-1",
+        "example_number": 1,
+        "source_id": "bx3-13-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 214,
+            "end": 255
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 1,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 1,
+    "current_section": "13.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "50b18da36ed60e67374b6344c786c33fa65aa9a02791367a9b3967a7619c9021",
-    "student.html": "e51f4eba16e4a1117ee0d9b3aaceb6d25c91f505e0f2ba902036a6bd473674aa",
-    "student.zip": "3c190808887df81410f9e1cbb8eef91a347dec65e9701977cee6215597c7826c",
-    "content.json": "988064720f56ae27348162880b2d780c3b0f08a089927d1c9ba4623f7b45a9c4"
+    "teacher.html": "3bf1dc125f519b1d137fbcc4d9f1247e2484f3f2d427c77c2c1bb4f83539275e",
+    "student.html": "d15f64a0d16b1f8688da6c06ba702eb20db14d368a3bbc810b4e3513e38f8bc3",
+    "student.zip": "b7b47c16c9a91ab84e27cdf77056f26f3dfa5d8f319ddfd4ba939d2c5ed78950",
+    "content.json": "07f779bcf494b8145ef5db5ccc6a7ec2d2f05c4e9a9983e1086b152533d5ac8a",
+    "teacher-guidance.json": "b95df549b859f001607f6c99dc70f16962628ed4730e5fa721ce70865f1da575"
   }
 }

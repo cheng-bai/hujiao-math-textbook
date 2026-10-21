@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "version": "batch-render-v1.4",
+  "version": "batch-render-v1.5",
   "id": "bx3-12-4",
   "book_id": "bx3",
   "section": "12.4",
   "title": "随机事件的独立性",
   "section_json": "batch/sections/bx3/bx3-12-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-4",
-  "fingerprint": "7be469f4c9f34874738603c958c0b36b8d369da53a22b69acafce1f6a6fab78e",
+  "fingerprint": "41df04a98ab6fb77772f2d11bfee0f84df440101571094a3024734da18383cc0",
   "status": "rendered",
   "questions": 17,
   "answers": 17,
@@ -21,11 +21,54 @@
     "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
   },
   "student_images": [],
+  "teacher_guidance": {
+    "schema_version": 1,
+    "policy": "explicit-example-reference-and-same-section-only",
+    "source_groups": 2,
+    "source_paragraphs": 2,
+    "matched_source_groups": 2,
+    "moved_source_paragraphs": 2,
+    "attached_paragraphs": 2,
+    "reused_existing_paragraphs": 0,
+    "attachments": [
+      {
+        "question_id": "bx3-12-4-ex-2",
+        "example_number": 2,
+        "source_id": "bx3-12-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 266,
+            "end": 329
+          }
+        ]
+      },
+      {
+        "question_id": "bx3-12-4-ex-6",
+        "example_number": 6,
+        "source_id": "bx3-12-4-b1",
+        "provenance": [
+          {
+            "source": "teacher",
+            "start": 266,
+            "end": 329
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "matched_examples": 2,
+    "unmatched_groups": 0,
+    "unmatched_paragraphs": 0,
+    "attachment_count": 2,
+    "current_section": "12.4"
+  },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "27175d444226a9d5afd464a8f8fbe6a83518a52105f9862b016573e492ac63e0",
-    "student.html": "89a635b1ca38f0875ca27870cc4faf40a9b7c44046192da5636d0e83ce5e4f39",
-    "student.zip": "55adcc1ee5dc6ec2773ac6caa678b2f43b06f27ccef56b420fabb63f90aed9ab",
-    "content.json": "91d0cb4b8ce197b31f360a4a7fe8e20f4fc40f5dca1626d84d32376c8dd33ce2"
+    "teacher.html": "02d9952e6d50ee4d574835b58697a4bb58e7fa476c347e2075e01ddd19888a25",
+    "student.html": "cce0f79b684f8d0e8ea41557ac01705996a53da14697f29e017030979b9c9aab",
+    "student.zip": "8b016b5140dc92ab0497753210cb1e806589b66350fb736b3ca0c23ba49eebea",
+    "content.json": "60698edd735eb5c669423512a040b675b648e313c8c32b8964a097925d395dea",
+    "teacher-guidance.json": "dd00e82f107a3e40e6e30b014b202c5f5e732f8f246437d321c23a1dd2d76d48"
   }
 }
