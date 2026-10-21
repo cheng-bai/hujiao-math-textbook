@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-8-2",
+  "book_id": "x2",
+  "section": "8.2",
+  "title": "一元线性回归分析",
+  "section_json": "batch/sections/x2/x2-8-2.json",
+  "output": "outputs/五册教材教参整合/x2/x2-8-2",
+  "fingerprint": "bf1be9a41f84813d47523f60b2a73d20b3c6b127fb77dfa051acb6647b83cc58",
+  "status": "rendered",
+  "questions": 15,
+  "answers": 15,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-ae461ecaf0946e0adc37.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_88_608_316_454_215_0.jpg",
+      "sha256": "ae461ecaf0946e0adc37e3761ab9252dc19f8ebfcf17fb45d1a03638a138158b",
+      "private": true
+    },
+    "images/book-73ae20f7f6df456d6a03.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg",
+      "sha256": "73ae20f7f6df456d6a03294e0b5896b708f27be6c4e2befce041c134c47186b6",
+      "private": false
+    },
+    "images/private-b446a9a1d301e607b8bf.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_12_174_1654_915_453_0.jpg",
+      "sha256": "b446a9a1d301e607b8bf1052eef8cff98dd7c20957d1cc42f2cae1dd6e90a1b7",
+      "private": true
+    },
+    "images/private-6387f0282bc5b17382ca.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_13_562_387_912_449_0.jpg",
+      "sha256": "6387f0282bc5b17382caf259dfff85c2e82ba324edae385c2294c0e89c544e53",
+      "private": true
+    },
+    "images/private-9b4009a39e2938b8439e.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_14_215_1599_860_366_0.jpg",
+      "sha256": "9b4009a39e2938b8439ef782d580af47379359c5ec9f44fdcbb50066b547a5d1",
+      "private": true
+    },
+    "images/private-c5e4b5a0f65f6cff83bb.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_15_682_1137_667_350_0.jpg",
+      "sha256": "c5e4b5a0f65f6cff83bb9ea827ee558dbc8a5f6d1ef5ef9cdf64567a6dd8a351",
+      "private": true
+    },
+    "images/book-1807fea9c7dc326cab13.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_17_1050_1186_430_292_0.jpg",
+      "sha256": "1807fea9c7dc326cab134ef416e7cdfbc90f34e7df16c6edc85ad6946113ad03",
+      "private": false
+    },
+    "images/private-018090720654a25399a8.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_94_476_866_875_423_0.jpg",
+      "sha256": "018090720654a25399a8df51553b421551793f0269bb85740a828d4b3e556892",
+      "private": true
+    },
+    "images/private-139d2da22519b5f3bd67.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_95_299_191_928_418_0.jpg",
+      "sha256": "139d2da22519b5f3bd67fdadb844e0b28c7db63b2f5a5956f8ec609c17d5449c",
+      "private": true
+    },
+    "images/private-92fcfbdc3f4a477cb5ff.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_95_292_752_978_381_0.jpg",
+      "sha256": "92fcfbdc3f4a477cb5ff01c62f1e572f72f771b12b512649c7204328204df19f",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md": "21b1df385af3645c43ac2bf2fe3b7703c288d96ea4e8bef4ec0fba4f7f8d42a5",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md": "70596878acb5841fc585358b25ed22582bd7da897b937db8c9a7ae644baacb67"
+  },
+  "student_images": [
+    "images/book-1807fea9c7dc326cab13.jpg",
+    "images/book-73ae20f7f6df456d6a03.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "91791ad2d15dbe6e4ee7a5c0b1a86eef73075d97383f36b4772ec6d6d2046923",
+    "student.html": "a1710fc114df68ebd0cbe586ea7cead1d01cb31e89a486665efece0979e91b24",
+    "student.zip": "0789b0039dd2a9bb92dadc3c923500de7ef60657ed5c038911baffb79f969d3e",
+    "content.json": "1eaeedc85483e7ef6b00f5c7193e06f3e1cd87a0f5dd47bf8bf6750d47e21a21"
+  }
+}

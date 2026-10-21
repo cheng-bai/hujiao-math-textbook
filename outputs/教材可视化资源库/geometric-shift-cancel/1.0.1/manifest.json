@@ -1,0 +1,309 @@
+{
+  "asset_id": "2c055ddc-94df-5ce0-b08c-3cece1d5e93b",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:04Z",
+  "default_state": {
+    "lesson": {
+      "stage": 1
+    },
+    "math": {
+      "n": 6,
+      "ratio": 2
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "f4b204ca0588a9e18da95ff45a62810fc9505c24dff6d648bf2f04b293e91fa6",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x1-4-2-b12",
+          "rationale": "接替乘公比、错位、相减与q=1分类的冗长文字过程。",
+          "sectionId": "x1-4-2",
+          "sourceSha256": "a7c0a0153f39d753eca16f7a02749b9bd786ef63f477ebd425d3b84d3517570a"
+        }
+      ],
+      "sections": [
+        "x1-4-2"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31595,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "f4b204ca0588a9e18da95ff45a62810fc9505c24dff6d648bf2f04b293e91fa6"
+    },
+    {
+      "bytes": 5677,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "710c3e96b94304d3e7196d36c0b03141e88fffb41bcf405cb0393b3a75ce29cb"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 2062,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "0cdcd6c7f84dc6ee9b3c51e83ef7377a539ed5f542d5679a29eb042b888691c9"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 4909,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "33cc124dfb2417c4a5f1f9471fb10f5738e5b6f53d21ed18503161f4635b2bde"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "1194731f357e19cf552fad2878e03f39a57a21bb22b6156bf7b3f66f834f3117"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 511,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "a82240a566d3cbb75838e7555a1e5bf916a7d5f589db2c96a16671215da16326"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "将等比数列前n项和乘公比q，幂次整体错开一位。两式相减消去中间项，得到(1−q)S=a₁(1−qⁿ)。q≠1时才能除以1−q；q=1时前n项和为na₁。"
+    ],
+    "learning_goals": [
+      "对齐同幂次项，再消去中间项，保留q=1的边界。"
+    ],
+    "objects": [
+      "等比求和：错位后只剩首尾"
+    ],
+    "parameters": {
+      "n": {
+        "default": 6,
+        "display_range": [
+          2,
+          9
+        ],
+        "domain": "本实验允许输入范围 [2, 9]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      },
+      "ratio": {
+        "default": 2,
+        "domain": "允许的离散选项：[-1.5, -1, -0.5, 0.5, 1, 1.5, 2]",
+        "type": "enum"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "对齐同幂次项，再消去中间项，保留q=1的边界。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {
+          "stage": 1
+        },
+        "math": {
+          "n": 6,
+          "ratio": 2
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "geometric-shift-cancel",
+  "state_contract": {
+    "lesson": {
+      "stage": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer"
+      }
+    },
+    "math": {
+      "n": {
+        "maximum": 9,
+        "minimum": 2,
+        "type": "integer"
+      },
+      "ratio": {
+        "enum": [
+          -1.5,
+          -1,
+          -0.5,
+          0.5,
+          1,
+          1.5,
+          2
+        ],
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "等比求和：错位后只剩首尾",
+  "updated_at": "2026-10-21T06:06:17.428751Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.129066Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "f4b204ca0588a9e18da95ff45a62810fc9505c24dff6d648bf2f04b293e91fa6"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.129066Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "f4b204ca0588a9e18da95ff45a62810fc9505c24dff6d648bf2f04b293e91fa6"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

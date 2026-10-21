@@ -1,0 +1,1177 @@
+{
+  "schema_version": 1,
+  "id": "bx3-12-2",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "12",
+  "chapter_title": "第12章概率初步",
+  "section": "12.2",
+  "title": "古典概率",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "古典概率",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 287,
+          "end": 287
+        }
+      ],
+      "id": "bx3-12-2",
+      "number": "12.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 12.2 古典概率\n\n### 教学重点\n\n(1)理解组成古典概率模型的两个基本条件;\n\n(2)掌握互斥事件、对立事件的概念；\n\n(3)通过具体实例,理解概率的意义；\n\n(4)掌握并应用概率的基本性质及运算法则；\n\n(5)通过事件关系和运算,计算古典概型中简单随机事件的概率.\n\n核心概念: 古典概率、等可能性、事件关系.\n\n核心素养:数学建模、数学运算.\n\n### 内容分析\n\n内容要求:通过对古典概率模型的分析,应用概率的语言和分析问题的思路,学习求解基本概率问题.\n\n在现实生活中, 我们常听到“概率”这个词. 例如, 买彩票时, 总关心中奖的概率有多大; 正规的足球比赛, 为了体现比赛的公平性, 比赛前主裁判往往以抛硬币的方式, 根据正反面来确定参赛球队的进攻方向, 这些都和概率有关. 那么, 什么是概率呢? 怎么求得概率的大小呢? 知道概率的大小又有什么意义呢?\n\n若一个随机试验的所有结果出现的可能性都一样, 则称之为具有等可能性, 它在许多场合下是直观自然的. 如果一个随机试验满足下面两个条件: (1)包含有限个可能出现的结果(基本事件); (2)这些结果出现是等可能的, 那么这样的随机试验就称为古典概率模型.\n\n古典概型是一种特殊的数学模型, 也是一种最基本的概率模型, 在概率论中占有相当重要的地位. 古典概型的引入避免了大量的重复实验, 而且可得到概率的准确值, 学好它可以为学习其他概率奠定基础, 同时有利于理解概率的概念, 有助于计算一些事件的概率, 有利于解释生活中的一些问题, 起到承前启后的作用. 本节课将感性认识与理性认识相结合, 利用生活中大量实例归纳总结相关的数学概念及计算公式, 用系统的眼光看待以前已经接触的一些知识, 构建相应的数学模型.\n\n判断一个随机试验是否为古典概型, 要看这个试验是否具有古典概型的两个特征一一有限性和等可能性, 二者缺一不可. 例如, 在适宜的条件下种下一粒种子, 观察它是否发芽. 这个试验的基本事件只有两个: 发芽、不发芽. 而“发芽”和“不发芽” 这两种结果出现的机会一般是不均等的, 所以它不属于古典概型. 又如, 从质量为 ${2500}\\mathrm{\\;g} \\pm  {25}\\mathrm{\\;g}$ 的一批袋装大米中任意抽取一袋,设其质量 $M, M$ 的值可能是从 2475g到 2525g之间的任何一个值, 所有可能的结果有无限多个, 这个试验也不属于古典概型.\n\n判断事件间的关系时, 可以根据常识来判断. 一要考虑试验的前提条件, 无论是包含、相等还是互斥、对立, 其发生的条件都应是一样的. 二要考虑事件间的结果是否有交事件,可利用维恩图分析. 对较难判断的,就得严格按照事件之间关系的定义来推理, 也可先列出全部结果, 再进行分析.\n\n进行事件的运算时, 一要紧扣运算的定义, 二要全面考查同一条件下的试验可能出现的全部结果, 必要时可利用维恩图或列出全部的试验结果进行分析.\n\n互斥事件的概率加法公式 $P\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right)$ 是一个非常重要的公式,运用该公式解题时, 首先要分清事件是否互斥, 同时要学会把一个事件分拆为几个互斥事件, 求出各个事件的概率, 再用加法公式得出结果. 当直接计算符合条件的事件个数比较烦琐时, 可先计算其对立事件的个数, 求得对立事件的概率, 然后利用对立事件的概率的加法公式 $P\\left( A\\right)  + P\\left( \\bar{A}\\right)  = 1$ ,求出符合条件的事件的概率.\n\n概率的基本性质:\n\n(1)必然事件的概率是 1,不可能事件的概率是 0,即 $P\\left( \\Omega \\right)  = 1, P\\left( \\varnothing \\right)  = 0$ ；\n\n(2)对于随机事件 $A$ ,有 $0 \\leq  P\\left( A\\right)  \\leq  1$ ；\n\n(3)两个不可能同时发生的事件中至少有一个发生的概率是这两个事件的概率之和,即如果 $A \\cap  B = \\varnothing$ ,那么 $P\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right)$ ;\n\n(4)对任一给定的随机事件,其发生的概率与不发生的概率的和总是 1 ,即成立 $P\\left( A\\right)  + P\\left( \\bar{A}\\right)  = 1.$\n\n### 注意事项\n\n再次强调, 随机现象的样本空间的选取依赖于观察的角度, 但事件的概率与观察角度这一主观因素无关, 是确定唯一的. 在古典概率模型中, 随着观察角度的不同, 并非所有观察角度所引导的样本空间都有等可能性. 对复杂的随机试验, 为了得到一个等可能的样本空间, 通常要将一个随机试验依次分解为若干个等可能的随机试验来处理.\n\n注意, 只有那些能够选取到有限的等可能样本空间的随机现象才称为古典概率模型. 这时, 为了计算方便, 我们总是选一个这样的样本空间.\n\n解古典概型问题时, 要牢牢抓住它的两个特点及其计算公式. 但是这类问题的解法多样, 技巧性强, 在解决此类问题时需要注意以下三点:\n\n(1)试验必须具有古典概型的两大特征——有限性和等可能性；\n\n(2)计算基本事件的数目时,需做到不重不漏；\n\n(3)利用事件间的关系.\n\n在求解较复杂事件的概率时, 可将其分解为几个互斥的简单事件的和事件, 由公式\n\n$$\nP\\left( {{A}_{1} \\cup  {A}_{2} \\cup  \\cdots  \\cup  {A}_{n}}\\right)  = P\\left( {A}_{1}\\right)  + P\\left( {A}_{2}\\right)  + \\cdots  + P\\left( {A}_{n}\\right)\n$$\n\n求得,或转化为求其对立事件,再用公式 $P\\left( A\\right)  = 1 - P\\left( \\bar{A}\\right)$ 求得.\n\n解决有序和无序的问题时应注意:关于不放回抽样,计算基本事件个数时,不论看做是有顺序的或是无顺序的, 最后结果都是一致的. 但不论选择哪一种方式, 观察的角度必须一致,否则会产生错误. 关于有放回抽样,应注意在连续取出两次的过程中,因为先后顺序不同,所以 $\\left( {a, b}\\right) \\text{、}\\left( {b, a}\\right)$ 不是同一个基本事件. 解题的关键是要清楚无论是“不放回抽取”还是“有放回抽取”,每一件产品被取出的机会都是均等的.\n\n### 教学建议\n\n本节内容的学习加深了学生对随机现象的理解.\n\n注意, 应该让学生明白概率论能做什么和不能做什么. 概率论不可能确切地告诉我们一个随机事件会不会发生, 而只能告诉我们该事件发生的可能性有多大. 两者有着巨大的差别.\n\n概率是定义在集合上的函数, 每一个随机事件都对应着一个确定的概率值, 这与函数概念中的对应关系是类似的. 可以类比函数性质的研究过程来学习概率的性质.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 146,
+          "end": 223
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 等可能性与概率",
+      "markdown": "### 1 等可能性与概率",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 289,
+          "end": 289
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "通俗地讲，概率就是可能性的大小. 我们从最简单的抛掷硬币来学习与概率相关的概念. 抛掷一枚硬币这个随机试验一共有两个可能的结果: 正面朝上与反面朝上, 其中必然有且只有一个结果会出现, 并且两个结果出现的可能性通常被认为是一样的. 因为习惯地约定必然事件的概率是 1 , 所以正面朝上的可能性即概率是 $\\frac{1}{2}$ . 这里的关键是硬币的两个面出现的可能性一样. 一般地, 若一个随机试验的所有结果出现的可能性都一样, 则称之为具有等可能性 (equally likely), 它在许多场合下是直观自然的.\n\n如果一个随机试验满足下面两个条件:(1)包含有限个可能出现的结果(基本事件)；(2)这些结果出现是等可能的，那么这样的随机试验就称为古典概率模型. 它是最常见也是最简单的概率模型.\n\n在一个古典概率模型中, $\\Omega$ 是一个有限且等可能的样本空间. 这里等可能的样本空间是指该样本空间中的每个基本事件出现的可能性相同. 因为依照习惯约定必然事件的概率是 1 , 所以每个基本事件发生的概率自然是基本事件总数的倒数. 由于一般的随机事件 $A$ 是基本事件的某个集合,即样本空间的一个子集, 用符号 $P\\left( A\\right)$ 表示事件 $A$ 发生的概率 (probability),那么事件 $A$ 发生的概率为\n\n$$\nP\\left( A\\right)  = \\frac{\\left| A\\right| }{\\left| \\Omega \\right| }.\n$$\n\n其中, $\\left| A\\right|$ 表示事件 $A$ 中的基本事件个数,而 $\\left| \\Omega \\right|$ 表示样本空间中的基本事件个数. 上式说明概率是事件中的元素个数与样本空间中元素个数的比值.\n\n---\n\n为什么硬币的两面出现是等可能的? 这是由于: (1)假设抛掷的硬币是质地均匀的; (2)假设抛掷的过程是充分随机的. 这两个假设使得我们确信硬币落地时不会偏向于其任何一面.\n\n符号 $\\left| A\\right|$ 表示集合 $A$ 的元素个数.\n\n---\n\n![bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg](sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 290,
+          "end": 312
+        }
+      ],
+      "emphases": [
+        {
+          "start": 262,
+          "end": 352,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-12-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 抛掷一枚硬币正面朝上和掷一颗骰子得点数 6 的概率分别是多少?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "id": "bx3-12-2-ex-1",
+      "category": "例题",
+      "answer": "解(1)抛掷一枚硬币，正面朝上和反面朝上的可能性是一样的,属于古典概率模型,由定义,它们的概率都是 $\\frac{1}{2}$ .\n\n---\n\n拉普拉斯 (P.-S. Laplace, 1749—1827) 分别在 1812 年与 1814 年出版《概率的分析理论》与《概率的哲学探讨》两部著作，明确给出了古典概率的定义, 总结了那个时代所知的概率研究成果, 并且对概率论在自然科学、社会科学、 选举、决策、审判等方面的应用作出了开创性的探讨.\n\n---\n\n(2)掷一颗骰子，朝上一面的数字是 1、2、3、4、5、6 中的一个, 所以有 6 个可能结果, 这些结果也是等可能出现的, 所以掷骰子也是一个古典概率模型. 由定义, 每个结果出现的概率是 $\\frac{1}{6}$ ,从而出现点数 6 的概率是 $\\frac{1}{6}$ .\n\n根据概率的定义, 容易得到以下两个简单的性质:\n\n概率性质 1 必然事件的概率是 1 , 不可能事件的概率是 0 , 即\n\n$$\nP\\left( \\Omega \\right)  = 1, P\\left( \\varnothing \\right)  = 0.\n$$\n\n概率性质 2 设 $A$ 是一个事件,那么 $0 \\leq  P\\left( A\\right)  \\leq  1$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 315,
+          "end": 334
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 同时掷两颗骰子,求:\n\n---\n\n在抛掷硬币或掷骰子时, 我们实际上不言自喻地假设等可能性.\n\n---\n\n(1)所得点数之和为 5 的概率;\n\n(2)所得点数相等的概率；\n\n(3)所得点数都是偶数的概率；\n\n(4)所得点数相差 2 的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 335,
+          "end": 350
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 335,
+          "end": 350
+        }
+      ],
+      "id": "bx3-12-2-ex-2",
+      "category": "例题",
+      "answer": "解 由例 1, 掷两颗骰子(设已标记为不同的颜色)的样本空间是\n\n$$\n\\Omega  = \\{ \\left( {i, j}\\right)  \\mid  i = 1,\\cdots ,6;j = 1,\\cdots ,6\\} ,\n$$\n\n其中 $i\\text{ 、 }j$ 分别是掷第一颗与第二颗骰子所得的点数. 这个样本空间一共有 $6 \\times  6 = {36}$ 个基本事件,它们是等可能的.\n\n(1)将所得点数之和为 5 这个事件用 $A$ 表示. 那么,事件 $A$ 包含以下基本事件:(1，4)、(2，3)、(3，2)、(4，1)，即\n\n$$\nA = \\{ \\left( {1,4}\\right) ,\\left( {2,3}\\right) ,\\left( {3,2}\\right) ,\\left( {4,1}\\right) \\} .\n$$\n\n事件 $A$ 有 4 个基本事件,从而点数之和等于 5 的概率为\n\n$$\nP\\left( A\\right)  = \\frac{4}{36} = \\frac{1}{9}.\n$$\n\n(2)将所得点数相等这个事件用 $B$ 表示. 类似地，有\n\n$$\nB = \\{ \\left( {1,1}\\right) ,\\left( {2,2}\\right) ,\\left( {3,3}\\right) ,\\left( {4,4}\\right) ,\\left( {5,5}\\right) ,\\left( {6,6}\\right) \\} ,\n$$\n\n因此\n\n$$\nP\\left( B\\right)  = \\frac{6}{36} = \\frac{1}{6}.\n$$\n\n(3)将所得点数都是偶数这个事件用 $C$ 表示，类似地，有\n\n$$\nC = \\{ \\left( {2,2}\\right) ,\\left( {2,4}\\right) ,\\left( {2,6}\\right) ,\\left( {4,2}\\right) ,\\left( {4,4}\\right) ,\n$$\n\n$$\n\\left. {\\left( {4,6}\\right) ,\\left( {6,2}\\right) ,\\left( {6,4}\\right) ,\\left( {6,6}\\right) }\\right\\}  \\text{ , }\n$$\n\n因此\n\n$$\nP\\left( C\\right)  = \\frac{9}{36} = \\frac{1}{4}.\n$$\n\n(4)将所得点数相差 2 这个事件用 $D$ 表示，类似地，有\n\n$$\nD = \\{ \\left( {1,3}\\right) ,\\left( {3,1}\\right) ,\\left( {2,4}\\right) ,\\left( {4,2}\\right) ,\\left( {3,5}\\right) ,\\left( {5,3}\\right) ,\\left( {4,6}\\right) ,\\left( {6,4}\\right) \\} ,\n$$\n\n因此\n\n$$\nP\\left( D\\right)  = \\frac{8}{36} = \\frac{2}{9}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 351,
+          "end": 410
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.2(1)",
+      "markdown": "#### 练习 12.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 411,
+          "end": 411
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(1) · 1",
+      "markdown": "1. 同时掷 2 颗骰子, 求:\n\n(1)所得点数和为 6 的概率; (2)所得点数和不大于 6 的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 413,
+          "end": 416
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 413,
+          "end": 416
+        }
+      ],
+      "id": "bx3-12-2-p1221-1",
+      "category": "练习12.2(1)",
+      "answer": "1. (1) $\\frac{5}{36}$ . (2) $\\frac{5}{12}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 388,
+          "end": 389
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(1) · 2",
+      "markdown": "2. 抛掷 3 枚硬币,求下列事件的概率:\n\n(1)恰有 2 枚正面朝上； (2)最多 1 枚正面朝上.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 417,
+          "end": 420
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 417,
+          "end": 420
+        }
+      ],
+      "id": "bx3-12-2-p1221-2",
+      "category": "练习12.2(1)",
+      "answer": "2. (1) $\\frac{3}{8}$ . (2) $\\frac{1}{2}$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 390,
+          "end": 391
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 等可能性(续)",
+      "markdown": "### 2 等可能性(续)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 421,
+          "end": 421
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在上一节说过, 随机现象的样本空间的选取依赖于观察的角度, 但其中事件的概率与观察角度这一主观因素无关, 是确定唯一的. 在古典概率模型中, 随着观察角度的不同, 并非所有的样本空间都有等可能性. 例如, 抛掷两枚硬币, 样本空间 \\{正正,正反,反正,反反\\}中的基本事件是等可能的, 但样本空间\\{两正,一正一反,两反\\}却不是等可能的. 虽然取什么样本空间不影响所考察的随机事件的概率, 但只有选取等可能的样本空间, 才能使得事件的概率如定义所示, 等于事件元素个数与样本空间元素个数之比, 进而使有关计算变得简单, 所以我们通常要选取一个等可能的样本空间.\n\n怎么得到一个等可能的样本空间呢? 对抛掷一枚硬币、掷一颗骰子、摸一个球等随机试验来说，这很简单，但对复杂的随机试验来说, 这并不是很容易. 为此, 通常要将一个随机试验依次分解为若干个等可能的随机试验来处理, 方法如下:\n\n设一个随机试验分两步完成,第一步有 $m$ 个等可能的结果, 记作\n\n$$\n{a}_{1},{a}_{2},\\cdots ,{a}_{m}\\text{ ; }\n$$\n\n而对第一步得到的每个结果,第二步总有 $n$ 个等可能的结果, 记作\n\n$$\n{b}_{1},{b}_{2},\\cdots ,{b}_{n}\\text{ . }\n$$\n\n那么, 该随机试验的样本空间就是\n\n$$\n\\Omega  = \\left\\{  {\\left( {{a}_{i},{b}_{j}}\\right)  \\mid  i = 1,2,\\cdots , m;j = 1,2,\\cdots , n}\\right\\}  ,\n$$\n\n它是等可能的,共有 ${mn}$ 个元素. 对多步的等可能随机试验可以类似地构造等可能的样本空间.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 422,
+          "end": 446
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 从分别写有 $A\\text{ 、 }B\\text{ 、 }C$ 的三个大小与质地相同的球中任意取两个, 寻找其等可能的样本空间.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 447,
+          "end": 448
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 447,
+          "end": 448
+        }
+      ],
+      "id": "bx3-12-2-ex-3",
+      "category": "例题",
+      "answer": "解 取两个球这个试验可以分解为两步: 先取一个不放回, 再取一个. 第一步有 3 个等可能的结果: $A\\text{ 、 }B\\text{ 、 }C$ . 再取时, 在剩下的两个球中等可能地取一个. 如果第一个取出的是 $A$ , 那么再取时的结果是 $B$ 或 $C$ ,记作 ${AB}$ 或 ${AC}$ ; 同理,如果第一个取出的是 $B$ ,再取的结果是 $A$ 或 $C$ ,记作 ${BA}$ 或 ${BC}$ . 依此类推,共有 6 个等可能的结果: ${AB}\\text{ 、 }{AC}\\text{ 、 }{BA}\\text{ 、 }{BC}\\text{ 、 }{CA}$ 、 ${CB}$ . 这里所写的两个字母是有顺序的,分别表示第一次及第二次取出的球上的字母. 因此, 这个试验的一个等可能的样本空间是\n\n$$\n\\Omega  = \\{ {AB},{AC},{BA},{BC},{CA},{CB}\\} .\n$$\n\n可以看出, 如果只考虑出现的字母而不考虑顺序, 那么样本空间是 $\\Omega  = \\{ {AB},{BC},{CA}\\}$ . 因为其中每个基本事件包含前一个样本空间中的两个元素, 所以它也是等可能的.\n\n在上面的例子中, 因为无需考虑顺序, 所以一次取两个球和依次不放回地取两个球的随机性是一样的.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 449,
+          "end": 458
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 从一个放有两个白球、一个黑球的罐子中任意摸两个球, 写出其样本空间并思考: 这个样本空间是否有不同的写法? 什么样的样本空间有等可能性? 并求至少摸到一个黑球的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 460
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 460
+        }
+      ],
+      "id": "bx3-12-2-ex-4",
+      "category": "例题",
+      "answer": "解 把两个白球分别标记为 $A\\text{ 、 }B$ ,而黑球标记为 $C$ . 样本空间\n\n$$\n\\Omega  = \\{ {AB},{AC},{BA},{BC},{CA},{CB}\\}\n$$\n\n是等可能的. 如果只关心摸到的白球个数, 那么只看到两个结果:两个白球、一黑一白, 这不是等可能的. 最后, 从第一个样本空间看, 事件 \"至少摸到一个黑球\" 包含 4 个基本事件 $\\{ {AC},{BC},{CA},{CB}\\}$ ,因此其概率为 $\\frac{4}{6} = \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 461,
+          "end": 468
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.2(2)",
+      "markdown": "#### 练习 12.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 469,
+          "end": 469
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(2) · 1",
+      "markdown": "1. 掷两颗骰子, 点数之和出现哪个数的可能性最大?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 472
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 472
+        }
+      ],
+      "id": "bx3-12-2-p1222-1",
+      "category": "练习12.2(2)",
+      "answer": "1. 点数之和为 7 的概率最大,等于 $\\frac{1}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 394,
+          "end": 395
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(2) · 2",
+      "markdown": "2. (配对问题)三个人抽签，三个签上事先分别写上了各自的名字. 求下面事件的概率:\n\n${A}_{0}$ : 没有人抽到写有自己名字的签；\n\n${A}_{1}$ : 恰有一个人抽到写有自己名字的签；\n\n${A}_{2}$ : 恰有两个人抽到写有自己名字的签；\n\n${A}_{3}$ : 三个人都抽到写有自己名字的签.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 473,
+          "end": 482
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 473,
+          "end": 482
+        }
+      ],
+      "id": "bx3-12-2-p1222-2",
+      "category": "练习12.2(2)",
+      "answer": "2. $P\\left( {A}_{0}\\right)  = \\frac{1}{3}, P\\left( {A}_{1}\\right)  = \\frac{1}{2}, P\\left( {A}_{2}\\right)  = 0, P\\left( {A}_{3}\\right)  = \\frac{1}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 396,
+          "end": 397
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "3 事件关系和运算",
+      "markdown": "### 3 事件关系和运算",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 483,
+          "end": 483
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "对于一个随机现象而言, 在确定样本空间之后, 事件对应于样本空间的一个子集, 通常用相同的字母来表示事件与相应的子集.\n\n首先,事件之间是有关系的. 设事件 $A$ 对应于子集 $A$ ,事件 $B$ 对应于子集 $B$ . 如果 $A$ 的基本事件都在 $B$ 中,那么 $A$ 发生必然 $B$ 发生. 此时,称 $B$ 包含 $A$ 或者 $A$ 包含于 $B$ ,即 $A \\subset  B$ . 例如,抛掷三枚硬币, $A$ : 至少有两个正面朝上, $B$ : 至少有一个正面朝上，则 $A \\subset  B$ ，即 $A$ 发生必然 $B$ 发生，或等价地说， $B$ 不发生则 $A$ 也不发生.\n\n其次,事件是可以运算的. \"两个事件 $A\\text{ 、 }B$ 至少有一个发生\", 这本身也是一个事件, 是指在两个事件所包含的基本事件中至少有一个发生,其对应的子集是 $A \\cup  B$ . 同样地,\"两个事件 $A\\text{ 、 }B$ 同时发生\"也是一个事件,是指两个事件的某个共同的基本事件发生,其对应的子集是 $A \\cap  B$ . 因此,\"两个事件至少有一个发生\"对应于相应集合的并，而\"两个事件同时发生\"则对应于相应集合的交.\n\n如果 $A$ 与 $B$ 没有共同的基本事件,即两个子集不相交: $A \\cap  B = \\varnothing$ ,那么这两个事件不可能同时发生,或者说互斥.\n\n\"事件 $A$ 发生\"的否定就是\"事件 $A$ 不发生\",它也是一个事件,称为事件 $A$ 的对立事件,简称为\"非 $A$ \". 对应的子集是不属于 $A$ 的基本事件全体,从而是 $A$ 在样本空间 $\\Omega$ 中的补集 $\\bar{A}$ . 显然 $A$ 与非 $A$ 不会同时发生,但肯定有一个发生,即成立\n\n$$\nA \\cap  \\overline{A} = \\varnothing , A \\cup  \\overline{A} = \\Omega .\n$$\n\n现在来看\"同时发生\"及\"至少有一个发生\"这些事件的否定形式. 正如\"所有人都去\"的否定是\"至少有一个人没去\"一样, \"A、 $B$ 两个事件同时发生\"的否定是 \"$A\\text{ 、 }B$ 至少有一个不发生\"，或者\" $A$ 不发生或 $B$ 不发生\",即成立\n\n$$\n\\overline{A \\cap  B} = \\bar{A} \\cup  \\bar{B}.\n$$\n\n类似地,\" $A\\text{ 、 }B$ 两个事件至少有一个发生\"的否定是 \" $A$ 与 $B$ 都没发生\",即成立\n\n$$\n\\overline{A \\cup  B} = \\bar{A} \\cap  \\bar{B}.\n$$\n\n上面这两个公式是对两个事件来陈述的，实际上对任意多个事件同样成立.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 484,
+          "end": 512
+        }
+      ],
+      "emphases": [
+        {
+          "start": 624,
+          "end": 784,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-12-2-definition-17-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 掷两颗骰子,观察掷得的点数. 设 $A$ : 至少一个是偶数, $B$ : 至少一个是奇数, $C$ : 两个点数的乘积是偶数, $D$ : 两个点数的和是奇数. 讨论:\n\n(1)A 与 B 的关系；\n\n(2)A 和 C 的关系；\n\n(3)A、B、D 之间的关系；\n\n(4)C 与 $D$ 的关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 513,
+          "end": 522
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 513,
+          "end": 522
+        }
+      ],
+      "id": "bx3-12-2-ex-5",
+      "category": "例题",
+      "answer": "解(1) $A$ 发生， $B$ 不一定发生； $B$ 发生， $A$ 不一定发生. 因此， $A$ 、 $B$ 互不包含. 此外， $A$ 、 $B$ 有可能同时发生，所以它们也不互斥.\n\n(2)两个点数的乘积是偶数当且仅当其中至少一个是偶数， 即 $A = C$ .\n\n(3)两个点数的和是奇数当且仅当一个是奇数一个是偶数， 即 $D = A \\cap  B$ .\n\n(4)若两个点数的和是奇数，肯定是一奇一偶，所以其乘积一定是偶数; 反过来, 乘积是偶数说明两个点数中至少一个是偶数. 因此 $D \\subset  A$ ,且因为 $\\left( 2\\right)$ ,故 $D \\subset  C$ ,但两者不等.\n\n---\n\n事件的关系就是样本空间中相应子集的关系, 事件的运算就是相应子集的运算, 两者是互相对应的.\n\n---",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 523,
+          "end": 536
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 掷两颗骰子,观察掷得的点数. 设 $A$ : 至少一个点数是偶数, $B$ : 点数之和是偶数. 求:\n\n(1) $A \\cup  B$ ；\n\n(2) $A \\cap  B$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 537,
+          "end": 542
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 537,
+          "end": 542
+        }
+      ],
+      "id": "bx3-12-2-ex-6",
+      "category": "例题",
+      "answer": "解(1)掷两颗骰子，出现的两个点数可以分成三个互斥的事件: 两个都是偶数,记作 ${A}_{0}$ ; 一奇一偶,记作 ${A}_{1}$ ; 两个都是奇数,记作 ${A}_{2}$ . 于是有\n\n$$\n\\Omega  = {A}_{0} \\cup  {A}_{1} \\cup  {A}_{2}.\n$$\n\n${A}_{0}\\text{ 、 }{A}_{1}$ 两种情况合起来是事件 $A$ ,即 $A = {A}_{0} \\cup  {A}_{1}$ ,而 ${A}_{0}\\text{ 、 }{A}_{2}$ 两种情况合起来是事件 $B$ ,即 $B = {A}_{0} \\cup  {A}_{2}$ . 因此\n\n$$\nA \\cup  B = \\left( {{A}_{0} \\cup  {A}_{1}}\\right)  \\cup  \\left( {{A}_{0} \\cup  {A}_{2}}\\right)  = {A}_{0} \\cup  {A}_{1} \\cup  {A}_{2} = \\Omega .\n$$\n\n也就是说, 掷两颗骰子, 或者至少其中一个点数是偶数, 或者点数之和是偶数.\n\n---\n\n也可以直接把 $A$ 、 $B$ 的基本事件一一列出来, 再进行相应的运算, 见练习 12.2(3).\n\n---\n\n(2)事件 $A$ 、 $B$ 同时发生是指至少其中一个点数是偶数，而其点数之和也是偶数, 从而两个点数必须都是偶数, 即成立\n\n$A \\cap  B = \\{ \\left( {i, j}\\right)  \\mid  1 \\leq  i \\leq  6,1 \\leq  j \\leq  6, i\\text{ 、 }j$ 都是偶数 $\\}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 543,
+          "end": 566
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.2(3)",
+      "markdown": "#### 练习 12.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 567
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(3) · 1",
+      "markdown": "1. 写出例 6 中事件 $A\\text{ 、 }B$ 各自包含的基本事件,表示出 $A \\cup  B$ 与 $A \\cap  B$ 来验证例 6 中的结果.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 570
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 570
+        }
+      ],
+      "id": "bx3-12-2-p1223-1",
+      "category": "练习12.2(3)",
+      "answer": "1. $A = \\{ \\left( {1,2}\\right) ,\\left( {1,4}\\right) ,\\left( {1,6}\\right) ,\\left( {2,1}\\right) ,\\left( {2,2}\\right) ,\\left( {2,3}\\right) ,\\left( {2,4}\\right) ,\\left( {2,5}\\right) ,\\left( {2,6}\\right) ,\\left( {3,2}\\right)$ , $\\left( {3,4}\\right) ,\\left( {3,6}\\right) ,\\left( {4,1}\\right) ,\\left( {4,2}\\right) ,\\left( {4,3}\\right) ,\\left( {4,4}\\right) ,\\left( {4,5}\\right) ,\\left( {4,6}\\right) ,\\left( {5,2}\\right) ,\\left( {5,4}\\right) ,\\left( {5,6}\\right) ,\\left( {6,1}\\right) , \\; \\left( {6,2}\\right) ,\\left( {6,3}\\right) ,\\left( {6,4}\\right) ,\\left( {6,5}\\right) ,\\left( {6,6}\\right) \\}$ ;\n\n$B = \\{ \\left( {1,1}\\right) ,\\left( {1,3}\\right) ,\\left( {1,5}\\right) ,\\left( {2,2}\\right) ,\\left( {2,4}\\right) ,\\left( {2,6}\\right) ,\\left( {3,1}\\right) ,\\left( {3,3}\\right) ,\\left( {3,5}\\right) ,\\left( {4,2}\\right) , \\; \\left( {4,4}\\right) ,\\left( {4,6}\\right) ,\\left( {5,1}\\right) ,\\left( {5,3}\\right) ,\\left( {5,5}\\right) ,\\left( {6,2}\\right) ,\\left( {6,4}\\right) ,\\left( {6,6}\\right) \\}$ ;\n\n$A \\cup  B = \\Omega , A \\cap  B = \\{ \\left( {2,2}\\right) ,\\left( {2,4}\\right) ,\\left( {2,6}\\right) ,\\left( {4,2}\\right) ,\\left( {4,4}\\right) ,\\left( {4,6}\\right) ,\\left( {6,2}\\right) ,\\left( {6,4}\\right) , \\; \\left( {6,6}\\right) \\}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 400,
+          "end": 405
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(3) · 2",
+      "markdown": "2. 把 1、2、3、4、5、6、7、8、9、10 分别写在 10 张一样的卡片上，并随机抽取 1 张. 设 $A$ : 出现偶数, $B$ : 出现 3 的倍数. 写出下面两个事件的对应子集:\n\n(1)A、B 至少有一个发生； (2)A、B 同时发生.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 571,
+          "end": 574
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 571,
+          "end": 574
+        }
+      ],
+      "id": "bx3-12-2-p1223-2",
+      "category": "练习12.2(3)",
+      "answer": "2. $\\left( 1\\right) A \\cup  B = \\{ 2,3,4,6,8,9,{10}\\} .\\;\\left( 2\\right) A \\cap  B = \\{ 6\\}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 406,
+          "end": 407
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "4 可加性",
+      "markdown": "### 4 可加性",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 575,
+          "end": 575
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "概率 $P\\left( A\\right)$ 是赋予事件 $A$ 的一个量,它表示事件 $A$ 发生的可能性大小, 是该事件的客观属性. 对于古典概率模型来说, 这个量是如下定义的:\n\n$$\nP\\left( A\\right)  = \\frac{\\left| A\\right| }{\\left| \\Omega \\right| }.\n$$\n\n设事件 $A\\text{ 、 }B$ 不同时发生,即成立 $A \\cap  B = \\varnothing$ . 而 $A$ 与 $B$ 至少有一个发生的事件是 $A \\cup  B$ . 因为 $A$ 与 $B$ 中没有共同的元素, 所以并集 $A \\cup  B$ 的元素个数就是 $A$ 及 $B$ 的元素个数之和,即成立\n\n$$\n\\left| {A \\cup  B}\\right|  = \\left| A\\right|  + \\left| B\\right| ,\n$$\n\n因此\n\n$$\nP\\left( {A \\cup  B}\\right)  = \\frac{\\left| A \\cup  B\\right| }{\\left| \\Omega \\right| } = \\frac{\\left| A\\right| }{\\left| \\Omega \\right| } + \\frac{\\left| B\\right| }{\\left| \\Omega \\right| } = P\\left( A\\right)  + P\\left( B\\right) .\n$$\n\n即得到概率的可加性 (additivity):\n\n概率性质 3 (可加性) 两个不可能同时发生的事件至少有一个发生的概率是这两个事件的概率之和. 换言之, 如果 $A \\cap  B = \\varnothing$ ,那么\n\n$$\nP\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right) .\n$$\n\n将上述可加性用于 $B = \\bar{A}$ 特殊情况,由于 $A \\cup  \\bar{A} = \\Omega$ ,就得到\n\n概率性质 4 对任一给定事件, 其发生的概率与不发生的概率的和总是 1 . 换言之, 有\n\n$$\nP\\left( A\\right)  = 1 - P\\left( \\bar{A}\\right) .\n$$\n\n作为度量某事件发生可能性大小的量, 概率最本质的性质就是可加性, 它在计算概率时非常重要.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 576,
+          "end": 612
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 抛掷三枚硬币,求:\n\n(1)至少出现两个正面的概率;\n\n(2)至少出现一个正面的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 613,
+          "end": 618
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 613,
+          "end": 618
+        }
+      ],
+      "id": "bx3-12-2-ex-7",
+      "category": "例题",
+      "answer": "解 用 $H$ 、 $T$ 分别表示正面与反面,则抛掷三枚硬币的样本空间是\n\n$\\Omega  = \\{ {HHH},{HTH},{HHT},{HTT},{THH},{TTH},{THT},{TTT}\\} .$\n\n(1)令 $A$ 为至少出现两个正面. 恰有两个正面出现的事件为 $\\{ {HTH},{HHT},{THH}\\}$ ,而恰有三个正面出现的事件为 $\\{ {HHH}\\}$ . 至少有两个正面出现意味着这两个事件至少有一个发生, 而且这两个事件不会同时发生. 所以, 由概率性质 3 , 得\n\n$$\nP\\left( A\\right)  = \\frac{3}{8} + \\frac{1}{8} = \\frac{4}{8} = \\frac{1}{2}.\n$$\n\n(2)令 $B$ 为至少出现一个正面，它的对立事件 $\\bar{B}$ 就是全部为反面,即 $\\bar{B} = \\{ {TTT}\\}$ . 所以,由概率性质 4,得\n\n$$\nP\\left( B\\right)  = 1 - P\\left( \\bar{B}\\right)  = 1 - \\frac{1}{8} = \\frac{7}{8}.\n$$\n\n将上述古典概率的基本性质抽象出来, 可得概率满足以下三个性质:\n\n---\n\n很多量有可加性, 如集合的元素个数， 区域的面积，物体的体积和质量, 等等, 但也有很多量不具有可加性，如物体的密度.\n\n---\n\n(1)任意事件 $A$ 的概率介于 0、1 之间，即 $0 \\leq  P\\left( A\\right)  \\leq  1$ ；\n\n(2)规范性:必然事件的概率为 1，即 $P\\left( \\Omega \\right)  = 1$ ；\n\n(3)可加性:若事件 $A$ 、 $B$ 互斥，则\n\n$$\nP\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right) .\n$$\n\n前面所讲的古典概率是概率的特殊情况和思想源泉, 但应该指出, 概率不限于古典概率, 如例 8、例 9 所示.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 619,
+          "end": 654
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 8",
+      "markdown": "例 8 甲、乙两人下棋, 甲获胜的概率为 0.4 , 甲不输的概率为 0.9 . 求甲、乙两人下成和棋的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 655,
+          "end": 656
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 655,
+          "end": 656
+        }
+      ],
+      "id": "bx3-12-2-ex-8",
+      "category": "例题",
+      "answer": "解 用 $A$ 表示甲获胜, $B$ 表示和棋, $C$ 表示甲不输. 因为甲不输是指甲获胜或者和棋, 所以\n\n$$\nC = A \\cup  B\\text{ . }\n$$\n\n而和棋与获胜是互斥的, 由概率性质 3(可加性), 得\n\n$$\nP\\left( C\\right)  = P\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right) .\n$$\n\n题意说明 $P\\left( C\\right)  = {0.9}, P\\left( A\\right)  = {0.4}$ ,因此 $P\\left( B\\right)  = {0.9} - {0.4}$ =0.5 .\n\n由于本章涉及的样本空间都很小, 计算概率只需直接计数. 为了说明可加性的重要性, 下面举一个稍有难度的例子.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 657,
+          "end": 672
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 9",
+      "markdown": "例 9 甲、乙各抛掷若干枚硬币, 甲抛掷的硬币总数恰比乙少 1 枚. 问甲得到的正面数比乙得到的正面数少的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 673,
+          "end": 674
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 673,
+          "end": 674
+        }
+      ],
+      "id": "bx3-12-2-ex-9",
+      "category": "例题",
+      "answer": "解 设事件 $A$ : 甲得到的正面数比乙少. 当甲抛掷 1 枚硬币, 而乙抛掷 2 枚的时候, 可以列出样本空间\n\n$$\n\\Omega  = \\{ {HHH},{HTH},{HHT},{HTT},{THH},{TTH},{THT},{TTT}\\} ,\n$$\n\n其中第一个字母表示甲抛掷硬币的结果, 后面两个字母表示乙抛掷硬币的结果. 那么\n\n$$\nA = \\{ {HHH},{THH},{TTH},{THT}\\} ,\n$$\n\n所以\n\n$$\nP\\left( A\\right)  = \\frac{4}{8} = \\frac{1}{2}.\n$$\n\n当甲、乙分别抛掷 2 枚及 3 枚硬币的时候，样本空间会有 32 个基本事件, 像上面那样计数计算勉强可行. 但一般的情况用数个数的方法是不行的, 需要换个思路.\n\n设事件 $B$ : 甲得到的反面数比乙的反面数少. 因为硬币的正反面质地均匀,应有 $P\\left( A\\right)  = P\\left( B\\right)$ . 现在我们来证明 $A\\text{ 、 }B$ 是对立事件，即至少有一个发生，但不可能同时发生. 一方面，如果它们同时发生, 那么甲的正面数和反面数都比乙的少 (至少各少一个), 从而推出甲抛掷的硬币总数 (正面数与反面数之和) 至少比乙少两个, 这与题意矛盾. 另一方面, 如果它们都不发生, 那么甲的正面数和反面数都不比乙的少, 从而甲抛掷的硬币总数不比乙少, 也与题意矛盾.\n\n---\n\n本例中所说的概率并不是按古典概率定义的概率.\n\n---\n\n这样,就有 $B = \\overline{\\bar{A}}$ . 由概率性质 4,得\n\n$$\nP\\left( B\\right)  = 1 - P\\left( A\\right)\\text{ . }\n$$\n\n再由 $P\\left( A\\right)  = P\\left( B\\right)$ ,就可推出 $P\\left( A\\right)  = \\frac{1}{2}$ .\n\n最后, 我们指出, 从两个事件的可加性可以推出任意多个事件的可加性: 如果 ${A}_{1},{A}_{2},\\cdots ,{A}_{n}$ 是 $n$ 个两两互斥的事件, 那么\n\n$$\nP\\left( {{A}_{1} \\cup  {A}_{2} \\cup  \\cdots  \\cup  {A}_{n}}\\right)  = P\\left( {A}_{1}\\right)  + P\\left( {A}_{2}\\right)  + \\cdots  + P\\left( {A}_{n}\\right) .\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 675,
+          "end": 716
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.2(4)",
+      "markdown": "#### 练习 12.2(4)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 717
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(4) · 1",
+      "markdown": "1. 已知 $A\\text{ 、 }B\\text{ 、 }C$ 是三个两两互斥的事件,求证:\n\n$$\nP\\left( {A \\cup  B \\cup  C}\\right)  = P\\left( A\\right)  + P\\left( B\\right)  + P\\left( C\\right) .\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 724
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 724
+        }
+      ],
+      "id": "bx3-12-2-p1224-1",
+      "category": "练习12.2(4)",
+      "answer": "1. 证明: 因为 $A\\text{、}B\\text{、}C$ 是两两不同时发生的事件,所以 $\\left| {A \\cup  B \\cup  C}\\right|  = \\left| A\\right|  + \\; \\left| B\\right|  + \\left| C\\right|$ ,因此 $P\\left( {A \\cup  B \\cup  C}\\right)  = \\frac{\\left| A \\cup  B \\cup  C\\right| }{\\left| \\Omega \\right| } = \\frac{\\left| A\\right|  + \\left| B\\right|  + \\left| C\\right| }{\\left| \\Omega \\right| } = P\\left( A\\right)  + P\\left( B\\right)  + \\; P\\left( C\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 410,
+          "end": 411
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(4) · 2",
+      "markdown": "2. 已知 $A$ 、 $B$ 是两个事件,求证:\n\n$$\nP\\left( {A \\cap  \\bar{B}}\\right)  = P\\left( A\\right)  - P\\left( {A \\cap  B}\\right) .\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 725,
+          "end": 730
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 725,
+          "end": 730
+        }
+      ],
+      "id": "bx3-12-2-p1224-2",
+      "category": "练习12.2(4)",
+      "answer": "2. 证明: $\\left( {A \\cap  \\bar{B}}\\right)  \\cap  \\left( {A \\cap  B}\\right)  = A \\cap  \\left( {\\bar{B} \\cap  B}\\right)  = A \\cap  \\varnothing  = \\varnothing$ ,\n\n$\\left( {A \\cap  \\bar{B}}\\right)  \\cup  \\left( {A \\cap  B}\\right)  = A \\cap  \\left( {\\bar{B} \\cup  B}\\right)  = A \\cap  \\Omega  = A,$\n\n所以 $P\\left( A\\right)  = P\\left( {A \\cap  \\bar{B}}\\right)  + P\\left( {A \\cap  B}\\right)$ ,即 $P\\left( {A \\cap  \\bar{B}}\\right)  = P\\left( A\\right)  - P\\left( {A \\cap  B}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 412,
+          "end": 417
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.2(4) · 3",
+      "markdown": "3. 一次期中考试, 小明数学超过 90 分的概率是 0.5 , 物理超过 90 分的概率是 0.7 , 两门课都超过 90 分的概率是 0.3 . 求他的数学和物理至少有一门超过 90 分的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 731,
+          "end": 732
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 731,
+          "end": 732
+        }
+      ],
+      "id": "bx3-12-2-p1224-3",
+      "category": "练习12.2(4)",
+      "answer": "3.0.9.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 418,
+          "end": 419
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 12.2",
+      "markdown": "#### 习题 12.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 733,
+          "end": 733
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 735,
+          "end": 735
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 1",
+      "markdown": "1. 从 1、2、3、4、5 中任取 3 个不同的数，求这 3 个数构成一组勾股数(或者说恰为一个直角三角形的三条边长) 的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 737,
+          "end": 738
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 737,
+          "end": 738
+        }
+      ],
+      "id": "bx3-12-2-h122A-1",
+      "category": "习题12.2A",
+      "answer": "1. $\\frac{1}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 424,
+          "end": 425
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 2",
+      "markdown": "2. 如果将一枚质地均匀的硬币连续抛掷 100 次, 那么第 99 次出现反面朝上的概率是 ( )\n\nA. $\\frac{1}{100}$ ; B. $\\frac{99}{100}$ ; C. $\\frac{1}{99}$ ; D. $\\frac{1}{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 742
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 742
+        }
+      ],
+      "id": "bx3-12-2-h122A-2",
+      "category": "习题12.2A",
+      "answer": "2. D.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 426,
+          "end": 427
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 3",
+      "markdown": "3. 在分别写有数字0、1、2、3、4、5、6、7、8、9 的 10 张一样的卡片中随机抽取 1 张. 设事件 $A$ : 出现奇数,事件 $B$ : 出现偶数,事件 $C$ : 大于 4 . 写出下列事件对应的集合:\n\n(1) $A$ 、 $C$ 同时发生； (2) $B$ 、 $C$ 至少有一个发生;\n\n(3)A、B 同时发生.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 743,
+          "end": 748
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 743,
+          "end": 748
+        }
+      ],
+      "id": "bx3-12-2-h122A-3",
+      "category": "习题12.2A",
+      "answer": "3. (1) $\\{ 5,7,9\\}$ . (2) $\\{ 0,2,4,5,6,7,8,9\\}$ . (3) $\\varnothing$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 428,
+          "end": 429
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 4",
+      "markdown": "4. 掷一颗骰子,设事件 $A$ : 落地时向上的点数是奇数,事件 $B$ : 落地时向上的点数是偶数,事件 $C$ : 落地时向上的点数是 3 的倍数,事件 $D$ : 落地时向上的点数是 4 . 则下列每对事件中，不是互斥事件的为 ( )\n\nA. $A$ 与 $B$ ； B. $B$ 与 $C$ ； C. $A$ 与 $D$ ; D. $C$ 与 $D$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 749,
+          "end": 756
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 749,
+          "end": 756
+        }
+      ],
+      "id": "bx3-12-2-h122A-4",
+      "category": "习题12.2A",
+      "answer": "4. B.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 430,
+          "end": 431
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 5",
+      "markdown": "5. 如图, 靶子由一个中心圆面 I 和两个与 I 同心的圆环 II、III 构成, 射手命中 I 、II 及 III 的概率分别为 0.35、0.30 及 0.25 . 求不命中靶的概率.\n\n![bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg](sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 757,
+          "end": 758
+        },
+        {
+          "source": "book",
+          "start": 753,
+          "end": 755
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 757,
+          "end": 758
+        },
+        {
+          "source": "book",
+          "start": 753,
+          "end": 755
+        }
+      ],
+      "id": "bx3-12-2-h122A-5",
+      "category": "习题12.2A",
+      "answer": "5. 0.10.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 432,
+          "end": 433
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2A · 6",
+      "markdown": "6. 盒子里装有大小与质地相同的红球与白球, 从中任取 3 个球. 设事件 $A$ 表示\"3 个球中有 1 个红球、 2 个白球\",事件 $B$ 表示\"3 个球中有 2 个红球、 1 个白球\". 已知 $P\\left( A\\right)  = \\frac{3}{10}, P\\left( B\\right)  = \\frac{1}{2}$ . 求\"3 个球中既有红球又有白球\"的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 759,
+          "end": 760
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 759,
+          "end": 760
+        }
+      ],
+      "id": "bx3-12-2-h122A-6",
+      "category": "习题12.2A",
+      "answer": "6. $\\frac{4}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 434,
+          "end": 435
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 761
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题12.2B · 1",
+      "markdown": "1. 已知 4 张奖券中只有 1 张能中奖，现分别由 4 名学生依次抽取(抽出后不放回)，他们的中奖概率是否一样? 为什么?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 764
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 764
+        }
+      ],
+      "id": "bx3-12-2-h122B-1",
+      "category": "习题12.2B",
+      "answer": "1. 无放回抽取是一个等可能事件,所以这四名学生的中奖概率都为 $\\frac{1}{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 438,
+          "end": 439
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2B · 2",
+      "markdown": "2. 已知 5 件产品中有 2 件次品、3 件合格品, 从这 5 件产品中任取 2 件, 求:\n\n(1)恰有 1 件次品的概率; (2)2 件都是合格品的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 765,
+          "end": 768
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 765,
+          "end": 768
+        }
+      ],
+      "id": "bx3-12-2-h122B-2",
+      "category": "习题12.2B",
+      "answer": "2. (1) $\\frac{3}{5}$ . (2) $\\frac{3}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 440,
+          "end": 441
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2B · 3",
+      "markdown": "3. 已知关于 $x$ 的一元二次方程 ${x}^{2} - {ax} + 3 = 0$ ，其中 $a$ 是掷一颗骰子得到的点数. 求下列事件的概率:\n\n(1)方程有两个不相等的实根； (2) $x = 3$ 是方程的根；\n\n(3) 方程存在正根.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 769,
+          "end": 774
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 769,
+          "end": 774
+        }
+      ],
+      "id": "bx3-12-2-h122B-3",
+      "category": "习题12.2B",
+      "answer": "3. (1) $\\frac{1}{2}$ . (2) $\\frac{1}{6}$ . (3) $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 442,
+          "end": 443
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2B · 4",
+      "markdown": "4. 已知事件 $A$ 与 $B$ 互斥,它们都不发生的概率为 $\\frac{2}{5}$ ,且 $P\\left( A\\right)  = {2P}\\left( B\\right)$ . 求 $P\\left( \\bar{A}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 775,
+          "end": 776
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 775,
+          "end": 776
+        }
+      ],
+      "id": "bx3-12-2-h122B-4",
+      "category": "习题12.2B",
+      "answer": "4. $P\\left( {A \\cup  B}\\right)  = 1 - P\\left( \\overline{A \\cup  B}\\right)  = 1 - P\\left( {\\bar{A} \\cap  \\bar{B}}\\right)  = 1 - \\frac{2}{5} = \\frac{3}{5}$ ,\n\n又 $P\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right)  = \\frac{3}{2}P\\left( A\\right)$ ,所以 $P\\left( A\\right)  = \\frac{2}{5}, P\\left( \\bar{A}\\right)  = \\frac{3}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 444,
+          "end": 447
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.2B · 5",
+      "markdown": "5. 袋中有大小与质地相同的 12 个小球, 分别为红球、黑球、黄球、绿球, 从中任取 1 个球,得到红球的概率是 $\\frac{1}{3}$ ,得到黑球或黄球的概率是 $\\frac{5}{12}$ ,得到黄球或绿球的概率是 $\\frac{5}{12}$ . 试求得到黑球、黄球、绿球的概率各是多少.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 777,
+          "end": 778
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 777,
+          "end": 778
+        }
+      ],
+      "id": "bx3-12-2-h122B-5",
+      "category": "习题12.2B",
+      "answer": "5. 设事件 $A\\text{、}B\\text{、}C\\text{、}D$ 分别表示取得红球、黑球、黄球、绿球, $A\\text{、}B\\text{、}C\\text{、}D$ 两两为互斥事件,那么 $P\\left( A\\right)  = \\frac{1}{3}, P\\left( {B \\cup  C}\\right)  = P\\left( B\\right)  + P\\left( C\\right)  = \\frac{5}{12}, P\\left( {C \\cup  D}\\right)  = \\; P\\left( C\\right)  + P\\left( D\\right)  = \\frac{5}{12}$ ,又 $P\\left( A\\right)  + P\\left( B\\right)  + P\\left( C\\right)  + P\\left( D\\right)  = 1$ ,得 $P\\left( B\\right)  = \\frac{1}{4}, P\\left( C\\right)  = \\; \\frac{1}{6}, P\\left( D\\right)  = \\frac{1}{4}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 448,
+          "end": 449
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 311,
+      "original": "images/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 753,
+      "original": "images/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg",
+      "exists": true
+    }
+  ]
+}

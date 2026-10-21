@@ -1,0 +1,964 @@
+[
+  {
+    "type": "section",
+    "title": "常用逻辑用语",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 551,
+        "end": 551
+      }
+    ],
+    "id": "bx1-1-2",
+    "number": "1.2",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 1.2 常用逻辑用语\n\n### 教学重点\n\n命题(真命题、假命题)的概念,充分条件,必要条件,充要条件,反证法:知道命题的概念, 会在简单情境下判断命题的真假, 并能用正确的方法说明命题为真或为假的理由. 借助推出关系理解充分条件、必要条件以及充要条件的含义, 并能在简单情境下作出准确的判断. 理解反证法, 会用反证法证明一些典型的命题.\n\n### 内容分析\n\n本节和“集合初步”类似, 也是为后续章节的学习奠定思维和语言的基础, 帮助学生能用规范的方式更好地与他人沟通交流. 在思维方法上, 推出关系与反证法是今后数学学习的基础; 而在语言上, 充分条件与必要条件是与他人沟通的必要术语.\n\n“命题”同“集合”类似,也是一个无法用简单语言严格定义的概念. 命题的相关概念有很多, 如简单命题、复合命题、条件命题等. 本教材则作了一个较为狭义的界定, 规定“用自然语言、符号或式子表达, 且可以判断其真假的语句叫做命题”.\n\n例 1 中, (3) 是祈使句, (6) 是疑问句, 它们都不是命题. (7) 是含有变元的陈述句, 在本教材的体系中, 它与命题的关系类似解析式与数的关系, 只有规定了变元的值, 它才是一个命题.\n\n而(1)(2)(4)(5)都是命题. 其中,(1)和(2)采用了“所有的 $S$ 都是(不是) $P$ ”的形式来表述；(4)和(5)采用了“若 $\\alpha$ ,则 $\\beta$ ”的形式,数学中这种形式的命题更为常见.\n\n本教材中对形如“若 $\\alpha$ ,则 $\\beta$ ”的真命题用“推出”这一关系来描述,这一关系是数学中的逻辑推理的基础.\n\n要说明一个形如“若 $\\alpha$ ,则 $\\beta$ ”的命题是真命题,和说明集合之间的包含关系的方法是一致的, 也就是要说明每一个满足条件的变元都满足结论. 而要说明一个形如 “若 $\\alpha$ ,则 $\\beta$ ”的命题是假命题,只需要举出一个满足条件、但不满足结论的例子即可.\n\n例 2 通过将一些命题转化为“若 $\\alpha$ ,则 $\\beta$ ”的形式,进一步使学生熟悉判断其真假的方法.\n\n在本教材中, 充分条件和必要条件这两个概念是建立在推出关系的基础上的, 在相应的定义中“条件”二字仅仅出现在这两个术语上.\n\n教材将推出关系和“充分条件、必要条件”分在两个课时,可以分散难点.\n\n例 3 旨在通过较为简单的实际例子使学生熟悉如何分辨充分条件与必要条件, 并对说理也提出了要求.\n\n例 4 通过一个简单的例子来说明如何证明一个陈述句是另一个陈述句的充要条件.\n\n教材选择了“反证法”作为第三课时的内容, 其原因有三: 一是反证法是证明数学命题的一个重要方法; 二是反证法可以承载课程标准中“能正确使用存在量词对全称量词命题进行否定”“能正确使用全称量词对存在量词命题进行否定”这两个要求；三是反证法的教学可以弥补课程标准中缺少 “逆否命题” 所带来的一些证明技巧上的缺失.\n\n例 5 是一个简单的运用反证法证明命题的例子, 旨在使学生了解反证法的思想以及反证法的表达方式. 另外, 例 5 也为之后的例 7 作了必要的铺垫.\n\n例 5 之后, 教材用一个表格(表 1-2)呈现了一些陈述句的否定形式. 陈述句的否定之否定就是其本身.\n\n例 6 涉及表格 (表 1-2) 中的 “ $\\alpha$ 或 $\\beta$ ” 的否定.\n\n例 7 是历史上的一个著名命题及其证明. 传说毕达哥拉斯学派的一个门人通过证明等腰直角三角形的斜边长与直角边长的比例不可公度说明了无理数的存在,教材引用的就是他的证明方法.\n\n本节的目的是让学生初步了解反证法的思想和表达方式, 后续章节的学习中会不断接触到反证法说理或证明的过程, 因此不必在此处多作展开.\n\n### 注意事项\n\n在使用“推出”关系时,我们甚至不需要要求“若 $\\alpha$ ,则 $\\beta$ ”中的 $\\alpha$ 能够成立. 在使用反证法时, 我们通常假设一个实际上不可能成立的陈述句, 再利用这个陈述句推出矛盾, 以此来说明所给出的假设是不可能成立的.\n\n在高中数学中,大部分的定理、性质都是以 “若 $\\alpha$ ,则 $\\beta$ ” 的形式来表述的,充分条件、必要条件也是针对 “若 $\\alpha$ ,则 $\\beta$ ”形式的命题而言的. 但教师需要了解数学中的命题不仅仅只有这种形式,也有 “存在 $\\alpha$ ,使得 $\\beta$ 成立” 的形式.\n\n当 $\\alpha$ 能推出 $\\beta$ 时,称 “ $\\alpha$ 是 $\\beta$ 的充分条件” 是没问题的,但是称 “ $\\beta$ 的充分条件是 $\\alpha$ ” 则不太妥当,应当称作“ $\\beta$ 的一个充分条件是 $\\alpha$ ”.\n\n在反证法中, 所谓“得到矛盾”是指发现了某个命题既是真命题, 又是假命题. 这个命题可以是假设的陈述句 (假设其为真, 但随后推理得到它为假), 也可以是前提条件, 或其他已知为真的命题, 如定理、性质等(已知其为真, 但随后推理得到它是假命题).\n\n### 教学建议\n\n同上节“集合初步”一样, 本节的教学目的在于使学生能用规范的语言来表达自己的思想, 在沟通交流时减少歧义. 因此, 在教学中, 关注学生的口头与书面表达方式是非常重要的.\n\n由于本节内容是预备知识, 不应在内容上 “深挖洞”. 对于逻辑用语的进一步的学习要求是要经过一段较长的时间的规范表达与思考的训练之后, 学生才能逐步达到的, 不适合在高中一年级开学之初就进行灌输.\n\n在学习了逻辑用语之后, 解决问题时建议要求学生用规范的语言来书写.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 174,
+        "end": 233
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-1-2-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 命题",
+    "markdown": "### 1 命题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 553,
+        "end": 553
+      }
+    ],
+    "id": "bx1-1-2-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在初中时已经知道, 用自然语言、符号或式子表达, 且可以判断其真假的语句叫做命题(proposition). 命题通常用陈述句表述. 其含义判断为真的命题叫做真命题，判断为假的命题叫做假命题. 例如, “ 4 能被 2 整除”是真命题， “ 3 能被 2 整除”是假命题.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 554,
+        "end": 556
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 136,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-1-2-definition-3-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-1-2-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 下列语句哪些是命题？如果是命题，那么它们是真命题还是假命题? 为什么?\n\n(1)个位数字是 5 的自然数能被 5 整除；\n\n(2)凡直角三角形都相似;\n\n(3)请起立；\n\n(4)若两个角互为补角，则这两个角不相等；\n\n(5)若两个三角形的三组对应边相等，则这两个三角形全等;\n\n(6)你是高一学生吗？\n\n(7) $x > 3$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 557,
+        "end": 572
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 557,
+        "end": 572
+      }
+    ],
+    "id": "bx1-1-2-ex-1",
+    "category": "例题",
+    "answer": "解 语句(3)(6)(7)不是命题；语句(1)(2)(4)(5)是命题，其中语句(1)(5)是真命题，语句(2)(4)是假命题.\n\n(1)这是一个真命题. 因为个位数字是 5 的自然数可写成 ${10k} + 5$ 的形式 $\\left( {k \\in  \\mathbf{N}}\\right)$ ,而 ${10k} + 5 = 5\\left( {{2k} + 1}\\right)$ ,它总能被 5 整除, 所以个位数字是 5 的自然数能被 5 整除.\n\n(2)因为三个角分别为 ${90}^{ \\circ  }$ 、 ${45}^{ \\circ  }$ 、 ${45}^{ \\circ  }$ 的直角三角形与三个角分别为 ${90}^{ \\circ  }$ 、 ${60}^{ \\circ  }$ 、 ${30}^{ \\circ  }$ 的直角三角形是不相似的，所以“凡直角三角形都相似”是一个假命题.\n\n(3)“请起立”无法判定真假，它不是一个命题.\n\n(4)取一个角为 ${90}^{ \\circ  }$ ，另一个角也为 ${90}^{ \\circ  }$ ，它们是互补的，同时它们也是相等的，所以“若两个角互为补角，则这两个角不相等”是一个假命题.\n\n(5)这是一个真命题，它是两个三角形全等的一个判定定理.\n\n(6)因为“你是高一学生吗？”不是陈述句，无法判断其真假， 所以它不是命题.\n\n(7)虽然“ $x > 3$ ”是陈述句，但是它包含一个可变的对象 $x$ ， 无法判断其真假,因此它不是命题. 当 $x$ 被赋予不同的值时,它就成为不同的命题. 例如,当 $x = 4$ 时,“ $x > 3$ ”是真命题; 当 $x = 1$ 时,“ $x > 3$ ”是假命题.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 573,
+        "end": 588
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "例 1 中命题(4)与(5)具有“若 $\\alpha$ ，则 $\\beta$ ”的形式. 在保持含义不变的前提下，例 1 中命题(1)与(2)也可改写为这种形式:\n\n若一个自然数的个位数字是 5 ，则这个自然数能被 5 整除；\n\n若两个三角形都是直角三角形, 则它们相似.\n\n在形如\n\n“若 $\\alpha$ ,则 $\\beta$ ”\n\n的命题中，陈述句 $\\alpha$ 称为条件， $\\beta$ 称为结论.\n\n命题“若 $\\alpha$ ,则 $\\beta$ ”是真命题,是指所有满足条件 $\\alpha$ 的对象都满足结论 $\\beta$ . 用集合的语言描述即\n\n$\\{ x \\mid  x$ 满足 $\\alpha \\}  \\subseteq  \\{ x \\mid  x$ 满足 $\\beta \\}$ .\n\n所以, 要确定这类命题是真命题, 就必须给出其证明, 如例 1 中的(1)与(5).\n\n命题“若 $\\alpha$ ，则 $\\beta$ ”是假命题，是指存在满足条件 $\\alpha$ 的对象， 它不满足结论 $\\beta$ . 所以,要确定这类命题是假命题,可用处理例 1 中( 2 )与( 4 )的方法，举一个满足条件 $\\alpha$ 而不满足结论 $\\beta$ 的例子就可以了.\n\n定义 如果命题“若 $\\alpha$ ,则 $\\beta$ ”是真命题,那么就称 $\\alpha$ 推出 $\\beta$ , 记作 $\\alpha  \\Rightarrow  \\beta$ (或 $\\beta  \\Leftarrow  \\alpha$ ).\n\n因为子集关系满足传递性, 所以推出关系也满足传递性:\n\n若 $\\alpha  \\Rightarrow  \\beta$ 且 $\\beta  \\Rightarrow  \\gamma$ ,则 $\\alpha  \\Rightarrow  \\gamma$ .\n\n它是逻辑推理的基础.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 589,
+        "end": 616
+      }
+    ],
+    "emphases": [
+      {
+        "start": 169,
+        "end": 206,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-1-2-definition-5-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-1-2-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 将下列命题改写成“若 $\\alpha$ ，则 $\\beta$ ”的形式，并判断 “ $\\alpha  \\Rightarrow  \\beta$ ”是否成立.\n\n(1)等腰三角形的两底角相等;\n\n(2)凡是素数都是奇数；\n\n(3)对顶角相等.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 617,
+        "end": 624
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 617,
+        "end": 624
+      }
+    ],
+    "id": "bx1-1-2-ex-2",
+    "category": "例题",
+    "answer": "解(1)若一个三角形是等腰三角形，则它的两个底角相等. 这是一个真命题. 所以,“ $\\alpha  \\Rightarrow  \\beta$ ”成立.\n\n---\n\n“若 $\\alpha$ ,则 $\\beta$ ”形式的命题也可写为“如果 $\\alpha$ ,那么 $\\beta$ ”的形式.\n\n这种方法在数学上称为举反例.\n\n---\n\n(2)若 $n$ 是素数，则 $n$ 是奇数. 这是一个假命题，因为 2 是素数,但它是偶数. 所以,“ $\\alpha  \\Rightarrow  \\beta$ ”不成立.\n\n(3)若两个角是对顶角，则这两个角相等. 这是一个真命题. 所以，“ $\\alpha  \\Rightarrow  \\beta$ ”成立.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 625,
+        "end": 638
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(1)",
+    "markdown": "#### 练习 1.2(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 639,
+        "end": 639
+      }
+    ],
+    "id": "bx1-1-2-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 1",
+    "markdown": "1. 举几个生活中的命题的例子, 并判断其真假.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 641,
+        "end": 642
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 641,
+        "end": 642
+      }
+    ],
+    "id": "bx1-1-2-p121-1",
+    "category": "练习1.2(1)",
+    "answer": "1. 例如: 一个星期有七天, 是一个真命题; 太阳是地球的卫星, 是一个假命题.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 318,
+        "end": 319
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 2",
+    "markdown": "2. 判断下列命题的真假, 并说明理由:\n\n(1)所有偶数都不是素数；\n\n(2) $\\left\\{  1\\right\\}$ 是 $\\{ 0,1,2\\}$ 的真子集；\n\n(3)0是 $\\{ 0,1,2\\}$ 的真子集；\n\n(4)如果集合 $A$ 是集合 $B$ 的子集，那么 $B$ 不是 $A$ 的子集.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 643,
+        "end": 652
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 643,
+        "end": 652
+      }
+    ],
+    "id": "bx1-1-2-p121-2",
+    "category": "练习1.2(1)",
+    "answer": "2.(1)假命题. 2 是偶数,也是素数.\n\n(2)真命题. 根据真子集的定义.\n\n(3)假命题. 0 不是一个集合.\n\n(4)假命题. 例如, $A = B = \\{ 0\\} , A$ 是 $B$ 的子集, $B$ 也是 $A$ 的子集.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 320,
+        "end": 327
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 3",
+    "markdown": "3. 用“ $\\Rightarrow$ ”表示下列陈述句 $\\alpha$ 与 $\\beta$ 之间的推出关系:\n\n(1) $\\alpha  : {\\bigtriangleup {ABC}}$ 是等边三角形， $\\beta  : {\\bigtriangleup {ABC}}$ 是轴对称图形；\n\n(2) $\\alpha  : {x}^{2} = 4,\\beta  : x = 2$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 653,
+        "end": 658
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 653,
+        "end": 658
+      }
+    ],
+    "id": "bx1-1-2-p121-3",
+    "category": "练习1.2(1)",
+    "answer": "3. (1) $\\alpha  \\Rightarrow  \\beta .\\;$ (2) $\\beta  \\Rightarrow  \\alpha .$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 328,
+        "end": 329
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 充分条件与必要条件",
+    "markdown": "### 2 充分条件与必要条件",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 659,
+        "end": 659
+      }
+    ],
+    "id": "bx1-1-2-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "先看一个例子:我们要培养的是德智体美劳全面发展的社会主义建设者和接班人. 显然, 对于这样“全面发展”的学生来说, 其学习成绩一定是好的; 反过来, 学习成绩好的学生不一定是 “全面发展”的，因为可能其他方面不是很好. 也就是说，“学习成绩好” 对于“全面发展”是不可缺少的, 但只有“学习成绩好”还不够.\n\n定义 对于两个陈述句 $\\alpha$ 与 $\\beta$ ,如果 $\\alpha  \\Rightarrow  \\beta$ ,就称 $\\alpha$ 是 $\\beta$ 的充分条件 (sufficient condition),亦称 $\\beta$ 是 $\\alpha$ 的必要条件 (necessary condition).\n\n由例 2 知道, “一个三角形是等腰三角形”是 “一个三角形有两个角相等”的充分条件，“两个角相等”是“两个角是对顶角”的必要条件, 而“一个数是素数”不是“一个数是奇数”的充分条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 660,
+        "end": 666
+      }
+    ],
+    "id": "bx1-1-2-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 判断下列各组中的 $\\alpha$ 分别是 $\\beta$ 的什么条件,并说明理由.\n\n(1) $\\alpha$ :四边形 ${ABCD}$ 是正方形， $\\beta$ :四边形 ${ABCD}$ 的四个内角都是直角;\n\n---\n\n该定义中,“充分”二字说明 “ $\\alpha$ 成立时， $\\beta$ 一定成立”；而 “必要”二字说明“ $\\beta$ 不成立时, $\\alpha$ 一定不成立”.\n\n---\n\n(2) $\\alpha  : {x}^{2}$ 是有理数， $\\beta  : x$ 是有理数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 667,
+        "end": 678
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 667,
+        "end": 678
+      }
+    ],
+    "id": "bx1-1-2-ex-3",
+    "category": "例题",
+    "answer": "解(1)因为正方形的四个内角都是直角，所以命题“若 $\\alpha$ ， 则 $\\beta$ ”是真命题， $\\alpha$ 是 $\\beta$ 的充分条件.\n\n反之, 因为四个内角都是直角的四边形也可以是长宽不相等的矩形,所以命题“若 $\\beta$ ,则 $\\alpha$ ”是假命题, $\\alpha$ 不是 $\\beta$ 的必要条件.\n\n(2)因为有理数 $\\frac{r}{s}\\left( {r\\text{ 、 }s \\in  \\mathbf{Z}}\\right)$ 的平方 $\\frac{{r}^{2}}{{s}^{2}}$ 必是一个有理数, 所以“若 $\\beta$ ,则 $\\alpha$ ”是真命题, $\\alpha$ 是 $\\beta$ 的必要条件.\n\n---\n\n下一小节将给出 $\\sqrt{2}$ 是无理数的证明.\n\n---\n\n反之,因为 ${\\left( \\sqrt{2}\\right) }^{2} = 2$ 是有理数,但 $\\sqrt{2}$ 是无理数,所以“若 $\\alpha$ ,则 $\\beta$ ”是假命题, $\\alpha$ 不是 $\\beta$ 的充分条件.\n\n定义 对于两个陈述句 $\\alpha$ 与 $\\beta$ ,如果既有 $\\alpha  \\Rightarrow  \\beta$ ,又有 $\\beta  \\Rightarrow  \\alpha$ , 就称 $\\alpha$ 是 $\\beta$ 的充分必要条件,简称充要条件,记作 $\\alpha  \\Leftrightarrow  \\beta$ ,读作 “ $\\alpha$ 与 $\\beta$ 等价”或“ $\\alpha$ 成立当且仅当 $\\beta$ 成立”.\n\n例如, “三角形的两个内角相等”是 “三角形的两条边相等” 的充要条件; “实数 $x\\text{ 、 }y$ 满足 $\\left| x\\right|  = \\left| y\\right|$ ” 是 “实数 $x\\text{ 、 }y$ 满足 $\\left( {x + y}\\right) \\left( {x - y}\\right)  = 0$ ”的充要条件.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 679,
+        "end": 696
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 已知 $m$ 是实数，集合\n\n$$\nM = \\{ 2,3, m + 6\\} , N = \\{ 0,7\\} .\n$$\n\n求证: “ $m = 1$ ” 是 “ $M \\cap  N = \\{ 7\\}$ ” 的充要条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 697,
+        "end": 704
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 697,
+        "end": 704
+      }
+    ],
+    "id": "bx1-1-2-ex-4",
+    "category": "例题",
+    "answer": "证明 先证充分性 (即证 $m = 1 \\Rightarrow  M \\cap  N = \\{ 7\\}$ ). 当 $m = 1$ 时, $M = \\{ 2,3,7\\}$ . 又因为 $N = \\{ 0,7\\}$ ,所以 $M \\cap  N = \\{ 7\\}$ .\n\n再证必要性 (即证 $M \\cap  N = \\{ 7\\}  \\Rightarrow  m = 1$ ). 当 $M \\cap  N = \\{ 7\\}$ 时, 由 $7 \\in  M$ ,得 $m + 6 = 7$ ,因此 $m = 1$ .\n\n综上所述，“ $m = 1$ ”是“ $M \\cap  N = \\{ 7\\}$ ”的充要条件.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 705,
+        "end": 710
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(2)",
+    "markdown": "#### 练习 1.2(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 711,
+        "end": 711
+      }
+    ],
+    "id": "bx1-1-2-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(2) · 1",
+    "markdown": "1. 已知 $\\alpha$ : 四边形 ${ABCD}$ 的两组对边分别平行, $\\beta$ : 四边形 ${ABCD}$ 为矩形, $\\gamma$ : 四边形 ABCD 的两组对边分别相等. 用“充分非必要”“必要非充分”“充要”或“既非充分又非必要”填空:\n\n(1) $\\alpha$ 是 $\\beta$ 的___条件；\n\n(2) $\\beta$ 是 $\\gamma$ 的___条件；\n\n(3) $\\alpha$ 是 $\\gamma$ 的___条件。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 713,
+        "end": 720
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 713,
+        "end": 720
+      }
+    ],
+    "id": "bx1-1-2-p122-1",
+    "category": "练习1.2(2)",
+    "answer": "1. (1)必要非充分. (2)充分非必要. (3)充要.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 332,
+        "end": 333
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(2) · 2",
+    "markdown": "2. 设 $\\alpha  : 1 \\leq  x < 4,\\beta  : x < m,\\alpha$ 是 $\\beta$ 的充分条件. 求实数 $m$ 的取值范围.\n\n反证法是数学中常用的证明方法之一. 下面, 我们学习如何用反证法证明一些命题.\n\n在前面已经提到,要判断命题“若 $\\alpha$ ,则 $\\beta$ ”是假命题,只要存在一个满足条件 $\\alpha$ 但不满足结论 $\\beta$ 的对象就行了. 但是要判断命题“若 $\\alpha$ ,则 $\\beta$ ”是真命题,就需要证明所有满足条件 $\\alpha$ 的对象都满足结论 $\\beta$ . 有时直接验证这一点并不是一件容易的事.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 721,
+        "end": 726
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 721,
+        "end": 726
+      }
+    ],
+    "id": "bx1-1-2-p122-2",
+    "category": "练习1.2(2)",
+    "answer": "2. $\\lbrack 4, + \\infty )$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 334,
+        "end": 335
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 设 $n \\in  \\mathbf{Z}$ . 证明: 若 ${n}^{2}$ 是偶数,则 $n$ 也是偶数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 727,
+        "end": 728
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 727,
+        "end": 728
+      }
+    ],
+    "id": "bx1-1-2-ex-5",
+    "category": "例题",
+    "answer": "证明 假设结论“ $n$ 是偶数”不成立,即假设 $n$ 是奇数. 由 $n$ 是奇数,可设 $n = {2k} + 1, k \\in  \\mathbf{Z}$ .\n\n因为\n\n$$\n{n}^{2} = {\\left( 2k + 1\\right) }^{2} = 4{k}^{2} + {4k} + 1 = 4\\left( {{k}^{2} + k}\\right)  + 1,\n$$\n\n这说明 ${n}^{2}$ 是奇数,与已知条件 ${n}^{2}$ 是偶数矛盾.\n\n所以,一开始的假设不成立,即 $n$ 是偶数.\n\n例 5 的证明方法与以前的证明方法不同. 它首先假设结论 $\\beta$ 不成立( $\\beta$ 为假)，然后经过正确的逻辑推理得出矛盾，从而说明 “ $\\beta$ 为假”是不可能发生的,即结论 $\\beta$ 是正确的. 这样的证明方法叫反证法.\n\n应用反证法证明命题的第一步是假设命题的结论不成立, 即否定命题的结论. 这一步是十分关键的. 只有这一步表述对了, 接下来的逻辑推理才有意义.\n\n数学上一些常用的否定形式见表 1-2.\n\n表 1-2 一些常用的否定形式\n\n<table><tr><td>陈述句 $\\alpha$</td><td>$\\alpha$ 的否定形式</td></tr><tr><td>$x > 1$</td><td>$x \\leq  1$</td></tr><tr><td>$x > 1$ 或 $y > 1$</td><td>$x \\leq  1$ 且 $y \\leq  1$</td></tr><tr><td>集合 $A$ 中满足性质 $p$ 的元素至少有两个</td><td>集合 $A$ 中满足性质 $p$ 的元素最多有一个</td></tr><tr><td>所有的 $a \\in  A$ 满足性质 $p$</td><td>至少存在一个 $a \\in  A$ 不满足性质 $p$</td></tr><tr><td>所有的 $a \\in  A$ 不满足性质 $p$</td><td>至少存在一个 $a \\in  A$ 满足性质 $p$</td></tr></table>",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 729,
+        "end": 750
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 设 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 证明: 若 $x + y > 2$ ,则 $x > 1$ 或 $y > 1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 751,
+        "end": 752
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 751,
+        "end": 752
+      }
+    ],
+    "id": "bx1-1-2-ex-6",
+    "category": "例题",
+    "answer": "证明 用反证法证明.\n\n---\n\n数学命题中的“所有”也可称为“对任意给定的一个”或“对每一个”.\n\n元素个数一般指正整数.\n\n---\n\n假设 $x \\leq  1$ 且 $y \\leq  1$ ,则 $x + y \\leq  2$ ,这与已知条件 $x + y > 2$ 矛盾.\n\n---\n\n结论“ $x > 1$ 或 $y$ >1”不成立，即“ $x$ 与 $y$ 中至少有一个大于 1”不成立. 也就是 “ $x$ 与 $y$ 都不大于 1 ”.\n\n---\n\n所以假设不成立,即 $x > 1$ 或 $y > 1$ .\n\n例 5 和例 6 证明的都是“若 $\\alpha$ ,则 $\\beta$ ” 形式的命题. 对一些其他形式的命题, 也可用反证法证明.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 753,
+        "end": 774
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 证明: $\\sqrt{2}$ 是无理数.\n\n---\n\n例 7 的证明是历史上著名的一个反证法证明.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 775,
+        "end": 782
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 775,
+        "end": 782
+      }
+    ],
+    "id": "bx1-1-2-ex-7",
+    "category": "例题",
+    "answer": "证明 用反证法证明.\n\n假设 $\\sqrt{2}$ 是有理数. 则可设\n\n$$\n\\sqrt{2} = \\frac{m}{n}\n$$\n\n---\n\n一个实数是有理数当且仅当它可以表示成两个整数的商 $\\frac{m}{n}$ . 如果 $m$ 与 $n$ 有大于 1 的公因数, 总可以进行约分, 所以不妨设 $m$ 与 $n$ 是互素的.\n\n---\n\n其中 $m$ 与 $n$ 是互素的正整数. 于是 $m = \\sqrt{2}n$ . 两边平方,得 ${m}^{2} = 2{n}^{2}$ . 所以, ${m}^{2}$ 是偶数. 由例 5,知 $m$ 也是偶数. 于是,可设 $m = {2k}, k$ 为正整数. 将其代入 ${m}^{2} = 2{n}^{2}$ ,得 $2{n}^{2} = 4{k}^{2}$ ,即 ${n}^{2} = 2{k}^{2}$ ,故 ${n}^{2}$ 是偶数. 再根据例 5,知 $n$ 也是偶数. 于是 $m\\text{ 、 }n$ 有公因数 2,这与 $m\\text{ 、 }n$ 互素的假设矛盾.\n\n所以假设不成立,即 $\\sqrt{2}$ 是无理数.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 783,
+        "end": 800
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(3)",
+    "markdown": "#### 练习 1.2(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 801,
+        "end": 801
+      }
+    ],
+    "id": "bx1-1-2-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(3) · 1",
+    "markdown": "1. 设 $n \\in  \\mathbf{Z}$ . 证明: 若 ${n}^{3}$ 是奇数,则 $n$ 是奇数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 803,
+        "end": 804
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 803,
+        "end": 804
+      }
+    ],
+    "id": "bx1-1-2-p123-1",
+    "category": "练习1.2(3)",
+    "answer": "1. 假设结论“ $n$ 是奇数”不成立,即假设 $n$ 是偶数. 由 $n$ 是偶数,可设 $n = {2k}$ , $k \\in  \\mathbf{Z}$ . 于是 ${n}^{3} = {\\left( 2k\\right) }^{3} = 8{k}^{3} = 2\\left( {4{k}^{3}}\\right)$ ,得 ${n}^{3}$ 是偶数,这与已知条件 ${n}^{3}$ 是奇数矛盾. 所以假设不成立,即 $n$ 是奇数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 338,
+        "end": 339
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(3) · 2",
+    "markdown": "2. 证明: 对于三个实数 $a\\text{ 、 }b\\text{ 、 }c$ ,若 $a \\neq  c$ ,则 $a \\neq  b$ 或 $b \\neq  c$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 805,
+        "end": 806
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 805,
+        "end": 806
+      }
+    ],
+    "id": "bx1-1-2-p123-2",
+    "category": "练习1.2(3)",
+    "answer": "2. 假设结论“ $a \\neq  b$ 或 $b \\neq  c$ ”不成立,即假设“ $a = b$ 且 $b = c$ ”. 由相等关系的传递性,可知 $a = c$ ,这与已知条件 $a \\neq  c$ 矛盾. 所以假设不成立,即 $a \\neq  b$ 或 $b \\neq  c$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 340,
+        "end": 341
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 1.2",
+    "markdown": "#### 习题 1.2",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 807,
+        "end": 807
+      }
+    ],
+    "id": "bx1-1-2-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "##### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 809,
+        "end": 809
+      }
+    ],
+    "id": "bx1-1-2-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 1",
+    "markdown": "1. 判断下列语句是否为命题:\n\n(1)有的正方形是三角形；\n\n(2)任意一个三角形的内角和都为 ${180}^{ \\circ  }$ ；\n\n(3)1 是自然数吗?\n\n(4)3>π；\n\n(5) $2 \\in  \\left( {0,5}\\right)$ ,且 $2 \\in  \\mathbf{Z}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 811,
+        "end": 822
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 811,
+        "end": 822
+      }
+    ],
+    "id": "bx1-1-2-h12A-1",
+    "category": "习题1.2A",
+    "answer": "1. (1) 是命题. (2) 是命题. (3) 不是命题. (4) 是命题. (5) 是命题.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 346,
+        "end": 347
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 2",
+    "markdown": "2. 判断下列命题的真假, 并说明理由:\n\n(1)如果 $a\\text{ 、 }b$ 都是奇数，那么 $a + b$ 是偶数；\n\n(2)一组对边平行且两对角线等长的四边形是平行四边形;\n\n(3)如果 $A \\cap  B = A$ ，那么 $A \\cup  B = B$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 823,
+        "end": 830
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 823,
+        "end": 830
+      }
+    ],
+    "id": "bx1-1-2-h12A-2",
+    "category": "习题1.2A",
+    "answer": "2.(1)是真命题. 设 $a = {2m} + 1, b = {2n} + 1, m\\text{、}n \\in  \\mathbf{Z}$ ,则 $a + b = 2\\left( {m + n + 1}\\right)$ , $m + n + 1 \\in  \\mathbf{Z}$ ,故 $a + b$ 是偶数.\n\n(2)是假命题. 等腰梯形的一组对边平行,且两对角线相等.\n\n(3)是真命题. 由 $A \\cap  B = A$ ,可得 $A \\subseteq  B$ ,故 $A \\cup  B = B$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 348,
+        "end": 353
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 3",
+    "markdown": "3. 如果 $a\\text{ 、 }b\\text{ 、 }c$ 为实数,设 $\\alpha  : a = b = c = 0;\\beta  : a\\text{ 、 }b\\text{ 、 }c$ 中至少有一个为 0 ; $\\gamma  : {a}^{2} + \\sqrt{b} + \\left| c\\right|  = 0$ . 那么 $\\alpha$ ___ $\\beta ;\\alpha$ ___ $\\gamma ;\\beta$ ___ $\\gamma$ . (用符号“ $\\Leftarrow$ ”“ $\\Rightarrow$ ”或 “⇔”填空)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 831,
+        "end": 832
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 831,
+        "end": 832
+      }
+    ],
+    "id": "bx1-1-2-h12A-3",
+    "category": "习题1.2A",
+    "answer": "3. $\\alpha  \\Rightarrow  \\beta ,\\alpha  \\Leftrightarrow  \\gamma ,\\beta  \\Leftarrow  \\gamma$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 354,
+        "end": 355
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 4",
+    "markdown": "4. 下列各组中, $\\alpha$ 是 $\\beta$ 的什么条件?\n\n(1) $\\alpha$ :四边形 ${ABCD}$ 的四条边等长， $\\beta$ :四边形 ${ABCD}$ 是正方形；\n\n(2) $\\alpha  : {\\bigtriangleup {ABC}}$ 与 ${\\bigtriangleup {DEF}}$ 全等， $\\beta  : {\\bigtriangleup {ABC}}$ 与 ${\\bigtriangleup {DEF}}$ 的周长相等，\n\n(3) $\\alpha  : x$ 是 2 的倍数， $\\beta  : x$ 是 6 的倍数；\n\n(4) $\\alpha  :$ 集合 $A \\subseteq  B, B \\subseteq  C, C \\subseteq  A,\\beta  :$ 集合 $A = B = C$ ；\n\n(5) $\\alpha  : A \\cap  B = A \\cap  C,\\beta  : B = C$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 833,
+        "end": 844
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 833,
+        "end": 844
+      }
+    ],
+    "id": "bx1-1-2-h12A-4",
+    "category": "习题1.2A",
+    "answer": "4.(1)必要非充分. (2)充分非必要. (3) 必要非充分. (4) 充要. (5) 必要非充分.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 356,
+        "end": 357
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 5",
+    "markdown": "5. 已知 $l\\text{ 、 }m$ 都是自然数,试判断“ $l + m$ 是偶数”与“ $l\\text{ 、 }m$ 都是偶数”是否等价,并说明理由.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 845,
+        "end": 846
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 845,
+        "end": 846
+      }
+    ],
+    "id": "bx1-1-2-h12A-5",
+    "category": "习题1.2A",
+    "answer": "5. 不等价. 当 $l = m = 1$ 时, $l + m = 2$ 是偶数,但是 “ $l\\text{、}m$ 都是偶数” 不成立.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 358,
+        "end": 359
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 6",
+    "markdown": "6. 证明: “四边形 ${ABCD}$ 是平行四边形” 是“四边形 ${ABCD}$ 的对角线互相平分”的充要条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 848
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 848
+      }
+    ],
+    "id": "bx1-1-2-h12A-6",
+    "category": "习题1.2A",
+    "answer": "6. 充分性: 设对角线 ${AC}$ 与 ${BD}$ 交于点 $O$ .\n\n因为 ${AB}//{CD}$ ,所以 $\\angle {DCO} = \\angle {BAO}$ , $\\angle {CDO} = \\angle {ABO}$ .\n\n又 ${AB} = {CD}$ ,所以 $\\bigtriangleup  {AOB} \\cong   \\bigtriangleup  {COD}$ ,\n\n于是 ${AO} = {CO}$ , ${BO} = {DO}$ .\n\n必要性: 由 ${AO} = {CO},{BO} = {DO}$ 及 $\\angle {AOB} = \\angle {COD}$ ,可得 $\\bigtriangleup {AOB}$ 与 $\\bigtriangleup {COD}$ 全等,故 $\\angle {BAO} = \\angle {DCO}$ ,从而 ${AB}$ 与 ${CD}$ 平行.\n\n同理, ${AD}$ 与 ${BC}$ 平行.\n\n所以四边形 ${ABCD}$ 是平行四边形.\n\n综上所述, “四边形 ABCD 是平行四边形”是 “四边形 ABCD 的对角线互相平分” 的充要条件.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 360,
+        "end": 375
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 849,
+        "end": 849
+      }
+    ],
+    "id": "bx1-1-2-b32",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 1",
+    "markdown": "1. 判断下列命题的真假,并说明理由:\n\n(1)若 $A \\cap  B = \\varnothing , C \\subset  B$ ，则 $A \\cap  C = \\varnothing$ ；\n\n(2)若 $a\\text{ 、 }b \\in  \\mathbf{R}$ ,则关于 $x$ 的方程 $\\left( {a + 1}\\right) x + b = 0$ 的解为 $x =  - \\frac{b}{a + 1}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 851,
+        "end": 856
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 851,
+        "end": 856
+      }
+    ],
+    "id": "bx1-1-2-h12B-1",
+    "category": "习题1.2B",
+    "answer": "1. (1)真命题. 理由略. (2)假命题. 理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 378,
+        "end": 379
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 2",
+    "markdown": "2. 已知 $a$ 为实数. 写出关于 $x$ 的方程 $a{x}^{2} + {2x} + 1 = 0$ 至少有一个实根的一个充要条件、一个充分非必要条件和一个必要非充分条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 857,
+        "end": 858
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 857,
+        "end": 858
+      }
+    ],
+    "id": "bx1-1-2-h12B-2",
+    "category": "习题1.2B",
+    "answer": "2. 一个充要条件为 “ $a \\leq  1$ ”; 一个充分非必要条件可以是 “ $a =  - 1$ ”; 一个必要非充分条件可以是 “ $a \\leq  2$ ”.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 380,
+        "end": 381
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 3",
+    "markdown": "3. 若 $\\alpha  : \\{ 2\\}  \\subset  B \\subseteq  \\{ 2,3,4\\} ,\\beta  : B = \\{ 2,4\\}$ ,则 $\\alpha$ 是 $\\beta$ 的 ( )\n\nA. 充分非必要条件; B. 必要非充分条件;\n\nC. 充要条件; D. 既非充分又非必要条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 859,
+        "end": 864
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 859,
+        "end": 864
+      }
+    ],
+    "id": "bx1-1-2-h12B-3",
+    "category": "习题1.2B",
+    "answer": "3. B.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 382,
+        "end": 383
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 4",
+    "markdown": "4. 已知 $\\alpha  : x < {3m} - 1$ 或 $x >  - m,\\beta  : x < 2$ 或 $x \\geq  4$ .\n\n(1)若 $\\alpha$ 是 $\\beta$ 的充分条件，求实数 $m$ 的取值范围；\n\n(2)若 $\\alpha$ 是 $\\beta$ 的必要条件，求实数 $m$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 865,
+        "end": 870
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 865,
+        "end": 870
+      }
+    ],
+    "id": "bx1-1-2-h12B-4",
+    "category": "习题1.2B",
+    "answer": "4. (1) $m \\leq   - 4$ .\n\n(2) $m > \\frac{1}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 384,
+        "end": 387
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

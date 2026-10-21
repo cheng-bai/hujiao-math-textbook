@@ -1,0 +1,378 @@
+{
+  "asset_id": "81762607-1a8d-5bcb-ac7d-a06aecd35075",
+  "contributors": [
+    {
+      "name": "Codex deep-geometry implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "phi": 50,
+      "theta": 35
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-geometry",
+    "source_build_sha256": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-10-3-b26",
+          "rationale": "射影与线面角定义后解释最小性，保留原定义及几何论证。",
+          "retainProse": true,
+          "sectionId": "bx3-10-3",
+          "sourceSha256": "5c368642a7e6e187c03c0d5ce9eb483b81c931e40ec1031d4d68c80e9dced3eb"
+        },
+        {
+          "afterBlockId": "x1-3-4-b22",
+          "rationale": "在线面角与方向向量关系后联动数量积解释，保留原文。",
+          "retainProse": true,
+          "sectionId": "x1-3-4",
+          "sourceSha256": "657977578259e47012b016622184eea35b8ef60a735566879604a00255aacf14"
+        }
+      ],
+      "sections": [
+        "bx3-10-3",
+        "x1-3-4"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 22810,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8"
+    },
+    {
+      "bytes": 6404,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "1232c976b51de69aad31802429b47c9646602a3451e6698e40a0960c5e63db53"
+    },
+    {
+      "bytes": 7955,
+      "media_type": "text/javascript",
+      "path": "source/deep-geometry.js",
+      "role": "source",
+      "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+    },
+    {
+      "bytes": 14266,
+      "media_type": "application/json",
+      "path": "source/deep-geometry.json",
+      "role": "source",
+      "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+    },
+    {
+      "bytes": 4838,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-geometry.mjs",
+      "role": "source",
+      "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 3978,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "6388b4cde9dfd3880de517739e224390395a910ab753c3c8f4af5cf62bb06ecd"
+    },
+    {
+      "bytes": 4931,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "1f9d5073922acbfa44d4ff4702d014ea3a3c69c8b677aa36969912107ced984e"
+    },
+    {
+      "bytes": 1025,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "4ca9764549806f42122937f0eb8de854a4857abb24a85c9c78e792de2b1ffae7"
+    },
+    {
+      "bytes": 6393,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "d403b6ff729c9e381ffc9da97d839d0dce91e55d7b0b941d9792f573db605743"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "297a7794a3fe665eadbec6ec05d49fb902ffeaacc0ca10f16808a49bbbc94934"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 520,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "eca902e1961553ace0eccd5d01c78a7ff0edd736a9e289a2b434cb5df5c30e74"
+    },
+    {
+      "bytes": 138434,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "d693d166d7a3d418b10603e6c6e64e955e91346161b553a5d7b912971684e174"
+    },
+    {
+      "bytes": 86877,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "82dbfea4c5c9f650690abc49ed9b60533293fa0c38758ba0002d4911bda618b6"
+    },
+    {
+      "bytes": 145187,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "a4831b372c606d019e41ec18d26481cdf80b797e304c7045f2d96bee77c53b9a"
+    },
+    {
+      "bytes": 83608,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "75e534c70ff8f590e5f195e59e38284e564195a7ceb48a248f99e45ee029b8be"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "57ebc1cf0b76d9b381832bca4fc361e84f40cf3a8d250b4eacf1eb815d7dab72"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "设直线单位方向u=(cosθ,0,sinθ)，平面内单位方向v=(cosφ,sinφ,0)。两直线夹角β取0°至90°，则cosβ=|u·v|=cosθ|cosφ|≤cosθ，故β≥θ。θ<90°时沿射影方向等号成立；θ=90°时射影为点，所有平面方向均与直线垂直。θ=0°时本模型中直线在平面内。三维图是正交投影，不保角；真实读数与右侧变化曲线均由数量积计算。必修阶段先观察与几何解释，选修阶段联系向量证明，原文及原证明不折叠。"
+    ],
+    "learning_goals": [
+      "分开视角与数学角度，观察平面内各方向对应的真实夹角及最小值。"
+    ],
+    "objects": [
+      "线面角：为什么与射影的夹角最小"
+    ],
+    "parameters": {
+      "phi": {
+        "default": 50,
+        "display_range": [
+          0,
+          180
+        ],
+        "domain": "本实验允许输入范围 [0, 180]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      },
+      "theta": {
+        "default": 35,
+        "display_range": [
+          0,
+          90
+        ],
+        "domain": "本实验允许输入范围 [0, 90]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-geometry"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "分开视角与数学角度，观察平面内各方向对应的真实夹角及最小值。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "phi": 50,
+          "theta": 35
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "line-plane-minimum-angle",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "phi": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      },
+      "theta": {
+        "maximum": 90,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "线面角：为什么与射影的夹角最小",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:40Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-geometry.js",
+          "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+        },
+        {
+          "path": "source/deep-geometry.json",
+          "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+        },
+        {
+          "path": "source/test-deep-geometry.mjs",
+          "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.839974Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.839974Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.713349Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "1232c976b51de69aad31802429b47c9646602a3451e6698e40a0960c5e63db53"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

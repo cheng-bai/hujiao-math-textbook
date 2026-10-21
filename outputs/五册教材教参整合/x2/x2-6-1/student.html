@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x2-6-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>6.1 乘法原理与加法原理 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x2.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第二册 / 第6章计数原理</div><div class="spine-number">6.1</div><nav aria-label="本节目录"><a href="#x2-6-1"><span>6.1</span>乘法原理与加法原理</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 6.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 6.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>乘法原理与加法原理<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第二册<br>第6章计数原理 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>6 个例题</span><span>14 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x2-6-1" data-title="乘法原理与加法原理"><section class="section-heading" id="x2-6-1"><span class="section-number">6.1</span><div><h2>乘法原理与加法原理</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="c2da85be489edc27b782cfe993955e6ad7f4c7b10669c78bccd54345e5d08254" id="x2-6-1-b1"><h1>选修二第6章计数原理</h1>
+</div><div class="prose" data-visual-source-sha="5096aa870cdd2db084a883f6c76db700a4ab748bad4a4bc9362db1349ba4f3b3" id="x2-6-1-b4"><p><img src="images/book-089dffef57025607868e.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>自远古以来，数 (shù) 的概念就来源于数 (shǔ) 这个动作. 直到今天, 精确地知道一个有限集合中元素的个数，仍然是一类非常重要的问题. 例如, 在必修课程第 12 章中, 我们已经看到古典概率的计算往往需要用到一些集合的元素个数之间的比值, 但在那里, 因为样本空间较小, 大多数计数都是通过枚举完成的. 在本章里，我们将学习一些基本的计数原理, 以便能够解决更多的计数问题.</p>
+</div><h3 class="group-heading" id="x2-6-1-b5">1 乘法原理</h3><div class="prose" data-visual-source-sha="6bbe1d607dbaae9631fbcdc79d3b731bb66d4865bb7ddf9255b39250ddf44e3e" id="x2-6-1-b6"><p>先看下面的问题:</p>
+<p><img src="images/book-fc386f949d6d9b328591.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 6-1-1</p>
+<p>如图 6-1-1,从甲地到丙地,需经过乙地. 其中,从甲地到乙地有 3 条路线 <span class="math" data-tex="{A}_{1}\text{ 、 }{A}_{2}\text{ 、 }{A}_{3}" data-display="false"></span> ,而从乙地到丙地有 2 条路线 <span class="math" data-tex="{B}_{1}" data-display="false"></span> 、 <span class="math" data-tex="{B}_{2}" data-display="false"></span> . 那么,从甲地经由乙地到丙地,共有多少种不同的走法?</p>
+<p>从甲地到乙地有 3 种不同的走法, 按其中任何一种走法到达乙地后, 再由乙地到丙地又有 2 种不同的走法. 于是, 不同的走法就有以下 6 种情形 (其中符号 <span class="math" data-tex="{A}_{1}{B}_{1}" data-display="false"></span> 的含义是 &quot;先走路线 <span class="math" data-tex="{A}_{1}" data-display="false"></span> , 再走路线 <span class="math" data-tex="{B}_{1}" data-display="false"></span> &quot;,其余类同):</p>
+<div class="math display" data-tex="{A}_{1}{B}_{1}\text{ 、 }{A}_{1}{B}_{2}\text{ 、 }{A}_{2}{B}_{1}\text{ 、 }{A}_{2}{B}_{2}\text{ 、 }{A}_{3}{B}_{1}\text{ 、 }{A}_{3}{B}_{2}." data-display="true"></div>
+<p>其中，每一种情形都可&quot;从甲地经由乙地到丙地&quot;. 因此，从甲地经由乙地到丙地共有</p>
+<div class="math display" data-tex="3 \times  2 = 6" data-display="true"></div>
+<p>种不同的走法.</p>
+<p>这里使用的就是下面的</p>
+<p>乘法原理(分步计数原理) 做一件事,需要依次完成 <span class="math" data-tex="n" data-display="false"></span> 个步骤,其中完成第一步有 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 种不同的方法,完成第二步有 <span class="math" data-tex="{a}_{2}" data-display="false"></span> 种不同的方法, <span class="math" data-tex="\cdots \cdots" data-display="false"></span> ,完成第 <span class="math" data-tex="n" data-display="false"></span> 步有 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 种不同的方法. 那么完成这件事共有</p>
+<div class="math display" data-tex="{a}_{1}{a}_{2}\cdots {a}_{n}" data-display="true"></div>
+<p>种不同的方法.</p>
+</div><article class="question" id="x2-6-1-ex-1" data-question-id="x2-6-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 一个三层的书架上共放有 9 本书, 其中第一层放有 4 本不同的语文书, 第二层放有 3 本不同的数学书, 第三层放有 2 本不同的外语书. 若从书架的第一、二、三层各取 1 本书, 共有多少种不同的取法?</p>
+</div></article><article class="question" id="x2-6-1-ex-2" data-question-id="x2-6-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 用 1、2、3、4、5 可以组成多少个没有重复数字的三位数?</p>
+</div></article><article class="question" id="x2-6-1-ex-3" data-question-id="x2-6-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 正整数 540 有多少个不同的正约数?</p>
+</div></article><h3 class="group-heading" id="x2-6-1-b10">练习 6.1(1)</h3><article class="question" id="x2-6-1-p611-1" data-question-id="x2-6-1-p611-1" data-category="practice"><div class="question-label">练习6.1(1) · 1</div><div class="question-body"><ol>
+<li>公园有 4 个门, 从一个门进, 再从另一个门出, 共有多少种不同的走法?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-p611-2" data-question-id="x2-6-1-p611-2" data-category="practice"><div class="question-label">练习6.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>4 名学生报名参加两项体育比赛，每名学生可参加的比赛数目不限，每项比赛参加的人数不限，共有多少种不同的报名结果?</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-1-b13">2 加法原理</h3><div class="prose" data-visual-source-sha="e9608560082da1ed3c3f69427f993b853ee9db06f2a097a5736751138490ec69" id="x2-6-1-b14"><p>再看下面的问题:</p>
+<p>从甲地到乙地, 可以乘飞机, 可以乘轮船, 也可以乘汽车. 一天中，飞机有 4 班，轮船有 3 班，汽车有 2 班. 问:一天中乘坐这些交通工具从甲地到乙地共有多少种不同的走法?</p>
+<p>因为一天中乘飞机有 4 种走法, 乘轮船有 3 种走法, 乘汽车有 2 种走法, 其中每一种方法都可以实现从甲地到乙地的目的, 所以一天中乘坐这些交通工具从甲地到乙地共有</p>
+<div class="math display" data-tex="4 + 3 + 2 = 9" data-display="true"></div>
+<p>种不同的走法.</p>
+<p>这里使用的就是下面的</p>
+<hr />
+<p>每一类办法中的每一种方法都可以单独完成这件事情, 这是&quot;加法原理&quot;与&quot;乘法原理&quot;的区别.</p>
+<hr />
+<p>加法原理(分类计数原理)做一件事，完成它有 <span class="math" data-tex="n" data-display="false"></span> 类办法,其中第一类办法有 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 种不同的方法,第二类办法有 <span class="math" data-tex="{a}_{2}" data-display="false"></span> 种不同的方法, <span class="math" data-tex="\cdots \cdots" data-display="false"></span> ,第 <span class="math" data-tex="n" data-display="false"></span> 类办法有 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 种不同的方法. 那么完成这件事共有</p>
+<div class="math display" data-tex="{a}_{1} + {a}_{2} + \cdots  + {a}_{n}" data-display="true"></div>
+<p>种不同的方法.</p>
+</div><article class="question" id="x2-6-1-ex-4" data-question-id="x2-6-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 用 1、2、3、4、5 这五个数字可以组成多少个十位数字大于个位数字的两位数?</p>
+</div></article><article class="question" id="x2-6-1-ex-5" data-question-id="x2-6-1-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 如图 6-1-2, 从甲地到乙地有 2 条路, 从乙地到丁地有 3 条路; 从甲地到丙地有 4 条路, 从丙地到丁地有 2 条路. 那么, 从甲地到丁地, 如果每条路至多走一次, 且每个地点至多经过一次, 有多少种不同的走法?</p>
+<p><img src="images/book-4be50a28dbdd192666c4.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 6-1-2</p>
+</div></article><article class="question" id="x2-6-1-ex-6" data-question-id="x2-6-1-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 在 300 和 800 之间，有多少个没有重复数字的奇数?</p>
+</div></article><h3 class="group-heading" id="x2-6-1-b18">练习 6.1(2)</h3><article class="question" id="x2-6-1-p612-1" data-question-id="x2-6-1-p612-1" data-category="practice"><div class="question-label">练习6.1(2) · 1</div><div class="question-body"><ol>
+<li>在平面直角坐标系中,以 1、2、3、4、5 这五个数中的两个分别作为一个点的横坐标和纵坐标,可以组成多少个位于直线 <span class="math" data-tex="y = x" data-display="false"></span> 下方的点?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-p612-2" data-question-id="x2-6-1-p612-2" data-category="practice"><div class="question-label">练习6.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>书架上放有 6 本不同的数学书和 5 本不同的语文书. 从中任取一本，有多少种不同的取法?</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-1-b21">习题 6.1</h3><h3 class="group-heading" id="x2-6-1-b22">A 组</h3><article class="question" id="x2-6-1-h61A-1" data-question-id="x2-6-1-h61A-1" data-category="homework"><div class="question-label">习题6.1A · 1</div><div class="question-body"><ol>
+<li>4 名学生分别报名参加学校的足球队、篮球队和棒球队, 每人限报其中的一支. 问: 有多少种不同的报名方法?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61A-2" data-question-id="x2-6-1-h61A-2" data-category="homework"><div class="question-label">习题6.1A · 2</div><div class="question-body"><ol start="2">
+<li>某服装厂为学校设计了 4 种样式的上衣、 3 种样式的裤子. 若取其中的一件上衣和一条裤子配成校服，则可以配出多少种不同样式的校服?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61A-3" data-question-id="x2-6-1-h61A-3" data-category="homework"><div class="question-label">习题6.1A · 3</div><div class="question-body"><ol start="3">
+<li>在一种编码方式中, 每个编码都是两位字符, 规定第一位用数字 0 至 9 中之一, 第二位用 26 个小写英文字母中之一. 这种编码方式共可以产生多少个不同的编码?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61A-4" data-question-id="x2-6-1-h61A-4" data-category="homework"><div class="question-label">习题6.1A · 4</div><div class="question-body"><ol start="4">
+<li>设集合 <span class="math" data-tex="A = \{ \left( {x, y}\right)  \mid  x \in  \mathbf{Z}, y \in  \mathbf{Z}" data-display="false"></span> ,且 <span class="math" data-tex="\left| x\right|  \leq  6,\left| y\right|  \leq  7\}" data-display="false"></span> ,则集合 <span class="math" data-tex="A" data-display="false"></span> 中有多少个元素?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61A-5" data-question-id="x2-6-1-h61A-5" data-category="homework"><div class="question-label">习题6.1A · 5</div><div class="question-body"><ol start="5">
+<li>从 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c\text{ 、 }d\text{ 、 }e" data-display="false"></span> 这 5 个元素中取出 4 个,放在 4 个不同的格子中,且元素 <span class="math" data-tex="b" data-display="false"></span> 不能放在第二个格子里. 问: 一共有多少种不同的放法?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61A-6" data-question-id="x2-6-1-h61A-6" data-category="homework"><div class="question-label">习题6.1A · 6</div><div class="question-body"><ol start="6">
+<li><span class="math" data-tex="A\text{ 、 }B\text{ 、 }C\text{ 、 }D\text{ 、 }E" data-display="false"></span> 五人站成一排,如果 <span class="math" data-tex="B" data-display="false"></span> 必须站在 <span class="math" data-tex="A" data-display="false"></span> 的右边 <span class="math" data-tex="(A\text{ 、 }B" data-display="false"></span> 可以不相邻), 那么有多少种不同的排法?</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-1-b29">B 组</h3><article class="question" id="x2-6-1-h61B-1" data-question-id="x2-6-1-h61B-1" data-category="homework"><div class="question-label">习题6.1B · 1</div><div class="question-body"><ol>
+<li>乘积 <span class="math" data-tex="\left( {{a}_{1} + {a}_{2}}\right) \left( {{b}_{1} + {b}_{2} + {b}_{3}}\right) \left( {{c}_{1} + {c}_{2} + {c}_{3} + {c}_{4}}\right)" data-display="false"></span> 的展开式中有多少项?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61B-2" data-question-id="x2-6-1-h61B-2" data-category="homework"><div class="question-label">习题6.1B · 2</div><div class="question-body"><ol start="2">
+<li>如图,要接通从 <span class="math" data-tex="A" data-display="false"></span> 到 <span class="math" data-tex="B" data-display="false"></span> 的电路,不同的接通方法有多少种?</li>
+</ol>
+<p><img src="images/book-7f4f648441e607a3ba80.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 2 题)</p>
+</div></article><article class="question" id="x2-6-1-h61B-3" data-question-id="x2-6-1-h61B-3" data-category="homework"><div class="question-label">习题6.1B · 3</div><div class="question-body"><ol start="3">
+<li>用 1、2、3、4、5、6 组成没有重复数字的六位数，要求所有相邻两个数字的奇偶性都不同, 且 1 和 2 相邻. 问: 有多少个这样的六位数?</li>
+</ol>
+</div></article><article class="question" id="x2-6-1-h61B-4" data-question-id="x2-6-1-h61B-4" data-category="homework"><div class="question-label">习题6.1B · 4</div><div class="question-body"><ol start="4">
+<li>已知 <span class="math" data-tex="{p}_{1}\text{ 、 }{p}_{2}\text{ 、 }{p}_{3}" data-display="false"></span> 是互不相同的素数, <span class="math" data-tex="\alpha \text{ 、 }\beta \text{ 、 }\gamma" data-display="false"></span> 是正整数, <span class="math" data-tex="n = {p}_{1}^{\alpha }{p}_{2}^{\beta }{p}_{3}^{\gamma }" data-display="false"></span> . 问: <span class="math" data-tex="n" data-display="false"></span> 有多少个不同的正约数?</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x2-6-1" checked>乘法原理与加法原理</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

@@ -1,0 +1,45 @@
+{
+  "controls": [
+    {
+      "key": "height",
+      "label": "第三方向的高度",
+      "max": 3,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "coefficient",
+      "label": "组合系数c（p=u+v+cw）",
+      "max": 1.5,
+      "min": -1,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>p</mi><mo>=</mo><mi>x</mi><mi>u</mi><mo>+</mo><mi>y</mi><mi>v</mi><mo>+</mo><mi>z</mi><mi>w</mi><mspace width=\"1em\"/><mtext>基底须不共面</mtext></math>",
+  "goal": "压低第三个向量，看立体张成空间退化为平面。",
+  "id": "space-basis-collapse",
+  "initial": {
+    "coefficient": 0.5,
+    "height": 2,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "x1-3-2-b7",
+      "rationale": "接替空间基底存在、唯一表示与不共面条件的立体解释。",
+      "sectionId": "x1-3-2"
+    }
+  ],
+  "summary": "三个不共面的向量构成空间的一组基底，任何空间向量都可唯一表示为它们的线性组合。若第三方向落入前两方向张成的平面，就失去对全空间的表示能力与唯一性；不共面条件不可省略。",
+  "title": "空间基底：第三个方向压平会怎样"
+}

@@ -1,0 +1,370 @@
+{
+  "asset_id": "020501b4-33a2-582d-8ca3-b29f04430323",
+  "contributors": [
+    {
+      "name": "Codex deep-spatial implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "direction": "general",
+      "offset": 2
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-spatial",
+    "source_build_sha256": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-11-1-b6",
+          "rationale": "在棱柱、多面体定义后以综合探究解释截面边数和临界变化；不取代正文定义或体积推导。",
+          "retainProse": true,
+          "sectionId": "bx3-11-1",
+          "sourceSha256": "0b524045761758710d8e99e36b6c42cfd9d2a1a5749a34a3e10774819363a5a6"
+        }
+      ],
+      "sections": [
+        "bx3-11-1"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 18991,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd"
+    },
+    {
+      "bytes": 5637,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "6b7ff3c762fefa113dfa2698e660b1a0eb9cf7f6e8306162a0d2dcdf927ec03a"
+    },
+    {
+      "bytes": 4124,
+      "media_type": "text/javascript",
+      "path": "source/deep-spatial.js",
+      "role": "source",
+      "sha256": "b4344b63a72a563a8c878fc3761309446a36c584fd03b330d28d9fee87aebdea"
+    },
+    {
+      "bytes": 4109,
+      "media_type": "application/json",
+      "path": "source/deep-spatial.json",
+      "role": "source",
+      "sha256": "68fc4de4d711fbaa3af3656be3d486b36caa2a531c06b5fff62b229345516486"
+    },
+    {
+      "bytes": 2138,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-spatial.mjs",
+      "role": "source",
+      "sha256": "75cf16aaa824b5d81272106d928d3398ff1b2ccbca23155cce77e36e3f0a4645"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 3820,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "3be387b1b7e012a6491df70225fe417e7649f0aa471f0248058ee7df7d31a217"
+    },
+    {
+      "bytes": 4144,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4fae3b1db654bdc48c26ce0a4123e0b32506ef8661b0d5dbe87a807c88b21c37"
+    },
+    {
+      "bytes": 980,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "f64ca353e14c3ee7ec5b910b18038a6ceba77ff342b2b3acdd97bd6829edd9ee"
+    },
+    {
+      "bytes": 3649,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "e400993161d9ab3b760aaacdfb1d6efb4803a76e7d0922fe89b4525aa45c98c5"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "c1793a2f82ca2364b0b780de55aaf1e04790dd16e8f716ce40270f73808772b8"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 524,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "80ce16ee32e4d0936db7ef9d6ca123a97438f4d4e60f5568e829b1af51becbd0"
+    },
+    {
+      "bytes": 158902,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "5823dea90a24ef66c3609ccab1bb1a6c6e051d2dfac3b543cba5a7b9d14a63f6"
+    },
+    {
+      "bytes": 101947,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "ef40a82e24f8b4d6409d4ee88924b24f57cfcb76ae531a986881c402cbcd19e7"
+    },
+    {
+      "bytes": 175761,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "ef9b1b4a07bbd22b058463860ced2ea78a93d1dfe0aefcafbb76c7e12fe950fd"
+    },
+    {
+      "bytes": 101093,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "ecb4c9ecc3b7ea2ebab93534cc38b788e7c22c9e75ba5089880acf1d55549857"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "fe4785933aaac78798a029e0c5d2a632dd97c5659ad0237c5bbd64acd67f81dd"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "立方体取各坐标在[-1,1]。切平面与各棱求交并去重，按截平面内的顺序连接交点，得到截面。切平面不与任何面重合时，一个面至多贡献一条截面边，因此至多六边；与某面重合时得到正方形。平面经过顶点时截线可能换边，但边数不一定改变。右侧按截平面自身的正交坐标等比例显示，避免将空间投影误认作真实形状。六边形不一定是正六边形。"
+    ],
+    "learning_goals": [
+      "综合拓展：用真实平面与棱求交，解释三至六边形、临界状态与正确连线。"
+    ],
+    "objects": [
+      "深度探究 · 截面的边数为什么改变？"
+    ],
+    "parameters": {
+      "direction": {
+        "default": "general",
+        "domain": "允许的离散选项：[\"general\", \"diagonal\", \"edge\", \"face\"]",
+        "type": "enum"
+      },
+      "offset": {
+        "default": 2,
+        "display_range": [
+          -10,
+          10
+        ],
+        "domain": "本实验允许输入范围 [-10, 10]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-spatial"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "综合拓展：用真实平面与棱求交，解释三至六边形、临界状态与正确连线。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "direction": "general",
+          "offset": 2
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "cube-plane-transitions",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "direction": {
+        "enum": [
+          "general",
+          "diagonal",
+          "edge",
+          "face"
+        ],
+        "type": "string"
+      },
+      "offset": {
+        "maximum": 10,
+        "minimum": -10,
+        "type": "number"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "深度探究 · 截面的边数为什么改变？",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:41Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-spatial.js",
+          "sha256": "b4344b63a72a563a8c878fc3761309446a36c584fd03b330d28d9fee87aebdea"
+        },
+        {
+          "path": "source/deep-spatial.json",
+          "sha256": "68fc4de4d711fbaa3af3656be3d486b36caa2a531c06b5fff62b229345516486"
+        },
+        {
+          "path": "source/test-deep-spatial.mjs",
+          "sha256": "75cf16aaa824b5d81272106d928d3398ff1b2ccbca23155cce77e36e3f0a4645"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840164Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840164Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.714564Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "6b7ff3c762fefa113dfa2698e660b1a0eb9cf7f6e8306162a0d2dcdf927ec03a"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

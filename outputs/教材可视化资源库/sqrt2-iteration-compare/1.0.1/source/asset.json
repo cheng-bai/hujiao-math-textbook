@@ -1,0 +1,63 @@
+{
+  "controls": [
+    {
+      "key": "method",
+      "label": "迭代规则",
+      "options": [
+        {
+          "label": "巴比伦法：(x+2/x)/2",
+          "value": "babylon"
+        },
+        {
+          "label": "交替逼近：1+1/(x+1)",
+          "value": "slow"
+        },
+        {
+          "label": "循环反例：2/x",
+          "value": "reciprocal"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "initial",
+      "label": "正初值",
+      "max": 4,
+      "min": 0.5,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "steps",
+      "label": "迭代步数",
+      "max": 12,
+      "min": 0,
+      "step": 1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mfrac><mn>2</mn><msub><mi>x</mi><mi>n</mi></msub></mfrac><mo>)</mo></math>",
+  "goal": "切换三个等价变形，用蛛网逐步比较迭代轨迹与误差。",
+  "id": "sqrt2-iteration-compare",
+  "initial": {
+    "initial": 1,
+    "method": "babylon",
+    "steps": 4
+  },
+  "placements": [
+    {
+      "afterBlockId": "x1-4-5-b2",
+      "rationale": "接替三种迭代算法及多张数表的反复比较。",
+      "sectionId": "x1-4-5"
+    }
+  ],
+  "sourceReuse": {
+    "kind": "derived",
+    "note": "复用不动点、蛛网路径与误差观察的教学设计；按教材三种迭代重写独立纯模型，未改另一项目。",
+    "paths": [
+      "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/fixed-points.html"
+    ]
+  },
+  "summary": "求√2可把方程变成不动点迭代，但等价变形不保证收敛。正初值下巴比伦算法先到√2上方再下降；1+1/(x+1)交替逼近；2/x一般两值循环，仅初值恰是√2时固定。有限步图像不是收敛证明。",
+  "title": "迭代求√2：收敛与来回振荡"
+}

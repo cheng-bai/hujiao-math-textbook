@@ -1,0 +1,2514 @@
+{
+  "schema": "textbook-visual-selection/v1",
+  "nodeCount": 101,
+  "assetCount": 43,
+  "placementCount": 49,
+  "selection": [
+    {
+      "sectionId": "bx1-1-1",
+      "status": "skip",
+      "reason": "集合表示与简单运算保留原静态示意；仅做集合区域开关不能替代本节必要逻辑，不新增低增益动画。"
+    },
+    {
+      "sectionId": "bx1-1-2",
+      "status": "skip",
+      "reason": "命题与充分必要条件核心是逻辑含义和反例，不以装饰动画替代准确文字。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-1",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-2-1",
+      "status": "skip",
+      "reason": "等式、不等式运算法则以条件和代数证明为主，未选纯代入型滑块。"
+    },
+    {
+      "sectionId": "bx1-2-2",
+      "status": "skip",
+      "reason": "绝对值内外侧和简单不等式的静态数轴已足够清楚；本轮严格不为太简单的知识点追加滑块。"
+    },
+    {
+      "sectionId": "bx1-2-3",
+      "status": "selected",
+      "reason": "将算术/几何平均值和等号唯一性连成可变矩形。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-2",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-3-1",
+      "status": "skip",
+      "reason": "指数运算规则主要是符号法则，动态图不比精炼推导更有效。"
+    },
+    {
+      "sectionId": "bx1-3-2",
+      "status": "skip",
+      "reason": "对数定义与运算法则在后续对数函数可视化中联动，本节不重复插入。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-3",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-4-1",
+      "status": "skip",
+      "reason": "常见幂函数比较用现有静态图足够；函数性质模块承担有序两点的高价值动态解释。"
+    },
+    {
+      "sectionId": "bx1-4-2",
+      "status": "selected",
+      "reason": "用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。"
+    },
+    {
+      "sectionId": "bx1-4-3",
+      "status": "selected",
+      "reason": "联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-4",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-5-1",
+      "status": "skip",
+      "reason": "函数定义需要唯一对应的准确条件，映射箭头的简单移动增益有限。"
+    },
+    {
+      "sectionId": "bx1-5-2",
+      "status": "selected",
+      "reason": "通过反例和有序两点比较区分局部点对观察与全区间单调定义。"
+    },
+    {
+      "sectionId": "bx1-5-3",
+      "status": "skip",
+      "reason": "建模须读具体情境与论证，不用通用动画替代情境条件。"
+    },
+    {
+      "sectionId": "bx1-5-4",
+      "status": "selected",
+      "reason": "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-5",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-6-1",
+      "status": "selected",
+      "reason": "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。"
+    },
+    {
+      "sectionId": "bx2-6-2",
+      "status": "skip",
+      "reason": "三角恒等变换需要代数推导，单位圆模块已承担几何符号与投影，不重复动画。"
+    },
+    {
+      "sectionId": "bx2-6-3",
+      "status": "selected",
+      "reason": "本轮不以普通三角形拖点重复静态定理图；优先单位圆到函数的连续过程。 深度探究：正弦定理后加入教师拓展，呈现SSA多解依据，不替换原定理推导。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-6",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-7-1",
+      "status": "selected",
+      "reason": "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。"
+    },
+    {
+      "sectionId": "bx2-7-2",
+      "status": "skip",
+      "reason": "余弦可视为正弦的相位变化，正弦与Aωφ模块已覆盖关键动态关系，本节避免重复。"
+    },
+    {
+      "sectionId": "bx2-7-3",
+      "status": "selected",
+      "reason": "用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。"
+    },
+    {
+      "sectionId": "bx2-7-4",
+      "status": "selected",
+      "reason": "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-7",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-8-1",
+      "status": "skip",
+      "reason": "简单向量平移和加法已有静态图说明，本轮优先更难理解的带符号投影。"
+    },
+    {
+      "sectionId": "bx2-8-2",
+      "status": "selected",
+      "reason": "用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。"
+    },
+    {
+      "sectionId": "bx2-8-3",
+      "status": "skip",
+      "reason": "坐标运算法则主要是直接计算，沿用公式和例题，不制作低增益代入动画。"
+    },
+    {
+      "sectionId": "bx2-8-4",
+      "status": "skip",
+      "reason": "应用依具体题目情境展开，数量积投影已提供方法层的动态解释，避免泛化题解动画。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-8",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-9-1",
+      "status": "skip",
+      "reason": "复数加减和四则运算保留代数基础，后续三角形式统一承担乘除几何变换。"
+    },
+    {
+      "sectionId": "bx2-9-2",
+      "status": "skip",
+      "reason": "基本复平面点表示不单独做滑块；复杂旋转伸缩放在9.4节，避免简单知识点动画。"
+    },
+    {
+      "sectionId": "bx2-9-3",
+      "status": "skip",
+      "reason": "实系数二次方程求复根以代数公式和共轭关系为主，不用动点替代推导。"
+    },
+    {
+      "sectionId": "bx2-9-4",
+      "status": "selected",
+      "reason": "用旋转伸缩把复数乘除公式与两角和展开联系起来。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-9",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "x1-1-1",
+      "status": "skip",
+      "reason": "倾斜角、斜率的基础定义不另加模块，静态图已足以承载。"
+    },
+    {
+      "sectionId": "x1-1-2",
+      "status": "skip",
+      "reason": "点斜式、一般式等直接代数关系不额外动画化。"
+    },
+    {
+      "sectionId": "x1-1-3",
+      "status": "skip",
+      "reason": "直线相交平行的简单分类可由已有坐标图解释，不增加重复模块。"
+    },
+    {
+      "sectionId": "x1-1-4",
+      "status": "skip",
+      "reason": "点到直线距离保留垂足简图与公式，不为直接距离计算新增交互。"
+    },
+    {
+      "sectionId": "x1-chapter-end-1",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-2-1",
+      "status": "skip",
+      "reason": "圆的定义与标准方程较基础，现有简图足够，不为覆盖率新增演示。"
+    },
+    {
+      "sectionId": "x1-2-2",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-3",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-4",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-5",
+      "status": "selected",
+      "reason": "曲线与方程的双向对应沿用圆锥曲线三个已有实验，不再堆叠同类轨迹图。 深度探究：在轨迹方程双向验证步骤后增设选学探究，保留全部原文。"
+    },
+    {
+      "sectionId": "x1-chapter-end-2",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-3-1",
+      "status": "skip",
+      "reason": "空间向量的定义与基础运算可迁移平面向量知识，不重复做基础运算模块。"
+    },
+    {
+      "sectionId": "x1-3-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-3-3",
+      "status": "skip",
+      "reason": "空间点坐标、坐标运算与公式不新增低解释增益的动画。"
+    },
+    {
+      "sectionId": "x1-3-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。 深度探究：在线面角与方向向量关系后联动数量积解释，保留原文。"
+    },
+    {
+      "sectionId": "x1-chapter-end-3",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-4-1",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-4-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-4-3",
+      "status": "skip",
+      "reason": "一般数列、通项与递推的基本术语不为动画而动画；高价值迭代集中在4.5。"
+    },
+    {
+      "sectionId": "x1-4-4",
+      "status": "skip",
+      "reason": "数学归纳法重点是基例与递推的逻辑，通用多米诺动画不能替代证明，保留严谨文字。"
+    },
+    {
+      "sectionId": "x1-4-5",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-chapter-end-4",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "bx3-10-1",
+      "status": "skip",
+      "reason": "点线面公理与基本记号优先保留简图和精确文字；不以动作装饰替代公理。"
+    },
+    {
+      "sectionId": "bx3-10-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-10-3",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。 深度探究：射影与线面角定义后解释最小性，保留原定义及几何论证。"
+    },
+    {
+      "sectionId": "bx3-10-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-10-5",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-10",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "bx3-11-1",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。 深度探究：在棱柱、多面体定义后以综合探究解释截面边数和临界变化；不取代正文定义或体积推导。"
+    },
+    {
+      "sectionId": "bx3-11-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-11-3",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-11-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-11",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x2-5-1",
+      "status": "selected",
+      "reason": "动态图让割线斜率随增量趋零，直观看到局部线性化；原定义与圆切线辨析留在可展开原文。"
+    },
+    {
+      "sectionId": "x2-5-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-5-3",
+      "status": "selected",
+      "reason": "符号变化决定极值类型；包含导数为零但不取极值的反例。 深度探究：在极值定义后的方法深化；保留极值、驻点及原例题正文，不以探索替代论证。"
+    },
+    {
+      "sectionId": "x2-chapter-end-5",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-3",
+      "status": "selected",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。 深度探究：在排列与组合对应表后深化重复计数的条件，原公式推导和例题保持可见。"
+    },
+    {
+      "sectionId": "x2-6-4",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-5",
+      "status": "selected",
+      "reason": "Pascal三角相邻路径累积出二项式系数，显示组合系数来源。"
+    },
+    {
+      "sectionId": "x2-chapter-end-6",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-7-1",
+      "status": "selected",
+      "reason": "条件A缩小样本空间，分母从全空间改为条件空间；区分条件概率与联合概率。 深度探究：衔接逆向条件的教材段落与选学贝叶斯公式；保留原文，明确教师拓展属性。"
+    },
+    {
+      "sectionId": "x2-7-2",
+      "status": "selected",
+      "reason": "拖动离散概率质量，联动期望与方差，展示加权中心和离散程度。"
+    },
+    {
+      "sectionId": "x2-7-3",
+      "status": "selected",
+      "reason": "改变n,p观察二项分布概率质量，强调n次独立同分布伯努利试验假设。"
+    },
+    {
+      "sectionId": "x2-chapter-end-7",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-8-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-8-2",
+      "status": "selected",
+      "reason": "散点与最小二乘直线联动，展示离群点如何改变斜率；不将相关解释为因果。"
+    },
+    {
+      "sectionId": "x2-8-3",
+      "status": "selected",
+      "reason": "独立假设下期望频数=行总计×列总计/总数；对照观察频数，不直接把样本偏差当因果。"
+    },
+    {
+      "sectionId": "x2-chapter-end-8",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-3",
+      "status": "selected",
+      "reason": "可复现伯努利试验样本路径显示频率波动；不能暗示频率必然单调收敛。"
+    },
+    {
+      "sectionId": "bx3-12-4",
+      "status": "selected",
+      "reason": "单位正方形中矩形面积对应独立事件联合概率乘积；仅作模型演示。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-12",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-3",
+      "status": "selected",
+      "reason": "改变总体分层构成与各层抽样配额，比较比例分配与不同比例抽样代表性。"
+    },
+    {
+      "sectionId": "bx3-13-4",
+      "status": "selected",
+      "reason": "等宽/不等宽分箱，高度按频率密度定义，使每柱面积而非高度表示频率。"
+    },
+    {
+      "sectionId": "bx3-13-5",
+      "status": "selected",
+      "reason": "重复抽样展示样本均值波动；不替代本节均值/中位数/众数定义，不声称实现区间覆盖。"
+    },
+    {
+      "sectionId": "bx3-13-6",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-13",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "amgm-square",
+      "title": "和不变：矩形怎样变成最大面积正方形",
+      "goal": "将算术/几何平均值和等号唯一性连成可变矩形。",
+      "summary": "正数 a、b 的算术平均值为 (a+b)/2，几何平均值为与 a×b 矩形等面积正方形的边长。算术平均不小于几何平均，且仅 a=b 时等号成立。这里固定 a+b=8：改变两边，观察面积差如何精确由平方项控制。",
+      "initial": {
+        "a": 2
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-2-3",
+          "afterBlockId": "bx1-2-3-b4",
+          "rationale": "覆盖本节原prose第4块：将算术/几何平均值和等号唯一性连成可变矩形。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "26c4d53b6d8459db6e4a5557942cdc8b195d4e7286ed07b2ab999a8cb663406e"
+        }
+      ],
+      "sections": [
+        "bx1-2-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-4fec5d46b8b7",
+      "hash": "4fec5d46b8b793633ede009529e50d2ba4b0727f480f2441aa1922cdc16a2ba7",
+      "parameters": {
+        "a": {
+          "minimum": 0.5,
+          "maximum": 7.5,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-amgm-square.js",
+      "preview": "textbook-amgm-square-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "13826507-1fde-58c7-b371-916e8856c92c"
+    },
+    {
+      "id": "exponential-base",
+      "title": "底数跨过 1：增长、衰减与固定点",
+      "goal": "用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。",
+      "summary": "a>0、a≠1 时，指数函数定义域为全体实数，值域为正实数，恒过 (0,1)，趋近 x 轴但永不相交。a>1 严格增；0<a<1 严格减。比较 x 正负两侧的函数值，观察底数在 1 两侧时整条曲线如何交换增长方向。",
+      "initial": {
+        "base": "2",
+        "x": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-4-2",
+          "afterBlockId": "bx1-4-2-b12",
+          "rationale": "覆盖本节原prose第12块：用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "0587b6f86408e63686ddaf0248809980fcdc5aafbbd79890b3e0a1b36bdd1836"
+        }
+      ],
+      "sections": [
+        "bx1-4-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-5e24f0a0b044",
+      "hash": "5e24f0a0b044e2dcc030d273e170aee0bf77d5b20b47225206e9390c5b77ee95",
+      "parameters": {
+        "base": {
+          "enum": [
+            "0.5",
+            "0.8",
+            "1",
+            "1.25",
+            "2"
+          ]
+        },
+        "x": {
+          "minimum": -2,
+          "maximum": 2,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-exponential-base.js",
+      "preview": "textbook-exponential-base-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "5eda5d61-cbac-5f3e-9660-d235603357f5"
+    },
+    {
+      "id": "logarithm-reflection",
+      "title": "指数和对数：交换坐标为何改变定义域",
+      "goal": "联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。",
+      "summary": "对数函数仅在 x>0 有定义，值域为全体实数，过 (1,0)，趋近 y 轴而不相交。a>1 时严格增，x>1 为正而 0<x<1 为负；0<a<1 时上述结论反向。相同底数的指数与对数交换横纵坐标，关于 y=x 对称；底数互为倒数的对数图像则关于 x 轴对称。",
+      "initial": {
+        "base": "2",
+        "t": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-4-3",
+          "afterBlockId": "bx1-4-3-b12",
+          "rationale": "覆盖本节原prose第12块：联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "c77f4912bd2efb69566c90407a38978ea0208a971b838f58caeaf194e1313777"
+        }
+      ],
+      "sections": [
+        "bx1-4-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-9f5cfa58e2a0",
+      "hash": "9f5cfa58e2a037cdc152305994f0cd39e9df719420f68c3aa464cf718ea856eb",
+      "parameters": {
+        "base": {
+          "enum": [
+            "0.5",
+            "0.8",
+            "1.25",
+            "2"
+          ]
+        },
+        "t": {
+          "minimum": -2,
+          "maximum": 2,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-logarithm-reflection.js",
+      "preview": "textbook-logarithm-reflection-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "602dd42a-f61f-5f85-8552-ed14361872df"
+    },
+    {
+      "id": "monotonic-two-points",
+      "title": "两点同时移动：单调性必须限定区间",
+      "goal": "通过反例和有序两点比较区分局部点对观察与全区间单调定义。",
+      "summary": "在区间 I 内，任意 x₁<x₂ 若总有 f(x₁)≤f(x₂)，称增函数；改为≥称减函数，改为严格不等号称严格增/减。平方函数负半轴严格减、正半轴严格增；常函数同时增且减而均不严格。正半轴幂函数指数正则严格增、负则严格减；指数和对数的方向取决于底数在 1 的哪侧。拖动两点用于发现区间与反例，不替代“任意两点”的证明。",
+      "initial": {
+        "kind": "square",
+        "left": -0.5,
+        "gap": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-5-2",
+          "afterBlockId": "bx1-5-2-b19",
+          "rationale": "覆盖本节原prose第19块：通过反例和有序两点比较区分局部点对观察与全区间单调定义。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "71168c1aa69e420aa663fa368ee7ff772a62410aeb2fa771aa38a5bef58a2110"
+        }
+      ],
+      "sections": [
+        "bx1-5-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-02ba633a1023",
+      "hash": "02ba633a10231dec0ca407aec39d2ebfd4d8e6727a893d60f92678d5a0f77abd",
+      "parameters": {
+        "kind": {
+          "enum": [
+            "square",
+            "cube",
+            "decreasing",
+            "constant"
+          ]
+        },
+        "left": {
+          "minimum": -2,
+          "maximum": 1,
+          "step": 0.1
+        },
+        "gap": {
+          "minimum": 0.1,
+          "maximum": 1,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-monotonic-two-points.js",
+      "preview": "textbook-monotonic-two-points-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "c3658df9-f5d6-5ec7-aa34-b955d9e5c048"
+    },
+    {
+      "id": "inverse-domain",
+      "title": "反函数：保留哪一个平方根分支",
+      "goal": "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。",
+      "summary": "反函数先以原函数值域为定义域，解出原自变量，再交换横纵坐标。点 (a,b) 与 (b,a) 关于 y=x 对称：不重合时，连线中点在 y=x 上且连线斜率为 -1。一般反函数图像因此关于 y=x 对称。平方函数须先限制为非负或非正半轴，才得到对应平方根分支；这里由同一动点看这一限制。",
+      "initial": {
+        "branch": "positive",
+        "x": 1.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-5-4",
+          "afterBlockId": "bx1-5-4-b11",
+          "rationale": "覆盖本节原prose第11块：用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "35bb867e2dce62489f64e9a4b95d29c67c2a5d8ecf80fc54a974c887adcaeda2"
+        }
+      ],
+      "sections": [
+        "bx1-5-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-da060a328325",
+      "hash": "da060a328325bd5795a1cd5c456e7860b76e53eeddde11359d31c728a7d83f45",
+      "parameters": {
+        "branch": {
+          "enum": [
+            "positive",
+            "negative"
+          ]
+        },
+        "x": {
+          "minimum": 0,
+          "maximum": 2,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-inverse-domain.js",
+      "preview": "textbook-inverse-domain-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "04c1bda0-0f9b-514d-b186-d8f539e8d69b"
+    },
+    {
+      "id": "unit-circle-projection",
+      "title": "单位圆：带符号投影统一四种三角比",
+      "goal": "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。",
+      "summary": "将角顶点放在原点、始边放在 x 正半轴，终边任取非原点 P(x,y)，r 为到原点距离。锐角三角比推广为带符号坐标与 r 的比；取单位圆 r=1 后，横纵坐标直接成为 cos 与 sin。终边同向伸缩不改比值，转过整周也不改值；tan、cot 必须分别排除分母为零的情形。",
+      "initial": {
+        "angle": 45
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-6-1",
+          "afterBlockId": "bx2-6-1-b25",
+          "rationale": "覆盖本节原prose第25块：将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "a5d0644ece64630d477f5170e6ae2714e1e2040350463a888250f5425b40e8d0"
+        }
+      ],
+      "sections": [
+        "bx2-6-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-7cfcd2869955",
+      "hash": "7cfcd286995593ad84b86e1eb175747f468675a9b248a436fd52adf99b13d5e8",
+      "parameters": {
+        "angle": {
+          "minimum": -360,
+          "maximum": 720,
+          "step": 5
+        }
+      },
+      "payload": "textbook-unit-circle-projection.js",
+      "preview": "textbook-unit-circle-projection-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "3e237b17-5a27-5d2f-af44-1ad69ca9cbec"
+    },
+    {
+      "id": "sine-unroll",
+      "title": "把单位圆的一周展开成一段正弦曲线",
+      "goal": "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。",
+      "summary": "对每个角，把弧度数作为新点的横坐标，把单位圆点的纵坐标作为新点的纵坐标，得到正弦曲线。角转一周，函数图像完成一个周期；五个关键点给出零点、峰和谷，用光滑曲线连接后按 2π 平移可扩展至全体实数。描五点是作图方法，不表示曲线由折线组成。",
+      "initial": {
+        "angle": 120
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-1",
+          "afterBlockId": "bx2-7-1-b6",
+          "rationale": "覆盖本节原prose第6块：让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "15dfd70db2c79b75560ecbecad9878dcb008a31c1f9b271a5bbbe9bec0fd18c2"
+        }
+      ],
+      "sections": [
+        "bx2-7-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-82d8d27f7767",
+      "hash": "82d8d27f776744438a2930554edc9b1a3bc428d84fda5740458fbda67d0e9ac1",
+      "parameters": {
+        "angle": {
+          "minimum": 0,
+          "maximum": 360,
+          "step": 5
+        }
+      },
+      "payload": "textbook-sine-unroll.js",
+      "preview": "textbook-sine-unroll-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "0aaeb4db-797b-55f5-b092-0d290722de24"
+    },
+    {
+      "id": "sine-transform",
+      "title": "振幅、周期、初相：不要把 φ 误当横移量",
+      "goal": "用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。",
+      "summary": "振动模型中 A>0 为振幅，ω>0 为圆频率，周期 T=2π/ω，频率 f=1/T=ω/(2π)；相位为 ωx+φ，初相为 φ。A 改变纵向幅度，ω 改变周期；水平位移是 -φ/ω 而非 -φ。负 A 或负 ω 可由诱导公式化归。时钟顺时针的负角速度情境和弹簧照片保留在原文。",
+      "initial": {
+        "amplitude": 1.5,
+        "omega": 1,
+        "phase": 30,
+        "x": 0
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-3",
+          "afterBlockId": "bx2-7-3-b2",
+          "rationale": "覆盖本节原prose第2块：用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "88b0a20cba393d2791eeaa42998d0927a519d0d98a4f2f9df49d4dfad64aacca"
+        }
+      ],
+      "sections": [
+        "bx2-7-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-7ace1603b03f",
+      "hash": "7ace1603b03fadc073d1e9d6006c445f97e9045cddbe88af30774ac9cd7b6539",
+      "parameters": {
+        "amplitude": {
+          "minimum": 0.5,
+          "maximum": 3,
+          "step": 0.25
+        },
+        "omega": {
+          "minimum": 0.5,
+          "maximum": 3,
+          "step": 0.25
+        },
+        "phase": {
+          "minimum": -180,
+          "maximum": 180,
+          "step": 15
+        },
+        "x": {
+          "minimum": -5,
+          "maximum": 5,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-sine-transform.js",
+      "preview": "textbook-sine-transform-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "72f19ded-6889-55fb-a904-40102b73c6a6"
+    },
+    {
+      "id": "tangent-branches",
+      "title": "正切：渐近线不是可以跨越的曲线",
+      "goal": "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。",
+      "summary": "正切值可由终边所在直线与 x=1 的交点纵坐标表示；终边与 x=1 平行时没有交点。先作 (-π/2,π/2) 一支，再按 π 的整数倍平移。定义域排除 π/2+kπ；这些直线隔开不同分支，禁止跨线连点。每支内严格增不等于整个定义域上严格增。",
+      "initial": {
+        "angle": 60
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-4",
+          "afterBlockId": "bx2-7-4-b4",
+          "rationale": "覆盖本节原prose第4块：通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "5dab2dc1725cba1550939fbacffda38a004c4989fb5ede6fc3b68e0faaa52e32"
+        }
+      ],
+      "sections": [
+        "bx2-7-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-31e70f15a181",
+      "hash": "31e70f15a181e5a2e1deb21ccf19a5e781c144c442d074dc0a2dd91d432f033e",
+      "parameters": {
+        "angle": {
+          "minimum": -270,
+          "maximum": 270,
+          "step": 5
+        }
+      },
+      "payload": "textbook-tangent-branches.js",
+      "preview": "textbook-tangent-branches-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "bfc1c585-7458-5710-bac7-9998c9b2eaad"
+    },
+    {
+      "id": "dot-projection",
+      "title": "投影先带符号，再计算数量积",
+      "goal": "用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。",
+      "summary": "点的投影是向目标直线作垂线的垂足；向量投影由起终点的投影之差组成。以非零 a 为方向，b 的数量投影为 |b|cosθ，投影向量为这一数乘 a 的单位向量，模为数量投影的绝对值。锐角同向、钝角反向、直角为零；b=0 也投影为零但不定义夹角。数量积进一步乘 |a|，得到数量而不是向量；这也是力做功的方向分量解释。",
+      "initial": {
+        "a": 3,
+        "b": 2.5,
+        "angle": 120
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-8-2",
+          "afterBlockId": "bx2-8-2-b4",
+          "rationale": "覆盖本节原prose第4块：用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "e912a58cf689a5952dc4e0ba2482a61a36e9c4ee1f91cf570919b6b7926ca0ef"
+        }
+      ],
+      "sections": [
+        "bx2-8-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-1b0030084fb3",
+      "hash": "1b0030084fb3c2bb583014071ad10bc824d989a24c23a80ff96637c9627da559",
+      "parameters": {
+        "a": {
+          "minimum": 0.5,
+          "maximum": 4,
+          "step": 0.25
+        },
+        "b": {
+          "minimum": 0,
+          "maximum": 4,
+          "step": 0.25
+        },
+        "angle": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-dot-projection.js",
+      "preview": "textbook-dot-projection-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "4311c431-03f2-5d23-b10d-c26330ebc317"
+    },
+    {
+      "id": "complex-transform",
+      "title": "复数乘除：转角与伸缩一次看清",
+      "goal": "用旋转伸缩把复数乘除公式与两角和展开联系起来。",
+      "summary": "复数相乘，模相乘、辐角相加；相除时除数非零，模相除、辐角相减。公式由两角和的正弦余弦公式展开得到；商的公式可乘回除数验证。辐角模 2π 确定；零复数没有辐角，但乘非零复数后仍为零。本模块用模和转角控制同一变换。",
+      "initial": {
+        "operation": "multiply",
+        "r": 1.5,
+        "alpha": 30,
+        "scale": 1.5,
+        "beta": 60
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-9-4",
+          "afterBlockId": "bx2-9-4-b11",
+          "rationale": "覆盖本节原prose第11块：用旋转伸缩把复数乘除公式与两角和展开联系起来。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sourceSha256": "ff5184bdec25b9b7cb53827e7f198355bdf9f1e31d1cd600a150e5383af351e9"
+        }
+      ],
+      "sections": [
+        "bx2-9-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-d86fae752f2d",
+      "hash": "d86fae752f2dbf08e79beead8b37df7222812363058cae3a64ae7bff50bff289",
+      "parameters": {
+        "operation": {
+          "enum": [
+            "multiply",
+            "divide"
+          ]
+        },
+        "r": {
+          "minimum": 0,
+          "maximum": 2,
+          "step": 0.1
+        },
+        "alpha": {
+          "minimum": -180,
+          "maximum": 180,
+          "step": 15
+        },
+        "scale": {
+          "minimum": 0.5,
+          "maximum": 2,
+          "step": 0.1
+        },
+        "beta": {
+          "minimum": -180,
+          "maximum": 180,
+          "step": 15
+        }
+      },
+      "payload": "textbook-complex-transform.js",
+      "preview": "textbook-complex-transform-preview.svg",
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+      "resourceId": "8b8a2adb-d252-5b0b-8adc-97395ed8d076"
+    },
+    {
+      "id": "skew-common-perpendicular",
+      "title": "异面直线：投影交叉与真实距离",
+      "goal": "用旋转视角分离屏幕交叉与空间相交，观察公垂线段。",
+      "summary": "空间直线有相交、平行和异面等情形。异面直线不共面，所成角按平移方向确定；其距离为唯一公垂线段长度。图中高度为零或方向平行时不再是异面状态。",
+      "initial": {
+        "height": 2,
+        "theta": 65,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-2",
+          "afterBlockId": "bx3-10-2-b12",
+          "rationale": "接替异面直线的实景与空间位置长段解释。",
+          "sourceSha256": "5e62b40b86779b752160435c038e01195dcb2e0754c8129fa3eeb4c1cb58fcd7"
+        },
+        {
+          "sectionId": "bx3-10-5",
+          "afterBlockId": "bx3-10-5-b2",
+          "rationale": "接替公垂线与异面直线距离的构造说明。",
+          "sourceSha256": "4e5c757494d01603c2ef322937a9830ee4f78ab279df4a10c6910b1016644e9d"
+        }
+      ],
+      "sections": [
+        "bx3-10-2",
+        "bx3-10-5"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-5dc18c001415",
+      "hash": "5dc18c00141599d0e92cbfcd7f86bfebb6bac0deb5e7b9e0684e4d6e4a27f2b7",
+      "parameters": {
+        "height": {
+          "minimum": 0,
+          "maximum": 3,
+          "step": 0.1
+        },
+        "theta": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-skew-common-perpendicular.js",
+      "preview": "textbook-skew-common-perpendicular-preview.svg",
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "source-origins/Documents/数学/ai 处理的成品/异面直线-空间观察仪/异面直线-空间观察仪.html",
+          "source-origins/Documents/数学/ai 处理的成品/异面直线-正方体版/skew-lines-cube.html"
+        ],
+        "note": "沿用既有空间观察与切换视角的教学思路；原题专用模型不直接搬入。采用独立、可验证的两线纯模型，未修改来源。"
+      },
+      "resourceId": "4549fdd2-e523-5e9d-90e3-c51aeed1ba21"
+    },
+    {
+      "id": "two-directions-normal",
+      "title": "线面垂直：为什么必须是两条相交线",
+      "goal": "让两个方向合并，直接展示丢失一个条件的反例。",
+      "summary": "直线垂直于平面，须与平面内的任意直线垂直。判定时只需检查平面内两条相交直线；不能用两条重合方向的线替代。与法向量平行的非零方向向量对应线面垂直。 线不在平面上时，其方向向量垂直法向量，当且仅当线面平行；两个不同平面的法向量平行当且仅当两平面平行，法向量垂直当且仅当两平面垂直。",
+      "initial": {
+        "separation": 65,
+        "tilt": 0,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-3",
+          "afterBlockId": "bx3-10-3-b18",
+          "rationale": "接替书脊、桌面与两条相交线判定的长解释。",
+          "sourceSha256": "b0720da188703d445a6452d34468c64d93a6ecdcddc59f6b990c1c11e5cf1924"
+        },
+        {
+          "sectionId": "x1-3-4",
+          "afterBlockId": "x1-3-4-b6",
+          "rationale": "在现有线面垂直资产之外提供退化条件反例，接替向量条件长段说明。",
+          "sourceSha256": "40619a2d640b8abb44c70c3cda8af4fa13d2f82fc07d627ed2376a4888cbc8bf"
+        }
+      ],
+      "sections": [
+        "bx3-10-3",
+        "x1-3-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-67b5d6915b2c",
+      "hash": "67b5d6915b2cbf19d741d4974a0c2cae5d6576de599eaafc0e5fb05f7d1f4643",
+      "parameters": {
+        "separation": {
+          "minimum": 0,
+          "maximum": 90,
+          "step": 5
+        },
+        "tilt": {
+          "minimum": 0,
+          "maximum": 75,
+          "step": 5
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-two-directions-normal.js",
+      "preview": "textbook-two-directions-normal-preview.svg",
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "scripts/visual-assets/module-data.js"
+        ],
+        "note": "原有perpendicular场景保留；将其两方向独立性思路提炼成轻量概念模型，增加方向重合与倾斜反例。"
+      },
+      "resourceId": "7257cf1c-8b76-570f-84a8-7a7014fed6aa"
+    },
+    {
+      "id": "dihedral-normal-section",
+      "title": "二面角：垂直于棱的截面",
+      "goal": "开合两个半平面，在垂直截面中测量平面角。",
+      "summary": "二面角由一条棱和两个半平面组成。分别在半平面内过棱上同一点作垂直于棱的射线，所得平面角才是二面角的平面角；整平面夹角与选定半平面张角需区分。",
+      "initial": {
+        "angle": 65,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-4",
+          "afterBlockId": "bx3-10-4-b12",
+          "rationale": "接替门开合、二面角定义与平面角构造的长解释。",
+          "sourceSha256": "a99c8f5be6f7d3100550e42b48e9135d0062aff517f693978b77332f3c0b8c4d"
+        }
+      ],
+      "sections": [
+        "bx3-10-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-e33de6e345d8",
+      "hash": "e33de6e345d8a2a35501d1c10844ef69f877fec5a7fcf10a017aaf412f2fc6bc",
+      "parameters": {
+        "angle": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-dihedral-normal-section.js",
+      "preview": "textbook-dihedral-normal-section-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "eb30be3e-5c52-5442-a076-fd67ea1d0c45"
+    },
+    {
+      "id": "prism-cavalieri",
+      "title": "祖暅原理：倾斜不改变等高截面",
+      "goal": "水平推移柱顶，同时拖动截面比较直柱与斜柱。",
+      "summary": "祖暅原理要求两个几何体同高，且任意等高处截面面积相等；由此可推得两者体积相等。柱体的平行于底面的截面均与底面全等，因此体积为底面积乘高，而不是乘侧棱长。",
+      "initial": {
+        "shift": 1.1,
+        "level": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-1",
+          "afterBlockId": "bx3-11-1-b14",
+          "rationale": "接替祖暅原理与斜柱体积的文字比较。",
+          "sourceSha256": "df4ef40d4ffc3b14fc1149b8205c15e13244c0f13629c5e8efd030e20a0af3c9"
+        }
+      ],
+      "sections": [
+        "bx3-11-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-175fb2fd429a",
+      "hash": "175fb2fd429a63a8ddf9cf67198ca33a48abda86aa23b8c0c1a9a8ec1736ab3f",
+      "parameters": {
+        "shift": {
+          "minimum": -1.5,
+          "maximum": 1.5,
+          "step": 0.1
+        },
+        "level": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.05
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-prism-cavalieri.js",
+      "preview": "textbook-prism-cavalieri-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "7ccf7068-4d37-5881-8765-96895b89c277"
+    },
+    {
+      "id": "pyramid-parallel-slices",
+      "title": "锥体：相似截面与同底等高",
+      "goal": "沿高度移动截面，观察面积二次缩小和顶点平移的不变量。",
+      "summary": "平行于底面的棱锥截面与底面相似，距底高度比例为t时线性比为1−t，面积比为其平方。同底等高的锥体体积相等，均为同底等高柱体体积的三分之一；原体积推导完整保留供展开和打印。",
+      "initial": {
+        "level": 0.45,
+        "shift": 0,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-2",
+          "afterBlockId": "bx3-11-2-b21",
+          "rationale": "接替锥体体积推导的图形过程解释，证明不删去。",
+          "sourceSha256": "f1b94c1fc7ac819a30d4e53b6587364bacba8357a54aa36fac9057ce6724c1d7"
+        }
+      ],
+      "sections": [
+        "bx3-11-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-fa4924c62fd3",
+      "hash": "fa4924c62fd31501abf4886cce3be027dc585f3c1af3178d69616b059fb649b4",
+      "parameters": {
+        "level": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.05
+        },
+        "shift": {
+          "minimum": -1.5,
+          "maximum": 1.5,
+          "step": 0.1
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-pyramid-parallel-slices.js",
+      "preview": "textbook-pyramid-parallel-slices-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "1784c8a6-5be2-5c7d-bc28-04187658b947"
+    },
+    {
+      "id": "revolving-generator",
+      "title": "旋转体：从平面图形到空间实体",
+      "goal": "转动矩形或直角三角形，看不同高度的圆怎样组成柱或锥。",
+      "summary": "平面封闭图形绕其所在平面内一条定直线旋转一周，形成旋转体。矩形绕一边旋转形成圆柱；直角三角形绕一直角边旋转形成圆锥；母线的扫掠表面与封闭图形的扫掠实体应区分。",
+      "initial": {
+        "shape": "cone",
+        "sweep": 240,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-3",
+          "afterBlockId": "bx3-11-3-b6",
+          "rationale": "接替生成图形、旋转轴、母线与旋转面的长文字解释。",
+          "sourceSha256": "0b62af2a46d83e74c0c3263a421438492a3987f1a62a7720e8cb8f6f437e92ef"
+        }
+      ],
+      "sections": [
+        "bx3-11-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-cb6dcf5fbddb",
+      "hash": "cb6dcf5fbddb0084b56ba7f2747180f1b25983b049f476c1351d0551af1386da",
+      "parameters": {
+        "shape": {
+          "enum": [
+            "cone",
+            "cylinder"
+          ]
+        },
+        "sweep": {
+          "minimum": 0,
+          "maximum": 360,
+          "step": 10
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-revolving-generator.js",
+      "preview": "textbook-revolving-generator-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "84e7df1c-f71a-5962-a3f3-d4c7786ec26c"
+    },
+    {
+      "id": "sphere-moving-section",
+      "title": "球的截面：圆怎样缩为一点",
+      "goal": "移动截平面，观察截面半径与球心垂距的勾股关系。",
+      "summary": "半圆面绕直径旋转一周生成球，半圆弧生成球面，球面上各点到球心距离均为R。任何过球心的直线都可作为球的旋转轴。平面截球，在平面到球心距离小于球半径时得到圆形截面。其圆心是球心到平面的垂足；经过球心的是大圆，其余为小圆；相切于一点与无交不属于圆截面。",
+      "initial": {
+        "level": 0.8,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-4",
+          "afterBlockId": "bx3-11-4-b4",
+          "rationale": "接替平面截球、垂足圆心与大圆小圆的构造长解释。",
+          "sourceSha256": "dc8bb84be29a7953c75cb237faf4e21557a26cd0805051e3b0eca73461d80c9d"
+        }
+      ],
+      "sections": [
+        "bx3-11-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-ff8603d2bf9d",
+      "hash": "ff8603d2bf9d2fba30e12e9dd451cbc1bbd7d76be266c6428e3655981349ee91",
+      "parameters": {
+        "level": {
+          "minimum": -2.5,
+          "maximum": 2.5,
+          "step": 0.1
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-sphere-moving-section.js",
+      "preview": "textbook-sphere-moving-section-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "48acf738-88a1-5df4-8ea8-26ee2f141862"
+    },
+    {
+      "id": "hemisphere-cavalieri",
+      "title": "球体积：半球与柱挖锥的截面对照",
+      "goal": "同步升降截面，比较圆盘与圆环的面积。",
+      "summary": "半径R的半球与同半径、同高R的圆柱挖去倒锥，在任意高度h的截面积同为π(R²−h²)。由祖暅原理得半球体积等于柱减锥，进而球体积为4πR³/3。",
+      "initial": {
+        "level": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-4",
+          "afterBlockId": "bx3-11-4-b12",
+          "rationale": "接替半球、圆柱减倒锥的截面面积推导。",
+          "sourceSha256": "6ace494bd0cbfdb248a251eb389de8fafe6b5bdd0418ac08ec51f588895c601e"
+        }
+      ],
+      "sections": [
+        "bx3-11-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-1ee2f7c28660",
+      "hash": "1ee2f7c286601c4109aded16809a7bc51cc918d41b86fec35772656d388a8e45",
+      "parameters": {
+        "level": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.05
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-hemisphere-cavalieri.js",
+      "preview": "textbook-hemisphere-cavalieri-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "d20d9fc5-de2c-5772-b338-8c9947d767de"
+    },
+    {
+      "id": "space-basis-collapse",
+      "title": "空间基底：第三个方向压平会怎样",
+      "goal": "压低第三个向量，看立体张成空间退化为平面。",
+      "summary": "三个不共面的向量构成空间的一组基底，任何空间向量都可唯一表示为它们的线性组合。若第三方向落入前两方向张成的平面，就失去对全空间的表示能力与唯一性；不共面条件不可省略。",
+      "initial": {
+        "height": 2,
+        "coefficient": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "x1-3-2",
+          "afterBlockId": "x1-3-2-b7",
+          "rationale": "接替空间基底存在、唯一表示与不共面条件的立体解释。",
+          "sourceSha256": "0d0f5449564687c2b04079a81d83d2dafce96851ad92ae8040a7993aeda902e0"
+        }
+      ],
+      "sections": [
+        "x1-3-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-f5278b3e46c6",
+      "hash": "f5278b3e46c6a1737fdb6c30374827467fcd897b9b311d19dd9fb8baf405f4ce",
+      "parameters": {
+        "height": {
+          "minimum": 0,
+          "maximum": 3,
+          "step": 0.1
+        },
+        "coefficient": {
+          "minimum": -1,
+          "maximum": 1.5,
+          "step": 0.1
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-space-basis-collapse.js",
+      "preview": "textbook-space-basis-collapse-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "24b0edff-c8c2-5129-854a-207ab32d9cee"
+    },
+    {
+      "id": "arithmetic-reverse-pairs",
+      "title": "等差求和：把倒序数列拼成等高列",
+      "goal": "把倒序条形移到正序条形上，观察每列总和相同。",
+      "summary": "等差数列正序与倒序逐项相加，每列之和都是首尾项和。共有n列，总和是原和的两倍，故前n项和为n倍首尾和的一半。图形示例取非负公差，代数方法不受此限制。",
+      "initial": {
+        "n": 7,
+        "difference": 1,
+        "progress": 0.7
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-1",
+          "afterBlockId": "x1-4-1-b14",
+          "rationale": "接替高斯算法、倒序相加与公式推导的逐行重复解释。",
+          "sourceSha256": "5438775d6be636da3dbf97d94db6d788577f23dc8075432096520e220e376e88"
+        }
+      ],
+      "sections": [
+        "x1-4-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-1ff2d8e01386",
+      "hash": "1ff2d8e0138635ff0850959a47e6f12bb62f1d3ed1431d8dfa9ea1d202834f6d",
+      "parameters": {
+        "n": {
+          "minimum": 2,
+          "maximum": 10,
+          "step": 1
+        },
+        "difference": {
+          "minimum": 0,
+          "maximum": 4,
+          "step": 0.5
+        },
+        "progress": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-arithmetic-reverse-pairs.js",
+      "preview": "textbook-arithmetic-reverse-pairs-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "c507cea0-91d3-5c4c-b648-d51abecca3e0"
+    },
+    {
+      "id": "geometric-shift-cancel",
+      "title": "等比求和：错位后只剩首尾",
+      "goal": "对齐同幂次项，再消去中间项，保留q=1的边界。",
+      "summary": "将等比数列前n项和乘公比q，幂次整体错开一位。两式相减消去中间项，得到(1−q)S=a₁(1−qⁿ)。q≠1时才能除以1−q；q=1时前n项和为na₁。",
+      "initial": {
+        "n": 6,
+        "ratio": 2,
+        "stage": 1
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-2",
+          "afterBlockId": "x1-4-2-b12",
+          "rationale": "接替乘公比、错位、相减与q=1分类的冗长文字过程。",
+          "sourceSha256": "d18dcd05b38ef3cf66cc9f922d17d79860f0941db4384acca38846bb883740ea"
+        }
+      ],
+      "sections": [
+        "x1-4-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-f4b204ca0588",
+      "hash": "f4b204ca0588a9e18da95ff45a62810fc9505c24dff6d648bf2f04b293e91fa6",
+      "parameters": {
+        "n": {
+          "minimum": 2,
+          "maximum": 9,
+          "step": 1
+        },
+        "ratio": {
+          "enum": [
+            -1.5,
+            -1,
+            -0.5,
+            0.5,
+            1,
+            1.5,
+            2
+          ]
+        },
+        "stage": {
+          "enum": [
+            0,
+            1,
+            2
+          ]
+        }
+      },
+      "payload": "textbook-geometric-shift-cancel.js",
+      "preview": "textbook-geometric-shift-cancel-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "2c055ddc-94df-5ce0-b08c-3cece1d5e93b"
+    },
+    {
+      "id": "sqrt2-iteration-compare",
+      "title": "迭代求√2：收敛与来回振荡",
+      "goal": "切换三个等价变形，用蛛网逐步比较迭代轨迹与误差。",
+      "summary": "求√2可把方程变成不动点迭代，但等价变形不保证收敛。正初值下巴比伦算法先到√2上方再下降；1+1/(x+1)交替逼近；2/x一般两值循环，仅初值恰是√2时固定。有限步图像不是收敛证明。",
+      "initial": {
+        "method": "babylon",
+        "initial": 1,
+        "steps": 4
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-5",
+          "afterBlockId": "x1-4-5-b2",
+          "rationale": "接替三种迭代算法及多张数表的反复比较。",
+          "sourceSha256": "11b79809f1e32a877e50bf7b75598aa5245212116733523cdd8c7610774fe438"
+        }
+      ],
+      "sections": [
+        "x1-4-5"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-fb3261a896e3",
+      "hash": "fb3261a896e302959a38ded6625c5ec2e550befa70c255f34adcd4867d410c69",
+      "parameters": {
+        "method": {
+          "enum": [
+            "babylon",
+            "slow",
+            "reciprocal"
+          ]
+        },
+        "initial": {
+          "minimum": 0.5,
+          "maximum": 4,
+          "step": 0.1
+        },
+        "steps": {
+          "minimum": 0,
+          "maximum": 12,
+          "step": 1
+        }
+      },
+      "payload": "textbook-sqrt2-iteration-compare.js",
+      "preview": "textbook-sqrt2-iteration-compare-preview.svg",
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/fixed-points.html"
+        ],
+        "note": "复用不动点、蛛网路径与误差观察的教学设计；按教材三种迭代重写独立纯模型，未改另一项目。"
+      },
+      "resourceId": "2ea63315-6871-542e-8452-47f739d672bc"
+    },
+    {
+      "id": "secant-tangent",
+      "title": "割线如何成为切线",
+      "goal": "把平均变化率随步长趋零的过程转成可拖动几何变化。",
+      "summary": "在固定点 a=0.5，对平方函数取第二点 a+h。h≠0 时割线斜率为 [f(a+h)-f(a)]/h=2a+h，随 h 从正负两侧趋零而趋于 2a=1；h=0 时差商本身未定义，不能把极限值当作差商定义值。",
+      "initial": {
+        "h": 1
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-1",
+          "afterBlockId": "x2-5-1-b13",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "244bea22dc4ec59f512d37810345435a71a99296b7a73bd99e8a5d1c0e3feee2"
+        }
+      ],
+      "sections": [
+        "x2-5-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-c753ee12c85e",
+      "hash": "c753ee12c85e5e8aa700f99c08b8508379c296c0f6598eeb9ffd823f07411a8e",
+      "parameters": {
+        "h": {
+          "minimum": -2,
+          "maximum": 2,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-secant-tangent.js",
+      "preview": "textbook-secant-tangent-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "e8c5031e-c586-599b-9dd9-06ba82ab6bb2"
+    },
+    {
+      "id": "derivative-extrema",
+      "title": "导数符号与极值",
+      "goal": "同时看函数图像和导数符号，区分极大、极小与非极值驻点。",
+      "summary": "极值是邻域内的局部性质，不等于整个定义域上的最值。在连续且两侧可导的邻域，导数由正变负则取得极大值，由负变正则取得极小值；驻点仅是候选，导数为零并不充分。比较 x³、x⁴、sin x，观察导数的符号如何决定函数的升降。",
+      "initial": {
+        "case": "x3"
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-3",
+          "afterBlockId": "x2-5-3-b14",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "cc455b3a90c9d8c1f3ba121178cd4ed32af7cdbe5a6f6d599bc787e5f758d88c"
+        }
+      ],
+      "sections": [
+        "x2-5-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-5a761f954919",
+      "hash": "5a761f954919e1486c01f921fbf636d84dd03b299b0ae9faf9c845f105098eb7",
+      "parameters": {
+        "case": {
+          "enum": [
+            "x3",
+            "sin",
+            "x4"
+          ]
+        }
+      },
+      "payload": "textbook-derivative-extrema.js",
+      "preview": "textbook-derivative-extrema-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "b75be1db-327b-50d3-b125-921bff2507d0"
+    },
+    {
+      "id": "binomial-paths",
+      "title": "二项式系数从路径产生",
+      "goal": "用格点路径说明从n个因子中选k个b的组合数。",
+      "summary": "展开 (a+b) 的 n 次方时，从 n 个因子中恰选 k 个 b 的方式数决定相应项的系数；图中每一步向两种方向分支，等于从上两邻节点累积路径数。合法范围为 0≤k≤n；k>n 不可能选取，系数按零计。节点数构成杨辉三角，不把超范围滑块偷偷改为另一个 k。",
+      "initial": {
+        "n": 5,
+        "k": 2
+      },
+      "placements": [
+        {
+          "sectionId": "x2-6-5",
+          "afterBlockId": "x2-6-5-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "738a0599e710dee60f1455a7d55f64f569b7e5d3174501da1e12d055eb3c7d61"
+        }
+      ],
+      "sections": [
+        "x2-6-5"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-25cb6ff74fa3",
+      "hash": "25cb6ff74fa3a7c9e06c878a73702e705423af85b83e1f3fe3b480ea60d86873",
+      "parameters": {
+        "n": {
+          "minimum": 2,
+          "maximum": 8,
+          "step": 1
+        },
+        "k": {
+          "minimum": 0,
+          "maximum": 8,
+          "step": 1
+        }
+      },
+      "payload": "textbook-binomial-paths.js",
+      "preview": "textbook-binomial-paths-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "ce1e9ea5-ff84-5a0e-9647-7e2c9f80b13b"
+    },
+    {
+      "id": "conditional-space",
+      "title": "条件概率缩小样本空间",
+      "goal": "用有限等可能样本空间展示条件发生后保留区域及概率分母变化。",
+      "summary": "在 P(A)>0 时，条件概率把分母改为条件事件 A 的概率：只在 A 区域内计算 B 所占比例。橙色交集表示 P(A∩B)，A 外的蓝色部分影响 P(B) 却不计入 P(B|A)。条件化不改变原有的 P(B)，而是提出一个不同的问题。",
+      "initial": {
+        "a": 0.5,
+        "overlap": 0.5,
+        "outside": 0.2
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-1",
+          "afterBlockId": "x2-7-1-b6",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "07b5a397ff44354e8e832dbb51d9a6d66c19b7aee9b3ccbc970a7918819b018d"
+        }
+      ],
+      "sections": [
+        "x2-7-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-20ac289f98ad",
+      "hash": "20ac289f98ad74ade3005b87957e376990b17abcf330b73189308b236cb1a469",
+      "parameters": {
+        "a": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.1
+        },
+        "overlap": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.1
+        },
+        "outside": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-conditional-space.js",
+      "preview": "textbook-conditional-space-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "7b6e000a-ee2e-51e9-8205-6e4c07ff44bf"
+    },
+    {
+      "id": "distribution-moments",
+      "title": "概率质量的重心与离散",
+      "goal": "移动离散分布各概率质量，观察期望和方差如何联动。",
+      "summary": "E(X)=Σxᵢpᵢ 是概率加权中心；D(X)=Σ(xᵢ−E(X))²pᵢ 衡量围绕中心的平方离散。",
+      "initial": {
+        "spread": 0.4
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-2",
+          "afterBlockId": "x2-7-2-b11",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "865c8a6a6d9bdf934cbe11e5b9bf62941a8d81e6be9c918fff51561f04d14394"
+        }
+      ],
+      "sections": [
+        "x2-7-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-9864a5abc385",
+      "hash": "9864a5abc38539fc6f8997d846cfa92c3d223bfa36bab6a993ce74851abf55fb",
+      "parameters": {
+        "spread": {
+          "minimum": 0,
+          "maximum": 1,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-distribution-moments.js",
+      "preview": "textbook-distribution-moments-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "fb3a5bb8-1545-57a8-adde-fc378173b021"
+    },
+    {
+      "id": "binomial-distribution",
+      "title": "二项分布的概率质量",
+      "goal": "改变成功率和试验次数，观察二项分布的概率质量如何重排。",
+      "summary": "只有n次相互独立且成功概率均为p的伯努利试验时，X~B(n,p)，P(X=k)=C(n,k)p^k(1-p)^(n-k)。",
+      "initial": {
+        "n": 10,
+        "p": 0.4
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-3",
+          "afterBlockId": "x2-7-3-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "be8da86c38c2c1a6482f2714823786013810dcc051361e18fc4860784137801e"
+        }
+      ],
+      "sections": [
+        "x2-7-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-664d0465174a",
+      "hash": "664d0465174a06bab8d1de9bd015e554c5149344850df14673793ad726beebc6",
+      "parameters": {
+        "n": {
+          "minimum": 1,
+          "maximum": 20,
+          "step": 1
+        },
+        "p": {
+          "minimum": 0.05,
+          "maximum": 0.95,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-binomial-distribution.js",
+      "preview": "textbook-binomial-distribution-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "13c86705-b3f1-54da-b733-f3349dae9b60"
+    },
+    {
+      "id": "regression-outlier",
+      "title": "离群点怎样改变回归线",
+      "goal": "拖动一个离群点，比较最小二乘直线斜率变化和数据关联。",
+      "summary": "最小二乘回归线随所有观测点变化；离群点可能显著改变斜率和相关系数。相关不证明因果，异常点需先核查来源。",
+      "initial": {
+        "outlier": 7
+      },
+      "placements": [
+        {
+          "sectionId": "x2-8-2",
+          "afterBlockId": "x2-8-2-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "1eb9e42e334ebf80cf625f00147abaa04be7dd6bc76c0305cf97f0af5b2da064"
+        }
+      ],
+      "sections": [
+        "x2-8-2"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-cda61f4ad53c",
+      "hash": "cda61f4ad53c50d03feb1f25291d4556c51025cfa9de55cca37753ec0c806d73",
+      "parameters": {
+        "outlier": {
+          "minimum": -2,
+          "maximum": 8,
+          "step": 0.25
+        }
+      },
+      "payload": "textbook-regression-outlier.js",
+      "preview": "textbook-regression-outlier-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "dd73786b-0a70-55cd-bd08-724b6909e849"
+    },
+    {
+      "id": "contingency-independent",
+      "title": "独立假设下的期望频数",
+      "goal": "调节边际分布，看到独立假设下每个格子的期望频数。",
+      "summary": "在独立假设下，每格期望比例等于对应行与列边际比例之积，期望频数再乘总数 n。面积格图显示边际比例怎样决定期望值；期望频数允许非整数，且不等于观察频数。完整独立性检验还需观察值、检验统计量、适用条件和错误风险，不从检验结论推出因果。",
+      "initial": {
+        "row": 0.4,
+        "col": 0.6,
+        "total": 100
+      },
+      "placements": [
+        {
+          "sectionId": "x2-8-3",
+          "afterBlockId": "x2-8-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "0930a4e01f972c7851406d8abfcccf950231ea7910d581e5cafdc204aa5d66d6"
+        }
+      ],
+      "sections": [
+        "x2-8-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-9aeb7a572af8",
+      "hash": "9aeb7a572af81d45c19452e99de8dc2b46deae5c2a4d075c7f1af700f494b361",
+      "parameters": {
+        "row": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        },
+        "col": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        },
+        "total": {
+          "minimum": 20,
+          "maximum": 200,
+          "step": 20
+        }
+      },
+      "payload": "textbook-contingency-independent.js",
+      "preview": "textbook-contingency-independent-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "49d89ccd-6847-5b04-be53-5c3f24f19de1"
+    },
+    {
+      "id": "frequency-fluctuation",
+      "title": "频率会波动，不是单调趋近",
+      "goal": "重复进行固定概率试验，观察逐次累积频率的随机波动轨迹。",
+      "summary": "每次试验结果随机，累积频率通常会波动；大数定律讨论样本量增大时接近概率的规律，不表示每一步单调靠近或有限样本必然逼近。",
+      "initial": {
+        "n": 200,
+        "p": 0.5,
+        "seed": 3
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-12-3",
+          "afterBlockId": "bx3-12-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "4fb4b96d76e4b59aa580f6e1ba23e016ec8cea9da38dd3a30960b83f841b5090"
+        }
+      ],
+      "sections": [
+        "bx3-12-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-ef90af99e9df",
+      "hash": "ef90af99e9df73e21a67be694684ac5c089cbf0a9c64b867efeaa7ae66116fe1",
+      "parameters": {
+        "n": {
+          "minimum": 20,
+          "maximum": 500,
+          "step": 20
+        },
+        "p": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        },
+        "seed": {
+          "minimum": 1,
+          "maximum": 9,
+          "step": 1
+        }
+      },
+      "payload": "textbook-frequency-fluctuation.js",
+      "preview": "textbook-frequency-fluctuation-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "5ec94bc3-492c-5b81-bfa9-cb6def2930f6"
+    },
+    {
+      "id": "independent-area",
+      "title": "独立事件的面积模型",
+      "goal": "单位正方形内两个坐标独立均匀，矩形交集面积表达乘法关系。",
+      "summary": "当两个坐标独立且分别均匀时，P(X≤a,Y≤b)=ab=P(X≤a)P(Y≤b)。图形是概率模型示意，不自动适用于相关变量。",
+      "initial": {
+        "a": 0.6,
+        "b": 0.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-12-4",
+          "afterBlockId": "bx3-12-4-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "da0b5ffa24cbc1aabb9fbb979b42001ef991d825df3f38523dbdfb7587179a29"
+        }
+      ],
+      "sections": [
+        "bx3-12-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-714996709f61",
+      "hash": "714996709f619a1cb3c05a6b4129d9f377bd44b0dea0dea09aa596d0b1b441a5",
+      "parameters": {
+        "a": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        },
+        "b": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-independent-area.js",
+      "preview": "textbook-independent-area-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "78dddc26-71be-5da6-b83b-600805e8aef6"
+    },
+    {
+      "id": "stratified-sampling",
+      "title": "分层抽样保持总体构成",
+      "goal": "改变两层总体比例与抽样配额，显示样本构成偏差。",
+      "summary": "按比例分配时 nᵢ/Nᵢ=n/N，样本层比例匹配总体。对不同层使用不同比例抽样时，简单样本平均可能需加权，不能直接当总体比例。",
+      "initial": {
+        "population": 0.3,
+        "sample": 0.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-3",
+          "afterBlockId": "bx3-13-3-b16",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+          "sourceSha256": "0676384c59398e9f77176cba178cd5397aa548067019bdb2bbfe11a71c83fa63"
+        }
+      ],
+      "sections": [
+        "bx3-13-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-6c383079d8c0",
+      "hash": "6c383079d8c070521d052b549e170bdefa9a7ec0d9dae8926d0de8537962322d",
+      "parameters": {
+        "population": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        },
+        "sample": {
+          "minimum": 0.1,
+          "maximum": 0.9,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-stratified-sampling.js",
+      "preview": "textbook-stratified-sampling-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "5f219f11-8cdf-5513-9c01-fc93c5534943"
+    },
+    {
+      "id": "histogram-area",
+      "title": "不等宽直方图：面积才是频率",
+      "goal": "调整组距，令柱高为频率密度，保持柱面积与频率相等。",
+      "summary": "频率分布直方图中，柱高=该组频率/组距，因此柱面积=频率；等宽组可以比较柱高，不等宽组不能只看高度比较频数。",
+      "initial": {
+        "width": 2,
+        "frequency": 0.2
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-4",
+          "afterBlockId": "bx3-13-4-b4",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sourceSha256": "9ee578e07dea64682b5f76b2b2d850e2e12425c47e1b3b2d279e9b6c9c1a7402"
+        }
+      ],
+      "sections": [
+        "bx3-13-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-cb09541bb53e",
+      "hash": "cb09541bb53e7b6bc8984106eb8d8a51f88b105073f35914239810659642a6a3",
+      "parameters": {
+        "width": {
+          "minimum": 0.5,
+          "maximum": 4,
+          "step": 0.25
+        },
+        "frequency": {
+          "minimum": 0.05,
+          "maximum": 0.6,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-histogram-area.js",
+      "preview": "textbook-histogram-area-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "6b629b4e-1c16-59f4-b5b2-29a8d52cfc24"
+    },
+    {
+      "id": "sampling-mean",
+      "title": "样本均值的抽样波动",
+      "goal": "从U(0,1)总体重复抽取80个独立样本，观察样本均值的抽样波动，区别于单一样本的均值/中位数。",
+      "summary": "本实验是对样本均值概念的延伸：从均匀总体 U(0,1) 重复抽样，观察不同样本的均值分布；总体均值为 1/2，独立抽样时理论标准误为 σ/√n。它不解释中位数、众数或加权平均的全部定义，因此原段正文仍是必要阅读，不将其折叠替代。",
+      "initial": {
+        "n": 30,
+        "seed": 3
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-5",
+          "afterBlockId": "bx3-13-5-b12",
+          "rationale": "补充抽样波动，不覆盖本段样本平均数、中位数、众数、加权均值的定义与讨论；需保留原文常显。",
+          "retainProse": true,
+          "sourceSha256": "61d9b94ebd49c17e8033dc8d73bb0f6c2c1f2e65d45305943f6e88599702e20c"
+        }
+      ],
+      "sections": [
+        "bx3-13-5"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-7e817e04d33c",
+      "hash": "7e817e04d33c4fc66d8e9ed251a7fdbe14560ab9424c397c0305c9833663bcd6",
+      "parameters": {
+        "n": {
+          "minimum": 5,
+          "maximum": 100,
+          "step": 5
+        },
+        "seed": {
+          "minimum": 1,
+          "maximum": 9,
+          "step": 1
+        }
+      },
+      "payload": "textbook-sampling-mean.js",
+      "preview": "textbook-sampling-mean-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "ceec00ff-3405-5d9e-baba-fc3879f58bdd"
+    },
+    {
+      "id": "chord-midpoint-domain",
+      "title": "弦中点轨迹：消元整线与有效开线段",
+      "goal": "用相切与相离状态区分必要条件和充分条件，解释轨迹端点为何不取。",
+      "summary": "固定椭圆x²/4+y²=1，平行弦所在直线为y=x+t。联立得5x²+8tx+4t²−4=0，两个不同交点存在当且仅当t²<5。由两根和可得弦中点M=(−4t/5,t/5)，故y=−x/4且|x|<4/√5。反过来，对此开线段内任意一点，取t=−5x/4均可构造非退化弦。因此轨迹恰为开线段，而不是消元所得整条直线；t=±√5时相切，端点不取。本模块为选学探究，保留原文的双向验证。",
+      "initial": {
+        "u": 0.4,
+        "candidate": true
+      },
+      "placements": [
+        {
+          "sectionId": "x1-2-5",
+          "afterBlockId": "x1-2-5-b5",
+          "retainProse": true,
+          "rationale": "在轨迹方程双向验证步骤后增设选学探究，保留全部原文。",
+          "sourceSha256": "56a46a33f53c713751cd9f27d0569adfe37cfc23f0e4100a23c11fd7900aea61"
+        }
+      ],
+      "sections": [
+        "x1-2-5"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-fd66666f0251",
+      "hash": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792",
+      "parameters": {
+        "u": {
+          "minimum": -1.4,
+          "maximum": 1.4,
+          "step": 0.05
+        },
+        "candidate": {
+          "type": "boolean"
+        }
+      },
+      "payload": "textbook-chord-midpoint-domain.js",
+      "preview": "textbook-chord-midpoint-domain-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "f9216559-c4c7-5083-8bf5-e5bc93bd4639"
+    },
+    {
+      "id": "line-plane-minimum-angle",
+      "title": "线面角：为什么与射影的夹角最小",
+      "goal": "分开视角与数学角度，观察平面内各方向对应的真实夹角及最小值。",
+      "summary": "设直线单位方向u=(cosθ,0,sinθ)，平面内单位方向v=(cosφ,sinφ,0)。两直线夹角β取0°至90°，则cosβ=|u·v|=cosθ|cosφ|≤cosθ，故β≥θ。θ<90°时沿射影方向等号成立；θ=90°时射影为点，所有平面方向均与直线垂直。θ=0°时本模型中直线在平面内。三维图是正交投影，不保角；真实读数与右侧变化曲线均由数量积计算。必修阶段先观察与几何解释，选修阶段联系向量证明，原文及原证明不折叠。",
+      "initial": {
+        "theta": 35,
+        "phi": 50,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-3",
+          "afterBlockId": "bx3-10-3-b26",
+          "retainProse": true,
+          "rationale": "射影与线面角定义后解释最小性，保留原定义及几何论证。",
+          "sourceSha256": "93fb65def55a2246c76e404196dc2ba18a2aae340e6436f48b6e7e853bd82ac7"
+        },
+        {
+          "sectionId": "x1-3-4",
+          "afterBlockId": "x1-3-4-b22",
+          "retainProse": true,
+          "rationale": "在线面角与方向向量关系后联动数量积解释，保留原文。",
+          "sourceSha256": "576e3d5c6ce640bc5498d5ca2ca1dc2474a1f71ba9593d49575afe822252e50e"
+        }
+      ],
+      "sections": [
+        "bx3-10-3",
+        "x1-3-4"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-d90bdf68081c",
+      "hash": "d90bdf68081cd26ccbd3a0c2e9e154cd359105b29c51028d8b987e746c4dcbe8",
+      "parameters": {
+        "theta": {
+          "minimum": 0,
+          "maximum": 90,
+          "step": 5
+        },
+        "phi": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-line-plane-minimum-angle.js",
+      "preview": "textbook-line-plane-minimum-angle-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "81762607-1a8d-5bcb-ac7d-a06aecd35075"
+    },
+    {
+      "id": "ssa-circle-ray",
+      "title": "SSA为何不唯一：圆与射线的有效交点",
+      "goal": "将可能的三角形个数转化为有效交点数，辨别相切、反向交点及退化解。",
+      "summary": "教师拓展，不将完整SSA分类提升为全体学生必学。固定AC=b=3及角A，令C=(3cosA,3sinA)，B=(c,0)，其中c>0。由BC=a得(c−3cosA)²+h²=a²，h=3sinA。圆与直线的候选交点还须剔除c≤0者。因此a=h虽为相切，却仅在A为锐角时产生一个有效三角形；直角时B=A退化，钝角时切点在反向延长线上。a=b时同样须剔除B=A。动态探索解释分类依据，不能以有限次拖动替代上述方程和有效性验证。",
+      "initial": {
+        "A": 30,
+        "mode": "explore",
+        "ratio": 1.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-6-3",
+          "afterBlockId": "bx2-6-3-b3",
+          "retainProse": true,
+          "rationale": "正弦定理后加入教师拓展，呈现SSA多解依据，不替换原定理推导。",
+          "sourceSha256": "3cce16c931118c9302d71a64569db5fafd000914528c81dc17f6347ce37c6237"
+        }
+      ],
+      "sections": [
+        "bx2-6-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-0a9bac08de7a",
+      "hash": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d",
+      "parameters": {
+        "A": {
+          "minimum": 20,
+          "maximum": 160,
+          "step": 5
+        },
+        "mode": {
+          "enum": [
+            "explore",
+            "below",
+            "height",
+            "above",
+            "equal",
+            "long"
+          ]
+        },
+        "ratio": {
+          "minimum": 0.5,
+          "maximum": 3,
+          "step": 0.05
+        }
+      },
+      "payload": "textbook-ssa-circle-ray.js",
+      "preview": "textbook-ssa-circle-ray-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "d02deeb0-e234-51fb-a6ba-33953d149b10"
+    },
+    {
+      "id": "parameter-cubic-roots",
+      "title": "根在哪里合并：含参三次方程的临界状态",
+      "goal": "拖动水平线，解释不同实根数为什么只在极值高度发生变化，而不只是数当前屏幕上的交点。",
+      "summary": "设 f(x)=x³−3x，则 f′(x)=3(x−1)(x+1)。因此 f 在 (−∞,−1)、(1,+∞) 上严格增，在 (−1,1) 上严格减；将驻点端点并入，考虑三段 (−∞,−1]、[−1,1]、[1,+∞)。由 f(−1)=2、f(1)=−2 及两端趋势，这三段的值域依次为 (−∞,2]、[−2,2]、[−2,+∞)。当 −2<a<2 时各段各有一个交点；当 a=±2 时相邻交点合并，只剩两个不同实根；|a|>2 时仅一个实根。临界值还可直接验证：x³−3x−2=(x+1)²(x−2)，x³−3x+2=(x−1)²(x+2)，相切的根均为二重根。重数不是不同交点个数；非临界状态的数值根仅作近似显示。图中的横纵单位刻度不同，不据图估计切线角度。",
+      "initial": {
+        "a": 0,
+        "showDerivative": false
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-3",
+          "afterBlockId": "x2-5-3-b14",
+          "retainProse": true,
+          "rationale": "在极值定义后的方法深化；保留极值、驻点及原例题正文，不以探索替代论证。",
+          "sourceSha256": "cc455b3a90c9d8c1f3ba121178cd4ed32af7cdbe5a6f6d599bc787e5f758d88c"
+        }
+      ],
+      "sections": [
+        "x2-5-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-0444af6cf97a",
+      "hash": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf",
+      "parameters": {
+        "a": {
+          "minimum": -4,
+          "maximum": 4,
+          "step": 0.05
+        },
+        "showDerivative": {
+          "type": "boolean"
+        }
+      },
+      "payload": "textbook-parameter-cubic-roots.js",
+      "preview": "textbook-parameter-cubic-roots-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "4511c30b-c217-5ed1-a56f-347b06c9b1b3"
+    },
+    {
+      "id": "counting-equal-multiplicity",
+      "title": "为什么能除以重复次数：从有序过程到最终结果",
+      "goal": "选择一个最终结果，反查它对应的全部有序过程；比较统一重复与不统一重复，判断何时可以整体相除。",
+      "summary": "场景一：从1至6六个不同元素中依次等可能地不放回取两个，共6×5=30个有序结果。忽略顺序后，每组{i,j}（i≠j）恰对应(i,j)、(j,i)，故共30÷2=15组。场景二：两枚可区分的公平骰子独立投掷，36个有序结果等可能；忽略顺序后，同点数组各有1个来源，异点数组各有2个来源，共6+15=21组。因此不能统一用36÷2计数，更不能把21个无序结果视为等可能：同点数组概率1/36，异点数组概率2/36。这里统一相除的依据是每个最终结果被计次数相同。选取重复项在不放回场景中无效，界面诚实保留该选择并标明结果不存在。",
+      "initial": {
+        "scenario": "distinct",
+        "result": "1-2"
+      },
+      "placements": [
+        {
+          "sectionId": "x2-6-3",
+          "afterBlockId": "x2-6-3-b10",
+          "retainProse": true,
+          "rationale": "在排列与组合对应表后深化重复计数的条件，原公式推导和例题保持可见。",
+          "sourceSha256": "0250c6b40e8f882b0d0c223e305ef3a94937c88670eb960fb65e84ae820fcf50"
+        }
+      ],
+      "sections": [
+        "x2-6-3"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-63cbf587e1a5",
+      "hash": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21",
+      "parameters": {
+        "scenario": {
+          "enum": [
+            "distinct",
+            "dice"
+          ]
+        },
+        "result": {
+          "enum": [
+            "1-1",
+            "1-2",
+            "1-3",
+            "1-4",
+            "1-5",
+            "1-6",
+            "2-2",
+            "2-3",
+            "2-4",
+            "2-5",
+            "2-6",
+            "3-3",
+            "3-4",
+            "3-5",
+            "3-6",
+            "4-4",
+            "4-5",
+            "4-6",
+            "5-5",
+            "5-6",
+            "6-6"
+          ]
+        }
+      },
+      "payload": "textbook-counting-equal-multiplicity.js",
+      "preview": "textbook-counting-equal-multiplicity-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "6b479375-a6d5-5b38-9f29-74e9ada8da79"
+    },
+    {
+      "id": "bayes-base-rate",
+      "title": "检出率不变，阳性者的判断为什么会变",
+      "goal": "用10000人的期望频数追踪真正的分母，区分检出率与阳性者中实际患病的概率。",
+      "summary": "教师选学拓展。记 D 为患病，+ 为阳性，患病率为 p，模型检出率为 s，模型误报率为 q。10000人模型中，真阳性期望数为10000ps，假阳性为10000(1−p)q。只看阳性者时，分母为两者之和；因此在 ps+(1−p)q>0 时，P(D|+)=ps/[ps+(1−p)q]。这由条件概率和全概率公式得到，不是把P(+|D)直接倒过来。P(+|D)=s 还要求 p>0；p=0时该条件概率未定义，s仅保留为模型参数；p=1时误报率的条件群体同样为空。频数全部为模型期望数，可能不是整数，非一次实测人数。树形框与连线不按人数比例，底部阳性构成条按真实比例绘制；结论不依赖画面面积的猜测。",
+      "initial": {
+        "prevalence": 1,
+        "sensitivity": 99,
+        "falsePositive": 5
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-1",
+          "afterBlockId": "x2-7-1-b23",
+          "retainProse": true,
+          "rationale": "衔接逆向条件的教材段落与选学贝叶斯公式；保留原文，明确教师拓展属性。",
+          "sourceSha256": "87590ab1b423632b56be005ee0e3ed4e901aa174ce475f8e48d50a4a3b5ef915"
+        }
+      ],
+      "sections": [
+        "x2-7-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-544fcd9e0eae",
+      "hash": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913",
+      "parameters": {
+        "prevalence": {
+          "minimum": 0,
+          "maximum": 100,
+          "step": 0.1
+        },
+        "sensitivity": {
+          "minimum": 0,
+          "maximum": 100,
+          "step": 1
+        },
+        "falsePositive": {
+          "minimum": 0,
+          "maximum": 100,
+          "step": 0.1
+        }
+      },
+      "payload": "textbook-bayes-base-rate.js",
+      "preview": "textbook-bayes-base-rate-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "c91db546-7942-5cfc-9671-a45cef25e123"
+    },
+    {
+      "id": "cube-plane-transitions",
+      "title": "深度探究 · 截面的边数为什么改变？",
+      "goal": "综合拓展：用真实平面与棱求交，解释三至六边形、临界状态与正确连线。",
+      "summary": "立方体取各坐标在[-1,1]。切平面与各棱求交并去重，按截平面内的顺序连接交点，得到截面。切平面不与任何面重合时，一个面至多贡献一条截面边，因此至多六边；与某面重合时得到正方形。平面经过顶点时截线可能换边，但边数不一定改变。右侧按截平面自身的正交坐标等比例显示，避免将空间投影误认作真实形状。六边形不一定是正六边形。",
+      "initial": {
+        "direction": "general",
+        "offset": 2,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-1",
+          "afterBlockId": "bx3-11-1-b6",
+          "retainProse": true,
+          "rationale": "在棱柱、多面体定义后以综合探究解释截面边数和临界变化；不取代正文定义或体积推导。",
+          "sourceSha256": "4f525167bac60fb5d438603669c33142fa9476d30dbdc8a61b45ea2be44a1c94"
+        }
+      ],
+      "sections": [
+        "bx3-11-1"
+      ],
+      "category": "动态解释",
+      "scene": "explore",
+      "version": "textbook-lab-v1-c6263f865217",
+      "hash": "c6263f8652178b5025f88a9b1f3ece64b9bc04e28a2898cd40cef5294434ecfd",
+      "parameters": {
+        "direction": {
+          "enum": [
+            "general",
+            "diagonal",
+            "edge",
+            "face"
+          ]
+        },
+        "offset": {
+          "minimum": -10,
+          "maximum": 10,
+          "step": 0.25
+        },
+        "yaw": {
+          "minimum": 0,
+          "maximum": 180,
+          "step": 5
+        }
+      },
+      "payload": "textbook-cube-plane-transitions.js",
+      "preview": "textbook-cube-plane-transitions-preview.svg",
+      "sourceReuse": "",
+      "resourceId": "020501b4-33a2-582d-8ca3-b29f04430323"
+    }
+  ],
+  "existing": [
+    {
+      "assetId": "ellipse-lab",
+      "summary": "椭圆是到两定点距离之和等于常数2a的点的轨迹，必须满足2a大于焦距2c；选对坐标可得标准方程，且b²=a²−c²。边界退化不得与椭圆混淆。",
+      "placements": [
+        {
+          "sectionId": "x1-2-2",
+          "afterBlockId": "x1-2-2-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。",
+          "sourceSha256": "8058733e283af468fbe1f7284ba10654e9f883dc737919869dede8582479d505"
+        }
+      ],
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><msup><mi>y</mi><mn>2</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>y</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi><mo>&gt;</mo><mn>0</mn></mrow></math>"
+    },
+    {
+      "assetId": "hyperbola-lab",
+      "summary": "双曲线是到两定点距离差的绝对值等于正常数2a的轨迹，条件为0<2a<2c；标准方程中c²=a²+b²。绝对值对应两支，等于零或焦距时须另论。",
+      "placements": [
+        {
+          "sectionId": "x1-2-3",
+          "afterBlockId": "x1-2-3-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。",
+          "sourceSha256": "81362f0ed8c6d469680f3b939a94119730ebaef9d3b6df5d2f6a64dad9ab8649"
+        }
+      ],
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>−</mo><mfrac><msup><mi>y</mi><mn>2</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>y</mi><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>b</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>，</mo><mi>b</mi><mo>&gt;</mo><mn>0</mn></mrow></math>"
+    },
+    {
+      "assetId": "parabola-lab",
+      "summary": "抛物线是到定点与定直线距离相等的点的轨迹，定点不在定直线上。焦点(p/2,0)、准线x=−p/2对应y²=2px，且p>0。",
+      "placements": [
+        {
+          "sectionId": "x1-2-4",
+          "afterBlockId": "x1-2-4-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。",
+          "sourceSha256": "49768019760f5fe1f7468624fa6a9abd454ed01efd849036e937759305e063b5"
+        }
+      ],
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo>±</mo><mn>2</mn><mi>p</mi><mi>x</mi><mo>，</mo><mi>p</mi><mo>&gt;</mo><mn>0</mn></mrow></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mo>±</mo><mn>2</mn><mi>p</mi><mi>y</mi><mo>，</mo><mi>p</mi><mo>&gt;</mo><mn>0</mn></mrow></math>"
+    }
+  ]
+}

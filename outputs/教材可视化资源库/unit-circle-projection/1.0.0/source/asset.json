@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "key": "angle",
+      "label": "转角（度）",
+      "max": 720,
+      "min": -360,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>r</mi><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt><mo>&gt;</mo><mn>0</mn><mo>;</mo><mspace width=\"1em\"/><mi>sin</mi><mi>α</mi><mo>=</mo><mfrac><mi>y</mi><mi>r</mi></mfrac><mo>,</mo><mi>cos</mi><mi>α</mi><mo>=</mo><mfrac><mi>x</mi><mi>r</mi></mfrac><mo>,</mo><mi>tan</mi><mi>α</mi><mo>=</mo><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>,</mo><mi>cot</mi><mi>α</mi><mo>=</mo><mfrac><mi>x</mi><mi>y</mi></mfrac></mrow></math>",
+  "goal": "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。",
+  "id": "unit-circle-projection",
+  "initial": {
+    "angle": 45
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-6-1-b25",
+      "rationale": "覆盖本节原prose第25块：将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx2-6-1"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "将角顶点放在原点、始边放在 x 正半轴，终边任取非原点 P(x,y)，r 为到原点距离。锐角三角比推广为带符号坐标与 r 的比；取单位圆 r=1 后，横纵坐标直接成为 cos 与 sin。终边同向伸缩不改比值，转过整周也不改值；tan、cot 必须分别排除分母为零的情形。",
+  "title": "单位圆：带符号投影统一四种三角比"
+}

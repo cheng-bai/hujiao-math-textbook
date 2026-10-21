@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-2-4",
+  "book_id": "x1",
+  "section": "2.4",
+  "title": "抛物线",
+  "section_json": "batch/sections/x1/x1-2-4.json",
+  "output": "outputs/五册教材教参整合/x1/x1-2-4",
+  "fingerprint": "19d035e41fe0086f4f2e1008d84066c8de3e9aa71414f26fad3bee59a7cd39c3",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-cc660242c820d47ee991.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_30_226_982_808_322_0.jpg",
+      "sha256": "cc660242c820d47ee991ec525e77b7022a329e18237ddfb15d43993852fec473",
+      "private": false
+    },
+    "images/book-33d0bb7e9c8d5ed5533a.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_30_1161_1327_248_297_0.jpg",
+      "sha256": "33d0bb7e9c8d5ed5533a69d42b5cc08a75d10986445247964062ec83826409a3",
+      "private": false
+    },
+    "images/book-f872e9979171fabc61fa.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_31_242_253_234_285_0.jpg",
+      "sha256": "f872e9979171fabc61faf970f5299e1f8fe9228ec7259a0d17d59287306035ce",
+      "private": false
+    },
+    "images/book-06d3c9d6bd7990100d86.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_31_238_1783_243_256_0.jpg",
+      "sha256": "06d3c9d6bd7990100d86a4b754da5089aa5235bb7faee199fd4939aa247b2e05",
+      "private": false
+    },
+    "images/book-bdc409c1d8c442ed967f.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_32_1147_985_285_301_0.jpg",
+      "sha256": "bdc409c1d8c442ed967f881861bb2d99c4929d64454a6798fa6b69a5d00666da",
+      "private": false
+    },
+    "images/private-f14df07e9ef50a73c87d.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_34_1168_259_236_277_0.jpg",
+      "sha256": "f14df07e9ef50a73c87db7e7f139627b682ed89a2b76d3fd4c6e77f7d6798bf9",
+      "private": true
+    },
+    "images/book-a0ab316439b59891561f.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_34_1159_1305_249_248_0.jpg",
+      "sha256": "a0ab316439b59891561f1090711c72c024d080d6219459c7a023ce4ee07d0748",
+      "private": false
+    },
+    "images/book-83485f0dd488c9391e1b.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_35_751_278_177_238_0.jpg",
+      "sha256": "83485f0dd488c9391e1bc16478b7304278635adb13bfec39b7cb1ae62711acde",
+      "private": false
+    },
+    "images/book-734f577ce14ba89b3784.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_35_1058_266_225_253_0.jpg",
+      "sha256": "734f577ce14ba89b37848013bb895e166c6662924c62bfce4358c33aeaaec97c",
+      "private": false
+    },
+    "images/book-84507196d0970383f596.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_37_443_257_770_467_0.jpg",
+      "sha256": "84507196d0970383f596050b6bede1866bf1cba3af5dcd2f6cabc2073f7afd92",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md": "f9a3bb0b1aae50a77724a0067d2a54459e56dae712b033b9938051dd996af7c4",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md": "955c9f50ad7cda82b9d3bd28bfabcfc8b11cb574e5aff5b0c61addbde6e61445"
+  },
+  "student_images": [
+    "images/book-06d3c9d6bd7990100d86.jpg",
+    "images/book-33d0bb7e9c8d5ed5533a.jpg",
+    "images/book-734f577ce14ba89b3784.jpg",
+    "images/book-83485f0dd488c9391e1b.jpg",
+    "images/book-84507196d0970383f596.jpg",
+    "images/book-a0ab316439b59891561f.jpg",
+    "images/book-bdc409c1d8c442ed967f.jpg",
+    "images/book-cc660242c820d47ee991.jpg",
+    "images/book-f872e9979171fabc61fa.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "7efd18206760c3deab5423a83d30626b01f3c80b86f69545484ddd4426ead8d8",
+    "student.html": "403035d16c82bae7fc5fae40012ab54c3aa84bd90d35e1db5e1aad21380f2c46",
+    "student.zip": "3bfe9c7fb1e983c570247452bd92c7bde6280a69cf14ee32815662a23cb1a09e",
+    "content.json": "f3d36a20943273db4c23ea90001daf1bee1b931d154fb85ffe62547f56840269"
+  }
+}

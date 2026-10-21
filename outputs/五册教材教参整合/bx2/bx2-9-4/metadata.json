@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-9-4",
+  "book_id": "bx2",
+  "section": "9.4",
+  "title": "复数的三角形式",
+  "section_json": "batch/sections/bx2/bx2-9-4.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-9-4",
+  "fingerprint": "9524607be29691b9f681b46e0cfebd2363a9d51f3e8922247f7ad7c3079e2735",
+  "status": "rendered",
+  "questions": 16,
+  "answers": 16,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-e29bb1431e5b8bf69655.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_21_216_1019_262_255_0.jpg",
+      "sha256": "e29bb1431e5b8bf69655479f412eea11341b64f6fd79d8e00901d756682d7034",
+      "private": false
+    },
+    "images/book-72a1fb5cb385d548df23.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_23_251_1624_193_214_0.jpg",
+      "sha256": "72a1fb5cb385d548df237356f0dbfb449f6ec054010f3ed1d0b17b7a75683c38",
+      "private": false
+    },
+    "images/private-2f04e45015db749a9c40.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_579_402_887_307_0.jpg",
+      "sha256": "2f04e45015db749a9c40a231af8350bdb3c586e0b24c566f8f68bcf9d5623c47",
+      "private": true
+    },
+    "images/book-b5172134040683ec25c0.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_221_1468_255_315_0.jpg",
+      "sha256": "b5172134040683ec25c0d586bde5365f4c5bcac03e7c0d6bf21d3b0e590a0282",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "student_images": [
+    "images/book-72a1fb5cb385d548df23.jpg",
+    "images/book-b5172134040683ec25c0.jpg",
+    "images/book-e29bb1431e5b8bf69655.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "54fdab611acb47ce732bf97d71c1d2a59a7814b081c3d8bb6befc605b66a9382",
+    "student.html": "a6da7889ef958547133b4bf2b3dc1803d77140858b20679d54a5f5ed4d53e845",
+    "student.zip": "581b5e6a9a6170565ab550d7b6d12886ea7ace6118e03fc16526098cad0b490d",
+    "content.json": "c015ba5a839462000d6976cfe86e82b1a20a03e8d187d07a6f9ba089f477a12e"
+  }
+}

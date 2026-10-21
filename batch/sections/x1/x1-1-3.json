@@ -1,0 +1,1285 @@
+{
+  "schema_version": 1,
+  "id": "x1-1-3",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "1",
+  "chapter_title": "第1章平面直角坐标系中的直线",
+  "section": "1.3",
+  "title": "两条直线的位置关系",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "两条直线的位置关系",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 543,
+          "end": 543
+        }
+      ],
+      "id": "x1-1-3",
+      "number": "1.3",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 1.3 两条直线的位置关系\n\n### 教学重点\n\n本节中, 我们将学习如何用代数的方法来研究直线中的一些基本问题, 包括根据两条直线的方程判断两条直线的相交、平行与重合的位置关系, 判断两条直线是否垂直, 求两条直线的夹角等. 在学习这些知识的过程中, 既要体验方程的思想, 根据方程组解的情况判定两条直线的位置关系; 也要关注数形结合的方法, 根据直线方程中所反映的几何要素, 如倾斜角、法向量, 来帮助解决有关问题.\n\n### 内容分析\n\n本节包含两小节, 第 1 小节是根据两条直线的方程判定两条直线的位置关系; 第 2 小节进一步用两条直线的方程判定两条直线是否垂直以及求两条直线的夹角.\n\n给定两条直线\n\n$$\n\\begin{aligned}  & {l}_{1} : {a}_{1}x + {b}_{1}y + {c}_{1} = 0\\;\\left( {{a}_{1}\\text{、}{b}_{1}}\\right. \\text{不同时为零})\\text{,} \\\\  & {l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0\\;\\left( {{a}_{2}\\text{、}{b}_{2}}\\right. \\text{不同时为零})\\text{.} \\end{aligned}\n$$\n\n③\n\n第 1 小节是判断③式所示的两条直线平行、相交与重合. 用两条直线的公共点个数来描述, 就是判断它们何时没有公共点、何时恰好有一个公共点以及何时有无穷多公共点; 转成代数语言就是判断两个方程组成的二元一次方程组\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1}x + {b}_{1}y + {c}_{1} = 0, \\\\  {a}_{2}x + {b}_{2}y + {c}_{2} = 0 \\end{array}\\right.\n$$\n\n④\n\n⑤\n\n何时无解、何时有唯一解以及何时有无穷多解. 这纯粹是二元一次方程组求解的问题, 是典型的解析几何的方法. 学生应该熟悉有唯一解的二元一次方程组的求解, 但对无解或者有无穷多解的情况可能相对陌生一些, 在分情况讨论时教师要更关注非唯一解的情况. 经过分情况讨论, 得到如下充要条件:\n\n$$\n\\left. \\begin{array}{l} {l}_{1}与{l}_{2}\\text{ 重合 } \\Leftrightarrow  \\text{ 存在 }\\lambda  \\in  \\mathbf{R},\\text{ 使得 }{a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2},\\text{ 且 }{c}_{1} = \\lambda {c}_{2}; \\\\  {l}_{1}//{l}_{2} \\Leftrightarrow  \\text{ 存在 }\\lambda  \\in  \\mathbf{R},\\text{ 使得 }{a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2},\\text{ 但 }{c}_{1} \\neq  \\lambda {c}_{2}; \\\\  {l}_{1}与{l}_{2}\\text{ 相交 } \\Leftrightarrow  {a}_{1}{b}_{2} \\neq  {a}_{2}{b}_{1}. \\end{array}\\right\\}\n$$\n\n⑥\n\n在相交的情况下,交点坐标 $\\left( {x, y}\\right)$ 是方程组的唯一解\n\n$$\n\\left\\{  \\begin{array}{l} x = \\frac{{c}_{2}{b}_{1} - {c}_{1}{b}_{2}}{{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}, \\\\  y = \\frac{{c}_{1}{a}_{2} - {c}_{2}{a}_{1}}{{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}. \\end{array}\\right.\n$$\n\n⑦\n\n---\n\n① 由方程④⑤联立的方程组 (当 ${a}_{1}{b}_{2} \\neq  {a}_{2}{b}_{1}$ 时) 的解也可以用行列式写成更便于记忆的形式:\n\n$$\n\\left\\{  \\begin{array}{l} x =  - \\left| \\begin{array}{ll} {c}_{1} & {b}_{1} \\\\  {c}_{2} & {b}_{2} \\\\  {a}_{1} & {b}_{1} \\end{array}\\right| \\\\  y =  - \\left| \\begin{array}{ll} {a}_{1} & {c}_{1} \\\\  {a}_{2} & {c}_{2} \\\\  {a}_{1} & {b}_{1} \\\\  {c}_{2} & {c}_{2} \\end{array}\\right| . \\end{array}\\right.\n$$\n\n注意: 在线性代数课程中, 一次方程组的常数项通常写在等号的右边, 而这里的方程组的常数项和其他项一起写在等号的左边, 所以和线性代数里的公式相比, 这里解的表达式多了一个负号. 本注解内容仅供教师参考, 不作为教学内容.\n\n---\n\n上一节已经学过, 法向量和斜率都给出了平行的直线, 所以很容易得到: 两条直线平行或重合当且仅当它们的法向量平行 (从而两条直线相交当且仅当它们的法向量不平行); 当直线的斜率存在时, 两条直线平行或重合当且仅当它们的斜率相等 (从而两条直线相交当且仅当它们的斜率不相等). 这些推理并不依赖于上面的充要条件⑥. 但如果注意到两条直线的法向量分别是 $\\overrightarrow{{n}_{1}} = \\left( {{a}_{1},{b}_{1}}\\right)$ 与 $\\overrightarrow{{n}_{2}} = \\left( {{a}_{2},{b}_{2}}\\right)$ ,斜率分别是 ${k}_{1} =  - \\frac{{a}_{1}}{{b}_{1}}$ 与 ${k}_{2} =  - \\frac{{a}_{2}}{{b}_{2}}$ (此时要假定 ${b}_{1}$ 与 ${b}_{2}$ 均不为零),那么用法向量和斜率表达的充要条件也是上述充要条件⑥的推论. 但无论如何,这两种方式表达的充要条件更侧重抓直线的几何要素, 在数形结合上体现得更直观, 更生动活泼.\n\n第 1 小节可以说是非常“初等”的, 只靠二元一次方程组的求解就可以达到我们的目的; 但第 2 小节我们就要依靠向量的工具了. 自然想起使用直线的法向量, 因为它的坐标可以从直线的一般式方程上自然地读得.\n\n第 2 小节的思路是把关于直线的问题化归为关于两条直线的法向量 $\\overrightarrow{{n}_{1}} = \\left( {{a}_{1},{b}_{1}}\\right)$ 与 $\\overrightarrow{{n}_{2}} = \\left( {{a}_{2},{b}_{2}}\\right)$ 的问题,关键是理清楚两条直线的垂直与否或夹角大小与法向量的垂直与否或所成角大小的关系.\n\n两条直线的垂直判定问题只是求夹角问题的特例, 比一般的求夹角问题简单. 教材把垂直判定放在求夹角之前, 是先易后难、先特殊后一般的思路, 给学生铺设理解的台阶.\n\n两条直线垂直当且仅当它们的法向量垂直, 这是很容易理解的, 本册教材第 19 页的图 1-3-1 也给出了直观的几何描述. 再回顾必修课程 8.3 节给出的用向量坐标表述的向量垂直的充要条件 (必修第二册第 118 页), 马上得出\n\n$$\n{l}_{1} \\bot  {l}_{2} \\Leftrightarrow  \\overrightarrow{{n}_{1}} \\bot  \\overrightarrow{{n}_{2}} \\Leftrightarrow  {a}_{1}{a}_{2} + {b}_{1}{b}_{2} = 0.\n$$\n\n当 ${b}_{1}$ 、 ${b}_{2}$ 都不等于零时 (即 ${l}_{1}$ 、 ${l}_{2}$ 都有斜率时),教材还提到了充要条件\n\n$$\n{l}_{1} \\bot  {l}_{2} \\Leftrightarrow  {k}_{1}{k}_{2} =  - 1,\n$$\n\n这也是很有用的结论, 特别是当直线的方程是由点斜式或斜截式给出时.\n\n求直线夹角稍微复杂一些, 复杂在直线夹角和它们的法向量所成角的关系不像垂直情况那么一目了然. 本册教材图 1-3-2 及其说明文字论证了直线夹角 $\\alpha$ 与它们的法向量所成角 $\\theta$ 的关系是相等或互补,考虑到 $0 \\leq  \\alpha  \\leq  \\frac{\\pi }{2}$ ,从必修课程 8.3 节给出的用向量坐标表述的两个向量所成角的公式立即得到\n\n$$\n\\cos \\alpha  = \\left| {\\cos \\theta }\\right|  = \\frac{\\left| {a}_{1}{a}_{2} + {b}_{1}{b}_{2}\\right| }{\\sqrt{{a}_{1}^{2} + {b}_{1}^{2}}\\sqrt{{a}_{2}^{2} + {b}_{2}^{2}}}.\n$$\n\n本节共有 7 道例题.\n\n例 1 与例 2 是为了巩固“如何根据直线方程判定两条直线位置关系”这个方法. 例 1 的作用是让学生体会根据所给方程的不同形式, 选择合适方法判定两条直线的位置关系,同时巩固如何求两条相交直线的交点坐标. 例 2 给出的两条直线是含参数 $m$ 的一般式方程,研究两条直线的位置关系如何随着参数 $m$ 的变化而变化. 其解题的突破 ☐是利用两条直线相交的充要条件,先求出当参数 $m$ 满足什么条件时两条直线相交, 再区分平行与重合的情况.\n\n例 3、例 4 与例 5 是对“如何根据方程判定两条直线是否垂直”这个方法的巩固和应用. 例 3 联系充要条件 ${l}_{1} \\bot  {l}_{2} \\Leftrightarrow  {a}_{1}{a}_{2} + {b}_{1}{b}_{2} = 0$ ; 例 4 联系充要条件 ${l}_{1} \\bot  {l}_{2} \\Leftrightarrow  {k}_{1}{k}_{2} =$ -1; 例 5 是应用两条直线垂直关系综合解决问题, 设直线方程时可以选择点斜式, 也可以选择点法式, 解决问题时还应该结合图形, 培养学生综合应用所学知识解决问题的能力.\n\n例 6 和例 7 是为了巩固两条直线之间的夹角的余弦公式. 例 6 是直接应用夹角的余弦公式求两条直线的夹角; 例 7 是已知两条直线的夹角, 用解方程的方法求出另一条直线的一个法向量. 在例 7 的解题过程中,会有一条斜率不存在的直线符合题意. 若用点斜式设方程, 要注意思维的严谨性, 先考虑斜率不存在的情况, 再考虑斜率存在的情况. 这样思考, 避免漏解.\n\n### 注意事项\n\n数学课程标准在解析几何中对两条直线的夹角已不作要求. 本教材之所以保留这一内容, 其原因主要有: 一是保持知识的相对完整性, 与平面几何相呼应; 二是凸显引入点法式方程的优势; 三是延续“二期课改”教材的内容要求. 但只限于概念及公式的简单运用, 不宜作更多的拓展.\n\n用两条直线的法向量来判断两条直线是否垂直以及求两条直线的夹角, 可以说是对上海市“二期课改”教材特点的继承,但从数学本身来说,法向量方法也是具有很大的优势的,因为:其一,对于以一般式方程给出的两条直线,法向量是可以直接读出的；其二, 法向量方法适用于所有直线, 没有例外. 若用斜率而不是法向量讨论问题, 则会陷入讨论斜率存在和不存在的困境. 当然, 这是一般而言, 解决数学问题不应过分追求套路, 而应该针对具体问题采用更恰当的方法. 例如, 如果两条直线是用点斜式方程给出的, 用斜率讨论常常是最佳选择, 因为化为一般式再求法向量, 往往可能多花精力.\n\n与直线相关的另外一个重要的向量, 即上文提到的直线的方向向量, 可以替代法向量处理本节的所有问题, 它也具备普适性, 适用于所有直线, 没有例外. 和法向量类似, 方向向量也可以从直线的一般式方程中读出; 而且由于向量本身就在直线上, 向量所成的角与直线夹角的关系似乎更加直截了当 (但仍然逃脱不了分情况讨论). 在平面解析几何中处理直线问题时, 选择法向量或方向向量本身没有明显的优劣之分, 但选用法向量的一个优势是它可作为第 3 章用法向量处理平面问题的预演, 为学生理解平面法向量相关技巧铺设了一个台阶.\n\n在第 3 章“3.4 空间向量在立体几何中的应用”中,刻画直线的方向将用方向向量, 因为在三维空间中, 与一条直线垂直的平面中, 任何向量都与这条直线垂直, 所以无法定义直线的法向量. 一个平面不可能像直线一样定义方向向量,因为平面上有无数不平行的向量, 但平面的法向量可以明确定义, 并且法向量和平面上的一个点就完全确定了这个平面, 可见平面的法向量在平面研究中有特别重要的意义. 本节有关直线法向量的一些几何讨论将在第 3 章拓展到平面法向量的讨论上.\n\n### 教学建议\n\n本节的学习, 仍应始终围绕“用代数的方法解决几何问题”这一解析几何的核心思想展开, 突出用直线方程来研究和解决与直线有关的问题.\n\n第 1 小节讨论平面上两条直线的位置关系时, 把两条直线的方程联立求解, 并通过解的个数来判定两条直线的相交、重合或平行, 这是解析几何的经典做法. 解二元一次方程组是学生已学知识, 直线的相交、重合与平行也是平面几何的最基本的内容, 但把二者联系起来, 需要学生深刻体会通过联立方程与求方程组解的个数来判断两条直线的位置关系这一原理, 其核心是 “点在直线上的充要条件是点的坐标满足该直线的方程”,这也是通过联立方程求两条直线交点坐标的基础.\n\n教材的处理方法是:不急着直接解方程组,而是从两个方程的系数分析,得出无数组解 (两直线重合) 和无解(两直线平行) 的两个极端情况,再对 ${a}_{1}{b}_{2} \\neq  {a}_{2}{b}_{1}$ 的情况, 求解方程组得出直线交点的坐标 (见⑦式).\n\n教师也可以先不作系数分析, 直接让学生着手解④和⑤联立的方程组.\n\n分别把方程④ $\\times  {b}_{2} -$ ⑤ $\\times  {b}_{1}$ 和⑤ $\\times  {a}_{1} -$ ④ $\\times  {a}_{2}$ ,方程组变形为\n\n$$\n\\left\\{  \\begin{array}{l} \\left( {{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}\\right) x + \\left( {{c}_{1}{b}_{2} - {c}_{2}{b}_{1}}\\right)  = 0, \\\\  \\left( {{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}\\right) y + \\left( {{c}_{2}{a}_{1} - {c}_{1}{a}_{2}}\\right)  = 0. \\end{array}\\right.\n$$\n\n在此基础上再分三种情况讨论, 就可得出等价条件⑥.\n\n用直线的斜率或法向量来判定直线相交还是平行 (或重合), 也可以看成从解方程组得到的等价条件⑥的推论,也可以从斜率、法向量所表达的几何意义直接推出,教师可以灵活处理. 这些内容拓宽了学生的视野,在数形结合上体现得更直观,更生动活泼. 法向量在本小节没有扮演舍我其谁的重要角色, 但它在这里的出现, 为下一小节和 1.4 节中的关键作用作了预演和铺垫.\n\n第 2 小节学习的关键有两个方面, 一是平面向量的相关内容的回顾, 最主要的是向量的数量积及其在坐标表示下的公式 (向量数量积的公式、向量所成角的公式以及由此推出的向量垂直的充要条件); 另一个关键是从几何上分析清楚两条直线的夹角与它们的法向量所成的角之间的关系.\n\n直线垂直与法向量垂直的关系简单直观, 这里不再赘述.\n\n为了分析两条直线的夹角与它们的法向量所成的角之间的关系, 本册教材用了图 1-3-2, 说明两角有互补和相等两种情况出现. 注意到法向量的负向量仍是这条直线的法向量, 总可以把问题归结到图 1-3-2 所示的两种情况. 可能有些教师认为这样归结还不如穷举所有可能,穷举也是可以采取的数学方法. 为此,这里把图 1-3-2 扩充成图 1-R1, 共列出四种可能. 可以引导学生分析把一个法向量用它的负向量代替, 就可以把图 1-R1 的四种情况化为前两种情况 (即图 1-3-2 所示的两种情况).\n\n![bo_d402onjef24c73d2tg30_33_202_1542_1118_310_0.jpg](sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_33_202_1542_1118_310_0.jpg)\n\n图 1-R1\n\n由于两条直线夹角 $\\alpha$ 大小的取值范围约定为 $0 \\leq  \\alpha  \\leq  \\frac{\\pi }{2}$ ,总有 $\\cos \\alpha  \\geq  0$ ,推得 $\\cos \\alpha  = \\left| {\\cos \\theta }\\right|$ ,得出两条直线夹角余弦的公式.\n\n这里可以看出, 直线夹角大小的取值范围的这种约定给我们带来很大的方便, 它使我们不必费精力去精确地判断何时 $\\cos \\alpha  = \\cos \\theta$ ,何时 $\\cos \\alpha  =  - \\cos \\theta$ ,绝对值符号就解决问题了. 这种方便在第 3 章“空间向量及其应用”的 3.4 节中也得以体现, 空间直线所成角大小的取值范围和空间直线与平面所成角大小的取值范围也有类似的约定, 绝对值符号的应用省去了一些细节的判断.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 290,
+          "end": 425
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 两条直线的相交、平行与重合",
+      "markdown": "### 1 两条直线的相交、平行与重合",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 545,
+          "end": 545
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在平面几何中, 可依据公共点的个数判定两条直线的三种位置关系:如果两条直线无公共点，那么这两条直线平行；如果两条直线有且只有一个公共点, 那么这两条直线相交; 如果两条直线至少有两个不同的公共点, 那么这两条直线重合为一条直线, 即有无穷多个公共点. 但用平面几何方法来判断两条直线是否有公共点、有多少个公共点, 有时候并不是一件容易的事.\n\n在解析几何中, 我们可以将上述几何问题转化为代数问题来解决, 一般性的方法如下:\n\n在平面直角坐标系中, 已知两条直线:\n\n$$\n{l}_{1} : {a}_{1}x + {b}_{1}y + {c}_{1} = 0\\left( {{a}_{1}\\text{ 、 }{b}_{1}}\\right. \\text{ 不同时为零 })\\text{ , }\n$$\n\n$$\n{l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0\\left( {{a}_{2}\\text{ 、 }{b}_{2}\\text{ 不同时为零 }}\\right) .\n$$\n\n如果这两条直线有公共点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ ,那么点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 的坐标要同时满足这两条直线的方程,即 $\\left\\{  \\begin{array}{l} x = {x}_{0}, \\\\  y = {y}_{0} \\end{array}\\right.$ 是方程组\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1}x + {b}_{1}y + {c}_{1} = 0, \\\\  {a}_{2}x + {b}_{2}y + {c}_{2} = 0 \\end{array}\\right.\n$$\n\n①\n\n的解; 反过来,以方程组①的解为坐标的点也必是 ${l}_{1}$ 与 ${l}_{2}$ 的公共点. 这样, 我们可以通过讨论方程组①的解的情况来判断两条直线的位置关系.\n\n方程组①的解可分 3 种情况讨论:\n\n(1)若存在 $\\lambda  \\in  \\mathbf{R}$ ,使得 ${a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2}$ 且 ${c}_{1} = \\lambda {c}_{2}$ ,则方程组①的两个方程表示的是同一条直线，也就是说，直线 ${l}_{1}$ 与 ${l}_{2}$ 重合(此时方程组①有无数组解);\n\n(2)若存在 $\\lambda  \\in  \\mathbf{R}$ ,使得 ${a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2}$ 但 ${c}_{1} \\neq  \\lambda {c}_{2}$ ,把第二个方程两边同乘 $\\lambda$ 后减去第一个方程,得到 $\\lambda {c}_{2} - {c}_{1} = 0$ ,这个等式不可能成立,则方程组①无解,即直线 ${l}_{1}$ 与 ${l}_{2}$ 无公共点, 从而 ${l}_{1}//{l}_{2}$ ;\n\n(3)若不存在 $\\lambda  \\in  \\mathbf{R}$ ,使得 ${a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2}$ ,这个条件等价于 ${a}_{1}{b}_{2} \\neq  {a}_{2}{b}_{1}$ ,此时可以求得方程组①的唯一解\n\n$$\n\\left\\{  \\begin{array}{l} x = \\frac{{c}_{2}{b}_{1} - {c}_{1}{b}_{2}}{{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}, \\\\  y = \\frac{{c}_{1}{a}_{2} - {c}_{2}{a}_{1}}{{a}_{1}{b}_{2} - {a}_{2}{b}_{1}}, \\end{array}\\right.\n$$\n\n说明直线 ${l}_{1}$ 与 ${l}_{2}$ 有唯一的公共点,即 ${l}_{1}$ 与 ${l}_{2}$ 相交.\n\n总结一下: 给定两条直线\n\n${l}_{1} : {a}_{1}x + {b}_{1}y + {c}_{1} = 0\\left( {{a}_{1}\\text{ 、 }{b}_{1}}\\right.$ 不同时为零 $)$ ,\n\n${l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0\\left( {{a}_{2}\\text{ 、 }{b}_{2}\\text{ 不同时为零 }}\\right) ,$ 那么:\n\n${l}_{1}$ 与 ${l}_{2}$ 重合 $\\Leftrightarrow$ 存在 $\\lambda  \\in  \\mathbf{R}$ ,使得 ${a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2}$ , 且 ${c}_{1} = \\lambda {c}_{2}$ ;\n\n${l}_{1}//{l}_{2} \\Leftrightarrow$ 存在 $\\lambda  \\in  \\mathbf{R}$ ,使得 ${a}_{1} = \\lambda {a}_{2},{b}_{1} = \\lambda {b}_{2}$ , 但 ${c}_{1} \\neq  \\lambda {c}_{2}$ ;\n\n${l}_{1}$ 与 ${l}_{2}$ 相交 $\\Leftrightarrow  {a}_{1}{b}_{2} \\neq  {a}_{2}{b}_{1}$ .\n\n如果 ${l}_{2}$ 的方程中三个系数 ${a}_{2}\\text{ 、 }{b}_{2}$ 与 ${c}_{2}$ 均不为零,那么上述的充要条件可以写成更易于记忆的形式:\n\n${l}_{1}$ 与 ${l}_{2}$ 重合 $\\Leftrightarrow  \\frac{{a}_{1}}{{a}_{2}} = \\frac{{b}_{1}}{{b}_{2}} = \\frac{{c}_{1}}{{c}_{2}}$ ;\n\n${l}_{1}//{l}_{2} \\Leftrightarrow  \\frac{{a}_{1}}{{a}_{2}} = \\frac{{b}_{1}}{{b}_{2}} \\neq  \\frac{{c}_{1}}{{c}_{2}};$\n\n${l}_{1}$ 与 ${l}_{2}$ 相交 $\\Leftrightarrow  \\frac{{a}_{1}}{{a}_{2}} \\neq  \\frac{{b}_{1}}{{b}_{2}}$ .\n\n还有其他一些量可以简单地刻画两条直线相交与否:\n\n因为 $\\overrightarrow{{n}_{1}} = \\left( {{a}_{1},{b}_{1}}\\right)$ 与 $\\overrightarrow{{n}_{2}} = \\left( {{a}_{2},{b}_{2}}\\right)$ 分别是 ${l}_{1}$ 与 ${l}_{2}$ 的法向量, 所以上述第三个充要条件表明, ${l}_{1}$ 与 ${l}_{2}$ 相交的充要条件是它们的法向量不平行,从而 ${l}_{1}$ 与 ${l}_{2}$ 平行或重合的充要条件是它们的法向量平行 (这个结论也可以从另外两个充要条件得出).\n\n如果 ${b}_{1}$ 与 ${b}_{2}$ 均不为零,那么容易求出 ${l}_{1}$ 与 ${l}_{2}$ 的斜率分别是 ${k}_{1} =  - \\frac{{a}_{1}}{{b}_{1}}$ 与 ${k}_{2} =  - \\frac{{a}_{2}}{{b}_{2}}$ ,上述第三个充要条件又可以表明, ${l}_{1}$ 与 ${l}_{2}$ 相交的充要条件是它们的斜率不相等,从而 ${l}_{1}$ 与 ${l}_{2}$ 平行或重合的充要条件是它们的斜率相等 (这也可以从另外两个充要条件得出).\n\n用法向量或斜率表述的充要条件从几何上看也很直观.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 546,
+          "end": 612
+        }
+      ],
+      "emphases": [
+        {
+          "start": 2402,
+          "end": 2490,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 2859,
+          "end": 3139,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-3-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3141,
+          "end": 3405,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-3-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3407,
+          "end": 3431,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-3-3",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 判断下列两条直线的位置关系. 若相交, 求交点坐标.\n\n(1) ${l}_{1} : {0.5x} - y + 1 = 0,{l}_{2} : {3x} - {6y} + 8 = 0$ ；\n\n(2) ${l}_{1} : y = {2x} + 3,{l}_{2} : y =  - {2x} + 1.$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 613,
+          "end": 618
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 613,
+          "end": 618
+        }
+      ],
+      "id": "x1-1-3-ex-1",
+      "category": "例题",
+      "answer": "解(1)因为 $\\frac{0.5}{3} = \\frac{-1}{-6} \\neq  \\frac{1}{8}$ ，所以 ${l}_{1}//{l}_{2}$ .\n\n(2)因为 ${l}_{1}$ 与 ${l}_{2}$ 的斜率分别为 ${k}_{1} = 2,{k}_{2} =  - 2$ ，则 ${k}_{1} \\neq  {k}_{2}$ ， 所以两条直线相交.\n\n解方程组 $\\left\\{  \\begin{array}{l} y = {2x} + 3, \\\\  y =  - {2x} + 1, \\end{array}\\right.$ 得 $\\left\\{  \\begin{array}{l} x =  - \\frac{1}{2}, \\\\  y = 2. \\end{array}\\right.$\n\n所以，两条直线的交点坐标为 $\\left( {-\\frac{1}{2},2}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 619,
+          "end": 626
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 已知直线 ${l}_{1} : {mx} - {2y} + 1 = 0,{l}_{2} : x - \\left( {m + 1}\\right) y + \\; 1 = 0$ ,求实数 $m$ 的取值范围,使得:\n\n(1) ${l}_{1}$ 与 ${l}_{2}$ 相交;\n\n(2) ${l}_{1}//{l}_{2}$ ；\n\n(3) ${l}_{1}$ 与 ${l}_{2}$ 重合.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 627,
+          "end": 634
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 627,
+          "end": 634
+        }
+      ],
+      "id": "x1-1-3-ex-2",
+      "category": "例题",
+      "answer": "解 因为 ${l}_{1}$ 与 ${l}_{2}$ 相交的充要条件是 $m\\left\\lbrack  {-\\left( {m + 1}\\right) }\\right\\rbrack   \\neq  1 \\times  \\left( {-2}\\right)$ , 所以先解方程 $m\\left\\lbrack  {-\\left( {m + 1}\\right) }\\right\\rbrack   = 1 \\times  \\left( {-2}\\right)$ ,得 $m =  - 2$ 或 $m = 1$ . 于是有:\n\n(1)当 $m \\neq   - 2$ 且 $m \\neq  1$ 时， ${l}_{1}$ 与 ${l}_{2}$ 相交.\n\n(2)当 $m =  - 2$ 时，因为 $\\frac{1}{m} = \\frac{-\\left( {m + 1}\\right) }{-2} \\neq  \\frac{1}{1}$ ，所以 ${l}_{1}//{l}_{2}$ .\n\n(3)当 $m = 1$ 时,因为 $\\frac{1}{m} = \\frac{-\\left( {m + 1}\\right) }{-2} = \\frac{1}{1}$ ,所以 ${l}_{1}$ 与 ${l}_{2}$ 重合.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 635,
+          "end": 642
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 1.3(1)",
+      "markdown": "### 练习 1.3(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 643,
+          "end": 643
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(1) · 1",
+      "markdown": "1. 判断下列两条直线的位置关系. 若相交, 求交点坐标.\n\n(1) ${l}_{1} : x + {3y} + 1 = 0,{l}_{2} : {3x} + 4 = 0$ ;\n\n(2) ${l}_{1} : x - {3y} + 1 = 0,{l}_{2} : y = \\frac{1}{3}x + 4$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 645,
+          "end": 650
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 645,
+          "end": 650
+        }
+      ],
+      "id": "x1-1-3-p131-1",
+      "category": "练习1.3(1)",
+      "answer": "1. (1)相交于点 $\\left( {-\\frac{4}{3},\\frac{1}{9}}\\right)$ . (2)平行.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 674,
+          "end": 675
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(1) · 2",
+      "markdown": "2. 已知直线 ${l}_{1} : \\left( {a + 1}\\right) x + y + a = 0,{l}_{2} : x + \\left( {a + 1}\\right) y - 2 = 0$ . 若 ${l}_{1}//{l}_{2}$ ,求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 651,
+          "end": 652
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 651,
+          "end": 652
+        }
+      ],
+      "id": "x1-1-3-p131-2",
+      "category": "练习1.3(1)",
+      "answer": "2. $a = 0$ 或 $a =  - 2$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 676,
+          "end": 677
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(1) · 3",
+      "markdown": "3. 求经过直线 ${l}_{1} : x - y - 4 = 0$ 与 ${l}_{2} : {2x} - {3y} - 7 = 0$ 的交点,且与直线 ${l}_{3} : {2x} + \\; y + 1 = 0$ 平行的直线 $l$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 653,
+          "end": 654
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 653,
+          "end": 654
+        }
+      ],
+      "id": "x1-1-3-p131-3",
+      "category": "练习1.3(1)",
+      "answer": "3. ${2x} + y - {11} = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 678,
+          "end": 679
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 两条直线垂直的判定与夹角的求法",
+      "markdown": "### 2 两条直线垂直的判定与夹角的求法",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 655,
+          "end": 655
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们已经知道, 平面上两条相交直线交得的锐角或直角叫做这两条直线的夹角. 当两条直线的夹角为直角时, 称这两条直线垂直.\n\n在平面直角坐标系中, 给定两条相交的直线\n\n$$\n{l}_{1} : {a}_{1}x + {b}_{1}y + {c}_{1} = 0\\left( {{a}_{1}\\text{ 、 }{b}_{1}\\text{ 不同时为零 }}\\right) ,\n$$\n\n$$\n{l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0\\left( {{a}_{2}\\text{ 、 }{b}_{2}\\text{ 不同时为零 }}\\right) .\n$$\n\n如何根据方程判定两条直线是否垂直呢?\n\n![bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg)\n\n图 1-3-1\n\n我们知道, $\\overrightarrow{{n}_{1}} = \\left( {{a}_{1},{b}_{1}}\\right)$ 与 $\\overrightarrow{{n}_{2}} = \\left( {{a}_{2},{b}_{2}}\\right)$ 分别是直线 ${l}_{1}$ 与 ${l}_{2}$ 的法向量. 由于直线与其法向量所在直线垂直 (图 1-3-1), 因此 ${l}_{1} \\bot  {l}_{2} \\Leftrightarrow  \\overrightarrow{{n}_{1}} \\bot  \\overrightarrow{{n}_{2}}$ ，再由必修课程 8.3 节的向量垂直的充要条件 $\\overrightarrow{{n}_{1}} \\bot  \\overrightarrow{{n}_{2}} \\Leftrightarrow  {a}_{1}{a}_{2} + {b}_{1}{b}_{2} = 0$ ，我们得到\n\n$$\n{l}_{1} \\bot  {l}_{2} \\Leftrightarrow  {a}_{1}{a}_{2} + {b}_{1}{b}_{2} = 0.\n$$\n\n特别地,当 ${b}_{1}{b}_{2} \\neq  0$ 时,直线 ${l}_{1}$ 与 ${l}_{2}$ 的斜率都存在,分别为 ${k}_{1} =  - \\frac{{a}_{1}}{{b}_{1}}$ 与 ${k}_{2} =  - \\frac{{a}_{2}}{{b}_{2}}$ ,条件 ${a}_{1}{a}_{2} + {b}_{1}{b}_{2} = 0$ 可以改写为 $\\frac{{a}_{1}}{{b}_{1}} \\cdot  \\frac{{a}_{2}}{{b}_{2}} =$ -1 , 即 ${k}_{1}{k}_{2} =  - 1$ . 于是\n\n$$\n{l}_{1} \\bot  {l}_{2} \\Leftrightarrow  {k}_{1}{k}_{2} =  - 1.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 656,
+          "end": 686
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 60,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-11-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 481,
+          "end": 912,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-3-definition-11-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 已知直线 ${l}_{1} : x + {my} - 2 = 0$ 与 ${l}_{2} : \\left( {m - 2}\\right) x + \\; {3my} + {2m} = 0$ 互相垂直,求实数 $m$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 687,
+          "end": 688
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 687,
+          "end": 688
+        }
+      ],
+      "id": "x1-1-3-ex-3",
+      "category": "例题",
+      "answer": "解 由两条直线互相垂直的充要条件, 得\n\n$$\n\\left( {m - 2}\\right)  + 3{m}^{2} = 0,\n$$\n\n解得\n\n$$\nm = \\frac{2}{3}\\text{ 或 }m =  - 1.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 689,
+          "end": 700
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 求经过点 $\\left( {4,5}\\right)$ 且与直线 $l : y =  - \\frac{1}{3}x + 2$ 垂直的直线 ${l}^{\\prime }$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 701,
+          "end": 702
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 701,
+          "end": 702
+        }
+      ],
+      "id": "x1-1-3-ex-4",
+      "category": "例题",
+      "answer": "解 因为 $l$ 的斜率 $k =  - \\frac{1}{3}$ ,且 $l \\bot  {l}^{\\prime }$ ,所以 ${l}^{\\prime }$ 的斜率 ${k}^{\\prime } = 3$ .\n\n因为 ${l}^{\\prime }$ 经过点 $\\left( {4,5}\\right)$ ,所以 ${l}^{\\prime }$ 的点斜式方程是 $y - 5 = \\; 3\\left( {x - 4}\\right)$ ,化简为 ${3x} - y - 7 = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 706
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 已知直角三角形 ${ABC}$ 的斜边 ${BC}$ 在 $x$ 轴上,且长度为 8,直角顶点 $A$ 的坐标是 $\\left( {2,4}\\right)$ . 求直角边 ${AB}$ 所在直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 707,
+          "end": 708
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 707,
+          "end": 708
+        }
+      ],
+      "id": "x1-1-3-ex-5",
+      "category": "例题",
+      "answer": "解 根据条件可知,直角边 ${AB}$ 斜率存在且不为零. 不妨设此斜率为 $k$ ,则 ${AC}$ 所在直线的斜率为 $- \\frac{1}{k}$ . 所以 ${AB}$ 与 ${AC}$ 所在的直线方程分别为 $y - 4 = k\\left( {x - 2}\\right)$ 与 $y - 4 =  - \\frac{1}{k}\\left( {x - 2}\\right)$ . 令 $y = 0$ ,得点 $B$ 与点 $C$ 的横坐标分别为 $2 - \\frac{4}{k}$ 与 $2 + {4k}$ .\n\n由 $\\left| {BC}\\right|  = 8$ ,得 $\\left| {{4k} + \\frac{4}{k}}\\right|  = 8$ ,解得 $k = 1$ 或 $k =  - 1$ .\n\n所以,直角边 ${AB}$ 所在直线的方程为 $y = x + 2$ 或 $y =  - x + 6$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 709,
+          "end": 714
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 1.3(2)",
+      "markdown": "### 练习 1.3(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 715
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(2) · 1",
+      "markdown": "1. 已知直线 ${l}_{1} : \\left( {a - 2}\\right) x + {ay} - 2 = 0$ 与 ${l}_{2} : \\left( {1 - a}\\right) x + \\left( {a + 1}\\right) y + 1 = 0$ 互相垂直， 求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "id": "x1-1-3-p132-1",
+      "category": "练习1.3(2)",
+      "answer": "1. $a = \\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 682,
+          "end": 683
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(2) · 2",
+      "markdown": "2. 求过点 $\\left( {-1, - 1}\\right)$ 且分别与下列直线垂直的直线方程:\n\n(1) $y = 2$ ；\n\n(2) $y = x$ ；\n\n(3) ${2x} + y + 2 = 0$ ；\n\n(4) $x\\cos \\theta  + y\\sin \\theta  = 1$ ， $\\theta$ 为给定的实数.\n\n如果 ${l}_{1} : {a}_{1}x + {b}_{1}y + {c}_{1} = 0$ 与 ${l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0$ 是给定的两条相交直线,我们该如何求出它们的夹角 $\\alpha$ 呢?\n\n根据必修课程 8.3 节的向量夹角的余弦公式, 我们立即可以得到 ${l}_{1}$ 与 ${l}_{2}$ 的法向量 $\\overrightarrow{{n}_{1}} = \\left( {{a}_{1},{b}_{1}}\\right)$ 与 $\\overrightarrow{{n}_{2}} = \\left( {{a}_{2},{b}_{2}}\\right)$ 的夹角 $\\theta$ 的余弦\n\n$$\n\\cos \\theta  = \\frac{{a}_{1}{a}_{2} + {b}_{1}{b}_{2}}{\\sqrt{{a}_{1}^{2} + {b}_{1}^{2}}\\sqrt{{a}_{2}^{2} + {b}_{2}^{2}}}.\n$$\n\n因此，只要理清角 $\\theta$ 与角 $\\alpha$ 的关系，就能得出角 $\\alpha$ 的余弦公式.\n\n如图 1-3-2,设两条直线 (实线所示) 的夹角为 $\\alpha$ ,不妨从夹角内部的一点分别作两条直线的一个法向量,法向量夹角为 $\\theta$ . 两个法向量所在直线 (虚线所示) 和原来的两条直线围成了一个四边形,其中一组对角均是直角,另外一组对角是 $\\alpha$ 与 $\\theta$ 或者 $\\alpha$ 与 $\\pi  - \\theta$ . 由此可见 $\\alpha  + \\theta  = \\pi$ 或者 $\\alpha  + \\left( {\\pi  - \\theta }\\right)  = \\pi$ ,推出 $\\alpha  = \\pi  - \\theta$ 或者 $\\alpha  = \\theta$ . 这样, $\\cos \\alpha  =  \\pm  \\cos \\theta$ . 因为 $0 < \\alpha  \\leq  \\frac{\\pi }{2},\\cos \\alpha  \\geq  0$ ,所以 $\\cos \\alpha  = \\left| {\\cos \\theta }\\right|$ .\n\n![bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg)\n\n图 1-3-2\n\n把这个一般的讨论用于直线 ${l}_{1}$ 与 ${l}_{2}$ 的情况,则 ${l}_{1} : {a}_{1}x + \\; {b}_{1}y + {c}_{1} = 0$ 与 ${l}_{2} : {a}_{2}x + {b}_{2}y + {c}_{2} = 0$ 的夹角 $\\alpha$ 的余弦公式为\n\n$$\n\\cos \\alpha  = \\frac{\\left| {a}_{1}{a}_{2} + {b}_{1}{b}_{2}\\right| }{\\sqrt{{a}_{1}^{2} + {b}_{1}^{2}}\\sqrt{{a}_{2}^{2} + {b}_{2}^{2}}}.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 750
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 750
+        }
+      ],
+      "id": "x1-1-3-p132-2",
+      "category": "练习1.3(2)",
+      "answer": "2. (1) $x =  - 1.\\;$ (2) $x + y + 2 = 0.$\n\n(3) $x - {2y} - 1 = 0$ . (4) $x\\sin \\theta  - y\\cos \\theta  + \\sin \\theta  - \\cos \\theta  = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 684,
+          "end": 687
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 求直线 ${l}_{1} : x + {3y} - 1 = 0$ 与 ${l}_{2} : y = {2x} + 7$ 的夹角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 751,
+          "end": 752
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 751,
+          "end": 752
+        }
+      ],
+      "id": "x1-1-3-ex-6",
+      "category": "例题",
+      "answer": "解 直线 ${l}_{2}$ 的一般式方程可写成 ${2x} - y + 7 = 0$ ,因此直线 ${l}_{1}$ 与直线 ${l}_{2}$ 的夹角 $\\alpha$ 的余弦值为\n\n$$\n\\cos \\alpha  = \\frac{\\left| 2 - 3\\right| }{\\sqrt{1 + 9} \\times  \\sqrt{4 + 1}} = \\frac{\\sqrt{2}}{10},\n$$\n\n于是 $\\alpha  = \\arccos \\frac{\\sqrt{2}}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 753,
+          "end": 760
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 已知直线 ${l}^{\\prime }$ 经过点 $P\\left( {2,1}\\right)$ ，与直线 $l : {x + {2y} + 1} = 0$ 夹角为 $\\arccos \\frac{\\sqrt{5}}{5}$ . 求直线 ${l}^{\\prime }$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 762
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 762
+        }
+      ],
+      "id": "x1-1-3-ex-7",
+      "category": "例题",
+      "answer": "解 设直线 ${l}^{\\prime }$ 的一个法向量为 $\\left( {a, b}\\right)$ ,其中 $a\\text{ 、 }b$ 不同时为零,则 ${l}^{\\prime }$ 的点法式方程为 $a\\left( {x - 2}\\right)  + b\\left( {y - 1}\\right)  = 0$ .\n\n根据夹角的余弦公式, 得\n\n$$\n\\frac{\\left| a + 2b\\right| }{\\sqrt{{a}^{2} + {b}^{2}} \\cdot  \\sqrt{{1}^{2} + {2}^{2}}} = \\frac{\\sqrt{5}}{5},\n$$\n\n化简为 $3{b}^{2} + {4ab} = 0$ . 所以 $b = 0$ 或 $b =  - \\frac{4}{3}a$ ,此时 $a \\neq  0$ .\n\n把 $b = 0$ 或 $b =  - \\frac{4}{3}a$ 代入直线 ${l}^{\\prime }$ 的方程，得 $x = 2$ 或 $3(x -$ 2) $- 4\\left( {y - 1}\\right)  = 0$ .\n\n所以直线 ${l}^{\\prime }$ 的方程有两个,一个是 $x = 2$ ,另一个是 ${3x} - \\; {4y} - 2 = 0.$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 776
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 1.3(3)",
+      "markdown": "### 练习 1.3(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 777,
+          "end": 777
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(3) · 1",
+      "markdown": "1. 根据下列方程,求直线 ${l}_{1}$ 与 ${l}_{2}$ 的夹角的大小:\n\n(1) ${l}_{1} : {3x} - {5y} + 1 = 0$ 与 ${l}_{2} : {2x} + y = 3$ ；\n\n(2) ${l}_{1} : y = {5x} - 3$ 与 ${l}_{2} : y =  - {3x} + 2$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 779,
+          "end": 784
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 779,
+          "end": 784
+        }
+      ],
+      "id": "x1-1-3-p133-1",
+      "category": "练习1.3(3)",
+      "answer": "1. (1) $\\arccos \\frac{\\sqrt{170}}{170}$ . (2) $\\arccos \\frac{7\\sqrt{65}}{65}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 690,
+          "end": 691
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(3) · 2",
+      "markdown": "2. 已知直线 ${l}_{1} : \\sqrt{3}x - y + 3 = 0$ 与直线 ${l}_{2} : y = {kx} + 3$ 的夹角为 $\\frac{\\pi }{4}$ ,求实数 $k$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 785,
+          "end": 786
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 785,
+          "end": 786
+        }
+      ],
+      "id": "x1-1-3-p133-2",
+      "category": "练习1.3(3)",
+      "answer": "2. $k = 2 - \\sqrt{3}$ 或 $k =  - 2 - \\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 692,
+          "end": 693
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.3(3) · 3",
+      "markdown": "3. 求经过点 $A\\left( {4, - 3}\\right)$ 且与直线 $l : x + y - 3 = 0$ 的夹角为 $\\frac{\\pi }{3}$ 的直线 ${l}^{\\prime }$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 787,
+          "end": 788
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 787,
+          "end": 788
+        }
+      ],
+      "id": "x1-1-3-p133-3",
+      "category": "练习1.3(3)",
+      "answer": "3. $\\left( {2 + \\sqrt{3}}\\right) x - y - {11} - 4\\sqrt{3} = 0$ 或 $\\left( {2 - \\sqrt{3}}\\right) x - y - {11} + 4\\sqrt{3} = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 694,
+          "end": 695
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 1.3",
+      "markdown": "### 习题 1.3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 789,
+          "end": 789
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 791,
+          "end": 791
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 1",
+      "markdown": "1. 根据下列方程,判定直线 ${l}_{1}$ 与 ${l}_{2}$ 的位置关系:\n\n(1) ${l}_{1} : {2x} - {3y} - 1 = 0,{l}_{2} : {4x} - {6y} - 2 = 0$ ；\n\n(2) ${l}_{1} : y = \\frac{1}{3}x + 1,{l}_{2} : x - {6y} - 2 = 0$ ；\n\n(3) ${l}_{1} : \\left( {\\sqrt{5} - 1}\\right) x - {2y} + 1 = 0,{l}_{2} : {2x} - \\left( {\\sqrt{5} - 1}\\right) y - 2 = 0$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 793,
+          "end": 800
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 793,
+          "end": 800
+        }
+      ],
+      "id": "x1-1-3-h13A-1",
+      "category": "习题1.3A",
+      "answer": "1.(1)重合. (2)相交. (3)相交.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 700,
+          "end": 701
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 2",
+      "markdown": "2. 已知直线 ${l}_{1} : {6x} + \\left( {t - 1}\\right) y - 8 = 0$ ，直线 ${l}_{2} : \\left( {t + 4}\\right) x + \\left( {t + 6}\\right) y - {16} = 0$ . 根据下列条件,求实数 $t$ 的取值范围:\n\n(1) ${l}_{1}$ 与 ${l}_{2}$ 相交;\n\n(2) ${l}_{1}//{l}_{2}$ ；\n\n(3) ${l}_{1}$ 与 ${l}_{2}$ 重合.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 801,
+          "end": 808
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 801,
+          "end": 808
+        }
+      ],
+      "id": "x1-1-3-h13A-2",
+      "category": "习题1.3A",
+      "answer": "2.(1)t ≠ 8 且 $t \\neq   - 5$ . (2) $t =  - 5$ . (3) $t = 8$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 702,
+          "end": 703
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 3",
+      "markdown": "3. 已知两条直线 ${l}_{1} : \\left( {t - 1}\\right) x + {2y} - t = 0$ 和 ${l}_{2} : x + {ty} + t - 2 = 0$ ,且 ${l}_{1}//{l}_{2}$ . 求实数 $t$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 809,
+          "end": 810
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 809,
+          "end": 810
+        }
+      ],
+      "id": "x1-1-3-h13A-3",
+      "category": "习题1.3A",
+      "answer": "3. $t = 2$ 或 $t =  - 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 704,
+          "end": 705
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 4",
+      "markdown": "4. 已知平行四边形 ${ABCD}$ 中,一组对边 ${AB}\\text{ 、 }{CD}$ 所在直线的方程分别为 ${ax} + {4y} = a + 2$ , $x + {ay} = a$ . 求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 811,
+          "end": 812
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 811,
+          "end": 812
+        }
+      ],
+      "id": "x1-1-3-h13A-4",
+      "category": "习题1.3A",
+      "answer": "4. $a =  - 2$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 706,
+          "end": 707
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 5",
+      "markdown": "5. 已知四边形 ${ABCD}$ 的四个顶点的坐标分别为 $A\\left( {-1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right) \\text{ 、 }C\\left( {3,2}\\right) \\text{ 、 }D\\left( {1,1}\\right)$ , 求证: 四边形 ${ABCD}$ 是梯形.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 813,
+          "end": 814
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 813,
+          "end": 814
+        }
+      ],
+      "id": "x1-1-3-h13A-5",
+      "category": "习题1.3A",
+      "answer": "5. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 708,
+          "end": 709
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 6",
+      "markdown": "6. 已知直线 ${l}_{1} : \\left( {k - 3}\\right) x + \\left( {5 - k}\\right) y + 1 = 0$ 与直线 ${l}_{2} : 2\\left( {k - 3}\\right) x - {2y} + \\left( {2 - k}\\right)  = 0$ 互相垂直,求实数 $k$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 815,
+          "end": 816
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 815,
+          "end": 816
+        }
+      ],
+      "id": "x1-1-3-h13A-6",
+      "category": "习题1.3A",
+      "answer": "6. $k = 1$ 或 $k = 4$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 710,
+          "end": 711
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 7",
+      "markdown": "7. 已知直线 $l$ 垂直于直线 ${l}^{\\prime } : {2x} + {3y} - 4 = 0$ ，根据下列条件求 $l$ 的方程:\n\n(1) $l$ 经过点 $\\left( {1,1}\\right)$ ；\n\n(2) $l$ 与坐标轴围成的三角形的面积是 3 .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 817,
+          "end": 822
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 817,
+          "end": 822
+        }
+      ],
+      "id": "x1-1-3-h13A-7",
+      "category": "习题1.3A",
+      "answer": "7. (1) ${3x} - {2y} - 1 = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 712,
+          "end": 713
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 8",
+      "markdown": "8. 已知等腰直角三角形 ${ABC}$ 的斜边 ${AB}$ 所在直线的方程为 ${3x} - y - 5 = 0$ ,直角顶点为 $C\\left( {4, - 1}\\right)$ . 求两条直角边所在直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 823,
+          "end": 824
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 823,
+          "end": 824
+        }
+      ],
+      "id": "x1-1-3-h13A-8",
+      "category": "习题1.3A",
+      "answer": "8. $x - {2y} - 6 = 0,{2x} + y - 7 = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 714,
+          "end": 715
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 9",
+      "markdown": "9. 根据下列方程,求直线 ${l}_{1}$ 与 ${l}_{2}$ 的夹角的大小:\n\n(1) ${l}_{1} : x + {3y} + 2 = 0,{l}_{2} : {4x} + {2y} - 1 = 0$ ;\n\n(2) ${l}_{1} : {x + {2y} - 3} = 0,{l}_{2} : {x - y - 5} = 0$ ；\n\n(3) ${l}_{1} : {2x} - {3y} + 6 = 0,{l}_{2} : x - 5 = 0$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 825,
+          "end": 832
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 825,
+          "end": 832
+        }
+      ],
+      "id": "x1-1-3-h13A-9",
+      "category": "习题1.3A",
+      "answer": "9. (1) $\\frac{\\pi }{4}$ . (2) $\\arccos \\frac{\\sqrt{10}}{10}$ . (3) $\\arccos \\frac{2\\sqrt{13}}{13}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 716,
+          "end": 717
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 10",
+      "markdown": "10. 若直线 $x + {my} + 5 = 0$ 与直线 $x + y + 1 = 0$ 的夹角为 $\\frac{\\pi }{4}$ ,求实数 $m$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 833,
+          "end": 834
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 833,
+          "end": 834
+        }
+      ],
+      "id": "x1-1-3-h13A-10",
+      "category": "习题1.3A",
+      "answer": "10. $m = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 718,
+          "end": 719
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3A · 11",
+      "markdown": "11. 已知等腰直角三角形 ${ABC}$ 的直角边 ${BC}$ 所在直线的方程为 $x - {2y} - 6 = 0$ ,顶点 $A$ 的坐标为 $\\left( {0,6}\\right)$ . 分别求直角边 ${AC}$ 、斜边 ${AB}$ 所在直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 836
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 836
+        }
+      ],
+      "id": "x1-1-3-h13A-11",
+      "category": "习题1.3A",
+      "answer": "11. 直角边 ${AC}$ 所在直线的方程为 ${2x} + y - 6 = 0$ ; 斜边 ${AB}$ 所在直线的方程为 ${3x} - y + 6 = 0$ 或 $x + {3y} - {18} = 0.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 720,
+          "end": 721
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 837,
+          "end": 837
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 1",
+      "markdown": "1. 给定直线 ${l}_{1} : y = {ax} + b$ ,直线 ${l}_{2} : y = {bx} - a$ . 已知直线 ${l}_{1}$ 的倾斜角为 $\\frac{3\\pi }{4}$ ,且它与直线 ${l}_{2}$ 的交点落在直线 ${l}_{3} : {2x} + y - 2 = 0$ 上. 求实数 $b$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 839,
+          "end": 840
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 839,
+          "end": 840
+        }
+      ],
+      "id": "x1-1-3-h13B-1",
+      "category": "习题1.3B",
+      "answer": "1. $b = \\sqrt{3}$ 或 $b =  - \\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 724,
+          "end": 725
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 2",
+      "markdown": "2. 求证: 不论实数 $\\lambda$ 取何值,直线 $l : {2x} + y - 4 + \\lambda \\left( {x - y + 2}\\right)  = 0$ 经过同一个点, 并求所有这些直线的公共点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 841,
+          "end": 842
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 841,
+          "end": 842
+        }
+      ],
+      "id": "x1-1-3-h13B-2",
+      "category": "习题1.3B",
+      "answer": "2. 证明略,所有这些直线的公共点是 $\\left( {\\frac{2}{3},\\frac{8}{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 726,
+          "end": 727
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 3",
+      "markdown": "3. 已知集合 $A = \\{ \\left( {x, y}\\right)  \\mid  {{2x} - \\left( {a + 1}\\right) y - 1 = 0}\\} , B = \\{ \\left( {x, y}\\right)  \\mid  {{ax} - y + 1 = 0}\\}$ ,且 $A \\cap  B = \\varnothing$ . 求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 843,
+          "end": 844
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 843,
+          "end": 844
+        }
+      ],
+      "id": "x1-1-3-h13B-3",
+      "category": "习题1.3B",
+      "answer": "3. $a = 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 728,
+          "end": 729
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 4",
+      "markdown": "4. 分别求经过直线 ${l}_{1} : {5x} + {2y} - 3 = 0$ 和 ${l}_{2} : {3x} - {5y} - 8 = 0$ 的交点，且与直线 $x + {4y} - 7 = 0$ 垂直、平行的直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 845,
+          "end": 846
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 845,
+          "end": 846
+        }
+      ],
+      "id": "x1-1-3-h13B-4",
+      "category": "习题1.3B",
+      "answer": "4. 与直线 $x + {4y} - 7 = 0$ 垂直、平行的直线的方程分别为 ${4x} - y - 5 = 0, x + {4y} + \\; 3 = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 730,
+          "end": 731
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 5",
+      "markdown": "5. 已知 $\\bigtriangleup {ABC}$ 的一个顶点为 $A\\left( {3, - 4}\\right)$ ,有两条高所在直线的方程分别是 ${7x} - \\; {2y} - 1 = 0$ 与 ${2x} - {7y} - 6 = 0$ . 求 $\\bigtriangleup {ABC}$ 三条边所在直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 847,
+          "end": 848
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 847,
+          "end": 848
+        }
+      ],
+      "id": "x1-1-3-h13B-5",
+      "category": "习题1.3B",
+      "answer": "5. 边 ${AC}\\text{、}{AB}\\text{、}{BC}$ 所在直线的方程分别为 ${2x} + {7y} + {22} = 0,{7x} + {2y} - {13} = 0$ , $x - y + 2 = 0.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 732,
+          "end": 733
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 6",
+      "markdown": "6. 求直线 ${l}_{1} : x + y - 3 = 0$ 与直线 ${l}_{2} : {7x} - y - 5 = 0$ 夹角平分线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 849,
+          "end": 850
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 849,
+          "end": 850
+        }
+      ],
+      "id": "x1-1-3-h13B-6",
+      "category": "习题1.3B",
+      "answer": "6. ${3x} + y - 5 = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 734,
+          "end": 735
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.3B · 7",
+      "markdown": "7. 一束光线经过点 $\\left( {-2,1}\\right)$ ,由直线 $l : y = x$ 反射后,经过点 $\\left( {3,5}\\right)$ 射出. 求反射光线所在直线的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 851,
+          "end": 852
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 851,
+          "end": 852
+        }
+      ],
+      "id": "x1-1-3-h13B-7",
+      "category": "习题1.3B",
+      "answer": "7. ${7x} - {2y} - {11} = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 736,
+          "end": 737
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "line": 664,
+      "repair": "恢复OCR遗漏的1.2习题B组9题答案编号",
+      "evidence": "独立复算截距和与面积，分别C=5与C=±10√2，吻合教材第9题"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 671,
+      "original": "images/bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 741,
+      "original": "images/bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 418,
+      "original": "../images/bo_d402onjef24c73d2tg30_33_202_1542_1118_310_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_33_202_1542_1118_310_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-1-3.json",
+    "question_count": 33,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

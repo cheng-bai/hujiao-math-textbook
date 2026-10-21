@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x2-5-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>5.2 导数的运算 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x2.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第二册 / 第5章导数及其应用</div><div class="spine-number">5.2</div><nav aria-label="本节目录"><a href="#x2-5-2"><span>5.2</span>导数的运算</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 5.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 5.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>导数的运算<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第二册<br>第5章导数及其应用 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>10 个例题</span><span>27 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x2-5-2" data-title="导数的运算"><section class="section-heading" id="x2-5-2"><span class="section-number">5.2</span><div><h2>导数的运算</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="41231a258563813377b32f58fb2550b0c3c97830729407cc954126ea4d2764ff" id="x2-5-2-b2"><aside class="key-point key-concept" id="x2-5-2-definition-2-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在本章 5.1 节的学习中, 我们已经了解到一个函数在某点处导数的概念. 从导数的定义中不难发现: 给定函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> ,在导数存在的前提下,对于不同的 <span class="math" data-tex="{x}_{0}" data-display="false"></span> ,总有一个确定的导数值 <span class="math" data-tex="{f}^{\prime }\left( {x}_{0}\right)" data-display="false"></span> 与之对应. 换句话说,如果用 <span class="math" data-tex="x" data-display="false"></span> 表示自变量,那么 <span class="math" data-tex="{y}^{\prime } = \; {f}^{\prime }\left( x\right)" data-display="false"></span> 也是一个关于 <span class="math" data-tex="x" data-display="false"></span> 的函数. 称为函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导函数 (derived function, 也简称为导数), 其中</p>
+</aside><div class="math display" data-tex="{f}^{\prime }\left( x\right)  = \mathop{\lim }\limits_{{h \rightarrow  0}}\frac{f\left( {x + h}\right)  - f\left( x\right) }{h}." data-display="true"></div>
+<aside class="key-point key-concept" id="x2-5-2-definition-2-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>求一个函数的导 (函) 数的过程常简称为求导.</p>
+</aside><p>如果能够求出函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数 <span class="math" data-tex="{y}^{\prime } = {f}^{\prime }\left( x\right)" data-display="false"></span> ,那么求该函数在某点处导数的问题就可以通过简单的代入求值来解决.</p>
+</div><h3 class="group-heading" id="x2-5-2-b3">1 基本初等函数的导数</h3><div class="prose" data-visual-source-sha="95f7cf8766776196b1464384e4f1dd9f4eb9ee54ef44f073e651c734dad30531" id="x2-5-2-b4"><p>根据导数的定义, 可以求出一些基本初等函数的导数.</p>
+</div><article class="question" id="x2-5-2-ex-1" data-question-id="x2-5-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 求常数函数 <span class="math" data-tex="y = C" data-display="false"></span> 的导数.</p>
+</div></article><article class="question" id="x2-5-2-ex-2" data-question-id="x2-5-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 求函数 <span class="math" data-tex="y = {kx} + b" data-display="false"></span> 的导数.</p>
+</div></article><article class="question" id="x2-5-2-ex-3" data-question-id="x2-5-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 求下列幂函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数,其中:</p>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = {x}^{2}" data-display="false"></span> ； (2) <span class="math" data-tex="f\left( x\right)  = {x}^{-1}" data-display="false"></span> ； (3) <span class="math" data-tex="f\left( x\right)  = {x}^{\frac{1}{2}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-ex-4" data-question-id="x2-5-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 已知函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> ,其中 <span class="math" data-tex="f\left( x\right)  = \frac{1}{{x}^{2}}" data-display="false"></span> . 求 <span class="math" data-tex="{f}^{\prime }\left( 2\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-ex-5" data-question-id="x2-5-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 求正弦函数 <span class="math" data-tex="y = \sin x" data-display="false"></span> 的驻点.</p>
+</div></article><h3 class="group-heading" id="x2-5-2-b10">练习 5.2(1)</h3><article class="question" id="x2-5-2-p521-1" data-question-id="x2-5-2-p521-1" data-category="practice"><div class="question-label">练习5.2(1) · 1</div><div class="question-body"><ol>
+<li>用导数的定义求函数 <span class="math" data-tex="y = {x}^{2} + {3x} - 5" data-display="false"></span> 的导数.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-p521-2" data-question-id="x2-5-2-p521-2" data-category="practice"><div class="question-label">练习5.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>用公式求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数,其中:</li>
+</ol>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = \sqrt[3]{{x}^{2}}" data-display="false"></span> ； (2) <span class="math" data-tex="f\left( x\right)  = {x}^{\pi }" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-p521-3" data-question-id="x2-5-2-p521-3" data-category="practice"><div class="question-label">练习5.2(1) · 3</div><div class="question-body"><ol start="3">
+<li>求余弦函数 <span class="math" data-tex="y = \cos x" data-display="false"></span> 在 <span class="math" data-tex="x = \frac{\pi }{2}" data-display="false"></span> 处的导数.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-p521-4" data-question-id="x2-5-2-p521-4" data-category="practice"><div class="question-label">练习5.2(1) · 4</div><div class="question-body"><ol start="4">
+<li>证明函数 <span class="math" data-tex="y = \ln x" data-display="false"></span> 与 <span class="math" data-tex="y = {\mathrm{e}}^{x}" data-display="false"></span> 没有驻点.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-5-2-b15">探究与实践</h3><div class="prose" data-visual-source-sha="ca76185cae64de9da4fc19a12c998aa71c86d27313d840b4311edada5d2d4a9b" id="x2-5-2-b16"><p>在我们熟悉的基本初等函数中, 有哪些函数的图像存在水平切线? 有哪些函数的图像在所有点处切线的斜率均大于 0 ? 尝试从导数公式和函数图像两个角度进行探究.</p>
+</div><h3 class="group-heading" id="x2-5-2-b17">2 导数的四则运算</h3><div class="prose" data-visual-source-sha="d6db09ecdf596bb1e14ecd6329e4d320a046f9eac5558516f147cfb1d32f01a7" id="x2-5-2-b18"><p>基本初等函数可以通过四则运算产生新的初等函数. 这些初等函数的求导可以通过以下的“导数四则运算法则”归结为基本初等函数的求导.</p>
+<p>对函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 与 <span class="math" data-tex="y = g\left( x\right)" data-display="false"></span> ,以下等式成立:</p>
+<p>(7) <span class="math" data-tex="{\left( f\left( x\right)  \pm  g\left( x\right) \right) }^{\prime } = {f}^{\prime }\left( x\right)  \pm  {g}^{\prime }\left( x\right)" data-display="false"></span> ;</p>
+<p>(8) <span class="math" data-tex="{\left( f\left( x\right) g\left( x\right) \right) }^{\prime } = {f}^{\prime }\left( x\right) g\left( x\right)  + f\left( x\right) {g}^{\prime }\left( x\right)" data-display="false"></span> ;</p>
+<p>(9) <span class="math" data-tex="{\left( \frac{f\left( x\right) }{g\left( x\right) }\right) }^{\prime } = \frac{{f}^{\prime }\left( x\right) g\left( x\right)  - f\left( x\right) {g}^{\prime }\left( x\right) }{{\left( g\left( x\right) \right) }^{2}}" data-display="false"></span> ,其中 <span class="math" data-tex="g\left( x\right)  \neq  0" data-display="false"></span> .</p>
+<p>用导数的定义可以推导出这些公式. 这里只推导关于积的求导公式(8)，其余的留给有兴趣的同学自行完成.</p>
+<p>由导数的定义,</p>
+<div class="math display" data-tex="f\left( {x + h}\right) g\left( {x + h}\right)  - f\left( x\right) g\left( x\right)" data-display="true"></div>
+<div class="math display" data-tex="= f\left( {x + h}\right) g\left( {x + h}\right)  - f\left( x\right) g\left( {x + h}\right)  + f\left( x\right) g\left( {x + h}\right)  - f\left( x\right) g\left( x\right)" data-display="true"></div>
+<div class="math display" data-tex="= \left\lbrack  {f\left( {x + h}\right)  - f\left( x\right) }\right\rbrack  g\left( {x + h}\right)  + f\left( x\right) \left\lbrack  {g\left( {x + h}\right)  - g\left( x\right) }\right\rbrack  ," data-display="true"></div>
+<p>于是可得</p>
+<div class="math display" data-tex="\frac{f\left( {x + h}\right) g\left( {x + h}\right)  - f\left( x\right) g\left( x\right) }{h}" data-display="true"></div>
+<div class="math display" data-tex="= \frac{f\left( {x + h}\right)  - f\left( x\right) }{h}g\left( {x + h}\right)  + f\left( x\right) \frac{g\left( {x + h}\right)  - g\left( x\right) }{h}." data-display="true"></div>
+<p>所以,当 <span class="math" data-tex="h" data-display="false"></span> 趋近于 0 时,就有</p>
+<div class="math display" data-tex="{\left( f\left( x\right) g\left( x\right) \right) }^{\prime } = {f}^{\prime }\left( x\right) g\left( x\right)  + f\left( x\right) {g}^{\prime }\left( x\right) ." data-display="true"></div>
+</div><article class="question" id="x2-5-2-ex-6" data-question-id="x2-5-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 证明: 对函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 与任何常数 <span class="math" data-tex="C" data-display="false"></span> ,都有</p>
+<div class="math display" data-tex="\text{ (10) }{\left( Cf\left( x\right) \right) }^{\prime } = C{f}^{\prime }\left( x\right) \text{ . }" data-display="true"></div>
+</div></article><article class="question" id="x2-5-2-ex-7" data-question-id="x2-5-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数，其中:</p>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = {x}^{2}\sin x" data-display="false"></span> ；___</p>
+<p>(2) <span class="math" data-tex="f\left( x\right)  = \frac{{x}^{2}}{x + 2}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="f\left( x\right)  = {\left( x - 2\right) }^{2}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-ex-8" data-question-id="x2-5-2-ex-8" data-category="example"><div class="question-label">例题 8</div><div class="question-body"><p>例 8 设实数 <span class="math" data-tex="a &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="a \neq  1" data-display="false"></span> ,求证: <span class="math" data-tex="{\left( {\log }_{a}x\right) }^{\prime } = \frac{1}{x\ln a}" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="x2-5-2-b22">练习 5.2(2)</h3><div class="prose" data-visual-source-sha="297feb5ab4489315e3b860648e349ef41c3560f2b66e630bf3c9d40a99e08aeb" id="x2-5-2-b23"><p>求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数,其中:</p>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = 3{\mathrm{e}}^{x} - {x}^{\mathrm{e}} + \mathrm{e}" data-display="false"></span> ； (2) <span class="math" data-tex="f\left( x\right)  = \cos x - \frac{2}{x}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="f\left( x\right)  = {\left( 2x + 1\right) }^{3}" data-display="false"></span> ； (4) <span class="math" data-tex="f\left( x\right)  = \sqrt{x}\sin x" data-display="false"></span> ；</p>
+<p>(5) <span class="math" data-tex="f\left( x\right)  = x\ln x - \frac{1}{{x}^{2}}" data-display="false"></span> ; (6) <span class="math" data-tex="f\left( x\right)  = \frac{{x}^{2} - 1}{x}" data-display="false"></span> ；</p>
+<p>(7) <span class="math" data-tex="f\left( x\right)  = \frac{{x}^{2} - 1}{{x}^{2} + 1}" data-display="false"></span> ; (8) <span class="math" data-tex="f\left( x\right)  = \tan x" data-display="false"></span> .</p>
+</div><h3 class="group-heading" id="x2-5-2-b24">3 简单复合函数的导数</h3><div class="prose" data-visual-source-sha="d56513f42d9ed55eb942fdecce561513d0634d72efd37a8e8d2242964d032691" id="x2-5-2-b25"><aside class="key-point key-concept" id="x2-5-2-definition-25-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在本节例 7 第( 3 )小题中，为了求 <span class="math" data-tex="f\left( x\right)  = {\left( x - 2\right) }^{2}" data-display="false"></span> 的导数，我们先借助于完全平方公式将 <span class="math" data-tex="{\left( x - 2\right) }^{2}" data-display="false"></span> 化为 <span class="math" data-tex="{x}^{2} - {4x} + 4" data-display="false"></span> ,再利用导数四则运算法则求导. 从另一个角度看,函数 <span class="math" data-tex="y = {\left( x - 2\right) }^{2}" data-display="false"></span> 也可以看作由两个函数 <span class="math" data-tex="y = {u}^{2}\text{ 、 }u = x - {2}^{u}" data-display="false"></span> 套”在一起所构成的新函数. 像这样,如果一个函数 <span class="math" data-tex="y = f\left( u\right)" data-display="false"></span> 的自变量 <span class="math" data-tex="u" data-display="false"></span> 又是另一个变量 <span class="math" data-tex="x" data-display="false"></span> 的函数 <span class="math" data-tex="u = g\left( x\right)" data-display="false"></span> , 那么就可将 <span class="math" data-tex="y" data-display="false"></span> 直接看作变量 <span class="math" data-tex="x" data-display="false"></span> 的函数而得到一个新函数 <span class="math" data-tex="y = \; f\left( {g\left( x\right) }\right)" data-display="false"></span> ，这个新函数被称为两个函数的复合函数(composite function).</p>
+</aside><p>在对复合函数求导数时, 往往不是把两个预先给定的函数先复合成较复杂的函数, 然后直接求导, 而是反过来, 先引进一个中间变量, 把原来的函数看作两个相对简单的函数的复合, 再利用复合函数的求导法则求其导数, 从而使求导过程得到简化. 例如,函数 <span class="math" data-tex="f\left( x\right)  = {\left( x - 2\right) }^{2}" data-display="false"></span> 可看作由函数 <span class="math" data-tex="y = {u}^{2}" data-display="false"></span> 与 <span class="math" data-tex="u = x - 2" data-display="false"></span> 复合而成,而函数 <span class="math" data-tex="y = \sin {2x}" data-display="false"></span> 可看作由函数 <span class="math" data-tex="y = \sin u" data-display="false"></span> 与 <span class="math" data-tex="u = {2x}" data-display="false"></span> 复合而成.</p>
+<p>我们不讨论一般复合函数的求导问题,仅考虑由 <span class="math" data-tex="y = f\left( u\right)" data-display="false"></span> 与 <span class="math" data-tex="u = {ax} + b\left( {a \neq  0}\right)" data-display="false"></span> 复合而成的 <span class="math" data-tex="f\left( {{ax} + b}\right)" data-display="false"></span> 型复合函数的求导法则.</p>
+<p>因为当 <span class="math" data-tex="h \neq  0" data-display="false"></span> 时,有</p>
+<div class="math display" data-tex="\frac{f\left( {a\left( {x + h}\right)  + b}\right)  - f\left( {{ax} + b}\right) }{h} = a \cdot  \frac{f\left( {u + {ah}}\right)  - f\left( u\right) }{ah}," data-display="true"></div>
+<p>且注意到 <span class="math" data-tex="h" data-display="false"></span> 趋近于 0 当且仅当 <span class="math" data-tex="{ah}" data-display="false"></span> 趋近于 0 ，所以</p>
+<div class="math display" data-tex="\mathop{\lim }\limits_{{h \rightarrow  0}}\frac{f\left( {a\left( {x + h}\right)  + b}\right)  - f\left( {{ax} + b}\right) }{h} = a\mathop{\lim }\limits_{{{ah} \rightarrow  0}}\frac{f\left( {u + {ah}}\right)  - f\left( u\right) }{ah}." data-display="true"></div>
+<p>这就给出了 <span class="math" data-tex="f\left( {{ax} + b}\right)" data-display="false"></span> 型复合函数的如下求导法则:</p>
+<p>(11) <span class="math" data-tex="{\left( f\left( ax + b\right) \right) }^{\prime } = a{f}^{\prime }\left( u\right)" data-display="false"></span> ,其中 <span class="math" data-tex="u = {ax} + b" data-display="false"></span> .</p>
+</div><article class="question" id="x2-5-2-ex-9" data-question-id="x2-5-2-ex-9" data-category="example"><div class="question-label">例题 9</div><div class="question-body"><p>例 9 求 <span class="math" data-tex="f\left( x\right)  = \ln \left( {2 - {5x}}\right)" data-display="false"></span> 的导数.</p>
+</div></article><article class="question" id="x2-5-2-ex-10" data-question-id="x2-5-2-ex-10" data-category="example"><div class="question-label">例题 10</div><div class="question-body"><p>例 10 设实数 <span class="math" data-tex="a &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="a \neq  1" data-display="false"></span> ,求证: <span class="math" data-tex="{\left( {a}^{x}\right) }^{\prime } = {a}^{x}\ln a" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="x2-5-2-b28">练习 5.2(3)</h3><article class="question" id="x2-5-2-p523-1" data-question-id="x2-5-2-p523-1" data-category="practice"><div class="question-label">练习5.2(3) · 1</div><div class="question-body"><ol>
+<li>利用 <span class="math" data-tex="f\left( {{ax} + b}\right)" data-display="false"></span> 型复合函数的求导法则求下列函数的导数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {\left( 3 - 2x\right) }^{2}" data-display="false"></span> ; (2) <span class="math" data-tex="y = \sin {2x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-p523-2" data-question-id="x2-5-2-p523-2" data-category="practice"><div class="question-label">练习5.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>尝试用两种不同的方法求 <span class="math" data-tex="f\left( x\right)  = \frac{1}{{2x} - 1}" data-display="false"></span> 的导数.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-p523-3" data-question-id="x2-5-2-p523-3" data-category="practice"><div class="question-label">练习5.2(3) · 3</div><div class="question-body"><ol start="3">
+<li>求曲线 <span class="math" data-tex="y = {2}^{1 - {3x}}" data-display="false"></span> 在点 <span class="math" data-tex="\left( {0,2}\right)" data-display="false"></span> 处的切线方程.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-p523-4" data-question-id="x2-5-2-p523-4" data-category="practice"><div class="question-label">练习5.2(3) · 4</div><div class="question-body"><ol start="4">
+<li>求下列函数的导数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {3x}\sqrt{2 - x}" data-display="false"></span> ； (2) <span class="math" data-tex="y = \frac{\ln \left( {{2x} + 1}\right) }{x}" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="x2-5-2-b33">探究与实践</h3><div class="prose" data-visual-source-sha="73b9ff2840aa511b1f84e45587a7cb5afe0d0b019c0c61134ee09364c689426c" id="x2-5-2-b34"><p>按以下步骤探究复合函数求导的一般规律:</p>
+<ol>
+<li>
+<p>分别求 <span class="math" data-tex="y = {\left( {x}^{3} - 2\right) }^{2}\text{ 、 }y = {u}^{2}" data-display="false"></span> 与 <span class="math" data-tex="u = {x}^{3} - 2" data-display="false"></span> 的导数,并探索三个导数之间的联系;</p>
+</li>
+<li>
+<p>分别求 <span class="math" data-tex="y = {\sin }^{2}x + \sin x - 1\text{ 、 }y = {u}^{2} + u - 1" data-display="false"></span> 与 <span class="math" data-tex="u = \sin x" data-display="false"></span> 的导数,并探索三个导数之间的联系;</p>
+</li>
+<li>
+<p>根据上述两个特例, 猜想复合函数求导的一般规律, 并用一些实例验证你的猜想.</p>
+</li>
+</ol>
+</div><h3 class="group-heading" id="x2-5-2-b35">习题 5.2</h3><h3 class="group-heading" id="x2-5-2-b36">A 组</h3><article class="question" id="x2-5-2-h52A-1" data-question-id="x2-5-2-h52A-1" data-category="homework"><div class="question-label">习题5.2A · 1</div><div class="question-body"><ol>
+<li>求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = \pi" data-display="false"></span> ； (2) <span class="math" data-tex="f\left( x\right)  = \sqrt[3]{{x}^{5}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="f\left( x\right)  = \frac{1}{{x}^{3}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52A-2" data-question-id="x2-5-2-h52A-2" data-category="homework"><div class="question-label">习题5.2A · 2</div><div class="question-body"><ol start="2">
+<li>求曲线 <span class="math" data-tex="y = \cos x" data-display="false"></span> 在 <span class="math" data-tex="x = \frac{\pi }{2}" data-display="false"></span> 处的切线方程.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52A-3" data-question-id="x2-5-2-h52A-3" data-category="homework"><div class="question-label">习题5.2A · 3</div><div class="question-body"><ol start="3">
+<li>已知曲线 <span class="math" data-tex="y = {x}^{3}" data-display="false"></span> 在原点以外某点 <span class="math" data-tex="P" data-display="false"></span> 处切线的斜率为 <span class="math" data-tex="a" data-display="false"></span> .</li>
+</ol>
+<p>(1)求点 <span class="math" data-tex="P" data-display="false"></span> 的坐标； (2)判断 <span class="math" data-tex="a" data-display="false"></span> 的正负.</p>
+</div></article><article class="question" id="x2-5-2-h52A-4" data-question-id="x2-5-2-h52A-4" data-category="homework"><div class="question-label">习题5.2A · 4</div><div class="question-body"><ol start="4">
+<li>求曲线 <span class="math" data-tex="y = {x}^{3} - {3x} + 5" data-display="false"></span> 平行于 <span class="math" data-tex="x" data-display="false"></span> 轴的切线及其切点坐标.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52A-5" data-question-id="x2-5-2-h52A-5" data-category="homework"><div class="question-label">习题5.2A · 5</div><div class="question-body"><ol start="5">
+<li>求曲线 <span class="math" data-tex="y = \frac{1}{x}" data-display="false"></span> 平行于直线 <span class="math" data-tex="y =  - x" data-display="false"></span> 的切线及其切点坐标.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52A-6" data-question-id="x2-5-2-h52A-6" data-category="homework"><div class="question-label">习题5.2A · 6</div><div class="question-body"><ol start="6">
+<li>求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = 2{x}^{\mathrm{e}} - {\mathrm{e}}^{2}" data-display="false"></span> ； (2) <span class="math" data-tex="f\left( x\right)  = {\mathrm{e}}^{x}\cos x" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="f\left( x\right)  = \frac{x - 1}{x - 2}" data-display="false"></span> ； (4) <span class="math" data-tex="f\left( x\right)  = \frac{\ln x}{\sin x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52A-7" data-question-id="x2-5-2-h52A-7" data-category="homework"><div class="question-label">习题5.2A · 7</div><div class="question-body"><ol start="7">
+<li>用两种方法求函数 <span class="math" data-tex="y = \left( {x - 2}\right) \left( {3 - {4x}}\right)" data-display="false"></span> 的导数.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52A-8" data-question-id="x2-5-2-h52A-8" data-category="homework"><div class="question-label">习题5.2A · 8</div><div class="question-body"><ol start="8">
+<li>已知函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 与 <span class="math" data-tex="y = g\left( x\right)" data-display="false"></span> 满足条件 <span class="math" data-tex="f\left( 1\right)  = 2,{f}^{\prime }\left( 1\right)  = 3, g\left( 1\right)  = 4" data-display="false"></span> 与 <span class="math" data-tex="{g}^{\prime }\left( 1\right)  = 5" data-display="false"></span> . 对于下列函数 <span class="math" data-tex="y = h\left( x\right)" data-display="false"></span> ,求 <span class="math" data-tex="h\left( 1\right)" data-display="false"></span> 和 <span class="math" data-tex="{h}^{\prime }\left( 1\right)" data-display="false"></span> :</li>
+</ol>
+<p>(1) <span class="math" data-tex="h\left( x\right)  = {2g}\left( x\right)  - \frac{1}{3}f\left( x\right)" data-display="false"></span> ； (2) <span class="math" data-tex="h\left( x\right)  = {2g}\left( x\right) f\left( x\right)  - \frac{1}{3};" data-display="false"></span></p>
+<p>(3) <span class="math" data-tex="h\left( x\right)  = \frac{{2g}\left( x\right)  - 1}{{3f}\left( x\right) }" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52A-9" data-question-id="x2-5-2-h52A-9" data-category="homework"><div class="question-label">习题5.2A · 9</div><div class="question-body"><ol start="9">
+<li>利用 <span class="math" data-tex="f\left( {{ax} + b}\right)" data-display="false"></span> 型复合函数的求导法则,求下列函数的导数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = \sqrt{{2x} - 5}" data-display="false"></span> ； (2) <span class="math" data-tex="y = \cos \frac{x}{2}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="y = \frac{1}{{\mathrm{e}}^{x + 1}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52A-10" data-question-id="x2-5-2-h52A-10" data-category="homework"><div class="question-label">习题5.2A · 10</div><div class="question-body"><ol start="10">
+<li>用两种方法求函数 <span class="math" data-tex="y = \frac{2}{x - 1}" data-display="false"></span> 的导数.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52A-11" data-question-id="x2-5-2-h52A-11" data-category="homework"><div class="question-label">习题5.2A · 11</div><div class="question-body"><ol start="11">
+<li>某种动物的体温 <span class="math" data-tex="T" data-display="false"></span> (单位:℃)与太阳落山后经过的时间 <span class="math" data-tex="t" data-display="false"></span> (单位:min) 满足函数关系 <span class="math" data-tex="T = \frac{120}{t + 5} + {15}" data-display="false"></span> .</li>
+</ol>
+<p>(1)当 <span class="math" data-tex="t = 5" data-display="false"></span> 时，求该动物体温的瞬时变化率；</p>
+<p>(2)在哪一时刻该动物体温的瞬时变化率是 <span class="math" data-tex="- 2{}^{ \circ  }\mathrm{C}/\mathrm{{min}}" data-display="false"></span> ？(结果精确到 <span class="math" data-tex="{0.1}\mathrm{\;{min}}" data-display="false"></span> )</p>
+</div></article><article class="question" id="x2-5-2-h52A-12" data-question-id="x2-5-2-h52A-12" data-category="homework"><div class="question-label">习题5.2A · 12</div><div class="question-body"><ol start="12">
+<li>已知某港口一天内潮水的深度 <span class="math" data-tex="y" data-display="false"></span> (单位: <span class="math" data-tex="\mathrm{m}" data-display="false"></span> ) 与时间 <span class="math" data-tex="t" data-display="false"></span> (单位: <span class="math" data-tex="\mathrm{h}" data-display="false"></span> ) 近似满足函数关系 <span class="math" data-tex="y = 3\sin \left( {\frac{\pi }{12}t + \frac{5\pi }{6}}\right) ,0 \leq  t \leq  {24}" data-display="false"></span> . 分别求上午 6 时与下午 6 时潮水涨(落) 的速度.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-5-2-b49">B 组</h3><article class="question" id="x2-5-2-h52B-1" data-question-id="x2-5-2-h52B-1" data-category="homework"><div class="question-label">习题5.2B · 1</div><div class="question-body"><ol>
+<li>已知一列火车从静止开始加速的一段时间内,其行驶速度 <span class="math" data-tex="v" data-display="false"></span> (单位: <span class="math" data-tex="\mathrm{m}/\mathrm{s}" data-display="false"></span> )与行驶时间 <span class="math" data-tex="t" data-display="false"></span> (单位: <span class="math" data-tex="\mathrm{s}" data-display="false"></span> )满足函数关系 <span class="math" data-tex="v = {0.4t} + {0.6}{t}^{2}" data-display="false"></span> .</li>
+</ol>
+<p>(1)求这段时间内火车行驶的加速度；</p>
+<p>(2)火车行驶到哪一时刻，其加速度为 <span class="math" data-tex="4\mathrm{\;m}/{\mathrm{s}}^{2}" data-display="false"></span> ？</p>
+</div></article><article class="question" id="x2-5-2-h52B-2" data-question-id="x2-5-2-h52B-2" data-category="homework"><div class="question-label">习题5.2B · 2</div><div class="question-body"><ol start="2">
+<li>直线 <span class="math" data-tex="y =  - x + b" data-display="false"></span> 是下列函数的切线吗? 如果是,请求出 <span class="math" data-tex="b" data-display="false"></span> 的值; 如果不是,请说明理由.</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = \ln x" data-display="false"></span> ； (2) <span class="math" data-tex="y = \frac{1}{x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52B-3" data-question-id="x2-5-2-h52B-3" data-category="homework"><div class="question-label">习题5.2B · 3</div><div class="question-body"><ol start="3">
+<li>吹一个球形的气球时,气球半径 <span class="math" data-tex="r" data-display="false"></span> 将随空气容量 <span class="math" data-tex="V" data-display="false"></span> 的增加而增大.</li>
+</ol>
+<p>(1)写出气球半径 <span class="math" data-tex="r" data-display="false"></span> 关于气球内空气容量 <span class="math" data-tex="V" data-display="false"></span> 的函数表达式；</p>
+<p>(2)求 <span class="math" data-tex="V = 1" data-display="false"></span> 时，气球的瞬时膨胀率(即气球半径关于气球内空气容量的瞬时变化率).</p>
+</div></article><article class="question" id="x2-5-2-h52B-4" data-question-id="x2-5-2-h52B-4" data-category="homework"><div class="question-label">习题5.2B · 4</div><div class="question-body"><ol start="4">
+<li>判断下列求导结果是否正确. 如果不正确, 请指出错在哪里, 并予以改正.</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\left( \frac{\sin x}{x}\right) }^{\prime } =  - \frac{1}{{x}^{2}}\sin x - \frac{\cos x}{x}" data-display="false"></span> ; (2) <span class="math" data-tex="{\left( \ln \left( 2 - x\right) \right) }^{\prime } = \frac{1}{2 - x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-5-2-h52B-5" data-question-id="x2-5-2-h52B-5" data-category="homework"><div class="question-label">习题5.2B · 5</div><div class="question-body"><ol start="5">
+<li>求过点 <span class="math" data-tex="\left( {0, - 1}\right)" data-display="false"></span> 且与曲线 <span class="math" data-tex="y = 2{x}^{2}" data-display="false"></span> 相切的直线的方程.</li>
+</ol>
+</div></article><article class="question" id="x2-5-2-h52B-6" data-question-id="x2-5-2-h52B-6" data-category="homework"><div class="question-label">习题5.2B · 6</div><div class="question-body"><ol start="6">
+<li>已知一罐汽水放入冰箱后的温度 <span class="math" data-tex="x" data-display="false"></span> (单位: <span class="math" data-tex="\text{ ℃ }" data-display="false"></span> ) 与时间 <span class="math" data-tex="t" data-display="false"></span> (单位: <span class="math" data-tex="\mathrm{h}" data-display="false"></span> ) 满足函数关系 <span class="math" data-tex="x = 4 + {16}{\mathrm{e}}^{-{2t}}." data-display="false"></span></li>
+</ol>
+<p>(1)求 <span class="math" data-tex="{x}^{\prime }\left( 1\right)" data-display="false"></span> ，并解释其实际意义；</p>
+<p>(2)已知摄氏度 <span class="math" data-tex="x" data-display="false"></span> 与华氏度 <span class="math" data-tex="y" data-display="false"></span> (单位: <span class="math" data-tex="F" data-display="false"></span> 】满足函数关系 <span class="math" data-tex="x = \frac{5}{9}\left( {y - {32}}\right)" data-display="false"></span> ，求 <span class="math" data-tex="y" data-display="false"></span> 关于 <span class="math" data-tex="t" data-display="false"></span> 的导数, 并解释其实际意义.</p>
+</div></article><article class="question" id="x2-5-2-h52B-7" data-question-id="x2-5-2-h52B-7" data-category="homework"><div class="question-label">习题5.2B · 7</div><div class="question-body"><ol start="7">
+<li>求下列函数 <span class="math" data-tex="y = f\left( x\right)" data-display="false"></span> 的导数,其中:</li>
+</ol>
+<p>(1) <span class="math" data-tex="f\left( x\right)  = {x}^{2}\sin {3x} - \frac{2}{\sqrt{x}}" data-display="false"></span> ; (2) <span class="math" data-tex="f\left( x\right)  = \frac{{\mathrm{e}}^{x} - {\mathrm{e}}^{-x}}{{\mathrm{e}}^{x} + {\mathrm{e}}^{-x}}" data-display="false"></span> .</p>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x2-5-2" checked>导数的运算</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

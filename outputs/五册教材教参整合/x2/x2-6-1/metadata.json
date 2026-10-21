@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-6-1",
+  "book_id": "x2",
+  "section": "6.1",
+  "title": "乘法原理与加法原理",
+  "section_json": "batch/sections/x2/x2-6-1.json",
+  "output": "outputs/五册教材教参整合/x2/x2-6-1",
+  "fingerprint": "05736cbe2b5411d235e927a738bdba0e653d3dd87a53bd1d746984c4fff6d9f4",
+  "status": "rendered",
+  "questions": 20,
+  "answers": 20,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-089dffef57025607868e.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_0_8_4_1646_1164_0.jpg",
+      "sha256": "089dffef57025607868e8c7bd0cfd1d398777016174060a85640a65cb4cd9f4a",
+      "private": false
+    },
+    "images/book-fc386f949d6d9b328591.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_1_196_813_348_137_0.jpg",
+      "sha256": "fc386f949d6d9b32859140e4482aaf05974534defa94e2f90bd6ccf363294603",
+      "private": false
+    },
+    "images/book-4be50a28dbdd192666c4.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_4_1121_476_303_308_0.jpg",
+      "sha256": "4be50a28dbdd192666c4d6303a3d2732d8e00a3944b1563da82bd0f3cbbeb936",
+      "private": false
+    },
+    "images/book-7f4f648441e607a3ba80.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_6_669_329_281_162_0.jpg",
+      "sha256": "7f4f648441e607a3ba80f13391363388730b7953d0c93167bff9ce2e327b4c44",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "student_images": [
+    "images/book-089dffef57025607868e.jpg",
+    "images/book-4be50a28dbdd192666c4.jpg",
+    "images/book-7f4f648441e607a3ba80.jpg",
+    "images/book-fc386f949d6d9b328591.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "2b4d75e941ffe8fa6b427d68dc84fa303f6f93b28663916bc1bbcdaee2cb1482",
+    "student.html": "d2637ebffe5323560ac79c9ad95e320fe88030b1595235da09337849e5509a93",
+    "student.zip": "36bf6beda354ca0ed91df68f6dad02590bb663ce8262368b89c939742434f16e",
+    "content.json": "2aed1f1674f0586c539efaa4740c7dfcde5adcaf24e6693dbe6d79cf78301db6"
+  }
+}

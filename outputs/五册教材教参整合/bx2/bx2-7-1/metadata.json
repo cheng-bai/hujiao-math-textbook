@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-7-1",
+  "book_id": "bx2",
+  "section": "7.1",
+  "title": "正弦函数的图像与性质",
+  "section_json": "batch/sections/bx2/bx2-7-1.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-7-1",
+  "fingerprint": "d7b41b7392fbb46634d6e4ae5d028c769dc632420cc18bf29ef3f1fed7f9e404",
+  "status": "rendered",
+  "questions": 37,
+  "answers": 37,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-8fd03a718556fb71ce63.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_0_0_1_1654_1163_0.jpg",
+      "sha256": "8fd03a718556fb71ce63d5e2b04d794dd6233bab9c91481a252990c773e372d8",
+      "private": false
+    },
+    "images/book-09dfab49f2cf1f98f181.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_1_774_1644_500_256_0.jpg",
+      "sha256": "09dfab49f2cf1f98f181cdeeff626b3c942720777563b42d1c3acce7622457d7",
+      "private": false
+    },
+    "images/book-c86f34b36bd118048772.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_2_227_517_794_312_0.jpg",
+      "sha256": "c86f34b36bd1180487721702ab38594210f85d2d5285dd0d5ee4af26fd5590e1",
+      "private": false
+    },
+    "images/book-f419a9e2fbd7a353e7b6.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_2_172_1312_904_220_0.jpg",
+      "sha256": "f419a9e2fbd7a353e7b64f0ea2e50d3ea3412f5d58401d332757c88cf206a3db",
+      "private": false
+    },
+    "images/book-4659e86836f96a48d39c.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg",
+      "sha256": "4659e86836f96a48d39cba2461f2edfb81826e38c728f13bcc7f27f3b0f89bc1",
+      "private": false
+    },
+    "images/book-7ca7f76979230822ee7d.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_3_788_934_472_279_0.jpg",
+      "sha256": "7ca7f76979230822ee7df57033d13755dbc6f4cd78beb20c08989cddb0e394f3",
+      "private": false
+    },
+    "images/book-84364e26afcad9f33464.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_7_446_301_783_169_0.jpg",
+      "sha256": "84364e26afcad9f33464ff428b17f9bb83f8edfea93ca1bae69c8a2de00f90de",
+      "private": false
+    },
+    "images/book-f8bc04c390b6b3fccb46.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_7_863_981_320_281_0.jpg",
+      "sha256": "f8bc04c390b6b3fccb46d64c746983476a04baafac83e25559988d91e111658a",
+      "private": false
+    },
+    "images/book-a122b9fc6fd7222b723b.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_9_210_1362_273_174_0.jpg",
+      "sha256": "a122b9fc6fd7222b723b2b407e72ff47bdb12d8a8b791a85af9aca51879c5e2a",
+      "private": false
+    },
+    "images/book-59a296ad5ac2082cddbf.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_10_1110_532_361_311_0.jpg",
+      "sha256": "59a296ad5ac2082cddbf2c955a5302d09ace3c56416ca5b6bfd26e9a576f5439",
+      "private": false
+    },
+    "images/book-667bcae16f9627cce5ff.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_11_728_1065_588_259_0.jpg",
+      "sha256": "667bcae16f9627cce5ff70fb9dcd4b4f4dfcecb5b45c3437d110259acc1827ad",
+      "private": false
+    },
+    "images/book-72143d146ddba2e467ce.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_13_1213_1655_288_265_0.jpg",
+      "sha256": "72143d146ddba2e467ce1fa1d953fdf8aa16cd517455b9b6f9fd2a63fe58b20d",
+      "private": false
+    },
+    "images/book-47ef534c67b637360285.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_14_1128_227_345_92_0.jpg",
+      "sha256": "47ef534c67b63736028517f2fb8e07537b2e5289236d697ab3d3e01da27a4212",
+      "private": false
+    },
+    "images/book-7d89e74dc4276ac2e0d2.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_15_254_964_320_208_0.jpg",
+      "sha256": "7d89e74dc4276ac2e0d2410e03a5b28e2ce6813b4200eb3f86c4b241c76bcdf1",
+      "private": false
+    },
+    "images/book-cc0388bbd3f959cef351.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_15_787_900_638_278_0.jpg",
+      "sha256": "cc0388bbd3f959cef35115e35e713cca427f4edd4f7661793570be0d81bd8436",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md": "aa198208462a3427ed9d0e4b9291ff53a870f74e46b159f9513c1bd96beefeff",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md": "1fabcbcd4f3cbe946e2576ba67d6bdc7962a79eb957c90f5770da428b4899df8"
+  },
+  "student_images": [
+    "images/book-09dfab49f2cf1f98f181.jpg",
+    "images/book-4659e86836f96a48d39c.jpg",
+    "images/book-47ef534c67b637360285.jpg",
+    "images/book-59a296ad5ac2082cddbf.jpg",
+    "images/book-667bcae16f9627cce5ff.jpg",
+    "images/book-72143d146ddba2e467ce.jpg",
+    "images/book-7ca7f76979230822ee7d.jpg",
+    "images/book-7d89e74dc4276ac2e0d2.jpg",
+    "images/book-84364e26afcad9f33464.jpg",
+    "images/book-8fd03a718556fb71ce63.jpg",
+    "images/book-a122b9fc6fd7222b723b.jpg",
+    "images/book-c86f34b36bd118048772.jpg",
+    "images/book-cc0388bbd3f959cef351.jpg",
+    "images/book-f419a9e2fbd7a353e7b6.jpg",
+    "images/book-f8bc04c390b6b3fccb46.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "ad27907f9902db3faae08c8eee35fa82cd16ed9ef5a690668b9ae971b1dbcb3c",
+    "student.html": "cd6b1fd2875d304d54d8168b402eff188a6450b818b79a192053ec3c542cc4a1",
+    "student.zip": "d389af6a6345c7ab035838db0abf5202c9b395611a058009e8f40071ddda7bb1",
+    "content.json": "511c252a1d00068bf1a6209f23f7568f1cf622cef60548ee81bde84641818de3"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-4-1",
+  "book_id": "bx1",
+  "section": "4.1",
+  "title": "幂函数",
+  "section_json": "batch/sections/bx1/bx1-4-1.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-4-1",
+  "fingerprint": "1b20c9eebbafdc5aad7d3efafa8df0ad8a606703c1377ff7ee616cd4e985f75c",
+  "status": "rendered",
+  "questions": 22,
+  "answers": 22,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-0718e096162e2d995c40.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_2_1141_1793_320_304_0.jpg",
+      "sha256": "0718e096162e2d995c40b766ff13061afc8b3ffdf92f37fbacd4c5fabbab322c",
+      "private": true
+    },
+    "images/private-c412631f8a443d4eef86.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_2_227_1622_797_343_0.jpg",
+      "sha256": "c412631f8a443d4eef86be905d387c34d1bdc3222067323518fa23c26cb59c40",
+      "private": true
+    },
+    "images/private-e1ecec9874cd3d106caf.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_3_801_915_440_262_0.jpg",
+      "sha256": "e1ecec9874cd3d106caf579c8f684c3a288855659de733bbc05ab80754e7eb2a",
+      "private": true
+    },
+    "images/private-e3652c8a9814967c6b33.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_3_191_1390_320_170_0.jpg",
+      "sha256": "e3652c8a9814967c6b3333b77e576358da6bd918deb65048dc4577b119d6703b",
+      "private": true
+    },
+    "images/book-ae86e3ec6118b3270978.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_4_1131_969_340_329_0.jpg",
+      "sha256": "ae86e3ec6118b32709781211a70d50997188056341f9a6a604296129da37ffab",
+      "private": false
+    },
+    "images/private-2b2e30fad7e67ff84987.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg",
+      "sha256": "2b2e30fad7e67ff84987f20cbb06cf14c9c7587f49f6cf717afe6144ef340b47",
+      "private": true
+    },
+    "images/private-4057131e8d4d26515c83.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_5_169_1211_368_339_0.jpg",
+      "sha256": "4057131e8d4d26515c835fa4c5294432a9a45d0ef6c135a98114ee409527614f",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/第4章幂函数、指数函数与对数函数-dollar.md": "5372bd5efc0896d012fb4b364942ef4847d974ce92412f87012696e1b0e9c07b",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/04 必修第一册 第4章 幂函数、指数函数 与对数函数.md": "f07371ac55e403106c1582ef27779ce7caabcbe643325cca7f18e478a7449ac8"
+  },
+  "student_images": [
+    "images/book-ae86e3ec6118b3270978.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "963c7618b25bf0814095071196d4aa9ef2de330689cccfb0348ad3d53af6ec53",
+    "student.html": "32876a89594bfca129fee5e1cd22a04eb17da0f003f579a136297764fe61c3b2",
+    "student.zip": "7e572e9121f176eadd200b03f56181d9a334bff9803431e28cb763b59a5ed7c4",
+    "content.json": "14a324d403b98cb75eea66c4acab3f49e30417c186457b0fddce6085753152b5"
+  }
+}

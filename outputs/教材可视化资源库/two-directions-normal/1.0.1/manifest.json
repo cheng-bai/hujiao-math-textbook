@@ -1,0 +1,310 @@
+{
+  "asset_id": "7257cf1c-8b76-570f-84a8-7a7014fed6aa",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:03Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "separation": 65,
+      "tilt": 0
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "67b5d6915b2cbf19d741d4974a0c2cae5d6576de599eaafc0e5fb05f7d1f4643",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-10-3-b18",
+          "rationale": "接替书脊、桌面与两条相交线判定的长解释。",
+          "sectionId": "bx3-10-3",
+          "sourceSha256": "880537e3363695ba7c517c67aa32efcd8517dcb0003c783430fbe13fd1d6daf7"
+        },
+        {
+          "afterBlockId": "x1-3-4-b6",
+          "rationale": "在现有线面垂直资产之外提供退化条件反例，接替向量条件长段说明。",
+          "sectionId": "x1-3-4",
+          "sourceSha256": "40619a2d640b8abb44c70c3cda8af4fa13d2f82fc07d627ed2376a4888cbc8bf"
+        }
+      ],
+      "sections": [
+        "bx3-10-3",
+        "x1-3-4"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31499,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "67b5d6915b2cbf19d741d4974a0c2cae5d6576de599eaafc0e5fb05f7d1f4643"
+    },
+    {
+      "bytes": 3926,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "24862e2713f2cd25cd778644573306e7fb166dbc9c7d9e46ed49177fa094e6ff"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 2047,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "0f8df72acea889e705ecae4d1a29a3e74099e15c00e7b954bcd15ae196c1e7eb"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 4625,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "ca3664e6a2173077040d1599841af8f580abe4436d0912455a4343fe555f1e29"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "979d2bf044093256bd2256c05c956d6b222239cdc2eb215e772ed49ede3f2056"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 523,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "fc9a864a95005d3f5c092b5da08cc9d0b112eb3009c274bbcba2d725178ee8af"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "直线垂直于平面，须与平面内的任意直线垂直。判定时只需检查平面内两条相交直线；不能用两条重合方向的线替代。与法向量平行的非零方向向量对应线面垂直。 线不在平面上时，其方向向量垂直法向量，当且仅当线面平行；两个不同平面的法向量平行当且仅当两平面平行，法向量垂直当且仅当两平面垂直。"
+    ],
+    "learning_goals": [
+      "让两个方向合并，直接展示丢失一个条件的反例。"
+    ],
+    "objects": [
+      "线面垂直：为什么必须是两条相交线"
+    ],
+    "parameters": {
+      "separation": {
+        "default": 65,
+        "display_range": [
+          0,
+          90
+        ],
+        "domain": "本实验允许输入范围 [0, 90]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      },
+      "tilt": {
+        "default": 0,
+        "display_range": [
+          0,
+          75
+        ],
+        "domain": "本实验允许输入范围 [0, 75]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "{\"kind\": \"derived\", \"paths\": [\"scripts/visual-assets/module-data.js\"], \"note\": \"原有perpendicular场景保留；将其两方向独立性思路提炼成轻量概念模型，增加方向重合与倾斜反例。\"}",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "separation": 65,
+          "tilt": 0
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "two-directions-normal",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "separation": {
+        "maximum": 90,
+        "minimum": 0,
+        "type": "integer"
+      },
+      "tilt": {
+        "maximum": 75,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "线面垂直：为什么必须是两条相交线",
+  "updated_at": "2026-10-21T06:06:17.538014Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.127350Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "67b5d6915b2cbf19d741d4974a0c2cae5d6576de599eaafc0e5fb05f7d1f4643"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.127350Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "67b5d6915b2cbf19d741d4974a0c2cae5d6576de599eaafc0e5fb05f7d1f4643"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

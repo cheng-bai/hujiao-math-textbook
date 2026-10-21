@@ -1,0 +1,44 @@
+{
+  "controls": [
+    {
+      "key": "branch",
+      "label": "原函数分支",
+      "options": [
+        {
+          "label": "原自变量非负",
+          "value": "positive"
+        },
+        {
+          "label": "原自变量非正",
+          "value": "negative"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "x",
+      "label": "原自变量的绝对值",
+      "max": 2,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>b</mi><mo>⇔</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>;</mo><mspace width=\"1em\"/><mi>y</mi><mo>=</mo><msqrt><mi>x</mi></msqrt><mtext> 或 </mtext><mi>y</mi><mo>=</mo><mo>−</mo><msqrt><mi>x</mi></msqrt></mrow></math>",
+  "goal": "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。",
+  "id": "inverse-domain",
+  "initial": {
+    "branch": "positive",
+    "x": 1.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx1-5-4-b11",
+      "rationale": "覆盖本节原prose第11块：用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx1-5-4"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "反函数先以原函数值域为定义域，解出原自变量，再交换横纵坐标。点 (a,b) 与 (b,a) 关于 y=x 对称：不重合时，连线中点在 y=x 上且连线斜率为 -1。一般反函数图像因此关于 y=x 对称。平方函数须先限制为非负或非正半轴，才得到对应平方根分支；这里由同一动点看这一限制。",
+  "title": "反函数：保留哪一个平方根分支"
+}

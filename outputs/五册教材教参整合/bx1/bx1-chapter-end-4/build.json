@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-chapter-end-4",
+  "book_id": "bx1",
+  "section": "chapter-end-4",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx1/bx1-chapter-end-4.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-4",
+  "fingerprint": "1acaaed3ade96e6b7bfff930acd0b1d9a5ef8dded6f27e96b9e861b8e3a2ed1b",
+  "status": "rendered",
+  "questions": 15,
+  "answers": 15,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-b309d2b14b93e14c7d2a.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg",
+      "sha256": "b309d2b14b93e14c7d2ac688aa6e00ae1c1a2aaf28b3e952226fac3444febf98",
+      "private": false
+    },
+    "images/book-62e40bf3dacf1fec1823.jpg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg",
+      "sha256": "62e40bf3dacf1fec1823784e37a8b3d0faba9116a0d96518f2509e105c2f5635",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/第4章幂函数、指数函数与对数函数-dollar.md": "5372bd5efc0896d012fb4b364942ef4847d974ce92412f87012696e1b0e9c07b",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/04 必修第一册 第4章 幂函数、指数函数 与对数函数.md": "f07371ac55e403106c1582ef27779ce7caabcbe643325cca7f18e478a7449ac8"
+  },
+  "student_images": [
+    "images/book-62e40bf3dacf1fec1823.jpg",
+    "images/book-b309d2b14b93e14c7d2a.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "b1a1d23d8d5eef32d3fae22e0d10207c1689b09a5293055754294640cc1dc44d",
+    "student.html": "40ea5578585694b3da7fe647cbb39c2ed5234f7fab08bc52b2dcd51441548015",
+    "student.zip": "913f83afda80fd19019037b7dded538da8fef5fbad28ae35c1b3009de88f38f1",
+    "content.json": "8298d7638a4c4fee5498cd45c1d8996afe9fad02c5d920a0ceabdee2d4f94666"
+  }
+}

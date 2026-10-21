@@ -1,0 +1,808 @@
+{
+  "family": "space-sequence",
+  "selection": [
+    {
+      "sectionId": "x1-1-1",
+      "status": "skip",
+      "reason": "倾斜角、斜率的基础定义不另加模块，静态图已足以承载。"
+    },
+    {
+      "sectionId": "x1-1-2",
+      "status": "skip",
+      "reason": "点斜式、一般式等直接代数关系不额外动画化。"
+    },
+    {
+      "sectionId": "x1-1-3",
+      "status": "skip",
+      "reason": "直线相交平行的简单分类可由已有坐标图解释，不增加重复模块。"
+    },
+    {
+      "sectionId": "x1-1-4",
+      "status": "skip",
+      "reason": "点到直线距离保留垂足简图与公式，不为直接距离计算新增交互。"
+    },
+    {
+      "sectionId": "x1-chapter-end-1",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-2-1",
+      "status": "skip",
+      "reason": "圆的定义与标准方程较基础，现有简图足够，不为覆盖率新增演示。"
+    },
+    {
+      "sectionId": "x1-2-2",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-3",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-4",
+      "status": "existing",
+      "reason": "复用已接入的圆锥曲线定义实验，不重写原模型。"
+    },
+    {
+      "sectionId": "x1-2-5",
+      "status": "skip",
+      "reason": "曲线与方程的双向对应沿用圆锥曲线三个已有实验，不再堆叠同类轨迹图。"
+    },
+    {
+      "sectionId": "x1-chapter-end-2",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-3-1",
+      "status": "skip",
+      "reason": "空间向量的定义与基础运算可迁移平面向量知识，不重复做基础运算模块。"
+    },
+    {
+      "sectionId": "x1-3-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-3-3",
+      "status": "skip",
+      "reason": "空间点坐标、坐标运算与公式不新增低解释增益的动画。"
+    },
+    {
+      "sectionId": "x1-3-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-chapter-end-3",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "x1-4-1",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-4-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-4-3",
+      "status": "skip",
+      "reason": "一般数列、通项与递推的基本术语不为动画而动画；高价值迭代集中在4.5。"
+    },
+    {
+      "sectionId": "x1-4-4",
+      "status": "skip",
+      "reason": "数学归纳法重点是基例与递推的逻辑，通用多米诺动画不能替代证明，保留严谨文字。"
+    },
+    {
+      "sectionId": "x1-4-5",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "x1-chapter-end-4",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "bx3-10-1",
+      "status": "skip",
+      "reason": "点线面公理与基本记号优先保留简图和精确文字；不以动作装饰替代公理。"
+    },
+    {
+      "sectionId": "bx3-10-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-10-3",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-10-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-10-5",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-10",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    },
+    {
+      "sectionId": "bx3-11-1",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-11-2",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-11-3",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-11-4",
+      "status": "selected",
+      "reason": "已有高解释增益模块承担动态构造或条件比较，原文折叠留存。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-11",
+      "status": "skip",
+      "reason": "章末总结、历史阅读与复习题不重复插入概念实验；读者可返回对应正文章节观察。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "skew-common-perpendicular",
+      "title": "异面直线：投影交叉与真实距离",
+      "goal": "用旋转视角分离屏幕交叉与空间相交，观察公垂线段。",
+      "summary": "空间直线有相交、平行和异面等情形。异面直线不共面，所成角按平移方向确定；其距离为唯一公垂线段长度。图中高度为零或方向平行时不再是异面状态。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>d</mi><mo>=</mo><mo>|</mo><mi>h</mi><mo>|</mo><mo>,</mo><mspace width=\"1em\"/><mi>AB</mi><mo>⊥</mo><mi>a</mi><mo>,</mo><mi>AB</mi><mo>⊥</mo><mi>b</mi></math>",
+      "controls": [
+        {
+          "key": "height",
+          "label": "两线高度差",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.1
+        },
+        {
+          "key": "theta",
+          "label": "方向角（含平行边界）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "height": 2,
+        "theta": 65,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-2",
+          "afterBlockId": "bx3-10-2-b12",
+          "rationale": "接替异面直线的实景与空间位置长段解释。"
+        },
+        {
+          "sectionId": "bx3-10-5",
+          "afterBlockId": "bx3-10-5-b2",
+          "rationale": "接替公垂线与异面直线距离的构造说明。"
+        }
+      ],
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "source-origins/Documents/数学/ai 处理的成品/异面直线-空间观察仪/异面直线-空间观察仪.html",
+          "source-origins/Documents/数学/ai 处理的成品/异面直线-正方体版/skew-lines-cube.html"
+        ],
+        "note": "沿用既有空间观察与切换视角的教学思路；原题专用模型不直接搬入。采用独立、可验证的两线纯模型，未修改来源。"
+      }
+    },
+    {
+      "id": "two-directions-normal",
+      "title": "线面垂直：为什么必须是两条相交线",
+      "goal": "让两个方向合并，直接展示丢失一个条件的反例。",
+      "summary": "直线垂直于平面，须与平面内的任意直线垂直。判定时只需检查平面内两条相交直线；不能用两条重合方向的线替代。与法向量平行的非零方向向量对应线面垂直。 线不在平面上时，其方向向量垂直法向量，当且仅当线面平行；两个不同平面的法向量平行当且仅当两平面平行，法向量垂直当且仅当两平面垂直。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>n</mi><mo>·</mo><mi>u</mi><mo>=</mo><mi>n</mi><mo>·</mo><mi>v</mi><mo>=</mo><mn>0</mn><mspace width=\"1em\"/><mtext>且u、v不平行</mtext></math>",
+      "controls": [
+        {
+          "key": "separation",
+          "label": "平面内两方向夹角",
+          "type": "range",
+          "min": 0,
+          "max": 90,
+          "step": 5
+        },
+        {
+          "key": "tilt",
+          "label": "候选直线偏离法线角",
+          "type": "range",
+          "min": 0,
+          "max": 75,
+          "step": 5
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "separation": 65,
+        "tilt": 0,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-3",
+          "afterBlockId": "bx3-10-3-b18",
+          "rationale": "接替书脊、桌面与两条相交线判定的长解释。"
+        },
+        {
+          "sectionId": "x1-3-4",
+          "afterBlockId": "x1-3-4-b6",
+          "rationale": "在现有线面垂直资产之外提供退化条件反例，接替向量条件长段说明。"
+        }
+      ],
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "scripts/visual-assets/module-data.js"
+        ],
+        "note": "原有perpendicular场景保留；将其两方向独立性思路提炼成轻量概念模型，增加方向重合与倾斜反例。"
+      }
+    },
+    {
+      "id": "dihedral-normal-section",
+      "title": "二面角：垂直于棱的截面",
+      "goal": "开合两个半平面，在垂直截面中测量平面角。",
+      "summary": "二面角由一条棱和两个半平面组成。分别在半平面内过棱上同一点作垂直于棱的射线，所得平面角才是二面角的平面角；整平面夹角与选定半平面张角需区分。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>θ</mi><mo>∈</mo><mo>[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo>]</mo><mspace width=\"1em\"/><mtext>两截线均垂直于棱</mtext></math>",
+      "controls": [
+        {
+          "key": "angle",
+          "label": "半平面张角",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "angle": 65,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-4",
+          "afterBlockId": "bx3-10-4-b12",
+          "rationale": "接替门开合、二面角定义与平面角构造的长解释。"
+        }
+      ]
+    },
+    {
+      "id": "prism-cavalieri",
+      "title": "祖暅原理：倾斜不改变等高截面",
+      "goal": "水平推移柱顶，同时拖动截面比较直柱与斜柱。",
+      "summary": "祖暅原理要求两个几何体同高，且任意等高处截面面积相等；由此可推得两者体积相等。柱体的平行于底面的截面均与底面全等，因此体积为底面积乘高，而不是乘侧棱长。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>V</mi><mo>=</mo><mi>S</mi><mi>h</mi></math>",
+      "controls": [
+        {
+          "key": "shift",
+          "label": "顶面水平偏移",
+          "type": "range",
+          "min": -1.5,
+          "max": 1.5,
+          "step": 0.1
+        },
+        {
+          "key": "level",
+          "label": "截面高度比例",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "shift": 1.1,
+        "level": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-1",
+          "afterBlockId": "bx3-11-1-b14",
+          "rationale": "接替祖暅原理与斜柱体积的文字比较。"
+        }
+      ]
+    },
+    {
+      "id": "pyramid-parallel-slices",
+      "title": "锥体：相似截面与同底等高",
+      "goal": "沿高度移动截面，观察面积二次缩小和顶点平移的不变量。",
+      "summary": "平行于底面的棱锥截面与底面相似，距底高度比例为t时线性比为1−t，面积比为其平方。同底等高的锥体体积相等，均为同底等高柱体体积的三分之一；原体积推导完整保留供展开和打印。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><msub><mi>S</mi><mi>t</mi></msub><mi>S</mi></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>,</mo><mspace width=\"1em\"/><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>S</mi><mi>h</mi></math>",
+      "controls": [
+        {
+          "key": "level",
+          "label": "截面高度比例",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "key": "shift",
+          "label": "顶点水平偏移",
+          "type": "range",
+          "min": -1.5,
+          "max": 1.5,
+          "step": 0.1
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "level": 0.45,
+        "shift": 0,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-2",
+          "afterBlockId": "bx3-11-2-b21",
+          "rationale": "接替锥体体积推导的图形过程解释，证明不删去。"
+        }
+      ]
+    },
+    {
+      "id": "revolving-generator",
+      "title": "旋转体：从平面图形到空间实体",
+      "goal": "转动矩形或直角三角形，看不同高度的圆怎样组成柱或锥。",
+      "summary": "平面封闭图形绕其所在平面内一条定直线旋转一周，形成旋转体。矩形绕一边旋转形成圆柱；直角三角形绕一直角边旋转形成圆锥；母线的扫掠表面与封闭图形的扫掠实体应区分。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtext>圆柱母线∥轴；圆锥母线与轴相交</mtext></math>",
+      "controls": [
+        {
+          "key": "shape",
+          "label": "生成图形",
+          "type": "select",
+          "options": [
+            {
+              "value": "cone",
+              "label": "直角三角形 → 圆锥"
+            },
+            {
+              "value": "cylinder",
+              "label": "矩形 → 圆柱"
+            }
+          ]
+        },
+        {
+          "key": "sweep",
+          "label": "旋转进度（度）",
+          "type": "range",
+          "min": 0,
+          "max": 360,
+          "step": 10
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "shape": "cone",
+        "sweep": 240,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-3",
+          "afterBlockId": "bx3-11-3-b6",
+          "rationale": "接替生成图形、旋转轴、母线与旋转面的长文字解释。"
+        }
+      ]
+    },
+    {
+      "id": "sphere-moving-section",
+      "title": "球的截面：圆怎样缩为一点",
+      "goal": "移动截平面，观察截面半径与球心垂距的勾股关系。",
+      "summary": "半圆面绕直径旋转一周生成球，半圆弧生成球面，球面上各点到球心距离均为R。任何过球心的直线都可作为球的旋转轴。平面截球，在平面到球心距离小于球半径时得到圆形截面。其圆心是球心到平面的垂足；经过球心的是大圆，其余为小圆；相切于一点与无交不属于圆截面。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mi>R</mi><mn>2</mn></msup><mspace width=\"1em\"/><mo>(</mo><mo>|</mo><mi>h</mi><mo>|</mo><mo>≤</mo><mi>R</mi><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "level",
+          "label": "截平面高度（半径2）",
+          "type": "range",
+          "min": -2.5,
+          "max": 2.5,
+          "step": 0.1
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "level": 0.8,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-4",
+          "afterBlockId": "bx3-11-4-b4",
+          "rationale": "接替平面截球、垂足圆心与大圆小圆的构造长解释。"
+        }
+      ]
+    },
+    {
+      "id": "hemisphere-cavalieri",
+      "title": "球体积：半球与柱挖锥的截面对照",
+      "goal": "同步升降截面，比较圆盘与圆环的面积。",
+      "summary": "半径R的半球与同半径、同高R的圆柱挖去倒锥，在任意高度h的截面积同为π(R²−h²)。由祖暅原理得半球体积等于柱减锥，进而球体积为4πR³/3。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>S</mi><mtext>圆</mtext></msub><mo>=</mo><mi>π</mi><mo>(</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><msub><mi>S</mi><mtext>圆环</mtext></msub></math>",
+      "controls": [
+        {
+          "key": "level",
+          "label": "等高截面比例",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "level": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-11-4",
+          "afterBlockId": "bx3-11-4-b12",
+          "rationale": "接替半球、圆柱减倒锥的截面面积推导。"
+        }
+      ]
+    },
+    {
+      "id": "space-basis-collapse",
+      "title": "空间基底：第三个方向压平会怎样",
+      "goal": "压低第三个向量，看立体张成空间退化为平面。",
+      "summary": "三个不共面的向量构成空间的一组基底，任何空间向量都可唯一表示为它们的线性组合。若第三方向落入前两方向张成的平面，就失去对全空间的表示能力与唯一性；不共面条件不可省略。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>p</mi><mo>=</mo><mi>x</mi><mi>u</mi><mo>+</mo><mi>y</mi><mi>v</mi><mo>+</mo><mi>z</mi><mi>w</mi><mspace width=\"1em\"/><mtext>基底须不共面</mtext></math>",
+      "controls": [
+        {
+          "key": "height",
+          "label": "第三方向的高度",
+          "type": "range",
+          "min": 0,
+          "max": 3,
+          "step": 0.1
+        },
+        {
+          "key": "coefficient",
+          "label": "组合系数c（p=u+v+cw）",
+          "type": "range",
+          "min": -1,
+          "max": 1.5,
+          "step": 0.1
+        },
+        {
+          "key": "yaw",
+          "label": "观察视角（不改变数学关系）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "height": 2,
+        "coefficient": 0.5,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "x1-3-2",
+          "afterBlockId": "x1-3-2-b7",
+          "rationale": "接替空间基底存在、唯一表示与不共面条件的立体解释。"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-reverse-pairs",
+      "title": "等差求和：把倒序数列拼成等高列",
+      "goal": "把倒序条形移到正序条形上，观察每列总和相同。",
+      "summary": "等差数列正序与倒序逐项相加，每列之和都是首尾项和。共有n列，总和是原和的两倍，故前n项和为n倍首尾和的一半。图形示例取非负公差，代数方法不受此限制。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>2</mn><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "项数",
+          "type": "range",
+          "min": 2,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "key": "difference",
+          "label": "公差（图形示例非负）",
+          "type": "range",
+          "min": 0,
+          "max": 4,
+          "step": 0.5
+        },
+        {
+          "key": "progress",
+          "label": "倒序条形配对进度",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "n": 7,
+        "difference": 1,
+        "progress": 0.7
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-1",
+          "afterBlockId": "x1-4-1-b14",
+          "rationale": "接替高斯算法、倒序相加与公式推导的逐行重复解释。"
+        }
+      ]
+    },
+    {
+      "id": "geometric-shift-cancel",
+      "title": "等比求和：错位后只剩首尾",
+      "goal": "对齐同幂次项，再消去中间项，保留q=1的边界。",
+      "summary": "将等比数列前n项和乘公比q，幂次整体错开一位。两式相减消去中间项，得到(1−q)S=a₁(1−qⁿ)。q≠1时才能除以1−q；q=1时前n项和为na₁。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo>(</mo><mn>1</mn><mo>−</mo><mi>q</mi><mo>)</mo><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>(</mo><mn>1</mn><mo>−</mo><msup><mi>q</mi><mi>n</mi></msup><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "项数",
+          "type": "range",
+          "min": 2,
+          "max": 9,
+          "step": 1
+        },
+        {
+          "key": "ratio",
+          "label": "公比（含负数与q=1）",
+          "type": "select",
+          "options": [
+            {
+              "value": -1.5,
+              "label": "−1.5"
+            },
+            {
+              "value": -1,
+              "label": "−1"
+            },
+            {
+              "value": -0.5,
+              "label": "−0.5"
+            },
+            {
+              "value": 0.5,
+              "label": "0.5"
+            },
+            {
+              "value": 1,
+              "label": "1（单独求和）"
+            },
+            {
+              "value": 1.5,
+              "label": "1.5"
+            },
+            {
+              "value": 2,
+              "label": "2"
+            }
+          ]
+        },
+        {
+          "key": "stage",
+          "label": "观察步骤",
+          "type": "select",
+          "options": [
+            {
+              "value": 0,
+              "label": "两行错位排列"
+            },
+            {
+              "value": 1,
+              "label": "同幂次项对齐"
+            },
+            {
+              "value": 2,
+              "label": "消去中间项"
+            }
+          ]
+        }
+      ],
+      "initial": {
+        "n": 6,
+        "ratio": 2,
+        "stage": 1
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-2",
+          "afterBlockId": "x1-4-2-b12",
+          "rationale": "接替乘公比、错位、相减与q=1分类的冗长文字过程。"
+        }
+      ]
+    },
+    {
+      "id": "sqrt2-iteration-compare",
+      "title": "迭代求√2：收敛与来回振荡",
+      "goal": "切换三个等价变形，用蛛网逐步比较迭代轨迹与误差。",
+      "summary": "求√2可把方程变成不动点迭代，但等价变形不保证收敛。正初值下巴比伦算法先到√2上方再下降；1+1/(x+1)交替逼近；2/x一般两值循环，仅初值恰是√2时固定。有限步图像不是收敛证明。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>x</mi><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><msub><mi>x</mi><mi>n</mi></msub><mo>+</mo><mfrac><mn>2</mn><msub><mi>x</mi><mi>n</mi></msub></mfrac><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "method",
+          "label": "迭代规则",
+          "type": "select",
+          "options": [
+            {
+              "value": "babylon",
+              "label": "巴比伦法：(x+2/x)/2"
+            },
+            {
+              "value": "slow",
+              "label": "交替逼近：1+1/(x+1)"
+            },
+            {
+              "value": "reciprocal",
+              "label": "循环反例：2/x"
+            }
+          ]
+        },
+        {
+          "key": "initial",
+          "label": "正初值",
+          "type": "range",
+          "min": 0.5,
+          "max": 4,
+          "step": 0.1
+        },
+        {
+          "key": "steps",
+          "label": "迭代步数",
+          "type": "range",
+          "min": 0,
+          "max": 12,
+          "step": 1
+        }
+      ],
+      "initial": {
+        "method": "babylon",
+        "initial": 1,
+        "steps": 4
+      },
+      "placements": [
+        {
+          "sectionId": "x1-4-5",
+          "afterBlockId": "x1-4-5-b2",
+          "rationale": "接替三种迭代算法及多张数表的反复比较。"
+        }
+      ],
+      "sourceReuse": {
+        "kind": "derived",
+        "paths": [
+          "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/fixed-points.html"
+        ],
+        "note": "复用不动点、蛛网路径与误差观察的教学设计；按教材三种迭代重写独立纯模型，未改另一项目。"
+      }
+    }
+  ],
+  "existing": [
+    {
+      "assetId": "ellipse-lab",
+      "summary": "椭圆是到两定点距离之和等于常数2a的点的轨迹，必须满足2a大于焦距2c；选对坐标可得标准方程，且b²=a²−c²。边界退化不得与椭圆混淆。",
+      "placements": [
+        {
+          "sectionId": "x1-2-2",
+          "afterBlockId": "x1-2-2-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。"
+        }
+      ]
+    },
+    {
+      "assetId": "hyperbola-lab",
+      "summary": "双曲线是到两定点距离差的绝对值等于正常数2a的轨迹，条件为0<2a<2c；标准方程中c²=a²+b²。绝对值对应两支，等于零或焦距时须另论。",
+      "placements": [
+        {
+          "sectionId": "x1-2-3",
+          "afterBlockId": "x1-2-3-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。"
+        }
+      ]
+    },
+    {
+      "assetId": "parabola-lab",
+      "summary": "抛物线是到定点与定直线距离相等的点的轨迹，定点不在定直线上。焦点(p/2,0)、准线x=−p/2对应y²=2px，且p>0。",
+      "placements": [
+        {
+          "sectionId": "x1-2-4",
+          "afterBlockId": "x1-2-4-b3",
+          "rationale": "使用现有定义实验承担焦点距离与轨迹的动态解释；原定义、完整推导折叠保留，打印恢复。"
+        }
+      ]
+    }
+  ]
+}

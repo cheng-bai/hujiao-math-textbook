@@ -1,0 +1,28 @@
+{
+  "id": "bx2-chapter-end-9",
+  "book_id": "bx2",
+  "section_path": "batch/sections/bx2/bx2-chapter-end-9.json",
+  "fingerprint": "5d0457fe6e7d70b3a13b91be81446b18bec2cee9bdd6267cf1dfd18bb4c868e3",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 13,
+        "answers": 13,
+        "teacher_formulas": 178,
+        "student_formulas": 165,
+        "checks": 65,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 12.53,
+  "finished_at": "2026-10-20T02:12:18+08:00"
+}

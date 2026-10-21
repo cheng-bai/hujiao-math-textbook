@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-13-3",
+  "book_id": "bx3",
+  "section": "13.3",
+  "title": "抽样方法",
+  "section_json": "batch/sections/bx3/bx3-13-3.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-13-3",
+  "fingerprint": "82a175e7b5cc65f3d418a2d57347495abf87a12f82113ad72ab8b6840f5dfdfe",
+  "status": "rendered",
+  "questions": 13,
+  "answers": 13,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-85cbeaef94a8e65037e4.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_9_217_710_261_213_0.jpg",
+      "sha256": "85cbeaef94a8e65037e4909723ed1b3e70a116d0e418ea24b6fe32d68a80163d",
+      "private": false
+    },
+    "images/book-3826d2ea5a9036c0a2f3.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_10_348_1655_553_321_0.jpg",
+      "sha256": "3826d2ea5a9036c0a2f32b432f0a50d5a3f92761c6c0611f124813659c3fa230",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [
+    "images/book-3826d2ea5a9036c0a2f3.jpg",
+    "images/book-85cbeaef94a8e65037e4.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "652ffaa1d0482f74a5bd1fdf20ff767c7e1b9d5ead346c22675d081926795a36",
+    "student.html": "8d1fa081111e7d8edbb2ce09aa7ec21775eef9c59fc97c623abb9d9cb24a814f",
+    "student.zip": "103ddbeaea47034e2393f2d71932e1d2d059eb9c883c53c43fd2bc95917195b8",
+    "content.json": "2b27c332b823c39838a2b852e46d193f29685d66dc7dd7c8edfd3ea7118ae6d6"
+  }
+}

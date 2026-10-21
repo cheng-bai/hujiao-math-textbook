@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "in_memory_tests": 15,
+  "records": [
+    {
+      "book": "x1",
+      "dependency": "/memory/scripts/visual-book.css",
+      "invalidated": true
+    },
+    {
+      "book": "x1",
+      "dependency": "/memory/scripts/visual-book.js",
+      "invalidated": true
+    },
+    {
+      "book": "x1",
+      "dependency": "/memory/scripts/visual-assets/example-student.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx1",
+      "dependency": "/memory/scripts/visual-book.css",
+      "invalidated": true
+    },
+    {
+      "book": "bx1",
+      "dependency": "/memory/scripts/visual-book.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx1",
+      "dependency": "/memory/scripts/visual-assets/example-student.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx2",
+      "dependency": "/memory/scripts/visual-book.css",
+      "invalidated": true
+    },
+    {
+      "book": "bx2",
+      "dependency": "/memory/scripts/visual-book.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx2",
+      "dependency": "/memory/scripts/visual-assets/example-student.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx3",
+      "dependency": "/memory/scripts/visual-book.css",
+      "invalidated": true
+    },
+    {
+      "book": "bx3",
+      "dependency": "/memory/scripts/visual-book.js",
+      "invalidated": true
+    },
+    {
+      "book": "bx3",
+      "dependency": "/memory/scripts/visual-assets/example-student.js",
+      "invalidated": true
+    },
+    {
+      "book": "x2",
+      "dependency": "/memory/scripts/visual-book.css",
+      "invalidated": true
+    },
+    {
+      "book": "x2",
+      "dependency": "/memory/scripts/visual-book.js",
+      "invalidated": true
+    },
+    {
+      "book": "x2",
+      "dependency": "/memory/scripts/visual-assets/example-student.js",
+      "invalidated": true
+    }
+  ],
+  "method": "Actual fingerprint function with isolated in-memory filesystem, five real PRIORITY book IDs; no project file changes."
+}

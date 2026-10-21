@@ -1,0 +1,857 @@
+{
+  "schema_version": 1,
+  "id": "x2-6-1",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "6",
+  "chapter_title": "第6章计数原理",
+  "section": "6.1",
+  "title": "乘法原理与加法原理",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "乘法原理与加法原理",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 3,
+          "end": 3
+        }
+      ],
+      "id": "x2-6-1",
+      "number": "6.1",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "章导语",
+      "markdown": "# 选修二第6章计数原理",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 本章概述",
+      "markdown": "## 一、本章概述\n\n### 总体要求\n\n计数问题是数学中的研究对象之一, 乘法 (分步) 原理和加法 (分类) 原理是解决计数问题最基本的方法. 排列与组合是学习概率理论的基础知识, 由于其思维方法的新颖性和独特性, 也是培养学生思维能力的不可或缺的素材. 作为初中多项式乘法公式的推广, 二项式定理不仅使组合等内容得到深化, 也为后面学习概率分布打下基础.\n\n在小学和初中, 学生已经掌握了枚举、分类讨论等基本的计数方法, 学习了多项式的乘法公式. 本章旨在将这些基本的计数方法和乘法公式进行提炼,归纳出一般的计数方法和多项式展开式的基本规律, 并使用这些工具研究概率等方面的问题.\n\n高中阶段学习的计数方法是小学和初中阶段所学的计数方法的提升和抽象. 限于学生的知识水平, 本章不强调理论推导, 而是通过具体生活和数学中的例子归纳总结两个计数原理(加法原理和乘法原理),并对不同的计数现象进行剖析,从而总结出两种基本的计数模型一一排列与组合. 进一步地, 将排列与组合的知识运用到二项式定理或概率中, 使学生对计数原理等工具的数学价值形成更深的认识. 这样的学习过程, 遵循的是从具体到抽象的思路, 符合学生的认知规律, 并有助于培养学生的数学抽象素养.\n\n### 课时安排建议\n\n本章的课时安排建议为 11+1,共计 12 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配</td></tr><tr><td rowspan=\"2\">6.1 乘法原理与加法原理</td><td rowspan=\"2\">2</td><td>乘法原理 1 课时</td></tr><tr><td>加法原理 1 课时</td></tr><tr><td rowspan=\"3\">6.2 排列</td><td rowspan=\"3\">3</td><td>排列的定义 1 课时</td></tr><tr><td>排列数的计算 1 课时</td></tr><tr><td>排列数的性质 1 课时</td></tr><tr><td rowspan=\"3\">6.3 组合</td><td rowspan=\"3\">3</td><td>组合的定义 1 课时</td></tr><tr><td>组合数的计算 1 课时</td></tr><tr><td>组合数的性质 1 课时</td></tr><tr><td>6.4 计数原理在古典概率中的应用</td><td>1</td><td>计数原理在古典概率中的应用 1 课时</td></tr><tr><td rowspan=\"2\">6.5 二项式定理</td><td rowspan=\"2\">2</td><td>杨辉三角和二项式定理 1 课时</td></tr><tr><td>二项式定理的应用——组合数的性质 1 课时</td></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容共分为 5 节, 分别是 “6.1 乘法原理与加法原理” “6.2 排列” “6.3 组合” “ 6.4 计数原理在古典概率中的应用\" “6.5 二项式定理”.\n\n“6.1 乘法原理与加法原理”从学生熟悉的计数问题中提炼出乘法原理和加法原理; 限于学生的知识基础, 本节不强调理论推导, 而是从具体问题中归纳一般规律, 符合学生的认知规律. 另外, 本教材在同一节中引入两个原理, 这样比较两个原理异同的处理可使认识更深刻, 体现认识问题的全面性.\n\n“6.2 排列”遵循“从具体到抽象”的处理方法,作为对两个计数原理的一个基本运用,分别介绍了“排列的定义”“排列数的计算”和“排列数的性质”. 这部分教材内容的特色是突出了与排列数性质相关的问题, 旨在加深学生对排列数公式的理解, 提高学生的数学运算素养.\n\n“ 6.3 组合”的处理方式与 6.2 节相同,分别介绍了“组合的定义”“组合数的计算” 和 “组合数的性质”。这部分教材内容的特色是突出了与组合数性质相关的问题,旨在加深学生对组合数公式的理解, 提高学生的数学运算素养, 为进一步学习二项式定理和概率分布作好铺垫.\n\n\"6.4 计数原理在古典概率中的应用\"是根据课程标准的指导和教学的实际需要而增加的一节内容. 这部分内容旨在完善学生的知识体系,加深学生对计数原理及其应用的理解, 也为进一步学习概率理论作好准备.\n\n“ 6.5 二项式定理”从学生熟悉的多项式乘法开始, 寻找一般性的规律, 并用数学归纳法对二项式定理加以证明. 此外, 在课后阅读中还利用组合的定义和多项式运算法则进行了证明. 这样处理的目的是加深学生对两个计数原理和排列组合的理解, 提高学生的数学抽象和逻辑推理素养. 为突出对数学对象本质的理解, 减少非主干知识的干扰, 本节删去了原教材中“二项式系数”的定义及一些有关的讨论.\n\n### 教学提示\n\n教师应梳理本章中原理和方法之间的关系,引导学生的思维从具体到抽象, 提高学生使用数学符号的能力. 两个原理 (乘法原理和加法原理) 和两种模型 (排列与组合)的引入, 都应从学生熟悉的情境开始, 分析问题的本质属性, 引导学生进行合理的数学推理. 教师要全盘考虑问题的难度, 避免出现超出学生思考能力的计数问题和过于繁杂的问题; 鼓励学生使用信息技术学习、探索和解决问题. 例如, 利用计算器观察排列数与组合数的变化规律, 探索排列数与组合数的关系, 等等.\n\n### 评价建议\n\n在过程性评价中, 应关注学生的思维. 对于相同的计数问题, 不同的学生可能有不同的思考方式,呈现出不同的解决方法,教师不应把教学重心仅仅停留在“表达形式”的层面上,而应该关注学生的思维活动,对学生的书面表达和口头表达也应加以密切的关注, 避免学生在计算过程中出现分类不清、重复计算、思考不全面等现象.\n\n在终结性评价中, 应更多地从基本方法的掌握层面上开展考查, 避免技巧性强、 分类情况较多等繁杂问题.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 22,
+          "end": 61
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "##### 6.1 乘法原理与加法原理\n\n### 教学重点\n\n在枚举法计数的基础上, 利用生活和数学中的例子将计数方法上升为乘法原理和加法原理这两个基本原理; 明确这两个原理之间的差异, 注重对问题的剖析, 加强分析问题的条理性; 在实际情境中, 能够根据不同的需要选用适当的原理进行计数.\n\n### 内容分析\n\n计数是基本的数学活动之一, 在问题涉及的数量较小的情况下, 可以使用枚举法等方法进行. 而对于一般的计数问题, 则需要总结计数规律, 形成一定的计数方法. 乘法原理和加法原理是两个基本的计数原理, 所有的计数活动都是从这两个原理派生而来的. 这两个原理分别对应了分步与分类这两个基本的数学活动, 在明确活动类型的基础上, 要选用适当的原理进行计数.\n\n例 1 旨在使学生明确“做完一件事情”的含义,只有每层分别取了 1 本书,才可以说“完成取书”这样一件事情. 在实际的计算中,步骤的顺序并不是主要因素. 在教学中, 教师要引导学生完整描述 “取书”这样一件事情. 习题 6.1A 组的第 1 至 4 题是利用乘法原理解决的问题.\n\n例 2 是常见的计数问题, 为学习例 4 和例 6 作准备.\n\n例 3 旨在说明, 对于一个计数问题, 要从适当的角度 (如本题利用的是正整数的素因数分解)进行考虑. 本题的解决需要学生明确素因数分解、正约数等名词的含义. 习题 6.1B 组的第 4 题是本题的延伸; 习题 6.1B 组的第 1 题是一个与多项式展开式有关的项数问题, 为此必须明确“展开式中的项”的含义.\n\n例 4 和例 6 是两个有限制条件的计数问题, 旨在说明在计数活动中, 往往要优先考虑限制条件, 在明确限制条件类别(与分类有关, 还是与分步有关)的基础上, 选用合适的计数原理进行计算. 习题 6.1A 组的第 5、6 题和习题 6.1B 组的第 3 题是三个有限制条件的计数问题, 其中习题 6.1B 组的第 3 题可根据学生的实际情况决定是否选用.\n\n例 5 是一个综合运用乘法原理与加法原理的问题, 旨在说明在这类问题中, 一般从分类开始, 将问题分解成若干“类”, 而在每一类的计算中, 则使用乘法原理或加法原理进行计算. 习题 6.1B 组的第 2 题是一个与电路相关的问题, 需要学生采取类似的方式分析求解.\n\n\n### 注意事项\n\n使用“乘法原理”的关键在于合理的“分步”. 计数时,不同的步骤之间应互相独立, 即每个步骤所采用的方法, 应该不影响其后续步骤所采用方法的选择. 例如, 考虑问题“将 4 封不同的信 $a\\text{、}b\\text{、}c\\text{、}d$ 任意投到甲、乙、丙 3 个信箱中,有多少种不同的投法”, 正确的计算方法是依次考虑每封信所在的信箱, 而如果分别考虑每个信箱所投放的信, 则信箱甲的投放情况会影响其他信箱的投放情况.\n\n使用“加法原理”的关键在于合理的“分类”,要做到不重复、不遗漏.\n\n### 教学建议\n\n在教学过程中, 应当突出对两个原理本质的理解, 淡化计数的技巧. 在涉及计数原理或排列与组合的综合问题时, 应避免过分繁杂的问题. 对于典型的计数问题, 重在剖析问题的思考角度, 而不是将计算方法和盘托出.\n\n计数问题是与学生的生活实际联系比较密切的数学问题, 在教学过程中, 应充分利用学生熟悉的计数的例子, 详细分析问题的思考角度和计算方法, 提升学生对原理的理解.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 64,
+          "end": 96
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "![bo_d4slon3ef24c73be0qm0_0_8_4_1646_1164_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_0_8_4_1646_1164_0.jpg)\n\n自远古以来，数 (shù) 的概念就来源于数 (shǔ) 这个动作. 直到今天, 精确地知道一个有限集合中元素的个数，仍然是一类非常重要的问题. 例如, 在必修课程第 12 章中, 我们已经看到古典概率的计算往往需要用到一些集合的元素个数之间的比值, 但在那里, 因为样本空间较小, 大多数计数都是通过枚举完成的. 在本章里，我们将学习一些基本的计数原理, 以便能够解决更多的计数问题.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 4,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 乘法原理",
+      "markdown": "### 1 乘法原理",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 9,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "先看下面的问题:\n\n![bo_d4slon3ef24c73be0qm0_1_196_813_348_137_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_1_196_813_348_137_0.jpg)\n\n图 6-1-1\n\n如图 6-1-1,从甲地到丙地,需经过乙地. 其中,从甲地到乙地有 3 条路线 ${A}_{1}\\text{ 、 }{A}_{2}\\text{ 、 }{A}_{3}$ ,而从乙地到丙地有 2 条路线 ${B}_{1}$ 、 ${B}_{2}$ . 那么,从甲地经由乙地到丙地,共有多少种不同的走法?\n\n从甲地到乙地有 3 种不同的走法, 按其中任何一种走法到达乙地后, 再由乙地到丙地又有 2 种不同的走法. 于是, 不同的走法就有以下 6 种情形 (其中符号 ${A}_{1}{B}_{1}$ 的含义是 \"先走路线 ${A}_{1}$ , 再走路线 ${B}_{1}$ \",其余类同):\n\n$$\n{A}_{1}{B}_{1}\\text{ 、 }{A}_{1}{B}_{2}\\text{ 、 }{A}_{2}{B}_{1}\\text{ 、 }{A}_{2}{B}_{2}\\text{ 、 }{A}_{3}{B}_{1}\\text{ 、 }{A}_{3}{B}_{2}.\n$$\n\n其中，每一种情形都可\"从甲地经由乙地到丙地\". 因此，从甲地经由乙地到丙地共有\n\n$$\n3 \\times  2 = 6\n$$\n\n种不同的走法.\n\n这里使用的就是下面的\n\n乘法原理(分步计数原理) 做一件事,需要依次完成 $n$ 个步骤,其中完成第一步有 ${a}_{1}$ 种不同的方法,完成第二步有 ${a}_{2}$ 种不同的方法, $\\cdots \\cdots$ ,完成第 $n$ 步有 ${a}_{n}$ 种不同的方法. 那么完成这件事共有\n\n$$\n{a}_{1}{a}_{2}\\cdots {a}_{n}\n$$\n\n种不同的方法.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 10,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 一个三层的书架上共放有 9 本书, 其中第一层放有 4 本不同的语文书, 第二层放有 3 本不同的数学书, 第三层放有 2 本不同的外语书. 若从书架的第一、二、三层各取 1 本书, 共有多少种不同的取法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 43,
+          "end": 44
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 43,
+          "end": 44
+        }
+      ],
+      "id": "x2-6-1-ex-1",
+      "category": "例题",
+      "answer": "解 从书架的第一、二、三层各取 1 本书, 可以分三个步骤完成:\n\n第一步:从第一层取 1 本语文书，有 4 种取法；\n\n第二步:从第二层取 1 本数学书，有 3 种取法；\n\n第三步:从第三层取 1 本外语书，有 2 种取法.\n\n根据乘法原理, 不同取法的种数为\n\n$$\n4 \\times  3 \\times  2 = {24}.\n$$\n\n即从书架的第一、二、三层各取 1 本书, 有 24 种不同的取法.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 45,
+          "end": 60
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 用 1、2、3、4、5 可以组成多少个没有重复数字的三位数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 61,
+          "end": 62
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 61,
+          "end": 62
+        }
+      ],
+      "id": "x2-6-1-ex-2",
+      "category": "例题",
+      "answer": "解 要组成一个没有重复数字的三位数，可以分三个步骤完成:\n\n第一步:确定百位上的数字，从 5 个数字中任选一个，有 5 种选法;\n\n第二步:确定十位上的数字，因为不允许有重复数字，所以从第一步余下的数字中任选一个，有 4 种选法;\n\n第三步:确定个位上的数字，因为不允许有重复数字，所以从前两步余下的数字中任选一个, 有 3 种选法.\n\n根据乘法原理, 不同取法的种数为\n\n$$\n5 \\times  4 \\times  3 = {60}.\n$$\n\n因此, 可以组成 60 个没有重复数字的三位数.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 63,
+          "end": 78
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 正整数 540 有多少个不同的正约数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 79,
+          "end": 80
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 79,
+          "end": 80
+        }
+      ],
+      "id": "x2-6-1-ex-3",
+      "category": "例题",
+      "answer": "解 将 540 进行素因数分解, 得\n\n$$\n{540} = {2}^{2} \\times  {3}^{3} \\times  5.\n$$\n\n因此，540的正约数都可以写成 ${2}^{a}{3}^{b}{5}^{c}$ 的形式，其中 $a \\in  \\{ 0,1,2\\}$ ， $b \\in  \\{ 0,1,2,3\\} , c \\in  \\{ 0,1\\}$ ,通过 $a\\text{ 、 }b\\text{ 、 }c$ 的不同取值，可以得到 540 的所有不同的正约数.\n\n这样, 确定 540 的正约数可以分下面三个步骤完成:\n\n第一步: 确定约数中 $a$ 的值,有 $a = 0, a = 1, a = 2$ 共 3 种可能;\n\n第二步:确定约数中 $b$ 的值，有 4 种可能；\n\n第三步: 确定约数中 $c$ 的值,有 2 种可能.\n\n根据乘法原理, 540 的不同正约数的个数为\n\n$$\n3 \\times  4 \\times  2 = {24}.\n$$\n\n因此, 540 有 24 个不同的正约数.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 81,
+          "end": 104
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.1(1)",
+      "markdown": "#### 练习 6.1(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 105,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.1(1) · 1",
+      "markdown": "1. 公园有 4 个门, 从一个门进, 再从另一个门出, 共有多少种不同的走法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 107,
+          "end": 108
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 107,
+          "end": 108
+        }
+      ],
+      "id": "x2-6-1-p611-1",
+      "category": "练习6.1(1)",
+      "answer": "1. 12.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 217,
+          "end": 218
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.1(1) · 2",
+      "markdown": "2. 4 名学生报名参加两项体育比赛，每名学生可参加的比赛数目不限，每项比赛参加的人数不限，共有多少种不同的报名结果?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 109,
+          "end": 110
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 109,
+          "end": 110
+        }
+      ],
+      "id": "x2-6-1-p611-2",
+      "category": "练习6.1(1)",
+      "answer": "2. 81.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 219,
+          "end": 220
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 加法原理",
+      "markdown": "### 2 加法原理",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 111,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "再看下面的问题:\n\n从甲地到乙地, 可以乘飞机, 可以乘轮船, 也可以乘汽车. 一天中，飞机有 4 班，轮船有 3 班，汽车有 2 班. 问:一天中乘坐这些交通工具从甲地到乙地共有多少种不同的走法?\n\n因为一天中乘飞机有 4 种走法, 乘轮船有 3 种走法, 乘汽车有 2 种走法, 其中每一种方法都可以实现从甲地到乙地的目的, 所以一天中乘坐这些交通工具从甲地到乙地共有\n\n$$\n4 + 3 + 2 = 9\n$$\n\n种不同的走法.\n\n这里使用的就是下面的\n\n---\n\n每一类办法中的每一种方法都可以单独完成这件事情, 这是\"加法原理\"与\"乘法原理\"的区别.\n\n---\n\n加法原理(分类计数原理)做一件事，完成它有 $n$ 类办法,其中第一类办法有 ${a}_{1}$ 种不同的方法,第二类办法有 ${a}_{2}$ 种不同的方法, $\\cdots \\cdots$ ,第 $n$ 类办法有 ${a}_{n}$ 种不同的方法. 那么完成这件事共有\n\n$$\n{a}_{1} + {a}_{2} + \\cdots  + {a}_{n}\n$$\n\n种不同的方法.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 112,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 用 1、2、3、4、5 这五个数字可以组成多少个十位数字大于个位数字的两位数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 141,
+          "end": 142
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 141,
+          "end": 142
+        }
+      ],
+      "id": "x2-6-1-ex-4",
+      "category": "例题",
+      "answer": "解 十位数字大于个位数字的两位数可以分成四类:\n\n十位为 5 , 有 51、52、53、54 共 4 个;\n\n十位为 4 ，有 41、42、43 共 3 个；\n\n十位为3,有 31、32 共 2 个;\n\n十位为 2,只有 21 一个.\n\n根据加法原理,十位数字大于个位数字的两位数共有 $4 + 3 \\; + 2 + 1 = {10}$ 个.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 143,
+          "end": 154
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 如图 6-1-2, 从甲地到乙地有 2 条路, 从乙地到丁地有 3 条路; 从甲地到丙地有 4 条路, 从丙地到丁地有 2 条路. 那么, 从甲地到丁地, 如果每条路至多走一次, 且每个地点至多经过一次, 有多少种不同的走法?\n\n![bo_d4slon3ef24c73be0qm0_4_1121_476_303_308_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_4_1121_476_303_308_0.jpg)\n\n图 6-1-2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 155,
+          "end": 160
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 155,
+          "end": 160
+        }
+      ],
+      "id": "x2-6-1-ex-5",
+      "category": "例题",
+      "answer": "解 从甲地到丁地的走法可以分成两类:\n\n第一类:从甲地经由乙地到丁地. 这类走法可以分成两个步骤:先从甲地到乙地，有 2 种走法；再从乙地到丁地，有 3 种走法. 根据乘法原理, 这一类走法的种数为\n\n$$\n2 \\times  3 = 6.\n$$\n\n第二类: 从甲地经由丙地到丁地. 这类走法可以分成两个步骤: 先从甲地到丙地, 有 4 种走法; 再从丙地到丁地, 有 2 种走法. 根据乘法原理, 这一类走法的种数为\n\n$$\n4 \\times  2 = 8.\n$$\n\n根据加法原理，从甲地到丁地共有\n\n$$\n6 + 8 = {14}\n$$\n\n种不同的走法.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 161,
+          "end": 182
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 在 300 和 800 之间，有多少个没有重复数字的奇数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 183,
+          "end": 184
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 183,
+          "end": 184
+        }
+      ],
+      "id": "x2-6-1-ex-6",
+      "category": "例题",
+      "answer": "解 一个三位奇数的个位上的数字必是奇数, 且因为不允许有重复数字出现, 当一个奇数字 $\\left( {1\\text{ 、 }3\\text{ 、 }5\\text{ 、 }7\\text{ 、 }9}\\right)$ 作为个位数时, 它就不能作为百位数. 所以，符合条件的数可以按百位上的数字是奇数或偶数分成两类:\n\n第一类:百位上的数字是偶数. 这样的三位数可以由以下三个步骤确定:\n\n第一步, 百位上的数字从 4 和 6 中任选一个, 有 2 种选法;\n\n第二步, 个位上的数字从 1、3、5、7、9 中任选一个, 有 5 种选法;\n\n第三步，十位上的数字从余下的 8 个数字中任选一个，有 8 种选法.\n\n根据乘法原理, 这一类奇数的个数为\n\n$$\n2 \\times  5 \\times  8 = {80}.\n$$\n\n第二类:百位上的数字是奇数. 这样的三位数可以由以下三个步骤确定:\n\n第一步，百位上的数字从 3、5、7 中任选一个，有 3 种选法；\n\n第二步, 个位上的数字从余下的 4 个奇数中任选一个, 有 4 种选法;\n\n第三步, 十位上的数字从余下的 8 个数字中任选一个, 有 8 种选法.\n\n根据乘法原理, 这一类奇数的个数为\n\n$$\n3 \\times  4 \\times  8 = {96}.\n$$\n\n根据加法原理, 在 300 和 800 之间共有\n\n$$\n{80} + {96} = {176}\n$$\n\n个没有重复数字的奇数.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 185,
+          "end": 222
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.1(2)",
+      "markdown": "#### 练习 6.1(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 223,
+          "end": 223
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.1(2) · 1",
+      "markdown": "1. 在平面直角坐标系中,以 1、2、3、4、5 这五个数中的两个分别作为一个点的横坐标和纵坐标,可以组成多少个位于直线 $y = x$ 下方的点?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 225,
+          "end": 226
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 225,
+          "end": 226
+        }
+      ],
+      "id": "x2-6-1-p612-1",
+      "category": "练习6.1(2)",
+      "answer": "1. 10.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 223,
+          "end": 224
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.1(2) · 2",
+      "markdown": "2. 书架上放有 6 本不同的数学书和 5 本不同的语文书. 从中任取一本，有多少种不同的取法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 227,
+          "end": 228
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 227,
+          "end": 228
+        }
+      ],
+      "id": "x2-6-1-p612-2",
+      "category": "练习6.1(2)",
+      "answer": "2. 11.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 225,
+          "end": 226
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 6.1",
+      "markdown": "### 习题 6.1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 229,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 231,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 1",
+      "markdown": "1. 4 名学生分别报名参加学校的足球队、篮球队和棒球队, 每人限报其中的一支. 问: 有多少种不同的报名方法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 233,
+          "end": 234
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 233,
+          "end": 234
+        }
+      ],
+      "id": "x2-6-1-h61A-1",
+      "category": "习题6.1A",
+      "answer": "1. 81 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 231,
+          "end": 232
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 2",
+      "markdown": "2. 某服装厂为学校设计了 4 种样式的上衣、 3 种样式的裤子. 若取其中的一件上衣和一条裤子配成校服，则可以配出多少种不同样式的校服?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 235,
+          "end": 236
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 235,
+          "end": 236
+        }
+      ],
+      "id": "x2-6-1-h61A-2",
+      "category": "习题6.1A",
+      "answer": "2. 12.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 233,
+          "end": 234
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 3",
+      "markdown": "3. 在一种编码方式中, 每个编码都是两位字符, 规定第一位用数字 0 至 9 中之一, 第二位用 26 个小写英文字母中之一. 这种编码方式共可以产生多少个不同的编码?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 237,
+          "end": 238
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 237,
+          "end": 238
+        }
+      ],
+      "id": "x2-6-1-h61A-3",
+      "category": "习题6.1A",
+      "answer": "3. 260.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 235,
+          "end": 236
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 4",
+      "markdown": "4. 设集合 $A = \\{ \\left( {x, y}\\right)  \\mid  x \\in  \\mathbf{Z}, y \\in  \\mathbf{Z}$ ,且 $\\left| x\\right|  \\leq  6,\\left| y\\right|  \\leq  7\\}$ ,则集合 $A$ 中有多少个元素?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 239,
+          "end": 240
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 239,
+          "end": 240
+        }
+      ],
+      "id": "x2-6-1-h61A-4",
+      "category": "习题6.1A",
+      "answer": "4. 195.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 237,
+          "end": 238
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 5",
+      "markdown": "5. 从 $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d\\text{ 、 }e$ 这 5 个元素中取出 4 个,放在 4 个不同的格子中,且元素 $b$ 不能放在第二个格子里. 问: 一共有多少种不同的放法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 241,
+          "end": 242
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 241,
+          "end": 242
+        }
+      ],
+      "id": "x2-6-1-h61A-5",
+      "category": "习题6.1A",
+      "answer": "5.96 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 239,
+          "end": 240
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1A · 6",
+      "markdown": "6. $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$ 五人站成一排,如果 $B$ 必须站在 $A$ 的右边 $(A\\text{ 、 }B$ 可以不相邻), 那么有多少种不同的排法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 243,
+          "end": 244
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 243,
+          "end": 244
+        }
+      ],
+      "id": "x2-6-1-h61A-6",
+      "category": "习题6.1A",
+      "answer": "6.60.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 241,
+          "end": 242
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 245,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.1B · 1",
+      "markdown": "1. 乘积 $\\left( {{a}_{1} + {a}_{2}}\\right) \\left( {{b}_{1} + {b}_{2} + {b}_{3}}\\right) \\left( {{c}_{1} + {c}_{2} + {c}_{3} + {c}_{4}}\\right)$ 的展开式中有多少项?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 247,
+          "end": 248
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 247,
+          "end": 248
+        }
+      ],
+      "id": "x2-6-1-h61B-1",
+      "category": "习题6.1B",
+      "answer": "1.24.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 245,
+          "end": 246
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1B · 2",
+      "markdown": "2. 如图,要接通从 $A$ 到 $B$ 的电路,不同的接通方法有多少种?\n\n![bo_d4slon3ef24c73be0qm0_6_669_329_281_162_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_6_669_329_281_162_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 249,
+          "end": 254
+        },
+        {
+          "source": "book",
+          "start": 251,
+          "end": 253
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 249,
+          "end": 254
+        },
+        {
+          "source": "book",
+          "start": 251,
+          "end": 253
+        }
+      ],
+      "id": "x2-6-1-h61B-2",
+      "category": "习题6.1B",
+      "answer": "2.11.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 247,
+          "end": 248
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1B · 3",
+      "markdown": "3. 用 1、2、3、4、5、6 组成没有重复数字的六位数，要求所有相邻两个数字的奇偶性都不同, 且 1 和 2 相邻. 问: 有多少个这样的六位数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 255,
+          "end": 256
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 255,
+          "end": 256
+        }
+      ],
+      "id": "x2-6-1-h61B-3",
+      "category": "习题6.1B",
+      "answer": "3.40.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 249,
+          "end": 250
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.1B · 4",
+      "markdown": "4. 已知 ${p}_{1}\\text{ 、 }{p}_{2}\\text{ 、 }{p}_{3}$ 是互不相同的素数, $\\alpha \\text{ 、 }\\beta \\text{ 、 }\\gamma$ 是正整数, $n = {p}_{1}^{\\alpha }{p}_{2}^{\\beta }{p}_{3}^{\\gamma }$ . 问: $n$ 有多少个不同的正约数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 257,
+          "end": 258
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 257,
+          "end": 258
+        }
+      ],
+      "id": "x2-6-1-h61B-4",
+      "category": "习题6.1B",
+      "answer": "4. $\\left( {\\alpha  + 1}\\right) \\left( {\\beta  + 1}\\right) \\left( {\\gamma  + 1}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 251,
+          "end": 252
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 5,
+      "original": "images/bo_d4slon3ef24c73be0qm0_0_8_4_1646_1164_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_0_8_4_1646_1164_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 13,
+      "original": "images/bo_d4slon3ef24c73be0qm0_1_196_813_348_137_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_1_196_813_348_137_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 157,
+      "original": "images/bo_d4slon3ef24c73be0qm0_4_1121_476_303_308_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_4_1121_476_303_308_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 251,
+      "original": "images/bo_d4slon3ef24c73be0qm0_6_669_329_281_162_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_6_669_329_281_162_0.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1083,
+        "end": 1083
+      }
+    ],
+    "id": "bx2-chapter-end-7",
+    "number": "chapter-end-7",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "<table><tr><td>三角函数</td><td>正弦函数 $y = \\sin x$</td><td>余弦函数 $y = \\cos x$</td><td>正切函数 $y = \\tan x$</td></tr><tr><td>定义域</td><td>$\\mathbf{R}$</td><td>$\\mathbf{R}$</td><td>$\\left\\{  {x\\left| {\\;x \\in  \\mathbf{R}, x \\neq  {k\\pi } + \\frac{\\pi }{2}\\left( {k \\in  \\mathbf{Z}}\\right) }\\right. }\\right\\}$</td></tr><tr><td>值域</td><td>[-1,1]</td><td>$\\left\\lbrack  {-1,1}\\right\\rbrack$</td><td>$\\mathbf{R}$</td></tr><tr><td>最大值</td><td>1</td><td>1</td><td>无</td></tr><tr><td>最小值</td><td>-1</td><td>-1</td><td>无</td></tr><tr><td>最小正周期</td><td>${2\\pi }$</td><td>${2\\pi }$</td><td>$\\pi$</td></tr><tr><td>奇偶性</td><td>奇函数</td><td>偶函数</td><td>奇函数</td></tr><tr><td>单调增区间</td><td>$\\left\\lbrack  {{2k\\pi } - \\frac{\\pi }{2},{2k\\pi } + \\frac{\\pi }{2}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$</td><td>$\\left\\lbrack  {{2k\\pi } - \\pi ,{2k\\pi }}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$</td><td>$\\left( {{k\\pi } - \\frac{\\pi }{2},{k\\pi } + \\frac{\\pi }{2}}\\right) \\left( {k \\in  \\mathbf{Z}}\\right)$</td></tr><tr><td>单调减区间</td><td>$\\left\\lbrack  {{2k\\pi } + \\frac{\\pi }{2},{2k\\pi } + \\frac{3\\pi }{2}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$</td><td>$\\left\\lbrack  {{2k\\pi },{2k\\pi } + \\pi }\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$</td><td>无</td></tr><tr><td>图像</td><td><img src=\"https://cdn.noedgeai.com/bo_d5205277aajc73fu465g_32.jpg?x=371&y=1066&w=333&h=146&r=0\"/></td><td><img src=\"https://cdn.noedgeai.com/bo_d5205277aajc73fu465g_32.jpg?x=734&y=1065&w=320&h=151&r=0\"/></td><td><img src=\"https://cdn.noedgeai.com/bo_d5205277aajc73fu465g_32.jpg?x=1089&y=1061&w=346&h=161&r=0\"/></td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1084,
+        "end": 1086
+      }
+    ],
+    "id": "bx2-chapter-end-7-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1087,
+        "end": 1087
+      }
+    ],
+    "id": "bx2-chapter-end-7-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1089,
+        "end": 1089
+      }
+    ],
+    "id": "bx2-chapter-end-7-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 求下列函数的最小正周期:\n\n(1) $y = \\sin \\frac{x}{2}$ ; (2) $y = 2\\cos \\left( {{3x} - \\frac{\\pi }{4}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1091,
+        "end": 1094
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1091,
+        "end": 1094
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-1",
+    "category": "复习题A",
+    "answer": "【编辑补写／校订】\n\n(1) $T=\\frac{2\\pi}{1/2}=4\\pi$；(2) $T=\\frac{2\\pi}{3}$。相位平移和非零振幅不改变最小正周期。",
+    "answer_provenance": [],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "independently-derived",
+      "reason": "教参462行缺主编号及第(1)问。",
+      "source_reference": [
+        462,
+        462
+      ],
+      "review_status": "pending-independent-review"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 判断下列函数的奇偶性, 并说明理由:\n\n(1) $y = \\sin \\left| {2x}\\right|$ ; (2) $y = \\tan {5x}$ ；\n\n(3) $y = \\frac{1}{\\cos x}$ ； (4) $y = \\sin \\left( {x + \\frac{\\pi }{6}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1095,
+        "end": 1100
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1095,
+        "end": 1100
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-2",
+    "category": "复习题A",
+    "answer": "【编辑补写／校订】\n\n(1) 偶函数，定义域为 $\\mathbf R$，$f(-x)=\\sin|{-2x}|=f(x)$。\n\n(2) 奇函数，定义域为 $\\mathbf R\\setminus\\{\\frac\\pi{10}+\\frac{k\\pi}{5}:k\\in\\mathbf Z\\}$，关于原点对称，且 $\\tan(-5x)=-\\tan5x$。\n\n(3) 偶函数，定义域为 $\\mathbf R\\setminus\\{\\frac\\pi2+k\\pi:k\\in\\mathbf Z\\}$，关于原点对称，且 $1/\\cos(-x)=1/\\cos x$。\n\n(4) 非奇非偶。$f(0)=1/2\\ne0$，不可能是奇函数；$f(\\pi/2)=\\sqrt3/2$ 而 $f(-\\pi/2)=-\\sqrt3/2$，也不是偶函数。",
+    "answer_provenance": [],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "independently-derived",
+      "reason": "教参464行只存第(4)问，补齐四问及定义域。",
+      "source_reference": [
+        464,
+        464
+      ],
+      "review_status": "pending-independent-review"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 已知 $2\\sin \\left( {2x}\\right)  = \\sqrt{3}, x \\in  \\left( {-\\frac{\\pi }{4},\\frac{\\pi }{4}}\\right)$ . 求 $x$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1101,
+        "end": 1102
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1101,
+        "end": 1102
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-3",
+    "category": "复习题A",
+    "answer": "3. $x = \\frac{\\pi }{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 466,
+        "end": 466
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "manual-source-match",
+      "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 求下列函数的单调区间:\n\n(1) $y =  - \\sin {2x}$ ； (2) $y = 2\\sin \\left( {x + \\frac{\\pi }{3}}\\right)$ ；\n\n(3) $y = \\cos \\left( {\\frac{x}{2} - \\frac{\\pi }{4}}\\right)$ ； (4) $y = 2\\tan \\left( {{2x} + \\frac{\\pi }{4}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1103,
+        "end": 1108
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1103,
+        "end": 1108
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-4",
+    "category": "复习题A",
+    "answer": "4.(1) $y =  - \\sin {2x}$ 的单调增区间为 $\\left\\lbrack  {{k\\pi } + \\frac{\\pi }{4},{k\\pi } + \\frac{3\\pi }{4}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$ ；单调减区间为 $\\left\\lbrack  {{k\\pi } - \\frac{\\pi }{4},{k\\pi } + \\frac{\\pi }{4}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right) .$\n\n(2) $y = 2\\sin \\left( {x + \\frac{\\pi }{3}}\\right)$ 的单调增区间为 $\\left\\lbrack  {{2k\\pi } - \\frac{5\\pi }{6},{2k\\pi } + \\frac{\\pi }{6}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$ ；单调减区间为 $\\left\\lbrack  {{2k\\pi } + \\frac{\\pi }{6},{2k\\pi } + \\frac{7\\pi }{6}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right) .$\n\n(3) $y = \\cos \\left( {\\frac{x}{2} - \\frac{\\pi }{4}}\\right)$ 的单调增区间为 $\\left\\lbrack  {{4k\\pi } - \\frac{3\\pi }{2},{4k\\pi } + \\frac{\\pi }{2}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right)$ ；单调减区间为 $\\left\\lbrack  {{4k\\pi } + \\frac{\\pi }{2},{4k\\pi } + \\frac{5\\pi }{2}}\\right\\rbrack  \\left( {k \\in  \\mathbf{Z}}\\right) .$\n\n(4) $y = 2\\tan \\left( {{2x} + \\frac{\\pi }{4}}\\right)$ 的单调增区间为 $\\left( {\\frac{k\\pi }{2} - \\frac{3\\pi }{8},\\frac{k\\pi }{2} + \\frac{\\pi }{8}}\\right) \\left( {k \\in  \\mathbf{Z}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 468,
+        "end": 474
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "manual-source-match",
+      "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 作出函数 $y = 2\\sin \\left( {{2x} + \\frac{\\pi }{3}}\\right)$ 的大致图像.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1109,
+        "end": 1110
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1109,
+        "end": 1110
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-5",
+    "category": "复习题A",
+    "answer": "【编辑补写／校订】\n\n令 $u=2x+\\frac\\pi3$，取 $u=0,\\frac\\pi2,\\pi,\\frac{3\\pi}2,2\\pi$，得到一周期内五个关键点：\n$$(-\\frac\\pi6,0),\\quad(\\frac\\pi{12},2),\\quad(\\frac\\pi3,0),\\quad(\\frac{7\\pi}{12},-2),\\quad(\\frac{5\\pi}6,0).$$\n按正弦曲线平滑连接，并以 $\\pi$ 为周期向左右延伸。图像振幅为2，最小正周期为 $\\pi$，相当于将 $y=2\\sin2x$ 的图像向左平移 $\\pi/6$。",
+    "answer_provenance": [],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "independently-derived",
+      "reason": "教参476行只写略，补足五点作图和周期延拓说明。",
+      "source_reference": [
+        476,
+        476
+      ],
+      "review_status": "pending-independent-review"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 已知函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 的振幅是 3,最小正周期是 $\\frac{2\\pi }{3}$ ,初始相位是 $\\frac{\\pi }{6}$ . 求这个函数的表达式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1111,
+        "end": 1112
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1111,
+        "end": 1112
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-6",
+    "category": "复习题A",
+    "answer": "6. $y = 3\\sin \\left( {{3x} + \\frac{\\pi }{6}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 478,
+        "end": 478
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "manual-source-match",
+      "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 求下列函数的最大值和最小值,并求出取得最大值和最小值时所有 $x$ 的值:\n\n(1) $y = {\\cos }^{2}x + \\cos x - 2$ ；\n\n(2) $y = \\sin {2x}, x \\in  \\left\\lbrack  {-\\frac{2\\pi }{3},\\frac{\\pi }{3}}\\right\\rbrack$ ；\n\n(3) $y = {\\sin }^{2}{2x} - 2\\sin {2x}$ ；\n\n(4) $y = \\cos \\left( {x - \\frac{\\pi }{6}}\\right) , x \\in  \\left\\lbrack  {-\\frac{\\pi }{6},\\frac{\\pi }{4}}\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1113,
+        "end": 1122
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1113,
+        "end": 1122
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-7",
+    "category": "复习题A",
+    "answer": "7. (1)因为 $y = {\\cos }^{2}x + \\cos x - 2 = {\\left( \\cos x + \\frac{1}{2}\\right) }^{2} - \\frac{9}{4}$ ,且 $- 1 \\leq  \\cos x \\leq  1$ ,所以此函数的最大值为 0,此时 $x = {2k\\pi }, k \\in  \\mathbf{Z}$ ；最小值为 $- \\frac{9}{4}$ ,此时 $x = {2k\\pi } \\pm  \\frac{2\\pi }{3}, k \\in  \\mathbf{Z}$ .\n\n(2)因为 $- \\frac{2\\pi }{3} \\leq  x \\leq  \\frac{\\pi }{3}, - \\frac{4\\pi }{3} \\leq  {2x} \\leq  \\frac{2\\pi }{3}$ ,从而 $- 1 \\leq  \\sin {2x} \\leq  1$ ,所以函数 $y = \\sin {2x}, x \\in  \\left\\lbrack  {-\\frac{2\\pi }{3},\\frac{\\pi }{3}}\\right\\rbrack$ 的最大值为 1,此时 $x = \\frac{\\pi }{4}$ ; 其最小值为 -1,此时 $x =  - \\frac{\\pi }{4}.$\n\n(3)因为 $y = {\\sin }^{2}{2x} - 2\\sin {2x} = {\\left( \\sin {2x} - 1\\right) }^{2} - 1$ ,且 $- 1 \\leq  \\sin {2x} \\leq  1$ ,所以此函数的最大值为 3,此时 $x = {k\\pi } + \\frac{3\\pi }{4}, k \\in  \\mathbf{Z}$ ; 最小值为 -1,此时 $x = {k\\pi } + \\frac{\\pi }{4}, k \\in  \\mathbf{Z}$ .\n\n(4)因为 $- \\frac{\\pi }{6} \\leq  x \\leq  \\frac{\\pi }{4}, - \\frac{\\pi }{3} \\leq  x - \\frac{\\pi }{6} \\leq  \\frac{\\pi }{12}$ ,从而 $\\frac{1}{2} \\leq  \\cos \\left( {x - \\frac{\\pi }{6}}\\right)  \\leq  1$ ,所以函数 $y = \\cos \\left( {x - \\frac{\\pi }{6}}\\right) , x \\in  \\left\\lbrack  {-\\frac{\\pi }{6},\\frac{\\pi }{4}}\\right\\rbrack$ 的最大值为 1,此时 $x = \\frac{\\pi }{6}$ ; 最小值为 $\\frac{1}{2}$ ,此时 $x =  - \\frac{\\pi }{6}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 480,
+        "end": 486
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "manual-source-match",
+      "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 某实验室一天的温度 $y$ (单位:℃)随时间 $t$ (单位:h)的变化近似满足函数关系\n\n$$\ny = {10} - \\sqrt{3}\\cos \\frac{\\pi }{12}t - \\sin \\frac{\\pi }{12}t, t \\in  \\lbrack 0,{24}).\n$$\n\n(1)求实验室一天中的最大温差；\n\n(2)若要求实验室温度不高于 ${11}^{ \\circ  }\\mathrm{C}$ ,则在哪段时间实验室需要降温？",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1123,
+        "end": 1132
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1123,
+        "end": 1132
+      }
+    ],
+    "id": "bx2-chapter-end-7-hA-8",
+    "category": "复习题A",
+    "answer": "8. (1) $y = {10} - \\sqrt{3}\\cos \\frac{\\pi }{12}t - \\sin \\frac{\\pi }{12}t = {10} - 2\\sin \\left( {\\frac{\\pi }{12}t + \\frac{\\pi }{3}}\\right)$ . 因为 $0 \\leq  t < {24}$ , $\\frac{\\pi }{3} \\leq  \\frac{\\pi }{12}t + \\; \\frac{\\pi }{3} < \\frac{7\\pi }{3}$ ,从而 $- 1 \\leq  \\sin \\left( {\\frac{\\pi }{12}t + \\frac{\\pi }{3}}\\right)  \\leq  1$ ,所以该函数的最大值为 12,此时 $t = {14}$ ; 最小值为 8,此时 $t = 2$ . 因此,最大温差为 ${12} - 8 = 4\\left( {{}^{ \\circ  }\\mathrm{C}}\\right)$ .\n\n(2)由题意,有 $y = {10} - 2\\sin \\left( {\\frac{\\pi }{12}t + \\frac{\\pi }{3}}\\right)  > {11}$ ,即 $\\sin \\left( {\\frac{\\pi }{12}t + \\frac{\\pi }{3}}\\right)  <  - \\frac{1}{2}$ ,而 $\\frac{\\pi }{3} \\leq \\; \\frac{\\pi }{12}t + \\frac{\\pi }{3} < \\frac{7\\pi }{3}$ ,所以 $\\frac{7\\pi }{6} < \\frac{\\pi }{12}t + \\frac{\\pi }{3} < \\frac{11\\pi }{6}$ ,解得 ${10} < t < {18}$ ,从而 10 时到 18 时这段时间需要降温.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 488,
+        "end": 490
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": [],
+    "answer_editorial": {
+      "kind": "manual-source-match",
+      "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+    }
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1133,
+        "end": 1133
+      }
+    ],
+    "id": "bx2-chapter-end-7-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 求函数 $y = \\sin \\left( {{2x} - \\frac{\\pi }{4}}\\right)  - 2\\sqrt{2}{\\sin }^{2}x$ 的最小正周期.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1135,
+        "end": 1136
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1135,
+        "end": 1136
+      }
+    ],
+    "id": "bx2-chapter-end-7-hB-1",
+    "category": "复习题B",
+    "answer": "1. 因为 $y = \\sin \\left( {{2x} - \\frac{\\pi }{4}}\\right)  - 2\\sqrt{2}{\\sin }^{2}x = \\frac{\\sqrt{2}}{2}\\sin {2x} - \\frac{\\sqrt{2}}{2}\\cos {2x} - \\sqrt{2}\\left( {1 - \\cos {2x}}\\right)  = \\; \\frac{\\sqrt{2}}{2}\\sin {2x} + \\frac{\\sqrt{2}}{2}\\cos {2x} - \\sqrt{2} = \\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right)  - \\sqrt{2}$ ,所以其最小正周期为 $T = \\frac{2\\pi }{2} = \\pi$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 494,
+        "end": 495
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 在 $\\left( {0,{2\\pi }}\\right)$ 内,求使 $\\sin x > \\cos x$ 成立的 $x$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1137,
+        "end": 1138
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1137,
+        "end": 1138
+      }
+    ],
+    "id": "bx2-chapter-end-7-hB-2",
+    "category": "复习题B",
+    "answer": "2. 在同一平面直角坐标系中画出 $y = \\sin x, x \\in  \\left( {0,{2\\pi }}\\right)$ 及 $y = \\cos x, x \\in  \\left( {0,{2\\pi }}\\right)$ 的图像. 由图像可知,使 $\\sin x > \\cos x$ 成立的 $x$ 的取值范围是 $\\left( {\\frac{\\pi }{4},\\frac{5\\pi }{4}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 496,
+        "end": 497
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 求下列函数的最大值,并求出取得最大值时所有 $x$ 的值:\n\n(1) $y = 2{\\sin }^{2}x + \\sin {2x} - 1$\n\n(2) $y = 1 - \\sin x - 2{\\cos }^{2}x, x \\in  \\left\\lbrack  {\\frac{\\pi }{3},\\frac{4\\pi }{3}}\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1139,
+        "end": 1144
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1139,
+        "end": 1144
+      }
+    ],
+    "id": "bx2-chapter-end-7-hB-3",
+    "category": "复习题B",
+    "answer": "3. (1)因为 $y = 2{\\sin }^{2}x + \\sin {2x} - 1 = \\sin {2x} - \\cos {2x} = \\sqrt{2}\\sin \\left( {{2x} - \\frac{\\pi }{4}}\\right)$ ,所以此函数的最大值为 $\\sqrt{2}$ ,此时 $x = {k\\pi } + \\frac{3\\pi }{8}, k \\in  \\mathbf{Z}$ .\n\n(2) $y = 1 - \\sin x - 2{\\cos }^{2}x = 2{\\sin }^{2}x - \\sin x - 1 = 2{\\left( \\sin x - \\frac{1}{4}\\right) }^{2} - \\frac{9}{8}$ . 因为 $x \\in  \\left\\lbrack  {\\frac{\\pi }{3},\\frac{4\\pi }{3}}\\right\\rbrack$ ,从而 $- \\frac{\\sqrt{3}}{2} \\leq  \\sin x \\leq  1$ ,所以当 $\\sin x =  - \\frac{\\sqrt{3}}{2}$ 时,此函数取得最大值 $\\frac{1 + \\sqrt{3}}{2}$ ,此时 $x = \\frac{4\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 498,
+        "end": 501
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 若函数 $y = 2\\sin {\\omega x}$ (其中常数 $\\omega$ 是小于 1 的正数) 在区间 $\\left\\lbrack  {0,\\frac{\\pi }{3}}\\right\\rbrack$ 上的最大值是 $\\sqrt{2}$ , 求 $\\omega$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1145,
+        "end": 1146
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1145,
+        "end": 1146
+      }
+    ],
+    "id": "bx2-chapter-end-7-hB-4",
+    "category": "复习题B",
+    "answer": "4. 因为 $0 \\leq  x \\leq  \\frac{\\pi }{3}$ ,且 $0 < \\omega  < 1$ ,可知 $0 \\leq  {\\omega x} \\leq  \\frac{\\pi }{3}\\omega  < \\frac{\\pi }{3}$ ,从而 $y = 2\\sin {\\omega x}$ 在 $\\left\\lbrack  {0,\\frac{\\pi }{3}}\\right\\rbrack$ 上为严格增函数. 因此当 $x = \\frac{\\pi }{3}$ 时,该函数取得最大值,有 $2\\sin \\left( {\\frac{\\pi }{3}\\omega }\\right)  = \\sqrt{2}$ , $\\frac{\\pi }{3}\\omega  = \\frac{\\pi }{4},\\omega  = \\frac{3}{4}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 502,
+        "end": 503
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 如图，摩天轮上一点 $P$ 距离地面的高度 $y$ 关于时间 $t$ 的函数表达式为 $y = A\\sin \\left( {{\\omega t} + \\varphi }\\right)  + b,\\varphi  \\in  \\left\\lbrack  {-\\pi ,\\pi }\\right\\rbrack$ . 已知摩天轮的半径为 ${50}\\mathrm{\\;m}$ ,其中心点 $O$ 距地面 ${60}\\mathrm{\\;m}$ ,摩天轮以每 30 分钟转一圈的方式做匀速转动,而点 $P$ 的起始位置在摩天轮的最低点处.\n\n\n(1)根据条件具体写出 $y\\left( \\mathrm{m}\\right)$ 关于 $t\\left( \\mathrm{{min}}\\right)$ 的函数表达式;\n\n(2)在摩天轮转动的一圈内,点 $P$ 有多长时间距离地面超过 ${85}\\mathrm{\\;m}$ ?\n\n*6. 说明: 用上一章 6.3 节给出的记号 arcsin 与 arccos(见第 45 页), 可以定义函数\n\n$$\ny = \\arcsin x\\left( {x \\in  \\left\\lbrack  {0,1}\\right\\rbrack  }\\right) \\text{ 与 }y = \\arccos x\\left( {x \\in  \\left\\lbrack  {0,1}\\right\\rbrack  }\\right) .\n$$\n\n验证:\n\n(1)函数 $y = \\sin x\\left( {x \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack  }\\right)$ 与函数 $y = \\arcsin x\\left( {x \\in  \\left\\lbrack  {0,1}\\right\\rbrack  }\\right)$ 互为反函数；\n\n(2)函数 $y = \\cos x\\left( {x \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack  }\\right)$ 与函数 $y = \\arccos x\\left( {x \\in  \\left\\lbrack  {0,1}\\right\\rbrack  }\\right)$ 互为反函数.\n\n*7. 把上题的记号略作推广: 对实数 $x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack$ , 若实数 $y \\in  \\left\\lbrack  {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right\\rbrack$ 使得 $\\sin y = x$ ,则记 $y = \\arcsin x$ ; 类似地,对实数 $x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack$ ,若实数 $y \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack$ 使得 $\\cos y \\; = x$ ,则记 $y = \\arccos x$ . 说明: 经过推广的记号 arcsin 与 $\\arccos$ ,定义了函数 $y = \\arcsin x\\left( {x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack  }\\right)$ 与 $y = \\arccos x\\left( {x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack  }\\right)$ .\n\n---\n\n函数 $y = \\arcsin x\\left( {x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack  }\\right)$ 、 $y = \\arccos x\\left( {x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack  }\\right)$ 与 $y = \\; \\arctan x\\left( {x \\in  \\left( {-\\infty , + \\infty }\\right) }\\right)$ 分别称为反正弦函数、反余弦函数与反正切函数. 这些函数统称为反三角函数.\n\n---\n\n验证:\n\n(1)函数 $y = \\sin x\\left( {x \\in  \\left\\lbrack  {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right\\rbrack  }\\right)$ 与函数 $y = \\arcsin x(x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack$ ) 互为反函数;\n\n(2)函数 $y = \\cos x\\left( {x \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack  }\\right)$ 与函数 $y = \\arccos x\\left( {x \\in  \\left\\lbrack  {-1,1}\\right\\rbrack  }\\right)$ 互为反函数.\n\n*8. 对 $y = \\tan x$ 与 $y = \\arctan x$ 做类似的工作.\n\n![bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg](images/book-73cff52f688ba81e7292.jpg)\n\n(第 5 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1147,
+        "end": 1184
+      },
+      {
+        "source": "book",
+        "start": 1149,
+        "end": 1151
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1147,
+        "end": 1184
+      },
+      {
+        "source": "book",
+        "start": 1149,
+        "end": 1151
+      }
+    ],
+    "id": "bx2-chapter-end-7-hB-5",
+    "category": "复习题B",
+    "answer": "5. ( 1 )由题意,有 $A = {50}, b = {60}$ ,最小正周期 $T = {30}$ ,于是 $\\omega  = \\frac{\\pi }{15}$ ,故有 $y = \\; {50}\\sin \\left( {\\frac{\\pi }{15}t + \\varphi }\\right)  + {60}$ . 因为当 $t = 0$ 时, $y = {10}$ ,于是 $\\sin \\varphi  =  - 1$ ,而 $\\varphi  \\in  \\left\\lbrack  {-\\pi ,\\pi }\\right\\rbrack$ ,从而 $\\varphi  =  - \\frac{\\pi }{2}$ . 所以, $y$ (米) 关于 $t$ (分钟) 的表达式为 $y = {50}\\sin \\left( {\\frac{\\pi }{15}t - \\frac{\\pi }{2}}\\right)  + {60}$ .\n\n(2)由题意,有 $y = {50}\\sin \\left( {\\frac{\\pi }{15}t - \\frac{\\pi }{2}}\\right)  + {60} > {85}$ ,即 $\\sin \\left( {\\frac{\\pi }{15}t - \\frac{\\pi }{2}}\\right)  > \\frac{1}{2}$ . 只需考虑第一周的情况,此时 $0 \\leq  t \\leq  {30}, - \\frac{\\pi }{2} \\leq  \\frac{\\pi }{15}t - \\frac{\\pi }{2} \\leq  \\frac{3\\pi }{2}$ ,从而 $\\frac{\\pi }{6} < \\frac{\\pi }{15}t - \\frac{\\pi }{2} < \\frac{5\\pi }{6}$ ,解得 ${10} < \\; t < {20}$ . 所以在摩天轮转动的一圈内,有 10 分钟的时间点 $P$ 距离地面超过 85 米.\n\n* 6-*8. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 504,
+        "end": 509
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "### 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1185,
+        "end": 1185
+      }
+    ],
+    "id": "bx2-chapter-end-7-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 定义在区间 $\\left( {0,\\frac{\\pi }{2}}\\right)$ 上的函数 $y = 6\\cos x$ 的图像与 $y = 5\\tan x$ 的图像的交点为 $P$ ,过点 $P$ 作垂直于 $x$ 轴的垂线 $P{P}_{1}$ ,其垂足为 ${P}_{1}$ . 设直线 $P{P}_{1}$ 与 $y = \\sin x$ 的图像交于点 ${P}_{2}$ , 求线段 ${P}_{1}{P}_{2}$ 的长.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1187,
+        "end": 1188
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1187,
+        "end": 1188
+      }
+    ],
+    "id": "bx2-chapter-end-7-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 由图像可知,线段 ${P}_{1}{P}_{2}$ 的长就是 $\\sin x$ 的值,而 $\\sin x$ 满足的条件是 $6\\cos x = \\; 5\\tan x$ ,即 $6\\cos x = \\frac{5\\sin x}{\\cos x}$ ,即 $6{\\cos }^{2}x = 5\\sin x,6{\\sin }^{2}x + 5\\sin x - 6 = 0,\\left( {3\\sin x - 2}\\right) \\; \\left( {2\\sin x + 3}\\right)  = 0$ . 因为 $0 < x < \\frac{\\pi }{2},0 < \\sin x < 1$ ,所以线段 ${P}_{1}{P}_{2}$ 的长为 $\\sin x = \\frac{2}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 512,
+        "end": 513
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 已知定义在 $\\mathbf{R}$ 上的偶函数 $y = f\\left( x\\right)$ 的最小正周期为 2,当 $0 \\leq  x \\leq  1$ 时, $f\\left( x\\right)  = x$ .\n\n(1)求当 $5 \\leq  x \\leq  6$ 时函数 $y = f\\left( x\\right)$ 的表达式；\n\n(2)若函数 $y = {kx}, x \\in  \\mathbf{R}$ 与函数 $y = f\\left( x\\right)$ 的图像恰有 7 个不同的交点，求 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1189,
+        "end": 1198
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1189,
+        "end": 1198
+      }
+    ],
+    "id": "bx2-chapter-end-7-t-2",
+    "category": "拓展与思考",
+    "answer": "2. (1)当 $5 \\leq  x \\leq  6$ 时, $0 \\leq  6 - x \\leq  1$ ,由 $y = f\\left( x\\right)$ 的最小正周期为 2,且是偶函数,有 $f\\left( x\\right)  = f\\left( {x - 6}\\right)  = f\\left( {6 - x}\\right)  = 6 - x\\left( {5 \\leq  x \\leq  6}\\right)$ ,故当 $5 \\leq  x \\leq  6$ 时,函数的表达式为 $y = 6 - x$ .\n\n(2)由图像可知 $y = f\\left( x\\right)$ 必经过点 $\\left( {7,1}\\right)$ 或 $\\left( {-7,1}\\right)$ ,从而 $k =  \\pm  \\frac{1}{7}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 514,
+        "end": 517
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 3",
+    "markdown": "3. 如图，有一块边长为3m的正方形铁皮 ${ABCD}$ ，其中阴影部分 ${ATN}$ 是一个半径为 $2\\mathrm{\\;m}$ 的扇形. 设这个扇形已经腐蚀不能使用, 但其余部分均完好. 工人师傅想在未被腐蚀的部分截下一块其边落在 ${BC}$ 与 ${CD}$ 上的矩形铁皮 ${PQCR}$ ,使点 $P$ 在弧 ${TN}$ 上. 设 $\\angle {TAP} = \\theta$ ,矩形 ${PQCR}$ 的面积为 $S{\\mathrm{\\;m}}^{2}$ .\n\n(1)求 $S$ 关于 $\\theta$ 的函数表达式；\n\n(2)求 $S$ 的最大值及 $S$ 取得最大值时 $\\theta$ 的值.\n\n![bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg](images/book-0df30b6316b790ed09f1.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1199,
+        "end": 1203
+      },
+      {
+        "source": "book",
+        "start": 1195,
+        "end": 1197
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1199,
+        "end": 1203
+      },
+      {
+        "source": "book",
+        "start": 1195,
+        "end": 1197
+      }
+    ],
+    "id": "bx2-chapter-end-7-t-3",
+    "category": "拓展与思考",
+    "answer": "3. (1)因为 ${PR} = 3 - 2\\sin \\theta ,{PQ} = 3 - 2\\cos \\theta$ ,其中 $0 \\leq  \\theta  \\leq  \\frac{\\pi }{2}$ ,所以 $S$ 关于 $\\theta$ 的函数解析式为 $S = \\left( {3 - 2\\sin \\theta }\\right) \\left( {3 - 2\\cos \\theta }\\right) ,0 \\leq  \\theta  \\leq  \\frac{\\pi }{2}$ .\n\n(2) $S = \\left( {3 - 2\\sin \\theta }\\right) \\left( {3 - 2\\cos \\theta }\\right)  = 9 - 6\\left( {\\sin \\theta  + \\cos \\theta }\\right)  + 4\\sin \\theta \\cos \\theta$ . 令 $\\sin \\theta  + \\cos \\theta \\; = t$ ,则 $t = \\sqrt{2}\\sin \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  \\in  \\left\\lbrack  {1,\\sqrt{2}}\\right\\rbrack$ ,从而 $2\\sin \\theta  \\cdot  \\cos \\theta  = {t}^{2} - 1$ ,而 $S = 2{t}^{2} - {6t} + 7 = \\; 2{\\left( t - \\frac{3}{2}\\right) }^{2} + \\frac{5}{2}$ . 由此可得: 当 $t = 1$ 即 $\\theta  = 0$ 或 $\\frac{\\pi }{2}$ 时,矩形 ${PQCR}$ 的面积 $S$ 取得最大值 3 (平方米).",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 518,
+        "end": 521
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "editor",
+    "title": "复习题A · 题答配对修订说明",
+    "markdown": "已按实际题面逐题恢复参考答案，并对缺失小问明确标注编辑补写。原始未配对内容及修订前底稿完整保存在本节修订记录与 repair-bx12-content.json 中，未改动来源文件。",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 466,
+        "end": 491
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-chapter-end-7-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 伊莱・马奥尔. 三角之美──边边角角的趣事(第 2 版)[M]. 曹雪林,边晓娜,译. 北京:人民邮电出版社,2018.\n\n[2] 宋仑珍. 傅立叶教你学三角函数[M]. 王明君, 译. 合肥: 黄山书社, 2016.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 522,
+        "end": 528
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-chapter-end-7-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

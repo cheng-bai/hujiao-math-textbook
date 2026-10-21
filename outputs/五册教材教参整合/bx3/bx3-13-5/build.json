@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-13-5",
+  "book_id": "bx3",
+  "section": "13.5",
+  "title": "统计估计",
+  "section_json": "batch/sections/bx3/bx3-13-5.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-13-5",
+  "fingerprint": "85f0cc2ab000aa59af057ce6f6afafc32e865e367c2b17eed1d42baa40e43a42",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-4247e6480726b65dd2cb.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_28_195_508_862_459_0.jpg",
+      "sha256": "4247e6480726b65dd2cbb3ace01656a1a022653c1f751307f7a095d2cf51cda4",
+      "private": true
+    },
+    "images/private-57764891a96450eb80a2.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_28_216_1655_815_490_0.jpg",
+      "sha256": "57764891a96450eb80a200a85b4b1fb64813ea44a027b14907ee62d9bf588d6b",
+      "private": true
+    },
+    "images/book-f3a5eed0b8fe99312900.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_32_392_336_459_246_0.jpg",
+      "sha256": "f3a5eed0b8fe993129002252db93822d3ae7d3fd40514b80508d55649cb38f76",
+      "private": false
+    },
+    "images/book-5cba0a82486621bef934.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_35_707_338_633_480_0.jpg",
+      "sha256": "5cba0a82486621bef93469e6f2c857f646b22d21cdee6002f48f8b20fe7eb870",
+      "private": false
+    },
+    "images/private-7690d0fbd9c4076c5961.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_121_373_1563_789_478_0.jpg",
+      "sha256": "7690d0fbd9c4076c5961dc00ea2e2d14f9f35b2f144a324a97da37b76edc242e",
+      "private": true
+    },
+    "images/private-6196b01091d47a476054.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_123_278_890_943_513_0.jpg",
+      "sha256": "6196b01091d47a476054d8aa70319279f7356ff155ba99f33408dec0048a1040",
+      "private": true
+    },
+    "images/book-db2c4030d536755f3e1e.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_41_1131_533_360_281_0.jpg",
+      "sha256": "db2c4030d536755f3e1e9581f05f6361d59ec85a06fe13679d336e4ccb28d0a6",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [
+    "images/book-5cba0a82486621bef934.jpg",
+    "images/book-db2c4030d536755f3e1e.jpg",
+    "images/book-f3a5eed0b8fe99312900.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "9a627ee53507c62dfc312098cd0dd9849ca549035d964719458479e28e2311e6",
+    "student.html": "8507072ca9c84fad94b9bd9454a09070556cc4d57418588e5fa0175ca460229b",
+    "student.zip": "1d7510d209697efb19e184ba42c112aa080998cdb74c852ae9ee5ecf500728d0",
+    "content.json": "eaf86c7b21ede158c4ff825b3402e5d8dabdaa67090e5934f232f070b951e74a"
+  }
+}

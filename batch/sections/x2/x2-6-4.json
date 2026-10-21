@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "id": "x2-6-4",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "6",
+  "chapter_title": "第6章计数原理",
+  "section": "6.4",
+  "title": "计数原理在古典概率中的应用",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "计数原理在古典概率中的应用",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1151,
+          "end": 1151
+        }
+      ],
+      "id": "x2-6-4",
+      "number": "6.4",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 6.4 计数原理在古典概率中的应用\n\n### 教学重点\n\n明确等可能事件的含义, 了解计数原理和计数模型在古典概率中的应用, 能灵活使用计数方法计算古典概率.\n\n### 内容分析\n\n古典概率的计算是计数原理的主要应用之一. 虽然学生在初中阶段已经接触过概率的计算, 但由于没有掌握完整的计数理论, 只能利用枚举的方法计算涉及数量较小的问题. 本节旨在阐明计数原理的重要应用, 为进一步学习概率理论作准备.\n\n例 1 旨在说明如何利用计数方法计算古典概率. 配套练习为练习 6.4 的第 1、2 题, 习题 6.4A 组的第 1、2 题及习题 6.4B 组的第 3 题.\n\n例 2 和例 3 旨在说明如何利用“对立事件”的方法计算古典概率, 例 3 可以作为进一步研究的例子. 配套练习为练习 6.4 的第 2 题及习题 6.4B 组的第 1、2 题.\n\n### 注意事项\n\n本节是对计数原理的基本运用, 既是对计数原理和排列组合的回顾总结, 又为进一步学习概率知识作准备. 由于只有 1 课时, 因此不可能面面俱到, 教学过程中应突出计数原理的使用.\n\n### 教学建议\n\n在教学过程中. 应当加强对 “等可能事件” 这一概念的辨析, 淡化计算技巧, 避免繁杂的问题. 对于典型的问题, 可以采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 161,
+          "end": 182
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们知道,如果一次试验有 $n$ 个等可能出现的基本事件,而随机事件 $A$ 包含 $k$ 个基本事件,那么事件 $A$ 发生的概率是\n\n$$\nP\\left( A\\right)  = \\frac{k}{n}.\n$$\n\n当 $n$ 值较大时,枚举法难以使用,就需要利用排列组合的知识.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1152,
+          "end": 1160
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 一个罐子中有大小与质地完全相同的 20 个玻璃球, 其中 4 个是红色的, 6 个是黑色的, 10 个是白色的. 经充分混合后, 从罐子中同时任取 2 个球, 求下列事件的概率:\n\n(1)2 个球都是黑色的;\n\n(2)2 个球的颜色不同.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1161,
+          "end": 1166
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1161,
+          "end": 1166
+        }
+      ],
+      "id": "x2-6-4-ex-1",
+      "category": "例题",
+      "answer": "解 随机地从 20 个球中取出 2 个球,可能出现的结果有 ${\\mathrm{C}}_{20}^{2}$ 种,即所有的基本事件有 ${\\mathrm{C}}_{20}^{2}$ 个.\n\n(1)将\"取出的 2 个球都是黑色的\"这一事件记为 $A.A$ 所包含的基本事件有 ${\\mathrm{C}}_{6}^{2}$ 个，因此事件 $A$ 的概率是\n\n$$\nP\\left( A\\right)  = \\frac{{\\mathrm{C}}_{6}^{2}}{{\\mathrm{C}}_{20}^{2}} = \\frac{3}{38}.\n$$\n\n(2)将\"取出的 2 个球颜色不同\"的事件记为 $B$ . \"取出的 2 个球颜色不同\"可以分为三种情况:(1)取出 1 个红球、1 个黑球；(2) 取出 1 个黑球、 1 个白球；(3)取出 1 个白球、 1 个红球. 由乘法原理和加法原理,易知 $B$ 所包含的基本事件有 ${\\mathrm{C}}_{4}^{1}{\\mathrm{C}}_{6}^{1} + {\\mathrm{C}}_{6}^{1}{\\mathrm{C}}_{10}^{1} + {\\mathrm{C}}_{10}^{1}{\\mathrm{C}}_{4}^{1}$ 个,所以事件 $B$ 的概率是\n\n$$\nP\\left( B\\right)  = \\frac{{\\mathrm{C}}_{4}^{1}{\\mathrm{C}}_{6}^{1} + {\\mathrm{C}}_{6}^{1}{\\mathrm{C}}_{10}^{1} + {\\mathrm{C}}_{10}^{1}{\\mathrm{C}}_{4}^{1}}{{\\mathrm{C}}_{20}^{2}} = \\frac{62}{95}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1167,
+          "end": 1180
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 在 100 件产品中有 90 件一等品、 10 件二等品, 从中随机抽取 4 件产品.\n\n(1)求恰好含 1 件二等品的概率；\n\n(2)求至少含有 1 件二等品的概率.\n\n(以上结果均精确到 0.01)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1181,
+          "end": 1188
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1181,
+          "end": 1188
+        }
+      ],
+      "id": "x2-6-4-ex-2",
+      "category": "例题",
+      "answer": "解 从这 100 件产品中随机抽取 4 件产品, 所有的基本事件的个数为 ${\\mathrm{C}}_{100}^{4}$ .\n\n(1)将\"恰好含 1 件二等品\"的事件记为 $A$ . 由乘法原理和加法原理,易知 $A$ 所包含的基本事件有 ${\\mathrm{C}}_{90}^{3}{\\mathrm{C}}_{10}^{1}$ 个,所以事件 $A$ 的概率是\n\n$$\n\\frac{{\\mathrm{C}}_{90}^{3}{\\mathrm{C}}_{10}^{1}}{{\\mathrm{C}}_{100}^{4}} = \\frac{1174800}{3921225} \\approx  {0.30}.\n$$\n\n---\n\n\"大小与质地完全相同\"和\"经充分混合\" 这两个条件, 保证了各个基本事件的发生是等可能的.\n\n---\n\n(2)将\"至少含有 1 件二等品\"的事件记为 $B$ . $B$ 的对立事件 $\\bar{B}$ 为\" 4 件产品全是一等品\"，而 $\\bar{B}$ 所包含的基本事件有 ${\\mathrm{C}}_{90}^{4}$ 个， 所以\n\n$$\nP\\left( \\bar{B}\\right)  = \\frac{{\\mathrm{C}}_{90}^{4}}{{\\mathrm{C}}_{100}^{4}} = \\frac{2555190}{3921225},\n$$\n\n从而事件 $B$ 的概率是\n\n$$\nP\\left( B\\right)  = 1 - P\\left( \\bar{B}\\right)  \\approx  {0.35}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1189,
+          "end": 1214
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 某学习小组共有 10 名学生, 求其中至少有 2 名学生在同一月份出生的概率. (默认每月天数相同, 结果精确到 0.001)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1215,
+          "end": 1216
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1215,
+          "end": 1216
+        }
+      ],
+      "id": "x2-6-4-ex-3",
+      "category": "例题",
+      "answer": "解 由于每名学生的出生月份可能是 1 月到 12 月中的任何一个,因此 10 名学生的出生月份共有 ${12}^{10}$ 种可能的排列,每个排列对应一个基本事件,从而基本事件就有 ${12}^{10}$ 个,且每个基本事件发生的概率都相等. 设 $A$ 表示事件\"10 名学生中没有任何 2 名学生在同一月份出生\",那么 10 名学生的出生月份共有 ${\\mathrm{P}}_{12}^{10}$ 种可能的排列,即事件 $A$ 包含 ${\\mathrm{P}}_{12}^{10}$ 个基本事件,所以事件 $A$ 的概率是\n\n$$\nP\\left( A\\right)  = \\frac{{\\mathrm{P}}_{12}^{10}}{{12}^{10}}.\n$$\n\n这样, \"至少有 2 名学生在同一月份出生\"的概率是\n\n$$\n1 - P\\left( A\\right)  \\approx  {0.996}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1217,
+          "end": 1228
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.4",
+      "markdown": "### 练习 6.4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1229,
+          "end": 1229
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.4 · 1",
+      "markdown": "1. 袋中装有 4 个红球、3 个黄球、3 个白球, 所有小球的大小与质地完全相同. 从中同时任取 2 个小球, 求取出的 2 个球颜色相同的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1231,
+          "end": 1232
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1231,
+          "end": 1232
+        }
+      ],
+      "id": "x2-6-4-p64-1",
+      "category": "练习6.4",
+      "answer": "1. $\\frac{4}{15}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 371,
+          "end": 372
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.4 · 2",
+      "markdown": "2. 某校要从 2 名男生和 4 名女生中任选 4 人担任一项赛事的志愿者工作，每个人被选中的可能性相同. 求在选出的志愿者中，男生和女生都有的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1233,
+          "end": 1234
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1233,
+          "end": 1234
+        }
+      ],
+      "id": "x2-6-4-p64-2",
+      "category": "练习6.4",
+      "answer": "2. $\\frac{14}{15}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 373,
+          "end": 374
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 6.4",
+      "markdown": "### 习题 6.4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1235,
+          "end": 1235
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1237,
+          "end": 1237
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.4A · 1",
+      "markdown": "1. 将两颗质地均匀的骰子同时抛掷一次, 求向上的点数之和为 5 的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1239,
+          "end": 1240
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1239,
+          "end": 1240
+        }
+      ],
+      "id": "x2-6-4-h64A-1",
+      "category": "习题6.4A",
+      "answer": "1. $\\frac{1}{9}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 379,
+          "end": 380
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.4A · 2",
+      "markdown": "2. 用 1、2、3、4、5 组成没有重复数字的三位数，从中随机地取一个，求取到的数为奇数的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1241,
+          "end": 1242
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1241,
+          "end": 1242
+        }
+      ],
+      "id": "x2-6-4-h64A-2",
+      "category": "习题6.4A",
+      "answer": "2. $\\frac{3}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 381,
+          "end": 382
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1243,
+          "end": 1243
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.4B · 1",
+      "markdown": "1. 从甲、乙、丙、丁、戊五人中任选两人参加一项活动, 求甲、乙两人中至少有一人被选中的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1245,
+          "end": 1246
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1245,
+          "end": 1246
+        }
+      ],
+      "id": "x2-6-4-h64B-1",
+      "category": "习题6.4B",
+      "answer": "1. $\\frac{7}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 385,
+          "end": 386
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.4B · 2",
+      "markdown": "2. 在 10 件产品中有 8 件一等品、2 件二等品, 从中随机抽取 2 件产品. 求取到的产品中至多有 1 件二等品的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1247,
+          "end": 1248
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1247,
+          "end": 1248
+        }
+      ],
+      "id": "x2-6-4-h64B-2",
+      "category": "习题6.4B",
+      "answer": "2. $\\frac{44}{45}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 387,
+          "end": 388
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.4B · 3",
+      "markdown": "3. 某校高一年级举行演讲比赛, 共有 10 名学生参赛, 其中一班有 3 名, 二班有 2 名, 其他班有 5 名. 若采用抽签的方式确定他们的演讲顺序, 求一班的 3 名学生恰好被排在一起(指演讲序号相连)的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1249,
+          "end": 1250
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1249,
+          "end": 1250
+        }
+      ],
+      "id": "x2-6-4-h64B-3",
+      "category": "习题6.4B",
+      "answer": "3. $\\frac{1}{15}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 389,
+          "end": 390
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": []
+}

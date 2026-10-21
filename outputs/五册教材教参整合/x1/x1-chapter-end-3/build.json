@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-chapter-end-3",
+  "book_id": "x1",
+  "section": "chapter-end-3",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/x1/x1-chapter-end-3.json",
+  "output": "outputs/五册教材教参整合/x1/x1-chapter-end-3",
+  "fingerprint": "c37db53e46d9914463528531a18238d3e96012b12afcb9f34e655d0b6357494b",
+  "status": "rendered",
+  "questions": 15,
+  "answers": 15,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-5250df4cfc78b8fe86cc.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg",
+      "sha256": "5250df4cfc78b8fe86cc10e1925bdf10e43f306c8fd6b1f9c62885b8cf36cd41",
+      "private": false
+    },
+    "images/book-af70e2c7bd35b16c8cbc.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg",
+      "sha256": "af70e2c7bd35b16c8cbc96f46422fe198b06fd5045189c1eda36baf5004dc49b",
+      "private": false
+    },
+    "images/book-fc67d7201ba01d42b387.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg",
+      "sha256": "fc67d7201ba01d42b387222d72efe9dfde72853514fb6e8e34d1fdab53b9addd",
+      "private": false
+    },
+    "images/book-7dca0007d2692bd7b802.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg",
+      "sha256": "7dca0007d2692bd7b80231756520b35eb54ad7f022b190a683f75a89de56537d",
+      "private": false
+    },
+    "images/book-648e08f4f5975d9bfd48.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg",
+      "sha256": "648e08f4f5975d9bfd48714ba6e91873ae84f329834730efeddbf01a7fa43d39",
+      "private": false
+    },
+    "images/book-81319aeb4a2083cda5b8.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg",
+      "sha256": "81319aeb4a2083cda5b86bc9568a7ba2bb696db63e3d12ebeec242cdb5d63308",
+      "private": false
+    },
+    "images/book-c771b050212768ce01e3.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg",
+      "sha256": "c771b050212768ce01e3222e00e86fafd7045e98333fc4859718ee407f45373d",
+      "private": false
+    },
+    "images/book-e967752d1cc2a9315769.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg",
+      "sha256": "e967752d1cc2a9315769d35601c6c898a5a4030d3afcf6a8f1ac3c14c60dd9bb",
+      "private": false
+    },
+    "images/book-21378525dcc80ae8244a.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg",
+      "sha256": "21378525dcc80ae8244abf2a65216db0297dcede8117642949f557f2e68d3195",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "student_images": [
+    "images/book-21378525dcc80ae8244a.jpg",
+    "images/book-5250df4cfc78b8fe86cc.jpg",
+    "images/book-648e08f4f5975d9bfd48.jpg",
+    "images/book-7dca0007d2692bd7b802.jpg",
+    "images/book-81319aeb4a2083cda5b8.jpg",
+    "images/book-af70e2c7bd35b16c8cbc.jpg",
+    "images/book-c771b050212768ce01e3.jpg",
+    "images/book-e967752d1cc2a9315769.jpg",
+    "images/book-fc67d7201ba01d42b387.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "59215d38d9f9e8cd03f84263c400ae0aa1110bee1049fcb218d30a902f17b3bc",
+    "student.html": "9440b9d41bc37d5ae9a821ae6a92d3c2afa6ffb6d23ad493d4dc95b57ad13643",
+    "student.zip": "09f87450663ce7c664a47f8c441c8d74a9fc51cb7e7571722c1a32b33f762b5b",
+    "content.json": "5073f9fdb859e783fe3723fc55283d581c7baa8836661432ca99d720a8b05973"
+  }
+}

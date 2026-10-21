@@ -1,0 +1,588 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 743,
+        "end": 743
+      }
+    ],
+    "id": "bx1-chapter-end-3",
+    "number": "chapter-end-3",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "用对数简化计算",
+    "markdown": "### 用对数简化计算",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 745,
+        "end": 745
+      }
+    ],
+    "id": "bx1-chapter-end-3-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "让我们用一个例子说明怎样应用对数来简化计算.\n\n假设我们要计算两个九位数的乘积\n\n$$\n{867432691} \\times  {345723901}.\n$$\n\n直接计算费时费力，怎样利用对数来简化计算呢?\n\n先求此乘积以 10 为底的对数\n\n$$\n\\lg \\left( {{867432691} \\times  {345723901}}\\right) \\text{ . }\n$$\n\n由对数性质 1 , 它等于 lg 867432691+lg 345723901 .\n\n要直接计算这些对数自然十分困难, 但是如果已编制了一个常用对数表, 可以查真数在 1 到 10 之间的常用对数(实用中的对数表正是如此)，就可以得知\n\n$$\n\\lg {867432691} \\approx  \\lg \\left( {{8.6743} \\times  {10}^{8}}\\right)  = 8 + \\lg {8.6743} \\approx  {8.9382},\n$$\n\n其中 $\\lg {8.6743} \\approx  {0.9382}$ 是查表得到的. 类似地,可得 $\\lg {345723901} \\approx  {8.5387}$ . 这样所求乘积之对数为\n\n$$\n\\lg {867432691} + \\lg {345723901} \\approx  {8.9382} + {8.5387} = {17.4769} = {17} + {0.4769}.\n$$\n\n为了最终求得所需要的乘积 867432691X345723901,还需要查一个反对数表 (实际上是一个以 10 为底,而指数在 0 到 1 之间的指数表),就得到 ${0.4769} \\approx  \\lg {2.9985}$ ,即 ${10}^{0.4769} \\approx  {2.9985}$ ,从而\n\n$$\n{17} + {0.4769} \\approx  {17} + \\lg {2.9985} = \\lg \\left( {{2.9985} \\times  {10}^{17}}\\right) ,\n$$\n\n即原乘积的常用对数约等于 $\\lg \\left( {{2.9985} \\times  {10}^{17}}\\right)$ . 由于同底的两个对数相等,其真数必相等, 就得到\n\n$$\n{867432691} \\times  {345723901} \\approx  {2.9985} \\times  {10}^{17}.\n$$\n\n(现在，用普通的计算器可以得到更精确的值\n\n$$\n{867432691} \\times  {345723901} \\approx  {2.998922138} \\times  {10}^{17})\n$$\n\n由上所述, 利用一个常用对数表及一个反对数表, 就可以通过转化为对数大大简化任何两个大数(多位数)的乘除及开方运算. 这正如恩格斯(F. Engles)所指出的: \"这种从一个形态到另一个相反形态之转变, 并不是一种无聊的游戏, 它是数学科学最有力的模杆之一，如果没有它，今天就没法去进行一个较为复杂的计算. \"(《自然辩证法》)\n\n然而, 制作一个有实际用处的对数表是一项浩大的工程, 假如按步长 0.001 从 1 变化到 10 , 就有 1 万个对数要计算. 而要算一个数的对数使得精度达到四位小数, 也绝不是一件容易的事. 然而, 如果制成了对数表, 就可以一劳永逸地为其他人所用, 意义是十分重大的.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 746,
+        "end": 798
+      }
+    ],
+    "id": "bx1-chapter-end-3-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "对数简史",
+    "markdown": "### 对数简史",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 799,
+        "end": 799
+      }
+    ],
+    "id": "bx1-chapter-end-3-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "对数是纳皮尔发明的, 其出现事先似乎毫无征兆, 但它绝不是从天上掉下来的, 而是源自当时在天文、航海及工程实践中迫切需要简化大量繁杂计算的实际需要. 纳皮尔从 1594 年到 1614 年花了二十年的时间造出了第一个对数表, 他说过: \"要实际应用数学, 我看最大的障碍就是处理很大数字的相乘、相除，或是求取二次或三次方根， $\\cdots \\cdots$ 因此我开始思考，有没有什么方法可以去除这些障碍. \"由于对数不仅能将乘除运算化为加减运算, 而且能将乘方、开方运算化为乘除运算, 一下子将人们从繁复的计算中解放出来, 无异于成倍地延长了科学家与工程技术人员的寿命. 德国天文学家开普勒(J. Kepler)是最早使用对数的人之一, 他成功地在行星轨道的计算中运用了对数. 法国数学家、天文学家拉普拉斯 (P.-S. Laplace) 曾说过:\"对数的发明让天文学家的寿命都延长了，因为少做了很多苦工. \"恩格斯曾经将解析几何、对数及微积分并列为最重要的数学方法.\n\n在清代初年 (17 世纪中叶) 对数传到了中国，1653 年薛凤柞与波兰人穆尼阁 (J. N. Smogolehshi)共同编译出版了《比例对数表》一书，正式将对数介绍到中国，薛凤柞还将对数应用到历法计算中. 后来, 康熙皇帝组织编撰《数理精蕴》一书，在其下篇・卷三十八\"对数比例\"一节中，一开始就说:\"对数比例乃西士若往·纳白尔(John Napier)所作， 以假数与真数对列成表，故名对数表. \"这个假数，我们现在叫\"对数\"，而若往·纳白尔就是我们现在所述的纳皮尔.\n\n在科学发展的历史中，极少有哪个抽象的数学概念，能像对数一样，一开始就很快受到了整个科学界的热烈欢迎. 对数的发明, 无疑是人类认识史上一个极大的飞跃与革命, 在人类文明的进程中起了划时代的作用. 自纳皮尔 1614 年发明对数以来, 一直到袖珍计算器的出现, 对数以及根据对数的原理所设计的一些计算仪器, 一直是进行复杂计算的有效方法和工具. 根据对数原理设计的计算仪器, 最著名的就是后来为科学家和工程师广泛使用的计算尺, 它在长达 350 年的时间中, 一直是科学家与工程师的忠实伴侣和有力工具. 自 20 世纪 70 年代初期袖珍计算器上市以后, 计算尺才失去市场, 并随着计算机的飞速发展而彻底退出了历史舞台，对数在计算中无可替代的地位也一去而不复返了. 但是, 对数的概念及对数函数的种种性质在众多数学分支及科学领域中至今一直发挥着重要的作用，并且有增无减. 对数从计算的有力工具向科学的重要方法的转化, 在数学的发展史上留下了浓墨重彩的篇章, 记录着人类不断走向文明进步的光辉历程.\n\n![bo_d4slo93ef24c73be0qag_16_1041_1541_429_293_0.jpg](images/book-ea9fa1af4ad30f45abd4.jpg)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 800,
+        "end": 808
+      }
+    ],
+    "id": "bx1-chapter-end-3-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "内容提要",
+    "markdown": "## 内容提要",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 809,
+        "end": 809
+      }
+    ],
+    "id": "bx1-chapter-end-3-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 指数幂的拓展:正整数指数幂、整数指数幂、有理数指数幂、实数指数幂.\n\n2. 幂的运算性质:对任意给定的正数 $a$ 、 $b$ 及实数 $s$ 、 $t$ ，\n\n(1) ${a}^{s}{a}^{t} = {a}^{s + t}$ ；\n\n(2) ${\\left( {a}^{s}\\right) }^{t} = {a}^{st}$ ；\n\n(3) ${\\left( ab\\right) }^{t} = {a}^{t}{b}^{t}$ .\n\n3. 对数的定义:当 $a$ 是不等于 1 的正数， $N > 0$ 时， $N$ 以 $a$ 为底的对数 ${\\log }_{a}N$ 是满足\n\n$$\n{a}^{x} = N\n$$\n\n的唯一的数 $x$ .\n\n4. 对数的基本性质: 设 $a$ 是不等于 1 的正数, $M$ 及 $N$ 是任意给定的正数, $c$ 是任意给定的实数.\n\n(1) ${\\log }_{a}1 = 0$ ;\n\n(2) ${\\log }_{a}a = 1$ ；\n\n(3) ${\\log }_{a}\\left( {MN}\\right)  = {\\log }_{a}M + {\\log }_{a}N$ ;\n\n(4) ${\\log }_{a}\\frac{M}{N} = {\\log }_{a}M - {\\log }_{a}N$ ;\n\n(5) ${\\log }_{a}{N}^{c} = c{\\log }_{a}N$ ;\n\n(6)(换底公式)如果 $b$ 也是一个不等于 1 的正数，那么 ${\\log }_{b}N = \\frac{{\\log }_{a}N}{{\\log }_{a}b}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 810,
+        "end": 842
+      }
+    ],
+    "id": "bx1-chapter-end-3-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 843,
+        "end": 843
+      }
+    ],
+    "id": "bx1-chapter-end-3-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 845,
+        "end": 845
+      }
+    ],
+    "id": "bx1-chapter-end-3-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 填空题:\n\n(1)若 ${x}^{3} = 5$ ，则 $x =$ ___；若 ${3}^{x} = 5$ ，则 $x =$ ___.\n\n(2)将 $\\sqrt[4]{a\\sqrt[3]{a}}\\left( {a > 0}\\right)$ 化成有理数指数幂的形式为___.\n\n(3)若 ${\\log }_{8}x =  - \\frac{2}{3}$ ，则 $x =$ ___.\n\n(4)若 ${\\log }_{a}b \\cdot  {\\log }_{5}a = 3\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ ，则 $b =$ ___.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 856
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 856
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-1",
+    "category": "复习题A",
+    "answer": "1.(1) $\\sqrt[3]{5}$ ； ${\\log }_{3}5$ . (2) ${a}^{\\frac{1}{3}}$ . (3) $\\frac{1}{4}$ . (4) 125.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 394,
+        "end": 395
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 选择题:\n\n(1)若 $\\lg a$ 与 $\\lg b$ 互为相反数，则有 ( )\n\nA. $a + b = 0$ ; B. ${ab} = 1$ ;\n\nC. $\\frac{a}{b} = 1$ ; D. 以上答案均不对.\n\n(2)设 $a > 0$ ，下列计算中正确的是 ( )\n\nA. ${a}^{\\frac{2}{3}} \\cdot  {a}^{\\frac{3}{2}} = a$ ; B. ${a}^{\\frac{2}{3}} \\div  {a}^{\\frac{3}{2}} = a$ ;\n\nC. ${a}^{-4} \\cdot  {a}^{4} = 0$ ; D. ${\\left( {a}^{\\frac{2}{3}}\\right) }^{\\frac{3}{2}} = a$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 857,
+        "end": 870
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 857,
+        "end": 870
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-2",
+    "category": "复习题A",
+    "answer": "2. (1) B. (2) D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 396,
+        "end": 397
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 已知 ${10}^{\\alpha } = 3,{10}^{\\beta } = 4$ . 求 ${10}^{\\alpha  + \\beta }$ 及 ${10}^{\\alpha  - \\frac{\\beta }{2}}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 871,
+        "end": 872
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 871,
+        "end": 872
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-3",
+    "category": "复习题A",
+    "answer": "3. ${10}^{\\alpha  + \\beta } = {10}^{\\alpha } \\cdot  {10}^{\\beta } = 3 \\times  4 = {12}$ .\n\n${10}^{\\alpha  - \\frac{\\beta }{2}} = {10}^{\\alpha } \\cdot  {10}^{-\\frac{\\beta }{2}} = {10}^{\\alpha } \\cdot  {\\left( {10}^{\\beta }\\right) }^{-\\frac{1}{2}} = 3 \\times  {\\left( 4\\right) }^{-\\frac{1}{2}} = \\frac{3}{2}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 398,
+        "end": 401
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 求下列各式的值:\n\n(1) $\\frac{1}{{4}^{x} + 1} + \\frac{1}{{4}^{-x} + 1}$ ； (2) ${4}^{\\sqrt{2} + 1} \\times  {2}^{3 - {2\\sqrt{2}}} \\times  {8}^{-\\frac{2}{3}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 873,
+        "end": 876
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 873,
+        "end": 876
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-4",
+    "category": "复习题A",
+    "answer": "4. (1) $\\frac{1}{{4}^{x} + 1} + \\frac{1}{{4}^{-x} + 1} = \\frac{1}{{4}^{x} + 1} + \\frac{{4}^{x}}{1 + {4}^{x}} = \\frac{1 + {4}^{x}}{1 + {4}^{x}} = 1$ .\n\n(2) ${4}^{\\sqrt{2} + 1} \\times  {2}^{3 - 2\\sqrt{2}} \\times  {8}^{-\\frac{2}{3}} = {2}^{2\\sqrt{2} + 2} \\times  {2}^{3 - 2\\sqrt{2}} \\times  {2}^{-2} = {2}^{2\\sqrt{2} + 2 + 3 - 2\\sqrt{2} - 2} = {2}^{3} = 8$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 402,
+        "end": 405
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 已知 $\\lg a < 1$ ,化简 $\\sqrt{{\\left( \\lg a\\right) }^{2} - \\lg \\frac{{a}^{2}}{10}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 877,
+        "end": 878
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 877,
+        "end": 878
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-5",
+    "category": "复习题A",
+    "answer": "5. $\\sqrt{{\\left( \\lg a\\right) }^{2} - \\lg \\frac{{a}^{2}}{10}} = \\sqrt{{\\left( \\lg a\\right) }^{2} - \\left( {2\\lg a - \\lg {10}}\\right) } = \\sqrt{{\\left( \\lg a\\right) }^{2} - 2\\lg a + 1} = \\; \\sqrt{{\\left( \\lg a - 1\\right) }^{2}} = \\left| {\\lg a - 1}\\right| .$\n\n因为 $\\lg a < 1$ ,所以 $\\left| {\\lg a - 1}\\right|  = 1 - \\lg a$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 406,
+        "end": 409
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 已知 $m = {\\log }_{2}{10}$ ,求 ${2}^{m} - m\\lg 2 - 4$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 879,
+        "end": 880
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 879,
+        "end": 880
+      }
+    ],
+    "id": "bx1-chapter-end-3-hA-6",
+    "category": "复习题A",
+    "answer": "6. 因为 $m = {\\log }_{2}{10}$ ,所以 ${2}^{m} - m\\lg 2 - 4 = {2}^{{\\log }_{2}{10}} - {\\log }_{2}{10} \\times  \\lg 2 - 4 = {10} - 1 - 4 = 5$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 410,
+        "end": 411
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 881,
+        "end": 881
+      }
+    ],
+    "id": "bx1-chapter-end-3-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 填空题:\n\n(1)若 ${4}^{x} = {2}^{-\\frac{1}{2}},{4}^{y} = \\sqrt[3]{32}$ ，则 ${2x} - {3y} =$ ___.\n\n(2)若 ${\\log }_{3}\\left( {{\\log }_{4}x}\\right)  = 1$ ，则 $x =$ ___.\n\n(3)若 ${3}^{a} = {7}^{b} = {63}$ ，则 $\\frac{2}{a} + \\frac{1}{b}$ 的值为___.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 883,
+        "end": 890
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 883,
+        "end": 890
+      }
+    ],
+    "id": "bx1-chapter-end-3-hB-1",
+    "category": "复习题B",
+    "answer": "1. (1) -3. (2) 64. (3) 1.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 414,
+        "end": 415
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 已知 ${\\log }_{18}9 = a,{18}^{b} = 5$ ,则 ${\\log }_{36}{45}$ 等于 ( )\n\nA. $\\frac{a + b}{2 + a}$ ; B. $\\frac{a + b}{2 - a}$ ; C. $\\frac{a + b}{2a}$ ; D. $\\frac{a + b}{{a}^{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 891,
+        "end": 894
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 891,
+        "end": 894
+      }
+    ],
+    "id": "bx1-chapter-end-3-hB-2",
+    "category": "复习题B",
+    "answer": "2. B.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 416,
+        "end": 417
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 设 ${\\log }_{0.2}a > 0,{\\log }_{0.2}b > 0$ ,且 ${\\log }_{0.2}a \\cdot  {\\log }_{0.2}b = 1$ . 求 ${\\log }_{0.2}\\left( {ab}\\right)$ 的最小值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 895,
+        "end": 896
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 895,
+        "end": 896
+      }
+    ],
+    "id": "bx1-chapter-end-3-hB-3",
+    "category": "复习题B",
+    "answer": "3. 因为 ${\\log }_{0.2}a > 0,{\\log }_{0.2}b > 0$ ,所以\n\n$$\n{\\log }_{0.2}\\left( {ab}\\right)  = {\\log }_{0.2}a + {\\log }_{0.2}b \\geq  2\\sqrt{{\\log }_{0.2}a \\cdot  {\\log }_{0.2}b} = 2,\n$$\n\n当且仅当 ${\\log }_{0.2}a = {\\log }_{0.2}b$ ,即 $a = b$ 时等号成立.\n\n因此 ${\\log }_{0.2}\\left( {ab}\\right)$ 的最小值为 2 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 418,
+        "end": 427
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 化简 $\\frac{\\left( {1 + {2}^{x}}\\right) \\left( {1 + {2}^{2x}}\\right) \\left( {1 + {2}^{4x}}\\right) \\left( {1 + {2}^{8x}}\\right) \\left( {1 + {2}^{16x}}\\right) }{1 - {2}^{32x}}$ (其中 $x \\neq  0$ ).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 897,
+        "end": 898
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 897,
+        "end": 898
+      }
+    ],
+    "id": "bx1-chapter-end-3-hB-4",
+    "category": "复习题B",
+    "answer": "4. 因为 $x \\neq  0$ ,所以 ${2}^{x} \\neq  1$ . 分子、分母同乘 $1 - {2}^{x}$ ,得\n\n$$\n\\begin{aligned}  & \\frac{\\left( {1 + {2}^{x}}\\right) \\left( {1 + {2}^{2x}}\\right) \\left( {1 + {2}^{4x}}\\right) \\left( {1 + {2}^{8x}}\\right) \\left( {1 + {2}^{16x}}\\right) }{\\left( 1 - {2}^{32x}\\right) } \\\\  & = \\frac{\\left( {1 - {2}^{x}}\\right) \\left( {1 + {2}^{x}}\\right) \\left( {1 + {2}^{2x}}\\right) \\left( {1 + {2}^{4x}}\\right) \\left( {1 + {2}^{8x}}\\right) \\left( {1 + {2}^{16x}}\\right) }{\\left( {1 - {2}^{x}}\\right) \\left( {1 - {2}^{32x}}\\right) } \\\\  & = \\frac{1 - {2}^{32x}}{\\left( {1 - {2}^{x}}\\right) \\left( {1 - {2}^{32x}}\\right) } = \\frac{1}{1 - {2}^{x}}. \\end{aligned}\n$$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 428,
+        "end": 433
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 已知 $a > 1, b > 0$ . 求证: 对任意给定的实数 $k,{a}^{{2b} + k} - {a}^{b + k} > {a}^{b + k} - {a}^{k}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 899,
+        "end": 900
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 899,
+        "end": 900
+      }
+    ],
+    "id": "bx1-chapter-end-3-hB-5",
+    "category": "复习题B",
+    "answer": "5. 证明: 因为 ${a}^{{2b} + k} - 2{a}^{b + k} + {a}^{k} = {a}^{k}\\left( {{a}^{2b} - 2{a}^{b} + 1}\\right)  = {a}^{k}{\\left( {a}^{b} - 1\\right) }^{2}$ ,又因为 $a >$ 0,所以对任意的实数 $k$ ,均有 ${a}^{k} > 0$ .\n\n而 $a > 1, b > 0$ ,由幂的基本不等式,可得 ${a}^{b} > 1$ .\n\n因此 ${a}^{k}{\\left( {a}^{b} - 1\\right) }^{2} > 0$ ,故 ${a}^{{2b} + k} - {a}^{b + k} > {a}^{b + k} - {a}^{k}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 434,
+        "end": 439
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "## 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 901,
+        "end": 901
+      }
+    ],
+    "id": "bx1-chapter-end-3-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 甲、乙两人同时解关于 $x$ 的方程: ${\\log }_{2}x + b + c{\\log }_{x}2 = 0$ . 甲写错了常数 $b$ ,得两根 $\\frac{1}{4}$ 及 $\\frac{1}{8}$ ; 乙写错了常数 $c$ ,得两根 $\\frac{1}{2}$ 及 64 . 求这个方程的真正根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 903,
+        "end": 904
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 903,
+        "end": 904
+      }
+    ],
+    "id": "bx1-chapter-end-3-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 将原方程整理成 ${\\left( {\\log }_{2}x\\right) }^{2} + b{\\log }_{2}x + c = 0$ .\n\n由题意,得 ${\\log }_{2}\\frac{1}{4} \\times  {\\log }_{2}\\frac{1}{8} = c$ ,且 ${\\log }_{2}\\frac{1}{2} + {\\log }_{2}{64} =  - b$ ,解得 $c = 6, b =  - 5$ .\n\n代入方程,得 ${\\left( {\\log }_{2}x\\right) }^{2} - 5{\\log }_{2}x + 6 = 0$ ,故 ${\\log }_{2}x = 2$ 或 ${\\log }_{2}x = 3$ ,即 $x = 4$ 或 $x = 8$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 442,
+        "end": 447
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 已知 $a\\text{ 、 }b$ 及 $c$ 是不为 1 的正数,且 $\\lg a + \\lg b + \\lg c = 0$ . 求证:\n\n$$\n{a}^{\\frac{1}{\\lg b} + \\frac{1}{\\lg c}} \\cdot  {b}^{\\frac{1}{\\lg c} + \\frac{1}{\\lg a}} \\cdot  {c}^{\\frac{1}{\\lg a} + \\frac{1}{\\lg b}} = \\frac{1}{1000}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 905,
+        "end": 909
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 905,
+        "end": 909
+      }
+    ],
+    "id": "bx1-chapter-end-3-t-2",
+    "category": "拓展与思考",
+    "answer": "2. 证明: 因为 $a\\text{、}b\\text{、}c$ 是不为 1 的正数,所以 ${a}^{\\frac{1}{\\lg b} + \\frac{1}{\\lg c}} \\cdot  {b}^{\\frac{1}{\\lg c} + \\frac{1}{\\lg a}} \\cdot  {c}^{\\frac{1}{\\lg a} + \\frac{1}{\\lg b}} > 0$ ,\n\n$$\n\\lg \\left( {{a}^{\\frac{1}{\\lg b} + \\frac{1}{\\lg c}} \\cdot  {b}^{\\frac{1}{\\lg c} + \\frac{1}{\\lg a}} \\cdot  {c}^{\\frac{1}{\\lg a} + \\frac{1}{\\lg b}}}\\right)  = \\left( {\\frac{1}{\\lg b} + \\frac{1}{\\lg c}}\\right) \\lg a + \\left( {\\frac{1}{\\lg c} + \\frac{1}{\\lg a}}\\right) \\lg b + \\left( {\\frac{1}{\\lg a} + \\frac{1}{\\lg b}}\\right) \\lg c,\n$$\n\n$$\n= \\frac{\\lg b + \\lg c}{\\lg a} + \\frac{\\lg a + \\lg c}{\\lg b} + \\frac{\\lg a + \\lg b}{\\lg c}.\n$$\n\n又因为 $\\lg a + \\lg b + \\lg c = 0$ ,所以\n\n$$\n\\frac{\\lg b + \\lg c}{\\lg a} + \\frac{\\lg a + \\lg c}{\\lg b} + \\frac{\\lg a + \\lg b}{\\lg c} = \\frac{-\\lg a}{\\lg a} + \\frac{-\\lg b}{\\lg b} + \\frac{-\\lg c}{\\lg c} =  - 3.\n$$\n\n故 ${a}^{\\frac{1}{\\lg b} + \\frac{1}{\\lg c}} \\cdot  {b}^{\\frac{1}{\\lg c} + \\frac{1}{\\lg a}} \\cdot  {c}^{\\frac{1}{\\lg a} + \\frac{1}{\\lg b}} = \\frac{1}{1000}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 448,
+        "end": 465
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 李大潜. 漫话 e [M]. 北京:高等教育出版社,2011.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 466,
+        "end": 470
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-chapter-end-3-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

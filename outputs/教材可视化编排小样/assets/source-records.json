@@ -1,0 +1,31 @@
+{
+  "originProject": "source-origins/Documents/ChatGPT/题库项目/question-studio",
+  "copiedReadOnly": true,
+  "files": [
+    {
+      "path": "assets/ellipse-string-instrument.html",
+      "source": "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/ellipse-string-instrument.html",
+      "sha256": "e7cf755c495c34e9ea808ff4b6373360f83143bea8516e7e77d7227cedbf7dd1"
+    },
+    {
+      "path": "assets/space-line-plane-perpendicular.v1.0.0.json",
+      "source": "source-origins/Documents/ChatGPT/题库项目/question-studio/examples/perpendicular.交互包.json",
+      "sha256": "09b7531e1ed7d8f435af092965f98027409040a34ab2c33c908983f836ba078b"
+    },
+    {
+      "path": "assets/ellipse-source-record.json",
+      "source": "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/SOURCE.json",
+      "sha256": "768b2a79474df3108c1b0786e45a43426d54b30a39c801e2a4bb767f8bb9396a"
+    },
+    {
+      "path": "licenses/Anatomy-LICENSE.txt",
+      "source": "source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/Anatomy-LICENSE.txt",
+      "sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796"
+    },
+    {
+      "path": "licenses/Question-Studio-LICENSE.txt",
+      "source": "source-origins/Documents/ChatGPT/题库项目/question-studio/LICENSE",
+      "sha256": "f7eae17c192f3a9136a9cedb984235c1a7fa499ebf8daf9c4361d600f77198d3"
+    }
+  ]
+}

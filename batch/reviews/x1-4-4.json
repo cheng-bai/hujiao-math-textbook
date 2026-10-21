@@ -1,0 +1,40 @@
+{
+  "section_id": "x1-4-4",
+  "status": "reviewed-with-notes",
+  "model_sha256": "bc9dcc755c41018f917db9b399c2e9d1a1b604ef7911288442fa52fa8187061e",
+  "coverage": {
+    "structure": "模型所有块的字段/ID/图路径/教参隔离标志与显式题号配对检查；人工重点另记",
+    "question_count": 16,
+    "answered_count": 16,
+    "source_hashes": {
+      "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+      "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+    },
+    "key_math_checks": [
+      {
+        "id": "x1-4-4-p441-1",
+        "method": "辨错题题干中的两个证明必须保留；(1)n1反例2≠3，(2)证明用几何级数公式未用归纳假设",
+        "result": "原答案核心判断吻合，题干“证明”不是学生泄漏。"
+      }
+    ],
+    "focus_math_review": true,
+    "emphasis_count": 2,
+    "student_html_zip_static_check": "not-built"
+  },
+  "issues": [
+    {
+      "origin": "independent",
+      "code": "source-answer-sentence-truncated",
+      "severity": "warning",
+      "status": "open",
+      "source": "teacher",
+      "line": 510,
+      "message": "习题4.4(1)1(2)原源以“这意味”结束；主教参MD3467同样残句，非parser截断。核心错误说明已保留，不自行补写来源缺句。"
+    }
+  ],
+  "patches": [],
+  "limits": [
+    "未逐题复算；结构配对通过不等于数学通过。",
+    "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+  ]
+}

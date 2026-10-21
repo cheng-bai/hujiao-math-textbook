@@ -1,0 +1,305 @@
+{
+  "asset_id": "04c1bda0-0f9b-514d-b186-d8f539e8d69b",
+  "contributors": [
+    {
+      "name": "Codex foundations implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:02Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "branch": "positive",
+      "x": 1.5
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "foundations",
+    "source_build_sha256": "da060a328325bd5795a1cd5c456e7860b76e53eeddde11359d31c728a7d83f45",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx1-5-4-b11",
+          "rationale": "覆盖本节原prose第11块：用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sectionId": "bx1-5-4",
+          "sourceSha256": "35bb867e2dce62489f64e9a4b95d29c67c2a5d8ecf80fc54a974c887adcaeda2"
+        }
+      ],
+      "sections": [
+        "bx1-5-4"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 24901,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "da060a328325bd5795a1cd5c456e7860b76e53eeddde11359d31c728a7d83f45"
+    },
+    {
+      "bytes": 8440,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "f6368d530c5a0830625d8a14e71317965202dedbb351d9d5e121e8fe2401e368"
+    },
+    {
+      "bytes": 12180,
+      "media_type": "text/javascript",
+      "path": "source/foundations.js",
+      "role": "source",
+      "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+    },
+    {
+      "bytes": 31651,
+      "media_type": "application/json",
+      "path": "source/foundations.json",
+      "role": "source",
+      "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+    },
+    {
+      "bytes": 4611,
+      "media_type": "text/javascript",
+      "path": "source/test-foundations.mjs",
+      "role": "source",
+      "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 2032,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "13cade857114caca76fa6b11c7b2462c7f5eeb4f1c3191622156f579872e6525"
+    },
+    {
+      "bytes": 3140,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "41ce79c19ff43505aeae0de35011e4b8bcfb2044911984fb8b70aa4db6f68686"
+    },
+    {
+      "bytes": 1048,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "d18552b8e7e88de5c39b5e776812408d37e05ba02cfae079eb2463ae0883018e"
+    },
+    {
+      "bytes": 2458,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "99381b4188d3e788784afc7db909f98ef22689aba5d922b9287845d586b6f251"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "617a390f94da028effa73abc1218e6c620b2ed4ad843c8c5fd5ffe2b97bd570f"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 517,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "51643521eac7534f0ad0d1388a916d1cb7599a3683cc2a64fc6fe341f279001d"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "反函数先以原函数值域为定义域，解出原自变量，再交换横纵坐标。点 (a,b) 与 (b,a) 关于 y=x 对称：不重合时，连线中点在 y=x 上且连线斜率为 -1。一般反函数图像因此关于 y=x 对称。平方函数须先限制为非负或非正半轴，才得到对应平方根分支；这里由同一动点看这一限制。"
+    ],
+    "learning_goals": [
+      "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。"
+    ],
+    "objects": [
+      "反函数：保留哪一个平方根分支"
+    ],
+    "parameters": {
+      "branch": {
+        "default": "positive",
+        "domain": "允许的离散选项：[\"positive\", \"negative\"]",
+        "type": "enum"
+      },
+      "x": {
+        "default": 1.5,
+        "display_range": [
+          0,
+          2
+        ],
+        "domain": "本实验允许输入范围 [0, 2]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "foundations"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "branch": "positive",
+          "x": 1.5
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "inverse-domain",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "branch": {
+        "enum": [
+          "positive",
+          "negative"
+        ],
+        "type": "string"
+      },
+      "x": {
+        "maximum": 2,
+        "minimum": 0,
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "反函数：保留哪一个平方根分支",
+  "updated_at": "2026-10-19T16:47:02Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/foundations.js",
+          "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+        },
+        {
+          "path": "source/foundations.json",
+          "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+        },
+        {
+          "path": "source/test-foundations.mjs",
+          "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.125913Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "da060a328325bd5795a1cd5c456e7860b76e53eeddde11359d31c728a7d83f45"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.125913Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "da060a328325bd5795a1cd5c456e7860b76e53eeddde11359d31c728a7d83f45"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

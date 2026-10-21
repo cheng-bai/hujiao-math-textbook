@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>沪教数学 · 可视化编排台</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/module-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#book">跳到教材正文</a>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">书</span><span>沪教数学<small>教材 × 交互</small></span></a>
+    <div class="mode-switch" aria-label="工作模式"><button id="edit-mode" class="active" aria-pressed="true">编排</button><button id="read-mode" aria-pressed="false">阅读</button></div>
+    <span class="draft-label"><i></i> 独立小样 · 原稿只读</span>
+    <div class="top-actions"><button id="undo" disabled title="撤销上一次编排操作">↶ <span>撤销</span></button><button id="import">导入编排</button><button id="export" class="primary">导出编排 <span aria-hidden="true">↗</span></button><button id="library-toggle" aria-expanded="false">资源库</button></div>
+    <input id="import-file" type="file" accept="application/json,.json" hidden>
+  </header>
+  <div class="workspace">
+    <aside class="outline" aria-label="教材章节">
+      <div class="outline-heading">选择性必修第一册<small>本次接入 2 个节选</small></div>
+      <div class="chapter-label">02 / 圆锥曲线</div>
+      <button class="section-link active" data-section="x1-2-2"><span>2.2</span> 椭圆 <i></i></button>
+      <div class="chapter-label">03 / 空间向量及其应用</div>
+      <button class="section-link" data-section="x1-3-4"><span>3.4</span> 空间向量的应用 <i></i></button>
+      <div class="outline-note"><span class="small-rule"></span><strong>从静态图，到可探索的关系。</strong><p>原文保持不变。把交互场景放在最有解释力的位置。</p></div>
+      <div class="outline-footer"><span id="total-count">0</span> 个已插入模块<br><small>模块版本固定 · 每处参数独立</small></div>
+    </aside>
+    <main class="canvas" id="book">
+      <div class="canvas-bar"><span>教材正文 <b>/</b> <span id="section-breadcrumb">2.2 椭圆</span></span><label class="mobile-section">切换章节 <select id="section-select"><option value="x1-2-2">2.2 椭圆</option><option value="x1-3-4">3.4 空间向量的应用</option></select></label><span class="canvas-status" id="save-status" role="status">未插入模块</span></div>
+      <article class="paper" id="paper"></article>
+      <div class="canvas-foot">这里是两节教材的编排样片，不替代完整正文。正式教材尚未被修改。</div>
+    </main>
+    <aside class="library" id="library" aria-label="可视化资源库">
+      <div class="library-head"><div><small>ANATOMY · 已有资产</small><h2>可视化资源库<span>02</span></h2></div><button class="library-close" id="library-close" aria-label="收起资源库">×</button></div>
+      <div class="search-field"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="m12 12 5 5"/></svg><input id="search" type="search" placeholder="搜索概念、场景…" aria-label="搜索资源"></div>
+      <div class="filters" aria-label="资源筛选"><button data-filter="all" class="active" aria-pressed="true">全部资源</button><button data-filter="recommended" aria-pressed="false">本节推荐</button></div>
+      <div class="library-instruction"><span>↙</span><p>拖到正文的插入线，<br>或先选位置，再点「插入」。</p></div>
+      <div id="resource-list"></div>
+      <div class="library-footer"><span class="dot"></span> 本地副本 · 无外部服务<p>复用已有数学模型，不修改原作品。导出的 JSON 保存位置与参数，不包含教材全文或模块代码。</p></div>
+    </aside>
+  </div>
+  <div class="drawer-scrim" id="drawer-scrim"></div>
+  <dialog id="preview-dialog" aria-labelledby="preview-title" aria-describedby="preview-goal">
+    <div class="preview-head"><div><small>资源预览 / 原模型嵌入</small><h2 id="preview-title"></h2></div><button id="preview-close" aria-label="关闭预览">×</button></div>
+    <p id="preview-goal"></p><div id="preview-content"></div>
+    <div class="preview-foot"><span>预览参数不改写教材实例。</span><button id="preview-insert" class="primary">插入到选定位置</button></div>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>此编排小样需要启用 JavaScript；教材原稿未受影响。</noscript>
+</body>
+</html>

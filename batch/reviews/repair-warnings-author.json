@@ -1,0 +1,19 @@
+{
+  "status": "awaiting-independent-and-final-render-verification",
+  "sections": [
+    {
+      "section": "x1-4-4",
+      "action": "补全数学归纳法残句；保留原教参参考记录，并明确已知求和公式的直接证明不等于错误证明。",
+      "source_hashes_unchanged": true,
+      "old_ids_preserved": true,
+      "after_sha256": "2a1a435929cf2cda8027194f0295268b5600bcf537f0cce21ab5822c5f11a550"
+    },
+    {
+      "section": "bx2-7-3",
+      "action": "UI节标题采用同义纯文字，完整原题名以公共Markdown公式呈现；既有正文和可视化锚点不动。",
+      "source_hashes_unchanged": true,
+      "old_ids_preserved": true,
+      "after_sha256": "175dcdff60e2f8d396ddeefdb5e9818942b481a285cd4e31ad719a89b4c317c8"
+    }
+  ]
+}

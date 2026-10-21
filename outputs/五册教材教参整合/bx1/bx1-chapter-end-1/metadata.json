@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-chapter-end-1",
+  "book_id": "bx1",
+  "section": "chapter-end-1",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx1/bx1-chapter-end-1.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-1",
+  "fingerprint": "8852e5db17cbfacee5e2c0187788b3d2dac23581f09dfa9e50e28edb35378fae",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第1章集合与逻辑/第1章集合与逻辑-dollar.md": "5ba1cf1ca79b39d5be42c799a856cdcedf644f49578e1dbdc01c0d63a0567022",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/01 必修第一册 第1章 集合与逻辑.md": "5e894f38d1d271f0a2e3029d4a0fe38206bd658580f736515e804333d79b592e"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "e3bc1c75ed8ab906e45cc951c97e5c1500d8d7944f7eb555d0467eab39c7cddb",
+    "student.html": "48ff2cae829928305f3c8cc245bd6941ba20633b00e452baf182a1eda730d50f",
+    "student.zip": "7d2148c54eacc62a486238db8a243774f7ea71d7d1aa7c1a0868022eb318e431",
+    "content.json": "3e0b407c7501e6c126f4b3d9efe858528d98e76b6f9bd1b6a864c33a9f0b821d"
+  }
+}

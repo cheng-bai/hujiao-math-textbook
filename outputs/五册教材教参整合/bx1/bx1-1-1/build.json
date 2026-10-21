@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-1-1",
+  "book_id": "bx1",
+  "section": "1.1",
+  "title": "集合及其表示",
+  "section_json": "batch/sections/bx1/bx1-1-1.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-1-1",
+  "fingerprint": "62b16a59a0103e0aa7658ecdfdb263b5e3c4a2b5805e44711721f3c7b8ceaf6c",
+  "status": "rendered",
+  "questions": 36,
+  "answers": 36,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-3f183b8c6bb21339020c.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg",
+      "sha256": "3f183b8c6bb21339020c7a13e137d166dfc677e936d8b6373f06d8dfb3da7e3c",
+      "private": false
+    },
+    "images/book-770b56d891d08517d10a.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_1_263_700_173_267_0.jpg",
+      "sha256": "770b56d891d08517d10abe0b593073cfd5342f6cd1b46a83b6054b777f4547b0",
+      "private": false
+    },
+    "images/private-b4aa05cc6a65c56cea20.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_4_272_1321_702_149_0.jpg",
+      "sha256": "b4aa05cc6a65c56cea20f1f937ad81aca692c8c170a43b0f33dfcaaa135a26a0",
+      "private": true
+    },
+    "images/private-dc060e2f1154e2feeb34.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_4_271_1696_703_149_0.jpg",
+      "sha256": "dc060e2f1154e2feeb349e2bbcc89dceafb7f66019ba6e2a0f7e7aa145f87cbd",
+      "private": true
+    },
+    "images/book-6d9f6cc2855a3f51e7c6.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_6_1173_285_255_259_0.jpg",
+      "sha256": "6d9f6cc2855a3f51e7c692b2dfc91eac7476006d617b1944c81b35d2bb24ed5a",
+      "private": false
+    },
+    "images/book-74f6133fe014d6c79f8e.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_8_203_338_849_279_0.jpg",
+      "sha256": "74f6133fe014d6c79f8ec92baa65353c36838cdf68e2841c649c638b569186c2",
+      "private": false
+    },
+    "images/private-c9e3d799c66901109442.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_8_205_1838_845_281_0.jpg",
+      "sha256": "c9e3d799c6690110944223e0d4e517e225a7ecd3a181ecc21776bd218aeeb27d",
+      "private": true
+    },
+    "images/private-474f61b682d9edb93dbc.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_9_722_701_602_155_0.jpg",
+      "sha256": "474f61b682d9edb93dbc26d3b8c050ad0971299fc5e0fc2c29350496c4af79ba",
+      "private": true
+    },
+    "images/private-f7369d0d22ba34c99b43.jpg": {
+      "source": "sources/textbooks/必修第一册/第1章集合与逻辑/images/bo_d4slo077aajc73fspke0_10_1173_234_253_170_0.jpg",
+      "sha256": "f7369d0d22ba34c99b43a4e4be5451229ed00c883307482df1ea1f97c3cc76fe",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第1章集合与逻辑/第1章集合与逻辑-dollar.md": "5ba1cf1ca79b39d5be42c799a856cdcedf644f49578e1dbdc01c0d63a0567022",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/01 必修第一册 第1章 集合与逻辑.md": "5e894f38d1d271f0a2e3029d4a0fe38206bd658580f736515e804333d79b592e"
+  },
+  "student_images": [
+    "images/book-3f183b8c6bb21339020c.jpg",
+    "images/book-6d9f6cc2855a3f51e7c6.jpg",
+    "images/book-74f6133fe014d6c79f8e.jpg",
+    "images/book-770b56d891d08517d10a.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "90d1577007c82b7982109da56b8b04f940991a759579e2186785788e0bfc321d",
+    "student.html": "e4e37846633ccac5985e4e8cae39141d1e8cdcafbc6df8eebe2f0fdf741215d5",
+    "student.zip": "44f3985b51b76ae73b8738c5f6114e7bb55cc466a26e0dc50433bc259752b231",
+    "content.json": "978827b6be8fd64e3103fac9b7578b20f34decf7823ee3eda3babcfde202a4c7"
+  }
+}

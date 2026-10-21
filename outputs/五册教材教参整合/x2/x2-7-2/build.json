@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-7-2",
+  "book_id": "x2",
+  "section": "7.2",
+  "title": "随机变量的分布与特征",
+  "section_json": "batch/sections/x2/x2-7-2.json",
+  "output": "outputs/五册教材教参整合/x2/x2-7-2",
+  "fingerprint": "9372b4da4303d7ab2cd4a2c4726bb8f654c8ebfbebb6d0c1f2430bc6a9c9de57",
+  "status": "rendered",
+  "questions": 21,
+  "answers": 21,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-3e5c3a4d97ce8c09e812.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_12_283_365_698_358_0.jpg",
+      "sha256": "3e5c3a4d97ce8c09e812a84bee5878c534dd7a38145673464a57d81220e17e51",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md": "f24bb495b492c1d6617e45d97bc2a42951ca4d7710507fb3bb77280f2c88505c",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "2466c65b6995ad640c7e153d55cace26a619d1c3894d42967d5a23943fb8135f",
+    "student.html": "2bda03e3230229d55fe6f6f07026bfb3356025e778465fc0e1de58567ab4e837",
+    "student.zip": "06c6e6b6dd1c2fa750285749bd5451a1cace9501fe7d3fe8ee57554cb94858df",
+    "content.json": "c7792cf726dcad97a2929f9dd67fd387de009d35ac306e777a7f8720ccaf6ed9"
+  }
+}

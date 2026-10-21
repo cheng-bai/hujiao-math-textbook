@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-2-1",
+  "book_id": "x1",
+  "section": "2.1",
+  "title": "圆",
+  "section_json": "batch/sections/x1/x1-2-1.json",
+  "output": "outputs/五册教材教参整合/x1/x1-2-1",
+  "fingerprint": "814ab69efaebbd52c05139b3cf8aa9e73e46808078fa1b2a1b9eb63a55917692",
+  "status": "rendered",
+  "questions": 45,
+  "answers": 45,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-3f90ab2267261eb42cba.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_0_2_7_1652_1166_0.jpg",
+      "sha256": "3f90ab2267261eb42cba6717428eb231adebfc1c72d3c85e67022c0f31417222",
+      "private": false
+    },
+    "images/private-2f619c47046c9da64509.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_55_945_1283_415_283_0.jpg",
+      "sha256": "2f619c47046c9da645098c6317fe5231ba71b625b6bce64c01e42c0256b86801",
+      "private": true
+    },
+    "images/book-d9467677b765af414f00.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_2_1142_260_290_291_0.jpg",
+      "sha256": "d9467677b765af414f0051507db8eea81aa10d2d0216d2c8ef7605ca4d649825",
+      "private": false
+    },
+    "images/book-5f7bbef794578d1f326e.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_2_1132_1557_311_275_0.jpg",
+      "sha256": "5f7bbef794578d1f326e68f475c6aeb08151907da83003409046eca8363e5305",
+      "private": false
+    },
+    "images/book-a359078b998e01512e51.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_3_225_412_268_403_0.jpg",
+      "sha256": "a359078b998e01512e510a1e16ca446fd5890e899cd7a367a197c10a3cd50ef8",
+      "private": false
+    },
+    "images/book-e438e1c3fb62983138a5.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_3_201_1100_324_295_0.jpg",
+      "sha256": "e438e1c3fb62983138a57f8bb5eda075acf8c699312203d38e24632a9128d455",
+      "private": false
+    },
+    "images/private-854c5d219d77e4f32c55.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_6_1142_1743_290_292_0.jpg",
+      "sha256": "854c5d219d77e4f32c555af7a714e0f1bba11abb6c6839a589c2d967fef857ff",
+      "private": true
+    },
+    "images/book-54eba6447618ca4c3c89.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_7_218_436_288_290_0.jpg",
+      "sha256": "54eba6447618ca4c3c891b623b28f450cfbb2ff0a44333b54edc09e1513ba882",
+      "private": false
+    },
+    "images/private-fc6bf9c7ab71c2042df7.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_7_216_1745_289_293_0.jpg",
+      "sha256": "fc6bf9c7ab71c2042df7f2f2172157a63b580e32a305d8914fc0492361f422a5",
+      "private": true
+    },
+    "images/book-178c9e4d8b8b96518f1b.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_8_255_1285_712_477_0.jpg",
+      "sha256": "178c9e4d8b8b96518f1bd0f2efca4feaf3e123081fdcefd74d584d949f119f32",
+      "private": false
+    },
+    "images/book-3e7131b632932303fd05.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_10_210_1678_843_343_0.jpg",
+      "sha256": "3e7131b632932303fd0576c8326090a59aa08d3f38fdd5fd3298a1483af75960",
+      "private": false
+    },
+    "images/book-99d1dd0326ac33d4d94d.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_12_558_940_501_171_0.jpg",
+      "sha256": "99d1dd0326ac33d4d94dc7e2ed15018b623350f71be01b9594889eae9a6b9abe",
+      "private": false
+    },
+    "images/private-79393b9fef7dfe69a366.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_95_933_527_423_287_0.jpg",
+      "sha256": "79393b9fef7dfe69a366cba8dc1e9bdeb6a56fceba906ac4e7ef028986edc423",
+      "private": true
+    },
+    "images/book-5544846ea3f8ef1617b3.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_13_607_335_455_170_0.jpg",
+      "sha256": "5544846ea3f8ef1617b3f6f904b45778e53cdd4b480c1ab6687248d34dff4f52",
+      "private": false
+    },
+    "images/book-4bde123ce49ae992a024.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_13_584_1092_501_302_0.jpg",
+      "sha256": "4bde123ce49ae992a02407a85cc2c3a3d7b1527c4b3a220fbeb6777c6bc342fd",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md": "f9a3bb0b1aae50a77724a0067d2a54459e56dae712b033b9938051dd996af7c4",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md": "955c9f50ad7cda82b9d3bd28bfabcfc8b11cb574e5aff5b0c61addbde6e61445"
+  },
+  "student_images": [
+    "images/book-178c9e4d8b8b96518f1b.jpg",
+    "images/book-3e7131b632932303fd05.jpg",
+    "images/book-3f90ab2267261eb42cba.jpg",
+    "images/book-4bde123ce49ae992a024.jpg",
+    "images/book-54eba6447618ca4c3c89.jpg",
+    "images/book-5544846ea3f8ef1617b3.jpg",
+    "images/book-5f7bbef794578d1f326e.jpg",
+    "images/book-99d1dd0326ac33d4d94d.jpg",
+    "images/book-a359078b998e01512e51.jpg",
+    "images/book-d9467677b765af414f00.jpg",
+    "images/book-e438e1c3fb62983138a5.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "03570a2866be98f4adaf1be19bb6e862cf09655fff0a4f02baa1d7c024c984d6",
+    "student.html": "89221512bab322e8626e851f673d76fa0672bb6ed12d4a88ec9b03f7240bf346",
+    "student.zip": "e4292a233e31d0d6aecb67b730458f4f657892d3c8368005dcbc7075ee376586",
+    "content.json": "4d5a03cf7c4165979cb73b3f50d42c0089bccbdc0a9939f34a09cee456d5398d"
+  }
+}

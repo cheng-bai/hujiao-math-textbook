@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx3-12-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>12.2 古典概率 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx3.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第三册 / 第12章概率初步</div><div class="spine-number">12.2</div><nav aria-label="本节目录"><a href="#bx3-12-2"><span>12.2</span>古典概率</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 12.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 12.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>古典概率<span class="cover-dot">.</span></h1><p class="cover-deck">必修第三册<br>第12章概率初步 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>9 个例题</span><span>20 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx3-12-2" data-title="古典概率"><section class="section-heading" id="bx3-12-2"><span class="section-number">12.2</span><div><h2>古典概率</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="bx3-12-2-b2">1 等可能性与概率</h3><div class="prose" data-visual-source-sha="7c15d38d981a08783d53d4b8bfc5358ec6ff6c20d8dcaa7290080c78d0fc9378" id="bx3-12-2-b3"><p>通俗地讲，概率就是可能性的大小. 我们从最简单的抛掷硬币来学习与概率相关的概念. 抛掷一枚硬币这个随机试验一共有两个可能的结果: 正面朝上与反面朝上, 其中必然有且只有一个结果会出现, 并且两个结果出现的可能性通常被认为是一样的. 因为习惯地约定必然事件的概率是 1 , 所以正面朝上的可能性即概率是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> . 这里的关键是硬币的两个面出现的可能性一样. 一般地, 若一个随机试验的所有结果出现的可能性都一样, 则称之为具有等可能性 (equally likely), 它在许多场合下是直观自然的.</p>
+<aside class="key-point key-concept" id="bx3-12-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>如果一个随机试验满足下面两个条件:(1)包含有限个可能出现的结果(基本事件)；(2)这些结果出现是等可能的，那么这样的随机试验就称为古典概率模型. 它是最常见也是最简单的概率模型.</p>
+</aside><p>在一个古典概率模型中, <span class="math" data-tex="\Omega" data-display="false"></span> 是一个有限且等可能的样本空间. 这里等可能的样本空间是指该样本空间中的每个基本事件出现的可能性相同. 因为依照习惯约定必然事件的概率是 1 , 所以每个基本事件发生的概率自然是基本事件总数的倒数. 由于一般的随机事件 <span class="math" data-tex="A" data-display="false"></span> 是基本事件的某个集合,即样本空间的一个子集, 用符号 <span class="math" data-tex="P\left( A\right)" data-display="false"></span> 表示事件 <span class="math" data-tex="A" data-display="false"></span> 发生的概率 (probability),那么事件 <span class="math" data-tex="A" data-display="false"></span> 发生的概率为</p>
+<div class="math display" data-tex="P\left( A\right)  = \frac{\left| A\right| }{\left| \Omega \right| }." data-display="true"></div>
+<p>其中, <span class="math" data-tex="\left| A\right|" data-display="false"></span> 表示事件 <span class="math" data-tex="A" data-display="false"></span> 中的基本事件个数,而 <span class="math" data-tex="\left| \Omega \right|" data-display="false"></span> 表示样本空间中的基本事件个数. 上式说明概率是事件中的元素个数与样本空间中元素个数的比值.</p>
+<hr />
+<p>为什么硬币的两面出现是等可能的? 这是由于: (1)假设抛掷的硬币是质地均匀的; (2)假设抛掷的过程是充分随机的. 这两个假设使得我们确信硬币落地时不会偏向于其任何一面.</p>
+<p>符号 <span class="math" data-tex="\left| A\right|" data-display="false"></span> 表示集合 <span class="math" data-tex="A" data-display="false"></span> 的元素个数.</p>
+<hr />
+<p><img src="images/book-2b37789c65a27aa2fcfd.jpg" alt="教材或教参原图" loading="eager"></p>
+</div><article class="question" id="bx3-12-2-ex-1" data-question-id="bx3-12-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 抛掷一枚硬币正面朝上和掷一颗骰子得点数 6 的概率分别是多少?</p>
+</div></article><article class="question" id="bx3-12-2-ex-2" data-question-id="bx3-12-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 同时掷两颗骰子,求:</p>
+<hr />
+<p>在抛掷硬币或掷骰子时, 我们实际上不言自喻地假设等可能性.</p>
+<hr />
+<p>(1)所得点数之和为 5 的概率;</p>
+<p>(2)所得点数相等的概率；</p>
+<p>(3)所得点数都是偶数的概率；</p>
+<p>(4)所得点数相差 2 的概率.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b6">练习 12.2(1)</h3><article class="question" id="bx3-12-2-p1221-1" data-question-id="bx3-12-2-p1221-1" data-category="practice"><div class="question-label">练习12.2(1) · 1</div><div class="question-body"><ol>
+<li>同时掷 2 颗骰子, 求:</li>
+</ol>
+<p>(1)所得点数和为 6 的概率; (2)所得点数和不大于 6 的概率.</p>
+</div></article><article class="question" id="bx3-12-2-p1221-2" data-question-id="bx3-12-2-p1221-2" data-category="practice"><div class="question-label">练习12.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>抛掷 3 枚硬币,求下列事件的概率:</li>
+</ol>
+<p>(1)恰有 2 枚正面朝上； (2)最多 1 枚正面朝上.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b9">2 等可能性(续)</h3><div class="prose" data-visual-source-sha="5c0c725881ae2306bec70e8eab420572a2a7b7cecb68cf6937be22cf82a5fc4a" id="bx3-12-2-b10"><p>在上一节说过, 随机现象的样本空间的选取依赖于观察的角度, 但其中事件的概率与观察角度这一主观因素无关, 是确定唯一的. 在古典概率模型中, 随着观察角度的不同, 并非所有的样本空间都有等可能性. 例如, 抛掷两枚硬币, 样本空间 {正正,正反,反正,反反}中的基本事件是等可能的, 但样本空间{两正,一正一反,两反}却不是等可能的. 虽然取什么样本空间不影响所考察的随机事件的概率, 但只有选取等可能的样本空间, 才能使得事件的概率如定义所示, 等于事件元素个数与样本空间元素个数之比, 进而使有关计算变得简单, 所以我们通常要选取一个等可能的样本空间.</p>
+<p>怎么得到一个等可能的样本空间呢? 对抛掷一枚硬币、掷一颗骰子、摸一个球等随机试验来说，这很简单，但对复杂的随机试验来说, 这并不是很容易. 为此, 通常要将一个随机试验依次分解为若干个等可能的随机试验来处理, 方法如下:</p>
+<p>设一个随机试验分两步完成,第一步有 <span class="math" data-tex="m" data-display="false"></span> 个等可能的结果, 记作</p>
+<div class="math display" data-tex="{a}_{1},{a}_{2},\cdots ,{a}_{m}\text{ ; }" data-display="true"></div>
+<p>而对第一步得到的每个结果,第二步总有 <span class="math" data-tex="n" data-display="false"></span> 个等可能的结果, 记作</p>
+<div class="math display" data-tex="{b}_{1},{b}_{2},\cdots ,{b}_{n}\text{ . }" data-display="true"></div>
+<p>那么, 该随机试验的样本空间就是</p>
+<div class="math display" data-tex="\Omega  = \left\{  {\left( {{a}_{i},{b}_{j}}\right)  \mid  i = 1,2,\cdots , m;j = 1,2,\cdots , n}\right\}  ," data-display="true"></div>
+<p>它是等可能的,共有 <span class="math" data-tex="{mn}" data-display="false"></span> 个元素. 对多步的等可能随机试验可以类似地构造等可能的样本空间.</p>
+</div><article class="question" id="bx3-12-2-ex-3" data-question-id="bx3-12-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 从分别写有 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C" data-display="false"></span> 的三个大小与质地相同的球中任意取两个, 寻找其等可能的样本空间.</p>
+</div></article><article class="question" id="bx3-12-2-ex-4" data-question-id="bx3-12-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 从一个放有两个白球、一个黑球的罐子中任意摸两个球, 写出其样本空间并思考: 这个样本空间是否有不同的写法? 什么样的样本空间有等可能性? 并求至少摸到一个黑球的概率.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b13">练习 12.2(2)</h3><article class="question" id="bx3-12-2-p1222-1" data-question-id="bx3-12-2-p1222-1" data-category="practice"><div class="question-label">练习12.2(2) · 1</div><div class="question-body"><ol>
+<li>掷两颗骰子, 点数之和出现哪个数的可能性最大?</li>
+</ol>
+</div></article><article class="question" id="bx3-12-2-p1222-2" data-question-id="bx3-12-2-p1222-2" data-category="practice"><div class="question-label">练习12.2(2) · 2</div><div class="question-body"><ol start="2">
+<li>(配对问题)三个人抽签，三个签上事先分别写上了各自的名字. 求下面事件的概率:</li>
+</ol>
+<p><span class="math" data-tex="{A}_{0}" data-display="false"></span> : 没有人抽到写有自己名字的签；</p>
+<p><span class="math" data-tex="{A}_{1}" data-display="false"></span> : 恰有一个人抽到写有自己名字的签；</p>
+<p><span class="math" data-tex="{A}_{2}" data-display="false"></span> : 恰有两个人抽到写有自己名字的签；</p>
+<p><span class="math" data-tex="{A}_{3}" data-display="false"></span> : 三个人都抽到写有自己名字的签.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b16">3 事件关系和运算</h3><div class="prose" data-visual-source-sha="9b801a4d499c372ef48dddfe44bc0c33b1e701c9bcf53da91cc0767f8ad349d4" id="bx3-12-2-b17"><p>对于一个随机现象而言, 在确定样本空间之后, 事件对应于样本空间的一个子集, 通常用相同的字母来表示事件与相应的子集.</p>
+<p>首先,事件之间是有关系的. 设事件 <span class="math" data-tex="A" data-display="false"></span> 对应于子集 <span class="math" data-tex="A" data-display="false"></span> ,事件 <span class="math" data-tex="B" data-display="false"></span> 对应于子集 <span class="math" data-tex="B" data-display="false"></span> . 如果 <span class="math" data-tex="A" data-display="false"></span> 的基本事件都在 <span class="math" data-tex="B" data-display="false"></span> 中,那么 <span class="math" data-tex="A" data-display="false"></span> 发生必然 <span class="math" data-tex="B" data-display="false"></span> 发生. 此时,称 <span class="math" data-tex="B" data-display="false"></span> 包含 <span class="math" data-tex="A" data-display="false"></span> 或者 <span class="math" data-tex="A" data-display="false"></span> 包含于 <span class="math" data-tex="B" data-display="false"></span> ,即 <span class="math" data-tex="A \subset  B" data-display="false"></span> . 例如,抛掷三枚硬币, <span class="math" data-tex="A" data-display="false"></span> : 至少有两个正面朝上, <span class="math" data-tex="B" data-display="false"></span> : 至少有一个正面朝上，则 <span class="math" data-tex="A \subset  B" data-display="false"></span> ，即 <span class="math" data-tex="A" data-display="false"></span> 发生必然 <span class="math" data-tex="B" data-display="false"></span> 发生，或等价地说， <span class="math" data-tex="B" data-display="false"></span> 不发生则 <span class="math" data-tex="A" data-display="false"></span> 也不发生.</p>
+<p>其次,事件是可以运算的. &quot;两个事件 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 至少有一个发生&quot;, 这本身也是一个事件, 是指在两个事件所包含的基本事件中至少有一个发生,其对应的子集是 <span class="math" data-tex="A \cup  B" data-display="false"></span> . 同样地,&quot;两个事件 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 同时发生&quot;也是一个事件,是指两个事件的某个共同的基本事件发生,其对应的子集是 <span class="math" data-tex="A \cap  B" data-display="false"></span> . 因此,&quot;两个事件至少有一个发生&quot;对应于相应集合的并，而&quot;两个事件同时发生&quot;则对应于相应集合的交.</p>
+<p>如果 <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> 没有共同的基本事件,即两个子集不相交: <span class="math" data-tex="A \cap  B = \varnothing" data-display="false"></span> ,那么这两个事件不可能同时发生,或者说互斥.</p>
+<aside class="key-point key-concept" id="bx3-12-2-definition-17-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>&quot;事件 <span class="math" data-tex="A" data-display="false"></span> 发生&quot;的否定就是&quot;事件 <span class="math" data-tex="A" data-display="false"></span> 不发生&quot;,它也是一个事件,称为事件 <span class="math" data-tex="A" data-display="false"></span> 的对立事件,简称为&quot;非 <span class="math" data-tex="A" data-display="false"></span> &quot;. 对应的子集是不属于 <span class="math" data-tex="A" data-display="false"></span> 的基本事件全体,从而是 <span class="math" data-tex="A" data-display="false"></span> 在样本空间 <span class="math" data-tex="\Omega" data-display="false"></span> 中的补集 <span class="math" data-tex="\bar{A}" data-display="false"></span> . 显然 <span class="math" data-tex="A" data-display="false"></span> 与非 <span class="math" data-tex="A" data-display="false"></span> 不会同时发生,但肯定有一个发生,即成立</p>
+</aside><div class="math display" data-tex="A \cap  \overline{A} = \varnothing , A \cup  \overline{A} = \Omega ." data-display="true"></div>
+<p>现在来看&quot;同时发生&quot;及&quot;至少有一个发生&quot;这些事件的否定形式. 正如&quot;所有人都去&quot;的否定是&quot;至少有一个人没去&quot;一样, &quot;A、 <span class="math" data-tex="B" data-display="false"></span> 两个事件同时发生&quot;的否定是 &quot;<span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 至少有一个不发生&quot;，或者&quot; <span class="math" data-tex="A" data-display="false"></span> 不发生或 <span class="math" data-tex="B" data-display="false"></span> 不发生&quot;,即成立</p>
+<div class="math display" data-tex="\overline{A \cap  B} = \bar{A} \cup  \bar{B}." data-display="true"></div>
+<p>类似地,&quot; <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两个事件至少有一个发生&quot;的否定是 &quot; <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> 都没发生&quot;,即成立</p>
+<div class="math display" data-tex="\overline{A \cup  B} = \bar{A} \cap  \bar{B}." data-display="true"></div>
+<p>上面这两个公式是对两个事件来陈述的，实际上对任意多个事件同样成立.</p>
+</div><article class="question" id="bx3-12-2-ex-5" data-question-id="bx3-12-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 掷两颗骰子,观察掷得的点数. 设 <span class="math" data-tex="A" data-display="false"></span> : 至少一个是偶数, <span class="math" data-tex="B" data-display="false"></span> : 至少一个是奇数, <span class="math" data-tex="C" data-display="false"></span> : 两个点数的乘积是偶数, <span class="math" data-tex="D" data-display="false"></span> : 两个点数的和是奇数. 讨论:</p>
+<p>(1)A 与 B 的关系；</p>
+<p>(2)A 和 C 的关系；</p>
+<p>(3)A、B、D 之间的关系；</p>
+<p>(4)C 与 <span class="math" data-tex="D" data-display="false"></span> 的关系.</p>
+</div></article><article class="question" id="bx3-12-2-ex-6" data-question-id="bx3-12-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 掷两颗骰子,观察掷得的点数. 设 <span class="math" data-tex="A" data-display="false"></span> : 至少一个点数是偶数, <span class="math" data-tex="B" data-display="false"></span> : 点数之和是偶数. 求:</p>
+<p>(1) <span class="math" data-tex="A \cup  B" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="A \cap  B" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b20">练习 12.2(3)</h3><article class="question" id="bx3-12-2-p1223-1" data-question-id="bx3-12-2-p1223-1" data-category="practice"><div class="question-label">练习12.2(3) · 1</div><div class="question-body"><ol>
+<li>写出例 6 中事件 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 各自包含的基本事件,表示出 <span class="math" data-tex="A \cup  B" data-display="false"></span> 与 <span class="math" data-tex="A \cap  B" data-display="false"></span> 来验证例 6 中的结果.</li>
+</ol>
+</div></article><article class="question" id="bx3-12-2-p1223-2" data-question-id="bx3-12-2-p1223-2" data-category="practice"><div class="question-label">练习12.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>把 1、2、3、4、5、6、7、8、9、10 分别写在 10 张一样的卡片上，并随机抽取 1 张. 设 <span class="math" data-tex="A" data-display="false"></span> : 出现偶数, <span class="math" data-tex="B" data-display="false"></span> : 出现 3 的倍数. 写出下面两个事件的对应子集:</li>
+</ol>
+<p>(1)A、B 至少有一个发生； (2)A、B 同时发生.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b23">4 可加性</h3><div class="prose" data-visual-source-sha="971baa08f5f0a94f7cf0903ecc9c89576d8b4f2d55b90d6d1f432eef09b7c833" id="bx3-12-2-b24"><p>概率 <span class="math" data-tex="P\left( A\right)" data-display="false"></span> 是赋予事件 <span class="math" data-tex="A" data-display="false"></span> 的一个量,它表示事件 <span class="math" data-tex="A" data-display="false"></span> 发生的可能性大小, 是该事件的客观属性. 对于古典概率模型来说, 这个量是如下定义的:</p>
+<div class="math display" data-tex="P\left( A\right)  = \frac{\left| A\right| }{\left| \Omega \right| }." data-display="true"></div>
+<p>设事件 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 不同时发生,即成立 <span class="math" data-tex="A \cap  B = \varnothing" data-display="false"></span> . 而 <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> 至少有一个发生的事件是 <span class="math" data-tex="A \cup  B" data-display="false"></span> . 因为 <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> 中没有共同的元素, 所以并集 <span class="math" data-tex="A \cup  B" data-display="false"></span> 的元素个数就是 <span class="math" data-tex="A" data-display="false"></span> 及 <span class="math" data-tex="B" data-display="false"></span> 的元素个数之和,即成立</p>
+<div class="math display" data-tex="\left| {A \cup  B}\right|  = \left| A\right|  + \left| B\right| ," data-display="true"></div>
+<p>因此</p>
+<div class="math display" data-tex="P\left( {A \cup  B}\right)  = \frac{\left| A \cup  B\right| }{\left| \Omega \right| } = \frac{\left| A\right| }{\left| \Omega \right| } + \frac{\left| B\right| }{\left| \Omega \right| } = P\left( A\right)  + P\left( B\right) ." data-display="true"></div>
+<p>即得到概率的可加性 (additivity):</p>
+<p>概率性质 3 (可加性) 两个不可能同时发生的事件至少有一个发生的概率是这两个事件的概率之和. 换言之, 如果 <span class="math" data-tex="A \cap  B = \varnothing" data-display="false"></span> ,那么</p>
+<div class="math display" data-tex="P\left( {A \cup  B}\right)  = P\left( A\right)  + P\left( B\right) ." data-display="true"></div>
+<p>将上述可加性用于 <span class="math" data-tex="B = \bar{A}" data-display="false"></span> 特殊情况,由于 <span class="math" data-tex="A \cup  \bar{A} = \Omega" data-display="false"></span> ,就得到</p>
+<p>概率性质 4 对任一给定事件, 其发生的概率与不发生的概率的和总是 1 . 换言之, 有</p>
+<div class="math display" data-tex="P\left( A\right)  = 1 - P\left( \bar{A}\right) ." data-display="true"></div>
+<p>作为度量某事件发生可能性大小的量, 概率最本质的性质就是可加性, 它在计算概率时非常重要.</p>
+</div><article class="question" id="bx3-12-2-ex-7" data-question-id="bx3-12-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 抛掷三枚硬币,求:</p>
+<p>(1)至少出现两个正面的概率;</p>
+<p>(2)至少出现一个正面的概率.</p>
+</div></article><article class="question" id="bx3-12-2-ex-8" data-question-id="bx3-12-2-ex-8" data-category="example"><div class="question-label">例题 8</div><div class="question-body"><p>例 8 甲、乙两人下棋, 甲获胜的概率为 0.4 , 甲不输的概率为 0.9 . 求甲、乙两人下成和棋的概率.</p>
+</div></article><article class="question" id="bx3-12-2-ex-9" data-question-id="bx3-12-2-ex-9" data-category="example"><div class="question-label">例题 9</div><div class="question-body"><p>例 9 甲、乙各抛掷若干枚硬币, 甲抛掷的硬币总数恰比乙少 1 枚. 问甲得到的正面数比乙得到的正面数少的概率.</p>
+</div></article><h3 class="group-heading" id="bx3-12-2-b28">练习 12.2(4)</h3><article class="question" id="bx3-12-2-p1224-1" data-question-id="bx3-12-2-p1224-1" data-category="practice"><div class="question-label">练习12.2(4) · 1</div><div class="question-body"><ol>
+<li>已知 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C" data-display="false"></span> 是三个两两互斥的事件,求证:</li>
+</ol>
+<div class="math display" data-tex="P\left( {A \cup  B \cup  C}\right)  = P\left( A\right)  + P\left( B\right)  + P\left( C\right) ." data-display="true"></div>
+</div></article><article class="question" id="bx3-12-2-p1224-2" data-question-id="bx3-12-2-p1224-2" data-category="practice"><div class="question-label">练习12.2(4) · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="A" data-display="false"></span> 、 <span class="math" data-tex="B" data-display="false"></span> 是两个事件,求证:</li>
+</ol>
+<div class="math display" data-tex="P\left( {A \cap  \bar{B}}\right)  = P\left( A\right)  - P\left( {A \cap  B}\right) ." data-display="true"></div>
+</div></article><article class="question" id="bx3-12-2-p1224-3" data-question-id="bx3-12-2-p1224-3" data-category="practice"><div class="question-label">练习12.2(4) · 3</div><div class="question-body"><ol start="3">
+<li>一次期中考试, 小明数学超过 90 分的概率是 0.5 , 物理超过 90 分的概率是 0.7 , 两门课都超过 90 分的概率是 0.3 . 求他的数学和物理至少有一门超过 90 分的概率.</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx3-12-2-b32">习题 12.2</h3><h3 class="group-heading" id="bx3-12-2-b33">A 组</h3><article class="question" id="bx3-12-2-h122A-1" data-question-id="bx3-12-2-h122A-1" data-category="homework"><div class="question-label">习题12.2A · 1</div><div class="question-body"><ol>
+<li>从 1、2、3、4、5 中任取 3 个不同的数，求这 3 个数构成一组勾股数(或者说恰为一个直角三角形的三条边长) 的概率.</li>
+</ol>
+</div></article><article class="question" id="bx3-12-2-h122A-2" data-question-id="bx3-12-2-h122A-2" data-category="homework"><div class="question-label">习题12.2A · 2</div><div class="question-body"><ol start="2">
+<li>如果将一枚质地均匀的硬币连续抛掷 100 次, 那么第 99 次出现反面朝上的概率是 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="\frac{1}{100}" data-display="false"></span> ; B. <span class="math" data-tex="\frac{99}{100}" data-display="false"></span> ; C. <span class="math" data-tex="\frac{1}{99}" data-display="false"></span> ; D. <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx3-12-2-h122A-3" data-question-id="bx3-12-2-h122A-3" data-category="homework"><div class="question-label">习题12.2A · 3</div><div class="question-body"><ol start="3">
+<li>在分别写有数字0、1、2、3、4、5、6、7、8、9 的 10 张一样的卡片中随机抽取 1 张. 设事件 <span class="math" data-tex="A" data-display="false"></span> : 出现奇数,事件 <span class="math" data-tex="B" data-display="false"></span> : 出现偶数,事件 <span class="math" data-tex="C" data-display="false"></span> : 大于 4 . 写出下列事件对应的集合:</li>
+</ol>
+<p>(1) <span class="math" data-tex="A" data-display="false"></span> 、 <span class="math" data-tex="C" data-display="false"></span> 同时发生； (2) <span class="math" data-tex="B" data-display="false"></span> 、 <span class="math" data-tex="C" data-display="false"></span> 至少有一个发生;</p>
+<p>(3)A、B 同时发生.</p>
+</div></article><article class="question" id="bx3-12-2-h122A-4" data-question-id="bx3-12-2-h122A-4" data-category="homework"><div class="question-label">习题12.2A · 4</div><div class="question-body"><ol start="4">
+<li>掷一颗骰子,设事件 <span class="math" data-tex="A" data-display="false"></span> : 落地时向上的点数是奇数,事件 <span class="math" data-tex="B" data-display="false"></span> : 落地时向上的点数是偶数,事件 <span class="math" data-tex="C" data-display="false"></span> : 落地时向上的点数是 3 的倍数,事件 <span class="math" data-tex="D" data-display="false"></span> : 落地时向上的点数是 4 . 则下列每对事件中，不是互斥事件的为 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> ； B. <span class="math" data-tex="B" data-display="false"></span> 与 <span class="math" data-tex="C" data-display="false"></span> ； C. <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="D" data-display="false"></span> ; D. <span class="math" data-tex="C" data-display="false"></span> 与 <span class="math" data-tex="D" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx3-12-2-h122A-5" data-question-id="bx3-12-2-h122A-5" data-category="homework"><div class="question-label">习题12.2A · 5</div><div class="question-body"><ol start="5">
+<li>如图, 靶子由一个中心圆面 I 和两个与 I 同心的圆环 II、III 构成, 射手命中 I 、II 及 III 的概率分别为 0.35、0.30 及 0.25 . 求不命中靶的概率.</li>
+</ol>
+<p><img src="images/book-4294e453d45980844836.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 5 题)</p>
+</div></article><article class="question" id="bx3-12-2-h122A-6" data-question-id="bx3-12-2-h122A-6" data-category="homework"><div class="question-label">习题12.2A · 6</div><div class="question-body"><ol start="6">
+<li>盒子里装有大小与质地相同的红球与白球, 从中任取 3 个球. 设事件 <span class="math" data-tex="A" data-display="false"></span> 表示&quot;3 个球中有 1 个红球、 2 个白球&quot;,事件 <span class="math" data-tex="B" data-display="false"></span> 表示&quot;3 个球中有 2 个红球、 1 个白球&quot;. 已知 <span class="math" data-tex="P\left( A\right)  = \frac{3}{10}, P\left( B\right)  = \frac{1}{2}" data-display="false"></span> . 求&quot;3 个球中既有红球又有白球&quot;的概率.</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx3-12-2-b40">B 组</h3><article class="question" id="bx3-12-2-h122B-1" data-question-id="bx3-12-2-h122B-1" data-category="homework"><div class="question-label">习题12.2B · 1</div><div class="question-body"><ol>
+<li>已知 4 张奖券中只有 1 张能中奖，现分别由 4 名学生依次抽取(抽出后不放回)，他们的中奖概率是否一样? 为什么?</li>
+</ol>
+</div></article><article class="question" id="bx3-12-2-h122B-2" data-question-id="bx3-12-2-h122B-2" data-category="homework"><div class="question-label">习题12.2B · 2</div><div class="question-body"><ol start="2">
+<li>已知 5 件产品中有 2 件次品、3 件合格品, 从这 5 件产品中任取 2 件, 求:</li>
+</ol>
+<p>(1)恰有 1 件次品的概率; (2)2 件都是合格品的概率.</p>
+</div></article><article class="question" id="bx3-12-2-h122B-3" data-question-id="bx3-12-2-h122B-3" data-category="homework"><div class="question-label">习题12.2B · 3</div><div class="question-body"><ol start="3">
+<li>已知关于 <span class="math" data-tex="x" data-display="false"></span> 的一元二次方程 <span class="math" data-tex="{x}^{2} - {ax} + 3 = 0" data-display="false"></span> ，其中 <span class="math" data-tex="a" data-display="false"></span> 是掷一颗骰子得到的点数. 求下列事件的概率:</li>
+</ol>
+<p>(1)方程有两个不相等的实根； (2) <span class="math" data-tex="x = 3" data-display="false"></span> 是方程的根；</p>
+<p>(3) 方程存在正根.</p>
+</div></article><article class="question" id="bx3-12-2-h122B-4" data-question-id="bx3-12-2-h122B-4" data-category="homework"><div class="question-label">习题12.2B · 4</div><div class="question-body"><ol start="4">
+<li>已知事件 <span class="math" data-tex="A" data-display="false"></span> 与 <span class="math" data-tex="B" data-display="false"></span> 互斥,它们都不发生的概率为 <span class="math" data-tex="\frac{2}{5}" data-display="false"></span> ,且 <span class="math" data-tex="P\left( A\right)  = {2P}\left( B\right)" data-display="false"></span> . 求 <span class="math" data-tex="P\left( \bar{A}\right)" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="bx3-12-2-h122B-5" data-question-id="bx3-12-2-h122B-5" data-category="homework"><div class="question-label">习题12.2B · 5</div><div class="question-body"><ol start="5">
+<li>袋中有大小与质地相同的 12 个小球, 分别为红球、黑球、黄球、绿球, 从中任取 1 个球,得到红球的概率是 <span class="math" data-tex="\frac{1}{3}" data-display="false"></span> ,得到黑球或黄球的概率是 <span class="math" data-tex="\frac{5}{12}" data-display="false"></span> ,得到黄球或绿球的概率是 <span class="math" data-tex="\frac{5}{12}" data-display="false"></span> . 试求得到黑球、黄球、绿球的概率各是多少.</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx3-12-2" checked>古典概率</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

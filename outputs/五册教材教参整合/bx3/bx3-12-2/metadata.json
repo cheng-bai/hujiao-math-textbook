@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-12-2",
+  "book_id": "bx3",
+  "section": "12.2",
+  "title": "古典概率",
+  "section_json": "batch/sections/bx3/bx3-12-2.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-12-2",
+  "fingerprint": "fb1d0badd8c3291aeda7174c40694ee225df986433f7ef4670cbcdd6d0dd31ca",
+  "status": "rendered",
+  "questions": 29,
+  "answers": 29,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-2b37789c65a27aa2fcfd.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg",
+      "sha256": "2b37789c65a27aa2fcfd01b298e307f548edc14644a1eddacea315e95399ef1d",
+      "private": false
+    },
+    "images/book-4294e453d45980844836.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg",
+      "sha256": "4294e453d459808448367f0ec3ddca5a8afdcee61a1402622d91d484a2c9d8ec",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "student_images": [
+    "images/book-2b37789c65a27aa2fcfd.jpg",
+    "images/book-4294e453d45980844836.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "72a153b430011d8a7b668789daf4710ab871dbd0822ee7548d4c7e49e553a2ae",
+    "student.html": "fe773a4d9bbb5d7c5e86202848b3f336c1439a2961b731554b19fd8f9331f33f",
+    "student.zip": "8e62939a2935aa387ae59d45d8753ed7ac0fb1a81e77392f85dd7316b9c62930",
+    "content.json": "b1a6df10c74ef87b1d9761d2d148c3b179eae4770194b7a76b3e71074c1dd3e4"
+  }
+}

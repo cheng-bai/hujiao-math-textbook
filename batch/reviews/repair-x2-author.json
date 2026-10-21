@@ -1,0 +1,72 @@
+{
+  "status": "author_math_and_structure_checked_pending_independent_review",
+  "repair_id": "repair-x2-v1",
+  "sections": [
+    "x2-5-1",
+    "x2-5-3",
+    "x2-6-2",
+    "x2-chapter-end-5",
+    "x2-chapter-end-6",
+    "x2-chapter-end-7",
+    "x2-8-1",
+    "x2-8-2",
+    "x2-8-3",
+    "x2-chapter-end-8"
+  ],
+  "evidence": [
+    {
+      "section": "x2-5-1",
+      "issue": "example-answer-boundary-detected-by-print",
+      "action": "例1解答结束后的一般导数定义、平均/瞬时变化率及高铁解释从answer移回公共正文，保留完整原文，学生正文也可读；例1中h<0的计算旁注仍保留在该题答案。"
+    },
+    {
+      "section": "x2-5-3",
+      "issue": "example-answer-boundary;empty-answer-content",
+      "action": "例12尾部误收例13的建模和图，已移回；恢复例13题答边界和完整最大值证明。练习5.3(4)1独立利润模型补答，附定义域与整数可行性。"
+    },
+    {
+      "section": "x2-6-2",
+      "issue": "answer-group-numbering",
+      "action": "从正文恢复被1.5 OCR吞掉的第1题，保留既有b16锚点；两题答案与原教参逐项对应并补解。"
+    },
+    {
+      "section": "x2-chapter-end-5",
+      "issue": "source-math-conflict",
+      "action": "完整保留A4题面，明确A4(3)无定义而非猜改f/g；将错配原答案存入editor_original_answer。A7独立求导和端点核算，修复最大最小值。"
+    },
+    {
+      "section": "x2-chapter-end-6",
+      "issue": "answer-group-numbering",
+      "action": "从A1内拆出A2（2.5个）并恢复B1（1.7名）；A1三区域原图已目视确认相邻链。14题答案逐题回接并独立推导。"
+    },
+    {
+      "section": "x2-chapter-end-7",
+      "issue": "missing-answer;answer-group-numbering",
+      "action": "从B1恢复2.100件产品独立题；B4教参漏题号及(1)答案，补组合计数证明；五题逐题回接。"
+    },
+    {
+      "section": "x2-8-1",
+      "issue": "unattached-book-solution",
+      "action": "例2题干与表8-3从长正文分出，原b13改为独立题块并接回111—134行解答。题干表格保留；正常性旁注加准确限定。"
+    },
+    {
+      "section": "x2-8-3",
+      "issue": "unattached-book-solution",
+      "action": "例1题干、表8-10与色盲独立性检验解答回接为题块；保持b7既有锚点ID。"
+    },
+    {
+      "section": "x2-8-2",
+      "issue": "missing-answer;answer-group-numbering",
+      "action": "B3教参488—492有未编号模型说明，已回接并修复指数排版；按原始N重算回归，不把长程外推当实际数量。B1/B2重新配对并独立数值复核。"
+    },
+    {
+      "section": "x2-chapter-end-8",
+      "issue": "missing-answer;answer-group-numbering",
+      "action": "A4实际有未编号教参散点图与r答案，已按原始16对数据重算并绘制清晰图；五题逐题回接并补推理及统计解释边界。"
+    }
+  ],
+  "scope": "content-only; browser/print delegated to root",
+  "source_hashes_unchanged": true,
+  "stable_existing_ids": true,
+  "note": "Unnumbered source answers recovered; genuinely empty answer independently authored. Full before/after evidence is in patch."
+}

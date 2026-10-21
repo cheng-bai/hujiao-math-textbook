@@ -1,0 +1,301 @@
+{
+  "asset_id": "84e7df1c-f71a-5962-a3f3-d4c7786ec26c",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:03Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "shape": "cone",
+      "sweep": 240
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "cb6dcf5fbddb0084b56ba7f2747180f1b25983b049f476c1351d0551af1386da",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-11-3-b6",
+          "rationale": "接替生成图形、旋转轴、母线与旋转面的长文字解释。",
+          "sectionId": "bx3-11-3",
+          "sourceSha256": "8ff1f6b335f32fe2d5eb9c18b9df884ce0704a7eeeb22a0909897dff30927830"
+        }
+      ],
+      "sections": [
+        "bx3-11-3"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31203,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "cb6dcf5fbddb0084b56ba7f2747180f1b25983b049f476c1351d0551af1386da"
+    },
+    {
+      "bytes": 11522,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "8853e23f6b93a2a45d9b6f1207829fc45a9576b2c553a13a3b7265072a622986"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1496,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "775fc9f4987d1ca1b06c3726aaf088747c0419eb8744e0850c557c776ccaf1c7"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 2648,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "ea39c4307a71a40743fee786234fdae91535402e48457890af0f56fe593fd96b"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "2caf7717b730685010158840e986a7df83e4e92d277fbca54a5d9c91639862dd"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 517,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "8d865c63f99596618b0e1cb68c56d9df2cdaf467dd567a7434fe074604c5cd96"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "平面封闭图形绕其所在平面内一条定直线旋转一周，形成旋转体。矩形绕一边旋转形成圆柱；直角三角形绕一直角边旋转形成圆锥；母线的扫掠表面与封闭图形的扫掠实体应区分。"
+    ],
+    "learning_goals": [
+      "转动矩形或直角三角形，看不同高度的圆怎样组成柱或锥。"
+    ],
+    "objects": [
+      "旋转体：从平面图形到空间实体"
+    ],
+    "parameters": {
+      "shape": {
+        "default": "cone",
+        "domain": "允许的离散选项：[\"cone\", \"cylinder\"]",
+        "type": "enum"
+      },
+      "sweep": {
+        "default": 240,
+        "display_range": [
+          0,
+          360
+        ],
+        "domain": "本实验允许输入范围 [0, 360]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "转动矩形或直角三角形，看不同高度的圆怎样组成柱或锥。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "shape": "cone",
+          "sweep": 240
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "revolving-generator",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "shape": {
+        "enum": [
+          "cone",
+          "cylinder"
+        ],
+        "type": "string"
+      },
+      "sweep": {
+        "maximum": 360,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "旋转体：从平面图形到空间实体",
+  "updated_at": "2026-10-21T06:06:17.484340Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128066Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "cb6dcf5fbddb0084b56ba7f2747180f1b25983b049f476c1351d0551af1386da"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128066Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "cb6dcf5fbddb0084b56ba7f2747180f1b25983b049f476c1351d0551af1386da"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

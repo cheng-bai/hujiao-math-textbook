@@ -1,0 +1,37 @@
+{
+  "controls": [
+    {
+      "key": "n",
+      "label": "因子个数n",
+      "max": 8,
+      "min": 2,
+      "step": 1,
+      "type": "range"
+    },
+    {
+      "key": "k",
+      "label": "选取个数k",
+      "max": 8,
+      "min": 0,
+      "step": 1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><mo>=</mo><msubsup><mi>C</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mi>k</mi></msubsup><mo>+</mo><msubsup><mi>C</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msubsup></math>",
+  "goal": "用格点路径说明从n个因子中选k个b的组合数。",
+  "id": "binomial-paths",
+  "initial": {
+    "k": 2,
+    "n": 5
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-6-5-b3",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+      "retainProse": true,
+      "sectionId": "x2-6-5"
+    }
+  ],
+  "summary": "展开 (a+b) 的 n 次方时，从 n 个因子中恰选 k 个 b 的方式数决定相应项的系数；图中每一步向两种方向分支，等于从上两邻节点累积路径数。合法范围为 0≤k≤n；k>n 不可能选取，系数按零计。节点数构成杨辉三角，不把超范围滑块偷偷改为另一个 k。",
+  "title": "二项式系数从路径产生"
+}

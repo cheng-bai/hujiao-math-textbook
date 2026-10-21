@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "notes": 6,
+  "examples": 27,
+  "paired_questions": 84,
+  "exercises": 21,
+  "homework": 50,
+  "chapter_end": 13,
+  "source_parts": 268,
+  "images": 12,
+  "wikilinks": 284,
+  "original_issues": 11,
+  "source_files_unchanged": 2,
+  "limits": [
+    "未全章数学审校",
+    "未Obsidian界面验证"
+  ]
+}

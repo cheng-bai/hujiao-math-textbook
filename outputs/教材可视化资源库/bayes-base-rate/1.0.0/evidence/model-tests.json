@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19T19:38:41Z",
+  "command": [
+    "node",
+    "scripts/textbook-labs/test-deep-analysis.mjs"
+  ],
+  "execution_context": "原教材项目根目录。测试还核对教材落点；资源包不包含整册教材，运行同一测试需原项目。",
+  "family": "deep-analysis",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"family\":\"deep-analysis\",\"assets\":3,\"states\":550,\"independentRelations\":1728,\"realLabTools\":true,\"status\":\"passed\"}\n",
+  "tested_files": [
+    {
+      "path": "source/deep-analysis.js",
+      "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+    },
+    {
+      "path": "source/deep-analysis.json",
+      "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+    },
+    {
+      "path": "source/test-deep-analysis.mjs",
+      "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+    },
+    {
+      "path": "source/lab-core.js",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    }
+  ]
+}

@@ -1,0 +1,899 @@
+[
+  {
+    "type": "section",
+    "title": "抛物线",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1505,
+        "end": 1505
+      }
+    ],
+    "id": "x1-2-4",
+    "number": "2.4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 2.4 抛物线\n\n### 教学重点\n\n本节要让学生通过现实情境进一步感知抛物线的形状, 通过抛物线的实验演示认识抛物线形成的过程, 从而能够准确描述出抛物线的定义, 并建立合适的坐标系推导抛物线方程, 探究不同的直角坐标系与方程之间的关系, 研究抛物线的几何性质及其简单应用, 判断和研究直线与抛物线的位置关系.\n\n本节的学习将完成整个圆锥曲线的核心内容, 学生对解析几何的基本思想方法应该有一个比较透彻的理解, 并能自觉地运用解析几何思想方法独立解决问题. 因此, 在本节的教学过程中, 应该把前面经历的学习过程和思想方法统一起来, 深刻体会解析几何的思想方法和解决问题的基本策略.\n\n### 内容分析\n\n第 1 小节是抛物线的定义及其标准方程的推导.\n\n抛物线是学生非常熟悉的曲线, 教材给出了非常丰富的情境实例, 教师应注意使用.\n\n但要注意的是, 从这些情境实例, 甚至从抛物线作为二次函数的图像的角度, 很难总结出抛物线最有特征的几何性质, 从而给出抛物线的几何定义. 所以必须从新的视角看抛物线. 这个新视角从一个数学实验开始. 通过实验, 从几何角度抽象地定义一条叫做“抛物线”的曲线: 平面上到一个定点 $F$ 和到一条定直线 $l(F$ 不在 $l$ 上)距离相等的点的轨迹叫做抛物线,点 $F$ 叫做抛物线的焦点,直线 $l$ 叫做抛物线的准线. 与椭圆和双曲线不同的是, 抛物线只有一个焦点, 在它的定义里必须用到准线. 使用焦点和准线的定义方法也适用于椭圆和双曲线, 参看本章的“课后阅读”《圆锥曲线的统一定义及其极坐标方程》.\n\n抛物线的几何定义与坐标系无关, 但为了推导抛物线的标准方程, 必须恰当地建立平面直角坐标系. 对抛物线而言, 坐标系有四种恰当的选择, 从而得出四种不同形式的标准方程:\n\n$$\n\\begin{aligned}  & {y}^{2} = {2px}\\left( {p > 0}\\right) ,{y}^{2} =  - {2px}\\left( {p > 0}\\right) , \\\\  & {x}^{2} = {2py}\\left( {p > 0}\\right) ,{x}^{2} =  - {2py}\\left( {p > 0}\\right) , \\end{aligned}\n$$\n\n其中 $p$ 是抛物线焦点到准线的距离.\n\n抛物线的标准方程 ${x}^{2} = {2py}\\left( {p > 0}\\right)$ 与 ${x}^{2} =  - {2py}\\left( {p > 0}\\right)$ 是 $y$ 关于 $x$ 的二次函数 $y = \\frac{1}{2p}{x}^{2}$ 与 $y =  - \\frac{1}{2p}{x}^{2}$ ,所以这两个标准方程所表示的抛物线也就是相应二次函数的图像. 这样的观察使我们知道这里所定义的 “抛物线” 与已有认知的抛物线是一致的, 从而把新知识融入已有的知识体系中, 同已有知识以及各种实际应用建立联系, 让知识系统化.\n\n第 2 小节“抛物线的性质”远没有椭圆或双曲线同主题小节那么丰富多彩. 本小节只涉及抛物线的两个性质: 其一, 它的对称性, 只有一条对称轴, 即焦点所在的坐标轴, 没有对称中心. 对称轴与抛物线的交点称为抛物线的顶点 (在标准方程情况下, 顶点永远是坐标原点). 其二, 抛物线的范围, 曲线只在非对称轴的那条坐标轴 (含焦点) 的一侧 (包含原点在内), 两变量的绝对值无限增长, 形成对称轴正或负方向上的开口, $p$ 越大,开口张开的速度越快.\n\n焦点位置四种不同选择下抛物线的标准方程、图形和性质的异同之处见下表:\n\n<table><tr><td>焦点位置</td><td>$x$ 轴正半轴</td><td>$x$ 轴负半轴</td><td>$y$ 轴正半轴</td><td>$y$ 轴负半轴</td></tr><tr><td>标准方程</td><td>${y}^{2} = {2px}\\left( {p > 0}\\right)$</td><td>${y}^{2} =  - {2px}\\left( {p > 0}\\right)$</td><td>${x}^{2} = {2py}\\left( {p > 0}\\right)$</td><td>${x}^{2} =  - {2py}\\left( {p > 0}\\right)$</td></tr><tr><td>图形</td><td><img src=\"../images/bo_d402onjef24c73d2tg30_81_310_902_233_256_0.jpg\"/></td><td><img src=\"../images/bo_d402onjef24c73d2tg30_81_569_902_230_253_0.jpg\"/></td><td><img src=\"../images/bo_d402onjef24c73d2tg30_81_825_910_249_231_0.jpg\"/></td><td><img src=\"../images/bo_d402onjef24c73d2tg30_81_1094_915_248_226_0.jpg\"/></td></tr><tr><td>焦点</td><td>$F\\left( {\\frac{p}{2},0}\\right)$</td><td>$F\\left( {-\\frac{p}{2},0}\\right)$</td><td>$F\\left( {0,\\frac{p}{2}}\\right)$</td><td>$F\\left( {0, - \\frac{p}{2}}\\right)$</td></tr><tr><td>准线</td><td>$x =  - \\frac{p}{2}$</td><td>$x = \\frac{p}{2}$</td><td>$y =  - \\frac{p}{2}$</td><td>$y = \\frac{p}{2}$</td></tr><tr><td>顶点</td><td>$O\\left( {0,0}\\right)$</td><td>$O\\left( {0,0}\\right)$</td><td>$O\\left( {0,0}\\right)$</td><td>$O\\left( {0,0}\\right)$</td></tr><tr><td>对称轴</td><td>$x$ 轴</td><td>$x$ 轴</td><td>$y$ 轴</td><td>$y$ 轴</td></tr></table>\n\n本节共有 5 道例题.\n\n例 1 的题设关于顶点和焦点的描述确保了这个抛物线所在的位置给出的是标准方程; 由于抛物线上有第三象限的点, 抛物线的开口只能向左或向下. 但题设没有明确焦点在哪条坐标轴上, 所以分两种情况列出方程, 用待定系数法进行求解.\n\n例 2 要证明圆与准线相切, 可以用解析几何的方法, 先求出圆的方程, 再联立方程求圆与准线的公共点个数. 这个方法是可行的. 但针对本例, 教材使用的纯几何的方法更为简单, 其关键是证明圆心到准线的距离等于半径, 先用抛物线的定义证明圆的直径 ${AB}$ 的长度等于 ${AB}$ 的两个端点到准线距离之和,又从梯形的中位线定理得知圆心到准线的距离等于 ${AB}$ 的两个端点到准线距离之和的一半,于是圆心到准线的距离等于半径.\n\n例 3 的解题中先用点斜式写出弦所在直线的方程,与抛物线方程联立消去 $y$ 后得到一个关于 $x$ 的一元二次方程,它的两根是弦的两个端点的横坐标. 但不必解此方程, 因为从抛物线的定义可把弦长转化为弦的两个端点到准线的距离之和, 它只与两个端点横坐标之和相关, 于是, 对前述方程用韦达定理即可.\n\n例 4 在设定直线方程时要分类讨论. 教材的解法是先分直线有斜率和无斜率两类,有斜率 (设为 $k$ ) 时用点斜式设定方程,与抛物线方程联立,消元得方程 ${k}^{2}{x}^{2} + \\; 2\\left( {k - 1}\\right) x + 1 = 0$ . 此时再作第二次分类,分成 $k = 0$ 与 $k \\neq  0$ 两类. 前者是一个一元一次方程,只有一个根,得到符合条件的直线 $y = 1$ ; 后者是一元二次方程,其判别式为零时方程只有一个根 (重根),得到符合条件的直线 $y = \\frac{1}{2}x + 1$ .\n\n对于无斜率情况,直线方程可设为 $x = a$ ,代入抛物线方程消元,得到方程 ${y}^{2} = \\; {2a}$ ,当且仅当 $a = 0$ 时此方程只有一个根 (重根),得到符合条件的直线 $x = 0$ .\n\n注意三点:(1)本例也可以一开始就分类为斜率为零、斜率非零与无斜率三种情况讨论; (2) 无斜率的情况,教材上用观察图形得到直线 $x = 0$ ,这里补充了完整的解析法; (3)这里强调了重根和非重根的情况, 与直线是否为抛物线的切线的判断有关 (见“注意事项”之 4),供教师参考.\n\n例 5 的应用问题的解决首先要选择和建立平面直角坐标系, 其次要注意灯泡离反射镜的顶点的距离即是焦点到顶点的距离. 可以通过本例的边框让有兴趣的学生去了解更多的圆锥曲线的光学性质.\n\n### 注意事项\n\n1. 关于抛物线的定义. 许多学生对抛物线的直观形象很熟悉, 包括本节课程作为情境引入的那些例子. 但在有限的纸面上所建立的无限伸展图形的直观形象是很不可靠的. 例如, 仅从有限图形上看, 双曲线的一支和抛物线似乎就很难区分. 在本节之前, 数学上抛物线仅作为二次函数的图像在初中数学中出现过, 但那不是抛物线的严格定义, 无论是直观的理解还是函数的图像, 都无法得到太多抛物线的内在性质.\n\n本节的抛物线定义对学生而言是完全陌生的内容, 它不是建立在我们对抛物线已有知识之上的, 而是另起炉灶, 从纯几何的角度进入的, 用严格的数学语言定义了数学对象——抛物线. 从这个角度说, 抛物线是一个新的数学概念, 只有导出抛物线的方程并与二次函数进行比较以后, 才能把这个新的抛物线概念与以前学过的作为二次函数图像的抛物线概念联系起来, 把抛物线相关的各种知识在更高层面上进行整合和完善, 建立起抛物线研究的基础.\n\n抛物线定义中只有一个约束条件,即焦点 $F$ 不在准线 $l$ 上. 若 $F$ 在 $l$ 上,则轨迹是过点 $F$ 且垂直于 $l$ 的直线.\n\n2. 坐标系的选择. 抛物线的定义不涉及坐标系, 所以这个定义包括了坐标平面上的任意位置和开口任意朝向的抛物线. 但是, 要用最简洁的方程把抛物线表示出来, 就要把坐标系选在最好的位置上. 把一条坐标轴选在抛物线的对称轴即焦点到准线的垂线上, 把原点设在焦点与垂足连线的中点 (抛物线的顶点) 上. 与椭圆、双曲线不同的是, 由于抛物线没有第二条对称轴, 选定焦点所在的坐标轴后, 还需要进一步选择焦点是在坐标轴的正半轴还是负半轴. 于是得到四种形式的抛物线标准方程.\n\n3. 关于离心率. 抛物线理论内部没有离心率的定义. 通常讲的抛物线的离心率为 1 是在圆锥曲线统一定义(见 “课后阅读”《圆锥曲线的统一定义及其极坐标方程》)中比较得出的, 是区别椭圆、双曲线与抛物线的参数, 只有在统一讨论圆锥曲线时, 谈抛物线的离心率才是有意义的. 在仅讨论抛物线时, 一个恒为常数的参数不可能对不同抛物线的形状、性质与方程的差异产生任何影响. 因此, 不应该把离心率这个术语引入到抛物线理论内部.\n\n4. 切线问题. 例 4 要找出过点 $M\\left( {0,1}\\right)$ 且与抛物线 ${y}^{2} = {2x}$ 只有一个公共点的直线,解题后找到 3 条直线: $y = 1, y = \\frac{1}{2}x + 1$ 与 $x = 0$ . 一条与椭圆只有一个公共点的直线可以称为椭圆的切线, 这个例题告诉我们类似的说法对抛物线是不恰当的, 直线 $y = 1$ 与抛物线虽然只有一个公共点,但直观的理解它就不应该是抛物线的切线. 但是, 这种直观理解的依据是什么? 另外两条直线是不是抛物线的切线? 依据是什么? 问题在于教材迄今为止没有对曲线的切线给出过定义, 只是在初中课程中定义过圆的切线, 它是与圆只有一个公共点的直线, 在本章“2.2 椭圆”的例 5 结束之后把圆的切线的定义推广到椭圆: 如果一条直线和一个椭圆只有一个公共点, 这条直线称为这个椭圆的切线. 进一步的推广在抛物线这里就碰到障碍了, 因此抛物线的切线是没有定义过的. 严格地说, 目前我们没有任何依据判断上述三条直线是或不是抛物线的切线. 教材中的这一段论述的意义在于告诉学生, 不能简单地把圆或椭圆切线的定义推广到抛物线,否则就会碰到像直线 $y = 1$ 是抛物线 ${y}^{2} = {2x}$ 的切线那样有悖于数学直观的情况. 这里只说 “有悖于数学直观”, 因为要严格地判定一条直线是或不是一条曲线的切线, 只能根据切线的定义, 参看本套教材选择性必修第二册 “5.1 导数的概念及意义”之“2 导数的几何意义”.\n\n部分教师会用 “当直线和曲线有两个重合的公共点” 来定义曲线的切线, 具体的解释是当求公共点时, 其纵坐标或横坐标是由一个二次方程的重根得到的. 用这个定义可以判断例 4 中的直线 $y = \\frac{1}{2}x + 1$ 与 $x = 0$ 是抛物线 ${y}^{2} = {2x}$ 的切线,但直线 $y = 1$ 不是. 然而, 这个定义虽然比较接近切线的严格定义, 在圆锥曲线语境中也比较实用, 但是它从未在从初中到现在的课程中被使用过, 学生的理解可能也只停留在操作层面, 对其几何实质体会不深. 因此不建议进行这样的教学.\n\n总之, 本节例 4 的教学引出的切线话题只是让学生理解圆和椭圆的切线的定义不能进一步推广就可以了.\n\n### 教学建议\n\n在情境引入部分,一方面可让学生回忆在初中学习二次函数图像时,通过列表、 描点、连线得到作为二次函数图像的抛物线; 在物理课程学习中对篮球从手中投出后的运动轨迹上的每一点进行力学分析, 得知轨迹可由一个二次函数刻画, 所以也是抛物线. 这些例子是学生目前对抛物线仅有的理性认识. 另一方面,教材中其他实例可以让学生对抛物线有更多的感性认识, 启发学生思考我们是否已经给抛物线这个几何对象以一个几何的定义, 是否对抛物线的性质有比较多的了解. 例如, 可以设计如下一些问题,引导学生思考: 如果把一个二次函数的图像在坐标系中旋转 ${90}^{ \\circ  }$ ,它还是函数的图像吗? 它还是抛物线吗? 相信学生对这两个问题都会给出正确的回答, 前者应回答“不是”,后者应回答“是”. 接下来的问题是,既然旋转以后的曲线不再是函数的图像, 如果只认可二次函数的图像是抛物线, 那么旋转以后的曲线怎么又是抛物线呢? 这就将学生引导到给抛物线一个脱离函数图像、不涉及坐标系的定义的思路, 这样的定义只能从抛物线内在的几何性质来刻画. 这启发我们另辟蹊径, 先抛开上面这些背景材料, 进行数学实验, 从几何角度抽象地定义一条叫做“抛物线”的曲线.\n\n定义了抛物线以后, 为使抛物线的标准方程简洁, 选择合适的平面直角坐标系也是至关重要的. 过焦点 $F$ 作准线的垂线 (垂足为 $K$ ),从定义可以看出,抛物线关于这条垂线对称,所以可以把这条垂线作为一条坐标轴; 原点的最佳选择是 $F$ 和 $K$ 的连线 ${KF}$ 的中点,因为这样抛物线和坐标轴交于坐标原点 (这个交点是抛物线唯一的顶点).\n\n这样设定坐标原点和一条坐标轴后,我们还有四种不同的选择: 焦点在 $x$ 轴上的有两种,分别把焦点置于 $x$ 轴的正半轴和负半轴上; 焦点在 $y$ 轴上的有两种,分别把焦点置于 $y$ 轴的正半轴和负半轴上. 这四种选择没有优劣之分,我们把对应的抛物线方程都称为它的标准方程. 设焦点到准线的距离 $\\left| {KF}\\right|  = p$ ,由于约定焦点不在准线上,自然有了约束条件 $p > 0$ . 这样,针对焦点位置的四种选择,焦点坐标和准线方程分别如下:\n\n$$\n\\begin{aligned}  & \\left( {\\frac{p}{2},0}\\right) , x =  - \\frac{p}{2};\\left( {-\\frac{p}{2},0}\\right) , x = \\frac{p}{2}; \\\\  & \\left( {0,\\frac{p}{2}}\\right) , y =  - \\frac{p}{2};\\left( {0, - \\frac{p}{2}}\\right) , y = \\frac{p}{2}. \\end{aligned}\n$$\n\n教材以第一种情况 (焦点在 $x$ 轴的正半轴上) 为例推导抛物线的标准方程. 根据定义, 列方程时要用到点到直线的距离公式 (见本册教材 1.4 节). 列出方程后的化简过程比椭圆和双曲线的情况要简单得多, 可以让学生自行完成. 得到的抛物线标准方程是\n\n$$\n{y}^{2} = {2px}\\left( {p > 0}\\right) .\n$$\n\n另外三种情况下抛物线的标准方程分别是\n\n$$\n{y}^{2} =  - {2px}\\left( {p > 0}\\right) ,{x}^{2} = {2py}\\left( {p > 0}\\right) \\text{ 与 }{x}^{2} =  - {2py}\\left( {p > 0}\\right) .\n$$\n\n后两个方程使得这里讨论的抛物线直接联系上了初中课程所学的二次函数的图像. 要善于调动学生对已学知识的记忆, 建立起他们对抛物线的图形及其要素的认知, 这样就可以直接转入第 2 小节的学习.\n\n抛物线性质的研究相对简单, 可以让学生在椭圆、双曲线学习经历的基础上, 针对抛物线的一类标准方程, 自主探索抛物线的范围、对称性、顶点等几何性质, 再与其他类型的标准方程进行对照.\n\n圆锥曲线的学习到此告一段落了. 应以圆锥曲线为载体, 让学生总结一下解析几何学习的“基本套路”,即一个有序的、连贯的一般过程:“根据具体问题情境的特点, 建立平面直角坐标系; 根据几何问题和图形的特点, 用代数语言把几何问题转化为代数问题; 根据对几何问题(图形)的分析, 探索解决问题的思路; 运用代数方法得到结论; 给出代数结论合理的几何解释, 解决几何问题.\"这个总结有利于进入下一节的学习.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 720,
+        "end": 815
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-2-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 抛物线的标准方程",
+    "markdown": "## 1 抛物线的标准方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1507,
+        "end": 1507
+      }
+    ],
+    "id": "x1-2-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "抛物线是一种常见的曲线, 例如喷泉中喷出的水珠、投出的篮球所经过的轨迹都是抛物线. 抛物线的用途很广泛, 在太阳灶、探照灯、雷达天线、卫星天线、射电望远镜、工程建筑等工程技术中都有它的身影, 体现了抛物线在光学、力学等方面的独有特性.\n\n![bo_d4sln7jef24c73be0pd0_30_226_982_808_322_0.jpg](images/book-cc660242c820d47ee991.jpg)\n\n与椭圆、双曲线一样, 我们也通过操作先画出一段抛物线, 然后建立平面直角坐标系推导抛物线方程. 如图 2-4-1, 将一把直尺在一个平面上固定不动. 另取一块三角板,设直角顶点为 $C$ ,并在它的一条直角边上取定点 $A$ . 再取一条细线使它的长度正好等于 ${AC}$ 的长. 将这条细线的一端固定在三角板的点 $A$ ,另一端固定在同一平面上的点 $F$ . 用一支铅笔靠着细线将它绷紧，当三角板的另一条直角边靠着直尺滑动时,铅笔尖 $P$ 画出了一段曲线. 观察这段曲线的生成过程可以发现,如果把直尺看作一条定直线 $l$ ,那么动点 $P$ 到直线 $l$ 的距离始终等于它到定点 $F$ 的距离.\n\n![bo_d4sln7jef24c73be0pd0_30_1161_1327_248_297_0.jpg](images/book-33d0bb7e9c8d5ed5533a.jpg)\n\n图 2-4-1\n\n一般地,平面上到一个定点 $F$ 和到一条定直线 $l(F$ 不在 $l$ 上)距离相等的点的轨迹叫做抛物线 (parabola),点 $F$ 叫做抛物线的焦点,定直线 $l$ 叫做抛物线的准线 (directrix). 过点 $F$ 作准线 $l$ 的垂线,设垂足为 $K$ ,则线段 ${KF}$ 的中点称为此抛物线的顶点. 因为这一点到点 $F$ 和到直线 $l$ 的距离相等,所以这是抛物线上的一点. ?\n\n---\n\n为什么需加条件 “ $F$ 不在 $l$ 上”?\n\n---\n\n下面根据抛物线的定义来求它的方程.\n\n![bo_d4sln7jef24c73be0pd0_31_242_253_234_285_0.jpg](images/book-f872e9979171fabc61fa.jpg)\n\n图 2-4-2\n\n如图 2-4-2,取抛物线的顶点为原点 $O$ ,以向量 $\\overrightarrow{KF}$ 的方向为 $x$ 轴的正方向,建立平面直角坐标系.\n\n设焦点到准线的距离 $\\left| {KF}\\right|  = p\\left( {p > 0}\\right)$ ,则焦点 $F$ 的坐标是 $\\left( {\\frac{p}{2},0}\\right)$ ,准线 $l$ 的方程为 $x =  - \\frac{p}{2}$ .\n\n设 $P\\left( {x, y}\\right)$ 是抛物线上任意一点,点 $P$ 到 $l$ 的距离为 $d$ ,则\n\n$$\n\\left| {PF}\\right|  = \\sqrt{{\\left( x - \\frac{p}{2}\\right) }^{2} + {y}^{2}}, d = \\left| {x + \\frac{p}{2}}\\right| .\n$$\n\n?\n\n---\n\n这里, 还可以怎样建立平面直角坐标系? 相应的抛物线方程又具有怎样的形式?\n\n---\n\n由抛物线定义知 $\\left| {PF}\\right|  = d$ ,于是有\n\n$$\n\\sqrt{{\\left( x - \\frac{p}{2}\\right) }^{2} + {y}^{2}} = \\left| {x + \\frac{p}{2}}\\right| .\n$$\n\n将上式两边平方, 并化简, 得\n\n$$\n{y}^{2} = {2px}\\left( {p > 0}\\right) .\n$$\n\n从这个推导过程可以知道,抛物线上任意一点 $M$ 的坐标 $\\left( {x, y}\\right)$ 都是上述方程的解. 反过来, 可以证明以上述方程的解为坐标的点, 都在这条抛物线上 (只需将上述推理过程反过来推演即可).\n\n---\n\n我们学过二次函数 $y = a{x}^{2} + {bx} + c(a \\neq$ 0)的图像, 可以看出, 当 $b = c = 0$ 时,此图像是一个具有方程 ${x}^{2} = {2py}\\left( {\\text{ 此时 }p = \\frac{1}{2a}}\\right)$ 的抛物线. 当 $b\\text{ 、 }c$ 不全为零时, 二次函数的图像是这个抛物线的平移.\n\n---\n\n形如 ${y}^{2} = {2px}\\left( {p > 0}\\right)$ 的方程叫作抛物线的标准方程,它所表示的抛物线的顶点置于坐标原点,且具有焦点 $F\\left( {\\frac{p}{2},0}\\right)$ 和准线 $l : x =  - \\frac{p}{2}$ . 我们还注意到,这条抛物线上任何一点的横坐标 $x \\geq  0$ , 所以抛物线位于 $y$ 轴及其右侧; 当 $x$ 增大时,抛物线上相应点的纵坐标 $y$ 的绝对值也随着增大. 可见,此抛物线从顶点出发的上下两部分随着 $x$ 的增大,在 $x$ 轴的正方向 (即坐标系的右方) 形成了不再封闭的开口(我们形象地称此抛物线的“开口向右”).\n\n仿照上述过程, 如果将抛物线的顶点仍置于坐标原点, 但将焦点分别置于 $x$ 轴的负半轴、 $y$ 轴的正半轴和负半轴,就可以相应地得到抛物线的另外三种标准方程: ${y}^{2} =  - {2px},{x}^{2} = {2py}$ 与 ${x}^{2} =  - {2py}$ . 其中,后两种形式稍作变形就是我们所熟知的二次函数的表达式.\n\n![bo_d4sln7jef24c73be0pd0_31_238_1783_243_256_0.jpg](images/book-06d3c9d6bd7990100d86.jpg)\n\n图 2-4-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1508,
+        "end": 1578
+      }
+    ],
+    "emphases": [
+      {
+        "start": 619,
+        "end": 825,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-4-definition-3-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-4-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 求顶点在坐标原点, 焦点在坐标轴上且经过点 $M\\left( {-2, - 4}\\right)$ 的抛物线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1579,
+        "end": 1580
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1579,
+        "end": 1580
+      }
+    ],
+    "id": "x1-2-4-ex-1",
+    "category": "例题",
+    "answer": "解 由于抛物线的顶点在坐标原点, 焦点在坐标轴上, 因此抛物线的方程是上述四种标准方程之一.\n\n若抛物线的焦点在 $x$ 轴上,由于它过第三象限的点 $M\\left( {-2, - 4}\\right)$ , 可知此抛物线开口向左 (图 2-4-3)，因此可设其方程为\n\n$$\n{y}^{2} =  - {2px}\\left( {p > 0}\\right) .\n$$\n\n把点 $M$ 的坐标代入,得到\n\n$$\n{\\left( -4\\right) }^{2} =  - {2p} \\cdot  \\left( {-2}\\right) .\n$$\n\n解得 $p = 4$ . 从而抛物线的方程为 ${y}^{2} =  - {8x}$ .\n\n若抛物线的焦点在 $y$ 轴上,由于它过第三象限的点 $M\\left( {-2, - 4}\\right)$ , 可知此抛物线开口向下(图 2-4-3)，因此可设其方程为\n\n$$\n{x}^{2} =  - {2py}\\left( {p > 0}\\right) .\n$$\n\n把点 $M$ 的坐标代入,得到\n\n$$\n{\\left( -2\\right) }^{2} =  - {2p} \\cdot  \\left( {-4}\\right) .\n$$\n\n解得 $p = \\frac{1}{2}$ . 从而抛物线的方程为 ${x}^{2} =  - y$ .\n\n因此,所求抛物线的方程为 ${y}^{2} =  - {8x}$ 或 ${x}^{2} =  - y$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1581,
+        "end": 1612
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 证明: 以抛物线 ${y}^{2} = {2px}$ 的任一过焦点的弦为直径的圆与抛物线的准线相切.\n\n![bo_d4sln7jef24c73be0pd0_32_1147_985_285_301_0.jpg](images/book-bdc409c1d8c442ed967f.jpg)\n\n图 2-4-4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1613,
+        "end": 1618
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1613,
+        "end": 1618
+      }
+    ],
+    "id": "x1-2-4-ex-2",
+    "category": "例题",
+    "answer": "证明 如图 2-4-4,设 ${AB}$ 是此抛物线过焦点 $F$ 的一条弦, 取 ${AB}$ 的中点 $M$ ,设点 $A\\text{ 、 }B\\text{ 、 }M$ 在抛物线的准线 $l$ 上的射影依次是点 ${A}^{\\prime }\\text{ 、 }{B}^{\\prime }\\text{ 、 }{M}^{\\prime }$ ,则 $M{M}^{\\prime }$ 是直角梯形 $A{A}^{\\prime }{B}^{\\prime }B$ 的中位线.\n\n因为点 $A\\text{ 、 }B$ 在抛物线上,所以\n\n$$\n\\left| {A{A}^{\\prime }}\\right|  = \\left| {AF}\\right| ,\\left| {B{B}^{\\prime }}\\right|  = \\left| {BF}\\right| \\text{ . }\n$$\n\n于是\n\n$$\n\\left| {M{M}^{\\prime }}\\right|  = \\frac{1}{2}\\left( {\\left| {A{A}^{\\prime }}\\right|  + \\left| {B{B}^{\\prime }}\\right| }\\right)  = \\frac{1}{2}\\left( {\\left| {AF}\\right|  + \\left| {BF}\\right| }\\right)  = \\frac{1}{2}\\left| {AB}\\right| .\n$$\n\n即点 $M$ 到准线的距离等于圆的半径.\n\n由此可见,以 ${AB}$ 为直径的圆与准线 $l$ 相切.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1619,
+        "end": 1636
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.4(1)",
+    "markdown": "## 练习 2.4(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1637,
+        "end": 1637
+      }
+    ],
+    "id": "x1-2-4-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(1) · 1",
+    "markdown": "1. 填写下表:\n\n<table><tr><td>图示</td><td><img src=\"https://cdn.noedgeai.com/bo_d4sln7jef24c73be0pd0_32.jpg?x=400&y=1679&w=183&h=165&r=0\"/></td><td><img src=\"https://cdn.noedgeai.com/bo_d4sln7jef24c73be0pd0_32.jpg?x=669&y=1681&w=186&h=164&r=0\"/></td><td></td><td></td></tr><tr><td>标准方程</td><td>${y}^{2} = {2px}\\left( {p > 0}\\right)$</td><td></td><td>${x}^{2} = {2py}\\left( {p > 0}\\right)$</td><td></td></tr><tr><td>焦点坐标</td><td>$\\left( {\\frac{p}{2},0}\\right)$</td><td></td><td></td><td>$\\left( {0, - \\frac{p}{2}}\\right)$</td></tr><tr><td>准线方程</td><td>$x =  - \\frac{p}{2}$</td><td></td><td></td><td>$y = \\frac{p}{2}$</td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1639,
+        "end": 1642
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1639,
+        "end": 1642
+      }
+    ],
+    "id": "x1-2-4-p241-1",
+    "category": "练习2.4(1)",
+    "answer": "1. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1166,
+        "end": 1167
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(1) · 2",
+    "markdown": "2. 分别写出满足下列条件的抛物线的标准方程:\n\n(1)焦点是 $F\\left( {-2,0}\\right)$ ；\n\n(2)准线方程是 $y = 1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1643,
+        "end": 1648
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1643,
+        "end": 1648
+      }
+    ],
+    "id": "x1-2-4-p241-2",
+    "category": "练习2.4(1)",
+    "answer": "2. (1) ${y}^{2} =  - {8x}$ . (2) ${x}^{2} =  - {4y}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1168,
+        "end": 1169
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(1) · 3",
+    "markdown": "3. 求抛物线 ${y}^{2} = {4x}$ 上到焦点的距离等于 9 的点的坐标.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1649,
+        "end": 1650
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1649,
+        "end": 1650
+      }
+    ],
+    "id": "x1-2-4-p241-3",
+    "category": "练习2.4(1)",
+    "answer": "3. $\\left( {8,4\\sqrt{2}}\\right)$ 或 $\\left( {8, - 4\\sqrt{2}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1170,
+        "end": 1171
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 抛物线的性质",
+    "markdown": "## 2 抛物线的性质",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1651,
+        "end": 1651
+      }
+    ],
+    "id": "x1-2-4-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "下面，我们以顶点在原点、焦点在 $x$ 轴正半轴上的抛物线为例, 讨论抛物线的性质. 此时抛物线的标准方程为:\n\n$$\n{y}^{2} = {2px}\\left( {p > 0}\\right) .\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1652,
+        "end": 1658
+      }
+    ],
+    "id": "x1-2-4-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "(1) 对称性",
+    "markdown": "## (1) 对称性",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1659,
+        "end": 1659
+      }
+    ],
+    "id": "x1-2-4-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "因为抛物线上任意一点 $M\\left( {x, y}\\right)$ 关于 $x$ 轴的对称点 ${M}^{\\prime }\\left( {x, - y}\\right)$ 也满足方程,所以抛物线 ${y}^{2} = {2px}$ 关于 $x$ 轴对称. 抛物线有且只有一条对称轴. 对称轴与抛物线的交点就是抛物线的顶点.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1660,
+        "end": 1662
+      }
+    ],
+    "id": "x1-2-4-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "(2)范围",
+    "markdown": "## (2)范围",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1663,
+        "end": 1663
+      }
+    ],
+    "id": "x1-2-4-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "因为 $p > 0$ ,由方程 ${y}^{2} = {2px}$ 可知 $x \\geq  0$ ,抛物线的开口向右. 除原点外,这条抛物线上的点都在 $y$ 轴的右侧,且当 $x$ 无限增大时, $\\left| y\\right|$ 也无限增大. 这说明此抛物线向右上方和右下方无限延伸.\n\n从抛物线方程可知,对于同一个 $x$ 值,当 $p$ 越大, $\\left| y\\right|$ 就越大. 这说明 $p$ 越大,抛物线的开口就越大.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1664,
+        "end": 1668
+      }
+    ],
+    "id": "x1-2-4-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 过抛物线 ${y}^{2} = {4x}$ 的焦点且斜率为 2 的直线与抛物线相交于 $A\\text{ 、 }B$ 两点,求线段 ${AB}$ 的长.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1669,
+        "end": 1670
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1669,
+        "end": 1670
+      }
+    ],
+    "id": "x1-2-4-ex-3",
+    "category": "例题",
+    "answer": "解 由题意可知,抛物线的焦点为 $F\\left( {1,0}\\right)$ ,则直线的方程为\n\n$$\ny = 2\\left( {x - 1}\\right) .\n$$\n\n①\n\n将方程①代入抛物线方程 ${y}^{2} = {4x}$ ，并化简得\n\n$$\n{x}^{2} - {3x} + 1 = 0.\n$$\n\n设两个交点 $A\\text{ 、 }B$ 的坐标分别为 $\\left( {{x}_{1},{y}_{1}}\\right) \\text{ 、 }\\left( {{x}_{2},{y}_{2}}\\right)$ ,则有 ${x}_{1} + {x}_{2} = 3.$\n\n![bo_d4sln7jef24c73be0pd0_34_1168_259_236_277_0.jpg](images/private-f14df07e9ef50a73c87d.jpg)\n\n图 2-4-5\n\n由抛物线定义可知, $\\left| {AF}\\right| \\text{ 、 }\\left| {BF}\\right|$ 分别等于点 $A\\text{ 、 }B$ 到准线 $x =  - 1$ 的距离 $\\left| {A{A}_{1}}\\right| \\text{ 、 }\\left| {B{B}_{1}}\\right|$ ,如图 2-4-5 所示.\n\n又因为 $\\left| {A{A}_{1}}\\right|  = {x}_{1} + 1,\\left| {B{B}_{1}}\\right|  = {x}_{2} + 1$ ,所以\n\n$$\n\\left| {AB}\\right|  = \\left| {AF}\\right|  + \\left| {BF}\\right|  = \\left| {A{A}_{1}}\\right|  + \\left| {B{B}_{1}}\\right|  = {x}_{1} + {x}_{2} + 2 = 5.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1671,
+        "end": 1698
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 求过定点 $M\\left( {0,1}\\right)$ 且与抛物线 ${y}^{2} = {2x}$ 只有一个公共点的直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1699,
+        "end": 1700
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1699,
+        "end": 1700
+      }
+    ],
+    "id": "x1-2-4-ex-4",
+    "category": "例题",
+    "answer": "解 先考虑过点 $M\\left( {0,1}\\right)$ 且不垂直于 $x$ 轴的直线,可设其方程为 $y = {kx} + 1$ .\n\n由方程组 $\\left\\{  \\begin{array}{l} y = {kx} + 1, \\\\  {y}^{2} = {2x}, \\end{array}\\right.$\n\n$$\n{k}^{2}{x}^{2} + 2\\left( {k - 1}\\right) x + 1 = 0.\n$$\n\n①\n\n当 $k = 0$ 时,方程①为一元一次方程,其解为 $x = \\frac{1}{2}$ ,此时直线 $y = 1$ 与抛物线只有一个公共点 $P\\left( {\\frac{1}{2},1}\\right)$ .\n\n当 $k \\neq  0$ 时,方程①为一元二次方程,它只有一个解的充要条件是其判别式 $\\Delta  = 4{\\left( k - 1\\right) }^{2} - 4{k}^{2} = 0$ ,解得 $k = \\frac{1}{2}$ . 由此得到直线 $y = \\frac{1}{2}x + 1$ 与抛物线也只有一个公共点.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1701,
+        "end": 1716
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "例 4 中, 判别式为零是直线与抛物线仅有一个公共点的什么条件?\n\n---\n\n![bo_d4sln7jef24c73be0pd0_34_1159_1305_249_248_0.jpg](images/book-a0ab316439b59891561f.jpg)\n\n图 2-4-6\n\n此外,过点 $M\\left( {0,1}\\right)$ 且垂直于 $x$ 轴的直线 $x = 0$ 也满足题意 (图 2-4-6).\n\n因此,所求直线的方程为 $y = 1$ 或 $y = \\frac{1}{2}x + 1$ 或 $x = 0$ .\n\n在前面学习圆和椭圆时, 我们曾经介绍过圆和椭圆的切线, 可以发现, 当直线与圆或椭圆有且仅有一个公共点时, 直线与圆或椭圆相切. 这仅仅是对圆或椭圆而言的情况. 由例 4 知, 在抛物线的情况下没有这样的结论. 例如, 当一条直线平行于一条抛物线的对称轴时 (如例 4 中的直线 $y = 1$ ),这条直线与这条抛物线有且只有一个公共点, 但它不是抛物线的切线 (切线的确切含义见选择性必修课程 5.1 节).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1717,
+        "end": 1730
+      }
+    ],
+    "id": "x1-2-4-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 如图 2-4-7, 汽车前灯反射镜与轴截面的交线是抛物线的一部分，灯泡位于抛物线的焦点处. 已知灯口直径是 24 cm， 灯深10 cm，求灯泡与反射镜顶点的距离.\n\nQ\n\n![bo_d4sln7jef24c73be0pd0_35_751_278_177_238_0.jpg](images/book-83485f0dd488c9391e1b.jpg)\n\n图 2-4-7\n\n![bo_d4sln7jef24c73be0pd0_35_1058_266_225_253_0.jpg](images/book-734f577ce14ba89b3784.jpg)\n\n图 2-4-8\n\n---\n\n抛物线具有如下的光学性质: 所有从抛物线焦点发出的光线经过抛物线反射后都与这条抛物线的对称轴平行或重合. 制作探照灯、汽车远光灯时正是依据这个原理, 把光源放在抛物线的焦点处, 使得光线经过抛物面的反射后都变成平行光束, 照得又亮又远.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1731,
+        "end": 1748
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1731,
+        "end": 1748
+      }
+    ],
+    "id": "x1-2-4-ex-5",
+    "category": "例题",
+    "answer": "解 以抛物线的对称轴为 $x$ 轴,抛物线的顶点为原点,建立平面直角坐标系, 如图 2-4-8 所示.\n\n由题意，得点 $A$ 的坐标为 $\\left( {{10},{12}}\\right)$ .\n\n设抛物线的方程为\n\n$$\n{y}^{2} = {2px}\\left( {p > 0}\\right) .\n$$\n\n因为点 $A$ 在抛物线上,所以\n\n$$\n{12}^{2} = {2p} \\cdot  {10},\n$$\n\n解得 $p = {7.2}$ . 因此,抛物线焦点 $F$ 的坐标为 $\\left( {{3.6},0}\\right)$ .\n\n所以，灯泡与反射镜顶点的距离为 ${3.6}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1749,
+        "end": 1768
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.4(2)",
+    "markdown": "## 练习 2.4(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1769,
+        "end": 1769
+      }
+    ],
+    "id": "x1-2-4-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(2) · 1",
+    "markdown": "1. 过点 $P\\left( {2,4}\\right)$ 且与抛物线 ${y}^{2} = {8x}$ 有且只有一个公共点的直线有 ( )\n\nA. 1 条; B. 2 条; C. 3 条; D. 4 条.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1771,
+        "end": 1774
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1771,
+        "end": 1774
+      }
+    ],
+    "id": "x1-2-4-p242-1",
+    "category": "练习2.4(2)",
+    "answer": "1. B.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1174,
+        "end": 1175
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(2) · 2",
+    "markdown": "2. 求抛物线 ${y}^{2} = {4x}$ 上的点到直线 ${4x} + {3y} + 7 = 0$ 的最短距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1775,
+        "end": 1776
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1775,
+        "end": 1776
+      }
+    ],
+    "id": "x1-2-4-p242-2",
+    "category": "练习2.4(2)",
+    "answer": "2. $\\frac{19}{20}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1176,
+        "end": 1177
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.4(2) · 3",
+    "markdown": "3. 由抛物线的标准方程知,函数 $y = \\sqrt{x}$ 的图像是某条抛物线的一部分. 求这条抛物线的焦点坐标和准线方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1777,
+        "end": 1778
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1777,
+        "end": 1778
+      }
+    ],
+    "id": "x1-2-4-p242-3",
+    "category": "练习2.4(2)",
+    "answer": "3. $\\left( {\\frac{1}{4},0}\\right) , x =  - \\frac{1}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1178,
+        "end": 1179
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 2.4",
+    "markdown": "## 习题 2.4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1779,
+        "end": 1779
+      }
+    ],
+    "id": "x1-2-4-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1781,
+        "end": 1781
+      }
+    ],
+    "id": "x1-2-4-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题2.4A · 1",
+    "markdown": "1. 求抛物线 ${y}^{2} = {ax}\\left( {a \\neq  0}\\right)$ 的焦点坐标和准线方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1783,
+        "end": 1784
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1783,
+        "end": 1784
+      }
+    ],
+    "id": "x1-2-4-h24A-1",
+    "category": "习题2.4A",
+    "answer": "1. $\\left( {\\frac{a}{4},0}\\right) , x =  - \\frac{a}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1184,
+        "end": 1185
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4A · 2",
+    "markdown": "2. 若抛物线 ${y}^{2} = {2x}$ 上的 $A\\text{ 、 }B$ 两点到焦点 $F$ 的距离之和是 5,求线段 ${AB}$ 的中点的横坐标.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1785,
+        "end": 1786
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1785,
+        "end": 1786
+      }
+    ],
+    "id": "x1-2-4-h24A-2",
+    "category": "习题2.4A",
+    "answer": "2. 2 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1186,
+        "end": 1187
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4A · 3",
+    "markdown": "3. 求以坐标原点为顶点,以 $y$ 轴为对称轴,并经过点 $P\\left( {-6, - 3}\\right)$ 的抛物线的标准方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1787,
+        "end": 1788
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1787,
+        "end": 1788
+      }
+    ],
+    "id": "x1-2-4-h24A-3",
+    "category": "习题2.4A",
+    "answer": "3. ${x}^{2} =  - {12y}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1188,
+        "end": 1189
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4A · 4",
+    "markdown": "4. 已知直线 $y = {kx} - 4$ 与抛物线 ${y}^{2} = {8x}$ 有且只有一个公共点,求实数 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1789,
+        "end": 1790
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1789,
+        "end": 1790
+      }
+    ],
+    "id": "x1-2-4-h24A-4",
+    "category": "习题2.4A",
+    "answer": "4. $k = 0$ 或 $k =  - \\frac{1}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1190,
+        "end": 1191
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4A · 5",
+    "markdown": "5. 已知一隧道的顶部是抛物拱形,拱高是 $5\\mathrm{\\;m}$ ,跨度为 ${10}\\mathrm{\\;m}$ . 建立适当的平面直角坐标系, 求此拱形所在的抛物线方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1791,
+        "end": 1792
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1791,
+        "end": 1792
+      }
+    ],
+    "id": "x1-2-4-h24A-5",
+    "category": "习题2.4A",
+    "answer": "5. 以隧道顶部为坐标原点,过顶点的铅垂线所在直线为 $y$ 轴建立平面直角坐标系,有 ${x}^{2} =  - {5y}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1192,
+        "end": 1193
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "## B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1793,
+        "end": 1793
+      }
+    ],
+    "id": "x1-2-4-b31",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题2.4B · 1",
+    "markdown": "1. 已知动点 $P$ 与定点 $\\left( {1,0}\\right)$ 的距离比点 $P$ 到 $y$ 轴的距离大 1,求动点 $P$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1795,
+        "end": 1796
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1795,
+        "end": 1796
+      }
+    ],
+    "id": "x1-2-4-h24B-1",
+    "category": "习题2.4B",
+    "answer": "1. ${y}^{2} = {4x}$ 或 $y = 0\\left( {x < 0}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1196,
+        "end": 1197
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4B · 2",
+    "markdown": "2. 过抛物线 ${y}^{2} = {2px}\\left( {p > 0}\\right)$ 焦点的一条直线与抛物线相交于两个不同的点,求证: 这两个点的纵坐标 ${y}_{1}\\text{ 、 }{y}_{2}$ 满足 ${y}_{1}{y}_{2} =  - {p}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1797,
+        "end": 1798
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1797,
+        "end": 1798
+      }
+    ],
+    "id": "x1-2-4-h24B-2",
+    "category": "习题2.4B",
+    "answer": "2. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1198,
+        "end": 1199
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.4B · 3",
+    "markdown": "3. 过抛物线 ${y}^{2} = {2px}$ 的焦点且倾斜角为 $\\alpha$ 的直线 $l$ 与抛物线交于 $A$ 、 $B$ 两点，求证: $\\left| {AB}\\right|  = \\frac{2p}{{\\sin }^{2}\\alpha }.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1799,
+        "end": 1800
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1799,
+        "end": 1800
+      }
+    ],
+    "id": "x1-2-4-h24B-3",
+    "category": "习题2.4B",
+    "answer": "3. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1200,
+        "end": 1201
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "## 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1801,
+        "end": 1801
+      }
+    ],
+    "id": "x1-2-4-b35",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "章名“圆锥曲线”释义",
+    "markdown": "## 章名“圆锥曲线”释义",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1803,
+        "end": 1803
+      }
+    ],
+    "id": "x1-2-4-b36",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "本章的前面几节分别学习了圆、椭圆、双曲线和抛物线, 但这一章的章名却叫“圆锥曲线”, 这是为什么呢? 这些曲线与圆锥有什么关系呢? 下面就来探讨这些问题.\n\n如图 2-4-9, 我们取两个相同的圆锥, 把其中一个倒置后组成一个共顶点、共轴的旋转体, 想象这个旋转体可上下无限延伸. 设圆锥的旋转轴与母线所成的角为 $\\alpha$ ,用一不过圆锥顶点的平面截这个圆锥,设这个平面与圆锥旋转轴所成的角为 $\\theta$ ,则平面与圆锥的侧面相截得到的平面曲线有以下几种情况:\n\n---\n\n这个旋转体也可以看作是由两条相交直线绕其角平分线旋转而成.\n\n---\n\n(1)当 $\\alpha  < \\theta  \\leq  \\frac{\\pi }{2}$ 时，平面与圆锥的侧面相截所得的是一个椭圆，如图 2-4-9(1)所示； 特别地,当 $\\theta  = \\frac{\\pi }{2}$ 时,得到的是一个圆.\n\n(2)当 $\\alpha  = \\theta$ ，即平面与圆锥的一条母线平行时，所截得的是一条抛物线，如图 2-4-9(2) 所示.\n\n(3)当 $0 \\leq  \\theta  < \\alpha$ ，且这个平面不经过圆锥的顶点时，所截得的是一条双曲线，如图 2-4-9(3)所示.\n\n![bo_d4sln7jef24c73be0pd0_37_443_257_770_467_0.jpg](images/book-84507196d0970383f596.jpg)\n\n图 2-4-9\n\n可见, 椭圆 (包括圆)、抛物线、双曲线都可以看作是由不同的平面截同一个圆锥得到的, 所以它们统称为圆锥曲线 (conic sections). 这是本章章名的由来.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1804,
+        "end": 1826
+      }
+    ],
+    "emphases": [
+      {
+        "start": 650,
+        "end": 733,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-4-definition-37-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-4-b37",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

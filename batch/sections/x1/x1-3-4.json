@@ -1,0 +1,1474 @@
+{
+  "schema_version": 1,
+  "id": "x1-3-4",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "3",
+  "chapter_title": "第3章空间向量及其应用",
+  "section": "3.4",
+  "title": "空间向量在立体几何中的应用",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "空间向量在立体几何中的应用",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 775,
+          "end": 775
+        }
+      ],
+      "id": "x1-3-4",
+      "number": "3.4",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 3.4 空间向量在立体几何中的应用\n\n### 教学重点\n\n理解并掌握通过空间向量的运算, 解决立体几何问题的方法, 会用向量方法判断空间线面位置关系、计算距离和空间各种角的大小.\n\n### 内容分析\n\n立体几何所讨论的对象是空间的点、直线、平面等元素, 本节我们需要将它们与向量建立联系. 教材首先介绍与直线密切相关的向量——直线的方向向量,以及与平面密切相关的向量——平面的法向量,并指出用向量方法解决有关直线和平面的问题, 一般先把相应的问题转化为关于这些向量的问题然后加以解决. 相对于纯几何方法, 向量方法只要考虑方向向量与法向量的关系即可, 基于所建立的向量理论, 很多问题可以转化为关于向量的计算, 降低了演绎推理的难度.\n\n本节教材有三个小节,分别是空间中的直线、平面平行和垂直关系的判断,求点到平面的距离 (以及平面的平行线到平面的距离、平行平面间的距离), 求角 (包括空间直线所成角、直线和平面所成角和二面角) 的大小.\n\n本节各小节都以精选的具有典型性的例题贯串, 在例题的前后总结出具有一般意义的命题或公式, 指导学生在解决类似问题时直接引用.\n\n第 1 小节“判断空间直线、平面的位置关系”有两道例题:\n\n例 1 是立体几何中的“三垂线定理”的向量证明, 把直线的垂直问题转化为方向向量的垂直问题, 再用向量理论中证明向量垂直的常用方法 (证明向量的数量积为 0 ) 加以证明. 这个定理曾用纯几何方法证明过(必修第三册 10.3 节第 4 小节). 让学生比较两个不同的证明, 体会向量方法和纯几何方法的差异.\n\n例 2 是在一个正方体中判定线面垂直、面面平行. 有了正方体(或更一般的长方体), 常常会选择以一个顶点作为坐标原点, 以此顶点出发的三条棱所在直线作为坐标轴建立空间直角坐标系, 写出各顶点的坐标以及相关直线的向量表示, 这样证明垂直或平行不过是一些简单的数值计算. 本例第( 1 )小题就是这样处理的; 第( 2 )小题是第(1)小题的直接推论.\n\n结合这两道例题, 教材列出了直线、平面的平行与垂直用向量语言表达的三个充要条件:\n\n(1)两条直线平行的充要条件是它们的方向向量平行; 两条直线垂直的充要条件是它们的方向向量垂直.\n\n(2)直线和平面垂直的充要条件是直线的方向向量为平面的法向量；不在平面上的一条直线和平面平行的充要条件是直线的方向向量垂直于平面的法向量.\n\n(3)两个平面垂直的充要条件是它们的法向量垂直；两个平面平行的充要条件是它们的法向量平行.\n\n第(3)点中的前半部分也可以改述为:两个平面垂直的充要条件是其中一个平面过另一个平面的法向量. 本章教材中的内容提要就是这样叙述的(本册教材第 119 页).\n\n第 2 小节“求距离”中不能简单地把直线问题转化为直线的方向向量问题、把平面问题转化为平面的法向量问题, 这是因为向量可以在空间中平移, 所以没有向量间距离的概念, 平行的直线、平面间的距离不能直接转化为向量问题, 但在解决问题过程中, 向量依然发挥重要作用. 本节的例题包括点到平面的距离、平面的平行线与平面的距离以及两个平行平面间的距离. 后两个距离归结到点到平面的距离, 因为平面的平行线与平面的距离就是平行线上一点到平面的距离, 两个平行平面间的距离就是其中一个平面上一点到另一个平面的距离.\n\n求点到平面的距离的具体做法是: 先连接给定点到平面上任意一点, 所得到的线段在平面法向量方向上投影的模就是点到平面的垂线段的长, 即点到平面的距离. 于是,任意给定一点 $A$ 到平面的距离 $d$ 由公式\n\n$$\nd = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{AB}\\right| }{\\left| \\overrightarrow{n}\\right| } = \\left| {\\overrightarrow{{n}_{0}} \\cdot  \\overrightarrow{AB}}\\right|\n$$\n\n①\n\n给出,其中 $\\overrightarrow{n}$ 是平面的一个法向量, $\\overrightarrow{{n}_{0}}$ 是 $\\overrightarrow{n}$ 的单位向量, $B$ 是平面上的任意一点.\n\n例 3 第(1)小题是直接应用公式①求点到平面的距离,不过求平面的法向量要用待定系数法, 并且所列的方程组有无数组解 (这不奇怪, 平面的法向量有无数个), 任取一个就行. 例 3 第 (2) 小题求平面的平行线与平面的距离, 化为点到平面的距离问题.\n\n例 4 求两个平行平面间的距离, 也化为求点到平面的距离问题. 求法向量时也要用到待定系数法, 并有不唯一的解. 前面已经说过, 不再重复.\n\n第 3 小节“求角的大小”中的“角”包含了两条直线所成的角、直线和平面所成的角以及二面角的平面角. 所有的问题都化为求向量位直线的方向向量、平面的法向量) 的夹角问题,所以可以使用向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角余弦公式\n\n$$\n\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\overrightarrow{a} \\cdot  \\overrightarrow{b}}{\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| }.\n$$\n\n②\n\n分析所得到的向量夹角与我们所要求角的关系, 结合公式②, 教材给出以下三个公式:\n\n如果两条直线的方向向量分别是 $\\overrightarrow{{r}_{1}}$ 与 $\\overrightarrow{{r}_{2}}$ ,那么这两条直线所成角 $\\theta$ 的大小决定于公式\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{r}_{1}} \\cdot  \\overrightarrow{{r}_{2}}\\right| }{\\left| \\overrightarrow{{r}_{1}}\\right| \\left| \\overrightarrow{{r}_{2}}\\right| }\n$$\n\n③\n\n如果直线的方向向量是 $\\overrightarrow{r}$ ,平面的法向量是 $\\overrightarrow{n}$ ,那么直线与平面所成角 $\\theta$ 的大小决定于公式\n\n$$\n\\sin \\theta  = \\frac{\\left| \\overrightarrow{r} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{r}\\right| \\left| \\overrightarrow{n}\\right| }.\n$$\n\n④\n\n如果两个平面的法向量分别是 $\\overrightarrow{{n}_{1}}$ 与 $\\overrightarrow{{n}_{2}}$ ,那么这两个平面所成锐二面角(或直二面角) $\\theta$ 的大小决定于公式\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{n}_{1}} \\cdot  \\overrightarrow{{n}_{2}}\\right| }{\\left| \\overrightarrow{{n}_{1}}\\right| \\left| \\overrightarrow{{n}_{2}}\\right| }\n$$\n\n⑤\n\n公式③④⑤的右侧都带有绝对值符号,其原因是法向量和方向向量的取法可能改变它们夹角余弦的符号 (但不改变绝对值). 我们没有必要去跟踪每一个可能的选择, 分析可能出现的符号, 而是倒过来从我们的目标看, 无论是两条直线所成角的大小, 还是直线和平面所成角的大小,都约定取值在 0 至 $\\frac{\\pi }{2}$ 之间,两个平面所成的锐二面角 (或直二面角) 的平面角大小也在 0 至 $\\frac{\\pi }{2}$ 之间. 也就是说,无论我们所取向量夹角的余弦或正弦为何值, 我们所要求的角的三角函数值一定是非负的.\n\n公式④左侧出现了正弦函数,其余两个公式左侧仍保留余弦函数. 教材对此有细节的分析, 教学中可以使用, 也可以让学生自行学习理解. 还可以让学生直观地理解和记住这里出现的函数: 如果几何对象和所对应的向量都平行 (公式③) 或者都垂直 (公式⑤),向量的夹角和几何对象所成的角相等或互补,从而公式中不改变函数名 (仍是余弦函数); 如果几何对象和所对应的向量一个平行, 一个垂直(公式④), 向量的夹角和几何对象所成的角互余, 所以要把余弦函数换成正弦函数.\n\n例 5 是求空间中两直线所成角的大小. 恰当地构建空间直角坐标系后, 适当取直线的方向向量, 再利用公式③计算即可. 不过要注意,例 5 在公式之前出现,由于方向向量取得好, 没有出现负的余弦值, 因此有没有绝对值符号就无关紧要了. 如果教师愿意把例 5 所提供的到公式③的台阶提高一点,也可以选择其他方向向量,使得负的余弦值出现, 那样从例 5 到公式③就更平缓了.\n\n例 6 是求空间直线与平面所成角的大小. 恰当地构建空间直角坐标系后, 求平面的法向量与直线的方向向量, 再利用公式④计算即可.\n\n例 7 是求两个平面所成二面角的大小. 构建空间直角坐标系后, 选择平面的法向量, 再利用公式⑤先求出锐二面角的大小, 它的补角就是另一个二面角.\n\n### 注意事项\n\n1. 求平面法向量常常要用待定系数法. 由于法向量不是唯一的, 因此待定系数法给出的方程组不止一组解, 其中有的系数可以自由取值, 再解出其他系数.\n\n2. 本节中常常会把几何问题和向量问题一起考虑, 特别要注意两个语境下一些表达的差别. 例如, 谈论平行时, 向量的情况等同于说共线, 但是在几何学语境中, 共线的两条直线 (即重合的两条直线) 不被认为是平行的. 因此, 前面提到的充要条件 “两条直线平行的充要条件是它们的方向向量平行”中的“两条直线”指的是“两条不同的直线”. 同样的道理, 充要条件 “两个平面平行的充要条件是它们的法向量平行”中的“两个平面”指的是 “两个不同的平面”. 不要简单地用 “ ${l}_{1}//{l}_{2} \\Leftrightarrow  {\\overrightarrow{r}}_{1}//{\\overrightarrow{r}}_{2}$ ” $\\left( {{\\overrightarrow{r}}_{1}\\text{、}{\\overrightarrow{r}}_{2}}\\right.$ 分别是直线 ${l}_{1}\\text{、}{l}_{2}$ 的方向向量)之类符号表述来代替相应的语言表述的充要条件,除非附加条件“ ${l}_{1}$ 不同于 ${l}_{2}$ ”.\n\n3. 异面直线问题也是几何与向量的重要差别. 由于没有异面向量, 有时给我们带来很大的便利, 例如例 5 求的是两条异面直线所成的角, 几何方法有一定难度, 但向量法只要套用公式即可, 甚至无须知道这是两条异面直线. 但与异面直线相关的另外一些问题, 转为向量问题的又未必有明显的优势, 如求异面直线的距离问题.\n\n4. 记住约定:两条直线所成角的大小、直线和平面所成角的大小都约定取值在 0 至 $\\frac{\\pi }{2}$ 之间. 在这些约定下公式③④才是正确的.\n\n### 教学建议\n\n空间向量是立体几何学习中一个有效的辅助工具, 不宜以空间向量的计算完全替代立体几何的学习. 空间向量方法解决立体几何问题一定要结合具体直观的图形讲授内容, 借助图形理解运算与几何对象的特征. 立体几何的理论体系的基本框架, 主要的定理、公式和演绎方法, 以及通过立体几何学习建立起来的空间感、空间问题抽象能力和空间图形的作图、读图、识图能力, 不应该由于向量方法的引入而被削弱. 因此, 在本节教学中一方面应关注立体几何的本体, 通过立体几何知识的回顾, 问题的分析, 理清向量方法解决问题的思路, 寻找立体几何与空间向量的连接点, 总结出本节的相关结论和公式. 特别地, 在第 3 小节三个公式的推导过程中, 要让学生看懂空间图形, 并从中找出角的大小的关系. 如能借助立体教具或几何教学软件模拟, 让学生体会其中的诀窍,则有事半功倍之效. 但在另一方面,也要显示空间向量在解决立体几何问题中的作用, 让学生体会在基本规则、基本方法建立之后, 向量方法常常就是套用成法、计算求解, 这有其十分明显的优势.\n\n正如本章的许多内容都是平面向量的相应内容在空间的拓展与延伸, 利用空间向量解决立体几何问题也是用平面向量解决平面几何问题的拓展与延伸, 需要充分利用学生已有的利用平面向量解决平面几何问题的知识基础与学习经验 (参看必修课程 8.4 节)作类比与推广, 在拓展中获得新的意境.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 226,
+          "end": 331
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "空间向量常常可为解决立体几何中的有关问题提供简捷方便的方法. 在本章 3.2 节的例 2 中就非常方便地利用向量证明了直线与平面垂直的判定定理.\n\n本节继续介绍空间向量在立体几何中的一些应用. 如下一些与直线和平面相关的向量是很重要的.\n\n直线的方向向量:与直线平行的任何非零向量.\n\n平面的法向量: 垂直于平面的任何非零向量.\n\n用向量方法解决有关直线和平面的问题, 一般先把相应的问题化为关于上述这些向量的问题然后加以解决. 建立一个适当的空间直角坐标系常常是有效的辅助手段, 特别是在需要数值求解的问题上.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 776,
+          "end": 786
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 判断空间直线、平面的位置关系",
+      "markdown": "## 1 判断空间直线、平面的位置关系",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 787,
+          "end": 787
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "下面的结论是显然的:\n\n两条直线平行的充要条件是它们的方向向量平行; 两条直线垂直的充要条件是它们的方向向量垂直.\n\n这样, 就把直线间的平行或垂直关系化为向量的平行或垂直关系. 我们给出一个“简单”的例子——三垂线定理的向量证明， 它的关键就是把直线垂直问题化为向量垂直问题.\n\n![bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg)\n\n图 3-4-1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 788,
+          "end": 798
+        }
+      ],
+      "emphases": [
+        {
+          "start": 12,
+          "end": 57,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-4-definition-4-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 证明: 平面上的一条直线和这个平面的一条斜线垂直的充要条件是它和这条斜线在平面上的投影垂直.\n\n已知 如图 3-4-1, ${PA}$ 是平面 $\\alpha$ 的一条斜线, ${OA}$ 是 ${PA}$ 在 $\\alpha$ 上的投影，直线 $l$ 在平面 $\\alpha$ 上.\n\n求证 $l\\bot {PA}$ 当且仅当 $l\\bot {OA}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 799,
+          "end": 804
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 799,
+          "end": 804
+        }
+      ],
+      "id": "x1-3-4-ex-1",
+      "category": "例题",
+      "answer": "证明 根据投影的定义， ${PO}\\bot \\alpha$ ，所以 ${PO}\\bot l$ . 由于 $\\overrightarrow{PO}$ 是直线 ${PO}$ 的方向向量，再取 $l$ 的任意一个方向向量 $\\overrightarrow{a}$ ，则 $\\overrightarrow{PO}\\bot \\overrightarrow{a}$ ， 即 $\\overrightarrow{a} \\cdot  \\overrightarrow{PO} = 0$ . 又因为 $\\overrightarrow{PA} = \\overrightarrow{PO} + \\overrightarrow{OA}$ ,所以\n\n$$\n\\overrightarrow{a} \\cdot  \\overrightarrow{PA} = \\overrightarrow{a} \\cdot  \\left( {\\overrightarrow{PO} + \\overrightarrow{OA}}\\right)  = \\overrightarrow{a} \\cdot  \\overrightarrow{PO} + \\overrightarrow{a} \\cdot  \\overrightarrow{OA} = \\overrightarrow{a} \\cdot  \\overrightarrow{OA}.\n$$\n\n由此推出\n\n$$\nl \\bot  {PA} \\Leftrightarrow  \\overrightarrow{a} \\cdot  \\overrightarrow{PA} = 0 \\Leftrightarrow  \\overrightarrow{a} \\cdot  \\overrightarrow{OA} = 0 \\Leftrightarrow  l \\bot  {OA}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 805,
+          "end": 816
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "prose",
+      "title": "垂直于平面的判定",
+      "markdown": "现在我们把直线与平面的平行与垂直关系用向量描述如下:\n\n直线和平面垂直的充要条件是直线的方向向量为平面的法向量; 不在平面上的一条直线和平面平行的充要条件是直线的方向向量垂直于平面的法向量.\n\n上述第一个结论不过是平面法向量定义的变形. 为得出第二个结论, 过直线作一个平面与给定平面相交. 根据直线与平面平行的判定定理与性质定理, 直线平行于给定平面的充要条件是该直线平行于交线; 又因为交线在给定平面上, 它垂直于此平面的法向量, 所以直线平行于交线的充要条件是该直线垂直于这个法向量. 于是, 直线平行于一个平面的充要条件是该直线垂直于该平面的法向量.\n\n两个平面的垂直与平行也可以用向量描述如下:\n\n两个平面垂直的充要条件是它们的法向量垂直; 两个平面平行的充要条件是它们的法向量平行. 这个结论的证明留作练习题.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 817,
+          "end": 825
+        }
+      ],
+      "emphases": [
+        {
+          "start": 28,
+          "end": 95,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-4-definition-6-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 97,
+          "end": 279,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-4-definition-6-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 304,
+          "end": 361,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-4-definition-6-2",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 如图 3-4-2,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, 求证:\n\n(1) $A{C}_{1} \\bot$ 平面 ${A}_{1}{BD}, A{C}_{1} \\bot$ 平面 $C{D}_{1}{B}_{1}$ ；\n\n(2)平面 ${A}_{1}{BD}//$ 平面 $C{D}_{1}{B}_{1}$ .\n\n![bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg)\n\n图 3-4-2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 833,
+          "end": 837
+        },
+        {
+          "source": "book",
+          "start": 829,
+          "end": 831
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 833,
+          "end": 837
+        },
+        {
+          "source": "book",
+          "start": 829,
+          "end": 831
+        }
+      ],
+      "id": "x1-3-4-ex-2",
+      "category": "例题",
+      "answer": "证明(1)设正方体的棱长为 $a$ . 以点 $D$ 为原点，分别以 $\\overrightarrow{DA}\\text{ 、 }\\overrightarrow{DC}$ 与 $\\overrightarrow{D{D}_{1}}$ 的方向为 $x\\text{ 、 }y$ 与 $z$ 轴的正方向，建立空间直角坐标系, 则得到正方体各顶点的坐标如下:\n\n$$\nA\\left( {a,0,0}\\right) , B\\left( {a, a,0}\\right) , C\\left( {0, a,0}\\right) , D\\left( {0,0,0}\\right) ,\n$$\n\n$$\n{A}_{1}\\left( {a,0, a}\\right) ,{B}_{1}\\left( {a, a, a}\\right) ,{C}_{1}\\left( {0, a, a}\\right) ,{D}_{1}\\left( {0,0, a}\\right) .\n$$\n\n据此求出直线 $A{C}_{1}\\text{ 、 }{A}_{1}B\\text{ 、 }{D}_{1}C\\text{ 、 }{A}_{1}D$ 与 ${B}_{1}C$ 的方向向量分别为\n\n$$\n\\overrightarrow{A{C}_{1}} = \\left( {-a, a, a}\\right) ,\n$$\n\n$$\n\\overrightarrow{{A}_{1}B} = \\overrightarrow{{D}_{1}C} = \\left( {0, a, - a}\\right) ,\n$$\n\n$$\n\\overrightarrow{{A}_{1}D} = \\overrightarrow{{B}_{1}C} = \\left( {-a,0, - a}\\right) .\n$$\n\n计算得到\n\n$$\n\\overrightarrow{A{C}_{1}} \\cdot  \\overrightarrow{{A}_{1}B} = \\overrightarrow{A{C}_{1}} \\cdot  \\overrightarrow{{D}_{1}C} = \\overrightarrow{A{C}_{1}} \\cdot  \\overrightarrow{{A}_{1}D} = \\overrightarrow{A{C}_{1}} \\cdot  \\overrightarrow{{B}_{1}C} = 0,\n$$\n\n所以\n\n$$\nA{C}_{1} \\bot  \\text{ 平面 }{A}_{1}{BD}, A{C}_{1} \\bot  \\text{ 平面 }C{D}_{1}{B}_{1}\\text{ . }\n$$\n\n(2)平面 ${A}_{1}{BD}$ 与平面 $C{D}_{1}{B}_{1}$ 有共同的法向量 $\\overrightarrow{A{C}_{1}}$ ，所以这两个平面平行.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 827,
+          "end": 828
+        },
+        {
+          "source": "book",
+          "start": 839,
+          "end": 874
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 3.4(1)",
+      "markdown": "## 练习 3.4(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 875,
+          "end": 875
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(1) · 1",
+      "markdown": "1. 试证明:\n\n(1)两个平面垂直的充要条件是它们的法向量垂直；\n\n(2)两个平面平行的充要条件是它们的法向量平行.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 877,
+          "end": 882
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 877,
+          "end": 882
+        }
+      ],
+      "id": "x1-3-4-p341-1",
+      "category": "练习3.4(1)",
+      "answer": "1. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 468,
+          "end": 469
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(1) · 2",
+      "markdown": "2. 如图，在平面 $\\alpha$ 与平面 $\\beta$ 上分别有不共线的三点 $A$ 、 $B$ 、 $C$ 与 ${A}_{1}$ 、 ${B}_{1}$ 、 ${C}_{1}$ ，假设 $A{A}_{1}\\text{ 、 }B{B}_{1}$ 与 $C{C}_{1}$ 交于一点 $O$ ,且 $\\left| {AO}\\right|  = \\left| {O{A}_{1}}\\right| ,\\left| {BO}\\right|  = \\left| {O{B}_{1}}\\right| ,\\left| {CO}\\right|  = \\left| {O{C}_{1}}\\right|$ . 求证: 平面 $\\alpha //$ 平面 $\\beta$ .\n\n![bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 883,
+          "end": 892
+        },
+        {
+          "source": "book",
+          "start": 885,
+          "end": 887
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 883,
+          "end": 892
+        },
+        {
+          "source": "book",
+          "start": 885,
+          "end": 887
+        }
+      ],
+      "id": "x1-3-4-p341-2",
+      "category": "练习3.4(1)",
+      "answer": "2. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 470,
+          "end": 471
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(1) · 3",
+      "markdown": "3. 如图， $\\bigtriangleup  {ABC}$ 中， ${AC} = {BC} = \\frac{\\sqrt{2}}{2}{AB}$ ，平面 ${ABED}\\bot$ 平面 ${ABC}$ ， ${ABED}$ 是边长为 1 的正方形, $G\\text{ 、 }F$ 分别是 ${EC}\\text{ 、 }{BD}$ 的中点. 求证:\n\n(1) ${FG}//$ 平面 ${ABC}$ ；\n\n(2) ${AC} \\bot$ 平面 ${EBC}$ .\n\n![bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg)\n\n图 3-4-3\n\n![bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 893,
+          "end": 902
+        },
+        {
+          "source": "book",
+          "start": 889,
+          "end": 891
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 893,
+          "end": 902
+        },
+        {
+          "source": "book",
+          "start": 889,
+          "end": 891
+        }
+      ],
+      "id": "x1-3-4-p341-3",
+      "category": "练习3.4(1)",
+      "answer": "3. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 472,
+          "end": 473
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 求距离",
+      "markdown": "## 2 求距离",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 903,
+          "end": 903
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们先证明点到平面距离的一般公式.\n\n如果 $A\\text{ 、 }B$ 是空间中的两个点,其中点 $B$ 在平面 $\\alpha$ 上, $\\overrightarrow{n}$ 是平面 $\\alpha$ 的一个法向量 (图 3-4-3),那么点 $A$ 到平面 $\\alpha$ 的距离 $d$ 是 $\\overrightarrow{AB}$ 在 $\\overrightarrow{n}$ 的方向上的投影 $\\overrightarrow{AC} = \\left| \\overrightarrow{AB}\\right| \\cos \\langle \\overrightarrow{n},\\overrightarrow{AB}\\rangle \\overrightarrow{{n}_{0}}$ 的模,其中 $\\overrightarrow{{n}_{0}}$ 是 $\\overrightarrow{n}$ 的单位向量(称为平面 $\\alpha$ 的单位法向量)，于是\n\n$$\nd = \\left| \\right| \\overrightarrow{{n}_{0}}\\left| \\right| \\overrightarrow{AB}\\left| {\\cos \\langle \\overrightarrow{n},\\overrightarrow{AB}\\rangle }\\right| .\n$$\n\n用向量的数量积表示, 即\n\n$$\nd = \\left| {\\overrightarrow{{n}_{0}} \\cdot  \\overrightarrow{AB}}\\right|  = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{AB}\\right| }{\\left| \\overrightarrow{n}\\right| }.\n$$\n\n![bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg)\n\n图 3-4-4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 904,
+          "end": 922
+        }
+      ],
+      "emphases": [
+        {
+          "start": 19,
+          "end": 433,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-4-definition-13-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 如图 3-4-4,在长方体 ${ABCD} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 中, $\\left| {AB}\\right|  = 2,\\left| {AD}\\right|  = \\left| {A{A}^{\\prime }}\\right|  = 1.$\n\n(1)求顶点 ${B}^{\\prime }$ 到平面 ${D}^{\\prime }{AC}$ 的距离；\n\n(2)求直线 $B{C}^{\\prime }$ 到平面 ${D}^{\\prime }{AC}$ 的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 923,
+          "end": 928
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 923,
+          "end": 928
+        }
+      ],
+      "id": "x1-3-4-ex-3",
+      "category": "例题",
+      "answer": "解 (1) 如图 3-4-4, 建立空间直角坐标系, 则可得有关点的坐标分别为 ${D}^{\\prime }\\left( {0,0,0}\\right) \\text{ 、 }A\\left( {1,0,1}\\right) \\text{ 、 }C\\left( {0,2,1}\\right)$ 、 ${B}^{\\prime }\\left( {1,2,0}\\right)$ . 所以 $\\overrightarrow{{D}^{\\prime }A} = \\left( {1,0,1}\\right) ,\\overrightarrow{{D}^{\\prime }C} = \\left( {0,2,1}\\right)$ .\n\n设平面 ${D}^{\\prime }{AC}$ 的法向量为 $\\overrightarrow{n} = \\left( {u, v, w}\\right)$ ,则 $\\overrightarrow{n} \\cdot  \\overrightarrow{{D}^{\\prime }A} = 0$ , $\\overrightarrow{n} \\cdot  \\overrightarrow{{D}^{\\prime }C} = 0$ . 把各向量的坐标代入,计算得到 $u + w = 0$ , ${2v} + w = 0$ . 可以取 $v = 1$ ,从而得到平面 ${D}^{\\prime }{AC}$ 的一个法向量为 $\\overrightarrow{n} = \\left( {2,1, - 2}\\right)$ . Q\n\n---\n\n平面的法向量不是唯一的, 所以可以给它的某个坐标一个值, 再确定其他坐标的值.\n\n---\n\n因为 $\\overrightarrow{{B}^{\\prime }C} = \\left( {-1,0,1}\\right)$ ,根据上面得到的点到平面的距离公式知,点 ${B}^{\\prime }$ 到平面 ${D}^{\\prime }{AC}$ 的距离为\n\n$$\nd = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{{B}^{\\prime }C}\\right| }{\\left| \\overrightarrow{n}\\right| } = \\frac{\\left| 2 \\times  \\left( -1\\right)  + \\left( -2\\right)  \\times  1\\right| }{\\sqrt{{2}^{2} + {1}^{2} + {\\left( -2\\right) }^{2}}} = \\frac{4}{3}.\n$$\n\n(2)因为 $\\overrightarrow{B{C}^{\\prime }} = \\overrightarrow{A{D}^{\\prime }}$ ，所以 $B{C}^{\\prime }//A{D}^{\\prime }$ ，从而 $B{C}^{\\prime }//$ 平面 ${D}^{\\prime }{AC}$ ,问题转化为求点 ${C}^{\\prime }\\left( {0,2,0}\\right)$ 到平面 ${D}^{\\prime }{AC}$ 的距离. 因为 $\\overrightarrow{{C}^{\\prime }C} = \\left( {0,0,1}\\right)$ ,所以直线 $B{C}^{\\prime }$ 到平面 ${D}^{\\prime }{AC}$ 的距离为 $\\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{{C}^{\\prime }C}\\right| }{\\left| \\overrightarrow{n}\\right| } = \\frac{2}{3}.$\n\n---\n\n如何求两条异面直线之间的距离?\n\n---\n\n求平面的平行线与平面的距离, 只要求平行线上一点到平面的距离; 求两个平行平面的距离, 也只要求其中一个平面上的一个点到另一个平面的距离.\n\n下一道例题继续用例 2 的题设. 回忆一下, 例 2 已经证明了题中的平面 ${A}_{1}{BD}$ 与平面 $C{D}_{1}{B}_{1}$ 是平行的.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 929,
+          "end": 956
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ ,求平行平面 ${A}_{1}{BD}$ 与 $C{D}_{1}{B}_{1}$ 之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 957,
+          "end": 958
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 957,
+          "end": 958
+        }
+      ],
+      "id": "x1-3-4-ex-4",
+      "category": "例题",
+      "answer": "解 求平行平面 ${A}_{1}{BD}$ 与 $C{D}_{1}{B}_{1}$ 之间的距离,只要求平面\n\n![bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg)\n\n图 3-4-5\n\n$C{D}_{1}{B}_{1}$ 上一点 (例如 ${D}_{1}$ ) 到平面 ${A}_{1}{BD}$ 的距离. 如图 3-4-5,建立空间直角坐标系, 可得点的坐标\n\n$$\nD\\left( {0,0,0}\\right) ,{D}_{1}\\left( {0,0, a}\\right) ,{A}_{1}\\left( {a,0, a}\\right) , B\\left( {a, a,0}\\right) ,\n$$\n\n于是\n\n$$\n\\overrightarrow{{D}_{1}D} = \\left( {0,0, - a}\\right) ,\\overrightarrow{D{A}_{1}} = \\left( {a,0, a}\\right) ,\\overrightarrow{DB} = \\left( {a, a,0}\\right) .\n$$\n\n设 $\\overrightarrow{n} = \\left( {x, y, z}\\right)$ 是平面 ${A}_{1}{BD}$ 的一个法向量,则\n\n$$\n\\left\\{  \\begin{array}{l} \\overrightarrow{n} \\cdot  \\overrightarrow{D{A}_{1}} = {ax} + {az} = 0, \\\\  \\overrightarrow{n} \\cdot  \\overrightarrow{DB} = {ax} + {ay} = 0. \\end{array}\\right.\n$$\n\n因为 $a \\neq  0$ ,所以\n\n$$\n\\left\\{  \\begin{array}{l} x + z = 0, \\\\  x + y = 0. \\end{array}\\right.\n$$\n\n不妨取 $z = 1$ ,则 $x =  - 1, y = 1$ ,就得到平面 ${A}_{1}{BD}$ 的一个法向量 $\\overrightarrow{n} = \\left( {-1,1,1}\\right)$ . 这样,点 ${D}_{1}$ 到平面 ${A}_{1}{BD}$ 的距离为\n\n$$\nd = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{{D}_{1}D}\\right| }{\\left| \\overrightarrow{n}\\right| } = \\frac{\\left| \\left( -1\\right)  \\times  0 + 1 \\times  0 + 1 \\times  \\left( -a\\right) \\right| }{\\sqrt{{\\left( -1\\right) }^{2} + {1}^{2} + {1}^{2}}} = \\frac{\\sqrt{3}}{3}a.\n$$\n\n因此,平行平面 ${A}_{1}{BD}$ 与平面 $C{D}_{1}{B}_{1}$ 之间的距离为 $\\frac{\\sqrt{3}}{3}a$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 959,
+          "end": 996
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 3.4(2)",
+      "markdown": "## 练习 3.4(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 997,
+          "end": 997
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(2) · 1",
+      "markdown": "1. 已知三棱锥 $A - {BCD}$ 的三条侧棱 ${AB}$ 、 ${AC}$ 、 ${AD}$ 两两垂直，且 $\\left| {AB}\\right|  = 1$ ， $\\left| {AC}\\right|  =$ 2, $\\left| {AD}\\right|  = 3$ . 求顶点 $A$ 到平面 ${BCD}$ 的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 999,
+          "end": 1000
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 999,
+          "end": 1000
+        }
+      ],
+      "id": "x1-3-4-p342-1",
+      "category": "练习3.4(2)",
+      "answer": "1. $\\frac{6}{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 476,
+          "end": 477
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(2) · 2",
+      "markdown": "2. 在习题 3.4(1)第 3 题的题设条件下，求直线 ${FG}$ 与平面 ${ABC}$ 的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1001,
+          "end": 1002
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1001,
+          "end": 1002
+        }
+      ],
+      "id": "x1-3-4-p342-2",
+      "category": "练习3.4(2)",
+      "answer": "2. $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 478,
+          "end": 479
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "3 求角的大小",
+      "markdown": "## 3 求角的大小",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1003,
+          "end": 1003
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "![bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg)\n\n图 3-4-6",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1004,
+          "end": 1008
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 如图 3-4-6,在正方体 ${ABCD} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 中, $E$ 、 $F$ 分别是 ${AD}\\text{ 、 }{AB}$ 的中点. 求直线 ${B}^{\\prime }E$ 与 ${C}^{\\prime }F$ 所成角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1009,
+          "end": 1010
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1009,
+          "end": 1010
+        }
+      ],
+      "id": "x1-3-4-ex-5",
+      "category": "例题",
+      "answer": "解 设正方体的棱长为 $a$ . 以点 ${D}^{\\prime }$ 为原点，分别以 $\\overrightarrow{{D}^{\\prime }{A}^{\\prime }}$ 、 $\\overrightarrow{{D}^{\\prime }{C}^{\\prime }}$ 与 $\\overrightarrow{{D}^{\\prime }D}$ 的方向为 $x\\text{ 、 }y$ 与 $z$ 轴的正方向,建立空间直角坐标系,则可得有关点的坐标分别为 ${B}^{\\prime }\\left( {a, a,0}\\right) \\text{ 、 }E\\left( {\\frac{a}{2},0, a}\\right)$ 、 ${C}^{\\prime }\\left( {0, a,0}\\right) \\text{ 、 }F\\left( {a,\\frac{a}{2}, a}\\right)$ ,因此,直线 ${B}^{\\prime }E$ 与 ${C}^{\\prime }F$ 的方向向量分别是\n\n$$\n\\overrightarrow{{B}^{\\prime }E} = \\left( {-\\frac{a}{2}, - a, a}\\right) \\text{ 与 }\\overrightarrow{{C}^{\\prime }F} = \\left( {a, - \\frac{a}{2}, a}\\right) .\n$$\n\n从而\n\n$$\n\\cos \\left\\langle  {\\overrightarrow{{B}^{\\prime }E},\\overrightarrow{{C}^{\\prime }F}}\\right\\rangle   = \\frac{\\overrightarrow{{B}^{\\prime }E} \\cdot  \\overrightarrow{{C}^{\\prime }F}}{\\left| \\overrightarrow{{B}^{\\prime }E}\\right| \\left| \\overrightarrow{{C}^{\\prime }F}\\right| } = \\frac{4}{9}.\n$$\n\n所以,直线 ${B}^{\\prime }E$ 与 ${C}^{\\prime }F$ 所成角的大小为 $\\arccos \\frac{4}{9}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1011,
+          "end": 1024
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "例 5 中的两条直线是异面直线. 事实上, 用向量方法求两条直线所成的角时, 无须区分它们是否为异面直线. 但要注意,如果两条直线 ${l}_{1}$ 与 ${l}_{2}$ 的方向向量分别是 $\\overrightarrow{{r}_{1}}$ 与 $\\overrightarrow{{r}_{2}}$ ,当求出的方向向量的夹角 $\\left\\langle  {\\overrightarrow{{r}_{1}},\\overrightarrow{{r}_{2}}}\\right\\rangle   > \\frac{\\pi }{2}$ 时, ${l}_{1}$ 与 ${l}_{2}$ 所成的角 $\\theta$ 是它的补角 $\\pi  - \\left\\langle  {\\overrightarrow{{r}_{1}},\\overrightarrow{{r}_{2}}}\\right\\rangle$ . 因为我们约定两条直线所成角的取值在 0 和 $\\frac{\\pi }{2}$ 之间. 所以,用方向向量 ${\\overrightarrow{r}}_{1}$ 与 ${\\overrightarrow{r}}_{2}$ 表达的两条直线所成角 $\\theta$ 的公式为\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{r}_{1}} \\cdot  \\overrightarrow{{r}_{2}}\\right| }{\\left| \\overrightarrow{{r}_{1}}\\right| \\left| \\overrightarrow{{r}_{2}}\\right| }.\n$$\n\n立体几何中常见的有关角的问题还有直线与平面所成的角和平面与平面所成的角(二面角). 确定这两类角的大小, 都可以通过转化为直线的方向向量和平面的法向量两个向量夹角的问题加以解决. 当然, 为得到最终的解答, 必须知道所要讨论的角与转化后的向量夹角的关系.\n\n先考虑直线与平面所成的角. 从图 3-4-7 可以看出, 直线与平面垂线(法向量所在直线)所成的角和直线与平面所成的角的关系: 如果直线与平面所成的角为 $\\theta$ ,那么直线与平面垂线 (法向量所在直线) 所成的角为 $\\frac{\\pi }{2} - \\theta$ . 因此,如果直线的一个方向向量为 $\\overrightarrow{r}$ ,平面的一个法向量为 $\\overrightarrow{n}$ ,那么直线与平面所成的角 $\\theta$ 由如下公式确定:\n\n![bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg)\n\n图 3-4-7",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1025,
+          "end": 1038
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 715,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-3-4-formula-22-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 如图 3-4-8,在四棱锥 $P - {ABCD}$ 中, ${PA} \\bot$ 平面 ${ABCD},{AB} \\bot  {AD},{BC}//{AD},\\left| {PA}\\right|  = \\left| {AB}\\right|  = \\left| {BC}\\right|  = 1$ , $\\left| {CD}\\right|  = \\sqrt{2},\\angle {CDA} = {45}^{ \\circ  }$ . 求直线 ${PB}$ 与平面 ${PCD}$ 所成角的大小.\n\n$$\n\\sin \\theta  = \\cos \\left( {\\frac{\\pi }{2} - \\theta }\\right)  = \\frac{\\left| \\overrightarrow{r} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{r}\\right| \\left| \\overrightarrow{n}\\right| }.\n$$\n\n![bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg)\n\n图 3-4-8",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1039,
+          "end": 1048
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1039,
+          "end": 1048
+        }
+      ],
+      "id": "x1-3-4-ex-6",
+      "category": "例题",
+      "answer": "解 因为 ${PA} \\bot$ 平面 ${ABCD},{AB} \\bot  {AD}$ ,则可取点 $A$ 为原点,分别以 $\\overrightarrow{AB}\\text{ 、 }\\overrightarrow{AD}$ 与 $\\overrightarrow{AP}$ 的方向为 $x\\text{ 、 }y$ 与 $z$ 轴的正方向,建立空间直角坐标系. 作 ${CE}//{BA}$ 交 ${AD}$ 于点 $E$ ，则 $\\left| {CE}\\right|  = 1$ . 又 $\\left| {CD}\\right|  = \\sqrt{2}$ ,由勾股定理,易知 $\\bigtriangleup {CDE}$ 是等腰直角三角形,从而 $\\left| {ED}\\right|  = 1,\\left| {AD}\\right|  = 2$ . 于是,可得有关点的坐标分别为 $A\\left( {0,0,0}\\right)$ 、 $B\\left( {1,0,0}\\right) \\text{ 、 }C\\left( {1,1,0}\\right) \\text{ 、 }D\\left( {0,2,0}\\right) \\text{ 、 }P\\left( {0,0,1}\\right)$ ,所以 $\\overrightarrow{PB} = \\left( {1,0, - 1}\\right) \\text{ 、 }\\overrightarrow{CD} = \\left( {-1,1,0}\\right) \\text{ 、 }\\overrightarrow{PD} = \\left( {0,2, - 1}\\right)$ .\n\n设平面 ${PCD}$ 的法向量为 $\\overrightarrow{n} = \\left( {u, v, w}\\right)$ ,则 $\\overrightarrow{n} \\cdot  \\overrightarrow{CD} = 0$ , $\\overrightarrow{n} \\cdot  \\overrightarrow{PD} = 0$ . 即 $- u + v = 0,{2v} - w = 0$ . 取 $v = 1$ ,从而得到平面 ${PCD}$ 的一个法向量为 $\\overrightarrow{n} = \\left( {1,1,2}\\right)$ .\n\n设直线 ${PB}$ 与平面 ${PCD}$ 所成角的大小为 $\\theta \\left( {0 \\leq  \\theta  \\leq  \\frac{\\pi }{2}}\\right)$ ,则\n\n$$\n\\sin \\theta  = \\cos \\left( {\\frac{\\pi }{2} - \\theta }\\right)  = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{PB}\\right| }{\\left| \\overrightarrow{n}\\right| \\left| \\overrightarrow{PB}\\right| } = \\frac{\\sqrt{3}}{6}.\n$$\n\n所以,直线 ${PB}$ 与平面 ${PCD}$ 所成角的大小为 $\\arcsin \\frac{\\sqrt{3}}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1049,
+          "end": 1060
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 3.4(3)",
+      "markdown": "## 练习 3.4(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1061,
+          "end": 1061
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(3) · 1",
+      "markdown": "1. 如图,四边形 ${ABCD}$ 是矩形, ${PA} \\bot$ 平面 ${ABCD}, E$ 是线段 ${PA}$ 的中点. 已知 $\\left| {PA}\\right|  = 2,\\left| {AB}\\right|  = \\sqrt{3},\\left| {BC}\\right|  = 1$ . 求异面直线 ${BE}$ 与 ${PC}$ 所成角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1063,
+          "end": 1072
+        },
+        {
+          "source": "book",
+          "start": 1065,
+          "end": 1067
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1063,
+          "end": 1072
+        },
+        {
+          "source": "book",
+          "start": 1065,
+          "end": 1067
+        }
+      ],
+      "id": "x1-3-4-p343-1",
+      "category": "练习3.4(3)",
+      "answer": "1. $\\arccos \\frac{5\\sqrt{2}}{8}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 482,
+          "end": 483
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(3) · 2",
+      "markdown": "2. 如图,在棱长为 1 的正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E$ 是棱 ${AB}$ 上的动点.\n\n(1)求证: $D{A}_{1}\\bot E{D}_{1}$ ；\n\n(2)确定点 $E$ 的位置，使得直线 $D{A}_{1}$ 与平面 ${CE}{D}_{1}$ 所成的角是 ${45}^{ \\circ  }$ .\n\n现在考虑二面角的平面角和它的两个半平面所在平面的法向量夹角大小的关系. 如图 3-4-9, 一个平面的法向量垂直于该平面上的所有直线, 所以法向量夹角的两条边垂直于二面角的平面角相应的边. 从平面几何知道, 这样两个角或者相等, 或者互补.\n\n![bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg)\n\n图 3-4-9\n\n因此,如果 $\\overrightarrow{{n}_{1}}$ 与 $\\overrightarrow{{n}_{2}}$ 分别是两个平面的法向量,那么这两个平面所成的锐二面角 (或直二面角) $\\theta$ 由如下公式确定:\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{n}_{1}} \\cdot  \\overrightarrow{{n}_{2}}\\right| }{\\left| \\overrightarrow{{n}_{1}}\\right| \\left| \\overrightarrow{{n}_{2}}\\right| }.\n$$\n\n![bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1073,
+          "end": 1090
+        },
+        {
+          "source": "book",
+          "start": 1069,
+          "end": 1071
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1073,
+          "end": 1090
+        },
+        {
+          "source": "book",
+          "start": 1069,
+          "end": 1071
+        }
+      ],
+      "id": "x1-3-4-p343-2",
+      "category": "练习3.4(3)",
+      "answer": "2.(1)证明略. (2)E是 ${AB}$ 的中点.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 484,
+          "end": 485
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 如图 3-4-10(1),在正四棱锥 $P - {ABCD}$ 中, $\\left| {PA}\\right|  = \\; \\left| {AB}\\right|  = 2\\sqrt{2}, E\\text{ 、 }F$ 分别为 ${PB}\\text{ 、 }{PD}$ 的中点. 若平面 ${AEF}$ 与棱 ${PC}$ 交于点 $G$ ,求平面 ${AEGF}$ 与平面 ${ABCD}$ 所成二面角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg)\n\n图 3-4-10",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1091,
+          "end": 1096
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1091,
+          "end": 1096
+        }
+      ],
+      "id": "x1-3-4-ex-7",
+      "category": "例题",
+      "answer": "解 如图 3-4-10(2),连接 ${AC}\\text{ 、 }{BD}$ 交于点 $O$ ,则 ${OA}$ 、 ${OB}\\text{ 、 }{OP}$ 两两互相垂直. 以点 $O$ 为坐标原点,分别以 $\\overrightarrow{OA}$ 、 $\\overrightarrow{OB}\\text{ 、 }\\overrightarrow{OP}$ 的方向为 $x\\text{ 、 }y$ 与 $z$ 轴的正方向,建立空间直角坐标系.\n\n因为 $\\left| {PA}\\right|  = \\left| {AB}\\right|  = 2\\sqrt{2}$ ,由勾股定理,易知 $\\left| {OA}\\right|  = \\left| {OB}\\right|  = \\; \\left| {OP}\\right|  = 2$ ,从而可得有关点的坐标分别为 $A\\left( {2,0,0}\\right) \\text{ 、 }B\\left( {0,2,0}\\right)$ 、 $C\\left( {-2,0,0}\\right) \\text{ 、 }D\\left( {0, - 2,0}\\right) \\text{ 、 }P\\left( {0,0,2}\\right) \\text{ 、 }E\\left( {0,1,1}\\right) \\text{ 、 }F\\left( {0, - 1,1}\\right) .$ 所以 $\\overrightarrow{AE} = \\left( {-2,1,1}\\right) ,\\overrightarrow{AF} = \\left( {-2, - 1,1}\\right)$ .\n\n设平面 ${AEGF}$ 的法向量为 $\\overrightarrow{n} = \\left( {u, v, w}\\right)$ ,由 $\\overrightarrow{n} \\cdot  \\overrightarrow{AE} = 0$ 与 $\\overrightarrow{n} \\cdot  \\overrightarrow{AF} = 0$ ,推出关系式 $- {2u} + v + w = 0$ 与 $- {2u} - v + w = 0$ . 可取 $u = 1$ ,解得 $v = 0, w = 2$ ,从而得到平面 ${AEGF}$ 的一个法向量 $\\overrightarrow{n} = \\left( {1,0,2}\\right)$ .\n\n平面 ${ABCD}$ 的法向量显然可取为 $\\overrightarrow{m} = \\left( {0,0,1}\\right)$ ,从而\n\n$$\n\\cos \\langle \\overrightarrow{m},\\overrightarrow{n}\\rangle  = \\frac{\\overrightarrow{m} \\cdot  \\overrightarrow{n}}{\\left| \\overrightarrow{m}\\right| \\left| \\overrightarrow{n}\\right| } = \\frac{2}{1 \\times  \\sqrt{5}} = \\frac{2\\sqrt{5}}{5}.\n$$\n\n所以,平面 ${AEGF}$ 与平面 ${ABCD}$ 所成的二面角是 $\\arccos \\frac{2\\sqrt{5}}{5}$ 与 $\\pi  - \\arccos \\frac{2\\sqrt{5}}{5}$ (前者是锐二面角).",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1097,
+          "end": 1110
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 3.4(4)",
+      "markdown": "## 练习 3.4(4)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1111,
+          "end": 1111
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(4) · 1",
+      "markdown": "1. 在正方体 ${ABCD} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 中, $E\\text{ 、 }F$ 分别是 ${BC}\\text{ 、 }{CD}$ 的中点. 求二面角 $B - {B}^{\\prime }E - F$ 的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1113,
+          "end": 1114
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1113,
+          "end": 1114
+        }
+      ],
+      "id": "x1-3-4-p344-1",
+      "category": "练习3.4(4)",
+      "answer": "1. $\\pi  - \\arccos \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 488,
+          "end": 489
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(4) · 2",
+      "markdown": "2. 如图，在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中，求平面 $D{A}_{1}B$ 与平面 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 所成二面角的正弦值.\n\n![bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1115,
+          "end": 1124
+        },
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1119
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1115,
+          "end": 1124
+        },
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1119
+        }
+      ],
+      "id": "x1-3-4-p344-2",
+      "category": "练习3.4(4)",
+      "answer": "2. $\\frac{\\sqrt{6}}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 490,
+          "end": 491
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.4(4) · 3",
+      "markdown": "3. 如图,在正四棱锥 $P - {ABCD}$ 中,底面边长为 2,高为 3. 求二面角 $A - {PB} - C$ 的大小.\n\n![bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1125,
+          "end": 1126
+        },
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1123
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1125,
+          "end": 1126
+        },
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1123
+        }
+      ],
+      "id": "x1-3-4-p344-3",
+      "category": "练习3.4(4)",
+      "answer": "3. $\\pi  - \\arccos \\frac{1}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 492,
+          "end": 493
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 3.4",
+      "markdown": "## 习题 3.4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1127,
+          "end": 1127
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1129,
+          "end": 1129
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 1",
+      "markdown": "1. 在正四棱柱 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $\\left| {A{A}_{1}}\\right|  = 2\\left| {AB}\\right|  = 2, E$ 为 $A{A}_{1}$ 的中点. 求异面直线 ${BE}$ 与 $C{D}_{1}$ 所成角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1131,
+          "end": 1132
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1131,
+          "end": 1132
+        }
+      ],
+      "id": "x1-3-4-h34A-1",
+      "category": "习题3.4A",
+      "answer": "1. $\\arccos \\frac{3\\sqrt{10}}{10}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 498,
+          "end": 499
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 2",
+      "markdown": "2. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $M\\text{ 、 }N\\text{ 、 }P$ 分别是 $C{C}_{1}\\text{ 、 }{B}_{1}{C}_{1}\\text{ 、 }{C}_{1}{D}_{1}$ 的中点. 求证: 平面 ${MNP}//$ 平面 ${A}_{1}{BD}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1133,
+          "end": 1134
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1133,
+          "end": 1134
+        }
+      ],
+      "id": "x1-3-4-h34A-2",
+      "category": "习题3.4A",
+      "answer": "2. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 500,
+          "end": 501
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 3",
+      "markdown": "3. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,求 $B{B}_{1}$ 与平面 ${AC}{D}_{1}$ 所成角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1135,
+          "end": 1136
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1135,
+          "end": 1136
+        }
+      ],
+      "id": "x1-3-4-h34A-3",
+      "category": "习题3.4A",
+      "answer": "3. $\\arcsin \\frac{\\sqrt{3}}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 502,
+          "end": 503
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 4",
+      "markdown": "4. 如图,已知正三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 的各条棱长均为 $a, D$ 是棱 $C{C}_{1}$ 的中点. 求证: 平面 $A{B}_{1}D \\bot$ 平面 ${AB}{B}_{1}{A}_{1}$ .\n\n![bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg)\n\n(第 4 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1137,
+          "end": 1150
+        },
+        {
+          "source": "book",
+          "start": 1139,
+          "end": 1141
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1137,
+          "end": 1150
+        },
+        {
+          "source": "book",
+          "start": 1139,
+          "end": 1141
+        }
+      ],
+      "id": "x1-3-4-h34A-4",
+      "category": "习题3.4A",
+      "answer": "4. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 504,
+          "end": 505
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 5",
+      "markdown": "5. 如图,已知 $P$ 为平面 ${ABC}$ 外一点, ${AP}\\text{ 、 }{AB}\\text{ 、 }{AC}$ 两两互相垂直,过 ${AC}$ 的中点 $D$ 作 ${ED} \\bot$ 平面 ${ABC}$ ,且 $\\left| {ED}\\right|  = 1,\\left| {PA}\\right|  = 2$ , $\\left| {AC}\\right|  = 2$ ,多面体 $B - {PADE}$ 的体积是 $\\frac{\\sqrt{3}}{3}$ . 求平面 ${PBE}$ 与平面 ${ABC}$ 所成二面角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1151,
+          "end": 1152
+        },
+        {
+          "source": "book",
+          "start": 1143,
+          "end": 1145
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1151,
+          "end": 1152
+        },
+        {
+          "source": "book",
+          "start": 1143,
+          "end": 1145
+        }
+      ],
+      "id": "x1-3-4-h34A-5",
+      "category": "习题3.4A",
+      "answer": "5. $\\arccos \\frac{\\sqrt{5}}{5}$ 与 $\\pi  - \\arccos \\frac{\\sqrt{5}}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 506,
+          "end": 507
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4A · 6",
+      "markdown": "6. 如图,在直棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中, $\\left| {A{A}_{1}}\\right|  = \\left| {AB}\\right|  = \\left| {AC}\\right|  = 2$ , ${AB} \\bot  {AC}, D\\text{ 、 }E\\text{ 、 }F$ 分别是 ${A}_{1}{B}_{1}\\text{ 、 }C{C}_{1}\\text{ 、 }{BC}$ 的中点.\n\n(1)求 ${AE}$ 与平面 ${DEF}$ 所成角的大小；\n\n(2)求 $A$ 到平面 ${DEF}$ 的距离.\n\n![bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg)\n\n(第 6 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1153,
+          "end": 1158
+        },
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1149
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1153,
+          "end": 1158
+        },
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1149
+        }
+      ],
+      "id": "x1-3-4-h34A-6",
+      "category": "习题3.4A",
+      "answer": "6. (1) $\\arcsin \\frac{\\sqrt{70}}{14}$ . (2) $\\frac{5\\sqrt{14}}{14}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 508,
+          "end": 509
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "## B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1159,
+          "end": 1159
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题3.4B · 1",
+      "markdown": "1. 如图，在空间四边形 ${ABCD}$ 中， $\\left| {AC}\\right|  = \\left| {AD}\\right|$ ， $\\angle {BAC} = \\angle {BAD}$ . 求证: ${CD} \\bot  {AB}$ .\n\n![bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1161,
+          "end": 1170
+        },
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1165
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1161,
+          "end": 1170
+        },
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1165
+        }
+      ],
+      "id": "x1-3-4-h34B-1",
+      "category": "习题3.4B",
+      "answer": "1. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 512,
+          "end": 513
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4B · 2",
+      "markdown": "2. 如图，在三棱锥 $P - {ABC}$ 中， ${PA}\\bot$ 平面 ${ABC}$ ， ${AB}\\bot {AC}$ ， $\\left| {PA}\\right|  = \\left| {AC}\\right|  = \\frac{1}{2}\\left| {AB}\\right|$ ， $M\\text{ 、 }S$ 分别为 ${PB}\\text{ 、 }{BC}$ 的中点, $N$ 为 ${AB}$ 上一点, $\\left| {BN}\\right|  = 3\\left| {NA}\\right|$ .\n\n(1)求证: ${CM}\\bot {SN}$ ；\n\n(2)求二面角 $P - {BC} - A$ 的大小.\n\n![bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1176
+        },
+        {
+          "source": "book",
+          "start": 1167,
+          "end": 1169
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1176
+        },
+        {
+          "source": "book",
+          "start": 1167,
+          "end": 1169
+        }
+      ],
+      "id": "x1-3-4-h34B-2",
+      "category": "习题3.4B",
+      "answer": "2.(1)证明略. (2) $\\arccos \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 514,
+          "end": 515
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4B · 3",
+      "markdown": "3. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,设 ${AB}\\text{ 、 }D{D}_{1}$ 的中点分别为 $M\\text{ 、 }N$ . 求直线 ${B}_{1}M$ 与 ${CN}$ 所成角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1177,
+          "end": 1182
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1177,
+          "end": 1182
+        }
+      ],
+      "id": "x1-3-4-h34B-3",
+      "category": "习题3.4B",
+      "answer": "3. $\\frac{\\pi }{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 516,
+          "end": 517
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4B · 4",
+      "markdown": "4. 过边长为 1 的正方形 ${ABCD}$ 的顶点 $A$ ,作长度为 1 的线段 ${AE} \\bot$ 平面 ${ABCD}$ . 求平面 ${ADE}$ 与平面 ${BCE}$ 所成二面角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1183,
+          "end": 1184
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1183,
+          "end": 1184
+        }
+      ],
+      "id": "x1-3-4-h34B-4",
+      "category": "习题3.4B",
+      "answer": "4. $\\frac{\\pi }{4}$ 与 $\\frac{3\\pi }{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 518,
+          "end": 519
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.4B · 5",
+      "markdown": "5. 如图,在棱长为 1 的正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\\text{ 、 }F$ 分别为棱 $A{A}_{1}\\text{ 、 }B{B}_{1}$ 的中点, $G$ 为棱 ${A}_{1}{B}_{1}$ 上的一点. 求点 $G$ 到平面 ${D}_{1}{EF}$ 的距离.\n\n![bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1186
+        },
+        {
+          "source": "book",
+          "start": 1179,
+          "end": 1181
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1186
+        },
+        {
+          "source": "book",
+          "start": 1179,
+          "end": 1181
+        }
+      ],
+      "id": "x1-3-4-h34B-5",
+      "category": "习题3.4B",
+      "answer": "5. $\\frac{\\sqrt{5}}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 520,
+          "end": 521
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "line": 827,
+      "repair": "例2证明前置与题图归位；817–825一般定理恢复教材正文",
+      "evidence": "独立点积复算为0并核对原文行段"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 795,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 829,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 885,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 889,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 899,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 919,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 961,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1005,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1035,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1045,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1065,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1069,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1081,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1093,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1117,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1121,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1139,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1143,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1147,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1163,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1167,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1179,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-3-4.json",
+    "question_count": 28,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

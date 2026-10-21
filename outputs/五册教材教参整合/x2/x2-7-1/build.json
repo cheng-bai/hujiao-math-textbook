@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-7-1",
+  "book_id": "x2",
+  "section": "7.1",
+  "title": "条件概率与相关公式",
+  "section_json": "batch/sections/x2/x2-7-1.json",
+  "output": "outputs/五册教材教参整合/x2/x2-7-1",
+  "fingerprint": "7a24f196ee5a3c79dcd82cb7a24cb7096280b308a9a1362915dac3bcd0cd5f33",
+  "status": "rendered",
+  "questions": 20,
+  "answers": 20,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-fd4f1ccfe628131eab9e.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_0_0_3_1654_1170_0.jpg",
+      "sha256": "fd4f1ccfe628131eab9e306a93f66747e95a231f21ea9d5a37e58f15df82bab0",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md": "f24bb495b492c1d6617e45d97bc2a42951ca4d7710507fb3bb77280f2c88505c",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
+  },
+  "student_images": [
+    "images/book-fd4f1ccfe628131eab9e.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "fc0db1a9255e88b61126402610d9cc86bce0c64d49c2c25f7fcf4202d2212abd",
+    "student.html": "78b5731263eb501085cb8c09dcf26dabb301edfd3d3f624aaba757f4e1d595c4",
+    "student.zip": "9b73e004acabd23795a8c4feb04816c36a9162acc3e15e38711ac3c73860578a",
+    "content.json": "dda5ebc1eee6ffdd79382d36dd709efaae47d4296b88fae5de74734bb7e07b67"
+  }
+}

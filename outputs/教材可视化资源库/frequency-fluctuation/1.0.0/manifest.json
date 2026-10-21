@@ -1,0 +1,324 @@
+{
+  "asset_id": "5ec94bc3-492c-5b81-bfa9-cb6def2930f6",
+  "contributors": [
+    {
+      "name": "Codex calculus-stats implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:05Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "n": 200,
+      "p": 0.5,
+      "seed": 3
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "calculus-stats",
+    "source_build_sha256": "ef90af99e9df73e21a67be694684ac5c089cbf0a9c64b867efeaa7ae66116fe1",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-12-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sectionId": "bx3-12-3",
+          "sourceSha256": "0f30363723bd1032aa9fbdf3bb24a583183424d78448dae7d0b42aeab34c0a08"
+        }
+      ],
+      "sections": [
+        "bx3-12-3"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 24977,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "ef90af99e9df73e21a67be694684ac5c089cbf0a9c64b867efeaa7ae66116fe1"
+    },
+    {
+      "bytes": 6660,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "be74f9a6e6c5f1277a74ce78c58ac772e16d3dab56d0a1297aecd5eb8103a576"
+    },
+    {
+      "bytes": 12944,
+      "media_type": "text/javascript",
+      "path": "source/calculus-stats.js",
+      "role": "source",
+      "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+    },
+    {
+      "bytes": 26504,
+      "media_type": "application/json",
+      "path": "source/calculus-stats.json",
+      "role": "source",
+      "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+    },
+    {
+      "bytes": 5064,
+      "media_type": "text/javascript",
+      "path": "source/test-calculus-stats.mjs",
+      "role": "source",
+      "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1499,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "0d751afdea1014faca9e6ff9d230ec37e318c99755c7402f033b7bff7fb9b566"
+    },
+    {
+      "bytes": 4068,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "e44aeb8fa89f5e4bfb3d1a0ccb1206ce45aef864a00729d62a339c2522f2dee3"
+    },
+    {
+      "bytes": 1088,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "a7e298875d84bdfa028953f7047b0541543836610b63c9aea48755b71fc76e0e"
+    },
+    {
+      "bytes": 2453,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "e446675e38b8ed389039f1219c62d47bfed0b20166d8cc0b91d07c774c921f56"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "7d8d46b7af40686c7e504c5aecec6f25bb83f8d313a2d624c9fae96720d715e8"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 511,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "01e0d786d7f97c24bcc368e4162dfa05cbae32fb4eeba19cb516c7c6e968c887"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "每次试验结果随机，累积频率通常会波动；大数定律讨论样本量增大时接近概率的规律，不表示每一步单调靠近或有限样本必然逼近。"
+    ],
+    "learning_goals": [
+      "重复进行固定概率试验，观察逐次累积频率的随机波动轨迹。"
+    ],
+    "objects": [
+      "频率会波动，不是单调趋近"
+    ],
+    "parameters": {
+      "n": {
+        "default": 200,
+        "display_range": [
+          20,
+          500
+        ],
+        "domain": "本实验允许输入范围 [20, 500]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      },
+      "p": {
+        "default": 0.5,
+        "display_range": [
+          0.1,
+          0.9
+        ],
+        "domain": "本实验允许输入范围 [0.1, 0.9]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "seed": {
+        "default": 3,
+        "display_range": [
+          1,
+          9
+        ],
+        "domain": "本实验允许输入范围 [1, 9]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "calculus-stats"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "重复进行固定概率试验，观察逐次累积频率的随机波动轨迹。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "n": 200,
+          "p": 0.5,
+          "seed": 3
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "frequency-fluctuation",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "n": {
+        "maximum": 500,
+        "minimum": 20,
+        "type": "integer"
+      },
+      "p": {
+        "maximum": 0.9,
+        "minimum": 0.1,
+        "type": "number"
+      },
+      "seed": {
+        "maximum": 9,
+        "minimum": 1,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "频率会波动，不是单调趋近",
+  "updated_at": "2026-10-19T16:47:05Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/calculus-stats.js",
+          "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+        },
+        {
+          "path": "source/calculus-stats.json",
+          "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+        },
+        {
+          "path": "source/test-calculus-stats.mjs",
+          "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130504Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "ef90af99e9df73e21a67be694684ac5c089cbf0a9c64b867efeaa7ae66116fe1"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130504Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "ef90af99e9df73e21a67be694684ac5c089cbf0a9c64b867efeaa7ae66116fe1"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bx3-chapter-end-10",
+  "book_id": "bx3",
+  "section_path": "batch/sections/bx3/bx3-chapter-end-10.json",
+  "fingerprint": "7472f8e901ec9b73e3f4a9fc784afad56deca2528722646cda6b4ce901ae84d3",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 20,
+        "answers": 20,
+        "teacher_formulas": 245,
+        "student_formulas": 181,
+        "checks": 79,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 7.81,
+  "finished_at": "2026-10-20T02:13:18+08:00"
+}

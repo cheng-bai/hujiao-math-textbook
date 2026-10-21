@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-3-1",
+  "book_id": "x1",
+  "section": "3.1",
+  "title": "空间向量及其运算",
+  "section_json": "batch/sections/x1/x1-3-1.json",
+  "output": "outputs/五册教材教参整合/x1/x1-3-1",
+  "fingerprint": "9bbe35e7ee6ad35306c2cce8d77e6dff2ca06cbbb0ccd50c6bc4e8e7552b3387",
+  "status": "rendered",
+  "questions": 18,
+  "answers": 18,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-608e6b27b1093c3d2d3d.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_0_5_5_1648_1179_0.jpg",
+      "sha256": "608e6b27b1093c3d2d3d60fae91d6cf96f047ca1ced3f52906a10ed227e404b8",
+      "private": false
+    },
+    "images/private-dcedd0e3714334ba5202.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_110_581_1692_443_280_0.jpg",
+      "sha256": "dcedd0e3714334ba52023008054ed2d3b51b476b411b675f7deaee6869293ae0",
+      "private": true
+    },
+    "images/book-99aa0b40aa0b5dbaf7a0.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_2_1124_573_309_306_0.jpg",
+      "sha256": "99aa0b40aa0b5dbaf7a03c0751ecf77a3774570c90c1a110ac629d3d7a90a3b0",
+      "private": false
+    },
+    "images/private-47274f5aa899f7a484d1.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg",
+      "sha256": "47274f5aa899f7a484d1a169082d43e2b922958cc4c196bcdab46615e88dffaa",
+      "private": true
+    },
+    "images/book-c22343343dd015d6ac1e.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_3_1123_341_357_251_0.jpg",
+      "sha256": "c22343343dd015d6ac1ea95d7effbd01da07c2ffade8ec56516265774ed351cd",
+      "private": false
+    },
+    "images/book-79430c85f55663a47b3b.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_3_206_838_297_304_0.jpg",
+      "sha256": "79430c85f55663a47b3b953b0f2a8a00c767bd5e1dd36e4cb4586d109fd74064",
+      "private": false
+    },
+    "images/book-8fed841fb59d678417a2.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_4_1123_1474_354_382_0.jpg",
+      "sha256": "8fed841fb59d678417a254555bbe25c3c1cc4763fc5992b555bf27e890d7b57f",
+      "private": false
+    },
+    "images/book-546b78cef7d12a9285b5.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_5_1161_805_317_306_0.jpg",
+      "sha256": "546b78cef7d12a9285b5ac5516c5c07b158b99aaabe53b563eaa618d6f3e1c3e",
+      "private": false
+    },
+    "images/private-30a43ffeaec771523907.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_121_827_1646_523_337_0.jpg",
+      "sha256": "30a43ffeaec771523907520b37421b02b56a0bf20d50361e452e0e4b0c27d399",
+      "private": true
+    },
+    "images/book-7bb9ee2ff5f6e17662d8.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_5_443_1747_281_301_0.jpg",
+      "sha256": "7bb9ee2ff5f6e17662d88b631e6686161ecf29b46d70304beffaa446d2a5f807",
+      "private": false
+    },
+    "images/book-32a93f8486f11a9bebc7.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_5_903_1744_315_301_0.jpg",
+      "sha256": "32a93f8486f11a9bebc7bae3ba4800446c3d68ea9ecce9ba1b6ed1bd3db7be80",
+      "private": false
+    },
+    "images/book-2c26e97185ca8392b2ee.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_6_1125_636_325_305_0.jpg",
+      "sha256": "2c26e97185ca8392b2eeda2f8ef5f8e7f109e2c39df7518253d346ccb9f070d9",
+      "private": false
+    },
+    "images/book-57e1614a2b08db070f95.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_6_1135_1038_312_272_0.jpg",
+      "sha256": "57e1614a2b08db070f9547dfc226d131912422895939b6dcad98b5c0ae860b5e",
+      "private": false
+    },
+    "images/book-f54d4f53539962a19fcb.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_6_338_1512_351_270_0.jpg",
+      "sha256": "f54d4f53539962a19fcb0605efe1cf7af8e1605b32c8713281c158fd23a3e437",
+      "private": false
+    },
+    "images/book-a2023c23e4bc4041971d.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_6_799_1543_481_228_0.jpg",
+      "sha256": "a2023c23e4bc4041971d6e8a7f5ca68a7ea09f59ce2b1af5d2c384c3f6915ec9",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "student_images": [
+    "images/book-2c26e97185ca8392b2ee.jpg",
+    "images/book-32a93f8486f11a9bebc7.jpg",
+    "images/book-546b78cef7d12a9285b5.jpg",
+    "images/book-57e1614a2b08db070f95.jpg",
+    "images/book-608e6b27b1093c3d2d3d.jpg",
+    "images/book-79430c85f55663a47b3b.jpg",
+    "images/book-7bb9ee2ff5f6e17662d8.jpg",
+    "images/book-8fed841fb59d678417a2.jpg",
+    "images/book-99aa0b40aa0b5dbaf7a0.jpg",
+    "images/book-a2023c23e4bc4041971d.jpg",
+    "images/book-c22343343dd015d6ac1e.jpg",
+    "images/book-f54d4f53539962a19fcb.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a4d772c3f00cd1f2ad8307dfec77ef84b1a242cf5c9a6f7dd5673a39085f7457",
+    "student.html": "a714240abbf174c7738926b99a73227ed8879aa422435c183f703113fcdd44d7",
+    "student.zip": "a486d59c47c5583be125923c414a1356d3c883a44371db874ee927042a7c8da3",
+    "content.json": "274d2ea054ff8f0fe1394787ee642e9de409e455f5f8bada2b982b97ff3a4999"
+  }
+}

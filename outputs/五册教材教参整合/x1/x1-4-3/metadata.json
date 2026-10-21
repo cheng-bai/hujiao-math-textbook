@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-4-3",
+  "book_id": "x1",
+  "section": "4.3",
+  "title": "数列",
+  "section_json": "batch/sections/x1/x1-4-3.json",
+  "output": "outputs/五册教材教参整合/x1/x1-4-3",
+  "fingerprint": "9b9972ad1155d74f6b50e77a943b2c8520011afdeca48f40d492d6d5af71225c",
+  "status": "rendered",
+  "questions": 23,
+  "answers": 23,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-d4641551e8d8fefd16e5.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg",
+      "sha256": "d4641551e8d8fefd16e53e566ae630750a10067fb5b507829b8f3fdeca27ac25",
+      "private": false
+    },
+    "images/book-ab0f573b8a3f81016304.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg",
+      "sha256": "ab0f573b8a3f810163045d4fd848b7060fe6c376146f368254fd944ad9216c14",
+      "private": false
+    },
+    "images/book-0c4e2dfc8db0736ac432.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg",
+      "sha256": "0c4e2dfc8db0736ac432b580743570665fa11d7e847a0bb45cf69bf3362a4ad3",
+      "private": false
+    },
+    "images/private-5226ae91031860b226ba.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg",
+      "sha256": "5226ae91031860b226ba94d5f18e50508ee931b2be20b0b1d165bb31439f9a89",
+      "private": true
+    },
+    "images/book-1ba2ac9dd2c63a1712c8.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg",
+      "sha256": "1ba2ac9dd2c63a1712c89aa03312bd4027f72d56a85d55398debbd1f4315e6f5",
+      "private": false
+    },
+    "images/book-d375c20352f51e3c5e21.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg",
+      "sha256": "d375c20352f51e3c5e2165a4c1c0668b81f70c2e66ed3e2b9bae71eabab8eb51",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "student_images": [
+    "images/book-0c4e2dfc8db0736ac432.jpg",
+    "images/book-1ba2ac9dd2c63a1712c8.jpg",
+    "images/book-ab0f573b8a3f81016304.jpg",
+    "images/book-d375c20352f51e3c5e21.jpg",
+    "images/book-d4641551e8d8fefd16e5.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "475d200a788d77c88388e6caf078cfe7bd5f520172f5dfa930f9d791428aa9b8",
+    "student.html": "8d90931a6cc15282f006522244df96f49e51fb6f4c151e16e2e2811c9058d866",
+    "student.zip": "0de22a6e730cabae3e7458aae47c82b975104a2419176270ed83c0410aedbe3d",
+    "content.json": "8d4e67dd5b29454821b8408ceb7ca6b5d87bbc4e919b11ed0a67af32b0eeb4f8"
+  }
+}

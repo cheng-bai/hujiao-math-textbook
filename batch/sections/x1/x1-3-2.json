@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "id": "x1-3-2",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "3",
+  "chapter_title": "第3章空间向量及其应用",
+  "section": "3.2",
+  "title": "空间向量基本定理",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "空间向量基本定理",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 329,
+          "end": 329
+        }
+      ],
+      "id": "x1-3-2",
+      "number": "3.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 3.2 空间向量基本定理\n\n### 教学重点\n\n了解从“(平面)向量基本定理”到“向量共面的充要条件”的转化, 并进一步到“空间向量基本定理”的推广. 体会“向量共面”在解决向量问题中的作用,理解空间向量基本定理的内涵, 并能解决相关的问题.\n\n### 内容分析\n\n上一节把空间向量的概念和运算通过 “共面向量” 转化为平面向量问题, 借用平面向量理论使学生快速地建立起了空间向量理论的基本框架. 通过上一节的学习, 学生应当能够体会“共面向量”在解决空间向量问题时的重要作用. 本节教材趁热打铁,仍从 “向量共面”入手,先介绍 “向量共面的充要条件”.\n\n“向量共面的充要条件”本质上是 “ (平面) 向量基本定理”在空间向量语境中的表述, 因此 “向量共面的充要条件” 这一小节既是必修课程 8.3 节第 1 小节的 “ (平面) 向量基本定理”的复习,也是后续介绍和证明“空间向量基本定理”的铺垫.\n\n“空间向量基本定理”是“(平面)向量基本定理”在空间情形的推广,它的条件和结论都是“平面)向量基本定理”的类比,学生在理解上不会有大的困难. 这个定理是下一节“空间向量的坐标表示”的理论基础,必须加以重视.\n\n本节共安排 3 道例题.\n\n例 1 是“向量共面的充要条件”的直接应用, 要求在一个长方体内判断三个有向线段表示的向量是否共面, 其方法是通过一些直观的线性组合关系和向量的运算, 得到三个向量中的一个是其余两个的线性组合, 从而它们共面.\n\n本例虽然简单, 但教师要“借题发挥”, 给学生一些启发. 一是, 空间中的几何直观对解题很重要, 学生要在学习过程中培养; 二是, 向量的共面不是立体几何中的线段的共面, 要特别注意.\n\n例 2 给出了空间线面垂直判定定理的向量证明方法, 利用向量共面的充要条件和互相垂直向量的数量积为零的结论, 比较简单地证明了空间线面垂直判定定理.\n\n本例是向量方法在立体几何中的一个应用, 可以看出向量方法有时有明显的优势. 除了这个例题外, 上一节的例 4 也是几何问题的向量解法. 又如, 立体几何中的四点共面就可以用 “向量共面的充要条件” 加以解决: 从四点中的一点出发, 分别作连接其余三点的三个向量, 则四点共面当且仅当所得到的三个向量共面.\n\n例 3 是在正四面体中, 用三个不共面的棱向量的线性组合表示其他棱向量和高向量的问题. 本例解题过程开放, 答案多样, 提供学生理解和熟悉 “空间向量基本定理” 的机会. 注意, 题目要求所选的三个不共面向量所在的棱可以有公共点, 也可以没有公共点. 当然, 对于三个不共面向量而言, 总可以平移到有公共端点的位置, 但对本例而言, 这样的平移未必是解题的最佳方案. 依托正四面体的几何结构, 找出向量之间的关系,是更为直截了当的.\n\n### 注意事项\n\n本节中的“空间向量基本定理”是在最一般的意义下叙述的, 没有给三个不共面向量添加额外的要求, 不要求它们互相正交, 也不要求它们是单位向量. 从这个角度看, 这个定理远远超过了为向量的坐标表示提供理论基础的作用. 但这种一般形式的基本定理, 在向量理论内部和向量的应用上都是有意义的. 因此, 本节要让学生体会一般的情况,不应提出“正交”问题 (例 3 设置为正四面体,也隐含着这种想法).\n\n空间的图形可以非常复杂, 也大多可以用来讨论其中的向量关系. 但我们坚决反对这样的做法. 一般而言, 要求学生能够基于常见的图形理解和处理向量的关系就可以了.\n\n向量在立体几何中的应用, 3.4 节会专门讨论, 本节不要纠缠和深化. 例如, 空间四点共面的判定是 “向量共面的充要条件” 的直接推论, 用一句话交代一下未尝不可 (前面已经作了这个交代), 不宜再写出复杂形式的“空间四点共面判定”的定理, 让学生难以理清其中的关系,徒增负担.\n\n### 教学建议\n\n“向量共面的充要条件”本质上是“(平面)向量基本定理”在空间向量语境中的表述. 更准确地说,“向量共面的充要条件”中的必要条件(“共面”⇒“线性组合”)就是 “(平面)向量基本定理”. 而“向量共面的充要条件”中的充分条件(“线性组合”)。_____ 面”) 在平面向量的情况下是一句废话,因为平面向量理论只讨论“能用同一个平面上的有向线段表示出来”的向量 (见必修教材第二册第 94 页),用现在的术语说,就是只讨论共面向量, 因此 “(平面) 向量基本定理” 中没有必要把这个充分条件说出来, 也就不需要采取 “充要条件” 的表述形式. 在空间向量的情形下, 上述充分条件也是一个平凡的结论, 其证明非常简单 (见本册教材第 96 页).\n\n由于“向量共面的充要条件”与“件平面)向量基本定理”的密切联系,本节教学应该从“(平面)向量基本定理”的回顾开始,引导学生从“(平面)向量基本定理”得到“向量共面的充要条件”.\n\n再进一步启发学生,既然 “ (平面) 向量基本定理” 只相当于 “向量共面的充要条件”,无法描述空间的任意向量,那么在空间向量理论中是否可以建立类似于“(平面) 向量基本定理”的“基本定理”呢? 可以启发学生: 共面向量的线性组合都只能产生共面向量, 因此要表示出所有空间向量, 一定要有不共面的向量, 从而至少要有三个向量. 上一节例 2 提示三个不共面的向量能够达到目的, 这就自然地引入了 “空间向量基本定理”的表述.\n\n如前所述, 学生对 “空间向量基本定理”在理解上不会有大的困难, 但和平面情况相比, 证明难度增加不少. 特别地, 其中线性组合存在性的证明主要是立体几何的演绎方法, 且脱离开了本教材所常用的平行六面体图形, 但它的基本思路与上一节没有本质的区别:把问题“局部地”化归为平面问题,然后用“(平面)向量基本定理”(或者说“向量共面的充要条件”)逐步地解决问题.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 132,
+          "end": 175
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 向量共面的充要条件",
+      "markdown": "## 1 向量共面的充要条件",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 331,
+          "end": 331
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们说过空间的任意两个向量总是共面的. 但是, 空间中的三个向量却不一定共面. 例如，图 3-2-1 所示的平行六面体中， 相交于一个顶点 $A$ 的三条棱 ${AB}\\text{ 、 }{AD}$ 与 $A{A}_{1}$ 所对应的向量 $\\overrightarrow{AB}$ 、 $\\overrightarrow{AD}$ 与 $\\overrightarrow{A{A}_{1}}$ 就是不共面的.\n\n![bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg)\n\n图 3-2-1\n\n我们在上一节中定义过的共面向量也可以用向量平行于平面的语言来刻画:如果一个向量所在的直线平行于一个平面，那么称这个向量平行于这个平面. 一组向量共面是指它们平行于同一个平面, 也就是说, 它们通过平行移动可以放到同一平面上.\n\n因为两个向量的和是通过平行四边形或三角形 (都是平面图形)作出的, 所以两个向量的任何线性组合都与原来的两个向量共面. 反之, 如果给定两个互不平行的向量, 任意与这两个向量共面的向量都是这两个向量的线性组合. 这个结论是在给定的两个向量所在的平面上使用(见必修课程 8.1 节)平面向量基本定理得到的. 事实上, 平面向量基本定理在空间中应该叙述为如下的向量共面的充要条件.\n\n向量共面的充要条件 如果 $\\overrightarrow{{e}_{1}}$ 与 $\\overrightarrow{{e}_{2}}$ 是两个不平行的向量,那么空间中的向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 共面的充要条件是,存在唯一的一对实数 $\\lambda$ 与 $\\mu$ ,使得 ?\n\n$$\n\\overrightarrow{a} = \\lambda \\overrightarrow{{e}_{1}} + \\mu \\overrightarrow{{e}_{2}}.\n$$\n\n---\n\n利用向量共面的充要条件, 如何用向量表达空间四点共面的充要条件? (对比必修课程 8.3 节的探究)\n\n---\n\n![bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg)\n\n图 3-2-2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 332,
+          "end": 358
+        }
+      ],
+      "emphases": [
+        {
+          "start": 475,
+          "end": 663,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 665,
+          "end": 879,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-2-definition-3-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 979,
+          "end": 1029,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-2-definition-3-2",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 如图 3-2-2,在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E$ 是棱 $A{A}_{1}$ 的中点, $O$ 是面对角线 $B{C}_{1}$ 与 ${B}_{1}C$ 的交点. 试判断向量 $\\overrightarrow{EO}$ 与 $\\overrightarrow{AB}\\text{ 、 }\\overrightarrow{AD}$ 是否共面.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 359,
+          "end": 360
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 359,
+          "end": 360
+        }
+      ],
+      "id": "x1-3-2-ex-1",
+      "category": "例题",
+      "answer": "解 因为\n\n$$\n\\overrightarrow{EO} = \\overrightarrow{EA} + \\overrightarrow{AB} + \\overrightarrow{BO},\n$$\n\n$$\n\\overrightarrow{BO} = \\frac{1}{2}\\left( {\\overrightarrow{BC} + \\overrightarrow{B{B}_{1}}}\\right)  = \\frac{1}{2}\\left( {\\overrightarrow{AD} + \\overrightarrow{A{A}_{1}}}\\right) ,\n$$\n\n所以\n\n$$\n\\overrightarrow{EO} =  - \\frac{1}{2}\\overrightarrow{A{A}_{1}} + \\overrightarrow{AB} + \\frac{1}{2}\\left( {\\overrightarrow{AD} + \\overrightarrow{A{A}_{1}}}\\right)\n$$\n\n$$\n= \\overrightarrow{AB} + \\frac{1}{2}\\overrightarrow{AD},\n$$\n\n因此,向量 $\\overrightarrow{EO}$ 与 $\\overrightarrow{AB}\\text{ 、 }\\overrightarrow{AD}$ 共面.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 361,
+          "end": 382
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 利用向量证明: 如果一条直线垂直于一个平面上的两条相交直线, 那么这条直线垂直于这个平面 (即垂直于这个平面中的任何直线).\n\n---\n\n例 2 是必修课程第 10 章中的直线与平面垂直的判定定理.\n\n---\n\n![bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg)\n\n图 3-2-3\n\n已知 如图 3-2-3, $a\\text{ 、 }b$ 是平面 $\\alpha$ 上的两条相交直线,直线 $l$ 满足 $l\\bot a, l\\bot b$ .\n\n求证 $l \\bot  \\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 383,
+          "end": 398
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 383,
+          "end": 398
+        }
+      ],
+      "id": "x1-3-2-ex-2",
+      "category": "例题",
+      "answer": "证明 在平面 $\\alpha$ 上任意作直线 $m$ ,并分别在直线 $l\\text{ 、 }a\\text{ 、 }b$ 、 $m$ 上取非零向量 $\\overrightarrow{l}\\text{ 、 }\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{m}$ .\n\n因为直线 $a$ 与 $b$ 相交,所以向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 不平行. 由向量共面的充要条件知, $\\overrightarrow{m}$ 是 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 的线性组合,即\n\n$$\n\\overrightarrow{m} = \\lambda \\overrightarrow{a} + \\mu \\overrightarrow{b}\\left( {\\lambda \\text{ 、 }\\mu  \\in  \\mathbf{R}}\\right) .\n$$\n\n将上式两边与向量 $\\overrightarrow{l}$ 作数量积,由题意知 $\\overrightarrow{l} \\cdot  \\overrightarrow{a} = 0,\\overrightarrow{l} \\cdot  \\overrightarrow{b} = 0$ , 所以\n\n$$\n\\overrightarrow{l} \\cdot  \\overrightarrow{m} = \\lambda \\overrightarrow{l} \\cdot  \\overrightarrow{a} + \\mu \\overrightarrow{l} \\cdot  \\overrightarrow{b} = 0,\n$$\n\n从而 $l \\bot  m$ . 这说明直线 $l$ 垂直于平面 $\\alpha$ 上的任意一条直线,所以 $l\\bot \\alpha$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 399,
+          "end": 414
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 空间向量基本定理",
+      "markdown": "## 2 空间向量基本定理",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 415,
+          "end": 415
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "已知平面上两个不共线向量的线性组合可以表示该平面上的所有向量. 是否可以做一个类推, 空间三个不共面向量的线性组合可以表示空间中的所有向量? 下面的定理对此给出了肯定的回答.\n\n空间向量基本定理 如果 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 是不共面的向量, 那么对空间中任意一个向量 $\\overrightarrow{a}$ ,存在唯一的一组实数 $\\lambda \\text{ 、 }\\mu$ 与 $\\nu$ ,使得\n\n$$\n\\overrightarrow{a} = \\lambda \\overrightarrow{{e}_{1}} + \\mu \\overrightarrow{{e}_{2}} + \\nu \\overrightarrow{{e}_{3}}.\n$$\n\n证明: 先证线性组合的存在性.\n\n因为 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 不共面,所以它们都不是零向量. 我们还可以假设向量 $\\overrightarrow{a}$ 不与 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 中的任何两个向量共面,否则,由向量共面的充要条件就立即给出了我们所需要的线性组合.\n\n如图 3-2-4,在空间任取一点 $O$ ,作 $\\overrightarrow{OA} = {\\overrightarrow{e}}_{1},\\overrightarrow{OB} = {\\overrightarrow{e}}_{2}$ , $\\overrightarrow{OC} = \\overrightarrow{{e}_{3}},\\overrightarrow{OP} = \\overrightarrow{a}$ . OA 与 ${OB}$ 是不重合的相交直线,它们确定了一个平面 $\\alpha ;{OC}$ 与 ${OP}$ 是不重合的相交直线,它们也确定一个平面 $\\beta$ . 平面 $\\alpha$ 与 $\\beta$ 不重合 (否则 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 共面),但有公共点 $O$ ,所以它们有唯一的交线 $l$ . 在 $l$ 上任取一个非零向量 $\\overrightarrow{b}$ ,则 $\\overrightarrow{b}$ 与 $\\overrightarrow{{e}_{3}}$ 不共线.\n\n![bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg)\n\n图 3-2-4\n\n根据向量共面的充要条件,在平面 $\\alpha$ 上,向量 $\\overrightarrow{b}$ 是 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OB}$ (即 $\\overrightarrow{{e}_{1}}$ 与 $\\overrightarrow{{e}_{2}}$ )的线性组合; 在平面 $\\beta$ 上,向量 $\\overrightarrow{a}$ 是向量 $\\overrightarrow{b}$ 与 $\\overrightarrow{OC}$ (即 $\\overrightarrow{{e}_{3}}$ )的线性组合. 于是,向量 $\\overrightarrow{a}$ 是向量 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 的线性组合.\n\n再证线性组合的唯一性.\n\n设 $\\overrightarrow{a} = \\lambda \\overrightarrow{{e}_{1}} + \\mu \\overrightarrow{{e}_{2}} + \\nu \\overrightarrow{{e}_{3}} = {\\lambda }^{\\prime }\\overrightarrow{{e}_{1}} + {\\mu }^{\\prime }\\overrightarrow{{e}_{2}} + {\\nu }^{\\prime }\\overrightarrow{{e}_{3}}$ ,则\n\n$$\n\\left( {\\lambda  - {\\lambda }^{\\prime }}\\right) \\overrightarrow{{e}_{1}} + \\left( {\\mu  - {\\mu }^{\\prime }}\\right) \\overrightarrow{{e}_{2}} + \\left( {\\nu  - {\\nu }^{\\prime }}\\right) \\overrightarrow{{e}_{3}} = \\overrightarrow{0}.\n$$\n\n如果此式左边三个系数中有一个 (比如 $\\lambda  - {\\lambda }^{\\prime }$ ) 非零,那么\n\n$$\n\\overrightarrow{{e}_{1}} =  - \\frac{\\mu  - {\\mu }^{\\prime }}{\\lambda  - {\\lambda }^{\\prime }}\\overrightarrow{{e}_{2}} - \\frac{\\nu  - {\\nu }^{\\prime }}{\\lambda  - {\\lambda }^{\\prime }}\\overrightarrow{{e}_{3}},\n$$\n\n这与 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 不共面矛盾. 所以三个系数必须全为零,则 $\\lambda  = \\; {\\lambda }^{\\prime },\\mu  = {\\mu }^{\\prime },\\nu  = {\\nu }^{\\prime }$ . 所以,线性组合是唯一的.\n\n(1)在此四面体的棱所对应的向量中找出两组各三个不共面的向量, 并把其他棱对应的向量分别表示成这两组向量的线性组合 (互为负向量的不必另行表示), 要求第一组三个向量所在的棱有公共点, 第二组三个向量所在的棱没有公共点 (答案不唯一);\n\n![bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg)\n\n图 3-2-5",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 416,
+          "end": 458
+        }
+      ],
+      "emphases": [
+        {
+          "start": 423,
+          "end": 697,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-2-definition-7-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1403,
+          "end": 1821,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-3-2-definition-7-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 如图 3-2-5,在正四面体 ${ABCD}$ 中, $N$ 是面 ${ABC}$ 的中心.\n\n(2)在(1)的条件下，把 $\\overrightarrow{DN}$ 也分别表示为这两组向量的线性组合. Q\n\n---\n\n可以看出, 第一种选择有更好的对称性.\n\n---",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 468
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 468
+        }
+      ],
+      "id": "x1-3-2-ex-3",
+      "category": "例题",
+      "answer": "解( 1 )第一组向量可选 $\\overrightarrow{DA} = \\overrightarrow{a},\\overrightarrow{DB} = \\overrightarrow{b}$ 与 $\\overrightarrow{DC} = \\overrightarrow{c}$ ,则\n\n$$\n\\overrightarrow{AB} = \\overrightarrow{b} - \\overrightarrow{a},\\overrightarrow{BC} = \\overrightarrow{c} - \\overrightarrow{b},\\overrightarrow{CA} = \\overrightarrow{a} - \\overrightarrow{c}.\n$$\n\n第二组向量可选 $\\overrightarrow{DA} = \\overrightarrow{a},\\overrightarrow{DB} = \\overrightarrow{b}$ 与 $\\overrightarrow{BC} = \\overrightarrow{d}$ ,则\n\n$$\n\\overrightarrow{AB} = \\overrightarrow{b} - \\overrightarrow{a},\\overrightarrow{DC} = \\overrightarrow{b} + \\overrightarrow{d},\\overrightarrow{CA} = \\overrightarrow{a} - \\overrightarrow{b} - \\overrightarrow{d}.\n$$\n\n(2)如图 3-2-5，取 $E$ 为 ${AB}$ 的中点，连接 ${CE}$ ，则点 $N$ 在\n\n${CE}$ 上,且 $\\overrightarrow{CN} = \\frac{2}{3}\\overrightarrow{CE} = \\frac{2}{3}\\left( {\\overrightarrow{CA} + \\overrightarrow{AE}}\\right)  = \\frac{2}{3}\\left( {\\overrightarrow{CA} + \\frac{1}{2}\\overrightarrow{AB}}\\right)$ ,所以\n\n$$\n\\overrightarrow{DN} = \\overrightarrow{DC} + \\overrightarrow{CN} = \\overrightarrow{DC} + \\frac{2}{3}\\left( {\\overrightarrow{CA} + \\frac{1}{2}\\overrightarrow{AB}}\\right)  = \\overrightarrow{DC} + \\frac{2}{3}\\overrightarrow{CA} + \\frac{1}{3}\\overrightarrow{AB},\n$$\n\n分别代入 (1) 的结果, 化简得\n\n$$\n\\overrightarrow{DN} = \\frac{1}{3}\\overrightarrow{a} + \\frac{1}{3}\\overrightarrow{b} + \\frac{1}{3}\\overrightarrow{c}\\text{ 与 }\\overrightarrow{DN} = \\frac{1}{3}\\overrightarrow{a} + \\frac{2}{3}\\overrightarrow{b} + \\frac{1}{3}\\overrightarrow{d}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 469,
+          "end": 494
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 3.2",
+      "markdown": "## 练习 3.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 495,
+          "end": 495
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习3.2 · 1",
+      "markdown": "1. 下列命题是否为真命题? 如果是, 请说明理由; 如果不是, 请举出反例.\n\n(1)设 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D$ 是空间中的四个不同的点，直线 ${AB}$ 与 ${CD}$ 是异面直线，则向量 $\\overrightarrow{AB}$ 与 $\\overrightarrow{CD}$ 不共面；\n\n(2)如果 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 是平面 $\\alpha$ 上的互不平行的向量，点 $C$ 、 $D$ 不在平面 $\\alpha$ 上，那么向量 $\\overrightarrow{CD}$ 与向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 不共面；\n\n(3)如果 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 是平面 $\\alpha$ 上的互不平行的向量，点 $C$ 在平面 $\\alpha$ 上，点 $D$ 不在平面 $\\alpha$ 上， 那么向量 $\\overrightarrow{CD}$ 与向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 不共面.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 497,
+          "end": 508
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 497,
+          "end": 508
+        }
+      ],
+      "id": "x1-3-2-p32-1",
+      "category": "练习3.2",
+      "answer": "1.(1)假命题. (2)假命题. (3)真命题.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 390,
+          "end": 391
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习3.2 · 2",
+      "markdown": "2. 如图,在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, ${AB} : A{A}_{1} : {AD} = \\; 2 : 1 : 1, E$ 与 $F$ 分别是棱 ${AB}$ 与 ${DC}$ 的中点. 设 $\\overrightarrow{A{A}_{1}} = \\overrightarrow{a},\\overrightarrow{AB} = \\overrightarrow{b}$ , $\\overrightarrow{AD} = \\overrightarrow{c}$ .\n\n(1)用向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 、 $\\overrightarrow{c}$ 表示 $\\overrightarrow{B{D}_{1}}$ 、 $\\overrightarrow{{A}_{1}F}$ ；\n\n(2)求 $\\overrightarrow{{A}_{1}F} \\cdot  \\overrightarrow{{B}_{1}C}$ ；\n\n(3)判断 $\\overrightarrow{{A}_{1}F}$ 与 $\\overrightarrow{DE}$ 是否垂直.\n\n![bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 509,
+          "end": 516
+        },
+        {
+          "source": "book",
+          "start": 505,
+          "end": 507
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 509,
+          "end": 516
+        },
+        {
+          "source": "book",
+          "start": 505,
+          "end": 507
+        }
+      ],
+      "id": "x1-3-2-p32-2",
+      "category": "练习3.2",
+      "answer": "2. (1) $\\overrightarrow{B{D}_{1}} = \\overrightarrow{BA} + \\overrightarrow{A{A}_{1}} + \\overrightarrow{{A}_{1}{D}_{1}} = \\overrightarrow{a} - \\overrightarrow{b} + \\overrightarrow{c}$ ；\n\n$\\overrightarrow{{A}_{1}F} = \\overrightarrow{{A}_{1}A} + \\overrightarrow{AD} + \\overrightarrow{DF} =  - \\overrightarrow{a} + \\frac{1}{2}\\overrightarrow{b} + \\overrightarrow{c}.$\n\n(2)由(1)及 $\\overrightarrow{{B}_{1}C} = \\overrightarrow{{B}_{1}B} + \\overrightarrow{BC} =  - \\overrightarrow{a} + \\overrightarrow{c}$ ,得 $\\overrightarrow{{A}_{1}F} \\cdot  \\overrightarrow{{B}_{1}C} = \\left( {-\\overrightarrow{a} + \\frac{1}{2}\\overrightarrow{b} + \\overrightarrow{c}}\\right)  \\cdot  ( - \\overrightarrow{a} + \\; \\overrightarrow{c}) = 2{\\left| \\overrightarrow{a}\\right| }^{2}$ .\n\n(3)计算得到 $\\overrightarrow{{A}_{1}F} \\cdot  \\overrightarrow{DE} = 0$ . 所以, $\\overrightarrow{{A}_{1}F} \\bot  \\overrightarrow{DE}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 392,
+          "end": 399
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 3.2",
+      "markdown": "## 习题 3.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 517,
+          "end": 517
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 519,
+          "end": 519
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 520,
+          "end": 524
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题3.2A · 1",
+      "markdown": "1. 如图,在平行六面体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,设 $\\overrightarrow{{D}_{1}A} = \\overrightarrow{a}$ , $\\overrightarrow{{D}_{1}{B}_{1}} = \\overrightarrow{b},\\overrightarrow{{D}_{1}C} = \\overrightarrow{c}$ . 试用 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 表示 $\\overrightarrow{{D}_{1}B}$ .\n\n![bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 525,
+          "end": 526
+        },
+        {
+          "source": "book",
+          "start": 521,
+          "end": 523
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 525,
+          "end": 526
+        },
+        {
+          "source": "book",
+          "start": 521,
+          "end": 523
+        }
+      ],
+      "id": "x1-3-2-h32A-1",
+      "category": "习题3.2A",
+      "answer": "1. $\\overrightarrow{{D}_{1}B} = \\frac{1}{2}\\left( {\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 404,
+          "end": 405
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.2A · 2",
+      "markdown": "2. 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 是空间的非零向量,分析 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\left| \\overrightarrow{a}\\right|  \\cdot  \\left| \\overrightarrow{b}\\right|$ 与 $\\overrightarrow{a}//\\overrightarrow{b}$ 的关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 528
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 528
+        }
+      ],
+      "id": "x1-3-2-h32A-2",
+      "category": "习题3.2A",
+      "answer": "2. $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ 是 $\\overrightarrow{a}//\\overrightarrow{b}$ 的充分条件,但不是必要条件.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 406,
+          "end": 407
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.2A · 3",
+      "markdown": "3. 在正方体 ${ABCD} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 中, $E$ 是面 ${A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 的中心. 求下列各式中实数 $\\lambda \\text{ 、 }\\mu \\text{ 、 }\\nu$ 的值:\n\n(1) $\\overrightarrow{B{D}^{\\prime }} = \\lambda \\overrightarrow{AD} + \\mu \\overrightarrow{AB} + \\nu \\overrightarrow{A{A}^{\\prime }}$ ；\n\n(2) $\\overrightarrow{AE} = \\lambda \\overrightarrow{AD} + \\mu \\overrightarrow{AB} + \\nu \\overrightarrow{A{A}^{\\prime }}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 529,
+          "end": 538
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 529,
+          "end": 538
+        }
+      ],
+      "id": "x1-3-2-h32A-3",
+      "category": "习题3.2A",
+      "answer": "3. (1) $\\lambda  = 1,\\mu  =  - 1,\\nu  = 1.$ (2) $\\lambda  = \\frac{1}{2},\\mu  = \\frac{1}{2},\\nu  = 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 408,
+          "end": 409
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.2A · 4",
+      "markdown": "4. 如图,在棱长为 1 的正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $B{D}_{1}$ 交平面 ${AC}{B}_{1}$ 于点 $E$ . 求证:\n\n(1) $B{D}_{1} \\bot$ 平面 ${AC}{B}_{1}$ ；\n\n(2) $\\left| {BE}\\right|  = \\frac{1}{2}\\left| {E{D}_{1}}\\right|$ .\n\n![bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg)\n\n(第 4 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 539,
+          "end": 544
+        },
+        {
+          "source": "book",
+          "start": 535,
+          "end": 537
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 539,
+          "end": 544
+        },
+        {
+          "source": "book",
+          "start": 535,
+          "end": 537
+        }
+      ],
+      "id": "x1-3-2-h32A-4",
+      "category": "习题3.2A",
+      "answer": "4. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 410,
+          "end": 411
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "## B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 545,
+          "end": 545
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题3.2B · 1",
+      "markdown": "1. 在平面上有如下命题: “若 $O$ 为直线 ${AB}$ 外的一点,则点 $P$ 在直线 ${AB}$ 上的充要条件是:存在实数 $\\lambda$ 、 $\\mu$ ，满足 $\\overrightarrow{OP} = \\lambda \\overrightarrow{OA} + \\mu \\overrightarrow{OB}$ ，且 $\\lambda  + \\mu  = 1.$ ”类比此命题，给出空间某点在某一平面上的充要条件并加以证明.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 547,
+          "end": 552
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 547,
+          "end": 552
+        }
+      ],
+      "id": "x1-3-2-h32B-1",
+      "category": "习题3.2B",
+      "answer": "1. $O$ 为平面 ${ABC}$ 外一点,则点 $P$ 在平面 ${ABC}$ 上的充要条件是: 存在实数 $x$ 、 $y\\text{、}z$ ,满足 $\\overrightarrow{OP} = x\\overrightarrow{OA} + y\\overrightarrow{OB} + z\\overrightarrow{OC}$ ,且 $x + y + z = 1$ . 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 414,
+          "end": 415
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.2B · 2",
+      "markdown": "2. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\\text{ 、 }F$ 分别是 $B{B}_{1}\\text{ 、 }{D}_{1}{B}_{1}$ 的中点. 求证: ${EF} \\bot$ 平面 ${B}_{1}{AC}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 553,
+          "end": 554
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 553,
+          "end": 554
+        }
+      ],
+      "id": "x1-3-2-h32B-2",
+      "category": "习题3.2B",
+      "answer": "2. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 416,
+          "end": 417
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题3.2B · 3",
+      "markdown": "3. 在棱长为 1 的正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\\text{ 、 }F$ 分别是 $D{D}_{1}\\text{ 、 }{DB}$ 的中点,点 $G$ 在棱 ${CD}$ 上, $\\left| {CG}\\right|  = \\frac{1}{4}\\left| {CD}\\right| , H$ 是 ${C}_{1}G$ 的中点.\n\n(1)求证: ${EF}\\bot {B}_{1}C$ ；\n\n(2)求 ${EF}$ 与 ${C}_{1}G$ 所成角的余弦值；\n\n(3)求线段 ${FH}$ 的长.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 555,
+          "end": 562
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 555,
+          "end": 562
+        }
+      ],
+      "id": "x1-3-2-h32B-3",
+      "category": "习题3.2B",
+      "answer": "3. (1) $\\overrightarrow{EF} \\cdot  \\overrightarrow{{B}_{1}C} = \\left( {\\frac{1}{2}\\overrightarrow{a} - \\frac{1}{2}\\overrightarrow{b} - \\frac{1}{2}\\overrightarrow{c}}\\right)  \\cdot  \\left( {-\\overrightarrow{b} + \\overrightarrow{c}}\\right)  = 0$ ,所以 $\\overrightarrow{EF} \\bot  \\overrightarrow{{B}_{1}C}$ .\n\n(2) $\\overrightarrow{EF} \\cdot  \\overrightarrow{{C}_{1}G} = \\left( {\\frac{1}{2}\\overrightarrow{a} - \\frac{1}{2}\\overrightarrow{b} - \\frac{1}{2}\\overrightarrow{c}}\\right)  \\cdot  \\left( {-\\frac{1}{4}\\overrightarrow{a} - \\overrightarrow{b}}\\right)  =  - \\frac{1}{8}{\\left| \\overrightarrow{a}\\right| }^{2} + \\frac{1}{2}{\\left| \\overrightarrow{b}\\right| }^{2} = \\frac{3}{8}$ , $\\cos \\langle \\overrightarrow{EF},\\overrightarrow{{C}_{1}G}\\rangle  = \\frac{\\overrightarrow{EF} \\cdot  \\overrightarrow{{C}_{1}G}}{\\left| \\overrightarrow{EF}\\right| \\left| \\overrightarrow{{C}_{1}G}\\right| } = \\frac{\\sqrt{51}}{17}.$\n\n(3) $\\frac{\\sqrt{41}}{8}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 418,
+          "end": 423
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 335,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 355,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 391,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 431,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 455,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 505,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 521,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 535,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 549,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-3-2.json",
+    "question_count": 12,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

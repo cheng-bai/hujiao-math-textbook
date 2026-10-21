@@ -1,0 +1,70 @@
+{
+  "controls": [
+    {
+      "key": "A",
+      "label": "已知角 A",
+      "max": 160,
+      "min": 20,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "mode",
+      "label": "临界状态（优先于比例滑块）",
+      "options": [
+        {
+          "label": "自由探索：使用a/h",
+          "value": "explore"
+        },
+        {
+          "label": "a=0.95h（相切前）",
+          "value": "below"
+        },
+        {
+          "label": "a=h（精确相切）",
+          "value": "height"
+        },
+        {
+          "label": "a=1.05h（相切后）",
+          "value": "above"
+        },
+        {
+          "label": "a=b（精确退化候选）",
+          "value": "equal"
+        },
+        {
+          "label": "a=1.2b（大于已知边）",
+          "value": "long"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "ratio",
+      "label": "自由探索时 a/h",
+      "max": 3,
+      "min": 0.5,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "explanationHtml": "<p><strong>教师拓展。</strong>目的是看懂多解从哪里来，不要求全体学生背完整分类表。固定角及其邻边，令顶点沿正向射线移动；边长条件转化为圆与射线的交点条件。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>0</mn><mo>&lt;</mo><mi>A</mi><mo>&lt;</mo><mn>180</mn><mo>°</mo><mo>，</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>，</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn></math><p>建立坐标后，两点分别为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>C</mi><mo>(</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>,</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>)</mo><mo>，</mo><mi>B</mi><mo>(</mo><mi>c</mi><mo>,</mo><mn>0</mn><mo>)</mo><mo>，</mo><mi>c</mi><mo>&gt;</mo><mn>0</mn></math><p><strong>先求候选，再查正向。</strong>圆心到横轴所在直线的距离为高。边长条件等价于：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>h</mi><mo>=</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>&gt;</mo><mn>0</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mrow><mo>(</mo><mi>c</mi><mo>−</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mi>h</mi></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mi>a</mi></mrow><mn>2</mn></msup></math><p>半径小于高时没有实数交点。半径不小于高时，候选横坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>c</mi><mo>=</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>±</mo><msqrt><msup><mrow><mi>a</mi></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mi>h</mi></mrow><mn>2</mn></msup></msqrt></math><p>两个根重合时只算一个候选；每个候选还必须严格大于零。负数根位于射线的反向延长线上，零根使顶点重合，均不能构成题设三角形。</p><p><strong>为什么这也是充分条件。</strong>每个正根都确定正向射线上唯一的点，且到圆心距离等于给定边长；同时高严格为正，三个顶点不共线。因此每个不同正根恰好对应一个非退化三角形，没有额外的角度条件需要补猜。</p><p><strong>相切不一定有解。</strong>半径等于高时，唯一候选横坐标如下。锐角时它为正，有一个三角形；直角时为零，退化；钝角时为负，在反向延长线上。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>a</mi><mo>=</mo><mi>h</mi><mo>⇒</mo><mi>c</mi><mo>=</mo><mn>3</mn><mi>cos</mi><mi>A</mi></math><p><strong>另一处易漏边界。</strong>两条已知边相等时，一个候选始终为零，必须剔除；另一个候选仅在已知角为锐角时为正。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>a</mi><mo>=</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>⇒</mo><mi>c</mi><mo>=</mo><mn>0</mn><mo>或</mo><mi>c</mi><mo>=</mo><mn>6</mn><mi>cos</mi><mi>A</mi></math>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mrow><mo>(</mo><mi>c</mi><mo>−</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>，</mo><mi>h</mi><mo>=</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>，</mo><mi>c</mi><mo>&gt;</mo><mn>0</mn></math>",
+  "goal": "将可能的三角形个数转化为有效交点数，辨别相切、反向交点及退化解。",
+  "id": "ssa-circle-ray",
+  "initial": {
+    "A": 30,
+    "mode": "explore",
+    "ratio": 1.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-6-3-b3",
+      "rationale": "正弦定理后加入教师拓展，呈现SSA多解依据，不替换原定理推导。",
+      "retainProse": true,
+      "sectionId": "bx2-6-3"
+    }
+  ],
+  "summary": "教师拓展，不将完整SSA分类提升为全体学生必学。固定AC=b=3及角A，令C=(3cosA,3sinA)，B=(c,0)，其中c>0。由BC=a得(c−3cosA)²+h²=a²，h=3sinA。圆与直线的候选交点还须剔除c≤0者。因此a=h虽为相切，却仅在A为锐角时产生一个有效三角形；直角时B=A退化，钝角时切点在反向延长线上。a=b时同样须剔除B=A。动态探索解释分类依据，不能以有限次拖动替代上述方程和有效性验证。",
+  "title": "SSA为何不唯一：圆与射线的有效交点"
+}

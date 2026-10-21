@@ -1,0 +1,46 @@
+{
+  "controls": [
+    {
+      "key": "a",
+      "label": "非零方向向量长度 |a|",
+      "max": 4,
+      "min": 0.5,
+      "step": 0.25,
+      "type": "range"
+    },
+    {
+      "key": "b",
+      "label": "向量长度 |b|",
+      "max": 4,
+      "min": 0,
+      "step": 0.25,
+      "type": "range"
+    },
+    {
+      "key": "angle",
+      "label": "夹角 θ（度；b=0时不适用）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>proj</mi><mi>a</mi></msub><mi>b</mi><mo>=</mo><mfrac><mrow><mo>|</mo><mi>b</mi><mo>|</mo><mi>cos</mi><mi>θ</mi></mrow><mrow><mo>|</mo><mi>a</mi><mo>|</mo></mrow></mfrac><mi>a</mi><mo>;</mo><mspace width=\"1em\"/><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mo>|</mo><mi>a</mi><mo>|</mo><mo>|</mo><mi>b</mi><mo>|</mo><mi>cos</mi><mi>θ</mi></mrow></math>",
+  "goal": "用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。",
+  "id": "dot-projection",
+  "initial": {
+    "a": 3,
+    "angle": 120,
+    "b": 2.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-8-2-b4",
+      "rationale": "覆盖本节原prose第4块：用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx2-8-2"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "点的投影是向目标直线作垂线的垂足；向量投影由起终点的投影之差组成。以非零 a 为方向，b 的数量投影为 |b|cosθ，投影向量为这一数乘 a 的单位向量，模为数量投影的绝对值。锐角同向、钝角反向、直角为零；b=0 也投影为零但不定义夹角。数量积进一步乘 |a|，得到数量而不是向量；这也是力做功的方向分量解释。",
+  "title": "投影先带符号，再计算数量积"
+}

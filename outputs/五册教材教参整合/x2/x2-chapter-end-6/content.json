@@ -1,0 +1,737 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1609,
+        "end": 1609
+      }
+    ],
+    "id": "x2-chapter-end-6",
+    "number": "chapter-end-6",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "利用组合的定义和多项式的乘法规则证明二项式定理",
+    "markdown": "### 利用组合的定义和多项式的乘法规则证明二项式定理",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1611,
+        "end": 1611
+      }
+    ],
+    "id": "x2-chapter-end-6-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "先来考察 ${\\left( a + b\\right) }^{3} = \\left( {a + b}\\right) \\left( {a + b}\\right) \\left( {a + b}\\right)$ 的二项展开式.\n\n根据多项式的乘法运算规则, ${\\left( a + b\\right) }^{3}$ 的二项展开式中的每一项是从 $\\left( {a + b}\\right) \\left( {a + b}\\right) \\left( {a + b}\\right)$ 的每一个括号中任意取出一个字母的乘积,因而展开式的每一项都是三次式,即 ${\\left( a + b\\right) }^{3}$ 的二项展开式恰由以下 4 个形式的项组成:\n\n$$\n{a}^{3},{a}^{2}b, a{b}^{2},{b}^{3}.\n$$\n\n---\n\n从特殊到一般, 这是数学中常用的研究方法.\n\n---\n\n对于每一项的系数, 可以利用组合的定义得到:\n\n${a}^{3}$ 相当于 3 个括号中,每一个都不取字母 $b$ ,这样的取法有 ${\\mathrm{C}}_{3}^{0}$ 种,所以 ${a}^{3}$ 的系数为 ${\\mathrm{C}}_{3}^{0} = 1$\n\n${a}^{2}b$ 相当于 3 个括号中,恰有一个取出字母 $b$ ,这样的取法有 ${\\mathrm{C}}_{3}^{1}$ 种,所以 ${a}^{2}b$ 的系数为 ${\\mathrm{C}}_{3}^{1} = 3$ ;\n\n$a{b}^{2}$ 相当于 3 个括号中,恰有两个取出字母 $b$ ,这样的取法有 ${\\mathrm{C}}_{3}^{2}$ 种,所以 $a{b}^{2}$ 的系数为 ${\\mathrm{C}}_{3}^{2} = 3$ ;\n\n${b}^{3}$ 相当于 3 个括号中,每一个都取出字母 $b$ ,这样的取法有 ${\\mathrm{C}}_{3}^{3}$ 种,所以 ${b}^{3}$ 的系数为 ${\\mathrm{C}}_{3}^{3} = 1.$\n\n因此, ${\\left( a + b\\right) }^{3}$ 的二项展开式可以写为\n\n$$\n{\\mathrm{C}}_{3}^{0}{a}^{3} + {\\mathrm{C}}_{3}^{1}{a}^{2}b + {\\mathrm{C}}_{3}^{2}a{b}^{2} + {\\mathrm{C}}_{3}^{3}{b}^{3}.\n$$\n\n一般地,对于 ${\\left( a + b\\right) }^{n} = \\underset{n\\text{ 个括号 }}{\\underbrace{\\left( {a + b}\\right) \\left( {a + b}\\right) \\cdots \\left( {a + b}\\right) }}$ ,根据多项式的乘法运算规则, ${\\left( a + b\\right) }^{n}$ 的二项展开式中的每一项是从 $\\underset{n\\text{ 个括号 }}{\\underbrace{\\left( {a + b}\\right) \\left( {a + b}\\right) \\cdots \\left( {a + b}\\right) }}$ 的每一个括号中任意取出一个字母的乘积,因而展开式的每一项都是一个 $n$ 次式,即 ${\\left( a + b\\right) }^{n}$ 的二项展开式由以下 $n + 1$ 个形式的项组成:\n\n$$\n{a}^{n},{a}^{n - 1}b,\\cdots ,{a}^{n - r}{b}^{r},\\cdots , a{b}^{n - 1},{b}^{n}\\text{ ,其中 }r = 0,1,\\cdots , n\\text{ . }\n$$\n\n类似于上面的分析,对于 $r = 0,1,\\cdots , n,{a}^{n - r}{b}^{r}$ 相当于 $n$ 个括号中,恰有 $r$ 个取出字母 $b$ ,这样的取法有 ${\\mathrm{C}}_{n}^{r}$ 种,所以 ${a}^{n - r}{b}^{r}$ 的系数为 ${\\mathrm{C}}_{n}^{r}$ . 因此, ${\\left( a + b\\right) }^{n}$ 的二项展开式可以写为\n\n$$\n{\\mathrm{C}}_{n}^{0}{a}^{n} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1}b + {\\mathrm{C}}_{n}^{2}{a}^{n - 2}{b}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{n}^{n}{b}^{n}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1612,
+        "end": 1654
+      }
+    ],
+    "id": "x2-chapter-end-6-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "内容提要",
+    "markdown": "## 内容提要",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1655,
+        "end": 1655
+      }
+    ],
+    "id": "x2-chapter-end-6-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 乘法原理(分步计数原理):做一件事，需要依次完成 $n$ 个步骤，其中完成第一步有 ${a}_{1}$ 种不同的方法,完成第二步有 ${a}_{2}$ 种不同的方法, $\\cdots \\cdots$ ,完成第 $n$ 步有 ${a}_{n}$ 种不同的方法,那么完成这件事共有 ${a}_{1}{a}_{2}\\cdots {a}_{n}$ 种不同的方法.\n\n2. 加法原理(分类计数原理):做一件事，完成它有 $n$ 类办法，其中第一类办法有 ${a}_{1}$ 种不同的方法，第二类办法有 ${a}_{2}$ 种不同的方法，……，第 $n$ 类办法有 ${a}_{n}$ 种不同的方法， 那么完成这件事共有 ${a}_{1} + {a}_{2} + \\cdots  + {a}_{n}$ 种不同的方法.\n\n3. 乘法原理和加法原理是关于计数的两个基本原理，它们是推导排列数、组合数公式的基础，在解题中应正确区分和灵活使用.\n\n4. 从 $n$ 个互不相同的元素中，取出 $m\\left( {m \\leq  n}\\right)$ 个不同元素按照一定的顺序排成一列， 叫做从 $n$ 个元素中取出 $m$ 个元素的一个排列. 所有这样的排列的个数(排列数)用符号 ${\\mathrm{P}}_{n}^{m}$ 表示,其值为 ${\\mathrm{P}}_{n}^{m} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\left( {n - m + 1}\\right)  = \\frac{n!}{\\left( {n - m}\\right) !}$ ,而 $n! = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\; 3 \\cdot  2 \\cdot  1$ .\n\n5. 从 $n$ 个互不相同的元素中，取出 $m\\left( {m \\leq  n}\\right)$ 个不同元素作为一组，叫做从 $n$ 个元素中取出 $m$ 个元素的一个组合. 所有这样的组合的个数(组合数)用符号 ${\\mathrm{C}}_{n}^{m}$ 表示，其值为 ${\\mathrm{C}}_{n}^{m} \\; = \\frac{{\\mathrm{P}}_{n}^{m}}{{\\mathrm{P}}_{m}^{m}} = \\frac{n!}{m!\\left( {n - m}\\right) !}.$\n\n6. 已知 $m$ 是自然数， $n$ 是正整数，且 $m \\leq  n$ ，则 ${\\mathrm{C}}_{n}^{m} = {\\mathrm{C}}_{n}^{n - m}$ ， ${\\mathrm{C}}_{n + 1}^{m} = {\\mathrm{C}}_{n}^{m} + {\\mathrm{C}}_{n}^{m - 1}$ .\n\n7. 排列和组合是两个基本的计数问题，在解决实际问题时，要善于分析问题的条件， 把问题转化为相应的排列或组合问题.\n\n8. 等式 ${\\left( a + b\\right) }^{n} = {\\mathrm{C}}_{n}^{0}{a}^{n} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1}b + {\\mathrm{C}}_{n}^{2}{a}^{n - 2}{b}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{n}^{n}{b}^{n}$ 称为二项式定理. 等式右边的第 $r + 1$ 项为 ${\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r}\\left( {r = 0,1,2,\\cdots , n - 1, n}\\right)$ .\n\n9. 对任意正整数 $n,{\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{1} + {\\mathrm{C}}_{n}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{n} = {2}^{n}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1656,
+        "end": 1674
+      }
+    ],
+    "id": "x2-chapter-end-6-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1675,
+        "end": 1675
+      }
+    ],
+    "id": "x2-chapter-end-6-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1677,
+        "end": 1677
+      }
+    ],
+    "id": "x2-chapter-end-6-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 如图,用 6 种不同的颜色将 $A\\text{ 、 }B\\text{ 、 }C$ 三个区域涂色,每个区域涂上一种颜色,且有公共边的区域不能涂同一种颜色. 问: 不同的涂色方法共有多少种?\n\n\n![bo_d4slon3ef24c73be0qm0_37_707_253_268_99_0.jpg](images/book-7846c13def2a3fd1afbf.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1679,
+        "end": 1684
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1679,
+        "end": 1684
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-1",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$150$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 433,
+        "end": 434
+      }
+    ],
+    "teacher_analysis": "图中只有A与B、B与C共享边。先给B选色有6种，A、C各有5种，二者可同色，故为 $6\\times5\\times5=150$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "id": "x2-chapter-end-6-hA-2",
+    "title": "复习题A · 2",
+    "category": "复习题A",
+    "markdown": "2. 5 个工程队分别承建某项工程的 5 个不同的子项目, 每个工程队各承建其中的 1 项, 且甲工程队不能承建 1 号子项目. 问: 不同的承建方案有多少种?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1685,
+        "end": 1686
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1685,
+        "end": 1686
+      }
+    ],
+    "answer": "【回源配对并编辑补解】$96$。",
+    "teacher_analysis": "甲可选除1号外的4个项目，其余四队有 $4!$ 种安排，故为 $4\\times4!=96$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 435,
+        "end": 436
+      }
+    ],
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 从 0、1、2、3、4、5 六个数字中任取四个数字，可以组成多少个没有重复数字、 且为奇数的四位数?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1687,
+        "end": 1688
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1687,
+        "end": 1688
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-3",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$144$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 437,
+        "end": 438
+      }
+    ],
+    "teacher_analysis": "个位从1、3、5中选，有3种；千位从剩余非零数中选，有4种；百位、十位再分别有4种、3种。共 $3\\times4\\times4\\times3=144$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 解关于正整数 $x$ 的方程: ${11}{C}_{x}^{3} = {24}{C}_{x + 1}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1689,
+        "end": 1690
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1689,
+        "end": 1690
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-4",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$x=10$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 439,
+        "end": 440
+      }
+    ],
+    "teacher_analysis": "组合数有意义要求 $x\\ge3$。由 $11x(x-1)(x-2)/6=12x(x+1)$，约去正数 $x$ 后得 $11x^2-105x-50=0$，即 $(x-10)(11x+5)=0$。取正整数解 $x=10$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 已知 ${\\left( {x}^{2} + \\frac{1}{x}\\right) }^{n}$ 的二项展开式的各项系数之和为 32,求该二项展开式中 $x$ 的系数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1691,
+        "end": 1692
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1691,
+        "end": 1692
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-5",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$10$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 441,
+        "end": 442
+      }
+    ],
+    "teacher_analysis": "令 $x=1$，得系数和 $2^n=32$，所以 $n=5$。通项为 $\\mathrm C_5^k x^{10-3k}$，指数等于1时 $k=3$，故所求系数为 $\\mathrm C_5^3=10$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 若 ${\\left( 1 - 2x\\right) }^{4} = {a}_{0} + {a}_{1}x + {a}_{2}{x}^{2} + {a}_{3}{x}^{3} + {a}_{4}{x}^{4}$ ,求 $\\left| {a}_{0}\\right|  + \\left| {a}_{1}\\right|  + \\left| {a}_{3}\\right|$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1693,
+        "end": 1694
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1693,
+        "end": 1694
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-6",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$41$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 443,
+        "end": 444
+      }
+    ],
+    "teacher_analysis": "$a_0=1$、$a_1=-8$、$a_3=\\mathrm C_4^3(-2)^3=-32$，故三项绝对值之和为 $1+8+32=41$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 若 ${\\left( {x}^{6} + \\frac{1}{x\\sqrt{x}}\\right) }^{n}$ 的二项展开式中含有常数项,求 $n$ 的最小值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1695,
+        "end": 1696
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1695,
+        "end": 1696
+      }
+    ],
+    "id": "x2-chapter-end-6-hA-7",
+    "category": "复习题A",
+    "answer": "【回源配对并编辑补解】$5$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 445,
+        "end": 446
+      }
+    ],
+    "teacher_analysis": "通项中x的指数为 $6(n-k)-3k/2=6n-15k/2$。常数项要求 $4n=5k$，所以正整数n至少为5；取 $n=5,k=4$ 可达到。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1697,
+        "end": 1697
+      }
+    ],
+    "id": "x2-chapter-end-6-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 7 名学生站成一排拍毕业纪念照, 其中甲必须站在正中间, 并且乙、丙 2 名学生要站在一起. 问: 有多少种不同的排法?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1699,
+        "end": 1700
+      }
+    ],
+    "id": "x2-chapter-end-6-b14",
+    "category": "复习题B",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1699,
+        "end": 1700
+      }
+    ],
+    "answer": "【回源配对并编辑补解】$192$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 449,
+        "end": 450
+      }
+    ],
+    "teacher_analysis": "甲固定在中间。乙丙相邻只能占左侧或右侧的相邻位置，每侧各2对，共4对；乙丙内部有2种次序，其余四人有 $4!$ 种，故为 $4\\times2\\times4!=192$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 将 5 个不同的小球分别放到 3 个不同的盒子中, 要求每个盒子都不空. 问: 有多少种不同的放法?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1701,
+        "end": 1702
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1701,
+        "end": 1702
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-2",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】$150$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 451,
+        "end": 452
+      }
+    ],
+    "teacher_analysis": "用容斥原理，任意放法有 $3^5$ 种，减去至少一个空盒，再补回两个空盒：$3^5-\\mathrm C_3^1 2^5+\\mathrm C_3^2=150$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 从 7 名男乒乓球队员、 5 名女乒乓球队员中任选 4 名进行男女混合双打，不同的分组方法有多少种?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1703,
+        "end": 1704
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1703,
+        "end": 1704
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-3",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】$420$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 453,
+        "end": 454
+      }
+    ],
+    "teacher_analysis": "先选两男两女，再将两名女队员配给两名男队员，共 $\\mathrm C_7^2\\mathrm C_5^2\\times2=420$ 种；两支队伍不再另编号。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 3 名男生、4 名女生排成一行. 在下列要求下，分别求不同排列方法的种数:\n\n(1)甲不在最左边，乙不在最右边；\n\n(2)男生必须排在一起；\n\n(3)男生和女生相间排列；\n\n(4)在甲、乙两人中间必须有 3 人.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1705,
+        "end": 1714
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1705,
+        "end": 1714
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-4",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】(1) $3720$；(2) $720$；(3) $144$；(4) $720$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 455,
+        "end": 456
+      }
+    ],
+    "teacher_analysis": "(1) $7!-2\\times6!+5!=3720$。(2)把三名男生捆成一块，有 $5!\\times3!=720$。(3)只能按女男女男女男女排列，有 $4!\\times3!=144$。(4)甲乙的位置差为4，有3对位置，每对有2种次序，其余五人任排，共 $3\\times2\\times5!=720$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 一个口袋内有 4 个不同的红球、6 个不同的白球.\n\n(1)从中任取 4 个球, 红球的个数不比白球少的取法有多少种?\n\n(2)若取一个红球记 2 分，取一个白球记 1 分. 从中任取 5 个球，使总分不少于 7 分的取法有多少种?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1715,
+        "end": 1720
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1715,
+        "end": 1720
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-5",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】(1) $115$；(2) $186$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 457,
+        "end": 458
+      }
+    ],
+    "teacher_analysis": "(1)红球数为2、3、4，计 $\\mathrm C_4^2\\mathrm C_6^2+\\mathrm C_4^3\\mathrm C_6^1+\\mathrm C_4^4=90+24+1=115$。(2)选五球，若红球为r个，总分为 $5+r$，故 $r\\ge2$。计 $\\mathrm C_4^2\\mathrm C_6^3+\\mathrm C_4^3\\mathrm C_6^2+\\mathrm C_4^4\\mathrm C_6^1=120+60+6=186$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 设 ${\\left( 2 - \\sqrt{3}x\\right) }^{100} = {a}_{0} + {a}_{1}x + {a}_{2}{x}^{2} + \\cdots  + {a}_{100}{x}^{100}$ ,求下列各式的值:\n\n(1) ${a}_{0}$ ;\n\n(2) ${a}_{1} + {a}_{3} + {a}_{5} + \\cdots  + {a}_{99}$ ；\n\n(3) ${\\left( {a}_{0} + {a}_{2} + {a}_{4} + \\cdots  + {a}_{100}\\right) }^{2} - {\\left( {a}_{1} + {a}_{3} + \\cdots  + {a}_{99}\\right) }^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1721,
+        "end": 1728
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1721,
+        "end": 1728
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-6",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】(1) $2^{100}$；(2) $\\frac{(2-\\sqrt3)^{100}-(2+\\sqrt3)^{100}}2$；(3) $1$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 459,
+        "end": 460
+      }
+    ],
+    "teacher_analysis": "设 $F(x)=(2-\\sqrt3 x)^{100}$。常数项为 $F(0)=2^{100}$。奇数次项系数之和为 $[F(1)-F(-1)]/2$。设偶、奇数次项系数和为S、T，则 $S+T=F(1)$、$S-T=F(-1)$，故 $S^2-T^2=F(1)F(-1)=(4-3)^{100}=1$。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 利用二项式定理,求 ${55}^{55}$ 被 8 除所得的余数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1729,
+        "end": 1730
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1729,
+        "end": 1730
+      }
+    ],
+    "id": "x2-chapter-end-6-hB-7",
+    "category": "复习题B",
+    "answer": "【回源配对并编辑补解】$7$。",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 461,
+        "end": 462
+      }
+    ],
+    "teacher_analysis": "$55^{55}=(56-1)^{55}$。二项展开中除末项外均含因子56，因而均为8的倍数；末项为 $(-1)^{55}=-1$，所以余数为7。",
+    "analysis_provenance": [],
+    "editor_revision": {
+      "author": "编辑补写/复核",
+      "kind": "source_repair_with_independent_derivation",
+      "not_original_teacher_text": true
+    }
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "## 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1731,
+        "end": 1731
+      }
+    ],
+    "id": "x2-chapter-end-6-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 设集合 $A$ 是由所有满足下面条件的有序数组 $\\left( {{x}_{1},{x}_{2},{x}_{3},{x}_{4},{x}_{5}}\\right)$ 构成的: 每一个元素 ${x}_{i}$ 等于 0、1、-1 中之一,其中 $i = 1,2,3,4,5$ . 那么集合 $A$ 中满足条件\" $1 \\leq  \\left| {x}_{1}\\right| \\; + \\left| {x}_{2}\\right|  + \\left| {x}_{3}\\right|  + \\left| {x}_{4}\\right|  + \\left| {x}_{5}\\right|  \\leq  3$ \" 的元素有多少个?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1733,
+        "end": 1734
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1733,
+        "end": 1734
+      }
+    ],
+    "id": "x2-chapter-end-6-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 130.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 465,
+        "end": 466
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 利用二项式定理证明: 对于任意正整数 $n,\\frac{1}{\\sqrt{5}}\\left\\lbrack  {{\\left( 2 + \\sqrt{5}\\right) }^{n} - {\\left( 2 - \\sqrt{5}\\right) }^{n}}\\right\\rbrack$ 都是正整数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1735,
+        "end": 1735
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1735,
+        "end": 1735
+      }
+    ],
+    "id": "x2-chapter-end-6-t-2",
+    "category": "拓展与思考",
+    "answer": "2. 提示: ${\\left( 2 + \\sqrt{5}\\right) }^{n} = \\mathop{\\sum }\\limits_{{k = 0}}^{n}{\\mathrm{C}}_{n}^{k}{2}^{n - k}{\\left( \\sqrt{5}\\right) }^{k},{\\left( 2 - \\sqrt{5}\\right) }^{n} = \\mathop{\\sum }\\limits_{{k = 0}}^{n}{\\left( -1\\right) }^{k}{\\mathrm{C}}_{n}^{k}{2}^{n - k}{\\left( \\sqrt{5}\\right) }^{k}$ ,从而它们的差是 $2\\mathop{\\sum }\\limits_{{s = 0}}{\\mathrm{C}}_{n}^{{2s} + 1}{2}^{n - \\left( {{2s} + 1}\\right) }{\\left( \\sqrt{5}\\right) }^{{2s} + 1}$ ,因此命题成立.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 467,
+        "end": 467
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "复习题A · 原教参答案存档（已逐题复核回接）",
+    "markdown": "1. 150.\n\n2. 96 .\n\n3. 144.\n\n4. 10.\n\n5. 10.\n\n6. 41 .\n\n7.5.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 433,
+        "end": 446
+      }
+    ],
+    "teacher_only": true,
+    "id": "x2-chapter-end-6-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "复习题B · 原教参答案存档（已逐题复核回接）",
+    "markdown": "1. 192.\n\n2. 150 .\n\n3. 420.\n\n4. (1) 3 720. (2) 720. (3) 144. (4) 720.\n\n5. (1) 115. (2) 186.\n\n6. (1) ${2}^{100}$ . (2) $\\frac{1}{2}\\left\\lbrack  {{\\left( 2 - \\sqrt{3}\\right) }^{100} - {\\left( 2 + \\sqrt{3}\\right) }^{100}}\\right\\rbrack$ . (3) 1.\n\n7.7.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 449,
+        "end": 462
+      }
+    ],
+    "teacher_only": true,
+    "id": "x2-chapter-end-6-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

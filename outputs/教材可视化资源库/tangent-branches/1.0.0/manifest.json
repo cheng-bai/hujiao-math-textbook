@@ -1,0 +1,291 @@
+{
+  "asset_id": "bfc1c585-7458-5710-bac7-9998c9b2eaad",
+  "contributors": [
+    {
+      "name": "Codex foundations implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:02Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "angle": 60
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "foundations",
+    "source_build_sha256": "31e70f15a181e5a2e1deb21ccf19a5e781c144c442d074dc0a2dd91d432f033e",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx2-7-4-b4",
+          "rationale": "覆盖本节原prose第4块：通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sectionId": "bx2-7-4",
+          "sourceSha256": "2f2c6f4c49d0e458e0d9c59329e7767757648b43cf9cf50ee6d50e034af82d89"
+        }
+      ],
+      "sections": [
+        "bx2-7-4"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 24607,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "31e70f15a181e5a2e1deb21ccf19a5e781c144c442d074dc0a2dd91d432f033e"
+    },
+    {
+      "bytes": 12930,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "509cded532b21853adf2ee6015694ccf75ac85178225569f2cb91e0396345f7e"
+    },
+    {
+      "bytes": 12180,
+      "media_type": "text/javascript",
+      "path": "source/foundations.js",
+      "role": "source",
+      "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+    },
+    {
+      "bytes": 31651,
+      "media_type": "application/json",
+      "path": "source/foundations.json",
+      "role": "source",
+      "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+    },
+    {
+      "bytes": 4611,
+      "media_type": "text/javascript",
+      "path": "source/test-foundations.mjs",
+      "role": "source",
+      "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1643,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "5a167b67afc97c4fc84de10b8390fb5f881709b698e35b4b3b2532656272418b"
+    },
+    {
+      "bytes": 3140,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "41ce79c19ff43505aeae0de35011e4b8bcfb2044911984fb8b70aa4db6f68686"
+    },
+    {
+      "bytes": 1048,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "d18552b8e7e88de5c39b5e776812408d37e05ba02cfae079eb2463ae0883018e"
+    },
+    {
+      "bytes": 2379,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "2607261fe23209a256f8d91712003af05a6b153f4204b52d32931a71aa004191"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "0874e608865ab4c7546708f4fe8bde093cf1020975c7c167f8d0ee826bb78886"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 520,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "b8b3149ceffc7e28802a55cc3190b0221ea6e539a6b933ae9701b1849074e99f"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "正切值可由终边所在直线与 x=1 的交点纵坐标表示；终边与 x=1 平行时没有交点。先作 (-π/2,π/2) 一支，再按 π 的整数倍平移。定义域排除 π/2+kπ；这些直线隔开不同分支，禁止跨线连点。每支内严格增不等于整个定义域上严格增。"
+    ],
+    "learning_goals": [
+      "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。"
+    ],
+    "objects": [
+      "正切：渐近线不是可以跨越的曲线"
+    ],
+    "parameters": {
+      "angle": {
+        "default": 60,
+        "display_range": [
+          -270,
+          270
+        ],
+        "domain": "本实验允许输入范围 [-270, 270]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "foundations"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "angle": 60
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "tangent-branches",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "angle": {
+        "maximum": 270,
+        "minimum": -270,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "正切：渐近线不是可以跨越的曲线",
+  "updated_at": "2026-10-19T16:47:02Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/foundations.js",
+          "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+        },
+        {
+          "path": "source/foundations.json",
+          "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+        },
+        {
+          "path": "source/test-foundations.mjs",
+          "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126699Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "31e70f15a181e5a2e1deb21ccf19a5e781c144c442d074dc0a2dd91d432f033e"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126699Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "31e70f15a181e5a2e1deb21ccf19a5e781c144c442d074dc0a2dd91d432f033e"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

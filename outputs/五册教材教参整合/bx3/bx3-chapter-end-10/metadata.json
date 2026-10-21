@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-chapter-end-10",
+  "book_id": "bx3",
+  "section": "chapter-end-10",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx3/bx3-chapter-end-10.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-chapter-end-10",
+  "fingerprint": "8a0c0b3fb9528844d98fc1d1dd2c4bbcef6e245301f4349f59a191dee42d2bf8",
+  "status": "rendered",
+  "questions": 20,
+  "answers": 20,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-761944ad1909d33a23dd.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg",
+      "sha256": "761944ad1909d33a23dd72522d64240d031569f995eb904c0cbc40d2859fdd6e",
+      "private": false
+    },
+    "images/book-b004c1311976545c5e47.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg",
+      "sha256": "b004c1311976545c5e47d2849f276c40bac01a7b6d8ea2713e75002b86af2c1a",
+      "private": false
+    },
+    "images/book-550535da6d38b66dd9be.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg",
+      "sha256": "550535da6d38b66dd9be2d89efcc8f019e13ae7f5abce11f6651d7cb8140250f",
+      "private": false
+    },
+    "images/book-dff3c36dc4dfd0871e06.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg",
+      "sha256": "dff3c36dc4dfd0871e06cf428281220710c91a66d39e28f110e28328e38fbcdf",
+      "private": false
+    },
+    "images/book-9d880a28fa749d709faf.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg",
+      "sha256": "9d880a28fa749d709faf92f1c46e2df43f6224ef01bc01fba7d6770bbf335c52",
+      "private": false
+    },
+    "images/book-702fd807b9a46cf91726.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg",
+      "sha256": "702fd807b9a46cf917260d4286858d176e6db0c473c60fd08d71e2c81546710e",
+      "private": false
+    },
+    "images/book-28a74f909c4eaa665f99.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg",
+      "sha256": "28a74f909c4eaa665f99a9241900820452c4a14c33c5c247a2ec60653cf7ff8a",
+      "private": false
+    },
+    "images/book-199bd84ddf2761b083cc.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg",
+      "sha256": "199bd84ddf2761b083cc9b17278ea6ff91cc3ba8627f20159244b17bfba9cbcb",
+      "private": false
+    },
+    "images/book-d2664677053d20664a8c.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg",
+      "sha256": "d2664677053d20664a8c7658c4240dde65716995c33723d0f54138e7fc8a221f",
+      "private": false
+    },
+    "images/book-b405a33b48cccb7bf2aa.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg",
+      "sha256": "b405a33b48cccb7bf2aa2248579bdd103b579deacbab30cf663e25d7db8ef692",
+      "private": false
+    },
+    "images/book-beb5bfe4991464c52037.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg",
+      "sha256": "beb5bfe4991464c520372d7163e13498c009e774f020e607294e7bfcdec4d5cb",
+      "private": false
+    },
+    "images/book-d428ba5163fc3f650f89.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg",
+      "sha256": "d428ba5163fc3f650f89146f3d57b3392b5d83cd978f35a5b81304e66a9c4204",
+      "private": false
+    },
+    "images/book-a47b3972b486ede429a8.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg",
+      "sha256": "a47b3972b486ede429a882a75ad7fbfbd60c7754b8c392999f4bec83f01fd03e",
+      "private": false
+    },
+    "images/book-8cc672bd78901f4faa72.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg",
+      "sha256": "8cc672bd78901f4faa7285401cca3852e25b1d5d501fd947bdf5d661def29adc",
+      "private": false
+    },
+    "images/book-4fc42b8e25eebacfa7fa.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg",
+      "sha256": "4fc42b8e25eebacfa7fa971c0fc0b01a561fe9b1e38fc181c5b6e5be4617b652",
+      "private": false
+    },
+    "images/book-6462cfb882e478395ebb.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg",
+      "sha256": "6462cfb882e478395ebb3064554177f966d7a0cbee877f0c068b03d9e3fc7e92",
+      "private": false
+    },
+    "images/book-65435ef3728d00028eda.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg",
+      "sha256": "65435ef3728d00028eda55bb29f1f12dca303809d73e7888eb08cb24c0df2cca",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md": "35f2b6b5d4d617ad9b28dd03d2d7a4190ec8c59bd3ccc8efd7048727738feb57",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md": "d5c15f5e9d051e7978e665f9b953ed977d378af9dcbc9486005917629a23558e"
+  },
+  "student_images": [
+    "images/book-199bd84ddf2761b083cc.jpg",
+    "images/book-28a74f909c4eaa665f99.jpg",
+    "images/book-4fc42b8e25eebacfa7fa.jpg",
+    "images/book-550535da6d38b66dd9be.jpg",
+    "images/book-6462cfb882e478395ebb.jpg",
+    "images/book-65435ef3728d00028eda.jpg",
+    "images/book-702fd807b9a46cf91726.jpg",
+    "images/book-761944ad1909d33a23dd.jpg",
+    "images/book-8cc672bd78901f4faa72.jpg",
+    "images/book-9d880a28fa749d709faf.jpg",
+    "images/book-a47b3972b486ede429a8.jpg",
+    "images/book-b004c1311976545c5e47.jpg",
+    "images/book-b405a33b48cccb7bf2aa.jpg",
+    "images/book-beb5bfe4991464c52037.jpg",
+    "images/book-d2664677053d20664a8c.jpg",
+    "images/book-d428ba5163fc3f650f89.jpg",
+    "images/book-dff3c36dc4dfd0871e06.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "e8aa871c9e9cdf1fa051234a954756b52938414d78b0c05b0b531e7125883d63",
+    "student.html": "b1d46201ca6e4c82e2298d3594b8e71f96245991d7c1dfb7b0d7d95611ce7fd5",
+    "student.zip": "aa3b5f4876f9949c4cfba19407d7af4eb581353b9b21c7cdcfbdc77424f9b3c2",
+    "content.json": "d2450dfaecf6651cc2671045c582c1b3d873352024bacc8778169b140fb60035"
+  }
+}

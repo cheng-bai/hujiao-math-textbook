@@ -1,0 +1,1486 @@
+[
+  {
+    "type": "section",
+    "id": "bx2-8-1-reading",
+    "title": "向量的概念和线性运算",
+    "number": "01",
+    "subtitle": "",
+    "markdown": "",
+    "provenance": [],
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "intro",
+    "title": "本节阅读主线",
+    "markdown": "从“有大小与方向的量”出发，用有向线段建立几何表示，再把加法、减法和数乘组织成线性运算。教材正文构成阅读主线，教参的编写意图与教学边界在对应位置出现。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b0",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "章导语",
+    "markdown": "平面向量\n\n在现实世界和科学问题中，常常会见到既有大小又有方向的量, 如位移、速度、力等. 数学中的“向量”概念就是从中抽象出来的. 向量不仅有丰富的几何内涵，向量及其线性运算与数量积运算还构成了精致且有广泛应用的代数结构, 可把有关的几何问题简便地转化为相应代数问题来处理. 本章只讨论平面上的向量, 选择性必修课程第 3 章还将把这一讨论推广到 (三维)空间中，至于更一般性的推广则是大学线性代数课程的核心内容.\n\n高中阶段向量的学习重在为解决代数、几何、三角及物理等领域中的问题提供一个简捷有效的工具.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1,
+        "end": 6
+      }
+    ],
+    "id": "bx2-8-1-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 本章概述",
+    "markdown": "## 一、本章概述\n\n### 总体要求\n\n向量具有深刻的数学内涵、丰富的物理背景. 向量既是代数研究的对象, 也是几何研究的工具. 向量是沟通几何与代数的桥梁, 通过向量可以用代数的方法研究直线、曲线、平面、曲面以及高维空间中的数学问题, 是进一步学习和研究数学其他领域问题的基础. 在解决实际问题中, 向量也有广泛的应用.\n\n本单元的学习, 可以帮助学生理解平面向量的代数表示与几何意义; 掌握平面向量的概念、运算、向量基本定理以及向量的应用; 用向量的语言、方法描述和解决现实生活、数学和物理中的问题; 提升数学抽象, 直观想象, 数学运算和逻辑推理素养.\n\n几何与代数是高中数学课程的主线之一. 通过形与数的结合, 突出几何直观与代数运算之间的融合, 感悟数学知识之间的关联, 加强对数学整体性的理解.\n\n### 课时安排建议\n\n本章的课时安排建议为 10+1 ,共计 11 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan=\"3\">8.1 向量的概念和线性运算</td><td rowspan=\"3\">3</td><td>向量的概念 1 课时</td></tr><tr><td>向量的加法和减法 1 课时</td></tr><tr><td>实数与向量的乘法 1 课时</td></tr><tr><td rowspan=\"2\">8.2 向量的数量积</td><td rowspan=\"2\">2</td><td>向量的投影 1 课时</td></tr><tr><td>向量的数量积的定义与运算律 1 课时</td></tr><tr><td rowspan=\"3\">8.3 向量的坐标表示</td><td rowspan=\"3\">3</td><td>向量基本定理 1 课时</td></tr><tr><td>向量的正交分解与坐标表示、向量线性运算的坐标表示 1 课时</td></tr><tr><td>向量数量积与夹角的坐标表示 1 课时</td></tr></table>\n\n(续表)\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td>8.4 向量的应用</td><td>2</td><td>向量的应用 2 课时</td></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n二期课改教材中“向量”作为服务于其他数学内容的工具进行学习,内容被分解为若干小块, 分布在初中八年级第二学期、初中九年级第一学期、高中二年级第一学期和高中拓展等四册教材中. 本套教材把向量作为一个重要内容, 分为“平面向量”(在必修课程中)和“空间向量”(在选择性必修课程中)两章,给予系统的阐述. 教师不光要解决新旧教材知识上的衔接问题, 更重要的是要理解和体会由向量地位的不同而引起的理念性和实践性的变化, 把向量当作有独立存在意义的学习内容, 而不仅仅是工具性内容.\n\n本章讲的是平面向量, 内容共分为四节, 分别是 8.1 向量的概念和线性运算, 8.2 向量的数量积, 8.3 向量的坐标表示, 8.4 向量的应用. 前三节比较完整地阐述了平面向量的基本理论, 最后一节举了平面向量在数学、力学和生活中的应用的一些例子.\n\n“ 8.1 向量的概念和线性运算”通过对力、速度、位移等有物理背景的量的分析, 为学生建立起向量的最初直觉,并用 “既有大小又有方向的量” 给出向量的描述性定义. 紧接着教材给出了向量的几何表示 (用有向线段表示向量), 把向量转化为学生比较熟悉的几何对象, 让学生较为直观地理解向量的方向与模, 理解平面向量的意义和两个向量相等的含义, 并能利用向量处理一些简单的几何问题.\n\n但是, 如果不建立起相应的代数结构, 向量的研究跳不出几何的框架, 就没有独立存在的意义. 由于向量没有直接等同于有向线段 (而是等同于有向线段在平移变换下的等价类), 使得在向量集合上定义线性运算成为可能(例如, 两个向量可以平移到具有相同起点的位置上, 使得可以用平行四边形法则定义它们的和), 并且所定义的运算有很好的实际意义 (如加法与力的合成的一致性). 向量集合上有了线性运算后, 即成为了向量空间, 从而搭起了研究向量的基本框架 (见附录的 1). 这些背景知识教师必须心中有数,但不是面对学生教学的内容. 通过对这些背景的了解,教学中要注意引导学生理解, 向量系统是学生见到的第一个有别于数的系统的有运算的数学结构, 它的运算都要进行严格的定义, 运算所具有的性质都要严格论证.\n\n本小节只讲向量的线性运算 (包括向量的加减法、实数与向量的乘法). 尽管这些是最基本的代数运算, 但这种运算对学生来说是比较抽象的. 学生所熟悉的是数的运算, 建立在用符号表示数基础上的符号运算和函数的运算本质上也都是数的运算. 而向量是一种新的运算对象 (因此符号不全代表数了). 教材借助实例和平面向量的几何表示, 帮助学生理解平面向量的加、减运算和数乘运算的意义及运算规则, 并通过线性运算来研究两个向量的大小与位置关系. 例如, “实验室中借助弹簧秤验证两个力的合成”引出向量的加法, “匀速行驶的科考船在两个不同时间中位置的变化”引出实数与向量的乘法.\n\n“8.2 向量的数量积”又是学生没有经历过的新的运算, 实际上它也是向量空间的线性结构之外所添加的一个运算, 用向量的语言描述“角度”这一重要的几何量, 特别是描述“垂直”这一重要的几何性质. (事实上, 在大学的线性代数课程中, “垂直”是通过正定的内积 (即数量积) 来定义的. 但在学生所熟悉的现实的平面或 (三维) 空间中, “垂直”是客观存在或者说预先设定的, 于是数量积则反过来被这预先设定的 “垂直”关系所定义. )教材通过物理中的功的计算,帮助学生理解平面向量数量积的概念及其物理意义；通过几何直观,了解平面向量投影的概念以及投影向量的意义,并通过用数量积判断两个平面向量的垂直关系和平行关系, 使学生初步了解向量的数量积在几何上的应用.\n\n把数量积的定义公式作简单变形, 就得到了求两向量夹角的公式. 这个公式的意义在本节没有显现出来, 因为现在还少有先知道两向量的数量积而求它们的夹角的例子. 在下一节有了向量的坐标表示以后, 可以通过向量的坐标求数量积, 上述求向量夹角的公式就将发挥它的重要作用.\n\n“8.3 向量的坐标表示”把几何表示的向量通过直角坐标系的引入又化为代数对象, 使向量成为代数方法解决几何问题的一个有效工具. 注意本套教材这一节的编排与二期课改同一内容的编排不同:在二期课改教材中,先介绍向量的坐标表示,再引入向量基本定理; 本套教材虽然一开始把向量在直角坐标系中的分解作为情境引入, 但马上回过来先给出了向量基本定理, 建立起向量分解理论的基础, 然后把向量的正交分解作为向量分解的特例引出, 最后回到坐标分解. 这样做突出了向量基本定理的重要地位, 同时避免了仅在直角坐标系中讨论向量分解定理的局限性.\n\n除了通过向量的几何形式与代数形式(坐标表示)的联系的建立,使向量成为联系代数、几何、三角的重要纽带外, 老师们还应该清楚地了解本节所蕴含的以下意义: 一, 向量的坐标表示提供了把平面和空间中直观的向量抽象地推广到高维向量空间的渠道,而高维向量空间及其相关的线性变换理论是大学线性代数课程的核心内容; 二, 本节出现了平面向量的基的概念, 它现在似乎很不起眼, 但将来会推广为高维向量空间的基以及维数、线性相关、线性无关等线性代数课程中的重要且有一定难度的概念. 因此, 本节教学应适当强化相关概念, 并尽可能用浅显、直观的语言让学生体会一些深层次的数学思想.\n\n“8.4 向量的应用”旨在介绍平面向量在中学阶段的一些最基本的应用, 为此, 教材精心选择了几个典型的例题. 其中, 例 1 用向量方法证明了定比分点公式, 例 2 在此基础上运用定比分点公式求三角形的重心. 例 3 、例 4 继续向量在平面几何中的应用的话题, 例 3 利用向量处理平行关系的优势, 方便地证明了“对角线互相平分的四边形是平行四边形” 这一定理; 例 4 的问题是已知三角形的两条边的向量, 求三角形的面积, 目标是把三角形的面积用两个向量的坐标简洁地表示出来, 但为了降低难度, 先求出用这两个向量的模与数量积表示的面积公式, 把它作为中间结果. 例 5 是一道日常生活中的问题, 例 6 要求用向量方法证明两角差的余弦公式, 例 7 是一道力学背景的问题, 已知合力求分力.\n\n向量的应用是比较广泛的, 特别是在平面几何中有大量的相关问题, 但本教材并没有在这里过分挖掘, 只是点到为止.\n\n### 教学提示\n\n向量是沟通代数、几何与三角的桥梁, 也是解决三角、几何等问题的重要工具, 平面几何和三角中的许多概念和定理有对向量的描述, 许多证明和计算可以转化为向量的线性运算以及向量的数量积运算来处理. 在实际教学中需要进一步关注如下几个方面:\n\n(1)向量是一个具有实际意义与物理背景的数学模型\n\n开展向量教学时, 需要充分利用学生已有的生活经验, 以及物理学科的基础知识, 创设丰富的教学情景, 例如力、速度、加速度, 力的合成与分解, 物体做功等. 通过这些情境材料引导学生了解向量的物理背景, 认识向量作为描述现实问题模型的作用,同时通过解决问题,引导学生学会善于运用向量这一数学模型处理问题的基本方法.\n\n(2)向量是联系相关知识的桥梁\n\n向量是代数的研究对象, 具有代数表达与运算的特征, 是一种基本的数学语言. 向量的几何意义使我们可以用代数的方法来刻画几何元素(点、线、面),通过向量运算描述几何元素之间的关系, 以及研究长度、面积、体积等几何度量问题. 教学中, 教师要充分关注到向量这些特点, 建立向量与代数、几何、三角之间的联系.\n\n(3)向量是解决几何问题的有效工具\n\n向量既有代数的抽象性, 又有几何的直观性, 是数形结合的典范. 向量法是研究几何问题的有力工具. 教学中应当引导学生深入体会向量及其运算与几何图形之间的联系, 总结运用向量的代数运算研究几何问题的基本思想. 即构造向量表示平面几何问题中涉及的几何元素,将平面问题转化为向量问题；通过向量运算,研究几何元素之间的关系,如距离、夹角等问题；最后把运算结果“翻译”成几何结论. 在平面向量的教学中, 应该引导学生体会运用向量处理几何、物理问题等的方法. 通过解决上述问题, 提高学生的运算能力和解决实际问题的能力.\n\n### 评价建议\n\n与二期课改教材主要把向量作为解决几何问题的工具进行教学的设计不一样, 本教材把向量作为独立的数学分支进行设计. 因此, 掌握向量这个“体系”是整个教学的抓手, 也是进行教学评价的关键.\n\n向量概念和向量的有向线段表示、向量的线性运算、向量的数量积, 以及向量基本定理与向量的坐标表示, 是本章所涉及的向量理论的核心内容. 向量系统是有别于数的系统的一个全新的系统, 有自己独特的结构和运算体系. 向量系统的教学特别有助于学生数学抽象、逻辑推理、数学运算和直观想象等核心素养的培养, 教学评价也应该聚焦于这些素养的考察. 例如, 考察学生是否根据物理或生活中量的基本特征, 准确辨别出向量和数量; 能否理解用有向线段表示向量对建立向量理论的意义, 并能熟练掌握在有向线段语境中定义(或者说几何地定义)的各种向量运算；能否理解向量基本定理以及建立在该定理基础上的向量的坐标表示, 熟练地进行坐标表示下的各种向量运算.\n\n有些问题并不是传统意义的数学题, 但对考察学生的学习过程以及学生对新知识和既有知识的联系能力是很有意义的. 例如, 可以让学生思考, 用以表示一个向量的有向线段不是唯一的, 却为什么可以用于定义向量的夹角 (包括向量的平行与垂直) 以及向量的线性运算与数量积, 怎么说明这些定义与所选择的有向线段无关? 向量的有向线段表示不唯一但坐标表示唯一, 这 “不唯一” 如何走向 “唯一”, 其中的关键是什么?\n\n向量在许多领域有着广泛的应用, 各种应用给学生提供了提高数学建模能力的机会, 因为来自数学和其他方面的问题未必是用向量表述的, 学生就必须从中抽象出向量问题, 有时候非向量问题到向量问题的抽象被视为理所当然, 如证明直线间的垂直关系变为证明直线上的向量之间的垂直关系, 然后用向量方法解决所抽象出来的问题, 最后回到原问题的语境解释所得到的结果. 这个过程与一般的数学建模过程类似. 因此, 要从数学建模的高度注意培养和考察学生用向量解决问题的能力.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 22,
+        "end": 91
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-8-1-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "section",
+    "title": "向量的概念",
+    "markdown": "",
+    "provenance": [],
+    "id": "concept",
+    "number": "01",
+    "subtitle": "从实际的量，到可以平移的数学对象",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1 向量的概念\n\n![](images/book-4a5aa3b2eb280bea5115.jpg)\n\n图 8-1-1\n\n图 8-1-1 展示了国产大飞机 C919 在蓝天翱翔的雄姿. 飞机从 $A$ 飞行到 $B$ . 它的位移是一个既有大小又有方向的量,它的大小是 $A\\text{ 、 }B$ 间的距离,方向由 $A$ 到 $B$ .\n\n像“一点相对于另一点的位移”这种既有大小又有方向的量叫做向量 (vector). 准确地说, 一个向量由两个要素定义, 一是它的大小(一个非负实数)，一是它的方向.\n\n在研究向量的性质并定义与向量相关的各种运算时, 常常把向量用有向线段 (directed line-segment, 即指定了方向的线段) 表示出来, 线段的长度就是向量的大小, 线段的方向表示向量的方向. 我们也直接把表示向量的有向线段称作向量, 有向线段的起点称为向量的起点，有向线段的终点称为向量的终点. 本章只研究在一个平面上的向量, 就是要求所涉及的所有向量都能用同一个平面上的有向线段表示出来.\n\n向量通常用上方加箭头的小写字母表示，如 $\\overrightarrow{a}$ ，读作向量 $a$ . 向量也可以用上方加箭头的两个大写字母表示，如 $\\overrightarrow{AB}$ ，读作向量 ${AB}$ ,其中 $A$ 是向量的起点， $B$ 是向量的终点.\n\n在讨论向量时，仅仅有数值(可以是任何实数)而没有方向的量称为数量 (scalar), 又称为 “标量”.\n\n除了位移，向量还有很多现实的原型. 例如，“力”就是一个典型的例子.\n\n图 8-1-2 是由若干个单位正方形组成的网格, $\\overrightarrow{GH}$ 表示大小为 2 个单位、方向由 $G$ 到 $H$ 的向量; $\\overrightarrow{MN}$ 表示大小为 $\\sqrt{5}$ 个单位、 方向由 $M$ 到 $N$ 的向量.\n\n\n“向量”又称为“矢量”, 在物理学中较常使用.\n\n物理学中所研究的力有大小、方向和作用点三要素，我们研究的向量舍弃了作用点这一要素, 这种向量叫做自由向量.\n\n\n![](images/book-495f4b53e6806128c08a.jpg)\n\n图 8-1-2\n\n\n请同学们描述图 8-1-2 中向量 $\\overrightarrow{CD}$ 、 $\\overrightarrow{EF}\\text{ 、 }\\overrightarrow{PQ}$ 的大小与方向.\n\n\n向量 $\\overrightarrow{a}$ 的大小叫做 $\\overrightarrow{a}$ 的模 (modulus)，记作 $\\left| \\overrightarrow{a}\\right|$ . 模为 1 的向量叫做单位向量(unit vector).\n\n规定模为 0 的向量叫做零向量(zero vector),记作 $\\overrightarrow{0}$ ,可认为它具有任意方向.\n\n如果两个非零向量所在的直线平行或者重合, 那么称这两个向量平行. 我们用记号 $\\overrightarrow{a}//\\overrightarrow{b}$ 表示向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 平行.\n\n如果两个向量同方向且具有相同的模, 根据向量的定义, 它们就是同一个向量, 不过我们常常只说它们是相等的向量. 特别地, 一个向量平移后得到的向量与原来的向量相等. 例如, 图 8-1-3 中,向量 $\\overrightarrow{MN}$ 是向量 $\\overrightarrow{AB}$ 经过平移后得到的,所以 $\\overrightarrow{MN} = \\overrightarrow{AB}$ .\n\n![](images/book-38432d345682cddc4952.jpg)\n\n图 8-1-3\n\n由于约定了零向量具有任意方向, 因此它平行于任意向量. 这样, 根据向量相等的定义, 零向量都是相等的.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 9,
+        "end": 62
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-vector-equality",
+        "kind": "concept",
+        "title": "相等向量：比较模与方向",
+        "start": 1406,
+        "end": 1613,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-1-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 先抽象，再严密",
+    "markdown": "向量是一个既有大小又有方向的量. 这是向量的描述性定义, 它使学生在情境引入基础上容易接受向量这个概念, 容易据以判断生活和科学中见到的量是否为向量. 教学中要做好铺垫, 并细化处理, 用好教材中列举的生活实例、几何事实和物理量 (如速度、位移等), 体会所举例子的共同本质特征是既有 “大小” 又有 “方向”, 获得对向量的感性认识, 逐渐去体会向量概念的本质, 完成从 “数” 到 “向量” 的认识飞跃.\n\n但向量的这个描述性定义不是严格的数学定义, 无法据以建构数学理论. 向量的严格定义依附于向量空间的定义, 即在严格定义的向量空间中, 向量作为元素出现. 中学数学不可能采取这样的切入方式, 而是描述性定义之后, 通过一定的抽象和几何表示, 借助于学生熟悉的平面上的几何, 建立起向量的线性运算, 推导出运算的基本性质,从而事实上构建了向量空间 (但没有出现这个术语) 的基本框架 (见附录的 1 $)$ .\n\n为了让老师们更清楚地了解这个过程, 我们进一步解释一下教材的具体做法. 教材在给出 “向量是一个既有大小又有方向的量” 的描述性定义后, 马上指出: “准确地说, 一个向量有两个要素定义, 一是它的大小 (一个正实数或零), 一是它在空间中的方向.”这句补白朝着向量概念的数学化迈出了重要一步:它抛弃向量的物理或其他属性, 从数学上把向量描述成一个正实数与空间的一个方向组成的二元组(方向可以理解为一组平行射线, 或等价地理解为过一个预先给定的固定点的一条射线) 或者 0 (由于具有不同方向的零大小的量都是相等的, 故与此相对应的向量只有一个).\n\n教材紧接着给出向量的几何表示, 即用有向线段来表示向量, 甚至直接把有向线段看成向量. 根据定义, 具有相同长度且方向相同(即同向平行)的有向线段表示的是同一个向量. 有了学生熟悉的几何载体,向量的相关概念和线性运算的定义就可以严格地进行了. 这就使我们能在建立严格的(平面)向量理论体系方向上继续前进.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 102,
+        "end": 108
+      }
+    ],
+    "id": "bx2-8-1-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "讲解边界",
+    "markdown": "这里的向量不记录起点的位置。比较两个向量，核对的是模与方向，而不是它们画在哪里。零向量“具有任意方向”是教材的约定，不应解释为零向量有一个确定的方向。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 01",
+    "markdown": "例 1 如图 8-1-4,在等边三角形 ${ABC}$ 中, $D\\text{ 、 }E\\text{ 、 }F$ 分别是边 ${BC}\\text{ 、 }{AB}\\text{ 、 }{AC}$ 的中点. 写出图中与向量 $\\overrightarrow{EF}$ 平行和相等的向量.\n\n![](images/book-6dc493987a7216835fab.jpg)\n\n图 8-1-4",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 67,
+        "end": 68
+      },
+      {
+        "source": "book",
+        "start": 63,
+        "end": 65
+      }
+    ],
+    "answer": "解 根据向量平行与相等的定义,可知图中与 $\\overrightarrow{EF}$ 平行的向量有 $\\overrightarrow{FE}\\text{ 、 }\\overrightarrow{BD}\\text{ 、 }\\overrightarrow{DB}\\text{ 、 }\\overrightarrow{CD}\\text{ 、 }\\overrightarrow{DC}\\text{ 、 }\\overrightarrow{BC}$ 和 $\\overrightarrow{CB}$ ,而与 $\\overrightarrow{EF}$ 相等的向量有 $\\overrightarrow{BD}$ 和 $\\overrightarrow{DC}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 69,
+        "end": 69
+      }
+    ],
+    "teacher_analysis": "本节共 8 个例题, 其中例 1 与例 2 是概念的一些实例, 有助于学生的概念理解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 144,
+        "end": 144
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "请在图 8-1-4 中找出与 $\\overrightarrow{AE}$ 相等的向量.\n\n\n如果一对平行向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 具有相等的模但方向相反,那么称它们互为负向量,或者称 $\\overrightarrow{b}$ 为 $\\overrightarrow{a}$ 的负向量,记作 $\\overrightarrow{b} =  - \\overrightarrow{a}$ . 图 8-1-4中的向量 $\\overrightarrow{DB}$ 与 $\\overrightarrow{EF}$ 就是互为负向量. 一般地,对于平面上任意两点 $P\\text{ 、 }Q$ ,均有 $\\overrightarrow{PQ} =  - \\overrightarrow{QP}$ .\n",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 73,
+        "end": 79
+      }
+    ],
+    "id": "bx2-8-1-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 02",
+    "markdown": "例 2 在图 8-1-4 中，写出向量 $\\overrightarrow{AE}$ 的负向量.\n\n![](images/book-6dc493987a7216835fab.jpg)\n\n图 8-1-4",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 81,
+        "end": 82
+      },
+      {
+        "source": "book",
+        "start": 63,
+        "end": 65
+      }
+    ],
+    "answer": "解 根据负向量的定义，可知向量 $\\overrightarrow{EA}\\text{ 、 }\\overrightarrow{BE}$ 和 $\\overrightarrow{DF}$ 均为 $\\overrightarrow{AE}$ 的负向量.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 83,
+        "end": 83
+      }
+    ],
+    "teacher_analysis": "本节共 8 个例题, 其中例 1 与例 2 是概念的一些实例, 有助于学生的概念理解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 144,
+        "end": 144
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "尽管可以画出一个向量的许多负向量，但由于它们彼此都相等, 因此一个向量的负向量在相等的意义下是唯一的.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 85,
+        "end": 85
+      }
+    ],
+    "id": "bx2-8-1-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "练习8.1（1）",
+    "markdown": "",
+    "provenance": [],
+    "id": "practice-1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（1） · 1",
+    "markdown": "1. 指出下列各种量中的向量:\n\n(1)密度； (2)体积； (3)速度； (4)能量;\n\n(5) 电阻; (6)加速度； (7)功; (8) 力矩.\n\n你能找出更多向量的例子吗?\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l1-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 89,
+        "end": 96
+      }
+    ],
+    "answer": "1. (3)(6)(8)；电场强度等.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 388,
+        "end": 389
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（1） · 2",
+    "markdown": "2. 中国象棋中的“马”走“日”。如图是一个棋盘，当“马”自点 $A$ 走“一步”后的落点可以为点 ${A}_{1}\\text{ 、 }{A}_{2}$ 或 ${A}_{3}$ ,表示该“马”走“一步”的向量为 $\\overrightarrow{A{A}_{1}}\\text{ 、 }\\overrightarrow{A{A}_{2}}$ 或 $\\overrightarrow{A{A}_{3}}$ ,它们是相等的向量吗? 在图中分别用向量表示当“马”在点 $B$ 处各走“一步”的情形.\n\n![](images/book-0252fc2a2aff1aca3843.jpg)\n\n(第 2 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-l1-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 97,
+        "end": 106
+      },
+      {
+        "source": "book",
+        "start": 99,
+        "end": 101
+      }
+    ],
+    "answer": "2. 不是, 图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 390,
+        "end": 391
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（1） · 3",
+    "markdown": "3. 如图,点 $O$ 是正六边形 ${ABCDEF}$ 的中心,分别写出图中\n\n(1)与 $\\overrightarrow{OA}$ 相等的向量； (2)与 $\\overrightarrow{OB}$ 平行的向量；\n\n(3)与 $\\overrightarrow{OC}$ 模相等的向量； (4) $\\overrightarrow{OB}$ 的负向量.\n\n![](images/book-bf4517a3a01bff0f5843.jpg)\n\n(第 3 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-l1-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 107,
+        "end": 112
+      },
+      {
+        "source": "book",
+        "start": 103,
+        "end": 105
+      }
+    ],
+    "answer": "3. (1) $\\overrightarrow{EF}$ 、 $\\overrightarrow{CB}$ . (2) $\\overrightarrow{FA}$ 、 $\\overrightarrow{DC}$ 、 $\\overrightarrow{AF}$ 、 $\\overrightarrow{CD}$ .\n\n(3) $\\overrightarrow{AB}$ 、 $\\overrightarrow{BA}$ 、 $\\overrightarrow{BC}$ 、 $\\overrightarrow{CB}$ 、 $\\overrightarrow{CD}$ 、 $\\overrightarrow{DC}$ 、 $\\overrightarrow{DE}$ 、 $\\overrightarrow{ED}$ 、 $\\overrightarrow{EF}$ 、 $\\overrightarrow{FE}$ 、 $\\overrightarrow{AF}$ 、 $\\overrightarrow{FA}$ 、 $\\overrightarrow{OA}$ 、 $\\overrightarrow{OB}$ . (4) $\\overrightarrow{AF}$ 、 $\\overrightarrow{CD}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 392,
+        "end": 395
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "editor",
+    "title": "看图枚举的口径",
+    "markdown": "练习8.1（1）第3题的教参答案按图示箭头方向列举。若改成“由全部已标点构成的向量”，候选会增加，不能直接沿用原答案的枚举范围。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "section",
+    "title": "向量的加法和减法",
+    "markdown": "",
+    "provenance": [],
+    "id": "addition",
+    "number": "02",
+    "subtitle": "让不同方向的量进入同一套运算",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "## 2 向量的加法和减法\n\n在物理学习中, 我们已经知道了当不在同一方向上的两个力 $\\overrightarrow{OA}\\text{ 、 }\\overrightarrow{OB}$ 同时作用于一个物体时,它们的合力是以 $\\overrightarrow{OA}\\text{ 、 }\\overrightarrow{OB}$ 为相邻两边的平行四边形 ${OACB}$ 对角线 $\\overrightarrow{OC}$ 所表示的力 (图 8-1-5).\n\n![](images/book-b8d7b23beaee8e0bb1b7.jpg)\n\n图 8-1-5\n\n一般向量的加法也采用上述求合力的方法. 设给定两个不平行的向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ ，如图 8-1-6，如果以点 $O$ 为起点，分别作 $\\overrightarrow{OA} = \\overrightarrow{a},\\overrightarrow{OB} = \\overrightarrow{b}$ ,那么以 $\\overrightarrow{OA}\\text{ 、 }\\overrightarrow{OB}$ 为邻边的平行四边形 ${OACB}$ 的对角线所表示的向量 $\\overrightarrow{OC} = \\overrightarrow{c}$ 就定义为向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的和,记作 $\\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b}$ . 求向量和的运算,叫做向量的加法 (addition of vectors). 我们把这种作向量和的方法叫做向量加法的平行四边形法则 (parallelogram law).\n\n![](images/book-2f18b495481eea483e1e.jpg)\n\n图 8-1-6\n\n![](images/book-ec36e8899fef947d272d.jpg)\n\n图 8-1-7\n\n由于平行四边形对边平行且相等,有 $\\overrightarrow{AC} = \\overrightarrow{OB} = \\overrightarrow{b}$ ,因此求向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的和 $\\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b}$ ,在 $\\bigtriangleup {OAC}$ 中就可以实现: 如图8-1-7, 若以 $O$ 为起点作向量 $\\overrightarrow{OA} = \\overrightarrow{a}$ ，再以 $A$ 为起点作向量 $\\overrightarrow{AC} = \\overrightarrow{b}$ ，则连接起点 $O$ 与终点 $C$ 得到向量 $\\overrightarrow{OC}$ ,它就是 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 两向量的和 $\\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b}$ . 我们把这种作向量和的方法叫做向量加法的三角形法则.\n\n向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 满足 $\\overrightarrow{a}//\\overrightarrow{b}$ 时 (包括 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 中出现零向量的情况), 无法使用平行四边形法则, 但上述三角形法则的步骤 (即若从一点 $O$ 出发作向量 $\\overrightarrow{OA} = \\overrightarrow{a}$ ，再以 $A$ 为起点作向量 $\\overrightarrow{AC} = \\overrightarrow{b}$ ，则向量 $\\overrightarrow{OC} = \\overrightarrow{a} + \\overrightarrow{b}$ )仍然可以用于作出点 $C$ ,使得 $\\overrightarrow{OC} = \\overrightarrow{c} = \\overrightarrow{a} + \\overrightarrow{b}$ ,只不过此时 $\\bigtriangleup {OAC}$ 不存在,只剩下一条直线上三条首尾相接、互相重叠的线段了. 图 8-1-8 的三幅图分别给出了 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 方向相同、 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 方向相反且 $\\left| \\overrightarrow{a}\\right|  \\geq  \\left| \\overrightarrow{b}\\right|$ 和 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 方向相反且 $\\left| \\overrightarrow{a}\\right|  \\leq  \\left| \\overrightarrow{b}\\right|$ 三种情况的图示(后两种情况当 $\\left| \\overrightarrow{a}\\right|  = \\left| \\overrightarrow{b}\\right|$ 时是一致的，此时 $O\\text{ 、 }C$ 两点重合,从而 $\\overrightarrow{c} = \\overrightarrow{0}$ ).\n\n![](images/book-44d84e067500646340ae.jpg)\n\n图 8-1-8\n\n特别地, 当三个向量中出现一个零向量, 就得出\n\n$$\n\\overrightarrow{a} + \\overrightarrow{0} = \\overrightarrow{0} + \\overrightarrow{a} = \\overrightarrow{a}\\text{ 和 }\\overrightarrow{a} + \\left( {-\\overrightarrow{a}}\\right)  = \\overrightarrow{0}.\n$$\n\n向量加法满足如下运算律 ( $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 是平面上的任意向量):\n\n交换律 $\\overrightarrow{a} + \\overrightarrow{b} = \\overrightarrow{b} + \\overrightarrow{a}$ .\n\n结合律 $\\;\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c} = \\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)$ .\n\n由结合律,我们常常把 $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c}$ 与 $\\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)$ 都简记为 $\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c}$.\n\n根据平行四边形法则, 比较容易验证向量加法的交换律, 而结合律的证明见下面的例 3.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 113,
+        "end": 154
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-addition-laws",
+        "kind": "formula",
+        "title": "加法交换律与结合律",
+        "start": 2759,
+        "end": 3117,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-1-b17",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 同一法则，包含退化情形",
+    "markdown": "从力的合成这一情境中引出向量加法的平行四边形法则, 然后在数学上证明了平行四边形法则等价于三角形法则. 要给学生强调这是同一个法则的不同表现形式. 当然, 这都是在两个向量不平行的前提下的描述. 如果两个向量平行, 那么平行四边形或三角形退化成了一段双重的线段, 教材第 101 页画出所有三种不同情况. 如图 8- R1, 退化情况可以通过非退化的三角形压扁成线段来说明:\n\n![](images/private-c57426d16fda8959b776.jpg)\n\n图 8-R1\n\n压扁过程可以口头描述、教学模型展现或者计算机动态演示.\n\n与向量加法有关的运算律包括交换律与结合律, 列于教材第 102 页. 教材只证明了结合律(例 3),交换律的证明在一个平行四边形用三角形法则中就可以给出(图 8-R2):\n\n![](images/private-eef411fd1f95765dcbce.jpg)\n\n图 8-R2\n\n由于有了结合律, 可以考虑不加括号的向量连加. 反复使用证明结合律时用的等式 $\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}$ ,就可以得到容易记忆且方便使用的求向量和的“首尾原则”:若干个起点、终点依次相接的向量的和是以第一个向量的起点为起点, 以最后一个向量的终点为终点的向量. 要让学生充分理解并熟练运用这个原则. 这个原则将来还要推广到空间向量.\n\n与数的运算一样, 向量的减法是作为加法的逆运算来定义的, 并通过负向量把减法运算转化为加法运算. 因此, 向量的加法是教学的重点, 减法归结到加法, 不要再就减法本身大动干戈.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "id": "bx2-8-1-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 03",
+    "markdown": "例 3 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 是平面上任意给定的向量,求证: $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c} = \\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right) .$\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 155,
+        "end": 156
+      }
+    ],
+    "answer": "证明 向量加法的三角形法则 (包括向量平行的情况) 实际上说的是: 如果 $A\\text{ 、 }B\\text{ 、 }C$ 是平面上任意给定的三个点,那么\n\n$$\n\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}\\text{ . }\n$$\n\n从任意的一点 $A$ 出发作 $\\overrightarrow{AB} = \\overrightarrow{a}$ ,再从 $B$ 出发作 $\\overrightarrow{BC} = \\overrightarrow{b}$ ,最后从 $C$ 出发作 $\\overrightarrow{CD} = \\overrightarrow{c}$ ，由上式得到\n\n$$\n\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c} = \\left( {\\overrightarrow{AB} + \\overrightarrow{BC}}\\right)  + \\overrightarrow{CD} = \\overrightarrow{AC} + \\overrightarrow{CD} = \\overrightarrow{AD},\n$$\n\n$$\n\\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)  = \\overrightarrow{AB} + \\left( {\\overrightarrow{BC} + \\overrightarrow{CD}}\\right)  = \\overrightarrow{AB} + \\overrightarrow{BD} = \\overrightarrow{AD}\\text{ . }\n$$\n\n故 $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c} = \\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 157,
+        "end": 173
+      }
+    ],
+    "teacher_analysis": "例 3 证明向量加法的结合律,其证明的逻辑起点是对平面上任意三点 $A\\text{、}B\\text{、}C$ 均有 $\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}$ ,无论三点是否共线. 这是本小节所给出的向量加法的三角形法则及其退化情形的统一表达. 给学生讲清这个公式的来源,结合律的证明就顺理成章了. 这个公式还是非常有用的向量加法的“首尾规则”的依据, 要借助这个公式和结合律的证明把“首尾规则”讲清楚.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 146,
+        "end": 146
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "把例 3 证明中求向量和的方法略加推广, 可得: 若干个起点、终点依次相接的向量的和是以第一个向量的起点为起点、以最后一个向量的终点为终点的向量. 这是求向量和很实用的规则, 可以称之为 “首尾规则”.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 175,
+        "end": 175
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-head-tail",
+        "kind": "method",
+        "title": "首尾相接：把多段位移合成一段",
+        "start": 0,
+        "end": 101,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-1-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 04",
+    "markdown": "例 4 一物体受水平方向 6 N 和铅垂方向 8 N 的两个力的作用，求合力的大小以及合力与铅垂方向偏离的角度. (结果精确到 $\\left. {0.01}^{ \\circ  }\\right)$\n\n![](images/book-0038ba7c994338c7e970.jpg)\n\n图 8-1-9",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 177,
+        "end": 182
+      },
+      {
+        "source": "book",
+        "start": 179,
+        "end": 181
+      }
+    ],
+    "answer": "解 如图 8-1-9,设力的作用点为 $O$ ,若向量 $\\overrightarrow{a} = \\overrightarrow{OA}$ 表示水平方向 $6\\mathrm{\\;N}$ 的作用力,向量 $\\overrightarrow{b} = \\overrightarrow{OB}$ 表示铅垂方向 $8\\mathrm{\\;N}$ 的作用力, 则合力是 $\\overrightarrow{c} = \\overrightarrow{OC} = \\overrightarrow{a} + \\overrightarrow{b}$ .\n\n由于 ${OACB}$ 为矩形,故\n\n$\\left| \\overrightarrow{c}\\right|  = \\sqrt{{\\left| \\overrightarrow{OB}\\right| }^{2} + {\\left| \\overrightarrow{BC}\\right| }^{2}} = \\sqrt{{\\left| \\overrightarrow{b}\\right| }^{2} + {\\left| \\overrightarrow{a}\\right| }^{2}} = \\sqrt{{8}^{2} + {6}^{2}} = {10}\\left( \\mathrm{\\;N}\\right) , \\; \\tan \\angle {BOC} = \\frac{\\left| \\overrightarrow{BC}\\right| }{\\left| \\overrightarrow{OB}\\right| } = \\frac{3}{4}$ ， $\\angle {BOC} = \\arctan \\frac{3}{4} \\approx  {36.87}^{ \\circ  }$ .\n\n所以，合力为 ${10}\\mathrm{\\;N}$ ，合力与铅垂方向偏离约 ${36.87}^{ \\circ  }$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 183,
+        "end": 189
+      }
+    ],
+    "teacher_analysis": "本例采用作用于同一点的两个力的合成模型。题干未显式写出“作用于同一点”，应结合原图与教材解答明确此前提；不将本节模型外推为关于一般力系的结论。",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 148,
+        "end": 148
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": true
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们现在考虑向量的减法.\n\n就像数的运算中减法是加法的逆运算一样,向量的减法也是作为向量加法的逆运算来定义的. 这就是说,如果已知向量 $\\overrightarrow{a} + \\; \\overrightarrow{b} = \\overrightarrow{c}$ ,那么向量 $\\overrightarrow{b}$ 叫做向量 $\\overrightarrow{c}$ 与向量 $\\overrightarrow{a}$ 的差,记作 $\\overrightarrow{b} = \\overrightarrow{c} - \\overrightarrow{a}$ . 求向量差的运算, 叫做向量的减法.\n\n数的运算的经验使我们容易想到\n\n$$\n\\overrightarrow{c} - \\overrightarrow{a} = \\overrightarrow{c} + \\left( {-\\overrightarrow{a}}\\right) .\n$$\n\n\n向量的减法可以转化为向量的加法.\n\n\n![](images/book-8e6d6f6b1078c5ad55c6.jpg)\n\n图 8-1-10\n\n只要用向量加法的交换律、结合律以及 $\\overrightarrow{a} + \\left( {-\\overrightarrow{a}}\\right)  = \\overrightarrow{0}$ 的事实, 就可以直接验证这一公式:\n\n$$\n\\overrightarrow{c} - \\overrightarrow{a} = \\overrightarrow{c} + \\left\\lbrack  {\\left( {-\\overrightarrow{a}}\\right)  + \\overrightarrow{a}}\\right\\rbrack   - \\overrightarrow{a}\n$$\n\n$$\n= \\left\\lbrack  {\\overrightarrow{c} + \\left( {-\\overrightarrow{a}}\\right) }\\right\\rbrack   + \\left( {\\overrightarrow{a} - \\overrightarrow{a}}\\right)\n$$\n\n$$\n= \\overrightarrow{c} + \\left( {-\\overrightarrow{a}}\\right) \\text{ . }\n$$\n\n当 $\\overrightarrow{c}$ 与 $\\overrightarrow{a}$ 不平行时,我们还可以借助如图 8-1-10 所示的平行四边形得出这一公式: 由平行四边形右下方的三角形知 $\\overrightarrow{a} + \\overrightarrow{b} = \\overrightarrow{c}$ ,即 $\\overrightarrow{b} = \\overrightarrow{c} - \\overrightarrow{a}$ ,而由左上方的三角形知 $\\overrightarrow{b} = \\overrightarrow{c} + \\left( {-\\overrightarrow{a}}\\right)$ . 这就得到要证明的结果 $\\overrightarrow{c} - \\overrightarrow{a} = \\overrightarrow{c} + \\left( {-\\overrightarrow{a}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 191,
+        "end": 225
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-subtraction",
+        "kind": "method",
+        "title": "转化思想：减法化为加法",
+        "start": 302,
+        "end": 446,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-1-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 05",
+    "markdown": "例 5 已知 $\\bigtriangleup {ABC}$ 是边长为 1 的等边三角形,点 $O$ 是 $\\bigtriangleup {ABC}$ 所在平面上的任意一点. 求向量 $\\left( {\\overrightarrow{OA} - \\overrightarrow{OC}}\\right)  + \\left( {\\overrightarrow{OB} - \\overrightarrow{OC}}\\right)$ 的模.\n\n![](images/book-e4c9725361877e5e6217.jpg)\n\n图 8-1-11",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 227,
+        "end": 228
+      },
+      {
+        "source": "book",
+        "start": 231,
+        "end": 233
+      }
+    ],
+    "answer": "解 如图 8-1-11,作以 ${CB}\\text{ 、 }{CA}$ 为邻边的平行四边形 ${CADB}$ ,连接 ${CD}\\text{ 、 }{OB}$ . 根据向量减法的定义,可得 $\\overrightarrow{OA} - \\overrightarrow{OC} = \\; \\overrightarrow{CA},\\overrightarrow{OB} - \\overrightarrow{OC} = \\overrightarrow{CB}$ ，故 $\\left( {\\overrightarrow{OA} - \\overrightarrow{OC}}\\right)  + \\left( {\\overrightarrow{OB} - \\overrightarrow{OC}}\\right)  = \\overrightarrow{CA} + \\overrightarrow{CB} = \\overrightarrow{CD}$ .\n\n\n\n由于 $\\bigtriangleup {ABC}$ 是等边三角形,故 四边形 ${CADB}$ 是菱形,且 $\\left| \\overrightarrow{CD}\\right|  = \\; 2\\left| \\overrightarrow{CA}\\right| \\cos {30}^{ \\circ  } = \\sqrt{3}$ ,因此向量 $\\left( {\\overrightarrow{OA} - \\overrightarrow{OC}}\\right)  + \\left( {\\overrightarrow{OB} - \\overrightarrow{OC}}\\right)$ 的模为 $\\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 229,
+        "end": 235
+      }
+    ],
+    "teacher_analysis": "例 5 牵涉到向量的减法, 这里直接用减法的几何表达解题. 将来向量减法问题更多地直接化为加法做.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 150,
+        "end": 150
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "heading",
+    "title": "练习8.1（2）",
+    "markdown": "",
+    "provenance": [],
+    "id": "practice-2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（2） · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,化简:\n\n(1) $\\overrightarrow{AB} - \\overrightarrow{AC} =$ ___； (2) $\\overrightarrow{BC} - \\overrightarrow{AC} =$\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l2-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 239,
+        "end": 242
+      }
+    ],
+    "answer": "1. (1) $\\overrightarrow{CB}$ . (2) $\\overrightarrow{BA}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 398,
+        "end": 399
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（2） · 2",
+    "markdown": "2. 已知 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$ 是平面上任意五个点,求证: $\\overrightarrow{AE} = \\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CD} + \\overrightarrow{DE}$ . 这个结果可以推广到更多点的情况吗?\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l2-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 243,
+        "end": 244
+      }
+    ],
+    "answer": "2. 证明略,可以.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 400,
+        "end": 401
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（2） · 3",
+    "markdown": "3. 试说明,如果三个首尾相接的向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 所在的线段能拼接成三角形,那么一定满足条件 $\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c} = \\overrightarrow{0}$ . 反过来,如果 $\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c} = \\overrightarrow{0}$ ,那么三向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 所在的线段一定能拼接成三角形吗? 说明理由.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l2-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 245,
+        "end": 246
+      }
+    ],
+    "answer": "3. 不能,因为三个向量 $\\overrightarrow{a}\\text{、}\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 可能是共线向量.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 402,
+        "end": 403
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "实数与向量的乘法",
+    "markdown": "",
+    "provenance": [],
+    "id": "multiplication",
+    "number": "03",
+    "subtitle": "用一个系数，统一表达伸缩与反向",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "## 3 实数与向量的乘法\n\n如图 8-1-12, 某科考船以 12 海里/时的速度匀速沿东北方向航行，中午 12 时船的位置在点 $A$ 处. 请描述下午 3 时和下午 4 时 30 分该船与点 $A$ 的相对位置.\n\n![](images/book-ab888b2e0808a06c7721.jpg)\n\n图 8-1-12\n\n同学们一定很容易给出答案:该船下午 3 时在点 $A$ 东北方向的 36 海里处,而下午 4 时 30 分在点 $A$ 东北方向的 54 海里处. 同学们的计算可能是直接把速度的数值乘时间, 忽略了速度和位移都是向量这一事实. 这样把向量问题简化为数量问题处理, 碰到复杂问题(如多个方向位移的合成)时就可能力不从心了. 如果回到向量记号,用 $\\overrightarrow{v}$ 表示科考船的速度,即东北方向 12 海里/时, 那么该船下午 3 时和 4 时 30 分相对于 $A$ 的位移向量可以直接表示为 $3\\overrightarrow{v}$ 和 ${4.5}\\overrightarrow{v}$ ，这里的 3 与 4.5 是时间，它们只是数量(实数). 为了在向量空间中解释这种乘积, 我们要先定义实数与向量的乘法.\n\n实数 $\\lambda$ 与向量 $\\overrightarrow{a}$ 的乘积是一个向量,记作 $\\lambda \\overrightarrow{a}$ . 它的模 $\\left| {\\lambda \\overrightarrow{a}}\\right|  = \\left| \\lambda \\right| \\left| \\overrightarrow{a}\\right|$ ; 当 $\\lambda  > 0$ 时, $\\lambda \\overrightarrow{a}$ 的方向与 $\\overrightarrow{a}$ 相同; 当 $\\lambda  < 0$ 时, $\\lambda \\overrightarrow{a}$ 的方向与 $\\overrightarrow{a}$ 相反. 特别地,当 $\\overrightarrow{a} = \\overrightarrow{0}$ 或 $\\lambda  = 0$ 时, $\\lambda \\overrightarrow{a} \\; = \\overrightarrow{0}$ .\n\n暂不考虑有关量的单位,采用实数与向量乘积的记号,下午 3 时和 4 时 30 分科考船相对于 $A$ 的位移向量就可写为 $3\\overrightarrow{v}$ 和 $4.5\\overrightarrow{v}$，再考虑有关量的单位，由于 3 及 4.5 的单位是小时，速度的单位是海里/时,从而下午 3 时和 4 时 30 分科考船在点 $A$ 东北方向 36 海里处和 54 海里处. 我们还可以把上午 9 时科考船相对于 $A$ 的位移向量表示成(-3) $\\overrightarrow{v}$ ，即点 $A$ 西南方向 36 海里处.\n\n数学上实数与向量的乘积只是简单地理解为原向量的倍数. 但在实际问题中, 向量和实数都有可能被赋予特定的意义和单位, 如上例中的速度、位移和时间, 它们的乘积就可能有更复杂的含义.\n\n容易看出,当 $\\lambda$ 是一个正整数时, $\\lambda \\overrightarrow{a}$ 就是 $\\lambda$ 个 $\\overrightarrow{a}$ 相加. 例如,当 $\\lambda  = 1$ 时, $1\\overrightarrow{a} = \\overrightarrow{a}$ ; 当 $\\lambda  = 3$ 时, $3\\overrightarrow{a} = \\overrightarrow{a} + \\overrightarrow{a} + \\overrightarrow{a}$ .\n\n当 $\\lambda  =  - 1$ 时, $\\left( {-1}\\right) \\overrightarrow{a}$ 与向量 $\\overrightarrow{a}$ 的模相等但方向相反,故 $\\left( {-1}\\right) \\overrightarrow{a}$ 是向量 $\\overrightarrow{a}$ 的负向量,即 $\\left( {-1}\\right) \\overrightarrow{a} =  - \\overrightarrow{a}$ . 据此,再用下文所示运算律中的第二个公式,我们可以更一般地把 $\\left( {-\\lambda }\\right) \\overrightarrow{a}$ 记为 $- \\lambda \\overrightarrow{a}$ ,它是向量 $\\lambda \\overrightarrow{a}$ 的负向量.\n\n根据实数与向量的乘积的定义，可知 $\\lambda \\overrightarrow{a}$ 是与 $\\overrightarrow{a}$ 平行的向量. 反之,如果向量 $\\overrightarrow{b}$ 与非零向量 $\\overrightarrow{a}$ 平行,那么一定存在实数 $\\lambda$ ,使得 $\\overrightarrow{b} = \\lambda \\overrightarrow{a}$ . 当向量 $\\overrightarrow{a}$ 和 $\\overrightarrow{b}$ 同向时, $\\lambda  = \\frac{\\left| \\overrightarrow{b}\\right| }{\\left| \\overrightarrow{a}\\right| }$ ; 当向量 $\\overrightarrow{a}$ 和 $\\overrightarrow{b}$ 反向时, $\\lambda  =  - \\frac{\\left| \\overrightarrow{b}\\right| }{\\left| \\overrightarrow{a}\\right| }$ . 故\n\n向量 $\\overrightarrow{b}$ 与非零向量 $\\overrightarrow{a}$ 平行的充要条件是:存在实数 $\\lambda$ ， 使得 $\\overrightarrow{b} = \\lambda \\overrightarrow{a}$ .\n\n同学们可以验证实数与向量的乘法满足下面的运算律:\n\n设 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 是向量, $\\lambda \\text{ 、 }\\mu  \\in  \\mathbf{R}$ ,有\n\n$$\n\\left( {\\lambda  + \\mu }\\right) \\overrightarrow{a} = \\lambda \\overrightarrow{a} + \\mu \\overrightarrow{a};\n$$\n\n$$\n\\lambda \\left( {\\mu \\overrightarrow{a}}\\right)  = \\left( {\\lambda \\mu }\\right) \\overrightarrow{a};\n$$\n\n$$\n\\lambda \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  = \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b}.\n$$\n\n与非零向量 $\\overrightarrow{a}$ 同方向的单位向量叫做向量 $\\overrightarrow{a}$ 的单位向量,记作 $\\overrightarrow{{a}_{0}}$ . 根据实数与向量的乘法的定义,可知 $\\overrightarrow{a} = \\left| \\overrightarrow{a}\\right| \\overrightarrow{{a}_{0}}$ ,即\n\n$$\n\\overrightarrow{{a}_{0}} = \\frac{1}{\\left| \\overrightarrow{a}\\right| }\\overrightarrow{a}.\n$$\n\n向量的加法、减法以及实数与向量的乘法, 统称为向量的线性运算(linear operation). 从一个或几个向量出发, 通过线性运算得到的新向量称为原来那些向量的线性组合 (linear combination). 例如, $\\overrightarrow{x} = 3\\overrightarrow{a} + \\overrightarrow{b} - 4\\overrightarrow{c}$ 就是向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 的一个线性组合.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 247,
+        "end": 294
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-scalar-product",
+        "kind": "formula",
+        "title": "数乘：模的变化与方向",
+        "start": 534,
+        "end": 1007,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-parallel-condition",
+        "kind": "condition",
+        "title": "平行的代数表示：基准向量必须非零",
+        "start": 2539,
+        "end": 2674,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-scalar-laws",
+        "kind": "formula",
+        "title": "数乘运算律",
+        "start": 2700,
+        "end": 3151,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-unit-vector",
+        "kind": "condition",
+        "title": "单位化：先检查向量非零",
+        "start": 3151,
+        "end": 3449,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-1-b29",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 数乘与线性运算",
+    "markdown": "实数与向量的乘法是两个不同类的量之间的运算, 直接照本宣科, 对学生来说, 理解起来会有一定难度. 可以让学生体会 scalar(相对于向量, 实数称 scalar)一词的潜在含义. Scalar 是 scale(按比例缩放)的施加者,因此有“缩放器”的原始意义,意味着实数乘在向量上, 就是把实数作为比例系数缩放向量 (负实数作为比例系数时, 除了按绝对值缩放向量外, 还要把向量改变为相反的方向). 有了这样的直观描述, 学生自然理解了实数与向量相乘依旧得到一个向量, 也不难给出这个向量的长度和方向. 我们也常把实数与向量的乘积称为向量的数量倍数, 或简称为向量的倍数.\n\n教材中给出实数与向量相乘的三条重要的运算定律, 它们都很直观, 可以在定义基础上直接验证, 但教材限于篇幅而没有给出证明. 这里给出描述性说明供参考, 它对学生理解这些运算定律会有所帮助:\n\n证 $\\left( {\\lambda  + \\mu }\\right) \\overrightarrow{a} = \\lambda \\overrightarrow{a} + \\mu \\overrightarrow{a}$ : 向量 $\\overrightarrow{a}$ 的 $\\lambda$ 倍加上向量 $\\overrightarrow{a}$ 的 $\\mu$ 倍是向量 $\\overrightarrow{a}$ 的 $\\lambda  + \\mu$ 倍.\n\n证 $\\lambda \\left( {\\mu \\overrightarrow{a}}\\right)  = \\left( {\\lambda \\mu }\\right) \\overrightarrow{a}$ : 把 $\\overrightarrow{a}$ 按比例系数 $\\lambda$ 缩放后,再按比例系数 $\\mu$ 缩放,其结果即为按比例系数 ${\\lambda \\mu }$ 缩放.\n\n证 $\\lambda \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  = \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b}$ : 如图 8-R3,以 $\\overrightarrow{a}\\text{、}\\overrightarrow{b}$ 为邻边的三角形与以 $\\lambda \\overrightarrow{a}\\text{、}\\lambda \\overrightarrow{b}$ 为邻边的三角形相似,于是 $\\lambda \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  = \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b}$ .\n\n![](images/private-80164d9576e1e0710f9e.jpg)\n\n图 8-R3\n\n向量的加法、减法、实数与向量的乘法的综合运算, 叫做向量的线性运算. 满足所要求运算定律的线性运算的存在是向量空间最本质的特征. 本节至此完成了平面向量理论的框架构建 (见附录的 1).",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 128,
+        "end": 142
+      }
+    ],
+    "id": "bx2-8-1-b30",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "备课时守住三个条件",
+    "markdown": "平行向量的表示 $\\overrightarrow{b}=\\lambda\\overrightarrow{a}$ 以 $\\overrightarrow{a}\\ne\\overrightarrow{0}$ 为前提；单位化 $\\overrightarrow{a}/|\\overrightarrow{a}|$ 也只对非零向量使用。教参借相似三角形说明分配律，属于几何直观：不能把一幅非退化图直接当作所有实数系数及平行情形的完整证明。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b31",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 06",
+    "markdown": "例 6 化简下列向量线性运算:\n\n(1) $\\left( {-2}\\right)  \\times  \\left( {\\frac{1}{2}\\overrightarrow{a}}\\right)$ ；\n\n(2) $2\\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  + 3\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)$ ；\n\n(3) $\\left( {\\lambda  - \\mu }\\right) \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - \\left( {\\lambda  + \\mu }\\right) \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 295,
+        "end": 302
+      }
+    ],
+    "answer": "解 (1) $\\left( {-2}\\right)  \\times  \\left( {\\frac{1}{2}\\overrightarrow{a}}\\right)  = \\left( {-2 \\times  \\frac{1}{2}}\\right) \\overrightarrow{a} =  - \\overrightarrow{a}$ .\n\n(2) $2\\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  + 3\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  = 2\\overrightarrow{a} - 2\\overrightarrow{b} + 3\\overrightarrow{a} + 3\\overrightarrow{b} \\; = \\left( {2\\overrightarrow{a} + 3\\overrightarrow{a}}\\right)  + \\left( {3\\overrightarrow{b} - 2\\overrightarrow{b}}\\right) \\; = 5\\overrightarrow{a} + \\overrightarrow{b}$ .\n\n(3) $\\left( {\\lambda  - \\mu }\\right) \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - \\left( {\\lambda  + \\mu }\\right) \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)$\n\n$= \\lambda \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - \\mu \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - \\lambda \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  - \\mu \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)$\n\n$= \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b} - \\mu \\overrightarrow{a} - \\mu \\overrightarrow{b} - \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b} - \\mu \\overrightarrow{a} + \\mu \\overrightarrow{b}$\n\n$$\n= {2\\lambda }\\overrightarrow{b} - {2\\mu }\\overrightarrow{a}\\text{ . }\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 303,
+        "end": 315
+      }
+    ],
+    "teacher_analysis": "例 6 是向量线性运算及其运算律的练习题, 由简入繁, 体会向量的计算过程.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 152,
+        "end": 152
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "question",
+    "title": "例题 07",
+    "markdown": "例 7 已知向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 、 $\\overrightarrow{c}$ 满足 $\\frac{1}{2}\\left( {\\overrightarrow{a} - 3\\overrightarrow{c}}\\right)  + 2\\left( {2\\overrightarrow{a} - 3\\overrightarrow{b}}\\right) \\; = \\overrightarrow{0}$ ,试用 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 表示 $\\overrightarrow{c}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex7",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 317,
+        "end": 322
+      }
+    ],
+    "answer": "解 将原式变形为 $\\frac{1}{2}\\overrightarrow{a} - \\frac{3}{2}\\overrightarrow{c} + 4\\overrightarrow{a} - 6\\overrightarrow{b} = \\overrightarrow{0}$ ,即 $\\frac{3}{2}\\overrightarrow{c} = \\frac{9}{2}\\overrightarrow{a} - \\; 6\\overrightarrow{b}$ . 所以 $\\overrightarrow{c} = 3\\overrightarrow{a} - 4\\overrightarrow{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 323,
+        "end": 323
+      }
+    ],
+    "teacher_analysis": "例 7 与例 8 都是用两个向量表示第三个向量的问题, 前者从一个关系式解出表示式, 后者从几何图形找出表示式. 这两个例题是向量基本定理的预演, 要让学生体会这里所说的“表示”是用给定的一些向量的线性组合来表达另一个向量.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "question",
+    "title": "例题 08",
+    "markdown": "例 8 如图 8-1-13,在 $\\bigtriangleup {ABC}$ 中, $D$ 是 ${AB}$ 的中点, $E$ 是 ${BC}$ 延长线上一点,且 ${BE} = {2BC}$ .\n\n(1)用向量 $\\overrightarrow{BA}$ 、 $\\overrightarrow{BC}$ 表示 $\\overrightarrow{DE}$ ；\n\n(2)用向量 $\\overrightarrow{CA}$ 、 $\\overrightarrow{CB}$ 表示 $\\overrightarrow{DE}$ .\n\n![](images/book-0fcda6e86c453e69212e.jpg)\n\n图 8-1-13",
+    "provenance": [],
+    "id": "bx2-c8-s81-ex8",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 325,
+        "end": 330
+      },
+      {
+        "source": "book",
+        "start": 319,
+        "end": 321
+      }
+    ],
+    "answer": "解 (1) 因为 $\\overrightarrow{DE} = \\overrightarrow{DB} + \\overrightarrow{BE},\\overrightarrow{DB} =  - \\frac{1}{2}\\overrightarrow{BA},\\overrightarrow{BE} = 2\\overrightarrow{BC}$ , 所以 $\\overrightarrow{DE} = 2\\overrightarrow{BC} - \\frac{1}{2}\\overrightarrow{BA}$ .\n\n(2)因为 $\\overrightarrow{BA} = \\overrightarrow{BC} + \\overrightarrow{CA}$ ，所以 $\\overrightarrow{DE} = 2\\overrightarrow{BC} - \\frac{1}{2}\\left( {\\overrightarrow{BC} + \\overrightarrow{CA}}\\right) \\; =  - \\frac{3}{2}\\overrightarrow{CB} - \\frac{1}{2}\\overrightarrow{CA}.$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 333
+      }
+    ],
+    "teacher_analysis": "例 7 与例 8 都是用两个向量表示第三个向量的问题, 前者从一个关系式解出表示式, 后者从几何图形找出表示式. 这两个例题是向量基本定理的预演, 要让学生体会这里所说的“表示”是用给定的一些向量的线性组合来表达另一个向量.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "heading",
+    "title": "练习8.1（3）",
+    "markdown": "",
+    "provenance": [],
+    "id": "practice-3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（3） · 1",
+    "markdown": "1. 化简下列向量线性运算:\n\n(1) $4\\left( {{2\\overrightarrow{a}} - \\overrightarrow{b}}\\right)  + 3\\left( {{3\\overrightarrow{a}} - {2\\overrightarrow{b}}}\\right)$ ； (2) $\\frac{1}{4}\\left( {\\overrightarrow{a} + 2\\overrightarrow{b}}\\right)  - \\frac{1}{6}\\left( {5\\overrightarrow{a} - 2\\overrightarrow{b}}\\right)  + \\frac{1}{4}\\overrightarrow{b}$ ；\n\n(3) $2\\left( {3\\overrightarrow{a} - 4\\overrightarrow{b} + \\overrightarrow{c}}\\right)  - 3\\left( {2\\overrightarrow{a} + \\overrightarrow{b} - 3\\overrightarrow{c}}\\right)$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l3-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 337,
+        "end": 342
+      }
+    ],
+    "answer": "1. (1) ${17}\\overrightarrow{a} - {10}\\overrightarrow{b}$ . (2) $- \\frac{7}{12}\\overrightarrow{a} + \\frac{13}{12}\\overrightarrow{b}$ . (3) $- {{11}\\overrightarrow{b}} + {{11}\\overrightarrow{c}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 406,
+        "end": 407
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（3）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（3） · 2",
+    "markdown": "2. 根据下列条件,求向量 $\\overrightarrow{x}$ :\n\n(1) $2\\overrightarrow{x} + 3\\left( {\\overrightarrow{b} + \\overrightarrow{x}}\\right)  = \\overrightarrow{0}$ ； (2) $2\\overrightarrow{a} + 5\\left( {\\overrightarrow{b} - \\overrightarrow{x}}\\right)  = \\overrightarrow{0}$ ；\n\n\n\n(3) $\\frac{1}{3}\\left( {\\overrightarrow{x} - \\overrightarrow{a}}\\right)  - \\frac{1}{2}\\left( {\\overrightarrow{b} - 2\\overrightarrow{x} + \\overrightarrow{x}}\\right)  + \\overrightarrow{b} = \\overrightarrow{0}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-l3-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 343,
+        "end": 352
+      }
+    ],
+    "answer": "2. (1) $- \\frac{3}{5}\\overrightarrow{b}$ . (2) $\\frac{2}{5}\\overrightarrow{a} + \\overrightarrow{b}$ . (3) $\\frac{2}{5}\\overrightarrow{a} - \\frac{3}{5}\\overrightarrow{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 408,
+        "end": 409
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（3）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.1（3） · 3",
+    "markdown": "3. 如图,在 $\\bigtriangleup {ABC}$ 中,已知 $D$ 是 ${BC}$ 的中点, $G$ 是 $\\bigtriangleup {ABC}$ 的重心. 设向量 $\\overrightarrow{BC} = \\overrightarrow{a}$ ，向量 $\\overrightarrow{AC} = \\overrightarrow{b}$ . 试用向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 分别表示向量 $\\overrightarrow{AD}\\text{ 、 }\\overrightarrow{AG}\\text{ 、 }\\overrightarrow{GC}$ .\n\n![](images/book-bc0d5a902a2d2a9816a8.jpg)\n\n(第 3 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-l3-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 353,
+        "end": 354
+      },
+      {
+        "source": "book",
+        "start": 347,
+        "end": 349
+      }
+    ],
+    "answer": "3. $\\overrightarrow{AD} =  - \\frac{1}{2}\\overrightarrow{a} + \\overrightarrow{b},\\overrightarrow{AG} =  - \\frac{1}{3}\\overrightarrow{a} + \\frac{2}{3}\\overrightarrow{b},\\overrightarrow{GC} = \\frac{1}{3}\\overrightarrow{a} + \\frac{1}{3}\\overrightarrow{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 410,
+        "end": 411
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.1（3）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "课后习题",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework",
+    "number": "04",
+    "subtitle": "保留教材A、B组顺序，不另行分级或改编",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "习题8.1 A组",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework-a",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 1",
+    "markdown": "1. 如果把平面上所有的单位向量的起点都平移到同一点, 那么它们的终点构成的图形是什么?\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 359,
+        "end": 360
+      }
+    ],
+    "answer": "1. 单位圆.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 416,
+        "end": 417
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 2",
+    "markdown": "2. 在平面直角坐标系中, 作出表示下列向量的有向线段:\n\n(1)向量 $\\overrightarrow{a}$ 的起点在坐标原点，与 $x$ 轴正方向的夹角为 ${120}^{ \\circ  }$ 且 $\\left| \\overrightarrow{a}\\right|  = 3$ ；\n\n(2)向量 $\\overrightarrow{b}$ 的模为 4，方向与 $y$ 轴的正方向反向；\n\n(3)向量 $\\overrightarrow{c}$ 的方向与 $y$ 轴的正方向同向，模为 2 .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 361,
+        "end": 368
+      }
+    ],
+    "answer": "2. (1)图略. (2)图略. (3) 图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 418,
+        "end": 419
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 3",
+    "markdown": "3. 判断下列命题的真假, 并说明理由:\n\n(1)长度相等的向量均为相等向量;\n\n(2)给定向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ ，若 $\\overrightarrow{a} = \\overrightarrow{b},\\overrightarrow{b} = \\overrightarrow{c}$ ，则 $\\overrightarrow{a} = \\overrightarrow{c}$ ；\n\n(3)若 ${ABCD}$ 为平行四边形，则必有 $\\overrightarrow{AB} = \\overrightarrow{CD}$ ；\n\n(4)若平面上四点 $A$ 、 $B$ 、 $C$ 、 $D$ 使 $\\overrightarrow{AB} = \\overrightarrow{CD}$ ，则 ${AB}//{CD}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 369,
+        "end": 378
+      }
+    ],
+    "answer": "3.(1)假命题,理由略. (2)真命题,理由略.\n\n(3)假命题,理由略. (4)假命题,理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 420,
+        "end": 423
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 4",
+    "markdown": "4. 如图，在 $\\bigtriangleup  {ABC}$ 中，点 $D$ 、 $E$ 、 $F$ 分别是 ${AB}$ 、 ${BC}$ 、 ${CA}$ 的中点，根据下列条件， 写出相应的向量:\n\n(1)与向量 $\\overrightarrow{AD}$ 相等的向量；\n\n(2)向量 $\\overrightarrow{DE}$ 的负向量；\n\n(3)与向量 $\\overrightarrow{EF}$ 平行的向量.\n\n![](images/book-2ba367dbce45fe022790.jpg)\n\n(第 4 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 379,
+        "end": 394
+      },
+      {
+        "source": "book",
+        "start": 387,
+        "end": 389
+      }
+    ],
+    "answer": "4. (1) $\\overrightarrow{DB}\\text{、}\\overrightarrow{FE}$ . (2) $\\overrightarrow{CF}$ 、 $\\overrightarrow{FA}$ 、 $\\overrightarrow{ED}$ . (3) $\\overrightarrow{AD}\\text{、}\\overrightarrow{DA}\\text{、}\\overrightarrow{BD}\\text{、}\\overrightarrow{DB}\\text{、}\\overrightarrow{AB}$ 、 $\\overrightarrow{BA}\\text{、}\\overrightarrow{FE}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 424,
+        "end": 425
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 5",
+    "markdown": "5. 如图,已知向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ ,作出下列向量:\n\n(1) $\\overrightarrow{a} + \\overrightarrow{b},\\overrightarrow{b} + \\overrightarrow{c},\\overrightarrow{a} + \\overrightarrow{c}$ ； (2) $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c}$ 和 $\\overrightarrow{a} + \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)$ .\n\n![](images/book-a367bd9a33c20ab9bc4a.jpg)\n\n(第 5 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 395,
+        "end": 398
+      },
+      {
+        "source": "book",
+        "start": 391,
+        "end": 393
+      }
+    ],
+    "answer": "5.(1)图略. (2)图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 426,
+        "end": 427
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 6",
+    "markdown": "6. 化简下列向量运算:\n\n(1) $\\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CD} + \\overrightarrow{DA}$ ； (2) $\\left( {\\overrightarrow{AB} - \\overrightarrow{AC}}\\right)  + \\left( {\\overrightarrow{BD} - \\overrightarrow{CD}}\\right)$ ；\n\n(3) $\\left( {\\overrightarrow{AB} + \\overrightarrow{MB}}\\right)  + \\left( {\\overrightarrow{BD} + \\overrightarrow{DM}}\\right)$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 399,
+        "end": 404
+      }
+    ],
+    "answer": "6. (1) $\\overrightarrow{0}$ . (2) $\\overrightarrow{0}$ . (3) $\\overrightarrow{AB}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 428,
+        "end": 429
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 7",
+    "markdown": "7. 设向量 $\\overrightarrow{a}$ 表示 “向东走 $2\\mathrm{\\;{km}}$ ” ; 向量 $\\overrightarrow{b}$ 表示 “向西走 $1\\mathrm{\\;{km}}$ ”; 向量 $\\overrightarrow{c}$ 表示 “向南走 $2\\mathrm{\\;{km}}$ ”; 向量 $\\overrightarrow{d}$ 表示“向北走 $1\\mathrm{\\;{km}}$ ”. 试说明下列向量所表示的意义:\n\n(1) $\\overrightarrow{a} + \\overrightarrow{a}$ ； (2) $\\overrightarrow{a} + \\overrightarrow{c}$ ； (3) $\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{d}$ ； (4) $\\overrightarrow{c} + \\overrightarrow{d} + \\overrightarrow{c}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q7",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 405,
+        "end": 408
+      }
+    ],
+    "answer": "7.(1)向东走 $4\\mathrm{\\;{km}}$ . (2)向南偏东 ${45}^{ \\circ  }$ 方向走 $2\\sqrt{2}\\mathrm{\\;{km}}$ .\n\n(3)向北偏东 ${45}^{ \\circ  }$ 方向走 $\\sqrt{2}\\mathrm{{km}}$ . (4)向南走 3 km.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 430,
+        "end": 433
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 8",
+    "markdown": "8. 设向量 $\\overrightarrow{OA} = \\overrightarrow{a},\\overrightarrow{OB} = \\overrightarrow{b}$ ，且 $\\left| \\overrightarrow{OA}\\right|  = {12},\\left| \\overrightarrow{OB}\\right|  = 4,\\angle {AOB} = \\frac{\\pi }{3}$ . 求 $\\left| {\\overrightarrow{a} + \\overrightarrow{b}}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q8",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 409,
+        "end": 410
+      }
+    ],
+    "answer": "8. $4\\sqrt{13}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 434,
+        "end": 435
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 9",
+    "markdown": "9. 运用作图的方法, 验证下列等式:\n\n(1) $\\frac{1}{2}\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\frac{1}{2}\\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  = \\overrightarrow{a}$ ; (2) $\\frac{1}{2}\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - \\frac{1}{2}\\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  = \\overrightarrow{b}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q9",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 411,
+        "end": 414
+      }
+    ],
+    "answer": "9.(1)证明略. (2) 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 436,
+        "end": 437
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 10",
+    "markdown": "10. 化简下列向量运算:\n\n(1) $4\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  - 3\\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  - 8\\overrightarrow{b}$ ；\n\n(2) $3\\left( {\\overrightarrow{a} - 2\\overrightarrow{b} + \\overrightarrow{c}}\\right)  + 4\\left( {\\overrightarrow{c} - \\overrightarrow{a} - \\overrightarrow{b}}\\right)$ ；\n\n(3) $\\frac{1}{3}\\left\\lbrack  {\\frac{1}{2}\\left( {2\\overrightarrow{a} + 8\\overrightarrow{b}}\\right)  - \\left( {4\\overrightarrow{a} - 2\\overrightarrow{b}}\\right) }\\right\\rbrack$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q10",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 415,
+        "end": 422
+      }
+    ],
+    "answer": "10. (1) $\\overrightarrow{a} - \\overrightarrow{b}$ . (2) $- \\overrightarrow{a} - {{10}\\overrightarrow{b}} + {7\\overrightarrow{c}}$ . (3) $- \\overrightarrow{a} + {2\\overrightarrow{b}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 438,
+        "end": 439
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 11",
+    "markdown": "11. 已知四边形 ${ABCD}$ 和点 $O$ 在同一平面上,设向量 $\\overrightarrow{OA} = \\overrightarrow{a},\\overrightarrow{OB} = \\overrightarrow{b},\\overrightarrow{OC} = \\overrightarrow{c},\\overrightarrow{OD} \\; = \\overrightarrow{d}$ ,且 $\\overrightarrow{a} + \\overrightarrow{c} = \\overrightarrow{b} + \\overrightarrow{d}$ . 求证: ${ABCD}$ 是平行四边形.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q11",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 423,
+        "end": 424
+      }
+    ],
+    "answer": "11. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 440,
+        "end": 441
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 A组 · 12",
+    "markdown": "12. 已知平行四边形 ${ABCD}$ ,设向量 $\\overrightarrow{AC} = \\overrightarrow{a},\\overrightarrow{BD} = \\overrightarrow{b}$ . 试用 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 表示下列向量:\n\n(1) $\\overrightarrow{AB}$ ； (2) $\\overrightarrow{BC}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-a-q12",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 425,
+        "end": 428
+      }
+    ],
+    "answer": "12. (1) $\\frac{1}{2}\\overrightarrow{a} - \\frac{1}{2}\\overrightarrow{b}$ . (2) $\\frac{1}{2}\\overrightarrow{a} + \\frac{1}{2}\\overrightarrow{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 442,
+        "end": 443
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题8.1 B组",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework-b",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 1",
+    "markdown": "1. 如图是由边长为 1 的小正方形组成的网格. 按要求,分别以 $A\\text{ 、 }B\\text{ 、 }C$ 为向量的起点, 在图中画出下列向量:\n\n(1)正北方向且模为 2 的向量 $\\overrightarrow{AE}$ ；\n\n(2)模为 $2\\sqrt{2}$ 、方向为北偏西 ${45}^{ \\circ  }$ 的向量 $\\overrightarrow{BF}$ ；\n\n(3)(2)中向量 $\\overrightarrow{BF}$ 的负向量.\n\n![](images/book-17ff44ebae4932fe9531.jpg)\n\n(第 1 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 431,
+        "end": 442
+      },
+      {
+        "source": "book",
+        "start": 439,
+        "end": 441
+      }
+    ],
+    "answer": "1. (1)图略. (2)图略. (3)图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 448,
+        "end": 449
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 2",
+    "markdown": "2. 已知正方形 ${ABCD}$ 的边长为 1,求:\n\n(1) $\\left| {\\overrightarrow{AB} + \\overrightarrow{BC}}\\right|$ ；\n\n(2) $\\left| {\\overrightarrow{AB} + \\overrightarrow{BD} - \\overrightarrow{AC}}\\right|$ ；\n\n(3) $\\left| {\\overrightarrow{AB} - \\overrightarrow{BC} + \\overrightarrow{AC}}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 443,
+        "end": 450
+      }
+    ],
+    "answer": "2. (1) $\\sqrt{2}$ . (2) 1. (3) 2.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 450,
+        "end": 451
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 3",
+    "markdown": "3. 如图,已知向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ ,作出下列向量:\n\n(1) $\\overrightarrow{a} + \\overrightarrow{c} - \\overrightarrow{b}$ 和 $\\overrightarrow{a} + \\left( {\\overrightarrow{c} - \\overrightarrow{b}}\\right)$ ； (2) $\\overrightarrow{a} - \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)$ 和 $\\overrightarrow{a} - \\overrightarrow{c} - \\overrightarrow{b}$ .\n\n![](images/book-638a7da40dc4399861e6.jpg)\n\n(第 3 题)",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 451,
+        "end": 458
+      },
+      {
+        "source": "book",
+        "start": 455,
+        "end": 457
+      }
+    ],
+    "answer": "3. (1)图略. (2)图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 452,
+        "end": 453
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 4",
+    "markdown": "4. 试用作图法验证下列不等式:\n\n(1) $\\left| \\overrightarrow{a}\\right|  - \\left| \\overrightarrow{b}\\right|  \\leq  \\left| {\\overrightarrow{a} + \\overrightarrow{b}}\\right|  \\leq  \\left| \\overrightarrow{a}\\right|  + \\left| \\overrightarrow{b}\\right|$ ；\n\n(2) $\\left| \\overrightarrow{a}\\right|  - \\left| \\overrightarrow{b}\\right|  \\leq  \\left| {\\overrightarrow{a} - \\overrightarrow{b}}\\right|  \\leq  \\left| \\overrightarrow{a}\\right|  + \\left| \\overrightarrow{b}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 459,
+        "end": 464
+      }
+    ],
+    "answer": "4. (1)证明略. (2)证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 454,
+        "end": 455
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 5",
+    "markdown": "5. 判断下列命题的真假, 并说明理由:\n\n(1)若存在一个 $\\lambda  \\in  \\mathbf{R}$ 使 $\\lambda \\overrightarrow{a} = \\lambda \\overrightarrow{b}$ ,则 $\\overrightarrow{a} = \\overrightarrow{b}$ ；\n\n(2)对于任意给定的实数 $\\lambda$ 和向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ ，均有 $\\lambda \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  = \\lambda \\overrightarrow{a} - \\lambda \\overrightarrow{b}$ ；\n\n(3)对于任意给定的实数 $\\lambda \\text{ 、 }\\mu$ 和向量 $\\overrightarrow{a}$ ,均有 $\\left( {\\lambda  - \\mu }\\right) \\overrightarrow{a} = \\lambda \\overrightarrow{a} - \\mu \\overrightarrow{a}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 465,
+        "end": 472
+      }
+    ],
+    "answer": "5.(1)假命题,理由略. (2) 真命题, 理由略. (3)真命题, 理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 456,
+        "end": 457
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 6",
+    "markdown": "6. 设 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 是两个不平行的向量,求证: 若实数 $\\lambda \\text{ 、 }\\mu$ 使得 $\\lambda \\overrightarrow{a} + \\mu \\overrightarrow{b} = \\overrightarrow{0}$ ,则 $\\lambda  = \\mu  = 0$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 473,
+        "end": 474
+      }
+    ],
+    "answer": "6. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 458,
+        "end": 459
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 7",
+    "markdown": "7. 已知 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 是两个不平行的向量,而向量 $\\overrightarrow{AB} = 3\\overrightarrow{{e}_{1}} - 2\\overrightarrow{{e}_{2}},\\overrightarrow{BC} =  - 2\\overrightarrow{{e}_{1}} + 4\\overrightarrow{{e}_{2}},\\overrightarrow{CD} \\; =  - 2\\overrightarrow{{e}_{1}} - 4\\overrightarrow{{e}_{2}}$ . 求证: $A\\text{ 、 }C\\text{ 、 }D$ 三点共线.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q7",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 475,
+        "end": 476
+      }
+    ],
+    "answer": "7. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 460,
+        "end": 461
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.1 B组 · 8",
+    "markdown": "8. 已知 $G$ 是 $\\bigtriangleup {ABC}$ 的重心， $D$ 、 $E$ 、 $F$ 分别为 ${AB}$ 、 ${AC}$ 、 ${BC}$ 中点. 求证: $\\overrightarrow{GD} + \\overrightarrow{GE} \\; + \\overrightarrow{GF} = \\overrightarrow{0}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s81-b-q8",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 477,
+        "end": 478
+      }
+    ],
+    "answer": "8. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 462,
+        "end": 463
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.1 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "备课附记与来源",
+    "markdown": "",
+    "provenance": [],
+    "id": "sources",
+    "number": "05",
+    "subtitle": "来源、编辑边界与尚待完成的复核",
+    "teacher_only": true,
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教学建议与背景材料",
+    "markdown": "### 注意事项\n\n本教材向量的引入与二期课改教材的处理不同. 二期课改教材把有向线段直接称为向量并用向量记号表示, 事后加上有向线段平移后仍是同一向量的说明. 本教材在向量描述性定义之后, 用非负实数与方向的二元组再给向量以数学的定义, 然后用有向线段把向量表示出来 (即向量的几何表示), 才与二期课改教材进入同一平台. 这样的过程在数学上层层递进, 逐渐严密, 上文已有描述, 希望老师们理解并按此处理.\n\n在讲授向量的几何表示时, 要提醒学生的是, 用以表示一个向量的有向线段不是唯一的, 两个有向线段表示同一向量的充要条件是它们具有相同的长度和方向. 教材提到我们也直接把有向线段看成向量, 这时也要强调把一个有向线段平移后还是同一个向量.\n\n用力的合成作为情境引入向量的加法是标准的做法, 学生也容易理解. 要注意的是, 不是任何两个力都可以合成, 但任何两个向量都可以相加. 这个差异的原因是数学上所研究的向量是自由向量 (见教材第 98 页), 即可以自由平移的向量, 任何两个向量都可以平移到具有相同起点的位置上. 物理学中的力除了大小、方向外, 还有第三个要素作用点, 即向(矢)量的起点. 也就是说,力是一个固定向量,作用点不一致的力无法相加. 这给教学的启示是,虽然“力”可以作为引入向量的情境、向量加法的启示和向量问题的来源,但千万不要整体上把“力”当作向量理论的现实样本. 如要以 “力”来举例或编习题,千万注意问题中的“力”要有相同的作用点.\n\n本教参提供的向量空间的抽象定义以及教材如何从描述性定义逐步走向严谨和完善的过程的描述是为老师们提供的背景材料,希望教学过程中把握正确的导向. 这些内容不应在课堂上面向学生讲授(但不排除作为学有余力的学生进行自主探究的素材, 或者作为学生课外兴趣小组活动的主题).\n\n### 教学建议\n\n在向量的基本概念教学中, 可以设置问题情境, 注意调动学生参与概念理解等教学活动的积极性, 引导学生自主举出一些向量的实例. 在向量的加法、减法学习中, 引导学生自主设计多组向量, 并结合平行四边形法则、三角形法则, 通过作图深刻领悟向量加法、减法运算的基本内涵.\n\n实数与向量的乘法是刻画平行向量的重要工具. 教材给出了一个向量与一个非零向量平行的充要条件, 它是几何问题代数化的起点. 从这里开始, 在本章教学中要逐步让学生从理性上理解向量代数在几何中的各种应用. 还可以结合三角形相似等几何变换 (本教参说明 $\\lambda \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  = \\lambda \\overrightarrow{a} + \\lambda \\overrightarrow{b}$ 时就用了相似三角形),引导学生理解向量的线性运算在几何中的意义.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 156,
+        "end": 170
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-8-1-b63",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "物理模型的使用边界",
+    "markdown": "教参原文中“不同作用点的力无法合成”等措辞过于绝对。本样章仅采用共点力的合成情境，不对一般力系作此断言；备课引用时应保留这个限定。上方原文作为来源材料保留，不作为本书新增的物理结论。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b64",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "本轮编辑与保留边界",
+    "markdown": "本页保留8个例题和29道练习、习题，补入旧配对稿尚未收入的教材概念与推导正文。原文中的“图略”“证明略”仍保留，未冒充补齐全部详解。符号与明确OCR勘误另列于编辑记录；原始快照保持不变。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-1-b65",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

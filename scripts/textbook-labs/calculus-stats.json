@@ -1,0 +1,634 @@
+{
+  "family": "calculus-stats",
+  "selection": [
+    {
+      "sectionId": "x2-5-1",
+      "status": "selected",
+      "reason": "动态图让割线斜率随增量趋零，直观看到局部线性化；原定义与圆切线辨析留在可展开原文。"
+    },
+    {
+      "sectionId": "x2-5-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-5-3",
+      "status": "selected",
+      "reason": "符号变化决定极值类型；包含导数为零但不取极值的反例。"
+    },
+    {
+      "sectionId": "x2-chapter-end-5",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-3",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-4",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-6-5",
+      "status": "selected",
+      "reason": "Pascal三角相邻路径累积出二项式系数，显示组合系数来源。"
+    },
+    {
+      "sectionId": "x2-chapter-end-6",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-7-1",
+      "status": "selected",
+      "reason": "条件A缩小样本空间，分母从全空间改为条件空间；区分条件概率与联合概率。"
+    },
+    {
+      "sectionId": "x2-7-2",
+      "status": "selected",
+      "reason": "拖动离散概率质量，联动期望与方差，展示加权中心和离散程度。"
+    },
+    {
+      "sectionId": "x2-7-3",
+      "status": "selected",
+      "reason": "改变n,p观察二项分布概率质量，强调n次独立同分布伯努利试验假设。"
+    },
+    {
+      "sectionId": "x2-chapter-end-7",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-8-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "x2-8-2",
+      "status": "selected",
+      "reason": "散点与最小二乘直线联动，展示离群点如何改变斜率；不将相关解释为因果。"
+    },
+    {
+      "sectionId": "x2-8-3",
+      "status": "selected",
+      "reason": "独立假设下期望频数=行总计×列总计/总数；对照观察频数，不直接把样本偏差当因果。"
+    },
+    {
+      "sectionId": "x2-chapter-end-8",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-12-3",
+      "status": "selected",
+      "reason": "可复现伯努利试验样本路径显示频率波动；不能暗示频率必然单调收敛。"
+    },
+    {
+      "sectionId": "bx3-12-4",
+      "status": "selected",
+      "reason": "单位正方形中矩形面积对应独立事件联合概率乘积；仅作模型演示。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-12",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-1",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-2",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-13-3",
+      "status": "selected",
+      "reason": "改变总体分层构成与各层抽样配额，比较比例分配与不同比例抽样代表性。"
+    },
+    {
+      "sectionId": "bx3-13-4",
+      "status": "selected",
+      "reason": "等宽/不等宽分箱，高度按频率密度定义，使每柱面积而非高度表示频率。"
+    },
+    {
+      "sectionId": "bx3-13-5",
+      "status": "selected",
+      "reason": "重复抽样展示样本均值波动；不替代本节均值/中位数/众数定义，不声称实现区间覆盖。"
+    },
+    {
+      "sectionId": "bx3-13-6",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    },
+    {
+      "sectionId": "bx3-chapter-end-13",
+      "status": "skip",
+      "reason": "该节以直接定义、运算练习、重复总结或程序性活动为主，动态视图解释增益有限；避免为覆盖率而动画化。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "secant-tangent",
+      "title": "割线如何成为切线",
+      "goal": "把平均变化率随步长趋零的过程转成可拖动几何变化。",
+      "summary": "在固定点 a=0.5，对平方函数取第二点 a+h。h≠0 时割线斜率为 [f(a+h)-f(a)]/h=2a+h，随 h 从正负两侧趋零而趋于 2a=1；h=0 时差商本身未定义，不能把极限值当作差商定义值。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><mrow><mi>f</mi><mo>(</mo><mi>a</mi><mo>+</mo><mi>h</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mi>h</mi><mo>→</mo><mn>2</mn><mi>a</mi></math>",
+      "controls": [
+        {
+          "key": "h",
+          "label": "点Q与P的横向间距",
+          "type": "range",
+          "min": -2,
+          "max": 2,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "h": 1
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-1",
+          "afterBlockId": "x2-5-1-b13",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "derivative-extrema",
+      "title": "导数符号与极值",
+      "goal": "同时看函数图像和导数符号，区分极大、极小与非极值驻点。",
+      "summary": "极值是邻域内的局部性质，不等于整个定义域上的最值。在连续且两侧可导的邻域，导数由正变负则取得极大值，由负变正则取得极小值；驻点仅是候选，导数为零并不充分。比较 x³、x⁴、sin x，观察导数的符号如何决定函数的升降。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>f</mi><mo>′</mo><mo>:</mo><mo>+</mo><mo>→</mo><mo>−</mo><mo>⇒</mo><mi>极大值</mi><mo>;</mo><mo>−</mo><mo>→</mo><mo>+</mo><mo>⇒</mo><mi>极小值</mi></math>",
+      "controls": [
+        {
+          "key": "case",
+          "label": "函数类型",
+          "type": "select",
+          "options": [
+            {
+              "value": "x3",
+              "label": "x³：驻点非极值"
+            },
+            {
+              "value": "sin",
+              "label": "sin x：极大极小交替"
+            },
+            {
+              "value": "x4",
+              "label": "x⁴：极小值"
+            }
+          ]
+        }
+      ],
+      "initial": {
+        "case": "x3"
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-3",
+          "afterBlockId": "x2-5-3-b14",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "binomial-paths",
+      "title": "二项式系数从路径产生",
+      "goal": "用格点路径说明从n个因子中选k个b的组合数。",
+      "summary": "展开 (a+b) 的 n 次方时，从 n 个因子中恰选 k 个 b 的方式数决定相应项的系数；图中每一步向两种方向分支，等于从上两邻节点累积路径数。合法范围为 0≤k≤n；k>n 不可能选取，系数按零计。节点数构成杨辉三角，不把超范围滑块偷偷改为另一个 k。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><mo>=</mo><msubsup><mi>C</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mi>k</mi></msubsup><mo>+</mo><msubsup><mi>C</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msubsup></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "因子个数n",
+          "type": "range",
+          "min": 2,
+          "max": 8,
+          "step": 1
+        },
+        {
+          "key": "k",
+          "label": "选取个数k",
+          "type": "range",
+          "min": 0,
+          "max": 8,
+          "step": 1
+        }
+      ],
+      "initial": {
+        "n": 5,
+        "k": 2
+      },
+      "placements": [
+        {
+          "sectionId": "x2-6-5",
+          "afterBlockId": "x2-6-5-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "conditional-space",
+      "title": "条件概率缩小样本空间",
+      "goal": "用有限等可能样本空间展示条件发生后保留区域及概率分母变化。",
+      "summary": "在 P(A)>0 时，条件概率把分母改为条件事件 A 的概率：只在 A 区域内计算 B 所占比例。橙色交集表示 P(A∩B)，A 外的蓝色部分影响 P(B) 却不计入 P(B|A)。条件化不改变原有的 P(B)，而是提出一个不同的问题。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>B</mi><mo>|</mo><mi>A</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mfrac></math>",
+      "controls": [
+        {
+          "key": "a",
+          "label": "P(A)",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.1
+        },
+        {
+          "key": "overlap",
+          "label": "P(B|A)：A内B所占比例",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.1
+        },
+        {
+          "key": "outside",
+          "label": "P(B|非A)：A外B所占比例",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "a": 0.5,
+        "overlap": 0.5,
+        "outside": 0.2
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-1",
+          "afterBlockId": "x2-7-1-b6",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "distribution-moments",
+      "title": "概率质量的重心与离散",
+      "goal": "移动离散分布各概率质量，观察期望和方差如何联动。",
+      "summary": "E(X)=Σxᵢpᵢ 是概率加权中心；D(X)=Σ(xᵢ−E(X))²pᵢ 衡量围绕中心的平方离散。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>=</mo><munderover><mo>∑</mo><mi>i</mi><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub><msub><mi>p</mi><mi>i</mi></msub><mo>;</mo><mi>D</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>=</mo><munderover><mo>∑</mo><mi>i</mi><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup><msub><mi>p</mi><mi>i</mi></msub></math>",
+      "controls": [
+        {
+          "key": "spread",
+          "label": "概率质量向两端移动",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "spread": 0.4
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-2",
+          "afterBlockId": "x2-7-2-b11",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "binomial-distribution",
+      "title": "二项分布的概率质量",
+      "goal": "改变成功率和试验次数，观察二项分布的概率质量如何重排。",
+      "summary": "只有n次相互独立且成功概率均为p的伯努利试验时，X~B(n,p)，P(X=k)=C(n,k)p^k(1-p)^(n-k)。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>=</mo><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><msup><mi>p</mi><mi>k</mi></msup><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>−</mo><mi>k</mi></mrow></msup></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "试验次数n",
+          "type": "range",
+          "min": 1,
+          "max": 20,
+          "step": 1
+        },
+        {
+          "key": "p",
+          "label": "成功概率p",
+          "type": "range",
+          "min": 0.05,
+          "max": 0.95,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "n": 10,
+        "p": 0.4
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-3",
+          "afterBlockId": "x2-7-3-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "regression-outlier",
+      "title": "离群点怎样改变回归线",
+      "goal": "拖动一个离群点，比较最小二乘直线斜率变化和数据关联。",
+      "summary": "最小二乘回归线随所有观测点变化；离群点可能显著改变斜率和相关系数。相关不证明因果，异常点需先核查来源。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>b</mi><mo>=</mo><mfrac><mrow><mo>∑</mo><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>)</mo><mo>(</mo><msub><mi>y</mi><mi>i</mi></msub><mo>−</mo><mover><mi>y</mi><mo>¯</mo></mover><mo>)</mo></mrow><mrow><mo>∑</mo><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac></math>",
+      "controls": [
+        {
+          "key": "outlier",
+          "label": "离群点纵坐标",
+          "type": "range",
+          "min": -2,
+          "max": 8,
+          "step": 0.25
+        }
+      ],
+      "initial": {
+        "outlier": 7
+      },
+      "placements": [
+        {
+          "sectionId": "x2-8-2",
+          "afterBlockId": "x2-8-2-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "contingency-independent",
+      "title": "独立假设下的期望频数",
+      "goal": "调节边际分布，看到独立假设下每个格子的期望频数。",
+      "summary": "在独立假设下，每格期望比例等于对应行与列边际比例之积，期望频数再乘总数 n。面积格图显示边际比例怎样决定期望值；期望频数允许非整数，且不等于观察频数。完整独立性检验还需观察值、检验统计量、适用条件和错误风险，不从检验结论推出因果。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>E</mi><mi>ij</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>R</mi><mi>i</mi></msub><msub><mi>C</mi><mi>j</mi></msub></mrow><mi>n</mi></mfrac></math>",
+      "controls": [
+        {
+          "key": "row",
+          "label": "行边际比例",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        },
+        {
+          "key": "col",
+          "label": "列边际比例",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        },
+        {
+          "key": "total",
+          "label": "总样本数 n",
+          "type": "range",
+          "min": 20,
+          "max": 200,
+          "step": 20
+        }
+      ],
+      "initial": {
+        "row": 0.4,
+        "col": 0.6,
+        "total": 100
+      },
+      "placements": [
+        {
+          "sectionId": "x2-8-3",
+          "afterBlockId": "x2-8-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "frequency-fluctuation",
+      "title": "频率会波动，不是单调趋近",
+      "goal": "重复进行固定概率试验，观察逐次累积频率的随机波动轨迹。",
+      "summary": "每次试验结果随机，累积频率通常会波动；大数定律讨论样本量增大时接近概率的规律，不表示每一步单调靠近或有限样本必然逼近。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>f</mi><mi>n</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>X</mi><mi>n</mi></msub></mrow><mi>n</mi></mfrac></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "试验次数",
+          "type": "range",
+          "min": 20,
+          "max": 500,
+          "step": 20
+        },
+        {
+          "key": "p",
+          "label": "正面概率",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        },
+        {
+          "key": "seed",
+          "label": "模拟种子（保持前缀）",
+          "type": "range",
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "initial": {
+        "n": 200,
+        "p": 0.5,
+        "seed": 3
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-12-3",
+          "afterBlockId": "bx3-12-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "independent-area",
+      "title": "独立事件的面积模型",
+      "goal": "单位正方形内两个坐标独立均匀，矩形交集面积表达乘法关系。",
+      "summary": "当两个坐标独立且分别均匀时，P(X≤a,Y≤b)=ab=P(X≤a)P(Y≤b)。图形是概率模型示意，不自动适用于相关变量。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "a",
+          "label": "P(A)",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        },
+        {
+          "key": "b",
+          "label": "P(B)",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "a": 0.6,
+        "b": 0.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-12-4",
+          "afterBlockId": "bx3-12-4-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "stratified-sampling",
+      "title": "分层抽样保持总体构成",
+      "goal": "改变两层总体比例与抽样配额，显示样本构成偏差。",
+      "summary": "按比例分配时 nᵢ/Nᵢ=n/N，样本层比例匹配总体。对不同层使用不同比例抽样时，简单样本平均可能需加权，不能直接当总体比例。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><msub><mi>n</mi><mi>i</mi></msub><msub><mi>N</mi><mi>i</mi></msub></mfrac><mo>=</mo><mfrac><mi>n</mi><mi>N</mi></mfrac></math>",
+      "controls": [
+        {
+          "key": "population",
+          "label": "第一层总体占比",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        },
+        {
+          "key": "sample",
+          "label": "第一层样本占比",
+          "type": "range",
+          "min": 0.1,
+          "max": 0.9,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "population": 0.3,
+        "sample": 0.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-3",
+          "afterBlockId": "bx3-13-3-b16",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。"
+        }
+      ]
+    },
+    {
+      "id": "histogram-area",
+      "title": "不等宽直方图：面积才是频率",
+      "goal": "调整组距，令柱高为频率密度，保持柱面积与频率相等。",
+      "summary": "频率分布直方图中，柱高=该组频率/组距，因此柱面积=频率；等宽组可以比较柱高，不等宽组不能只看高度比较频数。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtext>柱高</mtext><mo>=</mo><mfrac><mtext>频率</mtext><mtext>组距</mtext></mfrac><mo>,</mo><mtext>柱面积</mtext><mo>=</mo><mtext>频率</mtext></math>",
+      "controls": [
+        {
+          "key": "width",
+          "label": "组距",
+          "type": "range",
+          "min": 0.5,
+          "max": 4,
+          "step": 0.25
+        },
+        {
+          "key": "frequency",
+          "label": "该组频率",
+          "type": "range",
+          "min": 0.05,
+          "max": 0.6,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "width": 2,
+        "frequency": 0.2
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-4",
+          "afterBlockId": "bx3-13-4-b4",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true
+        }
+      ]
+    },
+    {
+      "id": "sampling-mean",
+      "title": "样本均值的抽样波动",
+      "goal": "从U(0,1)总体重复抽取80个独立样本，观察样本均值的抽样波动，区别于单一样本的均值/中位数。",
+      "summary": "本实验是对样本均值概念的延伸：从均匀总体 U(0,1) 重复抽样，观察不同样本的均值分布；总体均值为 1/2，独立抽样时理论标准误为 σ/√n。它不解释中位数、众数或加权平均的全部定义，因此原段正文仍是必要阅读，不将其折叠替代。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>SE</mi><mo>(</mo><mover><mi>X</mi><mo>¯</mo></mover><mo>)</mo><mo>=</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac></math>",
+      "controls": [
+        {
+          "key": "n",
+          "label": "样本容量",
+          "type": "range",
+          "min": 5,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "key": "seed",
+          "label": "模拟种子",
+          "type": "range",
+          "min": 1,
+          "max": 9,
+          "step": 1
+        }
+      ],
+      "initial": {
+        "n": 30,
+        "seed": 3
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-13-5",
+          "afterBlockId": "bx3-13-5-b12",
+          "rationale": "补充抽样波动，不覆盖本段样本平均数、中位数、众数、加权均值的定义与讨论；需保留原文常显。",
+          "retainProse": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-6-3",
+  "book_id": "x2",
+  "section": "6.3",
+  "title": "组合",
+  "section_json": "batch/sections/x2/x2-6-3.json",
+  "output": "outputs/五册教材教参整合/x2/x2-6-3",
+  "fingerprint": "b468be378199232d46bcee17be4235afefe4beec60bddfbe88b7a0c034ecd064",
+  "status": "rendered",
+  "questions": 29,
+  "answers": 29,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-2776c3a1efd1c77dda3b.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_25_641_1225_399_293_0.jpg",
+      "sha256": "2776c3a1efd1c77dda3b40fad4098e9e217acba4310281be7c52f200d4276268",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "student_images": [
+    "images/book-2776c3a1efd1c77dda3b.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "067d45538da84a69d2471f0d3aeef7ba66fb5bcc4502dd1584c7b0b2ccc8b154",
+    "student.html": "7820bc7fe1892247bfd216ada1eebe6f7785d7a6e8e647220e93688afffe2282",
+    "student.zip": "37c0490f0e18adb3db77dd69d7242a2494477f58f3973b5726d7e5fb6653f775",
+    "content.json": "3b2c5ad7c3514787cf267db4632121e748c216eed7271b6e6daea751d3f14daa"
+  }
+}

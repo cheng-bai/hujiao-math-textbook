@@ -1,0 +1,903 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 919,
+        "end": 919
+      }
+    ],
+    "id": "bx3-chapter-end-11",
+    "number": "chapter-end-11",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 多面体与旋转体是两类重要的几何体.\n\n(1)多面体:由三角形或平面多边形围成的封闭几何体称为多面体.\n\n(2)旋转体:一个平面封闭图形绕其所在平面上的一条直线在空间旋转一周所得到的空间封闭几何体称为旋转体.\n\n2. 本章所讨论的“简单几何体”有:\n\n(1)柱体(包括棱柱和圆柱)，其中棱柱是多面体，而圆柱是旋转体.\n\n(2)锥体(包括棱锥和圆锥)，其中棱锥是多面体，而圆锥是旋转体.\n\n(3)球，它是一个旋转体.\n\n3. 我们主要关注所涉及几何体的体积和表面积的计算.\n\n(1)柱体的体积和表面积:\n\n柱体的体积: ${V}_{\\text{ 柱 }} = {S}_{\\text{ 底 }}h$ .\n\n直棱柱(侧棱垂直于底面的棱柱)的表面积: ${S}_{\\text{ 表 }} = {ch} + 2{S}_{\\text{ 底 }}$ .\n\n圆柱的表面积: ${S}_{\\text{ 表 }} = {ch} + 2{S}_{\\text{ 底 }} = {2\\pi rh} + {{2\\pi }{r}^{2}}$ .\n\n其中， ${S}_{\\text{ 底 }}$ 、 $h$ 与 $c$ 分别是柱体的底面积、高与底面周长， $r$ 是圆柱的底面半径.\n\n(2)锥体的体积和表面积:\n\n锥体的体积: ${V}_{\\text{ 锥 }} = \\frac{1}{3}{S}_{\\text{ 底 }}h$ .\n\n正棱锥(底面为正三角形或正多边形且高通过底面中心的棱锥)的表面积: ${S}_{\\text{ 表 }} = \\frac{1}{2}c{h}^{\\prime } + {S}_{\\text{ 底 }}$ .\n\n圆锥的表面积: ${S}_{\\text{ 表 }} = \\frac{1}{2}{cl} + {S}_{\\text{ 底 }} = {\\pi rl} + \\pi {r}^{2}$ .\n\n其中, ${S}_{\\text{ 底 }}\\text{ 、 }h$ 与 $c$ 分别是锥体的底面积、高与底面周长, ${h}^{\\prime }$ 是正三棱锥的斜高, $r$ 与 $l$ 是圆锥的底半径和母线长.\n\n(3)球的体积和表面积:\n\n球的体积: ${V}_{\\text{ 球 }} = \\frac{4}{3}\\pi {R}^{3}$ .\n\n球面面积: ${S}_{\\text{ 球 }} = {4\\pi }{R}^{2}$ .\n\n其中, $R$ 是球的半径.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 920,
+        "end": 964
+      }
+    ],
+    "id": "bx3-chapter-end-11-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 965,
+        "end": 965
+      }
+    ],
+    "id": "bx3-chapter-end-11-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 967,
+        "end": 967
+      }
+    ],
+    "id": "bx3-chapter-end-11-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 如图, 该几何体是由哪个平面图形旋转得到的？画出其余平面图形旋转得到的几何体.\n\n\n![bo_d4slmdf7aajc73fspjug_32_533_242_132_247_0.jpg](images/book-0d925c131ff40dd75745.jpg)\n\n(A)\n\n![bo_d4slmdf7aajc73fspjug_32_781_241_107_248_0.jpg](images/book-2342600718ace1d5717a.jpg)\n\n(B)\n\n![bo_d4slmdf7aajc73fspjug_32_1033_242_106_247_0.jpg](images/book-88037b1a94e817e3fb91.jpg)\n\n(C)\n\n![bo_d4slmdf7aajc73fspjug_32_1279_242_111_247_0.jpg](images/book-72c7ee577c2c5ffbc17d.jpg)\n\n(D)\n\n![bo_d4slmdf7aajc73fspjug_32_231_253_157_237_0.jpg](images/book-bb00ebc60dd7f87fa3b0.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 969,
+        "end": 990
+      },
+      {
+        "source": "book",
+        "start": 971,
+        "end": 973
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 969,
+        "end": 990
+      },
+      {
+        "source": "book",
+        "start": 971,
+        "end": 973
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-1",
+    "category": "复习题A",
+    "answer": "1. A. 图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 460,
+        "end": 461
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 判断下列命题是否正确，并说明理由:\n\n(1)以直角三角形的一直角边为轴旋转所形成的旋转体是圆锥；\n\n(2)以直角梯形的一腰为轴旋转所形成的旋转体是圆台；\n\n(3)圆柱、圆锥、圆台都有两个底面；\n\n(4)圆锥的侧面展开图为扇形，这个扇形所在圆的半径等于圆锥底面圆的半径.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 991,
+        "end": 1000
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 991,
+        "end": 1000
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-2",
+    "category": "复习题A",
+    "answer": "2.(1)正确. (2)错误. (3)错误. (4) 错误.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 462,
+        "end": 463
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 已知一个圆锥的侧面展开图恰是一个半圆. 用通过圆锥的轴的平面截此圆锥, 求截面三角形的顶角.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1001,
+        "end": 1002
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1001,
+        "end": 1002
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-3",
+    "category": "复习题A",
+    "answer": "3. $\\frac{\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 464,
+        "end": 465
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 过圆锥高的三等分点分别作平行于底面的截面, 求它们把圆锥侧面分成的三部分的面积之比.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1003,
+        "end": 1004
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1003,
+        "end": 1004
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-4",
+    "category": "复习题A",
+    "answer": "4. $1 : 3 : 5$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 466,
+        "end": 467
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 在棱长为 1 的正方体上，用过同一顶点的三条棱中点的平面分别截该正方体，截去 8 个三棱锥. 求剩下的几何体的体积.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1005,
+        "end": 1010
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1005,
+        "end": 1010
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-5",
+    "category": "复习题A",
+    "answer": "5. $\\frac{5}{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 468,
+        "end": 469
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 已知长方体一个顶点上的三条棱长分别是 $3\\text{ 、 }4\\text{ 、 }5$ ,且它的 8 个顶点都在同一球面上. 求这个球的表面积.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1011,
+        "end": 1012
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1011,
+        "end": 1012
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-6",
+    "category": "复习题A",
+    "answer": "6. ${50\\pi }$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 470,
+        "end": 471
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 在等边圆柱 (底面直径等于高的圆柱) 、球、正方体的体积相等的情况下,讨论它们的表面积的大小关系.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1013,
+        "end": 1014
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1013,
+        "end": 1014
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-7",
+    "category": "复习题A",
+    "answer": "7. ${S}_{\\text{球 }} < {S}_{\\text{圆柱 }} < {S}_{\\text{正方体 }}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 472,
+        "end": 473
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 如图,在三棱柱的侧棱 ${A}_{1}A$ 和 ${B}_{1}B$ 上分别取 $P\\text{ 、 }Q$ 两点, 使 ${PQ}$ 平分侧面 ${AB}{B}_{1}{A}_{1}$ 的面积. 求平面 ${PQC}$ 把棱柱所分成的两部分的体积之比.\n\n![bo_d4slmdf7aajc73fspjug_32_1148_1148_320_316_0.jpg](images/book-462897a04f63516362c3.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1015,
+        "end": 1016
+      },
+      {
+        "source": "book",
+        "start": 1007,
+        "end": 1009
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1015,
+        "end": 1016
+      },
+      {
+        "source": "book",
+        "start": 1007,
+        "end": 1009
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-8",
+    "category": "复习题A",
+    "answer": "8. $2 : 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 474,
+        "end": 475
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 9",
+    "markdown": "9. 已知用通过圆锥的轴的平面去截一个圆锥, 得到的截面是面积为 $9\\sqrt{3}{\\mathrm{\\;{cm}}}^{2}$ 的正三角形. 求此圆锥内接球的半径.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1017,
+        "end": 1018
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1017,
+        "end": 1018
+      }
+    ],
+    "id": "bx3-chapter-end-11-hA-9",
+    "category": "复习题A",
+    "answer": "9. $\\sqrt{3}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 476,
+        "end": 477
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1019,
+        "end": 1019
+      }
+    ],
+    "id": "bx3-chapter-end-11-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 若一个长方体长、宽、高之比为 $2 : 1 : 3$ ,表面积为 22,求它的体积.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1021,
+        "end": 1022
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1021,
+        "end": 1022
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-1",
+    "category": "复习题B",
+    "answer": "1. 6 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 480,
+        "end": 481
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 如果两个球的体积之比为 8 : 27, 求这两个球的表面积之比.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1023,
+        "end": 1024
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1023,
+        "end": 1024
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-2",
+    "category": "复习题B",
+    "answer": "2. 4 : 9 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 482,
+        "end": 483
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 设点 ${O}_{1}$ 为圆锥的高靠近顶点的三等分点,求过 ${O}_{1}$ 与底面平行的截面面积与底面面积之比.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1025,
+        "end": 1026
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1025,
+        "end": 1026
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-3",
+    "category": "复习题B",
+    "answer": "3. 1 : 9.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 484,
+        "end": 485
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 若棱锥的高为 16 , 底面积为 256 , 平行于底面的截面面积为 50 , 求该截面与棱锥底面之间的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1027,
+        "end": 1028
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1027,
+        "end": 1028
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-4",
+    "category": "复习题B",
+    "answer": "4. ${16} - 5\\sqrt{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 486,
+        "end": 487
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 设圆锥的母线长为 1,高为 $\\frac{1}{2}$ ,过圆锥的任意给定的两条母线作一个截面. 求截面面积的最大值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1029,
+        "end": 1030
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1029,
+        "end": 1030
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-5",
+    "category": "复习题B",
+    "answer": "5. $\\frac{1}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 488,
+        "end": 489
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 将若干毫升水倒入底面半径为 $2\\mathrm{\\;{cm}}$ 的圆柱形器皿中,量得水面高度为 $6\\mathrm{\\;{cm}}$ . 若将这些水倒入底面半径等于母线的倒圆锥形器皿中, 且恰好装满, 求圆锥形器皿的高.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1031,
+        "end": 1032
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1031,
+        "end": 1032
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-6",
+    "category": "复习题B",
+    "answer": "6. $3\\sqrt[3]{2}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 490,
+        "end": 491
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 已知长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的三条棱长分别为 $3\\mathrm{\\;{cm}}\\text{ 、 }2\\mathrm{\\;{cm}}\\text{ 、 }1\\mathrm{\\;{cm}}$ ,求表面有一只蜘蛛从 $A$ 爬行到 ${C}_{1}$ 的最短距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1033,
+        "end": 1034
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1033,
+        "end": 1034
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-7",
+    "category": "复习题B",
+    "answer": "7. $3\\sqrt{2}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 492,
+        "end": 493
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 8",
+    "markdown": "8. 如图,已知点 $P$ 在圆柱 ${O}_{1}O$ 的底面圆 $O$ 的圆周上, ${AB}$ 为圆 $O$ 的直径,圆柱的表面积为 ${20\\pi },{OA} = 2,\\angle {AOP} = {120}^{ \\circ  }$ .\n\n(1)求三棱锥 ${A}_{1} - {ABP}$ 的体积；\n\n(2)求异面直线 ${A}_{1}B$ 与 ${AP}$ 所成角的大小.\n\n![bo_d4slmdf7aajc73fspjug_33_281_702_310_296_0.jpg](images/book-f2c0f29c4d3e8fc40be6.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1035,
+        "end": 1052
+      },
+      {
+        "source": "book",
+        "start": 1041,
+        "end": 1043
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1035,
+        "end": 1052
+      },
+      {
+        "source": "book",
+        "start": 1041,
+        "end": 1043
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-8",
+    "category": "复习题B",
+    "answer": "8. (1) $2\\sqrt{3}$ . (2) $\\arccos \\frac{2\\sqrt{3}}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 494,
+        "end": 495
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 9",
+    "markdown": "9. 如图,在圆柱中,底面直径 ${AB}$ 等于母线 ${AD}$ ,点 $E$ 在底面的圆周上,且 ${AF} \\bot \\; {DE}, F$ 是垂足.\n\n(1)求证: ${AF}\\bot {DB}$ ；\n\n(2)若圆柱与三棱锥 $D - {ABE}$ 的体积的比等于 ${3\\pi }$ ，求直线 ${DE}$ 与平面 ${ABD}$ 所成角的大小.\n\n![bo_d4slmdf7aajc73fspjug_33_707_702_269_296_0.jpg](images/book-42f08626d94cf8aa39ee.jpg)\n\n(第 9 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1053,
+        "end": 1058
+      },
+      {
+        "source": "book",
+        "start": 1045,
+        "end": 1047
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1053,
+        "end": 1058
+      },
+      {
+        "source": "book",
+        "start": 1045,
+        "end": 1047
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-9",
+    "category": "复习题B",
+    "answer": "9. (1)先证 ${AF} \\bot$ 平面 ${BDE}$ . (2) $\\arctan \\frac{\\sqrt{5}}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 496,
+        "end": 497
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 10",
+    "markdown": "10. 如图, 半球内有一内接正方体(即正方体的一个面在半球的底面圆上, 其余顶点在半球面上). 若正方体的棱长为 $\\sqrt{6}$ ,求半球的表面积和体积.\n\n![bo_d4slmdf7aajc73fspjug_33_1090_791_304_214_0.jpg](images/book-fa5e6f2e0a15fe5aeee9.jpg)\n\n(第 10 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1059,
+        "end": 1060
+      },
+      {
+        "source": "book",
+        "start": 1049,
+        "end": 1051
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1059,
+        "end": 1060
+      },
+      {
+        "source": "book",
+        "start": 1049,
+        "end": 1051
+      }
+    ],
+    "id": "bx3-chapter-end-11-hB-10",
+    "category": "复习题B",
+    "answer": "10. ${S}_{\\text{半球 }} = {27\\pi },{V}_{\\text{半球 }} = {18\\pi }$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 498,
+        "end": 499
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "### 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1061,
+        "end": 1061
+      }
+    ],
+    "id": "bx3-chapter-end-11-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 已知圆锥的底面半径为 $r$ ,高为 $h$ ,正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 内接于该圆锥. 求这个正方体的棱长.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1063,
+        "end": 1064
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1063,
+        "end": 1064
+      }
+    ],
+    "id": "bx3-chapter-end-11-t-1",
+    "category": "拓展与思考",
+    "answer": "1. $x = \\frac{\\sqrt{2}{rh}}{\\sqrt{2}r + h}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 502,
+        "end": 503
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 如图, 一个圆锥形的空杯子上放着一个半球形的冰激凌, 如果冰激凌融化了, 会溢出来吗?\n\n![bo_d4slmdf7aajc73fspjug_33_494_1779_206_292_0.jpg](images/book-7f4c12d25c57069dc141.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1065,
+        "end": 1074
+      },
+      {
+        "source": "book",
+        "start": 1067,
+        "end": 1069
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1065,
+        "end": 1074
+      },
+      {
+        "source": "book",
+        "start": 1067,
+        "end": 1069
+      }
+    ],
+    "id": "bx3-chapter-end-11-t-2",
+    "category": "拓展与思考",
+    "answer": "2. 不会溢出来.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 504,
+        "end": 505
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 3",
+    "markdown": "3. 如图,用一块钢锭浇铸一个厚度均匀,且表面积为 $2{\\mathrm{\\;m}}^{2}$ 的正四棱锥形有盖容器. 设容器的高为 $h\\mathrm{\\;m}$ ,盖子的边长为 $a\\mathrm{\\;m}$ .\n\n(1)求 $a$ 关于 $h$ 的函数表达式；\n\n(2)当 $h$ 为何值时,容器的容积 $V$ 最大? 并求出 $V$ 的最大值.\n\n![bo_d4slmdf7aajc73fspjug_33_848_1804_333_259_0.jpg](images/book-fed70f1b2400abce662c.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1075,
+        "end": 1080
+      },
+      {
+        "source": "book",
+        "start": 1071,
+        "end": 1073
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1075,
+        "end": 1080
+      },
+      {
+        "source": "book",
+        "start": 1071,
+        "end": 1073
+      }
+    ],
+    "id": "bx3-chapter-end-11-t-3",
+    "category": "拓展与思考",
+    "answer": "3. (1) $a = \\frac{\\sqrt{1 + {h}^{2}}}{1 + {h}^{2}}, h > 0$ . (2)当 $h = 1$ 时, ${V}_{\\max } = \\frac{1}{6}{\\mathrm{\\;m}}^{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 506,
+        "end": 507
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 4",
+    "markdown": "4. 将一块边长为 ${10}\\mathrm{\\;{cm}}$ 的正方形铁片裁下如图所示的阴影部分，用余下的四个全等的等腰三角形加工成一个无盖的正四棱锥形容器罩.\n\n(1)试把容器罩的表面积 $S$ 表示为 $x$ 的函数;\n\n(2)试把容器罩的体积 $V$ 表示为 $x$ 的函数.\n\n![bo_d4slmdf7aajc73fspjug_34_385_659_846_340_0.jpg](images/book-38ffa4c55945d3feb472.jpg)\n\n(第 4 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1081,
+        "end": 1089
+      },
+      {
+        "source": "book",
+        "start": 1087,
+        "end": 1089
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1081,
+        "end": 1089
+      },
+      {
+        "source": "book",
+        "start": 1087,
+        "end": 1089
+      }
+    ],
+    "id": "bx3-chapter-end-11-t-4",
+    "category": "拓展与思考",
+    "answer": "4. (1) $S = {100} - {20x}\\left( {x \\in  \\left( {0,5}\\right) }\\right)$ . (2) $V = \\frac{4}{3}{\\left( 5 - x\\right) }^{2}\\sqrt{{10x} - {x}^{2}}\\left( {x \\in  \\left( {0,5}\\right) }\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 508,
+        "end": 509
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 龚昇. 从刘徽割圆谈起[M]. 北京: 科学出版社, 2002.\n\n[2] 江泽涵. 多面形的欧拉定理和闭曲面的拓扑分类[M]. 北京: 科学出版社,2002.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 510,
+        "end": 516
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx3-chapter-end-11-b29",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

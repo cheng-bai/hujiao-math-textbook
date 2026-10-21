@@ -1,0 +1,777 @@
+[
+  {
+    "type": "section",
+    "title": "二项式定理",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1251,
+        "end": 1251
+      }
+    ],
+    "id": "x2-6-5",
+    "number": "6.5",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 6.5 二项式定理\n\n### 教学重点\n\n理解二项展开式中项的特点, 能够写出二项展开式中指定的项, 掌握与组合数有关的恒等式的简单处理方法, 了解二项式定理的简单应用.\n\n### 内容分析\n\n二项式定理是初中学过的乘法公式的推广. 为了从 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 等展开式中寻找一般的展开规律, 学生需要对计数原理、组合的概念与计算有比较深入的理解, 教师可以结合杨辉三角等内容, 对一般规律进行深入浅出的剖析, 尝试从不同角度进行解释. 在研究组合数的性质时, “代入法”是一种常用的方法. 通过本节的学习, 可以为进一步学习概率理论 (随机变量的分布) 作好准备.\n\n例 1 旨在说明二项式定理的应用, 它也可以利用杨辉三角解决. 配套练习为练习 6.5(1)第1题的第(1)小题,习题 6.5A 组的第 1 至 4 题及习题 6.5B 组的第 3、4 题.\n\n例 2 将减法运算改写为相应的加法运算, 旨在说明在求一个二项式的展开式时,需要改写为 ${\\left( a + b\\right) }^{n}$ 的标准形式. 配套练习为练习 6.5(1)的第 1 题及习题 6.5A 组的第 1 题.\n\n例 3 利用二项式定理证明整除性, 这是二项式定理的一个常见的应用. 配套练习为练习 ${6.5}\\left( 1\\right)$ 的第 2 题.\n\n例 4 使用换元法和代入法求二项展开式中全部(或部分)项的系数之和,这是研究二项式的展开式的系数满足性质的常用方法. 配套练习为练习 6.5(2) 的第 1 题及习题 6.5B 组的第 1 题.\n\n例 5 和例 6 研究了组合数的单调变化规律和二项式的展开式中各项系数的单调变化规律, 使用的是数列单调性的处理方法. 这部分内容对学生的要求较高, 教师可根据学生的实际情况给予必要的分解处理. 配套练习为练习 6.5 (2) 的第 2 题、习题 6.5A 组的第 4 题及习题 6.5B 组的第 2 题.\n\n### 注意事项\n\n二项式定理的理论基础是 “加法原理”(分类)与 “组合”, 也是 “加法原理” 与 “组合” 的一个重要模型(例如, 在课后阅读材料中, 利用组合的定义和多项式的乘法法则证明二项式定理). 这部分内容的教与学不仅要在展开式规律的发现和证明上, 也要在组合数恒等式的推导过程中发挥数学模型的功能, 但要适当注意问题的难度. 例如, 可以向学生介绍用数学模型 “求包含 $n$ 个元素的集合的子集个数” 来证明 ${\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{1} + \\; {\\mathrm{C}}_{n}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{n} = {2}^{n}$ ,但不建议向学生介绍 ${\\mathrm{C}}_{n}^{0}{\\mathrm{C}}_{m}^{k} + {\\mathrm{C}}_{n}^{1}{\\mathrm{C}}_{m}^{k - 1} + {\\mathrm{C}}_{n}^{2}{\\mathrm{C}}_{m}^{k - 2} + \\cdots  + {\\mathrm{C}}_{n}^{k}{\\mathrm{C}}_{m}^{0} = {\\mathrm{C}}_{n + m}^{k} \\; \\left( {m\\text{、}n\\text{、}k \\in  \\mathbb{N}, k \\leq  m, k \\leq  n}\\right)$ 的证明.\n\n### 教学建议\n\n在教学过程中,教师应充分利用学生熟悉的 ${\\left( a + b\\right) }^{2}$ 及 ${\\left( a + b\\right) }^{3}$ 的展开规律,引导学生从计数原理和计数模型的角度考虑一般情形. 在使用二项式定理证明或处理与组合数的性质有关的问题中, 应当控制问题的难度, 减少繁杂的问题.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 183,
+        "end": 210
+      }
+    ],
+    "teacher_only": true,
+    "id": "x2-6-5-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 杨辉三角和二项式定理",
+    "markdown": "### 1 杨辉三角和二项式定理",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1253,
+        "end": 1253
+      }
+    ],
+    "id": "x2-6-5-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们知道,对于任意的 $a\\text{ 、 }b$ ,都有\n\n$$\n{\\left( a + b\\right) }^{2} = {a}^{2} + {2ab} + {b}^{2},\n$$\n\n$$\n{\\left( a + b\\right) }^{3} = {a}^{3} + 3{a}^{2}b + {3a}{b}^{2} + {b}^{3},\n$$\n\n$$\n{\\left( a + b\\right) }^{4} = {a}^{4} + 4{a}^{3}b + 6{a}^{2}{b}^{2} + {4a}{b}^{3} + {b}^{4},\n$$\n\n$$\n{\\left( a + b\\right) }^{5} = {a}^{5} + 5{a}^{4}b + {10}{a}^{3}{b}^{2} + {10}{a}^{2}{b}^{3} + {5a}{b}^{4} + {b}^{5}.\n$$\n\n我们把等式右边的代数式称为 ${\\left( a + b\\right) }^{k}$ 的二项展开式,其中 $k = 2,3,4,5$ . 一般地,对于任意正整数 $n,{\\left( a + b\\right) }^{n}$ 的二项展开式有什么规律呢?\n\n在 $n$ 的取值不大的情况下,也可以利用下面的数阵求 ${\\left( a + b\\right) }^{n}$ 的二项展开式中各项的系数:\n\n$$\n{\\left( a + b\\right) }^{1}\n$$\n\n$$\n{\\left( a + b\\right) }^{2}\n$$\n\n$$\n{\\left( a + b\\right) }^{3}\n$$\n\n$$\n{\\left( a + b\\right) }^{4}\n$$\n\n$$\n{\\left( a + b\\right) }^{5}\n$$\n\n$\\begin{array}{llllll} 1 & 5 & {10} & {10} & 5 & 1 \\end{array}$\n\n![bo_d4slon3ef24c73be0qm0_29_1016_1281_264_258_0.jpg](images/book-b49f6f6aa3f453d23331.jpg)\n\n这个数阵的特点是: ①每一行的第一个数和最后一个数都是 1 . ②每一行中, 除了第一个数和最后一个数外, 每个数等于它\"肩上\"的两个数之和. ③当 $n$ 为偶数时,最大的系数是中间一项; 当 $n$ 为奇数时,最大的系数是中间两项.\n\n在我国数学家杨辉于 1261 年所著的《详解九章算法》中出现了类似的图表(类似于图 6-5-1)，习惯上称之为杨辉三角，杨辉在该图旁注明 \"贾宪用此术\"，故亦称贾宪三角. 它是中国古代数学的杰出研究成果之一.\n\n---\n\n请将特点①和特点②用组合数的公式表示.\n\n杨辉, 字谦光, 钱塘(今杭州)人。中国南宋末年数学家、 数学教育家. 约在 13 世纪中叶至后半叶活动于苏、杭一带.\n\n---\n\n![bo_d4slon3ef24c73be0qm0_30_390_269_483_541_0.jpg](images/book-d686b01a2467082762b6.jpg)\n\n图 6-5-1\n\n一般地, 我们有下面的\n\n定理 设 $n$ 是正整数,等式\n\n${\\left( a + b\\right) }^{n} = {\\mathrm{C}}_{n}^{0}{a}^{n} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1}b + {\\mathrm{C}}_{n}^{2}{a}^{n - 2}{b}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{n}^{n}{b}^{n}$ 称为二项式定理. ${\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r}$ 表示 ${\\left( a + b\\right) }^{n}$ 的二项展开式中的第 $r + 1$ 项,其中 $r = 0,1,2,\\cdots , n$ .\n\n证明 当 $n = 1$ 时,\n\n$$\n{\\left( a + b\\right) }^{1} = a + b = {\\mathrm{C}}_{1}^{0}{a}^{1}{b}^{0} + {\\mathrm{C}}_{1}^{1}{a}^{0}{b}^{1}.\n$$\n\n假设 $n = k$ ( $k$ 为正整数)时,\n\n$$\n{\\left( a + b\\right) }^{k} = {\\mathrm{C}}_{k}^{0}{a}^{k}{b}^{0} + {\\mathrm{C}}_{k}^{1}{a}^{k - 1}{b}^{1} + {\\mathrm{C}}_{k}^{2}{a}^{k - 2}{b}^{2}\n$$\n\n$$\n+ \\cdots  + {\\mathrm{C}}_{k}^{r}{a}^{k - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{k}^{k}{a}^{0}{b}^{k}.\n$$\n\n则当 $n = k + 1$ 时,根据多项式的乘法运算规则,有\n\n$$\n{\\left( a + b\\right) }^{k + 1} = \\left( {a + b}\\right) {\\left( a + b\\right) }^{k}\n$$\n\n$$\n= \\left( {a + b}\\right) \\left( {{\\mathrm{C}}_{k}^{0}{a}^{k}{b}^{0} + {\\mathrm{C}}_{k}^{1}{a}^{k - 1}{b}^{1} + {\\mathrm{C}}_{k}^{2}{a}^{k - 2}{b}^{2}}\\right.\n$$\n\n$$\n\\left. {+\\cdots  + {\\mathrm{C}}_{k}^{r}{a}^{k - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{k}^{k}{a}^{0}{b}^{k}}\\right)\n$$\n\n$$\n= {\\mathrm{C}}_{k}^{0}{a}^{k + 1}{b}^{0} + \\left( {{\\mathrm{C}}_{k}^{1} + {\\mathrm{C}}_{k}^{0}}\\right) {a}^{k}{b}^{1} + \\left( {{\\mathrm{C}}_{k}^{2} + {\\mathrm{C}}_{k}^{1}}\\right) {a}^{k - 1}{b}^{2}\n$$\n\n$$\n+ \\cdots  + \\left( {{\\mathrm{C}}_{k}^{r} + {\\mathrm{C}}_{k}^{r - 1}}\\right) {a}^{k - r + 1}{b}^{r}\n$$\n\n$$\n+ \\cdots  + \\left( {{\\mathrm{C}}_{k}^{k} + {\\mathrm{C}}_{k}^{k - 1}}\\right) {a}^{1}{b}^{k} + {\\mathrm{C}}_{k}^{k}{a}^{0}{b}^{k + 1}.\n$$\n\n从而由性质 ${\\mathrm{C}}_{n + 1}^{m} = {\\mathrm{C}}_{n}^{m} + {\\mathrm{C}}_{n}^{m - 1}$ 和 ${\\mathrm{C}}_{n}^{0} = {\\mathrm{C}}_{n}^{n} = 1$ ,得\n\n$$\n{\\left( a + b\\right) }^{k + 1}\n$$\n\n$$\n= {\\mathrm{C}}_{k + 1}^{0}{a}^{k + 1}{b}^{0} + {\\mathrm{C}}_{k + 1}^{1}{a}^{\\left( {k + 1}\\right)  - 1}{b}^{1} + {\\mathrm{C}}_{k + 1}^{2}{a}^{\\left( {k + 1}\\right)  - 2}{b}^{2}\n$$\n\n$$\n+ \\cdots  + {\\mathrm{C}}_{k + 1}^{r}{a}^{\\left( {k + 1}\\right)  - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{k + 1}^{k + 1}{a}^{0}{b}^{k + 1}.\n$$\n\n---\n\n西方称类似表格为帕斯卡三角形.\n\n在讨论二项式定理相关内容时, 我们约定 ${a}^{0} = {b}^{0} = 1$ .\n\n---\n\n所以,由数学归纳法,对于 $a\\text{ 、 }b$ 和正整数 $n$ ,都有\n\n$$\n{\\left( a + b\\right) }^{n} = {\\mathrm{C}}_{n}^{0}{a}^{n}{b}^{0} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1}{b}^{1} + {\\mathrm{C}}_{n}^{2}{a}^{n - 2}{b}^{2}\n$$\n\n$$\n+ \\cdots  + {\\mathrm{C}}_{n}^{r}{a}^{n - r}{b}^{r} + \\cdots  + {\\mathrm{C}}_{n}^{n}{a}^{0}{b}^{n}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1254,
+        "end": 1396
+      }
+    ],
+    "emphases": [
+      {
+        "start": 397,
+        "end": 522,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-6-5-definition-3-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1373,
+        "end": 1728,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-6-5-definition-3-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-6-5-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 求 ${\\left( x + \\frac{1}{x}\\right) }^{5}$ 的二项展开式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1397,
+        "end": 1398
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1397,
+        "end": 1398
+      }
+    ],
+    "id": "x2-6-5-ex-1",
+    "category": "例题",
+    "answer": "解 由二项式定理, ${\\left( x + \\frac{1}{x}\\right) }^{5}$ 的二项展开式是\n\n$$\n{x}^{5} + 5{x}^{3} + {10x} + \\frac{10}{x} + \\frac{5}{{x}^{3}} + \\frac{1}{{x}^{5}}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1399,
+        "end": 1404
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 求 ${\\left( 3 - 2x\\right) }^{6}$ 的二项展开式中 ${x}^{3}$ 项的系数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1405,
+        "end": 1406
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1405,
+        "end": 1406
+      }
+    ],
+    "id": "x2-6-5-ex-2",
+    "category": "例题",
+    "answer": "解 由二项式定理, ${\\left( 3 - 2x\\right) }^{6}$ 的二项展开式中的第 $r + 1$ 项为 ${\\mathrm{C}}_{6}^{r}{3}^{6 - r}{\\left( -2x\\right) }^{r}$ ,其中 $r = 0,1,2,\\cdots ,6$ . 令 $r = 3$ ,得 ${x}^{3}$ 项的系数是 ${\\mathrm{C}}_{6}^{3}{3}^{3}{\\left( -2\\right) }^{3} =  - {4320}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1407,
+        "end": 1408
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 利用 ${\\left( a + 1\\right) }^{n}$ 的二项展开式,证明: ${15}^{30} - 1$ 是 7 的倍数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1409,
+        "end": 1410
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1409,
+        "end": 1410
+      }
+    ],
+    "id": "x2-6-5-ex-3",
+    "category": "例题",
+    "answer": "证明 由二项式定理, 我们有\n\n$$\n{\\left( a + 1\\right) }^{n} = {a}^{n} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1} + {\\mathrm{C}}_{n}^{2}{a}^{n - 2} + \\cdots  + {\\mathrm{C}}_{n}^{n - 1}a + {\\mathrm{C}}_{n}^{n}\n$$\n\n$$\n= {a}^{n} + {\\mathrm{C}}_{n}^{1}{a}^{n - 1} + {\\mathrm{C}}_{n}^{2}{a}^{n - 2} + \\cdots  + {\\mathrm{C}}_{n}^{n - 1}a + 1.\n$$\n\n在其中令 $a = {14}$ ,得\n\n$$\n{\\left( {14} + 1\\right) }^{n} = {14}^{n} + {14}^{n - 1}{\\mathrm{C}}_{n}^{1} + {14}^{n - 2}{\\mathrm{C}}_{n}^{2} + \\cdots  + {14}{\\mathrm{C}}_{n}^{n - 1} + 1,\n$$\n\n从而\n\n$$\n{15}^{n} - 1 = {14}^{n} + {14}^{n - 1}{\\mathrm{C}}_{n}^{1} + {14}^{n - 2}{\\mathrm{C}}_{n}^{2} + \\cdots  + {14}{\\mathrm{C}}_{n}^{n - 1}.\n$$\n\n显然,等号右边的每一项都是 7 的倍数,所以 ${15}^{n} - 1$ 是 7 的倍数. 于是, ${15}^{30} - 1$ 也一定是 7 的倍数.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1411,
+        "end": 1434
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.5(1)",
+    "markdown": "### 练习 6.5(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1435,
+        "end": 1435
+      }
+    ],
+    "id": "x2-6-5-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.5(1) · 1",
+    "markdown": "1. (1) 求 ${\\left( x - \\sqrt{2}y\\right) }^{8}$ 的二项展开式;\n\n(2)求 ${\\left( x - {x}^{-\\frac{1}{3}}\\right) }^{12}$ 的二项展开式中的常数项；\n\n(3)求 ${\\left( x - \\frac{2}{x}\\right) }^{9}$ 的二项展开式中 ${x}^{3}$ 的系数；\n\n(4)在 ${\\left( 1 - {x}^{2}\\right) }^{20}$ 的二项展开式中，如果第 ${4r}$ 项和第 $r + 2$ 项的系数的绝对值相等,求此展开式的第 ${4r}$ 项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1437,
+        "end": 1444
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1437,
+        "end": 1444
+      }
+    ],
+    "id": "x2-6-5-p651-1",
+    "category": "练习6.5(1)",
+    "answer": "1. (1) ${x}^{8} - 8\\sqrt{2}{x}^{7}y + {56}{x}^{6}{y}^{2} - {112}\\sqrt{2}{x}^{5}{y}^{3} + {280}{x}^{4}{y}^{4} - {224}\\sqrt{2}{x}^{3}{y}^{5} + {224}{x}^{2}{y}^{6} - \\; {64}\\sqrt{2}x{y}^{7} + {16}{y}^{8}.$ (2)-220. (3)-672. (4) $- {15504}{x}^{30}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 395,
+        "end": 396
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.5(1) · 2",
+    "markdown": "2. 利用二项式定理证明: ${7}^{100} - 1$ 是 8 的倍数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1445,
+        "end": 1446
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1445,
+        "end": 1446
+      }
+    ],
+    "id": "x2-6-5-p651-2",
+    "category": "练习6.5(1)",
+    "answer": "2. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 397,
+        "end": 398
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "二项式定理的应用 ——组合数的性质",
+    "markdown": "### 二项式定理的应用 ——组合数的性质",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1447,
+        "end": 1447
+      }
+    ],
+    "id": "x2-6-5-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在二项式定理中,特别令 $a = 1, b = 1$ ,就得到\n\n$$\n{\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{1} + {\\mathrm{C}}_{n}^{2} + \\cdots  + {\\mathrm{C}}_{n}^{n} = {2}^{n}.\n$$\n\n令 $a = 1, b =  - 1$ ,就得到\n\n$$\n{\\mathrm{C}}_{n}^{0} - {\\mathrm{C}}_{n}^{1} + {\\mathrm{C}}_{n}^{2} - {\\mathrm{C}}_{n}^{3} + \\cdots  + {\\left( -1\\right) }^{n}{\\mathrm{C}}_{n}^{n} = 0.\n$$\n\n由上述二式就得到\n\n$$\n{\\mathrm{C}}_{n}^{0} + {\\mathrm{C}}_{n}^{2} + {\\mathrm{C}}_{n}^{4} + \\cdots  = {\\mathrm{C}}_{n}^{1} + {\\mathrm{C}}_{n}^{3} + {\\mathrm{C}}_{n}^{5} + \\cdots  = {2}^{n - 1}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1448,
+        "end": 1466
+      }
+    ],
+    "id": "x2-6-5-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 已知对任意给定的实数 $x$ ,都有\n\n$$\n{\\left( 1 + 2x\\right) }^{100} = {a}_{0} + {a}_{1}\\left( {x - 1}\\right)  + {a}_{2}{\\left( x - 1\\right) }^{2} + \\cdots  + {a}_{100}{\\left( x - 1\\right) }^{100}.\n$$\n\n求值:\n\n(1) ${a}_{0} + {a}_{1} + {a}_{2} + \\cdots  + {a}_{100}$ ;\n\n(2) ${a}_{1} + {a}_{3} + {a}_{5} + \\cdots  + {a}_{99}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1467,
+        "end": 1478
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1467,
+        "end": 1478
+      }
+    ],
+    "id": "x2-6-5-ex-4",
+    "category": "例题",
+    "answer": "解 令 $x - 1 = y$ ,则 $x = y + 1$ ,从而\n\n$$\n1 + {2x} = 1 + 2\\left( {y + 1}\\right)  = 3 + {2y},\n$$\n\n$$\n{a}_{0} + {a}_{1}\\left( {x - 1}\\right)  + {a}_{2}{\\left( x - 1\\right) }^{2} + \\cdots  + {a}_{100}{\\left( x - 1\\right) }^{100}\n$$\n\n$$\n= {a}_{0} + {a}_{1}y + {a}_{2}{y}^{2} + \\cdots  + {a}_{100}{y}^{100}.\n$$\n\n因此, 已知的等式可改写为\n\n$$\n{\\left( 3 + 2y\\right) }^{100} = {a}_{0} + {a}_{1}y + {a}_{2}{y}^{2} + \\cdots  + {a}_{100}{y}^{100}.\n$$\n\n(1)令 $y = 1$ ，得\n\n$$\n{a}_{0} + {a}_{1} + {a}_{2} + \\cdots  + {a}_{100} = {5}^{100}.\n$$\n\n(2)令 $y =  - 1$ ，得\n\n$$\n{a}_{0} - {a}_{1} + {a}_{2} - {a}_{3} + \\cdots  - {a}_{99} + {a}_{100} = 1.\n$$\n\n二式联立就得到\n\n$$\n{a}_{1} + {a}_{3} + \\cdots  + {a}_{99} = \\frac{{5}^{100} - 1}{2}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1479,
+        "end": 1516
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 证明: 在 $n + 1$ 个组合数 ${\\mathrm{C}}_{n}^{0},{\\mathrm{C}}_{n}^{1},{\\mathrm{C}}_{n}^{2},\\cdots ,{\\mathrm{C}}_{n}^{n}$ 中, 当 $n$ 为偶数时,最大值是中间的一项 ${\\mathrm{C}}_{n}^{\\frac{n}{2}}$ ; 而当 $n$ 为奇数时,最大值是中间的两项 ${\\mathrm{C}}_{n}^{\\frac{n - 1}{2}}$ 和 ${\\mathrm{C}}_{n}^{\\frac{n + 1}{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1517,
+        "end": 1518
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1517,
+        "end": 1518
+      }
+    ],
+    "id": "x2-6-5-ex-5",
+    "category": "例题",
+    "answer": "证明 对于任给的 $r \\in  \\{ 0,1,2,\\cdots , n - 1\\}$ ,有\n\n$$\n\\frac{{\\mathrm{C}}_{n}^{r + 1}}{{\\mathrm{C}}_{n}^{r}} = \\frac{\\frac{n!}{\\left( {r + 1}\\right) !\\left( {n - r - 1}\\right) !}}{\\frac{n!}{r!\\left( {n - r}\\right) !}} = \\frac{n - r}{r + 1}.\n$$\n\n---\n\n在二项展开式中代入适当的特殊值, 会得到一些与组合数有关的特殊的恒等式.\n\n---\n\n由于 ${\\mathrm{C}}_{n}^{r + 1} > 0$ 且 ${\\mathrm{C}}_{n}^{r} > 0$ ,因此当 $\\frac{n - r}{r + 1} > 1$ 即 $r < \\frac{n - 1}{2}$ 时, ${\\mathrm{C}}_{n}^{r + 1} > \\; {\\mathrm{C}}_{n}^{r}$ ; 而当 $\\frac{n - r}{r + 1} < 1$ 时, ${\\mathrm{C}}_{n}^{r + 1} < {\\mathrm{C}}_{n}^{r}$ .\n\n若 $n$ 为偶数,则当 $r \\in  \\left\\{  {0,1,2,\\cdots ,\\frac{n - 2}{2}}\\right\\}$ 时,\n\n$$\n{\\mathrm{C}}_{n}^{0} < {\\mathrm{C}}_{n}^{1} < {\\mathrm{C}}_{n}^{2} < \\cdots  < {\\mathrm{C}}_{n}^{\\frac{n - 2}{2}} < {\\mathrm{C}}_{n}^{\\frac{n}{2}};\n$$\n\n而当 $r \\in  \\left\\{  {\\frac{n}{2},\\frac{n}{2} + 1,\\cdots , n - 1}\\right\\}$ 时,\n\n$$\n{\\mathrm{C}}_{n}^{\\frac{n}{2}} > {\\mathrm{C}}_{n}^{\\frac{n}{2} + 1} > \\cdots  > {\\mathrm{C}}_{n}^{n}.\n$$\n\n所以,当 $n$ 为偶数时,最大值是中间的一项 ${\\mathrm{C}}_{n}^{\\frac{n}{2}}$ .\n\n若 $n$ 为奇数,则当 $r \\in  \\left\\{  {0,1,2,\\cdots ,\\frac{n - 3}{2}}\\right\\}$ 时,\n\n$$\n{\\mathrm{C}}_{n}^{0} < {\\mathrm{C}}_{n}^{1} < {\\mathrm{C}}_{n}^{2} < \\cdots  < {\\mathrm{C}}_{n}^{\\frac{n - 3}{2}} < {\\mathrm{C}}_{n}^{\\frac{n - 1}{2}};\n$$\n\n当 $r = \\frac{n - 1}{2}$ 时, ${\\mathrm{C}}_{n}^{r + 1} = {\\mathrm{C}}_{n}^{r}$ ,即 ${\\mathrm{C}}_{n}^{\\frac{n - 1}{2}} = {\\mathrm{C}}_{n}^{\\frac{n + 1}{2}}$ ; 而当 $r \\in \\; \\left\\{  {\\frac{n + 1}{2},\\frac{n + 3}{2},\\cdots , n - 1}\\right\\}$ 时,\n\n$$\n{\\mathrm{C}}_{n}^{\\frac{n + 1}{2}} > {\\mathrm{C}}_{n}^{\\frac{n + 3}{2}} > \\cdots  > {\\mathrm{C}}_{n}^{n}.\n$$\n\n所以,当 $n$ 为奇数时,最大值是中间的两项 ${\\mathrm{C}}_{n}^{\\frac{n - 1}{2}}$ 及 ${\\mathrm{C}}_{n}^{\\frac{n + 1}{2}}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1519,
+        "end": 1560
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 求 ${\\left( 1 + 3x\\right) }^{15}$ 的二项展开式中系数最大的项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1561,
+        "end": 1562
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1561,
+        "end": 1562
+      }
+    ],
+    "id": "x2-6-5-ex-6",
+    "category": "例题",
+    "answer": "解 对 $r = 0,1,2,\\cdots ,{15}$ ,展开式的第 $r + 1$ 项是 ${\\mathrm{C}}_{15}^{r}{\\left( 3x\\right) }^{r}$ . 设这一项的系数为 ${c}_{r + 1}$ ,就有 ${c}_{r + 1} = {3}^{r}{\\mathrm{C}}_{15}^{r}$ . 显然, ${c}_{r + 1} > 0$ .\n\n因此,对于 $r \\in  \\{ 0,1,2,\\cdots ,{14}\\}$ ,就有\n\n$$\n\\frac{{c}_{r + 2}}{{c}_{r + 1}} - 1 = \\frac{{3}^{r + 1}{\\mathrm{C}}_{15}^{r + 1}}{{3}^{r}{\\mathrm{C}}_{15}^{r}} - 1 = \\frac{{44} - {4r}}{r + 1}.\n$$\n\n所以,当 $r \\in  \\{ 0,1,2,\\cdots ,{10}\\}$ 时, ${c}_{r + 2} > {c}_{r + 1}$ 成立,即 ${c}_{12} > {c}_{11} > \\cdots  > \\; {c}_{1}$ ; 当 $r = {11}$ 时, ${c}_{r + 2} = {c}_{r + 1}$ ,即 ${c}_{12} = {c}_{13}$ ; 而当 $r \\in  \\{ {12},{13},{14}\\}$ 时, ${c}_{r + 2} < {c}_{r + 1}$ 成立,即 ${c}_{16} < {c}_{15} < {c}_{14} < {c}_{13}$ .\n\n因此，系数最大的项是第 12 项 ${\\mathrm{C}}_{15}^{11}{3}^{11}{x}^{11} = {241805655}{x}^{11}$ 和第 13 项 ${\\mathrm{C}}_{15}^{12}{3}^{12}{x}^{12} = {241805655}{x}^{12}$ ,其中 ${\\mathrm{C}}_{15}^{11}{3}^{11} = {\\mathrm{C}}_{15}^{12}{3}^{12}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1563,
+        "end": 1574
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.5(2)",
+    "markdown": "### 练习 6.5(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1575,
+        "end": 1575
+      }
+    ],
+    "id": "x2-6-5-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.5(2) · 1",
+    "markdown": "1. ( 1 )若 ${\\left( 1 - x\\right) }^{6} = {a}_{0} + {a}_{1}x + {a}_{2}{x}^{2} + \\cdots  + {a}_{6}{x}^{6}$ ，求 ${a}_{0} + {a}_{1} + {a}_{2} + \\cdots  + {a}_{6}$ 的值；\n\n(2)已知 ${\\left( x + 1\\right) }^{n} = {a}_{0} + {a}_{1}\\left( {x - 1}\\right)  + {a}_{2}{\\left( x - 1\\right) }^{2} + {a}_{3}{\\left( x - 1\\right) }^{3} + \\cdots  + {a}_{n}{\\left( x - 1\\right) }^{n}(n \\geq  2$ , $n$ 为正整数),求 ${a}_{0} + {a}_{1} + {a}_{2} + \\cdots  + {a}_{n}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1577,
+        "end": 1580
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1577,
+        "end": 1580
+      }
+    ],
+    "id": "x2-6-5-p652-1",
+    "category": "练习6.5(2)",
+    "answer": "1. (1) 0. (2) ${3}^{n}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 401,
+        "end": 402
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.5(2) · 2",
+    "markdown": "2.(1)求 ${\\left( 1 + 2x\\right) }^{7}$ 的二项展开式中系数最大的项；\n\n(2)求 ${\\left( 1 - 2x\\right) }^{7}$ 的二项展开式中系数最大的项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1581,
+        "end": 1584
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1581,
+        "end": 1584
+      }
+    ],
+    "id": "x2-6-5-p652-2",
+    "category": "练习6.5(2)",
+    "answer": "2. (1) ${672}{x}^{5}$ . (2) ${560}{x}^{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 403,
+        "end": 404
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 6.5",
+    "markdown": "### 习题 6.5",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1585,
+        "end": 1585
+      }
+    ],
+    "id": "x2-6-5-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1587,
+        "end": 1587
+      }
+    ],
+    "id": "x2-6-5-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题6.5A · 1",
+    "markdown": "1. 求 ${\\left( 2{x}^{2} - \\frac{1}{x}\\right) }^{6}$ 的二项展开式中的中间项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1589,
+        "end": 1590
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1589,
+        "end": 1590
+      }
+    ],
+    "id": "x2-6-5-h65A-1",
+    "category": "习题6.5A",
+    "answer": "1. $- {160}{x}^{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 409,
+        "end": 410
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5A · 2",
+    "markdown": "2. 求 ${\\left( x + \\frac{1}{x}\\right) }^{10}$ 的二项展开式中的常数项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1591,
+        "end": 1592
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1591,
+        "end": 1592
+      }
+    ],
+    "id": "x2-6-5-h65A-2",
+    "category": "习题6.5A",
+    "answer": "2. 252.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 411,
+        "end": 412
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5A · 3",
+    "markdown": "3. 在 ${\\left( \\sqrt{x} + \\frac{1}{\\sqrt[3]{x}}\\right) }^{24}$ 的二项展开式中, $x$ 的幂指数是负数的项一共有多少个?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1593,
+        "end": 1594
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1593,
+        "end": 1594
+      }
+    ],
+    "id": "x2-6-5-h65A-3",
+    "category": "习题6.5A",
+    "answer": "3. 10.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 413,
+        "end": 414
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5A · 4",
+    "markdown": "4. 求 ${\\left( x + \\frac{1}{2}\\right) }^{8}$ 的二项展开式中系数最大的项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1595,
+        "end": 1596
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1595,
+        "end": 1596
+      }
+    ],
+    "id": "x2-6-5-h65A-4",
+    "category": "习题6.5A",
+    "answer": "4. $7{x}^{5}$ 和 $7{x}^{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 415,
+        "end": 416
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5A · 5",
+    "markdown": "5. 已知 $x > 0$ ,且 ${\\left( x + \\frac{1}{{x}^{3}}\\right) }^{9}$ 的二项展开式中,第二项不大于第三项. 求实数 $x$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1597,
+        "end": 1598
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1597,
+        "end": 1598
+      }
+    ],
+    "id": "x2-6-5-h65A-5",
+    "category": "习题6.5A",
+    "answer": "5. $(0,\\sqrt{2}\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 417,
+        "end": 418
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1599,
+        "end": 1599
+      }
+    ],
+    "id": "x2-6-5-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题6.5B · 1",
+    "markdown": "1. 已知 ${\\left( 1 + x\\right) }^{10} = {a}_{0} + {a}_{1}\\left( {1 - x}\\right)  + {a}_{2}{\\left( 1 - x\\right) }^{2} + \\cdots  + {a}_{10}{\\left( 1 - x\\right) }^{10}$ ,求 ${a}_{8}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1601,
+        "end": 1602
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1601,
+        "end": 1602
+      }
+    ],
+    "id": "x2-6-5-h65B-1",
+    "category": "习题6.5B",
+    "answer": "1. 180.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 421,
+        "end": 422
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5B · 2",
+    "markdown": "2. 求 ${\\left( 3 - 2x\\right) }^{9}$ 的二项展开式中系数最大的项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1603,
+        "end": 1604
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1603,
+        "end": 1604
+      }
+    ],
+    "id": "x2-6-5-h65B-2",
+    "category": "习题6.5B",
+    "answer": "2. ${489888}{x}^{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 423,
+        "end": 424
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5B · 3",
+    "markdown": "3. 设 $f\\left( x\\right)  = {\\left( 1 + x\\right) }^{m} + {\\left( 1 + x\\right) }^{n}\\left( {m\\text{ 、 }n}\\right.$ 为正整数 $)$ . 若二项展开式中关于 $x$ 的一次项系数之和为 11,则当 $m\\text{ 、 }n$ 为何值时,含 ${x}^{2}$ 项的系数取得最小值?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1605,
+        "end": 1606
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1605,
+        "end": 1606
+      }
+    ],
+    "id": "x2-6-5-h65B-3",
+    "category": "习题6.5B",
+    "answer": "3. $m = 5, n = 6$ 或 $m = 6, n = 5$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 425,
+        "end": 426
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.5B · 4",
+    "markdown": "4. 在 ${\\left( 1 + x\\right) }^{n}$ 的二项展开式中,设奇数项之和为 $A$ ,偶数项之和为 $B$ . 求证: ${A}^{2} - {B}^{2} = \\; {\\left( 1 - {x}^{2}\\right) }^{n}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1607,
+        "end": 1608
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1607,
+        "end": 1608
+      }
+    ],
+    "id": "x2-6-5-h65B-4",
+    "category": "习题6.5B",
+    "answer": "4. 提示: 我们知道, $A = \\frac{1}{2}\\left\\lbrack  {{\\left( 1 + x\\right) }^{n} + {\\left( 1 - x\\right) }^{n}}\\right\\rbrack  , B = \\frac{1}{2}\\left\\lbrack  {{\\left( 1 + x\\right) }^{n} - {\\left( 1 - x\\right) }^{n}}\\right\\rbrack$ , 由此即得 ${A}^{2} - {B}^{2} = \\frac{1}{4}\\left\\lbrack  {4{\\left( 1 + x\\right) }^{n}{\\left( 1 - x\\right) }^{n}}\\right\\rbrack   = {\\left( 1 - {x}^{2}\\right) }^{n}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 427,
+        "end": 428
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

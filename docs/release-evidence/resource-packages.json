@@ -1,0 +1,217 @@
+[
+  {
+    "package": "outputs/教材可视化资源库/amgm-square/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/arithmetic-reverse-pairs/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/bayes-base-rate/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/binomial-distribution/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/binomial-paths/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/chord-midpoint-domain/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/complex-transform/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/conditional-space/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/contingency-independent/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/counting-equal-multiplicity/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/cube-plane-transitions/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/derivative-extrema/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/dihedral-normal-section/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/distribution-moments/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/dot-projection/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/exponential-base/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/frequency-fluctuation/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/geometric-shift-cancel/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/hemisphere-cavalieri/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/histogram-area/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/independent-area/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/inverse-domain/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/line-plane-minimum-angle/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/logarithm-reflection/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/monotonic-two-points/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/parameter-cubic-roots/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/prism-cavalieri/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/pyramid-parallel-slices/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/regression-outlier/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/revolving-generator/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/sampling-mean/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/secant-tangent/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/sine-transform/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/sine-unroll/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/skew-common-perpendicular/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/space-basis-collapse/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/sphere-moving-section/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/sqrt2-iteration-compare/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/ssa-circle-ray/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/stratified-sampling/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/tangent-branches/1.0.0",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/two-directions-normal/1.0.1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "package": "outputs/教材可视化资源库/unit-circle-projection/1.0.0",
+    "passed": true,
+    "detail": ""
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "controls": [
+    {
+      "key": "a",
+      "label": "水平线高度 a（临界值为 −2、2）",
+      "max": 4,
+      "min": -4,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "showDerivative",
+      "label": "同时显示导函数图像",
+      "type": "checkbox"
+    }
+  ],
+  "explanationHtml": "<p>要判断所有参数下的根数，不应逐一试算参数，而应先找出函数的单调区间。因为每个严格单调区间与同一条水平线至多相交一次，根的个数由水平线是否进入各段值域决定。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>，</mo><mi>f</mi><mo>′</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math><p>导数在两个驻点外为正、两驻点之间为负。将驻点端点并入，函数在以下三段的值域分别为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtable columnalign=\"left left\"><mtr><mtd><mo>(</mo><mo>−</mo><mi>∞</mi><mo>,</mo><mo>−</mo><mn>1</mn><mo>]</mo></mtd><mtd><mo>→</mo><mo>(</mo><mo>−</mo><mi>∞</mi><mo>,</mo><mn>2</mn><mo>]</mo></mtd></mtr><mtr><mtd><mo>[</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>]</mo></mtd><mtd><mo>→</mo><mo>[</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>]</mo></mtd></mtr><mtr><mtd><mo>[</mo><mn>1</mn><mo>,</mo><mo>+</mo><mi>∞</mi><mo>)</mo></mtd><mtd><mo>→</mo><mo>[</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>+</mo><mi>∞</mi><mo>)</mo></mtd></mtr></mtable></math><p>函数连续，且在每段上严格单调，因此水平线高度位于该段值域时，恰有一个交点。参数严格介于两极值之间时，三段各提供一个不同根；参数等于某个极值时，相邻两段提供的是同一个驻点，不能重复算作两个不同根；参数在两极值范围外时，仅剩一个交点。临界值的因式分解为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></math><p>平方因子说明相切处是二重根。因此临界值有两个不同实根，按实根重数计为三个。范围外只有一个实根，另外两个根不是实数。图上的根坐标为数值近似，根数分类依据上述单调性与值域，不能由屏幕采样代替。</p>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>=</mo><mi>a</mi><mspace width=\"1em\"/><mi>f</mi><mo>′</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>",
+  "goal": "拖动水平线，解释不同实根数为什么只在极值高度发生变化，而不只是数当前屏幕上的交点。",
+  "id": "parameter-cubic-roots",
+  "initial": {
+    "a": 0,
+    "showDerivative": false
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-5-3-b14",
+      "rationale": "在极值定义后的方法深化；保留极值、驻点及原例题正文，不以探索替代论证。",
+      "retainProse": true,
+      "sectionId": "x2-5-3"
+    }
+  ],
+  "stateKeys": {
+    "lesson": [
+      "showDerivative"
+    ],
+    "math": [
+      "a"
+    ],
+    "view": []
+  },
+  "summary": "设 f(x)=x³−3x，则 f′(x)=3(x−1)(x+1)。因此 f 在 (−∞,−1)、(1,+∞) 上严格增，在 (−1,1) 上严格减；将驻点端点并入，考虑三段 (−∞,−1]、[−1,1]、[1,+∞)。由 f(−1)=2、f(1)=−2 及两端趋势，这三段的值域依次为 (−∞,2]、[−2,2]、[−2,+∞)。当 −2<a<2 时各段各有一个交点；当 a=±2 时相邻交点合并，只剩两个不同实根；|a|>2 时仅一个实根。临界值还可直接验证：x³−3x−2=(x+1)²(x−2)，x³−3x+2=(x−1)²(x+2)，相切的根均为二重根。重数不是不同交点个数；非临界状态的数值根仅作近似显示。图中的横纵单位刻度不同，不据图估计切线角度。",
+  "title": "根在哪里合并：含参三次方程的临界状态"
+}

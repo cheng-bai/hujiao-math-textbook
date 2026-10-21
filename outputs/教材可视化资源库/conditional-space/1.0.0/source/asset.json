@@ -1,0 +1,46 @@
+{
+  "controls": [
+    {
+      "key": "a",
+      "label": "P(A)",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "overlap",
+      "label": "P(B|A)：A内B所占比例",
+      "max": 1,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "outside",
+      "label": "P(B|非A)：A外B所占比例",
+      "max": 1,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>B</mi><mo>|</mo><mi>A</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mrow></mfrac></math>",
+  "goal": "用有限等可能样本空间展示条件发生后保留区域及概率分母变化。",
+  "id": "conditional-space",
+  "initial": {
+    "a": 0.5,
+    "outside": 0.2,
+    "overlap": 0.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-7-1-b6",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+      "retainProse": true,
+      "sectionId": "x2-7-1"
+    }
+  ],
+  "summary": "在 P(A)>0 时，条件概率把分母改为条件事件 A 的概率：只在 A 区域内计算 B 所占比例。橙色交集表示 P(A∩B)，A 外的蓝色部分影响 P(B) 却不计入 P(B|A)。条件化不改变原有的 P(B)，而是提出一个不同的问题。",
+  "title": "条件概率缩小样本空间"
+}

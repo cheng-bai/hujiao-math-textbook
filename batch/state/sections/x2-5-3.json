@@ -1,0 +1,33 @@
+{
+  "id": "x2-5-3",
+  "book_id": "x2",
+  "section_path": "batch/sections/x2/x2-5-3.json",
+  "fingerprint": "f3859915354fc9df312a3f9ba5b77dcacf6403f6eb432bb2eb3046548b87ed48",
+  "status": "validated",
+  "review": {
+    "file": "batch/reviews/x2-ch5-numbering.json",
+    "status": "reviewed-with-blocking-source-conflicts",
+    "limits": [
+      "题答编号映射通过不等于整册数学全通过。",
+      "本轮仅审查5章编号补丁、所列重点数学和指定冲突；未全册逐题重算，未核最终网页视觉。"
+    ]
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 35,
+        "answers": 35,
+        "teacher_formulas": 502,
+        "student_formulas": 216,
+        "checks": 109,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 9.8,
+  "finished_at": "2026-10-20T02:16:06+08:00"
+}

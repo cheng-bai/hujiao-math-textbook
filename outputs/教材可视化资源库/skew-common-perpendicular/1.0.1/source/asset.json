@@ -1,0 +1,58 @@
+{
+  "controls": [
+    {
+      "key": "height",
+      "label": "两线高度差",
+      "max": 3,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "theta",
+      "label": "方向角（含平行边界）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>d</mi><mo>=</mo><mo>|</mo><mi>h</mi><mo>|</mo><mo>,</mo><mspace width=\"1em\"/><mi>AB</mi><mo>⊥</mo><mi>a</mi><mo>,</mo><mi>AB</mi><mo>⊥</mo><mi>b</mi></math>",
+  "goal": "用旋转视角分离屏幕交叉与空间相交，观察公垂线段。",
+  "id": "skew-common-perpendicular",
+  "initial": {
+    "height": 2,
+    "theta": 65,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-10-2-b12",
+      "rationale": "接替异面直线的实景与空间位置长段解释。",
+      "sectionId": "bx3-10-2"
+    },
+    {
+      "afterBlockId": "bx3-10-5-b2",
+      "rationale": "接替公垂线与异面直线距离的构造说明。",
+      "sectionId": "bx3-10-5"
+    }
+  ],
+  "sourceReuse": {
+    "kind": "derived",
+    "note": "沿用既有空间观察与切换视角的教学思路；原题专用模型不直接搬入。采用独立、可验证的两线纯模型，未修改来源。",
+    "paths": [
+      "source-origins/Documents/数学/ai 处理的成品/异面直线-空间观察仪/异面直线-空间观察仪.html",
+      "source-origins/Documents/数学/ai 处理的成品/异面直线-正方体版/skew-lines-cube.html"
+    ]
+  },
+  "summary": "空间直线有相交、平行和异面等情形。异面直线不共面，所成角按平移方向确定；其距离为唯一公垂线段长度。图中高度为零或方向平行时不再是异面状态。",
+  "title": "异面直线：投影交叉与真实距离"
+}

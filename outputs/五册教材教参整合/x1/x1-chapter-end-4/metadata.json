@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-chapter-end-4",
+  "book_id": "x1",
+  "section": "chapter-end-4",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/x1/x1-chapter-end-4.json",
+  "output": "outputs/五册教材教参整合/x1/x1-chapter-end-4",
+  "fingerprint": "80868294023016408e35dcf9e5c68da24f710b802ddf509dd11742168b60adfc",
+  "status": "rendered",
+  "questions": 20,
+  "answers": 20,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-5f60495395eef6b590f6.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg",
+      "sha256": "5f60495395eef6b590f6095daaec32bf79f864b8bc20556454fd5e4445183b1f",
+      "private": false
+    },
+    "images/book-0d0c62f7da5a5967c8b8.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg",
+      "sha256": "0d0c62f7da5a5967c8b813941689a6ea1bc44d8a97ab3e5d8b847a716aad23e7",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "student_images": [
+    "images/book-0d0c62f7da5a5967c8b8.jpg",
+    "images/book-5f60495395eef6b590f6.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "670d2f4ec71b3bc20049356eca280cf1b681b971f68f68b4f8bf2a9360c9637a",
+    "student.html": "4c29cf48b5295b672ef02922341c5dc71bb0bca1920fd1bbf79491afe5f05946",
+    "student.zip": "fa5d28f6e0e78c95f0fbfe48768487d38ba76415b6adcc91269331fd0105a7d5",
+    "content.json": "2598c21eafeca554d8545478872b48a2641f5557aa7ba1a3e4b6e3b92b60c1a9"
+  }
+}

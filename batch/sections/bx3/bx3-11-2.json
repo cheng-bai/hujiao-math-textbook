@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "id": "bx3-11-2",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "11",
+  "chapter_title": "第11章简单几何体",
+  "section": "11.2",
+  "title": "锥体",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第11章简单几何体/第11章简单几何体-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/02 必修第三册 第11章 简单几何体.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第11章简单几何体/第11章简单几何体-dollar.md": "268a4581ca5499213f7bbf90834bf8e1ceeea48cbd4617117c5183cdfc176c11",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/02 必修第三册 第11章 简单几何体.md": "9f1e87e71724cb3ace7ce926a3ad38f0bd0e78362567b251a95634005b3251dc"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "锥体",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 257,
+          "end": 257
+        }
+      ],
+      "id": "bx3-11-2",
+      "number": "11.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 11.2 锥体\n\n### 教学重点\n\n理解锥体的概念及其基本性质, 掌握锥体的体积和表面积公式并能够运用这些公式解决相关的实际问题.\n\n了解锥体与柱体之间的区别与联系, 进一步积累研究空间几何体的一般思路.\n\n以锥体为背景研究空间点、线、面的位置关系, 进一步发展空间观念、直观想象与逻辑推理的素养.\n\n### 内容分析\n\n锥体的概念可以通过与柱体的概念类比得到, 其研究的思路也类似. 此外, 还可以把棱锥与平面几何中的三角形进行联系与类比. 首先, 棱锥的侧面都是三角形, 计算棱锥的体积与表面积时常用到三角形的相关知识. 其次, 三角形是平面几何中的基本图形, 一般的平面多边形都可以分割为若干个三角形, 同样, 一般的多面体也都可以分割为若干个棱锥; 三角形的一些性质 (如中位线性质) 也可以类比地推广到棱锥的情形.\n\n本章的难点是锥体体积公式的推导, 即锥体体积是等底等高的柱体体积的三分之一. “二期课改”教材给出了完整的推导过程:先是用祖暅原理证明“等底同高的三棱锥体积相等”, 然后将一个三棱锥补成一个同底等高的三棱柱得到三棱锥的体积公式, 再通过将一般的棱锥分割为若干个三棱锥的方法得出一般棱锥的体积公式. 这一过程不仅体现了数学的化归思想, 建立了棱锥与棱柱的联系, 而且突出了三棱锥的重要地位以及求三棱锥体积的灵活性. 但由于对学生的空间想象能力要求较高, 把其作为 “探索与实践”的内容, 供学有余力的学生学习.\n\n锥体这一节,教材共安排了七道例题,其意图是:\n\n例 1 讨论的是正三棱锥的一个性质, 如图 11-R1, 即如果平面的一条斜线 ${PC}$ 与平面上过斜足 $C$ 的两条相交直线 ${AC}$ 与 ${BC}$ 所成的角相等,那么斜线段在此平面上的射影在 $\\angle {ACB}$ 的平分线 (或补角的平分线) 上. 这一结论虽然不能作为定理使用, 但在运用三垂线定理、求棱锥体积时可以提供解题的思路.\n\n![bo_d402s6jef24c73d2tl40_60_1179_1209_255_309_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_60_1179_1209_255_309_0.jpg)\n\n图 11-R1\n\n例 2 提供了一个处理圆锥问题的一般方法, 即利用圆锥的轴截面, 从而转化为平面几何的问题, 因为圆锥本质上可以由轴截面确定. 通过轴截面, 此题就可以转化为三角形的平行分割问题, 其特殊情形就是三角形的中位线.\n\n例 3 是正方体中构造的三棱锥体积的定值问题. 此题的依据是两条直线平行、直线与平面平行时点线距离、点面距离的不变性, 利用这种不变性, 常常可以灵活地计算三棱锥的体积.\n\n例 4 是利用三棱锥的等积变换求点到平面的距离. 这种方法类似于平面几何中的面积法, 由于四面体的体积可以通过多种方法来计算, 因此可以建立某种相等关系, 然后利用方程的思想解决问题.\n\n例 5 实质是推导台体的体积公式. 教材没有给出图示, 因此, 教师可以根据班级实际情况灵活处理. 如果想降低推理过程的难度, 可以考查圆锥的情形, 并与上述的例 2 联系, 在得出结果后再考虑推理的一般性. 此例可以启发学生把圆柱与圆锥看作是圆台的特殊情形.\n\n例 6 是求正三棱锥的表面积. 此例给出了求正棱锥表面积的一般方法, 实质是求底面正多边形的边长与侧面等腰三角形上的斜高, 其中通常需要处理空间点、线、面的位置关系.\n\n例 7 是求圆锥侧面上的最短距离问题, 其思路是将侧面展开为平面图形, 转化为求平面上两点距离的问题.\n\n练习 11.2(3)的第 3 题推导正棱台的侧面积公式, 是一道开放性习题, 可以推导正三棱台、正四棱台或一般的正 $n$ 棱台的表面积, 已知条件也是不确定的, 可以自行给出. 若给出的是上、下底面的周长 ${c}_{1}\\text{、}{c}_{2}$ 和斜高 ${h}^{\\prime }$ ,则侧面积公式为 $S = \\frac{{c}_{1} + {c}_{2}}{2}{h}^{\\prime }$ .\n\n### 注意事项\n\n与棱柱不同的是, 我们这里区分了一般的棱锥与正棱锥. 棱锥的体积公式对一般的棱锥都成立, 但表面积公式只是针对正棱锥的. 由于棱锥的表面积的计算实际上是平面多边形的面积的计算, 因此即使没有一般的公式, 也可以解决一些非正棱锥的简单多面体的表面积问题.\n\n在讲了锥体的体积和表面积之后,“二期课改”教材是不讲台体的. 国家课程标准要求讲台体的概念、体积和表面积. 我们没有单独讲解台体,而是从锥体的角度,把台体看成是用平行于锥体底面的截面截得的两个几何体, 去掉小的那个锥体, 余下的那个几何体即为台体, 这样台体的体积就可以用原来的锥体体积减去小的锥体体积得到. 其公式为本节例 5 , 我们仅作为例题, 不作为学生强行识记的公式. 其侧面积安排在练习 11.2(3) 的第 3 题, 其表面积只需在侧面积的基础上加上上、下底面的面积即可. 这样的处理, 减轻了学生的记忆负担, 使得知识的“生成”性更强.\n\n四面体是一种特殊的棱锥, 也是一般多面体的基本图形, 其作用可类比平面几何中的三角形. 就像三角形一样, 计算四面体的体积时可以把任意一个面看作是“底面”. 在解决具体问题时, 有一定的灵活性.\n\n在求棱锥的体积时, 容易出现的困难主要是求棱锥的高. 由于点到平面的距离可以转化为直线到平行平面的距离以及两个平行平面之间的距离, 有一定的技巧, 一定要控制好难度. 对于比较困难的问题, 可以放到选择性必修的内容学习之后, 利用空间向量求高.\n\n### 教学建议\n\n证明锥体的体积是等底等高的柱体体积的三分之一, 教材是作为探究与实践的内容展开的, 不能只讲结论, 重在探究与思考, 可以通过数学猜想或通过实验验证, 得出结论, 再用补体或割体的方法进行证明, 通过等积变换得到锥体的体积公式.\n\n锥体体积是等底等高的柱体体积的三分之一, 既是教材的难点, 也是教材的亮点. 这部分教学不能匆匆得出结论, 重在探索研究, 可以把这部分内容作为探究实践的内容实施教学.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 138,
+          "end": 191
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "和柱体一样, 锥体也是日常生活中常见的空间图形, 如铅锤、金字塔等(图 11-2-1). 本节我们将讨论一些简单锥体的形状特征和度量方法.\n\n![bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg)\n\n图 11-2-1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 258,
+          "end": 264
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 棱锥与圆锥",
+      "markdown": "### 1 棱锥与圆锥",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 265,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "观察图 11-2-2 中的图形, 可以发现它们有如下的共同特征: 有一个面是三角形或平面多边形, 且不在这个面上的棱都有一个公共点, 这样的多面体叫做棱锥 (pyramid). 其中, 这个三角形或平面多边形称为棱锥的底面, 其余的面称为棱锥的侧面, 不在底面上的棱称为棱锥的侧棱, 所有侧棱的公共点称为棱锥的顶点, 顶点到底面的距离叫做棱锥的高. 如果棱锥的底面是正多边形, 且底面中心与顶点的连线垂直于底面, 那么这个棱锥叫做正棱锥 (regular pyramid).\n\n![bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg)\n\n图 11-2-2\n\n类比于棱柱的分类, 按照底面多边形的边数, 棱锥可以分别称为三棱锥、四棱锥、五棱锥等.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 266,
+          "end": 274
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 237,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-11-2-definition-4-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 393,
+          "end": 436,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-11-2-definition-4-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 证明: 在正三棱锥中, 任意两条异面的棱都相互垂直.\n\n---\n\n棱锥常用表示其顶点的字母与表示其底面多边形的记号之间加短横来记，例如, 图 11-2-2 中, 左边的三棱锥可记为 $P - {ABC}$ ，右边的六棱锥可记为 $P - {ABCDEF}$ .\n\n---\n\n![bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg)\n\n图 11-2-3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 275,
+          "end": 286
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 275,
+          "end": 286
+        }
+      ],
+      "id": "bx3-11-2-ex-1",
+      "category": "例题",
+      "answer": "证明 如图 11-2-3,设 $P - {ABC}$ 是正三棱锥,从而它的底面三角形 ${ABC}$ 是正三角形,顶点 $P$ 在底面上的射影 $O$ 为 $\\bigtriangleup {ABC}$ 的中心. 两条异面的棱可以 ${PC}$ 与 ${AB}$ 为代表 (其余情况完全类似),所以要证的是 ${PC} \\bot  {AB}$ .\n\n连接 ${CO}$ 并延长,与 ${AB}$ 交于点 $D$ . 因为 $O$ 为 $\\bigtriangleup {ABC}$ 的中心,所以 ${CD} \\bot  {AB}$ . 又因为 ${PO}$ 垂直于平面 ${ABC}$ ,所以 ${CD}$ 是 ${PC}$ 在平面 ${ABC}$ 上的射影. 由三垂线定理,知 ${PC} \\bot  {AB}$ .\n\n三棱锥由四个三角形围成, 它就是 10.2 节例 4 中出现过的四面体. 三棱锥是一种比较重要的棱锥, 因为由平面多边形围成的多面体 (见 11.3 节) 总可以看成由三棱锥拼合而成, 从而多面体的度量计算问题常常可以转化为三棱锥的问题; 而且三棱锥的每个面都可以作为棱锥的底面, 解决问题时便具有一定的灵活性.\n\n除了棱锥, 还有一类常见的锥体就是圆锥. 如图 11-2-4, 将直角三角形 ${AOB}$ 绕其一条直角边 ${AO}$ 所在直线旋转一周,所形成的几何体叫做圆锥 (cone). 其中, ${AO}$ 所在直线叫做圆锥的轴, 点 $A$ 叫做圆锥的顶点,直角边 ${OB}$ 旋转而成的圆面叫做圆锥的底面,斜边 ${AB}$ 旋转而成的曲面叫做圆锥的侧面,斜边 ${AB}$ 叫做圆锥的母线,圆锥的顶点到底面间的距离(即 ${AO}$ 的长度) 叫做圆锥的高.\n\n![bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg)\n\n图 11-2-4\n\n---\n\n圆锥可用表示顶点的字母与表示底面圆心的字母之间加短横来记, 如图 11-2-4 的圆锥可记为圆锥 A-O.\n\n---\n\n由圆锥的形成过程可以知道, 圆锥有无穷多条母线, 且所有的母线都交于圆锥的顶点.\n\n方便起见,我们把棱锥与圆锥统称为锥体.\n\n![bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg)\n\n图 11-2-5",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 287,
+          "end": 312
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 如图 11-2-5,用平行于圆锥 $P - {O}_{1}$ 底面的平面截这个圆锥,得到一个小圆锥 $P - {O}_{2}$ . 如果这两个圆锥的高分别是 ${h}_{1}\\text{ 、 }{h}_{2}$ ,求这两个圆锥的底面面积之比.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "id": "bx3-11-2-ex-2",
+      "category": "例题",
+      "answer": "解 设 ${PA}$ 是大圆锥的一条母线,过 ${PA}$ 和 $P{O}_{1}$ 的平面与两个圆锥的底面的交线分别为直线 ${O}_{1}A$ 和 ${O}_{2}B$ ,则由两个平面平行的性质定理,知 ${O}_{1}A//{O}_{2}B$ . 所以 $\\bigtriangleup P{O}_{2}B \\backsim  \\bigtriangleup P{O}_{1}A$ , 所以\n\n$$\n\\frac{{S}_{\\text{ 圆 }{O}_{1}}}{{S}_{\\text{ 圆 }{O}_{2}}} = {\\left( \\frac{P{O}_{1}}{P{O}_{2}}\\right) }^{2} = {\\left( \\frac{{h}_{1}}{{h}_{2}}\\right) }^{2}.\n$$\n\n把一个锥体用平行于底面的平面截去含顶点的小锥体后, 剩下的几何体称为台体(frustum). 在例 2 中, 大圆锥截去小圆锥后剩下的几何体称为圆台. 由圆锥的形成过程, 容易看出圆台是由直角梯形 ${O}_{1}{AB}{O}_{2}$ 绕直角边 ${O}_{1}{O}_{2}$ 旋转一周所形成的几何体. 类似地, 如果棱锥被一个平行于底面的平面所截, 那么截去一个小棱锥后剩下的多面体称为棱台. 其中, 由正棱锥截得的棱台称为正棱台. 与台体有关的问题, 我们一方面可以转化为锥体的问题来解决, 另一方面也可以把锥体和柱体看作是台体的极端情形.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 315,
+          "end": 322
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 11.2(1)",
+      "markdown": "### 练习 11.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 323,
+          "end": 323
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(1) · 1",
+      "markdown": "1. 用平行于棱锥底面的平面截这个棱锥, 得到一个小棱锥. 已知这两个棱锥的高分别是 ${h}_{1}\\text{ 、 }{h}_{2}$ ,求这两个棱锥的底面面积之比.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 325,
+          "end": 326
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 325,
+          "end": 326
+        }
+      ],
+      "id": "bx3-11-2-p1121-1",
+      "category": "练习11.2(1)",
+      "answer": "1. 小棱锥与大棱锥的底面面积之比为 ${h}_{1}^{2} : {h}_{2}^{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 322,
+          "end": 323
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(1) · 2",
+      "markdown": "2.(1)过圆锥的任意两条母线作一个平面与圆锥相截，得到的截面是什么图形？在什么条件下, 所得到的截面面积最大?\n\n\n(2)如果圆锥的母线与底面所成的角为 ${60}^{ \\circ  }$ ,那么经过圆锥两条母线的平面与圆锥底面所成的二面角有可能小于 ${60}^{ \\circ  }$ 吗?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 327,
+          "end": 334
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 327,
+          "end": 334
+        }
+      ],
+      "id": "bx3-11-2-p1121-2",
+      "category": "练习11.2(1)",
+      "answer": "2.(1)以母线为两腰的等腰三角形. 当轴截面顶角小于等于 ${90}^{ \\circ  }$ 时,截面为轴截面时面积最大; 当轴截面顶角大于 ${90}^{ \\circ  }$ 时,并非截面为轴截面时面积最大,而是顶角为 ${90}^{ \\circ  }$ 的等腰三角形面积最大.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 324,
+          "end": 325
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(1) · 3",
+      "markdown": "3. 显然, 通过延长圆台的任意一条母线都可以使它们交于一点, 从而得到一个圆锥. 如图, 这样的几何体是否也可以通过延长棱的方法得到一个棱锥?\n\n![bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 335,
+          "end": 336
+        },
+        {
+          "source": "book",
+          "start": 329,
+          "end": 331
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 335,
+          "end": 336
+        },
+        {
+          "source": "book",
+          "start": 329,
+          "end": 331
+        }
+      ],
+      "id": "bx3-11-2-p1121-3",
+      "category": "练习11.2(1)",
+      "answer": "3. 如果给出的几何体不是四棱台, 就得不到一个棱锥.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 326,
+          "end": 327
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 锥体的体积",
+      "markdown": "### 2 锥体的体积",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 337,
+          "end": 337
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "可以证明 (见本节的“探究与实践”), 任一棱锥的体积都是与它同底等高的柱体的体积的三分之一, 由此得到棱锥的体积公式:\n\n$$\n{V}_{\\text{ 棱锥 }} = \\frac{1}{3}{Sh}.\n$$\n\n其中, $S$ 为棱锥底面的面积, $h$ 为棱锥的高.\n\n利用棱锥的体积公式和祖暅原理，可以进一步得出圆锥的体积公式:\n\n$$\n{V}_{\\text{ 圆锥 }} = \\frac{1}{3}{Sh} = \\frac{1}{3}\\pi {r}^{2}h.\n$$\n\n其中, $r$ 为底面半径.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 338,
+          "end": 354
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 104,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx3-11-2-formula-12-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 136,
+          "end": 236,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx3-11-2-formula-12-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 如图 11-2-6,设 $E\\text{ 、 }F$ 分别是给定正方体 ${ABCD} - \\; {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱 ${C}_{1}{D}_{1}$ 和 ${CD}$ 上的任意点. 求证: 三棱锥 $E - {ABF}$ 的体积是定值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 355,
+          "end": 356
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 355,
+          "end": 356
+        }
+      ],
+      "id": "bx3-11-2-ex-3",
+      "category": "例题",
+      "answer": "证明 设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ . 因为 ${AB}//{CD}$ ,所以当点 $F$ 在 ${CD}$ 上移动时,它与 ${AB}$ 的距离 (即 $\\bigtriangleup {FAB}$ 的高)都等于 ${BC}$ ,三角形 ${FAB}$ 的面积 ${S}_{\\bigtriangleup {FAB}} = \\frac{1}{2}{AB} \\times \\; {BC} = \\frac{1}{2}{a}^{2}$ 为定值.\n\n![bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg)\n\n图 11-2-6\n\n又因为正方体的棱 ${C}_{1}{D}_{1}$ 与下底面平行,所以 ${C}_{1}{D}_{1}$ 上任意一点到下底面的距离都等于 $a$ ,所以三棱锥 $E - {ABF}$ 的体积 ${V}_{\\text{ 三棱锥 }E - {ABF}} = \\frac{1}{3}a{S}_{\\bigtriangleup {FAB}} = \\frac{1}{6}{a}^{3}$ 为定值.\n\n由上述证明过程还可以得出,当点 $E$ 在正方体 ${ABCD} - \\; {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的上底面上任意移动时,三棱锥 $E - {ABF}$ 的体积均为定值.\n\n![bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg)\n\n图 11-2-7",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 357,
+          "end": 370
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 如图 11-2-7,设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ . 求顶点 ${B}_{1}$ 到面 $B{A}_{1}{C}_{1}$ 的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 371,
+          "end": 372
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 371,
+          "end": 372
+        }
+      ],
+      "id": "bx3-11-2-ex-4",
+      "category": "例题",
+      "answer": "解 设顶点 ${B}_{1}$ 到面 $B{A}_{1}{C}_{1}$ 的距离为 $h$ ,则 ${V}_{\\text{ 三棱锥 }{B}_{1} - {A}_{1}B{C}_{1}} = \\; \\frac{1}{3}h{S}_{\\bigtriangleup {A}_{1}B{C}_{1}} = \\frac{\\sqrt{3}}{6}h{a}^{2}$ . 因为\n\n$$\n{V}_{\\text{ 三棱锥 }{B}_{1} - {A}_{1}B{C}_{1}} = {V}_{\\text{ 三棱锥 }{A}_{1} - {B}_{1}B{C}_{1}} = \\frac{1}{3}a{S}_{\\bigtriangleup {B}_{1}B{C}_{1}} = \\frac{1}{6}{a}^{3},\n$$\n\n所以 $\\frac{\\sqrt{3}}{6}h{a}^{2} = \\frac{1}{6}{a}^{3}, h = \\frac{\\sqrt{3}}{3}a$ .\n\n![bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg)\n\n图 11-2-8",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 373,
+          "end": 384
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 如图 11-2-8,设台体上、下底面积分别为 ${S}^{\\prime }$ 和 $S$ , 上下底面的距离为 $h$ . 求证: ${V}_{\\text{ 台 }} = \\frac{1}{3}\\left( {{S}^{\\prime } + \\sqrt{{S}^{\\prime }S} + S}\\right) h$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 385,
+          "end": 386
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 385,
+          "end": 386
+        }
+      ],
+      "id": "bx3-11-2-ex-5",
+      "category": "例题",
+      "answer": "证明 设去掉的锥体和原来的锥体的体积分别为 ${V}^{\\prime }$ 和 $V$ , 去掉的锥体高为 $x$ ,则\n\n$$\n{V}^{\\prime } = \\frac{1}{3}{S}^{\\prime }x, V = \\frac{1}{3}S\\left( {h + x}\\right) .\n$$\n\n因为 $\\frac{x}{x + h} = \\frac{\\sqrt{{S}^{\\prime }}}{\\sqrt{S}}$ ,可解得 $x = \\frac{\\sqrt{{S}^{\\prime }}h}{\\sqrt{S} - \\sqrt{{S}^{\\prime }}}$ ,所以\n\n$$\n{V}_{\\text{ 合 }} = \\frac{1}{3}S\\left( {h + x}\\right)  - \\frac{1}{3}{S}^{\\prime }x = \\frac{1}{3}{Sh} + \\frac{1}{3}\\left( {S - {S}^{\\prime }}\\right) \\frac{\\sqrt{{S}^{\\prime }}h}{\\sqrt{S} - \\sqrt{{S}^{\\prime }}}\n$$\n\n$$\n= \\frac{1}{3}{Sh} + \\frac{1}{3}\\left( {\\sqrt{S} + \\sqrt{{S}^{\\prime }}}\\right) \\sqrt{{S}^{\\prime }}h = \\frac{1}{3}\\left( {{S}^{\\prime } + \\sqrt{{S}^{\\prime }S} + S}\\right) h.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 387,
+          "end": 402
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 11.2(2)",
+      "markdown": "### 练习 11.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 403,
+          "end": 403
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(2) · 1",
+      "markdown": "1. 已知四棱锥 $P - {ABCD}$ 的底面是边长为 6 的正方形，侧棱 ${PA}$ 垂直于底面，且 ${PA} \\; = 8$ . 求该四棱锥的体积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 405,
+          "end": 406
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 405,
+          "end": 406
+        }
+      ],
+      "id": "bx3-11-2-p1122-1",
+      "category": "练习11.2(2)",
+      "answer": "1. ${V}_{P - {ABCD}} = \\frac{1}{3} \\times  {6}^{2} \\times  8 = {96}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 330,
+          "end": 331
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(2) · 2",
+      "markdown": "2. 已知直三棱柱 ${ABC} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ 的侧棱长为 9，底面相邻边的长分别是 7 和 5，夹角为 ${120}^{ \\circ  }$ . 求三棱锥 $B - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ 的体积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 407,
+          "end": 408
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 407,
+          "end": 408
+        }
+      ],
+      "id": "bx3-11-2-p1122-2",
+      "category": "练习11.2(2)",
+      "answer": "2. ${V}_{B - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }} = \\frac{1}{3}{V}_{{ABC} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }} = \\frac{1}{3} \\times  \\frac{1}{2} \\times  5 \\times  7 \\times  \\frac{\\sqrt{3}}{2} \\times  9 = \\frac{{105}\\sqrt{3}}{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 332,
+          "end": 333
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(2) · 3",
+      "markdown": "3. 已知圆台上、下底面的半径分别为 ${r}_{1}\\text{ 、 }{r}_{2}$ ,高为 $h$ . 求证: ${V}_{\\text{ 圆台 }} = \\frac{1}{3}\\pi \\left( {{r}_{1}^{2} + {r}_{1}{r}_{2} + {r}_{2}^{2}}\\right) h$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 409,
+          "end": 410
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 409,
+          "end": 410
+        }
+      ],
+      "id": "bx3-11-2-p1122-3",
+      "category": "练习11.2(2)",
+      "answer": "3. 由例 5 的结果直接得到.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 334,
+          "end": 335
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "探究与实践",
+      "markdown": "### 探究与实践",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 411,
+          "end": 411
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "下面我们尝试由棱柱的体积公式推导棱锥的体积公式.\n\n平面几何中, 在推导三角形的面积公式时, 可以先把两个全等的三角形拼成一个平行四边形, 如图 11-2-9, 然后利用已知的平行四边形的面积公式导出三角形的面积公式.\n\n![bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg)\n\n图 11-2-9\n\n前面我们已经得到了柱体的体积公式, 能否类似平面几何的做法, 利用柱体的体积公式来推导锥体的体积公式呢? 要这样做, 显然应该从三棱锥开始, 因为任意一个棱锥都可以分割为若干个三棱锥.\n\n作为准备, 我们先证明: 等底等高的三棱锥的体积相等.\n\n已知三棱锥 $O - {ABC}$ 和 $P - {DEF}$ 的底面积都是 $S$ ,高都是 $h$ .\n\n求证: 三棱锥 $O - {ABC}$ 和 $P - {DEF}$ 的体积相等.\n\n![bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg)\n\n图 11-2-10\n\n证明 如图 11-2-10,把两个三棱锥的底面都放在平面 $\\alpha$ 上,任意作平面 $\\beta$ 平行于 $\\alpha$ , 设平面 $\\beta$ 截三棱锥 $O - {ABC}$ 所得的截面为 $\\bigtriangleup {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ ,其面积为 ${S}_{1}$ ; 平面 $\\beta$ 截三棱锥 $P - {DEF}$ 所得的截面为 $\\bigtriangleup  {D}^{\\prime }{E}^{\\prime }{F}^{\\prime }$ ，其面积为 ${S}_{2}$ . 如果三棱锥的顶点 $O$ 和 $P$ 到平面 $\\beta$ 的距离为 ${h}_{1}$ ,那么推得 $\\frac{O{A}^{\\prime }}{OA} = \\frac{O{B}^{\\prime }}{OB} = \\frac{O{C}^{\\prime }}{OC} = \\frac{{h}_{1}}{h}$ 和 $\\frac{{A}^{\\prime }{B}^{\\prime }}{AB} = \\frac{{B}^{\\prime }{C}^{\\prime }}{BC} = \\frac{{C}^{\\prime }{A}^{\\prime }}{CA} = \\frac{{h}_{1}}{h}$ . 于是,得 $\\bigtriangleup {A}^{\\prime }{B}^{\\prime }{C}^{\\prime } \\backsim \\; \\bigtriangleup {ABC}$ ,相似比是 $\\frac{{h}_{1}}{h}$ . 同理可得 $\\bigtriangleup {D}^{\\prime }{E}^{\\prime }{F}^{\\prime }\\varnothing \\bigtriangleup {DEF}$ ,相似比也是 $\\frac{{h}_{1}}{h}$ . 由相似形的性质, 得\n\n$$\n\\frac{{S}_{1}}{S} = {\\left( \\frac{{h}_{1}}{h}\\right) }^{2},\\frac{{S}_{2}}{S} = {\\left( \\frac{{h}_{1}}{h}\\right) }^{2},\n$$\n\n即\n\n$$\n{S}_{1} = {S}_{2} = {\\left( \\frac{{h}_{1}}{h}\\right) }^{2}S.\n$$\n\n这说明用任意平行于底面的平面截两个等底的三棱锥时, 所得的截面面积相等, 所以由祖暅原理得三棱锥 $O - {ABC}$ 和 $P - {DEF}$ 的体积相等,即等底等高的三棱锥的体积相等.\n\n下面我们来推导三棱锥的体积公式.\n\n如图 11-2-11,设 $P - {ABC}$ 是任一给定的三棱锥,其底面面积为 $S,{PO}$ 为高,且 ${PO} = h$ . 过顶点 $P$ 分别作 $P{C}_{1}\\overset{//}{ = }{BC}, P{A}_{1}\\overset{//}{ = }{BA}$ ,连接 ${A}_{1}{C}_{1}\\text{ 、 }{C}_{1}C\\text{ 、 }{A}_{1}A$ ,显然 $\\bigtriangleup {ABC}\\overset{//}{ = } \\; \\bigtriangleup {A}_{1}P{C}_{1}$ . 由棱柱的定义,可知 ${A}_{1}P{C}_{1} - {ABC}$ 为三棱柱,其底面面积为 $S$ ,高为 $h$ . 下面需要研究的是三棱柱 ${A}_{1}P{C}_{1} - {ABC}$ 与三棱锥 $P - {ABC}$ 的体积之间的关系.\n\n![bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg)\n\n图 11-2-11\n\n考察三棱柱的构造可以发现,比原三棱锥 $P - {ABC}$ 多出的部分是一个四棱锥 $P - {AC}{C}_{1}{A}_{1}$ . 连接 $A{C}_{1}$ ,将这个四棱锥分割成两个等底同高的三棱锥 $P - {AC}{C}_{1}$ 和 $P - A{C}_{1}{A}_{1}$ . 因此 ${V}_{\\text{ 棱锥 }P - {AC}{C}_{1}} = {V}_{\\text{ 棱锥 }P - A{C}_{1}{A}_{1}}$ . 另一方面,可将三棱锥 $P - A{C}_{1}{A}_{1}$ 视作三棱锥 $A - P{C}_{1}{A}_{1}$ ,则它和原三棱锥 $P - {ABC}$ 又是等底同高的三棱锥,于是 ${V}_{\\text{ 棱锥 }P - {ABC}} = {V}_{\\text{ 棱锥 }A - P{C}_{1}{A}_{1}} = \\; {V}_{\\text{ 棱锥 }P - A{C}_{1}{A}_{1}}$ . 我们证明了三个三棱锥 $P - {ABC}\\text{ 、 }P - {AC}{C}_{1}$ 与 $P - A{C}_{1}{A}_{1}$ 都具有相同的体积, 于是\n\n$$\n{V}_{\\text{ 棱柱 }{A}_{1}P{C}_{1} - {ABC}} = {V}_{\\text{ 棱锥 }P - {ABC}} + {V}_{\\text{ 棱锥 }P - {AC}{C}_{1}} + {V}_{\\text{ 棱锥 }P - A{C}_{1}{A}_{1}}\n$$\n\n$$\n= 3{V}_{\\text{ 棱锥 }}{P}_{\\text{ -ABC }}\\text{ . }\n$$\n\n![bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg)\n\n图 11-2-12\n\n由此得 ${V}_{\\text{ 棱锥P-ABC }} = \\frac{1}{3}{Sh}$ .\n\n由于任意棱锥都可以分割为若干个同高的三棱锥 (图 11-2-12), 因此可得棱锥的体积公式:\n\n$$\n{V}_{\\text{ 棱锥 }} = \\frac{1}{3}{Sh}.\n$$\n\n其中, $S$ 为棱锥的底面积, $h$ 为棱锥的高.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 412,
+          "end": 478
+        }
+      ],
+      "emphases": [
+        {
+          "start": 3311,
+          "end": 3402,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx3-11-2-formula-21-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "3 锥体的表面积",
+      "markdown": "### 3 锥体的表面积",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 479,
+          "end": 479
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "与柱体类似, 锥体的表面积也等于侧面积与底面积之和. 对于棱锥或圆锥来说, 由于底面是一个平面多边形或一个圆, 可以用平面几何的方法计算面积, 因此求侧面积是关键. 对于一般的棱锥来说, 每个侧面都是三角形, 其侧面积也易于求出, 但难以写出一个一般的公式. 对于圆锥来说, 求其侧面积则是一个新的问题, 下面我们只讨论正棱锥和圆锥的表面积.\n\n依据定义, 正棱锥的每个侧面都是全等的等腰三角形, 我们把这些等腰三角形底边上的高称为棱锥的斜高,记为 ${h}^{\\prime }$ . 如果棱锥底面多边形的周长是 $c$ ,底面面积是 ${S}_{\\text{ 底 }}$ ,那么容易求得棱锥的侧面积和表面积分别是:\n\n$$\n{S}_{\\text{ 正棱锥侧 }} = \\frac{1}{2}c{h}^{\\prime },\n$$\n\n$$\n{S}_{\\text{ 止棱锥长 }} = \\frac{1}{2}c{h}^{\\prime } + {S}_{\\text{ 底 }}\\text{ . }\n$$\n\n![bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg)\n\n图 11-2-13\n\n对于圆锥, 我们可以采用求圆柱侧面积的方法, 将其沿一条母线剪开, 展开在一个平面内. 可以看到, 圆锥侧面的平面展开图是一个以圆锥母线 $l$ 为半径的扇形,扇形的弧长就等于圆锥底面的圆周长,如图 11-2-13 所示. 设圆锥的底面圆半径为 $r$ ,则扇形的中心角 $\\theta  = \\frac{2\\pi r}{l}$ (弧度). 由扇形的面积公式,可得\n\n$$\nS\\text{ 圆锥侧 } = {\\pi rl}\\text{ . }\n$$\n\n所以，圆锥的表面积公式为:\n\n$$\n{S}_{\\text{ 圆锥表 }} = {\\pi rl} + \\pi {r}^{2}.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 480,
+          "end": 508
+        }
+      ],
+      "emphases": [
+        {
+          "start": 173,
+          "end": 308,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-11-2-definition-23-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 833,
+          "end": 898,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx3-11-2-formula-23-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 已知正三棱锥 $O - {ABC}$ 的底面边长为 $2\\mathrm{\\;{cm}}$ ，高为 $1\\mathrm{\\;{cm}}$ . 求该三棱锥的表面积.\n\n![bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg)\n\n图 11-2-14",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 509,
+          "end": 514
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 509,
+          "end": 514
+        }
+      ],
+      "id": "bx3-11-2-ex-6",
+      "category": "例题",
+      "answer": "解 如图 11-2-14,因为底面三角形 ${ABC}$ 是边长为 $2\\mathrm{\\;{cm}}$ 的正三角形,所以计算可得底面面积 ${S}_{\\bigtriangleup {ABC}} = \\sqrt{3}\\left( {\\mathrm{\\;{cm}}}^{2}\\right)$ .\n\n设 ${O}^{\\prime }$ 是正三角形 ${ABC}$ 的中心. 由正三棱锥的性质可知, $O{O}^{\\prime }$ 垂直于平面 ${ABC}$ . 连接 $A{O}^{\\prime }$ ,并延长交 ${BC}$ 于 $D$ ,连接 ${OD}$ . 由三垂线定理,得 ${OD} \\bot  {BC}$ . 计算可得 ${AD} = \\sqrt{3},{O}^{\\prime }D = \\frac{\\sqrt{3}}{3}$ . 又 $O{O}^{\\prime } = 1$ ，正三棱锥的斜高 ${OD} = \\frac{2\\sqrt{3}}{3}$ ，所以 ${S}_{\\text{ 侧 }} = \\frac{1}{2} \\times  6 \\times  \\frac{2\\sqrt{3}}{3} = \\; 2\\sqrt{3}\\left( {\\mathrm{\\;{cm}}}^{2}\\right)$ . 所以, ${S}_{\\text{ 表 }} = \\sqrt{3} + 2\\sqrt{3} = 3\\sqrt{3}\\left( {\\mathrm{\\;{cm}}}^{2}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 515,
+          "end": 518
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 有一个圆锥形漏斗,其底面直径是 ${10}\\mathrm{\\;{cm}}$ ,母线长为 ${20}\\mathrm{\\;{cm}}$ . 在漏斗口的点 $P$ 处用一根绳子将漏斗挂在墙面上,当绳子的长度最短时, 可以紧紧地箍住漏斗, 不会上下滑动. 求此时绳子的长度. (结果精确到 $1\\mathrm{\\;{cm}}$ )",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 519,
+          "end": 520
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 519,
+          "end": 520
+        }
+      ],
+      "id": "bx3-11-2-ex-7",
+      "category": "例题",
+      "answer": "解 如图 11-2-15,将圆锥侧面沿母线 ${OP}$ 展开,其平面展开图是一个以 $O$ 为圆心,半径为 ${20}\\mathrm{\\;{cm}}$ 的扇形. 此扇形的中心角 $\\theta  = \\frac{2\\pi r}{l} = \\frac{\\pi }{2}$ (弧度),是一个直角扇形.\n\n![bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg)\n\n图 11-2-15\n\n如果有一根绳子从点 $P$ 出发,绕漏斗侧面一周回到点 $P$ , 那么展开后这条绳子就变成平面上 $P$ 和 ${P}^{\\prime }$ 两点之间的一条曲线. 因此,当这条曲线变成直线段 $P{P}^{\\prime }$ 时,绳子的长度最短,其最短长度为 ${20}\\sqrt{2} \\approx  {28}\\left( \\mathrm{\\;{cm}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 521,
+          "end": 528
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 11.2(3)",
+      "markdown": "### 练习 11.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 529,
+          "end": 529
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(3) · 1",
+      "markdown": "1. 已知圆锥侧面展开图中扇形的中心角为 $\\frac{2\\pi }{3}$ ，底面周长为 ${2\\pi }$ . 求这个圆锥的侧面积和表面积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 531,
+          "end": 532
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 531,
+          "end": 532
+        }
+      ],
+      "id": "bx3-11-2-p1123-1",
+      "category": "练习11.2(3)",
+      "answer": "1. 侧面积为 ${3\\pi }$ ,表面积为 ${4\\pi }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 338,
+          "end": 339
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(3) · 2",
+      "markdown": "2. 棱长都是 1 的三棱锥的表面积为___.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 533,
+          "end": 534
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 533,
+          "end": 534
+        }
+      ],
+      "id": "bx3-11-2-p1123-2",
+      "category": "练习11.2(3)",
+      "answer": "2. $\\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 340,
+          "end": 341
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习11.2(3) · 3",
+      "markdown": "3. 推导正棱台的侧面积公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 535,
+          "end": 536
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 535,
+          "end": 536
+        }
+      ],
+      "id": "bx3-11-2-p1123-3",
+      "category": "练习11.2(3)",
+      "answer": "3. 记正棱台的上底面周长为 ${c}_{1}$ ,下底面周长为 ${c}_{2}$ ,斜高为 ${h}^{\\prime }$ ,则侧面积公式为 $\\frac{{c}_{1} + {c}_{2}}{2}{h}^{\\prime }.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 342,
+          "end": 343
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 11.2",
+      "markdown": "### 习题 11.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 537,
+          "end": 537
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 539,
+          "end": 539
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 1",
+      "markdown": "1. 已知一个正三棱锥的底面边长为 6 , 侧棱长为 $\\sqrt{15}$ . 求这个三棱锥的体积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 541,
+          "end": 542
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 541,
+          "end": 542
+        }
+      ],
+      "id": "bx3-11-2-h112A-1",
+      "category": "习题11.2A",
+      "answer": "1. 9.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 348,
+          "end": 349
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 2",
+      "markdown": "2. 如图,已知三棱锥 $P - {ABC}$ 中, ${PA}$ 垂直于平面 ${ABC},{AB} \\bot  {BC},{PA} = 4,{AB} =$ 3, ${AC} = 5$ .\n\n(1)求点 $A$ 到平面 ${PBC}$ 的距离；\n\n(2)求三棱锥 $P - {ABC}$ 的表面积.\n\n![bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 543,
+          "end": 556
+        },
+        {
+          "source": "book",
+          "start": 549,
+          "end": 551
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 543,
+          "end": 556
+        },
+        {
+          "source": "book",
+          "start": 549,
+          "end": 551
+        }
+      ],
+      "id": "bx3-11-2-h112A-2",
+      "category": "习题11.2A",
+      "answer": "2. (1) $\\frac{12}{5}$ . (2) 32.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 350,
+          "end": 351
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 3",
+      "markdown": "3. 把边长为 1 的正方形 ${ABCD}$ 沿对角线 ${AC}$ 折起,使 (折叠后的) $A\\text{ 、 }{B}^{\\prime }\\text{ 、 }C\\text{ 、 }D$ 四点为顶点的三棱锥体积最大. 求此三棱锥的表面积.\n\n![bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg](sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 558
+        },
+        {
+          "source": "book",
+          "start": 553,
+          "end": 555
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 558
+        },
+        {
+          "source": "book",
+          "start": 553,
+          "end": 555
+        }
+      ],
+      "id": "bx3-11-2-h112A-3",
+      "category": "习题11.2A",
+      "answer": "3. $1 + \\frac{\\sqrt{3}}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 352,
+          "end": 353
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 4",
+      "markdown": "4. 棱锥被平行于底面的平面所截, 当截面分别平分棱锥的高与体积时, 相应的截面面积分别为 ${S}_{1}\\text{ 、 }{S}_{2}$ . 求证: ${S}_{1} < {S}_{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 559,
+          "end": 560
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 559,
+          "end": 560
+        }
+      ],
+      "id": "bx3-11-2-h112A-4",
+      "category": "习题11.2A",
+      "answer": "4. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 354,
+          "end": 355
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 5",
+      "markdown": "5. 若圆锥的底面半径为 1,高为 $\\sqrt{3}$ ,求圆锥的表面积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 561,
+          "end": 562
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 561,
+          "end": 562
+        }
+      ],
+      "id": "bx3-11-2-h112A-5",
+      "category": "习题11.2A",
+      "answer": "5. ${3\\pi }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 356,
+          "end": 357
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 6",
+      "markdown": "6. 把一个圆锥截成圆台,已知圆台的上、下底面半径的比为 $1 : 4$ ,母线 (原圆锥母线在圆台中的部分) 长为 ${10}\\mathrm{\\;{cm}}$ . 求原圆锥的母线长.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 563,
+          "end": 564
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 563,
+          "end": 564
+        }
+      ],
+      "id": "bx3-11-2-h112A-6",
+      "category": "习题11.2A",
+      "answer": "6. $\\frac{40}{3}\\mathrm{\\;{cm}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 358,
+          "end": 359
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 7",
+      "markdown": "7. 已知圆锥的底面半径为 3,沿该圆锥的母线把侧面展开后可得到圆心角为 $\\frac{2\\pi }{3}$ 的扇形. 求该圆锥的高.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 565,
+          "end": 566
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 565,
+          "end": 566
+        }
+      ],
+      "id": "bx3-11-2-h112A-7",
+      "category": "习题11.2A",
+      "answer": "7. $6\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 360,
+          "end": 361
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2A · 8",
+      "markdown": "8. 用一个平面去截正方体, 得到一个三棱锥, 截得的三棱锥中, 除了截面外另三个面的面积分别为 ${S}_{1}\\text{ 、 }{S}_{2}\\text{ 、 }{S}_{3}$ . 求这个三棱锥的体积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 568
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 568
+        }
+      ],
+      "id": "bx3-11-2-h112A-8",
+      "category": "习题11.2A",
+      "answer": "8. $\\frac{\\sqrt{2{S}_{1}{S}_{2}{S}_{3}}}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 362,
+          "end": 363
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 569
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题11.2B · 1",
+      "markdown": "1. 在三棱锥 $P - {ABC}$ 中,已知 ${PA} = {PB} = {PC} = 1,{AB} = \\sqrt{2},{BC} = 1,{AC} = \\sqrt{3}$ . 求该三棱锥底面 ${ABC}$ 上的高与三棱锥的体积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 571,
+          "end": 572
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 571,
+          "end": 572
+        }
+      ],
+      "id": "bx3-11-2-h112B-1",
+      "category": "习题11.2B",
+      "answer": "1. $\\frac{1}{2},\\frac{\\sqrt{2}}{12}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 366,
+          "end": 367
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2B · 2",
+      "markdown": "2. 用过圆柱和圆锥的轴的平面截这两个几何体, 分别得到边长为 2 的正方形和正三角形, 求圆柱和圆锥的表面积之比.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 573,
+          "end": 574
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 573,
+          "end": 574
+        }
+      ],
+      "id": "bx3-11-2-h112B-2",
+      "category": "习题11.2B",
+      "answer": "2. $2 : 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 368,
+          "end": 369
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2B · 3",
+      "markdown": "3. 已知圆锥底面的半径为 10，母线长为 60 . 求底面圆周上一点 $B$ 沿侧面绕两周回到点 $B$ 的最短距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 575,
+          "end": 576
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 575,
+          "end": 576
+        }
+      ],
+      "id": "bx3-11-2-h112B-3",
+      "category": "习题11.2B",
+      "answer": "3. ${60}\\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 370,
+          "end": 371
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题11.2B · 4",
+      "markdown": "4. 设圆台的母线长为 $l$ ,上、下底面的半径分别为 ${r}^{\\prime }\\text{ 、 }r$ . 试用 ${r}^{\\prime }\\text{ 、 }r$ 和 $l$ 表示圆台的侧面积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 577,
+          "end": 578
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 577,
+          "end": 578
+        }
+      ],
+      "id": "bx3-11-2-h112B-4",
+      "category": "习题11.2B",
+      "answer": "4. 如图 11-R2,设 $x$ 是截去的小圆锥的母线长,则 ${S}_{\\text{圆台侧 }} = \\; \\frac{1}{2}c\\left( {l + x}\\right)  - \\frac{1}{2}{c}^{\\prime }x = \\frac{1}{2}{cl} + \\frac{1}{2}\\left( {c - {c}^{\\prime }}\\right) x$ . 因为 $\\frac{{c}^{\\prime }}{c} = \\frac{x}{x + l}$ ,所以 $x = \\; \\frac{{c}^{\\prime }l}{c - {c}^{\\prime }}$ . 代入,得 ${S}_{\\text{圆台侧 }} = \\frac{1}{2}{cl} + \\frac{1}{2}{c}^{\\prime }l = \\frac{1}{2}\\left( {{c}^{\\prime } + c}\\right) l = \\pi \\left( {{r}^{\\prime } + r}\\right) l$ .\n\n![bo_d402s6jef24c73d2tl40_68_1180_896_238_254_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_68_1180_896_238_254_0.jpg)\n\n图 11-R2",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 372,
+          "end": 377
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 261,
+      "original": "images/bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 269,
+      "original": "images/bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 295,
+      "original": "images/bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 309,
+      "original": "images/bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 283,
+      "original": "images/bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 329,
+      "original": "images/bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 359,
+      "original": "images/bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 367,
+      "original": "images/bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 381,
+      "original": "images/bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 417,
+      "original": "images/bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 429,
+      "original": "images/bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 451,
+      "original": "images/bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 465,
+      "original": "images/bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 493,
+      "original": "images/bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 511,
+      "original": "images/bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 523,
+      "original": "images/bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 549,
+      "original": "images/bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 553,
+      "original": "images/bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 374,
+      "original": "../images/bo_d402s6jef24c73d2tl40_68_1180_896_238_254_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_68_1180_896_238_254_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 158,
+      "original": "../images/bo_d402s6jef24c73d2tl40_60_1179_1209_255_309_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_60_1179_1209_255_309_0.jpg",
+      "exists": true
+    }
+  ]
+}

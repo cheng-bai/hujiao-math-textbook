@@ -1,0 +1,53 @@
+{
+  "controls": [
+    {
+      "key": "theta",
+      "label": "线面角 θ（含0°与90°）",
+      "max": 90,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "phi",
+      "label": "平面内直线方向 φ",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "仅改变观察视角",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "explanationHtml": "<p><strong>先分清三个角。</strong>线面角是空间直线与平面的倾斜角；方向参数描述平面内直线相对射影方向的转动；两直线夹角取不超过直角的那个角。屏幕投影不保角，不能直接量图中的夹角。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>0</mn><mo>≤</mo><mi>θ</mi><mo>≤</mo><mn>90</mn><mo>°</mo><mo>，</mo><mn>0</mn><mo>≤</mo><mi>β</mi><mo>≤</mo><mn>90</mn><mo>°</mo></math><p><strong>把方向写清。</strong>以平面为水平坐标面，射影方向为横轴方向。可取两个单位方向向量：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>u</mi><mo>=</mo><mo>(</mo><mi>cos</mi><mi>θ</mi><mo>,</mo><mn>0</mn><mo>,</mo><mi>sin</mi><mi>θ</mi><mo>)</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>v</mi><mo>=</mo><mo>(</mo><mi>cos</mi><mi>φ</mi><mo>,</mo><mi>sin</mi><mi>φ</mi><mo>,</mo><mn>0</mn><mo>)</mo></math><p><strong>为什么最小。</strong>由于讨论的是两条直线而不是两条有向射线，须对数量积取绝对值：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>cos</mi><mi>β</mi><mo>=</mo><mo>|</mo><mi>u</mi><mo>·</mo><mi>v</mi><mo>|</mo><mo>=</mo><mi>cos</mi><mi>θ</mi><mo>|</mo><mi>cos</mi><mi>φ</mi><mo>|</mo><mo>≤</mo><mi>cos</mi><mi>θ</mi></math><p>余弦函数在零度到九十度上严格递减，所以：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>β</mi><mo>≥</mo><mi>θ</mi></math><p><strong>等号与边界。</strong>线面角小于直角时，等号当且仅当平面内直线沿射影所在直线的方向。线面角等于直角时，射影退化成点，不再有射影直线；此时空间直线与平面内所有方向都垂直，所有夹角均为直角。本模型线面角为零时，空间直线位于平面内，与重合方向的直线夹角按零度处理。</p>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>cos</mi><mi>β</mi><mo>=</mo><mi>cos</mi><mi>θ</mi><mo>|</mo><mi>cos</mi><mi>φ</mi><mo>|</mo><mo>≤</mo><mi>cos</mi><mi>θ</mi><mo>⇒</mo><mi>β</mi><mo>≥</mo><mi>θ</mi></math>",
+  "goal": "分开视角与数学角度，观察平面内各方向对应的真实夹角及最小值。",
+  "id": "line-plane-minimum-angle",
+  "initial": {
+    "phi": 50,
+    "theta": 35,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-10-3-b26",
+      "rationale": "射影与线面角定义后解释最小性，保留原定义及几何论证。",
+      "retainProse": true,
+      "sectionId": "bx3-10-3"
+    },
+    {
+      "afterBlockId": "x1-3-4-b22",
+      "rationale": "在线面角与方向向量关系后联动数量积解释，保留原文。",
+      "retainProse": true,
+      "sectionId": "x1-3-4"
+    }
+  ],
+  "summary": "设直线单位方向u=(cosθ,0,sinθ)，平面内单位方向v=(cosφ,sinφ,0)。两直线夹角β取0°至90°，则cosβ=|u·v|=cosθ|cosφ|≤cosθ，故β≥θ。θ<90°时沿射影方向等号成立；θ=90°时射影为点，所有平面方向均与直线垂直。θ=0°时本模型中直线在平面内。三维图是正交投影，不保角；真实读数与右侧变化曲线均由数量积计算。必修阶段先观察与几何解释，选修阶段联系向量证明，原文及原证明不折叠。",
+  "title": "线面角：为什么与射影的夹角最小"
+}

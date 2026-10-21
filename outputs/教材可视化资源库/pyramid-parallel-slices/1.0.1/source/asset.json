@@ -1,0 +1,45 @@
+{
+  "controls": [
+    {
+      "key": "level",
+      "label": "截面高度比例",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "shift",
+      "label": "顶点水平偏移",
+      "max": 1.5,
+      "min": -1.5,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><msub><mi>S</mi><mi>t</mi></msub><mi>S</mi></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>,</mo><mspace width=\"1em\"/><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>S</mi><mi>h</mi></math>",
+  "goal": "沿高度移动截面，观察面积二次缩小和顶点平移的不变量。",
+  "id": "pyramid-parallel-slices",
+  "initial": {
+    "level": 0.45,
+    "shift": 0,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-11-2-b21",
+      "rationale": "接替锥体体积推导的图形过程解释，证明不删去。",
+      "sectionId": "bx3-11-2"
+    }
+  ],
+  "summary": "平行于底面的棱锥截面与底面相似，距底高度比例为t时线性比为1−t，面积比为其平方。同底等高的锥体体积相等，均为同底等高柱体体积的三分之一；原体积推导完整保留供展开和打印。",
+  "title": "锥体：相似截面与同底等高"
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx3-12-3"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>12.3 频率与概率 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx3.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-frequency-fluctuation.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第三册 / 第12章概率初步</div><div class="spine-number">12.3</div><nav aria-label="本节目录"><a href="#bx3-12-3"><span>12.3</span>频率与概率</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 12.3</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 12.3</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>频率与概率<span class="cover-dot">.</span></h1><p class="cover-deck">必修第三册<br>第12章概率初步 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>1 个例题</span><span>6 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx3-12-3" data-title="频率与概率"><section class="section-heading" id="bx3-12-3"><span class="section-number">12.3</span><div><h2>频率与概率</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="4fb4b96d76e4b59aa580f6e1ba23e016ec8cea9da38dd3a30960b83f841b5090" id="bx3-12-3-b2"><p>某个事件发生的概率是对这个事件发生可能性大小的一种度量, 这种度量能不能被验证呢? 换言之, 除了给我们关于事件发生可能性的心理预期外, 概率大小究竟有什么实际意义呢? 回到抛掷一枚硬币这件事情,正面朝上的概率是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> ,除了硬币质地均匀的原因之外, 是否还有其他解释呢?</p>
+<aside class="key-point key-concept" id="bx3-12-3-definition-2-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>实际上, 概率可以从频率的角度来检验. 频率也是一个生活中常用的词. 如果一个随机试验只有两种可能的结果, 一个是 &quot;成功&quot;,概率是 <span class="math" data-tex="p\left( {0 &lt; p &lt; 1}\right)" data-display="false"></span> ,一个是 &quot;失败&quot;,概率是 <span class="math" data-tex="1 - p" data-display="false"></span> ,那么这个随机试验称为伯努利试验. 如果抛掷一枚硬币, 把正面朝上称为成功, 掷骰子把点数 6 向上称为成功, 那么它们都可以看作伯努利试验. 假设我们可以独立地重复一个伯努利试验 <span class="math" data-tex="n" data-display="false"></span> 次, 其中成功的次数记作 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,那么</p>
+</aside><div class="math display" data-tex="\frac{{S}_{n}}{n}" data-display="true"></div>
+<aside class="key-point key-concept" id="bx3-12-3-definition-2-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>就被称为 <span class="math" data-tex="\left( {n\text{ 次试验中 }}\right)" data-display="false"></span> 成功的频率 (frequency). 频率是一个数, 依赖于试验次数 <span class="math" data-tex="n" data-display="false"></span> . 它不是一个确定的数,而是一个随机的数.</p>
+</aside><p>通过大量的观察，人们发现了下面这个定律，它说明频率具有稳定性, 在试验次数足够多时, 会稳定地趋向于概率. 这给出了由概率来表示可能性大小的理由, 或者说概率在某种意义上是可以检验的.</p>
+<p>伯努利大数定律 (law of large numbers): 独立地重复一个伯努利试验 <span class="math" data-tex="n" data-display="false"></span> 次,当 <span class="math" data-tex="n" data-display="false"></span> 很大时,频率 <span class="math" data-tex="\frac{{S}_{n}}{n}" data-display="false"></span> 逼近概率.</p>
+<aside class="key-point key-concept" id="bx3-12-3-definition-2-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>这个结论之所以被称为定律, 或许是因为它直观地像是一个自然定律. 它很早就被数学家观察到, 并在瑞士数学家雅各布· 伯努利 1713 年出版的书中首次给出了证明.</p>
+</aside><p>注意, 伯努利大数定律的成立有一个条件, 即 &quot;假设我们可以独立地重复一个伯努利试验&quot;, 这个条件非常关键. 抛掷硬币、 掷骰子这类随机试验可以独立地重复, 然而许多随机现象是不可以独立地重复的. 例如, 某人今年会不会得流感是随机的, 每个人的高考成绩也是随机的, 但这些现象都不能独立地重复. 可以独立地重复的才称得上是一个试验. 虽然人们对于不能独立地重复的随机现象也谈论概率, 但那是主观的概率, 并不能检验.</p>
+<hr />
+<p>&quot;独立地重复&quot;有严格的数学定义, 但这里可以按字面来理解.</p>
+<p>由于试验具有随机性, 因此频率是一个不确定的量, 而概率是一个确定的量.</p>
+<p>大数定律的名称中的&quot;大数&quot;是指需重复很多次才会出现&quot;频率逼近概率&quot;这个现象.</p>
+<hr />
+<p><img src="images/book-ecf6a736fbb967412baf.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>雅各布・伯努利(Jakob Bernoulli, 1654—1705), 瑞士数学家，伯努利家族 (其中有许多著名科学家、 数学家)中的一员，对概率论的主要贡献发表在其著作《猜度术》中，其中包括大数定律.</p>
+<p>在抛掷一枚硬币时，既可能正面朝上，也可能反面朝上，预先做出确定性的判断是不可能的. 但是假如硬币质地均匀，人们会相信出现正面的可能性与出现反面的可能性应该大体相等, 即在大量试验中出现正面的频率应接近于 50% . 为了验证这一点, 历史上曾有不少人做过实验, 下面是用抛掷硬币来验证频率稳定性的著名例子(表 12-1).</p>
+<p>表 12-1</p>
+<div class="source-table"><table><tr><td>实验者</td><td>抛掷硬币次数</td><td>出现正面次数</td><td>频率</td></tr><tr><td>蒲丰</td><td>4 040</td><td>2048</td><td>0.5069</td></tr><tr><td>费勒</td><td>10000</td><td>4979</td><td>0.497 9</td></tr><tr><td>皮尔逊</td><td>12000</td><td>6019</td><td>0.5016</td></tr><tr><td>皮尔逊</td><td>24000</td><td>12 012</td><td>0.500 5</td></tr></table></div>
+<aside class="key-point key-concept" id="bx3-12-3-definition-2-3" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>援引它不仅是因为它的权威性，而且是因为实验简单，人人都可以做. 从表 12-1 可以看出，随着试验次数的增加，频率接近 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> . 同时还可看出,出现正面的概率是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> ,并不是意味着抛掷 2 次硬币必出现 1 次正面, 抛掷 10 次必出现 5 次正面, 而是在大量试验中,出现正面的频率值越来越稳定在 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> 附近. 频率在大数次的试验中稳定于某一常数(概率)这个事实非常重要. 正因为如此, 在实际中可以把频率作为概率(的估计值)来应用. 频率也称为经验概率,计算它通常是为了估计概率 <span class="math" data-tex="P" data-display="false"></span> . 为了区别于概率, 经验概率用 <span class="math" data-tex="\widehat{P}" data-display="false"></span> 来表示.</p>
+</aside></div><article class="question" id="bx3-12-3-b3" data-question-id="bx3-12-3-b3" data-category="example"><div class="question-label">例题 · 新药试验的经验概率</div><div class="question-body"><p>例 某药物公司实验一种降低胆固醇的新药，在 500 个病人中进行实验，结果如表 12-2 所示.</p>
+<p>表 12-2</p>
+<div class="source-table"><table><tr><td>胆固醇降低的人数</td><td>没有起作用的人数</td><td>胆固醇升高的人数</td></tr><tr><td>307</td><td>120</td><td>73</td></tr></table></div>
+<p>求下列事件的经验概率:</p>
+<p>(1)使用药物后胆固醇降低；</p>
+<p>(2)使用药物后没有起作用；</p>
+<p>(3)使用药物后胆固醇升高.</p>
+</div></article><h3 class="group-heading" id="bx3-12-3-b4">练习 12.3</h3><article class="question" id="bx3-12-3-p123-1" data-question-id="bx3-12-3-p123-1" data-category="practice"><div class="question-label">练习12.3 · 1</div><div class="question-body"><ol>
+<li>早期破译密码，注意文字的出现频率是一个重要手段. 找一篇(大约一页 A4 纸)英文文章，计算一下 26 个英文字母出现的频率，观察哪个字母出现的频率最高.</li>
+</ol>
+</div></article><article class="question" id="bx3-12-3-p123-2" data-question-id="bx3-12-3-p123-2" data-category="practice"><div class="question-label">练习12.3 · 2</div><div class="question-body"><ol start="2">
+<li>有一批种子，其中的种子可能 1 天发芽，也可能 2 天发芽······，下表是对不同发芽天数的种子数的记录.</li>
+</ol>
+<div class="source-table"><table><tr><td>发芽天数/天</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>≥8</td></tr><tr><td>种子数/粒</td><td>18</td><td>36</td><td>20</td><td>11</td><td>9</td><td>3</td><td>1</td><td>0</td></tr></table></div>
+<p>(1)求发芽天数为 2 天或 3 天的频率 (经验概率);</p>
+<p>(2)求发芽天数超过 4 天的频率. (结果精确到 0.01)</p>
+</div></article><article class="question" id="bx3-12-3-p123-3" data-question-id="bx3-12-3-p123-3" data-category="practice"><div class="question-label">练习12.3 · 3</div><div class="question-body"><ol start="3">
+<li>管理人员为了了解某水库里大概有多少条鱼，拖网打捞出 1000 条鱼，在鱼身处打上一个不会掉落的印记, 再放回水库. 一个月后再次捕捞 1000 条鱼, 发现其中有 15 条有印记的鱼. 问:这个水库里大概有多少条鱼？</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx3-12-3-b8">课后阅读</h3><h3 class="group-heading" id="bx3-12-3-b9">概率、经验概率与主观概率</h3><div class="prose" data-visual-source-sha="634185c777ffa59a711185646ae383cde8101d168dd2206b4f74d39190823d71" id="bx3-12-3-b10"><p>概率是赋予事件的一个数, 它表达该事件有多大的可能性发生. 在等可能的假设下, 抛掷一枚硬币得正面的概率是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> , 掷一颗骰子得点数 6 的概率是 <span class="math" data-tex="\frac{1}{6}" data-display="false"></span> . 但是,如果没有等可能假设, 这些概率是很难知道的. 例如, 假设抛掷的一枚硬币由一个金属薄片和一个木质薄片贴合而成,这样的硬币显然不再是等可能的,抛掷这枚硬币金属面朝上的概率 <span class="math" data-tex="p" data-display="false"></span> 和木质面朝上的概率 <span class="math" data-tex="q" data-display="false"></span> 依然是存在的,且 <span class="math" data-tex="p + q = 1" data-display="false"></span> ,但理论上没有人能够算出来 <span class="math" data-tex="p" data-display="false"></span> 与 <span class="math" data-tex="q" data-display="false"></span> 究竟是多少. 这时候因试验可以任意多次重复, 我们仍可以用频率或者经验概率来进行估计, 这正是大数定律所断言的.</p>
+<p>现在换个问题. 假设小明今年 20 岁, 能够健康活到 70 岁的可能性有多大? 因为不能预测, 健康活到 70 岁是一个随机事件. 它有没有一个概率呢? 因为小明的一生是不能重复的, 大数定律失效. 这时即使说概率, 也只是一种心理预期, 无法加以检验. 这是作为数学的概率论无法解决的问题, 称之为主观概率, 它只能反映说话者的主观判断.</p>
+<p>尽管小明对自己能健康活到 70 岁的可能性的判断在数学上没有意义, 但我们仍然可以做一点有意义的事情，就是把其他人看成是小明的某种重复，从而求得这个事件的&quot;频率&quot;, 也就是求健康活到 70 岁的人数在总人数中的比例. 这个比例是统计数据, 对具体的个人而言是没有意义的，但是它仍然有其统计意义，在某些场合是非常有用的. 例如，保险公司可以据此来计算人寿保险的保险费率.</p>
+<p>从这里可以明白, 生活中经常说的话, 如 &quot;学某某专业容易找工作&quot;或 &quot;锻炼让人长寿&quot; 等, 都是统计意义上的断言, 对具体个人没有特别的意义.</p>
+</div><h3 class="group-heading" id="bx3-12-3-b11">蒙特卡洛算法</h3><div class="prose" data-visual-source-sha="5b569003108c46111b921cfe2fbc621c1e411f3f3ce90e5772dd05214e40b3d1" id="bx3-12-3-b12"><aside class="key-point key-concept" id="bx3-12-3-definition-12-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>大数定律还给我们提供了一种新的算法, 称为蒙特卡洛算法 (Monte Carlo algorithm). 假设我们要算平面上一个不规则区域 <span class="math" data-tex="D" data-display="false"></span> (如某个国家在地图上所占的区域)的面积，这样的图形用通常的面积计算方法是不容易求得的.</p>
+</aside><p>怎么应用蒙特卡洛算法呢? 看一个简单的例子. 首先, 取一块正方形纸板, 将其表面正方形记作 <span class="math" data-tex="\Omega" data-display="false"></span> ,把所求的区域 <span class="math" data-tex="D" data-display="false"></span> 放在此正方形纸板中,如图 12-3-1 所示.</p>
+<p><img src="images/book-aa49596eb850ce6043aa.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 12-3-1</p>
+<p>然后,把这块包含区域 <span class="math" data-tex="D" data-display="false"></span> 的正方形纸板放置在墙上,向它随意投掷 200 次飞镖,记录飞镖落在 <span class="math" data-tex="D" data-display="false"></span> 中的次数有 82 次.</p>
+<p>因为是随机投掷飞镖,所以飞镖落在 <span class="math" data-tex="D" data-display="false"></span> 中的概率等于面积比,即</p>
+<div class="math display" data-tex="p = \frac{\left| D\right| }{\left| \Omega \right| }," data-display="true"></div>
+<aside class="key-point key-concept" id="bx3-12-3-definition-12-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>其中 <span class="math" data-tex="\left| D\right|" data-display="false"></span> 与 <span class="math" data-tex="\left| \Omega \right|" data-display="false"></span> 分别表示两个区域的面积 (这是另一种古典概率,称为几何概率模型). 现在飞镖落在 <span class="math" data-tex="D" data-display="false"></span> 中的频率为</p>
+</aside><div class="math display" data-tex="\widehat{p} = \frac{82}{200} = \frac{41}{100}." data-display="true"></div>
+<p>按大数定律,应有 <span class="math" data-tex="\widehat{p} \approx  p" data-display="false"></span> ,因此</p>
+<div class="math display" data-tex="\left| D\right|  \approx  \frac{41}{100}\left| \Omega \right|" data-display="true"></div>
+<p>其中正方形 <span class="math" data-tex="\Omega" data-display="false"></span> 的面积已知或者是容易计算的.</p>
+<aside class="key-point key-concept" id="bx3-12-3-definition-12-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>上面例子中所示的方法就是蒙特卡洛算法, 也称为随机化算法. 该算法的优点是操作简单, 但缺点是难以估计和控制误差. 法国数学家蒲丰(G. -L. L. de Buffon)在 1777 年曾经设计过投针实验来计算圆周率 <span class="math" data-tex="\pi" data-display="false"></span> 的近似值,相关内容留作课外实践.</p>
+</aside></div><h3 class="group-heading" id="bx3-12-3-b13">习题 12.3</h3><h3 class="group-heading" id="bx3-12-3-b14">A 组</h3><article class="question" id="bx3-12-3-h123A-1" data-question-id="bx3-12-3-h123A-1" data-category="homework"><div class="question-label">习题12.3A · 1</div><div class="question-body"><ol>
+<li>一家保险公司想了解汽车的挡风玻璃在一年时间内破碎的概率, 于是调查了 20000 辆汽车，发现在一年时间内共有 600 辆汽车的挡风玻璃破碎. 求一辆汽车在一年时间内挡风玻璃破碎的经验概率.</li>
+</ol>
+</div></article><article class="question" id="bx3-12-3-h123A-2" data-question-id="bx3-12-3-h123A-2" data-category="homework"><div class="question-label">习题12.3A · 2</div><div class="question-body"><ol start="2">
+<li>为了估计装有 5 个白球和若干个红球 (每个球的大小与质地相同) 的袋中红球的个数, 在不将袋中球倒出来的情况下, 分 20 个小组进行摸球试验. 每组两人, 其中一位学生摸球，另一位学生记录所摸球的颜色，再将球放回袋中摇匀. 每一组各做 400 次试验， 汇总后，摸到红球的次数为 6000 次.</li>
+</ol>
+<p>(1)估计从袋中任意摸出 1 个球，恰好是红球的概率；</p>
+<p>(2)估计袋中红球的个数.</p>
+</div></article><h3 class="group-heading" id="bx3-12-3-b17">B 组</h3><article class="question" id="bx3-12-3-h123B-1" data-question-id="bx3-12-3-h123B-1" data-category="homework"><div class="question-label">习题12.3B · 1</div><div class="question-body"><ol>
+<li>甲盒中有红、黑、白三种颜色的球各 3 个, 乙盒中有黄、黑、白三种颜色的球各 2 个, 各个球的大小与质地相同. 从两个盒子中各取 1 个球.</li>
+</ol>
+<p>(1)求取出的 2 个球颜色不同的概率；</p>
+<p>(2)设计一个随机试验，计算(1)中取出的 2 个球是不同颜色的经验概率.</p>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx3-12-3" checked>频率与概率</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

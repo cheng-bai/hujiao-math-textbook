@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "key": "outlier",
+      "label": "离群点纵坐标",
+      "max": 8,
+      "min": -2,
+      "step": 0.25,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>b</mi><mo>=</mo><mfrac><mrow><mo>∑</mo><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>)</mo><mo>(</mo><msub><mi>y</mi><mi>i</mi></msub><mo>−</mo><mover><mi>y</mi><mo>¯</mo></mover><mo>)</mo></mrow><mrow><mo>∑</mo><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac></math>",
+  "goal": "拖动一个离群点，比较最小二乘直线斜率变化和数据关联。",
+  "id": "regression-outlier",
+  "initial": {
+    "outlier": 7
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-8-2-b3",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+      "retainProse": true,
+      "sectionId": "x2-8-2"
+    }
+  ],
+  "summary": "最小二乘回归线随所有观测点变化；离群点可能显著改变斜率和相关系数。相关不证明因果，异常点需先核查来源。",
+  "title": "离群点怎样改变回归线"
+}

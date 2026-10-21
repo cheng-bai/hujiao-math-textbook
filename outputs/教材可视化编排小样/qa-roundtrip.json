@@ -1,0 +1,43 @@
+{
+  "schema": "hujiao-visual-layout/v1",
+  "sourceBook": "hujiao-five-books",
+  "currentSection": "x1-3-4",
+  "placements": [
+    {
+      "instanceId": "e854098e-0cb4-47e7-b441-e02918c366d3",
+      "assetId": "ellipse",
+      "assetVersion": "local-snapshot-20261019",
+      "assetSha256": "e7cf755c495c34e9ea808ff4b6373360f83143bea8516e7e77d7227cedbf7dd1",
+      "sceneId": "string",
+      "sectionId": "x1-2-2",
+      "afterBlockId": "ellipse-definition",
+      "state": {
+        "c": 4.5,
+        "degrees": 40
+      },
+      "studentVisible": true
+    },
+    {
+      "instanceId": "be06dfd5-ad9c-4fbd-b855-baf4f61e999f",
+      "assetId": "perpendicular",
+      "assetVersion": "1.0.0",
+      "assetSha256": "09b7531e1ed7d8f435af092965f98027409040a34ab2c33c908983f836ba078b",
+      "sceneId": "criterion",
+      "sectionId": "x1-3-4",
+      "afterBlockId": "space-directions",
+      "state": {
+        "yaw": 35,
+        "pitch": 26,
+        "mode": "parallel",
+        "showPlane": true,
+        "showLines": true,
+        "showPoints": true,
+        "highlightA": true,
+        "highlightB": true
+      },
+      "studentVisible": true
+    }
+  ],
+  "exportedAt": "2026-10-19T14:01:27.809Z",
+  "note": "仅保存本小样的编排位置、固定资源版本和参数；不是完整教材或独立学生版。"
+}

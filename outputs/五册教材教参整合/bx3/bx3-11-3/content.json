@@ -1,0 +1,639 @@
+[
+  {
+    "type": "section",
+    "title": "多面体与旋转体",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 579,
+        "end": 579
+      }
+    ],
+    "id": "bx3-11-3",
+    "number": "11.3",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 11.3 多面体与旋转体\n\n### 教学重点\n\n本节是在柱体和锥体的基础上给出一般多面体和旋转体的概念, 使得相关的知识系统化, 也便于以后在需要时进行拓展. 这一节以了解为主, 目的是拓展学生的视野.\n\n### 内容分析\n\n在多面体的概念中, 特别提出正多面体的概念, 正多面体满足两个条件: 一是这个多面体的所有面都是全等的正多边形; 二是每个顶点聚集的棱的条数相等. 利用 “课后阅读”中的欧拉定理, 可以验证只有五种正多面体, 即正四面体、正六面体、正八面体、正十二面体和正二十面体.\n\n旋转体是一种在现实生活中常见的几何体, 其构造过程虽然简单, 但所形成的形状却十分丰富,在制造、设计中有广泛的应用,在自然现象中也随处可见. 本节没有安排例题, 其目的除了可以利用圆柱或圆锥的体积公式计算一些复合型的旋转体的体积外, 主要是让学生见识各种旋转体, 欣赏数学的美.\n\n### 注意事项\n\n在无穷多个多面体中只有五种正多面体, 这是一个令人惊奇的结论. 教材中是让学生从多面体的欧拉定理出发, 让学生分析多面体的顶点数、棱数、面数以及每面的边数和每顶点聚集的棱数而得出这个结论. 事实上, 如果仅求正多面体的每面的边数 $n$ 和每个顶点聚集的棱数 $m$ ( $m\\text{、}n$ 都是不小于 3 的正整数) 的关系,下面的推导过程是非常简单的: 注意到每个正 $n$ 边形的内角大小是 $\\frac{\\left( {n - 2}\\right) \\pi }{n}$ ,聚集在一个顶点上的这样的内角一共有 $m$ 个,而这些角的大小之和小于 ${2\\pi }$ (否则所有这些角在一个平面内), 于是 $m \\cdot  \\frac{\\left( {n - 2}\\right) \\pi }{n} < {2\\pi }$ ,得 $m\\left( {n - 2}\\right)  < {2n}$ ,即 $\\left( {m - 2}\\right) \\left( {n - 2}\\right)  < 4$ ,于是 $\\left( {m, n}\\right)  = \\; \\left( {3,3}\\right) ,\\left( {4,3}\\right) ,\\left( {3,4}\\right) ,\\left( {5,3}\\right) ,\\left( {3,5}\\right) .$\n\n这实际上推出了教材表 11-1 的后两列数据. 依据已有的正多边形的例子, 可以把表 11-1 的数据补充完整. 必须注意的是, 这并没有证明只有这五种正多面体. 为了证明只有五种正多面体, 必须证明对这里得到的每一数组, 只有一种正多面体满足要求. 这不得不借助于欧拉定理了.\n\n欧拉定理在本教材中只作为“课后阅读”出现. 定理的结论非常简洁, 但其证明是拓扑学的, 思路与欧式几何完全不同. 教材没有给出证明过程, 但提示了一些拓扑学的思想(例如 “简单多面体” 是在拓扑学意义下的概念),教师可以向学生作简单介绍, 以拓宽学生的视野.\n\n### 教学建议\n\n我们前面两节研究的是简单多面体, 非简单多面体教材在介绍欧拉定理时举了一个中间有一个长方体空洞的十六面体的例子. 对于旋转体, 除了前面学习的圆柱、圆锥和圆台, 又拓展为一条平面曲线绕其所在平面上的一条直线旋转一周所形成的空间图形, 其表面称为旋转面, 如一个圆绕同一平面内与它不相交的一条直线旋转而成的轮胎面.\n\n本节虽然没有安排例题, 但练习 11.3 中的三道题目都有一定的难度并可以作进一步拓展, 教师可以根据学生的实际水平组织讨论.\n\n本节可以拓展的内容较多, 应视学生的实际情况量力而行. 例如, 可以根据各种花瓶的形状介绍一些复合旋转体; 可以按照欧拉定理对几何体进行分类; 可以展示像莫比乌斯带、克莱因瓶那样的单面曲面; 也可以欣赏各种几何体在建筑、雕塑等艺术作品中的应用.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 192,
+        "end": 219
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx3-11-3-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "本章前两节我们研究了一些重要的简单几何体, 主要是棱柱、棱锥、圆柱和圆锥. 这些几何体又可分为多面体与旋转体.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 580,
+        "end": 582
+      }
+    ],
+    "id": "bx3-11-3-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 多面体",
+    "markdown": "### 1 多面体",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 583,
+        "end": 583
+      }
+    ],
+    "id": "bx3-11-3-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在 11.1 节中, 我们把多面体定义为由三角形或平面多边形围成的封闭几何体, 我们还知道了棱柱、棱锥、棱台等几何体都是多面体. 本节将从多面体中面的数量和特点这个不同角度对多面体做一些探讨.\n\n多面体可以用它的面的数量进行命名，有几个面的多面体就叫做几面体. 例如, 三棱锥有一个底面和三个侧面, 所以是四面体; 长方体 (四棱柱) 有六个面,是六面体. 一般地,一个 $n$ 棱锥有一个底面和 $n$ 个侧面,所以是 $n + 1$ 面体; $n$ 棱柱或 $n$ 棱台有两个底面和 $n$ 个侧面,所以是 $n + 2$ 面体.\n\n容易看出, 一个多面体至少有四个面. 这是因为, 如果在一个多面体中任意选定一个面, 那么这个面至少有三条边, 即它的边界上至少有多面体的三条棱. 每条棱还是这个面与另一个面的交线, 于是得到了另外三个面. 这三个面互不重合, 否则有一个面与预先选定的面有两条公共棱, 从而与选定的面重合, 这是不可能的. 于是, 我们至少在这个多面体上找到了四个面.\n\n由此可见, 面数最少的多面体是四面体, 即三棱锥. 四面体在立体几何中的作用相当于三角形在平面几何中的作用. 例如, 平面上的多边形都可以由三角形拼合而成, 而空间中的多面体都可以由四面体拼合而成.\n\n与平面上的正多边形类似, 在空间中可以考虑正多面体. 如果一个多面体的所有面都是全等的正三角形或正多边形, 每个顶点聚集的棱的条数都相等, 这个多面体就叫做正多面体 (regular polyhedron). 图 11-3-1 给出了五种不同的正多面体. 事实上， 用本节“课后阅读”中所介绍多面体的欧拉定理, 可以验证只有这五种正多面体.\n\n---\n\n正多面体又称为柏拉图立体 (platonic solid), 因古希腊哲学家柏拉图(Plato，公元前 427-公元前 347) 对它们所做的研究而得名.\n\n---\n\n![bo_d4slmdf7aajc73fspjug_20_234_238_783_637_0.jpg](images/book-910f2412329cec823764.jpg)\n\n图 11-3-1",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 584,
+        "end": 604
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 96,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-4-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 98,
+        "end": 267,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-4-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 548,
+        "end": 718,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-4-2",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 725,
+        "end": 802,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-4-3",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx3-11-3-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "2 旋转体",
+    "markdown": "### 2 旋转体",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 605,
+        "end": 605
+      }
+    ],
+    "id": "bx3-11-3-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "虽然圆柱和圆锥也是常见的几何体, 但它们具有与多面体完全不同的特征:组成这两类几何体的表面不全是平面多边形. 我们在前两节中把圆柱(圆锥)定义成由一个矩形(直角三角形)绕它的一条边 (一条直角边) 旋转一周所形成的几何体. 这里的关键词是“旋转”，由此我们抽象出一般旋转体的概念:由一个平面封闭图形绕其所在平面上的一条定直线旋转一周所形成的空间封闭几何体称为旋转体 (revolving solid) (图 11-3-2), 这条直线叫做该旋转体的轴.\n\n![bo_d4slmdf7aajc73fspjug_20_369_1585_505_506_0.jpg](images/book-8cdf81d2f66257ab9f99.jpg)\n\n图 11-3-2\n\n在车床加工零件或陶瓷工坊制作陶器时, 我们都可以直观地体验旋转体和它的轴.\n\n![bo_d4slmdf7aajc73fspjug_21_549_371_948_329_0.jpg](images/book-473e1bf8672a5a71fb85.jpg)\n\n与旋转体类似地可以定义空间中的旋转面: 一条平面曲线 (包括直线、折线等)绕其所在平面上的一条直线旋转一周所形成的空间图形称为旋转面. 图 11-3-2 右边的空间几何体的表面就是旋转面, 它可由左边对应平面图形的外框线绕旋转轴旋转而得到.\n\n旋转面是大学空间解析几何课程中的内容之一. 我们这里只关注最简单的情况: 一条直线 $a$ 绕同一平面内的另一条直线 $l$ 旋转一周所形成的曲面: 圆柱面或圆锥面. 当直线 $a$ 与直线 $l$ 平行时,得到的是圆柱面; 当直线 $a$ 与直线 $l$ 相交 (但不垂直) 时,得到的是圆锥面 (图 11-3-3). 直线 $a$ 称为圆柱面或圆锥面的母线. 在圆锥面的情况中,母线与转轴的交点 $O$ 旋转以后仍然是一个点 (仍记为 $O$ ),这个点称为圆锥面的顶点.\n\n![bo_d4slmdf7aajc73fspjug_21_797_1445_454_598_0.jpg](images/book-afadb61004881012a45c.jpg)\n\n图 11-3-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 606,
+        "end": 624
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 226,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-6-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 460,
+        "end": 580,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-6-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 582,
+        "end": 820,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-6-2",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx3-11-3-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "### 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 625,
+        "end": 625
+      }
+    ],
+    "id": "bx3-11-3-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "多面体的欧拉定理",
+    "markdown": "#### 多面体的欧拉定理",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 627,
+        "end": 627
+      }
+    ],
+    "id": "bx3-11-3-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "多面体的世界是丰富多彩的, 但会遵循一些非常简单的基本规律, 多面体的欧拉定理就描述了这样一个规律.\n\n多面体的欧拉定理: 简单多面体的顶点数 $V$ 、棱数 $E$ 与面数 $F$ 有关系\n\n$$\nV + F - E = 2.\n$$\n\n这里首先要知道什么是“简单多面体”. 要弄清这个概念, 设想多面体的面都是用具有良好弹性的橡胶做成的. 如果往这个多面体充足够多的气体以后能够使这个多面体膨胀成一个球体, 那么这个多面体就是一个简单多面体.\n\n我们迄今所见的多面体(如棱柱、棱锥、正多面体等)都是简单多面体. 但要构造一个非简单多面体也不难. 如图 11-3-4, 这是一个中间有一个长方体空洞的十六面体, 往这样的橡胶多面体充气，得到的是一个游泳圈，而不是球. 算一算，对于图 11-3-4 的多面体, $V + F - E$ 等于多少.\n\n![bo_d4slmdf7aajc73fspjug_22_555_1148_507_236_0.jpg](images/book-9b9c75003c7a6d3d141b.jpg)\n\n图 11-3-4\n\n多面体的欧拉定理的证明与中学数学教材中常见的几何证明有着本质的不同, 它设想所讨论的多面体是用一种可随意变形但不会撕破或粘连的材料(如橡胶)做成的，于是可以把它拉伸或压缩，转换为一个能更好把握的几何体进行研究. 这里我们不做深入讨论, 但要指出, 这个定理及其证明实际上归入一个新的几何学一一拓扑学的领域. 拓扑学关注的是 “相邻” 状态与 “连续” 变形, 而不是度量 (长度、角度以及派生的面积、体积等), 因此拓扑学常被人戏称为 “橡皮筋上的几何学”.\n\n![bo_d4slmdf7aajc73fspjug_22_1221_1491_169_205_0.jpg](images/book-5aa9a1c1aa450b9e24c7.jpg)\n\n欧拉 (L. Euler, 1707 — 1783), 瑞士数学家，是科学史上最多产的一位杰出数学家， 在许多领域都作出了奠基性的贡献.\n\n多面体的欧拉定理及其推广是拓扑学中的重要定理, 其所揭示的“欧拉示性数”已成为拓扑学的基础概念.\n\n有了多面体的欧拉定理,再对正多面体的顶点数 $V$ 、棱数 $E$ 、面数 $F$ 以及每面的边数和每顶点聚集的棱数之间的关系做一些分析, 就可以证明正多面体只有图 11-3-1 所示的 5 种, 有兴趣的同学不妨一试. 正多面体的相关数据如表 11-1 所示:\n\n表 11-1\n\n<table><tr><td>类型</td><td>面数</td><td>棱数</td><td>顶点数</td><td>每面边数</td><td>每顶点棱数</td></tr><tr><td>正四面体</td><td>4</td><td>6</td><td>4</td><td>3</td><td>3</td></tr><tr><td>正六面体</td><td>6</td><td>12</td><td>8</td><td>4</td><td>3</td></tr><tr><td>正八面体</td><td>8</td><td>12</td><td>6</td><td>3</td><td>4</td></tr><tr><td>正十二面体</td><td>12</td><td>30</td><td>20</td><td>5</td><td>3</td></tr><tr><td>正二十面体</td><td>20</td><td>30</td><td>12</td><td>3</td><td>5</td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 628,
+        "end": 658
+      }
+    ],
+    "emphases": [
+      {
+        "start": 476,
+        "end": 705,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-11-3-definition-9-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx3-11-3-b9",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "练习 11.3",
+    "markdown": "### 练习 11.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 659,
+        "end": 659
+      }
+    ],
+    "id": "bx3-11-3-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习11.3 · 1",
+    "markdown": "1. 我国古代数学著作《九章算术》中研究过一种叫“鳖 (biē) 臑(nào)”的几何体 (见《九章算术》卷第五“商功”之一六)，它指的是由四个直角三角形围成的四面体. 用你学过的立体几何知识说明这种四面体确实存在.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 661,
+        "end": 662
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 661,
+        "end": 662
+      }
+    ],
+    "id": "bx3-11-3-p113-1",
+    "category": "练习11.3",
+    "answer": "1. 如图 11-R3, 先作一个底面为直角三角形的直棱柱 (《九章算术》中称为 “堑堵”) ${AEF} - {BDC}$ ,其中 $\\angle {BCD}$ 是直角. 用平面 ${ACD}$ 截此直三棱柱,则几何体 $A - {BCD}$ 就是满足要求的“鳖臑”,这是因为 ${AB} \\bot$ 平面 ${BCD}$ ,所以 $\\bigtriangleup  {ABD}$ 、 $\\bigtriangleup  {ABC}$ 是直角三角形；又已知 $\\angle {BCD}$ 为直角,所以 $\\bigtriangleup  {BCD}$ 是直角三角形；最后,由 ${CD} \\bot$ 平面 ${ABCF}$ ,推出 ${CD} \\bot  {CA}$ ,即 $\\angle {ACD}$ 为直角,所以 $\\bigtriangleup {ACD}$ 是直角三角形. 这样几何体 $A - {BCD}$ 的四个面都是直角三角形,即它是一个“鳖臑”. (在上述过程中, “堑堵”截取“鳖臑”后余下的几何体是底面为矩形、一棱垂直于底面的四棱锥, 这样的几何体在《九章算术》中称为“阳马”)\n\n![bo_d402s6jef24c73d2tl40_68_1011_1334_403_269_0.jpg](images/private-11c088159d99455591ce.jpg)\n\n图 11-R3",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 382,
+        "end": 387
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习11.3 · 2",
+    "markdown": "2. 有两个面平行, 其余各面都是平行四边形的多面体一定是柱体吗? 请给出你的理由或反例.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 663,
+        "end": 668
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 663,
+        "end": 668
+      }
+    ],
+    "id": "bx3-11-3-p113-2",
+    "category": "练习11.3",
+    "answer": "2. 不一定是棱柱. 从棱柱的定义很容易推出棱柱的侧面都是平行四边形, 所以棱柱的定义条件强于本题所给的条件. 图 11-R4 给出两个反例, 其要领都是除了两个平行面的边以外, 多面体的其他棱还可能相交 (从而不符合棱柱的定义条件).\n\n![bo_d402s6jef24c73d2tl40_69_462_289_630_278_0.jpg](images/private-fb2b51d0dd2b7ec32793.jpg)\n\n图 11-R4",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 388,
+        "end": 393
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习11.3 · 3",
+    "markdown": "3. 如图是一个置于地面上的救生圈, 它是绕一条垂直于地平面的直线 $l$ 旋转而成的旋转体.\n\n(1)如果用一个经过旋转轴 $l$ 的平面去截这个救生圈, 得到的截面是什么图形? 请画出示意图.\n\n(2)如果用一个平行于地面的平面去截这个救生圈, 得到的截面可能是什么图形? 请画出示意图.\n\n![bo_d4slmdf7aajc73fspjug_23_1000_1073_498_253_0.jpg](images/book-98fa0429fffba238f83f.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 669,
+        "end": 674
+      },
+      {
+        "source": "book",
+        "start": 665,
+        "end": 667
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 669,
+        "end": 674
+      },
+      {
+        "source": "book",
+        "start": 665,
+        "end": 667
+      }
+    ],
+    "id": "bx3-11-3-p113-3",
+    "category": "练习11.3",
+    "answer": "3.(1)截面是两个关于旋转轴对称的圆. 示意图略. (2)当截面离地面的高度大于 0 并小于游泳圈高度时, 截面两个同心圆组成圆环; 当截面离地面的高度等于 0 或等于游泳圈高度时,圆环收缩成一个圆；在其余情况,截面是空的. 示意图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 394,
+        "end": 395
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 11.3",
+    "markdown": "### 习题 11.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 675,
+        "end": 675
+      }
+    ],
+    "id": "bx3-11-3-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 677,
+        "end": 677
+      }
+    ],
+    "id": "bx3-11-3-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题11.3A · 1",
+    "markdown": "1. 如图,以正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 六个面的中心为顶点所构成的多面体有多少条棱和多少个面? 设正方体的棱长为 1,设个多面体的表面积和体积是多少?\n\n![bo_d4slmdf7aajc73fspjug_23_410_1810_320_287_0.jpg](images/book-74ea898c93a3c1e50160.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 679,
+        "end": 688
+      },
+      {
+        "source": "book",
+        "start": 681,
+        "end": 683
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 679,
+        "end": 688
+      },
+      {
+        "source": "book",
+        "start": 681,
+        "end": 683
+      }
+    ],
+    "id": "bx3-11-3-h113A-1",
+    "category": "习题11.3A",
+    "answer": "1. 12 条棱,8 个面. 表面积为 $\\sqrt{3}$ ,体积为 $\\frac{1}{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 400,
+        "end": 401
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题11.3A · 2",
+    "markdown": "2. 如图,设 $E\\text{ 、 }F\\text{ 、 }G$ 分别是正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的共点的三条棱 ${A}_{1}{B}_{1}$ 、 ${B}_{1}B\\text{ 、 }{B}_{1}{C}_{1}$ 的中点,过这三个点的平面截正方体得到的一个“角”是四面体 ${B}_{1}{EFG}$ . 设正方体的棱长为 1 .\n\n(1)求证:四面体 ${B}_{1}{EFG}$ 是以 ${B}_{1}$ 为顶点、以 ${EFG}$ 为底面的正三棱锥；\n\n(2)在四面体 ${B}_{1}{EFG}$ 中，求顶点 ${B}_{1}$ 到底面 ${EFG}$ 的距离；\n\n(3)如果将正方体按照题设的方法截去八个“角”，那么剩余的多面体有几个顶点、几条棱、几个面? 并求这个剩余多面体的表面积与体积.\n\n![bo_d4slmdf7aajc73fspjug_23_946_1810_322_287_0.jpg](images/book-c33f4ccc82be1c9bb247.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 689,
+        "end": 696
+      },
+      {
+        "source": "book",
+        "start": 685,
+        "end": 687
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 689,
+        "end": 696
+      },
+      {
+        "source": "book",
+        "start": 685,
+        "end": 687
+      }
+    ],
+    "id": "bx3-11-3-h113A-2",
+    "category": "习题11.3A",
+    "answer": "2. ( 1 )即证 $\\bigtriangleup  {EFG}$ 是正三角形, ${B}_{1}$ 在 $\\bigtriangleup  {EFG}$ 平面的射影是 $\\bigtriangleup  {EFG}$ 的中心. (2) $\\frac{\\sqrt{3}}{6}$ . (3)剩余的多面体有 12 个顶点、24 条棱、14 个面. 表面积为 $3 + \\sqrt{3}$ ,体积 $\\frac{5}{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 402,
+        "end": 403
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题11.3A · 3",
+    "markdown": "3. 在如图所示的多面体中, 已知 ABCD 为矩形, ${ABFE}$ 和 ${DCFE}$ 为全等的等腰梯形, ${AB} = 4,{BC} = {AE} = \\; {EF} = 2$ . 求此多面体的表面积与体积.\n\n![bo_d4slmdf7aajc73fspjug_24_1044_594_424_198_0.jpg](images/book-b4aedc151e180324908b.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 697,
+        "end": 702
+      },
+      {
+        "source": "book",
+        "start": 699,
+        "end": 701
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 697,
+        "end": 702
+      },
+      {
+        "source": "book",
+        "start": 699,
+        "end": 701
+      }
+    ],
+    "id": "bx3-11-3-h113A-3",
+    "category": "习题11.3A",
+    "answer": "3. 表面积为 $8 + 8\\sqrt{3}$ ,体积为 $\\frac{{10}\\sqrt{2}}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 404,
+        "end": 405
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题11.3A · 4",
+    "markdown": "4. 一个直角三角形有一个 $\\frac{\\pi }{6}$ 的内角,这个内角所对直角边的长度为 1 . 把这个三角形绕其斜边旋转一周, 求所得旋转体的表面积与体积.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 703,
+        "end": 704
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 703,
+        "end": 704
+      }
+    ],
+    "id": "bx3-11-3-h113A-4",
+    "category": "习题11.3A",
+    "answer": "4. 表面积为 $\\frac{3 + \\sqrt{3}}{2}\\pi$ ,体积为 $\\frac{\\pi }{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 406,
+        "end": 407
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 705,
+        "end": 705
+      }
+    ],
+    "id": "bx3-11-3-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 706,
+        "end": 710
+      }
+    ],
+    "id": "bx3-11-3-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题11.3B · 1",
+    "markdown": "1. 如图, 给定一个正方体形状的土豆块, 只切一刀, 可以得到下面哪些类型的多面体?\n\n① 四面体; ② 四棱锥; ③ 四棱柱;\n\n④ 五棱锥; ⑤ 五棱柱; ⑥ 六棱锥；\n\n⑦ 七面体.\n\n___(找出可能的结果，并将序号填在横线上)\n\n![bo_d4slmdf7aajc73fspjug_24_1234_1054_236_250_0.jpg](images/book-d6e91273af59db010235.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 711,
+        "end": 720
+      },
+      {
+        "source": "book",
+        "start": 707,
+        "end": 709
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 711,
+        "end": 720
+      },
+      {
+        "source": "book",
+        "start": 707,
+        "end": 709
+      }
+    ],
+    "id": "bx3-11-3-h113B-1",
+    "category": "习题11.3B",
+    "answer": "1. ①③⑤⑦.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 410,
+        "end": 411
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题11.3B · 2",
+    "markdown": "2. 如图, 有两张全等的正三角形纸片, 按照下面两种方法分别将它们剪拼成一个三棱锥和一个三棱柱. 试比较这两个多面体的体积的大小.\n\n![bo_d4slmdf7aajc73fspjug_24_425_1491_770_211_0.jpg](images/book-c1052f665cec81d970c2.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 721,
+        "end": 726
+      },
+      {
+        "source": "book",
+        "start": 723,
+        "end": 725
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 721,
+        "end": 726
+      },
+      {
+        "source": "book",
+        "start": 723,
+        "end": 725
+      }
+    ],
+    "id": "bx3-11-3-h113B-2",
+    "category": "习题11.3B",
+    "answer": "2. 设正三角形纸片的边长为 $a$ ,则剪拼的三棱锥的边长为 $\\frac{a}{2},{V}_{\\text{三棱锥 }} = \\frac{\\sqrt{2}}{12}{\\left( \\frac{a}{2}\\right) }^{3} = \\; \\frac{\\sqrt{2}}{96}{a}^{3}$ . 设三棱柱的高为 $h$ ,底面边长为 $x$ ,则 $\\sqrt{3}h = \\frac{a - x}{2}$ . 因为 $\\frac{\\sqrt{3}}{4}{x}^{2} = {3h} \\cdot  \\sqrt{3}h \\Rightarrow  x = \\; 2\\sqrt{3}h \\Rightarrow  x = \\frac{a}{2}$ ,故 ${V}_{\\text{三棱柱 }} = \\frac{\\sqrt{3}}{4}{\\left( \\frac{a}{2}\\right) }^{2}\\frac{a}{4\\sqrt{3}} = \\frac{1}{64}{a}^{3}$ ,所以 ${V}_{\\text{三棱锥 }} < {V}_{\\text{三棱柱 }}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 412,
+        "end": 413
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

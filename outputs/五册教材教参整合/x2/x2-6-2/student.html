@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x2-6-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>6.2 排列 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x2.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第二册 / 第6章计数原理</div><div class="spine-number">6.2</div><nav aria-label="本节目录"><a href="#x2-6-2"><span>6.2</span>排列</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 6.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 6.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>排列<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第二册<br>第6章计数原理 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>9 个例题</span><span>21 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x2-6-2" data-title="排列"><section class="section-heading" id="x2-6-2"><span class="section-number">6.2</span><div><h2>排列</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="x2-6-2-b2">1 排列的定义</h3><div class="prose" data-visual-source-sha="9ab2d428a5e044200b503a05b1dc44d9038c60ae727a470aa34b65299057cebe" id="x2-6-2-b3"><p>考虑下面两个问题:</p>
+<p>问题 1: 从甲、乙、丙 3 名学生中任选 2 名, 一名担任正班长, 另一名担任副班长. 有多少种不同的选法?</p>
+<p>这个问题就是从甲、乙、丙 3 名学生中，每次任选 2 名，按照正班长在左、副班长在右的顺序排列, 求一共有多少种不同的排法.</p>
+<p>首先确定正班长, 在 3 名学生中, 任选一名作为正班长, 有 3 种方法; 然后确定副班长, 当正班长选定后, 副班长就只能在其余的两人中选取, 有 2 种方法. 于是, 根据乘法原理, 从甲、 乙、丙 3 名学生中，每次任选 2 名，按照正班长在左、副班长在右的顺序排列的不同方法共有</p>
+<div class="math display" data-tex="3 \times  2 = 6" data-display="true"></div>
+<p>种, 即有 6 种不同的选法.</p>
+<p>问题 1 是从 3 个不同的元素 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c" data-display="false"></span> 中任取 2 个,并按序排列, 求一共有多少种不同的排列方法. 所有的排列是</p>
+<div class="math display" data-tex="{ab}\text{ 、 }{ac}\text{ 、 }{ba}\text{ 、 }{bc}\text{ 、 }{ca}\text{ 、 }{cb}\text{ . }" data-display="true"></div>
+<p>这些排列的总数为 <span class="math" data-tex="3 \times  2 = 6" data-display="false"></span> .</p>
+<p>问题 2: 已知抛物线的方程为 <span class="math" data-tex="y = a{x}^{2} + {bx} + c" data-display="false"></span> ,其中 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 、 <span class="math" data-tex="c \in  \{ 1,2,3,4\}" data-display="false"></span> ,且 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c" data-display="false"></span> 两两不同. 求这样的抛物线的个数.</p>
+<p>这个问题就是从 4 个不同的数字中，每次任取 3 个不同的数字,按照 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数、 <span class="math" data-tex="x" data-display="false"></span> 的系数和常数项这样的顺序排列起来, 求一共有多少种不同的排法.</p>
+<p>第一步,先确定 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数,从 <span class="math" data-tex="1\text{ 、 }2\text{ 、 }3\text{ 、 }4" data-display="false"></span> 这 4 个数字中任取 1 个, 有 4 种方法;</p>
+<p>第二步,确定 <span class="math" data-tex="x" data-display="false"></span> 的系数,当 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数确定以后, <span class="math" data-tex="x" data-display="false"></span> 的系数只能从余下的 3 个数字中任取 1 个,有 3 种方法;</p>
+<p>第三步,确定常数项,当 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数和 <span class="math" data-tex="x" data-display="false"></span> 的系数都确定以后, 常数项只能从余下的 2 个数字中任取 1 个, 有 2 种方法.</p>
+<p>根据乘法原理, 从 4 个不同的数字中, 每次任取 3 个不同的数字,分别作为 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数、 <span class="math" data-tex="x" data-display="false"></span> 的系数和常数项的方法共有</p>
+<div class="math display" data-tex="4 \times  3 \times  2 = {24}" data-display="true"></div>
+<p>种. 具体方法如图 6-2-1 所示( ☐☐ ☐ 中的数字从左至右依次为 <span class="math" data-tex="{x}^{2}" data-display="false"></span> 的系数、 <span class="math" data-tex="x" data-display="false"></span> 的系数和常数项).</p>
+<p><img src="images/book-c02d8eb8de90fa1e43c9.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 6-2-1</p>
+<p>以上两个问题的共同点在于, 都是从若干个不同元素中选取部分 (或全部) 元素, 并按序排列, 求一共有多少种不同的排法.</p>
+<aside class="key-point key-concept" id="x2-6-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 <span class="math" data-tex="M" data-display="false"></span> 几个互不相同的元素中,取出 <span class="math" data-tex="m\left( {m \leq  n}\right)" data-display="false"></span> 个不同元素按照一定的顺序排成一列,叫做从 <span class="math" data-tex="n" data-display="false"></span> 个元素中取出 <span class="math" data-tex="m" data-display="false"></span> 个元素的一个排列(permutation).</p>
+</aside><p>从排列的定义可以看出, 如果两个排列是相同的, 不仅组成这两个排列的元素完全相同, 而且排列的顺序也是完全相同的. 如果所取的元素不完全相同, 那么这两个排列是两个不同的排列 (如问题 1 中的 <span class="math" data-tex="{ab}" data-display="false"></span> 与 <span class="math" data-tex="{ac}" data-display="false"></span> ); 如果所取的元素完全相同,但排列顺序不同, 那么这两个排列也是不同的排列 (如问题 2 中的 3[2] 与 3[12]).</p>
+</div><article class="question" id="x2-6-2-ex-1" data-question-id="x2-6-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 写出从 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c\text{ 、 }d" data-display="false"></span> 四个元素中任取两个不同元素的所有排列.</p>
+</div></article><article class="question" id="x2-6-2-ex-2" data-question-id="x2-6-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 将 6 本不同的书排成一排, 有多少种不同的排法?</p>
+</div></article><article class="question" id="x2-6-2-ex-3" data-question-id="x2-6-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 10 名学生排成两排照相, 每排 5 人，共有多少种不同的排列方式?</p>
+</div></article><h3 class="group-heading" id="x2-6-2-b7">练习 6.2(1)</h3><article class="question" id="x2-6-2-p621-1" data-question-id="x2-6-2-p621-1" data-category="practice"><div class="question-label">练习6.2(1) · 1</div><div class="question-body"><ol>
+<li>写出从 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c\text{ 、 }d\text{ 、 }e" data-display="false"></span> 这五个不同元素中任意取出两个元素的所有排列.</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-p621-2" data-question-id="x2-6-2-p621-2" data-category="practice"><div class="question-label">练习6.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="M = \{ 1,2,3,4\}" data-display="false"></span> ,且 <span class="math" data-tex="m \in  M, n \in  M" data-display="false"></span> ,方程 <span class="math" data-tex="\frac{{x}^{2}}{m} + \frac{{y}^{2}}{n} = 1" data-display="false"></span> 表示的曲线是椭圆. 问: 可以有多少个不同的椭圆?</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-2-b10">2 排列数的计算</h3><div class="prose" data-visual-source-sha="8a9f7508f047cac048c47406957c205c90ed1260790a5fde5a3e963d88bc660a" id="x2-6-2-b11"><p>怎样计算从 <span class="math" data-tex="n" data-display="false"></span> 个不同元素中取出 <span class="math" data-tex="m" data-display="false"></span> 个元素的排列的个数? 一般地，我们有下面的定义:</p>
+<aside class="key-point key-concept" id="x2-6-2-definition-11-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 从 <span class="math" data-tex="n" data-display="false"></span> 个互不相同的元素中,取出 <span class="math" data-tex="m\left( {m \leq  n}\right)" data-display="false"></span> 个不同元素的所有排列的个数,叫做从 <span class="math" data-tex="n" data-display="false"></span> 个元素中取出 <span class="math" data-tex="m" data-display="false"></span> 个元素的排列数,用符号 <span class="math" data-tex="{\mathbf{P}}_{n}^{m}" data-display="false"></span> 表示.</p>
+</aside><hr />
+<p>P 是英文 permutation 的第一个字母. 在有些资料中也用符号 <span class="math" data-tex="{\mathrm{A}}_{n}^{m}" data-display="false"></span> 表示排列数.</p>
+<hr />
+<p>例如,问题 1 中的选法数可以表示为 <span class="math" data-tex="{\mathrm{P}}_{3}^{2} = 6" data-display="false"></span> ; 问题 2 中的抛物线个数可以表示为 <span class="math" data-tex="{\mathrm{P}}_{4}^{3} = {24}" data-display="false"></span> . 下面研究排列数的计算公式.</p>
+<p>求排列数 <span class="math" data-tex="{\mathrm{P}}_{n}^{3}" data-display="false"></span> ,可以这样考虑: 假定有排好顺序的 3 个位子 (图 6-2-4),从 <span class="math" data-tex="n" data-display="false"></span> 个互不相同的元素 <span class="math" data-tex="{a}_{1}\text{ 、 }{a}_{2}\text{ 、 }\cdots \text{ 、 }{a}_{n}" data-display="false"></span> 中任取 3 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 <span class="math" data-tex="{\mathrm{P}}_{n}^{3}" data-display="false"></span> .</p>
+<p><img src="images/book-d3d18ee3dd005f545eee.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 6-2-4</p>
+<p>为了计算 <span class="math" data-tex="{\mathrm{P}}_{n}^{3}" data-display="false"></span> ,可以分成以下三个步骤:</p>
+<p>第一步,确定 1 号位上的元素,这可以从 <span class="math" data-tex="n" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n" data-display="false"></span> 种方法;</p>
+<p>第二步,确定 2 号位上的元素,这可以从剩下的 <span class="math" data-tex="n - 1" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n - 1" data-display="false"></span> 种方法;</p>
+<p>第三步,确定 3 号位上的元素,这可以从剩下的 <span class="math" data-tex="n - 2" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n - 2" data-display="false"></span> 种方法.</p>
+<p>根据乘法原理, 可以得到排列数为</p>
+<div class="math display" data-tex="{\mathrm{P}}_{n}^{3} = n\left( {n - 1}\right) \left( {n - 2}\right) ." data-display="true"></div>
+<p>同样,求 <span class="math" data-tex="{\mathrm{P}}_{n}^{m}" data-display="false"></span> ,可以这样考虑: 假定有排好顺序的 <span class="math" data-tex="m" data-display="false"></span> 个位子 (图 6-2-5),从 <span class="math" data-tex="n" data-display="false"></span> 个互不相同的元素 <span class="math" data-tex="{a}_{1}\text{ 、 }{a}_{2}\text{ 、 }\cdots \text{ 、 }{a}_{n}" data-display="false"></span> 中任取 <span class="math" data-tex="m" data-display="false"></span> 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 <span class="math" data-tex="{\mathrm{P}}_{n}^{m}" data-display="false"></span> .</p>
+<p><img src="images/book-b515d2899e579de7a7c0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 6-2-5</p>
+<p>为了计算 <span class="math" data-tex="{\mathrm{P}}_{n}^{m}" data-display="false"></span> ,可以分成以下 <span class="math" data-tex="m" data-display="false"></span> 个步骤:</p>
+<p>第一步,确定 1 号位上的元素,这可以从 <span class="math" data-tex="n" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n" data-display="false"></span> 种方法;</p>
+<p>第二步,确定 2 号位上的元素,这可以从剩下的 <span class="math" data-tex="n - 1" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n - 1" data-display="false"></span> 种方法;</p>
+<p>第三步，确定 3 号位上的元素，这可以从剩下的 <span class="math" data-tex="n - 2" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n - 2" data-display="false"></span> 种方法;</p>
+<p>以此类推,当前面的 <span class="math" data-tex="m - 1" data-display="false"></span> 个位子都被填好后, <span class="math" data-tex="m" data-display="false"></span> 号位可以从余下的 <span class="math" data-tex="n - \left( {m - 1}\right)" data-display="false"></span> 个互不相同的元素中任取一个填空,有 <span class="math" data-tex="n - \; m + 1" data-display="false"></span> 种方法.</p>
+<p>根据乘法原理, 可以得到排列数为</p>
+<div class="math display" data-tex="{\mathrm{P}}_{n}^{m} = n\left( {n - 1}\right) \left( {n - 2}\right) \cdots \left( {n - m + 1}\right) ," data-display="true"></div>
+<aside class="key-point key-concept" id="x2-6-2-definition-11-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>其中 <span class="math" data-tex="m" data-display="false"></span> 及 <span class="math" data-tex="n" data-display="false"></span> 是正整数，且 <span class="math" data-tex="m \leq  n" data-display="false"></span> . 这个公式叫做排列数公式.</p>
+</aside></div><article class="question" id="x2-6-2-ex-4" data-question-id="x2-6-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 用 0、1、2、3、4、5 这 6 个数字，可以组成多少个没有重复数字的三位数?</p>
+</div></article><article class="question" id="x2-6-2-ex-5" data-question-id="x2-6-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 (1)7 个人站成一排. 若甲和乙不能相邻排列，有多少种不同的排法?</p>
+<p>(2)要将 8 本各不相同的教科书排成一排放在书架上，其中数学书 3 本、外语书 2 本、物理书 3 本. 如果 3 本数学书要排在一起, 2 本外语书也要排在一起, 那么有多少种不同的排法?</p>
+</div></article><article class="question" id="x2-6-2-ex-6" data-question-id="x2-6-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 将 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c\text{ 、 }d\text{ 、 }e\text{ 、 }f" data-display="false"></span> 六个不同元素排成一列,其中 <span class="math" data-tex="a" data-display="false"></span> 不在首位, <span class="math" data-tex="b" data-display="false"></span> 不在末位. 问: 有多少种不同的排法?</p>
+</div></article><h3 class="group-heading" id="x2-6-2-b15">练习 6.2(2)</h3><article class="question" id="x2-6-2-b16" data-question-id="x2-6-2-b16" data-category="practice"><div class="question-label">练习6.2(2) · 1</div><div class="question-body"><ol>
+<li>5 名篮球队员甲、乙、丙、丁、戊，排成一排.</li>
+</ol>
+<p>(1)共有多少种不同的排法？</p>
+<p>(2)若甲必须站在排头，有多少种不同的排法？</p>
+<p>(3)若甲不能站排头，也不能站排尾，有多少种不同的排法？</p>
+</div></article><article class="question" id="x2-6-2-p622-2" data-question-id="x2-6-2-p622-2" data-category="practice"><div class="question-label">练习6.2(2) · 2</div><div class="question-body"><p>2.(1)配制某种染色剂，需要加入 3 种有机染料、 2 种无机染料和 2 种添加剂，其中有机染料的添加顺序不可以相邻. 为研究所有不同的添加顺序对染色效果的影响, 总共要试验多少次?</p>
+<p>(2)某展览馆计划展出 10 幅不同的画, 其中水彩画 1 幅、油画 4 幅、国画 5 幅. 现排成一排陈列, 要求同一品种的画必须连在一起, 并且水彩画不放在两端. 问: 有多少种不同的陈列方式?</p>
+</div></article><h3 class="group-heading" id="x2-6-2-b18">3 排列数的性质</h3><div class="prose" data-visual-source-sha="89ffadc8c96f7b4dcafb2d8bc58ea3f40b73d91d6a6444320ffcf796124c6212" id="x2-6-2-b19"><aside class="key-point key-concept" id="x2-6-2-definition-19-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>把 <span class="math" data-tex="n" data-display="false"></span> 个不同元素全部进行排列,叫做这 <span class="math" data-tex="n" data-display="false"></span> 个元素的全排列. 在排列数公式 <span class="math" data-tex="{\mathrm{P}}_{n}^{m} = n\left( {n - 1}\right) \left( {n - 2}\right) \cdots \left( {n - m + 1}\right) \left( {1 \leq  m \leq  n}\right)" data-display="false"></span> 中, 令 <span class="math" data-tex="m = n" data-display="false"></span> ,得知 <span class="math" data-tex="n" data-display="false"></span> 个元素的全排列总数是</p>
+</aside><div class="math display" data-tex="{\mathrm{P}}_{n}^{n} = n\left( {n - 1}\right) \left( {n - 2}\right) \cdots 3 \cdot  2 \cdot  1." data-display="true"></div>
+<p>为方便起见,把乘积 <span class="math" data-tex="n\left( {n - 1}\right) \left( {n - 2}\right) \cdots 3 \cdot  2 \cdot  1" data-display="false"></span> 记作 <span class="math" data-tex="n!" data-display="false"></span> ,读作 <span class="math" data-tex="n" data-display="false"></span> 的阶乘,那么 <span class="math" data-tex="n" data-display="false"></span> 个不同元素的全排列数可以写成</p>
+<div class="math display" data-tex="{\mathrm{P}}_{n}^{n} = n!" data-display="true"></div>
+<aside class="key-point key-formula" id="x2-6-2-formula-19-1" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>教材公式</h3><p>利用阶乘符号可以将排列数公式作如下变形:</p>
+<div class="math display" data-tex="{\mathrm{P}}_{n}^{m} = n\left( {n - 1}\right) \left( {n - 2}\right) \cdots \left( {n - m + 1}\right)" data-display="true"></div>
+</aside><div class="math display" data-tex="= \frac{n\left( {n - 1}\right) \left( {n - 2}\right) \cdots \left( {n - m + 1}\right) \left( {n - m}\right) \cdots 2 \cdot  1}{\left( {n - m}\right) \cdots 2 \cdot  1}" data-display="true"></div>
+<div class="math display" data-tex="= \frac{n!}{\left( {n - m}\right) !}" data-display="true"></div>
+<p>即排列数公式还可写成</p>
+<div class="math display" data-tex="{\mathrm{P}}_{n}^{m} = \frac{n!}{\left( {n - m}\right) !}." data-display="true"></div>
+<p>为了使这个公式在 <span class="math" data-tex="m = n" data-display="false"></span> 时也成立,我们规定</p>
+<div class="math display" data-tex="0! = 1\text{ . }" data-display="true"></div>
+<p>所以 <span class="math" data-tex="\mathop{\Pr }\limits_{n}^{m} = \frac{n!}{\left( {n - m}\right) !}" data-display="false"></span> 在 <span class="math" data-tex="m = 0" data-display="false"></span> 时也成立,即 <span class="math" data-tex="\mathop{\Pr }\limits_{n}^{0} = 1" data-display="false"></span> .</p>
+</div><article class="question" id="x2-6-2-ex-7" data-question-id="x2-6-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 设 <span class="math" data-tex="n" data-display="false"></span> 是一个不小于 17 的正整数,用排列数表示 <span class="math" data-tex="\left( {n - {16}}\right) \left( {n - {15}}\right) \cdots \left( {n - 6}\right) ." data-display="false"></span></p>
+</div></article><article class="question" id="x2-6-2-ex-8" data-question-id="x2-6-2-ex-8" data-category="example"><div class="question-label">例题 8</div><div class="question-body"><p>例 8 已知 <span class="math" data-tex="m\text{ 、 }n" data-display="false"></span> 是正整数,且 <span class="math" data-tex="m \leq  n" data-display="false"></span> . 求证:</p>
+<p>(1) <span class="math" data-tex="{\mathrm{P}}_{n}^{m} = n{\mathrm{P}}_{n - 1}^{m - 1}" data-display="false"></span> ;</p>
+<p>(2) <span class="math" data-tex="{\mathrm{P}}_{n}^{m} + m{\mathrm{P}}_{n}^{m - 1} = {\mathrm{P}}_{n + 1}^{m}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-6-2-ex-9" data-question-id="x2-6-2-ex-9" data-category="example"><div class="question-label">例题 9</div><div class="question-body"><p>例 9 解关于正整数 <span class="math" data-tex="n" data-display="false"></span> 的方程: <span class="math" data-tex="{\mathrm{P}}_{{2n} + 1}^{4} = {140}{\mathrm{P}}_{n}^{3}" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="x2-6-2-b23">练习 6.2(3)</h3><article class="question" id="x2-6-2-p623-1" data-question-id="x2-6-2-p623-1" data-category="practice"><div class="question-label">练习6.2(3) · 1</div><div class="question-body"><ol>
+<li>已知 <span class="math" data-tex="n" data-display="false"></span> 是正整数,且 <span class="math" data-tex="\frac{{\mathrm{P}}_{n}^{7} - {\mathrm{P}}_{n}^{5}}{{\mathrm{P}}_{n}^{5}} = {89}" data-display="false"></span> . 求 <span class="math" data-tex="n" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-p623-2" data-question-id="x2-6-2-p623-2" data-category="practice"><div class="question-label">练习6.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="n" data-display="false"></span> 为不小于 2 的正整数,求证: <span class="math" data-tex="{\mathrm{P}}_{n + 1}^{n + 1} - {\mathrm{P}}_{n}^{n} = {n}^{2}{\mathrm{P}}_{n - 1}^{n - 1}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-2-b26">习题 6.2</h3><h3 class="group-heading" id="x2-6-2-b27">A 组</h3><article class="question" id="x2-6-2-h62A-1" data-question-id="x2-6-2-h62A-1" data-category="homework"><div class="question-label">习题6.2A · 1</div><div class="question-body"><ol>
+<li>用 1、2、3、4 可以组成多少个没有重复数字的正整数? 其中有多少个偶数?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-2" data-question-id="x2-6-2-h62A-2" data-category="homework"><div class="question-label">习题6.2A · 2</div><div class="question-body"><ol start="2">
+<li>从 1、2、3、4、5 这 5 个数字中，任取 2 个不同的数字作为一个点的坐标，一共可以组成多少个不同的点?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-3" data-question-id="x2-6-2-h62A-3" data-category="homework"><div class="question-label">习题6.2A · 3</div><div class="question-body"><ol start="3">
+<li>在方程 <span class="math" data-tex="{ax} + {by} = 0" data-display="false"></span> 中,设系数 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 是集合 <span class="math" data-tex="\{ 0,1,2,3,5,7\}" data-display="false"></span> 中两个不同的元素. 求这些方程所表示的不同直线的条数.</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-4" data-question-id="x2-6-2-h62A-4" data-category="homework"><div class="question-label">习题6.2A · 4</div><div class="question-body"><ol start="4">
+<li>将 5 个人排成一排, 若甲和乙必须排在一起, 则有多少种不同的排法?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-5" data-question-id="x2-6-2-h62A-5" data-category="homework"><div class="question-label">习题6.2A · 5</div><div class="question-body"><ol start="5">
+<li>从 7 名运动员中选 4 名组成接力队参加 <span class="math" data-tex="4 \times  {100}" data-display="false"></span> 米接力赛. 问:甲、乙两人都不跑中间两棒的排法有多少种?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-6" data-question-id="x2-6-2-h62A-6" data-category="homework"><div class="question-label">习题6.2A · 6</div><div class="question-body"><ol start="6">
+<li>从 7 名男生和 5 名女生中选取 3 人依次进行面试.</li>
+</ol>
+<p>(1)若参加面试的人全是女生，则有多少种不同的面试方法?</p>
+<p>(2)若参加面试的人中，恰好有 1 名女生，则有多少种不同的面试方法？</p>
+</div></article><article class="question" id="x2-6-2-h62A-7" data-question-id="x2-6-2-h62A-7" data-category="homework"><div class="question-label">习题6.2A · 7</div><div class="question-body"><ol start="7">
+<li>若 <span class="math" data-tex="m" data-display="false"></span> 为正整数，且 <span class="math" data-tex="m &lt; {27}" data-display="false"></span> ，则 <span class="math" data-tex="\left( {{27} - m}\right) \left( {{28} - m}\right) \cdots \left( {{34} - m}\right)" data-display="false"></span> 等于 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="{\mathrm{P}}_{{27} - m}^{8}" data-display="false"></span> ; B. <span class="math" data-tex="{\mathrm{P}}_{{34} - m}^{{27} - m}" data-display="false"></span> ;</p>
+<p>C. <span class="math" data-tex="{\mathrm{P}}_{{34} - m}^{7}" data-display="false"></span> ; D. <span class="math" data-tex="{\mathrm{P}}_{{34} - m}^{8}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x2-6-2-h62A-8" data-question-id="x2-6-2-h62A-8" data-category="homework"><div class="question-label">习题6.2A · 8</div><div class="question-body"><ol start="8">
+<li>求满足等式 <span class="math" data-tex="{\mathrm{P}}_{2n}^{3} = {28}{\mathrm{P}}_{n}^{2}" data-display="false"></span> 的正整数 <span class="math" data-tex="n" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62A-9" data-question-id="x2-6-2-h62A-9" data-category="homework"><div class="question-label">习题6.2A · 9</div><div class="question-body"><ol start="9">
+<li>解关于正整数 <span class="math" data-tex="x" data-display="false"></span> 的不等式 <span class="math" data-tex="{\mathrm{P}}_{8}^{x} &lt; 6{\mathrm{P}}_{8}^{x - 2}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-6-2-b37">B 组</h3><article class="question" id="x2-6-2-h62B-1" data-question-id="x2-6-2-h62B-1" data-category="homework"><div class="question-label">习题6.2B · 1</div><div class="question-body"><ol>
+<li>有 4 张分别标有数字 1、2、3、4 的红色卡片和 4 张分别标有数字 1、2、3、4 的蓝色卡片，从这 8 张卡片中取出 4 张排成一行. 如果所取出的 4 张卡片所标数字之和等于 10 , 那么不同的排法共有多少种?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62B-2" data-question-id="x2-6-2-h62B-2" data-category="homework"><div class="question-label">习题6.2B · 2</div><div class="question-body"><ol start="2">
+<li>有 6 张连号的电影票, 分给 3 名教师和 3 名学生, 要求师生相间而坐. 求不同分法的种数.</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62B-3" data-question-id="x2-6-2-h62B-3" data-category="homework"><div class="question-label">习题6.2B · 3</div><div class="question-body"><ol start="3">
+<li>在一张节目单中原有 6 个节目已排好顺序, 现要插入 3 个节目, 并要求不改变原有 6 个节目前后相对顺序. 问: 一共有多少种不同的插法?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62B-4" data-question-id="x2-6-2-h62B-4" data-category="homework"><div class="question-label">习题6.2B · 4</div><div class="question-body"><ol start="4">
+<li>2 名男生和 4 名女生排成一排. 问: 男生既不相邻也不排两端的不同排法共有多少种?</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62B-5" data-question-id="x2-6-2-h62B-5" data-category="homework"><div class="question-label">习题6.2B · 5</div><div class="question-body"><ol start="5">
+<li>在一次电影展中, 某影院要在两天内播映 12 部参赛影片, 每天只有 6 个时间段播放 6 部参赛影片，每个时间段播放 1 部，其中甲、乙两部电影不能在同一天放映. 问:有多少种不同的排片方案？</li>
+</ol>
+</div></article><article class="question" id="x2-6-2-h62B-6" data-question-id="x2-6-2-h62B-6" data-category="homework"><div class="question-label">习题6.2B · 6</div><div class="question-body"><ol start="6">
+<li>从 6 人中选取 4 人分别去 <span class="math" data-tex="A" data-display="false"></span> 、 <span class="math" data-tex="B" data-display="false"></span> 、 <span class="math" data-tex="C" data-display="false"></span> 、 <span class="math" data-tex="D" data-display="false"></span> 四个城市游览，要求每个城市有一人游览， 而每人只游览一个城市，且这 6 人中，甲、乙两人都不去 <span class="math" data-tex="A" data-display="false"></span> 地游览。问:不同的选择方案共有多少种?</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x2-6-2" checked>排列</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

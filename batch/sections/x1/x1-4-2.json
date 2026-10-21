@@ -1,0 +1,1235 @@
+{
+  "schema_version": 1,
+  "id": "x1-4-2",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "4",
+  "chapter_title": "第4章数列",
+  "section": "4.2",
+  "title": "等比数列",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "等比数列",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 477,
+          "end": 477
+        }
+      ],
+      "id": "x1-4-2",
+      "number": "4.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 4.2 等比数列\n\n### 教学重点\n\n掌握等比数列的定义、公比、等比中项、等比数列的通项公式和递推公式;\n\n利用等比数列的前 $n$ 项和公式解决有关问题;\n\n利用等比数列知识解决简单的实际问题;\n\n理解直观描述的数列极限的意义,掌握公比 $q$ 满足 $0 < \\left| q\\right|  < 1$ 的无穷等比数列前 $n$ 项和的极限.\n\n### 内容分析\n\n与等差数列类似, 等比数列的定义也是通过实例抽象出来的. 本节分别从数和形的角度给出了三个实例, 由此抽象出等比数列的定义. 在引入了等比数列的定义后, 我们介绍了最简单的等比数列, 即由三个数组成的等比数列, 由此引出了等比中项的概念,也隐含了两种证明等比数列的基本方法.\n\n将等比数列相邻两项的关系式依次罗列出来,通过观察,学生可以发现将 $n - 1$ 个关系式进行累乘就能得到等比数列的通项公式. 也可以先让学生归纳猜想, 等后续学习数学归纳法后再完成严格证明.\n\n等比数列的前 $n$ 项和公式的推导方法有很多,教材中采用的是错位相减法. 等比数列的前 $n$ 项和公式有两个,一个公式是利用等比数列的首项 ${a}_{1}$ 和公比 $q$ 这两个基本量进行求解, 另一个公式则在数列末项已知的情况下使用比较便利. 有了等比数列的通项公式和前 $n$ 项和公式,如果已知 ${a}_{1}\\text{、}{a}_{n}\\text{、}q\\text{、}n\\text{、}{S}_{n}$ 五个量中的任意三个,就可以求出其余的两个, 这其中渗透了方程的思想.\n\n随后, 本节将有限项等比数列求和问题推广到无穷等比数列求和问题, 引入了极限的描述性定义. 从《庄子》中“一尺之棰”的问题引入,体现了我国古代学者的极限思想,并给出了当公比 $q$ 满足 $0 < \\left| q\\right|  < 1$ 时等比数列的前 $n$ 项和的极限,为后续导数章节作铺垫.\n\n例 1.等比数列的通项公式中涉及四个量: 首项 ${a}_{1}$ 、序数 $n$ 、公比 $q$ 和所关注的项 ${a}_{n}$ ,其中基本量为首项 ${a}_{1}$ 和公比 $q$ ,将等比数列的各项均转化为基本量进而求解的过程, 可以帮助学生体会通项公式的作用, 及其与给出已知条件所导出的方程之间的联系.\n\n例 2 的教学应关注以下几个方面:\n\n(1)帮助学生发现实际情境中数列各项之间的关系,培养学生从实际问题中抽象出相应数学模型的能力.\n\n(2)通过本例的解答可以告诉学生,通项公式反映了数列的本质特征,关于等比数列的问题首先应该想到它的通项公式 ${a}_{n} = {a}_{1}{q}^{n - 1}$ . 由所给的条件,知道 ${a}_{n}\\text{、}{a}_{1}$ 、 $q\\text{、}n$ 中的某几项,把它们代入通项公式,就可以求解以其余项为未知数的方程.\n\n(3)用对数的知识解方程可以帮助学生回顾对数的性质.\n\n例 3. 理解等差数列和等比数列的项与项之间的特殊关系, 有利于灵活、快速地处理与这两种数列相关的问题. 利用等差中项或等比中项的特点, 即任意相邻三项之间满足 $2{a}_{n} = {a}_{n - 1} + {a}_{n + 1}\\left( {n \\geq  2}\\right)$ 或 ${a}_{n}^{2} = {a}_{n - 1}{a}_{n + 1}\\left( {n \\geq  2}\\right)$ ,进行求解. 结合本例,也可以让学生感悟等差数列与正项等比数列之间可以相互转化.\n\n例 4. 与等差数列的前 $n$ 项和公式类似,等比数列的前 $n$ 项和公式也涉及四个量: 首项 ${a}_{1}$ 、公比 $q$ 、前 $n$ 项和 ${S}_{n}$ 以及项数 $n$ (或末项 ${a}_{n}$ ). 给出其中三个量,可以求得第四个量.\n\n例 5 是例 4 的反向思考, 旨在凸显等比数列的基本量是求解问题的关键.\n\n例 6 利用 ${S}_{n}$ ,结合 ${S}_{1} = {a}_{1},{S}_{n} - {S}_{n - 1} = {a}_{n}\\left( {n \\geq  2}\\right)$ 解得 ${a}_{1}$ 及 ${a}_{n}$ . 再利用等比数列的定义 $\\frac{{a}_{n}}{{a}_{n - 1}} = q\\left( {n \\geq  2}\\right)$ 证明数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列. 还可以引导学有余力的学生思考: 如果 ${S}_{n} = A{q}^{n} + B\\left( {q \\neq  0,1}\\right)$ ,其中 $A\\text{、}B$ 均为常数,数列 $\\left\\{  {a}_{n}\\right\\}$ 是否为等比数列?\n\n例 7 把无限循环小数化为分数,是无穷等比数列的前 $n$ 项和的极限有关公式的基本应用. 在求解过程中应该注重循环小数化为分数的方法, 即把它化为求无穷等比数列的前 $n$ 项和的极限. 不必要求学生死记硬背将循环小数化为分数的一些结论. 在本例后可以引导学有余力的学生思考 ${0.9} = 1$ 的证明.\n\n例 8 的求解过程中,从 ${a}_{2} = \\frac{\\sqrt{2}}{2}{a}_{1}$ 猜想出 ${a}_{n}$ 的表达式是不严格的,因为在题设中没有给出数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列的假设. 应证明当 $n \\geq  2$ 时, $\\frac{{a}_{n}}{{a}_{n - 1}}$ 为定值,才能断定数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列,进而才可以利用其首项和公比,求解周长和与面积和的极限.\n\n### 注意事项\n\n等比数列的公比 $q$ 可以是任意一个给定的非零常数,在中学阶段只考虑其为实数的情形而不考虑复数. 要注意等比数列的首项和公比都规定不能为 0 , 否则相应的数列就毫无研究的价值了. 因此, 一些在等差数列时成立的结论, 到等比数列就不一定成立了. 例如,若数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,记其前 $n$ 项和为 ${S}_{n}$ ,则 ${S}_{n},{S}_{2n} - {S}_{n}$ , ${S}_{3n} - {S}_{2n}$ 就不一定是等比数列了,因为可能会有首项 ${S}_{n} = 0$ 的情形出现. 此外,在等差数列与等比数列的类比中还要小心正负符号的问题,如 1 与 4 的等比中项为 $\\pm  2$ 两解,而对于等比数列 $\\left\\{  {a}_{n}\\right\\}$ ,如果 ${a}_{1} = 1,{a}_{5} = 4$ ,那么等比中项 ${a}_{3}$ 只有一解 2,否则 ${a}_{2}$ 与 ${a}_{4}$ 无实数解. 总之,要注意等比数列的项有正负的可能以及非零的特征,这是在进行等差数列与等比数列类比的过程中要提醒学生注意的地方. 另外, 在等比数列求和时,要分类讨论公比 $q$ 是否等于 1,这也是学生容易忽略的地方.\n\n### 教学建议\n\n与等差数列一样, 等比数列在现实生活中也有广泛的应用. 等比数列的教学可以选择更多有实际背景的例子(如教育贷款、购房贷款、放射性物质的衰变、人口增长等), 也可以让学生自己举一些实际生活的例子, 进一步培养学生从实际问题中抽象出数列模型的能力和用数学知识解决实际问题的能力. 等比数列与等差数列之间存在着很多类似的地方, 但也有一些本质上的不同, 既要启发学生的类比思维, 又要避免学生把二者混淆. 在教学中, 要始终强调等比数列的定义和体现等比数列本质的公比 $q$ . 同时,要培养学生的类比推理能力,等比数列的定义及通项公式等都可以让学生类比等差数列自行给出, 还可以让学生自行列表从定义、通项公式、递推公式等角度类比两类数列的有关知识及异同. 也可以启发学生从运算的角度进行类比: 等差数列中相邻两项的差为常数,因此可以研究两个等差数列对应项的和或差; 而等比数列中相邻两项的商为常数, 因此可以研究两个等比数列对应项的积或商. 教师也可以开放性地让学生通过运算构造出新的数列, 并利用定义判断该数列是否为等差数列或等比数列.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 132,
+          "end": 183
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 等比数列及其通项公式",
+      "markdown": "### 1 等比数列及其通项公式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 479,
+          "end": 479
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "观察以下数列, 看这些数列有什么共同特点.\n\n(1)-1 的 1 次幂、2 次幂、3 次幂、4 次幂……依次为\n\n$$\n- 1,1, - 1,1,\\cdots \\text{ . }\n$$\n\n①\n\n(2)科克雪花曲线. 即将一个边长为 1 的等边三角形的每条边三等分, 以中间一段为边向外作等边三角形, 并擦去中间一段, 如图 4-2-1, 如此继续下去得到图形的每条边的长度依次为\n\n$$\n1,\\frac{1}{3},\\frac{1}{9},\\frac{1}{27},\\cdots\n$$\n\n②\n\n![bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg)\n\n图 4-2-1\n\n(3)图 4-2-1 中的每个图形的边数依次为\n\n$$\n3,{12},{48},{192},\\cdots \\text{ . }\n$$\n\n③\n\n可以看到, 对于数列①, 从第 2 项起, 每一项与其前一项的比都等于 -1 ; 对于数列②, 从第 2 项起, 每一项与其前一项的比都等于 $\\frac{1}{3}$ ; 对于数列③,从第 2 项起,每一项与其前一项的比都等于 4 .\n\n这些数列有一个共同特点: 从第 2 项起, 每一项与其前一项的比都等于同一个常数.\n\n定义 如果一个数列从第 2 项起, 每一项与其前一项的比都等于同一个非零常数, 这个数列就叫做等比数列 (geometric sequence), 而这个常数叫做等比数列的公比(common ratio). 公比通常用小写字母 $q\\left( {q \\neq  0}\\right)$ 表示.\n\n---\n\n既是等差数列又是等比数列的数列存在吗? 如果存在, 你能举出例子吗?\n\n---\n\n在两个非零实数 $a$ 与 $b$ 中间插入一个数 $G$ ,使 $a, G, b$ 成等比数列. 根据等比数列的定义,有 $\\frac{G}{a} = \\frac{b}{G}$ ,从而 ${G}^{2} = {ab}$ ,即 $G = \\sqrt{ab}$ 或 $G =  - \\sqrt{ab}$ . 这两种情形下, $a, G, b$ 均为等比数列. 此时, $G$ 叫做 $a$ 与 $b$ 的等比中项.\n\n根据等比数列的定义,以 ${a}_{1}$ 为首项、以 $q$ 为公比的等比数列 $\\left\\{  {a}_{n}\\right\\}$ 满足 $\\frac{{a}_{n}}{{a}_{n - 1}} = q\\left( {n \\geq  2}\\right)$ . 因此,当 $n \\geq  2$ 时,有\n\n$$\n\\frac{{a}_{2}}{{a}_{1}} = q,\\frac{{a}_{3}}{{a}_{2}} = q,\\frac{{a}_{4}}{{a}_{3}} = q,\\cdots ,\\frac{{a}_{n}}{{a}_{n - 1}} = q.\n$$\n\n由此可得, $\\frac{{a}_{n}}{{a}_{1}} = {q}^{n - 1}$ . 所以, ${a}_{n} = {a}_{1}{q}^{n - 1}\\left( {n \\geq  2}\\right)$ . 而当 $n = 1$ 时,上面的等式也显然成立.\n\n因此,当 $n$ 为正整数时,等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的第 $n$ 项可表示为\n\n$$\n{a}_{n} = {a}_{1}{q}^{n - 1}.\n$$\n\n这称为等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 480,
+          "end": 540
+        }
+      ],
+      "emphases": [
+        {
+          "start": 634,
+          "end": 780,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 828,
+          "end": 1034,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-2-definition-3-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1556,
+          "end": 1597,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-2-definition-3-2",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列.\n\n(1)已知 ${a}_{1} = 3$ ，公比 $q =  - 2$ ，求 ${a}_{6}$ ；\n\n(2)已知 ${a}_{3} = {20},{a}_{6} = {160}$ ，求 ${a}_{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 541,
+          "end": 546
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 541,
+          "end": 546
+        }
+      ],
+      "id": "x1-4-2-ex-1",
+      "category": "例题",
+      "answer": "解(1)由等比数列的通项公式，得\n\n$$\n{a}_{6} = 3 \\times  {\\left( -2\\right) }^{6 - 1} =  - {96}.\n$$\n\n(2)设等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的公比为 $q$ ，那么\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1}{q}^{2} = {20}, \\\\  {a}_{1}{q}^{5} = {160}. \\end{array}\\right.\n$$\n\n解得\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1} = 5, \\\\  q = 2. \\end{array}\\right.\n$$\n\n所以, ${a}_{n} = {a}_{1}{q}^{n - 1} = 5 \\times  {2}^{n - 1}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 547,
+          "end": 566
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 某种放射性物质不断衰变为其他物质, 设每经过一年剩余的这种放射性物质是年初的 84%. 这种放射性物质的半衰期约为多少? (结果精确到 1 年)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 568
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 568
+        }
+      ],
+      "id": "x1-4-2-ex-2",
+      "category": "例题",
+      "answer": "解 设这种物质最初的质量是 1,而经过 $n$ 年,剩余量是 ${a}_{n}$ .\n\n由条件可知,数列 $\\left\\{  {a}_{n}\\right\\}$ 是一个等比数列,且 ${a}_{1} = {0.84}$ , 公比 $q = {0.84}$ . 当 ${a}_{n} = {0.5}$ 时,则 ${0.84}^{n} = {0.5}$ .\n\n在上式两边同时取以 10 为底的对数, 并求解得\n\n$$\nn = \\frac{\\lg {0.5}}{\\lg {0.84}} \\approx  4.\n$$\n\n---\n\n如果三个数成等比数列, 那么等比中项的平方必等于其前后两项的积.\n\n---\n\n答: 这种物质的半衰期大约为 4 年.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 586
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 (1)已知 $a, b, c$ 成等差数列，其公差为 $d$ . 求证: ${3}^{a},{3}^{b},{3}^{c}$ 成等比数列.\n\n(2)已知正实数 $a, b, c$ 成等比数列，其公比为 $q$ . 求证: $\\lg a,\\lg b,\\lg c$ 成等差数列.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 587,
+          "end": 590
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 587,
+          "end": 590
+        }
+      ],
+      "id": "x1-4-2-ex-3",
+      "category": "例题",
+      "answer": "证明 (1) 因为 $a, b, c$ 成等差数列,所以 ${2b} = a + c$ . 从而\n\n$$\n{3}^{2b} = {3}^{a + c} = {3}^{a} \\cdot  {3}^{c},\n$$\n\n所以， ${3}^{a}$ ， ${3}^{b}$ ， ${3}^{c}$ 成等比数列，其公比为 $\\frac{{3}^{b}}{{3}^{a}} = {3}^{b - a} = {3}^{d}$ .\n\n(2)因为正实数 $a, b, c$ 成等比数列，所以 ${b}^{2} = {ac}$ . 在上式两边同时取以 10 为底的对数, 得\n\n$$\n2\\lg b = \\lg a + \\lg c,\n$$\n\n所以, $\\lg a,\\lg b,\\lg c$ 成等差数列,其公差为 $\\lg b - \\lg a = \\lg \\frac{b}{a} = \\; \\lg q$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 591,
+          "end": 606
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.2(1)",
+      "markdown": "#### 练习 4.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 607,
+          "end": 607
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 1",
+      "markdown": "1. 下列数列中成等比数列的是 ( )\n\nA. $1,\\frac{1}{4},\\frac{1}{9},\\frac{1}{16}$ ; B. $1,1, - 1, - 1$ ;\n\nC. $1,\\frac{\\sqrt{2}}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{4}$ ; D. $\\frac{1}{2},2,\\frac{1}{2},2$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 609,
+          "end": 614
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 609,
+          "end": 614
+        }
+      ],
+      "id": "x1-4-2-p421-1",
+      "category": "练习4.2(1)",
+      "answer": "1. C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 362,
+          "end": 363
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 2",
+      "markdown": "2. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其公比为 $q$ .\n\n(1)已知 ${a}_{1} =  - 3, q = 2$ ,求 ${a}_{5}$ ；\n\n(2)已知 ${a}_{1} = 1, q = 2,{a}_{n} = {16}$ ，求 $n$ ；\n\n(3)已知 ${a}_{1} = \\frac{1}{3},{a}_{7} = 9$ ，求 $q$ ；\n\n(4)已知 $q =  - \\frac{3}{2},{a}_{4} =  - {27}$ ，求 ${a}_{1}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 615,
+          "end": 624
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 615,
+          "end": 624
+        }
+      ],
+      "id": "x1-4-2-p421-2",
+      "category": "练习4.2(1)",
+      "answer": "2. (1) ${a}_{5} =  - {48}$ . (2) $n = 5$ . (3) $q =  \\pm  \\sqrt{3}$ . (4) ${a}_{1} = 8$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 364,
+          "end": 365
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列,正整数 $m\\text{ 、 }n\\text{ 、 }s\\text{ 、 }t$ 满足 $m + n = s + t$ . 求证: ${a}_{m} \\cdot  {a}_{n} = \\; {a}_{s} \\cdot  {a}_{t}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 625,
+          "end": 626
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 625,
+          "end": 626
+        }
+      ],
+      "id": "x1-4-2-p421-3",
+      "category": "练习4.2(1)",
+      "answer": "3. 提示: 将等比数列各项转化为由首项 ${a}_{1}$ 与公比 $q$ 表示.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 366,
+          "end": 367
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 等比数列的前 $n$ 项和",
+      "markdown": "### 2 等比数列的前 $n$ 项和",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 627,
+          "end": 627
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "国际象棋起源于古代印度. 发明者将棋盘划分为 8 行 8 列, 构成 64 个方格. 相传国王要奖励该发明者, 问他有什么要求. 发明者说: “请在棋盘的第 1 个格子里放上 1 颗麦粒, 在第 2 个格子里放上 2 颗麦粒, 在第 3 个格子里放上 4 颗麦粒, 依次类推, 每个格子里放的麦粒数都是前一个格子里放的麦粒数的 2 倍, 直到放完 64 个格子为止. 请给我足够的麦粒以实现上述要求. ”这位发明者要了多少颗麦粒？国王能实现他的要求吗?\n\n![bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg)\n\n这实际上是求以 1 为首项、以 2 为公比的等比数列的前 64 项的和:\n\n$$\n{S}_{64} = 1 + 2 + {2}^{2} + \\cdots  + {2}^{62} + {2}^{63}.\n$$\n\n如果用公比 2 乘上述等式的两边, 就得到\n\n$$\n2{S}_{64} = 2 + {2}^{2} + {2}^{3}\\cdots  + {2}^{63} + {2}^{64}.\n$$\n\n可以发现, 上面两式中有许多相同的项, 两式相减可以消去这些项, 得到\n\n$$\n{S}_{64} = {2}^{64} - 1.\n$$\n\n这是一个二十位数, 将这些小麦折算成质量 (每千粒麦子的质量设为 40 $\\mathrm{g}$ ),会超过 7000 亿吨. 即使到小麦年产量比较高的现代，全世界小麦年总产量也远低于 10 亿吨，国王根本满足不了发明者的要求.\n\n一般地,设等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的公比为 $q$ ,其前 $n$ 项和为\n\n$$\n{S}_{n} = {a}_{1} + {a}_{1}q + {a}_{1}{q}^{2} + \\cdots  + {a}_{1}{q}^{n - 1}.\n$$\n\n将上式两边同乘公比 $q$ ,可得\n\n$$\nq{S}_{n} = {a}_{1}q + {a}_{1}{q}^{2} + {a}_{1}{q}^{3} + \\cdots  + {a}_{1}{q}^{n}.\n$$\n\n将两式相减, 可得\n\n$$\n{S}_{n} - q{S}_{n} = {a}_{1} - {a}_{1}{q}^{n},\n$$\n\n即\n\n$$\n\\left( {1 - q}\\right) {S}_{n} = {a}_{1}\\left( {1 - {q}^{n}}\\right) .\n$$\n\n由此得到,当 $q \\neq  1$ 时,等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为\n\n$$\n{S}_{n} = \\frac{{a}_{1}\\left( {1 - {q}^{n}}\\right) }{1 - q}.\n$$\n\n综上所述,可以得到以 ${a}_{1}$ 为首项、以 $q\\left( {q \\neq  1}\\right)$ 为公比的等比数列的前 $n$ 项和公式为\n\n$$\n{S}_{n} = \\frac{{a}_{1}\\left( {1 - {q}^{n}}\\right) }{1 - q}\\left( {q \\neq  1}\\right) .\n$$\n\n因为 ${a}_{n} = {a}_{1}{q}^{n - 1}$ ,所以上式又可写为\n\n$$\n{S}_{n} = \\frac{{a}_{1} - {a}_{n}q}{1 - q}\\left( {q \\neq  1}\\right) .\n$$\n\n而当 $q = 1$ 时,因为 ${a}_{1} = {a}_{2} = \\cdots  = {a}_{n}$ ,所以 ${S}_{n} = n{a}_{1}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 628,
+          "end": 696
+        }
+      ],
+      "emphases": [
+        {
+          "start": 1286,
+          "end": 1456,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-4-2-formula-12-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{1} =  - 4$ ，公比 $q =  - \\frac{1}{2}$ ，求 ${S}_{10}$ ；\n\n(2)已知 ${a}_{1} = {27},{a}_{n} = \\frac{1}{243}$ ，公比 $q =  - \\frac{1}{3}$ ，求 ${S}_{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 697,
+          "end": 702
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 697,
+          "end": 702
+        }
+      ],
+      "id": "x1-4-2-ex-4",
+      "category": "例题",
+      "answer": "解(1)根据等比数列的前 $n$ 项和公式，得\n\n$$\n{S}_{10} = \\frac{-4 \\times  \\left\\lbrack  {1 - {\\left( -\\frac{1}{2}\\right) }^{10}}\\right\\rbrack  }{1 - \\left( {-\\frac{1}{2}}\\right) } =  - \\frac{341}{128}.\n$$\n\n(2)根据等比数列的前 $n$ 项和公式，得\n\n$$\n{S}_{n} = \\frac{{a}_{1} - {a}_{n}q}{1 - q} = \\frac{{27} - \\frac{1}{243} \\times  \\left( {-\\frac{1}{3}}\\right) }{1 - \\left( {-\\frac{1}{3}}\\right) } = \\frac{4921}{243}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 714
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 在等比数列 $\\left\\{  {a}_{n}\\right\\}$ 中,其前 $n$ 项和为 ${S}_{n}$ . 已知 ${S}_{3} = \\frac{7}{2}$ , ${S}_{6} = \\frac{63}{2}$ ,求 ${a}_{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "id": "x1-4-2-ex-5",
+      "category": "例题",
+      "answer": "解 设该等比数列的公比为 $q$ . 若 $q = 1$ ,则 ${S}_{6} = 2{S}_{3}$ . 这与已知条件矛盾,所以 $q \\neq  1$ . 从而有\n\n$$\n{S}_{3} = \\frac{{a}_{1}\\left( {1 - {q}^{3}}\\right) }{1 - q} = \\frac{7}{2},\n$$\n\n$$\n{S}_{6} = \\frac{{a}_{1}\\left( {1 - {q}^{6}}\\right) }{1 - q} = \\frac{63}{2},\n$$\n\n将上面两个等式相除, 得\n\n$$\n1 + {q}^{3} = 9.\n$$\n\n于是 $q = 2$ ,从而由上面关于 ${S}_{3}$ 的式子就可得 ${a}_{1} = \\frac{1}{2}$ ,因此\n\n$$\n{a}_{n} = \\frac{1}{2} \\times  {2}^{n - 1} = {2}^{n - 2}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 738
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} = {3}^{n} + a$ . 当常数 $a$ 满足什么条件时,数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "id": "x1-4-2-ex-6",
+      "category": "例题",
+      "answer": "解 当 $n = 1$ 时,可得 ${a}_{1} = {S}_{1} = 3 + a$ . 而当 $n \\geq  2$ 时,\n\n$$\n{a}_{n} = {S}_{n} - {S}_{n - 1} = \\left( {{3}^{n} + a}\\right)  - \\left( {{3}^{n - 1} + a}\\right)  = 2 \\times  {3}^{n - 1}.\n$$\n\n从而\n\n$$\n\\frac{{a}_{n + 1}}{{a}_{n}} = \\frac{2 \\times  {3}^{n}}{2 \\times  {3}^{n - 1}} = 3, n \\geq  2.\n$$\n\n于是,当且仅当 $\\frac{{a}_{2}}{{a}_{1}} = 3$ 时,数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列. 由上式, ${a}_{1} = 3 + a$ ,而 ${a}_{2} = 6$ ,由 $\\frac{{a}_{2}}{{a}_{1}} = 3$ ,解得 $a =  - 1$ .\n\n---\n\n若数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} = A{q}^{n} + B \\; \\left( {q \\neq  0\\text{ 、 }1}\\right)$ ,当 $A\\text{ 、 }B$ 满足什么条件时，数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列?\n\n---\n\n因此,当 $a =  - 1$ 时,数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 741,
+          "end": 762
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 $\\mathbf{{4.2}\\left( 2\\right) }$",
+      "markdown": "#### 练习 $\\mathbf{{4.2}\\left( 2\\right) }$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 763
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 1",
+      "markdown": "1. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{1} = 3$ ，公比 $q = 2$ ，求 ${S}_{6}$ ；\n\n(2)已知 ${a}_{1} =  - {2.7}$ ，公比 $q =  - \\frac{1}{3}$ ， ${a}_{n} = \\frac{1}{90}$ ，求 ${S}_{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 765,
+          "end": 770
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 765,
+          "end": 770
+        }
+      ],
+      "id": "x1-4-2-p422-1",
+      "category": "练习4.2(2)",
+      "answer": "1. (1) ${S}_{6} = {189}$ . (2) ${S}_{n} =  - \\frac{91}{45}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 370,
+          "end": 371
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 2",
+      "markdown": "2. 已知等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 5 项和为 10，前 10 项和为 50 . 求这个数列的前 15 项和.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 771,
+          "end": 772
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 771,
+          "end": 772
+        }
+      ],
+      "id": "x1-4-2-p422-2",
+      "category": "练习4.2(2)",
+      "answer": "2. ${S}_{15} = {210}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 372,
+          "end": 373
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 3",
+      "markdown": "3. 中国古代数学著作《算法统宗》中有这样一个问题: “三百七十八里关，初行健步不为难，次日脚痛减一半，六朝才得到其关，要见次日行里数，请公仔细算相还.”其意思为:有一个人要走 378 里路，第一天健步行走，从第二天起因为脚痛，每天走的路程为前一天的一半, 走了 6 天后到达目的地. 请问第二天走了多少里.\n\n中国古代庄周所著的《庄子·天下篇》说:“一尺之棰，日取其半, 万世不竭. ”其含义是: 一根一尺长的木棒, 每天截取其一半, 这样的过程可以无限进行下去. 如果从第一天开始截取, 把木棒每天剩余的长度记录下来，可得到下面一个数列:\n\n$$\n\\frac{1}{2},\\frac{1}{4},\\frac{1}{8},\\frac{1}{16},\\cdots ,{\\left( \\frac{1}{2}\\right) }^{n},\\cdots .\n$$\n\n---\n\n一个数列 $\\left\\{  {a}_{n}\\right\\}$ 中, 如果当 $n$ 无限增大时, ${a}_{n}$ 的值越来越趋近于某个确定的数 $a$ ,那么称这个数列的极限为 $a$ ,记作 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{a}_{n} = a$ , 其中记号 $\\lim$ 是英文单词 limit (极限) 的缩写.\n\n---\n\n随着 $n$ 无限增大,此数列的第 $n$ 项 ${a}_{n} = {\\left( \\frac{1}{2}\\right) }^{n}$ 的值越来越趋近于零,从而 ${a}_{n}$ 的极限为零. 记作 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{a}_{n} = 0$ .\n\n上述数列的前 $n$ 项之和为\n\n$$\n{S}_{n} = \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\cdots  + {\\left( \\frac{1}{2}\\right) }^{n}\n$$\n\n$$\n= \\frac{\\frac{1}{2}\\left\\lbrack  {1 - {\\left( \\frac{1}{2}\\right) }^{n}}\\right\\rbrack  }{1 - \\frac{1}{2}}\n$$\n\n$$\n= 1 - {\\left( \\frac{1}{2}\\right) }^{n}\\text{ . }\n$$\n\n随着 $n$ 无限增大, ${\\left( \\frac{1}{2}\\right) }^{n}$ 的值越来越趋近于零, ${S}_{n}$ 的值越来越趋近于 1,从而 ${S}_{n}$ 的极限为 1,记作 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{S}_{n} = 1$ .\n\n更一般地,对于首项为 $a$ 、公比为 $q$ 的等比数列:\n\n$$\n{a}_{n} = a{q}^{n - 1}\\text{ ( }n\\text{ 为正整数), }\n$$\n\n当 $0 < \\left| q\\right|  < 1$ 时,此数列的前 $n$ 项和为\n\n$$\n{S}_{n} = a + {aq} + \\cdots  + a{q}^{n - 1}\n$$\n\n$$\n= \\frac{a}{1 - q}\\left( {1 - {q}^{n}}\\right) .\n$$\n\n随着 $n$ 无限增大, ${q}^{n}$ 的值越来越趋近于零, ${S}_{n}$ 的值越来越趋近于 $\\frac{a}{1 - q}$ ,从而 ${S}_{n}$ 的极限为 $\\frac{a}{1 - q}$ ,记作 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{S}_{n} = \\frac{a}{1 - q}$ .\n\n---\n\n如果一个数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n}$ ,则 $\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}{a}_{i}$ 表示 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{S}_{n}$ .\n\n---\n\n综上所述，以 $a$ 为首项、 $q$ 为公比的等比数列，当公比 $0 < \\; \\left| q\\right|  < 1$ 时,有\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}a{q}^{i - 1} = \\frac{a}{1 - q}.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 773,
+          "end": 834
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 773,
+          "end": 834
+        }
+      ],
+      "id": "x1-4-2-p422-3",
+      "category": "练习4.2(2)",
+      "answer": "3. 第二天走了 96 里.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 374,
+          "end": 375
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 化下列循环小数为分数:\n\n(1)0.29； (2)0.431 .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 838
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 838
+        }
+      ],
+      "id": "x1-4-2-ex-7",
+      "category": "例题",
+      "answer": "解 (1) ${0.29} = {0.29} + {0.29} \\times  {0.01} + {0.29} \\times  {\\left( {0.01}\\right) }^{2} + \\cdots  + \\; {0.29} \\times  {\\left( {0.01}\\right) }^{n - 1} + \\cdots$ .\n\n相应的无穷等比数列是 ${0.29},{0.29} \\times  {0.01},{0.29} \\times  {\\left( {0.01}\\right) }^{2},\\cdots$ , ${0.29} \\times  {\\left( {0.01}\\right) }^{n - 1},\\cdots$ ,其首项是 0.29,公比是 0.01,于是有\n\n$$\n{0.29} = \\frac{0.29}{1 - {0.01}} = \\frac{29}{99}.\n$$\n\n---\n\n类似地,我们可以证明: $0.\\dot{9} = 1$ .\n\n---\n\n(2) ${0.431} = {0.4} + {{0.031} + }{0.031} \\times  {{0.01} + }{{0.031} \\times  }{\\left( {0.01}\\right) }^{2} + \\cdots  + \\; {0.031} \\times  {\\left( {0.01}\\right) }^{n - 1} + \\cdots$ .\n\n上述等式的右边除 0.4 外,相应的无穷等比数列是 ${0.031},{0.031} \\times \\; {0.01},{0.031} \\times  {\\left( {0.01}\\right) }^{2},\\cdots ,{0.031} \\times  {\\left( {0.01}\\right) }^{n - 1},\\cdots$ ,其首项是 0.031 , 公比是 0.01 , 于是有",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 839,
+          "end": 856
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 8",
+      "markdown": "例 8 如图 4-2-2,正方形 ${ABCD}$ 的边长等于 1,连接这个正方形各边的中点得到一个小正方形 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ ; 又连接正方形 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 各边的中点得到一个更小的正方形 ${A}_{2}{B}_{2}{C}_{2}{D}_{2}$ ; 如此无限继续下去. 求所有这些正方形的周长的和与面积的和.\n\n$$\n{0.4}\\dot{3}\\dot{1} = {0.4} + \\frac{0.031}{1 - {0.01}} = \\frac{4}{10} + \\frac{31}{990} = \\frac{427}{990}.\n$$\n\n![bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg)\n\n图 4-2-2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 857,
+          "end": 866
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 857,
+          "end": 866
+        }
+      ],
+      "id": "x1-4-2-ex-8",
+      "category": "例题",
+      "answer": "解 由题设,可得到第 1 个正方形的边长 ${a}_{1} = 1$ ,第 2 个\n\n正方形的边长 ${a}_{2} = \\frac{\\sqrt{2}}{2},\\cdots \\cdots$ ,第 $n$ 个正方形的边长 ${a}_{n} = \\; \\sqrt{{\\left( \\frac{{a}_{n - 1}}{2}\\right) }^{2} + {\\left( \\frac{{a}_{n - 1}}{2}\\right) }^{2}} = \\frac{\\sqrt{2}{a}_{n - 1}}{2}\\left( {n \\geq  2}\\right) .$\n\n所有这些正方形的边长组成的数列为\n\n$$\n1,\\frac{\\sqrt{2}}{2},\\frac{1}{2},\\frac{\\sqrt{2}}{4},\\cdots ,{\\left( \\frac{\\sqrt{2}}{2}\\right) }^{n - 1},\\cdots ,\n$$\n\n从而所有这些正方形的周长组成的数列为\n\n$$\n4,2\\sqrt{2},2,\\sqrt{2},\\cdots ,4 \\cdot  {\\left( \\frac{\\sqrt{2}}{2}\\right) }^{n - 1},\\cdots .\n$$\n\n这是一个以 4 为首项、以 $\\frac{\\sqrt{2}}{2}$ 为公比的等比数列,因此所有这些正方形的周长的和为\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}4 \\cdot  {\\left( \\frac{\\sqrt{2}}{2}\\right) }^{i - 1} = \\frac{4}{1 - \\frac{\\sqrt{2}}{2}} = 8 + 4\\sqrt{2}.\n$$\n\n所有这些正方形的面积组成的数列为\n\n$$\n1,\\frac{1}{2},\\frac{1}{4},\\frac{1}{8},\\cdots ,{\\left( \\frac{1}{2}\\right) }^{n - 1},\\cdots .\n$$\n\n这是以 1 为首项、以 $\\frac{1}{2}$ 为公比的等比数列,因此所有这些正方形的面积的和为\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}{\\left( \\frac{1}{2}\\right) }^{i - 1} = \\frac{1}{1 - \\frac{1}{2}} = 2.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 867,
+          "end": 900
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.2(3)",
+      "markdown": "#### 练习 4.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 901,
+          "end": 901
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(3) · 1",
+      "markdown": "1. 计算 $\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}{\\left( \\frac{1}{3}\\right) }^{i}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 903,
+          "end": 904
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 903,
+          "end": 904
+        }
+      ],
+      "id": "x1-4-2-p423-1",
+      "category": "练习4.2(3)",
+      "answer": "1. $\\mathop{\\sum }\\limits_{{i = 1}}^{{+\\infty }}{\\left( \\frac{1}{3}\\right) }^{i} = \\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 378,
+          "end": 379
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(3) · 2",
+      "markdown": "2. 化下列循环小数为分数:\n\n(1) $0.\\dot{13}$ ;\n\n\n(2)1.332 .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 905,
+          "end": 914
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 905,
+          "end": 914
+        }
+      ],
+      "id": "x1-4-2-p423-2",
+      "category": "练习4.2(3)",
+      "answer": "2. (1) $0.\\dot{13} = \\frac{13}{99}$ . (2) ${1.3}\\dot{32} = \\frac{1319}{990}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 380,
+          "end": 381
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(3) · 3",
+      "markdown": "3. 如图,已知等边三角形 ${ABC}$ 的面积等于 1,连接这个三角形各边的中点得到一个小的三角形 ${A}_{1}{B}_{1}{C}_{1}$ ,又连接三角形 ${A}_{1}{B}_{1}{C}_{1}$ 各边的中点得到一个更小的三角形 ${A}_{2}{B}_{2}{C}_{2}$ ,这样的过程可以无限继续下去. 求所有三角形 ${A}_{i}{B}_{i}{C}_{i}\\left( {i = 1,2,3,\\cdots }\\right)$ 的面积的和.\n\n![bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 915,
+          "end": 916
+        },
+        {
+          "source": "book",
+          "start": 909,
+          "end": 911
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 915,
+          "end": 916
+        },
+        {
+          "source": "book",
+          "start": 909,
+          "end": 911
+        }
+      ],
+      "id": "x1-4-2-p423-3",
+      "category": "练习4.2(3)",
+      "answer": "3. 所有等边三角形 ${A}_{i}{B}_{i}{C}_{i}\\left( {i = 1,2,3\\cdots }\\right)$ 的面积组成的数列为 $\\frac{1}{4},\\frac{1}{16},\\cdots$ , ${\\left( \\frac{1}{4}\\right) }^{n}\\cdots$ . 这是以 $\\frac{1}{4}$ 为首项、以 $\\frac{1}{4}$ 为公比的等比数列,因此所有等边三角形 ${A}_{i}{B}_{i}{C}_{i} \\; \\left( {i = 1,2,3\\cdots }\\right)$ 的面积的和为 $\\frac{\\frac{1}{4}}{1 - \\frac{1}{4}} = \\frac{1}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 382,
+          "end": 383
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 4.2",
+      "markdown": "#### 习题 4.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 917,
+          "end": 917
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 919,
+          "end": 919
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 1",
+      "markdown": "1. 求下列各组数的等比中项:\n\n(1) $\\sqrt{3} + 1$ 与 $\\sqrt{3} - 1$ ；\n\n(2) ${a}^{4} + {a}^{2}{b}^{2}$ 与 ${b}^{4} + {a}^{2}{b}^{2}\\left( {a \\neq  0, b \\neq  0}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 921,
+          "end": 926
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 921,
+          "end": 926
+        }
+      ],
+      "id": "x1-4-2-h42A-1",
+      "category": "习题4.2A",
+      "answer": "1. (1)士 $\\sqrt{2}$ ,(2)士ab( ${a}^{2} + {b}^{2}$ ).",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 388,
+          "end": 389
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 2",
+      "markdown": "2. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其公比为 $q$ .\n\n(1)已知 ${a}_{5} = 8,{a}_{8} = 1$ ,求 ${a}_{1}\\text{ 、 }q$ ;\n\n(2)已知 ${a}_{3} = 2, q =  - 1$ ，求 ${a}_{15}$ ；\n\n(3)已知 ${a}_{4} = {12},{a}_{8} = 6$ ，求 ${a}_{12}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 934
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 934
+        }
+      ],
+      "id": "x1-4-2-h42A-2",
+      "category": "习题4.2A",
+      "answer": "2. (1) ${a}_{1} = {128}, q = \\frac{1}{2}$ . (3) ${a}_{12} = 3$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 390,
+          "end": 391
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其公比为 $q$ . 判断下列数列是否为等比数列. 如果是, 求其公比; 如果不是, 请说明理由.\n\n(1)数列 $\\left\\{  {2{a}_{n}}\\right\\}$ ；\n\n(2)数列 $\\left\\{  {{a}_{n} + {a}_{n + 1}}\\right\\}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 935,
+          "end": 940
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 935,
+          "end": 940
+        }
+      ],
+      "id": "x1-4-2-h42A-3",
+      "category": "习题4.2A",
+      "answer": "3. (1)因为 $\\frac{2{a}_{n + 1}}{2{a}_{n}} = q$ ,所以数列 $\\left\\{  {2{a}_{n}}\\right\\}$ 是以 $2{a}_{1}$ 为首项、以 $q$ 为公比的等比数列.\n\n(2)不一定,如 ${a}_{n} = {\\left( -1\\right) }^{n}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 392,
+          "end": 395
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 4",
+      "markdown": "4. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 和数列 $\\left\\{  {b}_{n}\\right\\}$ 为项数相同的等比数列,公比分别为 ${q}_{1}$ 和 ${q}_{2}$ . 求证: 数列 $\\left\\{  {{a}_{n}{b}_{n}}\\right\\}$ 为等比数列,其公比为 ${q}_{1}{q}_{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 941,
+          "end": 942
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 941,
+          "end": 942
+        }
+      ],
+      "id": "x1-4-2-h42A-4",
+      "category": "习题4.2A",
+      "answer": "4. 由 ${a}_{n} = {a}_{1}{q}_{1}^{n - 1},{b}_{n} = {b}_{1}{q}_{2}^{n - 1}$ ,得 ${a}_{n}{b}_{n} = {a}_{1}{b}_{1}{\\left( {q}_{1}{q}_{2}\\right) }^{n - 1}$ . 当 $n \\geq  2$ 时, $\\frac{{a}_{n}{b}_{n}}{{a}_{n - 1}{b}_{n - 1}} = {q}_{1}{q}_{2}$ .\n\n因此,数列 $\\left\\{  {{a}_{n}{b}_{n}}\\right\\}$ 是一个以 ${a}_{1}{b}_{1}$ 为首项、以 ${q}_{1}{q}_{2}$ 为公比的等比数列.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 396,
+          "end": 399
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 5",
+      "markdown": "5. 已知直角三角形的斜边长为 $c$ ,两条直角边长分别为 $a$ 和 $b\\left( {a < b}\\right)$ ,且 $a, b, c$ 成等比数列. 求 $a : c$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 943,
+          "end": 944
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 943,
+          "end": 944
+        }
+      ],
+      "id": "x1-4-2-h42A-5",
+      "category": "习题4.2A",
+      "answer": "5. 由 ${b}^{2} = {ac},{a}^{2} + {b}^{2} = {c}^{2}$ ,消去 $b$ ,得 ${a}^{2} + {ac} - {c}^{2} = 0$ ,解得 $\\frac{a}{c} = \\frac{-1 + \\sqrt{5}}{2}$ (负根已舍).",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 400,
+          "end": 401
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 6",
+      "markdown": "6. 某产品经过 4 次革新后, 成本由原来的 105 元下降到 60 元. 如果这种产品每次革新后成本下降的百分比相同,那么每次革新后成本下降的百分比是多少? (结果精确到 0.1%)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 945,
+          "end": 946
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 945,
+          "end": 946
+        }
+      ],
+      "id": "x1-4-2-h42A-6",
+      "category": "习题4.2A",
+      "answer": "6. 设每次革新后成本下降的百分比是 $x$ . 由题意, ${105}{\\left( 1 - x\\right) }^{4} = {60}$ ,解得 $x \\approx$ 0.131 . 因此, 每次革新后成本下降的百分比约为 13.1%.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 402,
+          "end": 403
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 7",
+      "markdown": "7. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列,其公比为 $q$ ,前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{1} = 5, q = 3$ ，求 ${S}_{5}$ ；\n\n(2)已知 ${a}_{8} = \\frac{1}{16}, q = \\frac{1}{2}$ ，求 ${S}_{8}$ ；\n\n(3)已知 ${a}_{1} =  - 2, q =  - \\frac{1}{2},{a}_{n} = \\frac{1}{1024}$ ,求 ${S}_{n}$ ;\n\n(4)已知 ${S}_{6} = \\frac{189}{4}, q = \\frac{1}{2}$ ,求 ${a}_{1}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 947,
+          "end": 956
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 947,
+          "end": 956
+        }
+      ],
+      "id": "x1-4-2-h42A-7",
+      "category": "习题4.2A",
+      "answer": "7.(1) ${S}_{5} = {605}$ . (2) ${S}_{8} = \\frac{255}{16}$ . (3) ${S}_{n} =  - \\frac{1365}{1024}$ . (4) ${a}_{1} = {24}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 404,
+          "end": 405
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 8",
+      "markdown": "8. 设等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的公比 $q < 1$ ,前 $n$ 项和为 ${S}_{n}$ . 已知 ${a}_{3} = 2,{S}_{4} = 5{S}_{2}$ ,求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 957,
+          "end": 958
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 957,
+          "end": 958
+        }
+      ],
+      "id": "x1-4-2-h42A-8",
+      "category": "习题4.2A",
+      "answer": "8. ${a}_{n} = 2 \\cdot  {\\left( -1\\right) }^{n - 1}$ 或 ${a}_{n} = \\frac{1}{2} \\cdot  {\\left( -2\\right) }^{n - 1}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 406,
+          "end": 407
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 9",
+      "markdown": "9. 一个球从 ${100}\\mathrm{\\;m}$ 高处自由落下,假设每次着地后又跳回到原高度的一半再落下.\n\n(1)当它第 10 次着地时,求它经过的总路程;\n\n(2)它可能在某次着地时，经过的总路程超过 ${300}\\mathrm{\\;m}$ 吗？如果可能，请说明是第几次着地首次超过 ${300}\\mathrm{\\;m}$ ；如果不可能，请说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 959,
+          "end": 964
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 959,
+          "end": 964
+        }
+      ],
+      "id": "x1-4-2-h42A-9",
+      "category": "习题4.2A",
+      "answer": "9. 小球每次下落经过的路程构成以 100 为首项、以 $\\frac{1}{2}$ 为公比的等比数列,设为 $\\left\\{  {a}_{n}\\right\\}$ .\n\n(1) ${a}_{1} = {100}$ ,第 10 次着地时,经过的路程共有 ${a}_{1} + 2\\left( {{a}_{2} + {a}_{3} + \\cdots  + {a}_{10}}\\right)  =$ 299 $\\frac{39}{64}\\mathrm{\\;m}$ .\n\n(2)因为第 $n$ 次着地时经过的总路程为 ${S}_{n} = {a}_{1} + 2\\left( {{a}_{2} + {a}_{3} + \\cdots  + {a}_{n}}\\right)  = {300} - \\; \\frac{200}{{2}^{n - 1}}$ ,对任意给定的正整数 $n$ 均有 ${S}_{n} < {300}$ . 因此,不可能在某一次着地时总路程超过 ${300}\\mathrm{\\;m}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 408,
+          "end": 413
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 965,
+          "end": 965
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 1",
+      "markdown": "1. 已知 $b$ 是 $a$ 与 $c$ 的等比中项,且 $a\\text{ 、 }b\\text{ 、 }c$ 同号. 求证: $\\frac{a + b + c}{3},\\sqrt{\\frac{{ab} + {bc} + {ca}}{3}}$ , $\\sqrt[3]{abc}$ 成等比数列.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 967,
+          "end": 968
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 967,
+          "end": 968
+        }
+      ],
+      "id": "x1-4-2-h42B-1",
+      "category": "习题4.2B",
+      "answer": "1. 提示: 利用等比中项的定义证明.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 416,
+          "end": 417
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 2",
+      "markdown": "2. 已知 $a \\neq  b$ ,且 $a\\text{ 、 }b$ 都不为 0 . 设 $n$ 为正整数,写出 $\\mathop{\\sum }\\limits_{{i = 0}}^{n}{a}^{n - i}{b}^{i}$ 的具体展开式,并证明 $\\mathop{\\sum }\\limits_{{i = 0}}^{n}{a}^{n - i}{b}^{i} = \\frac{{a}^{n + 1} - {b}^{n + 1}}{a - b}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 969,
+          "end": 970
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 969,
+          "end": 970
+        }
+      ],
+      "id": "x1-4-2-h42B-2",
+      "category": "习题4.2B",
+      "answer": "2. 提示: 求和展开式的各项依次构成以 ${a}^{n}$ 为首项、以 $\\frac{a}{b}$ 为公比的等比数列.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 418,
+          "end": 419
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 3",
+      "markdown": "3. 已知对任意给定的正整数 $n$ ,数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和 ${S}_{n} = \\frac{1 - {q}^{n}}{1 - q}\\left( {q \\neq  0\\text{ 且 }q \\neq  1}\\right)$ . 判断 $\\left\\{  {a}_{n}\\right\\}$ 是否为等比数列,并说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 971,
+          "end": 972
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 971,
+          "end": 972
+        }
+      ],
+      "id": "x1-4-2-h42B-3",
+      "category": "习题4.2B",
+      "answer": "3. 数列 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列. 利用 ${a}_{n} = {q}^{n - 1}$ 证明.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 420,
+          "end": 421
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 4",
+      "markdown": "4. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,数列 $\\left\\{  {b}_{n}\\right\\}$ 满足 ${b}_{n} = {\\left( \\frac{1}{2}\\right) }^{{a}_{n}}$ ( $n$ 为正整数).\n\n(1)求证:数列 $\\left\\{  {b}_{n}\\right\\}$ 为等比数列；\n\n(2)若 ${b}_{1} + {b}_{2} + {b}_{3} = \\frac{21}{8},{b}_{1}{b}_{2}{b}_{3} = \\frac{1}{8}$ ，求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 973,
+          "end": 978
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 973,
+          "end": 978
+        }
+      ],
+      "id": "x1-4-2-h42B-4",
+      "category": "习题4.2B",
+      "answer": "4.(1)提示:利用等比数列定义. (2) ${a}_{n} = {2n} - 3$ 或 ${a}_{n} = 5 - {2n}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 422,
+          "end": 423
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 5",
+      "markdown": "5. 如图,已知直角三角形 ${AOB}$ 的两条直角边 ${AO}$ 和 ${BO}$ 的长分别为 5 和 12,点 ${O}_{1}\\text{ 、 }{O}_{2}\\text{ 、 }\\cdots \\text{ 、 }{O}_{n}\\text{ 、 }\\cdots$ 在边 ${OB}$ 上,半圆 ${O}_{1}$ 与 ${AO}$ 和 ${AB}$ 所在直线均相切,半圆 ${O}_{2}\\text{ 、 }{O}_{3}\\text{ 、 }\\cdots \\text{ 、 }{O}_{n}\\text{ 、 }\\cdots$ 与 ${AB}$ 所在直线相切,且与半圆 ${O}_{1}\\text{ 、 }{O}_{2}\\text{ 、 }\\cdots \\text{ 、 }{O}_{n - 1}\\text{ 、 }\\cdots$ 分别外切. 设这些半圆的半径分别为 ${r}_{1}\\text{ 、 }{r}_{2}\\text{ 、 }\\cdots \\text{ 、 }{r}_{n}\\text{ 、 }\\cdots$ .\n\n\n(1)求证:数列 $\\left\\{  {r}_{n}\\right\\}$ 为等比数列；\n\n(2)求前 $n$ 个半圆弧长的总和 ${L}_{n}$ ；\n\n(3)利用前 $n$ 个半圆弧长的总和 ${L}_{n}$ 的表达式,计算 $\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}{L}_{n}$ .\n\n![bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 979,
+          "end": 990
+        },
+        {
+          "source": "book",
+          "start": 981,
+          "end": 983
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 979,
+          "end": 990
+        },
+        {
+          "source": "book",
+          "start": 981,
+          "end": 983
+        }
+      ],
+      "id": "x1-4-2-h42B-5",
+      "category": "习题4.2B",
+      "answer": "5. (1) ${r}_{1} = \\frac{10}{3}$ ,当 $n \\geq  2$ 时,由 $\\frac{{r}_{n - 1} - {r}_{n}}{{r}_{n - 1} + {r}_{n}} = \\frac{5}{13}$ ,得 $\\frac{{r}_{n}}{{r}_{n - 1}} = \\frac{4}{9}$ .\n\n因此,数列 $\\left\\{  {r}_{n}\\right\\}$ 是以 $\\frac{10}{3}$ 为首项、以 $\\frac{4}{9}$ 为公比的等比数列.\n\n(2) ${L}_{n} = \\pi \\left( {{r}_{1} + {r}_{2} + \\cdots  + {r}_{n}}\\right)  = {6\\pi } \\cdot  \\left\\lbrack  {1 - {\\left( \\frac{4}{9}\\right) }^{n}}\\right\\rbrack$ .\n\n(3) $\\mathop{\\lim }\\limits_{{n \\rightarrow  \\infty }}{L}_{n} = {6\\pi }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 424,
+          "end": 431
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 499,
+      "original": "images/bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 631,
+      "original": "images/bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 863,
+      "original": "images/bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 909,
+      "original": "images/bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 981,
+      "original": "images/bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-4-2.json",
+    "question_count": 31,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

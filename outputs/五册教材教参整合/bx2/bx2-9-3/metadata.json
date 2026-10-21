@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-9-3",
+  "book_id": "bx2",
+  "section": "9.3",
+  "title": "实系数一元二次方程",
+  "section_json": "batch/sections/bx2/bx2-9-3.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-9-3",
+  "fingerprint": "67ef131cd4150ed0dee6f685b1111e3fceb1cbdf3548e7c8e45f9b679b78c6ec",
+  "status": "rendered",
+  "questions": 14,
+  "answers": 14,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "faf21d466961e4945c83c1e86faff7f02b442ab2c35a59e05bde7e5e636778a8",
+    "student.html": "30cae5188bcde008f074e15011d198078d09c1ae181f3c71cb951e4e5ea7b1ea",
+    "student.zip": "0df71e550483db7cffae80ccb0c60ce81b653e0c89e15fdc2fd95f7877c2fe40",
+    "content.json": "2cdbe6e84bbd3c5368eb389b936af3157d7c73df579339658b7f807f81fc418a"
+  }
+}

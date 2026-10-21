@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "counts": {
+    "local_references": 11418,
+    "student_zips": 101,
+    "zip_local_references": 25692,
+    "resource_packages": 43,
+    "sections": 101,
+    "build_artifacts": 404,
+    "emphasis_ranges": 337,
+    "visual_anchors": 49
+  },
+  "errors": [],
+  "scope": "Static file paths, source hashes, resource package hashes, and student ZIP integrity. Not mathematical or browser validation."
+}

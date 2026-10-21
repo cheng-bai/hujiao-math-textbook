@@ -1,0 +1,1050 @@
+[
+  {
+    "type": "section",
+    "title": "随机变量的分布与特征",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 319,
+        "end": 319
+      }
+    ],
+    "id": "x2-7-2",
+    "number": "7.2",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 7.2 随机变量的分布与特征\n\n### 教学重点\n\n(1)通过具体实例,了解随机变量的含义；\n\n(2)理解随机变量分布；\n\n(3)理解期望与方差的概念,并会进行计算；\n\n(4)感悟随机变量的分布及其数字特征的意义.\n\n核心概念: 随机变量的分布、期望、方差.\n\n核心素养:数学运算、数据分析.\n\n### 内容分析\n\n本节旨在帮助学生了解随机变量的概念及其分布, 理解随机变量的期望与方差, 感悟随机变量的分布及其数字特征的意义, 知道可以通过随机变量更好地刻画随机现象.\n\n(1)随机变量. 如果在一次试验中,试验可能出现的结果可以用一个变量 $X$ 来表示,并且 $X$ 是随着试验的结果的不同而变化的,那么我们把这样的变量 $X$ 叫做一个随机变量. 随机变量常用大写字母 $X, Y,\\cdots$ 表示. 这是随机变量的一个描述性定义. 其正式定义为: 以样本空间作为定义域的一个函数 $X$ 称为一个随机变量,即对样本空间 $\\Omega$ 中任意给定的元素 $\\omega$ ,都有唯一的实数 $X\\left( \\omega \\right)$ 与之对应. 注意,教师应该清楚随机变量是满足某种条件的一个函数.\n\n(2)随机变量的分布. 随机变量所有可能的取值以及相应的概率,称为随机变量的分布.\n\n将随机变量 $X$ 所有可能的取值 ${x}_{i}$ 与其对应的概率 ${p}_{i}\\left( {i = 1,2,\\cdots , n}\\right)$ 列表如下:\n\n<table><tr><td>$X$</td><td>${x}_{1}$</td><td>${x}_{2}$</td><td>...</td><td>${x}_{i}$</td><td>...</td><td>${x}_{n}$</td></tr><tr><td>$P$</td><td>${p}_{1}$</td><td>${p}_{2}$</td><td>...</td><td>${p}_{i}$</td><td>...</td><td>${p}_{n}$</td></tr></table>\n\n称上表为随机变量 $X$ 的概率分布律,简称分布,也称分布列. 还可以表示为 $\\left( \\begin{array}{llllll} {x}_{1} & {x}_{2} & \\cdots & {x}_{i} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{i} & \\cdots & {p}_{n} \\end{array}\\right)$ ,其中 ${p}_{1} + {p}_{2} + \\cdots  + {p}_{i} + \\cdots  + {p}_{n} = 1$ . 随机变量的分布表达了取值的可能性大小,也显示了随机变量的(全部)随机性.\n\n(3)随机变量的数学期望. 设一个随机变量 $X$ 所有可能的取值是 ${x}_{1},{x}_{2},\\cdots$ , ${x}_{n}$ ,这些值相应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则 $E\\left\\lbrack  X\\right\\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \\cdots  + {x}_{n}{p}_{n}$ 叫做这个随机变量的数学期望, 简称期望, 也称均值. 因为期望实际上是由某个分布所确定的, 所以也称为该分布的期望. 数学期望是一个加权平均, 其中的权是随机变量取值对应的概率. 随机变量的期望是一个确定的数, 刻画了这个随机变量的平均取值水平.\n\n期望的线性性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $E\\left\\lbrack  {aX}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 是两个随机变量,那么 $E\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差. 随机变量 $X$ 的方差 $D\\left\\lbrack  X\\right\\rbrack$ 定义为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack$ , 可变形为 $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}$ . 方差衡量此随机变量对其期望的偏离度或分散程度,即其随机程度. $D\\left\\lbrack  X\\right\\rbrack$ 的算术平方根 $\\sqrt{D\\left\\lbrack  X\\right\\rbrack  }$ 叫做随机变量 $X$ 的标准差,它也是一个衡量随机变量波动大小的量.\n\n(4)随机变量的方差. 设一个随机变量 $X$ 所有可能取值是 ${x}_{1},{x}_{2},\\cdots ,{x}_{n}$ ,其对应的概率是 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,则\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = {\\left( {x}_{1} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{1} + {\\left( {x}_{2} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{2} + \\cdots  + {\\left( {x}_{n} - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}{p}_{n}\n$$\n\n称为这个随机变量 $X$ 的方差. 随机变量的方差反映了随机变量的取值相对于期望的平均波动的大小(离散程度).\n\n方差的性质:\n\n① 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {aX}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .\n\n② 如果 $X\\text{、}Y$ 分别是两个独立的随机变量,那么 $D\\left\\lbrack  {X + Y}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack$ .\n\n例 1 旨在帮助学生理解分布的概念, 练习 7.2(1)、习题 7.2A 组第 1 题是对此概念的巩固.\n\n例 2 说明对于同一个随机试验, 研究的随机变量不同, 其分布也不同.\n\n例 3 要求自主构造一个随机变量, 表现出问题的开放性, 是例 2 的延伸. 本例还可以构造与教科书上不同的随机变量,例如,用 $Y$ 表示年降水量级别, $Y = 1\\text{、}2\\text{、}3$ 分别表示年降水量为 0~200、200~400 和 400 以上,求其分布. 教学中,应注意充分发挥学生的主动性.\n\n\n例 4 旨在帮助学生理解期望的概念. 习题 7.2A 组第 2、3 题是对此概念的巩固.\n\n例 5 有一定的难度. 首先,要确定随机试验的样本空间的元素个数及随机变量 $X$ 取 $k$ 时的事件含有的基本事件数,前者应用乘法原理,后者应用组合数. 其次,在计算 $X$ 的期望时要应用二项式定理,技巧性较高,要通过分析算式的结构找到突破点. 练习 7.2(2)旨在帮助学生理解期望的概念,并会进行计算.\n\n例 6 是例 4 的延续, 旨在帮助学生理解方差的概念.\n\n例 7 是例 4 的延伸, 旨在应用方差的性质. 习题 7.2A 组第 4 题是对方差计算内容的巩固.\n\n### 注意事项\n\n随机变量 $X$ 可取不同的值,而期望 $E\\left\\lbrack  X\\right\\rbrack$ 是一个不变的值,由 $X$ 的分布唯一确定,所以也称为 $X$ 的概率分布的数学期望,它反映了 $X$ 取值的平均水平.\n\n期望表示随机变量在随机试验中取值的平均值, 它是概率意义下的平均值, 不是相应数值的算术平均数. 期望的线性性质②可以推广到任意有限个随机变量的情况, 即成立 $E\\left\\lbrack  {{X}_{1} + {X}_{2} + \\cdots  + {X}_{n}}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack   + \\cdots  + E\\left\\lbrack  {X}_{n}\\right\\rbrack$ .\n\n随机变量的期望还有以下性质:\n\n① 若 $c$ 为常数,则 $E\\left\\lbrack  c\\right\\rbrack   = c$ .\n\n② 如果 $X\\text{、}Y$ 是两个相互独立的随机变量,那么 $E\\left\\lbrack  {XY}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   \\cdot  E\\left\\lbrack  Y\\right\\rbrack$ .\n\n随机变量的方差还有以下性质:\n\n① 若 $c$ 为常数,则 $D\\left\\lbrack  c\\right\\rbrack   = 0$ .\n\n② 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么 $D\\left\\lbrack  {X + a}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack$ .\n\n对于连续性随机变量 $\\xi$ ,其密度函数为 $f\\left( x\\right)$ ,若 $E\\left\\lbrack  {\\xi }^{2}\\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{x}^{2}f\\left( x\\right) \\mathrm{d}x$ 存在, 则 $D\\left\\lbrack  \\xi \\right\\rbrack   = {\\int }_{-\\infty }^{+\\infty }{\\left\\lbrack  x - E\\left( \\xi \\right) \\right\\rbrack  }^{2}f\\left( x\\right) \\mathrm{d}x$ 称为 $\\xi$ 的方差. 连续型随机变量的数字特征的计算不作教学要求, 此处给出仅供教师参考.\n\n### 教学建议\n\n尽管随机变量的名字中用了“变量”这两个字, 但实际上它是一个函数. 随机变量的取值在随机现象发生前是随机的.\n\n下面的性质可以在解决问题时使用: 若 $X$ 为随机变量, $a\\text{、}b$ 为实数, 则 $E\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack   + b, D\\left\\lbrack  {{aX} + b}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 155,
+        "end": 249
+      }
+    ],
+    "teacher_only": true,
+    "id": "x2-7-2-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 随机变量与分布",
+    "markdown": "### 1 随机变量与分布",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 321,
+        "end": 321
+      }
+    ],
+    "id": "x2-7-2-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在许多情况下, 我们可以使用数来表示随机现象的结果. 生活中就有很多例子:\n\n(1)掷一颗骰子，用 $X$ 表示点数， $X = 6$ 表示掷出 6 点， $X = 1$ 表示掷出 1 点；\n\n(2)抛掷一枚硬币 10 次，用 $X$ 表示得到正面的次数，例如, $X = 5$ 表示 5 次是正面;\n\n(3)从一个放有大小与质地相同的 10 个白球、 10 个黑球的罐子中摸出 5 个球,用 $X$ 表示其中白球的个数;\n\n(4)用 $X$ 表示明天的降雨量(单位:mm)；\n\n(5)用 $X$ 表示保险公司某客户一年中的车辆损失(单位:元).\n\n在这些例子中, 我们都是用数来表示随机现象的结果, 这引出随机变量这个重要的概念.\n\n在本章中, 除 7.3 节外, 我们总是假设样本空间是有限的. 这时,以样本空间作为定义域的一个函数 $X$ 称为一个随机变量 (random variable),即对样本空间 $\\Omega$ 中任意给定的元素 $\\omega$ ,都有唯一的实数 $X\\left( \\omega \\right)$ 与之对应.\n\n尽管随机变量的名字中用了“变量”这两个字，但实际上它是一个函数. 随机变量的取值在随机现象发生前是随机的, 且其取某一具体值这一事件的概率是该随机变量在该值上的分布. 分布是日常生活中经常使用的一个词, 如收入分布、人口分布、年龄分布、成绩分布等. 在数学中, 分布的定义如下:\n\n随机变量所有可能的取值以及相应的概率, 称为随机变量的分布.\n\n注意,在上述定义中,随机变量 $X$ 的所有可能取值 (以 $X$ 作为观察角度的所有结果) 的概率的和等于 1 .\n\n分布的表示方法很多, 常用图表来表示, 这比较直观易懂. 例如, 下面例 1 中的分布, 第一行表示随机变量的取值, 第二行表示相应取值的概率.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 322,
+        "end": 346
+      }
+    ],
+    "emphases": [
+      {
+        "start": 318,
+        "end": 473,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-3-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 616,
+        "end": 646,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-3-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-2-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 分别抛掷 1、2、3 枚硬币，计算其中正面朝上枚数 $X$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 347,
+        "end": 348
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 347,
+        "end": 348
+      }
+    ],
+    "id": "x2-7-2-ex-1",
+    "category": "例题",
+    "answer": "解(1)先考虑抛掷 1 枚硬币的情形. 此时 $X$ 的可能取值是 0、1，且 $P\\left( {X = 0}\\right)  = P\\left( {X = 1}\\right)  = \\frac{1}{2}$ ，所以 $X$ 的分布是\n\n$$\n\\left( \\begin{matrix} 0 & 1 \\\\  \\frac{1}{2} & \\frac{1}{2} \\end{matrix}\\right)\n$$\n\n(2)再考虑抛掷 2 枚硬币的情形. 此时 $X$ 的可能取值是 0 、 1、2，分别表示两个反面、一正一反、两个正面这三个事件，因为 $P\\left( {X = 0}\\right)  = P\\left( {X = 2}\\right)  = \\frac{1}{4}, P\\left( {X = 1}\\right)  = \\frac{1}{2}$ ,所以 $X$ 的分布是\n\n$$\n\\left( \\begin{array}{lll} 0 & 1 & 2 \\\\  \\frac{1}{4} & \\frac{1}{2} & \\frac{1}{4} \\end{array}\\right)\n$$\n\n让我们用这个例子来详细解释一下随机变量. 用 $H$ 及 $T$ 分别表示正反面, 那么样本空间\n\n$$\n\\Omega  = \\{ {HH},{HT},{TH},{TT}\\}\n$$\n\n是等可能的. 随机变量 $X$ 是正面朝上的个数,故\n\n$$\nX\\left( {HH}\\right)  = 2, X\\left( {HT}\\right)  = 1, X\\left( {TH}\\right)  = 1, X\\left( {TT}\\right)  = 0,\n$$\n\n且\n\n$$\n\\{ X = 0\\}  = \\{ {TT}\\} ,\n$$\n\n$$\n\\{ X = 1\\}  = \\{ {HT},{TH}\\} ,\n$$\n\n$$\n\\{ X = 2\\}  = \\{ {HH}\\}\n$$\n\n分别包含 1、2 及 1 个元素，因此概率分别是 $\\frac{1}{4}$ 、 $\\frac{2}{4}$ 、 $\\frac{1}{4}$ .\n\n(3)若抛掷 3 枚硬币，则 $X$ 的可能取值是 0、1、2、3，分别表示三个反面、一正两反、两正一反、三个正面这四个事件, 而\n\n$$\nP\\left( {X = 0}\\right)  = P\\left( {X = 3}\\right)  = \\frac{1}{8},\n$$\n\n$$\nP\\left( {X = 1}\\right)  = P\\left( {X = 2}\\right)  = \\frac{3}{8},\n$$\n\n所以 $X$ 的分布是\n\n$$\n\\left( \\begin{array}{llll} 0 & 1 & 2 & 3 \\\\  \\frac{1}{8} & \\frac{3}{8} & \\frac{3}{8} & \\frac{1}{8} \\end{array}\\right)\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 349,
+        "end": 404
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 掷一颗骰子，观察掷得的点数.\n\n(1)求点数 $X$ 的分布；\n\n(2)只关心点数 6 是否出现. 若出现,则记 $Y = 1$ ,否则记 $Y = 0$ . 求 $Y$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 405,
+        "end": 410
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 405,
+        "end": 410
+      }
+    ],
+    "id": "x2-7-2-ex-2",
+    "category": "例题",
+    "answer": "解(1)因为掷得每个点数为等可能事件，所以点数 $X$ 的分布为\n\n$$\n\\left( \\begin{array}{llllll} 1 & 2 & 3 & 4 & 5 & 6 \\\\  \\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6} \\end{array}\\right) .\n$$\n\n( 2 )因为 $P\\left( {Y = 1}\\right)  = \\frac{1}{6}$ ，而 $P\\left( {Y = 0}\\right)  = \\frac{5}{6}$ ，所以 $Y$ 的分布为\n\n$$\n\\left( \\begin{matrix} 0 & 1 \\\\  \\frac{5}{6} & \\frac{1}{6} \\end{matrix}\\right)\n$$\n\n---\n\n一般要求概率值是正数, 因为 0 概率值在分布中所处的这一列总可以删去.\n\n---\n\n当随机变量取所有值的概率均相等时, 称它是等可能分布或均匀分布的, 如例 1 (1) 与例 2 (1). 另外, 只取两个值的随机变量称为伯努利型, 其分布称为伯努利分布, 如例 1(1) 与例 2(2).\n\n一个如下形式的图表被称为一个分布:\n\n$$\n\\left( \\begin{array}{llll} {x}_{1} & {x}_{2} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{n} \\end{array}\\right)\n$$\n\nQ\n\n---\n\n分布直观上表示总值为 1 的量是怎么分布在一些数上的.\n\n---\n\n其中 ${x}_{1},{x}_{2},\\cdots ,{x}_{n}$ 是互异的实数, ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ 是非负数, 作为概率值, 其总和为 1 , 即成立\n\n$$\n{p}_{1} + {p}_{2} + \\cdots  + {p}_{n} = 1.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 411,
+        "end": 450
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 统计某地历史上近两百年的年降水量，得到以下数据:\n\n<table><tr><td>年降水量/mm</td><td>0~100</td><td>100~200</td><td>200~300</td><td>300~400</td><td>400 以上</td></tr><tr><td>年数</td><td>10</td><td>55</td><td>85</td><td>35</td><td>15</td></tr></table>\n\n请据此构造一个随机变量并求其分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 451,
+        "end": 456
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 451,
+        "end": 456
+      }
+    ],
+    "id": "x2-7-2-ex-3",
+    "category": "例题",
+    "answer": "解 用 $X$ 表示年降水量级别, $X = 1\\text{ 、 }2\\text{ 、 }3\\text{ 、 }4\\text{ 、 }5$ 分别表示年降水量为 0~100、100~200、200~300、300~400 和 400 以上. $X$ 是一个随机变量,其分布为\n\n$$\n\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 \\\\  \\frac{2}{40} & \\frac{11}{40} & \\frac{17}{40} & \\frac{7}{40} & \\frac{3}{40} \\end{matrix}\\right) .\n$$\n\n分布通常可用更直观的图像来表示, 如下面的条形图 (图 7-2-1)所示.\n\n![bo_d4slos3ef24c73be0qug_12_283_365_698_358_0.jpg](images/private-3e5c3a4d97ce8c09e812.jpg)\n\n图 7-2-1",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 457,
+        "end": 468
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.2(1)",
+    "markdown": "### 练习 7.2(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 469,
+        "end": 469
+      }
+    ],
+    "id": "x2-7-2-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(1) · 1",
+    "markdown": "1. 掷两颗骰子，用 $X$ 表示两点数差的绝对值. 求 $X$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 472
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 472
+      }
+    ],
+    "id": "x2-7-2-p721-1",
+    "category": "练习7.2(1)",
+    "answer": "1. $\\left( \\begin{matrix} 0 & 1 & 2 & 3 & 4 & 5 \\\\  \\frac{6}{36} & \\frac{10}{36} & \\frac{8}{36} & \\frac{6}{36} & \\frac{4}{36} & \\frac{2}{36} \\end{matrix}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 375,
+        "end": 376
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(1) · 2",
+    "markdown": "2. 以下是分布的为 ( )\n\nA. $\\left( \\begin{array}{ll} 0 & 1 \\\\  1 & 1 \\end{array}\\right)$ ; B. $\\left( \\begin{matrix}  - 1 & 0 & 1 \\\\  \\frac{1}{2} & \\frac{1}{3} & \\frac{1}{6} \\end{matrix}\\right)$ ;\n\nC. $\\left( \\begin{array}{lll} 1 & 2 & 3 \\\\  \\frac{1}{2} & \\frac{1}{4} & \\frac{1}{8} \\end{array}\\right)$ ; D. $\\left( \\begin{matrix} 1 & {1.2} & 2 & {2.4} \\\\   - {0.5} & {0.5} & {0.3} & {0.7} \\end{matrix}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 473,
+        "end": 478
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 473,
+        "end": 478
+      }
+    ],
+    "id": "x2-7-2-p721-2",
+    "category": "练习7.2(1)",
+    "answer": "2. B.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 377,
+        "end": 378
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 期望",
+    "markdown": "### 2 期望",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 479,
+        "end": 479
+      }
+    ],
+    "id": "x2-7-2-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "---\n\n期望是概率论中的一个重要概念, 它的全称是数学期望, 简称期望, 也称均值. 因为期望实际上是由某个分布所确定的. 所以也称为该分布的期望.\n\n---\n\n随机变量的分布体现的是随机变量取值的概率分布. 把概率作为权重，对随机变量的相应取值进行加权平均后所得到的值， 称为随机变量的期望 (expectation):\n\n定义 如果随机变量 $X$ 的分布是\n\n$$\n\\left( \\begin{array}{llll} {x}_{1} & {x}_{2} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{n} \\end{array}\\right)\n$$\n\n那么它的期望定义为如下的加权平均: Q\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \\cdots  + {x}_{n}{p}_{n}.\n$$\n\n---\n\n数学期望是一个加权平均, 其中的权是随机变量取值对应的概率.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 480,
+        "end": 506
+      }
+    ],
+    "emphases": [
+      {
+        "start": 5,
+        "end": 75,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-11-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 82,
+        "end": 162,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-11-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 315,
+        "end": 334,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-11-2",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-2-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 (1)掷一颗骰子，求掷得点数的期望；\n\n(2)掷两颗骰子，求掷得点数和的期望.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 507,
+        "end": 510
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 507,
+        "end": 510
+      }
+    ],
+    "id": "x2-7-2-ex-4",
+    "category": "例题",
+    "answer": "解(1)掷一颗骰子，掷得点数 $X$ 的期望是\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = 1 \\times  \\frac{1}{6} + 2 \\times  \\frac{1}{6} + 3 \\times  \\frac{1}{6} + 4 \\times  \\frac{1}{6} + 5 \\times  \\frac{1}{6} + 6 \\times  \\frac{1}{6}\n$$\n\n$$\n= \\frac{1 + 2 + 3 + 4 + 5 + 6}{6} = {3.5}.\n$$\n\n(2)掷两颗骰子，掷得点数和 $X$ 的分布为\n\n$$\n\\left( \\begin{matrix} 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & {10} & {11} & {12} \\\\  \\frac{1}{36} & \\frac{2}{36} & \\frac{3}{36} & \\frac{4}{36} & \\frac{5}{36} & \\frac{6}{36} & \\frac{5}{36} & \\frac{4}{36} & \\frac{3}{36} & \\frac{2}{36} & \\frac{1}{36} \\end{matrix}\\right) ,\n$$\n\n其期望为\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = 2 \\times  \\frac{1}{36} + 3 \\times  \\frac{2}{36} + 4 \\times  \\frac{3}{36} + 5 \\times  \\frac{4}{36} + 6 \\times  \\frac{5}{36} + 7 \\times  \\frac{6}{36} +\n$$\n\n$$\n8 \\times  \\frac{5}{36} + 9 \\times  \\frac{4}{36} + {10} \\times  \\frac{3}{36} + {11} \\times  \\frac{2}{36} + {12} \\times  \\frac{1}{36}\n$$\n\n$$\n= 7\\text{ . }\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 511,
+        "end": 540
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 抛掷 $n$ 枚硬币,用 $X$ 表示正面朝上的硬币数. 求它的分布及期望.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 541,
+        "end": 542
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 541,
+        "end": 542
+      }
+    ],
+    "id": "x2-7-2-ex-5",
+    "category": "例题",
+    "answer": "解 抛掷 $n$ 枚硬币是一个古典概率模型,其基本事件是\n\n$$\n\\left( \\frac{n\\text{ 枚 }}{*,*,\\cdots , * }\\right) \\text{ , }\n$$\n\n其中,括号里的每一个 * 表示每一枚硬币抛掷的结果: 正面朝上 $\\left( H\\right)$ 或者反面朝上 $\\left( T\\right)$ . 所以,抛掷 $n$ 枚硬币的随机试验的样本空间中有 ${2}^{n}$ 个元素. 事件 $X = k$ 表示 “出现 $k$ 个正面朝上”,即其中有 $k$ 个 $H$ 、 $\\left( {n - k}\\right)$ 个 $T$ 的基本事件全体. 用选择性必修课程第 6 章介绍的排列组合方法, $X = k$ 这个事件含有的基本事件数为在 $n$ 个位置上取 $k$ 个位置放置 $H$ 的组合数 ${\\mathrm{C}}_{n}^{k}$ .\n\n$X$ 的取值范围是 $k = 0,1,2,\\cdots , n$ ,有\n\n$$\nP\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{n}^{k}}{{2}^{n}}.\n$$\n\n有了 $X$ 的分布,就可以得到 $X$ 的期望,为\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = \\mathop{\\sum }\\limits_{{k = 0}}^{n}\\frac{k{\\mathrm{C}}_{n}^{k}}{{2}^{n}}.\n$$\n\n当 $k \\geq  1$ 时,有\n\n$$\nk{\\mathrm{C}}_{n}^{k} = \\frac{{kn}!}{k!\\left( {n - k}\\right) !} = \\frac{n!}{\\left( {k - 1}\\right) !\\left( {n - k}\\right) !}\n$$\n\n$$\n= n\\frac{\\left( {n - 1}\\right) !}{\\left( {k - 1}\\right) !\\left( {n - k}\\right) !} = n{\\mathrm{C}}_{n - 1}^{k - 1},\n$$\n\n由选择性必修课程 6.5 节中所介绍的二项式定理, 得所求的期望为\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = \\mathop{\\sum }\\limits_{{k = 0}}^{n}\\frac{k{\\mathrm{C}}_{n}^{k}}{{2}^{n}} = \\mathop{\\sum }\\limits_{{k = 1}}^{n}\\frac{n{\\mathrm{C}}_{n - 1}^{k - 1}}{{2}^{n}}\n$$\n\n$$\n= \\frac{n}{{2}^{n}}\\mathop{\\sum }\\limits_{{k = 1}}^{n}{\\mathrm{C}}_{n - 1}^{k - 1} = \\frac{n}{{2}^{n}}\\mathop{\\sum }\\limits_{{k = 0}}^{{n - 1}}{\\mathrm{C}}_{n - 1}^{k}\n$$\n\n$$\n= \\frac{n}{{2}^{n}} \\times  {2}^{n - 1} = \\frac{n}{2}.\n$$\n\n掷一颗骰子，掷得点数的期望是 3.5 ，甚至不是一个整数， 那么，期望到底有什么意义呢？实际上，期望的意义在多次重复试验中可以明显地体现出来. 例如,重复掷一颗骰子 $n$ 次,所得到的点数分别记为 ${X}_{1},{X}_{2},\\cdots ,{X}_{n}$ ,那么,当 $n$ 很大时,平均点数必定逼近于期望, 即成立\n\n$$\n\\frac{{X}_{1} + {X}_{2} + \\cdots  + {X}_{n}}{n} \\approx  {3.5}.\n$$\n\n这个结果类似于在必修课程 12.3 节中所述的伯努利大数定律.\n\n随机变量的期望是一个确定的数, 它满足下面两个性质.\n\n---\n\n请同学们尝试完成性质 1 的证明.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 543,
+        "end": 602
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "期望的线性性质",
+    "markdown": "#### 期望的线性性质",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 603,
+        "end": 603
+      }
+    ],
+    "id": "x2-7-2-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 如果 $X$ 是一个随机变量, $a$ 是一个实数,那么\n\n$$\nE\\left\\lbrack  {aX}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack  .\n$$\n\n2. 如果 $X\\text{ 、 }Y$ 是两个随机变量,那么\n\n$$\nE\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack  .\n$$\n\n性质 1 的证明是容易的, 性质 2 的证明超出所学的知识范围. 这两个性质的证明这里均略去, 只列出它们的结论. 为了方便, 我们把一个确定的常数也看作一个随机变量, 称为常数随机变量. 常数随机变量是确定的, 没有随机性, 它的期望等于它本身.\n\n例 4(2)中求得点数之和的期望是 7 ，这是通过分布来计算的. 更方便的方法是利用期望的性质来计算. 用 ${X}_{1}$ 、 ${X}_{2}$ 分别表示掷第一颗及第二颗骰子得到的点数,那么 ${X}_{1} + {X}_{2}$ 就是两颗骰子的点数之和. 这样, 根据期望的线性性质, 并利用例 4(1) 的结果, 就得到\n\n$$\nE\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack   = {3.5} + {3.5} = 7.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 604,
+        "end": 624
+      }
+    ],
+    "emphases": [
+      {
+        "start": 260,
+        "end": 384,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-15-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-2-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.2(2)",
+    "markdown": "### 练习 7.2(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 625,
+        "end": 625
+      }
+    ],
+    "id": "x2-7-2-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(2) · 1",
+    "markdown": "1. 抛掷 4 枚硬币,用 $X$ 表示正面朝上的枚数. 求 $X$ 的期望.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 627,
+        "end": 628
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 627,
+        "end": 628
+      }
+    ],
+    "id": "x2-7-2-p722-1",
+    "category": "练习7.2(2)",
+    "answer": "1.2 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 381,
+        "end": 382
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(2) · 2",
+    "markdown": "2. 从一个放有大小与质地相同的 5 个白球、4 个黑球的罐子中不放回地摸 3 个球, 用 $X$ 表示摸到的白球数. 求 $X$ 的期望.\n\n通过前面的学习，我们不仅能够时刻感知无处不在的随机性， 还能够感知随机性的大小. 一般来说, 如果某件事发生的可能性很大或者很小, 它的随机性就相对较小. 例如, 抛掷一枚硬币, 正面和反面朝上的概率都是 $\\frac{1}{2}$ ,而掷一颗骰子得到 “ 6 ”与 “非 6 ”两个结果的概率则是 $\\frac{1}{6}$ 与 $\\frac{5}{6}$ . 相比之下,抛掷硬币的结果更不确定,所以随机性更大. 与之比较, 买彩票中奖的概率要小很多, 因此随机性更小. 人们经常把随机性很小 (概率接近 0 或 1 ) 的事件近似为确定的事件，即近似确定不发生或近似确定发生，此时，就模糊了确定性和随机性的界限，把“确定”当作是随机性非常小的代名词.\n\n期望大体上表示一个随机变量的“中间”态. 随机变量的取值虽不确定, 但总是分布在期望的两侧, 可能远也可能近. 通俗地说, 如果一个随机变量分布在期望两侧比较远的地方, 就说这个随机变量比较分散. 反过来, 如果一个随机变量分布在期望两侧比较近的地方, 就说这个随机变量比较集中.\n\n数学上用什么指标来衡量随机变量的分散度呢? 按照上面的分析,对随机变量 $X$ 而言,我们用 $X$ 与其期望的偏差的平方的期望, 即\n\n$$\nE\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack\n$$\n\n来衡量随机变量 $X$ 的分散度,称为 $X$ 的方差 (variance),记为 $D\\left\\lbrack  X\\right\\rbrack$ .\n\nQ\n\n定义 随机变量 $X$ 的方差 $D\\left\\lbrack  X\\right\\rbrack$ 定义为\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack  .\n$$\n\n考虑一个极端的情况. 如果 $X$ 是一个常数随机变量,那么就有 $D\\left\\lbrack  X\\right\\rbrack   = 0$ . 这说明一个确定的量的分散度为零. 反之,如果 $D\\left\\lbrack  X\\right\\rbrack   = 0$ ,那么 $X$ 就是一个常数随机变量. 这说明分散度为零的量必是一个确定的量.\n\n下面推导一个更方便使用的方差公式. 事实上, 根据期望的线性性质,并注意到 $E\\left\\lbrack  X\\right\\rbrack$ 是一个常数,就有\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {{X}^{2} - {2XE}\\left\\lbrack  X\\right\\rbrack   + {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}}\\right\\rbrack\n$$\n\n$$\n= E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {2E}\\left\\lbrack  {{XE}\\left\\lbrack  X\\right\\rbrack  }\\right\\rbrack   + E\\left\\lbrack  {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack\n$$\n\n$$\n= E\\left\\lbrack  {X}^{2}\\right\\rbrack   - 2{\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2} + {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\n$$\n\n$$\n= E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}.\n$$\n\n---\n\n事件可以看成是一个随机变量:发生定义为 1 , 不发生定义为 0 . 这样, 随机性大小与分散度大小实际上是统一的.\n\n方差是 $X - E\\left\\lbrack  X\\right\\rbrack$ 平方之后的期望, 它与期望 $E\\left\\lbrack  X\\right\\rbrack$ 的尺度不同. 统计中经常使用标准差 $\\sqrt{D\\left\\lbrack  X\\right\\rbrack  }$ 来代替方差.\n\n---\n\n这样，就得到方差的如下计算公式:\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 629,
+        "end": 684
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 629,
+        "end": 684
+      }
+    ],
+    "id": "x2-7-2-p722-2",
+    "category": "练习7.2(2)",
+    "answer": "2. $\\frac{5}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 383,
+        "end": 384
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 掷一颗骰子,用 $X$ 表示掷得的点数. 求 $X$ 的方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 685,
+        "end": 686
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 685,
+        "end": 686
+      }
+    ],
+    "id": "x2-7-2-ex-6",
+    "category": "例题",
+    "answer": "解 由本节例 4 可知 $X$ 的期望 $E\\left\\lbrack  X\\right\\rbrack   = {3.5}$ ,现在需要计算 $E\\left\\lbrack  {X}^{2}\\right\\rbrack$ ,为此先计算 ${X}^{2}$ 的分布. 显然, ${X}^{2}$ 的取值是 ${1}^{2}\\text{ 、 }{2}^{2}$ 、 ${3}^{2}\\text{ 、 }{4}^{2}\\text{ 、 }{5}^{2}\\text{ 、 }{6}^{2}$ ,且\n\n$$\nP\\left( {{X}^{2} = {k}^{2}}\\right)  = P\\left( {X = k}\\right)  = \\frac{1}{6}, k = 1,2,\\cdots ,6.\n$$\n\n于是\n\n$$\nE\\left\\lbrack  {X}^{2}\\right\\rbrack   = {1}^{2} \\times  \\frac{1}{6} + {2}^{2} \\times  \\frac{1}{6} + {3}^{2} \\times  \\frac{1}{6} + {4}^{2} \\times  \\frac{1}{6} + {5}^{2} \\times  \\frac{1}{6} + {6}^{2} \\times  \\frac{1}{6}\n$$\n\n$$\n= \\frac{{1}^{2} + {2}^{2} + {3}^{2} + {4}^{2} + {5}^{2} + {6}^{2}}{6}\n$$\n\n$$\n= \\frac{91}{6}\\text{ . }\n$$\n\n因此\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2} = \\frac{91}{6} - {3.5}^{2} = \\frac{35}{12}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 687,
+        "end": 712
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "例 6 中 $E\\left\\lbrack  {X}^{2}\\right\\rbrack$ 的计算实际上无需求助于 ${X}^{2}$ 的分布,只要知道 $X$ 自身的分布就够了. 事实上,若 $X$ 的取值为 ${x}_{1},{x}_{2},\\cdots$ , ${x}_{n}$ ,而相应的概率为 ${p}_{1},{p}_{2},\\cdots ,{p}_{n}$ ,就有\n\n$$\nE\\left\\lbrack  {X}^{2}\\right\\rbrack   = {x}_{1}^{2}{p}_{1} + {x}_{2}^{2}{p}_{2} + \\cdots  + {x}_{n}^{2}{p}_{n}.\n$$\n\n方差有以下两个性质:",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 713,
+        "end": 720
+      }
+    ],
+    "id": "x2-7-2-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "方差的性质",
+    "markdown": "#### 方差的性质",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 721,
+        "end": 721
+      }
+    ],
+    "id": "x2-7-2-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 如果 $x$ 是一个随机变量, $a$ 是一个实数,那么\n\n$$\nD\\left\\lbrack  {aX}\\right\\rbrack   = {a}^{2}D\\left\\lbrack  X\\right\\rbrack  .\n$$\n\n2. 如果 $X\\text{ 、 }Y$ 分别是两个独立的随机试验所对应的随机变量, 那么\n\n$$\nD\\left\\lbrack  {X + Y}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack  .\n$$\n\n性质 1 的证明是容易的, 但性质 2 的证明超出所学的知识范围. 这两个性质的证明这里均略去, 只列出它们的结论.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 722,
+        "end": 736
+      }
+    ],
+    "id": "x2-7-2-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 掷两颗骰子,掷得的点数分别为 $X\\text{ 、 }Y$ . 求点数和 $X + Y$ 与点数差 $X - Y$ 的期望与方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 737,
+        "end": 738
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 737,
+        "end": 738
+      }
+    ],
+    "id": "x2-7-2-ex-7",
+    "category": "例题",
+    "answer": "解 本节例 4 说明 $E\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  Y\\right\\rbrack   = {3.5}$ ,本节例 6 说明 $D\\left\\lbrack  X\\right\\rbrack \\; = D\\left\\lbrack  Y\\right\\rbrack   = \\frac{35}{12}.$\n\n---\n\n请同学们尝试完成性质 1 的证明.\n\n---\n\n由期望的线性性质, 可得\n\n$$\nE\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack   = 7,\n$$\n\n$$\nE\\left\\lbrack  {X - Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  {-Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   - E\\left\\lbrack  Y\\right\\rbrack   = 0.\n$$\n\n因为掷两颗骰子是两个独立的随机试验,而 $X\\text{ 、 }Y$ 分别是这两个独立试验所对应的随机变量, 所以由方差的性质可得\n\n$$\nD\\left\\lbrack  {X + Y}\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack   = \\frac{35}{12} + \\frac{35}{12} = \\frac{35}{6},\n$$\n\n$$\nD\\left\\lbrack  {X - Y}\\right\\rbrack   = D\\left\\lbrack  {X + \\left( {-Y}\\right) }\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  {-Y}\\right\\rbrack\n$$\n\n$$\n= D\\left\\lbrack  X\\right\\rbrack   + {\\left( -1\\right) }^{2}D\\left\\lbrack  Y\\right\\rbrack   = D\\left\\lbrack  X\\right\\rbrack   + D\\left\\lbrack  Y\\right\\rbrack\n$$\n\n$$\n= \\frac{35}{6}\\text{ . }\n$$\n\n综上所述, 一个随机变量是以其样本空间为定义域的函数, 期望描述它的中心位置, 而方差描述此随机变量对其期望的偏离度, 即其随机程度. 期望与方差是随机变量最重要的两个特征. 它们是通过数字来描述的, 也称为数字特征.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 739,
+        "end": 776
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.2(3)",
+    "markdown": "### 练习 7.2(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 777,
+        "end": 777
+      }
+    ],
+    "id": "x2-7-2-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(3) · 1",
+    "markdown": "1. 设 $X$ 是一个随机变量, $c$ 是常数. 求证: $X + c$ 的方差与 $X$ 的方差相等.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 779,
+        "end": 780
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 779,
+        "end": 780
+      }
+    ],
+    "id": "x2-7-2-p723-1",
+    "category": "练习7.2(3)",
+    "answer": "1. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 387,
+        "end": 388
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.2(3) · 2",
+    "markdown": "2. 已知随机变量 $X$ 的分布为\n\n$$\n\\left( \\begin{matrix} 1 & 2 & 3 \\\\  {0.4} & {0.2} & {0.4} \\end{matrix}\\right) ,\n$$\n\n求 $X$ 的方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 781,
+        "end": 788
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 781,
+        "end": 788
+      }
+    ],
+    "id": "x2-7-2-p723-2",
+    "category": "练习7.2(3)",
+    "answer": "2. 0.8.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 389,
+        "end": 390
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 7.2",
+    "markdown": "### 习题 7.2",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 789,
+        "end": 789
+      }
+    ],
+    "id": "x2-7-2-b27",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 791,
+        "end": 791
+      }
+    ],
+    "id": "x2-7-2-b28",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题7.2A · 1",
+    "markdown": "1. 一袋中装有 6 个大小与质地相同的白球,编号为 1、2、3、4、5、6. 从该袋内随机取出 3 个球,记被取出球的最大号码数为 $X$ . 写出随机变量 $X$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 793,
+        "end": 794
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 793,
+        "end": 794
+      }
+    ],
+    "id": "x2-7-2-h72A-1",
+    "category": "习题7.2A",
+    "answer": "1. $\\left( \\begin{matrix} 3 & 4 & 5 & 6 \\\\  \\frac{1}{20} & \\frac{3}{20} & \\frac{6}{20} & \\frac{10}{20} \\end{matrix}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 395,
+        "end": 396
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2A · 2",
+    "markdown": "2. 掷两颗骰子，用 $X$ 表示较大的点数 (在点数相同时， $X$ 表示共同的点数). 求 $X$ 的分布与期望.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 795,
+        "end": 796
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 795,
+        "end": 796
+      }
+    ],
+    "id": "x2-7-2-h72A-2",
+    "category": "习题7.2A",
+    "answer": "2. $\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 & 6 \\\\  \\frac{1}{36} & \\frac{3}{36} & \\frac{5}{36} & \\frac{7}{36} & \\frac{9}{36} & \\frac{11}{36} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = \\frac{161}{36}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 397,
+        "end": 398
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2A · 3",
+    "markdown": "3. 设某射手打靶环数 $X$ 的分布为\n\n$$\n\\left( \\begin{matrix} 7 & 8 & 9 & {10} \\\\  a & {0.1} & {0.3} & b \\end{matrix}\\right)\n$$\n\n已知期望 $E\\left\\lbrack  X\\right\\rbrack   = {8.9}$ . 求 $a\\text{ 、 }b$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 797,
+        "end": 804
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 797,
+        "end": 804
+      }
+    ],
+    "id": "x2-7-2-h72A-3",
+    "category": "习题7.2A",
+    "answer": "3. $a = {0.2}, b = {0.4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 399,
+        "end": 400
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2A · 4",
+    "markdown": "4. 一袋中装有大小与质地相同的 2 个白球和 3 个黑球.\n\n(1)从中有放回地依次摸出 2 个球，求 2 球颜色不同的概率；\n\n(2)从中不放回地依次摸出 2 个球，记 2 球中白球的个数为 $X$ . 求 $X$ 的期望和方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 805,
+        "end": 810
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 805,
+        "end": 810
+      }
+    ],
+    "id": "x2-7-2-h72A-4",
+    "category": "习题7.2A",
+    "answer": "4. (1) $\\frac{12}{25}$ . (2) $E\\left\\lbrack  X\\right\\rbrack   = \\frac{4}{5}, D\\left\\lbrack  X\\right\\rbrack   = \\frac{9}{25}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 401,
+        "end": 402
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 811,
+        "end": 811
+      }
+    ],
+    "id": "x2-7-2-b33",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题7.2B · 1",
+    "markdown": "1. 编号为 1、2、3、4 的四名学生随机入座编号为 1、2、3、4 的座位，每个座位坐一人. 座位编号和学生编号一样时称为一个配对. 用 $X$ 表示配对数,求 $E\\left\\lbrack  X\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 813,
+        "end": 814
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 813,
+        "end": 814
+      }
+    ],
+    "id": "x2-7-2-h72B-1",
+    "category": "习题7.2B",
+    "answer": "1. 1.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 405,
+        "end": 406
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2B · 2",
+    "markdown": "2. 已知一个随机变量 $X$ 的分布为\n\n$$\n\\left( \\begin{matrix}  - 1 & 0 & 1 \\\\  a & b & c \\end{matrix}\\right)\n$$\n\n若 $a + c = {2b}$ ,且 $E\\left\\lbrack  X\\right\\rbrack   = \\frac{1}{3}$ ,求 $D\\left\\lbrack  X\\right\\rbrack$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 815,
+        "end": 822
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 815,
+        "end": 822
+      }
+    ],
+    "id": "x2-7-2-h72B-2",
+    "category": "习题7.2B",
+    "answer": "2. $\\frac{5}{9}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 407,
+        "end": 408
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2B · 3",
+    "markdown": "3. 一袋中装有编号为 1、2、3、4、5 的五个大小与质地相同的球. 依次摸两个球, 用 ${X}_{1}\\text{ 、 }{X}_{2}$ 分别表示第一个及第二个球的编号. 在以下两种情况下分别求 ${X}_{1}\\text{ 、 }{X}_{2}$ 以及两编号之和 ${X}_{1} + {X}_{2}$ 的分布,再分别验证等式 $E\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack$ 与 $D\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack \\; = D\\left\\lbrack  {X}_{1}\\right\\rbrack   + D\\left\\lbrack  {X}_{2}\\right\\rbrack$ 是否成立.\n\n(1)放回;\n\n(2)不放回.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 823,
+        "end": 828
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 823,
+        "end": 828
+      }
+    ],
+    "id": "x2-7-2-h72B-3",
+    "category": "习题7.2B",
+    "answer": "3. (1) ${X}_{1}$ 的分布为 $\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 \\\\  \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} \\end{matrix}\\right) ,{X}_{2}$ 的分布为 $\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 \\\\  \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} \\end{matrix}\\right)$ ,\n\n${X}_{1} + {X}_{2}$ 的分布为 $\\left( \\begin{matrix} 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & {10} \\\\  \\frac{1}{25} & \\frac{2}{25} & \\frac{3}{25} & \\frac{4}{25} & \\frac{5}{25} & \\frac{4}{25} & \\frac{3}{25} & \\frac{2}{25} & \\frac{1}{25} \\end{matrix}\\right)$ ,\n\n$E\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = 6 = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack  , D\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = 4 = D\\left\\lbrack  {X}_{1}\\right\\rbrack   + D\\left\\lbrack  {X}_{2}\\right\\rbrack  .$\n\n(2) ${X}_{1}$ 的分布为 $\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 \\\\  \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} \\end{matrix}\\right) ,{X}_{2}$ 的分布为 $\\left( \\begin{matrix} 1 & 2 & 3 & 4 & 5 \\\\  \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} & \\frac{1}{5} \\end{matrix}\\right)$ ,\n\n${X}_{1} + {X}_{2}$ 的分布为 $\\left( \\begin{matrix} 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & {10} \\\\  \\frac{0}{20} & \\frac{2}{20} & \\frac{2}{20} & \\frac{4}{20} & \\frac{4}{20} & \\frac{2}{20} & \\frac{2}{20} & \\frac{0}{20} &  \\end{matrix}\\right)$ ,\n\n$E\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = 6 = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack  , D\\left\\lbrack  {{X}_{1} + {X}_{2}}\\right\\rbrack   = 3 \\neq  4 = D\\left\\lbrack  {X}_{1}\\right\\rbrack   + D\\left\\lbrack  {X}_{2}\\right\\rbrack  .$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 409,
+        "end": 420
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.2B · 4",
+    "markdown": "4. 先掷一颗骰子,记朝上的点数为 $X$ . 再抛掷 $X$ 枚硬币,记 $Y$ 为正面朝上的硬币数. 求 $Y$ 的分布、期望与方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 829,
+        "end": 830
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 829,
+        "end": 830
+      }
+    ],
+    "id": "x2-7-2-h72B-4",
+    "category": "习题7.2B",
+    "answer": "4. 记 ${\\mathrm{C}}_{0}^{0} = 0$ ,对 $m = 0,1,2,3,4,5,6$ ,利用全概率公式,得\n\n$$\nP\\left( {Y = m}\\right)  = \\mathop{\\sum }\\limits_{{k = m}}^{6}P\\left( {Y = m \\mid  X = k}\\right) P\\left( {X = k}\\right)  = \\frac{1}{6}\\mathop{\\sum }\\limits_{{k = m}}^{6}\\frac{{\\mathrm{C}}_{k}^{m}}{{2}^{k}}.\n$$\n\n计算可得 $Y$ 的分布为 $\\left( \\begin{matrix} 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\  \\frac{21}{128} & \\frac{5}{16} & \\frac{33}{128} & \\frac{1}{6} & \\frac{29}{384} & \\frac{1}{48} & \\frac{1}{384} \\end{matrix}\\right)$ ,\n\n由此通过计算,可得 $E\\left\\lbrack  Y\\right\\rbrack   = \\frac{7}{4}, D\\left\\lbrack  Y\\right\\rbrack   = \\frac{77}{48}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 421,
+        "end": 430
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "### 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 831,
+        "end": 831
+      }
+    ],
+    "id": "x2-7-2-b38",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "随机商品的定价与风险",
+    "markdown": "## 随机商品的定价与风险",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 833,
+        "end": 833
+      }
+    ],
+    "id": "x2-7-2-b39",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "商品是大家熟悉的东西，生活离不开商品. 除了通常的商品外，还有随机商品. 所谓随机商品, 就是其价值在购买的时候不确定, 在未来的某个时刻才会确定的商品, 如彩票、股票、保险等. 不确定性意味着风险(risk). 因为人们对于风险的需求或者偏好不同, 所以随机商品可以用来实现风险的转移. 有的人喜欢风险, 喜欢碰运气, 他就会买彩票, 也就是用不多的钱购买一个中大奖的微小机会; 相反, 有的人不喜欢风险, 他就会买保险, 保险源于人们对于未知风险的恐惧, 把自己未来不确定的损失换成确定的付出, 或者说付费让保险公司来分担风险. 一个基本的常识是，潜在收益越大，风险就越大，风险和收益是成正比的.\n\n简单地说,随机商品的未来价值是一个随机变量 $X$ ,它在购买时的价格 (不计其他成本)应该就是它的期望. 为什么？因为由大数定律，在有很多人购买时，它的平均价值趋向于期望. 这就是说, 随机商品的定价通常是它的期望值. 但是随机商品的另外一个特征是风险,这通常由方差来衡量. 例如,比较一个中奖率为 $\\frac{1}{100}$ ,奖金 100 元的彩票 $X$ ,与一个中奖率为 $\\frac{1}{10000}$ ,奖金 10000 元的彩票 $Y$ ,两个彩票的期望是一样的,但是风险收益有很大的差别,比起彩票 $X$ ,彩票 $Y$ 中奖的可能性小,但是奖金却高得多,其实就是风险大, 但潜在的收益高. 风险是不确定性, 而方差是不确定性的一个度量指标, 因此方差可以看成是风险的一个指标. 例如,通过简单的计算可以知道,彩票 $Y$ 的方差大约百倍于彩票 $X$ 的方差. 要注意,风险是个内涵丰富的词,没有公认的数学定义,方差只是风险的一个指标, 体现风险的某种特征, 银行与企业经常使用另外一个指标: 损失超过某个警戒值的概率, 称为在险价值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 834,
+        "end": 838
+      }
+    ],
+    "emphases": [
+      {
+        "start": 302,
+        "end": 783,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-2-definition-40-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-2-b40",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "心理期望与数学期望",
+    "markdown": "## 心理期望与数学期望",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 839,
+        "end": 839
+      }
+    ],
+    "id": "x2-7-2-b41",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "从中文字义看, 期望是内心的期待, 是涉及人的心理的, 可以说是心理期望, 概率中所说的期望是数学期望, 这个概念在费马和帕斯卡讨论分奖金问题时就产生了. 心理期望和数学期望两者有什么关系呢? 拿一个随机商品来说, 它的期望值是不是与人们的心理期望重合呢？在多数情况下的确如此，因为期望是随机商品在大样本条件下的平均价值. 但是在一些极端情况下, 两者明显是背离的.\n\n考虑如下的游戏:请你抛掷 20 枚硬币，如果 20 枚都是正面朝上，那么你将得到 10 亿元，否则得 0 元. 这是一个随机产品，它的价值记为 $X$ ， $X$ 以大约一百万分之一的概率取值为 10 亿,剩余的概率取值为 0,因此数学期望 $E\\left\\lbrack  X\\right\\rbrack$ 约等于 1000 . 问题是你愿意花多少钱玩这个游戏, 也就是问它的心理期望是多少. 我想在大多数人的心目中，它的价值是远远小于 1000 元的. 如果这还不能说服你, 那我们来看经典的圣彼得堡悖论. 考虑这样一个游戏: 不断地抛掷一枚硬币直到出现正面朝上为止,如果正面朝上出现在第 $n$ 次,那么你得到 ${2}^{n}$ 元. 记这个游戏的价值是 $X$ . 因为第 $n$ 次首次出现正面朝上这个事件发生的概率是 $\\frac{1}{{2}^{n}}$ ,得到的钱数是 ${2}^{n}$ ,所以由 Q 期望公式可以看出 $X$ 的数学期望是无穷大. 按照数学期望来看,无论你花多少钱玩这个游戏都是值得的. 但根据调查, 很少有人愿意花 25 元去参加一次这样的游戏. 现在你可以抛掷一枚硬币试一下，然后考虑一下，你愿意花多少钱玩这个游戏呢？或者说它在你的心里价值几何?\n\n---\n\n圣彼得堡悖论是尼古拉・伯努利(N. Bernoulli, 他是证明大数定律的雅各布。 伯努利的侄子) 于 1738 年提出的.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 840,
+        "end": 850
+      }
+    ],
+    "id": "x2-7-2-b42",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

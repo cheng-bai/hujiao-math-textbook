@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-chapter-end-5",
+  "book_id": "bx1",
+  "section": "chapter-end-5",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx1/bx1-chapter-end-5.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-5",
+  "fingerprint": "dd64234a008c9fbc14056706a9faa34d4d8c862cf86f78628629e2aad1ee33e6",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-4244c3b1b09e70577e63.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_600_725_296_267_0.jpg",
+      "sha256": "4244c3b1b09e70577e63d7304f755ad9cc7b22001c2c92d812c0d545b33c967b",
+      "private": true
+    },
+    "images/private-eaf12e7c51f2f5ecc1c7.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_578_1281_338_329_0.jpg",
+      "sha256": "eaf12e7c51f2f5ecc1c7fdb1c60cb854c4e6d35065dfa3a8629ed5e32d8db583",
+      "private": true
+    },
+    "images/private-f87ea8d1210bee345368.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_122_695_897_275_314_0.jpg",
+      "sha256": "f87ea8d1210bee345368cda578a3415fef8f24d155a3fb27c11ac08c79db8286",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "d144cccb260a09fbf4b5e2321f980a77ef39735c063897fe851ff48ce65f750d",
+    "student.html": "20c232e0bb78637d0a88ace44f1a5ebe995357ed8cbe83cceaf6a18f831a9a78",
+    "student.zip": "f20fcf01a61357fa5a929926fad059e703d3aee30578d012e3d81dbcab93a92f",
+    "content.json": "8abf84e80a55bdb1f692bd9cbe53136dfaa0b77726c25b89b06640b1a7ff5fbf"
+  }
+}

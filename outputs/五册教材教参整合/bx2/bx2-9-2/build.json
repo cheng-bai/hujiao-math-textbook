@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-9-2",
+  "book_id": "bx2",
+  "section": "9.2",
+  "title": "复数的几何意义",
+  "section_json": "batch/sections/bx2/bx2-9-2.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-9-2",
+  "fingerprint": "bb644025a513c7a2cbc8f5803e294361e77a9297d7cda752b0ea20ff1d4021a7",
+  "status": "rendered",
+  "questions": 34,
+  "answers": 34,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-bd3dd77b24f453c6e76f.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1180_899_236_256_0.jpg",
+      "sha256": "bd3dd77b24f453c6e76f97325dc49204c01d01a24549c6e115db874915af0509",
+      "private": false
+    },
+    "images/book-e09cd335187449b2d22c.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1182_1303_239_407_0.jpg",
+      "sha256": "e09cd335187449b2d22cc13dd0ed6f07e0b71cddcc4fd20d68c00f51a5233aca",
+      "private": false
+    },
+    "images/book-b52f72a9f16fc4422bbc.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_229_231_234_255_0.jpg",
+      "sha256": "b52f72a9f16fc4422bbc6a9aa9ee023790fbcc60a0172e5979c82aff29d5cd76",
+      "private": false
+    },
+    "images/book-af007b270205381788c8.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_136_600_363_308_0.jpg",
+      "sha256": "af007b270205381788c89bed8bd9f3a230281ac3e5859044c32676bd94035174",
+      "private": false
+    },
+    "images/book-f0e87af96787158cf694.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1127_223_399_278_0.jpg",
+      "sha256": "f0e87af96787158cf694851398c1f1c3d2e8014648541b4044b3dd29db5b39df",
+      "private": false
+    },
+    "images/book-730895a5c3f0f7b82e78.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1142_624_318_243_0.jpg",
+      "sha256": "730895a5c3f0f7b82e788b7265d9dbbe24e26f67bc5af9fe33f644766134c63b",
+      "private": false
+    },
+    "images/private-5d2a17213c5a210eb53d.jpg": {
+      "source": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_14_1141_1262_316_230_0.jpg",
+      "sha256": "5d2a17213c5a210eb53d05e60558969a15f6abe211995acec4b443f491ca2255",
+      "private": true
+    },
+    "images/private-095aa87709331fd54da1.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_111_551_372_419_333_0.jpg",
+      "sha256": "095aa87709331fd54da1d0758a72b33e5ee064008e8aa992995658bb55a96507",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "student_images": [
+    "images/book-730895a5c3f0f7b82e78.jpg",
+    "images/book-af007b270205381788c8.jpg",
+    "images/book-b52f72a9f16fc4422bbc.jpg",
+    "images/book-bd3dd77b24f453c6e76f.jpg",
+    "images/book-e09cd335187449b2d22c.jpg",
+    "images/book-f0e87af96787158cf694.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "1b2e5ebd794695704ba2cf6b538f23ea6cdf44f0b4fde8209df578e2a3e95c11",
+    "student.html": "4c0afedf5255d6ed759c1e70202be7f5e17885a0b5f002db7a2230e27d6bf359",
+    "student.zip": "bffdbdafea1a022a70752032ffd4a93ffb15786a400ccc39f94ca0b06a25e329",
+    "content.json": "1a6f921a61b02e85d6a1e4558f75a41ea5a5584740f9e0b9d8adabbd58906438"
+  }
+}

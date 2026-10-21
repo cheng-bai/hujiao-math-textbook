@@ -1,0 +1,28 @@
+{
+  "id": "bx1-5-2",
+  "book_id": "bx1",
+  "section_path": "batch/sections/bx1/bx1-5-2.json",
+  "fingerprint": "7f73bc95973aa8ea69f4bc30da83d3992514710cd2c7febf0b6f6fdfb5e8ad07",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 43,
+        "answers": 43,
+        "teacher_formulas": 606,
+        "student_formulas": 245,
+        "checks": 125,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 14.01,
+  "finished_at": "2026-10-20T02:07:00+08:00"
+}

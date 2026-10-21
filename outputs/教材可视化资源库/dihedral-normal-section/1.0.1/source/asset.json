@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "key": "angle",
+      "label": "半平面张角",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>θ</mi><mo>∈</mo><mo>[</mo><mn>0</mn><mo>,</mo><mi>π</mi><mo>]</mo><mspace width=\"1em\"/><mtext>两截线均垂直于棱</mtext></math>",
+  "goal": "开合两个半平面，在垂直截面中测量平面角。",
+  "id": "dihedral-normal-section",
+  "initial": {
+    "angle": 65,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-10-4-b12",
+      "rationale": "接替门开合、二面角定义与平面角构造的长解释。",
+      "sectionId": "bx3-10-4"
+    }
+  ],
+  "summary": "二面角由一条棱和两个半平面组成。分别在半平面内过棱上同一点作垂直于棱的射线，所得平面角才是二面角的平面角；整平面夹角与选定半平面张角需区分。",
+  "title": "二面角：垂直于棱的截面"
+}

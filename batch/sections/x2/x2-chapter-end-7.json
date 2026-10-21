@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "id": "x2-chapter-end-7",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "7",
+  "chapter_title": "第7章概率初步(续)",
+  "section": "chapter-end-7",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md": "f24bb495b492c1d6617e45d97bc2a42951ca4d7710507fb3bb77280f2c88505c",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1215,
+          "end": 1215
+        }
+      ],
+      "id": "x2-chapter-end-7",
+      "number": "chapter-end-7",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "1. 条件概率公式\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {B \\cap  A}\\right) }{P\\left( A\\right) }.\n$$\n\n2. 全概率公式\n\n$$\nP\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right) .\n$$\n\n3. 分布的形式\n\n$$\n\\left( \\begin{array}{llll} {x}_{1} & {x}_{2} & \\cdots & {x}_{n} \\\\  {p}_{1} & {p}_{2} & \\cdots & {p}_{n} \\end{array}\\right)\n$$\n\n4. 设随机变量 $X$ 的分布如上，那么其期望定义为\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \\cdots  + {x}_{n}{p}_{n};\n$$\n\n其方差定义为\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {\\left( X - E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2}.\n$$\n\n5. 期望的线性性质\n\n(1)如果 $X$ 是一个随机变量， $a$ 是一个实数，那么\n\n$$\nE\\left\\lbrack  {aX}\\right\\rbrack   = {aE}\\left\\lbrack  X\\right\\rbrack  .\n$$\n\n(2)如果 $X$ 、 $Y$ 是两个随机变量，那么\n\n$$\nE\\left\\lbrack  {X + Y}\\right\\rbrack   = E\\left\\lbrack  X\\right\\rbrack   + E\\left\\lbrack  Y\\right\\rbrack  .\n$$\n\n6. 二项分布:独立地重复一个成功概率为 $p$ 的伯努利试验 $n$ 次， $X$ 表示成功次数， 那么 $X$ 的分布为\n\n$$\nP\\left( {X = k}\\right)  = {\\mathrm{C}}_{n}^{k}{p}^{k}{\\left( 1 - p\\right) }^{n - k}, k = 0,1,2,\\cdots , n,\n$$\n\n该分布称为二项分布.\n\n7. 超几何分布:从一个装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋子中依次随机且不放回地取 $n$ 个球. 用 $X$ 表示其中白球的个数，则 $X$ 的分布称为超几何分布.\n\n8. 正态分布* : 由钟形曲线\n\n$$\ny = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}\n$$\n\n所刻画的分布称为正态分布.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1216,
+          "end": 1278
+        }
+      ],
+      "emphases": [
+        {
+          "start": 516,
+          "end": 522,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-chapter-end-7-definition-1-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1193,
+          "end": 1203,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-chapter-end-7-definition-1-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1437,
+          "end": 1450,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-chapter-end-7-definition-1-2",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "x2-chapter-end-7-b1"
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1279,
+          "end": 1279
+        }
+      ],
+      "id": "x2-chapter-end-7-b2"
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1281,
+          "end": 1281
+        }
+      ],
+      "id": "x2-chapter-end-7-b3"
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 掷黄、白两颗骰子, 当黄色骰子的点数为 4 或 6 时, 求两颗骰子的点数之积大于 20 的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-1",
+      "category": "复习题A",
+      "answer": "1. $\\frac{1}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 483,
+          "end": 484
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 连续掷一颗骰子两次, 已知第一次掷出的是偶数点. 求第二次也掷出偶数点的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1286
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1286
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-2",
+      "category": "复习题A",
+      "answer": "2. $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 485,
+          "end": 486
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 在 5 道题中有 3 道数学题和 2 道语文题. 如果不放回地依次抽取 2 道题，求:\n\n(1)第 1 次抽到数学题的概率；\n\n(2)第 1 次和第 2 次都抽到数学题的概率；\n\n(3)在第 1 次抽到数学题的条件下，第 2 次也抽到数学题的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1287,
+          "end": 1294
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1287,
+          "end": 1294
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-3",
+      "category": "复习题A",
+      "answer": "3. (1) $\\frac{3}{5}$ . (2) $\\frac{3}{10}$ . (3) $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 487,
+          "end": 488
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 已知随机变量 $X$ 的分布为\n\n$$\n\\left( \\begin{matrix}  - 1 & 0 & 1 \\\\  a & b & c \\end{matrix}\\right)\n$$\n\n若 $E\\left\\lbrack  X\\right\\rbrack   = \\frac{1}{3}, D\\left\\lbrack  X\\right\\rbrack   = \\frac{5}{9}$ ,求 $a\\text{ 、 }b\\text{ 、 }c$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1295,
+          "end": 1302
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1295,
+          "end": 1302
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-4",
+      "category": "复习题A",
+      "answer": "4. $a = \\frac{1}{6}, b = \\frac{1}{3}, c = \\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 489,
+          "end": 490
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 同时抛掷两枚相同的均匀硬币,设随机变量 $X = 1$ 表示结果中有正面朝上, $X = 0$ 表示结果中没有正面朝上. 求 $E\\left\\lbrack  X\\right\\rbrack$ 及 $D\\left\\lbrack  X\\right\\rbrack$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1303,
+          "end": 1304
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1303,
+          "end": 1304
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-5",
+      "category": "复习题A",
+      "answer": "5. $E\\left\\lbrack  X\\right\\rbrack   = \\frac{3}{4}, D\\left\\lbrack  X\\right\\rbrack   = \\frac{3}{16}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 491,
+          "end": 492
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 从 4 名男生和 2 名女生中任选 3 人参加演讲比赛,设随机变量 $X$ 表示所选 3 人中女生的人数. 求:\n\n(1) $X$ 的分布；\n\n(2) $X$ 的期望与方差；\n\n(3)“所选 3 人中女生人数 $X \\leq  1$ ”的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1312
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1312
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-6",
+      "category": "复习题A",
+      "answer": "6. (1) $\\left( \\begin{matrix} 0 & 1 & 2 \\\\  \\frac{4}{20} & \\frac{12}{20} & \\frac{4}{20} \\end{matrix}\\right)$ . (2) $E\\left\\lbrack  X\\right\\rbrack   = 1, D\\left\\lbrack  X\\right\\rbrack   = \\frac{2}{5}$ . (3) $\\frac{4}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 493,
+          "end": 494
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 一批产品的二等品率为 0.02 从这批产品中每次随机取一件, 有放回地抽取 100 次. 用 $X$ 表示抽到的二等品件数,求 $D\\left\\lbrack  X\\right\\rbrack$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1313,
+          "end": 1314
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1313,
+          "end": 1314
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-7",
+      "category": "复习题A",
+      "answer": "7. 1.96.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 495,
+          "end": 496
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 8",
+      "markdown": "8. 袋中有 10 个大小与质地相同的球, 其中 7 个是红球. 从中任取 5 个球, 求取出的球中红球个数 $X$ 的分布.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1315,
+          "end": 1316
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1315,
+          "end": 1316
+        }
+      ],
+      "id": "x2-chapter-end-7-hA-8",
+      "category": "复习题A",
+      "answer": "8. $\\left( \\begin{matrix} 2 & 3 & 4 & 5 \\\\  \\frac{1}{12} & \\frac{5}{12} & \\frac{5}{12} & \\frac{1}{12} \\end{matrix}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 497,
+          "end": 498
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1317,
+          "end": 1317
+        }
+      ],
+      "id": "x2-chapter-end-7-b12"
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 某人提出一个问题，甲先答，答对的概率为 0.4 . 若甲答错，则由乙答，乙答对的概率为 0.5 . 求该问题由乙答对的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1320
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1320
+        }
+      ],
+      "id": "x2-chapter-end-7-hB-1",
+      "category": "复习题B",
+      "answer": "【回源配对并编辑补解】$0.3$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 501,
+          "end": 502
+        }
+      ],
+      "teacher_analysis": "乙须在甲答错后才有答题机会，故所求概率为 $(1-0.4)\\times0.5=0.3$。题中0.5应理解为轮到乙答题时答对的概率。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "id": "x2-chapter-end-7-hB-2",
+      "title": "复习题B · 2",
+      "category": "复习题B",
+      "markdown": "2. 100 件产品中有 5 件次品, 不放回地抽取两次, 每次抽 1 件. 已知第一次抽出的是次品, 求第二次抽出正品的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1321,
+          "end": 1322
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1321,
+          "end": 1322
+        }
+      ],
+      "answer": "【回源配对并编辑补解】$\\frac{95}{99}$。",
+      "teacher_analysis": "已知第一件是次品，剩下99件，其中正品仍有95件，故第二件为正品的条件概率是 $95/99$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 503,
+          "end": 504
+        }
+      ],
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 盒中有大小与质地相同的 25 个球, 其中 10 个白球、 5 个黄球、 10 个黑球. 从盒中任意取出 1 个球, 已知它不是黑球, 求它是黄球的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1324
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1324
+        }
+      ],
+      "id": "x2-chapter-end-7-hB-3",
+      "category": "复习题B",
+      "answer": "【回源配对并编辑补解】$\\frac13$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 505,
+          "end": 506
+        }
+      ],
+      "teacher_analysis": "已知不是黑球，条件样本空间只含10个白球与5个黄球，故概率为 $5/(10+5)=1/3$。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 在 1、2、3、...、9 这 9 个自然数中，任取 3 个数.\n\n(1)求这 3 个数中恰有 1 个是偶数的概率；\n\n(2)设 $X$ 为这 3 个数中两数相邻的组数(例如，若取出的数为 1、2、3，则有两组相邻的数 1、2 和 2、3，此时 $X$ 的值为 2)，求随机变量 $X$ 的分布及期望.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1330
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1330
+        }
+      ],
+      "id": "x2-chapter-end-7-hB-4",
+      "category": "复习题B",
+      "answer": "【编辑补写并核对教参未编号答案】(1) $\\frac{10}{21}$；(2) $P(X=0)=\\frac5{12}$，$P(X=1)=\\frac12$，$P(X=2)=\\frac1{12}$，$E[X]=\\frac23$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 507,
+          "end": 508
+        }
+      ],
+      "teacher_analysis": "(1)共有 $\\mathrm C_9^3=84$ 种等可能选法；4个偶数中选1个、5个奇数中选2个，有 $4\\mathrm C_5^2=40$ 种，故概率为 $40/84=10/21$。(2)按大小写作 $a<b<c$。X只能取0、1、2。没有相邻数的选法数为 $\\mathrm C_7^3=35$（将b减1、c减2，转化为从1到7中选三个不同数）；有两组相邻时只能选连续三个数，共7种；恰有一组相邻时为 $84-35-7=42$ 种。因此分布如上，期望为 $42/84+2\\times7/84=2/3$。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 5",
+      "markdown": "5. 口袋里装有大小与质地相同的 4 个红球和 8 个白球, 甲、乙两人依下面的规则从袋中有放回地摸球, 每次摸 1 个球. 规则如下: 若一方摸出 1 个红球, 则此人继续下一次摸球; 若一方摸出 1 个白球, 则由对方接替下一次摸球. 假设每次摸球相互独立, 且由甲进行第一次摸球. 求在前三次摸球中,甲摸得红球的次数 $X$ 的分布及期望.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1331,
+          "end": 1332
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1331,
+          "end": 1332
+        }
+      ],
+      "id": "x2-chapter-end-7-hB-5",
+      "category": "复习题B",
+      "answer": "【回源配对并编辑补解】$P(X=0,1,2,3)=\\left(\\frac{14}{27},\\frac{10}{27},\\frac2{27},\\frac1{27}\\right)$，$E[X]=\\frac{17}{27}$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 509,
+          "end": 518
+        }
+      ],
+      "teacher_analysis": "每次红球概率为1/3，白球概率为2/3。以红、白分别记作R、W：X=0来自WRR、WRW、WW W，其概率合计为 $2/27+4/27+8/27=14/27$（WWW中第三次由甲摸白球）；X=1来自RWR、RWW、WWR，共 $2/27+4/27+4/27=10/27$；X=2只来自RRW，为2/27；X=3只来自RRR，为1/27。各概率和为1，故 $E[X]=(10+4+3)/27=17/27$。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "## 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1333
+        }
+      ],
+      "id": "x2-chapter-end-7-b17"
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 在一个游戏中,每次输赢的概率都是 $\\frac{1}{2}$ . 甲的策略是: 第一次押 1 元,如果赢,就结束; 如果输, 押 2 元再来一次, 无论输赢都结束. 乙的策略是: 押 1 元, 无论输赢都结束.\n\n(1)求甲赢的概率与乙赢的概率;\n\n(2)用 $X\\text{ 、 }Y$ 分别表示甲、乙最终赢得的金额(即所押金额)，求它们的分布与期望；\n\n(3)比较甲与乙的策略.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1342
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1342
+        }
+      ],
+      "id": "x2-chapter-end-7-t-1",
+      "category": "拓展与思考",
+      "answer": "1. (1) $\\frac{3}{4},\\frac{1}{2}$ .\n\n(2) $X$ 的分布为 $\\left( \\begin{matrix}  - 3 & 1 \\\\  \\frac{1}{4} & \\frac{3}{4} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = 0;Y$ 的分布为 $\\left( \\begin{matrix}  - 1 & 1 \\\\  \\frac{1}{2} & \\frac{1}{2} \\end{matrix}\\right) , E\\left\\lbrack  Y\\right\\rbrack   = 0$ .\n\n(3)甲的策略获胜概率更大,但风险(方差)也更高,平均收益(期望)与乙相同.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 521,
+          "end": 526
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 设有两个罐子, $A$ 罐中放有 2 个白球、 1 个黑球, $B$ 罐中放有 3 个白球,这些球的大小与质地相同. 现在从两个罐子中各摸 1 个球进行交换, 求这样交换 3 次后, 黑球还在 $A$ 罐中的概率. 交换 $n$ 次后呢?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1344
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1344
+        }
+      ],
+      "id": "x2-chapter-end-7-t-2",
+      "category": "拓展与思考",
+      "answer": "2. 设事件 ${A}_{1}\\text{、}{A}_{2}\\text{、}{A}_{3}$ 分别表示交换 1 次、2 次、3 次后,黑球还在 $A$ 罐中,则\n\n$$\nP\\left( {A}_{1}\\right)  = \\frac{2}{3}, P\\left( {A}_{2}\\right)  = P\\left( {{A}_{2} \\mid  {A}_{1}}\\right) P\\left( {A}_{1}\\right)  + P\\left( {{A}_{2} \\mid  \\overline{{A}_{1}}}\\right) P\\left( \\overline{{A}_{1}}\\right)  = \\frac{5}{9},\n$$\n\n$$\nP\\left( {A}_{3}\\right)  = P\\left( {{A}_{3} \\mid  {A}_{2}}\\right) P\\left( {A}_{2}\\right)  + P\\left( {{A}_{3} \\mid  \\overline{{A}_{2}}}\\right) P\\left( \\overline{{A}_{2}}\\right)  = \\frac{14}{27}.\n$$\n\n设事件 ${A}_{n}$ 表示: 交换 $n$ 次后黑球还在 $A$ 罐中,则\n\n$P\\left( {A}_{k}\\right)  = P\\left( {{A}_{n} \\mid  {A}_{n - 1}}\\right) P\\left( {A}_{n - 1}\\right)  + P\\left( {{A}_{n} \\mid  \\overline{{A}_{n - 1}}}\\right) P\\left( \\overline{{A}_{n - 1}}\\right)  = \\frac{2}{3}P\\left( {A}_{n - 1}\\right)  + \\frac{1}{3}\\left( {1 - P\\left( {A}_{n - 1}\\right) }\\right) .$\n\n解得 $P\\left( {A}_{n}\\right)  = \\frac{1}{2} + \\frac{1}{2}{\\left( \\frac{1}{3}\\right) }^{n}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 527,
+          "end": 542
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 3",
+      "markdown": "3. 有一种骰子游戏，某人掷两颗骰子，若掷出的点数之和是 7 或 11，则赢；若掷出的点数之和是 2、3 或 12，则输；若掷出其他的点数和，则记下这个数，继续掷这两颗骰子, 直到掷出这个记下的数或者 7 为止, 若是这个记下的数, 则赢, 若是 7, 则输. 求此人赢的概率是多少.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1345,
+          "end": 1345
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1345,
+          "end": 1345
+        }
+      ],
+      "id": "x2-chapter-end-7-t-3",
+      "category": "拓展与思考",
+      "answer": "3. 设此人赢为事件 $A$ . 第一次掷出的点数之和记为 $X$ ,则 $P\\left( {X = k}\\right)  = \\frac{k - 1}{36}, k = \\; 2,3,4,5,6,7;P\\left( {X = k}\\right)  = \\frac{{13} - k}{36}, k = 8,9,{10},{11},{12}.$\n\n由全概率公式, $P\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 2}}^{{12}}P\\left( {A \\mid  X = k}\\right) P\\left( {X = k}\\right)$ ,且\n\n$$\n\\begin{aligned}  & P\\left( {A \\mid  X = k}\\right)  = 1, k = 7,{11}; \\\\  & P\\left( {A \\mid  X = k}\\right)  = 0, k = 2,3,{12}. \\end{aligned}\n$$\n\n记 ${x}_{k} = P\\left( {X = k}\\right)$ . 对 $k = 4,5,6,8,9,{10}$ ,\n\n$$\nP\\left( {A \\mid  X = k}\\right)  = {x}_{k} + \\left( {\\frac{5}{6} - {x}_{k}}\\right)  \\cdot  {x}_{k} + {\\left( \\frac{5}{6} - {x}_{k}\\right) }^{2} \\cdot  {x}_{k} + \\cdots\n$$\n\n$$\n= \\frac{{x}_{k}}{{x}_{k} + \\frac{1}{6}}.\n$$\n\n所以 $P\\left( A\\right)  = \\frac{244}{495} \\approx  {0.493}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 543,
+          "end": 562
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "teacher",
+      "title": "复习题B · 原教参答案存档（已逐题复核回接）",
+      "markdown": "1.0.3.\n\n2. $\\frac{95}{99}$ .\n\n3. $\\frac{1}{3}$ .\n\n(2) $\\left( \\begin{matrix} 0 & 1 & 2 \\\\  \\frac{5}{12} & \\frac{6}{12} & \\frac{1}{12} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = \\frac{2}{3}$ .\n\n5. 设事件 $A$ 表示甲摸球一次摸出红球; 事件 $B$ 表示乙摸球一次摸出红球.\n\n$A$ 与 $B$ 相互独立. $P\\left( A\\right)  = P\\left( B\\right)  = \\frac{1}{3}, P\\left( \\bar{A}\\right)  = P\\left( \\bar{B}\\right)  = \\frac{2}{3}$ .\n\n$P\\left( {X = 0}\\right)  = P\\left( {\\bar{A}B}\\right)  + P\\left( {\\bar{A}\\bar{B}\\bar{A}}\\right)  = \\frac{14}{27}, P\\left( {X = 1}\\right)  = P\\left( {A\\bar{A}}\\right)  + P\\left( {\\bar{A}\\bar{B}A}\\right)  = \\frac{10}{27},$\n\n$P\\left( {X = 2}\\right)  = P\\left( {{AA}\\bar{A}}\\right)  = \\frac{2}{27}, P\\left( {X = 3}\\right)  = P\\left( {AAA}\\right)  = \\frac{1}{27}.$\n\n$X$ 的分布为 $\\left( \\begin{matrix} 0 & 1 & 2 & 3 \\\\  \\frac{14}{27} & \\frac{10}{27} & \\frac{2}{27} & \\frac{1}{27} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = \\frac{17}{27}$ .",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 501,
+          "end": 518
+        }
+      ],
+      "teacher_only": true,
+      "id": "x2-chapter-end-7-b21"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 阅读材料\n\n### 血液检查中的期望值\n\n虽然巧合或者极值是引人注目的, 但是总的来说, 平均值或者说“期望值”却能给我们提供更多的信息, 一个变量的期望值是这个变量的加权平均值, 它是通过这个变量每一个取值出现的概率来衡量的.\n\n假设一家医院要对可能患某种疾病的人群进行排查, 为此, 要检查每个人的血液. 已知大概每 100 人之中就有 1 人患有这种疾病. 人们是每 50 人一组地来到医院做检查的, 这时, 院长想知道, 是否应该将 50 人的血液样本混合在一起进行检查, 以此来代替对他们每个人的检查. 如果混合样本呈阴性, 那么院长可以肯定 50 个人都没有患这种疾病；如果呈阳性,那么他需要逐个地对每个人进行血液检查. 假如院长将每组 50 人的血液样本混合在一起来检查, 那么检查次数的期望值是多少呢?\n\n院长将要么进行一次检查 (如果混合样本溶液呈阴性), 要么进行 51 次检查 (如果混合样本溶液呈阳性). 由于一个人没有患这种疾病的概率是 $\\frac{99}{100}$ ,因此所有 50 个人都没有患这种疾病的概率是 ${\\left( \\frac{99}{100}\\right) }^{50}$ . 这样,院长只需进行一次血液检查的概率是 ${\\left( \\frac{99}{100}\\right) }^{50}$ . 另一方面,因为至少有一个人患有这种疾病的概率是 $1 - {\\left( \\frac{99}{100}\\right) }^{50}$ ,所以他要进行 51 次检查的概率是 $1 - {\\left( \\frac{99}{100}\\right) }^{50}$ . 因此,每组 50 人需要检查次数的期望值是 $1 \\times$\n\n$$\n{\\left( \\frac{99}{100}\\right) }^{50} + {51} \\times  \\left\\lbrack  {1 - {\\left( \\frac{99}{100}\\right) }^{50}}\\right\\rbrack   \\approx  {21}\\text{ (次). }\n$$\n\n如果有许多人进行血液检查,院长可以从每个人的血液样本中取一部分出来,每 50 个样本为一份进行混合, 然后进行检查. 如果结果呈阳性, 可以他可以对 50 个样本中剩下的部分进行逐个检查. 这样的做法是挺聪明的, 因为平均来说, 每 50 个人只需要检查 21 次.\n\n### 参考文献\n\n约翰・艾伦・保罗士. 数盲——数学无知者眼中的迷惘世界[M]. 柳柏濂,译. 上海:上海教育出版社,2020.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 563,
+          "end": 583
+        }
+      ],
+      "teacher_only": true,
+      "id": "x2-chapter-end-7-b22"
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "id": "repair-x2-v1",
+      "resolved_issues": [
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "复习题B",
+          "number": 4,
+          "line": 1325
+        },
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "复习题B",
+          "question_numbers": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "answer_numbers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "evidence": "batch/reviews/repair-x2-author.json",
+      "source_files_read_only": true
+    }
+  ],
+  "image_references": []
+}

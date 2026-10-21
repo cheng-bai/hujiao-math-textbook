@@ -1,0 +1,681 @@
+{
+  "schema_version": 1,
+  "id": "bx3-10-5",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "10",
+  "chapter_title": "第10章空间直线与平面",
+  "section": "10.5",
+  "title": "异面直线间的距离",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md": "35f2b6b5d4d617ad9b28dd03d2d7a4190ec8c59bd3ccc8efd7048727738feb57",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md": "d5c15f5e9d051e7978e665f9b953ed977d378af9dcbc9486005917629a23558e"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "异面直线间的距离",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1464,
+          "end": 1464
+        }
+      ],
+      "id": "bx3-10-5",
+      "number": "10.5",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### *10.5 异面直线间的距离\n\n### 教学重点\n\n认识和理解两条异面直线的公垂线以及公垂线的存在性与唯一性, 进一步完善空间中直线与直线的位置关系、直线与平面的位置关系以及研究方法, 进一步发展直观想象和逻辑推理核心素养.\n\n### 内容分析\n\n教材首先启发思考仅考察两条异面直线所成的角还不能完整地刻画两条异面直线的位置关系, 而与两条异面直线都垂直并且相交的直线是存在且唯一的, 证明这个定理之后, 定义了两条异面直线的公垂线概念. 这样就完善了对空间中两条异面直线的位置关系的全面认识.\n\n因为公垂线段难以作出来, 所以求两条异面直线间的距离一般是比较困难的. 这就常常要将异面直线间的距离转化为线面或面面间的距离.\n\n本节的定理的存在性证明过程, 也提供了如何去寻找两条异面直线的公垂线的方法.\n\n例 1 是在正方体中求简单情形下的异面直线间的距离, 其中第 (1) 小题能够直接找到公垂线段, 第 (2) 小题需要将异面直线间的距离转化为直线与平面之间的距离. 这两种情况具有一定的典型性.\n\n例 2 是在四面体中解决异面直线间的距离问题, 其中需要综合二面角等有关知识.\n\n练习 10.5 的第 3 题虽然是求分别在两条异面直线上的两点间的距离问题, 但实际上也是间接地给出了求异面直线间距离的一种方法.\n\n### 注意事项\n\n在学习两条异面直线的公垂线的概念时, 应注意强调 “与两条异面直线都垂直且相交”中的“相交”二字,因为空间中的两条直线垂直不一定相交,但这里必须相交, 才能确定公垂线段.\n\n本节内容的处理方式和要求与“二期课改”教材不同,这也是为了完善发展学生的空间观念而编写的, 供学有余力的学生学习, 在解题上不宜要求过高, 只需要知道相关的概念即可.\n\n### 教学建议\n\n生活中有大量的异面直线的公垂线的例子, 例如桥面中心直线与桥下船只行驶的路线是异面直线, 不难找到公垂线. 借助生活中的实例, 如教室、长方体模型等, 找到或者作出两条异面直线的公垂线.\n\n认识和理解两条异面直线的公垂线概念及其距离, 是本节教学的重点, 初步感受求异面直线间的距离的多种方法.\n\n练习 10.5 的第 3 题也从具体问题中说明了, 两条异面直线间的距离是两条异面直线上两点间的距离的最小值.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 446,
+          "end": 479
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "前面已经定义了两条异面直线所成的角, 但这显然还不足以完全确定两条异面直线的相互位置. 例如, 在图 10-5-1 中, $\\alpha  - l - \\beta$ 为一个二面角,在平面 $\\alpha$ 上作一直线 $a$ 垂直于棱 $l$ ,垂足为 $A$ ; 而在平面 $\\beta$ 上分别作两条直线 $b$ 及 $c$ 垂直于棱 $l$ ,垂足分别为 $B\\text{ 、 }C$ . 由 $b//c$ ,异面直线 $a\\text{ 、 }b$ 所成的角与 $a\\text{ 、 }c$ 所成的角是相等的,但 $b$ 及 $c$ 离 $a$ 的距离却不一样. 该如何定义两条异面直线的距离呢?\n\n![bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg)\n\n图 10-5-1\n\n在图 10-5-1 中,是否可以用线段 ${AB}$ 和 ${AC}$ 来分别表示异面直线 $a\\text{ 、 }b$ 之间及异面直线 $a\\text{ 、 }c$ 之间的距离呢? 要想这样做, 首先需要保证用这样的方式所定义的距离是唯一确定的, 也就是说, 要证明下面的定理.\n\n定理 对于任意给定的两条异面直线, 存在唯一的一条直线与这两条直线都垂直并且相交.\n\n证明 先证明存在性. 如图 10-5-2,在直线 $a$ 上任取一点 $P$ ,过 $P$ 作直线 ${b}_{1}$ ,使得 ${b}_{1}//b$ . 设 $a$ 及 ${b}_{1}$ 所确定的平面为 $\\alpha$ , 则 $b//\\alpha$ . 过直线 $b$ 作平面 $\\beta$ 垂直于平面 $\\alpha$ ,并相交于直线 ${b}_{2}$ . 由 $b// \\; \\alpha$ ,有 $b//{b}_{2}$ . 又因 $b//{b}_{1}$ ,故 ${b}_{1}//{b}_{2}$ . 设 $a$ 与 ${b}_{2}$ 的交点为 $A$ ,在平面 $\\beta$ 上过 $A$ 作直线 ${AB}$ 垂直于 ${b}_{2}$ . 因为平面 $\\beta$ 垂直于平面 $\\alpha$ , 所以直线 ${AB}$ 垂直于平面 $\\alpha$ ,从而直线 ${AB} \\bot  a$ . 这样,直线 ${AB}$ 与异面直线 $a\\text{ 、 }b$ 都垂直且相交.\n\n![bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg)\n\n图 10-5-2\n\n已知: 直线 $a\\text{ 、 }b$ 是异面直线.\n\n求证: 存在唯一的直线与 $a\\text{ 、 }b$ 都垂直且相交.\n\n---\n\n这个存在性的证明方法称为构造法, 即在证明过程中实际上给出了构造公垂线的方法.\n\n---\n\n![bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg)\n\n图 10-5-3\n\n再证明唯一性. 如图 10-5-3,假设除了 ${AB}$ ,还有一条公垂线 ${MN}$ ,使得 ${MN} \\bot  a,{MN} \\bot  b$ ,垂足分别为 $M\\text{ 、 }N$ . 因为 $b//{b}_{2}$ , 所以 ${MN} \\bot  {b}_{2}$ ,而 $a$ 与 ${b}_{2}$ 是平面 $\\alpha$ 上的两条相交直线,所以 ${MN} \\bot  \\alpha$ . 又 ${AB} \\bot  \\alpha$ ,所以 ${MN}//{AB}$ ,从而 $A\\text{ 、 }B\\text{ 、 }M\\text{ 、 }N$ 共面,而这与 ${AM}\\text{ 、 }{BN}$ 是异面直线矛盾.\n\n由此定理, 任意两条异面直线的公垂线是唯一存在的. 我们将与两条异面直线都垂直且相交的直线称为这两条异面直线的公垂线, 公垂线的两个垂足之间的线段称为异面直线的公垂线段, 两条异面直线的公垂线段的长度就叫做两条异面直线的距离. 我们还可以证明: 两条异面直线的公垂线段, 是连接两条异面直线所有线段中的最短线段.\n\n求两条异面直线之间的距离是立体几何中比较困难的问题, 其难点主要在于要找两条异面直线的公垂线段. 回顾上述定理的证明过程,如图 10-5-2,因为 $b//\\alpha$ ,异面直线 $a$ 与 $b$ 之间的距离等于公垂线段 ${AB}$ 的长,也等于直线 $b$ 到平面 $\\alpha$ 的距离,所以在求两条异面直线的距离时, 可以先过其中一条直线作一个平面平行于另一条直线, 从而把线线间的距离转化为线面间的距离.\n\n![bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg)\n\n图 10-5-4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1465,
+          "end": 1505
+        }
+      ],
+      "emphases": [
+        {
+          "start": 1334,
+          "end": 1373,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-10-5-definition-2-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1866,
+          "end": 2022,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx3-10-5-definition-2-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 如图 10-5-4,已知正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ .\n\n(1)求异面直线 ${D}_{1}{B}_{1}$ 与 ${AB}$ 之间的距离；\n\n(2)求异面直线 $B{D}_{1}$ 与 ${AD}$ 之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1506,
+          "end": 1511
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1506,
+          "end": 1511
+        }
+      ],
+      "id": "bx3-10-5-ex-1",
+      "category": "例题",
+      "answer": "解(1)因为 ${AB}\\bot {B{B}_{1}},{D}_{1}{B}_{1}\\bot {B{B}_{1}}$ ，所以 $B{B}_{1}$ 就是异面直线 ${D}_{1}{B}_{1}$ 与 ${AB}$ 的公垂线段,从而所求的距离为 $a$ .\n\n(2)因为 ${AD}//{BC}$ ，而 ${BC}$ 在平面 ${A}_{1}{BC}{D}_{1}$ 上，所以 ${AD}//D$ 平面 ${A}_{1}{BC}{D}_{1}$ . 又因为 $B{D}_{1}$ 在平面 ${A}_{1}{BC}{D}_{1}$ 上,所以异面直线 $B{D}_{1}$ 与 ${AD}$ 之间的距离就等于直线 ${AD}$ 到平面 ${A}_{1}{BC}{D}_{1}$ 的距离, 即等于点 $A$ 到平面 ${A}_{1}{BC}{D}_{1}$ 的距离,其值为 $\\frac{\\sqrt{2}}{2}a$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1512,
+          "end": 1515
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 如图 10-5-5,在空间四边形 ${ABCD}$ 中, ${AB} = \\; {AD} = 2\\sqrt{13},{BC} = {CD} = {BD} = 4$ ,二面角 $A - {BD} - C$ 的平面角等于 ${120}^{ \\circ  }$ . 求直线 ${AC}$ 与 ${BD}$ 之间的距离.\n\n![bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg)\n\n图 10-5-5",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1516,
+          "end": 1521
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1516,
+          "end": 1521
+        }
+      ],
+      "id": "bx3-10-5-ex-2",
+      "category": "例题",
+      "answer": "解 取 ${BD}$ 的中点 $E$ . 因为 ${AB} = {AD},{BC} = {CD}$ ,所以 ${AE} \\; \\bot  {BD},{CE} \\bot  {BD}$ ,从而二面角 $A - {BD} - C$ 的平面角为 $\\angle {AEC}$ ,且 ${BD}$ 垂直于平面 ${AEC}$ . 在 $\\bigtriangleup {AEC}$ 中,作 ${EF} \\bot  {AC}$ ,垂足为 $F$ , 则 ${EF}$ 为异面直线 ${AC}$ 与 ${BD}$ 的公垂线段. 由 ${AB} = {AD} = 2\\sqrt{13}$ ， ${BC} = {CD} = {BD} = 4$ ，可得 ${AE} = 4\\sqrt{3},{CE} = 2\\sqrt{3}$ . 因为二面角 $A - {BD} - C$ 的平面角 $\\angle {AEC} = {120}^{ \\circ  }$ ，所以由余弦定理，得 ${AC} = \\; \\sqrt{A{E}^{2} + C{E}^{2} - {2AE} \\cdot  {CE} \\cdot  \\cos {120}^{ \\circ  }} = \\sqrt{{48} + {12} + 2 \\times  4\\sqrt{3} \\times  2\\sqrt{3} \\times  \\frac{1}{2}} = \\; 2\\sqrt{21}$ . 由三角形面积公式,得 ${EF} \\cdot  {AC} = {AE} \\cdot  {EC} \\cdot  \\sin \\angle {AEC}$ . 所以, ${EF} = \\frac{{12}\\sqrt{3}}{2\\sqrt{21}} = \\frac{6\\sqrt{7}}{7}$ ,即为所求异面直线的距离.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1522,
+          "end": 1523
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 10.5",
+      "markdown": "## 练习 10.5",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1524,
+          "end": 1524
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1525,
+          "end": 1529
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习10.5 · 1",
+      "markdown": "1. 如图,设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 1,求下列异面直线之间的距离:\n\n(1) ${AD}$ 与 ${B}_{1}B$ ；\n\n(2) ${AB}$ 与 ${D}_{1}C$ .\n\n![bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1530,
+          "end": 1535
+        },
+        {
+          "source": "book",
+          "start": 1526,
+          "end": 1528
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1530,
+          "end": 1535
+        },
+        {
+          "source": "book",
+          "start": 1526,
+          "end": 1528
+        }
+      ],
+      "id": "bx3-10-5-p105-1",
+      "category": "练习10.5",
+      "answer": "1. (1) 1. (2) 1.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 806,
+          "end": 807
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习10.5 · 2",
+      "markdown": "2. 求两条异面直线之间的距离问题, 除了可转化为求直线与平面间的距离, 还可以转化为求两个平行平面之间的距离. 请给出两个平行平面的构造方法, 并说明为什么两条异面直线之间的距离就等于这样两个平行平面之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1536,
+          "end": 1537
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1536,
+          "end": 1537
+        }
+      ],
+      "id": "bx3-10-5-p105-2",
+      "category": "练习10.5",
+      "answer": "2. $m\\text{、}n$ 为异面直线,过 $m\\text{、}n$ 分别作两个平行平面 $\\alpha \\text{、}\\beta$ . 现假设 ${PQ}$ 为异面直线的公垂线段,且 $P \\in  m, Q \\in  n$ ,则 ${PQ} \\bot  m,{PQ} \\bot  n$ ,所以 ${PQ} \\bot  \\alpha ,{PQ} \\bot  \\beta$ ,即 ${PQ}$ 也是 $\\alpha$ 与 $\\beta$ 的距离.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 808,
+          "end": 809
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习10.5 · 3",
+      "markdown": "3. 设两条电线所在的直线是异面直线,它们的距离是 $1\\mathrm{\\;m}$ ,所成的角是 ${60}^{ \\circ  }$ . 已知这两条电线上各有一点,距离公垂线的垂足都是 ${10}\\mathrm{\\;m}$ . 求这两点之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1538,
+          "end": 1539
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1538,
+          "end": 1539
+        }
+      ],
+      "id": "bx3-10-5-p105-3",
+      "category": "练习10.5",
+      "answer": "3. $\\sqrt{101}\\mathrm{\\;m}$ 或者 $\\sqrt{301}\\mathrm{\\;m}$ . 提示: 分两点在公垂线的同侧和异侧进行讨论研究.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 810,
+          "end": 811
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 10.5",
+      "markdown": "#### 习题 10.5",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1540,
+          "end": 1540
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1542,
+          "end": 1542
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 1",
+      "markdown": "1. 已知一平面平行于两条异面直线, 一直线与两异面直线都垂直, 那么这个平面与这条直线的位置关系是 ( )\n\nA. 平行; B. 垂直;\n\nC. 斜交; D. 不能确定.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1544,
+          "end": 1549
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1544,
+          "end": 1549
+        }
+      ],
+      "id": "bx3-10-5-h105A-1",
+      "category": "习题10.5A",
+      "answer": "1. B.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 816,
+          "end": 817
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 2",
+      "markdown": "2. 在棱长为 $a$ 的正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,求:\n\n(1) ${D}_{1}{B}_{1}$ 与 ${C}_{1}C$ 之间的距离；\n\n(2) ${AC}$ 与 ${D}_{1}{B}_{1}$ 之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1550,
+          "end": 1559
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1550,
+          "end": 1559
+        }
+      ],
+      "id": "bx3-10-5-h105A-2",
+      "category": "习题10.5A",
+      "answer": "2. (1) $\\frac{\\sqrt{2}}{2}a$ . (2) $a$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 818,
+          "end": 819
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 3",
+      "markdown": "3. 如图,在四面体 ${ABCD}$ 中,已知所有棱长都为 $a$ . 求两异面直线 ${AB}$ 与 ${CD}$ 之间的距离.\n\n![bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1560,
+          "end": 1561
+        },
+        {
+          "source": "book",
+          "start": 1556,
+          "end": 1558
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1560,
+          "end": 1561
+        },
+        {
+          "source": "book",
+          "start": 1556,
+          "end": 1558
+        }
+      ],
+      "id": "bx3-10-5-h105A-3",
+      "category": "习题10.5A",
+      "answer": "3. $\\frac{\\sqrt{2}}{2}a$ . 提示: ${MN}$ 为所求,其中 $M\\text{、}N$ 分别为 ${DC}\\text{、}{AB}$ 的中点.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 820,
+          "end": 821
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 4",
+      "markdown": "4. 在 ${60}^{ \\circ  }$ 的二面角的棱上,有两个点 $A\\text{ 、 }B,{AC}\\text{ 、 }{BD}$ 分别是这个二面角的两个面上垂直于 ${AB}$ 的线段. 已知 ${AB} = 4\\mathrm{\\;{cm}},{AC} = \\; 6\\mathrm{\\;{cm}},{BD} = 8\\mathrm{\\;{cm}}$ . 求 ${CD}$ 的长.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1562,
+          "end": 1563
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1562,
+          "end": 1563
+        }
+      ],
+      "id": "bx3-10-5-h105A-4",
+      "category": "习题10.5A",
+      "answer": "4. $2\\sqrt{17}\\mathrm{\\;{cm}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 822,
+          "end": 823
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 5",
+      "markdown": "5. 若两异面直线 $a\\text{ 、 }b$ 所成的角为 ${70}^{ \\circ  }$ ,过空间内一点 $P$ 作与直线 $a\\text{ 、 }b$ 所成角均是 ${70}^{ \\circ  }$ 的直线 $l$ ,则所作直线 $l$ 的条数为( )\n\nA. 1 ; B. 2 ;\n\nC. 3; D. 4.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1564,
+          "end": 1569
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1564,
+          "end": 1569
+        }
+      ],
+      "id": "bx3-10-5-h105A-5",
+      "category": "习题10.5A",
+      "answer": "5. D.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 824,
+          "end": 825
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5A · 6",
+      "markdown": "6. 如果两个平面分别垂直于两条异面直线中的一条, 求证: 这两个平面的交线与这两条异面直线的公垂线平行或重合.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1570,
+          "end": 1571
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1570,
+          "end": 1571
+        }
+      ],
+      "id": "bx3-10-5-h105A-6",
+      "category": "习题10.5A",
+      "answer": "6. 已知 $a$ 与 $b$ 是异面直线, ${AB}$ 是异面直线的公垂线, $a \\bot  \\alpha , b \\bot  \\beta ,\\alpha  \\cap  \\beta  = c$ . 求证: $c//{AB}$ .\n\n证明: 过点 $A$ 作 ${b}^{\\prime } \\bot  \\beta$ . 因为 $b \\bot  \\beta$ ,所以 $b//{b}^{\\prime }$ . 因为 ${AB}$ 是 $a$ 与 $b$ 的公垂线,故 ${AB} \\bot  a,{AB} \\bot  b,{AB} \\bot  {b}^{\\prime }$ ,所以 ${AB}$ 垂直于 $a\\text{、}{b}^{\\prime }$ 所确定的平面. 又 $a \\bot  \\alpha , c \\subset  \\alpha$ , 则 $a \\bot  c$ . 同理 ${b}^{\\prime } \\bot  c$ . 所以 $c$ 垂直于 $a\\text{、}{b}^{\\prime }$ 所确定的平面,故 $c//{AB}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 826,
+          "end": 829
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1572,
+          "end": 1572
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题10.5B · 1",
+      "markdown": "1. 在直二面角的棱上有 $A\\text{ 、 }B$ 两点, ${AC}$ 和 ${BD}$ 分别在两个面上,并且都垂直于棱 ${AB}$ . 若 ${AB} = 8\\mathrm{\\;{cm}},{AC} = 6\\mathrm{\\;{cm}},{BD} = {24}\\mathrm{\\;{cm}}$ ，求 ${CD}$ 的长及 ${AB}$ 和 ${CD}$ 之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1574,
+          "end": 1575
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1574,
+          "end": 1575
+        }
+      ],
+      "id": "bx3-10-5-h105B-1",
+      "category": "习题10.5B",
+      "answer": "1. ${CD} = {26}\\mathrm{\\;{cm}},{AB}$ 和 ${CD}$ 之间的距离为 $\\frac{{24}\\sqrt{17}}{17}\\mathrm{\\;{cm}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 832,
+          "end": 833
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5B · 2",
+      "markdown": "2. 如图，在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中， ${AB} = a,{BC} = b,{A{A}_{1}} = c$ . 求异面直线 ${B}_{1}B$ 与 $A{C}_{1}$ 之间的距离.\n\n![bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1576,
+          "end": 1585
+        },
+        {
+          "source": "book",
+          "start": 1578,
+          "end": 1580
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1576,
+          "end": 1585
+        },
+        {
+          "source": "book",
+          "start": 1578,
+          "end": 1580
+        }
+      ],
+      "id": "bx3-10-5-h105B-2",
+      "category": "习题10.5B",
+      "answer": "2. $\\frac{ab}{\\sqrt{{a}^{2} + {b}^{2}}}$ . 提示: $B{B}_{1}//$ 平面 ${AC}{C}_{1}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 834,
+          "end": 835
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题10.5B · 3",
+      "markdown": "3. 如图,已知正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 1 . 求异面直线 ${A}_{1}B$ 与 ${B}_{1}{D}_{1}$ 之间的距离.\n\n![bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1586,
+          "end": 1587
+        },
+        {
+          "source": "book",
+          "start": 1582,
+          "end": 1584
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1586,
+          "end": 1587
+        },
+        {
+          "source": "book",
+          "start": 1582,
+          "end": 1584
+        }
+      ],
+      "id": "bx3-10-5-h105B-3",
+      "category": "习题10.5B",
+      "answer": "3. $\\frac{\\sqrt{3}}{3}$ . 提示: 转化成两个平行平面之间的距离进行求解.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 836,
+          "end": 837
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 1468,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1478,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1492,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1502,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1518,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1526,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1556,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1578,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1582,
+      "original": "images/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx3-13-4"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>13.4 统计图表 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx3.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-histogram-area.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第三册 / 第13章统计</div><div class="spine-number">13.4</div><nav aria-label="本节目录"><a href="#bx3-13-4"><span>13.4</span>统计图表</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 13.4</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 13.4</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>统计图表<span class="cover-dot">.</span></h1><p class="cover-deck">必修第三册<br>第13章统计 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>2 个例题</span><span>12 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx3-13-4" data-title="统计图表"><section class="section-heading" id="bx3-13-4"><span class="section-number">13.4</span><div><h2>统计图表</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="2dcfdcaeb3f469335bf1f664d69389324e198a444f964d69687d90e2df238405" id="bx3-13-4-b2"><p>上一节我们学习了如何通过随机抽样获取数据. 然而所收集的数据往往庞杂凌乱，无法直接从中获得有用的结论. 统计图表是表达和分析数据的一种重要工具, 它不仅可以帮助我们从数据中获取有用的信息, 还可以帮助我们直观、准确地理解相关的结果.</p>
+<p>在初中阶段我们已经学习了扇形统计图、折线统计图和条形统计图等, 这一节我们将通过实例进一步对统计图表的特点和选择加以讨论, 并在此基础上学习其他统计图表.</p>
+</div><h3 class="group-heading" id="bx3-13-4-b3">1 频率分布表和频率分布直方图</h3><div class="prose" data-visual-source-sha="9ee578e07dea64682b5f76b2b2d850e2e12425c47e1b3b2d279e9b6c9c1a7402" id="bx3-13-4-b4"><p>A 校高一年级共有学生 330 名, 为了解该校高一年级学生的身高和体重情况，学校决定做一次抽样调查. 按照性别分层随机抽样的方法抽取 66 名学生, 测量他们的身高 (单位: <span class="math" data-tex="\mathrm{{cm}}" data-display="false"></span> ) 及体重 (单位: <span class="math" data-tex="\mathrm{{kg}}" data-display="false"></span> ) 并记录在表 13-2 中.</p>
+<p>表 13-2 A 校 66 名高一年级学生身高、体重数据</p>
+<div class="source-table"><table><tr><td>性别</td><td>身高/cm</td><td>体重/kg</td><td>性别</td><td>身高/cm</td><td>体重/kg</td><td>性别</td><td>身高/cm</td><td>体重/kg</td></tr><tr><td>女</td><td>152</td><td>46</td><td>女</td><td>164</td><td>52</td><td>男</td><td>172</td><td>92</td></tr><tr><td>女</td><td>153</td><td>47</td><td>男</td><td>165</td><td>54</td><td>男</td><td>172</td><td>64</td></tr><tr><td>女</td><td>154</td><td>63</td><td>男</td><td>165</td><td>60</td><td>女</td><td>172</td><td>69</td></tr><tr><td>女</td><td>155</td><td>50</td><td>男</td><td>165</td><td>48</td><td>男</td><td>173</td><td>75</td></tr><tr><td>女</td><td>156</td><td>48</td><td>女</td><td>165</td><td>51</td><td>男</td><td>173</td><td>72</td></tr><tr><td>女</td><td>156</td><td>50</td><td>女</td><td>165</td><td>55</td><td>男</td><td>174</td><td>55</td></tr><tr><td>女</td><td>156</td><td>51</td><td>女</td><td>165</td><td>58</td><td>男</td><td>174</td><td>56</td></tr><tr><td>女</td><td>157</td><td>51</td><td>女</td><td>166</td><td>63</td><td>男</td><td>174</td><td>63</td></tr><tr><td>女</td><td>157</td><td>50</td><td>男</td><td>166</td><td>64</td><td>男</td><td>174</td><td>74</td></tr><tr><td>女</td><td>159</td><td>49</td><td>男</td><td>167</td><td>54</td><td>男</td><td>175</td><td>53</td></tr><tr><td>女</td><td>159</td><td>51</td><td>男</td><td>167</td><td>52</td><td>男</td><td>176</td><td>64</td></tr><tr><td>女</td><td>160</td><td>47</td><td>男</td><td>167</td><td>53</td><td>男</td><td>176</td><td>60</td></tr><tr><td>女</td><td>160</td><td>62</td><td>女</td><td>167</td><td>69</td><td>男</td><td>177</td><td>63</td></tr><tr><td>女</td><td>160</td><td>50</td><td>女</td><td>167</td><td>61</td><td>男</td><td>177</td><td>75</td></tr><tr><td>女</td><td>160</td><td>63</td><td>男</td><td>168</td><td>97</td><td>男</td><td>178</td><td>62</td></tr><tr><td>女</td><td>161</td><td>53</td><td>女</td><td>168</td><td>60</td><td>男</td><td>178</td><td>60</td></tr><tr><td>女</td><td>162</td><td>84</td><td>女</td><td>168</td><td>44</td><td>男</td><td>178</td><td>73</td></tr><tr><td>女</td><td>163</td><td>66</td><td>男</td><td>170</td><td>53</td><td>男</td><td>178</td><td>68</td></tr><tr><td>女</td><td>163</td><td>53</td><td>男</td><td>170</td><td>54</td><td>男</td><td>179</td><td>78</td></tr><tr><td>女</td><td>164</td><td>63</td><td>男</td><td>170</td><td>57</td><td>男</td><td>181</td><td>80</td></tr><tr><td>女</td><td>164</td><td>68</td><td>男</td><td>170</td><td>47</td><td>男</td><td>182</td><td>92</td></tr><tr><td>女</td><td>164</td><td>52</td><td>男</td><td>170</td><td>69</td><td>男</td><td>184</td><td>78</td></tr></table></div>
+<p>该表虽给出了 66 名学生的身高和体重的数据, 但从中却很难看出学生的身高和体重的分布情况. 在初中我们初步了解了用频数分布表和频数分布直方图来展现数据分布在各组的个数, 而要想知道各个小组的数据在样本容量中所占比例的大小, 则可采用下面将要学习的频率分布表和频率分布直方图. 它们清晰地呈现了样本数据的整体频率分布情况.</p>
+<p>我们不妨以身高为例, 先绘制身高频率分布表. 其步骤如下:</p>
+<p>(1)求极差</p>
+<aside class="key-point key-concept" id="bx3-13-4-definition-4-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>绘制频率分布表最重要的就是分组. 要对数据进行分组， 首先要找出这一组数据的最大值和最小值, 最大值与最小值的差称为极差 (range), 又称全距. 这组数据中最大值为 184 , 最小值为 152 , 极差为 184-152 =32 , 它表示这组数据的波动范围大小.</p>
+</aside><p>(2)确定组距与组数</p>
+<p>组距是指每个小组的区间端点之间的距离, 组距的选取决定了组数的多少:</p>
+<div class="math display" data-tex="\text{ 组数 } = \frac{\text{ 极差. }}{\text{ 组距. }}" data-display="true"></div>
+<p>如果组数太少, 所有数据就会落在少数几个组里, 导致这几个组的柱形太高; 如果组数太多, 大部分的组中只有少数的数据或者没有数据, 均无法有效呈现数据的分布.</p>
+<p>一般地, 第一组的下限应低于最小值, 最后一组的上限应高于最大值. 这里最大值为 184 , 最小值为 152 , 可取所有样本数据均在区间 <span class="math" data-tex="\left\lbrack  {{151.5},{184.5}}\right\rbrack" data-display="false"></span> 内. 极差为 32,我们取组距为 3,将区间 <span class="math" data-tex="\left\lbrack  {{151.5},{184.5}}\right\rbrack" data-display="false"></span> 分为 11 组. 通常对组内数值所在区间取左闭右开区间，最后一组取闭区间，于是将样本数据分为如下 11 组: [151.5,154.5)、[154.5,157.5)、...、[181.5,184.5].</p>
+<p>(3)统计每组的频数及频率</p>
+<aside class="key-point key-concept" id="bx3-13-4-definition-4-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>将样本数据分好组以后, 每个小组内的数据个数称为频数, 频数与样本容量的比值叫做这一小组的频率. 统计每个小组的频数, 再计算各组的频率.</p>
+</aside><p>(4)绘制频率分布表</p>
+<p>将分组、频数及频率填入表 13-3. 如果想知道身高不高于 160 cm 的学生人数，那么需要将 [151.5, 154.5)、[154.5, 157.5) 及[157.5,160.5)的频数相加, 求其累积频数, 为 15 人.</p>
+<hr />
+<p>当数据在 120 个以内时, 通常按数据的多少分为 5 ~ 12 组.</p>
+<hr />
+<p>表 <span class="math" data-tex="{13} - 3\mathrm{\;A}" data-display="false"></span> 校 66 名高一年级学生身高的频率分布表</p>
+<div class="source-table"><table><tr><td>身高分组区间</td><td>频数</td><td>频率</td><td>累积频数</td></tr><tr><td>[151.5,154.5)</td><td>3</td><td>0.05</td><td>3</td></tr><tr><td>[154.5,157.5)</td><td>6</td><td>0.09</td><td>9</td></tr><tr><td>[157.5,160.5)</td><td>6</td><td>0.09</td><td>15</td></tr><tr><td>[160.5,163.5)</td><td>4</td><td>0.06</td><td>19</td></tr><tr><td>[163.5,166.5)</td><td>11</td><td>0.17</td><td>30</td></tr><tr><td>[166.5,169.5)</td><td>9</td><td>0.14</td><td>39</td></tr><tr><td>[169.5,172.5)</td><td>8</td><td>0.12</td><td>47</td></tr><tr><td>[172.5,175.5)</td><td>7</td><td>0.11</td><td>54</td></tr><tr><td>[175.5,178.5)</td><td>8</td><td>0.12</td><td>62</td></tr><tr><td>[178.5,181.5)</td><td>2</td><td>0.03</td><td>64</td></tr><tr><td>[181.5,184.5]</td><td>2</td><td>0.03</td><td>66</td></tr></table></div>
+<p>与先前看起来毫无规律的数据相比, 表 13-3 清晰地给出了每组数据是如何分布的. 我们可以一目了然地看出在每个身高范围内有多少名学生:身高在 <span class="math" data-tex="{163.5}\mathrm{\;{cm}}" data-display="false"></span> 到 <span class="math" data-tex="{166.5}\mathrm{\;{cm}}" data-display="false"></span> 之间的学生人数最多，在 166.5 cm 到 169.5 cm 之间的学生人数次之，而在 178.5 cm到 <span class="math" data-tex="{181.5}\mathrm{\;{cm}}" data-display="false"></span> 、 <span class="math" data-tex="{181.5}\mathrm{\;{cm}}" data-display="false"></span> 到 <span class="math" data-tex="{184.5}\mathrm{\;{cm}}" data-display="false"></span> 之间的学生人数最少.</p>
+<p>依据上述频率分布表, 我们就可以来制作频率分布直方图 (frequency distribution histogram). 为此, 我们在直角坐标系中把横轴分成若干段, 每一段对应一个组距, 然后以组距形成的线段为底作一矩形, 矩形的高为小组的组距 , 就得到如图 13-4-1 所示的频率分布直方图.</p>
+<p><img src="images/book-a93845bcf5c73a18148d.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-1 A 校 66 名高一年级学生身高的频率分布直方图</p>
+<hr />
+<aside class="key-point key-concept" id="bx3-13-4-definition-4-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>表 13-3 中由样本值低的组向高的组逐组累计频数称为向上累积频数，而由样本值高的组向低的组逐组累计频数则称为向下累积频数.</p>
+</aside><hr />
+<p>统计频数时可以直接写数，也可以画 “正”字.</p>
+<hr />
+<p>在绘制统计图时还应注意以下几点:</p>
+<p>(1)标题:统计图一般要有标题，用以说明统计图的内容. 如果可能的话, 列出数据来源.</p>
+<p>(2)坐标的刻度和名称:一般纵轴和横轴也需要有名称，纵轴应清楚地标明刻度, 横轴应标明类别或刻度.</p>
+<p>(3)标注:如果要在一张图中呈现多元数据，应使用一些标注来识别单个数据.</p>
+<p>容易看出,小矩形的面积 <span class="math" data-tex="=" data-display="false"></span> 组距 <span class="math" data-tex="\times" data-display="false"></span> 组距 <span class="math" data-tex="=" data-display="false"></span> 频率. 也就是说, 在频率分布直方图中, 数据落在各小组内的频率可以用小矩形的面积来表示，这些面积的总和为 1 .</p>
+<p>频率分布直方图比频率分布表更能直观形象地反映样本数据的分布规律. 从图 13-4-1 中我们可以看出, 身高在 163.5 cm 到 166.5 cm 这个范围内的学生人数最多，特别高或特别矮的学生都很少.</p>
+<aside class="key-point key-concept" id="bx3-13-4-definition-4-3" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>通常, 在频率分布直方图中, 按照分组原则, 再在左边和右边各加一个区间 <span class="math" data-tex="\lbrack {148.5},{151.5})" data-display="false"></span> 和 <span class="math" data-tex="\left\lbrack  {{184.5},{187.5}}\right\rbrack" data-display="false"></span> . 这两个组的频率取值为 0 , 然后从所加的左边的区间的中点 (称为组中值) 开始, 从左至右依次连接各矩形上底边的中点, 直至右边所加区间的中点, 再将矩形的边去除, 就可以得到一条折线, 称为频率分布折线图 (图13-4-2), 简称频率折线图. Q</p>
+</aside><hr />
+<p>在绘制频率分布折线图时, 虽然在两侧各加了一个虚设的附加组, 但由于这两个组的频率都是零, 不会对统计的结果造成影响.</p>
+<hr />
+<p><img src="images/book-cb2837f6491601cca6d1.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-2 A 校 66 名高一年级学生身高的频率分布折线图</p>
+<p>如果样本容量足够大, 且分组的组距取得足够小, 那么频率分布折线图将趋于一条光滑的曲线 (图 13-4-3).</p>
+<p><img src="images/book-079417bc675ace0b3173.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-3</p>
+</div><h3 class="group-heading" id="bx3-13-4-b5">练习 13.4(1)</h3><article class="question" id="bx3-13-4-p1341-1" data-question-id="bx3-13-4-p1341-1" data-category="practice"><div class="question-label">练习13.4(1) · 1</div><div class="question-body"><ol>
+<li>根据表 13-1 中所调查的 60 名学生的每周运动时间 (单位: <span class="math" data-tex="\mathrm{h}" data-display="false"></span> ),制作频率分布表, 并绘制频率分布直方图.</li>
+</ol>
+</div></article><article class="question" id="bx3-13-4-p1341-2" data-question-id="bx3-13-4-p1341-2" data-category="practice"><div class="question-label">练习13.4(1) · 2</div><div class="question-body"><ol start="2">
+<li>根据表 13-2 中的数据, 制作 66 名学生的体重频率分布表, 并绘制频率分布直方图.</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx3-13-4-b8">2 茎叶图</h3><div class="prose" data-visual-source-sha="dbab1345aca2871cb9347ff317ccf26e4399ea23be56e2cfc374c355a0715dfa" id="bx3-13-4-b9"><p>频率分布直方图并不是展示数据分布的唯一选择. 在数据不多的情况下, 我们可以绘制茎叶图 (stem-and-leaf plot), 展示所有样本数据的信息.</p>
+<p>例如,某个品种的小麦麦穗长度 (单位: <span class="math" data-tex="\mathrm{{cm}}" data-display="false"></span> ) 的样本数据如下所示, 如何分析该品种小麦的麦穗长度的分布情况呢?</p>
+<p>10.2 9.7 7.8 10.0 9.1 8.9 8.6</p>
+<p>9.8 9.6 9.7 11.2 10.6 11.7</p>
+<p>在上述问题中, 我们将样本数据分为茎和叶两个部分: 整数部分作为“茎”，小数作为“叶”. 对于第一个麦穗长度数据 10.2 来说, 10 是茎, 2 则是叶. 然后把 “茎”由小到大、从上往下写成一列, 并在其左边或右边画一条竖直的线 (不妨画在右边). 最后把 “叶”写在它所属的“茎”的右边，由小到大排成一行. 这样就得到该品种麦穗长度的茎叶图(图 13-4-4).</p>
+<p><img src="images/book-8858fc5bc28d83fca48e.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-4</p>
+<p>解读茎叶图和解读直方图一样, 要注意整体形态. 从这张图可以直观地看出该品种的麦穗的长度主要集中在 <span class="math" data-tex="9 \sim  {10}\mathrm{\;{cm}}" data-display="false"></span> 之间, 并且分布比较对称.</p>
+<p>茎叶图既可以用于呈现单组数据, 也可以用于对两组同类数据的比较分析.</p>
+</div><article class="question" id="bx3-13-4-ex-1" data-question-id="bx3-13-4-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 根据表 13-2 中的数据, 分别绘制女生和男生的体重分布茎叶图, 并比较女生和男生的体重分布.</p>
+</div></article><h3 class="group-heading" id="bx3-13-4-b11">3 散点图</h3><div class="prose" data-visual-source-sha="680de2a7732c16ac4c92c5ce12b59a56d4fbc9a6af8e08185b9446e04ad87298" id="bx3-13-4-b12"><p>仍以本节开始的 A 校 66 名高一年级学生为例, 表 13-2 中学生的每一个身高值都对应一个体重值. 经验认为, 人的体重和身高有一定的相关性, 身材较高的人往往体重也较重, 对于高一年级学生群体, 客观数据是否支持这种说法呢? 从表 13-2 中我们无法直观地看出. 为了清楚地看到这一点, 可以绘制散点图.</p>
+<aside class="key-point key-concept" id="bx3-13-4-definition-12-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在考虑两组数据时, 为了对两组数据之间的关系形成大致的了解, 通常将这两组数据所对应的点描在平面直角坐标系内, 这些点组成的统计图称为散点图 (scatter diagram).</p>
+</aside><p>我们把表 13-2 中学生的身高作为横坐标, 体重作为纵坐标, 在直角坐标系中绘制出相应的点, 就得到了身高和体重的散点图 (图 13-4-6).</p>
+<p><img src="images/book-88105c14909800e06fe8.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-6 A 校 66 名高一年级学生身高、体重散点图</p>
+<p>从图 13-4-6 中可以直观地看出, 图中的点从左至右大致是逐渐上升的, 也就是说, “身材较高的人, 体重往往也较重”这一说法在高一年级学生群体中就总体而言是对的.</p>
+</div><article class="question" id="bx3-13-4-ex-2" data-question-id="bx3-13-4-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 某宝石店经理随机选取了 20 颗钻石, 将它们的价格 (单位:千元)、质量(单位:克拉)以及颜色记录在表 13-4 中. 试分别绘制质量与价格的散点图, 以及颜色与价格的散点图, 并观察随着钻石的质量和颜色数值的增加, 钻石的价格是如何变化的.</p>
+<p>表 13-4 某宝石店的 20 颗钻石的价格、质量及颜色</p>
+<div class="source-table"><table><tr><td>序号</td><td>价格/千元</td><td>质量/克拉</td><td>颜色</td></tr><tr><td>1</td><td>11</td><td>0.9</td><td>3</td></tr><tr><td>2</td><td>11</td><td>1.21</td><td>5</td></tr><tr></tr><tr><td>3</td><td>12.9</td><td>1</td><td>5</td></tr><tr><td>4</td><td>13.2</td><td>1.14</td><td>4</td></tr><tr><td>5</td><td>15.5</td><td>1.3</td><td>6</td></tr><tr><td>6</td><td>15.9</td><td>1.17</td><td>4</td></tr><tr><td>7</td><td>16.6</td><td>1.33</td><td>7</td></tr><tr><td>8</td><td>17.6</td><td>1.1</td><td>5</td></tr><tr><td>9</td><td>18.9</td><td>1.11</td><td>4</td></tr><tr><td>10</td><td>20.6</td><td>1.45</td><td>5</td></tr><tr><td>11</td><td>20.8</td><td>1.3</td><td>2</td></tr><tr><td>12</td><td>21.6</td><td>1.5</td><td>9</td></tr><tr><td>13</td><td>22.5</td><td>1.6</td><td>2</td></tr><tr><td>14</td><td>22.8</td><td>1.5</td><td>6</td></tr><tr><td>15</td><td>28.8</td><td>1.12</td><td>2</td></tr><tr><td>16</td><td>29.5</td><td>1.7</td><td>8</td></tr><tr><td>17</td><td>29.8</td><td>1.9</td><td>5</td></tr><tr><td>18</td><td>33</td><td>2.13</td><td>8</td></tr><tr><td>19</td><td>36.6</td><td>1.77</td><td>3</td></tr><tr><td>20</td><td>40</td><td>1.82</td><td>4</td></tr></table></div>
+<p>注:颜色通过标准尺度来衡量，其中 1 为无色，随着数值的增加，颜色逐渐加深.</p>
+</div></article><h3 class="group-heading" id="bx3-13-4-b14">操作:调查本校学生户外活动时间与视力</h3><div class="prose" data-visual-source-sha="bc65b81198e35d03d7e089f2c0b190da2db22a3a904e2bcc297d315f3b13c18f" id="bx3-13-4-b15"><p>调查你校本年级学生的每天平均户外活动时间和视力情况， 并用合适的统计图表呈现出来. 你能发现这两者之间有什么关系吗?</p>
+</div><h3 class="group-heading" id="bx3-13-4-b16">信息技术:绘制统计图表</h3><div class="prose" data-visual-source-sha="36b159ea373c4acb4efac7f7eba510a0266251461234969ab33a8255b1050243" id="bx3-13-4-b17"><p>运用计算机中的电子表格办公软件可以绘制多种统计图表. 尽管不同版本的处理细节略有不同，但基本过程类似. 严格来说, 它们并不是统计软件, 但作为办公软件, 具有一定的统计计算功能，并且可以实施简单的数据统计、图表绘制等操作. 要做更复杂、更专业的统计工作，软件市场上有比较成熟的统计分析软件, 可供选用.</p>
+<p>下面以表 13-2 的数据为例, 绘制散点图.</p>
+<p>(1)在工作簿中输入身高和对应体重的两列或两行数据.</p>
+<p>(2)选中这两列或两行数据，在“插入”菜单中选择所需要的图像类型——散点图；根据需要选择其中一种散点图的类型并单击(图 13-4-8)，一幅散点图即出现在工作簿中.</p>
+<p><img src="images/book-52de5a620ea5601b0a43.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 13-4-8</p>
+<p>(3)根据需要选择坐标轴的范围以及单位长度等，使得统计图具有较好的可视性. 例如, 横坐标身高的范围可以取 [150,185), 纵坐标体重的范围可以取 [40,100), 修改后就得到了图 13-4-6.</p>
+</div><h3 class="group-heading" id="bx3-13-4-b18">练习 13.4(2)</h3><article class="question" id="bx3-13-4-p1342-1" data-question-id="bx3-13-4-p1342-1" data-category="practice"><div class="question-label">练习13.4(2) · 1</div><div class="question-body"><ol>
+<li>下表是某沿海地区的气温和海水表层温度(单位:℃)的统计数据，根据下表绘制茎叶图, 并比较气温与海水表层温度的分布情况.</li>
+</ol>
+<div class="source-table"><table><tr><td>气温/℃</td><td>海水表层温度/℃</td><td>气温/℃</td><td>海水表层温度/℃</td></tr><tr><td>13.9</td><td>9.4</td><td>31.1</td><td>28.3</td></tr><tr><td>15.0</td><td>10.6</td><td>31.1</td><td>26.7</td></tr><tr><td>18.3</td><td>13.3</td><td>28.9</td><td>25.0</td></tr><tr><td>23.9</td><td>18.9</td><td>23.9</td><td>22.2</td></tr><tr><td>27.2</td><td>21.7</td><td>20.0</td><td>15.6</td></tr><tr><td>30.0</td><td>25.6</td><td>15.0</td><td>10.0</td></tr></table></div></div></article><article class="question" id="bx3-13-4-p1342-2" data-question-id="bx3-13-4-p1342-2" data-category="practice"><div class="question-label">练习13.4(2) · 2</div><div class="question-body"><ol start="2">
+<li>下列关于散点图的说法中, 正确的是 ( )</li>
+</ol>
+<p>A. 任意给定统计数据，都可以绘制散点图；</p>
+<p>B. 从散点图中可以看出两个量是否具有一定的关系;</p>
+<p>C. 从散点图中可以看出两个量的因果关系;</p>
+<p>D. 从散点图中无法看出数据的分布情况.</p>
+</div></article><article class="question" id="bx3-13-4-p1342-3" data-question-id="bx3-13-4-p1342-3" data-category="practice"><div class="question-label">练习13.4(2) · 3</div><div class="question-body"><ol start="3">
+<li>某研究人员随机抽取 15 棵某品种的栎树, 测得树高 (单位: <span class="math" data-tex="\mathrm{m}" data-display="false"></span> ) 和胸径 (指地面以上 <span class="math" data-tex="{1.3}\mathrm{\;m}" data-display="false"></span> 处树干的直径,单位: <span class="math" data-tex="\mathrm{{cm}}" data-display="false"></span> ) 的数据,如下表所示.</li>
+</ol>
+<div class="source-table"><table><tr><td>胸径/cm</td><td>6</td><td>7.9</td><td>8.3</td><td>8.9</td><td>10.1</td><td>12.1</td><td>13.8</td><td>14.2</td></tr><tr><td>树高/m</td><td>4.7</td><td>5.3</td><td>6.1</td><td>7</td><td>7.5</td><td>8.5</td><td>7.8</td><td>8.1</td></tr><tr><td>胸径/cm</td><td>16.4</td><td>16.9</td><td>18.1</td><td>20.1</td><td>21.8</td><td>22.2</td><td>23.9</td><td>/</td></tr><tr><td>树高/m</td><td>9.1</td><td>9.8</td><td>10</td><td>10.3</td><td>11.3</td><td>11.8</td><td>12.7</td><td>/</td></tr></table></div>
+<p>绘制散点图, 并观察随着高度的增加, 栎树胸径的变化趋势.</p>
+</div></article><h3 class="group-heading" id="bx3-13-4-b22">习题 13.4</h3><h3 class="group-heading" id="bx3-13-4-b23">A 组</h3><article class="question" id="bx3-13-4-h134A-1" data-question-id="bx3-13-4-h134A-1" data-category="homework"><div class="question-label">习题13.4A · 1</div><div class="question-body"><ol>
+<li>下列哪些统计图可用于表示数据随着时间变化的趋势? 请选择并说明理由.</li>
+</ol>
+<p>(1)条形图； (2)散点图；</p>
+<p>(3)折线图； (4)扇形图.</p>
+</div></article><article class="question" id="bx3-13-4-h134A-2" data-question-id="bx3-13-4-h134A-2" data-category="homework"><div class="question-label">习题13.4A · 2</div><div class="question-body"><ol start="2">
+<li>某医学研究团队为了研究一种降血脂新药的有效性，给 50 名患者服用该药，一周后测得低密度脂蛋白的含量(单位: <span class="math" data-tex="\mathrm{{mmol}}/\mathrm{L}" data-display="false"></span> )如下:</li>
+</ol>
+<span class="math" data-tex="\begin{array}{llllllllll} {2.80} &amp; {3.54} &amp; {3.02} &amp; {3.43} &amp; {3.69} &amp; {2.46} &amp; {3.03} &amp; {3.06} &amp; {3.35} &amp; {3.57} \end{array}" data-display="false"></span>
+<span class="math" data-tex="\begin{array}{llllllllll} {3.72} &amp; {4.36} &amp; {2.56} &amp; {4.11} &amp; {2.81} &amp; {2.77} &amp; {5.32} &amp; {3.34} &amp; {3.68} &amp; {3.95} \end{array}" data-display="false"></span>
+<span class="math" data-tex="\begin{array}{llllllllll} {2.98} &amp; {3.63} &amp; {3.65} &amp; {3.22} &amp; {3.90} &amp; {3.97} &amp; {3.86} &amp; {3.93} &amp; {3.17} &amp; {3.72} \end{array}" data-display="false"></span>
+<span class="math" data-tex="\begin{array}{llllllllll} {3.36} &amp; {3.56} &amp; {3.80} &amp; {4.57} &amp; {5.02} &amp; {3.31} &amp; {3.52} &amp; {3.27} &amp; {3.98} &amp; {4.72} \end{array}" data-display="false"></span>
+<span class="math" data-tex="\begin{array}{llllllllll} {3.03} &amp; {4.09} &amp; {2.14} &amp; {2.06} &amp; {3.00} &amp; {2.75} &amp; {3.84} &amp; {2.16} &amp; {3.09} &amp; {2.81} \end{array}" data-display="false"></span>
+<p>(1)制作频率分布表;</p>
+<p>(2)绘制频率分布直方图和频率分布折线图.</p>
+</div></article><article class="question" id="bx3-13-4-h134A-3" data-question-id="bx3-13-4-h134A-3" data-category="homework"><div class="question-label">习题13.4A · 3</div><div class="question-body"><ol start="3">
+<li>某口腔医师对本月门诊龋齿病患者的年龄(单位:岁)情况进行了统计，得到如下数据:</li>
+</ol>
+<div class="source-table"><table><tr><td>年龄分组区间</td><td>患者人数</td></tr><tr><td><span class="math" data-tex="\lbrack 0,{10})" data-display="false"></span></td><td>7</td></tr><tr><td><span class="math" data-tex="\lbrack {10},{20})" data-display="false"></span></td><td>35</td></tr><tr><td><span class="math" data-tex="\lbrack {20},{30})" data-display="false"></span></td><td>34</td></tr><tr><td><span class="math" data-tex="\lbrack {30},{40})" data-display="false"></span></td><td>46</td></tr><tr><td><span class="math" data-tex="\lbrack {40},{50})" data-display="false"></span></td><td>39</td></tr><tr><td>[50,60)</td><td>30</td></tr><tr><td>[60,70)</td><td>12</td></tr><tr><td>[70,80]</td><td>3</td></tr><tr><td>合计</td><td>206</td></tr></table></div>
+<p>绘制频率分布直方图, 并分析龋齿病患者的年龄构成.</p>
+</div></article><article class="question" id="bx3-13-4-h134A-4" data-question-id="bx3-13-4-h134A-4" data-category="homework"><div class="question-label">习题13.4A · 4</div><div class="question-body"><ol start="4">
+<li>收集你班学生某次考试的数学成绩和物理成绩的数据, 绘制散点图, 并观察随着数学成绩的提高, 物理成绩的变化趋势.</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx3-13-4-b28">B 组</h3><article class="question" id="bx3-13-4-h134B-1" data-question-id="bx3-13-4-h134B-1" data-category="homework"><div class="question-label">习题13.4B · 1</div><div class="question-body"><ol>
+<li>某外国电视台主播在介绍所在城市的犯罪率情况时, 展示了下面的统计图, 并说该城市近年来的犯罪率“急剧上升”. 你同意该主播的观点吗？请说明理由.</li>
+</ol>
+<p><img src="images/book-63f4eabaea1728481c83.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 1 题)</p>
+</div></article><article class="question" id="bx3-13-4-h134B-2" data-question-id="bx3-13-4-h134B-2" data-category="homework"><div class="question-label">习题13.4B · 2</div><div class="question-body"><ol start="2">
+<li>在报纸、杂志或网络上找一幅统计图, 并复印下来.</li>
+</ol>
+<p>(1)描述你从该图中得到的信息;</p>
+<p>(2)根据统计图的绘制要求，说明该图是否需要改进以及如何改进.</p>
+</div></article><article class="question" id="bx3-13-4-h134B-3" data-question-id="bx3-13-4-h134B-3" data-category="homework"><div class="question-label">习题13.4B · 3</div><div class="question-body"><ol start="3">
+<li>试调查 30 种饼干每 100g 所含的热量(单位:kJ)和脂肪(单位:g)，用合适的统计图表呈现出来, 并分析图表以获得结论.</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx3-13-4" checked>统计图表</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

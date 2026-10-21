@@ -1,0 +1,872 @@
+{
+  "status": "pass",
+  "reviewer": "repair_bx3 agent; not x2 author",
+  "scope": "10 sections,37 revised question blocks plus derivative-definition/public-prose boundary",
+  "findings": [],
+  "sections": [
+    {
+      "section_id": "x2-5-1",
+      "revised_questions": 1,
+      "ids": [
+        "x2-5-1-ex-1"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-5-3",
+      "revised_questions": 3,
+      "ids": [
+        "x2-5-3-ex-12",
+        "x2-5-3-ex-13",
+        "x2-5-3-p534-1"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-6-2",
+      "revised_questions": 2,
+      "ids": [
+        "x2-6-2-b16",
+        "x2-6-2-p622-2"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-chapter-end-5",
+      "revised_questions": 2,
+      "ids": [
+        "x2-chapter-end-5-hA-4",
+        "x2-chapter-end-5-hA-7"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-chapter-end-6",
+      "revised_questions": 14,
+      "ids": [
+        "x2-chapter-end-6-hA-1",
+        "x2-chapter-end-6-hA-2",
+        "x2-chapter-end-6-hA-3",
+        "x2-chapter-end-6-hA-4",
+        "x2-chapter-end-6-hA-5",
+        "x2-chapter-end-6-hA-6",
+        "x2-chapter-end-6-hA-7",
+        "x2-chapter-end-6-b14",
+        "x2-chapter-end-6-hB-2",
+        "x2-chapter-end-6-hB-3",
+        "x2-chapter-end-6-hB-4",
+        "x2-chapter-end-6-hB-5",
+        "x2-chapter-end-6-hB-6",
+        "x2-chapter-end-6-hB-7"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-chapter-end-7",
+      "revised_questions": 5,
+      "ids": [
+        "x2-chapter-end-7-hB-1",
+        "x2-chapter-end-7-hB-2",
+        "x2-chapter-end-7-hB-3",
+        "x2-chapter-end-7-hB-4",
+        "x2-chapter-end-7-hB-5"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-8-1",
+      "revised_questions": 1,
+      "ids": [
+        "x2-8-1-b13"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-8-2",
+      "revised_questions": 3,
+      "ids": [
+        "x2-8-2-h82B-1",
+        "x2-8-2-h82B-2",
+        "x2-8-2-h82B-3"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-8-3",
+      "revised_questions": 1,
+      "ids": [
+        "x2-8-3-b7"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    },
+    {
+      "section_id": "x2-chapter-end-8",
+      "revised_questions": 5,
+      "ids": [
+        "x2-chapter-end-8-hA-1",
+        "x2-chapter-end-8-hA-2",
+        "x2-chapter-end-8-hA-3",
+        "x2-chapter-end-8-hA-4",
+        "x2-chapter-end-8-hA-5"
+      ],
+      "source_hashes_unchanged": true,
+      "old_block_ids_preserved": true
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "x2-5-1-ex-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "差商20+5h双侧趋20，h<0旁注保留；一般导数定义已准确分离为公共正文。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 33,
+          "end": 34
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "book",
+          "start": 35,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "question_id": "x2-5-3-ex-12",
+      "verdict": "pass",
+      "independent_mathematical_check": "Cprime=q/2得5、10；平均成本100/q+q/4在q=20处极小，原图5-3-5不再混入本例。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1037,
+          "end": 1048
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "book",
+          "start": 1049,
+          "end": 1058
+        }
+      ]
+    },
+    {
+      "question_id": "x2-5-3-ex-13",
+      "verdict": "pass",
+      "independent_mathematical_check": "W=b(d²-b²)/6导数(d²-3b²)/6，唯一最大点b=d/√3,h=d√(2/3)，最大d³/(9√3)。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1061,
+          "end": 1066
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "book",
+          "start": 1059,
+          "end": 1070
+        }
+      ]
+    },
+    {
+      "question_id": "x2-5-3-p534-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "利润24000q-q³/5-50000，单价非负限制q<=√121000，临界q=200可行且为整数，最大3150000。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1089,
+          "end": 1090
+        }
+      ],
+      "answer_source": []
+    },
+    {
+      "question_id": "x2-6-2-b16",
+      "verdict": "pass",
+      "independent_mathematical_check": "五人全排列120；甲在头24；甲在三个内部位置72，三问完整。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 564
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 263,
+          "end": 264
+        }
+      ]
+    },
+    {
+      "question_id": "x2-6-2-p622-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "4! C(5,3)3!=1440；水彩块居中、其余两块交换为2*4!*5!=5760。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 565,
+          "end": 568
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 265,
+          "end": 266
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-5-hA-4",
+      "verdict": "pass",
+      "independent_mathematical_check": "四问独立求导为3e-5,e,无定义,2e³+3/2；原预期答案冲突已保留校注，未猜改题面。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1247,
+          "end": 1252
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 479,
+          "end": 482
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-5-hA-7",
+      "verdict": "pass",
+      "independent_mathematical_check": "线性两端-1,1；二次顶点9/4、端点最小0；三次驻点-2,4/3与两端比较得max19,min13/27。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1265,
+          "end": 1272
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 490,
+          "end": 495
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "原图已独立目视确认A-B-C链；6*5*5=150，A与C可同色。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1679,
+          "end": 1684
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 433,
+          "end": 434
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "甲排除项目1，有4*4!=96种。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1685,
+          "end": 1686
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 435,
+          "end": 436
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-3",
+      "verdict": "pass",
+      "independent_mathematical_check": "个位三种、千位四种、两中间位4*3种，乘积144；独立枚举核对。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1687,
+          "end": 1688
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 437,
+          "end": 438
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-4",
+      "verdict": "pass",
+      "independent_mathematical_check": "组合下标要求x>=3，方程化为(x-10)(11x+5)=0，正整数解10。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1689,
+          "end": 1690
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 439,
+          "end": 440
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-5",
+      "verdict": "pass",
+      "independent_mathematical_check": "系数和2^n=32得n5，指数10-3k=1得k3，系数10。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1691,
+          "end": 1692
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 441,
+          "end": 442
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-6",
+      "verdict": "pass",
+      "independent_mathematical_check": "系数1,-8,-32的绝对值和41。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1693,
+          "end": 1694
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 443,
+          "end": 444
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hA-7",
+      "verdict": "pass",
+      "independent_mathematical_check": "常数项6n-15k/2=0即4n=5k；最小正整数n5,k4可达。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1695,
+          "end": 1696
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 445,
+          "end": 446
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-b14",
+      "verdict": "pass",
+      "independent_mathematical_check": "甲固定中央，乙丙相邻物理位置对共4组，4*2*4!=192；独立枚举核对。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1699,
+          "end": 1700
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 449,
+          "end": 450
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "3^5-3*2^5+3=150，亦独立枚举满射。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1701,
+          "end": 1702
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 451,
+          "end": 452
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-3",
+      "verdict": "pass",
+      "independent_mathematical_check": "C(7,2)C(5,2)*2=420；不额外重复计两队编号。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1703,
+          "end": 1704
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 453,
+          "end": 454
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-4",
+      "verdict": "pass",
+      "independent_mathematical_check": "分别3720,720,144,720；四问均独立枚举验证。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1705,
+          "end": 1714
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 455,
+          "end": 456
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-5",
+      "verdict": "pass",
+      "independent_mathematical_check": "红数>=2；取4球计115，取5球计186，样本球互异。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1715,
+          "end": 1720
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 457,
+          "end": 458
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-6",
+      "verdict": "pass",
+      "independent_mathematical_check": "F(0)=2^100，奇和[F(1)-F(-1)]/2；偶和平方减奇和平方=F(1)F(-1)=1。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1721,
+          "end": 1728
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 459,
+          "end": 460
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-6-hB-7",
+      "verdict": "pass",
+      "independent_mathematical_check": "55=(-1)mod8且指数奇，余数7。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1729,
+          "end": 1730
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 461,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-7-hB-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "乙被轮到并答对的概率0.6*0.5=.3，已阐明0.5为条件答对率。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1320
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 501,
+          "end": 502
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-7-hB-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "首次次品后99件余95件正品，条件概率95/99。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1321,
+          "end": 1322
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 503,
+          "end": 504
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-7-hB-3",
+      "verdict": "pass",
+      "independent_mathematical_check": "排除黑球后剩15球，其中5黄，概率1/3。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1324
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 505,
+          "end": 506
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-7-hB-4",
+      "verdict": "pass",
+      "independent_mathematical_check": "84种取三数组合，恰一偶40；邻对数分布35,42,7/84，期望2/3；全枚举复算。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1330
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 507,
+          "end": 508
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-7-hB-5",
+      "verdict": "pass",
+      "independent_mathematical_check": "按摸球者切换枚举8条色序，X分布14,10,2,1/27，期望17/27；解析逐序列归类一致。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 1331,
+          "end": 1332
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 509,
+          "end": 518
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-1-b13",
+      "verdict": "pass",
+      "independent_mathematical_check": "原10对身高体重r=.872550559；题表原解回接完整，正态性非计算前提的编辑限定正确。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 105,
+          "end": 110
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "book",
+          "start": 111,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-2-h82B-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "原10点重算斜率5截距60；10000人=10千人代入预测110千元。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 467,
+          "end": 474
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 474,
+          "end": 476
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-2-h82B-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "男性斜率.185504截距11.570958,r.935226；女性.402893,5.239669,r.813212；合并r.077981，组间混杂解释合理。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 475,
+          "end": 484
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 478,
+          "end": 486
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-2-h82B-3",
+      "verdict": "pass",
+      "independent_mathematical_check": "由原始N取ln重算中心模型11.0525836917+.114790064558t；原指数嵌套错误已修复，两年外推数值及不可靠预测限定正确。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 485,
+          "end": 486
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 488,
+          "end": 492
+        }
+      ]
+    },
+    {
+      "question_id": "x2-8-3-b7",
+      "verdict": "pass",
+      "independent_mathematical_check": "2x2列联表边际和完整；chi²27.1387434>3.841，拒绝独立假设；关联不等同因果。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 695,
+          "end": 702
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 712
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-8-hA-1",
+      "verdict": "pass",
+      "independent_mathematical_check": "原8点最小二乘斜率3225/3250=.99230769。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 827,
+          "end": 832
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 542,
+          "end": 543
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-8-hA-2",
+      "verdict": "pass",
+      "independent_mathematical_check": "-.960*50+3.134=-44.866。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 833,
+          "end": 834
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 544,
+          "end": 545
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-8-hA-3",
+      "verdict": "pass",
+      "independent_mathematical_check": "斜率9.4为每增加1万元广告费的预测销售额变化，已排除必然因果解释。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 840
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 546,
+          "end": 549
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-8-hA-4",
+      "verdict": "pass",
+      "independent_mathematical_check": "16对原始成绩Pearson r=.964753289；SVG16圆点坐标和轴刻度逐点核对，无漏点错点。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 841,
+          "end": 848
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 548,
+          "end": 550
+        }
+      ]
+    },
+    {
+      "question_id": "x2-chapter-end-8-hA-5",
+      "verdict": "pass",
+      "independent_mathematical_check": "chi²8.4155844>3.841，拒绝独立；5%显著性未误解为假设概率。",
+      "question_source": [
+        {
+          "source": "book",
+          "start": 849,
+          "end": 854
+        }
+      ],
+      "answer_source": [
+        {
+          "source": "teacher",
+          "start": 552,
+          "end": 553
+        }
+      ]
+    }
+  ],
+  "independent_numeric_enumeration_evidence": {
+    "chapter6_B1": 192,
+    "chapter6_B4": [
+      3720,
+      720,
+      144,
+      720
+    ],
+    "chapter6_A3": 144,
+    "chapter6_B2": 150,
+    "chapter7_B4_X_counts": {
+      "2": 7,
+      "1": 42,
+      "0": 35
+    },
+    "chapter7_B5_X_probs": {
+      "0": "14/27",
+      "1": "10/27",
+      "2": "2/27",
+      "3": "1/27"
+    },
+    "scatter_svg_16_points": "all match textbook original pairs and axis scale",
+    "score_pairs_fit": {
+      "slope": 0.757816039873131,
+      "intercept": 20.99388309922972,
+      "r": 0.9647532891340839
+    },
+    "tourist_centered_fit": {
+      "slope": 0.11479006455804694,
+      "intercept": 11.052583691732885,
+      "r": 0.9968608207263088
+    },
+    "tourist_predictions": {
+      "2026": 1399905.6994765983,
+      "2027": 1570187.3467699988
+    },
+    "height_weight_fit": {
+      "slope": 2.3109540636042403,
+      "intercept": -340.5035335689046,
+      "r": 0.8725505591977821
+    },
+    "color_blind_chi2": 27.138743404433782,
+    "nutrition_chi2": 8.415584415584416
+  },
+  "limitations": [
+    "数学复核不等于真实网页与所有打印组合验收。",
+    "未将x2未修改的其余题目宣称为本次全面数学审定。"
+  ]
+}

@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="teacher" data-section-id="x1-4-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>4.1 等差数列 · 教师整合版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-arithmetic-reverse-pairs.js"></script><script defer src="../_shared/visual-assets/module-data.js"></script><script defer src="../_shared/visual-assets/conic-catalog.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="../index.html">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第一册 / 第4章数列</div><div class="spine-number">4.1</div><nav aria-label="本节目录"><a href="#x1-4-1"><span>4.1</span>等差数列</a></nav><div class="sidebar-foot">沪教数学讲义<br>教师阅读 / 备课</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">教师阅读 <span class="subtle">/ 4.1</span></span><div class="controls"><button id="answer-toggle" aria-pressed="false">隐藏全部答案</button><button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 4.1</div><p class="edition">教师整合版 / 沪教版高中数学</p><h1>等差数列<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第一册<br>第4章数列 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>6 个例题</span><span>21 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x1-4-1" data-title="等差数列"><section class="section-heading" id="x1-4-1"><span class="section-number">4.1</span><div><h2>等差数列</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="1163a258b3ea5f85df41459d2e703a1fb50a2f4fd9a0011cdeb020f322597642" id="x1-4-1-b1"><h1>数列</h1>
+<p><img src="images/book-9b7e5528e3891f66b531.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>对数列的研究是基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP)，下至一个人每年的身高或体重，都可以用数列表示. 数列也是学习微积分的一个必要的基础. 本章采用从特殊到一般、从具体到抽象的方法, 先研究两类特殊的数列——等差数列和等比数列, 再在此基础上研究一般的数列. 同时, 介绍数学归纳法这一与数列有关的重要方法, 并通过给出一个利用迭代序列求平方根的方法, 揭示算法在求近似解中的重要作用.</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L1–6</a></div></div><aside class="teacher teacher-only"><div class="eyebrow">教参原文</div><h3>正式教参 · 本章概述</h3><h2>一、本章概述</h2>
+<h3>总体要求</h3>
+<p>数列是反映自然规律的一个基本数学模型, 对数列的研究基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种事物数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP), 下至一个人每年的身高或体重, 都可以用数列表示. 数列在整个中学数学教学中, 处于一个知识汇合点的地位, 很多知识都与数列有着密切联系, 以前学过的数、式、方程、函数、简易逻辑等知识在此可得到充分的应用, 而数列的学习又为以后学习极限等内容作了铺垫.</p>
+<p>学生在进入高中前,在找规律填数字等的练习中可能已对等差数列、等比数列的变化规律有了一些感性认识, 而进入高中阶段, 学生则要对等差数列和等比数列的定义和性质有较为系统及确切的认知, 并通过建立与等差数列或等比数列相应的数学模型, 解决日常生活和现实世界中的某些实际问题. 数学归纳法是一种通过两步达到完全归纳的有效方法,可以简单地证明与正整数 <span class="math" data-tex="n" data-display="false"></span> 有关的一些数学命题,可用来证明与数列有关的公式, 但其应用远远不限于数列. 本章中所讲的数学归纳法和数列极限等内容可以使学生对“无限”有进一步的认识,也反映了从量变到质变的辩证规律.</p>
+<p>在本章的学习中, 学生将掌握等差数列和等比数列的变化规律, 建立通项公式和前 n 项和公式; 能运用等差数列、等比数列解决简单的实际问题和数学问题, 感受数学模型的现实意义与应用; 通过日常生活和数学中的实例, 了解一般数列的概念和表示方法; 了解数学归纳法的原理, 并能用数学归纳法证明与数列有关的一些简单命题; 通过用迭代序列求 <span class="math" data-tex="\sqrt{2}" data-display="false"></span> 的近似值初步了解算法的思想.</p>
+<h3>课时安排建议</h3>
+<p>本章的课时安排建议为 <span class="math" data-tex="{11}\left( {{10} + {1}^{ * }}\right)  + 1" data-display="false"></span> ,共计 12 课时,建议如下:</p>
+<div class="source-table"><table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan="2">4.1 等差数列</td><td rowspan="2">2</td><td>等差数列及其通项公式 1 课时</td></tr><tr><td>等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和 1 课时</td></tr><tr><td rowspan="2">4.2 等比数列</td><td rowspan="2">3</td><td>等比数列及其通项公式 1 课时</td></tr><tr><td>等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和 2 课时</td></tr><tr><td rowspan="3">4.3 数列</td><td rowspan="3">3</td><td>数列的概念与性质 1 课时</td></tr><tr><td>利用递推公式表示数列 1 课时</td></tr><tr><td>习题课 1 课时</td></tr><tr><td rowspan="2">4.4 数学归纳法</td><td rowspan="2">2</td><td>数学归纳法 1 课时</td></tr><tr><td>数学归纳法的应用 1 课时</td></tr><tr><td>* 4.5 用迭代序列求 <span class="math" data-tex="\sqrt{2}" data-display="false"></span> 的近似值</td><td>1</td><td></tr><tr><td>复习与小结</td><td>1</td><td></tr></table></div>
+<h3>内容编排与特色</h3>
+<p>本章内容共分为 5 节: 4.1 等差数列, 4.2 等比数列, 4.3 数列, 4.4 数学归纳法, * 4.5 用迭代序列求 <span class="math" data-tex="\sqrt{2}" data-display="false"></span> 的近似值.</p>
+<p>“ 4.1 等差数列”一节,从生活中的实例入手,在具体的问题情境中发现规律,抽象出等差数列的概念. 用数学表达式呈现等差数列的定义,即得到等差数列的递推公式,据此可以得到等差数列的通项公式,进而可以研究等差数列的性质以及其前 <span class="math" data-tex="n" data-display="false"></span> 项和. 这样, 按照 “定义一递推公式 “&gt; 通项公式一主线, 可展现等差数列的内容.</p>
+<p>“ 4.2 等比数列”一节,从代数与几何问题的实例入手,在具体的问题情境中发现规律, 抽象出等比数列的概念. 用数学表达式呈现等比数列的定义, 即得到等比数列的递推公式, 据此可以得到等比数列的通项公式, 进而可以研究等比数列的性质以及其前 <span class="math" data-tex="n" data-display="false"></span> 项和. 仍然按照 “定义⇒递推公式 <span class="math" data-tex="\Rightarrow" data-display="false"></span> 通项公式 <span class="math" data-tex="\Rightarrow" data-display="false"></span> 数列的性质与数列求和 <span class="math" data-tex="\Rightarrow" data-display="false"></span> 简单运用”这样的主线来展现等比数列的内容. 本节介绍了数列极限的描述性定义, 并给出了当公比 <span class="math" data-tex="q" data-display="false"></span> 满足条件 <span class="math" data-tex="0 &lt; \left| q\right|  &lt; 1" data-display="false"></span> 时等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和的极限,为后续导数章节的学习作铺垫.</p>
+<p>“ 4.3 数列”一节,在已经掌握了等差数列、等比数列这两种特殊数列的基础上, 通过日常生活与数学中的实例, 抽象出数列是按照一定顺序排列的一列数这一定义. 对于一些数列, 可以借助通项公式研究该数列的性质, 也可以从建立数列的递推关系入手,按照“递推公式⇒通项公式⇒数列的性质与数列求和行研究. 在借助递推公式求通项公式的过程中, 体会将一些一般数列的问题转化为等差数列、等比数列处理的可能性及相应的处理办法, 体会化归思想的价值.</p>
+<p>“4.4 数学归纳法”一节,以多米诺骨牌作为类比,让学生感悟数学归纳法是一种严谨的数学证明方法,可以通过两步完成相应命题对 <span class="math" data-tex="n" data-display="false"></span> 取所有正整数时都成立的证明, 并体验归纳一猜想一证明的科学探索过程.</p>
+<p>”* 4.5 用迭代序列求 <span class="math" data-tex="\sqrt{2}" data-display="false"></span> 的近似值”一节,介绍用递推公式进行近似计算的迭代算法. 这是新增加的一节内容, 说明实际生活中数列递推关系的应用远不限于以往教材中所涉及的一些问题. 现代应用数学的一个重要发展趋势是对算法的重视, 一些企业现在甚至已明确提出了算法是它们的核心竞争力! 从这点出发, 在介绍了利用递推公式研究数列的方法后, 适当地强调算法, 适当地加强算法思想的阐述和对学生算法方面的引领和训练,不仅可以进一步显示数列的递推公式的深刻意义和作用,彰显它们是设计相应算法的重要理论基础, 也可以在数学基础教育中体现现代化的精神, 反映信息社会的特点和需要, 全面提升学生的数学运算与数据分析方面的核心素养.</p>
+<p>综上所述, 本章的内容以数列的递推公式作为一条明线来安排结构, 即先研究两种具有特殊递推关系的数列——等差数列和等比数列,再在此基础上研究一般的数列, 随后的数学归纳法本质上也是证明递推关系, 最后通过“算法”理解数列递推公式的实际意义与作用; 同时, 以研究数学问题的基本方法作为一条暗线来提升学生的数学核心素养,即按照从特殊到一般、从具体到抽象、从归纳猜想到数学论证的方法培养学生的数学研究能力与实际应用能力, 全面提升学生的数学抽象、逻辑推理、直观想象、数学运算、数据分析、数学建模的核心素养.</p>
+<h3>教学提示</h3>
+<p>(1)本章内含类比、归纳、数形结合、方程、算法、从特殊到一般等重要的数学思想方法. 这些思想方法是人类在长期实践中经过千锤百炼得出的, 自然清晰、合乎情理. 在实际教学中, 应引导学生以知识为载体, 重视数学思想方法的教学和领悟. 例如:</p>
+<p>类比思想. 等差数列与等比数列在定义、通项公式、递推公式、一些相关的性质和解题方法上都有可类比之处.</p>
+<p>归纳思想. 在等差数列、等比数列的概念及其前 <span class="math" data-tex="n" data-display="false"></span> 项和公式的得出和推导过程中, 学生可获得观察、猜想、发现、归纳、概括、总结等学习过程的体验, 体现了归纳思想的具体运用.</p>
+<p>数形结合思想. 这一思想在等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式与等比数列定义的引入方面都有具体的应用, 数列中的很多问题也可以借助 (函数)图像的背景来研究.</p>
+<p>方程思想. 本章内容中有关数量关系的探究方面, 可关注方程思想的渗透.</p>
+<p>算法思想. 从数列通项公式的求解,到等差数列、等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式的推导,以及用迭代序列求 <span class="math" data-tex="\sqrt{2}" data-display="false"></span> 的近似值,都贯彻了算法思想.</p>
+<p>从特殊到一般的思想. 本章按照从特殊到一般、从具体到抽象、从归纳猜想到数学论证的原则安排学习内容. 可以把数列的递推关系作为一条主线贯穿全章, 从特殊的递推关系推广到一般的递推关系.</p>
+<p>(2)本章内容的呈现体现了“现实情境、_____必要的真的应用”的特点,教师在教学过程中应通过具体实例(如购房贷款、放射性物质的衰变、人口增长等)帮助学生理解等差数列、等比数列以及数列的定义、性质和应用, 也可以组织学生收集、 阅读数列方面的有关研究成果,如《九章算术》《四元玉鉴》等,感悟我国古代数学的辉煌成就. 要注重对学生从实际问题抽象出数学模型能力的培养. 本章对数列的实际应用背景增加了, 而对涉及数列中各量之间基本关系的繁难的技能训练题目, 要求则有所降低, 只要保证能达到基本技能训练的目的就可以了.</p>
+<h3>评价建议</h3>
+<p>本章的评价在知识的层面上应关注以下几点:</p>
+<p>(1)关注学生是否了解与掌握等差数列、等比数列的定义; 是否会求等差数列的公差、通项公式、等差中项和等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和; 是否会求等比数列的公比、通项公式、等比中项和等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和.</p>
+<p>(2)关注学生对于数列及其表示方法的理解; 是否能利用数列的通项公式判断数列的单调性和求解最大项、最小项等问题; 是否能借助数列的递推关系并构建相应的算法解决简单的实际问题.</p>
+<p>(3)关注学生是否正确掌握数学归纳法的本质和步骤.</p>
+<p>本章的评价在数学核心素养的层面上应关注以下几点:</p>
+<p>(1)数学抽象. 本章对数学抽象要求较高,在建立等差数列、等比数列、数列的定义, 研究等差数列、等比数列的性质时, 都离不开数学抽象. 在教学过程中, 教师应创设合适的教学情境,关注学生能否在具体的问题情境中发现规律,抽象出等差数列、等比数列、数列的相关概念,并探究等差数列、等比数列的性质.</p>
+<p>(2)逻辑推理. 本章蕴含着丰富的逻辑推理. 例如,研究数列从特殊数列(等差数列、等比数列)到一般数列的思想; 解决数列问题的化归思想; 数学归纳法中用两步完成对任意正整数都成立的证明; 无穷等比数列求和中从量变到质变的辩证规律; 等等.</p>
+<p>(3)数学运算. 从求解数列的通项公式及进行数列求和的运算,到选择一个合适的算法, 并根据收敛速度判断算法的优劣性, 都体现了本章对数学运算这一核心素养的关注.</p>
+<p>(4)数学建模. 生活中具有大量的数列原型,如存款利息、购房贷款、资产折旧等, 根据本章内容可以设法解决这些实际问题. 在实际教学中, 应关注学生能否将本章的知识用于解决实际问题, 并在此过程中获得更多的知识和技能, 提升核心素养. 建议教师通过生活中的数列模型多元性评价考查学生的综合能力.</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L22–91</a></div></aside><aside class="teacher teacher-only"><div class="eyebrow">教参原文</div><h3>正式教参 · 教材分析与教学建议</h3><h5>4.1 等差数列</h5>
+<h3>数学重点</h3>
+<p>掌握等差数列的定义、公差、等差中项、等差数列的通项公式和递推公式;</p>
+<p>利用等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式解决有关问题;</p>
+<p>利用等差数列知识解决简单的实际问题.</p>
+<h3>内容分析</h3>
+<p>学生在进入高中之前, 在找规律填数字等的练习中, 可能已了解等差数列这种特殊的数列. 本章以这种特殊数列为开端, 符合学生的认知规律, 不但可以减轻学生的学习负担, 而且能使学生更好地理解课程内容. 教材中先给出了数列的一些基本概念, 为学习等差数列作铺垫, 然后给出了现实生活中的三个数列模型, 给出了等差数列的现实背景, 目的是让学生切实感受到等差数列是现实生活中大量存在的数列模型. 通过寻求来自生活实例的数列的共同特点, 抽象出等差数列的定义. 在引入等差数列的定义后, 介绍了最简单的等差数列, 即由三个数组成的等差数列, 引出了等差中项的概念, 也隐含了两种证明等差数列的基本方法.</p>
+<p>随后将等差数列相邻两项的关系式逐个罗列出来, 通过观察, 学生可以发现将 <span class="math" data-tex="n - 1" data-display="false"></span> 个关系式进行累加就能得到等差数列的通项公式.</p>
+<p>在“等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和”这小节中,教材从历史上一个比较有名的求和例子:求 <span class="math" data-tex="1 + 2 + 3 + \cdots  + {100}" data-display="false"></span> 的高斯算法出发,不但引起学生对等差数列求和问题的兴趣,而且使学生发现 “有穷的等差数列其任意给定的第 <span class="math" data-tex="k" data-display="false"></span> 项与倒数第 <span class="math" data-tex="k" data-display="false"></span> 项的和等于首项与末项的和”这个规律,为接下来计算等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和作好铺垫. 随后用我国宋代数学家杨辉提出的垛草问题, 使学生从形的角度理解等差数列求和问题, 也使学生感悟到我国古代辉煌的数学成就. 等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式有两个,前者反映了等差数列的任意的第 <span class="math" data-tex="k" data-display="false"></span> 项与倒数第 <span class="math" data-tex="k" data-display="false"></span> 项的和等于首项与末项的和这个内在性质,体现了等差中项即平均值的思想; 后者反映了等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和与它的基本量即首项及公差之间的关系,而且表现为关于 <span class="math" data-tex="n" data-display="false"></span> 的一个“二次函数”. 两者从不同角度反映了等差数列的性质.</p>
+<p>例 1.等差数列的通项公式中涉及四个量: 首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 、序数 <span class="math" data-tex="n" data-display="false"></span> 、公差 <span class="math" data-tex="d" data-display="false"></span> 和所关注的项 <span class="math" data-tex="{a}_{n}" data-display="false"></span> . 四个量中只要知道其中任意三个,就可以求出第四个量. 但“已知”的三个量,并不一定直接给出,如本例中公差 <span class="math" data-tex="d" data-display="false"></span> 要从所给出的项中求得.</p>
+<p>例 2 是用等差数列解决实际问题的一个简单应用. 目的是让学生学会从实际问题中抽象出等差数列的模型, 再用等差数列的知识解决实际问题.</p>
+<p>例 3 旨在利用定义证明等差数列, 同时也说明: 等差数列的通项公式也可以写成 <span class="math" data-tex="{a}_{n} = f\left( n\right)  = \left( {p + q}\right)  + \left( {n - 1}\right) p" data-display="false"></span> ,其中 <span class="math" data-tex="p + q" data-display="false"></span> 是等差数列的首项, <span class="math" data-tex="p" data-display="false"></span> 是公差.</p>
+<p>例 4. 等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和的公式涉及四个量. 对于公式 <span class="math" data-tex="{S}_{n} = \frac{n\left( {{a}_{1} + {a}_{n}}\right) }{2}" data-display="false"></span> ,四个量分别为前 <span class="math" data-tex="n" data-display="false"></span> 项和 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 、项数 <span class="math" data-tex="n" data-display="false"></span> 、首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 和末项 <span class="math" data-tex="{a}_{n}" data-display="false"></span> ,该公式的侧重点为通过等差中项, 即这一列数的算术平均数,求和; 对于公式 <span class="math" data-tex="{S}_{n} = n{a}_{1} + \frac{n\left( {n - 1}\right) }{2}d" data-display="false"></span> ,四个量分别为前 <span class="math" data-tex="n" data-display="false"></span> 项和 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 、项数 <span class="math" data-tex="n" data-display="false"></span> 、首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 和公差 <span class="math" data-tex="d" data-display="false"></span> ,该公式的侧重点为利用等差数列的基本量,即等差数列的首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 和公差 <span class="math" data-tex="d" data-display="false"></span> ,进行求解. 一般地,直接或间接地给出四个量中的三个量, 可以求出第四个量. 这两个公式要根据实际情况灵活运用.</p>
+<p>例 5 的目的是建立等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和与解方程之间的联系. 已知几个量,通过解方程得出其余的未知量. 本例的教学可以让学生体会方程的思想. 作为拓展, 也可以引导学生思考数列 <span class="math" data-tex="{S}_{10},{S}_{20} - {S}_{10},{S}_{30} - {S}_{20}" data-display="false"></span> 是否为等差数列.</p>
+<p>例 6 中利用 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,结合 <span class="math" data-tex="{S}_{1} = {a}_{1},{S}_{n} - {S}_{n - 1} = {a}_{n}\left( {n \geq  2}\right)" data-display="false"></span> 解得 <span class="math" data-tex="{a}_{1}\text{、}{a}_{n}" data-display="false"></span> . 再利用等差数列的定义 <span class="math" data-tex="{a}_{n} - {a}_{n - 1} = d\left( {n \geq  2}\right)" data-display="false"></span> ,证明数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等差数列. 在教学中可以让学有余力的学生思考: 如果 <span class="math" data-tex="{S}_{n} = p{n}^{2} + {qn} + r" data-display="false"></span> ,其中 <span class="math" data-tex="p\text{、}q\text{、}r" data-display="false"></span> 均为常数,那么数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是否为等差数列?</p>
+<h3>注意事项</h3>
+<p>与“二期课改”教材的编排不同,本节是本章的起始课. 本节的要求主要停留在求解等差数列的相关问题上,将已知量与未知量均转化为等差数列的基本量,即首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 和公差 <span class="math" data-tex="d" data-display="false"></span> ,进而求解,主要培养学生在数学抽象与数学运算方面的核心素养. 要避免在章节一开始就涉及很多等差数列的性质与一些偏重技巧的难题.</p>
+<h3>教学建议</h3>
+<p>在介绍等差数列概念这一环节中, 可以让学生举出一些等差数列的实际例子, 以加深对等差数列的理解. 利用等差数列的递推公式得到等差数列的通项公式这一环节, 因为是本章第一节课, 可以根据学生情况选取累加法或采用归纳猜想的方法先得到通项公式,等后续学完数学归纳法后再严格证明. 对等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式的探究是建立在高斯算法的例子上的. 高斯算法比较巧妙,蕴含求等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和一般的规律性. 教学时, 应给学生提供充裕的时间和空间, 让学生自己去观察、探索发现这种数列的内在规律. 从高斯算法到一般的求和公式, 体现了人们在认识事物时从特殊到一般的方法, 也是我们解决问题常用的思考方法和研究方法. 教材中的两个等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式各有侧重,对于这两个公式,初学的学生在解决一些问题时, 往往不知道该如何选取. 教师应引导学生对这两个公式进行分析, 根据各自的特点选择合适的公式.</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L94–131</a></div></aside><h3 class="group-heading" id="x1-4-1-b4">1 等差数列及其通项公式</h3><div class="prose" data-visual-source-sha="ebeec25e5ff87f5c1e7e812b3eebc82905e32b9a76196c17bb959996475c360d" id="x1-4-1-b5"><aside class="key-point key-concept" id="x1-4-1-definition-5-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在现实生活中, 我们经常见到按一定顺序排列起来的一列数, 称之为数列. 我们将数列中的每一个数叫做这个数列的项. 排在第一位的数称为这个数列的第 1 项 (通常叫做首项), 排在第二位的数称为这个数列的第 2 项, ……, 排在第 <span class="math" data-tex="n" data-display="false"></span> 位的数称为这个数列的第 <span class="math" data-tex="n" data-display="false"></span> 项,等等.</p>
+</aside><p>数列的一般形式可以记成</p>
+<div class="math display" data-tex="{a}_{1},{a}_{2},{a}_{3},\cdots ,{a}_{n},\cdots ," data-display="true"></div>
+<p>其中 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 是数列的第 <span class="math" data-tex="n" data-display="false"></span> 项,下标 <span class="math" data-tex="n" data-display="false"></span> 是 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 的序数. 上面的数列常简记为 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> .</p>
+<p>观察以下数列, 看它们有什么共同的特点.</p>
+<p>(1)月历(图 4-1-1)最后一列数依次为:</p>
+<div class="math display" data-tex="3,{10},{17},{24},{31}\text{ . }" data-display="true"></div>
+<p>①</p>
+<p><img src="images/book-68bc7d3b8757ad2d5fe9.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-1-1</p>
+<p><img src="images/book-8fd55f1e6dbcd25008a9.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-1-2</p>
+<p>(2)按一定规律堆放在一起的食品罐头(图 4-1-2)，共堆放 7 层, 从下到上各层的罐头数依次为:</p>
+<div class="math display" data-tex="{21},{18},{15},{12},9,6,3." data-display="true"></div>
+<p>②</p>
+<p>(3)全国统一的鞋号中，常见的成年女鞋的尺寸(单位:cm) 由小至大依次为:</p>
+<div class="math display" data-tex="{22.5},{23},{23.5},{24},{24.5},{25},{25.5},{26}." data-display="true"></div>
+<p>③</p>
+<p>可以看到, 对于数列①, 从第 2 项起, 每一项与其前一项的差都等于 7; 对于数列②, 从第 2 项起, 每一项与其前一项的差都等于 -3 ; 对于数列③，从第 2 项起，每一项与其前一项的差都等于 0.5 .</p>
+<p>这些数列有一个共同特点: 从第 2 项起, 每一项与其前一项的差都等于同一个常数.</p>
+<aside class="key-point key-concept" id="x1-4-1-definition-5-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 如果一个数列从第 2 项起, 每一项与其前一项的差都等于同一个常数, 这个数列就叫做等差数列 (arithmetic sequence), 而这个常数叫做等差数列的公差 (common difference). 公差通常用小写字母 <span class="math" data-tex="d" data-display="false"></span> 表示.</p>
+</aside><p>给定一个数列 <span class="math" data-tex="a, A, b" data-display="false"></span> . 若 <span class="math" data-tex="a, A, b" data-display="false"></span> 是等差数列,由定义可得 <span class="math" data-tex="A - a = b - A" data-display="false"></span> ,从而 <span class="math" data-tex="A = \frac{a + b}{2}" data-display="false"></span> . 反之,若 <span class="math" data-tex="A = \frac{a + b}{2}" data-display="false"></span> ,则 <span class="math" data-tex="{2A} = a + b" data-display="false"></span> ,即 <span class="math" data-tex="A - a = b - A" data-display="false"></span> ,从而 <span class="math" data-tex="a, A, b" data-display="false"></span> 成等差数列.</p>
+<aside class="key-point key-concept" id="x1-4-1-definition-5-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>这时, <span class="math" data-tex="A" data-display="false"></span> 叫做 <span class="math" data-tex="a" data-display="false"></span> 与 <span class="math" data-tex="b" data-display="false"></span> 的等差中项.</p>
+</aside><p>如果等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的首项为 <span class="math" data-tex="{a}_{1}" data-display="false"></span> ,公差为 <span class="math" data-tex="d" data-display="false"></span> ,由定义可得</p>
+<div class="math display" data-tex="{a}_{n} - {a}_{n - 1} = d\left( {n \geq  2}\right) ," data-display="true"></div>
+<p>从而</p>
+<div class="math display" data-tex="{a}_{2} - {a}_{1} = d," data-display="true"></div>
+<div class="math display" data-tex="{a}_{3} - {a}_{2} = d," data-display="true"></div>
+<div class="math display" data-tex="{a}_{4} - {a}_{3} = d," data-display="true"></div>
+<p>...</p>
+<div class="math display" data-tex="{a}_{n} - {a}_{n - 1} = d\left( {n \geq  2}\right) \text{ . }" data-display="true"></div>
+<p>把这 <span class="math" data-tex="\left( {n - 1}\right)" data-display="false"></span> 个等式相加得</p>
+<div class="math display" data-tex="{a}_{n} - {a}_{1} = \left( {n - 1}\right) d," data-display="true"></div>
+<p>由此</p>
+<div class="math display" data-tex="{a}_{n} = {a}_{1} + \left( {n - 1}\right) d\left( {n \geq  2}\right) ." data-display="true"></div>
+<aside class="key-point key-formula" id="x1-4-1-formula-5-4" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>教材公式</h3><p>当 <span class="math" data-tex="n = 1" data-display="false"></span> 时,容易验证上面的等式也成立. 因此,当 <span class="math" data-tex="n" data-display="false"></span> 为正整数时,等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的第 <span class="math" data-tex="n" data-display="false"></span> 项可以用如下公式表示:</p>
+<div class="math display" data-tex="{a}_{n} = {a}_{1} + \left( {n - 1}\right) d." data-display="true"></div>
+</aside><aside class="key-point key-concept" id="x1-4-1-definition-5-3" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>像这种用数列的序数 <span class="math" data-tex="n" data-display="false"></span> 表示相应项 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 的公式称为数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式. 而上式就是等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式.</p>
+</aside><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L10–110</a></div></div><article class="question" id="x1-4-1-ex-1" data-question-id="x1-4-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 已知等差数列 <span class="math" data-tex="- 5, - 9, - {13},\cdots" data-display="false"></span> .</p>
+<p>(1)求该等差数列的第 20 项；</p>
+<p>(2)一401 是不是该等差数列的项？如果是, 指明是第几项; 如果不是, 请说明理由.</p>
+<hr />
+<p>由三个数组成的等差数列可以看成最简单的等差数列.</p>
+<p>如果三个数成等差数列, 那么等差中项必等于其前后两项的算术平均数.</p>
+<hr />
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L111–124</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 设该等差数列为 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> ,由 <span class="math" data-tex="{a}_{1} =  - 5,{a}_{2} =  - 9" data-display="false"></span> ,得该等差数列的公差 <span class="math" data-tex="d =  - 9 - \left( {-5}\right)  =  - 4" data-display="false"></span> . 由等差数列的通项公式,得</p>
+<div class="math display" data-tex="{a}_{n} =  - 5 - 4\left( {n - 1}\right)  =  - {4n} - 1." data-display="true"></div>
+<p>(1)由上述通项公式可得, 该等差数列的第 20 项为</p>
+<div class="math display" data-tex="{a}_{20} =  - 4 \times  {20} - 1 =  - {81}." data-display="true"></div>
+<p>(2)假设 -401 是这个等差数列中的第 <span class="math" data-tex="n" data-display="false"></span> 项，则有</p>
+<div class="math display" data-tex="- {401} =  - {4n} - 1," data-display="true"></div>
+<p>解得</p>
+<div class="math display" data-tex="n = {100}\text{ . }" data-display="true"></div>
+<p>所以, -401 是这个等差数列的第 100 项.</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L125–150</a></div></div></details></article><article class="question" id="x1-4-1-ex-2" data-question-id="x1-4-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 假设体育场一角看台的座位从第 2 排起每一排都比前一排多相等数目的座位. 若第 3 排有 10 个座位, 第 9 排有 28 个座位, 则第 12 排有多少个座位?</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L151–152</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 由题意可知,体育场该角看台每排的座位数成等差数列,设该数列为 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> ,其公差为 <span class="math" data-tex="d" data-display="false"></span> ,则 <span class="math" data-tex="{a}_{3} = {10},{a}_{9} = {28}" data-display="false"></span> . 由等差数列的通项公式, 得</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {a}_{1} + {2d} = {10}, \\  {a}_{1} + {8d} = {28}, \end{array}\right." data-display="true"></div>
+<p>解得</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {a}_{1} = 4, \\  d = 3. \end{array}\right." data-display="true"></div>
+<p>所以, <span class="math" data-tex="{a}_{12} = 4 + \left( {{12} - 1}\right)  \times  3 = {37}" data-display="false"></span> .</p>
+<p>答: 体育场该角看台的第 12 排有 37 个座位.</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L153–168</a></div></div></details></article><article class="question" id="x1-4-1-ex-3" data-question-id="x1-4-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 已知 <span class="math" data-tex="{a}_{n} = {pn} + q" data-display="false"></span> 是数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式,其中 <span class="math" data-tex="p" data-display="false"></span> 和 <span class="math" data-tex="q" data-display="false"></span> 均为常数. 试判断数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是否为等差数列,并证明你的结论.</p>
+<p>分析 为了判断 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是否为等差数列,可以利用等差数列的定义,只要判断 <span class="math" data-tex="{a}_{n} - {a}_{n - 1}\left( {n \geq  2}\right)" data-display="false"></span> 的值是否为一个与 <span class="math" data-tex="n" data-display="false"></span> 无关的常数即可.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L169–172</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 任取数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中的相邻两项 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 与 <span class="math" data-tex="{a}_{n - 1}\left( {n \geq  2}\right)" data-display="false"></span> ,求差得</p>
+<div class="math display" data-tex="{a}_{n} - {a}_{n - 1} = \left( {{pn} + q}\right)  - \left\lbrack  {p\left( {n - 1}\right)  + q}\right\rbrack   = p\left( {n \geq  2}\right) ." data-display="true"></div>
+<p><span class="math" data-tex="p" data-display="false"></span> 是一个与 <span class="math" data-tex="n" data-display="false"></span> 无关的常数,所以 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等差数列,且是以 <span class="math" data-tex="p + q" data-display="false"></span> 为首项、以 <span class="math" data-tex="p" data-display="false"></span> 为公差的等差数列.</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L173–180</a></div></div></details></article><h3 class="group-heading" id="x1-4-1-b9">练习 4.1(1)</h3><article class="question" id="x1-4-1-p411-1" data-question-id="x1-4-1-p411-1" data-category="practice"><div class="question-label">练习4.1(1) · 1</div><div class="question-body"><ol>
+<li>下列数列中成等差数列的是 ( )</li>
+</ol>
+<p>A.0,1,3,5,7;</p>
+<p>B. <span class="math" data-tex="1,\frac{1}{3},\frac{1}{5},\frac{1}{7},\frac{1}{9}" data-display="false"></span> ;</p>
+<p>C. <span class="math" data-tex="1,\sqrt{2},\sqrt{3},2,\sqrt{5}" data-display="false"></span> ; D. <span class="math" data-tex="1,\frac{1}{3}, - \frac{1}{3}, - 1, - \frac{5}{3}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L183–190</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol>
+<li>D.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L298–299</a></div></div></details></article><article class="question" id="x1-4-1-p411-2" data-question-id="x1-4-1-p411-2" data-category="practice"><div class="question-label">练习4.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其公差为 <span class="math" data-tex="d" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} =  - 1, d = 4" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{8}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{7} = 8, d =  - \frac{1}{3}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} = 9, d =  - 2,{a}_{n} =  - {15}" data-display="false"></span> ，求 <span class="math" data-tex="n" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L191–198</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>(1) <span class="math" data-tex="{a}_{8} = {27}" data-display="false"></span> . (2) <span class="math" data-tex="{a}_{1} = {10}" data-display="false"></span> . (3) <span class="math" data-tex="n = {13}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L300–301</a></div></div></details></article><article class="question" id="x1-4-1-p411-3" data-question-id="x1-4-1-p411-3" data-category="practice"><div class="question-label">练习4.1(1) · 3</div><div class="question-body"><ol start="3">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等差数列,正整数 <span class="math" data-tex="m\text{ 、 }n\text{ 、 }p\text{ 、 }q" data-display="false"></span> 满足 <span class="math" data-tex="m + n = p + q" data-display="false"></span> . 求证: <span class="math" data-tex="{a}_{m} + {a}_{n} = \; {a}_{p} + {a}_{q}." data-display="false"></span></li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L199–200</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li>提示: 将等差数列各项转化为由首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 与公差 <span class="math" data-tex="d" data-display="false"></span> 表示.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L302–303</a></div></div></details></article><h3 class="group-heading" id="x1-4-1-b13">2 等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和</h3><div class="prose" data-visual-source-sha="5438775d6be636da3dbf97d94db6d788577f23dc8075432096520e220e376e88" id="x1-4-1-b14"><hr />
+<p><img src="images/book-b7774e55568ca09fe36e.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>高斯 (C. F. Gauss, 1777—1855) 德国数学家. 研究的内容涉及数学的诸多领域, 并对天文学和大地测量学的研究有突出贡献. 他在世界上享有崇高的声望，被誉为 “数学王子”.</p>
+<hr />
+<p>据说 200 多年前, 著名数学家高斯的算术老师在课堂上曾经提出了下面的问题:</p>
+<p>求 <span class="math" data-tex="1 + 2 + 3 + \cdots  + {100}" data-display="false"></span> 的值.</p>
+<p>少年高斯用下面的方法迅速算出了正确的答案:</p>
+<div class="math display" data-tex="1 + 2 + 3 + \cdots  + {100} = ?" data-display="true"></div>
+<div class="math display" data-tex="{100} + {99} + {98} + \cdots  + 1 = ?" data-display="true"></div>
+<p>上述两式相加得: <span class="math" data-tex="{{101} + {101} + {101} + \cdots  + {101}} = 2 \times" data-display="false"></span> ?</p>
+<p>所以，结果为 <span class="math" data-tex="\frac{{101} \times  {100}}{2} = {5050}" data-display="false"></span> .</p>
+<p>高斯的计算方法实际上解决了求等差数列 <span class="math" data-tex="1,2,3,\cdots" data-display="false"></span> , <span class="math" data-tex="n,\cdots" data-display="false"></span> 前 100 项和的问题.</p>
+<p>事实上, 古代的中国人和希腊人也是这么求等差数列之和的. 例如, 宋朝数学家杨辉提出了一个问题: “今有圭垛草一堆, 顶上一束，底阔八束. 问共几束？答:36 束. ”他的计算方法可以用图 4-1-3 表示.</p>
+<p><img src="images/book-a52beb68a0b62eb03672.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-1-3</p>
+<p>一般地,将数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和记作 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,即</p>
+<div class="math display" data-tex="{S}_{n} = {a}_{1} + {a}_{2} + \cdots  + {a}_{n - 1} + {a}_{n}." data-display="true"></div>
+<aside class="key-point key-formula" id="x1-4-1-formula-14-1" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>教材公式</h3><p>根据等差数列的通项公式, 上式可以写为</p>
+<div class="math display" data-tex="{S}_{n} = {a}_{1} + \left( {{a}_{1} + d}\right)  + \cdots  + \left\lbrack  {{a}_{1} + \left( {n - 2}\right) d}\right\rbrack   + \left\lbrack  {{a}_{1} + \left( {n - 1}\right) d}\right\rbrack  \text{ . ① }" data-display="true"></div>
+</aside><p>受高斯算法的启示,我们又可将 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 表示为</p>
+<div class="math display" data-tex="{S}_{n} = {a}_{n} + {a}_{n - 1} + \cdots  + {a}_{2} + {a}_{1}" data-display="true"></div>
+<div class="math display" data-tex="= {a}_{n} + \left( {{a}_{n} - d}\right)  + \cdots  + \left\lbrack  {{a}_{n} - \left( {n - 2}\right) d}\right\rbrack   + \left\lbrack  {{a}_{n} - \left( {n - 1}\right) d}\right\rbrack  \text{ . ② }" data-display="true"></div>
+<p>②</p>
+<p>由①+②, 得</p>
+<div class="math display" data-tex="2{S}_{n} = \underset{n \uparrow  }{\underbrace{\left( {{a}_{1} + {a}_{n}}\right)  + \left( {{a}_{1} + {a}_{n}}\right)  + \cdots  + \left( {{a}_{1} + {a}_{n}}\right)  + \left( {{a}_{1} + {a}_{n}}\right) }}" data-display="true"></div>
+<div class="math display" data-tex="= n\left( {{a}_{1} + {a}_{n}}\right) \text{ . }" data-display="true"></div>
+<p>于是就可得到等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式</p>
+<div class="math display" data-tex="{S}_{n} = \frac{n\left( {{a}_{1} + {a}_{n}}\right) }{2}." data-display="true"></div>
+<p>由于 <span class="math" data-tex="{a}_{n} = {a}_{1} + \left( {n - 1}\right) d" data-display="false"></span> ,上述公式又可以写作</p>
+<div class="math display" data-tex="{S}_{n} = n{a}_{1} + \frac{n\left( {n - 1}\right) }{2}d." data-display="true"></div>
+<p>数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和也可记作 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}{a}_{i}" data-display="false"></span> ,即</p>
+<div class="math display" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}{a}_{i} = {a}_{1} + {a}_{2} + {a}_{3} + \cdots  + {a}_{n}." data-display="true"></div>
+<aside class="key-point key-concept" id="x1-4-1-definition-14-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>其中， <span class="math" data-tex="\sum" data-display="false"></span> (读作 Sigma)称为求和符号，其下方的 <span class="math" data-tex="i = 1" data-display="false"></span> 表示 <span class="math" data-tex="i" data-display="false"></span> 从 1 开始取连续的整数值,而上方的 <span class="math" data-tex="n" data-display="false"></span> 表示 <span class="math" data-tex="i" data-display="false"></span> 的取值到 <span class="math" data-tex="n" data-display="false"></span> 结束. 这样, <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}{a}_{i}" data-display="false"></span> 就表示该数列从第一项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 开始,连续 <span class="math" data-tex="n" data-display="false"></span> 项相加. 例如, <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}i = 1 + 2 + 3 + \cdots  + n = \frac{n\left( {n + 1}\right) }{2}." data-display="false"></span></p>
+</aside><p>此外, 根据乘法分配律可得</p>
+<div class="math display" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}c{a}_{i} = c\mathop{\sum }\limits_{{i = 1}}^{n}{a}_{i}\text{ ( }c\text{ 为常数). }" data-display="true"></div>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L202–296</a></div></div><article class="question" id="x1-4-1-ex-4" data-question-id="x1-4-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</p>
+<hr />
+<p>特别地 <span class="math" data-tex="1 + 2 + 3 + \cdots  + n = \frac{n\left( {n + 1}\right) }{2}." data-display="false"></span></p>
+<hr />
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = {50},{a}_{8} = {15}" data-display="false"></span> ,求 <span class="math" data-tex="{S}_{8}" data-display="false"></span> ;</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} = {0.7},{a}_{2} = {1.5}" data-display="false"></span> ,求 <span class="math" data-tex="{S}_{7}" data-display="false"></span> ;</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{4} = 7" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{7}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L297–310</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解(1)由等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式,得</p>
+<div class="math display" data-tex="{S}_{8} = \frac{8 \times  \left( {{50} + {15}}\right) }{2} = {260}." data-display="true"></div>
+<p>(2)设公差为 <span class="math" data-tex="d" data-display="false"></span> ，则 <span class="math" data-tex="d = {a}_{2} - {a}_{1} = {0.8}" data-display="false"></span> ，于是由等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式,有</p>
+<div class="math display" data-tex="{S}_{7} = 7 \times  {0.7} + \frac{7 \times  6}{2} \times  {0.8} = {21.7}." data-display="true"></div>
+<p>(3)设公差为 <span class="math" data-tex="d" data-display="false"></span> ，则 <span class="math" data-tex="{a}_{1} = {a}_{4} - {3d},{a}_{7} = {a}_{4} + {3d}" data-display="false"></span> . 从而</p>
+<div class="math display" data-tex="{S}_{7} = \frac{7\left( {{a}_{1} + {a}_{7}}\right) }{2} = \frac{7\left\lbrack  {\left( {{a}_{4} - {3d}}\right)  + \left( {{a}_{4} + {3d}}\right) }\right\rbrack  }{2} = 7{a}_{4} = {49}." data-display="true"></div>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L311–328</a></div></div></details></article><article class="question" id="x1-4-1-ex-5" data-question-id="x1-4-1-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 已知等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 10 项和 <span class="math" data-tex="{S}_{10} = {310}" data-display="false"></span> ,前 20 项和 <span class="math" data-tex="{S}_{20} = {1220}" data-display="false"></span> ,由此可以确定数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 前 30 项和 <span class="math" data-tex="{S}_{30}" data-display="false"></span> 吗?</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L329–330</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 设该等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的公差为 <span class="math" data-tex="d" data-display="false"></span> . 由等差数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式 <span class="math" data-tex="{S}_{n} = n{a}_{1} + \frac{n\left( {n - 1}\right) }{2}d" data-display="false"></span> ,可得</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {10}{a}_{1} + {45d} = {310}, \\  {20}{a}_{1} + {190d} = {1220}, \end{array}\right." data-display="true"></div>
+<p>解得</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {a}_{1} = 4, \\  d = 6. \end{array}\right." data-display="true"></div>
+<p>所以, <span class="math" data-tex="{S}_{30} = {30} \times  4 + \frac{{30} \times  \left( {{30} - 1}\right) }{2} \times  6 = {2730}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L331–344</a></div></div></details></article><article class="question" id="x1-4-1-ex-6" data-question-id="x1-4-1-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n} = {n}^{2} + {2n}" data-display="false"></span> .</p>
+<p>(1)求数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式；</p>
+<p>(2)求证:数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等差数列.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L345–350</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解(1)当 <span class="math" data-tex="n \geq  2" data-display="false"></span> 时,</p>
+<div class="math display" data-tex="{S}_{n - 1} = {\left( n - 1\right) }^{2} + 2\left( {n - 1}\right) ," data-display="true"></div>
+<p>从而</p>
+<div class="math display" data-tex="{a}_{n} = {S}_{n} - {S}_{n - 1} = {n}^{2} + {2n} - \left\lbrack  {{\left( n - 1\right) }^{2} + 2\left( {n - 1}\right) }\right\rbrack   = {2n} + 1." data-display="true"></div>
+<p>而当 <span class="math" data-tex="n = 1" data-display="false"></span> 时, <span class="math" data-tex="{a}_{1} = {S}_{1} = {1}^{2} + 2 \times  1 = 3" data-display="false"></span> 亦满足上式.</p>
+<p>所以，数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式为 <span class="math" data-tex="{a}_{n} = {2n} + 1" data-display="false"></span> .</p>
+<p>(2)证明:由(1)中的结果，当 <span class="math" data-tex="n \geq  2" data-display="false"></span> 时，</p>
+<div class="math display" data-tex="{a}_{n - 1} = 2\left( {n - 1}\right)  + 1 = {2n} - 1," data-display="true"></div>
+<p>从而</p>
+<div class="math display" data-tex="{a}_{n} - {a}_{n - 1} = \left( {{2n} + 1}\right)  - \left( {{2n} - 1}\right)  = 2." data-display="true"></div>
+<hr />
+<p>如果一个数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n} \; = p{n}^{2} + {qn} + r" data-display="false"></span> ,其中 <span class="math" data-tex="p\text{ 、 }q\text{ 、 }r" data-display="false"></span> 均为常数, 这个数列是等差数列吗?</p>
+<hr />
+<p>所以，数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是一个以 3 为首项、以 2 为公差的等差数列.</p>
+<div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L351–386</a></div></div></details></article><h3 class="group-heading" id="x1-4-1-b18">练习 4.1(2)</h3><article class="question" id="x1-4-1-p412-1" data-question-id="x1-4-1-p412-1" data-category="practice"><div class="question-label">练习4.1(2) · 1</div><div class="question-body"><ol>
+<li>计算 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}{2i}" data-display="false"></span> .</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L389–390</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol>
+<li><span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{n}{2i} = n\left( {n + 1}\right)" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L306–307</a></div></div></details></article><article class="question" id="x1-4-1-p412-2" data-question-id="x1-4-1-p412-2" data-category="practice"><div class="question-label">练习4.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} =  - 4,{a}_{8} =  - {18}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{8}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} =  - 4,{a}_{12} = {18}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{15}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L391–396</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>(1) <span class="math" data-tex="{S}_{8} =  - {88}" data-display="false"></span> . (2) <span class="math" data-tex="{S}_{15} = {150}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L308–309</a></div></div></details></article><article class="question" id="x1-4-1-p412-3" data-question-id="x1-4-1-p412-3" data-category="practice"><div class="question-label">练习4.1(2) · 3</div><div class="question-body"><ol start="3">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和 <span class="math" data-tex="{S}_{n} = {n}^{2} - {3n}" data-display="false"></span> ,求证: 数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等差数列.</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L397–398</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li>提示: 先求出通项公式 <span class="math" data-tex="{a}_{n} = {2n} - 4" data-display="false"></span> ,再进行证明.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L310–311</a></div></div></details></article><h3 class="group-heading" id="x1-4-1-b22">习题 4.1</h3><h3 class="group-heading" id="x1-4-1-b23">A 组</h3><article class="question" id="x1-4-1-h41A-1" data-question-id="x1-4-1-h41A-1" data-category="homework"><div class="question-label">习题4.1A · 1</div><div class="question-body"><ol>
+<li>分别求下列两数的等差中项:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\frac{8 - \sqrt{2}}{2}" data-display="false"></span> 与 <span class="math" data-tex="\frac{8 + \sqrt{2}}{2}" data-display="false"></span> ；___</p>
+<p>(2) <span class="math" data-tex="{\left( a + b\right) }^{2}" data-display="false"></span> 与 <span class="math" data-tex="{\left( a - b\right) }^{2}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L403–408</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol>
+<li>(1) 4. (2) <span class="math" data-tex="{a}^{2} + {b}^{2}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L316–317</a></div></div></details></article><article class="question" id="x1-4-1-h41A-2" data-question-id="x1-4-1-h41A-2" data-category="homework"><div class="question-label">习题4.1A · 2</div><div class="question-body"><ol start="2">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其公差为 <span class="math" data-tex="d" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = 2, d = 3" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{10}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} = 3,{a}_{n} = {21}, d = 2" data-display="false"></span> ，求 <span class="math" data-tex="n" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} = {12},{a}_{6} = {27}" data-display="false"></span> ，求 <span class="math" data-tex="d" data-display="false"></span> ；</p>
+<p>(4)已知 <span class="math" data-tex="{a}_{6} = 9, d =  - \frac{1}{2}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L409–418</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>(1) <span class="math" data-tex="{a}_{10} = {29}" data-display="false"></span> . (2) <span class="math" data-tex="n = {10}" data-display="false"></span> . (3) <span class="math" data-tex="d = 3" data-display="false"></span> . (4) <span class="math" data-tex="{a}_{1} = \frac{23}{2}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L318–319</a></div></div></details></article><article class="question" id="x1-4-1-h41A-3" data-question-id="x1-4-1-h41A-3" data-category="homework"><div class="question-label">习题4.1A · 3</div><div class="question-body"><ol start="3">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其公差为 <span class="math" data-tex="d" data-display="false"></span> . 求证: 对任意给定的正整数 <span class="math" data-tex="m\text{ 、 }n" data-display="false"></span> ,都有 <span class="math" data-tex="{a}_{n} = {a}_{m} + \left( {n - m}\right) d." data-display="false"></span></li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L419–420</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li>提示: 将等差数列各项转化为由首项 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 与公差 <span class="math" data-tex="d" data-display="false"></span> 表示.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L320–321</a></div></div></details></article><article class="question" id="x1-4-1-h41A-4" data-question-id="x1-4-1-h41A-4" data-category="homework"><div class="question-label">习题4.1A · 4</div><div class="question-body"><ol start="4">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其公差为 <span class="math" data-tex="d" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{2} = {31},{a}_{7} = {76}" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 及 <span class="math" data-tex="d" data-display="false"></span> ;</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} + {a}_{6} = {12},{a}_{4} = 7" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{9}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L421–426</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="4">
+<li>(1) <span class="math" data-tex="{a}_{1} = {22}, d = 9" data-display="false"></span> . (2) <span class="math" data-tex="{a}_{9} = {17}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L322–323</a></div></div></details></article><article class="question" id="x1-4-1-h41A-5" data-question-id="x1-4-1-h41A-5" data-category="homework"><div class="question-label">习题4.1A · 5</div><div class="question-body"><ol start="5">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其公差为 <span class="math" data-tex="d" data-display="false"></span> ,前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = {20},{a}_{n} = {54},{S}_{n} = {999}" data-display="false"></span> ,求 <span class="math" data-tex="d" data-display="false"></span> 及 <span class="math" data-tex="n" data-display="false"></span> ;</p>
+<p>(2)已知 <span class="math" data-tex="d = \frac{1}{3},{S}_{37} = {629}" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 及 <span class="math" data-tex="{a}_{37}" data-display="false"></span> ;</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} = \frac{5}{6}, d =  - \frac{1}{6},{S}_{n} =  - 5" data-display="false"></span> ,求 <span class="math" data-tex="n" data-display="false"></span> 及 <span class="math" data-tex="{a}_{n}" data-display="false"></span> ;</p>
+<p>(4)已知 <span class="math" data-tex="d = 2,{a}_{15} =  - {10}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 及 <span class="math" data-tex="{S}_{15}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L427–436</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="5">
+<li>(1) <span class="math" data-tex="d = \frac{17}{13}, n = {27}" data-display="false"></span> . (2) <span class="math" data-tex="{a}_{1} = {11},{a}_{37} = {23}" data-display="false"></span> . (3) <span class="math" data-tex="n = {15},{a}_{15} =  - \frac{3}{2}" data-display="false"></span> .</li>
+</ol>
+<p>(4) <span class="math" data-tex="{a}_{1} =  - {38},{S}_{15} =  - {360}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L324–327</a></div></div></details></article><article class="question" id="x1-4-1-h41A-6" data-question-id="x1-4-1-h41A-6" data-category="homework"><div class="question-label">习题4.1A · 6</div><div class="question-body"><ol start="6">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{6} = {10},{S}_{5} = 5" data-display="false"></span> ,求 <span class="math" data-tex="{S}_{8}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{S}_{4} = 2,{S}_{9} =  - 6" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{12}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L437–442</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>6.(1) <span class="math" data-tex="{S}_{8} = {44}" data-display="false"></span> . (2) <span class="math" data-tex="{S}_{12} =  - \frac{82}{5}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L328–329</a></div></div></details></article><article class="question" id="x1-4-1-h41A-7" data-question-id="x1-4-1-h41A-7" data-category="homework"><div class="question-label">习题4.1A · 7</div><div class="question-body"><ol start="7">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{4} + {a}_{14} = 1" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{17}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{S}_{21} = {420}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{11}" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} + {a}_{2} + {a}_{3} =  - 3,{a}_{18} + {a}_{19} + {a}_{20} = 6" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{20}" data-display="false"></span> ；</p>
+<p>(4)已知 <span class="math" data-tex="{S}_{4} = 2,{S}_{8} = 6" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{16}" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L443–452</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>7.(1) <span class="math" data-tex="{S}_{17} = \frac{17}{2}" data-display="false"></span> . (2) <span class="math" data-tex="{a}_{11} = {20}" data-display="false"></span> . (3) <span class="math" data-tex="{S}_{20} = {10}" data-display="false"></span> . (4) <span class="math" data-tex="{S}_{16} = {20}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L330–331</a></div></div></details></article><article class="question" id="x1-4-1-h41A-8" data-question-id="x1-4-1-h41A-8" data-category="homework"><div class="question-label">习题4.1A · 8</div><div class="question-body"><ol start="8">
+<li>求证: “ <span class="math" data-tex="\bigtriangleup  {ABC}" data-display="false"></span> 三个内角的度数可以构成等差数列” 是 “ <span class="math" data-tex="\bigtriangleup  {ABC}" data-display="false"></span> 中有一个内角为 60°”的充要条件.</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L453–454</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="8">
+<li>不妨设 <span class="math" data-tex="\angle A \leq  \angle B \leq  \angle C" data-display="false"></span> ,可得 <span class="math" data-tex="3\angle B = {180}^{ \circ  },\angle B = {60}^{ \circ  }" data-display="false"></span> ; 反之,不妨设 <span class="math" data-tex="\angle B = \; {60}^{ \circ  }" data-display="false"></span> ,则 <span class="math" data-tex="\angle A + \angle C = {120}^{ \circ  } = 2\angle B" data-display="false"></span> ,得证.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L332–333</a></div></div></details></article><article class="question" id="x1-4-1-h41A-9" data-question-id="x1-4-1-h41A-9" data-category="homework"><div class="question-label">习题4.1A · 9</div><div class="question-body"><p>9.《九章算术》中的”竹九节”问题: 现有一根 9 节的竹子, 自上而下各节的容积成等差数列. 若最上面 4 节的容积共 3 升, 最下面 3 节的容积共 4 升, 则第 5 节的容积为多少升?</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L455–456</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="9">
+<li>第 5 节的容积为 <span class="math" data-tex="\frac{67}{66}" data-display="false"></span> 升.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L334–335</a></div></div></details></article><h3 class="group-heading" id="x1-4-1-b33">B 组</h3><article class="question" id="x1-4-1-h41B-1" data-question-id="x1-4-1-h41B-1" data-category="homework"><div class="question-label">习题4.1B · 1</div><div class="question-body"><p>1.(1)在等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中，等式 <span class="math" data-tex="{a}_{n} = \frac{{a}_{n - 1} + {a}_{n + 1}}{2}\left( {n \geq  2}\right)" data-display="false"></span> 是否都成立？</p>
+<p>(2)在数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中，如果对于任意的正整数 <span class="math" data-tex="n\left( {n \geq  2}\right)" data-display="false"></span> ，都有 <span class="math" data-tex="{a}_{n} = \frac{{a}_{n - 1} + {a}_{n + 1}}{2}" data-display="false"></span> ，那么数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 一定是等差数列吗?</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L459–462</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol>
+<li>(1)成立. (2)一定是等差数列.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L338–339</a></div></div></details></article><article class="question" id="x1-4-1-h41B-2" data-question-id="x1-4-1-h41B-2" data-category="homework"><div class="question-label">习题4.1B · 2</div><div class="question-body"><ol start="2">
+<li>在等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> . 已知公差 <span class="math" data-tex="d = 2,{S}_{20} = {400}" data-display="false"></span> .</li>
+</ol>
+<p>(1)写出 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{{10}}{a}_{{2i} - 1}" data-display="false"></span> 的具体展开式，并求其值；</p>
+<p>(2)用求和符号表示 <span class="math" data-tex="{a}_{2} + {a}_{4} + {a}_{6} + \cdots  + {a}_{20}" data-display="false"></span> ，并求其值.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L463–468</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>(1) <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{{10}}{a}_{{2i} - 1} = {a}_{1} + {a}_{3} + \cdots  + {a}_{19} = {190}" data-display="false"></span> .</li>
+</ol>
+<p>(2) <span class="math" data-tex="{a}_{2} + {a}_{4} + {a}_{6} + \cdots  + {a}_{20} = \mathop{\sum }\limits_{{i = 1}}^{{10}}{a}_{2i} = {210}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L340–343</a></div></div></details></article><article class="question" id="x1-4-1-h41B-3" data-question-id="x1-4-1-h41B-3" data-category="homework"><div class="question-label">习题4.1B · 3</div><div class="question-body"><ol start="3">
+<li>在等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中,已知 <span class="math" data-tex="{a}_{1} =  - 3,{11}{a}_{5} = 5{a}_{8}" data-display="false"></span> . 求数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 的最小值.</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L469–470</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li><span class="math" data-tex="{S}_{n}" data-display="false"></span> 的最小值为 <span class="math" data-tex="{S}_{2} =  - 4" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L344–345</a></div></div></details></article><article class="question" id="x1-4-1-h41B-4" data-question-id="x1-4-1-h41B-4" data-category="homework"><div class="question-label">习题4.1B · 4</div><div class="question-body"><ol start="4">
+<li>已知等差数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> ,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> . 若存在两个不相等的正整数 <span class="math" data-tex="p" data-display="false"></span> 和 <span class="math" data-tex="q" data-display="false"></span> ,满足 <span class="math" data-tex="{S}_{p} = q,{S}_{q} = p" data-display="false"></span> ,求 <span class="math" data-tex="{S}_{p + q}" data-display="false"></span> .</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L471–472</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="4">
+<li><span class="math" data-tex="{S}_{p + q} =  - \left( {p + q}\right)" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L346–347</a></div></div></details></article><article class="question" id="x1-4-1-h41B-5" data-question-id="x1-4-1-h41B-5" data-category="homework"><div class="question-label">习题4.1B · 5</div><div class="question-body"><ol start="5">
+<li>已知一个凸多边形各个内角的度数可以排列成一个公差为 5 的等差数列, 且最小角为 <span class="math" data-tex="{120}^{ \circ  }" data-display="false"></span> ,该多边形是几边形?</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L473–474</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="5">
+<li>设凸多边形的边数为 <span class="math" data-tex="n" data-display="false"></span> ,于是其内角和的度数为 <span class="math" data-tex="{180}\left( {n - 2}\right)" data-display="false"></span> . 由 <span class="math" data-tex="{180}\left( {n - 2}\right)  = \; {120n} + \frac{n\left( {n - 1}\right) }{2} \cdot  5" data-display="false"></span> ,解得 <span class="math" data-tex="n = 9" data-display="false"></span> 或 16 .</li>
+</ol>
+<p>当 <span class="math" data-tex="n = {16}" data-display="false"></span> 时,最大内角度数 <span class="math" data-tex="{a}_{n} = {120} + {15} \times  5 = {195} &gt; {180}" data-display="false"></span> ,与凸多边形矛盾;</p>
+<p>当 <span class="math" data-tex="n = 9" data-display="false"></span> 时,最大内角度数 <span class="math" data-tex="{a}_{n} = {160} &lt; {180}" data-display="false"></span> 满足条件.</p>
+<p>所以该多边形是九边形.</p>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L348–355</a></div></div></details></article><article class="question" id="x1-4-1-h41B-6" data-question-id="x1-4-1-h41B-6" data-category="homework"><div class="question-label">习题4.1B · 6</div><div class="question-body"><ol start="6">
+<li>某产品按质量分成 10 个档次, 生产最低档次产品的利润是 8 元/件. 每提高一个档次, 每件产品的利润增加 2 元, 但产量每天减少 3 件. 如果在某段时间内, 最低档次 (记作第 1 档次) 的产品每天可生产 60 件, 那么在该段时间内, 生产第几档次的产品可获得最大利润?</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/c5e9671ed7c5df00-第4章数列-dollar.md" target="_blank" rel="noopener">教材 L475–476</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="6">
+<li>生产第 9 档次的产品可获得最大利润, 最大利润为 864 元.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/88a09344933024a8-04 选必第一册 第4章 数 列.md" target="_blank" rel="noopener">教参 L356–357</a></div></div></details></article></section></div><footer class="book-footer"><p>原始教材与教参只读保留；缺答、来源疑点与校核状态见本节检查记录。结构、离线渲染和打印检查不代替数学复核。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>完整内容</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="answers" ><span>试题＋答案</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x1-4-1" checked>等差数列</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"><label><input type="checkbox" id="print-notes">附带教参分析与教师批注</label><label><input type="checkbox" id="print-sources">保留来源行号</label></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">教师批注按勾选附带。“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

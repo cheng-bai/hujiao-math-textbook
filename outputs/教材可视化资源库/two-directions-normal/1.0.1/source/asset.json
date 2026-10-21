@@ -1,0 +1,57 @@
+{
+  "controls": [
+    {
+      "key": "separation",
+      "label": "平面内两方向夹角",
+      "max": 90,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "tilt",
+      "label": "候选直线偏离法线角",
+      "max": 75,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>n</mi><mo>·</mo><mi>u</mi><mo>=</mo><mi>n</mi><mo>·</mo><mi>v</mi><mo>=</mo><mn>0</mn><mspace width=\"1em\"/><mtext>且u、v不平行</mtext></math>",
+  "goal": "让两个方向合并，直接展示丢失一个条件的反例。",
+  "id": "two-directions-normal",
+  "initial": {
+    "separation": 65,
+    "tilt": 0,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-10-3-b18",
+      "rationale": "接替书脊、桌面与两条相交线判定的长解释。",
+      "sectionId": "bx3-10-3"
+    },
+    {
+      "afterBlockId": "x1-3-4-b6",
+      "rationale": "在现有线面垂直资产之外提供退化条件反例，接替向量条件长段说明。",
+      "sectionId": "x1-3-4"
+    }
+  ],
+  "sourceReuse": {
+    "kind": "derived",
+    "note": "原有perpendicular场景保留；将其两方向独立性思路提炼成轻量概念模型，增加方向重合与倾斜反例。",
+    "paths": [
+      "scripts/visual-assets/module-data.js"
+    ]
+  },
+  "summary": "直线垂直于平面，须与平面内的任意直线垂直。判定时只需检查平面内两条相交直线；不能用两条重合方向的线替代。与法向量平行的非零方向向量对应线面垂直。 线不在平面上时，其方向向量垂直法向量，当且仅当线面平行；两个不同平面的法向量平行当且仅当两平面平行，法向量垂直当且仅当两平面垂直。",
+  "title": "线面垂直：为什么必须是两条相交线"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-chapter-end-5",
+  "book_id": "x2",
+  "section": "chapter-end-5",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/x2/x2-chapter-end-5.json",
+  "output": "outputs/五册教材教参整合/x2/x2-chapter-end-5",
+  "fingerprint": "d2dcc01f91161a77bd0b4c729a2c4d0d268d89b063bd3d247001c4578be5d55f",
+  "status": "rendered",
+  "questions": 15,
+  "answers": 15,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-1221ae6ae0f97ffed7be.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_33_1151_617_330_206_0.jpg",
+      "sha256": "1221ae6ae0f97ffed7bee1de474ac1fe2cb22ec5d2ae1965ff7c376e375e7d53",
+      "private": false
+    },
+    "images/book-11f05cd861add8dbbb7e.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_34_1135_460_318_188_0.jpg",
+      "sha256": "11f05cd861add8dbbb7ec113752b5f9e3612cd93afd2d9a9b5b3a3e5aa21bbf7",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第5章导数及其应用/第5章导数及其应用-dollar.md": "bfc657df6ab52a9de18667d87896c927efe5c1244fbe83e92ad9e9b596cd2c6d",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/01 选必第二册 第5章 导数及其应用.md": "aa7eb6b92f5613a1edd135f4724e9d5923a85f9cc476df8a6e319460e37679bc"
+  },
+  "student_images": [
+    "images/book-11f05cd861add8dbbb7e.jpg",
+    "images/book-1221ae6ae0f97ffed7be.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "2e053c9a7d1645f0db404fe8c0c13c51faf76f1b42d224811d179745aeed0d59",
+    "student.html": "9ce17ca9a6db553268197afdfdd59c8dd0c73c8b5abd3905c5d2c9f912625c2e",
+    "student.zip": "27809397b40406044c4b210dc7cc71768b7ff78096b4f3f2fb13d08c9c6534fc",
+    "content.json": "8609f748cfd98cb44a77ea0cd5b40fcc9fb4eaae6246f58eff1d7231068b447f"
+  }
+}

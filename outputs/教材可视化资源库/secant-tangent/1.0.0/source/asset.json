@@ -1,0 +1,27 @@
+{
+  "controls": [
+    {
+      "key": "h",
+      "label": "点Q与P的横向间距",
+      "max": 2,
+      "min": -2,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><mrow><mi>f</mi><mo>(</mo><mi>a</mi><mo>+</mo><mi>h</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo></mrow><mi>h</mi></mfrac><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mi>h</mi><mo>→</mo><mn>2</mn><mi>a</mi></math>",
+  "goal": "把平均变化率随步长趋零的过程转成可拖动几何变化。",
+  "id": "secant-tangent",
+  "initial": {
+    "h": 1
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-5-1-b13",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "x2-5-1"
+    }
+  ],
+  "summary": "在固定点 a=0.5，对平方函数取第二点 a+h。h≠0 时割线斜率为 [f(a+h)-f(a)]/h=2a+h，随 h 从正负两侧趋零而趋于 2a=1；h=0 时差商本身未定义，不能把极限值当作差商定义值。",
+  "title": "割线如何成为切线"
+}

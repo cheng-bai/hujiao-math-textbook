@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-7-3",
+  "book_id": "bx2",
+  "section": "7.3",
+  "title": "正弦型函数的图像",
+  "section_json": "batch/sections/bx2/bx2-7-3.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-7-3",
+  "fingerprint": "cb7f03d1b5007b78a2d1d9603aafa48f4c0a0bde1519129ccc152fff8b0c457c",
+  "status": "rendered",
+  "questions": 14,
+  "answers": 14,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-4c61a03e8fa2459e357e.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg",
+      "sha256": "4c61a03e8fa2459e357e042b1449a4d6876d66f266b43cb746d725b55d47d285",
+      "private": false
+    },
+    "images/book-2e5bec1044b2d6448e7c.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg",
+      "sha256": "2e5bec1044b2d6448e7c3fbb0e51e4ebf2bad20d21dbc578550301123c2ebf5b",
+      "private": false
+    },
+    "images/book-72cd377b04442826cdff.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg",
+      "sha256": "72cd377b04442826cdffd0fe16fa9169836903e7c9e0389d919b3ddb4f2e7015",
+      "private": false
+    },
+    "images/book-1e54c02b7b76938193c4.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg",
+      "sha256": "1e54c02b7b76938193c4f3a74905258047e433f2fd93eb0d6fb65858d906045a",
+      "private": false
+    },
+    "images/book-3b0a27090de3bd015935.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg",
+      "sha256": "3b0a27090de3bd0159351b2282d2b6fe4e41fe193f959194988f1144a9d485f1",
+      "private": false
+    },
+    "images/book-11660b2ffdf714f1a8d9.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg",
+      "sha256": "11660b2ffdf714f1a8d9224086e13c8f28ecd485a6140b0ecf647e427cecf1f9",
+      "private": false
+    },
+    "images/book-8b026cdf0dd229e0e870.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg",
+      "sha256": "8b026cdf0dd229e0e8702f44d563323a11426ddac8fb86e1f3672feae2243994",
+      "private": false
+    },
+    "images/book-d0a09a077cad632f4318.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg",
+      "sha256": "d0a09a077cad632f43184dc9dab985f48d8d26f7fe480e9e6dfe221fc948853d",
+      "private": false
+    },
+    "images/book-d9fa1731e0da84241a08.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg",
+      "sha256": "d9fa1731e0da84241a08896025e46cbc79e97feff1fdf88b92d095cf17206018",
+      "private": false
+    },
+    "images/book-c637724e8fc584e1ce12.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg",
+      "sha256": "c637724e8fc584e1ce12a800225171a08d2e3fc1b9341f8cd9b01a4d1cb484ac",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md": "aa198208462a3427ed9d0e4b9291ff53a870f74e46b159f9513c1bd96beefeff",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md": "1fabcbcd4f3cbe946e2576ba67d6bdc7962a79eb957c90f5770da428b4899df8"
+  },
+  "student_images": [
+    "images/book-11660b2ffdf714f1a8d9.jpg",
+    "images/book-1e54c02b7b76938193c4.jpg",
+    "images/book-2e5bec1044b2d6448e7c.jpg",
+    "images/book-3b0a27090de3bd015935.jpg",
+    "images/book-4c61a03e8fa2459e357e.jpg",
+    "images/book-72cd377b04442826cdff.jpg",
+    "images/book-8b026cdf0dd229e0e870.jpg",
+    "images/book-c637724e8fc584e1ce12.jpg",
+    "images/book-d0a09a077cad632f4318.jpg",
+    "images/book-d9fa1731e0da84241a08.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "8aaa9a3b2d5710bb7aa649acdebcb78a5253c645d0f4de1d63e6d8178c3e7a02",
+    "student.html": "a057c3561e94c378e06988105b9fa8051e8144136bb8d03574fa4e96c6fa3c42",
+    "student.zip": "fe00a02f2ca97f6090298b6c68c1ac7a529f302a78699a2a96c3ee67bf1c6117",
+    "content.json": "df17bf648022f7b3874d6662ca7d9c3d9322021154c89abc7a0bb57f2f4467ee"
+  }
+}

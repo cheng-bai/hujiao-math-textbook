@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-12-3",
+  "book_id": "bx3",
+  "section": "12.3",
+  "title": "频率与概率",
+  "section_json": "batch/sections/bx3/bx3-12-3.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-12-3",
+  "fingerprint": "083f5289d5f5b5a105aff23ef5696d1698ad655d52aa8d056d4de4d665d0144c",
+  "status": "rendered",
+  "questions": 7,
+  "answers": 7,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-ecf6a736fbb967412baf.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg",
+      "sha256": "ecf6a736fbb967412baf14d5ec43f6d3f95531d4a3a76e02eae5de405f7f4390",
+      "private": false
+    },
+    "images/book-aa49596eb850ce6043aa.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_21_711_1206_261_262_0.jpg",
+      "sha256": "aa49596eb850ce6043aa6f8217e72f57a83dcedfe39fde8e1d1d0ace7efad77a",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "student_images": [
+    "images/book-aa49596eb850ce6043aa.jpg",
+    "images/book-ecf6a736fbb967412baf.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "ac9be3f1c2c4db9251afc453db603ad0317b347b062f16ab5be27ca9744f0acd",
+    "student.html": "444d01d8b1bea51db96c398bf30097d7be9d7edabe05b5d2fbae440e3008c408",
+    "student.zip": "9e659adbdf1361ae725d05818186963a316fa42adfd7cd457bd9fdf3bc091e31",
+    "content.json": "2e07dc1a03490d258757da1ac2f522f3f59daf40d92cbfa1851732eba19b3d58"
+  }
+}

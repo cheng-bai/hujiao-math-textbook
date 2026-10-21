@@ -1,0 +1,937 @@
+{
+  "schema_version": 1,
+  "id": "x1-chapter-end-2",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "2",
+  "chapter_title": "第2章圆锥曲线",
+  "section": "chapter-end-2",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md": "f9a3bb0b1aae50a77724a0067d2a54459e56dae712b033b9938051dd996af7c4",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md": "955c9f50ad7cda82b9d3bd28bfabcfc8b11cb574e5aff5b0c61addbde6e61445"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2465,
+          "end": 2465
+        }
+      ],
+      "id": "x1-chapter-end-2",
+      "number": "chapter-end-2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "圆锥曲线是椭圆(包括圆)、双曲线和抛物线的总称，它们都可以由平面在圆锥上截得. 圆锥曲线的方程都是二元二次方程.\n\n1. 圆\n\n(1)平面上到一定点的距离等于定长(大于零)的点的轨迹，叫做圆.\n\n(2)圆的标准方程是 ${\\left( x - a\\right) }^{2} + {\\left( y - b\\right) }^{2} = {r}^{2}$ ，其中 $\\left( {a, b}\\right)$ 是圆心坐标， $r$ 为圆的半径.\n\n(3)圆的一般方程是 ${x}^{2} + {y}^{2} + {Dx} + {Ey} + F = 0\\left( {{D}^{2} + {E}^{2} - {4F} > 0}\\right)$ .\n\n(4)直线与圆有三种位置关系:相交、相切与相离. 判断直线与圆的位置关系除了比较圆心到直线的距离和半径的大小外，还可以通过求解联立方程组 $\\left\\{  \\begin{array}{l} {x}^{2} + {y}^{2} + {Dx} + {Ey} + F = 0, \\\\  {ax} + {by} + c = 0, \\end{array}\\right.$ 并讨论其解的个数来解决.\n\n(5)两个圆的位置关系，可以通过比较圆心距与两圆半径的大小来判断两圆内含、内切、相交、外切与外离；也可以通过联立方程组 $\\left\\{  \\begin{array}{l} {x}^{2} + {y}^{2} + {D}_{1}x + {E}_{1}y + {F}_{1} = 0, \\\\  {x}^{2} + {y}^{2} + {D}_{2}x + {E}_{2}y + {F}_{2} = 0, \\end{array}\\right.$ 并讨论其解的个数来判断两圆相离、相切与相交.\n\n2. 椭圆\n\n(1)平面上到两个定点 ${F}_{1}$ 、 ${F}_{2}$ 的距离之和等于常数 ${2a}\\left( {{2a} > \\left| {{F}_{1}{F}_{2}}\\right| }\\right)$ 的点的轨迹叫做椭圆.\n\n(2)椭圆的焦点在 $x$ 轴上时，其标准方程是 $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1\\left( {a > b > 0}\\right)$ ；椭圆的焦点在 $y$ 轴上时，其标准方程是 $\\frac{{y}^{2}}{{a}^{2}} + \\frac{{x}^{2}}{{b}^{2}} = 1\\left( {a > b > 0}\\right)$ .\n\n(3)椭圆有两条对称轴，椭圆的扁平程度取决于其离心率 $e = \\frac{c}{a}\\left( {0 < e < 1}\\right)$ ，其中 ${c}^{2} = \\; {a}^{2} - {b}^{2}$ .\n\n3. 双曲线\n\n(1)平面上到两个定点 ${F}_{1}\\text{ 、 }{F}_{2}$ 的距离之差的绝对值等于常数 ${2a}\\left( {0 < {2a} < \\left| {{F}_{1}{F}_{2}}\\right| }\\right)$ 的点的轨迹叫做双曲线.\n\n(2)双曲线的焦点在 $x$ 轴上时，其标准方程是 $\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{{b}^{2}} = 1\\left( {a > 0, b > 0}\\right)$ ；双曲线的焦点在 $y$ 轴上时,其标准方程是 $\\frac{{y}^{2}}{{a}^{2}} - \\frac{{x}^{2}}{{b}^{2}} = 1\\left( {a > 0, b > 0}\\right)$ .\n\n(3)双曲线 $\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{{b}^{2}} = 1$ 有两条对称轴，其离心率 $e = \\frac{c}{a} > 1$ ，其中 ${c}^{2} = {a}^{2} + {b}^{2}$ ，并有两条渐近线 $y =  \\pm  \\frac{b}{a}x$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2466,
+          "end": 2496
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "4. 抛物线",
+      "markdown": "## 4. 抛物线",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2497,
+          "end": 2497
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "(1)平面上到一个定点 $F$ 和到一条定直线 $l\\left( F\\right.$ 不在 $l$ 上)的距离相等的点的轨迹叫做抛物线.\n\n(2)顶点在坐标原点的抛物线，焦点在 $x$ 轴的正、负半轴时，其标准方程分别为 ${y}^{2} = {2px},{y}^{2} =  - {2px}\\left( {p > 0}\\right)$ ; 焦点在 $y$ 轴的正、负半轴时,其标准方程分别为 ${x}^{2} = \\; {2py},{x}^{2} =  - {2py}\\left( {p > 0}\\right)$ .\n\n(3)抛物线有且只有一条对称轴，离心率 $e = 1$ .\n\n*5. 曲线与方程\n\n(1)曲线 $C$ 的方程 $F\\left( {x, y}\\right)  = 0$ 满足下列两个条件:\n\n① 曲线 $C$ 上的点的坐标都是方程 $F\\left( {x, y}\\right)  = 0$ 的解;\n\n② 以方程 $F\\left( {x, y}\\right)  = 0$ 的解为坐标的点都是曲线 $C$ 上的点.\n\n(2)平面上的曲线也可以用参数方程 $\\left\\{  \\begin{array}{l} x = f\\left( t\\right) , \\\\  y = g\\left( t\\right)  \\end{array}\\right.$ 来表示，其中 $t$ 在一定范围内变动. 如能消去参数 $t$ ，可以转化为普通方程.\n\n(3)与平面直角坐标系一样，极坐标系也可以确定平面上点的位置，建立平面曲线的极坐标方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ ,其中 $\\rho$ 是极径, $\\theta$ 为极角.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2498,
+          "end": 2516
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2517,
+          "end": 2517
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2519,
+          "end": 2519
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 判断下列命题是否正确，并说明理由:\n\n(1)到两坐标轴距离相等的点的轨迹方程为 $y = x$ ；\n\n(2)若 $\\bigtriangleup  {ABC}$ 的三个顶点的坐标分别为 $A\\left( {1,1}\\right)$ 、 $B\\left( {3,1}\\right)$ 、 $C\\left( {1,3}\\right)$ ，则边 ${BC}$ 上的中线所在直线的方程为 $y = x$ ;\n\n(3)与两点 $A\\left( {-1,0}\\right)$ 、 $B\\left( {1,0}\\right)$ 的连线的夹角为 ${90}^{ \\circ  }$ 的动点的轨迹方程为 ${x}^{2} + {y}^{2} = 1$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2521,
+          "end": 2528
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2521,
+          "end": 2528
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-1",
+      "category": "复习题A",
+      "answer": "1.(1)错误. (2)正确. (3)错误.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1298,
+          "end": 1299
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 讨论圆 ${x}^{2} + {y}^{2} + {6x} - 7 = 0$ 与抛物线 ${y}^{2} =  - {4x}$ 准线的位置关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2529,
+          "end": 2530
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2529,
+          "end": 2530
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-2",
+      "category": "复习题A",
+      "answer": "2. 相切.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1300,
+          "end": 1301
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 对圆 ${\\left( x - a\\right) }^{2} + {\\left( y + b\\right) }^{2} = {a}^{2} + {b}^{2}\\left( {a > 0, b > 0}\\right)$ ,下列说法是否正确,请说明理由:\n\n(1)该圆的圆心为(a， $b$ )；\n\n(2)该圆过原点；\n\n(3)该圆与 $x$ 轴相交于两个不同点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2531,
+          "end": 2538
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2531,
+          "end": 2538
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-3",
+      "category": "复习题A",
+      "answer": "3.(1)错误. (2)正确.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1302,
+          "end": 1303
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 若椭圆 $\\frac{{x}^{2}}{4} + \\frac{{y}^{2}}{{a}^{2}} = 1$ 与双曲线 $\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{2} = 1$ 有相同的焦点,求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2539,
+          "end": 2540
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2539,
+          "end": 2540
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-4",
+      "category": "复习题A",
+      "answer": "4. $a = 1$ 或 $a =  - 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1304,
+          "end": 1305
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 设椭圆 $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1\\left( {a > b > 0}\\right)$ 的焦距为 ${2c}$ . 若 ${b}^{2} = {ac}$ ,求该椭圆的离心率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2541,
+          "end": 2542
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2541,
+          "end": 2542
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-5",
+      "category": "复习题A",
+      "answer": "5. $\\frac{\\sqrt{5} - 1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1306,
+          "end": 1307
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 已知圆 $C$ 的半径为3,它与双曲线 $\\frac{{x}^{2}}{4} - {y}^{2} = 1$ 的两条渐近线均相切,且与该双曲线的右支相交. 求圆 $C$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2543,
+          "end": 2544
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2543,
+          "end": 2544
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-6",
+      "category": "复习题A",
+      "answer": "6. ${\\left( x - 3\\sqrt{5}\\right) }^{2} + {y}^{2} = 9$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1308,
+          "end": 1309
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 已知直线 $y = x + b$ 被曲线 $y = \\frac{1}{2}{x}^{2}$ 截得的弦长为 $4\\sqrt{2}$ ,求实数 $b$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2545,
+          "end": 2546
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2545,
+          "end": 2546
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-7",
+      "category": "复习题A",
+      "answer": "7. $\\frac{3}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1310,
+          "end": 1311
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 8",
+      "markdown": "8. 点 $P$ 是圆 ${x}^{2} + {y}^{2} = 4$ 上的动点,过点 $P$ 作 $x$ 轴的垂线,垂足为 $M$ . 若 $\\overrightarrow{PQ} = 2\\overrightarrow{QM}$ , 求点 $Q$ 的轨迹方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2547,
+          "end": 2548
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2547,
+          "end": 2548
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-8",
+      "category": "复习题A",
+      "answer": "8. ${x}^{2} + 9{y}^{2} = 4$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1312,
+          "end": 1313
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 9",
+      "markdown": "9. 设 ${AB}$ 是过抛物线 ${y}^{2} = {2px}$ 焦点 $F$ 的一条弦,过点 $A\\text{ 、 }B$ 分别作该抛物线准线的垂线,垂足分别为 ${A}_{1}\\text{ 、 }{B}_{1}$ . 求证: $\\angle {A}_{1}F{B}_{1} = \\frac{\\pi }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2549,
+          "end": 2550
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2549,
+          "end": 2550
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-9",
+      "category": "复习题A",
+      "answer": "9. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1314,
+          "end": 1315
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 10",
+      "markdown": "10. 已知圆 $O$ 的方程是 ${x}^{2} + {y}^{2} = 1$ ,直线 $l$ 与圆 $O$ 相切.\n\n(1)若直线 $l$ 的斜率等于 1，求直线 $l$ 的方程；\n\n(2)若直线 $l$ 在 $y$ 轴上的截距为 $\\sqrt{2}$ ，求直线 $l$ 的方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2551,
+          "end": 2556
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2551,
+          "end": 2556
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-10",
+      "category": "复习题A",
+      "answer": "10. (1) $x - y + \\sqrt{2} = 0$ 或 $x - y - \\sqrt{2} = 0$ . (2) $x - y + \\sqrt{2} = 0$ 或 $x + y - \\sqrt{2} = 0$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1316,
+          "end": 1317
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 11",
+      "markdown": "11. 直线 $x - \\sqrt{3}y = 0$ 绕原点按逆时针方向旋转 ${30}^{ \\circ  }$ 后所得的直线 $l$ 与圆 ${\\left( x - 2\\right) }^{2} + {y}^{2} =$ 3 的位置关系是 ( )\n\nA. 直线 $l$ 过圆心; B. 直线 $l$ 与圆相交,但不过圆心;\n\nC. 直线 $l$ 与圆相切; D. 直线 $l$ 与圆无公共点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2557,
+          "end": 2562
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2557,
+          "end": 2562
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-11",
+      "category": "复习题A",
+      "answer": "11. C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1318,
+          "end": 1319
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 12",
+      "markdown": "12. 已知点 $A\\left( {-\\frac{1}{2},0}\\right) , B$ 是圆 $C : {\\left( x - \\frac{1}{2}\\right) }^{2} + {y}^{2} = 4\\left( {C\\text{ 是圆心 }}\\right)$ 上一动点,线段 ${AB}$ 的垂直平分线交 ${BC}$ 于 $M$ . 求动点 $M$ 的轨迹方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2563,
+          "end": 2564
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2563,
+          "end": 2564
+        }
+      ],
+      "id": "x1-chapter-end-2-hA-12",
+      "category": "复习题A",
+      "answer": "12. ${x}^{2} + \\frac{4{y}^{2}}{3} = 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1320,
+          "end": 1321
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2565,
+          "end": 2565
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 过抛物线 ${y}^{2} = {4x}$ 的焦点 $F$ 作动直线交抛物线于 $A\\text{ 、 }B$ 两点,并从原点 $O$ 作 ${AB}$ 的垂线,垂足为 $M$ . 求动点 $M$ 的轨迹方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2567,
+          "end": 2568
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2567,
+          "end": 2568
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-1",
+      "category": "复习题B",
+      "answer": "1. ${\\left( x - \\frac{1}{2}\\right) }^{2} + {y}^{2} = \\frac{1}{4}\\left( {x \\neq  0}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1324,
+          "end": 1325
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 2",
+      "markdown": "2. 已知点 $P$ 是双曲线 $\\frac{{x}^{2}}{9} - \\frac{{y}^{2}}{16} = 1$ 右支上的一点,点 $M\\text{ 、 }N$ 分别是圆 ${\\left( x + 5\\right) }^{2} + {y}^{2} = 4$ 和 ${\\left( x - 5\\right) }^{2} + {y}^{2} = 1$ 上的点. 求 $\\left| {PM}\\right|  - \\left| {PN}\\right|$ 的最大值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2569,
+          "end": 2570
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2569,
+          "end": 2570
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-2",
+      "category": "复习题B",
+      "answer": "2. 9.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1326,
+          "end": 1327
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 已知圆 ${x}^{2} + {y}^{2} + x - {6y} + m = 0$ 与直线 $x + {2y} - 3 = 0$ 相交于 $P\\text{ 、 }Q$ 两点, $O$ 为坐标原点. 若 ${OP} \\bot  {OQ}$ ,求实数 $m$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2571,
+          "end": 2572
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2571,
+          "end": 2572
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-3",
+      "category": "复习题B",
+      "answer": "3. 3 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1328,
+          "end": 1329
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 已知直线 $y = {ax} - 1$ 与曲线 ${y}^{2} = {2x}$ 只有一个公共点，求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2573,
+          "end": 2574
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2573,
+          "end": 2574
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-4",
+      "category": "复习题B",
+      "answer": "4. 0 或 $- \\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1330,
+          "end": 1331
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 5",
+      "markdown": "5. 对于实数 $k$ 的不同取值范围,讨论方程 $k{x}^{2} + {y}^{2} - 2 = 0$ 所表示的曲线的形状.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2575,
+          "end": 2576
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2575,
+          "end": 2576
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-5",
+      "category": "复习题B",
+      "answer": "5. $k < 0$ 时,表示焦点在 $y$ 轴上的双曲线; 当 $k = 0$ ,表示两条平行直线; 当 $0 < \\; k < 1$ 时,表示焦点在 $x$ 轴上的椭圆; 当 $k = 1$ 时,表示圆; 当 $k > 1$ 时,表示焦点在 $y$ 轴上的椭圆.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1332,
+          "end": 1333
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 6",
+      "markdown": "6. 过椭圆 ${b}^{2}{x}^{2} + {a}^{2}{y}^{2} = {a}^{2}{b}^{2}\\left( {a > b > 0}\\right)$ 的顶点 $B\\left( {0, - b}\\right)$ 引一条弦 ${BP}$ ,求弦 ${BP}$ 的最大长度.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2577,
+          "end": 2578
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2577,
+          "end": 2578
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-6",
+      "category": "复习题B",
+      "answer": "6. 当 $\\frac{a}{b} \\geq  \\sqrt{2}$ 时,弦 ${BP}$ 的最大值为 $\\frac{{a}^{2}}{\\sqrt{{a}^{2} - {b}^{2}}}$ ; 当 $1 < \\frac{a}{b} < \\sqrt{2}$ 时,弦 ${BP}$ 的最大值为 ${2b}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1334,
+          "end": 1335
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 7",
+      "markdown": "7. 已知定点 $A\\left( {a,0}\\right) \\left( {0 < a < 3}\\right)$ 到椭圆 $\\frac{{x}^{2}}{9} + \\frac{{y}^{2}}{4} = 1$ 上的点的距离的最小值为 1,求 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2579,
+          "end": 2580
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2579,
+          "end": 2580
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-7",
+      "category": "复习题B",
+      "answer": "7.2.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1336,
+          "end": 1337
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 8",
+      "markdown": "8. 据气象预报,在气象台 $A$ 处向东 ${400}\\mathrm{\\;{km}}B$ 处的海面上有一个台风中心形成,测得台风以 ${40}\\mathrm{\\;{km}}/\\mathrm{h}$ 的速度向西北方向移动,距中心不超过 ${300}\\mathrm{\\;{km}}$ 的地方都会受到台风的影响. 从现在起, 多少时间后气象台受到台风影响? 气象台受到台风影响的时长大约是多少？(结果精确到 ${0.1}\\mathrm{\\;h}$ )",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2581,
+          "end": 2582
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2581,
+          "end": 2582
+        }
+      ],
+      "id": "x1-chapter-end-2-hB-8",
+      "category": "复习题B",
+      "answer": "8. ${4.6h},{5h}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1338,
+          "end": 1339
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "## 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2583,
+          "end": 2583
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 已知 $\\bigtriangleup {ABC}$ 的两个顶点 $A\\text{ 、 }B$ 的坐标分别是 $\\left( {-6,0}\\right) \\text{ 、 }\\left( {6,0}\\right)$ ,且边 ${AC}\\text{ 、 }{BC}$ 所在直线的斜率之积等于 $k$ . 讨论顶点 $C$ 的轨迹方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2585,
+          "end": 2586
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2585,
+          "end": 2586
+        }
+      ],
+      "id": "x1-chapter-end-2-t-1",
+      "category": "拓展与思考",
+      "answer": "1. ${y}^{2} = k\\left( {{x}^{2} - {36}}\\right)$ . 当 $k = 0$ ,表示直线 $y = 0$ ; 当 $k > 0$ 时,表示焦点在 $x$ 轴上的双曲线; 当 $- 1 < k < 0$ 时,表示焦点在 $x$ 轴上的椭圆; 当 $k =  - 1$ 时,表示圆; 当 $k <  - 1$ 时,表示焦点在 $y$ 轴上的椭圆.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1342,
+          "end": 1343
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 以 $P$ 为圆心的动圆与圆 ${C}_{1} : {\\left( x + 2\\right) }^{2} + {y}^{2} = 1$ 和圆 ${C}_{2} : {\\left( x - 2\\right) }^{2} + {y}^{2} = {r}^{2}$ 均相切, 请分别写出 $r$ 的某个值,使点 $P$ 的轨迹为椭圆和双曲线.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2587,
+          "end": 2588
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2587,
+          "end": 2588
+        }
+      ],
+      "id": "x1-chapter-end-2-t-2",
+      "category": "拓展与思考",
+      "answer": "2. 提示: $0 < \\left| r\\right|  \\leq  3$ 时,为整个双曲线; 当 $\\left| r\\right|  > 5$ 时,为椭圆.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1344,
+          "end": 1345
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 3",
+      "markdown": "3. 求双曲线 $y = \\frac{1}{x}$ 的焦点坐标与准线方程.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2589,
+          "end": 2590
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2589,
+          "end": 2590
+        }
+      ],
+      "id": "x1-chapter-end-2-t-3",
+      "category": "拓展与思考",
+      "answer": "3. 焦点坐标为 $\\left( {\\sqrt{2},\\sqrt{2}}\\right)$ 和 $\\left( {-\\sqrt{2}, - \\sqrt{2}}\\right)$ ; 准线方程为: $x + y - \\sqrt{2} = 0$ 和 $x + \\; y + \\sqrt{2} = 0.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1346,
+          "end": 1347
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 4",
+      "markdown": "4. 请验证到点 $\\left( {1,\\frac{1}{4}}\\right)$ 的距离和到直线 $y =  - \\frac{1}{4}$ 的距离相等的动点的轨迹方程是二次函数 $y = {x}^{2} - {2x} + 1$ ,并探究一般情况.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2591,
+          "end": 2592
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 2591,
+          "end": 2592
+        }
+      ],
+      "id": "x1-chapter-end-2-t-4",
+      "category": "拓展与思考",
+      "answer": "4. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 1348,
+          "end": 1349
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "课后阅读",
+      "markdown": "## 课后阅读",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2593,
+          "end": 2593
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "圆锥曲线简史",
+      "markdown": "## 圆锥曲线简史",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2595,
+          "end": 2595
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "公元前 4 世纪，古希腊数学家梅内克缪斯(Menaechmus)为了解决倍立方问题发现了圆锥曲线. 他用垂直于母线的平面去截取顶角分别是锐角、直角、钝角的三种圆锥, 得到三种曲线, 梅内克缪斯分别称之为锐角、直角和钝角圆锥曲线, 今称椭圆、抛物线和双曲线. 但没有史料记载梅内克缪斯发现这三种圆锥曲线的具体方法.\n\n梅内克缪斯在发现圆锥曲线时, 并不知道圆锥曲线的更多性质. 其后, 亚里斯塔欧 (Aristaeus)著有《立体轨迹》5卷，而“立体轨迹”(solid loci)即指圆锥曲线；欧几里得 (Euclid)著《圆锥曲线》4 卷. 这两部著作对圆锥曲线有更深入系统的论述, 可惜都失传了.\n\n相传欧几里得在另一部失传的几何著作《面轨迹》(The Surface-Loci)中不加证明地给出过关于圆锥曲线的如下重要命题:\n\n到定点与到定直线的距离之比等于给定比的点的轨迹是圆锥曲线. 当给定比小于 1 时, 它是椭圆; 当给定比等于 1 时, 它是抛物线; 当给定比大于 1 时, 它是双曲线.\n\n亚历山大时期数学家帕普斯(Pappus)给出并证明了上述命题.\n\n阿波罗尼斯的《圆锥曲线论》(Conics)是数学历史上最重要的圆锥曲线专著. 此书集前人之大成，且提出很多新的性质. 在这部著作中，阿波罗尼斯推广了梅内克缪斯的方法， 利用一般的斜圆锥来获得圆锥曲线. 阿波罗尼斯引入了圆锥曲线的新名称 “亏曲线” ( * zháwı¡q )、“齐曲线”( * πaραβολη)与“超曲线”( * πaρβολη )，取代在他之前使用的冗长术语 “锐角圆锥的截线”“直角圆锥的截线”与“钝角圆锥的截线”. 阿波罗尼斯的三个希腊文单词演变成了现在通用的专有名词 ellipse、parabola 与 hyperbola(以英语为例)，即中文的椭圆、抛物线与双曲线.\n\n明清之际, 西方圆锥曲线的零星知识传入中国. 中国数学家李善兰与英国人艾约瑟 (J. Edkins)根据西方有关论著合译了《圆锥曲线说》三卷(1856)，作为西方力学著作《重学》 的附录出版. 在李善兰与英国人伟烈亚力(A. Wylie)合译的微积分课本《代微积拾级》 (1859)中, 也涉及许多圆锥曲线的知识. 那时所用的译名如椭圆、抛物线、双曲线等沿用至今.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 2596,
+          "end": 2609
+        }
+      ]
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 阿波罗尼奥斯. 圆锥曲线论(卷 I - 卷 IV) 第 2 版[M]. 朱恩宽,等译. 西安:陕西科学技术出版社,2018.\n\n[2] 阿波罗尼奥斯. 圆锥曲线论(卷 V-卷 VII) [M]. 朱恩宽,等译. 西安:陕西科学技术出版社,2014.\n\n[3] 刘连璞. 平面解析几何方法与研究第 1 卷[M]. 哈尔滨: 哈尔滨工业大学出版社,2015.\n\n[4] 刘连璞. 平面解析几何方法与研究第 2 卷[M]. 哈尔滨: 哈尔滨工业大学出版社,2015.\n\n[5] 刘连璞. 平面解析几何方法与研究第 3 卷[M]. 哈尔滨: 哈尔滨工业大学出版社,2015.\n\n### 附 录\n\n### 二次曲线的分类\n\n学了椭圆 (包括圆)、双曲线和抛物线之后, 对二次曲线似乎有盲人摸象之感, 难以获得全貌. 事实上,这三类曲线已经是二次曲线的主体了,其余的无非是一些退化的曲线或者虚曲线. 为让教师能接触更高的观点, 更好地把握本章的内容, 特引用谷超豪主编的《数学词典》(上海辞书出版社 1992 年版)第 177 页的内容,但把原书表格中的最后一列“化简后的方程”改为“标准方程”,没有强调化简后的方程与二次方程的不变量、半不变量的关系. 这些内容仅供教师参考,不能作为教学内容.\n\n在平面直角坐标系中, $x\\text{、}y$ 的二次方程\n\n$$\nA{x}^{2} + {Bxy} + C{y}^{2} + {Dx} + {Ey} + F = 0\n$$\n\n(其中 ${A}^{2} + {B}^{2} + {C}^{2} \\neq  0$ ) 所表示的曲线称为二次曲线. 利用二次曲线平移、旋转的不变量 $H = A + C,\\Delta  = {B}^{2} - {4AC}$ ,\n\n$$\n\\Theta  = \\left| \\begin{matrix} {2A} & B & D \\\\  B & {2C} & E \\\\  D & E & {2F} \\end{matrix}\\right|\n$$\n\n和半不变量 $K = {D}^{2} + {E}^{2} - {4AF} - {4CF}$ ,可对二次曲线分类如下表:\n\n<table><tr><td>型别</td><td colspan=\"2\">判定条件</td><td>类别</td><td>标准方程</td></tr><tr><td rowspan=\"3\">$\\Delta  < 0$ 椭圆型</td><td rowspan=\"2\">$\\Theta  \\neq  0$</td><td>${H\\Theta } < 0$</td><td>椭圆</td><td>$\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1$</td></tr><tr><td>${H\\Theta } > 0$</td><td>无轨迹 (虚椭圆)</td><td>$\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} =  - 1$</td></tr><tr><td colspan=\"2\">$\\Theta  = 0$</td><td>点椭圆</td><td>$\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 0$</td></tr></table>\n\n(续表)\n\n<table><tr><td>型别</td><td colspan=\"2\">判定条件</td><td>类别</td><td>标准方程</td></tr><tr><td rowspan=\"2\">Δ＞0 双曲型</td><td colspan=\"2\">$\\Theta  \\neq  0$</td><td>双曲线</td><td>$\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{{b}^{2}} = 1$</td></tr><tr><td colspan=\"2\">$\\Theta  = 0$</td><td>两相交直线</td><td>$\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{{b}^{2}} = 0$</td></tr><tr><td rowspan=\"4\">$\\Delta  = 0$ 抛物型</td><td colspan=\"2\">$\\Theta  \\neq  0$</td><td>抛物线</td><td>${y}^{2} = {2px}$</td></tr><tr><td rowspan=\"3\">$\\Theta  = 0$</td><td>$K > 0$</td><td>两平行直线</td><td>${y}^{2} = {a}^{2}\\left( {a \\neq  0}\\right)$</td></tr><tr><td>$K = 0$</td><td>两重合直线</td><td>${y}^{2} = 0$</td></tr><tr><td>$K < 0$</td><td>无轨迹 (两虚平行直线)</td><td>${y}^{2} =  - {a}^{2}\\left( {a \\neq  0}\\right)$</td></tr></table>",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 1350,
+          "end": 1388
+        }
+      ],
+      "teacher_only": true
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "line": 1150,
+      "repair": "修复2.3习题A组OCR题号为4",
+      "evidence": "独立复算m<-2及2x²-y²=1，与教材第4/5题逐题吻合"
+    },
+    {
+      "line": 1152,
+      "repair": "修复2.3习题A组OCR题号为5",
+      "evidence": "独立复算m<-2及2x²-y²=1，与教材第4/5题逐题吻合"
+    }
+  ],
+  "image_references": [],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-chapter-end-2.json",
+    "question_count": 24,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

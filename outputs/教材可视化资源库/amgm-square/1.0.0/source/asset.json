@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "key": "a",
+      "label": "边 a（b=8-a）",
+      "max": 7.5,
+      "min": 0.5,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>&gt;</mo><mn>0</mn><mo>;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt><mo>=</mo><mfrac><msup><mrow><mo>(</mo><msqrt><mi>a</mi></msqrt><mo>−</mo><msqrt><mi>b</mi></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mn>2</mn></mfrac><mo>≥</mo><mn>0</mn><mo>;</mo><mtext>等号 ⇔ a=b</mtext></mrow></math>",
+  "goal": "将算术/几何平均值和等号唯一性连成可变矩形。",
+  "id": "amgm-square",
+  "initial": {
+    "a": 2
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx1-2-3-b4",
+      "rationale": "覆盖本节原prose第4块：将算术/几何平均值和等号唯一性连成可变矩形。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx1-2-3"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "正数 a、b 的算术平均值为 (a+b)/2，几何平均值为与 a×b 矩形等面积正方形的边长。算术平均不小于几何平均，且仅 a=b 时等号成立。这里固定 a+b=8：改变两边，观察面积差如何精确由平方项控制。",
+  "title": "和不变：矩形怎样变成最大面积正方形"
+}

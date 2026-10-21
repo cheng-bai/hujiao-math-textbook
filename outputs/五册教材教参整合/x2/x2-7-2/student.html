@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x2-7-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>7.2 随机变量的分布与特征 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x2.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-distribution-moments.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第二册 / 第7章概率初步(续)</div><div class="spine-number">7.2</div><nav aria-label="本节目录"><a href="#x2-7-2"><span>7.2</span>随机变量的分布与特征</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 7.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 7.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>随机变量的分布与特征<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第二册<br>第7章概率初步(续) · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>7 个例题</span><span>14 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x2-7-2" data-title="随机变量的分布与特征"><section class="section-heading" id="x2-7-2"><span class="section-number">7.2</span><div><h2>随机变量的分布与特征</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="x2-7-2-b2">1 随机变量与分布</h3><div class="prose" data-visual-source-sha="20673cf7f68527dfff429016effc786d4501d05b849a45bca61cfa01dfc7902b" id="x2-7-2-b3"><p>在许多情况下, 我们可以使用数来表示随机现象的结果. 生活中就有很多例子:</p>
+<p>(1)掷一颗骰子，用 <span class="math" data-tex="X" data-display="false"></span> 表示点数， <span class="math" data-tex="X = 6" data-display="false"></span> 表示掷出 6 点， <span class="math" data-tex="X = 1" data-display="false"></span> 表示掷出 1 点；</p>
+<p>(2)抛掷一枚硬币 10 次，用 <span class="math" data-tex="X" data-display="false"></span> 表示得到正面的次数，例如, <span class="math" data-tex="X = 5" data-display="false"></span> 表示 5 次是正面;</p>
+<p>(3)从一个放有大小与质地相同的 10 个白球、 10 个黑球的罐子中摸出 5 个球,用 <span class="math" data-tex="X" data-display="false"></span> 表示其中白球的个数;</p>
+<p>(4)用 <span class="math" data-tex="X" data-display="false"></span> 表示明天的降雨量(单位:mm)；</p>
+<p>(5)用 <span class="math" data-tex="X" data-display="false"></span> 表示保险公司某客户一年中的车辆损失(单位:元).</p>
+<p>在这些例子中, 我们都是用数来表示随机现象的结果, 这引出随机变量这个重要的概念.</p>
+<aside class="key-point key-concept" id="x2-7-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在本章中, 除 7.3 节外, 我们总是假设样本空间是有限的. 这时,以样本空间作为定义域的一个函数 <span class="math" data-tex="X" data-display="false"></span> 称为一个随机变量 (random variable),即对样本空间 <span class="math" data-tex="\Omega" data-display="false"></span> 中任意给定的元素 <span class="math" data-tex="\omega" data-display="false"></span> ,都有唯一的实数 <span class="math" data-tex="X\left( \omega \right)" data-display="false"></span> 与之对应.</p>
+</aside><p>尽管随机变量的名字中用了“变量”这两个字，但实际上它是一个函数. 随机变量的取值在随机现象发生前是随机的, 且其取某一具体值这一事件的概率是该随机变量在该值上的分布. 分布是日常生活中经常使用的一个词, 如收入分布、人口分布、年龄分布、成绩分布等. 在数学中, 分布的定义如下:</p>
+<aside class="key-point key-concept" id="x2-7-2-definition-3-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>随机变量所有可能的取值以及相应的概率, 称为随机变量的分布.</p>
+</aside><p>注意,在上述定义中,随机变量 <span class="math" data-tex="X" data-display="false"></span> 的所有可能取值 (以 <span class="math" data-tex="X" data-display="false"></span> 作为观察角度的所有结果) 的概率的和等于 1 .</p>
+<p>分布的表示方法很多, 常用图表来表示, 这比较直观易懂. 例如, 下面例 1 中的分布, 第一行表示随机变量的取值, 第二行表示相应取值的概率.</p>
+</div><article class="question" id="x2-7-2-ex-1" data-question-id="x2-7-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 分别抛掷 1、2、3 枚硬币，计算其中正面朝上枚数 <span class="math" data-tex="X" data-display="false"></span> 的分布.</p>
+</div></article><article class="question" id="x2-7-2-ex-2" data-question-id="x2-7-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 掷一颗骰子，观察掷得的点数.</p>
+<p>(1)求点数 <span class="math" data-tex="X" data-display="false"></span> 的分布；</p>
+<p>(2)只关心点数 6 是否出现. 若出现,则记 <span class="math" data-tex="Y = 1" data-display="false"></span> ,否则记 <span class="math" data-tex="Y = 0" data-display="false"></span> . 求 <span class="math" data-tex="Y" data-display="false"></span> 的分布.</p>
+</div></article><article class="question" id="x2-7-2-ex-3" data-question-id="x2-7-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 统计某地历史上近两百年的年降水量，得到以下数据:</p>
+<div class="source-table"><table><tr><td>年降水量/mm</td><td>0~100</td><td>100~200</td><td>200~300</td><td>300~400</td><td>400 以上</td></tr><tr><td>年数</td><td>10</td><td>55</td><td>85</td><td>35</td><td>15</td></tr></table></div>
+<p>请据此构造一个随机变量并求其分布.</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b7">练习 7.2(1)</h3><article class="question" id="x2-7-2-p721-1" data-question-id="x2-7-2-p721-1" data-category="practice"><div class="question-label">练习7.2(1) · 1</div><div class="question-body"><ol>
+<li>掷两颗骰子，用 <span class="math" data-tex="X" data-display="false"></span> 表示两点数差的绝对值. 求 <span class="math" data-tex="X" data-display="false"></span> 的分布.</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-p721-2" data-question-id="x2-7-2-p721-2" data-category="practice"><div class="question-label">练习7.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>以下是分布的为 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="\left( \begin{array}{ll} 0 &amp; 1 \\  1 &amp; 1 \end{array}\right)" data-display="false"></span> ; B. <span class="math" data-tex="\left( \begin{matrix}  - 1 &amp; 0 &amp; 1 \\  \frac{1}{2} &amp; \frac{1}{3} &amp; \frac{1}{6} \end{matrix}\right)" data-display="false"></span> ;</p>
+<p>C. <span class="math" data-tex="\left( \begin{array}{lll} 1 &amp; 2 &amp; 3 \\  \frac{1}{2} &amp; \frac{1}{4} &amp; \frac{1}{8} \end{array}\right)" data-display="false"></span> ; D. <span class="math" data-tex="\left( \begin{matrix} 1 &amp; {1.2} &amp; 2 &amp; {2.4} \\   - {0.5} &amp; {0.5} &amp; {0.3} &amp; {0.7} \end{matrix}\right)" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b10">2 期望</h3><div class="prose" data-visual-source-sha="865c8a6a6d9bdf934cbe11e5b9bf62941a8d81e6be9c918fff51561f04d14394" id="x2-7-2-b11"><hr />
+<aside class="key-point key-concept" id="x2-7-2-definition-11-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>期望是概率论中的一个重要概念, 它的全称是数学期望, 简称期望, 也称均值. 因为期望实际上是由某个分布所确定的. 所以也称为该分布的期望.</p>
+</aside><hr />
+<aside class="key-point key-concept" id="x2-7-2-definition-11-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>随机变量的分布体现的是随机变量取值的概率分布. 把概率作为权重，对随机变量的相应取值进行加权平均后所得到的值， 称为随机变量的期望 (expectation):</p>
+</aside><p>定义 如果随机变量 <span class="math" data-tex="X" data-display="false"></span> 的分布是</p>
+<div class="math display" data-tex="\left( \begin{array}{llll} {x}_{1} &amp; {x}_{2} &amp; \cdots &amp; {x}_{n} \\  {p}_{1} &amp; {p}_{2} &amp; \cdots &amp; {p}_{n} \end{array}\right)" data-display="true"></div>
+<aside class="key-point key-concept" id="x2-7-2-definition-11-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>那么它的期望定义为如下的加权平均: Q</p>
+</aside><div class="math display" data-tex="E\left\lbrack  X\right\rbrack   = {x}_{1}{p}_{1} + {x}_{2}{p}_{2} + \cdots  + {x}_{n}{p}_{n}." data-display="true"></div>
+<hr />
+<p>数学期望是一个加权平均, 其中的权是随机变量取值对应的概率.</p>
+<hr />
+</div><article class="question" id="x2-7-2-ex-4" data-question-id="x2-7-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 (1)掷一颗骰子，求掷得点数的期望；</p>
+<p>(2)掷两颗骰子，求掷得点数和的期望.</p>
+</div></article><article class="question" id="x2-7-2-ex-5" data-question-id="x2-7-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 抛掷 <span class="math" data-tex="n" data-display="false"></span> 枚硬币,用 <span class="math" data-tex="X" data-display="false"></span> 表示正面朝上的硬币数. 求它的分布及期望.</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b14">期望的线性性质</h3><div class="prose" data-visual-source-sha="1ff3737734969309a91ccd6c05f92da092fc1455ff347be6b41c25ed003a27c8" id="x2-7-2-b15"><ol>
+<li>如果 <span class="math" data-tex="X" data-display="false"></span> 是一个随机变量, <span class="math" data-tex="a" data-display="false"></span> 是一个实数,那么</li>
+</ol>
+<div class="math display" data-tex="E\left\lbrack  {aX}\right\rbrack   = {aE}\left\lbrack  X\right\rbrack  ." data-display="true"></div>
+<ol start="2">
+<li>如果 <span class="math" data-tex="X\text{ 、 }Y" data-display="false"></span> 是两个随机变量,那么</li>
+</ol>
+<div class="math display" data-tex="E\left\lbrack  {X + Y}\right\rbrack   = E\left\lbrack  X\right\rbrack   + E\left\lbrack  Y\right\rbrack  ." data-display="true"></div>
+<aside class="key-point key-concept" id="x2-7-2-definition-15-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>性质 1 的证明是容易的, 性质 2 的证明超出所学的知识范围. 这两个性质的证明这里均略去, 只列出它们的结论. 为了方便, 我们把一个确定的常数也看作一个随机变量, 称为常数随机变量. 常数随机变量是确定的, 没有随机性, 它的期望等于它本身.</p>
+</aside><p>例 4(2)中求得点数之和的期望是 7 ，这是通过分布来计算的. 更方便的方法是利用期望的性质来计算. 用 <span class="math" data-tex="{X}_{1}" data-display="false"></span> 、 <span class="math" data-tex="{X}_{2}" data-display="false"></span> 分别表示掷第一颗及第二颗骰子得到的点数,那么 <span class="math" data-tex="{X}_{1} + {X}_{2}" data-display="false"></span> 就是两颗骰子的点数之和. 这样, 根据期望的线性性质, 并利用例 4(1) 的结果, 就得到</p>
+<div class="math display" data-tex="E\left\lbrack  {{X}_{1} + {X}_{2}}\right\rbrack   = E\left\lbrack  {X}_{1}\right\rbrack   + E\left\lbrack  {X}_{2}\right\rbrack   = {3.5} + {3.5} = 7." data-display="true"></div>
+</div><h3 class="group-heading" id="x2-7-2-b16">练习 7.2(2)</h3><article class="question" id="x2-7-2-p722-1" data-question-id="x2-7-2-p722-1" data-category="practice"><div class="question-label">练习7.2(2) · 1</div><div class="question-body"><ol>
+<li>抛掷 4 枚硬币,用 <span class="math" data-tex="X" data-display="false"></span> 表示正面朝上的枚数. 求 <span class="math" data-tex="X" data-display="false"></span> 的期望.</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-p722-2" data-question-id="x2-7-2-p722-2" data-category="practice"><div class="question-label">练习7.2(2) · 2</div><div class="question-body"><ol start="2">
+<li>从一个放有大小与质地相同的 5 个白球、4 个黑球的罐子中不放回地摸 3 个球, 用 <span class="math" data-tex="X" data-display="false"></span> 表示摸到的白球数. 求 <span class="math" data-tex="X" data-display="false"></span> 的期望.</li>
+</ol>
+<p>通过前面的学习，我们不仅能够时刻感知无处不在的随机性， 还能够感知随机性的大小. 一般来说, 如果某件事发生的可能性很大或者很小, 它的随机性就相对较小. 例如, 抛掷一枚硬币, 正面和反面朝上的概率都是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> ,而掷一颗骰子得到 “ 6 ”与 “非 6 ”两个结果的概率则是 <span class="math" data-tex="\frac{1}{6}" data-display="false"></span> 与 <span class="math" data-tex="\frac{5}{6}" data-display="false"></span> . 相比之下,抛掷硬币的结果更不确定,所以随机性更大. 与之比较, 买彩票中奖的概率要小很多, 因此随机性更小. 人们经常把随机性很小 (概率接近 0 或 1 ) 的事件近似为确定的事件，即近似确定不发生或近似确定发生，此时，就模糊了确定性和随机性的界限，把“确定”当作是随机性非常小的代名词.</p>
+<p>期望大体上表示一个随机变量的“中间”态. 随机变量的取值虽不确定, 但总是分布在期望的两侧, 可能远也可能近. 通俗地说, 如果一个随机变量分布在期望两侧比较远的地方, 就说这个随机变量比较分散. 反过来, 如果一个随机变量分布在期望两侧比较近的地方, 就说这个随机变量比较集中.</p>
+<p>数学上用什么指标来衡量随机变量的分散度呢? 按照上面的分析,对随机变量 <span class="math" data-tex="X" data-display="false"></span> 而言,我们用 <span class="math" data-tex="X" data-display="false"></span> 与其期望的偏差的平方的期望, 即</p>
+<div class="math display" data-tex="E\left\lbrack  {\left( X - E\left\lbrack  X\right\rbrack  \right) }^{2}\right\rbrack" data-display="true"></div>
+<p>来衡量随机变量 <span class="math" data-tex="X" data-display="false"></span> 的分散度,称为 <span class="math" data-tex="X" data-display="false"></span> 的方差 (variance),记为 <span class="math" data-tex="D\left\lbrack  X\right\rbrack" data-display="false"></span> .</p>
+<p>Q</p>
+<p>定义 随机变量 <span class="math" data-tex="X" data-display="false"></span> 的方差 <span class="math" data-tex="D\left\lbrack  X\right\rbrack" data-display="false"></span> 定义为</p>
+<div class="math display" data-tex="D\left\lbrack  X\right\rbrack   = E\left\lbrack  {\left( X - E\left\lbrack  X\right\rbrack  \right) }^{2}\right\rbrack  ." data-display="true"></div>
+<p>考虑一个极端的情况. 如果 <span class="math" data-tex="X" data-display="false"></span> 是一个常数随机变量,那么就有 <span class="math" data-tex="D\left\lbrack  X\right\rbrack   = 0" data-display="false"></span> . 这说明一个确定的量的分散度为零. 反之,如果 <span class="math" data-tex="D\left\lbrack  X\right\rbrack   = 0" data-display="false"></span> ,那么 <span class="math" data-tex="X" data-display="false"></span> 就是一个常数随机变量. 这说明分散度为零的量必是一个确定的量.</p>
+<p>下面推导一个更方便使用的方差公式. 事实上, 根据期望的线性性质,并注意到 <span class="math" data-tex="E\left\lbrack  X\right\rbrack" data-display="false"></span> 是一个常数,就有</p>
+<div class="math display" data-tex="D\left\lbrack  X\right\rbrack   = E\left\lbrack  {{X}^{2} - {2XE}\left\lbrack  X\right\rbrack   + {\left( E\left\lbrack  X\right\rbrack  \right) }^{2}}\right\rbrack" data-display="true"></div>
+<div class="math display" data-tex="= E\left\lbrack  {X}^{2}\right\rbrack   - {2E}\left\lbrack  {{XE}\left\lbrack  X\right\rbrack  }\right\rbrack   + E\left\lbrack  {\left( E\left\lbrack  X\right\rbrack  \right) }^{2}\right\rbrack" data-display="true"></div>
+<div class="math display" data-tex="= E\left\lbrack  {X}^{2}\right\rbrack   - 2{\left( E\left\lbrack  X\right\rbrack  \right) }^{2} + {\left( E\left\lbrack  X\right\rbrack  \right) }^{2}" data-display="true"></div>
+<div class="math display" data-tex="= E\left\lbrack  {X}^{2}\right\rbrack   - {\left( E\left\lbrack  X\right\rbrack  \right) }^{2}." data-display="true"></div>
+<hr />
+<p>事件可以看成是一个随机变量:发生定义为 1 , 不发生定义为 0 . 这样, 随机性大小与分散度大小实际上是统一的.</p>
+<p>方差是 <span class="math" data-tex="X - E\left\lbrack  X\right\rbrack" data-display="false"></span> 平方之后的期望, 它与期望 <span class="math" data-tex="E\left\lbrack  X\right\rbrack" data-display="false"></span> 的尺度不同. 统计中经常使用标准差 <span class="math" data-tex="\sqrt{D\left\lbrack  X\right\rbrack  }" data-display="false"></span> 来代替方差.</p>
+<hr />
+<p>这样，就得到方差的如下计算公式:</p>
+<div class="math display" data-tex="D\left\lbrack  X\right\rbrack   = E\left\lbrack  {X}^{2}\right\rbrack   - {\left( E\left\lbrack  X\right\rbrack  \right) }^{2}." data-display="true"></div>
+</div></article><article class="question" id="x2-7-2-ex-6" data-question-id="x2-7-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 掷一颗骰子,用 <span class="math" data-tex="X" data-display="false"></span> 表示掷得的点数. 求 <span class="math" data-tex="X" data-display="false"></span> 的方差.</p>
+</div></article><div class="prose" data-visual-source-sha="0ea49328c93f8a921cd27244be3db3821361d6c2cec81cd9d646ed83c09684ae" id="x2-7-2-b20"><p>例 6 中 <span class="math" data-tex="E\left\lbrack  {X}^{2}\right\rbrack" data-display="false"></span> 的计算实际上无需求助于 <span class="math" data-tex="{X}^{2}" data-display="false"></span> 的分布,只要知道 <span class="math" data-tex="X" data-display="false"></span> 自身的分布就够了. 事实上,若 <span class="math" data-tex="X" data-display="false"></span> 的取值为 <span class="math" data-tex="{x}_{1},{x}_{2},\cdots" data-display="false"></span> , <span class="math" data-tex="{x}_{n}" data-display="false"></span> ,而相应的概率为 <span class="math" data-tex="{p}_{1},{p}_{2},\cdots ,{p}_{n}" data-display="false"></span> ,就有</p>
+<div class="math display" data-tex="E\left\lbrack  {X}^{2}\right\rbrack   = {x}_{1}^{2}{p}_{1} + {x}_{2}^{2}{p}_{2} + \cdots  + {x}_{n}^{2}{p}_{n}." data-display="true"></div>
+<p>方差有以下两个性质:</p>
+</div><h3 class="group-heading" id="x2-7-2-b21">方差的性质</h3><div class="prose" data-visual-source-sha="8fce486d49ebd19eb936faba3bc39fede6eea089b3ea7e6a66b4945740a8db0c" id="x2-7-2-b22"><ol>
+<li>如果 <span class="math" data-tex="x" data-display="false"></span> 是一个随机变量, <span class="math" data-tex="a" data-display="false"></span> 是一个实数,那么</li>
+</ol>
+<div class="math display" data-tex="D\left\lbrack  {aX}\right\rbrack   = {a}^{2}D\left\lbrack  X\right\rbrack  ." data-display="true"></div>
+<ol start="2">
+<li>如果 <span class="math" data-tex="X\text{ 、 }Y" data-display="false"></span> 分别是两个独立的随机试验所对应的随机变量, 那么</li>
+</ol>
+<div class="math display" data-tex="D\left\lbrack  {X + Y}\right\rbrack   = D\left\lbrack  X\right\rbrack   + D\left\lbrack  Y\right\rbrack  ." data-display="true"></div>
+<p>性质 1 的证明是容易的, 但性质 2 的证明超出所学的知识范围. 这两个性质的证明这里均略去, 只列出它们的结论.</p>
+</div><article class="question" id="x2-7-2-ex-7" data-question-id="x2-7-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 掷两颗骰子,掷得的点数分别为 <span class="math" data-tex="X\text{ 、 }Y" data-display="false"></span> . 求点数和 <span class="math" data-tex="X + Y" data-display="false"></span> 与点数差 <span class="math" data-tex="X - Y" data-display="false"></span> 的期望与方差.</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b24">练习 7.2(3)</h3><article class="question" id="x2-7-2-p723-1" data-question-id="x2-7-2-p723-1" data-category="practice"><div class="question-label">练习7.2(3) · 1</div><div class="question-body"><ol>
+<li>设 <span class="math" data-tex="X" data-display="false"></span> 是一个随机变量, <span class="math" data-tex="c" data-display="false"></span> 是常数. 求证: <span class="math" data-tex="X + c" data-display="false"></span> 的方差与 <span class="math" data-tex="X" data-display="false"></span> 的方差相等.</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-p723-2" data-question-id="x2-7-2-p723-2" data-category="practice"><div class="question-label">练习7.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>已知随机变量 <span class="math" data-tex="X" data-display="false"></span> 的分布为</li>
+</ol>
+<div class="math display" data-tex="\left( \begin{matrix} 1 &amp; 2 &amp; 3 \\  {0.4} &amp; {0.2} &amp; {0.4} \end{matrix}\right) ," data-display="true"></div>
+<p>求 <span class="math" data-tex="X" data-display="false"></span> 的方差.</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b27">习题 7.2</h3><h3 class="group-heading" id="x2-7-2-b28">A 组</h3><article class="question" id="x2-7-2-h72A-1" data-question-id="x2-7-2-h72A-1" data-category="homework"><div class="question-label">习题7.2A · 1</div><div class="question-body"><ol>
+<li>一袋中装有 6 个大小与质地相同的白球,编号为 1、2、3、4、5、6. 从该袋内随机取出 3 个球,记被取出球的最大号码数为 <span class="math" data-tex="X" data-display="false"></span> . 写出随机变量 <span class="math" data-tex="X" data-display="false"></span> 的分布.</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-h72A-2" data-question-id="x2-7-2-h72A-2" data-category="homework"><div class="question-label">习题7.2A · 2</div><div class="question-body"><ol start="2">
+<li>掷两颗骰子，用 <span class="math" data-tex="X" data-display="false"></span> 表示较大的点数 (在点数相同时， <span class="math" data-tex="X" data-display="false"></span> 表示共同的点数). 求 <span class="math" data-tex="X" data-display="false"></span> 的分布与期望.</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-h72A-3" data-question-id="x2-7-2-h72A-3" data-category="homework"><div class="question-label">习题7.2A · 3</div><div class="question-body"><ol start="3">
+<li>设某射手打靶环数 <span class="math" data-tex="X" data-display="false"></span> 的分布为</li>
+</ol>
+<div class="math display" data-tex="\left( \begin{matrix} 7 &amp; 8 &amp; 9 &amp; {10} \\  a &amp; {0.1} &amp; {0.3} &amp; b \end{matrix}\right)" data-display="true"></div>
+<p>已知期望 <span class="math" data-tex="E\left\lbrack  X\right\rbrack   = {8.9}" data-display="false"></span> . 求 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 的值.</p>
+</div></article><article class="question" id="x2-7-2-h72A-4" data-question-id="x2-7-2-h72A-4" data-category="homework"><div class="question-label">习题7.2A · 4</div><div class="question-body"><ol start="4">
+<li>一袋中装有大小与质地相同的 2 个白球和 3 个黑球.</li>
+</ol>
+<p>(1)从中有放回地依次摸出 2 个球，求 2 球颜色不同的概率；</p>
+<p>(2)从中不放回地依次摸出 2 个球，记 2 球中白球的个数为 <span class="math" data-tex="X" data-display="false"></span> . 求 <span class="math" data-tex="X" data-display="false"></span> 的期望和方差.</p>
+</div></article><h3 class="group-heading" id="x2-7-2-b33">B 组</h3><article class="question" id="x2-7-2-h72B-1" data-question-id="x2-7-2-h72B-1" data-category="homework"><div class="question-label">习题7.2B · 1</div><div class="question-body"><ol>
+<li>编号为 1、2、3、4 的四名学生随机入座编号为 1、2、3、4 的座位，每个座位坐一人. 座位编号和学生编号一样时称为一个配对. 用 <span class="math" data-tex="X" data-display="false"></span> 表示配对数,求 <span class="math" data-tex="E\left\lbrack  X\right\rbrack" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="x2-7-2-h72B-2" data-question-id="x2-7-2-h72B-2" data-category="homework"><div class="question-label">习题7.2B · 2</div><div class="question-body"><ol start="2">
+<li>已知一个随机变量 <span class="math" data-tex="X" data-display="false"></span> 的分布为</li>
+</ol>
+<div class="math display" data-tex="\left( \begin{matrix}  - 1 &amp; 0 &amp; 1 \\  a &amp; b &amp; c \end{matrix}\right)" data-display="true"></div>
+<p>若 <span class="math" data-tex="a + c = {2b}" data-display="false"></span> ,且 <span class="math" data-tex="E\left\lbrack  X\right\rbrack   = \frac{1}{3}" data-display="false"></span> ,求 <span class="math" data-tex="D\left\lbrack  X\right\rbrack" data-display="false"></span> 的值.</p>
+</div></article><article class="question" id="x2-7-2-h72B-3" data-question-id="x2-7-2-h72B-3" data-category="homework"><div class="question-label">习题7.2B · 3</div><div class="question-body"><ol start="3">
+<li>一袋中装有编号为 1、2、3、4、5 的五个大小与质地相同的球. 依次摸两个球, 用 <span class="math" data-tex="{X}_{1}\text{ 、 }{X}_{2}" data-display="false"></span> 分别表示第一个及第二个球的编号. 在以下两种情况下分别求 <span class="math" data-tex="{X}_{1}\text{ 、 }{X}_{2}" data-display="false"></span> 以及两编号之和 <span class="math" data-tex="{X}_{1} + {X}_{2}" data-display="false"></span> 的分布,再分别验证等式 <span class="math" data-tex="E\left\lbrack  {{X}_{1} + {X}_{2}}\right\rbrack   = E\left\lbrack  {X}_{1}\right\rbrack   + E\left\lbrack  {X}_{2}\right\rbrack" data-display="false"></span> 与 <span class="math" data-tex="D\left\lbrack  {{X}_{1} + {X}_{2}}\right\rbrack \; = D\left\lbrack  {X}_{1}\right\rbrack   + D\left\lbrack  {X}_{2}\right\rbrack" data-display="false"></span> 是否成立.</li>
+</ol>
+<p>(1)放回;</p>
+<p>(2)不放回.</p>
+</div></article><article class="question" id="x2-7-2-h72B-4" data-question-id="x2-7-2-h72B-4" data-category="homework"><div class="question-label">习题7.2B · 4</div><div class="question-body"><ol start="4">
+<li>先掷一颗骰子,记朝上的点数为 <span class="math" data-tex="X" data-display="false"></span> . 再抛掷 <span class="math" data-tex="X" data-display="false"></span> 枚硬币,记 <span class="math" data-tex="Y" data-display="false"></span> 为正面朝上的硬币数. 求 <span class="math" data-tex="Y" data-display="false"></span> 的分布、期望与方差.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x2-7-2-b38">课后阅读</h3><h3 class="group-heading" id="x2-7-2-b39">随机商品的定价与风险</h3><div class="prose" data-visual-source-sha="2e3b77ef20edf1cb30d1fabd4ed4dac819464ea94a5031d1b88e804a85d6c1af" id="x2-7-2-b40"><p>商品是大家熟悉的东西，生活离不开商品. 除了通常的商品外，还有随机商品. 所谓随机商品, 就是其价值在购买的时候不确定, 在未来的某个时刻才会确定的商品, 如彩票、股票、保险等. 不确定性意味着风险(risk). 因为人们对于风险的需求或者偏好不同, 所以随机商品可以用来实现风险的转移. 有的人喜欢风险, 喜欢碰运气, 他就会买彩票, 也就是用不多的钱购买一个中大奖的微小机会; 相反, 有的人不喜欢风险, 他就会买保险, 保险源于人们对于未知风险的恐惧, 把自己未来不确定的损失换成确定的付出, 或者说付费让保险公司来分担风险. 一个基本的常识是，潜在收益越大，风险就越大，风险和收益是成正比的.</p>
+<aside class="key-point key-concept" id="x2-7-2-definition-40-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>简单地说,随机商品的未来价值是一个随机变量 <span class="math" data-tex="X" data-display="false"></span> ,它在购买时的价格 (不计其他成本)应该就是它的期望. 为什么？因为由大数定律，在有很多人购买时，它的平均价值趋向于期望. 这就是说, 随机商品的定价通常是它的期望值. 但是随机商品的另外一个特征是风险,这通常由方差来衡量. 例如,比较一个中奖率为 <span class="math" data-tex="\frac{1}{100}" data-display="false"></span> ,奖金 100 元的彩票 <span class="math" data-tex="X" data-display="false"></span> ,与一个中奖率为 <span class="math" data-tex="\frac{1}{10000}" data-display="false"></span> ,奖金 10000 元的彩票 <span class="math" data-tex="Y" data-display="false"></span> ,两个彩票的期望是一样的,但是风险收益有很大的差别,比起彩票 <span class="math" data-tex="X" data-display="false"></span> ,彩票 <span class="math" data-tex="Y" data-display="false"></span> 中奖的可能性小,但是奖金却高得多,其实就是风险大, 但潜在的收益高. 风险是不确定性, 而方差是不确定性的一个度量指标, 因此方差可以看成是风险的一个指标. 例如,通过简单的计算可以知道,彩票 <span class="math" data-tex="Y" data-display="false"></span> 的方差大约百倍于彩票 <span class="math" data-tex="X" data-display="false"></span> 的方差. 要注意,风险是个内涵丰富的词,没有公认的数学定义,方差只是风险的一个指标, 体现风险的某种特征, 银行与企业经常使用另外一个指标: 损失超过某个警戒值的概率, 称为在险价值.</p>
+</aside></div><h3 class="group-heading" id="x2-7-2-b41">心理期望与数学期望</h3><div class="prose" data-visual-source-sha="aa11cd67be2fbab520402dcf1210a5991a53dbd85c4d98fad276aa7605459363" id="x2-7-2-b42"><p>从中文字义看, 期望是内心的期待, 是涉及人的心理的, 可以说是心理期望, 概率中所说的期望是数学期望, 这个概念在费马和帕斯卡讨论分奖金问题时就产生了. 心理期望和数学期望两者有什么关系呢? 拿一个随机商品来说, 它的期望值是不是与人们的心理期望重合呢？在多数情况下的确如此，因为期望是随机商品在大样本条件下的平均价值. 但是在一些极端情况下, 两者明显是背离的.</p>
+<p>考虑如下的游戏:请你抛掷 20 枚硬币，如果 20 枚都是正面朝上，那么你将得到 10 亿元，否则得 0 元. 这是一个随机产品，它的价值记为 <span class="math" data-tex="X" data-display="false"></span> ， <span class="math" data-tex="X" data-display="false"></span> 以大约一百万分之一的概率取值为 10 亿,剩余的概率取值为 0,因此数学期望 <span class="math" data-tex="E\left\lbrack  X\right\rbrack" data-display="false"></span> 约等于 1000 . 问题是你愿意花多少钱玩这个游戏, 也就是问它的心理期望是多少. 我想在大多数人的心目中，它的价值是远远小于 1000 元的. 如果这还不能说服你, 那我们来看经典的圣彼得堡悖论. 考虑这样一个游戏: 不断地抛掷一枚硬币直到出现正面朝上为止,如果正面朝上出现在第 <span class="math" data-tex="n" data-display="false"></span> 次,那么你得到 <span class="math" data-tex="{2}^{n}" data-display="false"></span> 元. 记这个游戏的价值是 <span class="math" data-tex="X" data-display="false"></span> . 因为第 <span class="math" data-tex="n" data-display="false"></span> 次首次出现正面朝上这个事件发生的概率是 <span class="math" data-tex="\frac{1}{{2}^{n}}" data-display="false"></span> ,得到的钱数是 <span class="math" data-tex="{2}^{n}" data-display="false"></span> ,所以由 Q 期望公式可以看出 <span class="math" data-tex="X" data-display="false"></span> 的数学期望是无穷大. 按照数学期望来看,无论你花多少钱玩这个游戏都是值得的. 但根据调查, 很少有人愿意花 25 元去参加一次这样的游戏. 现在你可以抛掷一枚硬币试一下，然后考虑一下，你愿意花多少钱玩这个游戏呢？或者说它在你的心里价值几何?</p>
+<hr />
+<p>圣彼得堡悖论是尼古拉・伯努利(N. Bernoulli, 他是证明大数定律的雅各布。 伯努利的侄子) 于 1738 年提出的.</p>
+<hr />
+</div></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x2-7-2" checked>随机变量的分布与特征</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

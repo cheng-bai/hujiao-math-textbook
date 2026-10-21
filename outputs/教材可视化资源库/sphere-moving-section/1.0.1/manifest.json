@@ -1,0 +1,287 @@
+{
+  "asset_id": "48acf738-88a1-5df4-8ea8-26ee2f141862",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:03Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "level": 0.8
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "ff8603d2bf9d2fba30e12e9dd451cbc1bbd7d76be266c6428e3655981349ee91",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-11-4-b4",
+          "rationale": "接替平面截球、垂足圆心与大圆小圆的构造长解释。",
+          "sectionId": "bx3-11-4",
+          "sourceSha256": "672c86f227d66f492de5bb595ed0cfd0d8149b6d1cb614d47f643983927f9acb"
+        }
+      ],
+      "sections": [
+        "bx3-11-4"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31449,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "ff8603d2bf9d2fba30e12e9dd451cbc1bbd7d76be266c6428e3655981349ee91"
+    },
+    {
+      "bytes": 13030,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "b9c853f8c325e4a17dfc3c13ab53bc787d5e01db2f1373421d13a7adb98f258b"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1451,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "295a618aea1cf07ad116d9f8d4276afc745b70a61ff79ce86ae945e1ff28dbb5"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 3511,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "526170bacf7a5005643fa27a586c5c1c507c93fcd49f1b9e0c101a4f9ad219c8"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "ad3fd69368970259f898b13540fea404ca5c537982a2c86f8846e03f123f1923"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 511,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "6eb71a100f945eeca2f8e77b1d356791ab4bce752ca189e4f41fb5b204dfb542"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "半圆面绕直径旋转一周生成球，半圆弧生成球面，球面上各点到球心距离均为R。任何过球心的直线都可作为球的旋转轴。平面截球，在平面到球心距离小于球半径时得到圆形截面。其圆心是球心到平面的垂足；经过球心的是大圆，其余为小圆；相切于一点与无交不属于圆截面。"
+    ],
+    "learning_goals": [
+      "移动截平面，观察截面半径与球心垂距的勾股关系。"
+    ],
+    "objects": [
+      "球的截面：圆怎样缩为一点"
+    ],
+    "parameters": {
+      "level": {
+        "default": 0.8,
+        "display_range": [
+          -2.5,
+          2.5
+        ],
+        "domain": "本实验允许输入范围 [-2.5, 2.5]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "移动截平面，观察截面半径与球心垂距的勾股关系。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "level": 0.8
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "sphere-moving-section",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "level": {
+        "maximum": 2.5,
+        "minimum": -2.5,
+        "type": "number"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "球的截面：圆怎样缩为一点",
+  "updated_at": "2026-10-21T06:06:17.515671Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128314Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "ff8603d2bf9d2fba30e12e9dd451cbc1bbd7d76be266c6428e3655981349ee91"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128314Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "ff8603d2bf9d2fba30e12e9dd451cbc1bbd7d76be266c6428e3655981349ee91"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

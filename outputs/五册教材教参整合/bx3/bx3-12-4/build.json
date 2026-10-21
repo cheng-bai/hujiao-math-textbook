@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-12-4",
+  "book_id": "bx3",
+  "section": "12.4",
+  "title": "随机事件的独立性",
+  "section_json": "batch/sections/bx3/bx3-12-4.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-12-4",
+  "fingerprint": "7be469f4c9f34874738603c958c0b36b8d369da53a22b69acafce1f6a6fab78e",
+  "status": "rendered",
+  "questions": 17,
+  "answers": 17,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "27175d444226a9d5afd464a8f8fbe6a83518a52105f9862b016573e492ac63e0",
+    "student.html": "89a635b1ca38f0875ca27870cc4faf40a9b7c44046192da5636d0e83ce5e4f39",
+    "student.zip": "55adcc1ee5dc6ec2773ac6caa678b2f43b06f27ccef56b420fabb63f90aed9ab",
+    "content.json": "91d0cb4b8ce197b31f360a4a7fe8e20f4fc40f5dca1626d84d32376c8dd33ce2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source": "sources/visuals/圆锥曲线实验室.html",
+  "source_sha256": "398ed8d0bc71e3469d48f8684b2571d7e4a6c2b0e335cb213d382041d70bfe60",
+  "adaptation": "hujiao-conic-labs/v1",
+  "assets": {
+    "ellipse-lab": {
+      "original_html_sha256": "a7fc791fc00263b91dfca72dd6dfcce3e50dbd4106556c937db505d239efee95",
+      "derived_files_sha256": {
+        "teacher": "ba097ee6ebf952b99a18791f3a730b5a7cf3d218fd09f0daff7fe4a689f33f8a",
+        "student": "9f882ab9bcfcac38597aa54a6864ddd30ae26694a8cd029588cbc442c3dad170"
+      },
+      "default_location": "定义与标准方程正文之后、例1之前",
+      "math_model": "unchanged"
+    },
+    "hyperbola-lab": {
+      "original_html_sha256": "47b7521a31f31201366aa8e2592a5da2375316722c8fb7417717f118a15e62ce",
+      "derived_files_sha256": {
+        "teacher": "47ecb3fc9bdbdbc09832914a5edd2962beb1d537e55d78dd33419e9dd0fa4812",
+        "student": "f8b9e513d1c598eb148b005644c5d7ae0ff18fb7353ff69e3a19790309eccaf2"
+      },
+      "default_location": "定义与标准方程正文之后、例1之前",
+      "math_model": "unchanged"
+    },
+    "parabola-lab": {
+      "original_html_sha256": "b67600ebea711c176a1870cc62eca9a0548a5835e321b3711a300e71e41013e9",
+      "derived_files_sha256": {
+        "teacher": "38e7441266b929b65371959d6584fe3befe0afc5295f66973521cfb024097e54",
+        "student": "9d7c8f7015377ab1fb2c1e03195dcfa70c9c738dbe075d6d90e6f654cc7db787"
+      },
+      "default_location": "定义与标准方程正文之后、例1之前",
+      "math_model": "unchanged"
+    }
+  },
+  "ellipse_reference": {
+    "requested_url": "http://127.0.0.1:53015/ellipse-definitions.html",
+    "local_file": "sources/visuals/ellipse-definitions.html",
+    "matches_embedded_ellipse": true,
+    "runtime_requires_server": false
+  }
+}

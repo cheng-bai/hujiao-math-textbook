@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-5-1",
+  "book_id": "bx1",
+  "section": "5.1",
+  "title": "函数",
+  "section_json": "batch/sections/bx1/bx1-5-1.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-5-1",
+  "fingerprint": "7767787cdb6e1c05a608dcfaa2c0f6a9c414280387ecc41e63384af68fd38e18",
+  "status": "rendered",
+  "questions": 16,
+  "answers": 16,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-8a295ca26900dc969254.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_5_746_937_554_306_0.jpg",
+      "sha256": "8a295ca26900dc969254fe02b6212b8564451a45062e14207806417199a30a8d",
+      "private": true
+    },
+    "images/book-a7b17dbc1d87a6fa3502.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_5_687_1450_672_652_0.jpg",
+      "sha256": "a7b17dbc1d87a6fa3502af919f9d03cef13caa2372264e2c17d098d06fd8e99c",
+      "private": false
+    },
+    "images/private-b9db681aea828b07d23b.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_6_485_494_278_253_0.jpg",
+      "sha256": "b9db681aea828b07d23bcbe3a66039ca8e4316b69bc4c2822ea78b9d8b8a59fb",
+      "private": true
+    },
+    "images/private-776528f866833ccfee0f.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_6_308_1062_628_408_0.jpg",
+      "sha256": "776528f866833ccfee0fff41d9a17ecfbd1788e70f389d79146a5190af851040",
+      "private": true
+    },
+    "images/private-d26dc4e3bc2f9d282e48.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_7_844_683_355_343_0.jpg",
+      "sha256": "d26dc4e3bc2f9d282e48880ad981e48622d79c9e72e799724b33c89c69a09609",
+      "private": true
+    },
+    "images/private-3ae048b4d944ed05dfa9.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_114_390_275_357_265_0.jpg",
+      "sha256": "3ae048b4d944ed05dfa973220e8cf03ad0fe0353143d2138893bdba84ebaa735",
+      "private": true
+    },
+    "images/private-70e121792221843d7754.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_114_927_287_388_234_0.jpg",
+      "sha256": "70e121792221843d77548bd27a1f17acacb7f2ed322a4f790059ef04ff9e0df2",
+      "private": true
+    },
+    "images/private-387f2c86d9f629532d71.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_114_354_645_393_153_0.jpg",
+      "sha256": "387f2c86d9f629532d71fc5a1804f2d7b05cc0d0f76b328d60fcf9320e6eac64",
+      "private": true
+    },
+    "images/private-ef6fc4d8c6dd7483eaae.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_114_922_555_321_332_0.jpg",
+      "sha256": "ef6fc4d8c6dd7483eaaefedcc8eb2c2f8a1211b8e970f7ad57ba85d178847de6",
+      "private": true
+    },
+    "images/book-691d17f1a6c61e1aec32.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_7_647_1769_381_346_0.jpg",
+      "sha256": "691d17f1a6c61e1aec32b648c4d16659304301313e6344fa22225dd8a41326fd",
+      "private": false
+    },
+    "images/book-502c4b5e07525682e040.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_8_269_967_1077_331_0.jpg",
+      "sha256": "502c4b5e07525682e0405b943b087df2b0890ed0de14c43230063a2b56dd910e",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
+  },
+  "student_images": [
+    "images/book-502c4b5e07525682e040.jpg",
+    "images/book-691d17f1a6c61e1aec32.jpg",
+    "images/book-a7b17dbc1d87a6fa3502.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "80a3d03b8bab6a6d9f58043c69cc7680c3e517193368f5bddea2d463b5f1ca14",
+    "student.html": "6dc39112fb16b4ae191db7661bc30d9ba6e14a20f9aacc990b133aa6633ba3f9",
+    "student.zip": "35e428801506d5f977bfc93dfce31ff1f1b8c1085079d551d3cc71532a8abeb2",
+    "content.json": "5b75e7b76a03b64c07445613f372c87eb6e8e1cc194bddeff8520e5ce410e075"
+  }
+}

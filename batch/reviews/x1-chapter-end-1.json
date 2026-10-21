@@ -1,0 +1,29 @@
+{
+  "section_id": "x1-chapter-end-1",
+  "status": "structure-pairing-reviewed",
+  "model_sha256": "4011ee1348cb884b65ec2c862c641138099fddd394e95ff2ab1febca8eafd5cd",
+  "coverage": {
+    "structure": "模型所有块的字段/ID/图路径/教参隔离标志与显式题号配对检查；人工重点另记",
+    "question_count": 24,
+    "answered_count": 24,
+    "source_hashes": {
+      "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+      "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+    },
+    "key_math_checks": [],
+    "focus_math_review": false,
+    "emphasis_count": 1,
+    "student_html_zip_static_check": {
+      "private_field_markers": [],
+      "disallowed_members": [],
+      "crc_error": null,
+      "scope": "字段/包内容静态检查，不代替浏览器和源OCR语义泄漏复核"
+    }
+  },
+  "issues": [],
+  "patches": [],
+  "limits": [
+    "未逐题复算；结构配对通过不等于数学通过。",
+    "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+  ]
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x1-4-4"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>4.4 数学归纳法 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/module-data-student.js"></script><script defer src="../_shared/visual-assets/conic-catalog.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第一册 / 第4章数列</div><div class="spine-number">4.4</div><nav aria-label="本节目录"><a href="#x1-4-4"><span>4.4</span>数学归纳法</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 4.4</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 4.4</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>数学归纳法<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第一册<br>第4章数列 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>3 个例题</span><span>13 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x1-4-4" data-title="数学归纳法"><section class="section-heading" id="x1-4-4"><span class="section-number">4.4</span><div><h2>数学归纳法</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="x1-4-4-b2">1 数学归纳法</h3><div class="prose" data-visual-source-sha="32f3010eceafc9cb0dbec87ea7d2e8b7bcb3b627795d47a4eea497cb2b7771d1" id="x1-4-4-b3"><p>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="{a}_{1} = 1" data-display="false"></span> ,且 <span class="math" data-tex="{a}_{n + 1} = \frac{{a}_{n}}{1 + {a}_{n}}(n = 1,2" data-display="false"></span> , <span class="math" data-tex="3,\cdots )" data-display="false"></span> . 利用数列的递推公式,可以得到 <span class="math" data-tex="{a}_{1} = 1,{a}_{2} = \frac{1}{2}" data-display="false"></span> , <span class="math" data-tex="{a}_{3} = \frac{1}{3},{a}_{4} = \frac{1}{4},\cdots" data-display="false"></span> ,进而猜想数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式应为 <span class="math" data-tex="{a}_{n} = \frac{1}{n}" data-display="false"></span> .</p>
+<aside class="key-point key-concept" id="x1-4-4-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>像这种由特殊到一般的推理方法, 叫做归纳法. 用归纳法可以帮助我们从一些具体事例中发现一般规律. 但是, 仅根据有限的特殊事例归纳得出的结论,不能确定它对后续的项也成立,所以上面这个猜想需要加以证明. 自然地,我们会想到从 <span class="math" data-tex="n = 5" data-display="false"></span> 开始再一个个往下验证,但不仅当 <span class="math" data-tex="n" data-display="false"></span> 较大时,验证起来会很麻烦, 而且证明 <span class="math" data-tex="n" data-display="false"></span> 取所有正整数都成立时,逐一验证是不可能的. 因此, 我们需要另辟蹊径, 寻求一种方法: 通过有限个步骤的推理,证明相应命题对 <span class="math" data-tex="n" data-display="false"></span> 取所有正整数时都成立.</p>
+</aside><p>我们先从多米诺骨牌说起. 这是一种码放骨牌的游戏, 码放时要保证任意相邻的两块骨牌, 若前一块骨牌倒下, 则后一块骨牌也要跟着倒下. 因此, 只要推倒第一块骨牌, 由于第一块骨牌倒下，可以导致第二块骨牌倒下；而第二块骨牌倒下， 又可导致第三块骨牌倒下……最后，不论有多少块骨牌，都能全部倒下. 综上所述, 在这个游戏中欲使所有多米诺骨牌全部倒下, 只需满足以下两个条件:</p>
+<p>(1)第一块骨牌倒下;</p>
+<p>(2)任意相邻的两块骨牌，前一块倒下一定导致后一块倒下.</p>
+<p>类似地,为证明前述数列的通项公式是 <span class="math" data-tex="{a}_{n} = \frac{1}{n}" data-display="false"></span> 的这个猜想, 可类比多米诺骨牌这个游戏, 将</p>
+<p>证得 <span class="math" data-tex="{a}_{1} = 1\;" data-display="false"></span> 类似于 第一块骨牌倒下;</p>
+<p>证得 <span class="math" data-tex="{a}_{2} = \frac{1}{2}\;" data-display="false"></span> 类似于 第二块骨牌倒下;</p>
+<p>......</p>
+<p>证得 <span class="math" data-tex="{a}_{n} = \frac{1}{n}\;" data-display="false"></span> 类似于 第 <span class="math" data-tex="n" data-display="false"></span> 块骨牌倒下.</p>
+<p>因此,为证明数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式是 <span class="math" data-tex="{a}_{n} = \frac{1}{n}" data-display="false"></span> ,即 <span class="math" data-tex="{a}_{n} = \frac{1}{n}" data-display="false"></span> 对于一切正整数 <span class="math" data-tex="n" data-display="false"></span> 均成立,就类似于要使所有的骨牌均倒下. 在 <span class="math" data-tex="n = 1" data-display="false"></span> 时猜想成立，就相当于游戏的条件( 1 )，而类似于条件( 2 )， 就要证明下面的一个递推关系:</p>
+<p>如果 <span class="math" data-tex="n = k" data-display="false"></span> ( <span class="math" data-tex="k" data-display="false"></span> 为正整数) 时上述猜想成立,即 <span class="math" data-tex="{a}_{k} = \frac{1}{k}" data-display="false"></span> 成立, 那么当 <span class="math" data-tex="n = k + 1" data-display="false"></span> 时该猜想也成立,即 <span class="math" data-tex="{a}_{k + 1} = \frac{1}{k + 1}" data-display="false"></span> 成立.</p>
+<p>事实上,如果 <span class="math" data-tex="{a}_{k} = \frac{1}{k}" data-display="false"></span> ,那么</p>
+<div class="math display" data-tex="{a}_{k + 1} = \frac{{a}_{k}}{1 + {a}_{k}} = \frac{\frac{1}{k}}{1 + \frac{1}{k}} = \frac{1}{k + 1}," data-display="true"></div>
+<p>即 <span class="math" data-tex="n = k + 1" data-display="false"></span> 时猜想也成立.</p>
+<p>这样,就可以得到对任意的正整数 <span class="math" data-tex="n" data-display="false"></span> ,猜想都成立,即数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式为 <span class="math" data-tex="{a}_{n} = \frac{1}{n}" data-display="false"></span> .</p>
+<p>一般地,证明一个与正整数 <span class="math" data-tex="n" data-display="false"></span> 有关的命题,可按下列步骤进行:</p>
+<p>(1)证明当 <span class="math" data-tex="n" data-display="false"></span> 取第一个值 <span class="math" data-tex="{n}_{0}" data-display="false"></span> ( <span class="math" data-tex="{n}_{0}" data-display="false"></span> 为正整数)时，命题成立；</p>
+<p>(2)假设当 <span class="math" data-tex="n = k" data-display="false"></span> ( <span class="math" data-tex="k \geq  {n}_{0}" data-display="false"></span> ， <span class="math" data-tex="k" data-display="false"></span> 为正整数)时命题成立，证明当 <span class="math" data-tex="n = k + 1" data-display="false"></span> 时命题也成立.</p>
+<aside class="key-point key-concept" id="x1-4-4-definition-3-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>那么,命题对于从 <span class="math" data-tex="{n}_{0}" data-display="false"></span> 开始的所有正整数 <span class="math" data-tex="n" data-display="false"></span> 都成立. 这种证明方法叫做数学归纳法 (mathematical induction).</p>
+</aside><p>数学归纳法是证明有关正整数命题的一种方法. 步骤 (1) 是命题论证的基础, 而步骤 (2) 是判断命题的正确性能否递推下去的保证. 这两个步骤是缺一不可的.</p>
+</div><article class="question" id="x1-4-4-ex-1" data-question-id="x1-4-4-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 用数学归纳法证明:</p>
+<div class="math display" data-tex="1 + 3 + 5 + \cdots  + \left( {{2n} - 1}\right)  = {n}^{2}\text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><article class="question" id="x1-4-4-ex-2" data-question-id="x1-4-4-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 用数学归纳法证明:</p>
+<div class="math display" data-tex="{1}^{3} + {2}^{3} + {3}^{3} + \cdots  + {n}^{3} = {\left\lbrack  \frac{n\left( {n + 1}\right) }{2}\right\rbrack  }^{2}\text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><h3 class="group-heading" id="x1-4-4-b6">练习 4.4(1)</h3><article class="question" id="x1-4-4-p441-1" data-question-id="x1-4-4-p441-1" data-category="practice"><div class="question-label">练习4.4(1) · 1</div><div class="question-body"><ol>
+<li>请指出下列各题用数学归纳法证明过程中的错误.</li>
+</ol>
+<p>(1)设 <span class="math" data-tex="n" data-display="false"></span> 为正整数，求证: <span class="math" data-tex="2 + 4 + 6 + \cdots  + {2n} = {n}^{2} + n + 1" data-display="false"></span> .</p>
+<p>证明: 假设当 <span class="math" data-tex="n = k" data-display="false"></span> ( <span class="math" data-tex="k" data-display="false"></span> 为正整数) 时等式成立,即有</p>
+<div class="math display" data-tex="2 + 4 + 6 + \cdots  + {2k} = {k}^{2} + k + 1." data-display="true"></div>
+<p>那么当 <span class="math" data-tex="n = k + 1" data-display="false"></span> 时,就有</p>
+<div class="math display" data-tex="2 + 4 + 6 + \cdots  + {2k} + 2\left( {k + 1}\right)" data-display="true"></div>
+<div class="math display" data-tex="= {k}^{2} + k + 1 + 2\left( {k + 1}\right)" data-display="true"></div>
+<div class="math display" data-tex="= {\left( k + 1\right) }^{2} + \left( {k + 1}\right)  + 1." data-display="true"></div>
+<p>因此,对于任意正整数 <span class="math" data-tex="n" data-display="false"></span> 等式都成立.</p>
+<p>(2)设 <span class="math" data-tex="n" data-display="false"></span> 为正整数，求证: <span class="math" data-tex="1 + 2 + {2}^{2} + \cdots  + {2}^{n - 1} = {2}^{n} - 1" data-display="false"></span> .</p>
+<p>证明: ① 当 <span class="math" data-tex="n = 1" data-display="false"></span> 时,左边 <span class="math" data-tex="= 1" data-display="false"></span> ,右边 <span class="math" data-tex="= 1" data-display="false"></span> ,等式成立.</p>
+<p>② 假设当 <span class="math" data-tex="n = k" data-display="false"></span> ( <span class="math" data-tex="k" data-display="false"></span> 为正整数) 时，等式成立，即有</p>
+<div class="math display" data-tex="1 + 2 + {2}^{2} + \cdots  + {2}^{k - 1} = {2}^{k} - 1." data-display="true"></div>
+<p>那么当 <span class="math" data-tex="n = k + 1" data-display="false"></span> 时,由等比数列求和公式,就有</p>
+<div class="math display" data-tex="1 + 2 + {2}^{2} + \cdots  + {2}^{k - 1} + {2}^{k}" data-display="true"></div>
+<div class="math display" data-tex="= \frac{1 \times  \left( {1 - {2}^{k + 1}}\right) }{1 - 2}" data-display="true"></div>
+<div class="math display" data-tex="= {2}^{k + 1} - 1\text{ , }" data-display="true"></div>
+<p>等式也成立.</p>
+<p>根据①和②，由数学归纳法可以断定 <span class="math" data-tex="1 + 2 + {2}^{2} + \cdots  + {2}^{n - 1} = {2}^{n} - 1" data-display="false"></span> 对任意正整数 <span class="math" data-tex="n" data-display="false"></span> 都成立.</p>
+</div></article><article class="question" id="x1-4-4-p441-2" data-question-id="x1-4-4-p441-2" data-category="practice"><div class="question-label">练习4.4(1) · 2</div><div class="question-body"><ol start="2">
+<li>用数学归纳法证明:</li>
+</ol>
+<div class="math display" data-tex="- 1 + 3 - 5 + \cdots  + {\left( -1\right) }^{n}\left( {{2n} - 1}\right)  = {\left( -1\right) }^{n}n\text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><article class="question" id="x1-4-4-p441-3" data-question-id="x1-4-4-p441-3" data-category="practice"><div class="question-label">练习4.4(1) · 3</div><div class="question-body"><ol start="3">
+<li>用数学归纳法证明:</li>
+</ol>
+<div class="math display" data-tex="1 \times  2 + 2 \times  3 + 3 \times  4 + \cdots  + n\left( {n + 1}\right)  = \frac{n\left( {n + 1}\right) \left( {n + 2}\right) }{3}\text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><h3 class="group-heading" id="x1-4-4-b10">2 数学归纳法的应用</h3><div class="prose" data-visual-source-sha="ecf3f0a229c225f5adbd34d17827933107a7b5e3895eb571d68d649bb6ac2a76" id="x1-4-4-b11"><p>我们已经学习了用数学归纳法证明一些命题, 但是这些命题又是如何得到的呢? 在数学的探索中, 为了寻求一般的规律, 往往先考虑一些特例, 进行归纳, 形成猜想, 再去证明这些猜想正确与否. 一般与正整数有关的命题也可以通过这样的途径得到.</p>
+<hr />
+<p>“大胆猜想、小心求证”是科学研究的基本方法. 纵观数学发展的历史，很多著名的数学结论都经历了先猜想再证明的过程.</p>
+<hr />
+</div><article class="question" id="x1-4-4-ex-3" data-question-id="x1-4-4-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="\left\{  \begin{array}{l} {a}_{n + 1} = {a}_{n} + \frac{n}{{a}_{n}}, \\  {a}_{1} = 1. \end{array}\right." data-display="false"></span> 尝试通过计算数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前四项,猜想数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式,并用数学归纳法加以证明.</p>
+</div></article><h3 class="group-heading" id="x1-4-4-b13">练习 4.4(2)</h3><article class="question" id="x1-4-4-p442-1" data-question-id="x1-4-4-p442-1" data-category="practice"><div class="question-label">练习4.4(2) · 1</div><div class="question-body"><ol>
+<li>已知数列: <span class="math" data-tex="\frac{1}{1 \times  2},\frac{1}{2 \times  3},\frac{1}{3 \times  4},\cdots ,\frac{1}{n\left( {n + 1}\right) },\cdots" data-display="false"></span> ,设 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 为该数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和. 计算 <span class="math" data-tex="{S}_{1},{S}_{2},{S}_{3},{S}_{4}" data-display="false"></span> 的值; 根据计算的结果,猜想</li>
+</ol>
+<div class="math display" data-tex="{S}_{n} = \frac{1}{1 \times  2} + \frac{1}{2 \times  3} + \frac{1}{3 \times  4} + \cdots  + \frac{1}{n\left( {n + 1}\right) }\text{ ( }n\text{ 为正整数) }" data-display="true"></div>
+<p>的表达式, 并用数学归纳法加以证明.</p>
+</div></article><article class="question" id="x1-4-4-p442-2" data-question-id="x1-4-4-p442-2" data-category="practice"><div class="question-label">练习4.4(2) · 2</div><div class="question-body"><ol start="2">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="{a}_{1} = 1,{a}_{n + 1} = \frac{3{a}_{n}}{{a}_{n} + 3},{a}_{n} \neq  0" data-display="false"></span> .</li>
+</ol>
+<p>(1)求 <span class="math" data-tex="{a}_{2},{a}_{3},{a}_{4}" data-display="false"></span> ；</p>
+<p>(2)猜想数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式，并用数学归纳法加以证明.</p>
+</div></article><article class="question" id="x1-4-4-p442-3" data-question-id="x1-4-4-p442-3" data-category="practice"><div class="question-label">练习4.4(2) · 3</div><div class="question-body"><ol start="3">
+<li>是否存在常数 <span class="math" data-tex="a" data-display="false"></span> 、 <span class="math" data-tex="b" data-display="false"></span> ，使等式</li>
+</ol>
+<div class="math display" data-tex="{1}^{2} + {3}^{2} + {5}^{2} + \cdots  + {\left( 2n - 1\right) }^{2} = a{n}^{3} + {bn}" data-display="true"></div>
+<p>对任意正整数 <span class="math" data-tex="n" data-display="false"></span> 都成立? 证明你的结论.</p>
+</div></article><h3 class="group-heading" id="x1-4-4-b17">习题 4.4</h3><h3 class="group-heading" id="x1-4-4-b18">A 组</h3><article class="question" id="x1-4-4-h44A-1" data-question-id="x1-4-4-h44A-1" data-category="homework"><div class="question-label">习题4.4A · 1</div><div class="question-body"><ol>
+<li>用数学归纳法证明 <span class="math" data-tex="1 + a + {a}^{2} + \cdots  + {a}^{n + 1} = \frac{1 - {a}^{n + 2}}{1 - a}\left( {a \neq  1, n}\right." data-display="false"></span> 为正整数 <span class="math" data-tex=")" data-display="false"></span> . 在验证 <span class="math" data-tex="n = 1" data-display="false"></span> 等式成立时,等式左边为 ( )</li>
+</ol>
+<p>A. 1; B. <span class="math" data-tex="1 + a" data-display="false"></span> ; C. <span class="math" data-tex="1 + a + {a}^{2}" data-display="false"></span> ; D. <span class="math" data-tex="1 + a + {a}^{2} + {a}^{3}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-4-h44A-2" data-question-id="x1-4-4-h44A-2" data-category="homework"><div class="question-label">习题4.4A · 2</div><div class="question-body"><ol start="2">
+<li>用数学归纳法证明:</li>
+</ol>
+<div class="math display" data-tex="1 \times  2 + 2 \times  5 + \cdots  + n\left( {{3n} - 1}\right)  = {n}^{2}\left( {n + 1}\right) \text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><article class="question" id="x1-4-4-h44A-3" data-question-id="x1-4-4-h44A-3" data-category="homework"><div class="question-label">习题4.4A · 3</div><div class="question-body"><ol start="3">
+<li>用数学归纳法证明:</li>
+</ol>
+<div class="math display" data-tex="\frac{1}{1 \times  3} + \frac{1}{3 \times  5} + \frac{1}{5 \times  7} + \cdots  + \frac{1}{\left( {{2n} - 1}\right) \left( {{2n} + 1}\right) } = \frac{n}{{2n} + 1}\text{ ( }n\text{ 为正整数). }" data-display="true"></div>
+</div></article><article class="question" id="x1-4-4-h44A-4" data-question-id="x1-4-4-h44A-4" data-category="homework"><div class="question-label">习题4.4A · 4</div><div class="question-body"><ol start="4">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="{a}_{1} = 1" data-display="false"></span> ,设该数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,且 <span class="math" data-tex="{S}_{n},{S}_{n + 1},2{a}_{1}" data-display="false"></span> 成等差数列. 用数学归纳法证明: <span class="math" data-tex="{S}_{n} = \frac{{2}^{n} - 1}{{2}^{n - 1}}" data-display="false"></span> ( <span class="math" data-tex="n" data-display="false"></span> 为正整数).</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-4-4-b23">B 组</h3><article class="question" id="x1-4-4-h44B-1" data-question-id="x1-4-4-h44B-1" data-category="homework"><div class="question-label">习题4.4B · 1</div><div class="question-body"><ol>
+<li>用数学归纳法证明:</li>
+</ol>
+<p><span class="math" data-tex="1 \cdot  n + 2 \cdot  \left( {n - 1}\right)  + 3 \cdot  \left( {n - 2}\right)  + \cdots  + n \cdot  1 = \frac{1}{6}n\left( {n + 1}\right) \left( {n + 2}\right)" data-display="false"></span> ( <span class="math" data-tex="n" data-display="false"></span> 为正整数).</p>
+</div></article><article class="question" id="x1-4-4-h44B-2" data-question-id="x1-4-4-h44B-2" data-category="homework"><div class="question-label">习题4.4B · 2</div><div class="question-body"><ol start="2">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="{a}_{1} = \frac{1}{2}" data-display="false"></span> ,且对任意正整数 <span class="math" data-tex="n,{a}_{1} + {a}_{2} + \cdots  + {a}_{n} = {n}^{2}{a}_{n}" data-display="false"></span> 成立. 试用数学归纳法证明: <span class="math" data-tex="{a}_{n} = \frac{1}{n\left( {n + 1}\right) }" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="x1-4-4-h44B-3" data-question-id="x1-4-4-h44B-3" data-category="homework"><div class="question-label">习题4.4B · 3</div><div class="question-body"><ol start="3">
+<li>设 <span class="math" data-tex="{a}_{n} = 1 + \frac{1}{2} + \frac{1}{3} + \cdots  + \frac{1}{n}\left( {n\text{ 为正整数 }}\right)" data-display="false"></span> ,是否存在一次函数 <span class="math" data-tex="g\left( x\right)  = {kx} + b" data-display="false"></span> ,使得等式</li>
+</ol>
+<div class="math display" data-tex="{a}_{1} + {a}_{2} + {a}_{3} + \cdots  + {a}_{n - 1} = g\left( n\right) \left( {{a}_{n} - 1}\right)" data-display="true"></div>
+<p>对大于 1 的正整数 <span class="math" data-tex="n" data-display="false"></span> 都成立? 证明你的结论.</p>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x1-4-4" checked>数学归纳法</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

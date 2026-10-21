@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "key": "population",
+      "label": "第一层总体占比",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "sample",
+      "label": "第一层样本占比",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><msub><mi>n</mi><mi>i</mi></msub><msub><mi>N</mi><mi>i</mi></msub></mfrac><mo>=</mo><mfrac><mi>n</mi><mi>N</mi></mfrac></math>",
+  "goal": "改变两层总体比例与抽样配额，显示样本构成偏差。",
+  "id": "stratified-sampling",
+  "initial": {
+    "population": 0.3,
+    "sample": 0.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-13-3-b16",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "bx3-13-3"
+    }
+  ],
+  "summary": "按比例分配时 nᵢ/Nᵢ=n/N，样本层比例匹配总体。对不同层使用不同比例抽样时，简单样本平均可能需加权，不能直接当总体比例。",
+  "title": "分层抽样保持总体构成"
+}

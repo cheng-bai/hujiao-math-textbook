@@ -1,0 +1,38 @@
+{
+  "controls": [
+    {
+      "key": "case",
+      "label": "函数类型",
+      "options": [
+        {
+          "label": "x³：驻点非极值",
+          "value": "x3"
+        },
+        {
+          "label": "sin x：极大极小交替",
+          "value": "sin"
+        },
+        {
+          "label": "x⁴：极小值",
+          "value": "x4"
+        }
+      ],
+      "type": "select"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>f</mi><mo>′</mo><mo>:</mo><mo>+</mo><mo>→</mo><mo>−</mo><mo>⇒</mo><mi>极大值</mi><mo>;</mo><mo>−</mo><mo>→</mo><mo>+</mo><mo>⇒</mo><mi>极小值</mi></math>",
+  "goal": "同时看函数图像和导数符号，区分极大、极小与非极值驻点。",
+  "id": "derivative-extrema",
+  "initial": {
+    "case": "x3"
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-5-3-b14",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "x2-5-3"
+    }
+  ],
+  "summary": "极值是邻域内的局部性质，不等于整个定义域上的最值。在连续且两侧可导的邻域，导数由正变负则取得极大值，由负变正则取得极小值；驻点仅是候选，导数为零并不充分。比较 x³、x⁴、sin x，观察导数的符号如何决定函数的升降。",
+  "title": "导数符号与极值"
+}

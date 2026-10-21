@@ -1,0 +1,198 @@
+[
+  {
+    "sectionId": "bx2-8-1",
+    "blockIndex": 4,
+    "before": [
+      {
+        "id": "key-vector-equality",
+        "kind": "concept",
+        "title": "相等向量：比较模与方向",
+        "start": 1452,
+        "end": 1659,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "after": [
+      {
+        "id": "key-vector-equality",
+        "kind": "concept",
+        "title": "相等向量：比较模与方向",
+        "start": 1578,
+        "end": 1785,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "reason": "Rebase emphasis offsets after sample image URLs become absolute; no prose or formula edits."
+  },
+  {
+    "sectionId": "bx2-8-1",
+    "blockIndex": 17,
+    "before": [
+      {
+        "id": "key-addition-laws",
+        "kind": "formula",
+        "title": "加法交换律与结合律",
+        "start": 2856,
+        "end": 3214,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "after": [
+      {
+        "id": "key-addition-laws",
+        "kind": "formula",
+        "title": "加法交换律与结合律",
+        "start": 3108,
+        "end": 3466,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "reason": "Rebase emphasis offsets after sample image URLs become absolute; no prose or formula edits."
+  },
+  {
+    "sectionId": "bx2-8-1",
+    "blockIndex": 29,
+    "before": [
+      {
+        "id": "key-scalar-product",
+        "kind": "formula",
+        "title": "数乘：模的变化与方向",
+        "start": 558,
+        "end": 1031,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-parallel-condition",
+        "kind": "condition",
+        "title": "平行的代数表示：基准向量必须非零",
+        "start": 2563,
+        "end": 2698,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-scalar-laws",
+        "kind": "formula",
+        "title": "数乘运算律",
+        "start": 2724,
+        "end": 3175,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-unit-vector",
+        "kind": "condition",
+        "title": "单位化：先检查向量非零",
+        "start": 3175,
+        "end": 3473,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "after": [
+      {
+        "id": "key-scalar-product",
+        "kind": "formula",
+        "title": "数乘：模的变化与方向",
+        "start": 621,
+        "end": 1094,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-parallel-condition",
+        "kind": "condition",
+        "title": "平行的代数表示：基准向量必须非零",
+        "start": 2626,
+        "end": 2761,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-scalar-laws",
+        "kind": "formula",
+        "title": "数乘运算律",
+        "start": 2787,
+        "end": 3238,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-unit-vector",
+        "kind": "condition",
+        "title": "单位化：先检查向量非零",
+        "start": 3238,
+        "end": 3536,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "reason": "Rebase emphasis offsets after sample image URLs become absolute; no prose or formula edits."
+  },
+  {
+    "sectionId": "bx2-8-2",
+    "blockIndex": 4,
+    "before": [
+      {
+        "id": "key-projection-definition",
+        "kind": "concept",
+        "title": "投影向量：投影两个端点，再确定方向",
+        "start": 387,
+        "end": 803,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-vector-angle",
+        "kind": "condition",
+        "title": "向量夹角：先把两个非零向量移到同一起点",
+        "start": 1097,
+        "end": 1748,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-projection-formula",
+        "kind": "formula",
+        "title": "投影公式：目标方向必须由非零向量确定",
+        "start": 1826,
+        "end": 2925,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-signed-projection",
+        "kind": "concept",
+        "title": "数量投影有正负；它的绝对值才是投影的模",
+        "start": 2927,
+        "end": 3631,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "after": [
+      {
+        "id": "key-projection-definition",
+        "kind": "concept",
+        "title": "投影向量：投影两个端点，再确定方向",
+        "start": 450,
+        "end": 866,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-vector-angle",
+        "kind": "condition",
+        "title": "向量夹角：先把两个非零向量移到同一起点",
+        "start": 1223,
+        "end": 1874,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-projection-formula",
+        "kind": "formula",
+        "title": "投影公式：目标方向必须由非零向量确定",
+        "start": 2015,
+        "end": 3114,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-signed-projection",
+        "kind": "concept",
+        "title": "数量投影有正负；它的绝对值才是投影的模",
+        "start": 3116,
+        "end": 3820,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "reason": "Rebase emphasis offsets after sample image URLs become absolute; no prose or formula edits."
+  }
+]

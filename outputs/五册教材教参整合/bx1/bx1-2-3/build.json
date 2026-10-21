@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-2-3",
+  "book_id": "bx1",
+  "section": "2.3",
+  "title": "基本不等式及其应用",
+  "section_json": "batch/sections/bx1/bx1-2-3.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-2-3",
+  "fingerprint": "32e0b5e75da616a369d6cd6a08da166eab1de052d9993ead9c0f33a2428c56d7",
+  "status": "rendered",
+  "questions": 31,
+  "answers": 31,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-a56c71b0fea95c60084f.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_26_1130_631_345_297_0.jpg",
+      "sha256": "a56c71b0fea95c60084f88795d3f9354dec53678b382eec64df10707855f2b4b",
+      "private": false
+    },
+    "images/book-391e7885c064ea7638b1.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_29_444_1304_293_267_0.jpg",
+      "sha256": "391e7885c064ea7638b1fde76c7386a10c89b4b4f0e98519d66f9563067a9b6c",
+      "private": false
+    },
+    "images/book-c6c1621909dc37d1aa56.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_29_948_1183_287_388_0.jpg",
+      "sha256": "c6c1621909dc37d1aa567a4e08fd4b34a9b8d489c85eb1eadefe038206c3025c",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/02 必修第一册 第2章 等式与不等式.md": "cc5eeb30b1f69bc04a48ef572b3efe6e543e8ed1f104ee17941ef6571f86e334"
+  },
+  "student_images": [
+    "images/book-391e7885c064ea7638b1.jpg",
+    "images/book-a56c71b0fea95c60084f.jpg",
+    "images/book-c6c1621909dc37d1aa56.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "ac476b787fc959575d066d4af57d5bc055e82525af2b49e167b05eb9dc8402af",
+    "student.html": "4618f956fd5d2f95933b7bcb1c1db638f48ebe5ca44cd98a910e566cc206307d",
+    "student.zip": "b0487156830d41a90034e2ed07f1fb05efd5ef2fe0a58674358d0e8087819657",
+    "content.json": "dcc9e7532f901f8ff93d5cad84f8dea3e6bbe96c97b05b9ac28b2c17e03e6bfa"
+  }
+}

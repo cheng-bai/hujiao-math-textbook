@@ -1,0 +1,55 @@
+{
+  "controls": [
+    {
+      "key": "amplitude",
+      "label": "振幅 A",
+      "max": 3,
+      "min": 0.5,
+      "step": 0.25,
+      "type": "range"
+    },
+    {
+      "key": "omega",
+      "label": "圆频率 ω",
+      "max": 3,
+      "min": 0.5,
+      "step": 0.25,
+      "type": "range"
+    },
+    {
+      "key": "phase",
+      "label": "初相 φ（度）",
+      "max": 180,
+      "min": -180,
+      "step": 15,
+      "type": "range"
+    },
+    {
+      "key": "x",
+      "label": "观察点 x（弧度）",
+      "max": 5,
+      "min": -5,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mi>sin</mi><mo>[</mo><mi>ω</mi><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mi>φ</mi><mi>ω</mi></mfrac><mo>)</mo><mo>]</mo><mo>;</mo><mspace width=\"1em\"/><mi>T</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mi>f</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></mrow></math>",
+  "goal": "用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。",
+  "id": "sine-transform",
+  "initial": {
+    "amplitude": 1.5,
+    "omega": 1,
+    "phase": 30,
+    "x": 0
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-7-3-b2",
+      "rationale": "覆盖本节原prose第2块：用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx2-7-3"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "振动模型中 A>0 为振幅，ω>0 为圆频率，周期 T=2π/ω，频率 f=1/T=ω/(2π)；相位为 ωx+φ，初相为 φ。A 改变纵向幅度，ω 改变周期；水平位移是 -φ/ω 而非 -φ。负 A 或负 ω 可由诱导公式化归。时钟顺时针的负角速度情境和弹簧照片保留在原文。",
+  "title": "振幅、周期、初相：不要把 φ 误当横移量"
+}

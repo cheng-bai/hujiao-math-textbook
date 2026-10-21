@@ -1,0 +1,1169 @@
+{
+  "schema_version": 1,
+  "id": "bx1-4-2",
+  "book_id": "bx1",
+  "book_title": "必修第一册",
+  "chapter": "4",
+  "chapter_title": "第4章幂函数、指数函数与对数函数",
+  "section": "4.2",
+  "title": "指数函数",
+  "sources": {
+    "book": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/第4章幂函数、指数函数与对数函数-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/04 必修第一册 第4章 幂函数、指数函数 与对数函数.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/第4章幂函数、指数函数与对数函数-dollar.md": "5372bd5efc0896d012fb4b364942ef4847d974ce92412f87012696e1b0e9c07b",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/04 必修第一册 第4章 幂函数、指数函数 与对数函数.md": "f07371ac55e403106c1582ef27779ce7caabcbe643325cca7f18e478a7449ac8"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "指数函数",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 275,
+          "end": 275
+        }
+      ],
+      "id": "bx1-4-2",
+      "number": "4.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 4.2 指数函数\n\n### 教学重点\n\n指数函数的定义与图像, 指数函数的性质: 能从具体的实例感受指数函数的应用价值, 理解指数函数的概念, 作出具体的指数函数的图像. 能利用从特殊到一般的方法, 归纳指数函数的图像特征, 并在图像表示的基础上, 用代数运算的方法研究指数函数的性质, 进一步体会运用图像和代数运算是研究函数性质的一般方法. 能建立相应的指数函数模型, 解决和解释现实生活中的有关问题.\n\n### 内容分析\n\n本节从具体的折纸问题入手,引入指数函数的概念,体会指数函数具有“底数固定, 幂随着指数的变化而变化”的特征. 通过类比, 将研究幂函数的图像与性质的方法, 用于指数函数的图像与性质的研究. 利用“由特殊到一般”“分类讨论”的数学思想方法,在底数 $a > 1$ 和 $0 < a < 1$ 两种不同的情况下,探究指数函数的图像与性质,并利用幂的基本不等式, 证明指数函数在底数大于 1 时的单调性.\n\n为了使学生了解指数函数模型的实际背景, 认识数学与现实生活及其他学科的联系, 在本节的最后讲述了“种群问题”, 旨在让学生进一步认识数学的应用价值, 树立用数学解决现实问题的意识.\n\n例 1 旨在通过解方程, 求指数函数的函数表达式, 加深对指数函数概念的理解. 习题 4.2A 组第 1 题是该例题的配套习题, 旨在巩固概念、夯实基础.\n\n例 2 与例 3 旨在研究指数函数的定义与图像. 习题 4.2A 组第 3 题, B 组第 1 题是该组例题的配套习题. 其中, 4.2A 组第 3 题在考察指数函数图像的同时, 也考察了图像的平移； ${4.2}\\mathrm{\\;B}$ 组第 1 题是该组习题的延展,要求学生在不同的情况下学会分析图像的各种可能性.\n\n例 4 至例 6 旨在体会指数函数单调性的应用.\n\n例 4 旨在应用指数函数的单调性 “比较两个数的大小”,进而熟悉指数函数的性质. 解决该问题的难点在于要建立用函数的观点解决问题的意识, 特别是在解决第 (2)小题时,两个数的底数不相等,建立合适的函数模型是解决该问题的关键. 第(3) 小题的目的是培养学生分类讨论的思想.\n\n例 5 旨在应用指数函数的单调性解不等式, 引导学生学会将底数“化异为同”的方法.\n\n例 6 旨在利用指数函数的单调性解决闭区间上的最值问题.\n\n习题 4.2A 组第 6、7、8 题, B 组第 4、5 题是该组例题的配套习题, 其中 A 组第 6、7、8 题, 旨在巩固概念、夯实基础, B 组第 4、5 题是该组例题的延展.\n\n例 7 旨在让学生体会指数增长, 初步感受指数爆炸的含义. 在建立入侵物种的种群数量增长模型之后, 利用该模型对未来作出预期, 以便采取有效的措施及早进行干预. 习题 4.2A 组第 9 题, B 组第 2 题是该组例题的配套习题.\n\n### 注意事项\n\n在指数函数的教学中, 不仅要让学生理解指数函数的图像与性质, 更要以此为载体, 进一步学会用函数图像和代数运算揭示函数的主要性质.\n\n区别于以往的教材, 本节补充了对指数函数底数范围的说明. 对于指数函数之所以要求底数大于 0,可在教学中适当举例,帮助学生理解. 例如,当 $a < 0$ 时,指数 $x$ 取 $\\frac{1}{2},{a}^{x}$ 无意义; 又如,当 $a = 0$ 时,指数 $x$ 取负数, ${a}^{x}$ 无意义. 需注意的是,以上的举例只能说明,要保证对所有的实数 $x,{a}^{x}$ 都有意义, $a$ 不能小于或等于 0 . 但 $a \\; > 0$ 时,是否对所有的实数 $x,{a}^{x}$ 都有意义,仍与实数指数幂的定义有关,不必过分强调.\n\n在证明 “指数函数 $y = {a}^{x}$ 的图像与指数函数 $y = {\\left( {a}^{-1}\\right) }^{x}$ 的图像关于 $y$ 轴对称” 时, 要明确其与证明“幂函数 $y = {x}^{-\\frac{2}{3}}$ 的图像关于 $y$ 轴对称”的区别,前者是针对两个函数之间的图像特征, 后者是针对某个函数自身的, 不可混为一谈.\n\n本节对指数函数的定义还是侧重于变量与变量之间的依赖关系, 很多问题的处理要区别于“二期课改”教材的处理方式. 例如,教材中并没有定义指数函数的值域,只是强调了指数函数的函数值恒正,这与指明指数函数的值域为 $\\left( {0, + \\infty }\\right)$ 是有区别的, 前者只是后者的必要条件. 教学中要淡化值域, 避免过早引入值域概念.\n\n例 6 旨在说明指数函数的单调性的应用. 要弱化最值概念, 这里对最值的理解还是停留于初中时“图像最高点 (低) 点的纵坐标是函数的最大 (小) 值”.\n\n指数函数的应用, 不仅是用指数函数解决数学问题, 也指用指数函数解决实际问题.\n\n### 教学建议\n\n在引入指数函数时,可适当复习幂函数的概念,提示学生“幂函数具有指数固定, 幂随着底数的变化而变化的特征”, 启发学生发现指数函数的变化规律.\n\n教学中要注意站在系统与整体的高度组织教学, 力求让学生对知识的发生、发展有较为全面的认识.\n\n在教学中要充分体现 “数形结合” “从特殊到一般” 和 “类比” 的数学思想方法. 对学有余力的学生, 可创设适当的问题情境, 对部分性质和内容, 如函数值的分布等, 进行自主探究. 若学生在学习中遇到障碍, 可适当复习回顾幂函数的图像与性质.\n\n“当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数”和“当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数”的探究方式,与幂函数情形是完全类似的,可视学生的具体情况, 设计不同的探究活动. 例如, 可让学生自主探究在上述两种情况下指数函数的单调性; 亦可在介绍 $a > 1$ 的情况之后,让学生自主探究在 $0 < a < 1$ 时,指数函数在 $\\mathbf{R}$ 上是严格减函数的定义与推导过程.\n\n教学中可借助信息技术探究指数函数的图像与性质. 例如, 引导学生用图形计算器多作几个指数函数的图形,然后通过底数 $a$ 的动态变化展示函数图像的分布情况. 这有利于发现指数函数的图像在底数 $a > 1$ 和 $0 < a < 1$ 两种情况下有什么不同,使学生比较容易地概括出指数函数的性质.\n\n在引入指数函数概念时, 可结合生活中的实例, 让学生体会指数函数的现实背景. 鼓励学生收集、阅读一些现实生活、生产实际或经济领域中的指数函数模型, 体会指数函数的应用价值, 培养与提升数学建模的素养.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 122,
+          "end": 177
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 指数函数的定义与图像",
+      "markdown": "### 1 指数函数的定义与图像",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 277,
+          "end": 277
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "研究这样一个问题: 一张纸对折一次, 由 1 层变为 2 层, 再对折一次,由 2 层变为 4 层, $\\cdots \\cdots$ ,对折 $x$ 次后,层数 $y$ 与对折次数 $x$ 的函数关系为 $y = {2}^{x}$ .\n\n将幂的底数 $a$ 固定,指数用变量 $x$ 代替,研究幂 ${a}^{x}$ 随 $x$ 变化而变化的规律, 即用\n\n$$\ny = {a}^{x}\n$$\n\n来描述 $y$ 与 $x$ 之间的关系,就得到指数函数.\n\n这里首先要假设 $a > 0$ ,以保证对所有的实数 $x,{a}^{x}$ 都有意义. 还要假设 $a \\neq  1$ ,因为如果 $a = 1,{a}^{x}$ 就恒等于 1,这种极为特殊的情况不必专门研究.\n\n定义 当底数 $a$ 固定,且 $a > 0, a \\neq  1$ 时,等式\n\n$$\ny = {a}^{x}\n$$\n\n确定了变量 $y$ 随变量 $x$ 变化的规律,称为底为 $a$ 的指数函数 (exponential function).\n\n因为对所有实数 $x,{a}^{x}$ 都是有意义的,所以指数函数的定义域是全体实数.\n\n在平面直角坐标系中,满足 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的一切点 $\\left( {x, y}\\right)$ 构成指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 278,
+          "end": 302
+        }
+      ],
+      "emphases": [
+        {
+          "start": 397,
+          "end": 459,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx1-4-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 若指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像经过点 $\\left( {2,9}\\right)$ ,求该指数函数的表达式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 303,
+          "end": 304
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 303,
+          "end": 304
+        }
+      ],
+      "id": "bx1-4-2-ex-1",
+      "category": "例题",
+      "answer": "解 因为指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像经过点 $\\left( {2,9}\\right)$ ,所以 $9 = {a}^{2}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ ,解得 $a = 3$ .\n\n因此,该指数函数的表达式为 $y = {3}^{x}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 305,
+          "end": 308
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 分别作出指数函数 $y = {2}^{x}$ 及 $y = {3}^{x}$ 的大致图像.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 309,
+          "end": 310
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 309,
+          "end": 310
+        }
+      ],
+      "id": "bx1-4-2-ex-2",
+      "category": "例题",
+      "answer": "解 先在相应的图像上取一些特殊的点.\n\n由 ${2}^{-2} = \\frac{1}{4},{2}^{-1} = \\frac{1}{2},{2}^{0} = 1,{2}^{1} = 2,{2}^{2} = 4$ ,可知指数函数 $y = {2}^{x}$ 的图像必经过下面的点:\n\n$$\n\\left( {-2,\\frac{1}{4}}\\right) \\text{ 、 }\\left( {-1,\\frac{1}{2}}\\right) \\text{ 、 }\\left( {0,1}\\right) \\text{ 、 }\\left( {1,2}\\right) \\text{ 、 }\\left( {2,4}\\right) .\n$$\n\n---\n\n规定指数函数底 $a > 0$ 且 $a \\neq  1$ .\n\n---\n\n再使用计算器多采集一些点, 可以粗略地作出其图像.\n\n![bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg)\n\n图 4-2-1\n\n由 ${3}^{-2} = \\frac{1}{9},{3}^{-1} = \\frac{1}{3},{3}^{0} = 1,{3}^{1} = 3,{3}^{2} = 9$ ,可知指数函数 $y = {3}^{x}$ 的图像必经过下面的点:\n\n$$\n\\left( {-2,\\frac{1}{9}}\\right) \\text{ 、 }\\left( {-1,\\frac{1}{3}}\\right) \\text{ 、 }\\left( {0,1}\\right) \\text{ 、 }\\left( {1,3}\\right) \\text{ 、 }\\left( {2,9}\\right) .\n$$\n\n再使用计算器多采集一些点, 可以粗略地作出其图像.\n\n我们把这两个图像放在同一个平面直角坐标系中以便观察比较, 如图4-2-1所示.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 311,
+          "end": 340
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 作出指数函数 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 的大致图像.\n\n![bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg)\n\n图 4-2-2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 341,
+          "end": 346
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 341,
+          "end": 346
+        }
+      ],
+      "id": "bx1-4-2-ex-3",
+      "category": "例题",
+      "answer": "解 由 ${\\left( \\frac{1}{2}\\right) }^{-2} = 4,{\\left( \\frac{1}{2}\\right) }^{-1} = 2,{\\left( \\frac{1}{2}\\right) }^{0} = 1,{\\left( \\frac{1}{2}\\right) }^{1} = \\frac{1}{2}$ , ${\\left( \\frac{1}{2}\\right) }^{2} = \\frac{1}{4}$ ,可知指数函数 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 的图像必经过下面的点:\n\n$$\n\\left( {-2,4}\\right) \\text{ 、 }\\left( {-1,2}\\right) \\text{ 、 }\\left( {0,1}\\right) \\text{ 、 }\\left( {1,\\frac{1}{2}}\\right) \\text{ 、 }\\left( {2,\\frac{1}{4}}\\right) .\n$$\n\n类似地, 可以粗略作出其相应的图像, 如图 4-2-2 所示.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 347,
+          "end": 354
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.2(1)",
+      "markdown": "#### 练习 4.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 355,
+          "end": 355
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 1",
+      "markdown": "1. 判断下列函数哪些是指数函数, 哪些是幂函数:\n\n(1) $y = x$ ； (2) $y = {x}^{3}$ ； (3) $y = {\\mathrm{e}}^{x}$ ；\n\n(4) $y = \\sqrt[3]{x}$ ； (5) $y = {2}^{-x}$ ; (6) $y = {2}^{x}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 357,
+          "end": 362
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 357,
+          "end": 362
+        }
+      ],
+      "id": "bx1-4-2-p421-1",
+      "category": "练习4.2(1)",
+      "answer": "1. 是指数函数的有 $\\left( 3\\right) \\left( 5\\right) \\left( 6\\right)$ ; 是幂函数的有 $\\left( 1\\right) \\left( 2\\right) \\left( 4\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 294,
+          "end": 295
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 2",
+      "markdown": "2. 求下列函数的定义域:\n\n(1) $y = {3}^{x}$ ； (2) $y = {3}^{\\frac{1}{x - 2}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 363,
+          "end": 366
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 363,
+          "end": 366
+        }
+      ],
+      "id": "bx1-4-2-p421-2",
+      "category": "练习4.2(1)",
+      "answer": "2.(1)对一切实数 $x$ ,该函数都有意义,所以其定义域是 $\\mathbf{R}$ .\n\n(2)当 $x - 2 \\neq  0$ 时,该函数才有意义,所以其定义域是 $\\left( {-\\infty ,2}\\right)  \\cup  \\left( {2, + \\infty }\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 296,
+          "end": 299
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(1) · 3",
+      "markdown": "3. 在同一平面直角坐标系中分别作出下列函数的大致图像:\n\n(1) $y = {4}^{x}$ ； (2) $y = {\\left( \\frac{1}{4}\\right) }^{x}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 367,
+          "end": 370
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 367,
+          "end": 370
+        }
+      ],
+      "id": "bx1-4-2-p421-3",
+      "category": "练习4.2(1)",
+      "answer": "3. 图略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 300,
+          "end": 301
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 指数函数的性质",
+      "markdown": "### 2 指数函数的性质",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 371,
+          "end": 371
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "由前述两种指数函数的图像可见,它们的图像均在 $x$ 轴的上方. 这是因为当 $a > 0$ 时,对一切实数 $x,{a}^{x}$ 均大于 0 . 因此,我们有如下的性质:\n\n指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的函数值恒大于 0 .\n\n因为 ${a}^{0} = 1$ ,所以指数函数 $y = {a}^{x}$ 的图像均经过点 $\\left( {0,1}\\right)$ . 因此，我们有如下的性质:\n\n指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像都经过定点 $\\left( {0,1}\\right)$ .\n\n由例 2 和例 3 可见,指数函数 $y = {a}^{x}$ 的图像可分为两种情况.\n\n(1) $a > 1$ 的情况. 此时指数函数 $y = {a}^{x}$ 的图像类似图4-2-1 中 $y = {2}^{x}$ 的图像,当 $x > 0$ 时,函数值大于 1,其图像在直线 $y = 1$ 的上方; 而当 $x < 0$ 时,函数值小于 1 且大于 0,其图像在直线 $y = 1$ 的下方,且位于 $x$ 轴的上方.\n\n(2) $0 < a < 1$ 的情况. 此时指数函数 $y = {a}^{x}$ 的图像类似图 4-2-2中 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 的图像,当 $x > 0$ 时,函数值小于 1 且大于 0, 其图像在直线 $y = 1$ 的下方,且位于 $x$ 轴的上方; 而当 $x < 0$ 时, 函数值大于 1,其图像在直线 $y = 1$ 的上方.\n\n![bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg)\n\n图 4-2-3\n\n这两种情况在同一平面直角坐标系中的图像如图 4-2-3 所示. 易见这两个指数函数 $y = {2}^{x}$ 与 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 的图像关于 $y$ 轴对称.\n\n一般地说, 由指数幂的运算性质\n\n$$\n{a}^{{x}_{0}} = {\\left( {a}^{-1}\\right) }^{-{x}_{0}},\n$$\n\n容易看到: 若 $\\left( {{x}_{0},{y}_{0}}\\right)$ 为指数函数 $y = {a}^{x}$ 图像上的一点,则 $\\left( {-{x}_{0},{y}_{0}}\\right)$ 必为指数函数 $y = {\\left( {a}^{-1}\\right) }^{x}$ 图像上的点,反之亦然. 由于 $\\left( {{x}_{0},{y}_{0}}\\right)$ 及 $\\left( {-{x}_{0},{y}_{0}}\\right)$ 两点关于 $y$ 轴对称,因此指数函数 $y = {a}^{x}$ 及 $y = {\\left( {a}^{-1}\\right) }^{x}$ 的图像必关于 $y$ 轴对称.\n\n---\n\n指数函数 $y = {a}^{x}$ 的图像与指数函数 $y = {\\left( {a}^{-1}\\right) }^{x}$ 的图像关于 $y$ 轴对称.\n\n---\n\n观察图 4-2-1 中两个指数函数的图像, 它们的底都大于 1, 图像由左至右是上升的,也就是说,随着自变量 $x$ 的不断增大, 函数值 $y$ 也不断增大,这点也可以证明如下:\n\n当 $a > 1$ 时,若 ${x}_{2} > {x}_{1}$ ,则 ${x}_{2} - {x}_{1} > 0$ ,由幂的基本不等式有\n\n$$\n{a}^{{x}_{2} - {x}_{1}} > 1,\n$$\n\n即 ${a}^{{x}_{2}} > {a}^{{x}_{1}}$ . 此时,称指数函数 $y = {a}^{x}\\left( {a > 1}\\right)$ 在 $\\mathbf{R}$ 上是严格增函数,即函数值 $y$ 随着 $x$ 的 (严格) 增大而 (严格) 增大.\n\n同理可证: 当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数.\n\n因此,我们有\n\n指数函数的单调性 当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数; 当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数.\n\n指数函数的图像与性质可总结见下表 4-1:\n\n表 4-1\n\n<table><tr><td>$y = {a}^{x}$</td><td>$a > 1$</td><td>$0 < a < 1$</td></tr><tr><td>图像</td><td><img src=\"https://cdn.noedgeai.com/bo_d4slocn7aajc73fspklg_10.jpg?x=319&y=424&w=364&h=257&r=0\"/></td><td><img src=\"https://cdn.noedgeai.com/bo_d4slocn7aajc73fspklg_10.jpg?x=733&y=425&w=350&h=257&r=0\"/></td></tr><tr><td rowspan=\"3\">图像特征</td><td colspan=\"2\">(1)图像都在 $x$ 轴上方，无限趋近于 $x$ 轴，但永不相交.</td></tr><tr><td colspan=\"2\">(2)过点 $\\left( {0,1}\\right)$ .</td></tr><tr><td>(3)由左至右图像上升.</td><td>(3)由左至右图像下降.</td></tr><tr><td rowspan=\"3\">函数性质</td><td colspan=\"2\">(1)定义域为 $\\mathbf{R}$ ，函数值恒正.</td></tr><tr><td colspan=\"2\">(2)当 $x = 0$ 时， $y = 1$ .</td></tr><tr><td>(3)在 $\\mathbf{R}$ 上是严格增函数.</td><td>(3)在 $\\mathbf{R}$ 上是严格减函数.</td></tr></table>",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 372,
+          "end": 428
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 利用指数函数的性质, 比较下列各题中两个数的大小:\n\n(1) ${1.7}^{2.5}$ 与 ${1.7}^{3}$ ；\n\n(2) ${\\left( \\frac{3}{4}\\right) }^{\\frac{1}{6}}$ 与 ${\\left( \\frac{4}{3}\\right) }^{-\\frac{1}{5}}$ ；\n\n(3) ${a}^{\\frac{1}{2}}$ 与 ${a}^{\\frac{1}{3}}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 429,
+          "end": 436
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 429,
+          "end": 436
+        }
+      ],
+      "id": "bx1-4-2-ex-4",
+      "category": "例题",
+      "answer": "解(1)由于底数 $a$ 大于 1 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,因此 ${1.7}^{2.5} < {1.7}^{3}$ .\n\n(2)由于 ${\\left( \\frac{4}{3}\\right) }^{-\\frac{1}{5}} = {\\left( \\frac{3}{4}\\right) }^{\\frac{1}{5}}$ ，且底数 $a$ 小于 1 大于 0 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,因此\n\n$$\n{\\left( \\frac{3}{4}\\right) }^{\\frac{1}{6}} > {\\left( \\frac{4}{3}\\right) }^{-\\frac{1}{5}}.\n$$\n\n(3)当 $0 < a < 1$ 时，指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数， 故 ${a}^{\\frac{1}{2}} < {a}^{\\frac{1}{3}}$ ;\n\n当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,故 ${a}^{\\frac{1}{2}} > {a}^{\\frac{1}{3}}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 437,
+          "end": 448
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 求下列不等式的解集:\n\n(1) ${3}^{x} > \\frac{1}{27}$ ；\n\n(2) ${a}^{{x}^{2} - {2x} + 3} > {a}^{6}\\left( {0 < a < 1}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 449,
+          "end": 454
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 449,
+          "end": 454
+        }
+      ],
+      "id": "bx1-4-2-ex-5",
+      "category": "例题",
+      "answer": "解 (1) 将 $\\frac{1}{27}$ 写成 ${3}^{-3}$ ,因为指数函数 $y = {3}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 $x >  - 3$ . 故原不等式的解集为 $\\left( {-3, + \\infty }\\right)$ .\n\n(2)当 $0 < a < 1$ 时，指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数， 因此有 ${x}^{2} - {2x} + 3 < 6$ ,整理得 ${x}^{2} - {2x} - 3 < 0$ ,解得 $- 1 < x < 3$ . 故原不等式的解集为 $\\left( {-1,3}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 455,
+          "end": 458
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.2(2)",
+      "markdown": "#### 练习 4.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 459
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 1",
+      "markdown": "1. 比较下列各题中两个数的大小:\n\n(1) ${1.4}^{0.3}$ 与 ${1.4}^{0.4}$ ；\n\n(2) ${0.3}^{1.4}$ 与 ${0.3}^{1.5}$ ；\n\n(3) ${a}^{-{3.14}}$ 与 ${\\left( \\frac{1}{a}\\right) }^{\\pi }\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 461,
+          "end": 468
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 461,
+          "end": 468
+        }
+      ],
+      "id": "bx1-4-2-p422-1",
+      "category": "练习4.2(2)",
+      "answer": "1.(1)考虑指数函数 $y = {1.4}^{x}$ . 因为底大于 1 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${1.4}^{0.3} < {1.4}^{0.4}$ .\n\n(2)考虑指数函数 $y = {0.3}^{x}$ . 因为底小于 1 大于 0 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,所以 ${0.3}^{1.4} > {0.3}^{1.5}$ .\n\n(3)因为 ${\\left( \\frac{1}{a}\\right) }^{\\pi } = {a}^{-\\pi }$ ,当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数, 所以 ${a}^{-{3.14}} < {a}^{-\\pi }$ ,即 ${a}^{-{3.14}} < {\\left( \\frac{1}{a}\\right) }^{\\pi }$ ; 当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${a}^{-{3.14}} > {a}^{-\\pi }$ ,即 ${a}^{-{3.14}} > {\\left( \\frac{1}{a}\\right) }^{\\pi }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 304,
+          "end": 309
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 2",
+      "markdown": "2. 已知 $a > 0$ 且 $a \\neq  1$ . 若 $m > n$ ，且 ${a}^{m} < {a}^{n}$ ，求实数 $a$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 469,
+          "end": 470
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 469,
+          "end": 470
+        }
+      ],
+      "id": "bx1-4-2-p422-2",
+      "category": "练习4.2(2)",
+      "answer": "2. 因为 $m > n$ ,且 ${a}^{m} < {a}^{n}$ ,所以 $0 < a < 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 310,
+          "end": 311
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(2) · 3",
+      "markdown": "3. 求下列不等式的解集:\n\n(1) ${3}^{x} > {3}^{0.5}$ ； (2) ${0.2}^{x} < {25}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 474
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 474
+        }
+      ],
+      "id": "bx1-4-2-p422-3",
+      "category": "练习4.2(2)",
+      "answer": "3.(1)因为指数函数 $y = {3}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 $x > {0.5}$ . 故此不等式的解集为 $\\left( {{0.5}, + \\infty }\\right)$ .\n\n(2)将 ${0.2}^{x}$ 写成 ${5}^{-x},{25}$ 写成 ${5}^{2}$ . 因为指数函数 $y = {5}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 $- x < 2$ ,即 $x >  - 2$ . 故此不等式的解集为 $\\left( {-2, + \\infty }\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 312,
+          "end": 315
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 已知指数函数 $y = {a}^{x}\\left( {a > 1}\\right)$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上的最大值比最小值大 $\\frac{a}{3}$ ,求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 475,
+          "end": 476
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 475,
+          "end": 476
+        }
+      ],
+      "id": "bx1-4-2-ex-6",
+      "category": "例题",
+      "answer": "解 当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上是严格增函数. 所以,在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上,当 $x = 2$ 时,该指数函数取到最大值 ${a}^{2}$ ; 当 $x = 1$ 时,该指数函数取到最小值 $a$ . 由题意,得 ${a}^{2} - a = \\frac{a}{3}$ , 解得 $a = \\frac{4}{3}$ .\n\n指数函数在生产实际和科学研究中有很多应用. 银行存款和贷款、GDP 的增长、人口增长等都可能涉及指数函数. 我们用以下的例子来体会\"指数增长\".",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 477,
+          "end": 480
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 统计资料显示: 某外来入侵物种现有种群数量为 $k$ ,若有理想的外部环境条件,该物种的年平均增长率约为 20%. 试建立该物种的种群数量增长模型, 并预测 30 年后该物种的种群数量约为现有种群数量的多少倍. (结果精确到个位)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 481,
+          "end": 482
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 481,
+          "end": 482
+        }
+      ],
+      "id": "bx1-4-2-ex-7",
+      "category": "例题",
+      "answer": "解 设经过 1 年后, 该种群数量为\n\n$$\n{y}_{1} = k + k \\cdot  {20}\\%  = k\\left( {1 + {20}\\% }\\right) ;\n$$\n\n经过 2 年后, 该种群数量为\n\n$$\n{y}_{2} = k\\left( {1 + {20}\\% }\\right)  + k\\left( {1 + {20}\\% }\\right)  \\cdot  {20}\\%\n$$\n\n$$\n= k{\\left( 1 + {20}\\% \\right) }^{2}\\text{ ; }\n$$\n\n---\n\n当 $a > 1$ 时,不仅 ${a}^{x}$ 随着 $x$ 的增长而增长,且因为 ${a}^{x + 1} - {a}^{x} \\; = {a}^{x}\\left( {a - 1}\\right)$ ,随着 $x$ 的增长, ${a}^{x}$ 增长得越来越快. 这就是所谓的\"指数增长\".\n\n---\n\n......\n\n以此类推,经过 $n$ ( $n$ 为正整数) 年后,该种群数量为 ${y}_{n} = \\; k{\\left( 1 + {20}\\% \\right) }^{n}$ .\n\n当 $n = {30}$ 时,该种群数量为 ${y}_{30} = k{\\left( 1 + {20}\\% \\right) }^{30} \\approx  {237k}$ .\n\n因此, 若不加控制, 该种群的数量在 30 年之后约为现在的 237 倍, 从而可能极大地破坏当地生态系统的稳定, 这说明指数函数可以用于预测种群数量, 便于及早进行干预.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 483,
+          "end": 512
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.2(3)",
+      "markdown": "#### 练习 4.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 513,
+          "end": 513
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(3) · 1",
+      "markdown": "1. 已知指数函数 $y = {a}^{x}\\left( {0 < a < 1}\\right)$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上的最大值比最小值大 $\\frac{a}{3}$ ,求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 515,
+          "end": 516
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 515,
+          "end": 516
+        }
+      ],
+      "id": "bx1-4-2-p423-1",
+      "category": "练习4.2(3)",
+      "answer": "1. 当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上是严格减函数. 所以,该指数函数在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上取到的最小值为 ${a}^{2}$ ,此时 $x = 2$ ; 该指数函数在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上取到的最大值为 $a$ ,此时 $x = 1$ . 由题意,得 $a - {a}^{2} = \\frac{a}{3}$ ,解得 $a = \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 318,
+          "end": 319
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.2(3) · 2",
+      "markdown": "2. 某服装店对原价分别为 175 元和 200 元的甲乙两种服装搞促销活动, 规定甲服装每天降价 5%，直到其售完为止；乙服装每天降价 7%，直到其售完为止。假设两种服装在 10 天内均没有售完, 几天后甲服装的售价将高于乙服装的售价?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 517,
+          "end": 518
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 517,
+          "end": 518
+        }
+      ],
+      "id": "bx1-4-2-p423-2",
+      "category": "练习4.2(3)",
+      "answer": "2. 设促销活动开始后的第 $n$ 天,甲服装的售价为 ${y}_{1} = {175}{\\left( 1 - 5\\% \\right) }^{n}$ ; 乙服装的售价为 ${y}_{2} = {200}{\\left( 1 - 7\\% \\right) }^{n}$ . 根据函数式列表:\n\n<table><tr><td>第 $n$ 天</td><td>甲服装的售价/元</td><td>乙服装的售价/元</td></tr><tr><td>1</td><td>166.25</td><td>186</td></tr><tr><td>2</td><td>157.93</td><td>172.98</td></tr><tr><td>3</td><td>150.04</td><td>160.87</td></tr><tr><td>4</td><td>142.53</td><td>149.61</td></tr><tr><td>5</td><td>135.41</td><td>139.13</td></tr></table>\n\n(续表)\n\n<table><tr><td>第 $n$ 天</td><td>甲服装的售价/元</td><td>乙服装的售价/元</td></tr><tr><td>6</td><td>128.64</td><td>129.39</td></tr><tr><td>7</td><td>122.2</td><td>120.34</td></tr><tr><td>8</td><td>116.09</td><td>111.91</td></tr><tr><td>9</td><td>110.29</td><td>104.08</td></tr><tr><td>10</td><td>104.77</td><td>96.796</td></tr></table>\n\n可以看出, 7 天后甲服装的售价将高于乙服装的售价.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 320,
+          "end": 329
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 4.2",
+      "markdown": "#### 习题 4.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 519,
+          "end": 519
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 521,
+          "end": 521
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 1",
+      "markdown": "1. 下列函数是指数函数的序号为___. (请填入全部正确的序号)\n\n① $y = {\\left( -4\\right) }^{x}$ ； ② $y = {\\left( \\frac{1}{4}\\right) }^{x}$ ； ③ $y = {4}^{x}$ ； ④ $y = {x}^{-4}$ ； ⑤ $y = {\\left( \\sqrt{4}\\right) }^{x}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 523,
+          "end": 526
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 523,
+          "end": 526
+        }
+      ],
+      "id": "bx1-4-2-h42A-1",
+      "category": "习题4.2A",
+      "answer": "1. ②③⑤.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 334,
+          "end": 335
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 2",
+      "markdown": "2. 求下列函数的定义域:\n\n(1) $y = {2}^{\\sqrt{3 - x}}$ ； (2) $y = {0.1}^{\\frac{1}{x}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 530
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 530
+        }
+      ],
+      "id": "bx1-4-2-h42A-2",
+      "category": "习题4.2A",
+      "answer": "2.(1)当 $3 - x \\geq  0$ 时,该函数才有意义,所以其定义域是 $\\left( {-\\infty ,3}\\right\\rbrack$ .\n\n(2)当 $x \\neq  0$ 时,该函数才有意义,所以其定义域是 $\\left( {-\\infty ,0}\\right)  \\cup  \\left( {0, + \\infty }\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 336,
+          "end": 339
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 3",
+      "markdown": "3. 在同一直角坐标系中作出下列函数的大致图像, 并指出这些函数图像间的关系:\n\n(1) $y = {\\left( \\frac{3}{2}\\right) }^{x}$ ; (2) $y = {\\left( \\frac{2}{3}\\right) }^{x}$ ； (3) $y = {\\left( \\frac{2}{3}\\right) }^{x} - 1$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 531,
+          "end": 534
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 531,
+          "end": 534
+        }
+      ],
+      "id": "bx1-4-2-h42A-3",
+      "category": "习题4.2A",
+      "answer": "3. 图略.\n\n函数 $y = {\\left( \\frac{3}{2}\\right) }^{x}$ 的图像与函数 $y = {\\left( \\frac{2}{3}\\right) }^{x}$ 的图像关于 $y$ 轴对称.\n\n将函数 $y = {\\left( \\frac{2}{3}\\right) }^{x}$ 的图像向下移一个单位就得到函数 $y = {\\left( \\frac{2}{3}\\right) }^{x} - 1$ 的图像. 将函数 $y = {\\left( \\frac{2}{3}\\right) }^{x} - 1$ 的图像向上平移一个单位就得到函数 $y = {\\left( \\frac{2}{3}\\right) }^{x}$ 的图像.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 340,
+          "end": 345
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 4",
+      "markdown": "4. 已知指数函数 $y = {\\left( m - 2\\right) }^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,求实数 $m$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 535,
+          "end": 536
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 535,
+          "end": 536
+        }
+      ],
+      "id": "bx1-4-2-h42A-4",
+      "category": "习题4.2A",
+      "answer": "4. 因为指数函数 $y = {\\left( m - 2\\right) }^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,所以 $0 < m - 2 < 1$ ,解得 $2 < m < 3$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 346,
+          "end": 347
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 5",
+      "markdown": "5. 已知常数 $a > 0$ 且 $a \\neq  1$ . 假设无论 $a$ 取何值，函数 $y = {a}^{2 - x}$ 的图像恒经过一个定点， 求此定点的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 537,
+          "end": 538
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 537,
+          "end": 538
+        }
+      ],
+      "id": "bx1-4-2-h42A-5",
+      "category": "习题4.2A",
+      "answer": "5. 因为无论 $a\\left( {a > 0}\\right.$ 且 $\\left. {a \\neq  1}\\right)$ 取何值,均成立 ${a}^{0} = 1$ ,所以函数 $y = {a}^{2 - x}$ 的图像恒经过一个定点,其坐标为 $\\left( {2,1}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 348,
+          "end": 349
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 6",
+      "markdown": "6. 比较下列各题中两个数的大小:\n\n(1)1. ${2}^{2.6}$ 和 ${1.2}^{2.61}$ ；\n\n(2) ${\\left( \\sqrt{3}\\right) }^{-\\frac{1}{3}}$ 和 ${\\left( \\frac{\\sqrt{3}}{3}\\right) }^{\\frac{1}{2}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 539,
+          "end": 544
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 539,
+          "end": 544
+        }
+      ],
+      "id": "bx1-4-2-h42A-6",
+      "category": "习题4.2A",
+      "answer": "6. (1)考虑指数函数 $y = {1.2}^{x}$ . 因为底大于 1 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${1.2}^{2.6} < {1.2}^{2.61}$ .\n\n(2)因为 ${\\left( \\frac{\\sqrt{3}}{3}\\right) }^{\\frac{1}{2}} = {\\left( \\sqrt{3}\\right) }^{-\\frac{1}{2}}$ ,且底大于 1 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数, 所以 ${\\left( \\sqrt{3}\\right) }^{-\\frac{1}{3}} > {\\left( \\sqrt{3}\\right) }^{-\\frac{1}{2}}$ ,即 ${\\left( \\sqrt{3}\\right) }^{-\\frac{1}{3}} > {\\left( \\frac{\\sqrt{3}}{3}\\right) }^{\\frac{1}{2}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 350,
+          "end": 353
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 7",
+      "markdown": "7. 求下列不等式的解集:\n\n(1) ${3}^{{x}^{2} - {2x} + 3} < {3}^{2x}$ ；\n\n(2) ${\\left( \\frac{1}{3}\\right) }^{\\sqrt{x}} \\leq  \\frac{1}{81}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 545,
+          "end": 550
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 545,
+          "end": 550
+        }
+      ],
+      "id": "bx1-4-2-h42A-7",
+      "category": "习题4.2A",
+      "answer": "7.(1)因为指数函数 $y = {3}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${x}^{2} - {2x} + 3 < {2x}$ ,解得 $1 < x < 3$ . 故此不等式的解集为 $\\left( {1,3}\\right)$ .\n\n(2)将 $\\frac{1}{81}$ 写成 ${\\left( \\frac{1}{3}\\right) }^{4}$ . 因为指数函数 $y = {\\left( \\frac{1}{3}\\right) }^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,所以 $\\sqrt{x} \\geq$ 4,即 $x \\geq  {16}$ . 故此不等式的解集为 $\\lbrack {16}, + \\infty )$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 354,
+          "end": 357
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 8",
+      "markdown": "8. 已知指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上的最大值与最小值之和等于 6, 求实数 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 551,
+          "end": 552
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 551,
+          "end": 552
+        }
+      ],
+      "id": "bx1-4-2-h42A-8",
+      "category": "习题4.2A",
+      "answer": "8. 当 $0 < a < 1$ 时,指数函数 $y = {a}^{x}$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上是严格减函数. 所以,当 $x =$ 2 时,该指数函数取到最小值 ${a}^{2}$ ; 而当 $x = 1$ 时,该指数函数取到最大值 $a$ . 由题意, 得 $a + {a}^{2} = 6$ ,解得 $a =  - 3$ 或 $a = 2$ ,均不满足 $0 < a < 1$ ,所以舍去.\n\n当 $a > 1$ 时,指数函数 $y = {a}^{x}$ 在区间 $\\left\\lbrack  {1,2}\\right\\rbrack$ 上是严格增函数. 所以,当 $x = 2$ 时, 该指数函数取到最大值 ${a}^{2}$ ; 而当 $x = 1$ 时,该指数函数取到最小值 $a$ . 由题意,得 $a + {a}^{2} = 6$ ,解得 $a = 2$ .\n\n因此 $a = 2$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 358,
+          "end": 363
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2A · 9",
+      "markdown": "9. 某公司去年购置平板电脑 50 台, 并计划从今年起, 新购置的平板电脑数将按每年 5%的比例增长. 求从今年起的第 10 年新购置的平板电脑数. (结果精确到 1 台)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 553,
+          "end": 554
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 553,
+          "end": 554
+        }
+      ],
+      "id": "bx1-4-2-h42A-9",
+      "category": "习题4.2A",
+      "answer": "9. 从今年起的第 10 年新购置的平板电脑数为 ${50} \\times  {\\left( 1 + 5\\% \\right) }^{10} \\approx  {81}$ 台.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 364,
+          "end": 365
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 555,
+          "end": 555
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 1",
+      "markdown": "1. 在同一平面直角坐标系中,指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 和一次函数 $y = a\\left( {x + 1}\\right)$ 的图像关系可能是 ( )\n\n![bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 566
+        },
+        {
+          "source": "book",
+          "start": 559,
+          "end": 561
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 566
+        },
+        {
+          "source": "book",
+          "start": 559,
+          "end": 561
+        }
+      ],
+      "id": "bx1-4-2-h42B-1",
+      "category": "习题4.2B",
+      "answer": "1. C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 368,
+          "end": 369
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 2",
+      "markdown": "2. 如图所示的是某池塘中的浮萍蔓延的面积 $y$ (单位: ${\\mathrm{m}}^{2}$ ) 与时间 $t$ (单位: 月) 的关系: $y = {a}^{t}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ . 以下结论:\n\n① 这个指数函数的底数是 2 ;\n\n② 第 5 个月时，浮萍的面积就会超过 30 ${\\mathrm{m}}^{2}$ ；\n\n③ 浮萍面积从 $4{\\mathrm{\\;m}}^{2}$ 到 ${12}{\\mathrm{\\;m}}^{2}$ 需要经过 1.5 个月；\n\n④ 浮萍每个月增加的面积都相等.\n\n其中, 正确结论的序号是 ( )\n\nA. ①②③； B. ①②③④；\n\nC. ②③④; D. ①②.\n\n![bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 582
+        },
+        {
+          "source": "book",
+          "start": 563,
+          "end": 565
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 567,
+          "end": 582
+        },
+        {
+          "source": "book",
+          "start": 563,
+          "end": 565
+        }
+      ],
+      "id": "bx1-4-2-h42B-2",
+      "category": "习题4.2B",
+      "answer": "2. D.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 370,
+          "end": 371
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 3",
+      "markdown": "3. 若 $x > 0$ 时,指数函数 $y = {\\left( {a}^{2} - 1\\right) }^{x}$ 的值总大于 1,求实数 $a$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 583,
+          "end": 584
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 583,
+          "end": 584
+        }
+      ],
+      "id": "bx1-4-2-h42B-3",
+      "category": "习题4.2B",
+      "answer": "3. 因为 $x > 0$ 时,指数函数 $y = {\\left( {a}^{2} - 1\\right) }^{x}$ 的值总大于 1,所以 ${a}^{2} - 1 > 1$ ,解得 $a <  - \\sqrt{2}$ 或 $a > \\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 372,
+          "end": 373
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 4",
+      "markdown": "4. 若 $- 1 < x < 0$ ,比较 ${3}^{x},{3}^{-x}$ 及 ${3}^{2x}$ 的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 585,
+          "end": 586
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 585,
+          "end": 586
+        }
+      ],
+      "id": "bx1-4-2-h42B-4",
+      "category": "习题4.2B",
+      "answer": "4. 因为 $- 1 < x < 0$ ,所以 ${2x} < x <  - x$ . 又因为指数函数 $y = {3}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${3}^{2x} < {3}^{x} < {3}^{-x}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 374,
+          "end": 375
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 5",
+      "markdown": "5. 设 $a > 1$ ,若 ${a}^{{x}^{2} + {2x} + 1} < {a}^{2{x}^{2} - {3x} + 1}$ ,求实数 $x$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 587,
+          "end": 588
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 587,
+          "end": 588
+        }
+      ],
+      "id": "bx1-4-2-h42B-5",
+      "category": "习题4.2B",
+      "answer": "5. 因为 $a > 1$ ,所以指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,因此 ${x}^{2} + {2x} + 1 < \\; 2{x}^{2} - {3x} + 1$ ,整理得 ${x}^{2} - {5x} > 0$ ,解得 $x < 0$ 或 $x > 5$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 376,
+          "end": 377
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.2B · 6",
+      "markdown": "6. 若函数 $y = {5}^{x + 1} + m$ 的图像不经过第二象限,求实数 $m$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 589,
+          "end": 590
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 589,
+          "end": 590
+        }
+      ],
+      "id": "bx1-4-2-h42B-6",
+      "category": "习题4.2B",
+      "answer": "6. 因为函数 $y = {5}^{x + 1} + m$ 的图像不经过第二象限,所以 $5 + m \\leq  0$ ,即 $m \\leq   - 5$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 378,
+          "end": 379
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 327,
+      "original": "images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
+      "absolute": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 343,
+      "original": "images/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg",
+      "absolute": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 387,
+      "original": "images/bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg",
+      "absolute": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 559,
+      "original": "images/bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg",
+      "absolute": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 563,
+      "original": "images/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg",
+      "absolute": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg",
+      "exists": true
+    }
+  ]
+}

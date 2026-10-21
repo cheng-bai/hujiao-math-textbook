@@ -1,0 +1,2140 @@
+{
+  "schema_version": 1,
+  "id": "bx2-6-2",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "6",
+  "chapter_title": "第6章三角",
+  "section": "6.2",
+  "title": "常用三角公式",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md": "1f2210ff0bce6971a02e05d7cd5742155939bb0793a58d28bc41aca0eccb25d4",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md": "951dfaa143a04c1455631b569dec7057de61212992a37bae59d52cee03a6aeb9"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "常用三角公式",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1009,
+          "end": 1009
+        }
+      ],
+      "id": "bx2-6-2",
+      "number": "6.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 6.2 常用三角公式\n\n### 教学重点\n\n通过推导两角差的余弦公式, 知道两角差的余弦公式的意义.\n\n能从两角差的余弦公式推导两角和与差的正弦、余弦、正切公式, 二倍角的正弦、余弦、正切公式, 并了解它们的内在联系.\n\n能运用上述公式进行简单的恒等变换, 包括推导出半角公式、积化和差公式、和差化积公式(这三组公式不强行要求记忆).\n\n### 内容分析\n\n本教材中, 两角和与差的正弦、余弦、正切公式是在两角差的余弦公式的基础上, 通过诱导公式与同角三角关系推导得到的, 由此可进一步得到其常用的特例一二倍角公式. 半角公式可视为由二倍角公式的变化形成, 而积化和差、和差化积公式可视为由两角和与差的正弦、余弦公式变形而成. 积化和差公式与和差化积公式又可以相互推导. 因此, 需要熟悉两角差的余弦公式的推导过程, 灵活掌握恒等变换中的正用、逆用和变化应用, 将本节中的各个公式有机联系起来.\n\n例 1 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角和与差的余弦公式. 要注意本题的解答方法不唯一.\n\n例 2 旨在例示如何在相对复杂的情况下使用两角差的余弦公式, 其中在同角三角平方关系的使用中, 由角所属的象限确定相应三角值的符号是解题的关键.\n\n例 3 旨在通过关注角之间的联系, 合理用已知角表示目标角, 再使用两角差的余弦公式. 注意, 学生容易直接使用两角和的余弦公式, 再使用解方程的方法求得目标角的余弦, 但这并不是最优的方法. 通过本例让学生体会可以从不同的角度思考问题, 从而合理选择公式和算法.\n\n例 4 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角差的正弦公式.\n\n例 5 旨在例示如何使用两角和与差的正弦公式进行恒等变换. 其中,观察等式右侧的特征是合理使用公式的关键.\n\n例 6 和例 7 旨在体现如何在简单的情形中使用两角和与差的正切公式.\n\n例 8 是关于斜三角形的一个常见又比较重要的结论, 而其证明用的是两角和的正切公式的一个常见变化形式. 学生需要熟悉两角和与差公式的一些常见变化形式.\n\n例 9 可以为求解向量绕原点旋转作预备, 进而可推导出平面直角坐标系的坐标旋转公式. 由于本题综合了三角的定义和两角和的正弦与余弦公式, 不但有典型性, 更有较强的综合性.\n\n例 10 将单角化为复合角, 被称为辅助角公式. 本例综合了三角的定义与两角和或差的正弦公式的逆向使用,且事实上还存在着某种构造性的应用,这个公式的掌握对学生来讲是相对困难的.\n\n例 11 旨在例示如何在简单的情形中使用二倍角公式.\n\n例 12 旨在说明如何从二倍角公式推导三倍角的余弦公式, 进一步可以用类似方法推导多倍角的相应公式. 该公式曾在历史上为三次方程的求解提供了重要的思路, 但在教学上不应强调记忆该公式, 只需掌握其推导方法和体会转化的思想.\n\n例 13 旨在说明二倍角公式如何用来“降次”或“升次”. 虽然本题为证明恒等式, 但重要的是需要掌握二倍角公式的正用或逆用的方法.\n\n例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.\n\n### 注意事项\n\n在两角差的余弦公式的推导中, 由于角为任意角, 在平面直角坐标系中采用了解析方法通过构造图形而加以证明. 这种推导方法有利于提升学生的分析和论证能力, 培养学生的数学素养.\n\n本节中很多的三角公式是有适用条件的, 在教学过程中应予注意, 以保证数学的严谨性,但不宜对此有较高的要求.\n\n在三角恒等变换过程中, 熟悉公式的特征才能够合理正用、逆用或变化使用公式; 观察角(已知角和目标角)之间的联系也会影响公式选用的合理性; 而涉及到平方关系的表达式在开方运算过程中往往与角所属象限的三角的符号选择有关. 以上三点是本节公式使用的难点, 需要在学习中予以强调. 事实上, 这些在本节公式的推导过程中都分别有所体现, 在教学中必须注重分析和展现这些要点.\n\n### 教学建议\n\n辅助角公式是在下一章三角函数学习中常用的工具. 辅助角公式在教学上不仅是重点, 而且由于综合了等式的构造、三角的定义、两角和与差公式的逆向使用等知识和方法, 更是教学中的难点.\n\n二倍角公式与半角公式存在天然的联系, 在二倍角公式的逆用和变化使用中需要适当控制难度.\n\n半角公式、积化和差公式与和差化积公式在教学中不必过分展开, 不需要强调记忆, 更不必强调使用这些公式进行化简、求值与证明. 体会推导过程中的知识来源、 恒等变换方法及数学思想, 让学生知道这些公式并在需要时能够查阅或推导, 就达到了该小节的教学目的.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 154,
+          "end": 209
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 两角和与差的正弦、余弦、正切公式",
+      "markdown": "### 1 两角和与差的正弦、余弦、正切公式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1011,
+          "end": 1011
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们先推导两角差 $\\left( {\\alpha  - \\beta }\\right)$ 的余弦公式.\n\n设 $\\alpha \\text{ 、 }\\beta$ 为任意给定的两个角,把它们的顶点置于平面直角坐标系的原点 $O$ ,始边都与 $x$ 轴的正半轴重合,而它们的终边分别与单位圆相交于 $A\\text{ 、 }B$ 两点 (图 6-2-1). 点 $A\\text{ 、 }B$ 的坐标分别为 $A\\left( {\\cos \\alpha ,\\sin \\alpha }\\right) \\text{ 、 }B\\left( {\\cos \\beta ,\\sin \\beta }\\right)$ .\n\n![bo_d52056jef24c73bg6dsg_24_141_1378_473_273_0.jpg](sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_24_141_1378_473_273_0.jpg)\n\n图 6-2-1\n\n![bo_d52056jef24c73bg6dsg_24_662_1377_447_276_0.jpg](sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_24_662_1377_447_276_0.jpg)\n\n图 6-2-2\n\n下面考虑角 $\\left( {\\alpha  - \\beta }\\right)$ 的余弦. 为此把角 $\\alpha \\text{ 、 }\\beta$ 的终边 ${OA}$ 及 ${OB}$ 都绕原点 $O$ 旋转 $- \\beta$ 角,它们分别交单位圆于点 ${A}^{\\prime }$ 及 ${B}^{\\prime }$ (图6-2-2). 由于都转动了 $- \\beta$ 角,因此 $\\alpha  - \\beta$ 也可以是一个以射线 $O{B}^{\\prime }$ 为始边、以射线 $O{A}^{\\prime }$ 为终边的角,而点 ${A}^{\\prime }$ 的坐标是 $\\left( {\\cos \\left( {\\alpha  - \\beta }\\right) ,\\sin \\left( {\\alpha  - \\beta }\\right) }\\right)$ ,点 ${B}^{\\prime }$ 的坐标是 $\\left( {1,0}\\right)$ .\n\n根据两点间的距离公式,在图 6-2-1 中,有\n\n$$\n{\\left| AB\\right| }^{2} = {\\left( \\cos \\alpha  - \\cos \\beta \\right) }^{2} + {\\left( \\sin \\alpha  - \\sin \\beta \\right) }^{2}\n$$\n\n$$\n= {\\cos }^{2}\\alpha  - 2\\cos \\alpha \\cos \\beta  + {\\cos }^{2}\\beta  + {\\sin }^{2}\\alpha  - 2\\sin \\alpha \\sin \\beta  + {\\sin }^{2}\\beta\n$$\n\n$$\n= 2 - 2\\cos \\alpha \\cos \\beta  - 2\\sin \\alpha \\sin \\beta \\text{ . }\n$$\n\n而在图 6-2-2 中, 有\n\n$$\n{\\left| {A}^{\\prime }{B}^{\\prime }\\right| }^{2} = {\\left\\lbrack  \\cos \\left( \\alpha  - \\beta \\right)  - 1\\right\\rbrack  }^{2} + {\\sin }^{2}\\left( {\\alpha  - \\beta }\\right)\n$$\n\n$$\n= {\\cos }^{2}\\left( {\\alpha  - \\beta }\\right)  - 2\\cos \\left( {\\alpha  - \\beta }\\right)  + 1 + {\\sin }^{2}\\left( {\\alpha  - \\beta }\\right)\n$$\n\n$$\n= 2 - 2\\cos \\left( {\\alpha  - \\beta }\\right) \\text{ . }\n$$\n\n因为将射线 ${OA}\\text{ 、 }{OB}$ 同时绕原点 $O$ 旋转 $- \\beta$ 角,就分别得到射线 $O{A}^{\\prime }\\text{ 、 }O{B}^{\\prime }$ ,所以\n\n$$\n\\left| {AB}\\right|  = \\left| {{A}^{\\prime }{B}^{\\prime }}\\right| ,\n$$\n\n从而得到\n\n$$\n2 - 2\\cos \\alpha \\cos \\beta  - 2\\sin \\alpha \\sin \\beta  = 2 - 2\\cos \\left( {\\alpha  - \\beta }\\right) ,\n$$\n\n即\n\n$$\n\\cos \\left( {\\alpha  - \\beta }\\right)  = \\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta .\n$$\n\n这个式子对任意给定的角 $\\alpha$ 及 $\\beta$ 都成立，称为两角差的余弦公式.\n\n在两角差的余弦公式中,用 $- \\beta$ 代换 $\\beta$ ,就可得到两角和的余弦公式:\n\n$$\n\\cos \\left( {\\alpha  + \\beta }\\right)  = \\cos \\alpha \\cos \\left( {-\\beta }\\right)  + \\sin \\alpha \\sin \\left( {-\\beta }\\right)\n$$\n\n$$\n= \\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta \\text{ . }\n$$\n\n这样, 我们就得到两角和与差的余弦公式\n\n$$\n\\cos \\left( {\\alpha  + \\beta }\\right)  = \\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta ,\n$$\n\n$$\n\\cos \\left( {\\alpha  - \\beta }\\right)  = \\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta .\n$$\n\n简记作\n\n$$\n\\cos \\left( {\\alpha  \\pm  \\beta }\\right)  = \\cos \\alpha \\cos \\beta  \\mp  \\sin \\alpha \\sin \\beta .\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1012,
+          "end": 1100
+        }
+      ],
+      "emphases": [
+        {
+          "start": 2217,
+          "end": 2263,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-6-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 2265,
+          "end": 2446,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx2-6-2-formula-3-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 利用两角和与差的余弦公式,求 $\\cos {75}^{ \\circ  }$ 和 $\\cos {15}^{ \\circ  }$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1101,
+          "end": 1102
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1101,
+          "end": 1102
+        }
+      ],
+      "id": "bx2-6-2-ex-1",
+      "category": "例题",
+      "answer": "解 $\\cos {75}^{ \\circ  } = \\cos \\left( {{45}^{ \\circ  } + {30}^{ \\circ  }}\\right)$\n\n$$\n= \\cos {45}^{ \\circ  }\\cos {30}^{ \\circ  } - \\sin {45}^{ \\circ  }\\sin {30}^{ \\circ  } = \\frac{\\sqrt{6} - \\sqrt{2}}{4}\\text{ . }\n$$\n\n$$\n\\cos {15}^{ \\circ  } = \\cos \\left( {{45}^{ \\circ  } - {30}^{ \\circ  }}\\right)\n$$\n\n$$\n= \\cos {45}^{ \\circ  }\\cos {30}^{ \\circ  } + \\sin {45}^{ \\circ  }\\sin {30}^{ \\circ  } = \\frac{\\sqrt{6} + \\sqrt{2}}{4}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1103,
+          "end": 1116
+        }
+      ],
+      "teacher_analysis": "例 1 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角和与差的余弦公式. 要注意本题的解答方法不唯一.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 168,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 已知 $\\sin \\alpha  = \\frac{3}{5},\\alpha  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right) ,\\cos \\beta  = \\frac{5}{13},\\beta  \\in  \\left( {\\frac{3}{2}\\pi ,{2\\pi }}\\right)$ . 求 $\\cos \\left( {\\alpha  - \\beta }\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1118
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1118
+        }
+      ],
+      "id": "bx2-6-2-ex-2",
+      "category": "例题",
+      "answer": "解 由 $\\sin \\alpha  = \\frac{3}{5},\\alpha  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ ,得 $\\cos \\alpha  =  - \\sqrt{1 - {\\sin }^{2}\\alpha } =  - \\frac{4}{5}$ .\n\n由 $\\cos \\beta  = \\frac{5}{13},\\beta  \\in  \\left( {\\frac{3}{2}\\pi ,{2\\pi }}\\right)$ ,得 $\\sin \\beta  =  - \\sqrt{1 - {\\cos }^{2}\\beta } =  - \\frac{12}{13}$ .\n\n于是\n\n$$\n\\cos \\left( {\\alpha  - \\beta }\\right)  = \\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta\n$$\n\n$$\n= \\left( {-\\frac{4}{5}}\\right)  \\times  \\frac{5}{13} + \\frac{3}{5} \\times  \\left( {-\\frac{12}{13}}\\right)  =  - \\frac{56}{65}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1119,
+          "end": 1132
+        }
+      ],
+      "teacher_analysis": "例 2 旨在例示如何在相对复杂的情况下使用两角差的余弦公式, 其中在同角三角平方关系的使用中, 由角所属的象限确定相应三角值的符号是解题的关键.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 170,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 若 $\\alpha \\text{ 、 }\\beta$ 为锐角, $\\sin \\alpha  = \\frac{4\\sqrt{3}}{7},\\cos \\left( {\\alpha  + \\beta }\\right)  =  - \\frac{11}{14}$ . 求角 $\\beta$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1133,
+          "end": 1134
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1133,
+          "end": 1134
+        }
+      ],
+      "id": "bx2-6-2-ex-3",
+      "category": "例题",
+      "answer": "解 由 $\\alpha$ 为锐角,且 $\\sin \\alpha  = \\frac{4\\sqrt{3}}{7}$ ,得 $\\cos \\alpha  = \\sqrt{1 - {\\sin }^{2}\\alpha } = \\frac{1}{7}$ .\n\n又由 $\\alpha \\text{ 、 }\\beta$ 为锐角,得 $0 < \\alpha  + \\beta  < \\pi$ ,从而\n\n$$\n\\sin \\left( {\\alpha  + \\beta }\\right)  = \\sqrt{1 - {\\cos }^{2}\\left( {\\alpha  + \\beta }\\right) } = \\frac{5\\sqrt{3}}{14}.\n$$\n\n于是\n\n$$\n\\cos \\beta  = \\cos \\left( {\\alpha  + \\beta  - \\alpha }\\right)  = \\cos \\left( {\\alpha  + \\beta }\\right) \\cos \\alpha  + \\sin \\left( {\\alpha  + \\beta }\\right) \\sin \\alpha\n$$\n\n$$\n= \\frac{1}{7} \\times  \\left( {-\\frac{11}{14}}\\right)  + \\frac{4\\sqrt{3}}{7} \\times  \\frac{5\\sqrt{3}}{14} = \\frac{1}{2}.\n$$\n\n因为 $\\beta$ 为锐角,所以 $\\beta  = \\frac{\\pi }{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1135,
+          "end": 1154
+        }
+      ],
+      "teacher_analysis": "例 3 旨在通过关注角之间的联系, 合理用已知角表示目标角, 再使用两角差的余弦公式. 注意, 学生容易直接使用两角和的余弦公式, 再使用解方程的方法求得目标角的余弦, 但这并不是最优的方法. 通过本例让学生体会可以从不同的角度思考问题, 从而合理选择公式和算法.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 172,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(1)",
+      "markdown": "#### 练习 6.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1155,
+          "end": 1155
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(1) · 1",
+      "markdown": "1. 化简:\n\n(1) $\\cos \\left( {{22}^{ \\circ  } - x}\\right) \\cos \\left( {{23}^{ \\circ  } + x}\\right)  - \\sin \\left( {{22}^{ \\circ  } - x}\\right) \\sin \\left( {{23}^{ \\circ  } + x}\\right)$ ;\n\n(2) $\\cos \\left( {\\frac{\\pi }{6} + \\alpha }\\right) \\cos \\alpha  + \\sin \\left( {\\frac{\\pi }{6} + \\alpha }\\right) \\sin \\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1157,
+          "end": 1162
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1157,
+          "end": 1162
+        }
+      ],
+      "id": "bx2-6-2-p621-1",
+      "category": "练习6.2(1)",
+      "answer": "1. (1) $\\frac{\\sqrt{2}}{2}$ . (2) $\\frac{\\sqrt{3}}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 428,
+          "end": 429
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(1) · 2",
+      "markdown": "2. 已知 $\\sin \\theta  =  - \\frac{5}{13},\\theta  \\in  \\left( {\\pi ,\\frac{3}{2}\\pi }\\right)$ . 求 $\\cos \\left( {\\theta  + \\frac{\\pi }{4}}\\right)$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1164
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1164
+        }
+      ],
+      "id": "bx2-6-2-p621-2",
+      "category": "练习6.2(1)",
+      "answer": "2. $- \\frac{7\\sqrt{2}}{26}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 430,
+          "end": 431
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(1) · 3",
+      "markdown": "3. 证明:\n\n(1) $\\frac{2\\cos A\\cos B - \\cos \\left( {A - B}\\right) }{\\cos \\left( {A - B}\\right)  - 2\\sin A\\sin B} = 1$ ;\n\n(2) $\\cos \\left( {\\alpha  + \\beta }\\right) \\cos \\left( {\\alpha  - \\beta }\\right)  = {\\cos }^{2}\\beta  - {\\sin }^{2}\\alpha$ .\n\n根据两角差的余弦公式和诱导公式, 就可以得到两角和的正弦公式. 事实上，\n\n$$\n\\sin \\left( {\\alpha  + \\beta }\\right)  = \\cos \\left\\lbrack  {\\frac{\\pi }{2} - \\left( {\\alpha  + \\beta }\\right) }\\right\\rbrack   = \\cos \\left\\lbrack  {\\left( {\\frac{\\pi }{2} - \\alpha }\\right)  - \\beta }\\right\\rbrack\n$$\n\n$$\n= \\cos \\left( {\\frac{\\pi }{2} - \\alpha }\\right) \\cos \\beta  + \\sin \\left( {\\frac{\\pi }{2} - \\alpha }\\right) \\sin \\beta\n$$\n\n$$\n= \\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta \\text{ . }\n$$\n\n将上式中的 $\\beta$ 用 $- \\beta$ 代换,就可以得到两角差的正弦公式\n\n$$\n\\sin \\left( {\\alpha  - \\beta }\\right)  = \\sin \\alpha \\cos \\beta  - \\cos \\alpha \\sin \\beta .\n$$\n\n这样, 我们得到两角和与差的正弦公式\n\n$$\n\\sin \\left( {\\alpha  + \\beta }\\right)  = \\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta ,\n$$\n\n$$\n\\sin \\left( {\\alpha  - \\beta }\\right)  = \\sin \\alpha \\cos \\beta  - \\cos \\alpha \\sin \\beta .\n$$\n\n简记作\n\n$$\n\\sin \\left( {\\alpha  \\pm  \\beta }\\right)  = \\sin \\alpha \\cos \\beta  \\pm  \\cos \\alpha \\sin \\beta .\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1165,
+          "end": 1206
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1165,
+          "end": 1206
+        }
+      ],
+      "id": "bx2-6-2-p621-3",
+      "category": "练习6.2(1)",
+      "answer": "3. 证明: (1) $\\frac{2\\cos A\\cos B - \\cos \\left( {A - B}\\right) }{\\cos \\left( {A - B}\\right)  - 2\\sin A\\sin B} = \\frac{2\\cos A\\cos B - \\left( {\\cos A\\cos B + \\sin A\\sin B}\\right) }{\\cos A\\cos B + \\sin A\\sin B - 2\\sin A\\sin B} = 1$ .\n\n(2) $\\cos \\left( {\\alpha  + \\beta }\\right) \\cos \\left( {\\alpha  - \\beta }\\right)  = {\\cos }^{2}\\alpha {\\cos }^{2}\\beta  - {\\sin }^{2}\\alpha {\\sin }^{2}\\beta  = \\left( {1 - {\\sin }^{2}\\alpha }\\right) {\\cos }^{2}\\beta  - {\\sin }^{2}\\alpha (1 - \\; \\left. {{\\cos }^{2}\\beta }\\right)  = {\\cos }^{2}\\beta  - {\\sin }^{2}\\alpha$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 432,
+          "end": 435
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 利用两角差的正弦公式,求 $\\sin {15}^{ \\circ  }$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1207,
+          "end": 1208
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1207,
+          "end": 1208
+        }
+      ],
+      "id": "bx2-6-2-ex-4",
+      "category": "例题",
+      "answer": "解 $\\sin {15}^{ \\circ  } = \\sin \\left( {{60}^{ \\circ  } - {45}^{ \\circ  }}\\right)$\n\n$$\n= \\sin {60}^{ \\circ  }\\cos {45}^{ \\circ  } - \\cos {60}^{ \\circ  }\\sin {45}^{ \\circ  }\n$$\n\n$$\n= \\frac{\\sqrt{6} - \\sqrt{2}}{4}\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1209,
+          "end": 1218
+        }
+      ],
+      "teacher_analysis": "例 4 旨在例示如何在简单的情形中抓住角之间的联系, 使用两角差的正弦公式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 174,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 证明: $\\sin \\left( {\\alpha  + \\beta }\\right) \\sin \\left( {\\alpha  - \\beta }\\right)  = {\\sin }^{2}\\alpha  - {\\sin }^{2}\\beta$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1219,
+          "end": 1220
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1219,
+          "end": 1220
+        }
+      ],
+      "id": "bx2-6-2-ex-5",
+      "category": "例题",
+      "answer": "证明 左边 $= \\left( {\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }\\right) \\left( {\\sin \\alpha \\cos \\beta  - \\cos \\alpha \\sin \\beta }\\right)$\n\n$$\n= {\\sin }^{2}\\alpha {\\cos }^{2}\\beta  - {\\cos }^{2}\\alpha {\\sin }^{2}\\beta\n$$\n\n$$\n= {\\sin }^{2}\\alpha \\left( {1 - {\\sin }^{2}\\beta }\\right)  - \\left( {1 - {\\sin }^{2}\\alpha }\\right) {\\sin }^{2}\\beta\n$$\n\n$$\n= {\\sin }^{2}\\alpha  - {\\sin }^{2}\\beta\n$$\n\n$$\n= \\text{ 右边. }\n$$\n\n所以，原等式成立.\n\n根据两角和的正弦、余弦公式, 就可以得到两角和的正切公式. 事实上，\n\n$$\n\\tan \\left( {\\alpha  + \\beta }\\right)  = \\frac{\\sin \\left( {\\alpha  + \\beta }\\right) }{\\cos \\left( {\\alpha  + \\beta }\\right) } = \\frac{\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }{\\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta }\n$$\n\n$$\n= \\frac{\\frac{\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }{\\cos \\alpha \\cos \\beta }}{\\frac{\\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta }{\\cos \\alpha \\cos \\beta }} = \\frac{\\tan \\alpha  + \\tan \\beta }{1 - \\tan \\alpha \\tan \\beta }.\n$$\n\n将上式中的 $\\beta$ 用 $- \\beta$ 代换,就得到两角差的正切公式\n\n$$\n\\tan \\left( {\\alpha  - \\beta }\\right)  = \\frac{\\tan \\alpha  - \\tan \\beta }{1 + \\tan \\alpha \\tan \\beta }.\n$$\n\n这样, 我们得到两角和与差的正切公式\n\n$$\n\\tan \\left( {\\alpha  + \\beta }\\right)  = \\frac{\\tan \\alpha  + \\tan \\beta }{1 - \\tan \\alpha \\tan \\beta },\n$$\n\n$$\n\\tan \\left( {\\alpha  - \\beta }\\right)  = \\frac{\\tan \\alpha  - \\tan \\beta }{1 + \\tan \\alpha \\tan \\beta }.\n$$\n\n简记作\n\n$$\n\\tan \\left( {\\alpha  \\pm  \\beta }\\right)  = \\frac{\\tan \\alpha  \\pm  \\tan \\beta }{1 \\mp  \\tan \\alpha \\tan \\beta }.\n$$\n\n不难知道,只要 $\\tan \\alpha \\text{ 、 }\\tan \\beta$ 和 $\\tan \\left( {\\alpha  \\pm  \\beta }\\right)$ 均有意义,上面的公式一定成立.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1221,
+          "end": 1274
+        }
+      ],
+      "teacher_analysis": "例 5 旨在例示如何使用两角和与差的正弦公式进行恒等变换. 其中,观察等式右侧的特征是合理使用公式的关键.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 176,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 已知 $\\tan \\alpha  = \\frac{1}{3},\\tan \\beta  =  - 2$ . 求:\n\n(1) $\\tan \\left( {\\alpha  + \\beta }\\right)$ ;\n\n(2) $\\cot \\left( {\\alpha  - \\beta }\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1275,
+          "end": 1280
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1275,
+          "end": 1280
+        }
+      ],
+      "id": "bx2-6-2-ex-6",
+      "category": "例题",
+      "answer": "解 (1) $\\tan \\left( {\\alpha  + \\beta }\\right)  = \\frac{\\tan \\alpha  + \\tan \\beta }{1 - \\tan \\alpha \\tan \\beta } = \\frac{\\frac{1}{3} + \\left( {-2}\\right) }{1 - \\frac{1}{3} \\times  \\left( {-2}\\right) } =  - 1$ .\n\n(2) 因为\n\n$$\n\\tan \\left( {\\alpha  - \\beta }\\right)  = \\frac{\\tan \\alpha  - \\tan \\beta }{1 + \\tan \\alpha \\tan \\beta } = \\frac{\\frac{1}{3} - \\left( {-2}\\right) }{1 + \\frac{1}{3} \\times  \\left( {-2}\\right) } = 7,\n$$\n\n所以 $\\cot \\left( {\\alpha  - \\beta }\\right)  = \\frac{1}{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1281,
+          "end": 1290
+        }
+      ],
+      "teacher_analysis": "例 6 和例 7 旨在体现如何在简单的情形中使用两角和与差的正切公式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 178,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 利用两角和的正切公式,求 $\\frac{1 + \\tan {75}^{ \\circ  }}{1 - \\tan {75}^{ \\circ  }}$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1292
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1292
+        }
+      ],
+      "id": "bx2-6-2-ex-7",
+      "category": "例题",
+      "answer": "解 方法一:\n\n因为\n\n$$\n\\tan {75}^{ \\circ  } = \\tan \\left( {{45}^{ \\circ  } + {30}^{ \\circ  }}\\right)  = \\frac{\\tan {45}^{ \\circ  } + \\tan {30}^{ \\circ  }}{1 - \\tan {45}^{ \\circ  }\\tan {30}^{ \\circ  }} = 2 + \\sqrt{3},\n$$\n\n所以\n\n$$\n\\frac{1 + \\tan {75}^{ \\circ  }}{1 - \\tan {75}^{ \\circ  }} = \\frac{1 + \\left( {2 + \\sqrt{3}}\\right) }{1 - \\left( {2 + \\sqrt{3}}\\right) } =  - \\sqrt{3}.\n$$\n\n方法二: 因为 $\\tan {45}^{ \\circ  } = 1$ ,所以\n\n$$\n\\frac{1 + \\tan {75}^{ \\circ  }}{1 - \\tan {75}^{ \\circ  }} = \\frac{\\tan {45}^{ \\circ  } + \\tan {75}^{ \\circ  }}{1 - \\tan {45}^{ \\circ  }\\tan {75}^{ \\circ  }} = \\tan \\left( {{45}^{ \\circ  } + {75}^{ \\circ  }}\\right)\n$$\n\n$$\n= \\tan {120}^{ \\circ  } =  - \\tan {60}^{ \\circ  } =  - \\sqrt{3}\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1293,
+          "end": 1316
+        }
+      ],
+      "teacher_analysis": "例 6 和例 7 旨在体现如何在简单的情形中使用两角和与差的正切公式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 178,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(2)",
+      "markdown": "#### 练习 6.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1317,
+          "end": 1317
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(2) · 1",
+      "markdown": "1. 求下列各式的值:\n\n(1) $\\sin \\frac{5\\pi }{12}\\cos \\frac{\\pi }{12} - \\cos \\frac{5\\pi }{12}\\sin \\frac{\\pi }{12}$ ; (2) $\\frac{1 + \\tan {15}^{ \\circ  }}{1 - \\tan {15}^{ \\circ  }}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1322
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1322
+        }
+      ],
+      "id": "bx2-6-2-p622-1",
+      "category": "练习6.2(2)",
+      "answer": "1. (1) $\\frac{\\sqrt{3}}{2}$ . (2) $\\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 438,
+          "end": 439
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(2) · 2",
+      "markdown": "2. 已知 $\\cos \\theta  =  - \\frac{3}{5},\\theta  \\in  \\left( {0,\\pi }\\right)$ . 求 $\\sin \\left( {\\theta  + \\frac{\\pi }{4}}\\right)$ 和 $\\tan \\left( {\\theta  - \\frac{\\pi }{4}}\\right)$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1324
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1324
+        }
+      ],
+      "id": "bx2-6-2-p622-2",
+      "category": "练习6.2(2)",
+      "answer": "2. $\\sin \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  = \\frac{\\sqrt{2}}{10},\\tan \\left( {\\theta  - \\frac{\\pi }{4}}\\right)  = 7$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 440,
+          "end": 441
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(2) · 3",
+      "markdown": "3. 证明下列恒等式:\n\n(1) $\\frac{\\sin \\left( {\\alpha  + \\beta }\\right) \\sin \\left( {\\alpha  - \\beta }\\right) }{{\\cos }^{2}\\alpha {\\cos }^{2}\\beta } = {\\tan }^{2}\\alpha  - {\\tan }^{2}\\beta$ ; (2) $\\tan \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  = \\frac{1 + \\tan \\theta }{1 - \\tan \\theta }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1328
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1328
+        }
+      ],
+      "id": "bx2-6-2-p622-3",
+      "category": "练习6.2(2)",
+      "answer": "3. 证明: (1) $\\frac{\\sin \\left( {\\alpha  + \\beta }\\right) \\sin \\left( {\\alpha  - \\beta }\\right) }{{\\cos }^{2}\\alpha {\\cos }^{2}\\beta } = \\frac{{\\sin }^{2}\\alpha {\\cos }^{2}\\beta  - {\\cos }^{2}\\alpha {\\sin }^{2}\\beta }{{\\cos }^{2}\\alpha {\\cos }^{2}\\beta } = {\\tan }^{2}\\alpha  - {\\tan }^{2}\\beta$ .\n\n(2) $\\tan \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  = \\frac{\\tan \\theta  + \\tan \\frac{\\pi }{4}}{1 - \\tan \\theta \\tan \\frac{\\pi }{4}} = \\frac{1 + \\tan \\theta }{1 - \\tan \\theta }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 442,
+          "end": 445
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 8",
+      "markdown": "例 8 若 $\\bigtriangleup {ABC}$ 不是直角三角形,求证:\n\n$$\n\\tan A + \\tan B + \\tan C = \\tan A\\tan B\\tan C.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1334
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1334
+        }
+      ],
+      "id": "bx2-6-2-ex-8",
+      "category": "例题",
+      "answer": "证明 因为 $A + B + C = \\pi$ ,且 $\\tan \\left( {A + B}\\right)  = \\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}$ , 所以\n\n$$\n\\tan A + \\tan B = \\tan \\left( {A + B}\\right) \\left( {1 - \\tan A\\tan B}\\right)\n$$\n\n$$\n= \\tan \\left( {\\pi  - C}\\right) \\left( {1 - \\tan A\\tan B}\\right)\n$$\n\n$$\n=  - \\tan C\\left( {1 - \\tan A\\tan B}\\right) \\text{ , }\n$$\n\n从而\n\n$$\n\\tan A + \\tan B + \\tan C =  - \\tan C\\left( {1 - \\tan A\\tan B}\\right)  + \\tan C\n$$\n\n$$\n= \\tan A\\tan B\\tan C\\text{ . }\n$$\n\n",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1358
+        },
+        {
+          "source": "book",
+          "start": 1362,
+          "end": 1362
+        }
+      ],
+      "teacher_analysis": "例 8 是关于斜三角形的一个常见又比较重要的结论, 而其证明用的是两角和的正切公式的一个常见变化形式. 学生需要熟悉两角和与差公式的一些常见变化形式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 180,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 9",
+      "markdown": "例 9 如图 6-2-3,已知点 $A$ 的坐标为 $\\left( {1,2}\\right)$ ,将 ${OA}$ 绕坐标原点 $O$ 逆时针旋转 $\\frac{\\pi }{4}$ 至 $O{A}^{\\prime }$ . 求点 ${A}^{\\prime }$ 的坐标.\n\n![bo_d52056jef24c73bg6dsg_29_205_1113_280_197_0.jpg](sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_29_205_1113_280_197_0.jpg)\n\n图 6-2-3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1364
+        },
+        {
+          "source": "book",
+          "start": 1359,
+          "end": 1361
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1364
+        },
+        {
+          "source": "book",
+          "start": 1359,
+          "end": 1361
+        }
+      ],
+      "id": "bx2-6-2-ex-9",
+      "category": "例题",
+      "answer": "解 设以 $x$ 轴正半轴为始边、 ${OA}$ 为终边的角为 $\\theta$ .\n\n由点 $A$ 的坐标为 $\\left( {1,2}\\right)$ ,可得 ${OA} = \\sqrt{5},\\sin \\theta  = \\frac{2\\sqrt{5}}{5},\\cos \\theta  = \\frac{\\sqrt{5}}{5}$ .\n\n设点 ${A}^{\\prime }$ 的坐标为 $\\left( {x, y}\\right)$ ,由 $O{A}^{\\prime } = {OA} = \\sqrt{5}$ ,得\n\n$$\nx = O{A}^{\\prime }\\cos \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  = \\sqrt{5}\\left( {\\cos \\theta \\cos \\frac{\\pi }{4} - \\sin \\theta \\sin \\frac{\\pi }{4}}\\right)\n$$\n\n$$\n= \\sqrt{5}\\left( {\\frac{\\sqrt{5}}{5} \\times  \\frac{\\sqrt{2}}{2} - \\frac{2\\sqrt{5}}{5} \\times  \\frac{\\sqrt{2}}{2}}\\right)  =  - \\frac{\\sqrt{2}}{2},\n$$\n\n$$\ny = O{A}^{\\prime }\\sin \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  = \\sqrt{5}\\left( {\\sin \\theta \\cos \\frac{\\pi }{4} + \\cos \\theta \\sin \\frac{\\pi }{4}}\\right)\n$$\n\n$$\n= \\sqrt{5}\\left( {\\frac{2\\sqrt{5}}{5} \\times  \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{5}}{5} \\times  \\frac{\\sqrt{2}}{2}}\\right)  = \\frac{3\\sqrt{2}}{2}.\n$$\n\n于是,点 ${A}^{\\prime }$ 的坐标为 $\\left( {-\\frac{\\sqrt{2}}{2},\\frac{3\\sqrt{2}}{2}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1365,
+          "end": 1388
+        }
+      ],
+      "teacher_analysis": "例 9 可以为求解向量绕原点旋转作预备, 进而可推导出平面直角坐标系的坐标旋转公式. 由于本题综合了三角的定义和两角和的正弦与余弦公式, 不但有典型性, 更有较强的综合性.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 182,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 10",
+      "markdown": "例 10 把下列各式化为 $A\\sin \\left( {\\alpha  + \\varphi }\\right) \\left( {A > 0}\\right)$ 的形式:\n\n(1) $\\frac{1}{2}\\sin \\alpha  + \\frac{\\sqrt{3}}{2}\\cos \\alpha$ ；\n\n(2) $\\sin \\alpha  - \\cos \\alpha$ ；\n\n(3) $a\\sin \\alpha  + b\\cos \\alpha \\left( {{ab} \\neq  0}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1389,
+          "end": 1396
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1389,
+          "end": 1396
+        }
+      ],
+      "id": "bx2-6-2-ex-10",
+      "category": "例题",
+      "answer": "解 (1) $\\frac{1}{2}\\sin \\alpha  + \\frac{\\sqrt{3}}{2}\\cos \\alpha  = \\sin \\alpha \\cos \\frac{\\pi }{3} + \\cos \\alpha \\sin \\frac{\\pi }{3} = \\sin \\left( {\\alpha  + \\frac{\\pi }{3}}\\right)$ .\n\n(2)因为\n\n$$\n\\sin \\alpha  - \\cos \\alpha  = \\sqrt{2}\\left( {\\frac{\\sqrt{2}}{2}\\sin \\alpha  - \\frac{\\sqrt{2}}{2}\\cos \\alpha }\\right) ,\n$$\n\n所以\n\n$$\n\\sin \\alpha  - \\cos \\alpha  = \\sqrt{2}\\left( {\\sin \\alpha \\cos \\frac{\\pi }{4} - \\cos \\alpha \\sin \\frac{\\pi }{4}}\\right)  = \\sqrt{2}\\sin \\left( {\\alpha  - \\frac{\\pi }{4}}\\right) .\n$$\n\n(3) $a\\sin \\alpha  + b\\cos \\alpha  = \\sqrt{{a}^{2} + {b}^{2}}\\left( {\\frac{a}{\\sqrt{{a}^{2} + {b}^{2}}}\\sin \\alpha  + \\frac{b}{\\sqrt{{a}^{2} + {b}^{2}}}\\cos \\alpha }\\right)$ .\n\n注意到 $\\left( {\\frac{a}{\\sqrt{{a}^{2} + {b}^{2}}},\\frac{b}{\\sqrt{{a}^{2} + {b}^{2}}}}\\right)$ 为单位圆上的一点,由正弦及余弦的定义,存在唯一的角 $\\varphi  \\in  \\lbrack 0,{2\\pi })$ ,使得\n\n$$\n\\cos \\varphi  = \\frac{a}{\\sqrt{{a}^{2} + {b}^{2}}},\\sin \\varphi  = \\frac{b}{\\sqrt{{a}^{2} + {b}^{2}}},\n$$\n\n于是有\n\n$$\na\\sin \\alpha  + b\\cos \\alpha  = \\sqrt{{a}^{2} + {b}^{2}}\\left( {\\sin \\alpha \\cos \\varphi  + \\cos \\alpha \\sin \\varphi }\\right)\n$$\n\n$$\n= \\sqrt{{a}^{2} + {b}^{2}}\\sin \\left( {\\alpha  + \\varphi }\\right) \\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1397,
+          "end": 1428
+        }
+      ],
+      "teacher_analysis": "例 10 将单角化为复合角, 被称为辅助角公式. 本例综合了三角的定义与两角和或差的正弦公式的逆向使用,且事实上还存在着某种构造性的应用,这个公式的掌握对学生来讲是相对困难的.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 184,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(3)",
+      "markdown": "#### 练习 6.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1429,
+          "end": 1429
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(3) · 1",
+      "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $\\cos A = \\frac{12}{13},\\cos B = \\frac{8}{17}$ . 求 $\\sin C$ 和 $\\cos C$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1431,
+          "end": 1432
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1431,
+          "end": 1432
+        }
+      ],
+      "id": "bx2-6-2-p623-1",
+      "category": "练习6.2(3)",
+      "answer": "1. $\\sin C = \\frac{220}{221},\\cos C =  - \\frac{21}{221}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 448,
+          "end": 449
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(3) · 2",
+      "markdown": "2. 已知 $\\cos \\alpha  = \\frac{4}{5},\\alpha  \\in  \\left( {0,\\frac{\\pi }{2}}\\right) ,\\sin \\beta  = \\frac{12}{13},\\beta  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ . 求 $\\sin \\left( {\\alpha  + \\beta }\\right)$ 和 $\\cos \\left( {\\alpha  + \\beta }\\right)$ 的值,并判断 $\\alpha  + \\beta$ 是第几象限的角.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1433,
+          "end": 1434
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1433,
+          "end": 1434
+        }
+      ],
+      "id": "bx2-6-2-p623-2",
+      "category": "练习6.2(3)",
+      "answer": "2. $\\sin \\left( {\\alpha  + \\beta }\\right)  = \\frac{33}{65},\\cos \\left( {\\alpha  + \\beta }\\right)  =  - \\frac{56}{65}$ ,所以 $\\alpha  + \\beta$ 是第二象限的角.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 450,
+          "end": 451
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(3) · 3",
+      "markdown": "3. 把下列各式化为 $A\\sin \\left( {\\alpha  + \\varphi }\\right) \\left( {A > 0}\\right)$ 的形式:\n\n(1) $\\sin \\alpha  + \\cos \\alpha$\n\n(2) $- \\sin \\alpha  + \\sqrt{3}\\cos \\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1435,
+          "end": 1440
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1435,
+          "end": 1440
+        }
+      ],
+      "id": "bx2-6-2-p623-3",
+      "category": "练习6.2(3)",
+      "answer": "3. (1) $\\sqrt{2}\\sin \\left( {\\alpha  + \\frac{\\pi }{4}}\\right)$ . (2) $2\\sin \\left( {\\alpha  + \\frac{2\\pi }{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 452,
+          "end": 453
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 二倍角公式",
+      "markdown": "### 2 二倍角公式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1441,
+          "end": 1441
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在两角和的正弦、余弦和正切公式中,用 $\\beta  = \\alpha$ 代入,就得到二倍角的正弦、余弦和正切公式\n\n$$\n\\sin {2\\alpha } = 2\\sin \\alpha \\cos \\alpha ,\n$$\n\n$$\n\\cos {2\\alpha } = {\\cos }^{2}\\alpha  - {\\sin }^{2}\\alpha ,\n$$\n\n$$\n\\tan {2\\alpha } = \\frac{2\\tan \\alpha }{1 - {\\tan }^{2}\\alpha }.\n$$\n\n由于 ${\\sin }^{2}\\alpha  + {\\cos }^{2}\\alpha  = 1$ ,因此二倍角的余弦公式还可以表示为\n\n$$\n\\cos {2\\alpha } = 2{\\cos }^{2}\\alpha  - 1 = 1 - 2{\\sin }^{2}\\alpha .\n$$\n\n二倍角公式是两角和公式的特例, 简称为倍角公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1442,
+          "end": 1464
+        }
+      ],
+      "emphases": [
+        {
+          "start": 248,
+          "end": 390,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx2-6-2-formula-27-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 392,
+          "end": 416,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-6-2-definition-27-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 11",
+      "markdown": "例 11 已知 $\\sin \\alpha  = \\frac{4}{5},\\alpha  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ . 求 $\\sin {2\\alpha }\\text{ 、 }\\cos {2\\alpha }$ 和 $\\tan {2\\alpha }$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1465,
+          "end": 1466
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1465,
+          "end": 1466
+        }
+      ],
+      "id": "bx2-6-2-ex-11",
+      "category": "例题",
+      "answer": "解 由 $\\sin \\alpha  = \\frac{4}{5},\\alpha  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ ,得\n\n$$\n\\cos \\alpha  =  - \\sqrt{1 - {\\sin }^{2}\\alpha } =  - \\frac{3}{5},\\tan \\alpha  = \\frac{\\sin \\alpha }{\\cos \\alpha } =  - \\frac{4}{3},\n$$\n\n于是\n\n$$\n\\sin {2\\alpha } = 2\\sin \\alpha \\cos \\alpha  = 2 \\times  \\left( {-\\frac{3}{5}}\\right)  \\times  \\frac{4}{5} =  - \\frac{24}{25},\n$$\n\n$$\n\\cos {2\\alpha } = 1 - 2{\\sin }^{2}\\alpha  = 1 - 2 \\times  {\\left( \\frac{4}{5}\\right) }^{2} =  - \\frac{7}{25},\n$$\n\n$$\n\\tan {2\\alpha } = \\frac{2\\tan \\alpha }{1 - {\\tan }^{2}\\alpha } = \\frac{2 \\times  \\left( {-\\frac{4}{3}}\\right) }{1 - {\\left( -\\frac{4}{3}\\right) }^{2}} = \\frac{24}{7}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1467,
+          "end": 1486
+        }
+      ],
+      "teacher_analysis": "例 11 旨在例示如何在简单的情形中使用二倍角公式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 186,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 12",
+      "markdown": "例 12 试用 $\\cos \\theta$ 表示 $\\cos {3\\theta }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1487,
+          "end": 1488
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1487,
+          "end": 1488
+        }
+      ],
+      "id": "bx2-6-2-ex-12",
+      "category": "例题",
+      "answer": "解 因为 $\\cos {3\\theta } = \\cos \\left( {{2\\theta } + \\theta }\\right)  = \\cos {2\\theta }\\cos \\theta  - \\sin {2\\theta }\\sin \\theta$\n\n$$\n= \\left( {2{\\cos }^{2}\\theta  - 1}\\right) \\cos \\theta  - 2{\\sin }^{2}\\theta \\cos \\theta\n$$\n\n$$\n= \\left( {2{\\cos }^{2}\\theta  - 1}\\right) \\cos \\theta  - 2\\left( {1 - {\\cos }^{2}\\theta }\\right) \\cos \\theta\n$$\n\n$$\n= 4{\\cos }^{3}\\theta  - 3\\cos \\theta \\text{ , }\n$$\n\n所以 $\\cos {3\\theta } = 4{\\cos }^{3}\\theta  - 3\\cos \\theta$ .\n\n这个公式称为三倍角的余弦公式. 类似地, 可以推导出三倍角的正弦公式.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1489,
+          "end": 1506
+        }
+      ],
+      "teacher_analysis": "例 12 旨在说明如何从二倍角公式推导三倍角的余弦公式, 进一步可以用类似方法推导多倍角的相应公式. 该公式曾在历史上为三次方程的求解提供了重要的思路, 但在教学上不应强调记忆该公式, 只需掌握其推导方法和体会转化的思想.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 188,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 13",
+      "markdown": "例 13 证明:\n\n(1) $2{\\cos }^{2}\\theta  + 2\\sin \\theta \\cos \\theta  - 1 = \\sqrt{2}\\sin \\left( {{2\\theta } + \\frac{\\pi }{4}}\\right)$ ；\n\n---\n\n历史上，三倍角公式曾为求解一元三次方程提供思路.\n\n---\n\n(2) $\\frac{1 + \\sin {2\\theta } + \\cos {2\\theta }}{1 + \\sin {2\\theta } - \\cos {2\\theta }} = \\cot \\theta$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1507,
+          "end": 1518
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1507,
+          "end": 1518
+        }
+      ],
+      "id": "bx2-6-2-ex-13",
+      "category": "例题",
+      "answer": "证明 (1) $2{\\cos }^{2}\\theta  + 2\\sin \\theta \\cos \\theta  - 1 = \\cos {2\\theta } + \\sin {2\\theta }$\n\n$$\n= \\sqrt{2}\\left( {\\sin \\frac{\\pi }{4}\\cos {2\\theta } + \\cos \\frac{\\pi }{4}\\sin {2\\theta }}\\right)  = \\sqrt{2}\\sin \\left( {{2\\theta } + \\frac{\\pi }{4}}\\right) .\n$$\n\n2) $\\frac{1 + \\sin {2\\theta } + \\cos {2\\theta }}{1 + \\sin {2\\theta } - \\cos {2\\theta }} = \\frac{1 + 2\\sin \\theta \\cos \\theta  + \\left( {2{\\cos }^{2}\\theta  - 1}\\right) }{1 + 2\\sin \\theta \\cos \\theta  - \\left( {1 - 2{\\sin }^{2}\\theta }\\right) }$\n\n$$\n= \\frac{2\\cos \\theta \\left( {\\sin \\theta  + \\cos \\theta }\\right) }{2\\sin \\theta \\left( {\\sin \\theta  + \\cos \\theta }\\right) } = \\cot \\theta .\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1519,
+          "end": 1530
+        }
+      ],
+      "teacher_analysis": "例 13 旨在说明二倍角公式如何用来“降次”或“升次”. 虽然本题为证明恒等式, 但重要的是需要掌握二倍角公式的正用或逆用的方法.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 190,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(4)",
+      "markdown": "#### 练习 6.2(4)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1531,
+          "end": 1531
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(4) · 1",
+      "markdown": "1. 利用二倍角公式, 求下列各式的值:\n\n(1) $\\sin \\frac{5\\pi }{12}\\cos \\frac{5\\pi }{12}$ ; (2) ${\\cos }^{2}{22.5}^{ \\circ  } - {\\sin }^{2}{22.5}^{ \\circ  }$ ；\n\n(3) $\\frac{\\tan {15}^{ \\circ  }}{1 - {\\tan }^{2}{15}^{ \\circ  }}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1533,
+          "end": 1538
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1533,
+          "end": 1538
+        }
+      ],
+      "id": "bx2-6-2-p624-1",
+      "category": "练习6.2(4)",
+      "answer": "1. (1) $\\frac{1}{4}$ . (2) $\\frac{\\sqrt{2}}{2}$ . (3) $\\frac{\\sqrt{3}}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 456,
+          "end": 457
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(4) · 2",
+      "markdown": "2. 已知 $\\cos \\alpha  =  - \\frac{\\sqrt{5}}{5},\\alpha  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ . 求 $\\sin {2\\alpha },\\cos {2\\alpha }$ 和 $\\tan {2\\alpha }$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1539,
+          "end": 1540
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1539,
+          "end": 1540
+        }
+      ],
+      "id": "bx2-6-2-p624-2",
+      "category": "练习6.2(4)",
+      "answer": "2. $\\sin {2\\alpha } =  - \\frac{4}{5},\\cos {2\\alpha } =  - \\frac{3}{5},\\tan {2\\alpha } = \\frac{4}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 458,
+          "end": 459
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(4) · 3",
+      "markdown": "3. 证明下列恒等式:\n\n(1) ${\\left( \\sin \\alpha  + \\cos \\alpha \\right) }^{2} = 1 + \\sin {2\\alpha }$ ； (2) ${\\cos }^{4}\\alpha  - {\\sin }^{4}\\alpha  = \\cos {2\\alpha }$ ；\n\n(3) $\\sin {3\\alpha } = 3\\sin \\alpha  - 4{\\sin }^{3}\\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1541,
+          "end": 1546
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1541,
+          "end": 1546
+        }
+      ],
+      "id": "bx2-6-2-p624-3",
+      "category": "练习6.2(4)",
+      "answer": "3. 证明: (1) ${\\left( \\sin \\alpha  + \\cos \\alpha \\right) }^{2} = {\\sin }^{2}\\alpha  + {\\cos }^{2}\\alpha  + 2\\sin \\alpha \\cos \\alpha  = 1 + \\sin {2\\alpha }$ .\n\n(2) ${\\cos }^{4}\\alpha  - {\\sin }^{4}\\alpha  = \\left( {{\\cos }^{2}\\alpha  + {\\sin }^{2}\\alpha }\\right) \\left( {{\\cos }^{2}\\alpha  - {\\sin }^{2}\\alpha }\\right)  = \\cos {2\\alpha }$ .\n\n(3) $\\sin {3\\alpha } = \\sin \\left( {{2\\alpha } + \\alpha }\\right)  = \\sin {2\\alpha }\\cos \\alpha  + \\cos {2\\alpha }\\sin \\alpha  = 2\\sin \\alpha {\\cos }^{2}\\alpha  + \\left( {1 - 2{\\sin }^{2}\\alpha }\\right) \\sin \\alpha  = \\; 2\\sin \\alpha \\left( {1 - {\\sin }^{2}\\alpha }\\right)  + \\left( {1 - 2{\\sin }^{2}\\alpha }\\right) \\sin \\alpha  = 3\\sin \\alpha  - 4{\\sin }^{3}\\alpha .$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 460,
+          "end": 465
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "3 三角变换的应用",
+      "markdown": "### 3 三角变换的应用",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1547,
+          "end": 1547
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在学习两角和与差的公式、二倍角公式的基础上，我们可以推导出更多的三角恒等关系. 如果已知角 $\\alpha$ 的正弦、余弦及正切值,用二倍角公式就可以得到角 ${2\\alpha }$ 的相应值. 反之,如果已知角 ${2\\alpha }$ 的正弦、余弦及正切值,也可以得到角 $\\alpha$ 的相应值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1548,
+          "end": 1550
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 14",
+      "markdown": "例 14 用 $\\cos \\alpha$ 分别表示 ${\\sin }^{2}\\frac{\\alpha }{2},{\\cos }^{2}\\frac{\\alpha }{2}$ 及 ${\\tan }^{2}\\frac{\\alpha }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1551,
+          "end": 1552
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1551,
+          "end": 1552
+        }
+      ],
+      "id": "bx2-6-2-ex-14",
+      "category": "例题",
+      "answer": "解 因为 $\\cos \\alpha  = 1 - 2{\\sin }^{2}\\frac{\\alpha }{2} = 2{\\cos }^{2}\\frac{\\alpha }{2} - 1$ ,所以\n\n$$\n{\\sin }^{2}\\frac{\\alpha }{2} = \\frac{1 - \\cos \\alpha }{2},{\\cos }^{2}\\frac{\\alpha }{2} = \\frac{1 + \\cos \\alpha }{2},\n$$\n\n从而 ${\\tan }^{2}\\frac{\\alpha }{2} = \\frac{1 - \\cos \\alpha }{1 + \\cos \\alpha }$ .\n\n从例 14 不难得到以下公式:\n\n$$\n\\sin \\frac{\\alpha }{2} =  \\pm  \\sqrt{\\frac{1 - \\cos \\alpha }{2}}\n$$\n\n$$\n\\cos \\frac{\\alpha }{2} =  \\pm  \\sqrt{\\frac{1 + \\cos \\alpha }{2}}\n$$\n\n$$\n\\tan \\frac{\\alpha }{2} =  \\pm  \\sqrt{\\frac{1 - \\cos \\alpha }{1 + \\cos \\alpha }}\n$$\n\n它们分别叫做半角的正弦、余弦和正切公式. 其中, 公式右侧的 “ $\\pm$ ”号,根据角 $\\frac{\\alpha }{2}$ 所在的象限由左侧值相应的符号确定.\n\n例如,因为 ${15}^{ \\circ  }$ 是第一象限的角,所以 $\\sin {15}^{ \\circ  } > 0$ ,从而\n\n$$\n\\sin {15}^{ \\circ  } = \\sqrt{\\frac{1 - \\cos {30}^{ \\circ  }}{2}} = \\sqrt{\\frac{1 - \\frac{\\sqrt{3}}{2}}{2}} = \\sqrt{\\frac{2 - \\sqrt{3}}{4}} = \\sqrt{\\frac{8 - 4\\sqrt{3}}{16}} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1553,
+          "end": 1582
+        }
+      ],
+      "teacher_analysis": "例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 192,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 15",
+      "markdown": "例 15 证明: $\\tan \\frac{\\alpha }{2} = \\frac{\\sin \\alpha }{1 + \\cos \\alpha }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1583,
+          "end": 1584
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1583,
+          "end": 1584
+        }
+      ],
+      "id": "bx2-6-2-ex-15",
+      "category": "例题",
+      "answer": "证明 $\\tan \\frac{\\alpha }{2} = \\frac{\\sin \\frac{\\alpha }{2}}{\\cos \\frac{\\alpha }{2}} = \\frac{2\\sin \\frac{\\alpha }{2}\\cos \\frac{\\alpha }{2}}{2{\\cos }^{2}\\frac{\\alpha }{2}} = \\frac{\\sin \\alpha }{1 + \\cos \\alpha }$ .\n\n这样, 半角的正切公式又可以表示为\n\n$$\n\\tan \\frac{\\alpha }{2} = \\frac{\\sin \\alpha }{1 + \\cos \\alpha }.\n$$\n\n半角的正切公式还可以表示为\n\n$$\n\\tan \\frac{\\alpha }{2} = \\frac{1 - \\cos \\alpha }{\\sin \\alpha }.\n$$\n\n例如, $\\tan {22.5}^{ \\circ  } = \\frac{1 - \\cos {45}^{ \\circ  }}{\\sin {45}^{ \\circ  }} = \\frac{1 - \\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{2}}{2}} = \\sqrt{2} - 1$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1585,
+          "end": 1600
+        }
+      ],
+      "teacher_analysis": "例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 192,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 16",
+      "markdown": "例 16 证明: $\\sin \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\sin \\left( {\\alpha  + \\beta }\\right)  + \\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1601,
+          "end": 1602
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1601,
+          "end": 1602
+        }
+      ],
+      "id": "bx2-6-2-ex-16",
+      "category": "例题",
+      "answer": "证明 我们已经知道\n\n$$\n\\sin \\left( {\\alpha  + \\beta }\\right)  = \\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta ,\n$$\n\n$$\n\\sin \\left( {\\alpha  - \\beta }\\right)  = \\sin \\alpha \\cos \\beta  - \\cos \\alpha \\sin \\beta ,\n$$\n\n将上述两式相加, 得\n\n$$\n\\sin \\left( {\\alpha  + \\beta }\\right)  + \\sin \\left( {\\alpha  - \\beta }\\right)  = 2\\sin \\alpha \\cos \\beta ,\n$$\n\n即\n\n$$\n\\sin \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\sin \\left( {\\alpha  + \\beta }\\right)  + \\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  .\n$$\n\n类似地, 利用两角和与差的正弦、余弦公式, 就可以得到下面一组公式:\n\n$$\n\\sin \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\sin \\left( {\\alpha  + \\beta }\\right)  + \\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  ,\n$$\n\n$$\n\\cos \\alpha \\sin \\beta  = \\frac{1}{2}\\left\\lbrack  {\\sin \\left( {\\alpha  + \\beta }\\right)  - \\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  ,\n$$\n\n$$\n\\cos \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\cos \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  ,\n$$\n\n$$\n\\sin \\alpha \\sin \\beta  =  - \\frac{1}{2}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  - \\cos \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  .\n$$\n\n它们统称为积化和差公式.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1603,
+          "end": 1644
+        }
+      ],
+      "teacher_analysis": "例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 192,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 17",
+      "markdown": "例 17 证明: $\\sin \\alpha  + \\sin \\beta  = 2\\sin \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1645,
+          "end": 1646
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1645,
+          "end": 1646
+        }
+      ],
+      "id": "bx2-6-2-ex-17",
+      "category": "例题",
+      "answer": "证明 由例 16,有 $\\sin x\\cos y = \\frac{1}{2}\\left\\lbrack  {\\sin \\left( {x + y}\\right)  + \\sin \\left( {x - y}\\right) }\\right\\rbrack$ , 在其中取 $x = \\frac{\\alpha  + \\beta }{2}, y = \\frac{\\alpha  - \\beta }{2}$ ,就有\n\n$$\n\\sin \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2} = \\frac{1}{2}\\left( {\\sin \\alpha  + \\sin \\beta }\\right) ,\n$$\n\n即 $\\sin \\alpha  + \\sin \\beta  = 2\\sin \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2}$ .\n\n类似地, 我们可以得到下面一组公式:\n\n$$\n\\sin \\alpha  + \\sin \\beta  = 2\\sin \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2},\n$$\n\n$$\n\\sin \\alpha  - \\sin \\beta  = 2\\cos \\frac{\\alpha  + \\beta }{2}\\sin \\frac{\\alpha  - \\beta }{2},\n$$\n\n$$\n\\cos \\alpha  + \\cos \\beta  = 2\\cos \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2},\n$$\n\n$$\n\\cos \\alpha  - \\cos \\beta  =  - 2\\sin \\frac{\\alpha  + \\beta }{2}\\sin \\frac{\\alpha  - \\beta }{2}.\n$$\n\n它们统称为和差化积公式.\n\n积化和差公式与和差化积公式相互等价, 都可由两角和与差的正弦、余弦公式通过恒等变换得到. 这两组公式常用来化简比较复杂的三角表达式.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1647,
+          "end": 1676
+        }
+      ],
+      "teacher_analysis": "例 14、例 15、例 16 与例 17 分别证明了半角的正弦、余弦、正切公式, 积化和差公式与和差化积公式. 以例题形式呈现的目的在于强调公式的推导过程, 而淡化公式的记忆和应用. 在例 14 和例 15 中, 公式的成立是有条件的, 但考虑到本课时的目的在于体会推导过程, 并未在此展开, 可根据学生的具体情况必要时补充说明.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 192,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(5)",
+      "markdown": "#### 练习 6.2(5)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1677,
+          "end": 1677
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(5) · 1",
+      "markdown": "1. 证明: $\\cos \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\cos \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1679,
+          "end": 1680
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1679,
+          "end": 1680
+        }
+      ],
+      "id": "bx2-6-2-p625-1",
+      "category": "练习6.2(5)",
+      "answer": "1. 证明: 由 $\\cos \\left( {\\alpha  + \\beta }\\right)  = \\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta ,\\cos \\left( {\\alpha  - \\beta }\\right)  = \\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta$ , 将上述两式相加并整理,得 $\\cos \\alpha \\cos \\beta  = \\frac{1}{2}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\cos \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 468,
+          "end": 469
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(5) · 2",
+      "markdown": "2. 证明: $\\cos \\alpha  + \\cos \\beta  = 2\\cos \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1681,
+          "end": 1682
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1681,
+          "end": 1682
+        }
+      ],
+      "id": "bx2-6-2-p625-2",
+      "category": "练习6.2(5)",
+      "answer": "2. 证明: 由上题有 $\\frac{1}{2}\\left\\lbrack  {\\cos \\left( {x + y}\\right)  + \\cos \\left( {x - y}\\right) }\\right\\rbrack   = \\cos x\\cos y$ ,在其中取 $x = \\; \\frac{\\alpha  + \\beta }{2}, y = \\frac{\\alpha  - \\beta }{2}$ ,整理就有 $\\cos \\alpha  + \\cos \\beta  = 2\\cos \\frac{\\alpha  + \\beta }{2}\\cos \\frac{\\alpha  - \\beta }{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 470,
+          "end": 471
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(5) · 3",
+      "markdown": "3. 证明: $\\tan \\frac{\\alpha }{2} = \\frac{1 - \\cos \\alpha }{\\sin \\alpha }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1683,
+          "end": 1684
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1683,
+          "end": 1684
+        }
+      ],
+      "id": "bx2-6-2-p625-3",
+      "category": "练习6.2(5)",
+      "answer": "3. 证明: $\\tan \\frac{\\alpha }{2} = \\frac{\\sin \\frac{\\alpha }{2}}{\\cos \\frac{\\alpha }{2}} = \\frac{2{\\sin }^{2}\\frac{\\alpha }{2}}{2\\sin \\frac{\\alpha }{2}\\cos \\frac{\\alpha }{2}} = \\frac{1 - \\cos \\alpha }{\\sin \\alpha }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 472,
+          "end": 473
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 6.2",
+      "markdown": "#### 习题 6.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1685,
+          "end": 1685
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1687,
+          "end": 1687
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 1",
+      "markdown": "1. 利用两角和与差的相应公式, 分别求下列各值:\n\n(1) $\\cos {105}^{ \\circ  }$ ； (2)sin ${165}^{ \\circ  }$ ； (3) $\\tan \\frac{5\\pi }{12}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1689,
+          "end": 1692
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1689,
+          "end": 1692
+        }
+      ],
+      "id": "bx2-6-2-h62A-1",
+      "category": "习题6.2A",
+      "answer": "1. (1) $\\frac{-\\sqrt{6} + \\sqrt{2}}{4}$ . (2) $\\frac{\\sqrt{6} - \\sqrt{2}}{4}$ . (3) $2 + \\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 478,
+          "end": 479
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 2",
+      "markdown": "2. 化简下列各式:\n\n(1) $\\cos \\left( {\\alpha  + \\beta }\\right) \\cos \\beta  + \\sin \\left( {\\alpha  + \\beta }\\right) \\sin \\beta$ ;\n\n(2) $\\sin \\left( {\\theta  + {105}^{ \\circ  }}\\right) \\cos \\left( {\\theta  - {15}^{ \\circ  }}\\right)  - \\cos \\left( {\\theta  + {105}^{ \\circ  }}\\right) \\sin \\left( {\\theta  - {15}^{ \\circ  }}\\right)$ ；\n\n(3) $\\cos \\left( {\\theta  + \\frac{\\pi }{4}}\\right)  + \\sin \\left( {\\frac{\\pi }{4} + \\theta }\\right)$ ;\n\n(4) $\\frac{\\tan \\left( {\\alpha  - \\beta }\\right)  + \\tan \\beta }{1 - \\tan \\left( {\\alpha  - \\beta }\\right) \\tan \\beta }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1693,
+          "end": 1702
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1693,
+          "end": 1702
+        }
+      ],
+      "id": "bx2-6-2-h62A-2",
+      "category": "习题6.2A",
+      "answer": "2. (1) $\\cos \\alpha$ . (2) $\\frac{\\sqrt{3}}{2}$ . (3) $\\sqrt{2}\\cos \\theta$ . (4) $\\tan \\alpha$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 480,
+          "end": 481
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 3",
+      "markdown": "3. 已知 $\\sin \\alpha  = \\frac{8}{17},\\cos \\beta  =  - \\frac{5}{13}$ ,且 $\\alpha \\text{ 、 }\\beta  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ . 求 $\\cos \\left( {\\alpha  + \\beta }\\right)$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1703,
+          "end": 1704
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1703,
+          "end": 1704
+        }
+      ],
+      "id": "bx2-6-2-h62A-3",
+      "category": "习题6.2A",
+      "answer": "3. $\\cos \\left( {\\alpha  + \\beta }\\right)  =  - \\frac{21}{221}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 482,
+          "end": 483
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 4",
+      "markdown": "4. 已知 $\\sin \\alpha  = \\frac{5}{13},\\cos \\beta  =  - \\frac{3}{5}$ ,且 $\\alpha \\text{ 、 }\\beta$ 都是第二象限的角. 求 $\\sin \\left( {\\alpha  - \\beta }\\right) ,\\cos \\left( {\\alpha  - \\beta }\\right)$ 和 $\\tan \\left( {\\alpha  - \\beta }\\right)$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1705,
+          "end": 1706
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1705,
+          "end": 1706
+        }
+      ],
+      "id": "bx2-6-2-h62A-4",
+      "category": "习题6.2A",
+      "answer": "4. $\\sin \\left( {\\alpha  - \\beta }\\right)  = \\frac{33}{65},\\cos \\left( {\\alpha  - \\beta }\\right)  = \\frac{56}{65},\\tan \\left( {\\alpha  - \\beta }\\right)  = \\frac{33}{56}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 484,
+          "end": 485
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 5",
+      "markdown": "5. 已知 $\\tan \\alpha  = 2,\\tan \\beta  = 3$ ,其中 $\\alpha$ 及 $\\beta$ 均为锐角. 求 $\\alpha  + \\beta$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1707,
+          "end": 1708
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1707,
+          "end": 1708
+        }
+      ],
+      "id": "bx2-6-2-h62A-5",
+      "category": "习题6.2A",
+      "answer": "5. $\\tan \\left( {\\alpha  + \\beta }\\right)  =  - 1$ 且 $0 < \\alpha  + \\beta  < \\pi$ ,故 $\\alpha  + \\beta  = \\frac{3\\pi }{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 486,
+          "end": 487
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 6",
+      "markdown": "6. 已知 $\\sin \\theta  =  - \\frac{7}{25},\\theta  \\in  \\left( {\\pi ,\\frac{3\\pi }{2}}\\right)$ . 求 $\\tan \\left( {\\theta  - \\frac{\\pi }{4}}\\right)$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1709,
+          "end": 1710
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1709,
+          "end": 1710
+        }
+      ],
+      "id": "bx2-6-2-h62A-6",
+      "category": "习题6.2A",
+      "answer": "6. $\\tan \\left( {\\theta  - \\frac{\\pi }{4}}\\right)  =  - \\frac{17}{31}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 488,
+          "end": 489
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 7",
+      "markdown": "7. 证明下列恒等式:\n\n(1) $\\frac{\\sin \\left( {\\alpha  + \\beta }\\right) }{\\cos \\alpha \\cos \\beta } = \\tan \\alpha  + \\tan \\beta$ ;\n\n(2) $\\sin \\left( {\\alpha  + \\beta }\\right) \\cos \\left( {\\alpha  - \\beta }\\right)  = \\sin \\alpha \\cos \\alpha  + \\sin \\beta \\cos \\beta$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1711,
+          "end": 1716
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1711,
+          "end": 1716
+        }
+      ],
+      "id": "bx2-6-2-h62A-7",
+      "category": "习题6.2A",
+      "answer": "7. 证明: (1) $\\frac{\\sin \\left( {\\alpha  + \\beta }\\right) }{\\cos \\alpha \\cos \\beta } = \\frac{\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }{\\cos \\alpha \\cos \\beta } = \\tan \\alpha  + \\tan \\beta$ .\n\n(2) $\\sin \\left( {\\alpha  + \\beta }\\right) \\cos \\left( {\\alpha  - \\beta }\\right)  = \\left( {\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }\\right) \\left( {\\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta }\\right)  = \\; \\sin \\alpha \\cos \\alpha \\left( {{\\cos }^{2}\\beta  + {\\sin }^{2}\\beta }\\right)  + \\sin \\beta \\cos \\beta \\left( {{\\sin }^{2}\\alpha  + {\\cos }^{2}\\alpha }\\right)  = \\sin \\alpha \\cos \\alpha  + \\sin \\beta \\cos \\beta .$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 490,
+          "end": 493
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 8",
+      "markdown": "8. 已知 $\\cos \\varphi  =  - \\frac{1}{3}$ ,且 $\\pi  < \\varphi  < \\frac{3\\pi }{2}$ . 求 $\\sin {2\\varphi },\\cos {2\\varphi }$ 和 $\\tan {2\\varphi }$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1717,
+          "end": 1718
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1717,
+          "end": 1718
+        }
+      ],
+      "id": "bx2-6-2-h62A-8",
+      "category": "习题6.2A",
+      "answer": "8. $\\sin {2\\varphi } = \\frac{4\\sqrt{2}}{9},\\cos {2\\varphi } =  - \\frac{7}{9},\\tan {2\\varphi } =  - \\frac{4\\sqrt{2}}{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 494,
+          "end": 495
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 9",
+      "markdown": "9. 已知等腰三角形的底角的正弦值等于 $\\frac{4}{5}$ ,求这个三角形的顶角的正弦、余弦和正切值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1719,
+          "end": 1720
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1719,
+          "end": 1720
+        }
+      ],
+      "id": "bx2-6-2-h62A-9",
+      "category": "习题6.2A",
+      "answer": "9. 顶角的正弦、余弦和正切值分别为 $\\frac{24}{25}\\text{、}\\frac{7}{25}$ 和 $\\frac{24}{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 496,
+          "end": 497
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 10",
+      "markdown": "10. 证明下列恒等式:\n\n(1) $1 + \\sin \\alpha  = {\\left( \\sin \\frac{\\alpha }{2} + \\cos \\frac{\\alpha }{2}\\right) }^{2}$ ； (2) $8{\\sin }^{4}\\alpha  = \\cos {4\\alpha } - 4\\cos {2\\alpha } + 3$ ；\n\n(3) $\\frac{1 + \\sin \\alpha }{\\cos \\alpha } = \\frac{1 + \\tan \\frac{\\alpha }{2}}{1 - \\tan \\frac{\\alpha }{2}}$ ；___ (4) $\\tan \\alpha  + \\cot \\alpha  = \\frac{2}{\\sin {2\\alpha }}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1721,
+          "end": 1726
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1721,
+          "end": 1726
+        }
+      ],
+      "id": "bx2-6-2-h62A-10",
+      "category": "习题6.2A",
+      "answer": "10. 证明: $\\left( 1\\right) 1 + \\sin \\alpha  = {\\sin }^{2}\\frac{\\alpha }{2} + {\\cos }^{2}\\frac{\\alpha }{2} + 2\\sin \\frac{\\alpha }{2}\\cos \\frac{\\alpha }{2} = {\\left( \\sin \\frac{\\alpha }{2} + \\cos \\frac{\\alpha }{2}\\right) }^{2}$ .\n\n(2)等式右边 $= 2{\\cos }^{2}{2\\alpha } - 1 - 4\\cos {2\\alpha } + 3 = 2{\\left( \\cos {2\\alpha } - 1\\right) }^{2} = 2{\\left( 1 - 2{\\sin }^{2}\\alpha  - 1\\right) }^{2} = \\; 8{\\sin }^{4}\\alpha  =$ 左边,所以原式成立.\n\n(3) $\\frac{1 + \\sin \\alpha }{\\cos \\alpha } = \\frac{1 + 2\\sin \\frac{\\alpha }{2}\\cos \\frac{\\alpha }{2}}{{\\cos }^{2}\\frac{\\alpha }{2} - {\\sin }^{2}\\frac{\\alpha }{2}} = \\frac{{\\left( \\sin \\frac{\\alpha }{2} + \\cos \\frac{\\alpha }{2}\\right) }^{2}}{\\left( {\\cos \\frac{\\alpha }{2} - \\sin \\frac{\\alpha }{2}}\\right) \\left( {\\cos \\frac{\\alpha }{2} + \\sin \\frac{\\alpha }{2}}\\right) } = \\frac{\\sin \\frac{\\alpha }{2} + \\cos \\frac{\\alpha }{2}}{\\cos \\frac{\\alpha }{2} - \\sin \\frac{\\alpha }{2}} \\; = \\frac{1 + \\tan \\frac{\\alpha }{2}}{1 - \\tan \\frac{\\alpha }{2}}$ .\n\n(4) $\\tan \\alpha  + \\cot \\alpha  = \\frac{\\sin \\alpha }{\\cos \\alpha } + \\frac{\\cos \\alpha }{\\sin \\alpha } = \\frac{{\\sin }^{2}\\alpha  + {\\cos }^{2}\\alpha }{\\sin \\alpha \\cos \\alpha } = \\frac{1}{\\frac{1}{2}\\sin {2\\alpha }} = \\frac{2}{\\sin {2\\alpha }}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 498,
+          "end": 505
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1727,
+          "end": 1727
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 1",
+      "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中，已知 $\\sin \\alpha  - \\sin \\beta  =  - \\frac{1}{3},\\cos \\alpha  - \\cos \\beta  = \\frac{1}{2}$ . 求 $\\cos \\left( {\\alpha  - \\beta }\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1729,
+          "end": 1730
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1729,
+          "end": 1730
+        }
+      ],
+      "id": "bx2-6-2-h62B-1",
+      "category": "习题6.2B",
+      "answer": "1. 由 $\\sin \\alpha  - \\sin \\beta  =  - \\frac{1}{3},\\cos \\alpha  - \\cos \\beta  = \\frac{1}{2}$ ,得 ${\\left( \\sin \\alpha  - \\sin \\beta \\right) }^{2} + {\\left( \\cos \\alpha  - \\cos \\beta \\right) }^{2} = \\; \\frac{1}{9} + \\frac{1}{4}$ ,即 $2 - 2\\cos \\alpha \\cos \\beta  - 2\\sin \\alpha \\sin \\beta  = \\frac{13}{36}$ ,从而有 $2 - 2\\cos \\left( {\\alpha  - \\beta }\\right)  = \\frac{13}{36}$ ,故 $\\cos \\left( {\\alpha  - \\beta }\\right)  = \\frac{59}{72}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 508,
+          "end": 509
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 2",
+      "markdown": "2. 已知锐角 $\\alpha \\text{ 、 }\\beta$ 满足 $\\cos \\alpha  = \\frac{4}{5}$ 及 $\\cos \\left( {\\alpha  + \\beta }\\right)  = \\frac{3}{5}$ ,求 $\\sin \\beta$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1731,
+          "end": 1732
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1731,
+          "end": 1732
+        }
+      ],
+      "id": "bx2-6-2-h62B-2",
+      "category": "习题6.2B",
+      "answer": "2. $\\sin \\beta  = \\frac{7}{25}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 510,
+          "end": 511
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 3",
+      "markdown": "3. 已知 $\\tan \\left( {\\frac{\\pi }{4} + \\alpha }\\right)  = 2,\\tan \\beta  = \\frac{1}{2}$ . 求下列各式的值:\n\n(1) $\\tan \\alpha$ ;\n\n(2) $\\frac{\\sin \\left( {\\alpha  + \\beta }\\right)  - 2\\sin \\alpha \\cos \\beta }{2\\sin \\alpha \\sin \\beta  + \\cos \\left( {\\alpha  + \\beta }\\right) }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1733,
+          "end": 1738
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1733,
+          "end": 1738
+        }
+      ],
+      "id": "bx2-6-2-h62B-3",
+      "category": "习题6.2B",
+      "answer": "3. (1) $\\tan \\alpha  = \\frac{1}{3}.\\;$ (2) 原式 $= \\tan \\left( {\\beta  - \\alpha }\\right)  = \\frac{\\tan \\beta  - \\tan \\alpha }{1 + \\tan \\beta \\tan \\alpha } = \\frac{1}{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 512,
+          "end": 513
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 4",
+      "markdown": "4. 已知 $\\cos \\left( {\\alpha  + \\beta }\\right)  = \\frac{1}{2},\\cos \\left( {\\alpha  - \\beta }\\right)  = \\frac{1}{3}$ . 求 $\\tan \\alpha \\tan \\beta$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1739,
+          "end": 1740
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1739,
+          "end": 1740
+        }
+      ],
+      "id": "bx2-6-2-h62B-4",
+      "category": "习题6.2B",
+      "answer": "4. $\\cos \\left( {\\alpha  + \\beta }\\right)  = \\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta  = \\frac{1}{2},\\cos \\left( {\\alpha  - \\beta }\\right)  = \\cos \\alpha \\cos \\beta  + \\sin \\alpha \\sin \\beta  = \\; \\frac{1}{3}$ ,由上述两式得 $\\cos \\alpha \\cos \\beta  = \\frac{5}{12},\\sin \\alpha \\sin \\beta  =  - \\frac{1}{12}$ ,从而有 $\\tan \\alpha \\tan \\beta  = \\frac{\\sin \\alpha \\sin \\beta }{\\cos \\alpha \\cos \\beta } =  - \\frac{1}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 514,
+          "end": 515
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 5",
+      "markdown": "5. 已知 $\\sin \\alpha  =  - \\frac{1}{4},\\alpha  \\in  \\left( {\\pi ,\\frac{3\\pi }{2}}\\right) ,\\cos \\beta  = \\frac{4}{5},\\beta  \\in  \\left( {\\frac{3\\pi }{2},{2\\pi }}\\right)$ . 判断 $\\alpha  + \\beta$ 是第几象限的角.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1741,
+          "end": 1742
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1741,
+          "end": 1742
+        }
+      ],
+      "id": "bx2-6-2-h62B-5",
+      "category": "习题6.2B",
+      "answer": "5. 由题意,得 $\\frac{5\\pi }{2} < \\alpha  + \\beta  < \\frac{7\\pi }{2}$ 且 $\\sin \\left( {\\alpha  + \\beta }\\right)  = \\frac{-4 + 3\\sqrt{15}}{20} > 0$ ,所以 $\\alpha  + \\beta$ 是第二象限的角.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 516,
+          "end": 517
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 6",
+      "markdown": "6. 用 $\\cot \\alpha$ 和 $\\cot \\beta$ 表示 $\\cot \\left( {\\alpha  + \\beta }\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1743,
+          "end": 1744
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1743,
+          "end": 1744
+        }
+      ],
+      "id": "bx2-6-2-h62B-6",
+      "category": "习题6.2B",
+      "answer": "6. $\\cot \\left( {\\alpha  + \\beta }\\right)  = \\frac{\\cot \\alpha \\cot \\beta  - 1}{\\cot \\alpha  + \\cot \\beta }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 518,
+          "end": 519
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 7",
+      "markdown": "7. 把下列各式化成 $A\\sin \\left( {\\alpha  + \\varphi }\\right) \\left( {A > 0}\\right)$ 的形式:\n\n(1) $\\sqrt{3}\\sin \\alpha  + \\cos \\alpha$ ； (2) $5\\sin \\alpha  - {12}\\cos \\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1745,
+          "end": 1748
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1745,
+          "end": 1748
+        }
+      ],
+      "id": "bx2-6-2-h62B-7",
+      "category": "习题6.2B",
+      "answer": "7. (1) $2\\sin \\left( {\\alpha  + \\frac{\\pi }{6}}\\right) .\\;$ (2) ${13}\\sin \\left( {\\alpha  + \\varphi }\\right)$ (其中, $\\varphi$ 由 $\\sin \\varphi  =  - \\frac{12}{13},\\cos \\varphi  = \\frac{5}{13}$ 确定,通常取 $\\varphi  \\in  \\lbrack 0,{2\\pi }))$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 520,
+          "end": 521
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 8",
+      "markdown": "8. 设点 $P$ 是以原点为圆心的单位圆上的一个动点,它从初始位置 ${P}_{0}\\left( {1,0}\\right)$ 出发,沿单位圆按逆时针方向转动角 $\\alpha \\left( {0 < \\alpha  < \\frac{\\pi }{2}}\\right)$ 后到达点 ${P}_{1}$ ,然后继续沿单位圆按逆时针方向转动角 $\\frac{\\pi }{4}$ 到达点 ${P}_{2}$ . 若点 ${P}_{2}$ 的横坐标为 $- \\frac{3}{5}$ ,求点 ${P}_{1}$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1749,
+          "end": 1750
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1749,
+          "end": 1750
+        }
+      ],
+      "id": "bx2-6-2-h62B-8",
+      "category": "习题6.2B",
+      "answer": "8. $\\left( {\\frac{\\sqrt{2}}{10},\\frac{7\\sqrt{2}}{10}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 522,
+          "end": 523
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 9",
+      "markdown": "9. 若 $\\sin \\alpha  = \\frac{8}{5}\\sin \\frac{\\alpha }{2}$ ,求 $\\cos \\alpha$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1751,
+          "end": 1752
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1751,
+          "end": 1752
+        }
+      ],
+      "id": "bx2-6-2-h62B-9",
+      "category": "习题6.2B",
+      "answer": "9. 由 $\\sin \\alpha  = \\frac{8}{5}\\sin \\frac{\\alpha }{2}$ ,得 $2\\sin \\frac{\\alpha }{2}\\cos \\frac{\\alpha }{2} = \\frac{8}{5}\\sin \\frac{\\alpha }{2}$ ,从而有 $\\sin \\frac{\\alpha }{2} = 0$ 或 $\\cos \\frac{\\alpha }{2} = \\frac{4}{5}$ ,所以 $\\cos \\alpha  = 1$ 或 $\\cos \\alpha  = \\frac{7}{25}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 524,
+          "end": 525
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "探究与实践",
+      "markdown": "#### 探究与实践",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1753,
+          "end": 1753
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "已知通过半角公式可以用 $\\cos \\alpha$ 来表示半角 $\\frac{\\alpha }{2}$ 的正弦、余弦及正切,自然会问: 可以用角 $\\frac{\\alpha }{2}$ 的正弦、余弦及正切中的某一个来分别表示角 $\\alpha$ 的正弦、余弦及正切吗? 答案是肯定的,我们可以用 $\\tan \\frac{\\alpha }{2}$ 来表示 $\\sin \\alpha \\text{ 、 }\\cos \\alpha$ 及 $\\tan \\alpha$ . 这组表达式统称为万能代换公式, 并有着较多的应用. 请同学们思考并证明下述万能代换公式: 当 $\\alpha  \\neq  {2k\\pi } + \\pi \\left( {k \\in  \\mathbf{Z}}\\right)$ 时,设 $t = \\tan \\frac{\\alpha }{2}$ ,则成立(1) $\\sin \\alpha  = \\frac{2t}{1 + {t}^{2}}$ ; (2) $\\cos \\alpha  = \\frac{1 - {t}^{2}}{1 + {t}^{2}}$ ; (3) $\\tan \\alpha  = \\frac{2t}{1 - {t}^{2}}\\left( {t \\neq  1\\text{ 且 }t \\neq   - 1}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1754,
+          "end": 1756
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 573,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-6-2-definition-68-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "课后阅读",
+      "markdown": "#### 课后阅读",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1757,
+          "end": 1757
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "三角变换公式简史",
+      "markdown": "##### 三角变换公式简史",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1759,
+          "end": 1759
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "三角变换公式很早就为数学家所熟知. 在古希腊时期, 由于研究天文的需要, 所考察的主要是球面三角学. 数学家托勒密(C. Ptolemy)在其《大汇编》一书中就给出了已知 $\\sin A$ 及 $\\sin B$ ,求 $\\sin \\left( {A + B}\\right)$ 与 $\\sin \\left( {A - B}\\right)$ 的方法,即两角和与差的正弦公式 $\\sin \\left( {A \\pm  B}\\right)  = \\; \\sin A\\cos B \\pm  \\cos A\\sin B$ . 他在书中还详细给出了在知道 ${72}^{ \\circ  }$ 及 ${60}^{ \\circ  }$ 的正弦的基础上,如何求出 ${12}^{ \\circ  }$ 的正弦的方法,并给出了已知 $\\sin A$ 求 $\\sin \\frac{A}{2}$ 和 $\\sin {2A}$ 的方法. 在此基础上,他对从 ${0}^{ \\circ  }$ 到 ${180}^{ \\circ  }$ 间所有相差 ${\\left( \\frac{1}{2}\\right) }^{ \\circ  }$ 的角度编制出了正弦表.\n\n虽然很多三角恒等式在托勒密的《大汇编》中都已存在, 但法国数学家韦达(F. Viete) 进行了较为系统的整理、补充和发展. 韦达是最早将代数变换方法引入三角学的人，他不仅给出了和差化积公式,也对 $n$ 倍角的 $\\sin {n\\alpha }$ 及 $\\cos {n\\alpha }$ 进行了深入的研究. 在研究奇数等分角的过程中,他发现了一元三次方程 ${x}^{3} - 3{a}^{2}x = {a}^{2}b\\left( {a > 0, b > 0, a > \\frac{b}{2}}\\right)$ 如下的三角解法: 在三倍角余弦公式 $\\cos {3\\alpha } = 4{\\cos }^{3}\\alpha  - 3\\cos \\alpha$ 中,令 $\\frac{b}{a} = 2\\cos {3\\alpha }$ ,就可知 $x = {2a}\\cos \\alpha$ 为上述三次方程的一个根. 不仅如此,他还根据 $n$ 倍角的 $\\sin {n\\alpha }$ 的公式,给出了一个 45 次方程的 23 个根 (可惜的是, 其余的 22 个负根均被舍去).\n\n从三角学发展史看, 利用几何知识证明三角变换公式十分常见, 韦达就曾用几何知识证明了和差化积公式. 这里我们给出倍角公式的一个几何证明方法.\n\n![bo_d52056jef24c73bg6dsg_38_1144_227_329_286_0.jpg](sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_38_1144_227_329_286_0.jpg)\n\n图 6-2-4\n\n如图 6-2-4, ${AB}$ 是圆心为 $O$ 且半径为 1 的圆的一条直径,点 $C$ 为圆上一点. 连接 ${CO}$ ,并过点 $C$ 作 ${CD} \\bot  {AB}$ ,记其垂足为 $D$ . 设 $\\angle {CAB} = \\theta$ ,则 $\\angle {COB} = {2\\theta }$ . 因为 ${AB}$ 为圆 $O$ 的一条直径,所以 $\\angle {ACB} = {90}^{ \\circ  }$ .\n\n在直角三角形 ${ACB}$ 中,有 ${AC} = 2\\cos \\theta$ . 于是,在直角三角形 ${ACD}$ 中,就有 ${CD} = {AC}\\sin \\theta  = 2\\cos \\theta \\sin \\theta$ 及 ${OD} = {AD} - {AO} = \\; {AC}\\cos \\theta  - 1 = 2{\\cos }^{2}\\theta  - 1.$\n\n但在直角三角形 ${CDO}$ 中,有 ${CD} = \\sin {2\\theta },{OD} = \\cos {2\\theta }$ .\n\n比较上面的式子,就得到倍角公式: $\\sin {2\\theta } = 2\\sin \\theta \\cos \\theta ,\\cos {2\\theta } = 2{\\cos }^{2}\\theta  - 1$ .\n\n同学们也可思考其他一些三角变换公式的几何证明. 虽然几何方法直观, 但在上述公式的证明过程中,角的限定范围多在 ${0}^{ \\circ  } \\sim  {90}^{ \\circ  }$ 或 ${0}^{ \\circ  } \\sim  {180}^{ \\circ  }$ 之间. 考虑到一般性,我们在本书中借助于平面直角坐标系及单位圆来论证三角公式, 并利用代换和转化思想得到更多的三角公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1760,
+          "end": 1780
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例1",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例2",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例3",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例4",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例5",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例6",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例7",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例8",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例9",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例10",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例11",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例12",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例13",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例14",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例15",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例16",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "6.2·例17",
+      "paired_manifest": "sources/paired/第6章三角教材教参配对-20261009/配对清单.json"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 1017,
+      "original": "images/bo_d52056jef24c73bg6dsg_24_141_1378_473_273_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_24_141_1378_473_273_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1021,
+      "original": "images/bo_d52056jef24c73bg6dsg_24_662_1377_447_276_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_24_662_1377_447_276_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1359,
+      "original": "images/bo_d52056jef24c73bg6dsg_29_205_1113_280_197_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_29_205_1113_280_197_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1767,
+      "original": "images/bo_d52056jef24c73bg6dsg_38_1144_227_329_286_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_38_1144_227_329_286_0.jpg",
+      "exists": true
+    }
+  ]
+}

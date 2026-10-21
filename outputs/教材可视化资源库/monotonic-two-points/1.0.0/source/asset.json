@@ -1,0 +1,61 @@
+{
+  "controls": [
+    {
+      "key": "kind",
+      "label": "函数模型",
+      "options": [
+        {
+          "label": "平方函数",
+          "value": "square"
+        },
+        {
+          "label": "三次函数 / 3",
+          "value": "cube"
+        },
+        {
+          "label": "y=-x",
+          "value": "decreasing"
+        },
+        {
+          "label": "常函数 y=1",
+          "value": "constant"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "left",
+      "label": "左点 x₁",
+      "max": 1,
+      "min": -2,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "gap",
+      "label": "横坐标差 x₂-x₁",
+      "max": 1,
+      "min": 0.1,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>⇒</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>≤</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>;</mo><mspace width=\"1em\"/><msup><msub><mi>x</mi><mn>2</mn></msub><mn>2</mn></msup><mo>−</mo><msup><msub><mi>x</mi><mn>1</mn></msub><mn>2</mn></msup><mo>=</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo></mrow></math>",
+  "goal": "通过反例和有序两点比较区分局部点对观察与全区间单调定义。",
+  "id": "monotonic-two-points",
+  "initial": {
+    "gap": 1,
+    "kind": "square",
+    "left": -0.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx1-5-2-b19",
+      "rationale": "覆盖本节原prose第19块：通过反例和有序两点比较区分局部点对观察与全区间单调定义。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx1-5-2"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "在区间 I 内，任意 x₁<x₂ 若总有 f(x₁)≤f(x₂)，称增函数；改为≥称减函数，改为严格不等号称严格增/减。平方函数负半轴严格减、正半轴严格增；常函数同时增且减而均不严格。正半轴幂函数指数正则严格增、负则严格减；指数和对数的方向取决于底数在 1 的哪侧。拖动两点用于发现区间与反例，不替代“任意两点”的证明。",
+  "title": "两点同时移动：单调性必须限定区间"
+}

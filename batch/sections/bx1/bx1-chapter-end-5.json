@@ -1,0 +1,824 @@
+{
+  "schema_version": 1,
+  "id": "bx1-chapter-end-5",
+  "book_id": "bx1",
+  "book_title": "必修第一册",
+  "chapter": "5",
+  "chapter_title": "第5章函数的概念、性质及应用",
+  "section": "chapter-end-5",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1257,
+          "end": 1257
+        }
+      ],
+      "id": "bx1-chapter-end-5",
+      "number": "chapter-end-5",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "1. 函数的概念：\n\n(1) 设 $D$ 是一个非空的数集，如果按照某种确定的对应关系 $f$，使对集合 $D$ 中任意给定的 $x$，都有唯一的实数 $y$ 与之对应，就称这个对应关系 $f$ 为集合 $D$ 上的一个函数。\n\n(2) 定义域和对应关系是函数的两个重要要素。函数的值域由其定义域和对应关系决定。两个函数的定义域和对应关系都相同（形式上未必相同）时，两个函数是相同的。\n\n(3) 函数的图像是表示函数性质的直观有力的工具。\n\n2. 函数的性质：\n\n(1) 如果对定义域 $D$ 中的任意给定的 $x$，均有 $-x \\in D$，并且 $f(x) = f(-x)$，那么称 $y = f(x), x \\in D$ 是一个偶函数；如果对定义域 $D$ 中的任意给定的 $x$，均有 $-x \\in D$，并且 $f(x) = -f(-x)$，那么称 $y = f(x), x \\in D$ 是一个奇函数。函数的奇偶性刻画了函数图像关于原点及 $y$ 轴的对称性。\n\n(2) 对于定义在 $D$ 上的函数 $y = f(x)$，设区间 $I$ 是 $D$ 的子集。对于区间 $I$ 上的任意给定的两个自变量的值 $x_1$、$x_2$，当 $x_1 < x_2$ 时，如果总有 $f(x_1) < f(x_2)$（$f(x_1) \\leq f(x_2)$），就称函数 $y = f(x)$ 在区间 $I$ 上是严格增函数（增函数）；如果总有 $f(x_1) > f(x_2)$（$f(x_1) \\geq f(x_2)$），就称函数 $y = f(x)$ 在区间 $I$ 上是严格减函数（减函数）。这种单调性刻画了函数图像上升或下降的趋势。\n\n(3) 设函数 $y = f(x)$ 在 $x_0$ 处的函数值是 $f(x_0)$。对于定义域内任意给定的 $x$，如果不等式 $f(x) \\geq f(x_0)$ 都成立，那么 $f(x_0)$ 叫做函数 $y = f(x)$ 的最小值；如果不等式 $f(x) \\leq f(x_0)$ 都成立，那么 $f(x_0)$ 叫做函数 $y = f(x)$ 的最大值。最大值与最小值分别为函数图像的最高点与最低点的纵坐标。\n\n3. 函数的应用：\n\n(1) 在建立函数关系时，需要注意其定义域。\n\n(2) 依靠函数 $y = f(x)$，可以用动态的观点来考察方程 $f(x) = 0$ 的求解，以及不等式 $f(x) > 0$ 的求解。\n\n(3) 对于函数 $y = f(x), x \\in D$，若存在 $c \\in D$，且 $f(c) = 0$，则称 $c$ 是函数 $y = f(x), x \\in D$ 的一个零点。零点是指函数图像与 $x$ 轴交点的横坐标。对于图像是连续曲线的函数，二分法是求近似零点的有效手段。\n\n*4. 反函数：\n\n(1) 反函数来源于解关于 $x$ 的方程 $f(x) = y$ 所得到的对应关系。\n\n(2) 如果函数 $y = f(x)$ 在定义域 $D$ 上不同的 $x$ 处所取到的函数值也不相同，那么 $y = f(x)$ 就存在反函数。在定义域上严格单调的函数必存在反函数。\n\n(3) 函数 $y = f(x)$ 的图像与其反函数 $y = f^{-1}(x)$ 的图像关于直线 $y = x$ 成轴对称。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1258,
+          "end": 1290
+        }
+      ],
+      "id": "bx1-chapter-end-5-b1"
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1291
+        }
+      ],
+      "id": "bx1-chapter-end-5-b2"
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1293,
+          "end": 1293
+        }
+      ],
+      "id": "bx1-chapter-end-5-b3"
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 求函数 $y = \\frac{1}{2 - x} + \\sqrt{x^2 - 1}$ 的定义域。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1295,
+          "end": 1296
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1295,
+          "end": 1296
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-1",
+      "category": "复习题A",
+      "answer": "1. $\\left( {-\\infty , - 1\\rbrack \\cup \\lbrack 1,2)\\cup (2, + \\infty }\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 574,
+          "end": 575
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 判断下列函数 $y = f(x)$ 的奇偶性，并说明理由：\n\n(1) $f(x) = |\\frac{1}{2}x - 3| + |\\frac{1}{2}x + 3|$；\n\n(2) $f(x) = x^3 + \\frac{2}{x}$；\n\n(3) $f(x) = x^2, x \\in (k, 2)$（其中常数 $k < 2$）。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1297,
+          "end": 1304
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1297,
+          "end": 1304
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-2",
+      "category": "复习题A",
+      "answer": "2. (1)偶函数,理由略.\n\n(2)奇函数,理由略.\n\n(3)当 $k =  - 2$ 时,是偶函数,理由略；当 $k \\neq   - 2$ 时,既不是奇函数又不是偶函数, 因为定义域不关于原点对称.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 576,
+          "end": 581
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 已知 $m$、$n$ 是常数，而函数 $y = (m - 1)x^2 + 3x + (2 - n)$ 为奇函数。求 $m$、$n$ 的值。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1306
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1306
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-3",
+      "category": "复习题A",
+      "answer": "3. $m = 1, n = 2$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 582,
+          "end": 583
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 求函数 $y = x + \\frac{4}{x}$ 的单调区间。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1307,
+          "end": 1308
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1307,
+          "end": 1308
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-4",
+      "category": "复习题A",
+      "answer": "4. 在区间 $\\left( {-\\infty , - 2\\rbrack \\text{和区间}\\lbrack 2, + \\infty }\\right)$ 上是严格增函数,而在区间 $\\lbrack  - 2,0)$ 和区间 $(0,2\\rbrack$ 上是严格减函数.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 584,
+          "end": 585
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 分别作出下列函数的大致图像，并指出它们的单调区间：\n\n(1) $y = |x^2 - 4x|$；\n\n(2) $y = 2|x| - 3$。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1309,
+          "end": 1314
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1309,
+          "end": 1314
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-5",
+      "category": "复习题A",
+      "answer": "5.(1)大致图像如下:\n\n![bo_d402qh3ef24c73d2tivg_121_600_725_296_267_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_600_725_296_267_0.jpg)\n\n在区间 $( - \\infty ,0\\rbrack$ 和区间 $\\left\\lbrack  {2,4}\\right\\rbrack$ 上是严格减函数,在区间 $\\left\\lbrack  {0,2}\\right\\rbrack$ 和区间 $\\lbrack 4, + \\infty )$ 上是严格增函数.\n\n(2)大致图像如下:\n\n![bo_d402qh3ef24c73d2tivg_121_578_1281_338_329_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_578_1281_338_329_0.jpg)\n\n在区间 $( - \\infty ,0\\rbrack$ 上是严格减函数,在区间 $\\lbrack 0, + \\infty )$ 上是严格增函数.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 586,
+          "end": 597
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 已知二次函数 $y = f(x)$，其中 $f(x) = ax^2 - 2ax + 3 - a (a > 0)$。比较 $f(-1)$ 和 $f(2)$ 的大小。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1315,
+          "end": 1316
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1315,
+          "end": 1316
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-6",
+      "category": "复习题A",
+      "answer": "6. $f\\left( {-1}\\right)  > f\\left( 2\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 598,
+          "end": 599
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 已知 $k$ 是常数，设 $\\alpha$、$\\beta$ 是二次方程 $x^2 - 2kx + k + 20 = 0$ 的两个实根。问：当 $k$ 为何值时，$(\\alpha + 1)^2 + (\\beta + 1)^2$ 取到最小值？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1317,
+          "end": 1318
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1317,
+          "end": 1318
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-7",
+      "category": "复习题A",
+      "answer": "7. $k =  - 4$ 时, ${\\left( \\alpha  + 1\\right) }^{2} + {\\left( \\beta  + 1\\right) }^{2}$ 取到最小值.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 600,
+          "end": 601
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 8",
+      "markdown": "8. 邮局规定：当邮件质量不超过 $100 \\mathrm{g}$ 时，每 $20 \\mathrm{g}$ 邮费 0.8 元，且不足 $20 \\mathrm{g}$ 时按 $20 \\mathrm{g}$ 计算；超过 $100 \\mathrm{g}$ 时，超过 $100 \\mathrm{g}$ 的部分按每 $100 \\mathrm{g}$ 邮费 2 元计算，且不足 $100 \\mathrm{g}$ 按 $100 \\mathrm{g}$ 计算；同时规定邮件总质量不得超过 2000 g。请写出邮费关于邮件质量的函数表达式，并计算 $50 \\mathrm{g}$ 和 $500 \\mathrm{g}$ 的邮件分别收多少邮费。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1320
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1320
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-8",
+      "category": "复习题A",
+      "answer": "8. $y = \\left\\{  \\begin{array}{ll} {0.8}\\left( {k + 1}\\right) , & {20k} < x \\leq  {20}\\left( {k + 1}\\right) , k \\in  \\{ 0,1,2,3,4\\} , \\\\  4 + {2m}, & {100m} < x \\leq  {100}\\left( {m + 1}\\right) , m \\in  \\{ 1,2,3,\\cdots ,{19}\\} . \\end{array}\\right.$\n\n${50}\\mathrm{\\;g}$ 重的邮件收 2.4 元邮费, ${500}\\mathrm{\\;g}$ 重的邮件收 12 元邮费.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 602,
+          "end": 605
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 9",
+      "markdown": "9. 若函数 $y = (a^2 + 4a - 5)x^2 - 4(a - 1)x + 3$ 的图像都在 $x$ 轴上方（不含 $x$ 轴），求实数 $a$ 的取值范围。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1321,
+          "end": 1322
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1321,
+          "end": 1322
+        }
+      ],
+      "id": "bx1-chapter-end-5-hA-9",
+      "category": "复习题A",
+      "answer": "9. $\\lbrack 1,{19})$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 606,
+          "end": 607
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1323,
+          "end": 1323
+        }
+      ],
+      "id": "bx1-chapter-end-5-b13"
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 已知 $y = f(x)$ 是奇函数，其定义域为 $\\mathbf{R}$；而 $y = g(x)$ 是偶函数，其定义域为 $D$。判断函数 $y = f(x)g(x)$ 的奇偶性，并说明理由。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1326
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1326
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-1",
+      "category": "复习题B",
+      "answer": "1. 奇函数, 从定义域和函数值两个角度进行说理.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 610,
+          "end": 611
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 2",
+      "markdown": "2. 设函数 $y = x^2 + 10x - a + 3$，当 $x \\in [-2, +\\infty)$ 时，其函数值恒大于等于零。求实数 $a$ 的取值范围。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1327,
+          "end": 1328
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1327,
+          "end": 1328
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-2",
+      "category": "复习题B",
+      "answer": "2. $( - \\infty , - {13}\\rbrack$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 612,
+          "end": 613
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 已知函数 $y = -x^2 + 2ax + 1 - a, x \\in [0, 1]$ 的最大值为 2。求实数 $a$ 的值。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1330
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1330
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-3",
+      "category": "复习题B",
+      "answer": "3. -1 或 2.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 614,
+          "end": 615
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 设 $f(x) = x^2 + ax + 1$。若对任意给定的实数 $x, f(2 + x) = f(2 - x)$ 恒成立，求实数 $a$ 的值。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1331,
+          "end": 1332
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1331,
+          "end": 1332
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-4",
+      "category": "复习题B",
+      "answer": "4. -4.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 616,
+          "end": 617
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 5",
+      "markdown": "5. 已知 $y = f(x)$ 是定义在 $(-1, 1)$ 上的奇函数，在区间 $[0, 1)$ 上是严格减函数，且 $f(1 - a) + f(1 - a^2) < 0$。求实数 $a$ 的取值范围。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1334
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1334
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-5",
+      "category": "复习题B",
+      "answer": "5. $\\left( {0,1}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 618,
+          "end": 619
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 6",
+      "markdown": "6. 已知 $f(x) = 2 - x^2$ 及 $g(x) = x$。定义 $h(x)$ 如下：当 $f(x) \\geq g(x)$ 时，$h(x) = g(x)$；而当 $f(x) < g(x)$ 时，$h(x) = f(x)$。求函数 $y = h(x)$ 的最大值。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1336
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1336
+        }
+      ],
+      "id": "bx1-chapter-end-5-hB-6",
+      "category": "复习题B",
+      "answer": "6. 1 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 620,
+          "end": 621
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "### 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1337,
+          "end": 1337
+        }
+      ],
+      "id": "bx1-chapter-end-5-b20"
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 试讨论函数 $y = \\frac{x}{1 - x^2}$ 的单调性。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1339,
+          "end": 1340
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1339,
+          "end": 1340
+        }
+      ],
+      "id": "bx1-chapter-end-5-t-1",
+      "category": "拓展与思考",
+      "answer": "【编辑补写／校订】\n\n定义域为 $\\mathbf R\\setminus\\{-1,1\\}$，函数在 $(-\\infty,-1)$、$(-1,1)$、$(1,+\\infty)$ 上分别严格递增。\n\n证明：在上述任一区间任取 $u<v$，则\n$$f(v)-f(u)=\\frac{(v-u)(1+uv)}{(1-u^2)(1-v^2)}.$$\n同一区间内分母恒为正。在外侧两个区间，$uv>1$；在中间区间，$uv>-1$，故分子也为正。因此 $f(v)>f(u)$。三个区间不可跨越无定义点合并。",
+      "answer_provenance": [],
+      "teacher_analysis": "",
+      "analysis_provenance": [],
+      "answer_editorial": {
+        "kind": "independently-derived",
+        "reason": "保留教参624行结论，补上必修阶段作差证明。",
+        "source_reference": [
+          624,
+          624
+        ],
+        "review_status": "pending-independent-review"
+      }
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 作出函数 $y = (x^2 - 1)^2 - 1$ 的大致图像，写出它的单调区间，并证明你的结论。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1342
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1342
+        }
+      ],
+      "id": "bx1-chapter-end-5-t-2",
+      "category": "拓展与思考",
+      "answer": "2. 大致图像如下:\n\n![bo_d402qh3ef24c73d2tivg_122_695_897_275_314_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_122_695_897_275_314_0.jpg)\n\n猜测该函数在区间 $( - \\infty , - 1\\rbrack$ 和区间 $\\left\\lbrack  {0,1}\\right\\rbrack$ 上是严格减函数,而在区间 $\\left\\lbrack  {-1,0}\\right\\rbrack$ 和 $\\lbrack 1, + \\infty )$ 上为严格增函数.\n\n对任意给定的两个实数 ${x}_{1}\\text{、}{x}_{2}$ ,都有 ${y}_{1} - {y}_{2} = {\\left( {x}_{1}^{2} - 1\\right) }^{2} - {\\left( {x}_{2}^{2} - 1\\right) }^{2} = \\left( {{x}_{1}^{2} - {x}_{2}^{2}}\\right) \\; \\left( {{x}_{1}^{2} + {x}_{2}^{2} - 2}\\right)  = \\left( {{x}_{1} - {x}_{2}}\\right) \\left( {{x}_{1} + {x}_{2}}\\right) \\left( {{x}_{1}^{2} + {x}_{2}^{2} - 2}\\right)$ . 当 ${x}_{1} < {x}_{2} \\leq   - 1$ 时, ${x}_{1} - {x}_{2} < 0$ , ${x}_{1} + {x}_{2} < 0,{x}_{1}^{2} + {x}_{2}^{2} - 2 > 0$ ,因此 ${y}_{1} > {y}_{2}$ ,该函数在区间 $( - \\infty , - 1\\rbrack$ 上为严格减函数.\n\n其余区间上单调性的证明从略.\n\n【编辑补证】函数为偶函数，经过 $(0,0)$、$(\\pm1,-1)$，两端趋于 $+\\infty$。令 $u=x^2\\ge0$，则 $y=(u-1)^2-1$ 在 $u\\in[0,1]$ 上严格递减、在 $u\\in[1,+\\infty)$ 上严格递增；$x^2$ 在 $(-\\infty,0]$ 上递减、在 $[0,+\\infty)$ 上递增。按两个变化的方向复合，即得减区间 $(-\\infty,-1]$、$[0,1]$，增区间 $[-1,0]$、$[1,+\\infty)$，补全教参略去的其余三段证明。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 626,
+          "end": 634
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": [],
+      "answer_editorial": {
+        "kind": "manual-source-match",
+        "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+      }
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 3",
+      "markdown": "3. 已知函数 $y = f(x)$ 为偶函数，$y = g(x)$ 为奇函数，且 $f(x) + g(x) = x^2 + 2|x - 1| + 3$。求 $y = f(x)$ 及 $y = g(x)$ 的表达式。",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1344
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1344
+        }
+      ],
+      "id": "bx1-chapter-end-5-t-3",
+      "category": "拓展与思考",
+      "answer": "3. $f\\left( x\\right)  = {x}^{2} + \\left| {x - 1}\\right|  + \\left| {x + 1}\\right|  + 3, g\\left( x\\right)  = \\left| {x - 1}\\right|  - \\left| {x + 1}\\right|$ .\n\n【编辑补证】将原式中的 $x$ 换为 $-x$，利用奇偶性得 $f(x)-g(x)=x^2+2|x+1|+3$。与原式相加、相减即得上述表达式，代回可验证成立。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 636,
+          "end": 636
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": [],
+      "answer_editorial": {
+        "kind": "manual-source-match",
+        "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+      }
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · *4",
+      "markdown": "*4. 设函数 $y = f(x), x \\in \\mathbf{R}$ 的反函数是 $y = f^{-1}(x)$。\n\n(1) 如果 $y = f(x)$ 是奇函数，那么 $y = f^{-1}(x)$ 的奇偶性如何？\n\n(2) 如果 $y = f(x)$ 在定义域上是严格增函数，那么 $y = f^{-1}(x)$ 的单调性如何？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1345,
+          "end": 1349
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1345,
+          "end": 1349
+        }
+      ],
+      "id": "bx1-chapter-end-5-t-4",
+      "category": "拓展与思考",
+      "answer": "4.(1)在函数 $y = {f}^{-1}\\left( x\\right)$ 的定义域 $f\\left( \\mathbf{R}\\right)$ 中任取一个数 $x$ ,因 $y = {f}^{-1}\\left( x\\right)$ 的定义域是 $y = f\\left( x\\right)$ 的值域,故存在 $y = f\\left( x\\right)$ 的定义域 $\\mathbf{R}$ 中的一个数 $t$ ,使得 $x = f\\left( t\\right)$ .\n\n因 $y = f\\left( x\\right)$ 是奇函数,故 $f\\left( {-t}\\right)  =  - f\\left( t\\right)  =  - x \\in  f\\left( \\mathbf{R}\\right)$ ,从而 $- x$ 也在 $y = \\; {f}^{-1}\\left( x\\right)$ 的定义域中. 由于 ${f}^{-1}\\left( x\\right)  = t$ ,且 ${f}^{-1}\\left( {-x}\\right)  =  - t$ ,它们互为相反数,因此 $y = {f}^{-1}\\left( x\\right)$ 是奇函数.\n\n(2)对于 $f\\left( \\mathbf{R}\\right)$ 中的任意给定的两个实数 ${x}_{1}\\text{、}{x}_{2}$ ,设 ${t}_{1} = {f}^{-1}\\left( {x}_{1}\\right) ,{t}_{2} = \\; {f}^{-1}\\left( {x}_{2}\\right)$ ,即 $f\\left( {t}_{1}\\right)  = {x}_{1}, f\\left( {t}_{2}\\right)  = {x}_{2}$ . 如果 $y = f\\left( x\\right)$ 是严格增函数,那么当 ${x}_{1} < {x}_{2}$ 时, $f\\left( {t}_{1}\\right)  < f\\left( {t}_{2}\\right)$ .\n\n如果 ${t}_{1} \\geq  {t}_{2}$ ,根据 $f$ 的单调性得 $f\\left( {t}_{1}\\right)  \\geq  f\\left( {t}_{2}\\right)$ ,与 $f\\left( {t}_{1}\\right)  < f\\left( {t}_{2}\\right)$ 矛盾,因此必有 ${t}_{1} < {t}_{2}$ ,即 ${f}^{-1}\\left( {x}_{1}\\right)  < {f}^{-1}\\left( {x}_{2}\\right)$ . 这说明 $y = {f}^{-1}\\left( x\\right)$ 是一个严格增函数.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 638,
+          "end": 644
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": [],
+      "answer_editorial": {
+        "kind": "manual-source-match",
+        "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+      }
+    },
+    {
+      "type": "editor",
+      "title": "拓展与思考 · 题答配对修订说明",
+      "markdown": "已按实际题面逐题恢复参考答案，并对缺失小问明确标注编辑补写。原始未配对内容及修订前底稿完整保存在本节修订记录与 repair-bx12-content.json 中，未改动来源文件。",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 624,
+          "end": 645
+        }
+      ],
+      "teacher_only": true,
+      "id": "bx1-chapter-end-5-b24"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 阅读材料\n\n在 20 世纪之初, 国际上发生了第一次影响比较大的数学教育改革运动, 称为“贝利一克莱因运动”. 其间,英国皇家理科大学的数学家贝利(J. Perry, 1850-1920)发表了“论数学教学”的著名演讲,提出了“数学教育应该面向大众”“数学教育必须重视应用”的思想. 与此同时, 著名数学家克莱因 (F. Klein, 1849-1925) 也在各种场合发表自己对数学教育的看法. 克莱因认为中小学的数学课程应该以函数为纲,并提出了所谓的“米兰大纲”:\n\n教材的选择、排列需适应学生心理的自然发展;\n\n融合数学的各分科, 加强与其他学科的密切联系;\n\n不过分强调形式的训练;\n\n强调实用的方面;\n\n将养成函数思想与空间观察能力作为数学教学的基础.\n\n为了提高中学数学教师的数学素养, 克莱因根据自己在哥廷根大学多年为德国中学数学教师及在校学生开设的讲座, 撰写了一套基础数学普及读物《高观点下的初等数学》. 全书共分 3 卷, 第一卷: 算术、代数、分析; 第二卷: 几何; 第三卷: 精确数学与近似数学. 该书反映了克莱因对数学的许多观点, 向人们生动地展示了一流大师的遗风, 出版后被译成多种文字,是一部数学教育的不朽杰作,影响至今不衰.\n\n### 参考文献\n\n[1] KLEINER I. Evolution of the Function Concept: A Brief Survey[J]. College Mathematics Journal, 1989, 20(4): 282-300.\n\n[2] 菲利克斯·克莱因. 高观点下的初等数学[M]. 舒湘芹, 等译. 上海: 复旦大学出版社, 2008.\n\n### 后 记\n\n本套教学参考资料与李大潜、王建磐主编,上海教育出版社出版的《普通高中教科书·数学》配套使用,本套教材根据中华人民共和国教育部制定并颁布实施的《普通高中数学课程标准 (2017 年版 2020 年修订) 》编制,并经国家教材委员会专家委员会审核通过.\n\n本套教材是由设在复旦大学和华东师范大学的两个上海市数学教育教学研究基地 (上海高校“立德树人”人文社会科学重点研究基地)联合主持编写的. 编写工作依据高中数学课程标准的具体要求,努力符合教育规律和高中学生的认知规律,结合上海城市发展定位和课程改革基础, 并力求充分体现特色. 希望我们的这一努力能经得起实践和时间的检验, 对扎实推进数学的基础教育发挥积极的作用.\n\n本书是与必修第一册教材配套的教学参考资料, 共为五章, 各章编写人员分别为\n\n王伟叶、傅吉祥(第 1 章)\n\n王春明、王志强 (第 2 章)\n\n潘奋、吴泉水、高卫国(第 3 章、第 4 章)\n\n王伟叶、邱维元(第 5 章)\n\n限于编写者的水平, 也由于新编教材尚缺乏教学实践的检验, 不妥及疏漏之处在所难免, 恳请广大师生及读者不吝赐教. 宝贵意见请通过邮箱 gaozhongshuxue@seph.com.cn 反馈, 不胜感激.\n\n2020 年 7 月\n\n图书在版编目 (CIP) 数据\n\n普通高中数学教学参考资料:必修. 第一册 / 上海市中小学 (幼儿园)课程改革委员会组织编写. 一 上海:上海教育出版社, 2020.8 ( 2022.7重印 )\n\nISBN 978-7-5720-0258-8\n\nI. ①普... II. ①上... III. ①中学数学课 - 高中 - 教学参考资料 IV. ①G634.603\n\n中国版本图书馆CIP数据核字(2020)第137928号",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 646,
+          "end": 698
+        }
+      ],
+      "teacher_only": true,
+      "id": "bx1-chapter-end-5-b25"
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "teacher",
+      "line": 588,
+      "original": "../images/bo_d402qh3ef24c73d2tivg_121_600_725_296_267_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_600_725_296_267_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 594,
+      "original": "../images/bo_d402qh3ef24c73d2tivg_121_578_1281_338_329_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_121_578_1281_338_329_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 628,
+      "original": "../images/bo_d402qh3ef24c73d2tivg_122_695_897_275_314_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_122_695_897_275_314_0.jpg",
+      "exists": true
+    }
+  ],
+  "repair_history": [
+    {
+      "id": "repair-bx12-content-v1",
+      "original_issues": [
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "拓展与思考",
+          "question_numbers": [
+            1,
+            2,
+            3
+          ],
+          "answer_numbers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "action": "split-swallowed-starred-question",
+          "question_id": "bx1-chapter-end-5-t-4",
+          "source_lines": [
+            1345,
+            1349
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-1",
+          "action": "author-or-correct",
+          "reason": "保留教参624行结论，补上必修阶段作差证明。"
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-2",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            626,
+            634
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-3",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            636,
+            636
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-4",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            638,
+            644
+          ]
+        }
+      ],
+      "evidence": "batch/patches/repair-bx12-content.json",
+      "scope": "只修复列明题答内容与假重复；不声称全节所有原答案已全面数学审定。"
+    }
+  ]
+}

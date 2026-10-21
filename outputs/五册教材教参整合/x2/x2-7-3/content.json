@@ -1,0 +1,856 @@
+[
+  {
+    "type": "section",
+    "title": "常用分布",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 851,
+        "end": 851
+      }
+    ],
+    "id": "x2-7-3",
+    "number": "7.3",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 7.3 常用分布\n\n### 教学重点\n\n(1)通过具体实例,了解伯努利分布；\n\n(2)掌握二项分布、超几何分布及其数字特征(期望和方差),并能解决简单的实际问题;\n\n(3)通过误差模型,了解服从正态分布的随机变量.\n\n核心概念: 二项分布、超几何分布、正态分布.\n\n核心素养:数学建模、数据分析、数学运算等.\n\n### 内容分析\n\n本节旨在帮助学生了解几个重要的概率模型及其分布, 解决简单的实际问题.\n\n(1)伯努利分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 若伯努利试验成功,则相应的随机变量取值为 1 ; 若伯努利试验失败, 则相应的随机变量取值为 0 . 只取两个值的随机变量称为伯努利型, 其分布称为伯努利分布,也称随机变量 $X$ 服从参数为 $p$ 的两点分布或者 0-1 分布,其分布列为 $\\left( \\begin{matrix} 1 & 0 \\\\  p & 1 - p \\end{matrix}\\right)$ . 此时 $E\\left\\lbrack  X\\right\\rbrack   = p, D\\left\\lbrack  X\\right\\rbrack   = p - {p}^{2}$ .\n\n(2)二项分布. 设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 独立地重复该试验 $n$ 次,用 $X$ 表示成功的次数,则随机变量 $X$ 的分布称为二项分布,也称成功次数 $X$ 服从参数为 $n$ 和 $p$ 的二项分布 $B\\left( {n, p}\\right)$ ,其分布列为 $\\left( \\begin{matrix} 0 & 1 & 2 & \\cdots & k & \\cdots & n \\\\  {q}^{n} & {C}_{n}^{1}p{q}^{n - 1} & {C}_{n}^{2}{p}^{2}{q}^{n - 2} & \\cdots & {C}_{n}^{k}{p}^{k}{q}^{n - k} & \\cdots & {p}^{n} \\end{matrix}\\right)$ . 于是, $E\\left\\lbrack  X\\right\\rbrack   = {np}, D\\left\\lbrack  X\\right\\rbrack   = \\; {np}\\left( {1 - p}\\right)$ .\n\n(3)超几何分布. 从一个装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋中依次随机且不放回地取 $n$ 个球,其中的白球数 $X$ 的分布称为超几何分布. 此随机变量 $X$ 的分布是 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{a}^{k}{\\mathrm{C}}_{b}^{n - k}}{{\\mathrm{C}}_{a + b}^{n}}$ ,其中 $k \\leq  n, k \\leq  a, n - k \\leq  b$ . 如果随机变量 $X$ 服从参数为 $N\\text{、}M\\text{、}n$ 的超几何分布,其中 $N = a + b, M = a$ ,那么 $E\\left( X\\right)  = \\frac{nM}{N}, D\\left( X\\right) \\; = \\frac{n\\left( {N - n}\\right) \\left( {N - M}\\right) M}{{N}^{2}\\left( {N - 1}\\right) }$ .\n\n(4)正态分布. 若随机变量 $X$ 的概率分布律为 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ ,则称该分布为正态分布. ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 称为正态分布的密度函数,其中 $x \\in  \\mathbf{R},\\mu$ 及 ${\\sigma }^{2}$ 是参数,且 $\\sigma  > 0, - \\infty  < \\mu  <  + \\infty$ ,参数 $\\mu$ 和 ${\\sigma }^{2}$ 分别为正态变量的数学期望和方差.\n\n期望为 $\\mu$ 、标准差为 $\\sigma$ 的正态分布通常记作 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n\n正态分布的密度函数 ${\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}$ 的图像叫做正态曲线,也称钟形曲线 (图 7-R1). 该函数图像与 $x$ 轴所夹部分的面积为 1,即 ${\\int }_{-\\infty }^{+\\infty }{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right) \\mathrm{d}x = \\; {\\int }_{-\\infty }^{+\\infty }\\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}\\mathrm{\\;d}x = 1.$\n\n![bo_d402pi3ef24c73d2tha0_64_609_931_427_282_0.jpg](images/private-476ae303bf2a5310cedb.jpg)\n\n图 7-R1\n\n若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $P\\left( {X \\leq  x}\\right)  = {\\int }_{-\\infty }^{x}{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( t\\right) \\mathrm{d}t$ 称为概率分布函数.\n\n由于本教材中未涉及有关积分的内容, 因此我们换一种说法来认识正态分布.\n\n设 $X$ 是一个取实数值的随机变量. 如果对任何给定的实数 $a$ 与 $b\\left( {a < b}\\right) , X$ 落在区间 $\\left( {a, b}\\right)$ 上的概率 $P\\left( {a < X < b}\\right)$ 等于三条直线: $y = 0\\text{、}x = a\\text{、}x = b$ 与正态密度函数 $y = {\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)$ 的图像所围的区域面积 (图 7-R2),那么 $X$ 服从正态分布,或更准确地说, $X$ 服从参数为 $\\mu \\text{、}{\\sigma }^{2}$ 的正态分布,记为 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ .\n\n![bo_d402pi3ef24c73d2tha0_64_577_1731_492_304_0.jpg](images/private-d1e11a011c29b01f4cdc.jpg)\n\n图 7-R2\n\n$X$ 在 $\\left( {-\\infty , + \\infty }\\right)$ 内取值的概率为 $1.X$ 在区间 $\\left( {\\mu  - \\sigma ,\\mu  + \\sigma }\\right) \\text{、}(\\mu  - {2\\sigma },\\mu  + \\; {2\\sigma })$ 及 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 内取值的概率分别是 ${68.3}\\%$ 、 ${95.4}\\%$ 及 ${99.7}\\%$ . 由于 $X$ 在区间 $\\left( {\\mu  - {3\\sigma },\\mu  + {3\\sigma }}\\right)$ 之外取值的概率是 ${0.3}\\%$ ,因此其取值几乎都在距 $x = \\mu$ 三倍标准差之内,这就是正态分布的 ${3\\sigma }$ 原则.\n\n数学期望为 0 、标准差为 1 的正态分布叫做标准正态分布,记为 $X \\sim  N\\left( {0,1}\\right)$ . 标准正态分布的密度函数为 $\\varphi \\left( x\\right)  = \\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{x}^{2}}{2}}$ . 函数 $y = \\varphi \\left( x\\right)$ 从 $- \\infty$ 到 $x$ 的累计面积称为标准正态分布函数,即 $\\Phi \\left( x\\right)  = {\\int }_{-\\infty }^{x}\\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{t}^{2}}{2}}\\mathrm{\\;d}t$ ,它具有性质 $\\Phi \\left( {-x}\\right)  = 1 - \\Phi \\left( x\\right) .\\Phi \\left( x\\right)$ 的解析式不作教学要求, 此处给出仅供教师参考.\n\n正态分布可以转化为标准正态分布. 若 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,则 $\\frac{X - \\mu }{\\sigma } \\sim  N\\left( {0,1}\\right)$ .\n\n例 1 旨在帮助学生理解伯努利试验.\n\n例 2 用例题的方式计算二项分布的期望和方差, 使本节内容完整. 练习 7.3(1) 进一步巩固二项分布.\n\n例 3 是不放回摸球模型, 通过特殊问题的解决引出超几何分布. 教学中可以设计一些问题, 启发学生思考, 进一步理解超几何分布的内涵.\n\n例 4 是例 3 的延续, 计算超几何分布的期望, 因为这样的计算对学生来说比较困难, 所以没有直接利用期望公式进行计算, 而是另外构造等价的随机变量来计算期望. 该例题没有计算方差, 教学中, 对于学有余力的学生, 可以提出直接利用公式计算期望和方差的问题, 请学生探究.\n\n例 5 、例 6 是对正态分布的应用, 主要是运用正态分布的密度函数图像的对称性来实现问题的转化. 例 6 将正态分布转化为标准正态分布, 解决问题后进一步指出正态分布的 ${3\\sigma }$ 原则,体现应用性. 习题 7.3B 组第 3 题将其进一步巩固.\n\n### 注意事项\n\n二项分布必须同时满足以下两个条件: ① 在一次试验中试验结果只有 $A$ 与 $\\bar{A}$ 这两个,且事件 $A$ 发生的概率为 $p$ ,事件 $\\bar{A}$ 发生的概率为 $1 - p$ ; ②试验可以独立重复地进行,即每次重复做一次试验,事件 $A$ 发生的概率均为同一常数 $p$ ,事件 $\\bar{A}$ 发生的概率均为 $1 - p$ .\n\n超几何分布的特征: 一个容量为 $N$ 的总体内含有两种不同的事物 $A\\left( {M\\text{个}}\\right)$ 及 $B\\left( {N - M\\text{个}}\\right)$ ,任取 $n$ 个,其中恰有 $X$ 个 $A$ . 符合该条件的即可断定是超几何分布, 按照超几何分布的分布列 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}}\\left( {k = 0,1,2,\\cdots , m}\\right)$ 进行处理.\n\n当 $n$ 较小、而 $N$ 较大时,有近似公式 $P\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{M}^{k}{\\mathrm{C}}_{N - M}^{n - k}}{{\\mathrm{C}}_{N}^{n}} \\approx  {\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k}$ ,其中 $p = \\frac{M}{N}, q = 1 - p$ (此公式不作教学要求). 这说明此时超几何分布的概率计算可以近似地用二项分布来代替. 超几何分布是不放回抽样, 而二项分布是放回抽样. 这说明, 当总体容量 $N$ 很大时,不放回抽样近似于放回抽样.\n\n### 教学建议\n\n根据二项分布, 直观地说, 做一件事情, 不管成功概率多小, 只要执着地努力, 重复的次数足够多, 就有很大可能会成功.\n\n如果某个随机现象是由一些互相独立的偶然因素所引起的, 而且每一个偶然因素在总体的变化中都只是起着均匀、微小的作用, 那么相应于这种随机现象的随机变量的概率分布将近似服从正态分布. 正态分布是生活中的一个常用词, 但正确地理解数据非常重要, 应该通过误差模型来学习服从正态分布的随机变量. 但是正态分布的一些事实与结论, 要用到微积分的知识才能证明, 并且学生目前能够解决的问题类型也非常有限,主要限于变换以后的对称问题. 标准正态变量 $X$ 在区间 $\\left( {{x}_{1},{x}_{2}}\\right)$ 内的概率公式为: $P\\left( {{x}_{1} < X \\leq  {x}_{2}}\\right)  = P\\left( {X \\leq  {x}_{2}}\\right)  - P\\left( {X \\leq  {x}_{1}}\\right)  = \\Phi \\left( {x}_{2}\\right)  - \\Phi \\left( {x}_{1}\\right)$ .",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 324
+      }
+    ],
+    "teacher_only": true,
+    "id": "x2-7-3-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 二项分布",
+    "markdown": "### 1 二项分布",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 853,
+        "end": 853
+      }
+    ],
+    "id": "x2-7-3-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "考虑如下问题: 一次测验共有 10 道选择题, 每题备有 4 个选项, 其中只有 1 个正确. 如果某学生随意猜测答题, 问其答对一半以上的概率有多大. 这样的概率计算具有普遍性, 现在就来讨论这种题型的概率计算.\n\n设有一个伯努利试验,其成功概率为 $p\\left( {0 < p < 1}\\right)$ ,失败概率为 $q$ ,且 $p + q = 1$ . 独立地重复该伯努利试验 $n$ 次,用 $X$ 表示成功的次数. 把 $n$ 次试验看作具有 $n$ 个标号的位置,其中每个位置都有两种可能:成功或者失败，分别标记为 1 和 0 . “成功次数为 $k$ ” 的事件 $X = k$ 可以看作从 $n$ 个位置里选择 $k$ 个位置标记为 1,而其他标记为 0,这样的选择共有 ${\\mathrm{C}}_{n}^{k}$ 种. 因为每次试验都是独立地进行,由独立性,每种标记发生的概率是 ${p}^{k}{q}^{n - k}$ . 由概率的可加性,成功次数为 $k$ 的概率为\n\n$$\nP\\left( {X = k}\\right)  = {\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k},\n$$\n\n其中 $k = 0,1,2,\\cdots , n$ . 因为 ${\\mathrm{C}}_{n}^{0} = {\\mathrm{C}}_{n}^{n} = 1$ ,所以 $X$ 的分布可表示为\n\n$$\n\\left( \\begin{matrix} 0 & 1 & 2 & \\cdots & k & \\cdots & n \\\\  {q}^{n} & {\\mathrm{C}}_{n}^{1}p{q}^{n - 1} & {\\mathrm{C}}_{n}^{2}{p}^{2}{q}^{n - 2} & \\cdots & {\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k} & \\cdots & {p}^{n} \\end{matrix}\\right) .\n$$\n\n从这个角度可以证明二项式定理\n\n$$\n\\mathop{\\sum }\\limits_{{k = 0}}^{n}{\\mathrm{C}}_{n}^{k}{p}^{k}{q}^{n - k} = \\mathop{\\sum }\\limits_{{k = 0}}^{n}P\\left( {X = k}\\right)  = 1.\n$$\n\n这是这个分布被称为二项分布的理由.\n\n定义 独立地重复一个成功概率为 $p$ 的伯努利试验 $n$ 次,其成功次数的分布称为二项分布 (binomial distribution),亦称成功次数 $X$ 服从二项分布 $B\\left( {n, p}\\right)$ .\n\n独立重复伯努利试验是一个非常重要的概率模型, 在实际中经常出现.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 854,
+        "end": 880
+      }
+    ],
+    "emphases": [
+      {
+        "start": 1028,
+        "end": 1045,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-3-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1047,
+        "end": 1162,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-3-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-3-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 独立地重复 $n$ 次成功概率为 $p$ 的伯努利试验,求至少有一次成功的概率.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 881,
+        "end": 882
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 881,
+        "end": 882
+      }
+    ],
+    "id": "x2-7-3-ex-1",
+    "category": "例题",
+    "answer": "解 用 $X$ 表示成功次数. 至少有一次成功相当于 $X > 0$ ,它的对立事件是 $X = 0$ . 由概率的性质,至少有一次成功的概率为\n\n$$\nP\\left( {X > 0}\\right)  = 1 - P\\left( {X = 0}\\right)  = 1 - {\\left( 1 - p\\right) }^{n}.\n$$\n\n当成功概率 $p$ 很小时,通常说成功是小概率事件. 虽然在一次试验中,小概率事件几乎不可能发生,但因为 $0 < p < 1$ ,有 $0 < 1 - p < 1$ ,当试验次数 $n$ 充分大时, ${\\left( 1 - p\\right) }^{n}$ 接近于零,即 $1 - {\\left( 1 - p\\right) }^{n}$ 接近于 1,所以至少一次成功的概率就会很大.\n\n直观地说, 做一件事情, 不管成功概率多小, 只要执着地努力，重复的次数足够多，就有很大可能会成功. 如同俗语所说:失败是成功之母. 反过来说, 如果不断地重复, 小概率的坏事也终有可能发生. 例如, 开车一次发生事故的概率 $p$ 很小,但是如果每天开车,长期下去还是很有可能发生事故的. 所以，不仅每次开车都要格外小心，减小事故发生的概率 $p$ ,而且要尽可能地减少开车次数 $n$ ,这样就能使发生事故的概率尽量减小.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 883,
+        "end": 892
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 设 $X$ 服从二项分布 $B\\left( {n, p}\\right)$ ,求 $X$ 的期望与方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 893,
+        "end": 894
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 893,
+        "end": 894
+      }
+    ],
+    "id": "x2-7-3-ex-2",
+    "category": "例题",
+    "answer": "解 用 ${X}_{k}$ 表示第 $k$ 次随机试验的结果: 若成功,则 ${X}_{k} = 1$ ; 若失败,则 ${X}_{k} = 0$ . 总的成功次数 $X$ 可以表示为\n\n$$\nX = {X}_{1} + {X}_{2} + \\cdots  + {X}_{n}.\n$$\n\n按照定义, ${X}_{k}$ 的期望是\n\n$$\nE\\left\\lbrack  {X}_{k}\\right\\rbrack   = 1 \\times  p + 0 \\times  \\left( {1 - p}\\right)  = p.\n$$\n\n所以, 由期望的线性性质, 得\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + E\\left\\lbrack  {X}_{2}\\right\\rbrack   + \\cdots  + E\\left\\lbrack  {X}_{n}\\right\\rbrack   = {np}.\n$$\n\n用同样的方法可以计算 $X$ 的方差. 先计算 $D\\left\\lbrack  {X}_{1}\\right\\rbrack$ . 因为 $E\\left\\lbrack  {X}_{1}^{2}\\right\\rbrack   = p$ ,所以\n\n$$\nD\\left\\lbrack  {X}_{1}\\right\\rbrack   = E\\left\\lbrack  {X}_{1}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  {X}_{1}\\right\\rbrack  \\right) }^{2} = p - {p}^{2} = p\\left( {1 - p}\\right) .\n$$\n\n因为每次试验是独立地重复,所以 ${X}_{1},{X}_{2},\\cdots ,{X}_{n}$ 是相互独立的,且 $D\\left\\lbrack  {X}_{k}\\right\\rbrack   = p\\left( {1 - p}\\right) , k = 1,2,\\cdots , n$ . 由方差的性质, 有\n\n$$\nD\\left\\lbrack  X\\right\\rbrack   = D\\left\\lbrack  {X}_{1}\\right\\rbrack   + D\\left\\lbrack  {X}_{2}\\right\\rbrack   + \\cdots  + D\\left\\lbrack  {X}_{n}\\right\\rbrack   = {np}\\left( {1 - p}\\right) .\n$$\n\n由上式可见,方差关于概率 $p$ 是一个其图像开口向下的二次函数,且它在 $p = \\frac{1}{2}$ 时达到最大值. 这说明,在成功概率是 $\\frac{1}{2}$ 时, $X$ 的分散度最大; 而当 $p$ 与 $\\frac{1}{2}$ 相差较大时, $X$ 的分散度较小. 这就从数学上诠释了前面所说的随机性大小与概率大小的直观关系.\n\n---\n\n如果不断地重复, 那么一个小概率事件终究会发生.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 895,
+        "end": 932
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.3(1)",
+    "markdown": "### 练习 7.3(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 933,
+        "end": 933
+      }
+    ],
+    "id": "x2-7-3-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(1) · 1",
+    "markdown": "1. 已知随机变量 $X$ 服从二项分布 $B\\left( {n, p}\\right)$ ,若 $E\\left\\lbrack  X\\right\\rbrack   = {30}, D\\left\\lbrack  X\\right\\rbrack   = {20}$ ,求 $p$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 935,
+        "end": 936
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 935,
+        "end": 936
+      }
+    ],
+    "id": "x2-7-3-p731-1",
+    "category": "练习7.3(1)",
+    "answer": "1. $\\frac{1}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 435,
+        "end": 436
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(1) · 2",
+    "markdown": "2. 一批产品的二等品率为 0.3 . 从这批产品中每次随机取一件, 并有放回地抽取 20 次. 用 $X$ 表示抽到二等品的件数,求 $D\\left\\lbrack  X\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 937,
+        "end": 938
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 937,
+        "end": 938
+      }
+    ],
+    "id": "x2-7-3-p731-2",
+    "category": "练习7.3(1)",
+    "answer": "2. 4.2.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 437,
+        "end": 438
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 超几何分布",
+    "markdown": "## 2 超几何分布",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 939,
+        "end": 939
+      }
+    ],
+    "id": "x2-7-3-b9",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "再看另外一个常见的概率模型.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 940,
+        "end": 942
+      }
+    ],
+    "id": "x2-7-3-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 设袋中装有大小与质地相同的 6 个白球、 4 个黑球. 现在依次不放回地摸 5 个球,用 $X$ 表示摸出的白球个数. 求 $X$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 943,
+        "end": 944
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 943,
+        "end": 944
+      }
+    ],
+    "id": "x2-7-3-ex-3",
+    "category": "例题",
+    "answer": "解 首先, 因为所考虑的是白球的个数, 与摸球的顺序无关, 而且是不放回地摸球, 所以从随机性的角度讲, 依次摸出 5 个球和一次摸出 5 个球是一样的. 其次, 由于是不放回地摸球, 前面摸球的结果会影响后面摸球的结果, 因此考虑问题的方法应该不同于放回摸球的情况.\n\n因为黑球只有 4 个,所以变量 $X$ 的取值范围是 $1\\text{ 、 }2\\text{ 、 }3\\text{ 、 }4$ 、 5. 从 10 个球中取 5 个球的所有可能的取法, 不计顺序, 共有 ${\\mathrm{C}}_{10}^{5}$ 种. 举例来说,事件 $X = 3$ 可以分为从 6 个白球中取 3 个,并从 4 个黑球中取 2 个这样两个步骤, 即\n\n$$\nP\\left( {X = 3}\\right)  = \\frac{{\\mathrm{C}}_{6}^{3}{\\mathrm{C}}_{4}^{2}}{{\\mathrm{C}}_{10}^{5}}.\n$$\n\n所以, 一般地说,\n\n$$\nP\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{6}^{k}{\\mathrm{C}}_{4}^{5 - k}}{{\\mathrm{C}}_{10}^{5}}, k = 1,2,3,4,5.\n$$\n\n因此,如果一袋中装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球,依次随机且不放回地取 $n$ 个球,用 $X$ 表示其中的白球数, 那么 $X$ 的分布可由下式给出:\n\n$$\nP\\left( {X = k}\\right)  = \\frac{{\\mathrm{C}}_{a}^{k}{\\mathrm{C}}_{b}^{n - k}}{{\\mathrm{C}}_{a + b}^{n}}.\n$$\n\n其中, $k$ 的取值范围由以下几个条件决定: 取得的白球个数不能超过 $n$ ,也不能超过 $a$ ; 同时,取得的黑球个数不能超过 $b$ ,即成立\n\n$$\nk \\leq  n, k \\leq  a, n - k \\leq  b.\n$$\n\n如果简单地约定: 当 $k < 0$ 或者 $k > n$ 时,组合符号 ${\\mathrm{C}}_{n}^{k} = 0$ , 这样, $P\\left( {X = k}\\right)$ 式中的 $k$ 原则上就可以取任意的整数值.\n\n定义 从一个装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋中随机且不放回地取 $n$ 个球,其中的白球数的分布称为超几何分布 (hyper-geometric distribution).",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 945,
+        "end": 974
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 计算例 3 中 $X$ 的期望.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 975,
+        "end": 976
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 975,
+        "end": 976
+      }
+    ],
+    "id": "x2-7-3-ex-4",
+    "category": "例题",
+    "answer": "解 我们将利用期望的性质来进行计算.\n\n从装有大小与质地相同的 $a$ 个白球、 $b$ 个黑球的袋子中不放回地随机取 $n$ 个球, $n$ 不能超过总个数 $a + b$ . 用 $X$ 表示其中的白球个数. 这可以想象成依次取球,用 ${X}_{k}$ 表示第 $k$ 次取球的结果: 如果是白球, ${X}_{k} = 1$ ; 如果是黑球, ${X}_{k} = 0$ . 那么\n\n$$\nX = {X}_{1} + {X}_{2} + \\cdots  + {X}_{n}.\n$$\n\n本章 7.1 节中例 4 已经证明, 抽签概率与顺序无关, 所以\n\n$$\nP\\left( {{X}_{k} = 1}\\right)  = \\frac{a}{a + b}, P\\left( {{X}_{k} = 0}\\right)  = \\frac{b}{a + b}.\n$$\n\n因此\n\n$$\nE\\left\\lbrack  {X}_{k}\\right\\rbrack   = \\frac{a}{a + b},\n$$\n\n从而\n\n$$\nE\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}_{1}\\right\\rbrack   + \\cdots  + E\\left\\lbrack  {X}_{n}\\right\\rbrack   = \\frac{na}{a + b},\n$$\n\n即 $X$ 的期望为取球的个数乘白球的比例. 这与放回摸球情况下取得白球个数的期望是一样的.\n\n从二项分布的期望计算到超几何分布的期望计算, 可以看出, 虽然期望和方差是用分布来定义的, 但是其计算过程实际上不一定要用到分布, 而只要使用期望和方差的性质即可.\n\n二项分布和超几何分布的区别, 实质上就是摸球模型中放回摸球和不放回摸球的区别. 当 $a + b$ 远大于 $n$ 时,放回与不放回两种情况下的分布之间差别不大,即二项分布与超几何分布之间差别不大.\n\n---\n\n根据定义, $X$ 的期望为\n\n$E\\left\\lbrack  X\\right\\rbrack   = \\mathop{\\sum }\\limits_{k}k \\cdot  \\frac{{\\mathrm{C}}_{a}^{k}{\\mathrm{C}}_{b}^{n - k}}{{\\mathrm{C}}_{a + b}^{n}},$\n\n$k$ 取遍它的取值范围. 此式的直接计算比较困难.\n\n注意, 虽然期望是一样的, 但它们的分布是不同的, 一个是二项分布, 另一个是超几何分布.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 977,
+        "end": 1020
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.3(2)",
+    "markdown": "## 练习 7.3(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1021,
+        "end": 1021
+      }
+    ],
+    "id": "x2-7-3-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(2) · 1",
+    "markdown": "1. 盒子中有大小与质地相同的 3 个白球、 1 个黑球, 若从中随机地摸出 2 个球, 求它们颜色不同的概率.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1023,
+        "end": 1024
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1023,
+        "end": 1024
+      }
+    ],
+    "id": "x2-7-3-p732-1",
+    "category": "练习7.3(2)",
+    "answer": "1. $\\frac{1}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 441,
+        "end": 442
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(2) · 2",
+    "markdown": "2. 从放有 6 黑 2 白共 8 颗珠子的袋子中抓 3 颗珠子,分别求黑珠颗数 $X$ 与白珠颗数 $Y$ 的分布、期望与方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1025,
+        "end": 1026
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1025,
+        "end": 1026
+      }
+    ],
+    "id": "x2-7-3-p732-2",
+    "category": "练习7.3(2)",
+    "answer": "2. $X$ 的分布为 $\\left( \\begin{matrix} 1 & 2 & 3 \\\\  \\frac{6}{56} & \\frac{30}{56} & \\frac{20}{56} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = \\frac{9}{4}, D\\left\\lbrack  X\\right\\rbrack   = \\frac{45}{112}$ .\n\n$Y$ 的分布为 $\\left( \\begin{matrix} 0 & 1 & 2 \\\\  \\frac{20}{56} & \\frac{30}{56} & \\frac{6}{56} \\end{matrix}\\right) , E\\left\\lbrack  Y\\right\\rbrack   = \\frac{3}{4}, D\\left\\lbrack  Y\\right\\rbrack   = \\frac{45}{112}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 443,
+        "end": 446
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(2) · 3",
+    "markdown": "3. 从一副去掉大小王牌的 52 张扑克牌中任取 5 张牌，求:\n\n(1)至少有一张黑桃的概率；\n\n(2)至少有一个对子(两张牌的数字一样)的概率.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1027,
+        "end": 1032
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1027,
+        "end": 1032
+      }
+    ],
+    "id": "x2-7-3-p732-3",
+    "category": "练习7.3(2)",
+    "answer": "3. (1) 设事件 $A$ 表示 5 张牌中至少有一张黑桃. $P\\left( A\\right)  = 1 - \\frac{{\\mathrm{C}}_{39}^{5}}{{\\mathrm{C}}_{52}^{5}} = \\frac{7411}{9520}$ .\n\n(2)设事件 $B$ 表示 5 张牌中至少有一个对子. $P\\left( B\\right)  = 1 - \\frac{{\\mathrm{C}}_{13}^{5} \\cdot  {\\left( {\\mathrm{C}}_{4}^{1}\\right) }^{5}}{{\\mathrm{C}}_{52}^{5}} = \\frac{2053}{4165}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 447,
+        "end": 450
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "3 正态分布",
+    "markdown": "## 3 正态分布",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1033,
+        "end": 1033
+      }
+    ],
+    "id": "x2-7-3-b17",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "现今的信息时代，各媒体都充斥着数据，因此正确地理解数据成为非常重要的事. 正态分布已经是生活中一个常用的词了. 例如, 我们常提起学生的考试成绩是不是正态分布, 某个城市的家庭收入是不是正态分布，等等. 那么，究竟什么是正态分布呢? 平日所说的正态分布, 大体上是指数据对称地分布在某个中心值两边, 且离中心值越远, 分布得越少.\n\n一包米的外包装上标示的质量是 5000 g,但实际上是有误差的. 假设包装米的公司没有故意偷工减料，计量员精确地检测所有在售的该种米, 把米包质量的频率分布直方图画出来, 会是一个什么形状呢? 图 7-3-1 中是一条峰值在 ${5000}\\mathrm{\\;g}$ 左右的曲线, 它具有一个单峰, 粗略展示了一个正态分布的形状. 实际上, 很多测量数据的分布都呈现出这样的形状.\n\n![bo_d4slos3ef24c73be0qug_24_198_1599_863_422_0.jpg](images/book-a18273d934edf4d1057f.jpg)\n\n图 7-3-1\n\n数学中的正态分布是指由下面的函数所表达的分布:\n\n$$\n{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)  = \\frac{1}{\\sqrt{{2\\pi }{\\sigma }^{2}}}{\\mathrm{e}}^{-\\frac{{\\left( x - \\mu \\right) }^{2}}{2{\\sigma }^{2}}}, - \\infty  < x <  + \\infty ,\n$$\n\n其中有两个参数:\n\n(1) $\\mu$ 是该分布的期望或均值；\n\n(2) ${\\sigma }^{2}$ 是该分布的方差，且总是假设 $\\sigma  > 0$ .\n\n这个函数的图像如同钟形, 如图 7-3-2 所示. 该函数在数学上称为正态密度函数，也称为钟形曲线.\n\n![bo_d4slos3ef24c73be0qug_25_642_744_759_386_0.jpg](images/book-390acbee8aba894f4d8b.jpg)\n\n图 7-3-2\n\n为了理解“一个函数所表达的分布”，要说明两点:第一，分布是指总数为 1 的量以某种方式分布在直线上; 第二, 该函数图像与 $x$ 轴所夹部分的面积等于 1,但这个事实需要用到高等数学的知识才能证明.\n\n定义 设 $X$ 是一个取实数值的随机变量. 如果对任何给定的实数 $a$ 与 $b\\left( {a < b}\\right) , X$ 落在区间 $\\left( {a, b}\\right)$ 上的概率 $P\\left( {a < X < b}\\right)$ 等于三条直线: $y = 0\\text{ 、 }x = a\\text{ 、 }x = b$ 与正态密度函数图像 $y = \\; {\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( x\\right)$ 所围的区域面积 (或者简称作此函数在该区间上的面积, 如图 7-3-3 所示),那么 $X$ 服从正态分布 (normal distribution), 或更准确地说, $X$ 服从参数为 $\\mu \\text{ 、 }{\\sigma }^{2}$ 的正态分布,记为\n\n$$\nX \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right) .\n$$\n\n![bo_d4slos3ef24c73be0qug_25_774_1776_488_309_0.jpg](images/book-caa7e0e7bdd13a7632e8.jpg)\n\n图 7-3-3\n\n当 $\\mu  = 0\\text{ 、 }{\\sigma }^{2} = 1$ 时,相应的正态分布称为标准正态分布,记作 $X \\sim  N\\left( {0,1}\\right)$ ,其密度函数\n\n$$\ny = \\frac{1}{\\sqrt{2\\pi }}{\\mathrm{e}}^{-\\frac{{x}^{2}}{2}}, - \\infty  < x <  + \\infty\n$$\n\n称为标准正态分布的密度函数,简记作 $y = \\varphi \\left( x\\right)$ . 实际上,一般的正态分布的密度函数总是标准正态分布的密度函数的某种平移和伸缩变换, 其形状保持钟形不变.\n\n用 $\\Phi \\left( x\\right)$ 表示标准正态分布的密度函数 $y = \\varphi \\left( x\\right)$ 从 $- \\infty$ 到 $x$ 的累计面积, 如图 7-3-4 所示, 称为标准正态分布函数.\n\n![bo_d4slos3ef24c73be0qug_26_370_850_519_249_0.jpg](images/book-1b1a11b369ca136bcad4.jpg)\n\n图 7-3-4\n\n这个函数没有简单的表达式, 其函数值可通过近似计算得到. 我们也可以通过某些型号的计算器来查它或者它的反函数的值, 如\n\n$$\n\\Phi \\left( 1\\right)  \\approx  {0.8413},\\Phi \\left( 2\\right)  \\approx  {0.9772},\\Phi \\left( 3\\right)  \\approx  {0.9987},\\cdots .\n$$\n\n容易验证 $y = \\varphi \\left( x\\right)$ 是一个偶函数,所以该函数在区间 $\\left( {-\\infty , - x}\\right)$ 上的面积等于其在区间 $\\left( {x, + \\infty }\\right)$ 上的面积,如图 7-3-5 所示. 此外,由于 $y = \\varphi \\left( x\\right)$ 与 $x$ 轴所围面积为 1,因此 $y = \\Phi \\left( x\\right)$ 满足\n\n$$\n\\Phi \\left( {-x}\\right)  = 1 - \\Phi \\left( x\\right) .\n$$\n\n![bo_d4slos3ef24c73be0qug_26_371_1782_520_250_0.jpg](images/book-83ec19228c3e9a41dae0.jpg)\n\n图 7-3-5\n\n如果 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ ,那么将 $X$ 平移再伸缩后将服从标准正态分布, 即成立\n\n$$\n\\frac{X - \\mu }{\\sigma } \\sim  N\\left( {0,1}\\right) .\n$$\n\n这样,正态分布 $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ 的密度函数的图像是一条钟形曲线,它关于直线 $x = \\mu$ 对称,其最大值在 $x = \\mu$ 处达到. 在 $x = \\mu$ 的左侧,函数严格增,而在 $x = \\mu$ 的右侧,函数严格减,从而它是一条单峰曲线. 当区间 $\\left( {a, b}\\right)$ 在 $x$ 轴上平移时,显然当 $\\mu$ 处于该区间的中心时,概率 $P\\left( {a < X < b}\\right)$ 即函数在区间 $\\left( {a, b}\\right)$ 上的面积达到最大. 因此,我们通常说正态分布集中在其期望 $\\mu$ 的附近,即参数 $\\mu$ 表示分布集中的位置.\n\n另外一个参数 $\\sigma$ 描述的是分布的集中程度. 从图 7-3-2 中可以看出,密度函数的最大值在 $x = \\mu$ 处达到,其最大值为\n\n$$\n{\\varphi }_{\\mu ,{\\sigma }^{2}}\\left( \\mu \\right)  = \\frac{1}{\\sqrt{2\\pi }\\sigma },\n$$\n\n它与 $\\sigma$ 成反比. 由于图像与 $x$ 轴之间的区域的总面积是一个固定值 1,因此当 $\\sigma$ 变小时,最大值变大,钟形变 “高瘦”,分布向中心 $x = \\mu$ 处集中; 反之,当 $\\sigma$ 变大时,最大值变小,钟形变 “矮胖”,分布向 $x = \\mu$ 的两边分散.\n\n出于种种原因, 在测量的过程中总有误差存在. 通常我们总假设误差是一个服从正态分布的随机变量.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1034,
+        "end": 1120
+      }
+    ],
+    "emphases": [
+      {
+        "start": 761,
+        "end": 811,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-18-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1547,
+        "end": 1645,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-18-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1741,
+        "end": 1842,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-18-2",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1844,
+        "end": 1963,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x2-7-3-definition-18-3",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x2-7-3-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 某公司生产的糖果每包标识质量是 ${500}\\mathrm{\\;g}$ ,但公司承认实际质量存在误差. 已知每包糖果的实际质量服从 $\\mu  = {500}$ 、 ${\\sigma }^{2} = {2.5}^{2}$ 的正态分布. 问: 随意买一包糖果,其质量误差超过 $5\\mathrm{\\;g}$ (即 1%) 的可能性有多大?(结果精确到 0.1%)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1121,
+        "end": 1122
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1121,
+        "end": 1122
+      }
+    ],
+    "id": "x2-7-3-ex-5",
+    "category": "例题",
+    "answer": "解 用 $X$ 表示糖果质量,由题意,可知 $X \\sim  N\\left( {{500},{2.5}^{2}}\\right)$ . 要求 $\\left| {X - {500}}\\right|  > 5$ 的概率,即求 $P\\left( {\\left| {X - {500}}\\right|  > 5}\\right)$ 的值. 令 $Y = \\frac{X - {500}}{2.5}$ ,则 $Y \\sim  N\\left( {0,1}\\right)$ . 因此,有\n\n$$\nP\\left( {\\left| {X - {500}}\\right|  > 5}\\right)  = P\\left( {\\left| Y\\right|  > 2}\\right)  = P\\left( {Y > 2}\\right)  + P\\left( {Y <  - 2}\\right)\n$$\n\n$$\n= {2\\Phi }\\left( {-2}\\right)  = 2\\left( {1 - \\Phi \\left( 2\\right) }\\right)\n$$\n\n$$\n\\approx  2 \\times  \\left( {1 - {0.9772}}\\right)  = 2 \\times  {0.0228}\n$$\n\n$$\n= {0.0456} \\approx  {4.6}\\% \\text{ , }\n$$\n\n即误差超过 $5\\mathrm{\\;g}$ 的可能性约是 ${4.6}\\%$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1123,
+        "end": 1142
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 设 $X$ 为任取的某袋有包装误差的产品的质量, $X \\sim  N\\left( {\\mu ,{\\sigma }^{2}}\\right)$ . 分别求 $\\left| {X - \\mu }\\right|  < \\sigma ,\\left| {X - \\mu }\\right|  < {2\\sigma }$ 及 $\\left| {X - \\mu }\\right|  < {3\\sigma }$ 的概率. (结果精确到 0.1%)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1143,
+        "end": 1144
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1143,
+        "end": 1144
+      }
+    ],
+    "id": "x2-7-3-ex-6",
+    "category": "例题",
+    "answer": "解 令\n\n$$\nY = \\frac{X - \\mu }{\\sigma }.\n$$\n\n那么 $P\\left( {\\left| {X - \\mu }\\right|  < \\sigma }\\right)  = P\\left( {\\left| Y\\right|  < 1}\\right)$ . 而 $P\\left( {\\left| Y\\right|  < 1}\\right)$ 是标准正态分布的密度函数在区间 $\\left( {-1,1}\\right)$ 上的面积,它等于函数在区间 $\\left( {-\\infty ,1}\\right)$ 上的面积减去在区间 $\\left( {-\\infty , - 1}\\right)$ 上的面积. 这样,就有\n\n$$\nP\\left( {\\left| Y\\right|  < 1}\\right)  = \\Phi \\left( 1\\right)  - \\Phi \\left( {-1}\\right)  = \\Phi \\left( 1\\right)  - \\left( {1 - \\Phi \\left( 1\\right) }\\right)\n$$\n\n$$\n= {2\\Phi }\\left( 1\\right)  - 1 \\approx  2 \\times  {0.8413} - 1\n$$\n\n$$\n= {0.6826} \\approx  {68.3}\\% \\text{ . }\n$$\n\n同样，\n\n$$\nP\\left( {\\left| Y\\right|  < 2}\\right)  = {2\\Phi }\\left( 2\\right)  - 1 \\approx  2 \\times  {0.9772} - 1 = {0.9544} \\approx  {95.4}\\% ;\n$$\n\n$$\nP\\left( {\\left| Y\\right|  < 3}\\right)  = {2\\Phi }\\left( 3\\right)  - 1 \\approx  2 \\times  {0.9987} - 1 = {0.9974} \\approx  {99.7}\\% .\n$$\n\n因此，随意购买一袋该产品，约有 68.3% 的可能性其质量在 $\\mu$ 左右 $\\sigma$ 的范围内; 约有 95.4% 的可能性其质量在 $\\mu$ 左右 ${2\\sigma }$ 的范围内; 约有 99.7% 的可能性其质量在 $\\mu$ 左右 ${3\\sigma }$ 的范围内,如图 7-3-6 所示. 这称为正态分布的 ${3\\sigma }$ (sigma) 原则.\n\n![bo_d4slos3ef24c73be0qug_28_283_1249_691_346_0.jpg](images/private-acce32deb032d80d908c.jpg)\n\n图 7-3-6",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1145,
+        "end": 1180
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 7.3(3)",
+    "markdown": "## 练习 7.3(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1181,
+        "end": 1181
+      }
+    ],
+    "id": "x2-7-3-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(3) · 1",
+    "markdown": "1. 已知随机变量 $X$ 服从正态分布 $N\\left( {-2,{\\sigma }^{2}}\\right)$ ,且 $P\\left( {X \\leq   - 1}\\right)  = k$ . 求 $P\\left( {X \\leq   - 3}\\right)$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1183,
+        "end": 1184
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1183,
+        "end": 1184
+      }
+    ],
+    "id": "x2-7-3-p733-1",
+    "category": "练习7.3(3)",
+    "answer": "1. $1 - k$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 453,
+        "end": 454
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习7.3(3) · 2",
+    "markdown": "2. 某校高中三年级 1600 名学生参加了区第一次高考模拟统一考试, 已知数学考试成绩 $X$ 服从正态分布 $N\\left( {{100},{\\sigma }^{2}}\\right)$ (试卷满分为 150 分). 统计结果显示,数学考试成绩在 80 分到 120 分之间的人数约为总人数的 $\\frac{3}{4}$ ，则此次统考中成绩不低于 120 分的学生人数约为 ( )\n\nA. 80 ; B. 100 ; C. 120 ; D. 200.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1185,
+        "end": 1188
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1185,
+        "end": 1188
+      }
+    ],
+    "id": "x2-7-3-p733-2",
+    "category": "练习7.3(3)",
+    "answer": "2. D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 455,
+        "end": 456
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 7.3",
+    "markdown": "## 习题 7.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1189,
+        "end": 1189
+      }
+    ],
+    "id": "x2-7-3-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1191,
+        "end": 1191
+      }
+    ],
+    "id": "x2-7-3-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题7.3A · 1",
+    "markdown": "1. 一名学生每天骑车上学, 从家到学校的途中经过 6 个路口. 假设他在各个路口遇到红灯的事件是相互独立的,并且概率都是 $\\frac{1}{3}$ .\n\n(1)用 $X$ 表示这名学生在途中遇到红灯的次数，求 $X$ 的分布；\n\n(2)求这名学生在途中至少遇到一次红灯的概率.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1193,
+        "end": 1198
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1193,
+        "end": 1198
+      }
+    ],
+    "id": "x2-7-3-h73A-1",
+    "category": "习题7.3A",
+    "answer": "1.(1) $X$ 的分布实际上是一个二项分布 $B\\left( {6,\\frac{1}{3}}\\right)$ .\n\n(2) $P\\left( {X \\geq  1}\\right)  = 1 - P\\left( {X = 0}\\right)  = 1 - {\\left( \\frac{2}{3}\\right) }^{6} = \\frac{665}{729}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 461,
+        "end": 464
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.3A · 2",
+    "markdown": "2. 从有 7 名男生的 15 名学生中任意选择 10 名,用 $X$ 表示其中的男生人数. 求 $P\\left( {X = 4}\\right)$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1199,
+        "end": 1200
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1199,
+        "end": 1200
+      }
+    ],
+    "id": "x2-7-3-h73A-2",
+    "category": "习题7.3A",
+    "answer": "2. $\\frac{140}{429}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 465,
+        "end": 466
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.3A · 3",
+    "markdown": "3. 某学生参加一次考试, 已知在备选的 10 道试题中, 能答对其中的 6 道题. 规定每次考试都从备选题中随机抽出 3 道题进行测试,求该生答对试题数 $X$ 的分布.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1201,
+        "end": 1202
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1201,
+        "end": 1202
+      }
+    ],
+    "id": "x2-7-3-h73A-3",
+    "category": "习题7.3A",
+    "answer": "3. $\\left( \\begin{matrix} 0 & 1 & 2 & 3 \\\\  \\frac{4}{120} & \\frac{36}{120} & \\frac{60}{120} & \\frac{20}{120} \\end{matrix}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 467,
+        "end": 468
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1203,
+        "end": 1203
+      }
+    ],
+    "id": "x2-7-3-b29",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题7.3B · 1",
+    "markdown": "1. 从一副去掉大小王牌的 52 张扑克牌中任取 5 张牌，用 $X$ 表示其中黑桃的张数. 求 $X$ 的分布、期望与方差.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1205,
+        "end": 1206
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1205,
+        "end": 1206
+      }
+    ],
+    "id": "x2-7-3-h73B-1",
+    "category": "习题7.3B",
+    "answer": "1. $\\left( \\begin{matrix} 0 & 1 & 2 & 3 & 4 & 5 \\\\  {\\mathrm{C}}_{39}^{5} & {\\mathrm{C}}_{13}^{1}{\\mathrm{C}}_{39}^{4} & {\\mathrm{C}}_{13}^{2}{\\mathrm{C}}_{39}^{3} & {\\mathrm{C}}_{13}^{3}{\\mathrm{C}}_{39}^{2} & {\\mathrm{C}}_{13}^{4}{\\mathrm{C}}_{39}^{1} & {\\mathrm{C}}_{13}^{5} \\\\  {\\mathrm{C}}_{55}^{5} & {\\mathrm{C}}_{55}^{1} & {\\mathrm{C}}_{55}^{2} & {\\mathrm{C}}_{55}^{3} & {\\mathrm{C}}_{55}^{2} & {\\mathrm{C}}_{55}^{3} \\end{matrix}\\right) , E\\left\\lbrack  X\\right\\rbrack   = \\frac{5}{4}, D\\left\\lbrack  X\\right\\rbrack   = \\frac{235}{272}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 471,
+        "end": 472
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.3B · 2",
+    "markdown": "2. 对于本节例 4 中所定义的 ${X}_{k}\\left( {k = 1,2,\\cdots , n}\\right)$ ,设 $n = 2$ . 求:\n\n(1) $E\\left\\lbrack  {{X}_{1}{X}_{2}}\\right\\rbrack$ ；\n\n(2) $E\\left\\lbrack  {X}^{2}\\right\\rbrack$ 与 $D\\left\\lbrack  X\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1207,
+        "end": 1212
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1207,
+        "end": 1212
+      }
+    ],
+    "id": "x2-7-3-h73B-2",
+    "category": "习题7.3B",
+    "answer": "2. (1) ${X}_{1}{X}_{2}$ 的分布 $\\left( \\begin{matrix} 0 & 1 \\\\  1 - \\frac{{C}_{a}^{2}}{{C}_{a + b}^{2}} & \\frac{{C}_{a}^{2}}{{C}_{a + b}^{2}} \\end{matrix}\\right) , E\\left\\lbrack  {{X}_{1}{X}_{2}}\\right\\rbrack   = \\frac{{C}_{a}^{2}}{{C}_{a + b}^{2}}$ .\n\n(2) $E\\left\\lbrack  {X}_{k}^{2}\\right\\rbrack   = \\frac{a}{a + b}, E\\left\\lbrack  {X}^{2}\\right\\rbrack   = E\\left\\lbrack  {{X}_{1}^{2} + 2{X}_{1}{X}_{2} + {X}_{2}^{2}}\\right\\rbrack   = \\frac{2a}{a + b} + \\frac{{2a}\\left( {a - 1}\\right) }{\\left( {a + b}\\right) \\left( {a + b - 1}\\right) }$ , $D\\left\\lbrack  X\\right\\rbrack   = E\\left\\lbrack  {X}^{2}\\right\\rbrack   - {\\left( E\\left\\lbrack  X\\right\\rbrack  \\right) }^{2} = \\frac{{2ab}\\left( {a + b - 2}\\right) }{{\\left( a + b\\right) }^{2}\\left( {a + b - 1}\\right) }.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 473,
+        "end": 476
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题7.3B · 3",
+    "markdown": "3. 已知随机变量 $X$ 服从正态分布 $N\\left( {3,{\\sigma }^{2}}\\right)$ ，且 $P\\left( {1 \\leq  X \\leq  5}\\right)  = {0.6}$ . 求 $P\\left( {X > 5}\\right)$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1213,
+        "end": 1214
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1213,
+        "end": 1214
+      }
+    ],
+    "id": "x2-7-3-h73B-3",
+    "category": "习题7.3B",
+    "answer": "3. 令 $Y = \\frac{X - 3}{\\sigma }$ ,则 $Y \\sim  N\\left( {0,1}\\right)$ . 因此 $P\\left( {1 \\leq  X \\leq  5}\\right)  = P\\left( {-\\frac{2}{\\sigma } \\leq  Y \\leq  \\frac{2}{\\sigma }}\\right)  = \\; \\Phi \\left( \\frac{2}{\\sigma }\\right)  - \\Phi \\left( {-\\frac{2}{\\sigma }}\\right)  = {2\\Phi }\\left( \\frac{2}{\\sigma }\\right)  - 1$ ,又 $P\\left( {1 \\leq  X \\leq  5}\\right)  = {0.6},\\Phi \\left( \\frac{2}{\\sigma }\\right)  = {0.8}, P\\left( {X > 5}\\right)  = \\; P\\left( {Y > \\frac{2}{\\sigma }}\\right)  = 1 - \\Phi \\left( \\frac{2}{\\sigma }\\right)  = {0.2}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 477,
+        "end": 478
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

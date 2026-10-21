@@ -1,0 +1,33 @@
+{
+  "id": "x1-2-1",
+  "book_id": "x1",
+  "section_path": "batch/sections/x1/x1-2-1.json",
+  "fingerprint": "864869c78b47d2afe6aa0405311217ae7454f75c7b3694ec263621bbebd939fb",
+  "status": "validated",
+  "review": {
+    "file": "batch/reviews/x1-2-1.json",
+    "status": "structure-pairing-reviewed",
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 45,
+        "answers": 45,
+        "teacher_formulas": 610,
+        "student_formulas": 257,
+        "checks": 129,
+        "errors": 0,
+        "warnings": 1
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 12.52,
+  "finished_at": "2026-10-20T02:00:43+08:00"
+}

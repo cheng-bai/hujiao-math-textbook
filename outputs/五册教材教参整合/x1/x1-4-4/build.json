@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-4-4",
+  "book_id": "x1",
+  "section": "4.4",
+  "title": "数学归纳法",
+  "section_json": "batch/sections/x1/x1-4-4.json",
+  "output": "outputs/五册教材教参整合/x1/x1-4-4",
+  "fingerprint": "2152bb614c7ca2d28af54644d68cbf34d1a3089733ce65a16c62a9adc57190f0",
+  "status": "rendered",
+  "questions": 16,
+  "answers": 16,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "7b784a0207b6726b93d647952464fee1755b70911d7f7adcbc58762229d55e71",
+    "student.html": "a9f99f6de6b92b621cf28218bfd8887ad1528452b776c5e49734af991d9aacfa",
+    "student.zip": "1cdd1e2fe07180d05052847e47cbdd6d016eedd7a0a2c6c307a4e5ba034a1928",
+    "content.json": "eeb542f07d6221575b1479538517c5ba3138592923eaca2750106e1a4b67a393"
+  }
+}

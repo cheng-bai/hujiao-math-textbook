@@ -1,0 +1,352 @@
+{
+  "asset_id": "4511c30b-c217-5ed1-a56f-347b06c9b1b3",
+  "contributors": [
+    {
+      "name": "Codex deep-analysis implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {
+      "showDerivative": false
+    },
+    "math": {
+      "a": 0
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-analysis",
+    "source_build_sha256": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x2-5-3-b14",
+          "rationale": "在极值定义后的方法深化；保留极值、驻点及原例题正文，不以探索替代论证。",
+          "retainProse": true,
+          "sectionId": "x2-5-3",
+          "sourceSha256": "acc312df7da212b23ee33b5a05e7996ef3a5ef3a05af4864f84035a8bad35a25"
+        }
+      ],
+      "sections": [
+        "x2-5-3"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 26494,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf"
+    },
+    {
+      "bytes": 10078,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "28c61d8522ada956c519a4534cbfa83e13c741d6a65a4949b8740c3d97e59ca4"
+    },
+    {
+      "bytes": 10543,
+      "media_type": "text/javascript",
+      "path": "source/deep-analysis.js",
+      "role": "source",
+      "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+    },
+    {
+      "bytes": 17486,
+      "media_type": "application/json",
+      "path": "source/deep-analysis.json",
+      "role": "source",
+      "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+    },
+    {
+      "bytes": 6615,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-analysis.mjs",
+      "role": "source",
+      "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 4791,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "bb3fb62a326458942bb9f0ccd5fc693b98574b43d05f98f7f0951214cf6eab20"
+    },
+    {
+      "bytes": 7430,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "9ca2bdd5260ad1e0710afa21d89750f503bc4c8302debf8c023129313fef4498"
+    },
+    {
+      "bytes": 1065,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "e49f69609e726a999d0fe3b43e8ec15966c044e0029b0d59e719fedd4df3db96"
+    },
+    {
+      "bytes": 3176,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "96788571bd398271c5fa2c339cfcdcd2b56b6b387d30f1548007f7318fb8509f"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "0a9b6d9b981f921354cc4b8e41409ca600c02aa87af9f0097238349acd867101"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 529,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "e00a6edca33e95a8de1ca1cb69ed7277f5aaa71697038462f8634564963fcfb5"
+    },
+    {
+      "bytes": 137303,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "e17be4cd4aa4957b44e1ceaa1a2ac4520566855f9abda04015ddde30ceba9833"
+    },
+    {
+      "bytes": 90706,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "9f4e94f40d4b5c99e2cde458b3c70197464cbe500c6637a5028537991e2b71f6"
+    },
+    {
+      "bytes": 156198,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "3a005627140d2a4d6f2f91aea00e9c08a2dca2cecafb21638608b20436689b64"
+    },
+    {
+      "bytes": 87563,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "6792143a6845ef6c3323e6911d181d86d1057076729431122f9a4a33b3515f31"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "69799e099a13dde1214fd40faaf1a4e60fdd01cd46f34f4b03875d04f23895d8"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "设 f(x)=x³−3x，则 f′(x)=3(x−1)(x+1)。因此 f 在 (−∞,−1)、(1,+∞) 上严格增，在 (−1,1) 上严格减；将驻点端点并入，考虑三段 (−∞,−1]、[−1,1]、[1,+∞)。由 f(−1)=2、f(1)=−2 及两端趋势，这三段的值域依次为 (−∞,2]、[−2,2]、[−2,+∞)。当 −2<a<2 时各段各有一个交点；当 a=±2 时相邻交点合并，只剩两个不同实根；|a|>2 时仅一个实根。临界值还可直接验证：x³−3x−2=(x+1)²(x−2)，x³−3x+2=(x−1)²(x+2)，相切的根均为二重根。重数不是不同交点个数；非临界状态的数值根仅作近似显示。图中的横纵单位刻度不同，不据图估计切线角度。"
+    ],
+    "learning_goals": [
+      "拖动水平线，解释不同实根数为什么只在极值高度发生变化，而不只是数当前屏幕上的交点。"
+    ],
+    "objects": [
+      "根在哪里合并：含参三次方程的临界状态"
+    ],
+    "parameters": {
+      "a": {
+        "default": 0,
+        "display_range": [
+          -4,
+          4
+        ],
+        "domain": "本实验允许输入范围 [-4, 4]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-analysis"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "拖动水平线，解释不同实根数为什么只在极值高度发生变化，而不只是数当前屏幕上的交点。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {
+          "showDerivative": false
+        },
+        "math": {
+          "a": 0
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "parameter-cubic-roots",
+  "state_contract": {
+    "lesson": {
+      "showDerivative": {
+        "type": "boolean"
+      }
+    },
+    "math": {
+      "a": {
+        "maximum": 4,
+        "minimum": -4,
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "根在哪里合并：含参三次方程的临界状态",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:41Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-analysis.js",
+          "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+        },
+        {
+          "path": "source/deep-analysis.json",
+          "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+        },
+        {
+          "path": "source/test-deep-analysis.mjs",
+          "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840053Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840053Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.714303Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0444af6cf97ac1c682a0dc547d4a5cbc23a9b43f3e13884022f8791aa01135bf"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "28c61d8522ada956c519a4534cbfa83e13c741d6a65a4949b8740c3d97e59ca4"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

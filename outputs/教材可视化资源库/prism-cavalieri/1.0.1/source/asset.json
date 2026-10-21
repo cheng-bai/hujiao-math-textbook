@@ -1,0 +1,45 @@
+{
+  "controls": [
+    {
+      "key": "shift",
+      "label": "顶面水平偏移",
+      "max": 1.5,
+      "min": -1.5,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "level",
+      "label": "截面高度比例",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>V</mi><mo>=</mo><mi>S</mi><mi>h</mi></math>",
+  "goal": "水平推移柱顶，同时拖动截面比较直柱与斜柱。",
+  "id": "prism-cavalieri",
+  "initial": {
+    "level": 0.5,
+    "shift": 1.1,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-11-1-b14",
+      "rationale": "接替祖暅原理与斜柱体积的文字比较。",
+      "sectionId": "bx3-11-1"
+    }
+  ],
+  "summary": "祖暅原理要求两个几何体同高，且任意等高处截面面积相等；由此可推得两者体积相等。柱体的平行于底面的截面均与底面全等，因此体积为底面积乘高，而不是乘侧棱长。",
+  "title": "祖暅原理：倾斜不改变等高截面"
+}

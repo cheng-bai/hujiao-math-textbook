@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx1-4-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>4.2 指数函数 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-exponential-base.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第一册 / 第4章幂函数、指数函数与对数函数</div><div class="spine-number">4.2</div><nav aria-label="本节目录"><a href="#bx1-4-2"><span>4.2</span>指数函数</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 4.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 4.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>指数函数<span class="cover-dot">.</span></h1><p class="cover-deck">必修第一册<br>第4章幂函数、指数函数与对数函数 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>7 个例题</span><span>23 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx1-4-2" data-title="指数函数"><section class="section-heading" id="bx1-4-2"><span class="section-number">4.2</span><div><h2>指数函数</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="bx1-4-2-b2">1 指数函数的定义与图像</h3><div class="prose" data-visual-source-sha="bedc0960524f7c1807baeb0e0690cf0359343c8ae3453b460a224965fdcb9a09" id="bx1-4-2-b3"><p>研究这样一个问题: 一张纸对折一次, 由 1 层变为 2 层, 再对折一次,由 2 层变为 4 层, <span class="math" data-tex="\cdots \cdots" data-display="false"></span> ,对折 <span class="math" data-tex="x" data-display="false"></span> 次后,层数 <span class="math" data-tex="y" data-display="false"></span> 与对折次数 <span class="math" data-tex="x" data-display="false"></span> 的函数关系为 <span class="math" data-tex="y = {2}^{x}" data-display="false"></span> .</p>
+<p>将幂的底数 <span class="math" data-tex="a" data-display="false"></span> 固定,指数用变量 <span class="math" data-tex="x" data-display="false"></span> 代替,研究幂 <span class="math" data-tex="{a}^{x}" data-display="false"></span> 随 <span class="math" data-tex="x" data-display="false"></span> 变化而变化的规律, 即用</p>
+<div class="math display" data-tex="y = {a}^{x}" data-display="true"></div>
+<p>来描述 <span class="math" data-tex="y" data-display="false"></span> 与 <span class="math" data-tex="x" data-display="false"></span> 之间的关系,就得到指数函数.</p>
+<p>这里首先要假设 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ,以保证对所有的实数 <span class="math" data-tex="x,{a}^{x}" data-display="false"></span> 都有意义. 还要假设 <span class="math" data-tex="a \neq  1" data-display="false"></span> ,因为如果 <span class="math" data-tex="a = 1,{a}^{x}" data-display="false"></span> 就恒等于 1,这种极为特殊的情况不必专门研究.</p>
+<p>定义 当底数 <span class="math" data-tex="a" data-display="false"></span> 固定,且 <span class="math" data-tex="a &gt; 0, a \neq  1" data-display="false"></span> 时,等式</p>
+<div class="math display" data-tex="y = {a}^{x}" data-display="true"></div>
+<aside class="key-point key-concept" id="bx1-4-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>确定了变量 <span class="math" data-tex="y" data-display="false"></span> 随变量 <span class="math" data-tex="x" data-display="false"></span> 变化的规律,称为底为 <span class="math" data-tex="a" data-display="false"></span> 的指数函数 (exponential function).</p>
+</aside><p>因为对所有实数 <span class="math" data-tex="x,{a}^{x}" data-display="false"></span> 都是有意义的,所以指数函数的定义域是全体实数.</p>
+<p>在平面直角坐标系中,满足 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 的一切点 <span class="math" data-tex="\left( {x, y}\right)" data-display="false"></span> 构成指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 的图像.</p>
+</div><article class="question" id="bx1-4-2-ex-1" data-question-id="bx1-4-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 若指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 的图像经过点 <span class="math" data-tex="\left( {2,9}\right)" data-display="false"></span> ,求该指数函数的表达式.</p>
+</div></article><article class="question" id="bx1-4-2-ex-2" data-question-id="bx1-4-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 分别作出指数函数 <span class="math" data-tex="y = {2}^{x}" data-display="false"></span> 及 <span class="math" data-tex="y = {3}^{x}" data-display="false"></span> 的大致图像.</p>
+</div></article><article class="question" id="bx1-4-2-ex-3" data-question-id="bx1-4-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 作出指数函数 <span class="math" data-tex="y = {\left( \frac{1}{2}\right) }^{x}" data-display="false"></span> 的大致图像.</p>
+<p><img src="images/book-d24a8ed6ad121d083348.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-2-2</p>
+</div></article><h3 class="group-heading" id="bx1-4-2-b7">练习 4.2(1)</h3><article class="question" id="bx1-4-2-p421-1" data-question-id="bx1-4-2-p421-1" data-category="practice"><div class="question-label">练习4.2(1) · 1</div><div class="question-body"><ol>
+<li>判断下列函数哪些是指数函数, 哪些是幂函数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = x" data-display="false"></span> ； (2) <span class="math" data-tex="y = {x}^{3}" data-display="false"></span> ； (3) <span class="math" data-tex="y = {\mathrm{e}}^{x}" data-display="false"></span> ；</p>
+<p>(4) <span class="math" data-tex="y = \sqrt[3]{x}" data-display="false"></span> ； (5) <span class="math" data-tex="y = {2}^{-x}" data-display="false"></span> ; (6) <span class="math" data-tex="y = {2}^{x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-p421-2" data-question-id="bx1-4-2-p421-2" data-category="practice"><div class="question-label">练习4.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>求下列函数的定义域:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {3}^{x}" data-display="false"></span> ； (2) <span class="math" data-tex="y = {3}^{\frac{1}{x - 2}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-p421-3" data-question-id="bx1-4-2-p421-3" data-category="practice"><div class="question-label">练习4.2(1) · 3</div><div class="question-body"><ol start="3">
+<li>在同一平面直角坐标系中分别作出下列函数的大致图像:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {4}^{x}" data-display="false"></span> ； (2) <span class="math" data-tex="y = {\left( \frac{1}{4}\right) }^{x}" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx1-4-2-b11">2 指数函数的性质</h3><div class="prose" data-visual-source-sha="0587b6f86408e63686ddaf0248809980fcdc5aafbbd79890b3e0a1b36bdd1836" id="bx1-4-2-b12"><p>由前述两种指数函数的图像可见,它们的图像均在 <span class="math" data-tex="x" data-display="false"></span> 轴的上方. 这是因为当 <span class="math" data-tex="a &gt; 0" data-display="false"></span> 时,对一切实数 <span class="math" data-tex="x,{a}^{x}" data-display="false"></span> 均大于 0 . 因此,我们有如下的性质:</p>
+<p>指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 的函数值恒大于 0 .</p>
+<p>因为 <span class="math" data-tex="{a}^{0} = 1" data-display="false"></span> ,所以指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 的图像均经过点 <span class="math" data-tex="\left( {0,1}\right)" data-display="false"></span> . 因此，我们有如下的性质:</p>
+<p>指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 的图像都经过定点 <span class="math" data-tex="\left( {0,1}\right)" data-display="false"></span> .</p>
+<p>由例 2 和例 3 可见,指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 的图像可分为两种情况.</p>
+<p>(1) <span class="math" data-tex="a &gt; 1" data-display="false"></span> 的情况. 此时指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 的图像类似图4-2-1 中 <span class="math" data-tex="y = {2}^{x}" data-display="false"></span> 的图像,当 <span class="math" data-tex="x &gt; 0" data-display="false"></span> 时,函数值大于 1,其图像在直线 <span class="math" data-tex="y = 1" data-display="false"></span> 的上方; 而当 <span class="math" data-tex="x &lt; 0" data-display="false"></span> 时,函数值小于 1 且大于 0,其图像在直线 <span class="math" data-tex="y = 1" data-display="false"></span> 的下方,且位于 <span class="math" data-tex="x" data-display="false"></span> 轴的上方.</p>
+<p>(2) <span class="math" data-tex="0 &lt; a &lt; 1" data-display="false"></span> 的情况. 此时指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 的图像类似图 4-2-2中 <span class="math" data-tex="y = {\left( \frac{1}{2}\right) }^{x}" data-display="false"></span> 的图像,当 <span class="math" data-tex="x &gt; 0" data-display="false"></span> 时,函数值小于 1 且大于 0, 其图像在直线 <span class="math" data-tex="y = 1" data-display="false"></span> 的下方,且位于 <span class="math" data-tex="x" data-display="false"></span> 轴的上方; 而当 <span class="math" data-tex="x &lt; 0" data-display="false"></span> 时, 函数值大于 1,其图像在直线 <span class="math" data-tex="y = 1" data-display="false"></span> 的上方.</p>
+<p><img src="images/book-f221facb8be5fd173252.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-2-3</p>
+<p>这两种情况在同一平面直角坐标系中的图像如图 4-2-3 所示. 易见这两个指数函数 <span class="math" data-tex="y = {2}^{x}" data-display="false"></span> 与 <span class="math" data-tex="y = {\left( \frac{1}{2}\right) }^{x}" data-display="false"></span> 的图像关于 <span class="math" data-tex="y" data-display="false"></span> 轴对称.</p>
+<p>一般地说, 由指数幂的运算性质</p>
+<div class="math display" data-tex="{a}^{{x}_{0}} = {\left( {a}^{-1}\right) }^{-{x}_{0}}," data-display="true"></div>
+<p>容易看到: 若 <span class="math" data-tex="\left( {{x}_{0},{y}_{0}}\right)" data-display="false"></span> 为指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 图像上的一点,则 <span class="math" data-tex="\left( {-{x}_{0},{y}_{0}}\right)" data-display="false"></span> 必为指数函数 <span class="math" data-tex="y = {\left( {a}^{-1}\right) }^{x}" data-display="false"></span> 图像上的点,反之亦然. 由于 <span class="math" data-tex="\left( {{x}_{0},{y}_{0}}\right)" data-display="false"></span> 及 <span class="math" data-tex="\left( {-{x}_{0},{y}_{0}}\right)" data-display="false"></span> 两点关于 <span class="math" data-tex="y" data-display="false"></span> 轴对称,因此指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 及 <span class="math" data-tex="y = {\left( {a}^{-1}\right) }^{x}" data-display="false"></span> 的图像必关于 <span class="math" data-tex="y" data-display="false"></span> 轴对称.</p>
+<hr />
+<p>指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 的图像与指数函数 <span class="math" data-tex="y = {\left( {a}^{-1}\right) }^{x}" data-display="false"></span> 的图像关于 <span class="math" data-tex="y" data-display="false"></span> 轴对称.</p>
+<hr />
+<p>观察图 4-2-1 中两个指数函数的图像, 它们的底都大于 1, 图像由左至右是上升的,也就是说,随着自变量 <span class="math" data-tex="x" data-display="false"></span> 的不断增大, 函数值 <span class="math" data-tex="y" data-display="false"></span> 也不断增大,这点也可以证明如下:</p>
+<p>当 <span class="math" data-tex="a &gt; 1" data-display="false"></span> 时,若 <span class="math" data-tex="{x}_{2} &gt; {x}_{1}" data-display="false"></span> ,则 <span class="math" data-tex="{x}_{2} - {x}_{1} &gt; 0" data-display="false"></span> ,由幂的基本不等式有</p>
+<div class="math display" data-tex="{a}^{{x}_{2} - {x}_{1}} &gt; 1," data-display="true"></div>
+<p>即 <span class="math" data-tex="{a}^{{x}_{2}} &gt; {a}^{{x}_{1}}" data-display="false"></span> . 此时,称指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 1}\right)" data-display="false"></span> 在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格增函数,即函数值 <span class="math" data-tex="y" data-display="false"></span> 随着 <span class="math" data-tex="x" data-display="false"></span> 的 (严格) 增大而 (严格) 增大.</p>
+<p>同理可证: 当 <span class="math" data-tex="0 &lt; a &lt; 1" data-display="false"></span> 时,指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格减函数.</p>
+<p>因此,我们有</p>
+<p>指数函数的单调性 当 <span class="math" data-tex="a &gt; 1" data-display="false"></span> 时,指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格增函数; 当 <span class="math" data-tex="0 &lt; a &lt; 1" data-display="false"></span> 时,指数函数 <span class="math" data-tex="y = {a}^{x}" data-display="false"></span> 在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格减函数.</p>
+<p>指数函数的图像与性质可总结见下表 4-1:</p>
+<p>表 4-1</p>
+<div class="source-table"><table><tr><td><span class="math" data-tex="y = {a}^{x}" data-display="false"></span></td><td><span class="math" data-tex="a &gt; 1" data-display="false"></span></td><td><span class="math" data-tex="0 &lt; a &lt; 1" data-display="false"></span></td></tr><tr><td>图像</td><td>&lt;img src="https://cdn.noedgeai.com/bo_d4slocn7aajc73fspklg_10.jpg?x=319&y=424&w=364&h=257&r=0"/></td><td>&lt;img src="https://cdn.noedgeai.com/bo_d4slocn7aajc73fspklg_10.jpg?x=733&y=425&w=350&h=257&r=0"/></td></tr><tr><td rowspan="3">图像特征</td><td colspan="2">(1)图像都在 <span class="math" data-tex="x" data-display="false"></span> 轴上方，无限趋近于 <span class="math" data-tex="x" data-display="false"></span> 轴，但永不相交.</td></tr><tr><td colspan="2">(2)过点 <span class="math" data-tex="\left( {0,1}\right)" data-display="false"></span> .</td></tr><tr><td>(3)由左至右图像上升.</td><td>(3)由左至右图像下降.</td></tr><tr><td rowspan="3">函数性质</td><td colspan="2">(1)定义域为 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> ，函数值恒正.</td></tr><tr><td colspan="2">(2)当 <span class="math" data-tex="x = 0" data-display="false"></span> 时， <span class="math" data-tex="y = 1" data-display="false"></span> .</td></tr><tr><td>(3)在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格增函数.</td><td>(3)在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格减函数.</td></tr></table></div></div><article class="question" id="bx1-4-2-ex-4" data-question-id="bx1-4-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 利用指数函数的性质, 比较下列各题中两个数的大小:</p>
+<p>(1) <span class="math" data-tex="{1.7}^{2.5}" data-display="false"></span> 与 <span class="math" data-tex="{1.7}^{3}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\left( \frac{3}{4}\right) }^{\frac{1}{6}}" data-display="false"></span> 与 <span class="math" data-tex="{\left( \frac{4}{3}\right) }^{-\frac{1}{5}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{a}^{\frac{1}{2}}" data-display="false"></span> 与 <span class="math" data-tex="{a}^{\frac{1}{3}}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-ex-5" data-question-id="bx1-4-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 求下列不等式的解集:</p>
+<p>(1) <span class="math" data-tex="{3}^{x} &gt; \frac{1}{27}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{a}^{{x}^{2} - {2x} + 3} &gt; {a}^{6}\left( {0 &lt; a &lt; 1}\right)" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx1-4-2-b15">练习 4.2(2)</h3><article class="question" id="bx1-4-2-p422-1" data-question-id="bx1-4-2-p422-1" data-category="practice"><div class="question-label">练习4.2(2) · 1</div><div class="question-body"><ol>
+<li>比较下列各题中两个数的大小:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{1.4}^{0.3}" data-display="false"></span> 与 <span class="math" data-tex="{1.4}^{0.4}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{0.3}^{1.4}" data-display="false"></span> 与 <span class="math" data-tex="{0.3}^{1.5}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{a}^{-{3.14}}" data-display="false"></span> 与 <span class="math" data-tex="{\left( \frac{1}{a}\right) }^{\pi }\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-p422-2" data-question-id="bx1-4-2-p422-2" data-category="practice"><div class="question-label">练习4.2(2) · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="a &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="a \neq  1" data-display="false"></span> . 若 <span class="math" data-tex="m &gt; n" data-display="false"></span> ，且 <span class="math" data-tex="{a}^{m} &lt; {a}^{n}" data-display="false"></span> ，求实数 <span class="math" data-tex="a" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-p422-3" data-question-id="bx1-4-2-p422-3" data-category="practice"><div class="question-label">练习4.2(2) · 3</div><div class="question-body"><ol start="3">
+<li>求下列不等式的解集:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{3}^{x} &gt; {3}^{0.5}" data-display="false"></span> ； (2) <span class="math" data-tex="{0.2}^{x} &lt; {25}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-ex-6" data-question-id="bx1-4-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 已知指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 1}\right)" data-display="false"></span> 在区间 <span class="math" data-tex="\left\lbrack  {1,2}\right\rbrack" data-display="false"></span> 上的最大值比最小值大 <span class="math" data-tex="\frac{a}{3}" data-display="false"></span> ,求实数 <span class="math" data-tex="a" data-display="false"></span> 的值.</p>
+</div></article><article class="question" id="bx1-4-2-ex-7" data-question-id="bx1-4-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 统计资料显示: 某外来入侵物种现有种群数量为 <span class="math" data-tex="k" data-display="false"></span> ,若有理想的外部环境条件,该物种的年平均增长率约为 20%. 试建立该物种的种群数量增长模型, 并预测 30 年后该物种的种群数量约为现有种群数量的多少倍. (结果精确到个位)</p>
+</div></article><h3 class="group-heading" id="bx1-4-2-b21">练习 4.2(3)</h3><article class="question" id="bx1-4-2-p423-1" data-question-id="bx1-4-2-p423-1" data-category="practice"><div class="question-label">练习4.2(3) · 1</div><div class="question-body"><ol>
+<li>已知指数函数 <span class="math" data-tex="y = {a}^{x}\left( {0 &lt; a &lt; 1}\right)" data-display="false"></span> 在区间 <span class="math" data-tex="\left\lbrack  {1,2}\right\rbrack" data-display="false"></span> 上的最大值比最小值大 <span class="math" data-tex="\frac{a}{3}" data-display="false"></span> ,求实数 <span class="math" data-tex="a" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-p423-2" data-question-id="bx1-4-2-p423-2" data-category="practice"><div class="question-label">练习4.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>某服装店对原价分别为 175 元和 200 元的甲乙两种服装搞促销活动, 规定甲服装每天降价 5%，直到其售完为止；乙服装每天降价 7%，直到其售完为止。假设两种服装在 10 天内均没有售完, 几天后甲服装的售价将高于乙服装的售价?</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-4-2-b24">习题 4.2</h3><h3 class="group-heading" id="bx1-4-2-b25">A 组</h3><article class="question" id="bx1-4-2-h42A-1" data-question-id="bx1-4-2-h42A-1" data-category="homework"><div class="question-label">习题4.2A · 1</div><div class="question-body"><ol>
+<li>下列函数是指数函数的序号为___. (请填入全部正确的序号)</li>
+</ol>
+<p>① <span class="math" data-tex="y = {\left( -4\right) }^{x}" data-display="false"></span> ； ② <span class="math" data-tex="y = {\left( \frac{1}{4}\right) }^{x}" data-display="false"></span> ； ③ <span class="math" data-tex="y = {4}^{x}" data-display="false"></span> ； ④ <span class="math" data-tex="y = {x}^{-4}" data-display="false"></span> ； ⑤ <span class="math" data-tex="y = {\left( \sqrt{4}\right) }^{x}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-h42A-2" data-question-id="bx1-4-2-h42A-2" data-category="homework"><div class="question-label">习题4.2A · 2</div><div class="question-body"><ol start="2">
+<li>求下列函数的定义域:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {2}^{\sqrt{3 - x}}" data-display="false"></span> ； (2) <span class="math" data-tex="y = {0.1}^{\frac{1}{x}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-h42A-3" data-question-id="bx1-4-2-h42A-3" data-category="homework"><div class="question-label">习题4.2A · 3</div><div class="question-body"><ol start="3">
+<li>在同一直角坐标系中作出下列函数的大致图像, 并指出这些函数图像间的关系:</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = {\left( \frac{3}{2}\right) }^{x}" data-display="false"></span> ; (2) <span class="math" data-tex="y = {\left( \frac{2}{3}\right) }^{x}" data-display="false"></span> ； (3) <span class="math" data-tex="y = {\left( \frac{2}{3}\right) }^{x} - 1" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-h42A-4" data-question-id="bx1-4-2-h42A-4" data-category="homework"><div class="question-label">习题4.2A · 4</div><div class="question-body"><ol start="4">
+<li>已知指数函数 <span class="math" data-tex="y = {\left( m - 2\right) }^{x}" data-display="false"></span> 在 <span class="math" data-tex="\mathbf{R}" data-display="false"></span> 上是严格减函数,求实数 <span class="math" data-tex="m" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42A-5" data-question-id="bx1-4-2-h42A-5" data-category="homework"><div class="question-label">习题4.2A · 5</div><div class="question-body"><ol start="5">
+<li>已知常数 <span class="math" data-tex="a &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="a \neq  1" data-display="false"></span> . 假设无论 <span class="math" data-tex="a" data-display="false"></span> 取何值，函数 <span class="math" data-tex="y = {a}^{2 - x}" data-display="false"></span> 的图像恒经过一个定点， 求此定点的坐标.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42A-6" data-question-id="bx1-4-2-h42A-6" data-category="homework"><div class="question-label">习题4.2A · 6</div><div class="question-body"><ol start="6">
+<li>比较下列各题中两个数的大小:</li>
+</ol>
+<p>(1)1. <span class="math" data-tex="{2}^{2.6}" data-display="false"></span> 和 <span class="math" data-tex="{1.2}^{2.61}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\left( \sqrt{3}\right) }^{-\frac{1}{3}}" data-display="false"></span> 和 <span class="math" data-tex="{\left( \frac{\sqrt{3}}{3}\right) }^{\frac{1}{2}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-h42A-7" data-question-id="bx1-4-2-h42A-7" data-category="homework"><div class="question-label">习题4.2A · 7</div><div class="question-body"><ol start="7">
+<li>求下列不等式的解集:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{3}^{{x}^{2} - {2x} + 3} &lt; {3}^{2x}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\left( \frac{1}{3}\right) }^{\sqrt{x}} \leq  \frac{1}{81}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-4-2-h42A-8" data-question-id="bx1-4-2-h42A-8" data-category="homework"><div class="question-label">习题4.2A · 8</div><div class="question-body"><ol start="8">
+<li>已知指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 在区间 <span class="math" data-tex="\left\lbrack  {1,2}\right\rbrack" data-display="false"></span> 上的最大值与最小值之和等于 6, 求实数 <span class="math" data-tex="a" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42A-9" data-question-id="bx1-4-2-h42A-9" data-category="homework"><div class="question-label">习题4.2A · 9</div><div class="question-body"><ol start="9">
+<li>某公司去年购置平板电脑 50 台, 并计划从今年起, 新购置的平板电脑数将按每年 5%的比例增长. 求从今年起的第 10 年新购置的平板电脑数. (结果精确到 1 台)</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-4-2-b35">B 组</h3><article class="question" id="bx1-4-2-h42B-1" data-question-id="bx1-4-2-h42B-1" data-category="homework"><div class="question-label">习题4.2B · 1</div><div class="question-body"><ol>
+<li>在同一平面直角坐标系中,指数函数 <span class="math" data-tex="y = {a}^{x}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> 和一次函数 <span class="math" data-tex="y = a\left( {x + 1}\right)" data-display="false"></span> 的图像关系可能是 ( )</li>
+</ol>
+<p><img src="images/book-5b9c98abd88d9b4646c2.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 1 题)</p>
+</div></article><article class="question" id="bx1-4-2-h42B-2" data-question-id="bx1-4-2-h42B-2" data-category="homework"><div class="question-label">习题4.2B · 2</div><div class="question-body"><ol start="2">
+<li>如图所示的是某池塘中的浮萍蔓延的面积 <span class="math" data-tex="y" data-display="false"></span> (单位: <span class="math" data-tex="{\mathrm{m}}^{2}" data-display="false"></span> ) 与时间 <span class="math" data-tex="t" data-display="false"></span> (单位: 月) 的关系: <span class="math" data-tex="y = {a}^{t}\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> . 以下结论:</li>
+</ol>
+<p>① 这个指数函数的底数是 2 ;</p>
+<p>② 第 5 个月时，浮萍的面积就会超过 30 <span class="math" data-tex="{\mathrm{m}}^{2}" data-display="false"></span> ；</p>
+<p>③ 浮萍面积从 <span class="math" data-tex="4{\mathrm{\;m}}^{2}" data-display="false"></span> 到 <span class="math" data-tex="{12}{\mathrm{\;m}}^{2}" data-display="false"></span> 需要经过 1.5 个月；</p>
+<p>④ 浮萍每个月增加的面积都相等.</p>
+<p>其中, 正确结论的序号是 ( )</p>
+<p>A. ①②③； B. ①②③④；</p>
+<p>C. ②③④; D. ①②.</p>
+<p><img src="images/book-e27d01a399fa9703b404.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 2 题)</p>
+</div></article><article class="question" id="bx1-4-2-h42B-3" data-question-id="bx1-4-2-h42B-3" data-category="homework"><div class="question-label">习题4.2B · 3</div><div class="question-body"><ol start="3">
+<li>若 <span class="math" data-tex="x &gt; 0" data-display="false"></span> 时,指数函数 <span class="math" data-tex="y = {\left( {a}^{2} - 1\right) }^{x}" data-display="false"></span> 的值总大于 1,求实数 <span class="math" data-tex="a" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42B-4" data-question-id="bx1-4-2-h42B-4" data-category="homework"><div class="question-label">习题4.2B · 4</div><div class="question-body"><ol start="4">
+<li>若 <span class="math" data-tex="- 1 &lt; x &lt; 0" data-display="false"></span> ,比较 <span class="math" data-tex="{3}^{x},{3}^{-x}" data-display="false"></span> 及 <span class="math" data-tex="{3}^{2x}" data-display="false"></span> 的大小.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42B-5" data-question-id="bx1-4-2-h42B-5" data-category="homework"><div class="question-label">习题4.2B · 5</div><div class="question-body"><ol start="5">
+<li>设 <span class="math" data-tex="a &gt; 1" data-display="false"></span> ,若 <span class="math" data-tex="{a}^{{x}^{2} + {2x} + 1} &lt; {a}^{2{x}^{2} - {3x} + 1}" data-display="false"></span> ,求实数 <span class="math" data-tex="x" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="bx1-4-2-h42B-6" data-question-id="bx1-4-2-h42B-6" data-category="homework"><div class="question-label">习题4.2B · 6</div><div class="question-body"><ol start="6">
+<li>若函数 <span class="math" data-tex="y = {5}^{x + 1} + m" data-display="false"></span> 的图像不经过第二象限,求实数 <span class="math" data-tex="m" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx1-4-2" checked>指数函数</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

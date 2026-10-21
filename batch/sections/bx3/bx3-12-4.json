@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "id": "bx3-12-4",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "12",
+  "chapter_title": "第12章概率初步",
+  "section": "12.4",
+  "title": "随机事件的独立性",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "随机事件的独立性",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 933,
+          "end": 933
+        }
+      ],
+      "id": "bx3-12-4",
+      "number": "12.4",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 12.4 随机事件的独立性\n\n### 教学重点\n\n(1)通过具体事例,理解随机事件独立性的含义；\n\n(2)结合古典概型,利用独立性计算概率.\n\n核心概念: 独立随机试验、独立事件.\n\n核心素养:数学建模、数据分析、逻辑推理.\n\n### 内容分析\n\n内容要求:掌握独立事件的条件,进一步应用事件关系和运算,提高解决复杂概率问题的能力.\n\n独立随机试验. 从一个放了两种颜色的球的罐子里摸一个球, 放回去摇匀再摸一个球, 这两次摸球作为试验是独立的; 相反, 若摸一个球后不放回, 再摸一个球, 两次摸球的结果之间就会有联系, 它们不独立.\n\n独立重复试验, 是在同样条件下进行的、各次之间相互独立的一种试验.\n\n特点:(1)是在同样条件下重复地进行的一种试验；\n\n(2)各次试验之间相互独立,即结果互相之间没有影响；\n\n(3)每一次试验只有两种结果,即某事要么发生,要么不发生,且在任意一次试验中发生的概率都是一样的.\n\n直观地,如果随机事件 $A$ 发生与否和事件 $B$ 发生与否互相之间没有影响,那么称事件 $A$ 和事件 $B$ 相互独立,即一个事件的发生并不影响另一个事件的发生. 事件的独立性是概率中一个重要概念, 在实际应用中通常是靠直观和实践经验, 对事件的本质加以分析来进行判断.\n\n两个事件 $A$ 与 $B$ 相互独立的充分必要条件是它们同时发生的概率等于它们各自发生概率的乘积,即 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right)$ .\n\n例 2 给出了随机事件独立性的一个重要性质: 若事件 $A$ 与 $B$ 相互独立,则 $A$ 与 $\\bar{B}\\text{、}\\bar{A}$ 与 $B$ ,以及 $\\bar{A}$ 与 $\\bar{B}$ 也相互独立.\n\n必然事件 $\\Omega$ 和不可能事件 $\\varnothing$ 与任何事件都是相互独立的.\n\n### 注意事项\n\n对于复杂的试验, 判断两个事件是否相互独立需要特别谨慎. 例如, 甲、乙两地的气象情况可能存在某些内在联系, 就不一定相互独立. 对于这类复杂的问题要依靠统计资料进行分析, 看是否符合事件独立性的条件.\n\n三个事件相互独立. 设 $A\\text{、}B\\text{、}C$ 为三个随机事件,如果满足等式\n\n$$\n\\left\\{  \\begin{array}{l} P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right) , \\\\  P\\left( {A \\cap  C}\\right)  = P\\left( A\\right) P\\left( C\\right) , \\\\  P\\left( {B \\cap  C}\\right)  = P\\left( B\\right) P\\left( C\\right) , \\\\  P\\left( {A \\cap  B \\cap  C}\\right)  = P\\left( A\\right) P\\left( B\\right) P\\left( C\\right) , \\end{array}\\right.\n$$\n\n那么称事件 $A\\text{、}B\\text{、}C$ 相互独立.\n\n类似地,可以给出 $n$ 个事件相互独立的定义.\n\n如果事件 ${A}_{1},{A}_{2},\\cdots ,{A}_{n}$ 相互独立,那么这 $n$ 个事件都发生的概率等于每个事件发生的概率的积, 即成立\n\n$$\nP\\left( {{A}_{1} \\cap  {A}_{2} \\cap  \\cdots  \\cap  {A}_{n}}\\right)  = P\\left( {A}_{1}\\right) P\\left( {A}_{2}\\right) \\cdots P\\left( {A}_{n}\\right) ,\n$$\n\n且上式中任一个事件 ${A}_{i}$ 换成其对立事件后等式仍然成立.\n\n### 教学建议\n\n事件的独立性是概率中的一个重要概念, 通常靠直观和实践经验就可以做出判断,见例 1; 可通过实例感受两个事件相互独立的概念,见例 4; 也要重视由例 2 给出的随机事件独立性的一个重要性质, 并且理解其应用, 见例 5、例 6.\n\n注意, 本教材中并没有明确给出随机现象独立性的概念, 但是教师如果通过随机现象独立性来解释事件的独立性, 可能更加直观. 实际上, 古典概率模型中的独立性基本上是指随机现象的独立性.\n\n例 6 最终解决了本章第一节提出的两位法国数学家费马和帕斯卡于 1654 年对赌徒提出的分奖金问题的通信讨论, 这是概率论研究的起源问题.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 266,
+          "end": 329
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 独立随机事件",
+      "markdown": "### 1 独立随机事件",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 935,
+          "end": 935
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "上一节在叙述大数定律时曾提到\"独立地重复\"进行试验, 现在我们来进一步解释什么是 \"独立\". 直观地, 如果两个随机事件 $A\\text{ 、 }B$ 是否发生互相不影响,就认为它们是独立的. 这时它们同时发生的概率等于它们各自发生的概率的乘积, 即成立\n\n$$\nP\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right) .\n$$\n\n例如,抛掷甲、乙两枚硬币,样本空间是 $\\Omega  = \\{$ 正正,正反, 反正,反反\\}, $A\\text{ 、 }B$ 分别表示硬币甲、乙正面朝上的事件,显然它们是独立的,而且它们同时发生的概率是 $\\frac{1}{4}$ ,各自发生的概率都是 $\\frac{1}{2}$ ,即同时发生的概率等于各自发生概率的乘积.\n\n上面所说的性质用作事件独立的严格定义,两个事件 $A$ 与 $B$ (相互)独立(independent)是指它们同时发生的概率等于它们各自发生概率的乘积, 即\n\n$$\nP\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right) .\n$$\n\n事件的独立性是概率中一个很直观的重要概念, 在经典概率问题的计算时非常有用.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 936,
+          "end": 952
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 抛掷 10 枚硬币,求:\n\n(1)都是正面朝上的概率;\n\n(2)恰有 1 枚反面朝上的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 953,
+          "end": 958
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 953,
+          "end": 958
+        }
+      ],
+      "id": "bx3-12-4-ex-1",
+      "category": "例题",
+      "answer": "解 (1) 抛掷 10 枚硬币,其中每一枚正面朝上的概率是 $\\frac{1}{2}$ , 而它们相互之间是独立的, 所以所求的概率为 10 枚硬币各自都是正面朝上的概率之乘积, 即\n\n$$\n\\frac{1}{{2}^{10}} = \\frac{1}{1024}\n$$\n\n(2)在考虑这个问题时，抛掷 10 枚硬币与依次抛掷 1 枚硬币 10 次是一样的. 按照后一种情况，将恰有 1 次反面朝上这个事件记作 $A$ ,它可以按哪一次反面朝上来分解: 若第 $n$ 次反面朝上而其他 9 次都是正面朝上,记为 ${A}_{n}$ ,其中 $1 \\leq  n \\leq  {10}.A$ 发生相当于 ${A}_{n}$ 之一发生,由独立性,就有\n\n$$\nP\\left( {A}_{n}\\right)  = \\frac{1}{{2}^{10}}.\n$$\n\n再利用概率的可加性, 推出\n\n$$\nP\\left( A\\right)  = P\\left( {{A}_{1} \\cup  \\cdots  \\cup  {A}_{n}}\\right)\n$$\n\n$$\n= P\\left( {A}_{1}\\right)  + \\cdots  + P\\left( {A}_{10}\\right)\n$$\n\n$$\n= \\frac{10}{{2}^{10}}\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 959,
+          "end": 984
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 证明: 如果 $A$ 与 $B$ 两个事件独立,那么 $A$ 与 $\\bar{B}$ 也独立.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 985,
+          "end": 986
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 985,
+          "end": 986
+        }
+      ],
+      "id": "bx3-12-4-ex-2",
+      "category": "例题",
+      "answer": "证明 首先,因为 $A = \\left( {A \\cap  B}\\right)  \\cup  \\left( {A \\cap  \\bar{B}}\\right)$ ,所以由概率性质 3(可加性)，得\n\n$$\nP\\left( A\\right)  = P\\left( {A \\cap  B}\\right)  + P\\left( {A \\cap  \\bar{B}}\\right) ,\n$$\n\n再应用 $A$ 与 $B$ 的独立性,得\n\n$$\nP\\left( {A \\cap  \\bar{B}}\\right)  = P\\left( A\\right)  - P\\left( {A \\cap  B}\\right)\n$$\n\n$$\n= P\\left( A\\right)  - P\\left( A\\right) P\\left( B\\right)\n$$\n\n$$\n= P\\left( A\\right) \\left( {1 - P\\left( B\\right) }\\right)\n$$\n\n$$\n= P\\left( A\\right) P\\left( \\bar{B}\\right) ,\n$$\n\n因此 $A$ 与 $\\bar{B}$ 独立.\n\n这个例子说明,如果 $A$ 发生与 $B$ 发生是独立的,那么 $A$ 发生与 $B$ 不发生也是独立的,即 $A$ 发生与 $B$ 是否发生是独立的. 由此还可推出 $A$ 是否发生与 $B$ 是否发生是独立的.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 987,
+          "end": 1014
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 两个人比赛, 对于弱者(赢的概率较小者)来说, 一局定胜负和三局两胜比较, 哪个更有利? (这里所说的\"三局两胜\"是常见的比赛模式, 指先赢得两局者为胜, 最多三局结束)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1015,
+          "end": 1016
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1015,
+          "end": 1016
+        }
+      ],
+      "id": "bx3-12-4-ex-3",
+      "category": "例题",
+      "answer": "解 设 $A\\text{ 、 }B$ 两人比赛, $A$ 是弱者,每一局赢的概率 $p < \\frac{1}{2}$ . 现在计算在三局两胜的规则下, $A$ 最终获胜的概率.\n\n在三局两胜的比赛中,按照规则,事件\" $A$ 最终胜\"包含下列三种情况:\n\n$$\n{AA},{ABA},{BAA}\\text{ , }\n$$\n\n其中, ${ABA}$ 按顺序表示第一、二、三局中赢的一方,其余同理. 由独立性, 这三种情况的概率分别为\n\n$$\n{p}^{2},{p}^{2}\\left( {1 - p}\\right) ,{p}^{2}\\left( {1 - p}\\right) ,\n$$\n\n利用概率性质 3 (可加性),推出 $A$ 最终胜的概率是 ${p}^{2} + 2{p}^{2}\\left( {1 - p}\\right)$ .\n\n最后比较 $p$ 与 ${p}^{2} + 2{p}^{2}\\left( {1 - p}\\right)$ 哪个大. 容易得到\n\n$$\n{p}^{2} + 2{p}^{2}\\left( {1 - p}\\right)  = {p}^{2}\\left( {3 - {2p}}\\right)  = p\\left( {{3p} - 2{p}^{2}}\\right) .\n$$\n\n因为 $y = {3p} - 2{p}^{2}$ 是一个二次函数,它在 $\\frac{3}{4}$ 处达到最大,在 $p < \\frac{3}{4}$ 时严格增,而当 $p = \\frac{1}{2}$ 时其值为 1,所以 ${3p} - 2{p}^{2}$ 在 $0 < p < \\frac{1}{2}$ 时恒小于 1,因此\n\n$$\n{p}^{2} + 2{p}^{2}\\left( {1 - p}\\right)  < p.\n$$\n\n这说明对于弱者来说, 一局定胜负比三局两胜更有利.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1017,
+          "end": 1046
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.4(1)",
+      "markdown": "#### 练习 12.4(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1047,
+          "end": 1047
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.4(1) · 1",
+      "markdown": "1. 掷两颗骰子, 试用独立性求:\n\n(1)它们的点数都是偶数的概率；\n\n(2)它们的点数是一奇一偶的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1049,
+          "end": 1054
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1049,
+          "end": 1054
+        }
+      ],
+      "id": "bx3-12-4-p1241-1",
+      "category": "练习12.4(1)",
+      "answer": "1. (1) $\\frac{1}{4}$ . (2) $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 476,
+          "end": 477
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.4(1) · 2",
+      "markdown": "2. 已知事件 $A$ 与事件 $B$ 相互独立,如果 $P\\left( A\\right)  = {0.3}, P\\left( B\\right)  = {0.6}$ ,那么 $P\\left( {A \\cap  B}\\right)  =$ ___， $P\\left( {A \\cap  \\overline{B}}\\right)  =$ ___.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1055,
+          "end": 1056
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1055,
+          "end": 1056
+        }
+      ],
+      "id": "bx3-12-4-p1241-2",
+      "category": "练习12.4(1)",
+      "answer": "2.0.18, 0.12.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 478,
+          "end": 479
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 事件的独立性",
+      "markdown": "### 2 事件的独立性",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1057,
+          "end": 1057
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "当两个事件的独立性不能像上一节那样可以通过随机试验的独立性来判断时，我们就要直接用等式\n\n$$\nP\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right)\n$$\n\n是否成立来检验两个事件 $A$ 与 $B$ 是否独立.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1058,
+          "end": 1066
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 (1)从一副去掉大小王的 52 张扑克牌中随机抽取一张牌,用 $A\\text{ 、 }B$ 分别表示\"取得的牌面数是 10 \"和\"取得的牌的花色是红桃\"这两个事件. 验证 $A\\text{ 、 }B$ 是独立的.\n\n(2)掷一颗骰子，用 $A\\text{ 、 }B$ 分别表示事件\"结果是偶数\"与事件\"结果是奇数\". 验证 $A\\text{ 、 }B$ 不是独立的.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1067,
+          "end": 1070
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1067,
+          "end": 1070
+        }
+      ],
+      "id": "bx3-12-4-ex-4",
+      "category": "例题",
+      "answer": "证明 (1) 在这副扑克牌中, 有 4 张 10、13 张红桃, 所以\n\n$$\nP\\left( A\\right)  = \\frac{1}{13}, P\\left( B\\right)  = \\frac{1}{4}.\n$$\n\n另外, $A$ 与 $B$ 同时发生是指取得的牌是红桃 10,它只有一张, 所以\n\n$$\nP\\left( {A \\cap  B}\\right)  = \\frac{1}{52}.\n$$\n\n这样,\n\n$$\nP\\left( {A \\cap  B}\\right)  = \\frac{1}{52} = \\frac{1}{13} \\times  \\frac{1}{4} = P\\left( A\\right) P\\left( B\\right) ,\n$$\n\n从而事件 $A\\text{ 、 }B$ 是独立的.\n\n(2)这时 $A$ 与 $B$ 不可能同时发生,即 $P\\left( {A \\cap  B}\\right)  = 0$ ,而 $P\\left( A\\right)  = P\\left( B\\right)  = {0.5}$ ,所以 $P\\left( {A \\cap  B}\\right)  \\neq  P\\left( A\\right) P\\left( B\\right)$ ,即 $A$ 与 $B$ 不独立.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1071,
+          "end": 1092
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 两个篮球运动员甲和乙罚球时命中的概率分别是 0.7 和 0.6 ，两人各投一次，假设事件\"甲命中\"与\"乙命中\"是独立的. 求至少一人命中的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1093,
+          "end": 1094
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1093,
+          "end": 1094
+        }
+      ],
+      "id": "bx3-12-4-ex-5",
+      "category": "例题",
+      "answer": "解 设 $A$ 表示事件\"甲命中\", $B$ 表示事件\"乙命中\",则 $A \\cup  B$ 表示\"至少一人命中\"，它的对立事件是\"两人都没命中\"， 即 $\\bar{A} \\cap  \\bar{B}$ . 由 $A$ 与 $B$ 独立,利用例 2 的结论推出 $A$ 与 $\\bar{B}$ 独立,再推出 $\\bar{A}$ 与 $\\bar{B}$ 独立,最后应用概率性质 4,就得到\n\n$$\nP\\left( {A \\cup  B}\\right)  = 1 - P\\left( {\\bar{A} \\cap  \\bar{B}}\\right)\n$$\n\n$$\n= 1 - P\\left( \\bar{A}\\right) P\\left( \\bar{B}\\right)\n$$\n\n$$\n= 1 - \\left( {1 - P\\left( A\\right) }\\right) \\left( {1 - P\\left( B\\right) }\\right)\n$$\n\n$$\n= 1 - {0.3} \\times  {0.4}\n$$\n\n$$\n= {0.88}\\text{ . }\n$$\n\n因此, 至少一人命中的概率是 0.88 .\n\n现在回过头来考虑本章一开始所述的分奖金问题.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1095,
+          "end": 1120
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 A、B 两人下棋, 每局两人获胜的可能性一样. 某一天两人要进行一场三局两胜的比赛, 最终胜者赢得 100 元奖金. 第一局比赛 $A$ 胜,后因为有其他要事而中止比赛. 问: 怎么分 100 元奖金才公平?\n\n这里首先涉及的问题是怎么分才是公平的方法. 帕斯卡和费马均认为应该依(在现有的状态下)两人最终胜的可能性大小按比例来分. 这样问题就归结于计算两人各自最终胜的概率. 在计算这个概率时, 我们需要两个\"隐藏的\"假设: (1)每局两人等可能取胜; (2)各局的胜负之间是独立的.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1124
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1124
+        }
+      ],
+      "id": "bx3-12-4-ex-6",
+      "category": "例题",
+      "answer": "解 现在 $A$ 已胜一局,设 $A$ 表示事件\" $A$ 最终胜\"; ${A}_{1}$ 表示事件\"接下去第一局 $A$ 胜\"; ${A}_{2}$ 表示事件\"接下去第二局 $A$ 胜\". 因为 $A$ 已胜一局,由三局两胜的规则, $A$ 最终胜当且仅当 $A$ 再胜一局,即 ${A}_{1}$ 发生,或者 $A$ 输一局后接着胜一局,即 ${\\bar{A}}_{1} \\cap  {A}_{2}$ 发生. 换言之,\n\n$$\nA = {A}_{1} \\cup  \\left( {{\\bar{A}}_{1} \\cap  {A}_{2}}\\right) .\n$$\n\n因为第一局与第二局是独立的,所以 ${A}_{1}$ 与 ${A}_{2}$ 独立. 再由上例推出 ${\\bar{A}}_{1}$ 与 ${A}_{2}$ 独立,从而\n\n$$\nP\\left( A\\right)  = P\\left( {A}_{1}\\right)  + P\\left( {{\\bar{A}}_{1} \\cap  {A}_{2}}\\right)  = \\frac{1}{2} + \\frac{1}{2} \\times  \\frac{1}{2} = \\frac{3}{4},\n$$\n\n而 $B$ 最终胜的概率是 $\\frac{1}{4}$ ,因此 $A\\text{ 、 }B$ 两人应该按 $3 : 1$ 来分奖金.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1125,
+          "end": 1138
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 12.4(2)",
+      "markdown": "#### 练习 12.4(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1139,
+          "end": 1139
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习12.4(2) · 1",
+      "markdown": "1. 掷黑、白两颗骰子.\n\n(1)验证事件\"两颗骰子的点数和为 7\"与事件\"白色骰子的点数是 1\"是独立的；\n\n(2)验证事件\"两颗骰子的点数和为 7\"与事件\"两颗骰子中至少有一颗的点数是 1\"不是独立的.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1141,
+          "end": 1146
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1141,
+          "end": 1146
+        }
+      ],
+      "id": "bx3-12-4-p1242-1",
+      "category": "练习12.4(2)",
+      "answer": "1. (1)用 $A$ 表示事件“两颗骰子的点数和为 7”, $B$ 表示事件“白色骰子的点数为 1”,则 $P\\left( A\\right)  = \\frac{6}{6 \\times  6} = \\frac{1}{6}, P\\left( B\\right)  = \\frac{6}{6 \\times  6} = \\frac{1}{6}, P\\left( {AB}\\right)  = \\frac{1}{6 \\times  6} = \\frac{1}{36} = P\\left( A\\right) P\\left( B\\right)$ ,所以事件 $A$ 与 $B$ 是独立的. ( 2 )略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 482,
+          "end": 483
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.4(2) · 2",
+      "markdown": "2. 甲、乙两人的罚球命中率分别是 $p$ 与 $q$ . 两人各投篮一次,求:\n\n(1)都投中的概率；\n\n(2)都没投中的概率；\n\n(3)至少一人投中的概率；\n\n(4)至多一人投中的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1156
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1156
+        }
+      ],
+      "id": "bx3-12-4-p1242-2",
+      "category": "练习12.4(2)",
+      "answer": "2. (1) ${pq}$ . (2) $\\left( {1 - p}\\right) \\left( {1 - q}\\right)$ . (3) $1 - \\left( {1 - p}\\right) \\left( {1 - q}\\right)  = p + q - {pq}$ . (4) $p\\left( {1 - q}\\right)  + q\\left( {1 - p}\\right)  + \\left( {1 - p}\\right) \\left( {1 - q}\\right)  = 1 - {pq}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 484,
+          "end": 485
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习12.4(2) · 3",
+      "markdown": "3. 把分奖金问题的三局两胜改为五局三胜, 问:在比分是 2 :1 的情况下, 怎么分奖金公平?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1157,
+          "end": 1158
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1157,
+          "end": 1158
+        }
+      ],
+      "id": "bx3-12-4-p1242-3",
+      "category": "练习12.4(2)",
+      "answer": "3. 用事件 $A$ 表示: $A$ 最终获胜；事件 ${A}_{1}$ 表示:接下去第一局 $A$ 胜；事件 ${A}_{2}$ 表示: 接下去第二局 $A$ 胜. 因为 $A$ 已经胜两局,由五局三胜的规则, $A$ 最终获胜当且仅当 $A$ 再胜一局.\n\n$A = {A}_{1} \\cup  \\left( {\\overline{{A}_{1}} \\cap  {A}_{2}}\\right)$ ,所以 $P\\left( A\\right)  = \\frac{3}{4}, B$ 最终获胜的概率为 $\\frac{1}{4}$ ,因此 $A\\text{、}B$ 两人应按 3 :1 来分奖金.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 486,
+          "end": 489
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 12.4",
+      "markdown": "#### 习题 12.4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1159,
+          "end": 1159
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1161,
+          "end": 1161
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题12.4A · 1",
+      "markdown": "1. 上数学课时，教师给班里学生出了两道选择题，教师预估做对第一道题的概率为 0.80 , 做对两道题的概率为 0.60 , 假设这两道题是独立的, 问: 预估做对第二道题的概率是多少?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1164
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1164
+        }
+      ],
+      "id": "bx3-12-4-h124A-1",
+      "category": "习题12.4A",
+      "answer": "1. $\\frac{3}{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 494,
+          "end": 495
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.4A · 2",
+      "markdown": "2. 某人有 4 把钥匙，其中 2 把能打开门. 现随机地取 1 把钥匙开门.\n\n(1)如果将不能开门的钥匙立即扔掉，求第二次才能打开门的概率；\n\n(2)如果试过的钥匙不扔掉，求第二次才能打开门的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1165,
+          "end": 1170
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1165,
+          "end": 1170
+        }
+      ],
+      "id": "bx3-12-4-h124A-2",
+      "category": "习题12.4A",
+      "answer": "2. (1) $\\frac{1}{3}$ . (2) $\\frac{1}{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 496,
+          "end": 497
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.4A · 3",
+      "markdown": "3. 如果 $A\\text{ 、 }B$ 是独立事件, $\\bar{A}\\text{ 、 }\\bar{B}$ 分别是 $A\\text{ 、 }B$ 的对立事件,那么以下等式不一定成立的是 ( )\n\nA. $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right)$ ;\n\nB. $P\\left( {\\bar{A} \\cap  B}\\right)  = P\\left( \\bar{A}\\right) P\\left( B\\right)$ ;\n\nC. $P\\left( {A \\cup  B}\\right)  = P\\left( A\\right)  + P\\left( B\\right)$ ;\n\nD. $P\\left( {\\bar{A} \\cap  \\bar{B}}\\right)  = \\left\\lbrack  {1 - P\\left( A\\right) }\\right\\rbrack  \\left\\lbrack  {1 - P\\left( B\\right) }\\right\\rbrack$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1180
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1180
+        }
+      ],
+      "id": "bx3-12-4-h124A-3",
+      "category": "习题12.4A",
+      "answer": "3. C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 498,
+          "end": 499
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1181,
+          "end": 1181
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题12.4B · 1",
+      "markdown": "1. 如果从甲口袋中摸出一个红球的概率是 $\\frac{1}{3}$ ,从乙口袋中摸出一个红球的概率是 $\\frac{1}{2}$ , 求下面四个事件的概率:\n\n(1)2 个球不都是红球； (2)2 个球都是红球；\n\n(3)至少有 1 个红球； (4)2 个球中恰好有 1 个红球.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1183,
+          "end": 1188
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1183,
+          "end": 1188
+        }
+      ],
+      "id": "bx3-12-4-h124B-1",
+      "category": "习题12.4B",
+      "answer": "1. (1) $\\frac{5}{6}$ . (2) $\\frac{1}{6}$ . (3) $\\frac{2}{3}$ . (4) $\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 502,
+          "end": 503
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.4B · 2",
+      "markdown": "2. 设甲和乙两射手独立地射击同一目标, 他们的命中率分别为 0.95 和 0.90 . 求:\n\n(1)在一次射击中，目标被击中的概率；\n\n(2)目标只被甲击中的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1189,
+          "end": 1194
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1189,
+          "end": 1194
+        }
+      ],
+      "id": "bx3-12-4-h124B-2",
+      "category": "习题12.4B",
+      "answer": "2. (1) $P\\left( A\\right)  = 1 - \\left( {1 - {0.95}}\\right) \\left( {1 - {0.9}}\\right)  = {0.995}$ . (2) $P\\left( B\\right)  = {0.95}\\left( {1 - {0.9}}\\right)  =$ 0.095 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 504,
+          "end": 505
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题12.4B · 3",
+      "markdown": "3. 把分奖金问题的三局两胜改为五局三胜, 问:\n\n(1)在比分是 $2 : 0$ 的情况下，怎么分奖金公平?\n\n(2)在比分是 $1 : 0$ 的情况下，怎么分奖金公平?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1195,
+          "end": 1200
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1195,
+          "end": 1200
+        }
+      ],
+      "id": "bx3-12-4-h124B-3",
+      "category": "习题12.4B",
+      "answer": "3.(1)用事件 $A$ 表示: $A$ 最终获胜；事件 ${A}_{1}$ 表示:接下去第一局 $A$ 胜；\n\n事件 ${A}_{2}$ 表示: 接下去第二局 $A$ 胜; 事件 ${A}_{3}$ 表示: 接下去第三局 $A$ 胜.\n\n因为 $A$ 已经胜两局,由五局三胜的规则, $A$ 最终获胜当且仅当 $A$ 再胜一局.\n\n$A = {A}_{1} \\cup  \\left( {\\overline{{A}_{1}} \\cap  {A}_{2}}\\right)  \\cup  \\left( {\\overline{{A}_{1}} \\cap  \\overline{{A}_{2}} \\cup  {A}_{3}}\\right)$ ,所以 $P\\left( A\\right)  = \\frac{7}{8}, B$ 最终获胜的概率为 $\\frac{1}{8}$ ,\n\n因此 $A\\text{、}B$ 两人应按 $7 : 1$ 来分奖金.\n\n(3)用事件 $A$ 表示: $A$ 最终获胜；事件 ${A}_{1}$ 表示:接下去第一局 $A$ 胜；\n\n事件 ${A}_{2}$ 表示: 接下去第二局 $A$ 胜; 事件 ${A}_{3}$ 表示: 接下去第三局 $A$ 胜;\n\n事件 ${A}_{4}$ 表示: 接下去第四局 $A$ 胜.\n\n因为 $A$ 已经胜第一局,由五局三胜的规则, $A$ 最终获胜当且仅当 $A$ 再胜两局.\n\n$$\nA = \\left( {{A}_{1} \\cap  {A}_{2}}\\right)  \\cup  \\left( {{A}_{1} \\cap  \\overline{{A}_{2}} \\cap  {A}_{3}}\\right)  \\cup  \\left( {{A}_{1} \\cap  \\overline{{A}_{2}} \\cap  \\overline{{A}_{3}} \\cap  {A}_{4}}\\right)  \\cup  \\left( {\\overline{{A}_{1}} \\cap  {A}_{2} \\cap  {A}_{3}}\\right)\n$$\n\n$$\n\\cup  \\left( {\\overline{{A}_{1}} \\cap  {A}_{2} \\cap  \\overline{{A}_{3}} \\cap  {A}_{4}}\\right)  \\cup  \\left( {\\overline{{A}_{1}} \\cap  \\overline{{A}_{2}} \\cap  {A}_{3} \\cap  {A}_{4}}\\right) ,\n$$\n\n所以 $P\\left( A\\right)  = \\frac{11}{16}, B$ 最终获胜的概率为 $\\frac{5}{16}$ ,因此 $A\\text{、}B$ 两人应按 ${11} : 5$ 来分奖金.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 506,
+          "end": 533
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": []
+}

@@ -1,0 +1,1486 @@
+{
+  "schema_version": 1,
+  "id": "bx2-9-2",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "9",
+  "chapter_title": "第9章复数",
+  "section": "9.2",
+  "title": "复数的几何意义",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "复数的几何意义",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 413,
+          "end": 413
+        }
+      ],
+      "id": "bx2-9-2",
+      "number": "9.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 9.2 复数的几何意义\n\n### 教学重点\n\n建立复数与复平面上的点和向量间的对应关系, 类比向量掌握复数加减法的平行四边形法则, 理解共轭复数的概念并了解其对于刻画点的对称关系的作用. 理解复数模的概念、性质及关于复数模的三角不等式.\n\n### 内容分析\n\n由于任意的复数都可以唯一地表示成代数形式 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,由复数的实部 $a$ 和虚部 $b$ 确定的有序实数对 $\\left( {a, b}\\right)$ 可以视作直角坐标平面上一个点的坐标,这样便建立了复数集与坐标平面上的点以及平面向量间的一一对应关系. 由此, 复数就不再是一个单纯为了解决负数的开平方问题而人为构造的数学对象, 复数可以找到简洁明了的几何意义. 因为有 ${\\left| z\\right| }^{2} = z\\bar{z}$ 等复数的性质,所以人们对于二维平面上几何关系的描述,可以用一个代数数学对象即复数 $z$ 来表示. 由此,几何图形性质的研究又有了新的工具, 复数也在它所表现的几何意义中不断地发展. 复数的几何意义的学习对于促进学生数学综合思维能力的发展具有独特的作用.\n\n通过平行四边形法则可以看到, 复数在复平面上表示为向量后, 其加减运算与向量的加减运算是一致的.\n\n在复平面上, 点与点之间的距离、对称以及平移、旋转、伸缩变换等诸多几何概念、几何操作都可以通过复数的代数运算给予较为方便的刻画. 例如,在“9.4 复数的三角形式”中还可以看到, 复数的乘除运算是刻画向量旋转与伸缩的有力工具.\n\n在 “9.1 复数及其四则运算” 中介绍共轭复数的定义, 这在当时是一个略显突兀的概念. 虽然利用共轭复数可使得对于复数除法运算法则的描述有所简化, 但似乎无需为此而专门规定一个概念,没有共轭复数这个说法,复数的除法运算规则也已经交待清楚了. 现在这里至少还可以看到共轭复数的另一个价值, 即提供了一个描述复平面上两点间对称关系的工具: 在复平面上,若点 $Z$ 所对应的复数为 $z$ ,则 $\\bar{z}$ 所对应的点与点 $Z$ 关于 $x$ 轴对称, $- \\bar{z}$ 在复平面上所对应的点与点 $Z$ 关于 $y$ 轴对称. 在此基础上还可以刻画复平面上点的更多的对称关系. 而复数 $z$ 与 $\\bar{z}$ 的乘积所具有的性质 $z\\bar{z} = {\\left| z\\right| }^{2}$ , 使得原本需要“多元”方能表达的点的距离得以用“一元”的形式呈现. 在“9.3 实系数一元二次方程”讨论中, 共轭复数又出现了: 没有实根的实系数一元二次方程一定有一对共轭虚根(这个结论易推广为“实系数一元多项式方程的虚根共轭地成对出现”).\n\n复数的模是与复数相关的几何量中最为重要的量之一, 它与复平面中复数所对应的向量的模是一致的, 同时在代数上它是实数的绝对值概念的推广. 复数的模使得平面上最普遍的长度度量和相关问题可以用复数的形式简洁地表达和处理. 例如, 平面上两点 $A\\left( {a, b}\\right)$ 与 $B\\left( {c, d}\\right)$ 间的距离原来需要由四个字母的根式 $\\sqrt{{\\left( a - c\\right) }^{2} + {\\left( b - d\\right) }^{2}}$ 表示. 若记 ${z}_{A} = a + b\\mathrm{i},{z}_{B} = c + d\\mathrm{i}$ ,则两点 $A$ 与 $B$ 的距离公式简化为只需两个变量并且不含根式的 $\\left| {{z}_{A} - {z}_{B}}\\right|$ 来表示,并由 ${\\left| {z}_{A} - {z}_{B}\\right| }^{2} = \\left( {{z}_{A} - {z}_{B}}\\right) \\overline{\\left( {z}_{A} - {z}_{B}\\right) }$ ,有关长度问题的推演就可以在复数的语境中加以处理, 从而在某种程度上简化了运算.\n\n本节我们还证明了关于复数模的重要不等式 $\\left| {z}_{1}\\right|  + \\left| {z}_{2}\\right|  \\geq  \\left| {{z}_{1} + {z}_{2}}\\right|$ ,它是本套教材必修 1 “ 2.3 基本不等式及其应用”中关于实数绝对值的三角不等式的推广. 在 2.3 节中, 三角不等式的证明是借助于两数和平方公式完成的, 当时只在实数范围内讨论问题, 也很难看出此不等式与 “三角形两边之和大于第三边” 相似. 本节中推广到复数的三角不等式 $\\left| {z}_{1}\\right|  + \\left| {z}_{2}\\right|  \\geq  \\left| {{z}_{1} + {z}_{2}}\\right|$ 的证明就实实在在地运用了 “三角形两边之和大于第三边”的性质. 这一内容的教学要联系“2.3 基本不等式及其应用”的相关内容, 一方面起着前后呼应的作用,另一方面也是为学生释疑解惑,使他们真正了解“三角不等式”命名的根据和意义.\n\n公式 $\\left| {z}_{1}\\right|  + \\left| {z}_{2}\\right|  \\geq  \\left| {{z}_{1} + {z}_{2}}\\right|$ 讲的是一个顶点在坐标原点的三角形“两边之和大于第三边”. 更一般的“三角形两边之和大于第三边”可以用表示三角形三个顶点的复数 ${z}_{1}\\text{、}{z}_{2}\\text{、}{z}_{3}$ 表达为 $\\left| {{z}_{1} - {z}_{2}}\\right|  + \\left| {{z}_{2} - {z}_{3}}\\right|  \\geq  \\left| {\\left( {{z}_{1} - {z}_{2}}\\right)  + \\left( {{z}_{2} - {z}_{3}}\\right) }\\right|  = \\left| {{z}_{1} - {z}_{3}}\\right|$ .\n\n例 1 解题过程的表述可以不涉及几何图形, 但是在教学中, 应通过共轭复数在复平面上所对应的点的图示, 初步建立属于代数领域的“复数”与属于几何领域的“点”之间的关联,感受一对共轭复数在复平面上所对应的点关于 $x$ 轴对称这一特殊的图式.\n\n例 2 的教学可以在学生动手操作(描点, 作向量)的过程中感悟复数、点、向量间的联系.\n\n例 3 借助向量减法运算的坐标表示, 说明了如何用复数的差表示始点不在复平面原点的向量, 它实际上是一个用复数研究几何问题的重要工具.\n\n例 4 用向量的数量积说明复数 $z$ 与 $z\\mathrm{i}$ 所对应的向量的垂直关系,由此说明将向量绕始点逆时针旋转 ${90}^{ \\circ  }$ 的代数表达,是将该向量所对应的复数与虚数单位 $\\mathrm{i}$ 相乘. 它以呈现特例的方式对复数乘法的几何意义作了提示性的介绍.\n\n例 5 是复数加法平行四边形法则的应用. 可由学生动手作图将问题从文字表述转化为相应的图形,如此得到的图形应该是没有线段 ${OB}$ 的. 教学的着力点就在于引导学生体会, 平行四边形对角线表示的向量所对应的复数可由复数的加法运算得到. 在下一节复数模的教学中,可以将此问题作变式处理 “求 $\\left| {OB}\\right|$ 的长度”. 类似的问题其教学意图就是, 帮助学生在与平行四边形相关的几何场景中, 逐步自觉地将平行四边形与复数的加法运算相联系, 从而以复数为工具处理相关的几何问题.\n\n例 6 是复数模的概念针对特定复数的应用, 可在此处引入上述例 5 的变式问题.\n\n例 7 从 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 入手,是学生在初步建立了复数概念并进行了一些有关复数问题的基本练习后较为自然的选择. 教学中不妨让学生首先完成这一过程, 然后引导学生关注复数模的一个重要性质 ${\\left| z\\right| }^{2} = z\\bar{z}$ ,并由此提出一个处理复数问题的重要观点: 在中学阶段学习复数时,借助 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 将 “复数问题实数化” 是非常常用的思想方法,但例 7 所展示的直接以复数 $z$ 呈现的问题解决过程.\n\n例 8 展示了共轭复数模的性质在复数模的计算中的作用, 其中的 (2) 显示了一对共轭复数具有相等的模, 体现了观察能力对于发现代数结构所具有的特定关系从而简化问题解决过程的独特作用.\n\n例 9 以复数的形式呈现了复平面上的两个点, 以复数差的模的几何意义作中介, 复数的代数形式表示的点便可与既有的两点间距离公式建立直接的联系.\n\n### 注意事项\n\n复数的模以及复数加法的平行四边形法则可以表示向量的长度等复数及其运算所具备的几何特征, 使得复数以及复数的运算都可以有 “形”的体现, 复数可以与图形有一种天然的联系. 因此, 复数知识可以与平面几何、三角、向量乃至选择性必修课程中的解析几何等学习内容相联系, 由此产生不少数学知识和能力综合要求较高的问题. 在教学和评价中, 应以复数几何意义的简单直接运用为主, 不应强调不同知识板块的多方位联系.\n\n复数的乘积与向量的数量积是两个完全不同的概念. 现在至少可以让学生体会的有:它们的运算法则不同,运算结果是不同的量(复数乘积的结果仍然是复数,即复平面上的向量, 而向量的数量积的结果是数量).\n\n例 7 说明, 复数问题的解决, 应该有不同于“复数问题实数化”的思想方法. 对于此类问题, 建议在教学中要有所体现但不要刻意强化, 不要为此而引入一些技巧性和灵活性要求很高的问题.\n\n### 教学建议\n\n复数几何意义的教学, 要注重由向量入手, 引导学生自主探究复数作为描述几何关系的代数工具的作用, 启发学生尝试用复数刻画简单的几何关系. 复数加减法的平行四边形法则,复数模的性质的阐述等,不仅其结论是重要的工具,而且在获得这些结论的过程中包含着丰富的逻辑推理的示范,所体现的数学思想方法应当在教学过程中得到充分的重视.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 138,
+          "end": 189
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 复平面与复数的坐标表示",
+      "markdown": "## 1 复平面与复数的坐标表示",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 415,
+          "end": 415
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "复数 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 一一对应于有序实数对 $\\left( {a, b}\\right)$ ,而有序实数对 $\\left( {a, b}\\right)$ 与平面直角坐标系中的点 $Z\\left( {a, b}\\right)$ 又是一一对应的. 因此,可以用平面直角坐标系中的点 $Z\\left( {a, b}\\right)$ 表示复数 $z = \\; a + b\\mathrm{i}$ .\n\n如图 9-2-1,在平面上建立直角坐标系,以坐标为 $\\left( {a, b}\\right)$ 的点 $Z$ 表示复数 $z = a + b\\mathrm{i}$ ,就可在平面上的点的集合与复数集合之间建立一个一一对应. 这样用来表示复数的平面叫做复平面 (complex plane).\n\n![bo_d4sll53ef24c73be0n1g_10_1180_899_236_256_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1180_899_236_256_0.jpg)\n\n图 9-2-1\n\n在复平面上, $x$ 轴上的点具有 $\\left( {a,0}\\right)$ 形式的坐标,从而对应的都是实数,所以把 $x$ 轴叫做实轴 (real axis); 同理, $y$ 轴上的点 (除坐标原点外) 都对应纯虚数,所以把 $y$ 轴叫做虚轴 (imaginary axis). 坐标原点表示实数 0 .\n\n![bo_d4sll53ef24c73be0n1g_10_1182_1303_239_407_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1182_1303_239_407_0.jpg)\n\n图 9-2-2\n\n如图 9-2-2,共轭复数 $z = a + b\\mathrm{i}$ 和 $\\bar{z} = a - b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 在复平面上所对应的点 $Z\\left( {a, b}\\right)$ 和 ${Z}^{\\prime }\\left( {a, - b}\\right)$ 关于 $x$ 轴对称; 反之, 如果复平面上的两个点关于 $x$ 轴对称,那么这两个点所对应的复数互为共轭. 特别地,如果 $b = 0$ ,即 $z$ 是实数,则 $z = \\bar{z}$ ,此时 $z\\text{ 、 }\\bar{z}$ 在复平面上所对应的点是位于实轴上的同一点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 416,
+          "end": 432
+        }
+      ],
+      "emphases": [
+        {
+          "start": 249,
+          "end": 394,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 547,
+          "end": 703,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-2-definition-3-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 在复平面上有点 $A\\left( {2,0}\\right) \\text{ 、 }B\\left( {0, - 1}\\right) \\text{ 、 }C\\left( {-2,3}\\right)$ 、 $D\\left( {4, - 3}\\right)$ ,分别写出这四个点所对应的复数 ${z}_{A}\\text{ 、 }{z}_{B}\\text{ 、 }{z}_{C}\\text{ 、 }{z}_{D}$ , 并求这些复数的共轭复数在复平面上所对应的点的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 433,
+          "end": 434
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 433,
+          "end": 434
+        }
+      ],
+      "id": "bx2-9-2-ex-1",
+      "category": "例题",
+      "answer": "解 ${z}_{A} = 2,{z}_{B} =  - \\mathrm{i},{z}_{C} =  - 2 + 3\\mathrm{i},{z}_{D} = 4 - 3\\mathrm{i}$ .\n\n这些复数的共轭复数分别是 ${\\bar{z}}_{A} = 2,{\\bar{z}}_{B} = \\mathrm{i},{\\bar{z}}_{C} =  - 2 - 3\\mathrm{i}$ , ${\\bar{z}}_{D} = 4 + 3\\mathrm{i}$ ,它们在复平面上所对应的点分别是 ${A}^{\\prime }\\left( {2,0}\\right) \\text{ 、 }{B}^{\\prime }\\left( {0,1}\\right)$ 、 ${C}^{\\prime }\\left( {-2, - 3}\\right) \\text{ 、 }{D}^{\\prime }\\left( {4,3}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 435,
+          "end": 438
+        }
+      ],
+      "teacher_analysis": "例 1 解题过程的表述可以不涉及几何图形, 但是在教学中, 应通过共轭复数在复平面上所对应的点的图示, 初步建立属于代数领域的“复数”与属于几何领域的“点”之间的关联,感受一对共轭复数在复平面上所对应的点关于 $x$ 轴对称这一特殊的图式.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 160,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "2 复数的向量表示",
+      "markdown": "## 2 复数的向量表示",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 439,
+          "end": 439
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "上一章我们学过平面向量的坐标表示, 知道通过平面直角坐标系, 可在平面向量与平面上的点之间建立一一对应. 现在, 我们以平面直角坐标系为媒介, 又可以通过复数与平面上的点的一一对应, 在复数与平面向量之间建立一一对应. 如图 9-2-3, 复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 在复平面上对应坐标为 $\\left( {a, b}\\right)$ 的点 $Z$ ,而点 $Z$ 又对应于平面向量 $\\overrightarrow{OZ} = \\left( {a, b}\\right)$ ,从而复数 $z = a + b\\mathrm{i}$ 对应于平面向量 $\\overrightarrow{OZ} = \\left( {a, b}\\right)$ . 有了这些对应,我们可以把复数 $z = a + b\\mathrm{i}$ 方便地看作是复平面上的点 $Z\\left( {a, b}\\right)$ 或向量 $\\overrightarrow{OZ}$ .\n\n![bo_d4sll53ef24c73be0n1g_11_229_231_234_255_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_229_231_234_255_0.jpg)\n\n图 9-2-3\n\n",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 440,
+          "end": 446
+        },
+        {
+          "source": "book",
+          "start": 450,
+          "end": 450
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 在复平面上作出表示下列复数的向量:\n\n${z}_{1} = 2 + 2\\mathrm{i},{z}_{2} =  - 3 - 2\\mathrm{i},{z}_{3} = 2\\mathrm{i},{z}_{4} =  - 4,{z}_{5} = 2 - 2\\mathrm{i}.$\n\n![bo_d4sll53ef24c73be0n1g_11_136_600_363_308_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_136_600_363_308_0.jpg)\n\n图 9-2-4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 451,
+          "end": 454
+        },
+        {
+          "source": "book",
+          "start": 447,
+          "end": 449
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 451,
+          "end": 454
+        },
+        {
+          "source": "book",
+          "start": 447,
+          "end": 449
+        }
+      ],
+      "id": "bx2-9-2-ex-2",
+      "category": "例题",
+      "answer": "解 在复平面上,表示复数 ${z}_{1} = 2 + 2\\mathrm{i},{z}_{2} =  - 3 - 2\\mathrm{i}$ , ${z}_{3} = 2\\mathrm{i},{z}_{4} =  - 4,{z}_{5} = 2 - 2\\mathrm{i}$ 的向量分别为图 9-2-4 中的向量 $\\overrightarrow{OA}\\text{ 、 }\\overrightarrow{OB}\\text{ 、 }\\overrightarrow{OC}\\text{ 、 }\\overrightarrow{OD}\\text{ 、 }\\overrightarrow{OE}.$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 455,
+          "end": 456
+        }
+      ],
+      "teacher_analysis": "例 2 的教学可以在学生动手操作(描点, 作向量)的过程中感悟复数、点、向量间的联系.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 162,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 设复平面上的点 $A$ 和点 $B$ 所对应的复数分别为 ${z}_{A} = {x}_{A} + {y}_{A}\\mathrm{i}\\left( {{x}_{A}\\text{ 、 }{y}_{A} \\in  \\mathbf{R}}\\right)$ 和 ${z}_{B} = {x}_{B} + {y}_{B}\\mathrm{i}\\left( {{x}_{B}\\text{ 、 }{y}_{B} \\in  \\mathbf{R}}\\right)$ ,试用 ${z}_{A}$ 和 ${z}_{B}$ 表示复平面上的向量 $\\overrightarrow{AB}$ 所对应的复数 $z$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 457,
+          "end": 458
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 457,
+          "end": 458
+        }
+      ],
+      "id": "bx2-9-2-ex-3",
+      "category": "例题",
+      "answer": "解 复平面上的点 $A$ 与点 $B$ 的坐标分别为 $\\left( {{x}_{A},{y}_{A}}\\right)$ 与 $\\left( {{x}_{B},{y}_{B}}\\right)$ ,故向量 $\\overrightarrow{AB} = \\left( {{x}_{B} - {x}_{A},{y}_{B} - {y}_{A}}\\right)$ ,它所对应的复数是 $z = \\left( {{x}_{B} - {x}_{A}}\\right)  + \\left( {{y}_{B} - {y}_{A}}\\right) \\mathrm{i}$ . 再由复数减法法则,可得 $z = \\; {z}_{B} - {z}_{A}$ .\n\n注意, 平面上起点不在原点的向量所表示的复数是该向量相应的位置向量所表示的复数. 上例说明, 这个复数是向量终点对应的复数与起点对应的复数之差.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 459,
+          "end": 462
+        }
+      ],
+      "teacher_analysis": "例 3 借助向量减法运算的坐标表示, 说明了如何用复数的差表示始点不在复平面原点的向量, 它实际上是一个用复数研究几何问题的重要工具.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 164,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 设 $z \\in  \\mathbf{C}$ ,复平面上的点 $Z$ 与 ${Z}^{\\prime }$ 分别表示 $z$ 与 $z\\mathrm{i}$ . 求证: $\\overrightarrow{OZ} \\bot  \\overrightarrow{O{Z}^{\\prime }}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 463,
+          "end": 464
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 463,
+          "end": 464
+        }
+      ],
+      "id": "bx2-9-2-ex-4",
+      "category": "例题",
+      "answer": "证明 令 $z = x + y\\mathrm{i}\\left( {x\\text{ 、 }y \\in  \\mathbf{R}}\\right)$ ,则 $z\\mathrm{i} =  - y + x\\mathrm{i}$ ,从而 $\\overrightarrow{OZ} = \\; \\left( {x, y}\\right) ,\\overrightarrow{O{Z}^{\\prime }} = \\left( {-y, x}\\right)$ ,它们的数量积是 $\\overrightarrow{OZ} \\cdot  \\overrightarrow{O{Z}^{\\prime }} = x\\left( {-y}\\right)  + \\; {yx} = 0$ ,所以 $\\overrightarrow{OZ} \\bot  \\overrightarrow{O{Z}^{\\prime }}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 465,
+          "end": 466
+        }
+      ],
+      "teacher_analysis": "例 4 用向量的数量积说明复数 $z$ 与 $z\\mathrm{i}$ 所对应的向量的垂直关系,由此说明将向量绕始点逆时针旋转 ${90}^{ \\circ  }$ 的代数表达,是将该向量所对应的复数与虚数单位 $\\mathrm{i}$ 相乘. 它以呈现特例的方式对复数乘法的几何意义作了提示性的介绍.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 166,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "3 复数加法的平行四边形法则",
+      "markdown": "## 3 复数加法的平行四边形法则",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 467,
+          "end": 467
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "我们已经知道向量的加法适用平行四边形法则, 在将复数与平面向量建立一一对应后, 两个复数的和是否与对应的向量的和一致呢? 也就是说, 在复平面上是否也可以用平行四边形法则表述复数的加法呢?\n\n![bo_d4sll53ef24c73be0n1g_12_1127_223_399_278_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1127_223_399_278_0.jpg)\n\n图 9-2-5\n\n如图 9-2-5,复数 ${z}_{1} = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 对应向量 $\\overrightarrow{O{Z}_{1}} = \\left( {a, b}\\right)$ , 复数 ${z}_{2} = c + d\\mathrm{i}\\left( {c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ 对应向量 $\\overrightarrow{O{Z}_{2}} = \\left( {c, d}\\right)$ . 由于复数 $z = {z}_{1} + {z}_{2} = \\left( {a + c}\\right)  + \\left( {b + d}\\right) \\mathrm{i}$ ,因此 $z$ 对应于向量\n\n$$\n\\overrightarrow{OZ} = \\left( {a + c, b + d}\\right)  = \\overrightarrow{O{Z}_{1}} + \\overrightarrow{O{Z}_{2}}.\n$$\n\n这说明, 两个复数的和所对应的向量就是原来两个复数所对应向量的和,即以 $\\overrightarrow{O{Z}_{1}}$ 与 $\\overrightarrow{O{Z}_{2}}$ 为邻边的平行四边形的对角线所表示的向量. 这就是复数加法的平行四边形法则. 同样, 两个复数的差 ${z}_{1} - {z}_{2}$ 所对应向量是两个向量 $\\overrightarrow{O{Z}_{1}}\\text{ 、 }\\overrightarrow{O{Z}_{2}}$ 的差 $\\overrightarrow{O{Z}_{1}} - \\overrightarrow{O{Z}_{2}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 468,
+          "end": 482
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 如图 9-2-6,在复平面上给定平行四边形 ${OABC}$ , 其中点 $A$ 与点 $C$ 分别对应于复数 ${z}_{A} =  - 1 + \\mathrm{i}$ 与 ${z}_{C} = 3 + 2\\mathrm{i}$ . 求点 $B$ 所对应的复数.\n\n\n\n![bo_d4sll53ef24c73be0n1g_12_1142_624_318_243_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1142_624_318_243_0.jpg)\n\n图 9-2-6",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 483,
+          "end": 484
+        },
+        {
+          "source": "book",
+          "start": 488,
+          "end": 488
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 483,
+          "end": 484
+        },
+        {
+          "source": "book",
+          "start": 488,
+          "end": 488
+        },
+        {
+          "source": "book",
+          "start": 485,
+          "end": 487
+        }
+      ],
+      "id": "bx2-9-2-ex-5",
+      "category": "例题",
+      "answer": "解 由平行四边形 ${ABCD}$ ,根据复数加法的平行四边形法则,点 $B$ 所对应的复数为 ${z}_{A} + {z}_{C} = 2 + 3\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 489,
+          "end": 490
+        }
+      ],
+      "teacher_analysis": "例 5 是复数加法平行四边形法则的应用. 可由学生动手作图将问题从文字表述转化为相应的图形,如此得到的图形应该是没有线段 ${OB}$ 的. 教学的着力点就在于引导学生体会, 平行四边形对角线表示的向量所对应的复数可由复数的加法运算得到. 在下一节复数模的教学中,可以将此问题作变式处理 “求 $\\left| {OB}\\right|$ 的长度”. 类似的问题其教学意图就是, 帮助学生在与平行四边形相关的几何场景中, 逐步自觉地将平行四边形与复数的加法运算相联系, 从而以复数为工具处理相关的几何问题.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 168,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 9.2(1)",
+      "markdown": "## 练习 9.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 491,
+          "end": 491
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(1) · 1",
+      "markdown": "1. 当复数 $z$ 满足下列条件时,分别指出 $z$ 在复平面上所对应的点 $Z$ 的位置:\n\n(1) $z$ 是正实数； (2) $z$ 是负实数；\n\n(3) $z$ 是实部小于零、虚部大于零的虚数；(4) $z$ 是虚部小于零的纯虚数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 493,
+          "end": 498
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 493,
+          "end": 498
+        }
+      ],
+      "id": "bx2-9-2-p921-1",
+      "category": "练习9.2(1)",
+      "answer": "1. (1) $x$ 轴的正半轴上.\n\n(3)第二象限. (4) $y$ 轴的负半轴上.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 346,
+          "end": 349
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(1) · 2",
+      "markdown": "2. 如果复数 $z = \\left( {m - 2}\\right)  + \\left( {{m}^{2} - {16}}\\right) \\mathrm{i}\\left( {m \\in  \\mathbf{R}}\\right)$ 在复平面上所对应的点在第四象限,求 $m$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 499,
+          "end": 500
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 499,
+          "end": 500
+        }
+      ],
+      "id": "bx2-9-2-p921-2",
+      "category": "练习9.2(1)",
+      "answer": "2. $2 < m < 4$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 350,
+          "end": 351
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(1) · 3",
+      "markdown": "3. 设复数 $3 - 4\\mathrm{i}$ 与 $5 - 6\\mathrm{i}$ 在复平面上所对应的向量分别为 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OB}$ ( $O$ 为坐标原点), 求向量 $\\overrightarrow{AB}$ 及 $\\overrightarrow{BA}$ 所对应的复数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 501,
+          "end": 502
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 501,
+          "end": 502
+        }
+      ],
+      "id": "bx2-9-2-p921-3",
+      "category": "练习9.2(1)",
+      "answer": "3. $2 - 2\\mathrm{i}, - 2 + 2\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 352,
+          "end": 353
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(1) · 4",
+      "markdown": "4. 已知复平面上有点 $C\\left( {2,4}\\right)$ 和点 $D$ ,使得向量 $\\overrightarrow{CD}$ 所对应的复数是 $- 3 - \\mathrm{i}$ . 求点 $D$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 503,
+          "end": 504
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 503,
+          "end": 504
+        }
+      ],
+      "id": "bx2-9-2-p921-4",
+      "category": "练习9.2(1)",
+      "answer": "4. $\\left( {-1,3}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 354,
+          "end": 355
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "4 复数的模",
+      "markdown": "## 4 复数的模",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 505,
+          "end": 505
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 在复平面上所对应的点 $Z\\left( {a, b}\\right)$ 到原点的距离 $\\sqrt{{a}^{2} + {b}^{2}}$ ,叫做复数 $z$ 的模 (modulus),记作 $\\left| z\\right|$ . 这样,复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的模是\n\n$$\n\\left| z\\right|  = \\left| {a + b\\mathrm{i}}\\right|  = \\sqrt{{a}^{2} + {b}^{2}}.\n$$\n\n---\n\n复数的模也称为它的绝对值.\n\n---\n\n由于复数 $z = a + b\\mathrm{i}$ 的模与该复数所对应的向量 $\\overrightarrow{OZ}$ 的模是一致的, 因此复数的模也可以说成是其对应的向量的模.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 506,
+          "end": 520
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 259,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-2-definition-19-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 353,
+          "end": 366,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-2-definition-19-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 求下列复数的模:\n\n(1) ${z}_{1} = 3 + {4i}$ ；\n\n(2) ${z}_{2} =  - \\frac{1}{2} - \\sqrt{2}\\mathrm{i}.$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 521,
+          "end": 526
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 521,
+          "end": 526
+        }
+      ],
+      "id": "bx2-9-2-ex-6",
+      "category": "例题",
+      "answer": "解 (1) $\\left| {z}_{1}\\right|  = \\sqrt{{3}^{2} + {4}^{2}} = 5$ .\n\n(2) $\\left| {z}_{2}\\right|  = \\sqrt{{\\left( -\\frac{1}{2}\\right) }^{2} + {\\left( -\\sqrt{2}\\right) }^{2}} = \\frac{3}{2}$ .\n\n复数的模有如下性质:\n\n$$\n\\left| z\\right|  = \\left| \\bar{z}\\right| , z\\bar{z} = {\\left| z\\right| }^{2};\n$$\n\n$$\n\\left| {{z}_{1}{z}_{2}}\\right|  = \\left| {z}_{1}\\right| \\left| {z}_{2}\\right|\n$$\n\n$$\n\\left| \\frac{{z}_{1}}{{z}_{2}}\\right|  = \\frac{\\left| {z}_{1}\\right| }{\\left| {z}_{2}\\right| }\n$$\n\n其中, $z\\text{ 、 }{z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ,并在关于除法的性质中需假设 ${z}_{2} \\neq  0$ .\n\n证明 设 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ ,则\n\n$$\n\\left| z\\right|  = \\sqrt{{a}^{2} + {b}^{2}} = \\sqrt{{a}^{2} + {\\left( -b\\right) }^{2}} = \\left| \\bar{z}\\right| ,\n$$\n\n$$\nz\\bar{z} = \\left( {a + b\\mathrm{i}}\\right) \\left( {a - b\\mathrm{i}}\\right)  = {a}^{2} - {\\left( b\\mathrm{i}\\right) }^{2} = {a}^{2} + {b}^{2} = {\\left| z\\right| }^{2}.\n$$\n\n为证关于乘法的性质,设有两个复数 ${z}_{1} = a + b\\mathrm{i}$ 与 ${z}_{2} = c + \\; d\\mathrm{i}\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ ,则\n\n$$\n\\left| {{z}_{1}{z}_{2}}\\right|  = \\left| {\\left( {a + b\\mathrm{i}}\\right) \\left( {c + d\\mathrm{i}}\\right) }\\right|\n$$\n\n$$\n= \\left| {\\left( {{ac} - {bd}}\\right)  + \\left( {{ad} + {bc}}\\right) \\mathrm{i}}\\right|\n$$\n\n$$\n= \\sqrt{{\\left( ac - bd\\right) }^{2} + {\\left( ad + bc\\right) }^{2}}\n$$\n\n$$\n= \\sqrt{{a}^{2}{c}^{2} - {2abcd} + {b}^{2}{d}^{2} + {a}^{2}{d}^{2} + {2abcd} + {b}^{2}{c}^{2}}\n$$\n\n$$\n= \\sqrt{\\left( {{a}^{2} + {b}^{2}}\\right) \\left( {{c}^{2} + {d}^{2}}\\right) }\n$$\n\n$$\n= \\sqrt{{a}^{2} + {b}^{2}} \\cdot  \\sqrt{{c}^{2} + {d}^{2}}\n$$\n\n$$\n= \\left| {z}_{1}\\right| \\left| {z}_{2}\\right| \\text{ . }\n$$\n\n现在,进一步设 ${z}_{2} \\neq  0$ ,则 ${z}_{1} = {z}_{2} \\cdot  \\frac{{z}_{1}}{{z}_{2}}$ ,于是 $\\left| {z}_{1}\\right|  = \\; \\left| {{z}_{2} \\cdot  \\frac{{z}_{1}}{{z}_{2}}}\\right|  = \\left| {z}_{2}\\right|  \\cdot  \\left| \\frac{{z}_{1}}{{z}_{2}}\\right|$ . 两边除以 $\\left| {z}_{2}\\right|$ ,就得到 $\\left| \\frac{{z}_{1}}{{z}_{2}}\\right|  = \\frac{\\left| {z}_{1}\\right| }{\\left| {z}_{2}\\right| }$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 588
+        }
+      ],
+      "teacher_analysis": "例 6 是复数模的概念针对特定复数的应用, 可在此处引入上述例 5 的变式问题.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 170,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 已知复数 $z$ 满足 $\\left| z\\right|  = 1$ ,求证: $z + \\frac{1}{z}$ 是实数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 589,
+          "end": 590
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 589,
+          "end": 590
+        }
+      ],
+      "id": "bx2-9-2-ex-7",
+      "category": "例题",
+      "answer": "证明 由 $\\left| z\\right|  = 1$ ,得 $z\\bar{z} = {\\left| z\\right| }^{2} = 1$ ,所以 $\\bar{z} = \\frac{1}{z}$ ,由此得到 $z + \\frac{1}{z} = z + \\bar{z}$ ,从而可知 $z + \\frac{1}{z}$ 是实数.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 591,
+          "end": 592
+        }
+      ],
+      "teacher_analysis": "例 7 从 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 入手,是学生在初步建立了复数概念并进行了一些有关复数问题的基本练习后较为自然的选择. 教学中不妨让学生首先完成这一过程, 然后引导学生关注复数模的一个重要性质 ${\\left| z\\right| }^{2} = z\\bar{z}$ ,并由此提出一个处理复数问题的重要观点: 在中学阶段学习复数时,借助 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 将 “复数问题实数化” 是非常常用的思想方法,但例 7 所展示的直接以复数 $z$ 呈现的问题解决过程.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 172,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 8",
+      "markdown": "例 8 求下列复数的模:\n\n(1) $\\frac{\\left( {1 - i}\\right) \\left( {1 + {2i}}\\right) }{4 + {3i}}$ ；\n\n(2) $\\frac{\\left( {7 - {3i}}\\right) \\left( {5 + {4i}}\\right) }{\\left( {7 + {3i}}\\right) \\left( {-4 - {5i}}\\right) }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 593,
+          "end": 598
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 593,
+          "end": 598
+        }
+      ],
+      "id": "bx2-9-2-ex-8",
+      "category": "例题",
+      "answer": "解 (1) $\\left| \\frac{\\left( {1 - \\mathrm{i}}\\right) \\left( {1 + 2\\mathrm{i}}\\right) }{4 + 3\\mathrm{i}}\\right|  = \\frac{\\left| {1 - \\mathrm{i}}\\right|  \\times  \\left| {1 + 2\\mathrm{i}}\\right| }{\\left| 4 + 3\\mathrm{i}\\right| }$\n\n$$\n= \\frac{\\sqrt{{1}^{2} + {\\left( -1\\right) }^{2}} \\times  \\sqrt{{1}^{2} + {2}^{2}}}{\\sqrt{{4}^{2} + {3}^{2}}}\n$$\n\n$$\n= \\frac{\\sqrt{10}}{5}\\text{ . }\n$$\n\n(2)将原式分子分母都乘 $\\mathrm{i}$ ，就得到 $\\frac{\\left( {7 - 3\\mathrm{i}}\\right) \\left( {5 + 4\\mathrm{i}}\\right) \\mathrm{i}}{\\left( {7 + 3\\mathrm{i}}\\right) \\left( {5 - 4\\mathrm{i}}\\right) }$ ，其中 $7 - 3\\mathrm{i}$ 与 $7 + 3\\mathrm{i},5 + 4\\mathrm{i}$ 与 $5 - 4\\mathrm{i}$ 是两对共轭复数,它们都分别有相同的模,所以 $\\left| \\frac{\\left( {7 - 3\\mathrm{i}}\\right) \\left( {5 + 4\\mathrm{i}}\\right) }{\\left( {7 + 3\\mathrm{i}}\\right) \\left( {-4 - 5\\mathrm{i}}\\right) }\\right|  = \\left| \\mathrm{i}\\right|  = 1$ .\n\n---\n\n第(2)小题虽可以像第(1)小题那样直接计算, 但这里的解法提供一个思路: 可以利用一些已知的性质简化计算过程.\n\n---\n\n复数的模还有如下性质: 对 ${z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ,\n\n$$\n\\left| {z}_{1}\\right|  + \\left| {z}_{2}\\right|  \\geq  \\left| {{z}_{1} + {z}_{2}}\\right| .\n$$\n\n这不过是 “三角形两边之和大于第三边” 这个性质的另一种表达方式, 即必修课程第 2 章所述的 “三角不等式”. 如图 9-2-7, 若复平面上 ${Z}_{1}\\text{ 、 }{Z}_{2}$ 是复数 ${z}_{1}\\text{ 、 }{z}_{2}$ 所对应的点,则平行四边形 $O{Z}_{2}Z{Z}_{1}$ 的顶点 $Z$ 就是复数 ${z}_{1} + {z}_{2}$ 对应的点. 因此,有\n\n$$\n\\left| {z}_{1}\\right|  + \\left| {z}_{2}\\right|  = \\left| {O{Z}_{1}}\\right|  + \\left| {O{Z}_{2}}\\right|\n$$\n\n$$\n= \\left| {O{Z}_{1}}\\right|  + \\left| {{Z}_{1}Z}\\right|\n$$\n\n$$\n\\geq  \\left| {OZ}\\right|\n$$\n\n$$\n= \\left| {{z}_{1} + {z}_{2}}\\right| \\text{ . }\n$$\n\n![bo_d4sll53ef24c73be0n1g_14_1141_1262_316_230_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_14_1141_1262_316_230_0.jpg)\n\n图 9-2-7\n\n复平面上两点的距离可以简洁地用对应复数差的模表示出来: 设 ${Z}_{1}\\left( {a, b}\\right) \\text{ 、 }{Z}_{2}\\left( {c, d}\\right)$ 是复平面上的两个点,其对应的复数为 ${z}_{1} = a + b\\mathrm{i},{z}_{2} = c + d\\mathrm{i}$ ,则由平面上两点间距离公式可知\n\n$$\n\\left| {{z}_{1} - {z}_{2}}\\right|  = \\sqrt{{\\left( a - c\\right) }^{2} + {\\left( b - d\\right) }^{2}} = \\left| {{Z}_{1}{Z}_{2}}\\right|  = \\left| \\overrightarrow{{Z}_{1}{Z}_{2}}\\right| .\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 599,
+          "end": 650
+        }
+      ],
+      "teacher_analysis": "例 8 展示了共轭复数模的性质在复数模的计算中的作用, 其中的 (2) 显示了一对共轭复数具有相等的模, 体现了观察能力对于发现代数结构所具有的特定关系从而简化问题解决过程的独特作用.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 174,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 9",
+      "markdown": "例 9 设复数 $- \\sqrt{5} + {2\\mathrm{i}}$ 和复数 $2 + \\sqrt{5}\\mathrm{i}$ 在复平面上分别对应点 $A$ 和点 $B$ ,求 $A\\text{ 、 }B$ 两点间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 651,
+          "end": 652
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 651,
+          "end": 652
+        }
+      ],
+      "id": "bx2-9-2-ex-9",
+      "category": "例题",
+      "answer": "解 $A\\text{ 、 }B$ 两点间的距离是\n\n$$\n\\left| {AB}\\right|  = \\sqrt{{\\left( -\\sqrt{5} - 2\\right) }^{2} + {\\left( 2 - \\sqrt{5}\\right) }^{2}}\n$$\n\n$$\n= \\sqrt{\\left( {5 + 4\\sqrt{5} + 4}\\right)  + \\left( {4 - 4\\sqrt{5} + 5}\\right) }\n$$\n\n$$\n= 3\\sqrt{2}\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 653,
+          "end": 666
+        }
+      ],
+      "teacher_analysis": "例 9 以复数的形式呈现了复平面上的两个点, 以复数差的模的几何意义作中介, 复数的代数形式表示的点便可与既有的两点间距离公式建立直接的联系.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 176,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 9.2(2)",
+      "markdown": "## 练习 9.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 667,
+          "end": 667
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(2) · 1",
+      "markdown": "1. 计算下列复数的模:\n\n(1) $\\left( {4 - {3i}}\\right)  + \\left( {-{12} - {5i}}\\right)$ ； (2) $\\left( {2 - \\sqrt{3}\\mathrm{i}}\\right) {\\left( \\sqrt{6} - \\mathrm{i}\\right) }^{2}$ ；\n\n(3) $\\frac{7 + \\mathrm{i}}{{\\left( 3 - 4\\mathrm{i}\\right) }^{2}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 669,
+          "end": 674
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 669,
+          "end": 674
+        }
+      ],
+      "id": "bx2-9-2-p922-1",
+      "category": "练习9.2(2)",
+      "answer": "1. (1) $8\\sqrt{2}$ . (2) $7\\sqrt{7}$ . (3) $\\frac{\\sqrt{2}}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 358,
+          "end": 359
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(2) · 2",
+      "markdown": "2. 设复数 ${z}_{1} = 6 + 8\\mathrm{i}$ 与 ${z}_{2} = 9 - 4\\mathrm{i}$ 在复平面上所对应的点为 ${Z}_{1}$ 与 ${Z}_{2}$ ,试指出 ${Z}_{1}\\text{ 、 }{Z}_{2}$ 与以原点为圆心、 10 为半径的圆 $C$ 的位置关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 675,
+          "end": 676
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 675,
+          "end": 676
+        }
+      ],
+      "id": "bx2-9-2-p922-2",
+      "category": "练习9.2(2)",
+      "answer": "2. 点 ${Z}_{1}$ 在以原点为圆心,10 为半径的圆上,点 ${Z}_{2}$ 在此圆内部.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 360,
+          "end": 361
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(2) · 3",
+      "markdown": "3. 设复平面上平行四边形 ${OMNP}$ 的顶点 $O\\text{ 、 }M\\text{ 、 }P$ 的坐标分别为 $\\left( {0,0}\\right) \\text{ 、 }\\left( {3,4}\\right)$ 、 $\\left( {-2, - 3}\\right)$ ,求 ${ON}$ 的长度.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 677,
+          "end": 678
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 677,
+          "end": 678
+        }
+      ],
+      "id": "bx2-9-2-p922-3",
+      "category": "练习9.2(2)",
+      "answer": "3. $\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 362,
+          "end": 363
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.2(2) · 4",
+      "markdown": "4. 求复数 $8 + 5\\mathrm{i}$ 与 $4 - 2\\mathrm{i}$ 在复平面上所对应的点之间的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 679,
+          "end": 680
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 679,
+          "end": 680
+        }
+      ],
+      "id": "bx2-9-2-p922-4",
+      "category": "练习9.2(2)",
+      "answer": "4. $\\sqrt{65}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 364,
+          "end": 365
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 9.2",
+      "markdown": "## 习题 9.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 681,
+          "end": 681
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 683,
+          "end": 683
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 1",
+      "markdown": "1. 设复数 ${z}_{A} =  - 4\\text{ 、 }{z}_{B} = 2\\mathrm{i}\\text{ 、 }{z}_{C} = 2 - 3\\mathrm{i}\\text{ 、 }{z}_{D} = 3 + 2\\mathrm{i}\\text{ 、 }{z}_{E} =  - 1 - \\mathrm{i}$ .\n\n(1)在复平面上分别作出这些复数所对应的点 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$ ；\n\n(2)在复平面上分别作出这些复数的共轭复数所对应的向量.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 685,
+          "end": 690
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 685,
+          "end": 690
+        }
+      ],
+      "id": "bx2-9-2-h92A-1",
+      "category": "习题9.2A",
+      "answer": "1.\n\n![bo_d402nkref24c73d2tegg_111_551_372_419_333_0.jpg](sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_111_551_372_419_333_0.jpg)\n\n图 9-R1",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 370,
+          "end": 375
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 2",
+      "markdown": "2. 求实数 $m$ 的值或取值范围,使得复数 $z = \\left( {{m}^{2} - {8m} + {15}}\\right)  + \\left( {{m}^{2} - {5m} - {14}}\\right) \\mathrm{i}$ 在复平面上所对应的点 $Z$ 分别位于\n\n(1)实轴上; (2)虚轴上; (3)第四象限.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 691,
+          "end": 694
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 691,
+          "end": 694
+        }
+      ],
+      "id": "bx2-9-2-h92A-2",
+      "category": "习题9.2A",
+      "answer": "2. ( 1 ) $m = 7$ 或 $m =  - 2$ . ( 2 ) $m = 5$ 或 $m = 3$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 376,
+          "end": 377
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 3",
+      "markdown": "3. 设在复平面上的点 $A$ 与点 $B$ 所对应的复数分别为 ${z}_{A}$ 与 ${z}_{B}$ ,对于下列各组复数,分别求向量 $\\overrightarrow{AB}$ 和向量 $\\overrightarrow{BA}$ 所对应的复数:\n\n(1) ${z}_{A} = 2 - {3\\mathrm{i}},{z}_{B} = 4 + {5\\mathrm{i}}$ ； (2) ${z}_{A} = \\frac{1}{2} - \\frac{\\sqrt{3}}{2}\\mathrm{i},{z}_{B} = \\frac{\\sqrt{3}}{2} + \\frac{1}{2}\\mathrm{i}.$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 695,
+          "end": 698
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 695,
+          "end": 698
+        }
+      ],
+      "id": "bx2-9-2-h92A-3",
+      "category": "习题9.2A",
+      "answer": "3. (1)2+8i,-2-8i.\n\n( 2 ) $\\frac{\\sqrt{3} - 1}{2} + \\frac{\\sqrt{3} + 1}{2}\\mathrm{i}$ , $\\frac{1 - \\sqrt{3}}{2} - \\frac{\\sqrt{3} + 1}{2}\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 378,
+          "end": 381
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 4",
+      "markdown": "4. 已知复平面上有点 $A$ 和点 $B$ ,向量 $\\overrightarrow{OA}$ 与向量 $\\overrightarrow{AB}$ 所对应的复数分别为 $- 1 - {2\\mathrm{i}}$ 与 4-i. 求点 $B$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 699,
+          "end": 700
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 699,
+          "end": 700
+        }
+      ],
+      "id": "bx2-9-2-h92A-4",
+      "category": "习题9.2A",
+      "answer": "4. $\\left( {3, - 3}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 382,
+          "end": 383
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 5",
+      "markdown": "5. 设复数 $1 + 2\\mathrm{i}$ 、 $- 2 + \\mathrm{i}$ 、 $- 1 - 2\\mathrm{i}$ 在复平面上所对应的点分别为 $A$ 、 $B$ 、 $C$ ,求 $\\bigtriangleup {ABC}$ 的面积.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 701,
+          "end": 702
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 701,
+          "end": 702
+        }
+      ],
+      "id": "bx2-9-2-h92A-5",
+      "category": "习题9.2A",
+      "answer": "5.5.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 384,
+          "end": 385
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 6",
+      "markdown": "6. 计算:\n\n(1) ${\\left| 3 - 4i\\right| }^{4}$ ； (2) $\\left| {\\left( {1 + i}\\right) {\\left( -2\\sqrt{2} + i\\right) }^{3}}\\right|$ ；\n\n(3) $\\left| \\frac{\\left( {\\sqrt{5} - 2\\mathrm{i}}\\right) {\\left( 1 + \\sqrt{3}\\mathrm{i}\\right) }^{2}}{\\sqrt{13} + \\sqrt{23}\\mathrm{i}}\\right|$ ; (4) $\\left| \\frac{{\\left( 1 + 3\\mathrm{i}\\right) }^{3}\\left( {4 - \\mathrm{i}}\\right) }{{\\left( 1 - 3\\mathrm{i}\\right) }^{2}}\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 708
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 708
+        }
+      ],
+      "id": "bx2-9-2-h92A-6",
+      "category": "习题9.2A",
+      "answer": "6. (1) 625. (2) ${27}\\sqrt{2}$ . (3) 2. (4) $\\sqrt{170}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 386,
+          "end": 387
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 7",
+      "markdown": "7. 已知 $\\left| {1 - {4ki}}\\right|  = 5$ ,其中 $k \\in  \\mathbf{R}$ . 求 $k$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 709,
+          "end": 710
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 709,
+          "end": 710
+        }
+      ],
+      "id": "bx2-9-2-h92A-7",
+      "category": "习题9.2A",
+      "answer": "7. $\\pm  \\frac{\\sqrt{6}}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 388,
+          "end": 389
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 8",
+      "markdown": "8. 设复数 $\\left( {m - 1}\\right)  + \\left( {{2m} - 3}\\right) \\mathrm{i}\\left( {m \\in  \\mathbf{R}}\\right)$ 的模为 1,求 $m$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 711,
+          "end": 712
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 711,
+          "end": 712
+        }
+      ],
+      "id": "bx2-9-2-h92A-8",
+      "category": "习题9.2A",
+      "answer": "8. $\\frac{9}{5}$ 或 1.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 390,
+          "end": 391
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 9",
+      "markdown": "9. 已知复数 $z = \\frac{m + \\left( {{3m} - 1}\\right) \\mathrm{i}}{2 - \\mathrm{i}}\\left( {m \\in  \\mathbf{R}}\\right)$ 的实部与虚部互为相反数，求 $\\left| z\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 714
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 714
+        }
+      ],
+      "id": "bx2-9-2-h92A-9",
+      "category": "习题9.2A",
+      "answer": "9. $\\frac{\\sqrt{2}}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 392,
+          "end": 393
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2A · 10",
+      "markdown": "10. 若复数 ${z}_{1} = 5 + {12}\\mathrm{i}$ ,复数 ${z}_{2}$ 满足 $\\left| {z}_{2}\\right|  = {13}$ ,且 ${z}_{1}{z}_{2}$ 是纯虚数,求复数 ${z}_{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "id": "bx2-9-2-h92A-10",
+      "category": "习题9.2A",
+      "answer": "10. ${12} + 5\\mathrm{i}$ 或 $- {12} - 5\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 394,
+          "end": 395
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "## B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 717
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 1",
+      "markdown": "1. 选择题:\n\n(1)设复平面上表示 $2 - \\mathrm{i}$ 和 $3 + 4\\mathrm{i}$ 的点分别为点 $A$ 和点 $B$ ，则表示向量 $\\overrightarrow{AB}$ 的复数在复平面上所对应的点位于 ( )\n\nA. 第一象限; B. 第二象限; C. 第三象限; D. 第四象限.\n\n(2)复平面上平行于虚轴的非零向量所对应的复数一定是 ( )\n\nA. 正数; B. 负数;\n\nC. 纯虚数; D. 实部不为零的虚数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 730
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 730
+        }
+      ],
+      "id": "bx2-9-2-h92B-1",
+      "category": "习题9.2B",
+      "answer": "1. (1) A. (2) C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 398,
+          "end": 399
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 2",
+      "markdown": "2. 已知复平面上平行四边形 ${ABCD}$ 的顶点 $A\\text{ 、 }B\\text{ 、 }C$ 的坐标分别是 $\\left( {-2, - 1}\\right) \\text{ 、 }\\left( {7,3}\\right)$ 、 $\\left( {{12},9}\\right)$ ,求点 $D$ 的坐标和向量 $\\overrightarrow{AD}$ 所对应的复数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 731,
+          "end": 732
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 731,
+          "end": 732
+        }
+      ],
+      "id": "bx2-9-2-h92B-2",
+      "category": "习题9.2B",
+      "answer": "2. $\\left( {3,5}\\right) ,5 + 6\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 400,
+          "end": 401
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 3",
+      "markdown": "3. 设复数 ${z}_{1}$ 与 ${z}_{2}$ 分别对应复平面上的向量 $\\overrightarrow{O{Z}_{1}}$ 与 $\\overrightarrow{O{Z}_{2}}$ ,已知 $\\left| \\overrightarrow{O{Z}_{1}}\\right|  = \\left| \\overrightarrow{O{Z}_{2}}\\right|  = 1$ , $\\overrightarrow{O{Z}_{1}} \\bot  \\overrightarrow{O{Z}_{2}}$ . 求 $\\left| {{z}_{1} + {z}_{2}}\\right|$ 与 $\\left| {{z}_{1} - {z}_{2}}\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 733,
+          "end": 734
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 733,
+          "end": 734
+        }
+      ],
+      "id": "bx2-9-2-h92B-3",
+      "category": "习题9.2B",
+      "answer": "3. $\\left| {{z}_{1} + {z}_{2}}\\right|  = \\sqrt{2},\\left| {{z}_{1} - {z}_{2}}\\right|  = \\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 402,
+          "end": 403
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 4",
+      "markdown": "4. 已知复数 $z$ 满足 $\\left| z\\right|  = 1$ ,且 $z$ 不是纯虚数. 求证: $\\frac{z + \\mathrm{i}}{z - \\mathrm{i}}$ 是纯虚数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 735,
+          "end": 736
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 735,
+          "end": 736
+        }
+      ],
+      "id": "bx2-9-2-h92B-4",
+      "category": "习题9.2B",
+      "answer": "4. 证明: 设 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ . 由已知,得 ${a}^{2} + {b}^{2} = 1$ 且 $a \\neq  0, b \\neq   \\pm  1$ . 则 $\\frac{z + \\mathrm{i}}{z - \\mathrm{i}} = \\; \\frac{a + b\\mathrm{i} + \\mathrm{i}}{a + b\\mathrm{i} - \\mathrm{i}} = \\frac{\\left\\lbrack  {a + \\left( {b + 1}\\right) \\mathrm{i}}\\right\\rbrack  \\left\\lbrack  {a - \\left( {b - 1}\\right) \\mathrm{i}}\\right\\rbrack  }{\\left\\lbrack  {a + \\left( {b - 1}\\right) \\mathrm{i}}\\right\\rbrack  \\left\\lbrack  {a - \\left( {b - 1}\\right) \\mathrm{i}}\\right\\rbrack  } = \\frac{{a}^{2} + {b}^{2} - 1 + {2a}\\mathrm{i}}{{a}^{2} + {\\left( b - 1\\right) }^{2}} = \\frac{{2a}\\mathrm{i}}{{a}^{2} + {b}^{2} - {2b} + 1} = \\frac{a\\mathrm{i}}{1 - b}$ ,所以 $\\frac{z + \\mathrm{i}}{z - \\mathrm{i}}$ 是纯虚数.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 404,
+          "end": 405
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 5",
+      "markdown": "5. 证明: 集合 $M = \\{ z \\mid  z = \\cos \\theta  + \\mathrm{i}\\sin \\theta ,\\theta  \\in  \\mathbf{R}\\}$ 中的所有复数在复平面上所对应的点在同一个圆上.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 737,
+          "end": 738
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 737,
+          "end": 738
+        }
+      ],
+      "id": "bx2-9-2-h92B-5",
+      "category": "习题9.2B",
+      "answer": "5. 证明: 因为 $\\left| z\\right|  = \\left| {\\cos \\theta  + \\mathrm{i}\\sin \\theta }\\right|  = \\sqrt{{\\cos }^{2}\\theta  + {\\sin }^{2}\\theta } = 1$ ,所以集合 $M$ 中的每一个复数在复平面上所对应的点都在以原点为圆心, 1 为半径的圆上.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 406,
+          "end": 407
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 6",
+      "markdown": "6. 设 ${z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ,求证: ${\\left| {z}_{1} + {z}_{2}\\right| }^{2} + {\\left| {z}_{1} - {z}_{2}\\right| }^{2} = 2\\left( {{\\left| {z}_{1}\\right| }^{2} + {\\left| {z}_{2}\\right| }^{2}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "id": "bx2-9-2-h92B-6",
+      "category": "习题9.2B",
+      "answer": "6. 证明: 设 ${z}_{1} = {a}_{1} + {b}_{1}\\mathrm{i},{z}_{2} = {a}_{2} + {b}_{2}\\mathrm{i}\\left( {{a}_{1}\\text{、}{b}_{1}\\text{、}{a}_{2}\\text{、}{b}_{2} \\in  \\mathbf{R}}\\right)$ ,则 ${z}_{1} + {z}_{2} = \\left( {{a}_{1} + }\\right. \\; \\left. {a}_{2}\\right)  + \\left( {{b}_{1} + {b}_{2}}\\right) \\mathrm{i},{z}_{1} - {z}_{2} = \\left( {{a}_{1} - {a}_{2}}\\right)  + \\left( {{b}_{1} - {b}_{2}}\\right) \\mathrm{i}$ ,于是, ${\\left| {z}_{1} + {z}_{2}\\right| }^{2} + {\\left| {z}_{1} - {z}_{2}\\right| }^{2} = \\; {\\left( {a}_{1} + {a}_{2}\\right) }^{2} + {\\left( {b}_{1} + {b}_{2}\\right) }^{2} + {\\left( {a}_{1} - {a}_{2}\\right) }^{2} + {\\left( {b}_{1} - {b}_{2}\\right) }^{2} = 2\\left( {{a}_{1}^{2} + {b}_{1}^{2} + {a}_{2}^{2} + {b}_{2}^{2}}\\right)  = 2\\left( {{\\left| {z}_{1}\\right| }^{2} + {\\left| {z}_{2}\\right| }^{2}}\\right) .$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 408,
+          "end": 409
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.2B · 7",
+      "markdown": "7. 若复数 $z$ 满足 $\\left| {z - 2}\\right|  = \\left| {z - 2\\mathrm{i}}\\right|  = 2$ ,求 $z$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 741,
+          "end": 742
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 741,
+          "end": 742
+        }
+      ],
+      "id": "bx2-9-2-h92B-7",
+      "category": "习题9.2B",
+      "answer": "7. 0 或 $2 + {2i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 410,
+          "end": 411
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例1",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例2",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例3",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例4",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例5",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例6",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例7",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例8",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.2·例9",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 421,
+      "original": "images/bo_d4sll53ef24c73be0n1g_10_1180_899_236_256_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1180_899_236_256_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 427,
+      "original": "images/bo_d4sll53ef24c73be0n1g_10_1182_1303_239_407_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_10_1182_1303_239_407_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 443,
+      "original": "images/bo_d4sll53ef24c73be0n1g_11_229_231_234_255_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_229_231_234_255_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 447,
+      "original": "images/bo_d4sll53ef24c73be0n1g_11_136_600_363_308_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_11_136_600_363_308_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 471,
+      "original": "images/bo_d4sll53ef24c73be0n1g_12_1127_223_399_278_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1127_223_399_278_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 485,
+      "original": "images/bo_d4sll53ef24c73be0n1g_12_1142_624_318_243_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_12_1142_624_318_243_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 641,
+      "original": "images/bo_d4sll53ef24c73be0n1g_14_1141_1262_316_230_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_14_1141_1262_316_230_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 372,
+      "original": "../images/bo_d402nkref24c73d2tegg_111_551_372_419_333_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_111_551_372_419_333_0.jpg",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+[
+  {
+    "type": "section",
+    "title": "反函数",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1093,
+        "end": 1093
+      }
+    ],
+    "id": "bx1-5-4",
+    "number": "5.4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 5.4 (选学)反函数\n\n### 教学重点\n\n反函数的概念, 反函数的图像: 理解反函数的概念, 会在较简单的情形下求反函数. 知道函数与其反函数的图像之间的对称关系, 并理解形成这种关系的原因.\n\n### 内容分析\n\n例 1 旨在体现函数与其反函数的对应关系,强化对“如果 ${f}^{-1}\\left( x\\right)  = y$ ,那么 $f\\left( y\\right)  = x$ ”的理解.\n\n例 2 通过由简单到复杂的三个函数, 给出求反函数的一般过程.\n\n练习 5.4(1)的第 3 题是求一个分段表示的函数的反函数. 根据反函数的概念,这样的函数在求反函数时也应当分段来求.\n\n在证明函数与其反函数的图像关于直线 $y = x$ 对称时,教材借助 “垂直平分线是到线段的两端点距离相等的点的集合” 这一几何性质,证明了点 $\\left( {a, b}\\right)$ 与点 $\\left( {b, a}\\right)$ 的垂直平分线是直线 $y = x$ ,因此这两个点关于直线 $y = x$ 对称. 进而,利用这个结论证明了在同一平面直角坐标系中,函数与其反函数的图像关于直线 $y = x$ 对称.\n\n例 3 通过一个特殊的例子, 指出了一些幂函数的反函数也是幂函数, 并提示了其幂指数之间的关系.\n\n例 4 的求解利用了函数与其反函数的图像关于直线 $y = x$ 对称这一事实 (这反映了反函数的对应关系与原来函数的对应关系恰好是进行了自变量与函数值所相应变量之间的交换,这实际上也是两者图像关于直线 $y = x$ 对称的原因所在),不需要求其反函数,通过解方程就能得到 $a$ 和 $b$ 的值.\n\n练习 5.4(2)的第 3 题是为了澄清 $y = {f}^{-1}\\left( {x + 1}\\right)$ 的确切含义,它是这样一个对应关系: 自变量是 $x$ ,函数值是将 $x + 1$ 代入函数 $y = {f}^{-1}\\left( x\\right)$ 所得到的结果,而不是函数 $y = f\\left( {x + 1}\\right)$ 的反函数. 实际上, $y = f\\left( {x + 1}\\right)$ 的反函数是 $y = {f}^{-1}\\left( x\\right)  - 1$ .\n\n### 注意事项\n\n反函数是构造新的函数的重要方式, 在很多数学以及实际生活的应用中都涉及反函数. 例如, 对数运算与指数运算互为逆运算, 它们分别对应的对数函数与指数函数就互为反函数. 今后学习解三角形时, 为了表示一些已知其三角函数值、但不是特殊角的角的大小, 也必须使用反函数来表示这些角. 对于呈正态分布的随机变量, 由概率值求随机变量的值的过程中, 也需要用到累积分布函数的反函数.\n\n证明函数与其反函数的图像关于直线 $y = x$ 对称的过程中,利用了“反函数的反函数必是原来的函数本身”这一性质, 从而减少了一半的工作量, 其中体现了化归这一重要的数学思想.\n\n### 教学建议\n\n给出反函数的概念之后, 不可避免地应讨论怎样的函数才有反函数. 事实上, 根据反函数的定义, “不同的自变量的值不能对应到同一个函数值”这一特性是一个函数有反函数的充要条件. 需要注意的是, 教材中提到的 “严格增函数与严格减函数均存在反函数”, 不能反过来理解为 “存在反函数的一定是严格增函数或严格减函数”, 如函数 $y = \\left\\{  \\begin{array}{ll} \\frac{1}{x}, & x \\neq  0, \\\\  0, & x = 0 \\end{array}\\right.$ 是存在反函数的,但它在区间 $\\left( {-\\infty , + \\infty }\\right)$ 上既不是严格增函数, 也不是严格减函数.\n\n函数与其反函数的性质之间的联系在 “拓展与思考” 的第 4 题中有所反映, 学有余力的学生可以对此进行一些探讨.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 262,
+        "end": 295
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-5-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 反函数的概念",
+    "markdown": "### 1 反函数的概念",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1095,
+        "end": 1095
+      }
+    ],
+    "id": "bx1-5-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在进行摄氏度（$^{\\circ}\\mathrm{C}$）和华氏度（$^{\\circ}\\mathrm{F}$）两种温度单位换算时会发现，有时选用相同的数据如表 5-4 所示，但所建立的函数关系和作出的图像不同，如图 5-4-1 所示。\n\n**表 5-4** 华氏度与摄氏度的转换\n\n| 摄氏度/$^{\\circ}\\mathrm{C}$ | 0 | 20 | 35 | 100 | 115 |\n|---------------------------|---|----|----|-----|-----|\n| 华氏度/$^{\\circ}\\mathrm{F}$ | 32 | 68 | 95 | 212 | 239 |\n\n![图 5-4-1](images/book-42f9d5208215da6aca0b.jpg)\n\n**图 5-4-1**\n\n这是为什么呢？原来这两个函数所选取的自变量和函数值恰好相反。看似完全不同的两个函数关系式和图像都正确反映了两种温度单位之间的转换关系，前者将摄氏度转换为华氏度，而后者恰好相反。\n\n从函数表达式来看，在函数 $y = 1.8x + 32$ 中，$x$ 是自变量，$y$ 是 $x$ 的函数。但从 $y = 1.8x + 32$ 这个关系式中解出 $x$，就得到了 $x = \\frac{y - 32}{1.8}$。这样，根据这一转换关系，对于在某一个范围内的每一个 $y$ 值，同样有唯一的 $x$ 与之对应。也就是说，也可以把 $y$ 看成自变量，$x$ 作为 $y$ 的函数。这时，我们就说函数 $x = \\frac{y - 32}{1.8}$ 是函数 $y = 1.8x + 32$ 的反函数。\n\n由于习惯上函数的自变量用 $x$ 表示，在图像上作为点的横坐标，而函数值用 $y$ 表示，在图像上作为点的纵坐标，因此 $y = 1.8x + 32$ 的反函数通常写成 $y = \\frac{x - 32}{1.8}$。\n\n**定义** 对于函数 $y = f(x), x \\in D$，记其值域为 $f(D)$。如果对 $f(D)$ 中的任意给定的一个值 $y$，在 $D$ 中满足 $f(x) = y$ 的 $x$ 值只有一个，那么由此得到的 $x$ 关于 $y$ 的函数叫做 $y = f(x)$，$x \\in D$ 的反函数（inverse function），记作 $x = f^{-1}(y), y \\in f(D)$。由于自变量习惯上常用 $x$ 表示，而函数值常用 $y$ 表示，因此通常把该函数改写为\n\n$$y = f^{-1}(x), x \\in f(D)。$$\n\n例如，函数 $y = 2x$ 的反函数为 $y = \\frac{x}{2}$，函数 $y = 3x + 1$ 的反函数为 $y = \\frac{x - 1}{3}$。\n\n一个定义域为 $D$ 的函数 $y = f(x)$ 存在反函数，当且仅当对于其值域 $f(D)$ 中的每一个值 $y_0$，在定义域 $D$ 中仅存在一个 $x_0$，满足 $f(x_0) = y_0$。也就是说，如果函数 $y = f(x)$ 在定义域 $D$ 上不同的 $x$ 处所取到的函数值也不相同，那么 $y = f(x)$ 就存在反函数。因此，在定义域上的严格增函数或严格减函数均存在反函数。\n\n从反函数的定义可知：如果函数 $y = f(x), x \\in D$ 存在反函数 $y = f^{-1}(x)$，$x \\in f(D)$，那么函数 $y = f^{-1}(x), x \\in f(D)$ 的反函数就是 $y = f(x), x \\in D$。也就是说，$y = f(x)$ 及 $y = f^{-1}(x)$ 是互为反函数的。\n\n函数 $y = f^{-1}(x)$ 的定义域就是 $y = f(x)$ 的值域，函数 $y = f^{-1}(x)$ 的值域就是函数 $y = f(x)$ 的定义域。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1096,
+        "end": 1126
+      }
+    ],
+    "emphases": [
+      {
+        "start": 834,
+        "end": 1081,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-5-4-definition-3-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-5-4-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "**例 1** 若 $f(x) = \\log_3 x$，并设 $y = f^{-1}(x)$ 是 $y = f(x)$ 的反函数，求 $f^{-1}(2), f^{-1}(a)$。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1127,
+        "end": 1128
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1127,
+        "end": 1128
+      }
+    ],
+    "id": "bx1-5-4-ex-1",
+    "category": "例题",
+    "answer": "**解** 设 $f^{-1}(2) = t$，根据反函数的定义，可得 $f(t) = 2$，即 $\\log_3 t = 2$，因此 $t = 9$，即 $f^{-1}(2) = 9$。\n\n类似地，设 $f^{-1}(a) = b$，可得 $f(b) = \\log_3 b = a$，即 $b = 3^a$，因此 $f^{-1}(a) = 3^a$。\n\n一般地，当 $a > 0, a \\neq 1$ 时，解关于 $x$ 的方程 $y = \\log_a x$，得 $x = a^y$。因此，当 $a > 0, a \\neq 1$ 时，$y = a^x$ 与 $y = \\log_a x$ 互为反函数。",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1129,
+        "end": 1134
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "**例 2** 求下列函数的反函数：\n\n(1) $y = 4x + 2$；\n\n(2) $y = x^2 + 1, x \\in [1, 3]$；\n\n(3) $y = \\frac{3x + 1}{4x + 2}$。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1135,
+        "end": 1142
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1135,
+        "end": 1142
+      }
+    ],
+    "id": "bx1-5-4-ex-2",
+    "category": "例题",
+    "answer": "**解** (1) 该函数的值域为 $\\mathbf{R}$。解关于 $x$ 的方程 $y = 4x + 2$，得 $x = \\frac{y - 2}{4}$。因此，相应的反函数为 $y = \\frac{x - 2}{4}$。\n\n---\n\n在例 2(1) 中，使得表达式 $y = \\frac{x - 2}{4}$ 有意义的 $x$ 的范围已经是 $y = 4x + 2$ 的值域 $\\mathbf{R}$ 了，因此此处反函数的定义域不必明显地写出。例 2 (3) 不注明反函数的定义域的理由类似。\n\n---\n\n(2) 该函数的值域为 $[2, 10]$。\n\n在 $x \\in [1, 3], y \\in [2, 10]$ 的前提下，解关于 $x$ 的方程 $y = x^2 + 1$，得 $x = \\sqrt{y - 1}$。因此，相应的反函数为 $y = \\sqrt{x - 1}, x \\in [2, 10]$。\n\n(3) 由 $y = \\frac{3x + 1}{4x + 2} = \\frac{3}{4} - \\frac{1}{8x + 4}$ 可知，该函数的值域为 $\\{ y \\mid y \\neq \\frac{3}{4} \\}$。\n\n在 $x \\neq -\\frac{1}{2}, y \\neq \\frac{3}{4}$ 的前提下，解关于 $x$ 的方程 $y = \\frac{3x + 1}{4x + 2}$，得 $x = \\frac{1 - 2y}{4y - 3}$。\n\n因此，相应的反函数为 $y = \\frac{1 - 2x}{4x - 3}$。",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1143,
+        "end": 1160
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 5.4(1)",
+    "markdown": "### 练习 5.4(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1161,
+        "end": 1161
+      }
+    ],
+    "id": "bx1-5-4-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(1) · 1",
+    "markdown": "1. 求函数 $y = x^2 + 2x, x \\in [0, +\\infty)$ 的反函数的定义域。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1163,
+        "end": 1164
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1163,
+        "end": 1164
+      }
+    ],
+    "id": "bx1-5-4-p541-1",
+    "category": "练习5.4(1)",
+    "answer": "1. $\\lbrack 0, + \\infty )$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 542,
+        "end": 543
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(1) · 2",
+    "markdown": "2. 求下列函数的反函数：\n\n(1) $y = 3x + 2$；(2) $y = -\\frac{3}{x}$；\n\n(3) $y = x^2, x \\in (-\\infty, 0]$；(4) $y = \\sqrt{x} + 1$。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1165,
+        "end": 1170
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1165,
+        "end": 1170
+      }
+    ],
+    "id": "bx1-5-4-p541-2",
+    "category": "练习5.4(1)",
+    "answer": "2. (1) $y = \\frac{x - 2}{3}$ . (2) $y =  - \\frac{3}{x}$ . (3) $y =  - \\sqrt{x}$ . (4) $y = {\\left( x - 1\\right) }^{2}, x \\geq  1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 544,
+        "end": 545
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(1) · 3",
+    "markdown": "3. 判断函数 $y = \\begin{cases} x, & -1 \\leq x \\leq 0, \\\\ 1 - x, & 0 < x < 1 \\end{cases}$ 是否存在反函数。若存在反函数，求出它的反函数；若不存在反函数，说明理由。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1171,
+        "end": 1172
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1171,
+        "end": 1172
+      }
+    ],
+    "id": "bx1-5-4-p541-3",
+    "category": "练习5.4(1)",
+    "answer": "3. 存在反函数 $y = \\left\\{  \\begin{array}{ll} x, &  - 1 \\leq  x \\leq  0, \\\\  1 - x, & 0 < x < 1. \\end{array}\\right.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 546,
+        "end": 547
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 反函数的图像",
+    "markdown": "### 2 反函数的图像",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1173,
+        "end": 1173
+      }
+    ],
+    "id": "bx1-5-4-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "为了研究函数与其反函数的图像的特征，我们需要一个如下的命题：\n\n**命题** 在平面直角坐标系中，点 $P(a, b)$ 与点 $P'(b, a)$ 关于直线 $y = x$ 成轴对称。\n\n**证明** 当 $a = b$ 时，点 $P$ 与 $P'$ 重合，且在直线 $y = x$ 上，结论成立。\n\n当 $a \\neq b$ 时，点 $P$ 与 $P'$ 是不重合的两点，要证明它们关于直线 $y = x$ 成轴对称，即证直线 $y = x$ 是线段 $PP'$ 的垂直平分线。\n\n线段 $PP'$ 的垂直平分线即点集 $\\{ Q(x, y) \\mid |QP| = |QP'| \\}$。由两点 $(x_1, y_1)$ 及 $(x_2, y_2)$ 之间的距离公式 $\\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$，该集合也可以表示为\n\n$$\\{ Q(x, y) \\mid \\sqrt{(x - a)^2 + (y - b)^2} = \\sqrt{(x - b)^2 + (y - a)^2} \\}，$$\n\n即\n\n$$\\{ Q(x, y) \\mid ax + by = bx + ay \\}。$$\n\n因 $a \\neq b$，故该集合为 $\\{ Q(x, y) \\mid x = y \\}$。\n\n所以，线段 $PP'$ 的垂直平分线是直线 $y = x$，因而点 $P(a, b)$ 与点 $P'(b, a)$ 关于直线 $y = x$ 对称。\n\n作为指数函数和对数函数的图像关系在一般函数中的推广，我们有\n\n**性质** 互为反函数的两函数的图像关于直线 $y = x$ 成轴对称。\n\n**证明** 设函数 $y = f(x), x \\in D$ 的反函数为 $y = f^{-1}(x)$，$x \\in f(D)$。\n\n若 $P(a, b)$ 为函数 $y = f(x)$ 图像上任取的一点，则必有 $a \\in D$，且 $b = f(a)$。这样，$b = f(a) \\in f(D)$，且根据反函数的定义，$a = f^{-1}(b)$，因此 $P(a, b)$ 关于直线 $y = x$ 的对称点 $P'(b, a)$ 在函数 $y = f^{-1}(x)$ 的图像上。\n\n另一方面，因为 $y = f^{-1}(x)$ 的反函数是 $y = f(x)$，由上述，$y = f^{-1}(x)$ 图像上任一点 $Q$ 关于直线 $y = x$ 的对称点 $Q'$ 在函数 $y = f(x)$ 的图像上。\n\n综上所述，互为反函数的两函数的图像关于直线 $y = x$ 成轴对称。\n\n在求一个函数 $y = f(x)$ 的反函数时，一般要经历下述三个步骤：求出反函数的定义域（即原来函数的值域）；解方程 $y = f(x)$，求出 $x$ 关于 $y$ 的函数表达式；再交换 $x$ 与 $y$。\n\n正是将 $x$ 和 $y$ 对换，即将点的横纵两个坐标作了对换，才导致了函数与其反函数的图像关于直线 $y = x$ 对称。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1174,
+        "end": 1210
+      }
+    ],
+    "emphases": [
+      {
+        "start": 243,
+        "end": 469,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "bx1-5-4-formula-11-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-5-4-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "**例 3** 求函数 $y = x^3$ 的反函数，并在同一坐标系中作出函数 $y = x^3$ 和它的反函数的图像。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1211,
+        "end": 1212
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1211,
+        "end": 1212
+      }
+    ],
+    "id": "bx1-5-4-ex-3",
+    "category": "例题",
+    "answer": "**解** $y = x^3$ 的值域是 $\\mathbf{R}$。解关于 $x$ 的方程 $y = x^3$，得 $x = \\sqrt[3]{y}$，因此其反函数为 $y = \\sqrt[3]{x}$。\n\n![图 5-4-2](images/private-e00db018926e4d493d49.jpg)\n\n**图 5-4-2**\n\n同一坐标系中，$y = x^3$ 的图像与 $y = \\sqrt[3]{x}$ 的图像如图 5-4-2 所示，它们关于直线 $y = x$ 对称。",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1213,
+        "end": 1220
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "**例 4** 已知函数 $y = a^x + b$ 的图像经过点 $(1, 7)$，而其反函数的图像经过点 $(4, 0)$，求实数 $a$、$b$ 的值。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1221,
+        "end": 1222
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1221,
+        "end": 1222
+      }
+    ],
+    "id": "bx1-5-4-ex-4",
+    "category": "例题",
+    "answer": "**解** 由 $y = a^x + b$ 的图像经过点 $(1, 7)$，可知 $7 = a^1 + b = a + b$。此外，其反函数的图像经过点 $(4, 0)$，也就是 $y = a^x + b$ 的图像经过点 $(0, 4)$，故 $4 = a^0 + b = 1 + b$。\n\n由此解得 $a$、$b$ 的值分别为 4、3。",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1223,
+        "end": 1226
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 5.4(2)",
+    "markdown": "### 练习 5.4(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1227,
+        "end": 1227
+      }
+    ],
+    "id": "bx1-5-4-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(2) · 1",
+    "markdown": "1. 定义在 $\\mathbf{R}$ 上的偶函数存在反函数吗？说明理由。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1229,
+        "end": 1230
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1229,
+        "end": 1230
+      }
+    ],
+    "id": "bx1-5-4-p542-1",
+    "category": "练习5.4(2)",
+    "answer": "1. 不存在反函数,因为 $x = 1$ 和 $x =  - 1$ 时函数值相等.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 550,
+        "end": 551
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(2) · 2",
+    "markdown": "2. 下列各图中，存在反函数的函数 $y = f(x)$ 的图像只可能是（）\n\n![第 2 题](images/book-91c86d017bf3a071e45d.jpg)\n\n**(第 2 题)**",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1231,
+        "end": 1236
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1231,
+        "end": 1236
+      }
+    ],
+    "id": "bx1-5-4-p542-2",
+    "category": "练习5.4(2)",
+    "answer": "2. C.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 552,
+        "end": 553
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习5.4(2) · 3",
+    "markdown": "3. 已知函数 $y = f(x), x \\in D$ 存在反函数 $y = f^{-1}(x), x \\in f(D)$。函数 $y = f(x + 1)$ 与 $y = f^{-1}(x + 1)$ 是否一定互为反函数？说明理由。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1237,
+        "end": 1238
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1237,
+        "end": 1238
+      }
+    ],
+    "id": "bx1-5-4-p542-3",
+    "category": "练习5.4(2)",
+    "answer": "3. 可以不互为反函数,如 $f\\left( x\\right)  = {2x}$ 时.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 554,
+        "end": 555
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 5.4",
+    "markdown": "### 习题 5.4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1239,
+        "end": 1239
+      }
+    ],
+    "id": "bx1-5-4-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1241,
+        "end": 1241
+      }
+    ],
+    "id": "bx1-5-4-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题5.4A · 1",
+    "markdown": "1. 已知函数 $y = x^2 - 4x - 5, x \\in [1, 3]$，判断其是否存在反函数。若存在，求出反函数；若不存在，说明理由。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1243,
+        "end": 1244
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1243,
+        "end": 1244
+      }
+    ],
+    "id": "bx1-5-4-h54A-1",
+    "category": "习题5.4A",
+    "answer": "1. $f\\left( 1\\right)  = f\\left( 3\\right)  =  - 8$ ,因此该函数不存在反函数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 560,
+        "end": 561
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题5.4A · 2",
+    "markdown": "2. 求下列函数的反函数：\n\n(1) $y = -x^3$；(2) $y = \\frac{x}{x + 2}$；(3) $y = x^2 + 1, x \\in (-\\infty, 0)$。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1245,
+        "end": 1248
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1245,
+        "end": 1248
+      }
+    ],
+    "id": "bx1-5-4-h54A-2",
+    "category": "习题5.4A",
+    "answer": "2. (1) $y =  - \\sqrt[3]{x}$ . (2) $y = \\frac{2x}{1 - x}$ . (3) $y =  - \\sqrt{x - 1}, x > 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 562,
+        "end": 563
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题5.4A · 3",
+    "markdown": "3. 求下列函数的反函数：\n\n(1) $y = 10^x + 1$；(2) $y = \\log_2(x + 1)$；(3) $y = \\log_2(2x)$。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1249,
+        "end": 1252
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1249,
+        "end": 1252
+      }
+    ],
+    "id": "bx1-5-4-h54A-3",
+    "category": "习题5.4A",
+    "answer": "3. (1) $y = \\lg \\left( {x - 1}\\right)$ . (2) $y = {2}^{x} - 1$ . (3) $y = {2}^{x - 1}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 564,
+        "end": 565
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题5.4A · 4",
+    "markdown": "4. 已知 $f(x) = 1 - \\log_2 x$，设 $y = f^{-1}(x)$ 是 $y = f(x)$ 的反函数。求 $f^{-1}(-3)$ 的值。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1253,
+        "end": 1254
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1253,
+        "end": 1254
+      }
+    ],
+    "id": "bx1-5-4-h54A-4",
+    "category": "习题5.4A",
+    "answer": "4. 16.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 566,
+        "end": 567
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题5.4A · 5",
+    "markdown": "5. 已知函数 $y = \\frac{a}{x + 1}$ 的反函数的图像经过点 $(\\frac{1}{2}, 1)$，求实数 $a$ 的值。",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1255,
+        "end": 1256
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1255,
+        "end": 1256
+      }
+    ],
+    "id": "bx1-5-4-h54A-5",
+    "category": "习题5.4A",
+    "answer": "5. 1.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 568,
+        "end": 569
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

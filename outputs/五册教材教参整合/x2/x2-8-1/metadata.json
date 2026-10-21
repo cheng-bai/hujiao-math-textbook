@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-8-1",
+  "book_id": "x2",
+  "section": "8.1",
+  "title": "成对数据的相关分析",
+  "section_json": "batch/sections/x2/x2-8-1.json",
+  "output": "outputs/五册教材教参整合/x2/x2-8-1",
+  "fingerprint": "ba2f634a92a377c330dad2cf02d3d7631f7ba4d89abab3c9e9f91d238450a091",
+  "status": "rendered",
+  "questions": 14,
+  "answers": 14,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-0d3c940d121f1b4ed7c0.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg",
+      "sha256": "0d3c940d121f1b4ed7c02ab35a73e86df0301ea380b8cdd5e5d01e233f6fa212",
+      "private": false
+    },
+    "images/private-86c0ea3ae7848313ed12.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_2_198_252_864_449_0.jpg",
+      "sha256": "86c0ea3ae7848313ed1259c9283975e4cd744198cbf2f52afed3c3e0c8e2eb57",
+      "private": true
+    },
+    "images/private-3d11b08703276b487ef8.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_92_297_1617_1047_410_0.jpg",
+      "sha256": "3d11b08703276b487ef81d5c03fcd31ebf5e9a419bc01dfece7021a9bc0185fd",
+      "private": true
+    },
+    "images/private-75048a27c8a3be102e7a.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_4_168_1630_925_444_0.jpg",
+      "sha256": "75048a27c8a3be102e7a0cd2fb74595eceaae9c431dfbc26bcba7e08f596ad09",
+      "private": true
+    },
+    "images/private-4c125eaf13f1875a2966.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_93_308_328_853_434_0.jpg",
+      "sha256": "4c125eaf13f1875a29663acd35f1f335af2fc69cc3add815ef94e2a46ac5e013",
+      "private": true
+    },
+    "images/private-75701e2cf12bc990c6c6.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_93_257_776_888_428_0.jpg",
+      "sha256": "75701e2cf12bc990c6c664925f17c1859bd5835375328eee62c2acb811b5b55d",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md": "21b1df385af3645c43ac2bf2fe3b7703c288d96ea4e8bef4ec0fba4f7f8d42a5",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md": "70596878acb5841fc585358b25ed22582bd7da897b937db8c9a7ae644baacb67"
+  },
+  "student_images": [
+    "images/book-0d3c940d121f1b4ed7c0.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "10451084137b3f2514a32a63b3cd4aedd19116141c479f2fb99b59b04bec88be",
+    "student.html": "a657d536b96d5a7087042f7d962a1e6ed3d474ea78e8ca937192bb687a896848",
+    "student.zip": "7132f08f8483e985a4c2ba3edef5aacb41522f77b27e8b30d082c5600b517a82",
+    "content.json": "142d06651ddc97ff61a9bf7a0e03d8469a905e902dd6ec3146152da13a2c5a15"
+  }
+}

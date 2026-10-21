@@ -1,0 +1,165 @@
+{
+  "family": "deep-geometry",
+  "selection": [],
+  "assets": [
+    {
+      "id": "chord-midpoint-domain",
+      "title": "弦中点轨迹：消元整线与有效开线段",
+      "goal": "用相切与相离状态区分必要条件和充分条件，解释轨迹端点为何不取。",
+      "summary": "固定椭圆x²/4+y²=1，平行弦所在直线为y=x+t。联立得5x²+8tx+4t²−4=0，两个不同交点存在当且仅当t²<5。由两根和可得弦中点M=(−4t/5,t/5)，故y=−x/4且|x|<4/√5。反过来，对此开线段内任意一点，取t=−5x/4均可构造非退化弦。因此轨迹恰为开线段，而不是消元所得整条直线；t=±√5时相切，端点不取。本模块为选学探究，保留原文的双向验证。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mi>x</mi><mn>4</mn></mfrac><mo>，</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mfrac><mn>4</mn><msqrt><mn>5</mn></msqrt></mfrac><mo>；</mo><mi>t</mi><mo>=</mo><msqrt><mn>5</mn></msqrt><mi>u</mi></math>",
+      "controls": [
+        {
+          "key": "u",
+          "label": "平行线位置 u（±1为相切）",
+          "type": "range",
+          "min": -1.4,
+          "max": 1.4,
+          "step": 0.05
+        },
+        {
+          "key": "candidate",
+          "label": "显示消元得到的整条直线",
+          "type": "checkbox"
+        }
+      ],
+      "initial": {
+        "u": 0.4,
+        "candidate": true
+      },
+      "placements": [
+        {
+          "sectionId": "x1-2-5",
+          "afterBlockId": "x1-2-5-b5",
+          "retainProse": true,
+          "rationale": "在轨迹方程双向验证步骤后增设选学探究，保留全部原文。"
+        }
+      ],
+      "explanationHtml": "<p><strong>问题入口。</strong>这里的“弦”要求椭圆上两个不同的交点。消元只给出中点必须满足的关系，尚未说明整条直线上的点都能产生这样的弦。</p><p><strong>必要性。</strong>把直线方程代入椭圆方程，得到关于交点横坐标的一元二次方程：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>5</mn><msup><mrow><mi>x</mi></mrow><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>t</mi><mi>x</mi><mo>+</mo><mn>4</mn><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>−</mo><mn>4</mn><mo>=</mo><mn>0</mn></math><p>两个交点不同，当且仅当判别式为正：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>Δ</mi><mo>=</mo><mn>16</mn><mo>(</mo><mn>5</mn><mo>−</mo><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>⇔</mo><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>&lt;</mo><mn>5</mn></math><p>由两根和及直线方程，中点坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>M</mi><mo>(</mo><mo>−</mo><mfrac><mrow><mn>4</mn><mi>t</mi></mrow><mrow><mn>5</mn></mrow></mfrac><mo>,</mo><mfrac><mrow><mi>t</mi></mrow><mrow><mn>5</mn></mrow></mfrac><mo>)</mo></math><p>因此，所有真实弦中点均满足：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></mfrac><mo>，</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mfrac><mrow><mn>4</mn></mrow><mrow><msqrt><mn>5</mn></msqrt></mrow></mfrac></math><p><strong>充分性。</strong>任取满足上述条件的点，设其横坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>x</mi><mn>0</mn></msub><mo>，</mo><mi>t</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mn>5</mn><msub><mi>x</mi><mn>0</mn></msub></mrow><mrow><mn>4</mn></mrow></mfrac></math><p>由横坐标的严格范围可知判别式为正，所以对应直线与椭圆有两个不同交点；按上面的中点公式，其横坐标正是所取横坐标，纵坐标也相同。故开线段上每一点都能成为真实弦中点，没有遗漏。</p><p><strong>端点不取。</strong>参数为下列值时判别式为零，两交点合一，只得到切点而非非退化弦。超出此范围则无交点。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>t</mi><mo>=</mo><mo>±</mo><msqrt><mn>5</mn></msqrt></math>"
+    },
+    {
+      "id": "line-plane-minimum-angle",
+      "title": "线面角：为什么与射影的夹角最小",
+      "goal": "分开视角与数学角度，观察平面内各方向对应的真实夹角及最小值。",
+      "summary": "设直线单位方向u=(cosθ,0,sinθ)，平面内单位方向v=(cosφ,sinφ,0)。两直线夹角β取0°至90°，则cosβ=|u·v|=cosθ|cosφ|≤cosθ，故β≥θ。θ<90°时沿射影方向等号成立；θ=90°时射影为点，所有平面方向均与直线垂直。θ=0°时本模型中直线在平面内。三维图是正交投影，不保角；真实读数与右侧变化曲线均由数量积计算。必修阶段先观察与几何解释，选修阶段联系向量证明，原文及原证明不折叠。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>cos</mi><mi>β</mi><mo>=</mo><mi>cos</mi><mi>θ</mi><mo>|</mo><mi>cos</mi><mi>φ</mi><mo>|</mo><mo>≤</mo><mi>cos</mi><mi>θ</mi><mo>⇒</mo><mi>β</mi><mo>≥</mo><mi>θ</mi></math>",
+      "controls": [
+        {
+          "key": "theta",
+          "label": "线面角 θ（含0°与90°）",
+          "type": "range",
+          "min": 0,
+          "max": 90,
+          "step": 5
+        },
+        {
+          "key": "phi",
+          "label": "平面内直线方向 φ",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        },
+        {
+          "key": "yaw",
+          "label": "仅改变观察视角",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "theta": 35,
+        "phi": 50,
+        "yaw": 35
+      },
+      "placements": [
+        {
+          "sectionId": "bx3-10-3",
+          "afterBlockId": "bx3-10-3-b26",
+          "retainProse": true,
+          "rationale": "射影与线面角定义后解释最小性，保留原定义及几何论证。"
+        },
+        {
+          "sectionId": "x1-3-4",
+          "afterBlockId": "x1-3-4-b22",
+          "retainProse": true,
+          "rationale": "在线面角与方向向量关系后联动数量积解释，保留原文。"
+        }
+      ],
+      "explanationHtml": "<p><strong>先分清三个角。</strong>线面角是空间直线与平面的倾斜角；方向参数描述平面内直线相对射影方向的转动；两直线夹角取不超过直角的那个角。屏幕投影不保角，不能直接量图中的夹角。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>0</mn><mo>≤</mo><mi>θ</mi><mo>≤</mo><mn>90</mn><mo>°</mo><mo>，</mo><mn>0</mn><mo>≤</mo><mi>β</mi><mo>≤</mo><mn>90</mn><mo>°</mo></math><p><strong>把方向写清。</strong>以平面为水平坐标面，射影方向为横轴方向。可取两个单位方向向量：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>u</mi><mo>=</mo><mo>(</mo><mi>cos</mi><mi>θ</mi><mo>,</mo><mn>0</mn><mo>,</mo><mi>sin</mi><mi>θ</mi><mo>)</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>v</mi><mo>=</mo><mo>(</mo><mi>cos</mi><mi>φ</mi><mo>,</mo><mi>sin</mi><mi>φ</mi><mo>,</mo><mn>0</mn><mo>)</mo></math><p><strong>为什么最小。</strong>由于讨论的是两条直线而不是两条有向射线，须对数量积取绝对值：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>cos</mi><mi>β</mi><mo>=</mo><mo>|</mo><mi>u</mi><mo>·</mo><mi>v</mi><mo>|</mo><mo>=</mo><mi>cos</mi><mi>θ</mi><mo>|</mo><mi>cos</mi><mi>φ</mi><mo>|</mo><mo>≤</mo><mi>cos</mi><mi>θ</mi></math><p>余弦函数在零度到九十度上严格递减，所以：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>β</mi><mo>≥</mo><mi>θ</mi></math><p><strong>等号与边界。</strong>线面角小于直角时，等号当且仅当平面内直线沿射影所在直线的方向。线面角等于直角时，射影退化成点，不再有射影直线；此时空间直线与平面内所有方向都垂直，所有夹角均为直角。本模型线面角为零时，空间直线位于平面内，与重合方向的直线夹角按零度处理。</p>"
+    },
+    {
+      "id": "ssa-circle-ray",
+      "title": "SSA为何不唯一：圆与射线的有效交点",
+      "goal": "将可能的三角形个数转化为有效交点数，辨别相切、反向交点及退化解。",
+      "summary": "教师拓展，不将完整SSA分类提升为全体学生必学。固定AC=b=3及角A，令C=(3cosA,3sinA)，B=(c,0)，其中c>0。由BC=a得(c−3cosA)²+h²=a²，h=3sinA。圆与直线的候选交点还须剔除c≤0者。因此a=h虽为相切，却仅在A为锐角时产生一个有效三角形；直角时B=A退化，钝角时切点在反向延长线上。a=b时同样须剔除B=A。动态探索解释分类依据，不能以有限次拖动替代上述方程和有效性验证。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mrow><mo>(</mo><mi>c</mi><mo>−</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>，</mo><mi>h</mi><mo>=</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>，</mo><mi>c</mi><mo>&gt;</mo><mn>0</mn></math>",
+      "controls": [
+        {
+          "key": "A",
+          "label": "已知角 A",
+          "type": "range",
+          "min": 20,
+          "max": 160,
+          "step": 5
+        },
+        {
+          "key": "mode",
+          "label": "临界状态（优先于比例滑块）",
+          "type": "select",
+          "options": [
+            {
+              "value": "explore",
+              "label": "自由探索：使用a/h"
+            },
+            {
+              "value": "below",
+              "label": "a=0.95h（相切前）"
+            },
+            {
+              "value": "height",
+              "label": "a=h（精确相切）"
+            },
+            {
+              "value": "above",
+              "label": "a=1.05h（相切后）"
+            },
+            {
+              "value": "equal",
+              "label": "a=b（精确退化候选）"
+            },
+            {
+              "value": "long",
+              "label": "a=1.2b（大于已知边）"
+            }
+          ]
+        },
+        {
+          "key": "ratio",
+          "label": "自由探索时 a/h",
+          "type": "range",
+          "min": 0.5,
+          "max": 3,
+          "step": 0.05
+        }
+      ],
+      "initial": {
+        "A": 30,
+        "mode": "explore",
+        "ratio": 1.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-6-3",
+          "afterBlockId": "bx2-6-3-b3",
+          "retainProse": true,
+          "rationale": "正弦定理后加入教师拓展，呈现SSA多解依据，不替换原定理推导。"
+        }
+      ],
+      "explanationHtml": "<p><strong>教师拓展。</strong>目的是看懂多解从哪里来，不要求全体学生背完整分类表。固定角及其邻边，令顶点沿正向射线移动；边长条件转化为圆与射线的交点条件。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>0</mn><mo>&lt;</mo><mi>A</mi><mo>&lt;</mo><mn>180</mn><mo>°</mo><mo>，</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>，</mo><mi>a</mi><mo>&gt;</mo><mn>0</mn></math><p>建立坐标后，两点分别为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>C</mi><mo>(</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>,</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>)</mo><mo>，</mo><mi>B</mi><mo>(</mo><mi>c</mi><mo>,</mo><mn>0</mn><mo>)</mo><mo>，</mo><mi>c</mi><mo>&gt;</mo><mn>0</mn></math><p><strong>先求候选，再查正向。</strong>圆心到横轴所在直线的距离为高。边长条件等价于：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>h</mi><mo>=</mo><mn>3</mn><mi>sin</mi><mi>A</mi><mo>&gt;</mo><mn>0</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mrow><mo>(</mo><mi>c</mi><mo>−</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mi>h</mi></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mi>a</mi></mrow><mn>2</mn></msup></math><p>半径小于高时没有实数交点。半径不小于高时，候选横坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>c</mi><mo>=</mo><mn>3</mn><mi>cos</mi><mi>A</mi><mo>±</mo><msqrt><msup><mrow><mi>a</mi></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mi>h</mi></mrow><mn>2</mn></msup></msqrt></math><p>两个根重合时只算一个候选；每个候选还必须严格大于零。负数根位于射线的反向延长线上，零根使顶点重合，均不能构成题设三角形。</p><p><strong>为什么这也是充分条件。</strong>每个正根都确定正向射线上唯一的点，且到圆心距离等于给定边长；同时高严格为正，三个顶点不共线。因此每个不同正根恰好对应一个非退化三角形，没有额外的角度条件需要补猜。</p><p><strong>相切不一定有解。</strong>半径等于高时，唯一候选横坐标如下。锐角时它为正，有一个三角形；直角时为零，退化；钝角时为负，在反向延长线上。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>a</mi><mo>=</mo><mi>h</mi><mo>⇒</mo><mi>c</mi><mo>=</mo><mn>3</mn><mi>cos</mi><mi>A</mi></math><p><strong>另一处易漏边界。</strong>两条已知边相等时，一个候选始终为零，必须剔除；另一个候选仅在已知角为锐角时为正。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>a</mi><mo>=</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>⇒</mo><mi>c</mi><mo>=</mo><mn>0</mn><mo>或</mo><mi>c</mi><mo>=</mo><mn>6</mn><mi>cos</mi><mi>A</mi></math>"
+    }
+  ],
+  "existing": []
+}

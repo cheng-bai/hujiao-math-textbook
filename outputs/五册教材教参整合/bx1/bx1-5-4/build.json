@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-5-4",
+  "book_id": "bx1",
+  "section": "5.4",
+  "title": "反函数",
+  "section_json": "batch/sections/bx1/bx1-5-4.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-5-4",
+  "fingerprint": "aaaa7d23c78da4dacf01ed37a3103fed052f95a92b7063eebd17369329ae450c",
+  "status": "rendered",
+  "questions": 15,
+  "answers": 15,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-42f9d5208215da6aca0b.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_31_687_1116_672_368_0.jpg",
+      "sha256": "42f9d5208215da6aca0b775fa381e78d163fc8153cfe066e590a94f995ba866a",
+      "private": false
+    },
+    "images/private-e00db018926e4d493d49.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_35_173_294_348_347_0.jpg",
+      "sha256": "e00db018926e4d493d49474e4da85af475ce47d6426ec92e84d12985bd90145c",
+      "private": true
+    },
+    "images/book-91c86d017bf3a071e45d.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_35_310_940_1059_284_0.jpg",
+      "sha256": "91c86d017bf3a071e45d7c6ecf61fe39a4f80247d62e9b9a1a58c1d87ed532c2",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
+  },
+  "student_images": [
+    "images/book-42f9d5208215da6aca0b.jpg",
+    "images/book-91c86d017bf3a071e45d.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "c79e5b75c28c764c34c8874ab3793882df17abe11e3f84fe7dc709e889a5aba2",
+    "student.html": "eecbad67ac613a594943cdc66710595974f24fffc6985add3b1749cecf293d0a",
+    "student.zip": "b1c52e66019243a943d18218aedd3031c3a279149b470d8cace360073b03e2d2",
+    "content.json": "426a429b33e14082610f1556e14156157273d20403ee8ff24ffe3321e0b90d42"
+  }
+}

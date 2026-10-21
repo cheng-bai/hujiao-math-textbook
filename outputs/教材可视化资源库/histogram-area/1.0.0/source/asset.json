@@ -1,0 +1,37 @@
+{
+  "controls": [
+    {
+      "key": "width",
+      "label": "组距",
+      "max": 4,
+      "min": 0.5,
+      "step": 0.25,
+      "type": "range"
+    },
+    {
+      "key": "frequency",
+      "label": "该组频率",
+      "max": 0.6,
+      "min": 0.05,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtext>柱高</mtext><mo>=</mo><mfrac><mtext>频率</mtext><mtext>组距</mtext></mfrac><mo>,</mo><mtext>柱面积</mtext><mo>=</mo><mtext>频率</mtext></math>",
+  "goal": "调整组距，令柱高为频率密度，保持柱面积与频率相等。",
+  "id": "histogram-area",
+  "initial": {
+    "frequency": 0.2,
+    "width": 2
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-13-4-b4",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+      "retainProse": true,
+      "sectionId": "bx3-13-4"
+    }
+  ],
+  "summary": "频率分布直方图中，柱高=该组频率/组距，因此柱面积=频率；等宽组可以比较柱高，不等宽组不能只看高度比较频数。",
+  "title": "不等宽直方图：面积才是频率"
+}

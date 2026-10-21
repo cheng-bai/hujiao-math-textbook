@@ -1,0 +1,699 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 871,
+        "end": 871
+      }
+    ],
+    "id": "bx1-chapter-end-1",
+    "number": "chapter-end-1",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 集合的概念与表示:\n\n(1)集合是一些确定对象的全体. 集合中的元素具有确定、无序、不重复的特征. 常用数集有 $\\mathbf{N}\\text{ 、 }\\mathbf{Z}\\text{ 、 }\\mathbf{Q}\\text{ 、 }\\mathbf{R}$ 等.\n\n(2)空集是不含任何元素的集合.\n\n(3)当 $a\\text{ 、 }b \\in  \\mathbf{R}$ ，且 $a < b$ 时，满足 $a < x < b$ 的所有实数 $x$ 组成的集合记作开区间 $\\left( {a, b}\\right)$ ,满足 $a \\leq  x \\leq  b$ 的所有实数 $x$ 组成的集合记作闭区间 $\\left\\lbrack  {a, b}\\right\\rbrack$ .\n\n2. 集合的关系与运算:\n\n(1)子集关系可分为两类:真子集与相等的集合.\n\n(2)集合 $A$ 与 $B$ 的交集是这两个集合的所有公共元素组成的集合，记作 $A \\cap  B$ ；集合 $A$ 与 $B$ 的并集是这两个集合的所有元素组成的集合，记作 $A \\cup  B$ .\n\n(3)对于全集 $U$ ，其任一子集 $A$ 均有补集. 一个集合 $A$ 的补集是指在全集 $U$ 中而不在 $A$ 中的所有元素组成的集合，记作 $\\overline{A}$ .\n\n3. 命题:\n\n(1)命题是指能判断其真假的语句.\n\n(2)命题有真、假两类.\n\n4. 充分条件与必要条件:\n\n(1)当 $\\alpha  \\Rightarrow  \\beta$ 时， $\\alpha$ 是 $\\beta$ 的充分条件， $\\beta$ 是 $\\alpha$ 的必要条件.\n\n(2)当 $\\alpha  \\Leftrightarrow  \\beta$ 时， $\\alpha$ 是 $\\beta$ 的充要条件. 此时，在推理过程中 $\\alpha$ 与 $\\beta$ 能互相替换.\n\n5. 反证法，是指通过否定结论，推出矛盾，进而证明结论成立的证明方法.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 872,
+        "end": 902
+      }
+    ],
+    "id": "bx1-chapter-end-1-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 903,
+        "end": 903
+      }
+    ],
+    "id": "bx1-chapter-end-1-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 905,
+        "end": 905
+      }
+    ],
+    "id": "bx1-chapter-end-1-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 用列举法表示下列集合:\n\n(1)十二生肖组成的集合;\n\n(2)中国国旗上所有颜色组成的集合.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 907,
+        "end": 912
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 907,
+        "end": 912
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-1",
+    "category": "复习题A",
+    "answer": "1.(1)\\{鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪\\}. (2) \\{红,黄\\}.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 392,
+        "end": 393
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 用描述法表示下列集合:\n\n(1)平面直角坐标系中第一象限的角平分线上的所有点组成的集合;\n\n(2)3 的所有倍数组成的集合.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 913,
+        "end": 918
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 913,
+        "end": 918
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-2",
+    "category": "复习题A",
+    "answer": "2. (1) $\\{ \\left( {x, y}\\right)  \\mid  y = x, x > 0\\}$ . (2) $\\{ n \\mid  n = {3k}, k \\in  \\mathbf{Z}\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 394,
+        "end": 395
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3.(1)若 $\\alpha  : {x}^{2} - {5x} + 6 = 0,\\beta  : x = 2$ ，则 $\\alpha$ 是 $\\beta$ 的___条件；\n\n(2)若 $\\alpha$ :四边形 ${ABCD}$ 是正方形， $\\beta$ :四边形 ${ABCD}$ 的两条对角线互相垂直平分， 则 $\\alpha$ 是 $\\beta$ 的___条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 919,
+        "end": 922
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 919,
+        "end": 922
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-3",
+    "category": "复习题A",
+    "answer": "3. (1) 必要非充分. (2) 充分非必要.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 396,
+        "end": 397
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 已知方程 ${x}^{2} + {px} + 4 = 0$ 的所有解组成的集合为 $A$ ,方程 ${x}^{2} + x + q = 0$ 的所有解组成的集合为 $B$ ,且 $A \\cap  B = \\{ 4\\}$ . 求集合 $A \\cup  B$ 的所有子集.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 923,
+        "end": 924
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 923,
+        "end": 924
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-4",
+    "category": "复习题A",
+    "answer": "4. 所有子集共有 8 个: $\\varnothing ,\\{  - 5\\} ,\\{ 1\\} ,\\{ 4\\} ,\\{  - 5,1\\} ,\\{  - 5,4\\} ,\\{ 1,4\\}$ , $\\{  - 5,1,4\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 398,
+        "end": 399
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 已知集合 $A = \\left( {-2,1}\\right) , B = \\left( {-\\infty , - 2}\\right)  \\cup  \\lbrack 1, + \\infty )$ . 求: $A \\cup  B, A \\cap  B$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 925,
+        "end": 926
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 925,
+        "end": 926
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-5",
+    "category": "复习题A",
+    "answer": "5. $A \\cup  B = \\left( {-\\infty , - 2}\\right)  \\cup  \\left( {-2, + \\infty }\\right)$ ,而 $A \\cap  B = \\varnothing$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 400,
+        "end": 401
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 已知全集 $U = \\left( {-\\infty,1}\\right)  \\cup  \\lbrack 2, + \\infty )$ ,集合 $A = \\left( {-1,1}\\right)  \\cup  \\lbrack 3, + \\infty )$ . 求 $\\bar{A}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 927,
+        "end": 928
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 927,
+        "end": 928
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-6",
+    "category": "复习题A",
+    "answer": "6. $\\bar{A} = ( - \\infty , - 1\\rbrack  \\cup  \\lbrack 2,3)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 402,
+        "end": 403
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 已知集合 $A = \\left\\{  {x \\mid  {x}^{2} + {px} + q = 0}\\right\\}  , B = \\left\\{  {x \\mid  {x}^{2} - x + r = 0}\\right\\}$ ，且 $A \\cap  B = \\{  - 1\\}$ ， $A \\cup  B = \\{  - 1,2\\}$ . 求实数 $p\\text{ 、 }q\\text{ 、 }r$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 929,
+        "end": 930
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 929,
+        "end": 930
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-7",
+    "category": "复习题A",
+    "answer": "7. $p = 2, q = 1, r =  - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 404,
+        "end": 405
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 设 $a$ 是实数. 若 $x = 1$ 是 $x > a$ 的一个充分条件，则 $a$ 的取值范围为___.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 931,
+        "end": 932
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 931,
+        "end": 932
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-8",
+    "category": "复习题A",
+    "answer": "8. $\\left( {-\\infty ,1}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 406,
+        "end": 407
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 9",
+    "markdown": "9. 已知陈述句 $\\alpha$ 是 $\\beta$ 的充分非必要条件. 若集合 $M = \\{ x \\mid  x$ 满足 $\\alpha \\} , N = \\{ x \\mid  x$ 满足 $\\beta \\}$ , 则 $M$ 与 $N$ 的关系为 ( )\n\nA. $M \\subset  N$ ; B. $M \\supset  N$ ; C. $M = N$ ; D. $M \\cap  N = \\varnothing$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 933,
+        "end": 936
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 933,
+        "end": 936
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-9",
+    "category": "复习题A",
+    "answer": "9. A.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 408,
+        "end": 409
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 10",
+    "markdown": "10. 证明: 若梯形的对角线不相等, 则该梯形不是等腰梯形.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 937,
+        "end": 938
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 937,
+        "end": 938
+      }
+    ],
+    "id": "bx1-chapter-end-1-hA-10",
+    "category": "复习题A",
+    "answer": "10. 假设该梯形 ${ABCD}$ 是等腰梯形,其中 ${AB}\\text{、}{CD}$ 分别是上、下底. 因为点 $A$ 、 $B$ 到直线 ${CD}$ 的距离相等,且 ${AD} = {BC}$ ,故 $\\angle {ADC} = \\angle {BCD}$ ,从而三角形 ${ADC}$ 与三角形 ${BCD}$ 全等,故 ${AC} = {BD}$ ,但这与该梯形的对角线不相等矛盾.\n\n因此该梯形不是等腰梯形.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 410,
+        "end": 413
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 939,
+        "end": 939
+      }
+    ],
+    "id": "bx1-chapter-end-1-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 若集合 $M = \\{ a \\mid  a = x + \\sqrt{2}y, x\\text{ 、 }y \\in  \\mathbf{Q}\\}$ ,则下列结论正确的是 ( )\n\nA. $M \\subseteq  \\mathbf{Q}$ ; B. $M = \\mathbf{Q}$ ; C. $M \\supset  \\mathbf{Q}$ ; D. $M \\subset  \\mathbf{Q}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 941,
+        "end": 944
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 941,
+        "end": 944
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-1",
+    "category": "复习题B",
+    "answer": "1. C.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 416,
+        "end": 417
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 若 $\\alpha$ 是 $\\beta$ 的必要非充分条件, $\\beta$ 是 $\\gamma$ 的充要条件, $\\gamma$ 是 $\\delta$ 的必要非充分条件,则 $\\delta$ 是 $\\alpha$ 的___条件， $\\gamma$ 是 $\\alpha$ 的___条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 945,
+        "end": 946
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 945,
+        "end": 946
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-2",
+    "category": "复习题B",
+    "answer": "2. 充分非必要, 充分非必要.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 418,
+        "end": 419
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 已知全集 $U = \\{ x \\mid  x$ 为不大于 20 的素数 $\\}$ . 若 $A \\cap  \\bar{B} = \\{ 3,5\\} ,\\bar{A} \\cap  B = \\{ 7,{19}\\}$ ， $\\overline{A \\cup  B} = \\{ 2,{17}\\}$ ，则 $A =$ ___， $B =$ ___.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 947,
+        "end": 948
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 947,
+        "end": 948
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-3",
+    "category": "复习题B",
+    "answer": "3. $A = \\{ 3,5,{11},{13}\\} , B = \\{ 7,{11},{13},{19}\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 420,
+        "end": 421
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 已知集合 $P = \\{ x \\mid   - 2 \\leq  x \\leq  5\\} , Q = \\{ x \\mid  x \\geq  k + 1$ 且 $x \\leq  {2k} - 1\\}$ ，且 $Q \\subseteq  P$ . 求实数 $k$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 949,
+        "end": 950
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 949,
+        "end": 950
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-4",
+    "category": "复习题B",
+    "answer": "4. $( - \\infty ,3\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 422,
+        "end": 423
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 已知全集 $U = \\mathbf{R}$ ,集合 $A = \\{ x \\mid  x \\leq  a - 1\\} , B = \\{ x \\mid  x > a + 2\\} , C = \\{ x \\mid  x < 0$ 或 $x >$ 4),且 $\\overline{A \\cup  B} \\subseteq  C$ . 求实数 $a$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 951,
+        "end": 952
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 951,
+        "end": 952
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-5",
+    "category": "复习题B",
+    "answer": "5. $\\left( {-\\infty , - 2}\\right)  \\cup  \\lbrack 5, + \\infty )$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 424,
+        "end": 425
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 已知集合 $A = \\left\\{  {x \\mid  \\left( {a - 1}\\right) {x}^{2} + {3x} - 2 = 0}\\right\\}$ . 是否存在这样的实数 $a$ ,使得集合 $A$ 有且仅有两个子集? 若存在,求出实数 $a$ 的值及对应的两个子集; 若不存在,说明理由.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 953,
+        "end": 954
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 953,
+        "end": 954
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-6",
+    "category": "复习题B",
+    "answer": "6. 存在, $a = 1$ 或 $- \\frac{1}{8}$ . 当 $a = 1$ 时,对应的两个子集为 $\\varnothing$ 及 $\\left\\{  \\frac{2}{3}\\right\\}$ ; 当 $a =  - \\frac{1}{8}$ 时, 对应的两个子集为 $\\varnothing$ 及 $\\left\\{  \\frac{4}{3}\\right\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 426,
+        "end": 427
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 证明: $\\sqrt[3]{2}$ 是无理数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 955,
+        "end": 956
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 955,
+        "end": 956
+      }
+    ],
+    "id": "bx1-chapter-end-1-hB-7",
+    "category": "复习题B",
+    "answer": "7. 假设 $\\sqrt[3]{2}$ 是有理数,则可设 $\\sqrt[3]{2} = \\frac{m}{n}$ ,其中 $m$ 与 $n$ 是互素的正整数. 于是 $m = \\sqrt[3]{2}n$ ,两边立方,得 ${m}^{3} = 2{n}^{3}$ . 所以 ${m}^{3}$ 是偶数,于是 $m$ 也是偶数. 设 $m = {2k}$ , $k \\in  \\mathbf{Z}$ ,则 $4{k}^{3} = {n}^{3}$ ,所以 ${n}^{3}$ 也是偶数,于是 $n$ 也是偶数. 这样 $m$ 与 $n$ 有公因数 2,与 $m\\text{、}n$ 互素的假设矛盾.\n\n所以假设不成立,即 $\\sqrt[3]{2}$ 是无理数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 428,
+        "end": 431
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "## 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 957,
+        "end": 957
+      }
+    ],
+    "id": "bx1-chapter-end-1-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 设 $a\\text{ 、 }b$ 是正整数. 求证: 若 ${ab} - 1$ 是 3 的倍数,则 $a$ 与 $b$ 被 3 除的余数相同.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 959,
+        "end": 960
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 959,
+        "end": 960
+      }
+    ],
+    "id": "bx1-chapter-end-1-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 设 $a = {3m} + {r}_{1}, b = {3n} + {r}_{2}, m\\text{、}n \\in  \\mathbf{Z},{r}_{1}\\text{、}{r}_{2} \\in  \\{ 0,1,2\\}$ .\n\n${ab} - 1 = \\left( {{3m} + {r}_{1}}\\right) \\left( {{3n} + {r}_{2}}\\right)  - 1 = {9mn} + {3m}{r}_{2} + {3n}{r}_{1} + {r}_{1}{r}_{2} - 1 = 3\\left( {{3mn} + m{r}_{2} + n{r}_{1}}\\right) \\; + \\left( {{r}_{1}{r}_{2} - 1}\\right)$ ,故 ${ab} - 1$ 是 3 的倍数,当且仅当 ${r}_{1}{r}_{2} - 1$ 是 3 的倍数.\n\n假设 ${r}_{1} \\neq  {r}_{2}$ ,不妨设 ${r}_{1} < {r}_{2}$ ,那么只有 $\\left\\{  \\begin{array}{l} {r}_{1} = 0,\\left\\{  {{r}_{1} = 0,\\left\\{  {{r}_{1} = 1,}\\right. }\\right. \\\\  {r}_{2} = 1;\\left\\{  {{r}_{2} = 2;\\left\\{  {{r}_{2} = 2}\\right. }\\right.  \\end{array}\\right.$ 这三种情况,此时 ${r}_{1}{r}_{2} - 1$ 分别为 $- 1\\text{、} - 1\\text{、}1$ ,都不是 3 的倍数,这与 ${ab} - 1$ 是 3 的倍数矛盾. 因此假设不成立,故 ${r}_{1} = {r}_{2}$ ,即 $a$ 与 $b$ 被 3 除的余数相同.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 434,
+        "end": 439
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 已知非空数集 $S$ 满足: 对任意给定的 $x\\text{ 、 }y \\in  S\\left( {x\\text{ 、 }y}\\right.$ 可以相同 $)$ ,有 $x + y \\in  S$ 且 $x - y \\in  S.$\n\n(1)哪个数一定是 $S$ 中的元素？说明理由；\n\n(2)若 $S$ 是有限集，求 $S$ ；\n\n(3)若 $S$ 中最小的正数为 5，求 $S$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 961,
+        "end": 967
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 961,
+        "end": 967
+      }
+    ],
+    "id": "bx1-chapter-end-1-t-2",
+    "category": "拓展与思考",
+    "answer": "2. (1) 由于 $S$ 非空,故 $S$ 中一定有元素. 设其中一个元素为 $a$ ,由题意, $0 = a - \\; a$ 一定是 $S$ 的元素. 另一方面, $S = \\{ 0\\}$ 满足条件,因此任何非零实数都可以不是 $S$ 的元素.\n\n(2)假设 $S$ 中有非零元素 $m$ ,则 $m + m = {2m}$ , ${2m} + m = {3m}$ ,依次类推,形如 ${mk}\\left( {k \\in  \\mathbf{N}, k > 0}\\right)$ 的所有实数都是 $S$ 的元素,与 $S$ 是有限集矛盾. 因此 $S = \\{ 0\\}$ .\n\n(3)首先,类似(2),5 的正整数倍一定是 $S$ 的元素.\n\n其次,由于 $- x = 0 - x,0 \\in  S$ ,故当 $x \\in  S$ 时,一定有 $- x \\in  S$ ,因此所有形如 ${5k}\\left( {k \\in  \\mathbf{Z}}\\right)$ 的数都是 $S$ 的元素.\n\n最后,假设 $S$ 中有形如 ${5k} + r\\left( {k \\in  \\mathbf{Z}, r \\in  \\left( {0,5}\\right) }\\right)$ 的元素,那么 $\\left( {{5k} + r}\\right)  - {5k} = \\; r \\in  S$ ,这与 $S$ 中最小的正数为 5 矛盾.\n\n综上所述, $S = \\{ n \\mid  n = {5k}, k \\in  \\mathbf{Z}\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 440,
+        "end": 451
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] COPI I M. Introduction to Logic(13th edition)[M]. Prentice Hall, 2009.\n\n[2] HALMOS P R. Naive Set Theory[M]. Springer, 1998.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 452,
+        "end": 458
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-chapter-end-1-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

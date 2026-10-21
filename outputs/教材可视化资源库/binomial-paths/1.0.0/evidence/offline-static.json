@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-10-19T16:47:04Z",
+  "runtimeSha256": "25cb6ff74fa3a7c9e06c878a73702e705423af85b83e1f3fe3b480ea60d86873",
+  "scope": "静态检查：HTML与SVG无外部依赖/私有绝对路径；内嵌源码与当前受检源码相同。不是浏览器离线验收。",
+  "status": "pass"
+}

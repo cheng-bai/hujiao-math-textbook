@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-4-1",
+  "book_id": "x1",
+  "section": "4.1",
+  "title": "等差数列",
+  "section_json": "batch/sections/x1/x1-4-1.json",
+  "output": "outputs/五册教材教参整合/x1/x1-4-1",
+  "fingerprint": "97dba8b6cf1ddebca8cba9537fd65f2aeb353f7ddf1252a90a81889c4c11e2ed",
+  "status": "rendered",
+  "questions": 27,
+  "answers": 27,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-9b7e5528e3891f66b531.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg",
+      "sha256": "9b7e5528e3891f66b531f82ddedaf9de5387592c0f4f470e0261fd2a748db50e",
+      "private": false
+    },
+    "images/book-68bc7d3b8757ad2d5fe9.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg",
+      "sha256": "68bc7d3b8757ad2d5fe90865521a21131be641472d1b4c3dc3036ccccec42e30",
+      "private": false
+    },
+    "images/book-8fd55f1e6dbcd25008a9.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg",
+      "sha256": "8fd55f1e6dbcd25008a918cee7d2e81743b5777063c0411986da3b5d90950e91",
+      "private": false
+    },
+    "images/book-b7774e55568ca09fe36e.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg",
+      "sha256": "b7774e55568ca09fe36e74d5b8255fdfbbb4feb8f1cc811553e2fd781769305d",
+      "private": false
+    },
+    "images/book-a52beb68a0b62eb03672.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg",
+      "sha256": "a52beb68a0b62eb036723ef3f6b2c54b0aac0c9292b8406198a55073adeb43c8",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "student_images": [
+    "images/book-68bc7d3b8757ad2d5fe9.jpg",
+    "images/book-8fd55f1e6dbcd25008a9.jpg",
+    "images/book-9b7e5528e3891f66b531.jpg",
+    "images/book-a52beb68a0b62eb03672.jpg",
+    "images/book-b7774e55568ca09fe36e.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "67e4beede6a8f83a6515a367d09ece6dcfc1fec64bea068d2c483799fd60c328",
+    "student.html": "587d23938913d47d076f5a496e73b154c085bda6b374ef863c5eac40c8ef5b8c",
+    "student.zip": "c0fe66cfef6701e45f72706d30032dd217608ffefb34414969c8f3ef7645aa63",
+    "content.json": "fca873798e6a90574c3bc1afabd94502260eb7d77d4e7625389ebe8f64ac77e2"
+  }
+}

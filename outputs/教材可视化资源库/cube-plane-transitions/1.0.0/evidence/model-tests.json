@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19T19:38:41Z",
+  "command": [
+    "node",
+    "scripts/textbook-labs/test-deep-spatial.mjs"
+  ],
+  "execution_context": "原教材项目根目录。测试还核对教材落点；资源包不包含整册教材，运行同一测试需原项目。",
+  "family": "deep-spatial",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"status\":\"passed\",\"checks\":4816,\"assets\":1}\n",
+  "tested_files": [
+    {
+      "path": "source/deep-spatial.js",
+      "sha256": "b4344b63a72a563a8c878fc3761309446a36c584fd03b330d28d9fee87aebdea"
+    },
+    {
+      "path": "source/deep-spatial.json",
+      "sha256": "68fc4de4d711fbaa3af3656be3d486b36caa2a531c06b5fff62b229345516486"
+    },
+    {
+      "path": "source/test-deep-spatial.mjs",
+      "sha256": "75cf16aaa824b5d81272106d928d3398ff1b2ccbca23155cce77e36e3f0a4645"
+    },
+    {
+      "path": "source/lab-core.js",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    }
+  ]
+}

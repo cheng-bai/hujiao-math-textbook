@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "fingerprint": "2a53b99fd4a686fe327f375acaa24883b4e2f315abeacac094ed6fad5c7f2ee7",
+  "checks": 19,
+  "tested_section": "bx2-7-3",
+  "scope": "Shared print UI, categories, modules, empty scope, density and answer controls. Section-specific render/PDF checks are not cached by this record."
+}

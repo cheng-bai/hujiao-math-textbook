@@ -1,0 +1,308 @@
+{
+  "asset_id": "2ea63315-6871-542e-8452-47f739d672bc",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:04Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "initial": 1,
+      "method": "babylon",
+      "steps": 4
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "fb3261a896e302959a38ded6625c5ec2e550befa70c255f34adcd4867d410c69",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x1-4-5-b2",
+          "rationale": "接替三种迭代算法及多张数表的反复比较。",
+          "sectionId": "x1-4-5",
+          "sourceSha256": "11b79809f1e32a877e50bf7b75598aa5245212116733523cdd8c7610774fe438"
+        }
+      ],
+      "sections": [
+        "x1-4-5"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31592,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "fb3261a896e302959a38ded6625c5ec2e550befa70c255f34adcd4867d410c69"
+    },
+    {
+      "bytes": 10836,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "84484fb9e54d854c9336f5726de60bf8fa0c8898892fa77a036c504e381b7a78"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 2041,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "8b5d025f26f3a64cebb32cf503c5f17a78afeb4d015167729615be8c4cdc2f3c"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 2696,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "959f0e251084f2e0d683410a00384cc59103f99a2a0ddd489e42dacccac08fd0"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "c088cfd748ab55a53377f985ef7ff4a2ae358fecae88fceaae45388d43a6508f"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 512,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "8061b8c94282c03b3d17249adbd78e96c00c63121ef40dd4cd49bb373f070a2e"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "求√2可把方程变成不动点迭代，但等价变形不保证收敛。正初值下巴比伦算法先到√2上方再下降；1+1/(x+1)交替逼近；2/x一般两值循环，仅初值恰是√2时固定。有限步图像不是收敛证明。"
+    ],
+    "learning_goals": [
+      "切换三个等价变形，用蛛网逐步比较迭代轨迹与误差。"
+    ],
+    "objects": [
+      "迭代求√2：收敛与来回振荡"
+    ],
+    "parameters": {
+      "initial": {
+        "default": 1,
+        "display_range": [
+          0.5,
+          4
+        ],
+        "domain": "本实验允许输入范围 [0.5, 4]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "method": {
+        "default": "babylon",
+        "domain": "允许的离散选项：[\"babylon\", \"slow\", \"reciprocal\"]",
+        "type": "enum"
+      },
+      "steps": {
+        "default": 4,
+        "display_range": [
+          0,
+          12
+        ],
+        "domain": "本实验允许输入范围 [0, 12]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "{\"kind\": \"derived\", \"paths\": [\"source-origins/Documents/ChatGPT/题库项目/question-studio/public/interactives/fixed-points.html\"], \"note\": \"复用不动点、蛛网路径与误差观察的教学设计；按教材三种迭代重写独立纯模型，未改另一项目。\"}",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "initial": 1,
+          "method": "babylon",
+          "steps": 4
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "sqrt2-iteration-compare",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "initial": {
+        "maximum": 4,
+        "minimum": 0.5,
+        "type": "number"
+      },
+      "method": {
+        "enum": [
+          "babylon",
+          "slow",
+          "reciprocal"
+        ],
+        "type": "string"
+      },
+      "steps": {
+        "maximum": 12,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "迭代求√2：收敛与来回振荡",
+  "updated_at": "2026-10-21T06:06:17.521033Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.129242Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "fb3261a896e302959a38ded6625c5ec2e550befa70c255f34adcd4867d410c69"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.129242Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "fb3261a896e302959a38ded6625c5ec2e550befa70c255f34adcd4867d410c69"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

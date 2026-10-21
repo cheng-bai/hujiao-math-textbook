@@ -1,0 +1,1068 @@
+[
+  {
+    "type": "section",
+    "title": "平面与平面的位置关系",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1206,
+        "end": 1206
+      }
+    ],
+    "id": "bx3-10-4",
+    "number": "10.4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 10.4 平面与平面的位置关系\n\n### 教学重点\n\n本节内容是在空间直线与直线的位置关系、直线与平面的位置关系的基础上进一步研究平面与平面的位置关系. 认识和理解平面与平面的各种位置关系, 通过探索、 发现并证明平面与平面平行的判定定理和性质定理、平面与平面垂直的判定定理和性质定理等, 理解二面角的概念, 认识到空间中的问题常常要转化到平面上来解决, 进一步感悟平面和空间相互转化的思想方法.\n\n### 内容分析\n\n教材在“10.1 平面及其基本性质”中根据公理 3 ,按照平面与平面有没有公共点已经讨论了两个平面的位置关系. 平面与平面的位置关系是在研究直线与平面的位置关系的基础上进一步讨论的又一重要的空间图形的位置关系. 本节内容的编排顺序是平面与平面平行的判定、性质; 平面与平面所成的角; 平面与平面垂直的判定、性质. 其中, 判定定理和性质定理的证明是难点所在.\n\n由平面与平面平行的定义可知, 如果两个平面平行, 那么其中一个平面上的任意一条直线都平行于另一个平面；反之亦然. 但由于一个平面上有无穷多条直线,因此需要把“无限”转化为“有限”, 由此引进了平面与平面平行的判定定理. 判定定理是通过直线与平面的平行, 进而达到证明平面与平面平行的目的, 这是处理空间位置关系的一种常用方法,体现了“直线与平面平行”和“平面与平面平行”互相转化的数学思想.\n\n反过来, 平面与平面平行的性质定理是由平面与平面平行, 进而证明直线与直线平行, 是根据平面与平面平行的定义以及平行线的定义来证明的, 仍然是将空间问题转化为平面问题. 平面与平面平行的性质定理是证明直线与直线平行的一个重要依据, 体现了“平面与平面平行”和“直线与直线平行”互相转化的数学思想.\n\n例 1 是运用平面与平面平行的判定定理讨论长方体模型中两个截面的平行问题. 长方体是研究平面与平面平行关系的一个直观模型, 教学时可以不限制于教材中给定的截面. 可以让学生从长方体的表面开始, 到一些简单的截面, 充分讨论长方体表面与截面的各种平行位置. 熟悉定理的同时, 理解平面与平面平行的充分与必要条件.\n\n两个平面平行的性质定理的推理过程并不复杂, 难的是看清复杂空间图形中的各种位置关系. 教学时可以让学生先看长方体教具模型, 然后让他们自己尝试去画一画题设图形, 在这一过程中可以培养空间想象能力.\n\n例 2 是两个平面平行的性质定理的简单应用. 教材给出的证明是基于直线与平面垂直的定义的, 教学时也可以让学生运用直线与平面垂直的判定定理来完成.\n\n二面角是刻画两个相交平面位置关系的一个度量. 在国家课程标准中没有对二面角的概念提出要求, 本套教材之所以把它列入教学内容, 一方面是为了知识体系的完整性, 因为二面角是确定两个平面一般位置的基本方法; 另一方面也是为学生进一步发展直观想象与空间推理能力提供机会. 教学的重点可以放在二面角的平面角的构造上, 角的度量大小可以在后期的空间向量中重点解决.\n\n教材从直二面角引入平面与平面垂直的概念, 这样就把平面与平面垂直看作是二面角的一种特殊情况. 平面与平面垂直的判定定理体现了“直线与平面垂直”和“平面与平面垂直”互相转化的数学思想. 由于两个平面垂直的判断以后可以利用平面的法向量来解决, 因此这里只要求学生能够处理正方体和长方体中的一些相关问题.\n\n### 注意事项\n\n在探究两个平面的位置关系时可以类比平面几何中的两条直线的位置关系, 其研究思路则是转化为直线与平面的位置关系. 对于平面与平面的位置关系所要研究的内容和方法, 要始终结合直线与平面的位置关系所研究的内容和方法, 引导学生进行类比. 如果直线与直线、直线与平面的位置关系在头脑中牢固建立了, 那么平面与平面的位置关系的学习就会轻车熟路.\n\n平面与平面平行的判定定理的证明用的是反证法, 并不难证明, 但需要一定的空间想象能力. 平面与平面垂直的判定定理的证明, 是先作出二面角, 然后说明这个二面角是直二面角, 从而根据定义就证明了平面与平面垂直. 这些都是培养学生的逻辑推理能力的有利时机.\n\n本节内容与“二期课改”教材相比,增加了面面平行的判定定理和性质定理、面面垂直的判定定理和性质定理等一些重要结论, 尤其是增加了对推理论证的要求.\n\n二面角的学习不仅仅是为定义面面垂直服务, 更是为了完善平面与平面的位置关系, 培养学生的空间想象能力. 这里可以淡化平面与平面所成的角、距离的计算问题.\n\n注意平面与平面各种位置关系的直观图的正确画法, 注意正确使用符号语言表示平面与平面的各种位置关系.\n\n### 教学建议\n\n(1)平面与平面平行.\n\n借助实际情境,如教室、长方体模型、三角板等,通过观察、实验、操作,探索发现平面与平面平行的判定定理和性质定理. 通过演绎论证, 尝试证明判定定理和性质定理. 平面与平面平行的判定定理说明, 可以通过直线与平面平行证明平面与平面平行. 平面与平面平行的性质定理说明, 可以通过平面与平面平行证明直线与直线平行.\n\n教材用反证法简明扼要地证明了平面与平面平行的判定定理, 而对于平面与平面平行的性质定理, 也可以引导学生用反证法证明.\n\n教材中通过水平仪应用的例子, 说明了判定定理的应用性, 不但帮助学生理解定理的内涵,还和实际的生活工作相联系,丰富学生的生活知识,为提高学生的实践能力作准备.\n\n在平面几何中, 有结论 “若一条直线垂直于两条平行直线中的一条, 则它必垂直于另一条直线”. 那么在立体几何中,是否有类似的结论成立呢？这就引出了例 2 的教学.\n\n这里, 可以根据学生的实际情况, 引入国家课程标准中的“案例 11 正方体截面的探究”. 结合正方体截面设计的问题串, 引导学生完成探究、发现、证明新问题的过程, 积累数学探究的经验.\n\n【案例 11】用一个平面截正方体, 截面的形状将会是什么样的? 启发学生提出逐渐深入的系列问题, 引导学生进行逐渐深刻的思考. 学生可以自主或在教师引导下提出一些问题, 例如:\n\n(1)给出截面图形的分类原则,找到截得这些形状截面的方法,画出这些截面的示意图. 例如, 可以按照截面图形的边数进行分类(图 10-R3).\n\n(2)如果截面是三角形,可以截出几类不同的三角形？为什么？\n\n(3)如果截面是四边形, 可以截出几类不同的四边形? 为什么?\n\n(4)还能截出哪些多边形？为什么？\n\n然后进一步探讨:\n\n(5)能否截出正五边形？为什么？\n\n(6)能否截出直角三角形？为什么？\n\n(7)有没有可能截出边数超过 6 的多边形? 为什么?\n\n(8)是否存在正六边形的截面？为什么？\n\n(9)截面面积最大的三角形是什么形状的三角形？为什么？\n\n![bo_d402s6jef24c73d2tl40_36_498_614_622_457_0.jpg](images/private-bf62c4b332a94f354747.jpg)\n\n图 10-R3\n\n这是一个跨度很大的数学问题串, 可以针对不同学生, 设计不同的教学方式, 通过多种方法实施探究. 例如,可以通过切萝卜块观察,启发思路；也可以在透明的正方体盒子中注入有颜色的水,观察不同摆放位置、不同水量时的液体表面的形状；还可以借助信息技术直观快捷地展示各种可能的截面. 但是, 观察不能代替证明. 探究的难点是分类找出所有可能的截面, 并证明哪些形状的截面一定存在或者一定不存在. 可以鼓励学生通过操作观察, 形成猜想, 证明结论. 经历这样逐渐深入的探究过程, 有利于培养学生发现问题、分类讨论、作图表达、推理论证等能力, 在具体情境中提升直观想象、数学抽象、逻辑推理等素养,积累数学探究活动经验.\n\n(2)二面角.\n\n二面角是平面上“角”的概念的类比,是两个相交平面位置关系的描述. 可以从开门、翻书、笔记本电脑打开时的状态等生活中的实例引入二面角的概念. 角的大小可以测量, 并得到一个确定的量, 二面角的大小也必须用一个量来刻画, 所以引入了二面角的平面角的概念, 用平面角的大小来刻画二面角的大小. 这里要强调的是, 虽然二面角的平面角不唯一, 但所有平面角的大小是一样的, 从而给出一个确定的量来刻画二面角的大小. 在此基础上, 再类比平面上的直角, 就定义了直二面角以及平面与平面的垂直关系.\n\n平面与平面垂直的判定定理和性质定理说明, 直线与平面的垂直关系和平面与平面的垂直关系的互相转化, 是解决空间图形问题的一种重要思想方法.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 362,
+        "end": 445
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx3-10-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "两个平面的位置关系只有两种情况:平行或相交. 在本节中, 我们将讨论如何判断平面间的平行与垂直关系, 以及如何更精确地刻画两个相交平面间的位置关系.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1207,
+        "end": 1209
+      }
+    ],
+    "id": "bx3-10-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 平面与平面平行",
+    "markdown": "### 1 平面与平面平行",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1210,
+        "end": 1210
+      }
+    ],
+    "id": "bx3-10-4-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们希望通过直线间或线面间的平行关系来判断平面间的平行关系. 为此, 先思考下面的问题:\n\n(1)如果平面 $\\alpha$ 平行于平面 $\\beta$ ,那么这两个平面上的一切直线都相互平行吗?\n\n(2)如果平面 $\\alpha$ 上有一条直线与平面 $\\beta$ 平行,那么能保证这两个平面平行吗?\n\n(3)如果平面 $\\alpha$ 上有两条相交直线与平面 $\\beta$ 平行，那么能保证这两个平面平行吗?\n\n问题(1)的回答是否定的. 事实上，长方体的上、下两个底面平行,但这两个底面上的直线间有不同的位置关系,如 ${AB}$ 平行于 ${A}_{1}{B}_{1}$ ,而 ${AB}$ 与 ${A}_{1}{D}_{1}$ 异面且垂直,如图 10-4-1 所示.\n\n![bo_d4slm1v7aajc73fspjsg_34_1125_1288_349_211_0.jpg](images/book-87fcbe7acb1f11b3e34a.jpg)\n\n图 10-4-1\n\n问题(2)的回答也是否定的. 例如，当三角板的一条边所在的直线与桌面所在的平面平行时, 不能保证三角板所在平面与桌面所在平面保持平行, 因为这个三角板还可以绕这条边转动.\n\n至于问题(3)，其答案应是肯定的，因为两条相交的直线完全确定了这个平面. 我们可以用反证法来严格地加以证明: 如图 10-4-2,假设 $\\alpha$ 不平行于 $\\beta$ ,那么 $\\alpha$ 与 $\\beta$ 相交于直线 $l$ . 由直线与平面平行的性质定理知,直线 $a$ 及 $b$ 均平行于 $l$ ,从而 $a//b$ . 这与已知 $a\\text{ 、 }b$ 是相交直线矛盾. 故假设不成立,即 $\\alpha //\\beta$ .\n\n![bo_d4slm1v7aajc73fspjsg_34_1156_1605_287_194_0.jpg](images/book-0535ce6c1d19b1bfdced.jpg)\n\n图 10-4-2\n\n由此, 我们就得到了下面的定理.\n\n两个平面平行的判定定理 如果一个平面上的两条相交直线与另一个平面平行, 那么这两个平面平行.\n\n上述定理可以帮助我们方便地判断两个平面是否平行. 例如, 在测量时, 为判断一个平面与水平面是否平行, 可将水平仪 (图 10-4-3)置放在这个平面上, 并变换方向测试两次, 如果水平仪的水泡两次都居中, 就可以断定这个平面和水平面是平行的.\n\n![bo_d4slm1v7aajc73fspjsg_35_182_229_332_199_0.jpg](images/book-2b07e15ffdeeb114cea2.jpg)\n\n图 10-4-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1211,
+        "end": 1243
+      }
+    ],
+    "id": "bx3-10-4-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 证明: 长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的平面 $A{B}_{1}{D}_{1}$ 平行于平面 ${C}_{1}{DB}$ .\n\n![bo_d4slm1v7aajc73fspjsg_35_178_561_330_238_0.jpg](images/book-898e4eb38f3cc17a2b87.jpg)\n\n图 10-4-4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1244,
+        "end": 1249
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1244,
+        "end": 1249
+      }
+    ],
+    "id": "bx3-10-4-ex-1",
+    "category": "例题",
+    "answer": "证明 如图 10-4-4,不在平面 $A{B}_{1}{D}_{1}$ 上的直线 $B{C}_{1}$ 平行于平面 $A{B}_{1}{D}_{1}$ 上的直线 $A{D}_{1}$ ,所以直线 $B{C}_{1}//$ 平面 $A{B}_{1}{D}_{1}$ . 同理,不在平面 $A{B}_{1}{D}_{1}$ 上的直线 ${C}_{1}D//$ 平面 $A{B}_{1}{D}_{1}$ . 因为 $B{C}_{1}$ 与 ${C}_{1}D$ 是相交直线,所以它们确定的平面 ${C}_{1}{BD}//$ 平面 $A{B}_{1}{D}_{1}$ .\n\n由上面的讨论可知, 如果两个平面平行, 一个平面上的直线与另一个平面上的直线可能是平行的, 也有可能是异面的. 那么, 如何在两个平行平面上找到相互平行的直线呢? 为此, 我们来考察两个平行平面与第三个平面相交的情况, 得出下面的定理.\n\n![bo_d4slm1v7aajc73fspjsg_35_206_1091_283_313_0.jpg](images/private-8940ac66d0ad2300910e.jpg)\n\n图 10-4-5\n\n两个平面平行的性质定理 如果两个平行平面同时和第三个平面相交,那么它们的交线平行.\n\n证明 如图 10-4-5,设平面 $\\gamma$ 与平行平面 $\\alpha \\text{ 、 }\\beta$ 相交,有两条交线 $a\\text{ 、 }b$ . 因为 $\\alpha //\\beta$ ,所以 $\\alpha \\text{ 、 }\\beta$ 没有公共点,从而交线 $a$ 、 $b$ 也没有公共点. 又因为 $a\\text{ 、 }b$ 都在平面 $\\gamma$ 上,所以 $a//b$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1250,
+        "end": 1261
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 若一条直线 $l$ 垂直于两个平行平面 $\\alpha \\text{ 、 }\\beta$ 中的一个平面 $\\alpha$ ,则它必垂直于另一个平面 $\\beta$ .\n\n![bo_d4slm1v7aajc73fspjsg_35_220_1518_256_295_0.jpg](images/book-594c4331e93036d4f5e0.jpg)\n\n图 10-4-6",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1262,
+        "end": 1267
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1262,
+        "end": 1267
+      }
+    ],
+    "id": "bx3-10-4-ex-2",
+    "category": "例题",
+    "answer": "证明 如图 10-4-6,记 $A$ 为直线 $l$ 与平面 $\\alpha$ 的交点 (垂足). 设 $b$ 是平面 $\\beta$ 内任意给定的一条直线,而平面 $\\gamma$ 是经过点 $A$ 与直线 $b$ 的平面. 设 $\\gamma  \\cap  \\alpha  = a$ .\n\n因为平面 $\\alpha //$ 平面 $\\beta$ ,平面 $\\gamma$ 与平面 $\\alpha$ 和平面 $\\beta$ 的交线分别为直线 $a$ 和直线 $b$ ,所以 $a//b$ . 又因为直线 $l$ 垂直于平面 $\\alpha$ ,所以 $l \\bot  b$ . 由直线与平面垂直的定义,知 $l \\bot  \\beta$ .\n\n在 10.3 节我们已经定义过点到平面的距离以及一条直线到与它平行的平面的距离, 现在可以进一步定义两个平行平面之间的距离. 为此,先注意到,如果平面 $\\alpha //$ 平面 $\\beta$ ,在平面 $\\alpha$ 上任取两点 $M$ 与 $N$ ,那么平面 $\\alpha$ 上的直线 ${MN}$ 与平面 $\\beta$ 没有交点, 所以 ${MN}//$ 平面 $\\beta$ (图 10-4-7). 由此可见,点 $M$ 与点 $N$ 到平面 $\\beta$ 的距离是相等的. 这说明了平面 $\\alpha$ 上的任意点到平面 $\\beta$ 的距离都相等. 这个距离也等于平面 $\\beta$ 上任意一点到平面 $\\alpha$ 的距离: 如图10-4-7,过平面 $\\alpha$ 上的点 $M$ 作平面 $\\beta$ 的垂线,交平面 $\\beta$ 于 ${M}^{\\prime }$ , 则 $M{M}^{\\prime }$ 既是点 $M$ 到平面 $\\beta$ 的距离,也是点 ${M}^{\\prime }$ 到平面 $\\alpha$ 的距离.\n\n![bo_d4slm1v7aajc73fspjsg_36_1139_223_321_224_0.jpg](images/private-d318d7e6988f31fa6cfe.jpg)\n\n图 10-4-7\n\n这样, 我们可以把两个平行平面之间的距离定义为其中一个平面上的任意一点到另外一个平面的距离. 上一段的论述表明这样的定义是没有歧义的.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1268,
+        "end": 1279
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 10.4(1)",
+    "markdown": "#### 练习 10.4(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1280,
+        "end": 1280
+      }
+    ],
+    "id": "bx3-10-4-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(1) · 1",
+    "markdown": "1. 判断下列命题的真假, 并说明理由:\n\n(1)若一个平面内的两条直线均平行于另一个平面，则这两个平面平行；\n\n(2)若一个平面内两条不平行的直线都平行于另一个平面，则这两个平面平行；\n\n(3)若两个平面平行，则其中一个平面中的任何直线都平行于另一个平面；\n\n(4)平行于同一个平面的两个平面平行；\n\n(5)若一个平面内的任何一条直线都平行于另一个平面, 则这两个平面平行.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1282,
+        "end": 1297
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1282,
+        "end": 1297
+      }
+    ],
+    "id": "bx3-10-4-p1041-1",
+    "category": "练习10.4(1)",
+    "answer": "1. (1) 假命题. (2)真命题. (3)真命题. (4)真命题.\n\n(5) 真命题.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 744,
+        "end": 747
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(1) · 2",
+    "markdown": "2. 如图,已知正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ ,求:\n\n(1)点 ${A}_{1}$ 到直线 ${BC}$ 的距离；\n\n(2)点 $A$ 到平面 ${B}_{1}{BC}{C}_{1}$ 的距离；\n\n(3) ${B}_{1}{D}_{1}$ 到平面 ${ABCD}$ 的距离；\n\n(4)平面 ${B}_{1}{BC}{C}_{1}$ 到平面 ${A}_{1}{AD}{D}_{1}$ 的距离.\n\n![bo_d4slm1v7aajc73fspjsg_36_1201_981_270_272_0.jpg](images/book-db2a7f507bef8e367273.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1298,
+        "end": 1307
+      },
+      {
+        "source": "book",
+        "start": 1294,
+        "end": 1296
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1298,
+        "end": 1307
+      },
+      {
+        "source": "book",
+        "start": 1294,
+        "end": 1296
+      }
+    ],
+    "id": "bx3-10-4-p1041-2",
+    "category": "练习10.4(1)",
+    "answer": "2. (1) $\\sqrt{2}a$ . (2) $a$ . (3) $a$ . (4) $a$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 748,
+        "end": 749
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(1) · 3",
+    "markdown": "3. 证明:夹在两个平行平面间的平行线段相等.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1308,
+        "end": 1309
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1308,
+        "end": 1309
+      }
+    ],
+    "id": "bx3-10-4-p1041-3",
+    "category": "练习10.4(1)",
+    "answer": "3. 已知 $\\alpha //\\beta , A \\in  \\alpha , B \\in  \\alpha ,{A}_{1} \\in  \\beta ,{B}_{1} \\in  \\beta , A{A}_{1}//B{B}_{1}$ . 求证: $A{A}_{1} = B{B}_{1}$ .\n\n证明: 因为 $A{A}_{1}//B{B}_{1}$ ,所以由 $A{A}_{1}$ 和 $B{B}_{1}$ 可确定平面 $\\gamma$ . 由两个平面平行的性质定理,知 ${AB}//{A}_{1}{B}_{1}$ ,所以 ${AB}{B}_{1}{A}_{1}$ 为平行四边形,从而 $A{A}_{1} = B{B}_{1}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 750,
+        "end": 753
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 二面角",
+    "markdown": "### 2 二面角",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1310,
+        "end": 1310
+      }
+    ],
+    "id": "bx3-10-4-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在开门时，有时开得大些，有时开得小些，这里的“大”或 “小”，可用门所在平面和门框所在平面之间的夹角来度量. 现在, 我们来定义两个平面之间的夹角.\n\n![bo_d4slm1v7aajc73fspjsg_36_1107_1518_394_208_0.jpg](images/book-4986de96555123feb4b8.jpg)\n\n图 10-4-8\n\n![bo_d4slm1v7aajc73fspjsg_36_1104_1889_397_180_0.jpg](images/book-bcdfcdf0ff4907b0ca1d.jpg)\n\n图 10-4-9\n\n如图 10-4-8, 从一条直线出发的两个半平面所组成的图形叫做二面角(dihedral angle). 这条直线叫做二面角的棱, 这两个半平面叫做二面角的面. 棱为 ${AB}$ ,两个面为 $\\alpha \\text{ 、 }\\beta$ 的二面角,记作二面角 $\\alpha  - {AB} - \\beta$ ；也可以在 $\\alpha \\text{ 、 }\\beta$ 上(棱以外的半平面部分)分别取点 $P\\text{ 、 }Q$ ,将这个二面角记作二面角 $P - {AB} - Q$ . 如果棱记作 $l$ ,那么这个二面角也可以记作二面角 $\\alpha  - l - \\beta$ 或 $P - l - Q$ .\n\n下面我们要讨论的问题是应该如何刻画一个二面角的大小.\n\n如图 10-4-9,若在二面角 $\\alpha  - l - \\beta$ 的棱 $l$ 上任取一点 $O$ ,且过 $O$ 分别在面 $\\alpha$ 、 $\\beta$ 上作棱 $l$ 的垂线 ${OA}$ 和 ${OB}$ ,容易证明射线 ${OA}$ 和 ${OB}$ 构成的角 $\\angle {AOB}$ 的大小与点 $O$ 的取法无关. 因此,我们可以用 $\\angle {AOB}$ 来表示二面角 $\\alpha  - l - \\beta$ 的大小,并称其为二面角 $\\alpha  - l - \\beta$ 的平面角. 二面角的取值范围是 $\\left\\lbrack  {0,\\pi }\\right\\rbrack$ . 当二面角 $\\alpha  - l - \\beta$ 的大小等于直角时, 我们称这个二面角为直二面角.\n\n当两个平面相交所成的二面角是直二面角时, 我们就说这两个平面互相垂直.\n\n两个互相垂直的平面, 一般画成图 10-4-10 的样子: 将直立平面的竖边画成和水平平面的横边垂直. 平面 $\\alpha$ 与平面 $\\beta$ 垂直， 记作 $\\alpha  \\bot  \\beta$ .\n\n![bo_d4slm1v7aajc73fspjsg_37_699_722_650_205_0.jpg](images/book-a654c6ae38a00f39f8a7.jpg)\n\n图 10-4-10\n\n用下面的定理判定两个平面垂直比直接用定义要方便一些.\n\n平面与平面垂直的判定定理 如果一个平面经过另一个平面的一条垂线,那么这两个平面垂直.\n\n证明 设平面 $\\beta$ 过另一平面 $\\alpha$ 的垂线 ${OA}$ ,点 $O$ 在平面 $\\alpha$ 上, 则平面 $\\beta$ 与平面 $\\alpha$ 交于过点 $O$ 的直线 $l$ ，且 ${OA} \\bot  l$ . 如图 10-4-11， 在平面 $\\alpha$ 上过点 $O$ 作 ${OB} \\bot  l$ ，则 $\\angle {AOB}$ 是二面角 $\\alpha  - l - \\beta$ 的平面角. 由 ${OA} \\bot  \\alpha$ 与 ${OB} \\subset  \\alpha$ ,推出 ${OA} \\bot  {OB}$ ,即 $\\angle {AOB}$ 是直角,从而二面角 $\\alpha  - l - \\beta$ 是直二面角,所以 $\\beta  \\bot  \\alpha$ .\n\n![bo_d4slm1v7aajc73fspjsg_37_196_1260_302_206_0.jpg](images/book-d2554bb81dc85a9dcae4.jpg)\n\n图 10-4-11\n\n上面的定理的条件与结论实际上是一对充要条件, 也就是说, 我们还可以证明: 如果两个平面垂直, 那么其中一个平面过另一个平面的一条垂线. 下面的定理是这个结论的推广.\n\n平面与平面垂直的性质定理 如果两个平面垂直, 那么其中一个平面上垂直于两平面交线的直线与另一个平面垂直.\n\n证明 仍参看图 10-4-11,平面 $\\alpha  \\bot$ 平面 $\\beta$ ,它们的交线是 $l$ . 直线 ${OA} \\subset  \\beta$ ,且 ${OA} \\bot  l$ ,垂足是 $O$ . 过点 $O$ 在平面 $\\alpha$ 上作 ${OB} \\bot  l$ , 则 $\\angle {AOB}$ 是二面角 $\\alpha  - l - \\beta$ 的平面角. 由于 $\\beta  \\bot  \\alpha ,\\angle {AOB}$ 是直角, 即 ${OA} \\bot  {OB}$ ,这个条件连同条件 ${OA} \\bot  l$ 立即推出 ${OA} \\bot$ 平面 $\\alpha$ .\n\n![bo_d4slm1v7aajc73fspjsg_38_1141_226_315_311_0.jpg](images/book-2934fb4a0f237a1c4839.jpg)\n\n图 10-4-12",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1311,
+        "end": 1355
+      }
+    ],
+    "emphases": [
+      {
+        "start": 282,
+        "end": 597,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-10-4-definition-12-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1801,
+        "end": 1884,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-10-4-definition-12-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx3-10-4-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 如图 10-4-12,已知正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ .\n\n(1)作出二面角 ${A}_{1} - {BD} - A$ 的平面角;\n\n(2)求证:平面 ${A}_{1}{AC}{C}_{1}\\bot$ 平面 ${A}_{1}{BD}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1356,
+        "end": 1361
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1356,
+        "end": 1361
+      }
+    ],
+    "id": "bx3-10-4-ex-3",
+    "category": "例题",
+    "answer": "解(1)连接 ${AC},{AC}$ 与 ${BD}$ 交于点 $O$ ,则 ${AC} \\bot  {BD}$ ,连接 $O{A}_{1}$ . 由 ${A}_{1}B = {A}_{1}D$ ,知 ${A}_{1}O \\bot  {BD}$ ,所以 $\\angle {A}_{1}{OA}$ 就是二面角 ${A}_{1} - {BD} - A$ 的一个平面角.\n\n(2)证明:因为 ${A}_{1}A \\bot$ 平面 ${ABCD}$ ，所以 ${BD} \\bot  {A}_{1}A$ . 再由 ${BD} \\bot  {AC},{A}_{1}A \\cap  {AC} = A$ ，可得 ${BD} \\bot$ 平面 ${A}_{1}{AC}{C}_{1}$ . 由上述判定定理,得平面 ${A}_{1}{AC}{C}_{1} \\bot$ 平面 ${A}_{1}{BD}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1362,
+        "end": 1365
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 10.4(2)",
+    "markdown": "#### 练习 10.4(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1366,
+        "end": 1366
+      }
+    ],
+    "id": "bx3-10-4-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(2) · 1",
+    "markdown": "1. 已知平面 $\\alpha  \\bot$ 平面 $\\beta$ ,判断下列命题是否正确,并说明理由:\n\n(1)平面 $\\alpha$ 上的任意一条直线都垂直于平面 $\\beta$ 上的任意一条直线；\n\n(2)平面 $\\alpha$ 上的任意一条直线都垂直于平面 $\\beta$ 上的无数条直线；\n\n\n(3)平面 $\\alpha$ 上的任意一条直线都垂直于平面 $\\beta$ ；\n\n(4)过平面 $\\alpha$ 上任意一点作平面 $\\alpha$ 与 $\\beta$ 交线的垂线 $l$ ，则 $l\\bot \\beta$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1368,
+        "end": 1381
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1368,
+        "end": 1381
+      }
+    ],
+    "id": "bx3-10-4-p1042-1",
+    "category": "练习10.4(2)",
+    "answer": "1.(1)不正确. (2)正确. (3)不正确. (4)不正确.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 756,
+        "end": 757
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(2) · 2",
+    "markdown": "2. 如图,已知 ${AB} \\bot$ 平面 ${BCD},{BC} \\bot  {CD}$ ,有哪些平面互相垂直? 为什么?\n\n![bo_d4slm1v7aajc73fspjsg_38_1147_1006_323_267_0.jpg](images/book-ce0ecf506e2d8f85f46c.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1382,
+        "end": 1383
+      },
+      {
+        "source": "book",
+        "start": 1374,
+        "end": 1376
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1382,
+        "end": 1383
+      },
+      {
+        "source": "book",
+        "start": 1374,
+        "end": 1376
+      }
+    ],
+    "id": "bx3-10-4-p1042-2",
+    "category": "练习10.4(2)",
+    "answer": "2. 平面 ${ABC} \\bot$ 平面 ${BCD}$ ,平面 ${ABD} \\bot$ 平面 ${BCD}$ ,平面 ${ACD} \\bot$ 平面 ${ABC}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 758,
+        "end": 759
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习10.4(2) · 3",
+    "markdown": "3. 证明: 如果两个平面垂直, 那么过第一个平面上一点且垂直于第二个平面的直线, 必在第一个平面上.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1384,
+        "end": 1385
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1384,
+        "end": 1385
+      }
+    ],
+    "id": "bx3-10-4-p1042-3",
+    "category": "练习10.4(2)",
+    "answer": "3. 已知 $\\alpha  \\bot  \\beta , P \\in  \\alpha , P \\in  a, a \\bot  \\beta$ . 求证: $a \\subset  \\alpha$ .\n\n证明: 设 $\\alpha  \\cap  \\beta  = c$ ,过点 $P$ 在平面 $\\alpha$ 上作直线 $b \\bot  c$ . 根据平面与平面垂直的性质定理,可知 $b \\bot  \\beta$ . 又 $a \\bot  \\beta$ ,所以 $a//b$ . 而 $a \\cap  b = P$ ,所以 $a$ 与 $b$ 重合,即 $a \\subset  \\alpha$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 760,
+        "end": 763
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 10.4",
+    "markdown": "#### 习题 10.4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1386,
+        "end": 1386
+      }
+    ],
+    "id": "bx3-10-4-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "##### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1388,
+        "end": 1388
+      }
+    ],
+    "id": "bx3-10-4-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 1",
+    "markdown": "1. 判断下列命题的真假, 并说明理由:\n\n(1)平行于同一条直线的两个平面平行;\n\n(2)若两个平面分别经过两条平行直线，则这两个平面平行；\n\n(3)分别在两个平行平面上的两条直线平行；\n\n(4)与两条异面直线都平行的两个平面平行.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1390,
+        "end": 1399
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1390,
+        "end": 1399
+      }
+    ],
+    "id": "bx3-10-4-h104A-1",
+    "category": "习题10.4A",
+    "answer": "1.(1)假命题,理由略. (4)真命题,理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 768,
+        "end": 769
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 2",
+    "markdown": "2. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, ${AE} = {A}_{1}{E}_{1},{AF} = {A}_{1}{F}_{1}$ . 求证: ${EF}// \\; {E}_{1}{F}_{1}$ ,且 ${EF} = {E}_{1}{F}_{1}$ .\n\n![bo_d4slm1v7aajc73fspjsg_39_434_248_305_293_0.jpg](images/book-5fba4c647acc7621490b.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1400,
+        "end": 1401
+      },
+      {
+        "source": "book",
+        "start": 1404,
+        "end": 1406
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1400,
+        "end": 1401
+      },
+      {
+        "source": "book",
+        "start": 1404,
+        "end": 1406
+      }
+    ],
+    "id": "bx3-10-4-h104A-2",
+    "category": "习题10.4A",
+    "answer": "2. 提示: 因为 $E{E}_{1}$ 与 $A{A}_{1}$ 平行且相等, $F{F}_{1}$ 与 $A{A}_{1}$ 平行且相等,所以 $E{E}_{1}$ 与 $F{F}_{1}$ 平行且相等,故四边形 $E{E}_{1}{F}_{1}F$ 为平行四边形,得证.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 770,
+        "end": 771
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 3",
+    "markdown": "3. 如图, $A\\text{ 、 }B\\text{ 、 }C$ 为不共线的三点, $A{A}_{1}//B{B}_{1}//C{C}_{1}$ ,且 $A{A}_{1} = B{B}_{1} = C{C}_{1}$ . 求证: 平面 ${ABC}//$ 平面 ${A}_{1}{B}_{1}{C}_{1}$ .\n\n![bo_d4slm1v7aajc73fspjsg_39_957_227_284_313_0.jpg](images/book-39826af84a900b386db4.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1402,
+        "end": 1411
+      },
+      {
+        "source": "book",
+        "start": 1408,
+        "end": 1410
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1402,
+        "end": 1411
+      },
+      {
+        "source": "book",
+        "start": 1408,
+        "end": 1410
+      }
+    ],
+    "id": "bx3-10-4-h104A-3",
+    "category": "习题10.4A",
+    "answer": "3. 因为 $A{A}_{1}$ 与 $B{B}_{1}$ 平行且相等,所以 $A{A}_{1}{B}_{1}B$ 为平行四边形,故平面 ${A}_{1}{B}_{1}{C}_{1}$ 外的直线 ${AB}$ 平行于此平面上的直线 ${A}_{1}{B}_{1}$ ,所以 ${AB}//$ 平面 ${A}_{1}{B}_{1}{C}_{1}$ . 同理 ${AC}//$ 平面 ${A}_{1}{B}_{1}{C}_{1}$ . 又 ${AB} \\cap  {AC} = A$ ,得证.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 772,
+        "end": 773
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 4",
+    "markdown": "4. 如图,直线 $a$ 及直线 $b$ 是异面直线,直线 $a\\text{ 、 }b$ 分别在两个平行平面 $\\alpha$ 和 $\\beta$ 上. 又设直线 $l\\bot a, l\\bot b$ . 求证: $l\\bot \\alpha , l\\bot \\beta$ .\n\n![bo_d4slm1v7aajc73fspjsg_39_489_829_291_242_0.jpg](images/book-083a9db338e839623205.jpg)\n\n(第 4 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1412,
+        "end": 1421
+      },
+      {
+        "source": "book",
+        "start": 1414,
+        "end": 1416
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1412,
+        "end": 1421
+      },
+      {
+        "source": "book",
+        "start": 1414,
+        "end": 1416
+      }
+    ],
+    "id": "bx3-10-4-h104A-4",
+    "category": "习题10.4A",
+    "answer": "4. 提示: 过 $b$ 作平面 $\\gamma$ ,使 $\\alpha  \\cap  \\gamma  = c$ . 因为 $\\alpha //\\beta , b \\subset  \\beta$ ,所以 $b//c$ . 因为 $a$ 与 $b$ 异面,所以 $a$ 与 $c$ 相交. 因为 $l \\bot  b$ , $b//c$ ,所以 $l \\bot  c$ . 又 $l \\bot  a$ , $a$ 与 $c$ 相交,所以 $l \\bot  \\alpha$ . 因为 $\\alpha //\\beta$ ,所以 $l \\bot  \\beta$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 774,
+        "end": 775
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 5",
+    "markdown": "5. 如图,设 $\\alpha \\text{ 、 }\\beta \\text{ 、 }\\gamma$ 三平面互相平行,直线 $a$ 与 $b$ 分别交 $\\alpha \\text{ 、 }\\beta \\text{ 、 }\\gamma$ 于点 $A\\text{ 、 }B\\text{ 、 }C$ 和点 $D\\text{ 、 }E\\text{ 、 }F$ . 求证: $\\frac{AB}{BC} = \\frac{DE}{EF}$ .\n\n![bo_d4slm1v7aajc73fspjsg_39_929_726_258_343_0.jpg](images/book-ab47d4691092ce2ff15a.jpg)\n\n(第 5 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1422,
+        "end": 1423
+      },
+      {
+        "source": "book",
+        "start": 1418,
+        "end": 1420
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1422,
+        "end": 1423
+      },
+      {
+        "source": "book",
+        "start": 1418,
+        "end": 1420
+      }
+    ],
+    "id": "bx3-10-4-h104A-5",
+    "category": "习题10.4A",
+    "answer": "5. 提示: 以直线 $a\\text{、}b$ 是否共面分类讨论. 当直线 $a$ 与 $b$ 共面时,由平面与平面平行的性质定理可知 ${AD}//{BE}//{CF}$ ,易证结论成立; 当直线 $a$ 与 $b$ 不共面时,过点 $A$ 作直线 $b$ 的平行线,分别与平面 $\\beta \\text{、}\\gamma$ 交于 ${B}_{1}\\text{、}{C}_{1}$ 点,易证 $\\frac{AB}{BC} = \\frac{A{B}_{1}}{{B}_{1}{C}_{1}}$ ,且 $\\frac{A{B}_{1}}{{B}_{1}{C}_{1}} = \\frac{DE}{EF}$ , 由此得证.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 776,
+        "end": 777
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 6",
+    "markdown": "6. 在正方体 ${ABCD} - {A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 中,平面 ${AB}{C}^{\\prime }{D}^{\\prime }$ 与正方体的各个面所成的二面角的大小分别是多少?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1424,
+        "end": 1425
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1424,
+        "end": 1425
+      }
+    ],
+    "id": "bx3-10-4-h104A-6",
+    "category": "习题10.4A",
+    "answer": "6. ${90}^{ \\circ  }$ 和 ${45}^{ \\circ  }$ . 平面 ${AB}{C}^{\\prime }{D}^{\\prime }$ 与平面 ${AD}{D}^{\\prime }{A}^{\\prime }$ 、平面 ${BC}{C}^{\\prime }{B}^{\\prime }$ 所成的二面角大小均为 ${90}^{ \\circ  }$ ; 平面 ${AB}{C}^{\\prime }{D}^{\\prime }$ 与平面 ${ABCD}$ 、平面 ${A}^{\\prime }{B}^{\\prime }{C}^{\\prime }{D}^{\\prime }$ 、平面 ${AB}{B}^{\\prime }{A}^{\\prime }$ 、平面 ${DC}{C}^{\\prime }{D}^{\\prime }$ 所成的二面角大小均为 ${45}^{ \\circ  }$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 778,
+        "end": 779
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 7",
+    "markdown": "7. 在 ${30}^{ \\circ  }$ 二面角的一个面内有一个点,它到另一个面的距离是 ${10}\\mathrm{\\;{cm}}$ . 求这个点到二面角的棱的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1426,
+        "end": 1427
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1426,
+        "end": 1427
+      }
+    ],
+    "id": "bx3-10-4-h104A-7",
+    "category": "习题10.4A",
+    "answer": "7. ${20}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 780,
+        "end": 781
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 8",
+    "markdown": "8. 如图，在四面体 ${ABCD}$ 中，已知 ${AB} = {AC} = {BD} = {CD} = 2,{BC} = 2\\sqrt{3},$ 且 ${AD} = 1$ . 试作出二面角 $A - {BC} - D$ 的平面角,并求它的度数.\n\n![bo_d4slm1v7aajc73fspjsg_39_361_1669_290_248_0.jpg](images/book-59f93086047caddaa651.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1428,
+        "end": 1437
+      },
+      {
+        "source": "book",
+        "start": 1430,
+        "end": 1432
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1428,
+        "end": 1437
+      },
+      {
+        "source": "book",
+        "start": 1430,
+        "end": 1432
+      }
+    ],
+    "id": "bx3-10-4-h104A-8",
+    "category": "习题10.4A",
+    "answer": "8. ${60}^{ \\circ  }$ . 取 ${BC}$ 的中点 $O$ ,连接 ${DO}\\text{、}{AO}$ ,则 $\\angle {AOD}$ 为所求.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 782,
+        "end": 783
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 9",
+    "markdown": "9. 判断下列命题的真假, 并说明理由:\n\n(1)若平面 $\\alpha  \\bot$ 平面 $\\beta$ ，平面 $\\beta  \\bot$ 平面 $\\gamma$ ，则平面 $\\alpha  \\bot$ 平面 $\\gamma$ ；\n\n(2)若平面 $\\alpha //$ 平面 ${\\alpha }_{1}$ ，平面 $\\beta //$ 平面 ${\\beta }_{1}$ ，平面 $\\alpha  \\bot$ 平面 $\\beta$ ，则平面 ${\\alpha }_{1} \\bot$ 平面 ${\\beta }_{1}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1438,
+        "end": 1443
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1438,
+        "end": 1443
+      }
+    ],
+    "id": "bx3-10-4-h104A-9",
+    "category": "习题10.4A",
+    "answer": "9.(1)假命题,理由略. (2)真命题,理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 784,
+        "end": 785
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 10",
+    "markdown": "10. 如图,已知 ${AB}$ 是平面 $\\alpha$ 的垂线, ${AC}$ 是平面 $\\alpha$ 的一条斜线, ${CD}$ 在 $\\alpha$ 上,且垂直于 ${AC}$ . 求证: 平面 ${ABC} \\bot$ 平面 ${ACD}$ .\n\n![bo_d4slm1v7aajc73fspjsg_39_863_1658_453_264_0.jpg](images/book-b8e328bb3600ee8a9440.jpg)\n\n(第 10 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1444,
+        "end": 1445
+      },
+      {
+        "source": "book",
+        "start": 1434,
+        "end": 1436
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1444,
+        "end": 1445
+      },
+      {
+        "source": "book",
+        "start": 1434,
+        "end": 1436
+      }
+    ],
+    "id": "bx3-10-4-h104A-10",
+    "category": "习题10.4A",
+    "answer": "10. 提示: 利用 ${CD} \\bot$ 平面 ${ABC}$ ,即可证明.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 786,
+        "end": 787
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4A · 11",
+    "markdown": "11. 已知平面 $\\alpha \\text{ 、 }\\beta \\text{ 、 }\\gamma$ ,且 $\\alpha$ 及 $\\beta$ 均垂直于 $\\gamma$ ,记 $\\alpha$ 与 $\\beta$ 的交线为 $l$ . 求证: $l$ 垂直于 $\\gamma$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1446,
+        "end": 1447
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1446,
+        "end": 1447
+      }
+    ],
+    "id": "bx3-10-4-h104A-11",
+    "category": "习题10.4A",
+    "answer": "11. 在 $l$ 上取一点 $P$ ,过 $P$ 作 ${l}^{\\prime } \\bot  \\gamma$ ,则由 $P \\in  l \\subset  \\alpha$ 及 $\\alpha  \\bot  \\gamma$ ,得 ${l}^{\\prime } \\subset  \\alpha$ . 同理 ${l}^{\\prime } \\subset \\; \\beta$ . 所以 ${l}^{\\prime }$ 是 $\\alpha \\text{、}\\beta$ 的交线,即 $l\\text{、}{l}^{\\prime }$ 重合,从而 $l \\bot  \\gamma$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 788,
+        "end": 789
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1448,
+        "end": 1448
+      }
+    ],
+    "id": "bx3-10-4-b31",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题10.4B · 1",
+    "markdown": "1. 假设 $m\\text{ 、 }n$ 是两条相交直线, ${l}_{1}\\text{ 、 }{l}_{2}$ 是与 $m\\text{ 、 }n$ 都垂直的两条直线,但直线 $l$ 至少与 $m\\text{ 、 }n$ 中的一条不垂直. 求证: 直线 $l$ 与 ${l}_{1}\\text{ 、 }{l}_{2}$ 所成的角相等.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1450,
+        "end": 1455
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1450,
+        "end": 1455
+      }
+    ],
+    "id": "bx3-10-4-h104B-1",
+    "category": "习题10.4B",
+    "answer": "1. 提示: ${l}_{1}//{l}_{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 792,
+        "end": 793
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4B · 2",
+    "markdown": "2. 如图，在四面体 ${VABC}$ 中，从顶点 $V$ 作平面 ${ABC}$ 的垂线，垂足 $O$ 恰好落在 $\\bigtriangleup {ABC}$ 的中线 ${CD}$ 上. 如果 ${VA} = {VB}$ ,能否判定 ${AC} = \\; {BC}$ 以及平面 ${VCD} \\bot$ 平面 ${VAB}$ ?\n\n![bo_d4slm1v7aajc73fspjsg_40_1183_596_288_269_0.jpg](images/book-b6d16d85a5e72fbcb3c8.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1456,
+        "end": 1457
+      },
+      {
+        "source": "book",
+        "start": 1452,
+        "end": 1454
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1456,
+        "end": 1457
+      },
+      {
+        "source": "book",
+        "start": 1452,
+        "end": 1454
+      }
+    ],
+    "id": "bx3-10-4-h104B-2",
+    "category": "习题10.4B",
+    "answer": "2. 可以判定. 因为 ${VA} = {VB},{AD} = {BD}$ ,所以 ${AB} \\bot  {VD}$ . 又因为 ${VO} \\bot$ 平面 ${ABC}$ ,根据三垂线定理,得 ${AB} \\bot  {CD}$ . 因为 ${AD} = {BD}$ ,所以 ${AC} = {BC}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 794,
+        "end": 795
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4B · 3",
+    "markdown": "3. 证明: 三个两两垂直的平面的相应交线也两两垂直.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1458,
+        "end": 1459
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1458,
+        "end": 1459
+      }
+    ],
+    "id": "bx3-10-4-h104B-3",
+    "category": "习题10.4B",
+    "answer": "3. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 796,
+        "end": 797
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4B · 4",
+    "markdown": "4. 自二面角内一点分别向两个面作垂线, 求证: 它们所成的角与二面角的平面角相等或互补.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1460,
+        "end": 1461
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1460,
+        "end": 1461
+      }
+    ],
+    "id": "bx3-10-4-h104B-4",
+    "category": "习题10.4B",
+    "answer": "4. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 798,
+        "end": 799
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题10.4B · 5",
+    "markdown": "5. 证明: 垂直于同一条直线的两个平面平行.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1462,
+        "end": 1463
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1462,
+        "end": 1463
+      }
+    ],
+    "id": "bx3-10-4-h104B-5",
+    "category": "习题10.4B",
+    "answer": "5. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 800,
+        "end": 801
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

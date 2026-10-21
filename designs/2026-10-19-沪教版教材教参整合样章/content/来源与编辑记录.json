@@ -1,0 +1,122 @@
+{
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md": "df97e6756fb784de420af97b4ec31edaf75e3dbd25ff0b9437c38cc0bb60424c",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md": "318000326b721c61ff32f752d3a32bf4b8f2005ab485d4da5dea552c4210d88c"
+  },
+  "assets": {
+    "images/book-bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg",
+      "sha256": "4a5aa3b2eb280bea511522083a089379100e02450d02eb6418e3e1c8bcac3722"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg",
+      "sha256": "495f4b53e6806128c08ac0f212cfbbe08cdefc3f7202db7b1158047d3467a582"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg",
+      "sha256": "38432d345682cddc49529e4c06fcb320368797c5d0b2e4aa7c5e8e983bcf9523"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg",
+      "sha256": "6dc493987a7216835fab1e71db6769b8493f42074807203fb06009b90f3acca0"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg",
+      "sha256": "0252fc2a2aff1aca38430927503668846619e2290b4ccf441778cf2efc24cb6f"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg",
+      "sha256": "bf4517a3a01bff0f584390bc6cefcd5086e658c0f68409195393a9d349756c4c"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg",
+      "sha256": "b8d7b23beaee8e0bb1b7cd716274bcba756bd550018a0a4aa44bcc5038e339bb"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg",
+      "sha256": "2f18b495481eea483e1e6d23242fe89f990b6695d85c2b9dfbdd8c72aa180f97"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg",
+      "sha256": "ec36e8899fef947d272d4e0b7028a235db1aed540609181e66809ae8f9b9932d"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg",
+      "sha256": "44d84e067500646340ae5a466eeae1ca9a1191de98d391c655b1aa7650d312b0"
+    },
+    "images/teacher-bo_d402nkref24c73d2tegg_68_415_1679_811_191_0.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_68_415_1679_811_191_0.jpg",
+      "sha256": "c57426d16fda8959b776e1018ef6f550a8b0dd32fa41a11c2c096ff66419cfca"
+    },
+    "images/teacher-bo_d402nkref24c73d2tegg_69_580_245_359_182_0.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_69_580_245_359_182_0.jpg",
+      "sha256": "eef411fd1f95765dcbced116f5979d8c669c9dc2ba181794ecdb22da8a5f2a3e"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg",
+      "sha256": "0038ba7c994338c7e970540a7f05495270f74e4335ee9ebcc9d5d40f8a76fb97"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg",
+      "sha256": "8e6d6f6b1078c5ad55c610b6fd3d98541b0b1e981931cd62cc2925f20b948553"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg",
+      "sha256": "e4c9725361877e5e6217ec42179052d2475f93f955cef58310026066224ee747"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg",
+      "sha256": "ab888b2e0808a06c7721eeeb37f6f4515fa51b0648808dc24b625886a4dd83db"
+    },
+    "images/teacher-bo_d402nkref24c73d2tegg_69_373_1874_760_180_0.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_69_373_1874_760_180_0.jpg",
+      "sha256": "80164d9576e1e0710f9ecfa4daa18b1dbac5046e13b5c56312ec47af8a7623f1"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg",
+      "sha256": "0fcda6e86c453e69212e6f41859834a76f18ffc52d6c532593014345ca7b88c8"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg",
+      "sha256": "bc0d5a902a2d2a9816a8743e2794d3ff7f9e30bbef26963eb236ed2c7194371c"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg",
+      "sha256": "2ba367dbce45fe022790802dc959a3fcec88d5ccec83cbd5d10576929eb8f754"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg",
+      "sha256": "a367bd9a33c20ab9bc4a276244475a8ea8cfac8117ac74c0300be2165650901c"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg",
+      "sha256": "17ff44ebae4932fe95319662dae01a0ee8a2450525fdde0fa780cb25199a325d"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg",
+      "sha256": "638a7da40dc4399861e6f9048c1704b392db2aaf7678172be5b72d66304c6368"
+    }
+  },
+  "edits": [
+    {
+      "before": "$\\overrightarrow{a} + \\overrightarrow{b}$ + 己",
+      "after": "$\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c}$",
+      "reason": "连加末项的OCR符号恢复"
+    },
+    {
+      "before": "$\\angle {ADB}$ 是菱形",
+      "after": "四边形 ${CADB}$ 是菱形",
+      "reason": "由所作平行四边形及等边条件校正对象类型"
+    },
+    {
+      "before": "$A\\text{ 、 }B\\text{ 、 }\\overrightarrow{C\\text{ 、 }D}\\text{ 、 }E$",
+      "after": "$A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$",
+      "reason": "将点名C、D与向量箭头分离"
+    },
+    {
+      "before": "和 4.5v，",
+      "after": "和 $4.5\\overrightarrow{v}$，",
+      "reason": "速度向量记号恢复"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "id": "x2-8-3",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "8",
+  "chapter_title": "第8章成对数据的统计分析",
+  "section": "8.3",
+  "title": "2×2 列联表",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md": "21b1df385af3645c43ac2bf2fe3b7703c288d96ea4e8bef4ec0fba4f7f8d42a5",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md": "70596878acb5841fc585358b25ed22582bd7da897b937db8c9a7ae644baacb67"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "2×2 列联表",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 569
+        }
+      ],
+      "id": "x2-8-3",
+      "number": "8.3",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "heading",
+      "title": "$1\\;2 \\times  2$ 列联表独立性检验",
+      "markdown": "### $1\\;2 \\times  2$ 列联表独立性检验",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 571,
+          "end": 571
+        }
+      ],
+      "id": "x2-8-3-b1"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在实际问题中经常遇到要证实两类变量是相关的, 或者反过来, 证实它们是相互独立的. 如何利用取自这两类变量的样本来判断它们是否相互独立呢?\n\n下面通过案例来加以说明.\n\n某疾病预防中心随机调查了 339 名 50 岁以上的公民，研究吸烟习惯与慢性气管炎患病的关系，调查数据如表 8-7 所示. 问:患慢性气管炎与吸烟是否相互独立？\n\n表 8-7\n\n<table><tr><td></td><td>不吸烟者</td><td>吸烟者</td><td>总计</td></tr><tr><td>不患慢性气管炎者</td><td>121</td><td>162</td><td>283</td></tr><tr><td>患慢性气管炎者</td><td>13</td><td>43</td><td>56</td></tr><tr><td>总计</td><td>134</td><td>205</td><td>339</td></tr></table>\n\n表 8-7 对 50 岁以上的公民进行了两种分类:按是否吸烟进行分类及按是否患慢性气管炎进行分类. 从是否吸烟的角度来看, 吸烟的公民是一类, 不吸烟的公民是另一类, 这种变量的不同“值”表示公民所属的不同类别，这类变量称为分类变量 (categorical variable).\n\n在表 8-7 中, 两个分类变量分别占两行和两列, 形成 4 个格子, 每个格子中的数据是同时满足所在行列对应类别的个体的频数. 例如, 第 1 行第 1 列中的数据 121 表示“不吸烟同时不患慢性气管炎”的样本人数. 这些数据都是通过实际调查得到的，称为观察值. 这些观察值形成的 2 行、 2 列的频数表格,称为 2 行 $\\times  2$ 列列联表,简称 $2 \\times  2$ 列联表,也称为四格表.\n\n由表 8-7 中的数据可以计算其中一个分类变量的不同类别在另一个分类变量中的百分比. 例如, 在不吸烟者中, 有 9.70%患慢性气管炎，而在吸烟者中，有 20.98%患慢性气管炎，两者相差较大. 因此，我们可以初步推断:患慢性气管炎可能与吸烟有关，吸烟者患慢性气管炎的可能性更大. 但这种推断是否具有统计意义呢? 我们有多大把握认为患慢性气管炎与吸烟有关呢? 这就需要用到 $2 \\times  2$ 列联表独立性检验方法.\n\n要检验两个随机变量是否有关, 统计上一般先假设它们没有关系, 即相互独立, 再进行统计检验. 这种假设称为原假设 (null hypothesis),也称为零假设,习惯上用 ${H}_{0}$ 表示. 以上述问题为例, 我们提出的原假设是:\n\n${H}_{0}$ : 患慢性气管炎与吸烟没有关系,即它们相互独立.\n\n要检验上述假设,我们需要对 $2 \\times  2$ 列联表 (表 8-7) 中的观察值与预期值进行比较. 预期值是当原假设 ${H}_{0}$ 成立时的预期结果. 例如, 由表 8-7 可知, 总计 339 位样本公民中有 56 位患有慢性气管炎，其百分比为 $\\frac{56}{339} \\times  {100}\\%  \\approx  {16.52}\\%$ . 假设患慢性气管炎与吸烟没有关系，那么 205 位吸烟者中应该有 205×16.52% ≈ 33.87 位患有慢性气管炎，这里的 33.87 就是原假设 ${H}_{0}$ 成立时计算得到的预期值. 我们把这样计算得到的所有预期值与观察值建立表格，就得到表 8-8.\n\n表 8-8\n\n<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">不吸烟者</td><td colspan=\"2\">吸烟者</td></tr><tr><td>观察值</td><td>预期值</td><td>观察值</td><td>预期值</td></tr><tr><td>不患慢性气管炎者</td><td>121</td><td>111.86</td><td>162</td><td>171.13</td></tr><tr><td>患慢性气管炎者</td><td>13</td><td>22.14</td><td>43</td><td>33.87</td></tr></table>\n\n为了描述观察值与预期值之间的总体偏差, 我们引入统计量 ${\\chi }^{2}$ :\n\n$$\n{\\chi }^{2} = \\sum \\frac{{\\left( \\text{ 观察值 } - \\text{ 预期值 }\\right) }^{2}}{\\text{ 预期值 }}\n$$\n\n$$\n= \\frac{{\\left( {121} - {111.86}\\right) }^{2}}{111.86} + \\frac{{\\left( {162} - {171.13}\\right) }^{2}}{171.13} + \\frac{{\\left( {13} - {22.14}\\right) }^{2}}{22.14}\n$$\n\n$$\n+ \\frac{{\\left( {43} - {33.87}\\right) }^{2}}{33.87}\n$$\n\n$$\n\\approx  {7.468}\\text{ . }\n$$\n\n---\n\n在实际应用中， 跟原假设相对立的假设, 称为备择假设, 记作 ${H}_{1}$ . 在本例中, 备择假设 ${H}_{1}$ 是: 患慢性气管炎与吸烟有关。 通常备择假设可略而不写.\n\n---\n\n${\\chi }^{2}$ 的值越大,说明表 8-8 中观察值与预期值的总体偏差越大,原假设成立的可能性就越小. 那么究竟 ${\\chi }^{2}$ 多大时,我们才可以拒绝原假设呢? 这涉及 ${\\chi }^{2}$ 分布. 通过查阅 ${\\chi }^{2}$ 分布概率表, 可以得到 ${\\chi }^{2}$ 值超过某些界限的概率. 例如,\n\n$$\nP\\left( {{\\chi }^{2} \\geq  {6.635}}\\right)  \\approx  {0.01},\n$$\n\n$$\nP\\left( {{\\chi }^{2} \\geq  {5.024}}\\right)  \\approx  {0.025},\n$$\n\n$$\nP\\left( {{\\chi }^{2} \\geq  {3.841}}\\right)  \\approx  {0.05},\n$$\n\n$$\nP\\left( {{\\chi }^{2} \\geq  {2.706}}\\right)  \\approx  {0.1}.\n$$\n\n以 $P\\left( {{\\chi }^{2} \\geq  {3.841}}\\right)  \\approx  {0.05}$ 为例,其含义是: 如果原假设成立, 那么 ${\\chi }^{2} \\geq  {3.841}$ 成立的概率约为 0.05 . 这是一个小概率事件,不太可能发生. 由于在本例中, ${\\chi }^{2} \\approx  {7.468} > {3.841}$ ,因此我们可以推断原假设 “患慢性气管炎与吸烟没有关系” 成立的可能性小于 5%. 或者说,我们有 95%的把握认为患慢性气管炎与吸烟有关.\n\n为了计算方便,我们给出 $2 \\times  2$ 列联表 ${\\chi }^{2}$ 检验的计算公式:\n\n设有两组分类数据 $\\mathrm{A}\\text{ 、 }\\mathrm{\\;B}$ ,每组数据的两种状态分别用 0 和 1 表示 (如 A 组是“不吸烟者”, B 组是“吸烟者”; 用 “O”表示“不患慢性气管炎者”，用“1”表示“患慢性气管炎者”)，则可得到下面的 $2 \\times  2$ 列联表 (表 8-9): 其中, $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d$ 为实际观察值.\n\n表 8-9 两组分类变量的 $2 \\times  2$ 列联表\n\n<table><tr><td></td><td>A 组</td><td>B 组</td><td>总计</td></tr><tr><td>0</td><td>$a$</td><td>$b$</td><td>$a + b$</td></tr><tr><td>1</td><td>C</td><td>$d$</td><td>$c + d$</td></tr><tr><td>总计</td><td>$a + c$</td><td>$b + d$</td><td>$a + b + c + d$</td></tr></table>\n\n由 ${\\chi }^{2} = \\sum \\frac{{\\left( \\text{ 观察值一预期值 }\\right) }^{2}}{\\text{ 预期值 }}$ ,经过变形可得 ${\\chi }^{2}$ 的一般计算公式\n\n$$\n{\\chi }^{2} = \\frac{n{\\left( ad - bc\\right) }^{2}}{\\left( {a + b}\\right) \\left( {c + d}\\right) \\left( {a + c}\\right) \\left( {b + d}\\right) }.\n$$\n\n①\n\n---\n\n0.05 、 0.01 等小概率值在统计上称为显著性水平,记作 $\\alpha$ . 方便起见, 本书的显著性水平规定为 0.05 .\n\n虽然小概率事件发生的概率很小, 但在统计上由于小概率事件发生而作出拒绝原假设的推断还是有风险的. 显著性水平为 0.05 , 可以理解为错误拒绝的概率不超过0.05 .\n\n---\n\n其中, $n = a + b + c + d$ .\n\n该公式的证明留作习题.\n\n本例所用的 ${\\chi }^{2}$ 检验方法在统计学中称为 $2 \\times  2$ 列联表独立性检验 (independence test in contingency table).\n\n从上面的例子可以看出, $2 \\times  2$ 列联表独立性检验通常有如下步骤:\n\n(1)提出两个随机变量没有关系的原假设 ${H}_{0}$ .\n\n(2)确定显著性水平 $\\alpha$ ,本书中规定 $\\alpha  = {0.05}$ ,也即 $P\\left( {{\\chi }^{2} \\geq  }\\right. \\; {3.841}) \\approx  {0.05}$ .\n\n(3)计算统计量 ${\\chi }^{2}$ 的值.\n\n(4)统计决断:比较上述 ${\\chi }^{2}$ 值与 3.841 的大小，若 ${\\chi }^{2}$ 值 $\\geq$ 3.841,则拒绝 (或否定) ${H}_{0}$ ; 若 ${\\chi }^{2}$ 值 $< {3.841}$ ,则不能拒绝 (或否定) ${H}_{0}$ ,即接受 ${H}_{0}$ . 根据上述推断作出结论.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 572,
+          "end": 682
+        }
+      ],
+      "emphases": [
+        {
+          "start": 421,
+          "end": 561,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-8-3-definition-2-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 563,
+          "end": 772,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-8-3-definition-2-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 989,
+          "end": 1109,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-8-3-definition-2-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 2191,
+          "end": 2283,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-8-3-definition-2-3",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 4038,
+          "end": 4134,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-8-3-definition-2-4",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "x2-8-3-b2"
+    },
+    {
+      "type": "heading",
+      "title": "练习 8.3(1)",
+      "markdown": "#### 练习 8.3(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 683,
+          "end": 683
+        }
+      ],
+      "id": "x2-8-3-b3"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "某初中调查了该校 1000 名初三学生最近一次数学测试成绩与课堂注意力表现情况， 得到下表:\n\n<table><tr><td></td><td>数学成绩≥80 分</td><td>数学成绩<80 分</td><td>总计</td></tr><tr><td>上课注意力集中</td><td>418</td><td>279</td><td>697</td></tr><tr><td>上课注意力不集中</td><td>43</td><td>260</td><td>303</td></tr><tr><td>总计</td><td>461</td><td>539</td><td>1000</td></tr></table>\n\n请根据表中提供的数据判断:上课注意力集中与否对学习成绩有影响吗？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 684,
+          "end": 690
+        }
+      ],
+      "id": "x2-8-3-b4"
+    },
+    {
+      "type": "heading",
+      "title": "2 独立性检验的具体应用",
+      "markdown": "### 2 独立性检验的具体应用",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 691,
+          "end": 691
+        }
+      ],
+      "id": "x2-8-3-b5"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "为了研究两个因素是否相互影响, 常常要用到独立性检验.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 693,
+          "end": 694
+        }
+      ],
+      "id": "x2-8-3-b6"
+    },
+    {
+      "type": "question",
+      "title": "例题 · 1",
+      "markdown": "例 1 为了研究色盲与性别是否有关, 随机抽取 480 位男性和 520 位女性, 测得他们是否为色盲的数据如表 8-10 所示.\n\n表 8-10 男女色盲分布列联表\n\n<table><tr><td></td><td>男性</td><td>女性</td><td>总计</td></tr><tr><td>正常</td><td>442</td><td>514</td><td>956</td></tr><tr><td>色盲</td><td>38</td><td>6</td><td>44</td></tr><tr><td>总计</td><td>480</td><td>520</td><td>1000</td></tr></table>\n\n问:色盲与性别是否有关？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 695,
+          "end": 702
+        }
+      ],
+      "id": "x2-8-3-b7",
+      "category": "例题",
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 695,
+          "end": 702
+        }
+      ],
+      "answer": "解 把性别作为一个分类变量, 把是否为色盲作为另一个分类变量,问题为判断色盲与性别是否有关,因此可采用 $2 \\times  2$ 列联表独立性检验.\n\n(1)提出原假设 ${H}_{0}$ :色盲与性别无关.\n\n(2)确定显著性水平 $\\alpha  = {0.05}$ .\n\n(3)计算 ${\\chi }^{2}$ 的值，直接把表 8-10 中的数据代入 ${\\chi }^{2}$ 的计算公式①，其中 $a = {442}, b = {514}, c = {38}, d = 6, n = a + b + c + d \\; = {1000}, a + b = {956}, c + d = {44}, a + c = {480}, b + d = {520}$ ,可得 ${\\chi }^{2} = \\frac{{1000} \\times  {\\left( {442} \\times  6 - {514} \\times  {38}\\right) }^{2}}{{956} \\times  {44} \\times  {480} \\times  {520}} \\approx  {27.1387}$ .\n\n(4)统计决断:由 $P\\left( {{\\chi }^{2} \\geq  {3.841}}\\right)  \\approx  {0.05}$ ，而 27.1387> 3.841, ${\\chi }^{2}$ 的值超过了 $\\alpha$ 所确定的界限,从而否定原假设,即判定色盲与性别有关.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 712
+        }
+      ],
+      "teacher_analysis": "【编辑复核】这是表8-10对应的例1解答，不是游离正文。检验得到显著的样本关联，不据此推断性别对色盲的因果机制。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 一次语文测验, 王老师所任教的甲、乙两个班级的成绩情况如表 8-11 所示.\n\n表 8-11\n\n<table><tr><td></td><td>甲班</td><td>乙班</td><td>总计</td></tr><tr><td>优秀</td><td>15</td><td>13</td><td>28</td></tr><tr><td>不优秀</td><td>20</td><td>18</td><td>38</td></tr><tr><td>总计</td><td>35</td><td>31</td><td>66</td></tr></table>\n\n根据表 8-11 的数据, 判断甲、乙两个班级语文测验的成绩是否有显著差异.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 720
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 720
+        }
+      ],
+      "id": "x2-8-3-ex-2",
+      "category": "例题",
+      "answer": "解 把班级作为一个分类变量, 把语文测验的成绩是否优秀作为另一个分类变量, 问题为判断语文测验的成绩与所在的班级是否有关.\n\n(1)提出原假设 ${H}_{0}$ :甲、乙两个班级语文测验的成绩没有显著差异.\n\n(2)确定显著性水平 $\\alpha  = {0.05}$ .\n\n(3)计算 ${\\chi }^{2} = \\frac{{66} \\times  {\\left( {15} \\times  {18} - {13} \\times  {20}\\right) }^{2}}{{28} \\times  {38} \\times  {35} \\times  {31}} \\approx  {0.0057}$ .\n\n(4)统计决断:由 $P\\left( {{\\chi }^{2} \\geq  {3.841}}\\right)  \\approx  {0.05}$ ，而 0.0057<3.841， 小概率事件没有发生, 故不能否定原假设.\n\n因此, 甲、乙两个班级语文测验的成绩没有显著差异.\n\n例 3 为了研究 55 岁以上的人群与 50 岁以下的人群服用一种胶囊药物后的反应是否有显著差异，某医学院进行了志愿者口服该胶囊的观察试验, 试验结果如表 8-12 所示. 根据表中数据, 能否作出这两类人群对此药物的反应有显著差异的结论?\n\n表 8-12\n\n<table><tr><td></td><td>≥55 岁人群</td><td><50岁人群</td><td>总计</td></tr><tr><td>有明显反应</td><td>6</td><td>7</td><td>13</td></tr><tr><td>无明显反应</td><td>29</td><td>75</td><td>104</td></tr><tr><td>总计</td><td>35</td><td>82</td><td>117</td></tr></table>\n\n解 把两年龄范围的人群作为一个分类变量, 把对此药物有无明显反应作为另一个分类变量, 问题是判断两类人群对此药物的反应是否有显著差异.\n\n(1)提出原假设 ${H}_{0}$ :两类人群对此药物的反应没有显著差异.\n\n(2)确定显著性水平 $\\alpha  = {0.05}$ .\n\n(3)计算 ${\\chi }^{2} = \\frac{{117} \\times  {\\left( 6 \\times  {75} - 7 \\times  {29}\\right) }^{2}}{{13} \\times  {104} \\times  {35} \\times  {82}} \\approx  {1.8396}$ .\n\n(4)统计决断:由于 $P\\left( {{\\chi }^{2} \\geq  {3.841}}\\right)  \\approx  {0.05}$ ,而 ${1.8396} <$ 3.841, 因此根据本试验数据, 不能认为 55 岁以上人群对此胶囊药物的反应与 50 岁以下人群有显著差异.\n\n---\n\n本案例研究的样本较小, 仅能作为该群体的参考数据. 如果要得到更为可靠的结论, 那么需要增加样本量.\n\n---",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 721,
+          "end": 754
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 8.3(2)",
+      "markdown": "#### 练习 8.3(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 755,
+          "end": 755
+        }
+      ],
+      "id": "x2-8-3-b9"
+    },
+    {
+      "type": "question",
+      "title": "练习8.3(2) · 1",
+      "markdown": "1. 为了调查髋关节保护器在减少老年人髋部骨折中的作用, 随机选择一些老年人, 其中一部分佩戴髋关节保护器，而另一部分不佩戴，作为对照组. 得到如下列联表:\n\n<table><tr><td></td><td>佩戴髋关节保护器</td><td>对照组</td><td>总计</td></tr><tr><td>髋部骨折</td><td>13</td><td>67</td><td>80</td></tr><tr><td>无髋部骨折</td><td>640</td><td>1081</td><td>1721</td></tr><tr><td>总计</td><td>653</td><td>1148</td><td>1801</td></tr></table>\n\n根据表中的数据回答:髋关节保护器是否可以降低老年人髋部骨折的可能性？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 757,
+          "end": 762
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 757,
+          "end": 762
+        }
+      ],
+      "id": "x2-8-3-p832-1",
+      "category": "练习8.3(2)",
+      "answer": "1. ${\\chi }^{2} \\approx  {14.501}$ ,因为 ${14.501} > {3.841}$ ,所以在 0.05 的显著性水平上拒绝原假设, 髋关节保护器可以降低老年人髋部骨折的可能性.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 502,
+          "end": 503
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习8.3(2) · 2",
+      "markdown": "2. 下表是 A、B 两所中学的学生对报考某类大学的意愿的列联表:\n\n<table><tr><td></td><td>愿意报考某类大学</td><td>不愿意报考某类大学</td><td>总计</td></tr><tr><td>A 中学</td><td>18</td><td>37</td><td>55</td></tr><tr><td>B 中学</td><td>38</td><td>57</td><td>95</td></tr><tr><td>总计</td><td>56</td><td>94</td><td>150</td></tr></table>\n\n根据表中的数据回答:A、B 两所中学的学生对报考某类大学的态度是否有显著差异？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 768
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 763,
+          "end": 768
+        }
+      ],
+      "id": "x2-8-3-p832-2",
+      "category": "练习8.3(2)",
+      "answer": "2. ${\\chi }^{2} \\approx  {0.788}$ ,因为 ${0.788} < {3.841}$ ,所以在 0.05 的显著性水平上接受原假设, $A$ 、 $B$ 两所中学的学生对报考某类大学的态度没有显著差异.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 504,
+          "end": 505
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 8.3",
+      "markdown": "### 习题 8.3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 769,
+          "end": 769
+        }
+      ],
+      "id": "x2-8-3-b12"
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 771,
+          "end": 771
+        }
+      ],
+      "id": "x2-8-3-b13"
+    },
+    {
+      "type": "question",
+      "title": "习题8.3A · 1",
+      "markdown": "1. 某校为考察高中生数学成绩与语文成绩的关系, 抽取 55 名学生进行了一次测试, 并按照测试成绩优秀 (进入年级前 30%) 和不优秀 (没有进入年级前 30%) 统计人数, 得到如下列联表:\n\n<table><tr><td></td><td>优秀</td><td>不优秀</td><td>总计</td></tr><tr><td>数学成绩</td><td>21</td><td>34</td><td>55</td></tr><tr><td>语文成绩</td><td>13</td><td>42</td><td>55</td></tr><tr><td>总计</td><td>34</td><td>76</td><td>110</td></tr></table>\n\n根据表中的数据回答: 该校高中生的数学成绩与语文成绩之间是否有关系?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 773,
+          "end": 778
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 773,
+          "end": 778
+        }
+      ],
+      "id": "x2-8-3-h83A-1",
+      "category": "习题8.3A",
+      "answer": "1. ${\\chi }^{2} \\approx  {2.724}$ ,因为 ${2.724} < {3.841}$ ,所以在 0.05 的显著性水平上接受原假设,该校高中生的数学成绩与语文成绩之间没有显著关系.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 510,
+          "end": 511
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题8.3A · 2",
+      "markdown": "2. 慢性气管炎是一种常见的呼吸道疾病. 医药研究人员对甲、乙两种中草药治疗慢性气管炎的效果进行了对比，所得数据如下表所示.\n\n<table><tr><td></td><td>有效</td><td>无效</td><td>总计</td></tr><tr><td>甲药</td><td>184</td><td>61</td><td>245</td></tr><tr><td>乙药</td><td>91</td><td>9</td><td>100</td></tr><tr><td>总计</td><td>275</td><td>70</td><td>345</td></tr></table>\n\n根据表中的数据回答: 甲、乙两种中草药的疗效有无显著差异?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 779,
+          "end": 784
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 779,
+          "end": 784
+        }
+      ],
+      "id": "x2-8-3-h83A-2",
+      "category": "习题8.3A",
+      "answer": "2. ${\\chi }^{2} \\approx  {11.098}$ ,因为 ${11.098} > {3.841}$ ,所以在 0.05 的显著性水平上拒绝原假设, 甲、乙两种中草药的疗效有显著差异.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 512,
+          "end": 513
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 785,
+          "end": 785
+        }
+      ],
+      "id": "x2-8-3-b16"
+    },
+    {
+      "type": "question",
+      "title": "习题8.3B · 1",
+      "markdown": "1. 某工人在操作方法改进前后生产某种零件的情况如下表所示.\n\n<table><tr><td></td><td>合格</td><td>不合格</td><td>总计</td></tr><tr><td>改进前</td><td>2422</td><td>439</td><td>2861</td></tr><tr><td>改进后</td><td>2892</td><td>447</td><td>3339</td></tr><tr><td>总计</td><td>5314</td><td>886</td><td>6200</td></tr></table>\n\n根据表中的数据回答:改进操作方法能否显著降低不合格率？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 787,
+          "end": 792
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 787,
+          "end": 792
+        }
+      ],
+      "id": "x2-8-3-h83B-1",
+      "category": "习题8.3B",
+      "answer": "1. ${\\chi }^{2} \\approx  {4.818}$ ,因为 ${4.818} > {3.841}$ ,所以在 0.05 的显著性水平上拒绝原假设,改进操作方法能显著降低不合格率.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 516,
+          "end": 517
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题8.3B · 2",
+      "markdown": "2. 证明本节中的公式①: ${\\chi }^{2} = \\frac{n{\\left( ad - bc\\right) }^{2}}{\\left( {a + b}\\right) \\left( {c + d}\\right) \\left( {a + c}\\right) \\left( {b + d}\\right) }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 793,
+          "end": 794
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 793,
+          "end": 794
+        }
+      ],
+      "id": "x2-8-3-h83B-2",
+      "category": "习题8.3B",
+      "answer": "2. 证明: 设表 8-9 各单元格在原假设下的预期值分别为 ${a}^{\\prime }\\text{、}{b}^{\\prime }\\text{、}{c}^{\\prime }$ 与 ${d}^{\\prime }$ ,则\n\n$$\n\\begin{aligned}  & {a}^{\\prime } = \\frac{\\left( {a + b}\\right) \\left( {a + c}\\right) }{n},{b}^{\\prime } = \\frac{\\left( {a + b}\\right) \\left( {b + d}\\right) }{n}, \\\\  & {c}^{\\prime } = \\frac{\\left( {c + d}\\right) \\left( {a + c}\\right) }{n},{d}^{\\prime } = \\frac{\\left( {c + d}\\right) \\left( {b + d}\\right) }{n}. \\end{aligned}\n$$\n\n于是, 计算可得\n\n$$\n\\begin{aligned}  & \\frac{{\\left( a - {a}^{\\prime }\\right) }^{2}}{{a}^{\\prime }} = \\frac{1}{n} \\cdot  \\frac{{\\left( ad - bc\\right) }^{2}}{\\left( {a + b}\\right) \\left( {a + c}\\right) },\\frac{{\\left( b - {b}^{\\prime }\\right) }^{2}}{{b}^{\\prime }} = \\frac{1}{n} \\cdot  \\frac{{\\left( ad - bc\\right) }^{2}}{\\left( {a + b}\\right) \\left( {b + d}\\right) }, \\\\  & \\frac{{\\left( c - {c}^{\\prime }\\right) }^{2}}{{c}^{\\prime }} = \\frac{1}{n} \\cdot  \\frac{{\\left( ad - bc\\right) }^{2}}{\\left( {c + d}\\right) \\left( {a + c}\\right) },\\frac{{\\left( d - {d}^{\\prime }\\right) }^{2}}{{d}^{\\prime }} = \\frac{1}{n} \\cdot  \\frac{{\\left( ad - bc\\right) }^{2}}{\\left( {c + d}\\right) \\left( {b + d}\\right) }. \\end{aligned}\n$$\n\n所以\n\n$$\n{\\chi }^{2} = \\frac{{\\left( ad - bc\\right) }^{2}}{n} \\cdot  \\frac{\\left( {c + d}\\right) \\left( {b + d}\\right)  + \\left( {c + d}\\right) \\left( {a + c}\\right)  + \\left( {a + b}\\right) \\left( {b + d}\\right)  + \\left( {a + b}\\right) \\left( {a + c}\\right) }{\\left( {a + b}\\right) \\left( {c + d}\\right) \\left( {a + c}\\right) \\left( {b + d}\\right) }\n$$\n\n$= \\frac{{\\left( ad - bc\\right) }^{2}}{n} \\cdot  \\frac{n\\left( {b + d}\\right)  + n\\left( {a + c}\\right) }{\\left( {a + b}\\right) \\left( {c + d}\\right) \\left( {a + c}\\right) \\left( {b + d}\\right) } = \\frac{n{\\left( ad - bc\\right) }^{2}}{\\left( {a + b}\\right) \\left( {c + d}\\right) \\left( {a + c}\\right) \\left( {b + d}\\right) }.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 518,
+          "end": 537
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "id": "repair-x2-v1",
+      "resolved_issues": [
+        {
+          "code": "unattached-book-solution",
+          "severity": "blocking",
+          "message": "正文中检测到独立证明或解答，已隔离教师侧，需复核归属与正文续接",
+          "line": 703
+        }
+      ],
+      "evidence": "batch/reviews/repair-x2-author.json",
+      "source_files_read_only": true
+    }
+  ],
+  "image_references": []
+}

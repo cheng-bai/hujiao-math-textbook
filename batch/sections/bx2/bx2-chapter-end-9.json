@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "id": "bx2-chapter-end-9",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "9",
+  "chapter_title": "第9章复数",
+  "section": "chapter-end-9",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1213,
+          "end": 1213
+        }
+      ],
+      "id": "bx2-chapter-end-9",
+      "number": "chapter-end-9",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "heading",
+      "title": "三次方程求根公式与复数的起源",
+      "markdown": "## 三次方程求根公式与复数的起源",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1215,
+          "end": 1215
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "现代教科书在引进复数时往往从引入负数的平方根开始, 但历史上复数的思想却是从寻找实系数一元三次方程求根公式中萌芽的.\n\n对一般的实系数一元三次方程 $a{x}^{3} + b{x}^{2} + {cx} + d = 0\\left( {a \\neq  0}\\right)$ ,由于总可以通过代换 $x = y - \\frac{b}{3a}$ 消去其二次项,因此如何求解形如 ${x}^{3} + {px} + q = 0$ 的三次方程就成为关注的重点.\n\n在一些数学工具书中,我们可以找到方程 ${x}^{3} + {px} + q = 0$ 的求根公式,这一公式被称为卡尔丹公式, 它是以 16 世纪意大利数学家卡尔丹 (J. Cardan) 的名字命名的. 这里用现代数学的语言来介绍一下卡尔丹公式的获得过程.\n\n三次方程 ${x}^{3} + {px} + q = 0$ 可以变形为 ${x}^{3} =  - {px} + \\left( {-q}\\right)$ ,即把 ${x}^{3}$ 写成了两数之和. 受此启发,设想所求的未知数 $x$ 也可以写成两数之和: $x = m + n$ ,再把等式 ${x}^{3} = {\\left( m + n\\right) }^{3}$ 的右边展开,就得到 ${x}^{3} = {m}^{3} + {n}^{3} + {3mn}\\left( {m + n}\\right)$ ,即 ${x}^{3} = {3mnx} + \\left( {{m}^{3} + {n}^{3}}\\right)$ . 将上式与 ${x}^{3} =  - {px} + \\left( {-q}\\right)$ 相对照,不妨令\n\n$$\n\\left\\{  \\begin{array}{l} {3mn} =  - p, \\\\  {m}^{3} + {n}^{3} =  - q. \\end{array}\\right.\n$$\n\n把此方程组中的第一个方程两边同时作三次方,并把 ${m}^{3}$ 与 ${n}^{3}$ 看成未知数,由上述方程组可解出\n\n$$\n\\left\\{  \\begin{array}{l} {m}^{3} =  - \\frac{q}{2} + \\sqrt{{\\left( \\frac{q}{2}\\right) }^{2} + {\\left( \\frac{p}{3}\\right) }^{3}}, \\\\  {n}^{3} =  - \\frac{q}{2} - \\sqrt{{\\left( \\frac{q}{2}\\right) }^{2} + {\\left( \\frac{p}{3}\\right) }^{3}}. \\end{array}\\right.\n$$\n\n于是,似乎可以顺理成章地把方程 ${x}^{3} + {px} + q = 0$ 的一个根写成\n\n$$\nx = \\sqrt[3]{-\\frac{q}{2} + \\sqrt{{\\left( \\frac{q}{2}\\right) }^{2} + {\\left( \\frac{p}{3}\\right) }^{3}}} + \\sqrt[3]{-\\frac{q}{2} - \\sqrt{{\\left( \\frac{q}{2}\\right) }^{2} + {\\left( \\frac{p}{3}\\right) }^{3}}}.\n$$\n\n三次方程求根公式的研究推进至此, 看似大功告成. 但是, 将此公式用于另一位意大利数学家邦贝利(R. Bombelli)曾关注过的方程 ${x}^{3} - {15x} - 4 = 0$ ，得到该方程的一个根是 $x = \\sqrt[3]{2 + \\sqrt{-{121}}} + \\sqrt[3]{2 - \\sqrt{-{121}}}$ ,在认为负数不能进行开平方运算的 16 世纪,这是一个不知作何解释的结果. 另外,由 ${64} = {15} \\times  4 + 4$ 就可以看到方程 ${x}^{3} = {15x} + 4$ 有一个根是 $x = 4$ ,进而可求得该方程另外两个实根为 $x =  - 2 \\pm  \\sqrt{3}$ . 如何把这两个结果统一起来,让当时的数学家们不知所措了.\n\n其实,只要用现代的复数理论是可以把 $x = \\sqrt[3]{2 + \\sqrt{-{121}}} + \\sqrt[3]{2 - \\sqrt{-{121}}}$ 与 $x = 4$ 统一起来的. 事实上,若把 $\\sqrt{-{121}}$ 解释为 -121 的一个平方根 (比方说 11i),则\n\n$$\nx = \\sqrt[3]{2 + {11}\\mathrm{i}} + \\sqrt[3]{2 - {11}\\mathrm{i}}.\n$$\n\n可以直接验证 $2 \\pm  \\mathrm{i}$ 是 $2 \\pm  {11}\\mathrm{i}$ 的三次方根,于是卡尔丹公式确实给出了方程 ${x}^{3} - {15x} - 4 = 0$ 的一个根 $x = \\left( {2 + \\mathrm{i}}\\right)  + \\left( {2 - \\mathrm{i}}\\right)  = 4$ .\n\n这样的演绎和解释在数学上不够严谨, 如二次和三次根号的使用会有歧义, 解方程过程中会产生增根等. 在这些方面做些严格化后, 卡尔丹公式就是一个有效的求三次方程根的公式. 在实际求根过程中,一旦找到了 ${m}^{3}$ 与 ${n}^{3}$ 的一对三次方根 ${m}_{1}$ 与 ${n}_{1}$ ,并验证其满足 $3{m}_{1}{n}_{1} =  - p$ ,则方程 ${x}^{3} + {px} + q = 0$ 的三个根就是\n\n$$\n{x}_{1} = {m}_{1} + {n}_{1},{x}_{2} = \\omega {m}_{1} + {\\omega }^{2}{n}_{1},{x}_{3} = {\\omega }^{2}{m}_{1} + \\omega {n}_{1},\n$$\n\n这里 $\\omega  =  - \\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\mathrm{i}$ 是 1 的一个三次方根 (参看本章 9.4 节例 6). 例如,对方程 ${x}^{3} - {15x} - 4 \\; = 0$ ,我们前面找到的 ${m}_{1} = 2 + \\mathrm{i},{n}_{1} = 2 - \\mathrm{i}$ ,恰满足 $3{m}_{1}{n}_{1} = {15} =  - p$ ,于是,经过简单的计算就得到方程的三个实根:\n\n$$\n{x}_{1} = {m}_{1} + {n}_{1} = 4,{x}_{2} = \\omega {m}_{1} + {\\omega }^{2}{n}_{1} =  - 2 - \\sqrt{3},{x}_{3} = {\\omega }^{2}{m}_{1} + \\omega {n}_{1} =  - 2 + \\sqrt{3}.\n$$\n\n为了从卡尔丹的研究走到得以公认的三次方程求根公式, 有许多数学家曾作出了巨大的努力，关键就是从卡尔丹工作中所隐含的复数思想的萌芽逐步发展成完善的复数理论， 使得解方程过程中每一步都落在坚实的数学基础上.\n\n因此, 通常认为, 求解三次方程的研究是现代复数理论的起点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1216,
+          "end": 1266
+        }
+      ],
+      "emphases": [
+        {
+          "start": 227,
+          "end": 356,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-chapter-end-9-definition-2-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 2177,
+          "end": 2530,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx2-chapter-end-9-formula-2-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "内容提要",
+      "markdown": "## 内容提要",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1267,
+          "end": 1267
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "复数是我们继自然数、整数、有理数和实数的学习之后，新认识的一种数.\n\n1. 复数系与相关概念\n\n(1)虚数单位i，满足 ${\\mathrm{i}}^{2} =  - 1$ .\n\n(2)复数的代数形式: $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ .\n\n(3)复数的相等: $a + b\\mathrm{i} = 0\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的充要条件是 $a\\text{ 、 }b$ 同时为 0；复数 $a + b\\mathrm{i} = \\; c + d\\mathrm{i}\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ 的充要条件是 $a = c$ 且 $b = d$ .\n\n(4)复数的实部与虚部:复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的实部是 $a$ ，虚部是 $b$ ；虚部为 0 的复数是实数，虚部不为 0 的复数称为虚数，实部为 0 的虚数称为纯虚数.\n\n(5) 复数的模:复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的模是 $\\left| z\\right|  = \\sqrt{{a}^{2} + {b}^{2}}$ .\n\n(6)复数的共轭:复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的共轭复数是 $\\bar{z} = a - b\\mathrm{i}$ .\n\n2. 复数的四则运算\n\n(1)两个复数进行相加、相减或相乘时，仿照两个二项式进行相加、相减或相乘的规则计算，并用条件 ${\\mathrm{i}}^{2} =  - 1$ 及合并同类项以化简结果.\n\n(2)两个复数进行除法(除数不为 0)运算时，将分子和分母同时乘分母的共轭复数， 然后分子和分母分别做复数的乘法而得到运算结果.\n\n(3)复数模对乘、除的分配性:复数积(商)的模等于模的积(商).\n\n3. 复数的坐标表示\n\n(1)复平面:表示复数的直角坐标平面叫做复平面，其中 $x$ 轴叫做实轴， $y$ 轴叫做虚轴.\n\n(2)复数的坐标表示与向量表示:复数 $z = a + b\\mathrm{i}$ ( $a$ 、 $b \\in  \\mathbf{R}$ )可用复平面上坐标为 $\\left( {a, b}\\right)$ 的点 $Z\\left( {a, b}\\right)$ 来表示，也可以用从坐标原点 $O$ 出发的向量 $\\overrightarrow{OZ} = \\left( {a, b}\\right)$ 来表示.\n\n(3)复数模的几何意义:复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的模 $\\left| z\\right|$ 等于点 $Z\\left( {a, b}\\right)$ 与原点的距离，也等于向量 $\\overrightarrow{OZ}$ 的模 $\\left| \\overrightarrow{OZ}\\right|$ .\n\n(4)两个复数的和在复平面上所对应的向量就是两个复数对应的向量按平行四边形法则所得到的和向量.\n\n(5)两复数差的模的几何意义:两复数差的模是这两个复数在复平面上对应点之间的距离.\n\n4. 实系数一元二次方程\n\n给定方程 $a{x}^{2} + {bx} + c = 0\\left( {a\\text{ 、 }b\\text{ 、 }c \\in  \\mathbf{R}, a \\neq  0}\\right)$ ,并令 $\\Delta  = {b}^{2} - {4ac}$ 为其判别式,则\n\n(1)当 $\\Delta  > 0$ 时，方程有两个不相等的实根 $\\frac{-b \\pm  \\sqrt{\\Delta }}{2a}$ ；\n\n(2)当 $\\Delta  = 0$ 时，方程有两个相等的实根(二重根) $- \\frac{b}{2a}$ ；\n\n(3)当 $\\Delta  < 0$ 时，方程有一对共轭虚根 $\\frac{-b \\pm  \\sqrt{-\\Delta }\\mathrm{i}}{2a}$ .\n\n*5. 复数的三角形式\n\n(1)复数的辐角:设复数 $z$ 对应复平面上的点 $Z$ ，则以原点为顶点、 $x$ 轴的正半轴为始边、射线 ${OZ}$ 为终边的角 $\\theta$ 称为 $z$ 的辐角，记作 $\\operatorname{Arg}z$ ；满足 $0 \\leq  \\theta  < {2\\pi }$ 的辐角称为 $z$ 的辐角主值，记为 $\\arg z$ .\n\n(2)复数的三角形式:设复数 $z$ 的模为 $r$ ，辐角为 $\\theta$ ，则 $z = r\\left( {\\cos \\theta  + \\mathrm{i}\\sin \\theta }\\right)$ ，复数的这种表示形式称为它的三角形式.\n\n(3)三角形式下复数的乘法与除法公式:给定三角形式的复数 ${z}_{1} = r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ 与 ${z}_{2} = s\\left( {\\cos \\beta  + \\mathrm{i}\\sin \\beta }\\right)$ ,则\n\n${z}_{1}{z}_{2} = {rs}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  + \\beta }\\right) }\\right\\rbrack  ,$\n\n$\\frac{{z}_{1}}{{z}_{2}} = \\frac{r}{s}\\left\\lbrack  {\\cos \\left( {\\alpha  - \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  \\left( {{z}_{2} \\neq  0}\\right) .$\n\n(4)三角形式下复数的乘方与开方公式:给定三角形式的复数 $r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ ，则对任何正整数 $n$ ,有\n\n${z}^{n} = {r}^{n}\\left( {\\cos {n\\alpha } + \\mathrm{i}\\sin {n\\alpha }}\\right) ,$\n\n$z$ 的 $n$ 次方根为 $\\sqrt[n]{r}\\left( {\\cos \\frac{\\alpha  + {2k\\pi }}{n} + \\mathrm{i}\\sin \\frac{\\alpha  + {2k\\pi }}{n}}\\right) , k = 0,1,2,\\cdots , n - 1$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1268,
+          "end": 1332
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1333
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1335,
+          "end": 1335
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 选择题:\n\n(1)虚数的平方一定是 ( )\n\nA. 正实数； B. 负实数；\n\nC. 虚数; D. 虚数或负实数.\n\n(2)如果复平面上的向量 $\\overrightarrow{AB}$ 所对应的复数是 $- 3 + {2i}$ ，那么向量 $\\overrightarrow{BA}$ 所对应的复数是( )\n\nA. $3 - 2\\mathrm{i}$ ； B. $3 + 2\\mathrm{i}$ ；\n\nC. $- 3 + 2\\mathrm{i}$ ; D. $- 3 - 2\\mathrm{i}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1337,
+          "end": 1350
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1337,
+          "end": 1350
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-1",
+      "category": "复习题A",
+      "answer": "1. (1) D. (2) A.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 494,
+          "end": 495
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 填空题:\n\n(1)设 $z = {{11} - {60}\\mathrm{i}}$ ，则 $\\operatorname{Re}z =$ ___； $\\left| z\\right|  =$ ___； $\\left| z\\right|  =$ ___； $\\bar{z} =$ ___.\n\n(2)下列三个命题中，真命题是___.\n\n① 在复平面上，表示实数的点都在实轴上，表示虚数的点都在虚轴上；\n\n② 任何一个表示虚数的点一定在某一个象限内;\n\n③ 复数的模表示该复数在复平面上所对应的点到原点的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1351,
+          "end": 1362
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1351,
+          "end": 1362
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-2",
+      "category": "复习题A",
+      "answer": "2. (1) 11, -60, 61, 11+60i. (2) ③.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 496,
+          "end": 497
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 已知复数 $z = \\left( {{a}^{2} - {2a} - 3}\\right)  + \\left( {{a}^{2} - {4a} + 3}\\right) \\mathrm{i}$ ,其中 $a$ 是实数.\n\n(1)若 $z \\in  \\mathbf{R}$ ，求 $a$ 的值；\n\n(2)若 $z$ 在复平面上所对应的点位于第一象限，求 $a$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1368
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1368
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-3",
+      "category": "复习题A",
+      "answer": "3. (1) $a = 3$ 或 $a = 1$ . (2) $a <  - 1$ 或 $a > 3$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 498,
+          "end": 499
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 已知复数 ${z}_{1} = \\left( {{a}^{2} - a - 6}\\right)  + \\left( {1 - {2a}}\\right) \\mathrm{i},{z}_{2} = \\left( {a - 3}\\right)  + \\left( {{a}^{2} - {2a} + 2}\\right) \\mathrm{i}$ ，其中 $a \\in  \\mathbf{R}$ . 若 $\\overline{{z}_{1}} = {z}_{2}$ ,求 $a$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1369,
+          "end": 1370
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1369,
+          "end": 1370
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-4",
+      "category": "复习题A",
+      "answer": "4. 3 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 500,
+          "end": 501
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 计算:\n\n(1) $\\left( {4 + i}\\right) \\left( {3 + {2i}}\\right)$ ；\n\n(2) $\\left( {\\sqrt{2} + \\sqrt{3}i}\\right) \\left( {\\sqrt{2} - \\sqrt{3}i}\\right) \\left( {-\\sqrt{3} + \\sqrt{2}i}\\right) \\left( {-\\sqrt{3} - \\sqrt{2}i}\\right)$ ；\n\n(3) $\\frac{-3 + {29i}}{1 + {2i}}$ ；\n\n(4) $\\frac{{\\left( 1 + i\\right) }^{4}}{1 + {2i}} + \\frac{{\\left( 1 - i\\right) }^{4}}{1 - {2i}}$ ；\n\n(5) ${\\left\\lbrack  \\left( \\sqrt{3} + 1\\right)  + \\left( \\sqrt{3} - 1\\right) \\mathrm{i}\\right\\rbrack  }^{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1371,
+          "end": 1382
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1371,
+          "end": 1382
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-5",
+      "category": "复习题A",
+      "answer": "5. (1) 10 +11i. (2) 25. (3) ${11} + 7\\mathrm{i}$ . (4) $- \\frac{8}{5}$ . (5) $4\\sqrt{3} + 4\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 502,
+          "end": 503
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 已知复数 $z = \\frac{{\\left( -3 - \\mathrm{i}\\right) }^{2}\\left( {2 - \\mathrm{i}}\\right) }{{\\left( 1 + 2\\mathrm{i}\\right) }^{3}}$ ,求 $\\left| z\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1383,
+          "end": 1384
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1383,
+          "end": 1384
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-6",
+      "category": "复习题A",
+      "answer": "6. 2 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 504,
+          "end": 505
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 在复数范围内解下列方程:\n\n(1) ${x}^{2} - {4x} + 8 = 0$ ；\n\n(2) $3{x}^{2} + {2x} - 3 = 0$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1385,
+          "end": 1390
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1385,
+          "end": 1390
+        }
+      ],
+      "id": "bx2-chapter-end-9-hA-7",
+      "category": "复习题A",
+      "answer": "7. (1) $x = 2 \\pm  2\\mathrm{i}$ . (2) $x = \\frac{-1 \\pm  \\sqrt{10}}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 506,
+          "end": 507
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1391,
+          "end": 1391
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 选择题:\n\n(1)设 ${z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ，则 “ $\\left| {z}_{1}\\right|  = \\left| {z}_{2}\\right|$ ” 是 “ ${z}_{1} = {z}_{2}$ ” 的 ( )\n\nA. 充分非必要条件; B. 必要非充分条件;\n\nC. 充要条件; D. 既非充分也非必要条件.\n\n(2)设复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ ，则 ${z}^{2}$ 是纯虚数的充要条件是 ( )\n\nA. ${a}^{2} = {b}^{2}$ ; B. ${a}^{2} + {b}^{2} = 0$ ;\n\nC. $\\left| a\\right|  = \\left| b\\right|  \\neq  0$ ; D. ${ab} \\neq  0$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1393,
+          "end": 1406
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1393,
+          "end": 1406
+        }
+      ],
+      "id": "bx2-chapter-end-9-hB-1",
+      "category": "复习题B",
+      "answer": "1. (1) B. (2) C.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 510,
+          "end": 511
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 2",
+      "markdown": "2. 若复数 $z$ 满足 $z + \\bar{z} = 2,\\left( {z - \\bar{z}}\\right) \\mathrm{i} = 2$ ,求 $\\left| z\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1407,
+          "end": 1408
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1407,
+          "end": 1408
+        }
+      ],
+      "id": "bx2-chapter-end-9-hB-2",
+      "category": "复习题B",
+      "answer": "2. $\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 512,
+          "end": 513
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 若复数 ${z}_{1}$ 和复数 ${z}_{2}$ 满足 ${z}_{1}{z}_{2} = 3 - 4\\mathrm{i},\\left| {z}_{1}\\right|  = 2$ ,求 $\\left| {z}_{2}\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1409,
+          "end": 1410
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1409,
+          "end": 1410
+        }
+      ],
+      "id": "bx2-chapter-end-9-hB-3",
+      "category": "复习题B",
+      "answer": "3. $\\frac{5}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 514,
+          "end": 515
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 若 ${x}_{1}$ 和 ${x}_{2}$ 是方程 ${x}^{2} - {5x} + 8 = 0$ 的两个根,求 $\\left| {x}_{1}\\right|  + \\left| {x}_{2}\\right|$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1411,
+          "end": 1412
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1411,
+          "end": 1412
+        }
+      ],
+      "id": "bx2-chapter-end-9-hB-4",
+      "category": "复习题B",
+      "answer": "4. $4\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 516,
+          "end": 517
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "## 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1413,
+          "end": 1413
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 若复数 ${z}_{1}$ 和复数 ${z}_{2}$ 满足 $\\left| {z}_{1}\\right|  = 3,\\left| {z}_{2}\\right|  = 4,\\left| {{z}_{1} + {z}_{2}}\\right|  = 5$ ,求 $\\left| {{z}_{1} - {z}_{2}}\\right|$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1415,
+          "end": 1416
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1415,
+          "end": 1416
+        }
+      ],
+      "id": "bx2-chapter-end-9-t-1",
+      "category": "拓展与思考",
+      "answer": "1. 5.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 520,
+          "end": 521
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 已知复数 ${z}_{1}$ 和复数 ${z}_{2}$ 满足 ${z}_{1} + {z}_{2} = 3 - 5\\mathrm{i},\\overline{{z}_{1}} - \\overline{{z}_{2}} =  - 2 + 3\\mathrm{i}$ . 求 ${z}_{1}^{2} - {z}_{2}^{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1417,
+          "end": 1417
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1417,
+          "end": 1417
+        }
+      ],
+      "id": "bx2-chapter-end-9-t-2",
+      "category": "拓展与思考",
+      "answer": "2. $- {21} + \\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 522,
+          "end": 523
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 常庚哲,伍润生. 复数与几何[M]. 北京:科学出版社,2002.\n\n[2] 张顺燕. 复数、复函数及其应用[M]. 大连: 大连理工大学出版社, 2011.\n\n[3] 保罗・J·纳欣. 虚数的故事[M]. 朱惠霖,译. 上海:上海教育出版社,2008.\n\n[4] Andreescu T, Andrica D. Complex Numbers from A to...Z (Second Edition)[M]. New York: Birkhäuser, 2014.\n\n### 后 记\n\n本套教学参考资料与李大潜、王建磐主编,上海教育出版社出版的《普通高中教科书·数学》配套使用,本套教材根据中华人民共和国教育部制定并颁布实施的《普通高中数学课程标准 (2017 年版 2020 年修订) 》编制, 并经国家教材委员会专家委员会审核通过.\n\n本套教材是由设在复旦大学和华东师范大学的两个上海市数学教育教学研究基地 (上海高校“立德树人”人文社会科学重点研究基地)联合主持编写的. 编写工作依据高中数学课程标准的具体要求,努力符合教育规律和高中学生的认知规律,结合上海城市发展定位和课程改革基础, 并力求充分体现特色. 希望我们的这一努力能经得起实践和时间的检验, 对扎实推进数学的基础教育发挥积极的作用.\n\n本书是与必修第二册教材配套的教学参考资料, 共为四章, 各章编写人员分别为\n\n邹建兵、周子翔、朱胜林(第 6 章)\n\n肖登鹏、周子翔、朱胜林(第 7 章)\n\n陈兴义、刘攀、邹佳晨(第 8 章)\n\n况亦军(第 9 章)\n\n限于编写者的水平, 也由于新编教材尚缺乏教学实践的检验, 不妥及疏漏之处在所难免, 恳请广大师生及读者不吝赐教. 宝贵意见请通过邮箱 gaozhongshuxue@seph.com.cn 反馈, 不胜感激.\n\n图书在版编目 (CIP) 数据\n\n普通高中数学教学参考资料:必修. 第二册/上海市中小学 (幼儿园)课程改革委员会组织编写. 一 上海:上海教育出版社, 2020.12 ( 2023.12重印 )\n\nISBN 978-7-5720-0397-4\n\nI. ①普... II. ①上··· III. ①中学数学课 - 高中 - 教学参考资料 IV. ①G634.603\n\n中国版本图书馆CIP数据核字(2021)第003552号",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 524,
+          "end": 562
+        }
+      ],
+      "teacher_only": true
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": []
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "id": "bx3-2-1",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "13",
+  "chapter_title": "第13章统计",
+  "section": "2.1",
+  "title": "通过样本估计总体的集中趋势",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "通过样本估计总体的集中趋势",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 761
+        }
+      ],
+      "id": "bx3-2-1",
+      "number": "2.1",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "利用初中阶段学习过的平均数、中位数和众数, 我们可以描述有限样本的集中趋势. 例如,设样本数据为 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{n}$ , 由公式\n\n$$\n\\bar{x} = \\frac{{x}_{1} + {x}_{2} + \\cdots  + {x}_{n}}{n}\n$$\n\n就得到样本平均数,它描述了样本数据的平均水平. 如果 $n$ 个数据中不同的数据 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{k}$ 的频数分别为 ${f}_{1}\\text{ 、 }{f}_{2}\\text{ 、 }\\cdots$ 、 ${f}_{k}$ ,那么样本平均数为\n\n$$\n\\bar{x} = \\frac{{x}_{1}{f}_{1} + {x}_{2}{f}_{2} + \\cdots  + {x}_{k}{f}_{k}}{n}.\n$$\n\n当数据量大且重复率高时, 后一个公式可减少计算量.\n\n我们引进一个记号 $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}$ 表示多项连加的和 ${x}_{1} + {x}_{2} + \\cdots  + \\; {x}_{n}$ ,即\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i} = {x}_{1} + {x}_{2} + \\cdots  + {x}_{n},\n$$\n\n其中 $\\sum$ (读作 Sigma)称为求和符号,其下方的 $i = 1$ 表示 $i$ 从 1 开始取连续的整数值,上方的 $n$ 表示 $i$ 的取值到 $n$ 结束,而 ${x}_{i}$ 是与整数 $i$ 相联系的一个表达式. 如果 $c$ 是一个常数,由乘法对加法的分配律立即得到\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}c{x}_{i} = c\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\n$$\n\n用这个记号, 前面关于样本平均数的两个公式可以分别记为\n\n$$\n\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\\text{ 与 }\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{k}{x}_{i}{f}_{i}.\n$$\n\n某公司实行薪资保密制度，员工只知道自己的工作所得，而不知道其他员工的薪资. 现要了解该公司员工的平均年薪、中等年薪以及赚取人数最多的那种年薪. 在公司员工的花名册中随机抽取 15 名员工，调查得到这 15 名员工的年薪(单位:万元) 如下:\n\n$$\n\\begin{array}{llllllll} {8.1} & {8.1} & {8.4} & {11.0} & {5.3} & {8.2} & {7.4} & {9.8} \\end{array}\n$$\n\n$$\n\\begin{array}{lllllll} {7.6} & {13.8} & {8.1} & {6.5} & {10.5} & {9.5} & {8.2} \\end{array}\n$$\n\n---\n\n该公司的人事部门招聘员工时，最有可能用哪种年薪来回答有关待遇方面的问题?\n\n---\n\n公司全体员工的平均年薪可用样本的平均数来估计，员工的中等年薪可用样本的中位数来估计，而赚取人数最多的那种年薪可用样本的众数来估计.\n\n样本的平均值 $\\bar{x} = \\frac{\\left( {8.1} + {8.1} + \\cdots  + {8.2}\\right) }{15} = {8.7}$ (万元). 把所有年薪从低到高排序, 中间第 8 个数 8.2 即是样本中位数. 8.1 出现了 3 次，次数最多，即样本的众数为 8.1 .\n\n于是, 我们估计该公司员工的平均年薪可能为 8.7 万元, 中等年薪可能为 8.2 万元，赚取 8.1 万元年薪的可能性最大. 当然， 这样的估计是否合理, 还取决于样本的容量与代表性.\n\n例 2 为了解某体校学生跑步的情况, 观察随机抽取的 20 名学生一周内跑步的累计数 (单位: $\\mathrm{{km}}$ )，在各区间内的频数记录如表 13-6 所示.\n\n表 13-6\n\n<table><tr><td>周跑步累计数分组区间</td><td>频数</td></tr><tr><td>[5.5,10.5)</td><td>1</td></tr><tr><td>[10.5,15.5)</td><td>2</td></tr><tr><td>[15.5,20.5)</td><td>3</td></tr><tr><td>[20.5,25.5)</td><td>5</td></tr><tr><td>[25.5,30.5)</td><td>4</td></tr><tr><td>[30.5,35.5)</td><td>3</td></tr><tr><td>[35.5,40.5)</td><td>2</td></tr></table>\n\n试估计一周内该校学生平均跑步累计数.\n\n解 先求出各区间的中点值: $8\\text{ 、 }{13}\\text{ 、 }{18}\\text{ 、 }{23}\\text{ 、 }{28}\\text{ 、 }{33}\\text{ 、 }{38}$ . 则一周内这 20 名学生跑步累计的平均数为\n\n$$\n\\frac{8 \\times  1 + {13} \\times  2 + \\cdots  + {38} \\times  2}{20} = {24.5}\\left( \\mathrm{\\;{km}}\\right) .\n$$\n\n由于这 20 名学生是随机抽取的, 因此可以估计一周内该校学生平均跑步累计约 ${24.5}\\mathrm{\\;{km}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 762,
+          "end": 832
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 17,
+      "original": "images/bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 3,
+      "original": "images/bo_d4slmv3ef24c73be0p20_0_0_1_1654_1150_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_0_0_1_1654_1150_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 109,
+      "original": "images/bo_d4slmv3ef24c73be0p20_5_184_230_329_328_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_5_184_230_329_328_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 213,
+      "original": "images/bo_d4slmv3ef24c73be0p20_9_217_710_261_213_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_9_217_710_261_213_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 267,
+      "original": "images/bo_d4slmv3ef24c73be0p20_10_348_1655_553_321_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_10_348_1655_553_321_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 455,
+      "original": "images/bo_d4slmv3ef24c73be0p20_17_603_1518_843_534_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_17_603_1518_843_534_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 489,
+      "original": "images/bo_d4slmv3ef24c73be0p20_18_241_1411_925_548_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_18_241_1411_925_548_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 495,
+      "original": "images/bo_d4slmv3ef24c73be0p20_19_572_241_936_548_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_19_572_241_936_548_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 517,
+      "original": "images/bo_d4slmv3ef24c73be0p20_20_533_225_184_248_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_20_533_225_184_248_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 529,
+      "original": "images/bo_d4slmv3ef24c73be0p20_20_293_1245_667_344_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_20_293_1245_667_344_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 553,
+      "original": "images/bo_d4slmv3ef24c73be0p20_21_644_1062_760_405_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_21_644_1062_760_405_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 569,
+      "original": "images/bo_d4slmv3ef24c73be0p20_22_156_1314_936_298_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_22_156_1314_936_298_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 591,
+      "original": "images/bo_d4slmv3ef24c73be0p20_23_594_1364_859_498_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_23_594_1364_859_498_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 657,
+      "original": "images/bo_d4slmv3ef24c73be0p20_25_610_1495_468_332_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_25_610_1495_468_332_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 723,
+      "original": "images/bo_d4slmv3ef24c73be0p20_28_195_508_862_459_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_28_195_508_862_459_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 731,
+      "original": "images/bo_d4slmv3ef24c73be0p20_28_216_1655_815_490_0.jpg",
+      "absolute": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_28_216_1655_815_490_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 456,
+      "original": "../images/bo_d402s6jef24c73d2tl40_118_414_1663_780_409_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_118_414_1663_780_409_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 464,
+      "original": "../images/bo_d402s6jef24c73d2tl40_119_607_340_318_228_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_119_607_340_318_228_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 474,
+      "original": "../images/bo_d402s6jef24c73d2tl40_119_436_962_651_399_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_119_436_962_651_399_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 496,
+      "original": "../images/bo_d402s6jef24c73d2tl40_120_263_528_1072_607_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_120_263_528_1072_607_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "teacher",
+      "line": 502,
+      "original": "../images/bo_d402s6jef24c73d2tl40_120_369_1328_853_393_0.jpg",
+      "absolute": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_120_369_1328_853_393_0.jpg",
+      "exists": true
+    }
+  ]
+}

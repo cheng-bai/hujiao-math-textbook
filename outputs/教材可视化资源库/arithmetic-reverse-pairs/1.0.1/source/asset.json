@@ -1,0 +1,45 @@
+{
+  "controls": [
+    {
+      "key": "n",
+      "label": "项数",
+      "max": 10,
+      "min": 2,
+      "step": 1,
+      "type": "range"
+    },
+    {
+      "key": "difference",
+      "label": "公差（图形示例非负）",
+      "max": 4,
+      "min": 0,
+      "step": 0.5,
+      "type": "range"
+    },
+    {
+      "key": "progress",
+      "label": "倒序条形配对进度",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>2</mn><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><mi>n</mi><mo>(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><msub><mi>a</mi><mi>n</mi></msub><mo>)</mo></math>",
+  "goal": "把倒序条形移到正序条形上，观察每列总和相同。",
+  "id": "arithmetic-reverse-pairs",
+  "initial": {
+    "difference": 1,
+    "n": 7,
+    "progress": 0.7
+  },
+  "placements": [
+    {
+      "afterBlockId": "x1-4-1-b14",
+      "rationale": "接替高斯算法、倒序相加与公式推导的逐行重复解释。",
+      "sectionId": "x1-4-1"
+    }
+  ],
+  "summary": "等差数列正序与倒序逐项相加，每列之和都是首尾项和。共有n列，总和是原和的两倍，故前n项和为n倍首尾和的一半。图形示例取非负公差，代数方法不受此限制。",
+  "title": "等差求和：把倒序数列拼成等高列"
+}

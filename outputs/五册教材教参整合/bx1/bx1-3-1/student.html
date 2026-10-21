@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx1-3-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>3.1 幂与指数 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第一册 / 第3章幂、指数与对数</div><div class="spine-number">3.1</div><nav aria-label="本节目录"><a href="#bx1-3-1"><span>3.1</span>幂与指数</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 3.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 3.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>幂与指数<span class="cover-dot">.</span></h1><p class="cover-deck">必修第一册<br>第3章幂、指数与对数 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>5 个例题</span><span>17 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx1-3-1" data-title="幂与指数"><section class="section-heading" id="bx1-3-1"><span class="section-number">3.1</span><div><h2>幂与指数</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="1220cef5f8a5a5687583741cff6cf02c87f6b9de407a4593d8dc59e31e4a8586" id="bx1-3-1-b1"><h1>幂、指数与对数</h1>
+<p><img src="images/book-a8836bbf1b491528f535.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>关于幂我们并不陌生, 在初中时已经学过正整数指数幂及其基本的运算性质，并经历了将正整数指数幂推广到整数指数幂的过程. 本章通过定义分数指数幂，将指数从整数拓展到有理数，再引入无理数指数幂，最终将指数从有理数拓展到实数. 这为下一章用幂函数描述变量之间的相应关系作好准备.</p>
+<p>本章还将学习对数这一个新的概念, 它是指数运算的逆运算. 16 世纪末，随着当时天文、航海及工程实践的迅速发展，大量多位数乘除及开方的计算困扰着那时的科学家和工程师. 在简化计算的迫切需求下, 对数这个概念得以诞生, 并在实际计算中得到广泛应用. 现在, 功能强大的现代计算器使多位数的乘除及开方计算变得非常方便, 对数用于简化计算的功能已经完成了其历史任务. 但是, 对数这个概念及对数函数的种种性质在现代数学和其他科学领域中的作用却有增无减, 一直占据着重要的位置.</p>
+</div><h3 class="group-heading" id="bx1-3-1-b4">1 指数幂的拓展</h3><div class="prose" data-visual-source-sha="5ae69c361b41ad163e0c370785e5a4a76c1b85d381e16d1154082098a9cd69f8" id="bx1-3-1-b5"><p>在初中我们已经学过正整数指数幂的定义和运算性质.</p>
+<p>如果 <span class="math" data-tex="a" data-display="false"></span> 是一个实数, <span class="math" data-tex="n" data-display="false"></span> 是一个正整数,那么称</p>
+<div class="math display" data-tex="{a}^{n} = \underset{n\text{ 个 }a}{\underbrace{a \cdot  a \cdot  \cdots  \cdot  a}}" data-display="true"></div>
+<p>为 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次幂. 正整数指数幂满足如下的运算性质:</p>
+<p>对任意给定的实数 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 及正整数 <span class="math" data-tex="s\text{ 、 }t" data-display="false"></span> ,有</p>
+<p>(1) <span class="math" data-tex="{a}^{s}{a}^{t} = {a}^{s + t}" data-display="false"></span> ;</p>
+<p>(2) <span class="math" data-tex="{\left( {a}^{s}\right) }^{t} = {a}^{st}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\left( ab\right) }^{t} = {a}^{t}{b}^{t}" data-display="false"></span> .</p>
+<p>为了定义整数指数幂，我们在保证上述幂的运算性质仍然成立的条件下定义 <span class="math" data-tex="{a}^{0}" data-display="false"></span> 及 <span class="math" data-tex="{a}^{-n}" data-display="false"></span> ( <span class="math" data-tex="n" data-display="false"></span> 为正整数).</p>
+<p>假设性质 (1) 对所有的整数 <span class="math" data-tex="s\text{ 、 }t" data-display="false"></span> 均成立,则当 <span class="math" data-tex="s = 1, t = 0" data-display="false"></span> 时, 有</p>
+<div class="math display" data-tex="a = {a}^{1 + 0} = {a}^{1} \cdot  {a}^{0} = a \cdot  {a}^{0}." data-display="true"></div>
+<p>所以,当 <span class="math" data-tex="a \neq  0" data-display="false"></span> 时, <span class="math" data-tex="{a}^{0} = 1" data-display="false"></span> .</p>
+<p>当 <span class="math" data-tex="s = n, t =  - n" data-display="false"></span> 时,有</p>
+<div class="math display" data-tex="{a}^{n + \left( {-n}\right) } = {a}^{n} \cdot  {a}^{-n} = {a}^{0} = 1." data-display="true"></div>
+<p>所以,当 <span class="math" data-tex="a \neq  0" data-display="false"></span> 时, <span class="math" data-tex="{a}^{-n} = \frac{1}{{a}^{n}}" data-display="false"></span> .</p>
+<p>因此,当 <span class="math" data-tex="a \neq  0" data-display="false"></span> 时,可以定义</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {a}^{0} = 1, \\  {a}^{-n} = \frac{1}{{a}^{n}}. \end{array}\right." data-display="true"></div>
+<p>这样,可以证明对任意给定的非零实数 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 及整数 <span class="math" data-tex="s\text{ 、 }t" data-display="false"></span> ,上述幂的运算性质 (1) 至 (3) 仍然成立.</p>
+<p>在定义了整数指数幂后, 就会问: 能否定义有理数指数幂呢? 答案是肯定的. 为此先拓展根式的概念.</p>
+<aside class="key-point key-concept" id="bx1-3-1-definition-5-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p><span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次方叫做 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次幂,记作 <span class="math" data-tex="{a}^{n}" data-display="false"></span> . 称 <span class="math" data-tex="a" data-display="false"></span> 为幂的底数 (简称为底), <span class="math" data-tex="n" data-display="false"></span> 为幂的指数.</p>
+</aside><blockquote>
+<p>同底数的幂相乘， 底数不变, 指数相加.</p>
+</blockquote>
+<div class="math display" data-tex="{a}^{0} = 1\left( {a \neq  0}\right) ." data-display="true"></div>
+<aside class="key-point key-concept" id="bx1-3-1-definition-5-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>一般地,如果 <span class="math" data-tex="n" data-display="false"></span> 为大于 1 的整数,且 <span class="math" data-tex="{x}^{n} = a" data-display="false"></span> ,那么 <span class="math" data-tex="x" data-display="false"></span> 叫做 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次方根.</p>
+</aside><p>当 <span class="math" data-tex="n" data-display="false"></span> 是奇数时,由于正数的 <span class="math" data-tex="n" data-display="false"></span> 次方是一个正数,负数的 <span class="math" data-tex="n" data-display="false"></span> 次方是一个负数,因此 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次方根是唯一存在的,且可用 <span class="math" data-tex="\sqrt[n]{a}" data-display="false"></span> 表示. 例如,因为 <span class="math" data-tex="{2}^{5} = {32}" data-display="false"></span> ,所以 <span class="math" data-tex="\sqrt[5]{32} = 2" data-display="false"></span> ; 因为 <span class="math" data-tex="{\left( -2\right) }^{5} =  - {32}" data-display="false"></span> ,所以 <span class="math" data-tex="\sqrt[5]{-{32}} =  - 2." data-display="false"></span></p>
+<p>但当 <span class="math" data-tex="n" data-display="false"></span> 是偶数时,由于互为相反数的两个数的 <span class="math" data-tex="n" data-display="false"></span> 次方是同一个数,因此一个正数的 <span class="math" data-tex="n" data-display="false"></span> 次方根有两个,它们互为相反数. 这时,正数 <span class="math" data-tex="a" data-display="false"></span> 的正的 <span class="math" data-tex="n" data-display="false"></span> 次方根用 <span class="math" data-tex="\sqrt[n]{a}" data-display="false"></span> 表示,而负的 <span class="math" data-tex="n" data-display="false"></span> 次方根用 <span class="math" data-tex="- \sqrt[n]{a}" data-display="false"></span> 表示,它们可以合并简写成 <span class="math" data-tex="\pm  \sqrt[n]{a}\left( {a &gt; 0}\right)" data-display="false"></span> . 例如,16 的 4 次方根可以表示为 <span class="math" data-tex="\sqrt[4]{16} = 2" data-display="false"></span> 及 <span class="math" data-tex="- \sqrt[4]{16} =  - 2" data-display="false"></span> ,简记为 <span class="math" data-tex="\pm  \sqrt[4]{16} =  \pm  2" data-display="false"></span> . 显然, 负数没有偶数次方根.</p>
+<p>0 的任何次方根都是 0,记作 <span class="math" data-tex="\sqrt[n]{0} = 0" data-display="false"></span> .</p>
+<aside class="key-point key-concept" id="bx1-3-1-definition-5-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>式子 <span class="math" data-tex="\sqrt[n]{a}" data-display="false"></span> 叫做 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次根式,这里 <span class="math" data-tex="n" data-display="false"></span> 叫做根指数, <span class="math" data-tex="a" data-display="false"></span> 叫做被开方数.</p>
+</aside></div><article class="question" id="bx1-3-1-ex-1" data-question-id="bx1-3-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p><strong>例 1</strong> ( 1 )求 <span class="math" data-tex="- \frac{1}{32}" data-display="false"></span> 的 5 次方根；</p>
+<p>( 2 )求 81 的 4 次方根.</p>
+</div></article><article class="question" id="bx1-3-1-ex-2" data-question-id="bx1-3-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p><strong>例 2</strong> 求下列各根式的值:</p>
+<p>(1) <span class="math" data-tex="\sqrt[5]{{\left( -2\right) }^{5}}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="\sqrt[6]{{\left( -8\right) }^{2}}" data-display="false"></span> .</p>
+<blockquote>
+<p>当 <span class="math" data-tex="n" data-display="false"></span> 为奇数时, <span class="math" data-tex="\sqrt[n]{{a}^{n}} = a" data-display="false"></span></p>
+<p>当 <span class="math" data-tex="n" data-display="false"></span> 为偶数时, <span class="math" data-tex="\sqrt[n]{{a}^{n}} = \left| a\right| ." data-display="false"></span></p>
+</blockquote>
+</div></article><h3 class="group-heading" id="bx1-3-1-b8">练习 3.1(1)</h3><article class="question" id="bx1-3-1-p311-1" data-question-id="bx1-3-1-p311-1" data-category="practice"><div class="question-label">练习3.1(1) · 1</div><div class="question-body"><ol>
+<li>求 <span class="math" data-tex="- \frac{32}{243}" data-display="false"></span> 的 5 次方根.</li>
+</ol>
+</div></article><article class="question" id="bx1-3-1-p311-2" data-question-id="bx1-3-1-p311-2" data-category="practice"><div class="question-label">练习3.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>求 9 的 4 次方根.</li>
+</ol>
+</div></article><article class="question" id="bx1-3-1-p311-3" data-question-id="bx1-3-1-p311-3" data-category="practice"><div class="question-label">练习3.1(1) · 3</div><div class="question-body"><ol start="3">
+<li>求下列各根式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\sqrt[5]{{\left( -4\right) }^{5}}" data-display="false"></span> ； (2) <span class="math" data-tex="\sqrt[6]{{\left( a - b\right) }^{6}}" data-display="false"></span> (其中 <span class="math" data-tex="a &lt; b" data-display="false"></span> ).</p>
+<p>为了定义有理数指数幂, 我们首先定义正数的有理数指数幂, 使得整数指数幂的三条运算性质对有理数指数幂仍然成立.</p>
+<p>设 <span class="math" data-tex="a &gt; 0, s" data-display="false"></span> 为有理数,我们定义 <span class="math" data-tex="{a}^{s}" data-display="false"></span> .</p>
+<p>当 <span class="math" data-tex="s = \frac{1}{n}" data-display="false"></span> ,而 <span class="math" data-tex="n" data-display="false"></span> 是正整数时,若 <span class="math" data-tex="n = 1" data-display="false"></span> ,则 <span class="math" data-tex="{a}^{\frac{1}{n}} = a" data-display="false"></span> ,这种情况比较特殊,无需定义; 若 <span class="math" data-tex="n" data-display="false"></span> 大于 1,则定义 <span class="math" data-tex="{a}^{\frac{1}{n}} = \sqrt[n]{a}" data-display="false"></span> ,即为 <span class="math" data-tex="a" data-display="false"></span> 的 <span class="math" data-tex="n" data-display="false"></span> 次根式,它是方程 <span class="math" data-tex="{x}^{n} = a" data-display="false"></span> 的唯一正数解.</p>
+<p>当 <span class="math" data-tex="s = \frac{m}{n}" data-display="false"></span> ,而 <span class="math" data-tex="m" data-display="false"></span> 是一个整数, <span class="math" data-tex="n" data-display="false"></span> 是一个大于 1 的整数时, 定义</p>
+<div class="math display" data-tex="{a}^{\frac{m}{n}} = {\left( {a}^{m}\right) }^{\frac{1}{n}} = \sqrt[n]{{a}^{m}}." data-display="true"></div>
+<p>可以证明,当 <span class="math" data-tex="\frac{m}{n} = \frac{{m}^{\prime }}{{n}^{\prime }}" data-display="false"></span> 且 <span class="math" data-tex="{m}^{\prime }" data-display="false"></span> 为整数及 <span class="math" data-tex="{n}^{\prime }" data-display="false"></span> 为大于 1 的整数时,总成立 <span class="math" data-tex="{a}^{\frac{m}{n}} = {a}^{\frac{{m}^{\prime }}{{n}^{\prime }}}" data-display="false"></span> .</p>
+<p>当 <span class="math" data-tex="s" data-display="false"></span> 为有理数时,它总可表示为两个互素整数的商 <span class="math" data-tex="\frac{m}{n}" data-display="false"></span> ,其中 <span class="math" data-tex="m" data-display="false"></span> 是整数,而 <span class="math" data-tex="n" data-display="false"></span> 是正整数,可定义 <span class="math" data-tex="{a}^{s} = {a}^{\frac{m}{n}}" data-display="false"></span> .</p>
+<p>根据 <span class="math" data-tex="\frac{1}{n}" data-display="false"></span> 次幂的定义,有 <span class="math" data-tex="{\left( {a}^{\frac{1}{n}}\right) }^{n} = a" data-display="false"></span> . 再由分数指数幂的定义与整数指数幂的运算性质 (2), 有</p>
+<div class="math display" data-tex="{\left( {a}^{\frac{1}{n}}\right) }^{m} = {\left( {a}^{\frac{1}{n}}\right) }^{\frac{nm}{n}} = {\left\lbrack  {\left( {a}^{\frac{1}{n}}\right) }^{nm}\right\rbrack  }^{\frac{1}{n}} = {\left\lbrack  {\left( {\left( {a}^{\frac{1}{n}}\right) }^{n}\right) }^{m}\right\rbrack  }^{\frac{1}{n}} = {\left( {a}^{m}\right) }^{\frac{1}{n}}." data-display="true"></div>
+<p>因此,也可以把 <span class="math" data-tex="{a}^{\frac{m}{n}}" data-display="false"></span> 等价地定义为</p>
+<div class="math display" data-tex="{a}^{\frac{m}{n}} = {\left( {a}^{\frac{1}{n}}\right) }^{m} = {\left( \sqrt[n]{a}\right) }^{m}." data-display="true"></div>
+<p>利用整数指数幂的运算性质(1)至(3)，可以证明这三条性质对有理数指数幂仍然成立. 我们也可以证明以下的幂的基本不等式: 当实数 <span class="math" data-tex="a &gt; 1" data-display="false"></span> ,有理数 <span class="math" data-tex="s &gt; 0" data-display="false"></span> 时,不等式 <span class="math" data-tex="{a}^{s} &gt; 1" data-display="false"></span> 成立.</p>
+</div></article><article class="question" id="bx1-3-1-ex-3" data-question-id="bx1-3-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p><strong>例 3</strong> 求下列各式的值:</p>
+<p>(1) <span class="math" data-tex="{4}^{\frac{3}{2}}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\left( \frac{81}{625}\right) }^{-\frac{3}{4}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-ex-4" data-question-id="bx1-3-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p><strong>例 4</strong> 用有理数指数幂的形式表示下列各式(其中 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ): (1) <span class="math" data-tex="\sqrt[3]{{a}^{2}}" data-display="false"></span> ；</p>
+<blockquote>
+<p><span class="math" data-tex="{a}^{\frac{1}{n}} = \sqrt[n]{a}\left( {a &gt; 0, n}\right)" data-display="false"></span> 为大于 1 的整数).</p>
+<p>当 <span class="math" data-tex="a &lt; 0" data-display="false"></span> 且 <span class="math" data-tex="n" data-display="false"></span> 是正奇数时, 存在唯一的实数 <span class="math" data-tex="x" data-display="false"></span> ,使得</p>
+<span class="math" data-tex="{x}^{n} = a &lt; 0," data-display="false"></span>
+<p>此时 <span class="math" data-tex="{a}^{\frac{1}{n}}" data-display="false"></span> 能被定义.</p>
+<p>当 <span class="math" data-tex="a &lt; 0" data-display="false"></span> 且 <span class="math" data-tex="n" data-display="false"></span> 是正偶数时, 因为不存在实数 <span class="math" data-tex="x" data-display="false"></span> ,使得</p>
+<span class="math" data-tex="{x}^{n} = a &lt; 0," data-display="false"></span>
+<p>故不能定义 <span class="math" data-tex="{a}^{\frac{1}{n}}" data-display="false"></span> .</p>
+<p>当 <span class="math" data-tex="a = 0" data-display="false"></span> 且 <span class="math" data-tex="n" data-display="false"></span> 是正整数时, 也可定义 <span class="math" data-tex="{0}^{\frac{1}{n}} = 0." data-display="false"></span></p>
+<p>一般地,在 <span class="math" data-tex="n" data-display="false"></span> 为大于 1 的整数,且 <span class="math" data-tex="m" data-display="false"></span> 为整数时,对所有使得 <span class="math" data-tex="\sqrt[n]{{a}^{m}}" data-display="false"></span> 有意义的实数 <span class="math" data-tex="a" data-display="false"></span> ,都可定义</p>
+<span class="math" data-tex="{a}^{\frac{m}{n}} = \sqrt[n]{{a}^{m}}." data-display="false"></span>
+</blockquote>
+<p>(2) <span class="math" data-tex="{a}^{3} \cdot  \sqrt[4]{{a}^{3}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\sqrt{a\sqrt{a}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-ex-5" data-question-id="bx1-3-1-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p><strong>例 5</strong> 化简下列各式:</p>
+<p>(1) <span class="math" data-tex="{\left( {x}^{\frac{\sqrt{3}}{2}}\right) }^{\sqrt{3}} \cdot  \sqrt{x}" data-display="false"></span> (其中 <span class="math" data-tex="x &gt; 0" data-display="false"></span> )；</p>
+<p>(2) <span class="math" data-tex="\frac{\left( {{a}^{\frac{2}{3}}{b}^{\frac{1}{2}}}\right) \left( {-3{a}^{\frac{1}{2}}{b}^{\frac{1}{3}}}\right) }{\frac{1}{3}{a}^{\frac{1}{6}}{b}^{\frac{5}{6}}}" data-display="false"></span> (其中 <span class="math" data-tex="a &gt; 0, b &gt; 0" data-display="false"></span> ).</p>
+</div></article><h3 class="group-heading" id="bx1-3-1-b15">练习 3.1(2)</h3><article class="question" id="bx1-3-1-p312-1" data-question-id="bx1-3-1-p312-1" data-category="practice"><div class="question-label">练习3.1(2) · 1</div><div class="question-body"><ol>
+<li>求下列各式的值:</li>
+</ol>
+<p>(1)100 <span class="math" data-tex="{}^{\frac{1}{2}}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{8}^{-\frac{2}{3}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-p312-2" data-question-id="bx1-3-1-p312-2" data-category="practice"><div class="question-label">练习3.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>用有理数指数幂的形式表示下列各式(其中 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="{a}^{\frac{10}{3}} \cdot  \sqrt[5]{{a}^{3}}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="\sqrt[3]{a\sqrt[3]{a}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-p312-3" data-question-id="bx1-3-1-p312-3" data-category="practice"><div class="question-label">练习3.1(2) · 3</div><div class="question-body"><ol start="3">
+<li>化简下列各式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\left( {a}^{3 + \sqrt{3}}\right) }^{3 - \sqrt{3}}" data-display="false"></span> (其中 <span class="math" data-tex="a &gt; 0" data-display="false"></span> )；</p>
+<p>(2) <span class="math" data-tex="\frac{4{a}^{\frac{2}{3}}{b}^{2}}{\left( {{a}^{\frac{1}{6}}{b}^{\frac{5}{6}}}\right) \left( {-\frac{2}{3}{a}^{\frac{1}{2}}b}\right) }" data-display="false"></span> (其中 <span class="math" data-tex="a &gt; 0, b &gt; 0" data-display="false"></span> ).</p>
+</div></article><article class="question" id="bx1-3-1-p312-4" data-question-id="bx1-3-1-p312-4" data-category="practice"><div class="question-label">练习3.1(2) · 4</div><div class="question-body"><ol start="4">
+<li>已知 <span class="math" data-tex="0 &lt; a &lt; 1, s &gt; 0" data-display="false"></span> . 求证: <span class="math" data-tex="0 &lt; {a}^{s} &lt; 1" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-3-1-b20">习题 3.1</h3><h3 class="group-heading" id="bx1-3-1-b21">A 组</h3><article class="question" id="bx1-3-1-h31A-1" data-question-id="bx1-3-1-h31A-1" data-category="homework"><div class="question-label">习题3.1A · 1</div><div class="question-body"><p>1.(1)求一64的立方根； (2)求 256 的 4 次方根.</p>
+</div></article><article class="question" id="bx1-3-1-h31A-2" data-question-id="bx1-3-1-h31A-2" data-category="homework"><div class="question-label">习题3.1A · 2</div><div class="question-body"><ol start="2">
+<li>求下列各根式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\sqrt[5]{\frac{243}{32}}" data-display="false"></span> ； (2) <span class="math" data-tex="- \sqrt[3]{0.125}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\sqrt[7]{{\left( -2\right) }^{7}}" data-display="false"></span> ； (4) <span class="math" data-tex="\sqrt[6]{{\left( -{27}\right) }^{2}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-h31A-3" data-question-id="bx1-3-1-h31A-3" data-category="homework"><div class="question-label">习题3.1A · 3</div><div class="question-body"><ol start="3">
+<li>用有理数指数幂的形式表示下列各式(其中 <span class="math" data-tex="x &gt; 0, y &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="\sqrt[3]{{x}^{5}}" data-display="false"></span> ； (2) <span class="math" data-tex="{\left( \sqrt[5]{x}\right) }^{3}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\sqrt[7]{{x}^{3}{y}^{4}}" data-display="false"></span> ； (4) <span class="math" data-tex="\sqrt[7]{\frac{{x}^{3}}{{y}^{4}}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-h31A-4" data-question-id="bx1-3-1-h31A-4" data-category="homework"><div class="question-label">习题3.1A · 4</div><div class="question-body"><ol start="4">
+<li>用根式的形式表示下列各式(其中 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="{a}^{\frac{2}{3}}" data-display="false"></span> ； (2) <span class="math" data-tex="{a}^{\frac{3}{4}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{a}^{-\frac{2}{5}}" data-display="false"></span> ； (4) <span class="math" data-tex="{a}^{-\frac{5}{2}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-h31A-5" data-question-id="bx1-3-1-h31A-5" data-category="homework"><div class="question-label">习题3.1A · 5</div><div class="question-body"><ol start="5">
+<li>求下列各式中 <span class="math" data-tex="x" data-display="false"></span> 的值(其中 <span class="math" data-tex="x &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="{x}^{3} = {27}" data-display="false"></span> ； (2) <span class="math" data-tex="{x}^{4} = {121}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{x}^{\frac{3}{2}} = {1000}" data-display="false"></span> ； (4) <span class="math" data-tex="{x}^{-\frac{4}{3}} = \frac{16}{625}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-h31A-6" data-question-id="bx1-3-1-h31A-6" data-category="homework"><div class="question-label">习题3.1A · 6</div><div class="question-body"><ol start="6">
+<li>用有理数指数幂的形式表示下列各式(其中 <span class="math" data-tex="a &gt; 0, b &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="{a}^{\frac{1}{3}}{a}^{\frac{1}{4}}" data-display="false"></span> ； (2) <span class="math" data-tex="\sqrt[3]{a\sqrt{a}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\left( {a}^{\frac{1}{4}}{b}^{-\frac{3}{8}}\right) }^{8}" data-display="false"></span> ；</p>
+<p>(4) <span class="math" data-tex="{\left( \frac{{a}^{-3}{b}^{4}}{\sqrt{b}}\right) }^{-\frac{1}{3}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-1-h31A-7" data-question-id="bx1-3-1-h31A-7" data-category="homework"><div class="question-label">习题3.1A · 7</div><div class="question-body"><ol start="7">
+<li>化简下列各式(其中 <span class="math" data-tex="a &gt; 0, b &gt; 0" data-display="false"></span> ):</li>
+</ol>
+<p>(1) <span class="math" data-tex="\frac{\left( {2{a}^{\frac{2}{3}}{b}^{\frac{1}{2}}}\right) \left( {-6{a}^{\frac{1}{2}}{b}^{\frac{1}{3}}}\right) }{3{a}^{\frac{1}{6}}{b}^{\frac{5}{6}}}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\left( {a}^{2 - \sqrt{3}}b\right) }^{2 + \sqrt{3}} \cdot  {b}^{2 - \sqrt{3}}" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx1-3-1-b29">B 组</h3><article class="question" id="bx1-3-1-h31B-1" data-question-id="bx1-3-1-h31B-1" data-category="homework"><div class="question-label">习题3.1B · 1</div><div class="question-body"><ol>
+<li>当 <span class="math" data-tex="x &lt; 0" data-display="false"></span> 时,求 <span class="math" data-tex="\left| x\right|  + \sqrt[6]{{x}^{6}} + 2\sqrt[3]{{x}^{3}}" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="bx1-3-1-h31B-2" data-question-id="bx1-3-1-h31B-2" data-category="homework"><div class="question-label">习题3.1B · 2</div><div class="question-body"><ol start="2">
+<li>设 <span class="math" data-tex="{a}^{2x} = 2" data-display="false"></span> ,且 <span class="math" data-tex="a &gt; 0" data-display="false"></span> . 求 <span class="math" data-tex="\frac{{a}^{3x} + {a}^{-{3x}}}{{a}^{x} + {a}^{-x}}" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="bx1-3-1-h31B-3" data-question-id="bx1-3-1-h31B-3" data-category="homework"><div class="question-label">习题3.1B · 3</div><div class="question-body"><ol start="3">
+<li>设 <span class="math" data-tex="a &gt; b &gt; 0" data-display="false"></span> ,求证: <span class="math" data-tex="{a}^{a}{b}^{b} &gt; {\left( ab\right) }^{\frac{a + b}{2}}" data-display="false"></span> .</li>
+</ol>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx1-3-1" checked>幂与指数</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

@@ -1,0 +1,1098 @@
+[
+  {
+    "type": "section",
+    "title": "等差数列",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 7,
+        "end": 7
+      }
+    ],
+    "id": "x1-4-1",
+    "number": "4.1",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "章导语",
+    "markdown": "# 数列\n\n![bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg](images/book-9b7e5528e3891f66b531.jpg)\n\n对数列的研究是基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP)，下至一个人每年的身高或体重，都可以用数列表示. 数列也是学习微积分的一个必要的基础. 本章采用从特殊到一般、从具体到抽象的方法, 先研究两类特殊的数列——等差数列和等比数列, 再在此基础上研究一般的数列. 同时, 介绍数学归纳法这一与数列有关的重要方法, 并通过给出一个利用迭代序列求平方根的方法, 揭示算法在求近似解中的重要作用.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1,
+        "end": 6
+      }
+    ],
+    "id": "x1-4-1-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 本章概述",
+    "markdown": "## 一、本章概述\n\n### 总体要求\n\n数列是反映自然规律的一个基本数学模型, 对数列的研究基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种事物数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP), 下至一个人每年的身高或体重, 都可以用数列表示. 数列在整个中学数学教学中, 处于一个知识汇合点的地位, 很多知识都与数列有着密切联系, 以前学过的数、式、方程、函数、简易逻辑等知识在此可得到充分的应用, 而数列的学习又为以后学习极限等内容作了铺垫.\n\n学生在进入高中前,在找规律填数字等的练习中可能已对等差数列、等比数列的变化规律有了一些感性认识, 而进入高中阶段, 学生则要对等差数列和等比数列的定义和性质有较为系统及确切的认知, 并通过建立与等差数列或等比数列相应的数学模型, 解决日常生活和现实世界中的某些实际问题. 数学归纳法是一种通过两步达到完全归纳的有效方法,可以简单地证明与正整数 $n$ 有关的一些数学命题,可用来证明与数列有关的公式, 但其应用远远不限于数列. 本章中所讲的数学归纳法和数列极限等内容可以使学生对“无限”有进一步的认识,也反映了从量变到质变的辩证规律.\n\n在本章的学习中, 学生将掌握等差数列和等比数列的变化规律, 建立通项公式和前 n 项和公式; 能运用等差数列、等比数列解决简单的实际问题和数学问题, 感受数学模型的现实意义与应用; 通过日常生活和数学中的实例, 了解一般数列的概念和表示方法; 了解数学归纳法的原理, 并能用数学归纳法证明与数列有关的一些简单命题; 通过用迭代序列求 $\\sqrt{2}$ 的近似值初步了解算法的思想.\n\n### 课时安排建议\n\n本章的课时安排建议为 ${11}\\left( {{10} + {1}^{ * }}\\right)  + 1$ ,共计 12 课时,建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan=\"2\">4.1 等差数列</td><td rowspan=\"2\">2</td><td>等差数列及其通项公式 1 课时</td></tr><tr><td>等差数列的前 $n$ 项和 1 课时</td></tr><tr><td rowspan=\"2\">4.2 等比数列</td><td rowspan=\"2\">3</td><td>等比数列及其通项公式 1 课时</td></tr><tr><td>等比数列的前 $n$ 项和 2 课时</td></tr><tr><td rowspan=\"3\">4.3 数列</td><td rowspan=\"3\">3</td><td>数列的概念与性质 1 课时</td></tr><tr><td>利用递推公式表示数列 1 课时</td></tr><tr><td>习题课 1 课时</td></tr><tr><td rowspan=\"2\">4.4 数学归纳法</td><td rowspan=\"2\">2</td><td>数学归纳法 1 课时</td></tr><tr><td>数学归纳法的应用 1 课时</td></tr><tr><td>* 4.5 用迭代序列求 $\\sqrt{2}$ 的近似值</td><td>1</td><td/></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容共分为 5 节: 4.1 等差数列, 4.2 等比数列, 4.3 数列, 4.4 数学归纳法, * 4.5 用迭代序列求 $\\sqrt{2}$ 的近似值.\n\n“ 4.1 等差数列”一节,从生活中的实例入手,在具体的问题情境中发现规律,抽象出等差数列的概念. 用数学表达式呈现等差数列的定义,即得到等差数列的递推公式,据此可以得到等差数列的通项公式,进而可以研究等差数列的性质以及其前 $n$ 项和. 这样, 按照 “定义一递推公式 “> 通项公式一主线, 可展现等差数列的内容.\n\n“ 4.2 等比数列”一节,从代数与几何问题的实例入手,在具体的问题情境中发现规律, 抽象出等比数列的概念. 用数学表达式呈现等比数列的定义, 即得到等比数列的递推公式, 据此可以得到等比数列的通项公式, 进而可以研究等比数列的性质以及其前 $n$ 项和. 仍然按照 “定义⇒递推公式 $\\Rightarrow$ 通项公式 $\\Rightarrow$ 数列的性质与数列求和 $\\Rightarrow$ 简单运用”这样的主线来展现等比数列的内容. 本节介绍了数列极限的描述性定义, 并给出了当公比 $q$ 满足条件 $0 < \\left| q\\right|  < 1$ 时等比数列的前 $n$ 项和的极限,为后续导数章节的学习作铺垫.\n\n“ 4.3 数列”一节,在已经掌握了等差数列、等比数列这两种特殊数列的基础上, 通过日常生活与数学中的实例, 抽象出数列是按照一定顺序排列的一列数这一定义. 对于一些数列, 可以借助通项公式研究该数列的性质, 也可以从建立数列的递推关系入手,按照“递推公式⇒通项公式⇒数列的性质与数列求和行研究. 在借助递推公式求通项公式的过程中, 体会将一些一般数列的问题转化为等差数列、等比数列处理的可能性及相应的处理办法, 体会化归思想的价值.\n\n“4.4 数学归纳法”一节,以多米诺骨牌作为类比,让学生感悟数学归纳法是一种严谨的数学证明方法,可以通过两步完成相应命题对 $n$ 取所有正整数时都成立的证明, 并体验归纳一猜想一证明的科学探索过程.\n\n”* 4.5 用迭代序列求 $\\sqrt{2}$ 的近似值”一节,介绍用递推公式进行近似计算的迭代算法. 这是新增加的一节内容, 说明实际生活中数列递推关系的应用远不限于以往教材中所涉及的一些问题. 现代应用数学的一个重要发展趋势是对算法的重视, 一些企业现在甚至已明确提出了算法是它们的核心竞争力! 从这点出发, 在介绍了利用递推公式研究数列的方法后, 适当地强调算法, 适当地加强算法思想的阐述和对学生算法方面的引领和训练,不仅可以进一步显示数列的递推公式的深刻意义和作用,彰显它们是设计相应算法的重要理论基础, 也可以在数学基础教育中体现现代化的精神, 反映信息社会的特点和需要, 全面提升学生的数学运算与数据分析方面的核心素养.\n\n综上所述, 本章的内容以数列的递推公式作为一条明线来安排结构, 即先研究两种具有特殊递推关系的数列——等差数列和等比数列,再在此基础上研究一般的数列, 随后的数学归纳法本质上也是证明递推关系, 最后通过“算法”理解数列递推公式的实际意义与作用; 同时, 以研究数学问题的基本方法作为一条暗线来提升学生的数学核心素养,即按照从特殊到一般、从具体到抽象、从归纳猜想到数学论证的方法培养学生的数学研究能力与实际应用能力, 全面提升学生的数学抽象、逻辑推理、直观想象、数学运算、数据分析、数学建模的核心素养.\n\n### 教学提示\n\n(1)本章内含类比、归纳、数形结合、方程、算法、从特殊到一般等重要的数学思想方法. 这些思想方法是人类在长期实践中经过千锤百炼得出的, 自然清晰、合乎情理. 在实际教学中, 应引导学生以知识为载体, 重视数学思想方法的教学和领悟. 例如:\n\n类比思想. 等差数列与等比数列在定义、通项公式、递推公式、一些相关的性质和解题方法上都有可类比之处.\n\n归纳思想. 在等差数列、等比数列的概念及其前 $n$ 项和公式的得出和推导过程中, 学生可获得观察、猜想、发现、归纳、概括、总结等学习过程的体验, 体现了归纳思想的具体运用.\n\n数形结合思想. 这一思想在等差数列的前 $n$ 项和公式与等比数列定义的引入方面都有具体的应用, 数列中的很多问题也可以借助 (函数)图像的背景来研究.\n\n方程思想. 本章内容中有关数量关系的探究方面, 可关注方程思想的渗透.\n\n算法思想. 从数列通项公式的求解,到等差数列、等比数列的前 $n$ 项和公式的推导,以及用迭代序列求 $\\sqrt{2}$ 的近似值,都贯彻了算法思想.\n\n从特殊到一般的思想. 本章按照从特殊到一般、从具体到抽象、从归纳猜想到数学论证的原则安排学习内容. 可以把数列的递推关系作为一条主线贯穿全章, 从特殊的递推关系推广到一般的递推关系.\n\n(2)本章内容的呈现体现了“现实情境、_____必要的真的应用”的特点,教师在教学过程中应通过具体实例(如购房贷款、放射性物质的衰变、人口增长等)帮助学生理解等差数列、等比数列以及数列的定义、性质和应用, 也可以组织学生收集、 阅读数列方面的有关研究成果,如《九章算术》《四元玉鉴》等,感悟我国古代数学的辉煌成就. 要注重对学生从实际问题抽象出数学模型能力的培养. 本章对数列的实际应用背景增加了, 而对涉及数列中各量之间基本关系的繁难的技能训练题目, 要求则有所降低, 只要保证能达到基本技能训练的目的就可以了.\n\n### 评价建议\n\n本章的评价在知识的层面上应关注以下几点:\n\n(1)关注学生是否了解与掌握等差数列、等比数列的定义; 是否会求等差数列的公差、通项公式、等差中项和等差数列的前 $n$ 项和; 是否会求等比数列的公比、通项公式、等比中项和等比数列的前 $n$ 项和.\n\n(2)关注学生对于数列及其表示方法的理解; 是否能利用数列的通项公式判断数列的单调性和求解最大项、最小项等问题; 是否能借助数列的递推关系并构建相应的算法解决简单的实际问题.\n\n(3)关注学生是否正确掌握数学归纳法的本质和步骤.\n\n本章的评价在数学核心素养的层面上应关注以下几点:\n\n(1)数学抽象. 本章对数学抽象要求较高,在建立等差数列、等比数列、数列的定义, 研究等差数列、等比数列的性质时, 都离不开数学抽象. 在教学过程中, 教师应创设合适的教学情境,关注学生能否在具体的问题情境中发现规律,抽象出等差数列、等比数列、数列的相关概念,并探究等差数列、等比数列的性质.\n\n(2)逻辑推理. 本章蕴含着丰富的逻辑推理. 例如,研究数列从特殊数列(等差数列、等比数列)到一般数列的思想; 解决数列问题的化归思想; 数学归纳法中用两步完成对任意正整数都成立的证明; 无穷等比数列求和中从量变到质变的辩证规律; 等等.\n\n(3)数学运算. 从求解数列的通项公式及进行数列求和的运算,到选择一个合适的算法, 并根据收敛速度判断算法的优劣性, 都体现了本章对数学运算这一核心素养的关注.\n\n(4)数学建模. 生活中具有大量的数列原型,如存款利息、购房贷款、资产折旧等, 根据本章内容可以设法解决这些实际问题. 在实际教学中, 应关注学生能否将本章的知识用于解决实际问题, 并在此过程中获得更多的知识和技能, 提升核心素养. 建议教师通过生活中的数列模型多元性评价考查学生的综合能力.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 22,
+        "end": 91
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-4-1-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "##### 4.1 等差数列\n\n### 数学重点\n\n掌握等差数列的定义、公差、等差中项、等差数列的通项公式和递推公式;\n\n利用等差数列的前 $n$ 项和公式解决有关问题;\n\n利用等差数列知识解决简单的实际问题.\n\n### 内容分析\n\n学生在进入高中之前, 在找规律填数字等的练习中, 可能已了解等差数列这种特殊的数列. 本章以这种特殊数列为开端, 符合学生的认知规律, 不但可以减轻学生的学习负担, 而且能使学生更好地理解课程内容. 教材中先给出了数列的一些基本概念, 为学习等差数列作铺垫, 然后给出了现实生活中的三个数列模型, 给出了等差数列的现实背景, 目的是让学生切实感受到等差数列是现实生活中大量存在的数列模型. 通过寻求来自生活实例的数列的共同特点, 抽象出等差数列的定义. 在引入等差数列的定义后, 介绍了最简单的等差数列, 即由三个数组成的等差数列, 引出了等差中项的概念, 也隐含了两种证明等差数列的基本方法.\n\n随后将等差数列相邻两项的关系式逐个罗列出来, 通过观察, 学生可以发现将 $n - 1$ 个关系式进行累加就能得到等差数列的通项公式.\n\n在“等差数列的前 $n$ 项和”这小节中,教材从历史上一个比较有名的求和例子:求 $1 + 2 + 3 + \\cdots  + {100}$ 的高斯算法出发,不但引起学生对等差数列求和问题的兴趣,而且使学生发现 “有穷的等差数列其任意给定的第 $k$ 项与倒数第 $k$ 项的和等于首项与末项的和”这个规律,为接下来计算等差数列的前 $n$ 项和作好铺垫. 随后用我国宋代数学家杨辉提出的垛草问题, 使学生从形的角度理解等差数列求和问题, 也使学生感悟到我国古代辉煌的数学成就. 等差数列的前 $n$ 项和公式有两个,前者反映了等差数列的任意的第 $k$ 项与倒数第 $k$ 项的和等于首项与末项的和这个内在性质,体现了等差中项即平均值的思想; 后者反映了等差数列的前 $n$ 项和与它的基本量即首项及公差之间的关系,而且表现为关于 $n$ 的一个“二次函数”. 两者从不同角度反映了等差数列的性质.\n\n例 1.等差数列的通项公式中涉及四个量: 首项 ${a}_{1}$ 、序数 $n$ 、公差 $d$ 和所关注的项 ${a}_{n}$ . 四个量中只要知道其中任意三个,就可以求出第四个量. 但“已知”的三个量,并不一定直接给出,如本例中公差 $d$ 要从所给出的项中求得.\n\n例 2 是用等差数列解决实际问题的一个简单应用. 目的是让学生学会从实际问题中抽象出等差数列的模型, 再用等差数列的知识解决实际问题.\n\n例 3 旨在利用定义证明等差数列, 同时也说明: 等差数列的通项公式也可以写成 ${a}_{n} = f\\left( n\\right)  = \\left( {p + q}\\right)  + \\left( {n - 1}\\right) p$ ,其中 $p + q$ 是等差数列的首项, $p$ 是公差.\n\n例 4. 等差数列的前 $n$ 项和的公式涉及四个量. 对于公式 ${S}_{n} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}$ ,四个量分别为前 $n$ 项和 ${S}_{n}$ 、项数 $n$ 、首项 ${a}_{1}$ 和末项 ${a}_{n}$ ,该公式的侧重点为通过等差中项, 即这一列数的算术平均数,求和; 对于公式 ${S}_{n} = n{a}_{1} + \\frac{n\\left( {n - 1}\\right) }{2}d$ ,四个量分别为前 $n$ 项和 ${S}_{n}$ 、项数 $n$ 、首项 ${a}_{1}$ 和公差 $d$ ,该公式的侧重点为利用等差数列的基本量,即等差数列的首项 ${a}_{1}$ 和公差 $d$ ,进行求解. 一般地,直接或间接地给出四个量中的三个量, 可以求出第四个量. 这两个公式要根据实际情况灵活运用.\n\n例 5 的目的是建立等差数列的前 $n$ 项和与解方程之间的联系. 已知几个量,通过解方程得出其余的未知量. 本例的教学可以让学生体会方程的思想. 作为拓展, 也可以引导学生思考数列 ${S}_{10},{S}_{20} - {S}_{10},{S}_{30} - {S}_{20}$ 是否为等差数列.\n\n例 6 中利用 ${S}_{n}$ ,结合 ${S}_{1} = {a}_{1},{S}_{n} - {S}_{n - 1} = {a}_{n}\\left( {n \\geq  2}\\right)$ 解得 ${a}_{1}\\text{、}{a}_{n}$ . 再利用等差数列的定义 ${a}_{n} - {a}_{n - 1} = d\\left( {n \\geq  2}\\right)$ ,证明数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列. 在教学中可以让学有余力的学生思考: 如果 ${S}_{n} = p{n}^{2} + {qn} + r$ ,其中 $p\\text{、}q\\text{、}r$ 均为常数,那么数列 $\\left\\{  {a}_{n}\\right\\}$ 是否为等差数列?\n\n### 注意事项\n\n与“二期课改”教材的编排不同,本节是本章的起始课. 本节的要求主要停留在求解等差数列的相关问题上,将已知量与未知量均转化为等差数列的基本量,即首项 ${a}_{1}$ 和公差 $d$ ,进而求解,主要培养学生在数学抽象与数学运算方面的核心素养. 要避免在章节一开始就涉及很多等差数列的性质与一些偏重技巧的难题.\n\n### 教学建议\n\n在介绍等差数列概念这一环节中, 可以让学生举出一些等差数列的实际例子, 以加深对等差数列的理解. 利用等差数列的递推公式得到等差数列的通项公式这一环节, 因为是本章第一节课, 可以根据学生情况选取累加法或采用归纳猜想的方法先得到通项公式,等后续学完数学归纳法后再严格证明. 对等差数列的前 $n$ 项和公式的探究是建立在高斯算法的例子上的. 高斯算法比较巧妙,蕴含求等差数列的前 $n$ 项和一般的规律性. 教学时, 应给学生提供充裕的时间和空间, 让学生自己去观察、探索发现这种数列的内在规律. 从高斯算法到一般的求和公式, 体现了人们在认识事物时从特殊到一般的方法, 也是我们解决问题常用的思考方法和研究方法. 教材中的两个等差数列的前 $n$ 项和公式各有侧重,对于这两个公式,初学的学生在解决一些问题时, 往往不知道该如何选取. 教师应引导学生对这两个公式进行分析, 根据各自的特点选择合适的公式.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 94,
+        "end": 131
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-4-1-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 等差数列及其通项公式",
+    "markdown": "### 1 等差数列及其通项公式",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 9,
+        "end": 9
+      }
+    ],
+    "id": "x1-4-1-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在现实生活中, 我们经常见到按一定顺序排列起来的一列数, 称之为数列. 我们将数列中的每一个数叫做这个数列的项. 排在第一位的数称为这个数列的第 1 项 (通常叫做首项), 排在第二位的数称为这个数列的第 2 项, ……, 排在第 $n$ 位的数称为这个数列的第 $n$ 项,等等.\n\n数列的一般形式可以记成\n\n$$\n{a}_{1},{a}_{2},{a}_{3},\\cdots ,{a}_{n},\\cdots ,\n$$\n\n其中 ${a}_{n}$ 是数列的第 $n$ 项,下标 $n$ 是 ${a}_{n}$ 的序数. 上面的数列常简记为 $\\left\\{  {a}_{n}\\right\\}$ .\n\n观察以下数列, 看它们有什么共同的特点.\n\n(1)月历(图 4-1-1)最后一列数依次为:\n\n$$\n3,{10},{17},{24},{31}\\text{ . }\n$$\n\n①\n\n![bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg](images/book-68bc7d3b8757ad2d5fe9.jpg)\n\n图 4-1-1\n\n![bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg](images/book-8fd55f1e6dbcd25008a9.jpg)\n\n图 4-1-2\n\n(2)按一定规律堆放在一起的食品罐头(图 4-1-2)，共堆放 7 层, 从下到上各层的罐头数依次为:\n\n$$\n{21},{18},{15},{12},9,6,3.\n$$\n\n②\n\n(3)全国统一的鞋号中，常见的成年女鞋的尺寸(单位:cm) 由小至大依次为:\n\n$$\n{22.5},{23},{23.5},{24},{24.5},{25},{25.5},{26}.\n$$\n\n③\n\n可以看到, 对于数列①, 从第 2 项起, 每一项与其前一项的差都等于 7; 对于数列②, 从第 2 项起, 每一项与其前一项的差都等于 -3 ; 对于数列③，从第 2 项起，每一项与其前一项的差都等于 0.5 .\n\n这些数列有一个共同特点: 从第 2 项起, 每一项与其前一项的差都等于同一个常数.\n\n定义 如果一个数列从第 2 项起, 每一项与其前一项的差都等于同一个常数, 这个数列就叫做等差数列 (arithmetic sequence), 而这个常数叫做等差数列的公差 (common difference). 公差通常用小写字母 $d$ 表示.\n\n给定一个数列 $a, A, b$ . 若 $a, A, b$ 是等差数列,由定义可得 $A - a = b - A$ ,从而 $A = \\frac{a + b}{2}$ . 反之,若 $A = \\frac{a + b}{2}$ ,则 ${2A} = a + b$ ,即 $A - a = b - A$ ,从而 $a, A, b$ 成等差数列.\n\n这时, $A$ 叫做 $a$ 与 $b$ 的等差中项.\n\n如果等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的首项为 ${a}_{1}$ ,公差为 $d$ ,由定义可得\n\n$$\n{a}_{n} - {a}_{n - 1} = d\\left( {n \\geq  2}\\right) ,\n$$\n\n从而\n\n$$\n{a}_{2} - {a}_{1} = d,\n$$\n\n$$\n{a}_{3} - {a}_{2} = d,\n$$\n\n$$\n{a}_{4} - {a}_{3} = d,\n$$\n\n...\n\n$$\n{a}_{n} - {a}_{n - 1} = d\\left( {n \\geq  2}\\right) \\text{ . }\n$$\n\n把这 $\\left( {n - 1}\\right)$ 个等式相加得\n\n$$\n{a}_{n} - {a}_{1} = \\left( {n - 1}\\right) d,\n$$\n\n由此\n\n$$\n{a}_{n} = {a}_{1} + \\left( {n - 1}\\right) d\\left( {n \\geq  2}\\right) .\n$$\n\n当 $n = 1$ 时,容易验证上面的等式也成立. 因此,当 $n$ 为正整数时,等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的第 $n$ 项可以用如下公式表示:\n\n$$\n{a}_{n} = {a}_{1} + \\left( {n - 1}\\right) d.\n$$\n\n像这种用数列的序数 $n$ 表示相应项 ${a}_{n}$ 的公式称为数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式. 而上式就是等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 10,
+        "end": 110
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 141,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-4-1-definition-5-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 931,
+        "end": 1057,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-4-1-definition-5-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1232,
+        "end": 1259,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-4-1-definition-5-2",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1724,
+        "end": 1867,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "x1-4-1-formula-5-4",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1869,
+        "end": 1984,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-4-1-definition-5-3",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-4-1-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 已知等差数列 $- 5, - 9, - {13},\\cdots$ .\n\n(1)求该等差数列的第 20 项；\n\n(2)一401 是不是该等差数列的项？如果是, 指明是第几项; 如果不是, 请说明理由.\n\n---\n\n由三个数组成的等差数列可以看成最简单的等差数列.\n\n如果三个数成等差数列, 那么等差中项必等于其前后两项的算术平均数.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 111,
+        "end": 124
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 111,
+        "end": 124
+      }
+    ],
+    "id": "x1-4-1-ex-1",
+    "category": "例题",
+    "answer": "解 设该等差数列为 $\\left\\{  {a}_{n}\\right\\}$ ,由 ${a}_{1} =  - 5,{a}_{2} =  - 9$ ,得该等差数列的公差 $d =  - 9 - \\left( {-5}\\right)  =  - 4$ . 由等差数列的通项公式,得\n\n$$\n{a}_{n} =  - 5 - 4\\left( {n - 1}\\right)  =  - {4n} - 1.\n$$\n\n(1)由上述通项公式可得, 该等差数列的第 20 项为\n\n$$\n{a}_{20} =  - 4 \\times  {20} - 1 =  - {81}.\n$$\n\n(2)假设 -401 是这个等差数列中的第 $n$ 项，则有\n\n$$\n- {401} =  - {4n} - 1,\n$$\n\n解得\n\n$$\nn = {100}\\text{ . }\n$$\n\n所以, -401 是这个等差数列的第 100 项.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 125,
+        "end": 150
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 假设体育场一角看台的座位从第 2 排起每一排都比前一排多相等数目的座位. 若第 3 排有 10 个座位, 第 9 排有 28 个座位, 则第 12 排有多少个座位?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 151,
+        "end": 152
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 151,
+        "end": 152
+      }
+    ],
+    "id": "x1-4-1-ex-2",
+    "category": "例题",
+    "answer": "解 由题意可知,体育场该角看台每排的座位数成等差数列,设该数列为 $\\left\\{  {a}_{n}\\right\\}$ ,其公差为 $d$ ,则 ${a}_{3} = {10},{a}_{9} = {28}$ . 由等差数列的通项公式, 得\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1} + {2d} = {10}, \\\\  {a}_{1} + {8d} = {28}, \\end{array}\\right.\n$$\n\n解得\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1} = 4, \\\\  d = 3. \\end{array}\\right.\n$$\n\n所以, ${a}_{12} = 4 + \\left( {{12} - 1}\\right)  \\times  3 = {37}$ .\n\n答: 体育场该角看台的第 12 排有 37 个座位.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 153,
+        "end": 168
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 已知 ${a}_{n} = {pn} + q$ 是数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式,其中 $p$ 和 $q$ 均为常数. 试判断数列 $\\left\\{  {a}_{n}\\right\\}$ 是否为等差数列,并证明你的结论.\n\n分析 为了判断 $\\left\\{  {a}_{n}\\right\\}$ 是否为等差数列,可以利用等差数列的定义,只要判断 ${a}_{n} - {a}_{n - 1}\\left( {n \\geq  2}\\right)$ 的值是否为一个与 $n$ 无关的常数即可.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 169,
+        "end": 172
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 169,
+        "end": 172
+      }
+    ],
+    "id": "x1-4-1-ex-3",
+    "category": "例题",
+    "answer": "解 任取数列 $\\left\\{  {a}_{n}\\right\\}$ 中的相邻两项 ${a}_{n}$ 与 ${a}_{n - 1}\\left( {n \\geq  2}\\right)$ ,求差得\n\n$$\n{a}_{n} - {a}_{n - 1} = \\left( {{pn} + q}\\right)  - \\left\\lbrack  {p\\left( {n - 1}\\right)  + q}\\right\\rbrack   = p\\left( {n \\geq  2}\\right) .\n$$\n\n$p$ 是一个与 $n$ 无关的常数,所以 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列,且是以 $p + q$ 为首项、以 $p$ 为公差的等差数列.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 173,
+        "end": 180
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 4.1(1)",
+    "markdown": "#### 练习 4.1(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 181,
+        "end": 181
+      }
+    ],
+    "id": "x1-4-1-b9",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(1) · 1",
+    "markdown": "1. 下列数列中成等差数列的是 ( )\n\nA.0,1,3,5,7;\n\nB. $1,\\frac{1}{3},\\frac{1}{5},\\frac{1}{7},\\frac{1}{9}$ ;\n\nC. $1,\\sqrt{2},\\sqrt{3},2,\\sqrt{5}$ ; D. $1,\\frac{1}{3}, - \\frac{1}{3}, - 1, - \\frac{5}{3}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 183,
+        "end": 190
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 183,
+        "end": 190
+      }
+    ],
+    "id": "x1-4-1-p411-1",
+    "category": "练习4.1(1)",
+    "answer": "1. D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 298,
+        "end": 299
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(1) · 2",
+    "markdown": "2. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其公差为 $d$ .\n\n(1)已知 ${a}_{1} =  - 1, d = 4$ ，求 ${a}_{8}$ ；\n\n(2)已知 ${a}_{7} = 8, d =  - \\frac{1}{3}$ ，求 ${a}_{1}$ ；\n\n(3)已知 ${a}_{1} = 9, d =  - 2,{a}_{n} =  - {15}$ ，求 $n$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 191,
+        "end": 198
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 191,
+        "end": 198
+      }
+    ],
+    "id": "x1-4-1-p411-2",
+    "category": "练习4.1(1)",
+    "answer": "2. (1) ${a}_{8} = {27}$ . (2) ${a}_{1} = {10}$ . (3) $n = {13}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 300,
+        "end": 301
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(1) · 3",
+    "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列,正整数 $m\\text{ 、 }n\\text{ 、 }p\\text{ 、 }q$ 满足 $m + n = p + q$ . 求证: ${a}_{m} + {a}_{n} = \\; {a}_{p} + {a}_{q}.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 199,
+        "end": 200
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 199,
+        "end": 200
+      }
+    ],
+    "id": "x1-4-1-p411-3",
+    "category": "练习4.1(1)",
+    "answer": "3. 提示: 将等差数列各项转化为由首项 ${a}_{1}$ 与公差 $d$ 表示.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 302,
+        "end": 303
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 等差数列的前 $n$ 项和",
+    "markdown": "### 2 等差数列的前 $n$ 项和",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 201,
+        "end": 201
+      }
+    ],
+    "id": "x1-4-1-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "---\n\n![bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg](images/book-b7774e55568ca09fe36e.jpg)\n\n高斯 (C. F. Gauss, 1777—1855) 德国数学家. 研究的内容涉及数学的诸多领域, 并对天文学和大地测量学的研究有突出贡献. 他在世界上享有崇高的声望，被誉为 “数学王子”.\n\n---\n\n据说 200 多年前, 著名数学家高斯的算术老师在课堂上曾经提出了下面的问题:\n\n求 $1 + 2 + 3 + \\cdots  + {100}$ 的值.\n\n少年高斯用下面的方法迅速算出了正确的答案:\n\n$$\n1 + 2 + 3 + \\cdots  + {100} = ?\n$$\n\n$$\n{100} + {99} + {98} + \\cdots  + 1 = ?\n$$\n\n上述两式相加得: ${{101} + {101} + {101} + \\cdots  + {101}} = 2 \\times$ ?\n\n所以，结果为 $\\frac{{101} \\times  {100}}{2} = {5050}$ .\n\n高斯的计算方法实际上解决了求等差数列 $1,2,3,\\cdots$ , $n,\\cdots$ 前 100 项和的问题.\n\n事实上, 古代的中国人和希腊人也是这么求等差数列之和的. 例如, 宋朝数学家杨辉提出了一个问题: “今有圭垛草一堆, 顶上一束，底阔八束. 问共几束？答:36 束. ”他的计算方法可以用图 4-1-3 表示.\n\n![bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg](images/book-a52beb68a0b62eb03672.jpg)\n\n图 4-1-3\n\n一般地,将数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和记作 ${S}_{n}$ ,即\n\n$$\n{S}_{n} = {a}_{1} + {a}_{2} + \\cdots  + {a}_{n - 1} + {a}_{n}.\n$$\n\n根据等差数列的通项公式, 上式可以写为\n\n$$\n{S}_{n} = {a}_{1} + \\left( {{a}_{1} + d}\\right)  + \\cdots  + \\left\\lbrack  {{a}_{1} + \\left( {n - 2}\\right) d}\\right\\rbrack   + \\left\\lbrack  {{a}_{1} + \\left( {n - 1}\\right) d}\\right\\rbrack  \\text{ . ① }\n$$\n\n受高斯算法的启示,我们又可将 ${S}_{n}$ 表示为\n\n$$\n{S}_{n} = {a}_{n} + {a}_{n - 1} + \\cdots  + {a}_{2} + {a}_{1}\n$$\n\n$$\n= {a}_{n} + \\left( {{a}_{n} - d}\\right)  + \\cdots  + \\left\\lbrack  {{a}_{n} - \\left( {n - 2}\\right) d}\\right\\rbrack   + \\left\\lbrack  {{a}_{n} - \\left( {n - 1}\\right) d}\\right\\rbrack  \\text{ . ② }\n$$\n\n②\n\n由①+②, 得\n\n$$\n2{S}_{n} = \\underset{n \\uparrow  }{\\underbrace{\\left( {{a}_{1} + {a}_{n}}\\right)  + \\left( {{a}_{1} + {a}_{n}}\\right)  + \\cdots  + \\left( {{a}_{1} + {a}_{n}}\\right)  + \\left( {{a}_{1} + {a}_{n}}\\right) }}\n$$\n\n$$\n= n\\left( {{a}_{1} + {a}_{n}}\\right) \\text{ . }\n$$\n\n于是就可得到等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和公式\n\n$$\n{S}_{n} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}.\n$$\n\n由于 ${a}_{n} = {a}_{1} + \\left( {n - 1}\\right) d$ ,上述公式又可以写作\n\n$$\n{S}_{n} = n{a}_{1} + \\frac{n\\left( {n - 1}\\right) }{2}d.\n$$\n\n数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和也可记作 $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{a}_{i}$ ,即\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}{a}_{i} = {a}_{1} + {a}_{2} + {a}_{3} + \\cdots  + {a}_{n}.\n$$\n\n其中， $\\sum$ (读作 Sigma)称为求和符号，其下方的 $i = 1$ 表示 $i$ 从 1 开始取连续的整数值,而上方的 $n$ 表示 $i$ 的取值到 $n$ 结束. 这样, $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{a}_{i}$ 就表示该数列从第一项 ${a}_{1}$ 开始,连续 $n$ 项相加. 例如, $\\mathop{\\sum }\\limits_{{i = 1}}^{n}i = 1 + 2 + 3 + \\cdots  + n = \\frac{n\\left( {n + 1}\\right) }{2}.$\n\n此外, 根据乘法分配律可得\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}c{a}_{i} = c\\mathop{\\sum }\\limits_{{i = 1}}^{n}{a}_{i}\\text{ ( }c\\text{ 为常数). }\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 202,
+        "end": 296
+      }
+    ],
+    "emphases": [
+      {
+        "start": 900,
+        "end": 1131,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "x1-4-1-formula-14-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 2149,
+        "end": 2430,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-4-1-definition-14-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-4-1-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n---\n\n特别地 $1 + 2 + 3 + \\cdots  + n = \\frac{n\\left( {n + 1}\\right) }{2}.$\n\n---\n\n(1)已知 ${a}_{1} = {50},{a}_{8} = {15}$ ,求 ${S}_{8}$ ;\n\n(2)已知 ${a}_{1} = {0.7},{a}_{2} = {1.5}$ ,求 ${S}_{7}$ ;\n\n(3)已知 ${a}_{4} = 7$ ，求 ${S}_{7}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 310
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 310
+      }
+    ],
+    "id": "x1-4-1-ex-4",
+    "category": "例题",
+    "answer": "解(1)由等差数列的前 $n$ 项和公式,得\n\n$$\n{S}_{8} = \\frac{8 \\times  \\left( {{50} + {15}}\\right) }{2} = {260}.\n$$\n\n(2)设公差为 $d$ ，则 $d = {a}_{2} - {a}_{1} = {0.8}$ ，于是由等差数列的前 $n$ 项和公式,有\n\n$$\n{S}_{7} = 7 \\times  {0.7} + \\frac{7 \\times  6}{2} \\times  {0.8} = {21.7}.\n$$\n\n(3)设公差为 $d$ ，则 ${a}_{1} = {a}_{4} - {3d},{a}_{7} = {a}_{4} + {3d}$ . 从而\n\n$$\n{S}_{7} = \\frac{7\\left( {{a}_{1} + {a}_{7}}\\right) }{2} = \\frac{7\\left\\lbrack  {\\left( {{a}_{4} - {3d}}\\right)  + \\left( {{a}_{4} + {3d}}\\right) }\\right\\rbrack  }{2} = 7{a}_{4} = {49}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 311,
+        "end": 328
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 已知等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 10 项和 ${S}_{10} = {310}$ ,前 20 项和 ${S}_{20} = {1220}$ ,由此可以确定数列 $\\left\\{  {a}_{n}\\right\\}$ 前 30 项和 ${S}_{30}$ 吗?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 329,
+        "end": 330
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 329,
+        "end": 330
+      }
+    ],
+    "id": "x1-4-1-ex-5",
+    "category": "例题",
+    "answer": "解 设该等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的公差为 $d$ . 由等差数列的前 $n$ 项和公式 ${S}_{n} = n{a}_{1} + \\frac{n\\left( {n - 1}\\right) }{2}d$ ,可得\n\n$$\n\\left\\{  \\begin{array}{l} {10}{a}_{1} + {45d} = {310}, \\\\  {20}{a}_{1} + {190d} = {1220}, \\end{array}\\right.\n$$\n\n解得\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{1} = 4, \\\\  d = 6. \\end{array}\\right.\n$$\n\n所以, ${S}_{30} = {30} \\times  4 + \\frac{{30} \\times  \\left( {{30} - 1}\\right) }{2} \\times  6 = {2730}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 344
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} = {n}^{2} + {2n}$ .\n\n(1)求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式；\n\n(2)求证:数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 345,
+        "end": 350
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 345,
+        "end": 350
+      }
+    ],
+    "id": "x1-4-1-ex-6",
+    "category": "例题",
+    "answer": "解(1)当 $n \\geq  2$ 时,\n\n$$\n{S}_{n - 1} = {\\left( n - 1\\right) }^{2} + 2\\left( {n - 1}\\right) ,\n$$\n\n从而\n\n$$\n{a}_{n} = {S}_{n} - {S}_{n - 1} = {n}^{2} + {2n} - \\left\\lbrack  {{\\left( n - 1\\right) }^{2} + 2\\left( {n - 1}\\right) }\\right\\rbrack   = {2n} + 1.\n$$\n\n而当 $n = 1$ 时, ${a}_{1} = {S}_{1} = {1}^{2} + 2 \\times  1 = 3$ 亦满足上式.\n\n所以，数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {2n} + 1$ .\n\n(2)证明:由(1)中的结果，当 $n \\geq  2$ 时，\n\n$$\n{a}_{n - 1} = 2\\left( {n - 1}\\right)  + 1 = {2n} - 1,\n$$\n\n从而\n\n$$\n{a}_{n} - {a}_{n - 1} = \\left( {{2n} + 1}\\right)  - \\left( {{2n} - 1}\\right)  = 2.\n$$\n\n---\n\n如果一个数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} \\; = p{n}^{2} + {qn} + r$ ,其中 $p\\text{ 、 }q\\text{ 、 }r$ 均为常数, 这个数列是等差数列吗?\n\n---\n\n所以，数列 $\\left\\{  {a}_{n}\\right\\}$ 是一个以 3 为首项、以 2 为公差的等差数列.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 351,
+        "end": 386
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 4.1(2)",
+    "markdown": "#### 练习 4.1(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 387,
+        "end": 387
+      }
+    ],
+    "id": "x1-4-1-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(2) · 1",
+    "markdown": "1. 计算 $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{2i}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 390
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 390
+      }
+    ],
+    "id": "x1-4-1-p412-1",
+    "category": "练习4.1(2)",
+    "answer": "1. $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{2i} = n\\left( {n + 1}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 306,
+        "end": 307
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(2) · 2",
+    "markdown": "2. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{1} =  - 4,{a}_{8} =  - {18}$ ，求 ${S}_{8}$ ；\n\n(2)已知 ${a}_{1} =  - 4,{a}_{12} = {18}$ ，求 ${S}_{15}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 391,
+        "end": 396
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 391,
+        "end": 396
+      }
+    ],
+    "id": "x1-4-1-p412-2",
+    "category": "练习4.1(2)",
+    "answer": "2. (1) ${S}_{8} =  - {88}$ . (2) ${S}_{15} = {150}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 308,
+        "end": 309
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习4.1(2) · 3",
+    "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和 ${S}_{n} = {n}^{2} - {3n}$ ,求证: 数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 397,
+        "end": 398
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 397,
+        "end": 398
+      }
+    ],
+    "id": "x1-4-1-p412-3",
+    "category": "练习4.1(2)",
+    "answer": "3. 提示: 先求出通项公式 ${a}_{n} = {2n} - 4$ ,再进行证明.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 310,
+        "end": 311
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 4.1",
+    "markdown": "#### 习题 4.1",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 399,
+        "end": 399
+      }
+    ],
+    "id": "x1-4-1-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "##### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 401,
+        "end": 401
+      }
+    ],
+    "id": "x1-4-1-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 1",
+    "markdown": "1. 分别求下列两数的等差中项:\n\n(1) $\\frac{8 - \\sqrt{2}}{2}$ 与 $\\frac{8 + \\sqrt{2}}{2}$ ；___\n\n(2) ${\\left( a + b\\right) }^{2}$ 与 ${\\left( a - b\\right) }^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 403,
+        "end": 408
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 403,
+        "end": 408
+      }
+    ],
+    "id": "x1-4-1-h41A-1",
+    "category": "习题4.1A",
+    "answer": "1. (1) 4. (2) ${a}^{2} + {b}^{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 316,
+        "end": 317
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 2",
+    "markdown": "2. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其公差为 $d$ .\n\n(1)已知 ${a}_{1} = 2, d = 3$ ，求 ${a}_{10}$ ；\n\n(2)已知 ${a}_{1} = 3,{a}_{n} = {21}, d = 2$ ，求 $n$ ；\n\n(3)已知 ${a}_{1} = {12},{a}_{6} = {27}$ ，求 $d$ ；\n\n(4)已知 ${a}_{6} = 9, d =  - \\frac{1}{2}$ ，求 ${a}_{1}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 409,
+        "end": 418
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 409,
+        "end": 418
+      }
+    ],
+    "id": "x1-4-1-h41A-2",
+    "category": "习题4.1A",
+    "answer": "2. (1) ${a}_{10} = {29}$ . (2) $n = {10}$ . (3) $d = 3$ . (4) ${a}_{1} = \\frac{23}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 318,
+        "end": 319
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 3",
+    "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其公差为 $d$ . 求证: 对任意给定的正整数 $m\\text{ 、 }n$ ,都有 ${a}_{n} = {a}_{m} + \\left( {n - m}\\right) d.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 419,
+        "end": 420
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 419,
+        "end": 420
+      }
+    ],
+    "id": "x1-4-1-h41A-3",
+    "category": "习题4.1A",
+    "answer": "3. 提示: 将等差数列各项转化为由首项 ${a}_{1}$ 与公差 $d$ 表示.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 320,
+        "end": 321
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 4",
+    "markdown": "4. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其公差为 $d$ .\n\n(1)已知 ${a}_{2} = {31},{a}_{7} = {76}$ ,求 ${a}_{1}$ 及 $d$ ;\n\n(2)已知 ${a}_{1} + {a}_{6} = {12},{a}_{4} = 7$ ，求 ${a}_{9}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 421,
+        "end": 426
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 421,
+        "end": 426
+      }
+    ],
+    "id": "x1-4-1-h41A-4",
+    "category": "习题4.1A",
+    "answer": "4. (1) ${a}_{1} = {22}, d = 9$ . (2) ${a}_{9} = {17}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 322,
+        "end": 323
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 5",
+    "markdown": "5. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其公差为 $d$ ,前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{1} = {20},{a}_{n} = {54},{S}_{n} = {999}$ ,求 $d$ 及 $n$ ;\n\n(2)已知 $d = \\frac{1}{3},{S}_{37} = {629}$ ,求 ${a}_{1}$ 及 ${a}_{37}$ ;\n\n(3)已知 ${a}_{1} = \\frac{5}{6}, d =  - \\frac{1}{6},{S}_{n} =  - 5$ ,求 $n$ 及 ${a}_{n}$ ;\n\n(4)已知 $d = 2,{a}_{15} =  - {10}$ ，求 ${a}_{1}$ 及 ${S}_{15}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 427,
+        "end": 436
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 427,
+        "end": 436
+      }
+    ],
+    "id": "x1-4-1-h41A-5",
+    "category": "习题4.1A",
+    "answer": "5. (1) $d = \\frac{17}{13}, n = {27}$ . (2) ${a}_{1} = {11},{a}_{37} = {23}$ . (3) $n = {15},{a}_{15} =  - \\frac{3}{2}$ .\n\n(4) ${a}_{1} =  - {38},{S}_{15} =  - {360}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 324,
+        "end": 327
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 6",
+    "markdown": "6. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{6} = {10},{S}_{5} = 5$ ,求 ${S}_{8}$ ；\n\n(2)已知 ${S}_{4} = 2,{S}_{9} =  - 6$ ，求 ${S}_{12}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 437,
+        "end": 442
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 437,
+        "end": 442
+      }
+    ],
+    "id": "x1-4-1-h41A-6",
+    "category": "习题4.1A",
+    "answer": "6.(1) ${S}_{8} = {44}$ . (2) ${S}_{12} =  - \\frac{82}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 328,
+        "end": 329
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 7",
+    "markdown": "7. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{4} + {a}_{14} = 1$ ，求 ${S}_{17}$ ；\n\n(2)已知 ${S}_{21} = {420}$ ，求 ${a}_{11}$ ；\n\n(3)已知 ${a}_{1} + {a}_{2} + {a}_{3} =  - 3,{a}_{18} + {a}_{19} + {a}_{20} = 6$ ，求 ${S}_{20}$ ；\n\n(4)已知 ${S}_{4} = 2,{S}_{8} = 6$ ，求 ${S}_{16}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 443,
+        "end": 452
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 443,
+        "end": 452
+      }
+    ],
+    "id": "x1-4-1-h41A-7",
+    "category": "习题4.1A",
+    "answer": "7.(1) ${S}_{17} = \\frac{17}{2}$ . (2) ${a}_{11} = {20}$ . (3) ${S}_{20} = {10}$ . (4) ${S}_{16} = {20}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 330,
+        "end": 331
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 8",
+    "markdown": "8. 求证: “ $\\bigtriangleup  {ABC}$ 三个内角的度数可以构成等差数列” 是 “ $\\bigtriangleup  {ABC}$ 中有一个内角为 60°”的充要条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 453,
+        "end": 454
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 453,
+        "end": 454
+      }
+    ],
+    "id": "x1-4-1-h41A-8",
+    "category": "习题4.1A",
+    "answer": "8. 不妨设 $\\angle A \\leq  \\angle B \\leq  \\angle C$ ,可得 $3\\angle B = {180}^{ \\circ  },\\angle B = {60}^{ \\circ  }$ ; 反之,不妨设 $\\angle B = \\; {60}^{ \\circ  }$ ,则 $\\angle A + \\angle C = {120}^{ \\circ  } = 2\\angle B$ ,得证.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 332,
+        "end": 333
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1A · 9",
+    "markdown": "9.《九章算术》中的”竹九节”问题: 现有一根 9 节的竹子, 自上而下各节的容积成等差数列. 若最上面 4 节的容积共 3 升, 最下面 3 节的容积共 4 升, 则第 5 节的容积为多少升?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 455,
+        "end": 456
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 455,
+        "end": 456
+      }
+    ],
+    "id": "x1-4-1-h41A-9",
+    "category": "习题4.1A",
+    "answer": "9. 第 5 节的容积为 $\\frac{67}{66}$ 升.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 334,
+        "end": 335
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 457,
+        "end": 457
+      }
+    ],
+    "id": "x1-4-1-b33",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 1",
+    "markdown": "1.(1)在等差数列 $\\left\\{  {a}_{n}\\right\\}$ 中，等式 ${a}_{n} = \\frac{{a}_{n - 1} + {a}_{n + 1}}{2}\\left( {n \\geq  2}\\right)$ 是否都成立？\n\n(2)在数列 $\\left\\{  {a}_{n}\\right\\}$ 中，如果对于任意的正整数 $n\\left( {n \\geq  2}\\right)$ ，都有 ${a}_{n} = \\frac{{a}_{n - 1} + {a}_{n + 1}}{2}$ ，那么数列 $\\left\\{  {a}_{n}\\right\\}$ 一定是等差数列吗?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 459,
+        "end": 462
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 459,
+        "end": 462
+      }
+    ],
+    "id": "x1-4-1-h41B-1",
+    "category": "习题4.1B",
+    "answer": "1. (1)成立. (2)一定是等差数列.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 338,
+        "end": 339
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 2",
+    "markdown": "2. 在等差数列 $\\left\\{  {a}_{n}\\right\\}$ 中,其前 $n$ 项和为 ${S}_{n}$ . 已知公差 $d = 2,{S}_{20} = {400}$ .\n\n(1)写出 $\\mathop{\\sum }\\limits_{{i = 1}}^{{10}}{a}_{{2i} - 1}$ 的具体展开式，并求其值；\n\n(2)用求和符号表示 ${a}_{2} + {a}_{4} + {a}_{6} + \\cdots  + {a}_{20}$ ，并求其值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 463,
+        "end": 468
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 463,
+        "end": 468
+      }
+    ],
+    "id": "x1-4-1-h41B-2",
+    "category": "习题4.1B",
+    "answer": "2. (1) $\\mathop{\\sum }\\limits_{{i = 1}}^{{10}}{a}_{{2i} - 1} = {a}_{1} + {a}_{3} + \\cdots  + {a}_{19} = {190}$ .\n\n(2) ${a}_{2} + {a}_{4} + {a}_{6} + \\cdots  + {a}_{20} = \\mathop{\\sum }\\limits_{{i = 1}}^{{10}}{a}_{2i} = {210}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 340,
+        "end": 343
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 3",
+    "markdown": "3. 在等差数列 $\\left\\{  {a}_{n}\\right\\}$ 中,已知 ${a}_{1} =  - 3,{11}{a}_{5} = 5{a}_{8}$ . 求数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和 ${S}_{n}$ 的最小值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 469,
+        "end": 470
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 469,
+        "end": 470
+      }
+    ],
+    "id": "x1-4-1-h41B-3",
+    "category": "习题4.1B",
+    "answer": "3. ${S}_{n}$ 的最小值为 ${S}_{2} =  - 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 344,
+        "end": 345
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 4",
+    "markdown": "4. 已知等差数列 $\\left\\{  {a}_{n}\\right\\}$ ,其前 $n$ 项和为 ${S}_{n}$ . 若存在两个不相等的正整数 $p$ 和 $q$ ,满足 ${S}_{p} = q,{S}_{q} = p$ ,求 ${S}_{p + q}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 472
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 472
+      }
+    ],
+    "id": "x1-4-1-h41B-4",
+    "category": "习题4.1B",
+    "answer": "4. ${S}_{p + q} =  - \\left( {p + q}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 346,
+        "end": 347
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 5",
+    "markdown": "5. 已知一个凸多边形各个内角的度数可以排列成一个公差为 5 的等差数列, 且最小角为 ${120}^{ \\circ  }$ ,该多边形是几边形?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 473,
+        "end": 474
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 473,
+        "end": 474
+      }
+    ],
+    "id": "x1-4-1-h41B-5",
+    "category": "习题4.1B",
+    "answer": "5. 设凸多边形的边数为 $n$ ,于是其内角和的度数为 ${180}\\left( {n - 2}\\right)$ . 由 ${180}\\left( {n - 2}\\right)  = \\; {120n} + \\frac{n\\left( {n - 1}\\right) }{2} \\cdot  5$ ,解得 $n = 9$ 或 16 .\n\n当 $n = {16}$ 时,最大内角度数 ${a}_{n} = {120} + {15} \\times  5 = {195} > {180}$ ,与凸多边形矛盾;\n\n当 $n = 9$ 时,最大内角度数 ${a}_{n} = {160} < {180}$ 满足条件.\n\n所以该多边形是九边形.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 348,
+        "end": 355
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题4.1B · 6",
+    "markdown": "6. 某产品按质量分成 10 个档次, 生产最低档次产品的利润是 8 元/件. 每提高一个档次, 每件产品的利润增加 2 元, 但产量每天减少 3 件. 如果在某段时间内, 最低档次 (记作第 1 档次) 的产品每天可生产 60 件, 那么在该段时间内, 生产第几档次的产品可获得最大利润?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 475,
+        "end": 476
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 475,
+        "end": 476
+      }
+    ],
+    "id": "x1-4-1-h41B-6",
+    "category": "习题4.1B",
+    "answer": "6. 生产第 9 档次的产品可获得最大利润, 最大利润为 864 元.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 356,
+        "end": 357
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

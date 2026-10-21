@@ -1,0 +1,28 @@
+{
+  "id": "bx3-chapter-end-13",
+  "book_id": "bx3",
+  "section_path": "batch/sections/bx3/bx3-chapter-end-13.json",
+  "fingerprint": "88aadef9a5756c3490b5851b2f7a40d9f82d593fdff9253d9269c3819c8eb720",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 11,
+        "answers": 11,
+        "teacher_formulas": 35,
+        "student_formulas": 14,
+        "checks": 61,
+        "errors": 0,
+        "warnings": 1
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 6.58,
+  "finished_at": "2026-10-20T02:15:35+08:00"
+}

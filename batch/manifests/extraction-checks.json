@@ -1,0 +1,821 @@
+{
+  "schema_version": 1,
+  "checks": [
+    {
+      "id": "x1-1-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-1-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 49,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-1-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 33,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-1-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 12,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-chapter-end-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-2-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 45,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-2-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-2-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-2-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 19,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-2-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 41,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-chapter-end-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-3-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 18,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-3-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 12,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-3-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-3-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 28,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-chapter-end-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-4-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 27,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-4-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 31,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-4-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 23,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-4-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 16,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "x1-4-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 3,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x1-chapter-end-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-1-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 36,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-1-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-chapter-end-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 19,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-2-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 46,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-2-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 48,
+      "unanswered": 2,
+      "issue_count": 3
+    },
+    {
+      "id": "bx1-2-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 31,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-chapter-end-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 28,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-3-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 22,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-3-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 30,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-chapter-end-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-4-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 22,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-4-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 30,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-4-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 29,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-chapter-end-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-5-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 16,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-5-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 43,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-5-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 22,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-5-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx1-chapter-end-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 18,
+      "unanswered": 3,
+      "issue_count": 1
+    },
+    {
+      "id": "bx2-6-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 73,
+      "unanswered": 14,
+      "issue_count": 3
+    },
+    {
+      "id": "bx2-6-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 51,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-6-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 43,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-chapter-end-6",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-7-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 37,
+      "unanswered": 9,
+      "issue_count": 2
+    },
+    {
+      "id": "bx2-7-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-7-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-7-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-chapter-end-7",
+      "status": "pass",
+      "errors": [],
+      "questions": 16,
+      "unanswered": 8,
+      "issue_count": 3
+    },
+    {
+      "id": "bx2-8-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 37,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-8-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 32,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-8-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 32,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-8-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 22,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-chapter-end-8",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-9-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 34,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-9-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 34,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-9-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-9-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 16,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx2-chapter-end-9",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-10-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 28,
+      "unanswered": 5,
+      "issue_count": 1
+    },
+    {
+      "id": "bx3-10-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 26,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-10-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 39,
+      "unanswered": 1,
+      "issue_count": 1
+    },
+    {
+      "id": "bx3-10-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 25,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-10-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-chapter-end-10",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-11-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 24,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-11-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 28,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-11-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 9,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-11-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 19,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-chapter-end-11",
+      "status": "pass",
+      "errors": [],
+      "questions": 23,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-12-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 16,
+      "unanswered": 4,
+      "issue_count": 2
+    },
+    {
+      "id": "bx3-12-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 29,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-12-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 6,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "bx3-12-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 17,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-chapter-end-12",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 4,
+      "issue_count": 4
+    },
+    {
+      "id": "bx3-13-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 8,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "bx3-13-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 10,
+      "unanswered": 3,
+      "issue_count": 2
+    },
+    {
+      "id": "bx3-13-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 3,
+      "issue_count": 4
+    },
+    {
+      "id": "bx3-13-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-13-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 18,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "bx3-13-6",
+      "status": "pass",
+      "errors": [],
+      "questions": 6,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "bx3-chapter-end-13",
+      "status": "pass",
+      "errors": [],
+      "questions": 11,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-5-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-5-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 37,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-5-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 35,
+      "unanswered": 2,
+      "issue_count": 2
+    },
+    {
+      "id": "x2-chapter-end-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 0,
+      "issue_count": 2
+    },
+    {
+      "id": "x2-6-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-6-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 29,
+      "unanswered": 1,
+      "issue_count": 1
+    },
+    {
+      "id": "x2-6-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 29,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-6-4",
+      "status": "pass",
+      "errors": [],
+      "questions": 10,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-6-5",
+      "status": "pass",
+      "errors": [],
+      "questions": 19,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-chapter-end-6",
+      "status": "pass",
+      "errors": [],
+      "questions": 14,
+      "unanswered": 12,
+      "issue_count": 2
+    },
+    {
+      "id": "x2-7-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 20,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-7-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 21,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-7-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 19,
+      "unanswered": 0,
+      "issue_count": 0
+    },
+    {
+      "id": "x2-chapter-end-7",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 4,
+      "issue_count": 2
+    },
+    {
+      "id": "x2-8-1",
+      "status": "pass",
+      "errors": [],
+      "questions": 13,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "x2-8-2",
+      "status": "pass",
+      "errors": [],
+      "questions": 15,
+      "unanswered": 3,
+      "issue_count": 2
+    },
+    {
+      "id": "x2-8-3",
+      "status": "pass",
+      "errors": [],
+      "questions": 7,
+      "unanswered": 0,
+      "issue_count": 1
+    },
+    {
+      "id": "x2-chapter-end-8",
+      "status": "pass",
+      "errors": [],
+      "questions": 12,
+      "unanswered": 5,
+      "issue_count": 2
+    }
+  ],
+  "scope": "source hashes, image reachability, IDs, spans, emphasis offsets; not mathematical approval",
+  "summary": {
+    "nodes": 101,
+    "passed": 101,
+    "questions": 2327,
+    "unanswered": 83,
+    "issues": 45
+  }
+}

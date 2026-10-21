@@ -1,0 +1,83 @@
+{
+  "controls": [
+    {
+      "key": "n",
+      "label": "项数",
+      "max": 9,
+      "min": 2,
+      "step": 1,
+      "type": "range"
+    },
+    {
+      "key": "ratio",
+      "label": "公比（含负数与q=1）",
+      "options": [
+        {
+          "label": "−1.5",
+          "value": -1.5
+        },
+        {
+          "label": "−1",
+          "value": -1
+        },
+        {
+          "label": "−0.5",
+          "value": -0.5
+        },
+        {
+          "label": "0.5",
+          "value": 0.5
+        },
+        {
+          "label": "1（单独求和）",
+          "value": 1
+        },
+        {
+          "label": "1.5",
+          "value": 1.5
+        },
+        {
+          "label": "2",
+          "value": 2
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "stage",
+      "label": "观察步骤",
+      "options": [
+        {
+          "label": "两行错位排列",
+          "value": 0
+        },
+        {
+          "label": "同幂次项对齐",
+          "value": 1
+        },
+        {
+          "label": "消去中间项",
+          "value": 2
+        }
+      ],
+      "type": "select"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo>(</mo><mn>1</mn><mo>−</mo><mi>q</mi><mo>)</mo><msub><mi>S</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>(</mo><mn>1</mn><mo>−</mo><msup><mi>q</mi><mi>n</mi></msup><mo>)</mo></math>",
+  "goal": "对齐同幂次项，再消去中间项，保留q=1的边界。",
+  "id": "geometric-shift-cancel",
+  "initial": {
+    "n": 6,
+    "ratio": 2,
+    "stage": 1
+  },
+  "placements": [
+    {
+      "afterBlockId": "x1-4-2-b12",
+      "rationale": "接替乘公比、错位、相减与q=1分类的冗长文字过程。",
+      "sectionId": "x1-4-2"
+    }
+  ],
+  "summary": "将等比数列前n项和乘公比q，幂次整体错开一位。两式相减消去中间项，得到(1−q)S=a₁(1−qⁿ)。q≠1时才能除以1−q；q=1时前n项和为na₁。",
+  "title": "等比求和：错位后只剩首尾"
+}

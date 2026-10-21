@@ -1,0 +1,1718 @@
+[
+  {
+    "type": "section",
+    "title": "曲线与方程",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1827,
+        "end": 1827
+      }
+    ],
+    "id": "x1-2-5",
+    "number": "2.5",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "### * 2.5 曲线与方程\n\n### 教学重点\n\n在直线、圆锥曲线学习的基础上, 进一步理解曲线方程的概念; 以简单的几何轨迹问题为例, 学会求曲线方程的一般方法和步骤.\n\n理解参数方程的意义, 领会建立曲线的参数方程的方法, 形成参数思想并懂得参数法的基本运用.\n\n通过实例引入极坐标系, 理解建立极坐标系和极坐标方程的意义, 体会平面坐标系的多样性, 会在简单情形下求轨迹的极坐标方程, 能进行简单情形下的极坐标方程与直角坐标方程的互化.\n\n### 内容分析\n\n本节整体为选学内容, 而且不是“圆锥曲线”主题所能涵盖的. 通过本节内容的学习,旨在对解析几何有一个更多的了解. 本节内容包括三个主题: 主题一是求轨迹的方程(主要在第 1 小节), 主题二是参数方程(第 2 小节), 主题三是极坐标方程(第 3 、 4 小节).\n\n主题一是从上一章开始的为学生逐步理解“曲线方程”概念而搭建的第四台阶, 它主要集中在第 1 小节,用稍许不同的表述方式复习了“2.1 圆”中的第 1 小节“曲线方程的概念”中给曲线方程所下的定义,并通过例题、练习和习题给出求曲线方程的实例, 归纳求轨迹方程的三个基本步骤, 促进学生对曲线方程这个抽象概念的理解. 本主题的思想贯穿本节, 在参数方程和极坐标方程的语境中也都会有它略有变形的体现.\n\n在主题一之下有 3 道例题, 即本节的例 1 至例 3 . 这些例题除了训练学生求轨迹方程的一些技巧外, 还关注了曲线方程定义中正反两个方面 (即本小节所总结的定义曲线方程的两个条件)的验证.\n\n例 1 用反例说明曲线方程的定义中正反两方面的条件缺一不可.\n\n例 2 是求轨迹方程的标准做法: 按照动点的条件列一个方程, 然后验证条件 (2), 即验证以方程的解为坐标的点都在动点的轨迹上.\n\n例 3 利用题设条件的等价变形给出了同时验证条件 (1) 和条件 (2) 的一般范式和表达方法.\n\n“参数方程”和“极坐标方程”两个主题的内容都非常丰富,在解析几何中它们都可以独立成章. 但本套教材囿于课程标准对课程内容的选择和难度控制以及篇幅的局限,没有深入展开相关内容,而只做简单的普及性的介绍,旨在拓展学生的知识面, 让学生体会数学世界的多样性.\n\n有时曲线的方程不是简单地表达为曲线上点的两个坐标所满足的二元方程, 而是把点的两个坐标各自表达为第三个变量(参数)的函数, 这就是曲线的参数方程. 曲线参数方程的一般形式是\n\n$$\n\\left\\{  \\begin{array}{l} x = f\\left( t\\right) , \\\\  y = g\\left( t\\right) , \\end{array}\\right.\n$$\n\n⑩\n\n其中参数 $t$ 有可能被限定在某个范围内变动. 严格地说,如果给定平面上的曲线 $C$ 和方程组⑩,如果对于 $t$ 的每一个允许值,由方程组⑪所确定的点 $P\\left( {x, y}\\right)$ 都在曲线 $C$ 上; 反之,对于曲线上任意一点 $P\\left( {x, y}\\right)$ ,都存在 $t$ 的某个允许值使得方程组⑩成立, 那么方程组⑩就叫做曲线 $C$ 的参数方程. 教材里的这个定义是前面已经反复出现的曲线方程定义在带参数情况下的表述.\n\n教材以炮弹被击发后运动轨迹的推导作为例子, 自然引出以时间为参数的参数方程, 也给出了消去参数而得到普通曲线方程的过程. 但要注意, 不是所有的参数方程都能消去参数而得到普通方程.\n\n在主题二之下有两道例题, 即本节的例 4 与例 5.\n\n例 4 中所有去截椭圆的直线都具有 $y = x + b$ 的形式,可将 $b$ 取为参数. 把直线方程和椭圆方程联立,消去 $y$ ,得到关于 $x$ 的一元二次方程 (带参数 $b$ ),要使直线和椭圆有两个公共点,此方程的判别式必须大于零,从中求出参数 $b$ 应该满足的条件; 再回到联立方程,可以循规蹈矩地求出直线和椭圆的两个公共点的坐标 (用参数 $b$ 表示),这就是所示),进而求出以这两个公共点为端点的线段的中点坐标 (用参数 $b$ 表示),这就是所求轨迹的参数方程. 但教材没有真正求出线段端点的坐标, 而是用韦达定理给出两个端点的横坐标之和, 它的一半就是中点的横坐标, 再由直线方程算出中点的纵坐标.\n\n把这个参数方程化成普通方程是很容易的事.\n\n例 5 是参数方程在解题中应用的一个例子,用的是椭圆 $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1$ 的参数方程\n\n$$\n\\left\\{  {\\begin{array}{l} x = a\\cos \\theta , \\\\  y = b\\sin \\theta , \\end{array}\\;\\theta  \\in  \\mathbf{R}.}\\right.\n$$\n\n验证这是椭圆的参数方程(至少针对 $a = 4, b = 3$ 的情况) 是解这道题的前提,要让学生先进行这个验证. 有了上述参数方程后, 解题过程纯粹是三角函数的变形了, 其中关键的技巧是设定一个锐角 $\\varphi$ 使得\n\n$$\n4\\cos \\theta  + 3\\sin \\theta  = 5\\sin \\left( {\\theta  + \\varphi }\\right) .\n$$\n\n该方法不是只针对勾股数 3、4、5 的,可以推广到一般情况:对任意正数 $a$ 、 $b$ ,可以找到锐角 $\\varphi$ 使得\n\n$$\n\\sin \\varphi  = \\frac{a}{\\sqrt{{a}^{2} + {b}^{2}}},\\cos \\varphi  = \\frac{b}{\\sqrt{{a}^{2} + {b}^{2}}},\n$$\n\n于是\n\n$$\na\\cos \\theta  + b\\sin \\theta  = \\sqrt{{a}^{2} + {b}^{2}}\\left( {\\sin \\varphi \\cos \\theta  + \\cos \\varphi \\sin \\theta }\\right)  = \\sqrt{{a}^{2} + {b}^{2}}\\sin \\left( {\\theta  + \\varphi }\\right) .\n$$\n\n参看必修第二册第 30-31 页上的例 10 第(3)小题.\n\n要确定平面上的点, 常用平面直角坐标系, 但是平面直角坐标系并不是平面上唯一的坐标系. 极坐标系是另一种常见的坐标系, 而且对于某些问题的研究 (例如第 3 小节作为情境引入的等速螺线和雷达定位), 用极坐标系比使用直角坐标系更为方便.\n\n在平面上给定一点 $O$ (称为极点)和从点 $O$ 出发的一条射线 ${Ox}$ (称为极轴),并选定单位长度和旋转角的正方向 (一般是逆时针方向), 就在平面上确定了一个极坐标系,平面上一点 $M$ 的位置可以用有序实数对 $\\left( {\\rho ,\\theta }\\right)$ (称为点的极坐标) 表示,其中 $\\rho  = \\; {OM} \\mid$ (称为极径), $\\theta$ 是射线 ${Ox}$ 到射线 ${OM}$ 的旋转角 (称为极角).\n\n必须特别注意的是,点的极坐标不是唯一确定的,有三种情况: (1) 如果 $\\left( {\\rho ,\\theta }\\right)$ 是一点的极坐标,那么 $\\left( {\\rho ,\\theta  + {2n\\pi }}\\right) \\left( {n \\in  \\mathbf{Z}}\\right)$ 都是这一点的极坐标; (2) 我们还允许极径取负值,当 $\\rho  < 0$ 时,规定 $\\left( {\\rho ,\\theta }\\right)$ 所指的点是 $\\left( {-\\rho ,\\theta  + \\pi }\\right) ;\\left( 3\\right)$ 极点的极角可以取任意角.\n\n由于点的极坐标的不唯一性,在极坐标系中曲线的方程的定义要作相应的变形:\n\n在建立了极坐标系的平面上给定一条曲线 $C$ 和含 $\\rho \\text{、}\\theta$ 的方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ ,如果 (1)以方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 的解为极坐标的点都在曲线 $C$ 上,(2)曲线 $C$ 上每一点的所有极坐标中,至少有一个极坐标 $\\left( {\\rho ,\\theta }\\right)$ 是方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 的解,那么称方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 是曲线 $C$ 的方程. 注意: 其中并不要求一点的所有极坐标满足方程,而只要这点的一个极坐标满足方程.\n\n很容易建立起点的极坐标与直角坐标的互化公式: 设平面上一点 $M$ 的直角坐标为 $\\left( {x, y}\\right)$ ,极坐标为 $\\left( {\\rho ,\\theta }\\right)$ ,则\n\n$$\n\\begin{aligned}  & x = \\rho \\cos \\theta ,\\;y = \\rho \\sin \\theta ; \\\\  & {\\rho }^{2} = {x}^{2} + {y}^{2},\\;\\tan \\theta  = \\frac{y}{x}\\left( {x \\neq  0}\\right) . \\end{aligned}\n$$\n\n从极坐标求直角坐标,直接套用公式就可以了. 从直角坐标求极坐标时,通常取 $\\rho  = \\; \\sqrt{{x}^{2} + {y}^{2}}$ ,而从 $\\tan \\theta$ 的值确定角 $\\theta$ 时,要参考点 $M$ 所在的象限,通常取满足条件 $0 \\leq  \\theta  < {2\\pi }$ 的角 $\\theta$ . 此外,当 $x = 0$ 时, $\\theta  = \\frac{\\pi }{2}$ 或 $\\theta  = \\frac{3\\pi }{2}$ ,视 $y > 0$ 或 $y < 0$ 而定. 如果从直角坐标求极坐标时, 还要满足某些额外的要求 (如要满足某个方程), 则要在点的所有极坐标中寻找符合要求的坐标, 这个问题不做深究.\n\n在主题三之下有 6 道例题, 即本节的例 6 至例 11.\n\n例 6 直接套用定义. 注意教材解答中的“可”字,它隐含了这些点的极坐标还有别的取法.\n\n例 7 是求曲线极坐标方程的题,这种题的一般解法是设曲线上点的极坐标为 $(\\rho$ , $\\theta$ ),根据题设条件可建立 $\\rho$ 与 $\\theta$ 的关系,即曲线的极坐标方程. 这个过程实际上保证了曲线上每一点至少有一个极坐标满足所得到的方程. 反过来要验证的是以方程的解为极坐标的点都在曲线上(要提醒学生有验证的意识,但有时可省略验证的细节). 本例关系式为 $\\rho  = {2a}\\cos \\theta$ ,当 $- \\frac{\\pi }{2} < \\theta  < \\frac{\\pi }{2}$ 且 $\\theta  \\neq  0$ 时的推导依赖于平面几何的一个定理一一直径所对的圆周角是直角; $\\theta  = 0$ 与 $\\theta  = \\frac{\\pi }{2}$ 的情况单独验证可知此关系式也成立. 本例反过来的验证是显然的: 在从极点出发且与极轴成角 $\\theta$ 的射线上只有一点 $\\left( {\\rho ,\\theta }\\right)$ 满足 $\\rho  = {2a}\\cos \\theta$ ,而所给的圆上已经有一点满足这个方程了,所以以方程 $\\rho  = {2a}\\cos \\theta$ 的解为极坐标的点只能是圆上的这一点.\n\n例 8 也是求曲线极坐标方程的题, 要利用正弦定理建立直线的极坐标方程 $\\rho \\sin \\left( {\\varphi  - \\theta }\\right)  = a\\sin \\varphi$ ,不过要分为点在已知点 $M\\left( {a,0}\\right)$ 的上方与下方讨论,两种情况处理方式完全一样; 还要验证点 $M\\left( {a,0}\\right)$ 也满足这个关系.\n\n当 $\\varphi  = \\frac{\\pi }{2}$ 时,所求直线是过点 $M\\left( {a,0}\\right)$ 且垂直于极轴的直线,方程变成 $\\rho \\cos \\theta  = a$ .\n\n例 9 推导等速螺线 (或称阿基米德螺线) 的极坐标方程. 等速螺线有简单的极坐标方程, 但在直角坐标系中它的方程非常复杂, 所以研究等速螺线时极坐标系就发挥了不可替代的作用. 本例的质点 $M$ 所做的是极径上的匀速运动和极角的等角速度旋转运动的复合运动, 以时间为参数, 分别列出极径上的匀速运动和极角的等角速度旋转运动的方程,得到的是质点 $M$ 的运动轨迹在极坐标系下的参数方程,再消去时间参数就得到此运动轨迹的(普通)极坐标方程.\n\n等速螺线在本主题开始部分是作为情境引入的, 这道例题之后应回顾情境引入的相关内容, 鼓励有兴趣的学生进一步了解等速螺线的性质和应用. 或更进一步, 可介绍一些其他螺线 (如对数螺线 $\\rho  = a{e}^{\\theta }$ ),鼓励学有余力的学生作为拓展课题去搜集、整理、归纳资料,了解其他常见螺线以及极坐标系和极坐标方程在螺线研究中的作用, 撰写小论文.\n\n例 10 求直角坐标系中方程 $x - y = 0$ 所表示直线的极坐标方程. 在极径不取负值的约定下,得到两个方程 $\\theta  = \\frac{\\pi }{4}$ 与 $\\theta  = \\frac{5\\pi }{4}$ ,分别表示从极点出发向相反方向的两条射线 (极点都在这两条射线上), 合起来才能把直线完全表示出来. 但要注意, 如果允许极径取负值,那么单个方程 $\\theta  = \\frac{\\pi }{4}$ 或 $\\theta  = \\frac{5\\pi }{4}$ 就可以表示整条直线了.\n\n例 11 要求极坐标系中方程 $\\rho  = 4\\cos \\theta$ 所表示曲线的直角坐标方程. 当 $\\rho  \\neq  0$ 时,原方程两端同时乘 $\\rho$ ,得 ${\\rho }^{2} = {4\\rho }\\cos \\theta$ ,对照直角坐标与极坐标互化的公式得到 ${x}^{2} + {y}^{2} = \\; {4x}$ ,即 ${\\left( x - 2\\right) }^{2} + {y}^{2} = 4$ ,这是以 $\\left( {2,0}\\right)$ 为圆心、以 2 为半径的圆. 当 $\\rho  = 0$ 时,极坐标方程表示的只有一个极点,在直角坐标系中只有原点 $\\left( {0,0}\\right)$ .\n\n### 注意事项\n\n1. 本节是带 * 号的教学内容, 各校是否进行教学, 可根据各校的实际情况而定.\n\n2. 按照曲线方程的定义, 求轨迹方程时, 三个步骤缺一不可, 对于步骤 3, 验证以该方程的解为坐标的点都在给定的轨迹上, 在推导椭圆、双曲线和抛物线方程的过程中, 为避免行文的累赘, 没有给出完整推演 (教参给出了椭圆情况的反向推演). 一般求轨迹方程时, 对反方向验证的过程也常常从略. 这不意味着可以 “不必证明”, 而只是为降低难度, 略去证明过程, 但对反过来推演的验证意识不可少, 以保证所求轨迹方程符合必备的两个条件.\n\n3. 参数方程教学中,要注重强调有时建立两个变量 $x$ 与 $y$ 之间的直接联系比较困难,甚至不可能,而有些特殊的变量却与 $x\\text{、}y$ 都有相对比较直接的联系,于是可以借此参数建立两个变量之间的间接联系, 从而使学生明确学习参数方程的现实意义. 建立和使用曲线的参数方程应注意:(1)应明确知道参数方程中参数 $t$ 的变化范围(当然也可以是整个实数集 $\\mathbf{R}$ ); (2) 给出参数 $t$ 的一个值后,应能唯一地求出对应 $x\\text{、}y$ 的值, 因而得出唯一的对应点, 这样才可以建立曲线的参数方程以探求曲线上点的运动规律; (3)除了时间参数外, 还有许多物理量和几何度量也都可以作为参数, 要根据实际问题的背景、性质或数学问题的特点来合理地选择参数; (4)除非另行要求, 曲线的参数方程未必都要化为普通方程 (有时化为普通方程是 “不可能完成的任务”); (5)曲线参数方程的思想不仅适用于直角坐标系下的曲线方程,也适合其他坐标系(目前学生只了解极坐标系)下的曲线方程, 参看例 9 .\n\n![bo_d402onjef24c73d2tg30_91_1024_395_331_354_0.jpg](images/private-f96b5391656bb0e1e40c.jpg)\n\n图 2-R6\n\n4. 椭圆的参数方程\n\n$$\n\\left\\{  {\\begin{array}{l} x = a\\cos \\theta , \\\\  y = b\\sin \\theta , \\end{array}\\theta  \\in  \\mathbf{R}}\\right.\n$$\n\n有很多应用. 例 5 根据椭圆方程的代数特征进行换元的思路导出这个参数方程是比较自然的,但缺憾的是其中的参数 $\\theta$ 的几何意义没有显现出来. 下面简单说明如何从几何角度导出参数方程. 如图 2-R6,设给定的椭圆是 $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1(a > \\; b > 0), M\\left( {x, y}\\right)$ 是椭圆上的一个点. 以坐标原点为圆心,以 $a\\text{、}b$ 为半径分别做圆, 过点 $M$ 作 $x$ 轴的垂线 ${MP}$ 与大圆交于点 $A$ ,连接 ${OA}$ 与小圆交于点 $B$ ,再过点 $B$ 作 $y$ 轴的垂线 ${BQ}$ . 记 $\\angle {POA} = \\angle {QBO} = \\theta$ ,则 $x = \\left| {OP}\\right|  = \\left| {OA}\\right| \\cos \\theta  = a\\cos \\theta ,\\left| {OQ}\\right|  = \\; \\left| {OB}\\right| \\sin \\theta  = b\\sin \\theta$ . 这样, $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{\\left| OQ\\right| }^{2}}{{b}^{2}} = 1$ . 因此, $\\left| {OQ}\\right|  = y$ ,从而直线 ${BQ}$ 与 ${AP}$ 的交点是 $M\\left( {x, y}\\right)$ ,而 $\\theta$ 就是椭圆参数方程中的参数.\n\n5. 在极坐标系中, 由于点的极坐标的多值性, 求曲线的极坐标方程, 不可能要求曲线上一点的所有极坐标都满足曲线的方程. 例如,对于给定曲线 $\\rho  = \\theta$ ,点 $P\\left( {\\frac{\\pi }{3},\\frac{\\pi }{3}}\\right)$ 在曲线上,但 $\\left( {\\frac{\\pi }{3},\\frac{7\\pi }{3}}\\right)$ 也是点 $P$ 的极坐标,它却不满足方程 $\\rho  = \\theta$ . 所以在极坐标系中,确定一点 $P$ 是否在某一曲线 $C : F\\left( {\\rho ,\\theta }\\right)  = 0$ 上,只需点 $P$ 的所有极坐标中有一个极坐标 $\\left( {{\\rho }_{0},{\\theta }_{0}}\\right)$ 满足方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 即可. 因此,对于极坐标方程,本节开篇所描述的曲线与方程关系必须改成第 3 小节所列的关系.\n\n6. 对于第 4 小节所述的极坐标和直角坐标的互化公式, 请注意这一小节所给的三个前提条件:(1)极点与直角坐标系的原点重合；(2)极轴与直角坐标系横轴的正半轴重合; (3)两坐标系的长度单位相同.\n\n7. 本节内容庞杂, 每个主题都有很大的扩充余地, 教学中把握两点: (1)先保持每个主题的相对独立性, 让学生理解体会以后再考虑与其他主题的联系. 例如, 参数方程主题的例题、习题应该服务于参数方程的教学, 让学生理解参数方程的基本思想和基本操作, 不要以多种解答或更简单的解法为由, 让参数思想被其他方法的解题所淹没. (2)每个主题的容量和难度要控制. 特别地, 本套教材与上海的“二期课改”教材在相关内容上定位不同, 要求差异很大, 在课堂教学上不要过多借用“二期课改”教材的内容.\n\n### 教学建议\n\n本节多主题, 每个主题应有不同的教学策略.\n\n主题一是从上一章开始的曲线方程概念理解的第四台阶, 是这个概念的总结, 并辅以相对集中的训练. 应对这两章相关的内容有个回顾, 并强调前面关于这个概念的学习都是依附于直线和圆锥曲线的学习并为其提供基本的理论支撑而进行的. 本小节以“曲线方程”的学习为本体,例题和习题是以深化这个概念的理解而组织的,这是教与学中要加以注意的.\n\n主题二从熟悉的炮弹运动轨迹出发,方程推导中借助时间变量 $t$ 间接地把炮弹运动中点的两个坐标联系起来, 顺理成章地给出了参数方程. 这个案例要讲得自然, 不要一开始就刻意强调“参数”和“参数方程”,要在方程组\n\n$$\n\\left\\{  {\\begin{array}{l} x = {v}_{0}t\\cos \\alpha , \\\\  y = {v}_{0}t\\sin \\alpha  - \\frac{1}{2}g{t}^{2}, \\end{array}0 \\leq  t \\leq  {t}_{1}}\\right.\n$$\n\n导出后, 在方程结构的分析中提出参数和参数方程的概念, 再作推广, 给出抽象的参数方程的概念, 进而进行抽象理论的学习和进一步的实践.\n\n这个炮弹飞行轨迹的案例与本节的例题都是可以化为普通方程的. 应向学生指出: 普通方程是相对于参数方程而言的,它反映了坐标变量 $x$ 与 $y$ 之间的直接联系; 而参数方程是通过参数反映坐标变量 $x$ 与 $y$ 之间的间接联系. 如果参数方程可以化为普通方程, 那么普通方程和参数方程是同一曲线的两种不同表达形式, 在数学上是等价的表达, 但在实际使用上, 两种表达有各自的用武之地. 还要强调一下, 不是所有的参数方程都可以消去参数得到普通方程, 教材举了小虫在平面上爬行的例子, 可能会颠覆学生对函数的理解, 值得体会.\n\n主题三的教学很重要的一点是要让学生体会极坐标的引进不仅仅是数学理论上追求多样化, 更重要的是实践和理论上的许多问题的解决必须依赖极坐标系与极坐标方程的使用. 等速螺线是一个简单且又非常典型的例子, 雷达定位也是学生能够理解的. 教材把等速螺线作为情境引入,一开始就介绍了等速螺线的基本特点,由于它把匀角速度的旋转转化为匀速直线运动, 在工程、机械上有很多应用, 如教材所介绍的心形转轮. 但是, 在直角坐标系中几乎无法研究等速螺线, 而引进极坐标系以后, 等速螺线的形式简单, 推导容易. 教学中要用好等速螺线的例子, 从一开始引进作为情境, 再到后面的例 9 回到这个例子, 圆满地解决了它的方程问题. 应以这个例子激发学生学习极坐标系的兴趣.\n\n要让学生体会极坐标系与直角坐标系的相仿与相异之处. 相仿之处是都要用两个实数确定一个点 (这应与平面的维数为 2 联系起来), 而主要相异之处是在极坐标系中点和它的坐标不是一一对应的, 一个点有不同的极坐标. 这个相异之处使得在极坐标系中曲线方程的定义要适当调整: 一个点在曲线上只要求点的一个 (而不是所有) 极坐标满足曲线方程.\n\n掌握点的直角坐标和极坐标的互化公式, 并能用于进行一些曲线的直角坐标方程和极坐标方程的互化. 但也要让学生理解, 并不是所有曲线的方程都能方便地进行两种坐标系下的互化, 特别是从极坐标方程转化为直角坐标方程要涉及反三角函数, 形式复杂且不实用.\n\n参数方程和极坐标都是平面解析几何的重要内容, 是进一步学习数学的基础, 很多实际问题也需要用参数方程和极坐标来解决. 与 “二期课改”教材不同,为降低难度, 按照课程标准的要求, 这两部分内容不再独立成章, 且确定为选学内容. 在教学时,可根据学情需要灵活处理:既可以作为拓展内容,进行点拨式的介绍；也可作为课外阅读材料,供有兴趣的学生在自主学习的基础上,开展相关的小课题研究等.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 816,
+        "end": 971
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-2-5-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 求轨迹的方程",
+    "markdown": "## 1 求轨迹的方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1829,
+        "end": 1829
+      }
+    ],
+    "id": "x1-2-5-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在本章 2.1 节中我们给出了曲线方程的定义. 根据此定义, 要确认一个二元方程 $F\\left( {x, y}\\right)  = 0$ 是一条平面曲线 $C$ 的方程,必须验证如下两个条件都满足:\n\n(1)曲线 $C$ 上的点的坐标都是方程 $F\\left( {x, y}\\right)  = 0$ 的解;\n\n(2)以方程 $F\\left( {x, y}\\right)  = 0$ 的解为坐标的点都是曲线 $C$ 上的点.\n\n现在大家对这个过程应该比较熟悉了, 因为在上一章和本章中给出直线、圆、椭圆、双曲线和抛物线时, 都强调过这样的验证. 例如, 在本章 2.1 节中圆的方程的推导过程中我们就详细写出了正反两个方向的推导过程. 但在椭圆、双曲线和抛物线方程的推导过程中, 为了避免行文的累赘, 在强调反方向验证时, 我们只说“将上述推理过程反过来推演即可”. 希望同学们能自行补充“反过来推演”的过程 (见本章习题 2.5A 组第 1 题).\n\n下面的例 1 用反例再次说明上述条件(1)和条件(2)缺一不可.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1830,
+        "end": 1840
+      }
+    ],
+    "id": "x1-2-5-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 (1)方程 $x = \\sqrt{1 - {y}^{2}}$ 是圆心在坐标原点、半径为 1 的圆的方程吗? 为什么?\n\n(2)方程 ${x}^{2} - {y}^{2} = 0$ 是过点 $\\left( {0,0}\\right)$ 与 $\\left( {1,1}\\right)$ 的直线的方程吗? 为什么?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1841,
+        "end": 1844
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1841,
+        "end": 1844
+      }
+    ],
+    "id": "x1-2-5-ex-1",
+    "category": "例题",
+    "answer": "解(1)不是. 条件(1)不满足，如点 $\\left( {-1,0}\\right)$ 在此圆上，但 $\\left\\{  \\begin{array}{l} x =  - 1, \\\\  y = 0 \\end{array}\\right.$ 不是给定方程的解.\n\n(2)不是. 条件(2)不满足，如 $\\left\\{  \\begin{array}{l} x =  - 1, \\\\  y = 1 \\end{array}\\right.$ 是给定方程的解， 但点 $\\left( {-1,1}\\right)$ 不在给定的直线上.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1845,
+        "end": 1848
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "prose",
+    "title": "求轨迹方程的基本步骤",
+    "markdown": "在解析几何中, 曲线经常是用满足一些条件的动点轨迹给出的, 如本章的椭圆就定义为到两个定点距离之和等于一个给定常数 (此常数大于两定点之间的距离)的点的轨迹. 双曲线、抛物线也是类似地定义. 根据曲线方程的定义, 并通过本章的学习, 我们把求轨迹方程的基本步骤总结如下:\n\n---\n\n试在平面直角坐标系中作出例 1 (1) 和 (2)中 $F\\left( {x, y}\\right)  = 0$ 所表示的曲线.\n\n---\n\n步骤 1 根据轨迹的特征, 建立适当的平面直角坐标系 (如果平面直角坐标系在轨迹定义中已经给出, 一般就采用给定的平面直角坐标系);\n\n步骤 2 轨迹上动点的坐标设为 $\\left( {x, y}\\right)$ ,将动点满足的条件表示为关于 $x\\text{ 、 }y$ 的一个方程;\n\n步骤 3 验证以该方程的解为坐标的点都在给定的轨迹上.\n\n这里的步骤 2 与步骤 3 分别对应曲线方程的条件(1)与条件(2).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1849,
+        "end": 1864
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 135,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-5-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 212,
+        "end": 384,
+        "kind": "method",
+        "title": "求轨迹方程的基本步骤",
+        "id": "x1-2-5-method-5",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-5-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 已知点 $A\\text{ 、 }B$ 是距离为 4 的两个定点,动点 $M$ 满足 $\\overrightarrow{MA} \\cdot  \\overrightarrow{MB} = 5$ . 建立适当的平面直角坐标系,求动点 $M$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1865,
+        "end": 1866
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1865,
+        "end": 1866
+      }
+    ],
+    "id": "x1-2-5-ex-2",
+    "category": "例题",
+    "answer": "解 如图 2-5-1,以直线 ${AB}$ 为 $x$ 轴,线段 ${AB}$ 的垂直平分线为 $y$ 轴,建立平面直角坐标系,则两定点为 $A\\left( {-2,0}\\right) \\text{ 、 }B\\left( {2,0}\\right)$ .\n\n![bo_d4sln7jef24c73be0pd0_39_217_921_286_274_0.jpg](images/private-061ea8b9c702493d8971.jpg)\n\n图 2-5-1\n\n设动点 $M$ 的坐标是 $\\left( {x, y}\\right)$ ,则 $\\overrightarrow{MA} = \\left( {-2 - x, - y}\\right) ,\\overrightarrow{MB} = \\; \\left( {2 - x, - y}\\right)$ . 因为 $\\overrightarrow{MA} \\cdot  \\overrightarrow{MB} = 5$ ,所以\n\n$$\n\\left( {-2 - x}\\right) \\left( {2 - x}\\right)  + \\left( {-y}\\right) \\left( {-y}\\right)  = 5,\n$$\n\n化简, 得\n\n$$\n{x}^{2} + {y}^{2} = 9\n$$\n\n这表明, 动点轨迹上任意点的坐标都满足这个方程.\n\n反过来,设平面上一点 $N$ 的坐标 $\\left( {{x}_{1},{y}_{1}}\\right)$ 满足方程,即有 ${x}_{1}^{2} + {y}_{1}^{2} = 9$ ,则\n\n$$\n\\overrightarrow{NA} \\cdot  \\overrightarrow{NB} = \\left( {-2 - {x}_{1}}\\right) \\left( {2 - {x}_{1}}\\right)  + \\left( {0 - {y}_{1}}\\right) \\left( {0 - {y}_{1}}\\right)\n$$\n\n$$\n= {x}_{1}^{2} - 4 + {y}_{1}^{2} = 9 - 4 = 5\\text{ . }\n$$\n\n从而,以方程 ${x}^{2} + {y}^{2} = 9$ 的解为坐标的点都在轨迹上.\n\n综上所述,方程 ${x}^{2} + {y}^{2} = 9$ 就是所求的动点 $M$ 的轨迹方程.\n\n要证明一个给定的关于 $x\\text{ 、 }y$ 的方程是一条给定曲线的方程, 有时可以把条件(1)和条件(2)放在一起验证. 此时要验证的是如下的充要条件:一点在给定曲线上当且仅当该点的坐标是给定方程的解.\n\n---\n\n例 3 也可按步骤 2、3 证明,但不要忽略了步骤 3 :假设点 $P$ 的坐标是方程 $4{\\left( x - 2\\right) }^{2} \\; + 8{y}^{2} = 1$ 的解,要找到曲线 ${x}^{2} + 2{y}^{2} = 1$ 上的一点 $B$ ,使 $P$ 是线段 ${AB}$ 的中点.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1867,
+        "end": 1908
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 求连接定点 $A\\left( {4,0}\\right)$ 和曲线 ${x}^{2} + 2{y}^{2} = 1$ 上动点 $B$ 的线段 ${AB}$ 的中点 $P$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1909,
+        "end": 1910
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1909,
+        "end": 1910
+      }
+    ],
+    "id": "x1-2-5-ex-3",
+    "category": "例题",
+    "answer": "解 对平面上一点 $B\\left( {{x}_{B},{y}_{B}}\\right)$ ,条件“ $P\\left( {{x}_{P},{y}_{P}}\\right)$ 是线段 ${AB}$ 的中点”的坐标表示是\n\n$$\n\\left\\{  {\\begin{array}{l} {x}_{P} = \\frac{4 + {x}_{B}}{2}, \\\\  {y}_{P} = \\frac{0 + {y}_{B}}{2}, \\end{array}\\text{ 即 }\\left\\{  \\begin{array}{l} {x}_{B} = 2{x}_{P} - 4, \\\\  {y}_{B} = 2{y}_{P}. \\end{array}\\right. }\\right.\n$$\n\n由所求轨迹的定义,点 $P\\left( {{x}_{P},{y}_{P}}\\right)$ 在轨迹上当且仅当点 $B\\left( {{x}_{B},{y}_{B}}\\right)$ 在曲线 ${x}^{2} + 2{y}^{2} = 1$ 上,即当且仅当 ${x}_{B}^{2} + 2{y}_{B}^{2} = 1$ . 把点 $B$ 的坐标用点 $P$ 的坐标替换并化简,得\n\n$$\n{x}_{B}^{2} + 2{y}_{B}^{2} = 1 \\Leftrightarrow  4{\\left( {x}_{P} - 2\\right) }^{2} + 8{y}_{P}^{2} = 1,\n$$\n\n所以,点 $P$ 在轨迹上当且仅当它的坐标是方程 $4{\\left( x - 2\\right) }^{2} + 8{y}^{2} = 1$ 的解.\n\n由此可见,所求的轨迹方程是 $4{\\left( x - 2\\right) }^{2} + 8{y}^{2} = 1$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1911,
+        "end": 1926
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.5(1)",
+    "markdown": "## 练习 2.5(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1927,
+        "end": 1927
+      }
+    ],
+    "id": "x1-2-5-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(1) · 1",
+    "markdown": "1. 判断下列各组两个方程是否表示相同的曲线:\n\n(1) $y = x$ ， $\\frac{y}{x} = 1$ ； (2) $y = x, y = \\sqrt{{x}^{2}}$ ； (3) $\\left| x\\right|  = \\left| y\\right| ,{x}^{2} - {y}^{2} = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1929,
+        "end": 1932
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1929,
+        "end": 1932
+      }
+    ],
+    "id": "x1-2-5-p251-1",
+    "category": "练习2.5(1)",
+    "answer": "1. (1)否. (2)否. (3)是.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1206,
+        "end": 1207
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(1) · 2",
+    "markdown": "2. 已知 $\\bigtriangleup  {ABC}$ 的周长为 18，且 ${BC} = 8$ . 建立适当的平面直角坐标系,求顶点 $A$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1933,
+        "end": 1934
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1933,
+        "end": 1934
+      }
+    ],
+    "id": "x1-2-5-p251-2",
+    "category": "练习2.5(1)",
+    "answer": "2. $\\frac{{x}^{2}}{25} + \\frac{{y}^{2}}{9} = 1\\left( {y \\neq  0}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1208,
+        "end": 1209
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(1) · 3",
+    "markdown": "3. 当点 $A$ 在曲线 $y = {x}^{2} + 3$ 上运动时,连接点 $A$ 与定点 $B\\left( {6,0}\\right)$ . 求 ${AB}$ 的中点 $P$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1935,
+        "end": 1936
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1935,
+        "end": 1936
+      }
+    ],
+    "id": "x1-2-5-p251-3",
+    "category": "练习2.5(1)",
+    "answer": "3. $y = 2{x}^{2} - {12x} + \\frac{39}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1210,
+        "end": 1211
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 简单的参数方程",
+    "markdown": "## 2 简单的参数方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1937,
+        "end": 1937
+      }
+    ],
+    "id": "x1-2-5-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在求轨迹的方程时, 有时根据条件很难直接建立曲线上的动点坐标 $\\left( {x, y}\\right)$ 所满足的方程,但如果引入合适的第三个变量,分别建立 $x\\text{ 、 }y$ 与第三个变量的联系,问题常常会比较容易得到解决.\n\n我们先来看一个熟悉的问题: 假设空气阻力忽略不计,求炮弹被击发后的运动轨迹的方程.\n\n即使建立平面直角坐标系, 炮弹的运动规律也难以直接用炮弹位置的坐标 $x$ 与 $y$ 的方程表示出来. 在物理学中,我们知道, 当发射角 $\\alpha$ 、发射时的初速度 ${v}_{0}$ 确定后,炮弹位置只与运行时间 $t$ 有关,所以可以考虑引入时间 $t$ 作为第三个变量来求运动轨迹的方程.\n\n以炮口所在位置 $O$ 为坐标原点,水平方向为 $x$ 轴,铅垂方向为 $y$ 轴,建立平面直角坐标系,如图 2-5-2 所示. 设炮弹发射 $t$ s后的位置在点 $P\\left( {x, y}\\right)$ 处. 炮弹的初速度 ${v}_{0}$ 可分解为水平方向和铅垂方向的两个速度,其中在水平方向上的初速度为 ${v}_{0}\\cos \\alpha$ , 在铅垂方向上的初速度为 ${v}_{0}\\sin \\alpha$ . 由于忽略了空气阻力,炮弹在运动过程中只在铅垂方向受到重力作用. 容易求得, 炮弹的位置坐标 $\\left( {x, y}\\right)$ 与时间 $t$ 之间的关系:\n\n$$\n\\left\\{  {\\begin{array}{l} x = {v}_{0}t\\cos \\alpha , \\\\  y = {v}_{0}t\\sin \\alpha  - \\frac{1}{2}g{t}^{2} \\end{array}\\left( {0 \\leq  t \\leq  {t}_{1}}\\right) ,}\\right.\n$$\n\n![bo_d4sln7jef24c73be0pd0_40_1107_1790_360_203_0.jpg](images/book-40f0e5e46c606d7af986.jpg)\n\n图 2-5-2\n\n其中 $g$ 是重力加速度的值, ${t}_{1}$ 是炮弹击中目标的时刻.\n\n我们把上述方程组中的变量 $t$ 消去后,观察它表示的是什么曲线. 由第一个方程得 $t = \\frac{x}{{v}_{0}\\cos \\alpha }$ ,代入第二个方程,消去参数 $t$ ,得到炮弹运动的轨迹方程为\n\n$$\ny =  - \\frac{g}{2{v}_{0}^{2}{\\cos }^{2}\\alpha }{x}^{2} + \\frac{\\sin \\alpha }{\\cos \\alpha }x.\n$$\n\n由于 ${v}_{0}\\text{ 、 }\\alpha \\text{ 、 }g$ 都是定值,因此炮弹运动的轨迹是一条抛物线.\n\n在这个实际问题中, 炮弹运动的轨迹不可能是整条抛物线. 首先,因为炮弹被击发前是静止的,必须 $x \\geq  0$ . 又因为炮弹击中目标后也不再按原有轨迹运动，所以我们所讨论的炮弹运动轨迹只是 $x \\geq  0$ 与炮弹击中目标前的一段抛物线. 例如，设目标点与发射点在同一水平线上,则恒有 $y \\geq  0$ ,从而由 $- \\frac{g}{2{v}_{0}^{2}{\\cos }^{2}\\alpha }{x}^{2} + \\; \\frac{\\sin \\alpha }{\\cos \\alpha }x \\geq  0$ 求得 $x \\leq  \\frac{{v}_{0}^{2}\\sin {2\\alpha }}{g}$ . 因此,炮弹运动轨迹是上述抛物线在 $0 \\leq  x \\leq  \\frac{{v}_{0}^{2}\\sin {2\\alpha }}{g}$ 之间的部分.\n\n由上述讨论可以看到, 在求曲线方程时, 我们可以先分别求出 $x\\text{ 、 }y$ 与某个随动点变化的变量 $t$ 所满足的方程 $x = f\\left( t\\right)$ , $y = g\\left( t\\right)$ ,得到方程组:\n\n$$\n\\left\\{  \\begin{array}{l} x = f\\left( t\\right) , \\\\  y = g\\left( t\\right) , \\end{array}\\right.\n$$\n\n其中 $t$ 在某个范围内变动.\n\n如果对于 $t$ 的每一个允许值,由上述方程组所确定的点 $P\\left( {x, y}\\right)$ 都在曲线 $C$ 上; 反之,对于曲线 $C$ 上任意一点的坐标, 都存在 $t$ 的某个允许值使得上述方程组成立,那么上述方程组就叫做曲线 $C$ 的参数方程 (parametric equation),变量 $t$ 叫做参变量或参数 (parameter).\n\n相对于参数方程而言,直接给出曲线上点的坐标 $x\\text{ 、 }y$ 之间关系的方程 $F\\left( {x, y}\\right)  = 0$ 叫做曲线的普通方程. 如果像上例那样可以消去参数方程中的参数 $t$ ,就可以将参数方程化为普通方程.\n\n但在不少情况下, 由曲线的参数方程并不一定能够化为曲线的普通方程. 举一个通俗的例子. 假设有一只小虫在平面直角坐标系中爬行,小虫的位置坐标 $\\left( {x, y}\\right)$ 是时间 $t$ 的函数:\n\n$$\n\\left\\{  \\begin{array}{l} x = f\\left( t\\right) , \\\\  y = g\\left( t\\right) . \\end{array}\\right.\n$$\n\n这揭示了小虫随时间 $t$ 变化的运动规律,就是小虫运动轨迹的一个参数方程. 由于小虫爬行的轨迹不似炮弹那样一直向前, 而是可以倒退及与自身相交, 不可能化为普通方程, 这时, 用参数方程来表示这一复杂的运动轨迹就成了唯一合理的选择了.\n\n由此可见, 用参数方程表示一个曲线, 不仅可能有具体的物理或几何意义, 也更具有一般性, 应用起来有时也更为简便.\n\n![bo_d4sln7jef24c73be0pd0_42_1128_719_318_256_0.jpg](images/book-1cc1c25c1e183401b28f.jpg)\n\n图 2-5-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1938,
+        "end": 1992
+      }
+    ],
+    "emphases": [
+      {
+        "start": 1854,
+        "end": 2038,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-13-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 2040,
+        "end": 2165,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-13-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-5-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 求所有斜率为 1 的直线被椭圆 $\\frac{{x}^{2}}{4} + {y}^{2} = 1$ 所截得的线段的中点的轨迹.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1993,
+        "end": 1994
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1993,
+        "end": 1994
+      }
+    ],
+    "id": "x1-2-5-ex-4",
+    "category": "例题",
+    "answer": "解 如图 2-5-3,设直线 $y = x + b$ 被椭圆所截得的线段的两个端点 $A\\text{ 、 }B$ 的坐标 $\\left( {{x}_{1},{y}_{1}}\\right) \\text{ 、 }\\left( {{x}_{2},{y}_{2}}\\right)$ 是如下方程组的解:\n\n$$\n\\left\\{  \\begin{array}{l} \\frac{{x}^{2}}{4} + {y}^{2} = 1, \\\\  y = x + b. \\end{array}\\right.\n$$\n\n消去 $y$ ,并整理得\n\n$$\n5{x}^{2} + {8bx} + 4\\left( {{b}^{2} - 1}\\right)  = 0.\n$$\n\n当判别式 $\\Delta  = {\\left( 8b\\right) }^{2} - 4 \\times  5 \\times  4\\left( {{b}^{2} - 1}\\right)  =  - {16}\\left( {{b}^{2} - 5}\\right)  > 0$ ,即 $- \\sqrt{5} < b < \\sqrt{5}$ 时,上述方程有两个不同的实数解,即直线被椭圆所截的线段存在并且线段两个端点横坐标之和为 ${x}_{1} + {x}_{2} =  - \\frac{8}{5}b$ .\n\n设 ${AB}$ 的中点为 $M\\left( {{x}_{M},{y}_{M}}\\right)$ ,则\n\n$$\n{x}_{M} = \\frac{{x}_{1} + {x}_{2}}{2} =  - \\frac{4}{5}b,{y}_{M} = {x}_{M} + b = \\frac{b}{5}.\n$$\n\n所以,\n\n$$\n\\left\\{  \\begin{array}{l} {x}_{M} =  - \\frac{4}{5}b, \\\\  {y}_{M} = \\frac{b}{5}\\;\\left( {-\\sqrt{5} < b < \\sqrt{5}}\\right)  \\end{array}\\right.\n$$\n\n---\n\n还可用什么方法求解例 4 ?\n\n---\n\n就是线段 ${AB}$ 的中点 $M$ 的轨迹的参数方程.\n\n消去 $b$ ,得 ${x}_{M} + 4{y}_{M} = 0$ . 由 $- \\sqrt{5} < b < \\sqrt{5}$ 及 ${x}_{M} =  - \\frac{4b}{5}$ ,可得 ${x}_{M} \\in  \\left( {-\\frac{4\\sqrt{5}}{5},\\frac{4\\sqrt{5}}{5}}\\right)$ . 所以点 $M$ 的轨迹方程为 $x + {4y} = 0$ , $x \\in  \\left( {-\\frac{4\\sqrt{5}}{5},\\frac{4\\sqrt{5}}{5}}\\right)$ ,即点 $M$ 的轨迹是直线 $x + {4y} = 0$ 在椭圆内的部分.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1995,
+        "end": 2030
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 已知点 $M\\left( {x, y}\\right)$ 在椭圆 $C : \\frac{{x}^{2}}{16} + \\frac{{y}^{2}}{9} = 1$ 上，求 $x + y$ 的最大值,并求 $x + y$ 取得最大值时点 $M$ 的坐标.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2031,
+        "end": 2032
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2031,
+        "end": 2032
+      }
+    ],
+    "id": "x1-2-5-ex-5",
+    "category": "例题",
+    "answer": "解 利用三角恒等式 ${\\cos }^{2}\\theta  + {\\sin }^{2}\\theta  = 1$ ,可以验证\n\n$$\n\\left\\{  {\\begin{array}{l} x = 4\\cos \\theta , \\\\  y = 3\\sin \\theta , \\end{array}\\;\\theta  \\in  \\mathbf{R}}\\right.\n$$\n\n是椭圆 $C$ 的一个参数方程,所以点 $M$ 的坐标满足\n\n$$\nx + y = 4\\cos \\theta  + 3\\sin \\theta  = 5\\left( {\\frac{4}{5}\\cos \\theta  + \\frac{3}{5}\\sin \\theta }\\right) .\n$$\n\n因为 ${\\left( \\frac{4}{5}\\right) }^{2} + {\\left( \\frac{3}{5}\\right) }^{2} = 1$ ,所以可以找到锐角 $\\varphi$ ,使得 $\\sin \\varphi  = \\frac{4}{5}$ , $\\cos \\varphi  = \\frac{3}{5}$ ,从而\n\n$$\nx + y = 5\\left( {\\sin \\varphi \\cos \\theta  + \\cos \\varphi \\sin \\theta }\\right)  = 5\\sin \\left( {\\theta  + \\varphi }\\right) .\n$$\n\n当 $\\sin \\left( {\\theta  + \\varphi }\\right)  = 1$ 时, $x + y = 5$ 最大. 要取得最大值, $\\theta  + \\varphi  = \\; \\frac{\\pi }{2} + {2k\\pi }$ ,即 $\\theta  = \\frac{\\pi }{2} + {2k\\pi } - \\varphi$ ,这里 $k \\in  \\mathbf{Z}$ . 此时对应的点 $M$ 的坐标为 $x = 4\\cos \\theta  = 4\\sin \\varphi  = \\frac{16}{5}, y = 3\\sin \\theta  = 3\\cos \\varphi  = \\frac{9}{5}$ ,即点 $M$ 的坐标为 $\\left( {\\frac{16}{5},\\frac{9}{5}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2033,
+        "end": 2052
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.5(2)",
+    "markdown": "## 练习 2.5(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2053,
+        "end": 2053
+      }
+    ],
+    "id": "x1-2-5-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(2) · 1",
+    "markdown": "1. 设 $a\\text{ 、 }b$ 是非零常数,参数方程 $\\left\\{  {\\begin{array}{l} x = \\frac{a}{\\cos \\alpha }, \\\\  y = b\\tan \\alpha  \\end{array}\\left( {\\alpha  \\neq  {k\\pi } + \\frac{\\pi }{2}, k \\in  \\mathbf{Z}}\\right) }\\right.$ 表示的是什么曲线?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2055,
+        "end": 2056
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2055,
+        "end": 2056
+      }
+    ],
+    "id": "x1-2-5-p252-1",
+    "category": "练习2.5(2)",
+    "answer": "1. 双曲线 $\\frac{{x}^{2}}{{a}^{2}} - \\frac{{y}^{2}}{{b}^{2}} = 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1214,
+        "end": 1215
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(2) · 2",
+    "markdown": "2. 以原点为圆心、1 为半径作一个圆. 设定点 $A$ 的坐标为 $\\left( {2,0}\\right) , B$ 为圆上任意一点, $M$ 为线段 ${AB}$ 的中点. 求点 $M$ 轨迹的参数方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2057,
+        "end": 2058
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2057,
+        "end": 2058
+      }
+    ],
+    "id": "x1-2-5-p252-2",
+    "category": "练习2.5(2)",
+    "answer": "2. $\\left\\{  \\begin{array}{l} x = 1 + \\frac{1}{2}\\cos \\theta , \\\\  y = \\frac{1}{2}\\sin \\theta  \\end{array}\\right. \\left( {\\theta  \\in  \\mathbf{R}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1216,
+        "end": 1217
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(2) · 3",
+    "markdown": "3. 动点 $M$ 作匀速直线运动,它在 $x$ 轴和 $y$ 轴方向的分速度分别为 9 和 12,运动开始时,点 $M$ 位于 $A\\left( {1,1}\\right)$ . 求点 $M$ 的轨迹的参数方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2059,
+        "end": 2060
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2059,
+        "end": 2060
+      }
+    ],
+    "id": "x1-2-5-p252-3",
+    "category": "练习2.5(2)",
+    "answer": "3. $\\left\\{  {\\begin{array}{l} x = 1 + {9t}, \\\\  y = 1 + {12t} \\end{array}\\left( {t \\geq  0}\\right) }\\right.$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1218,
+        "end": 1219
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "3 极坐标系与极坐标方程",
+    "markdown": "## 3 极坐标系与极坐标方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2061,
+        "end": 2061
+      }
+    ],
+    "id": "x1-2-5-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "通过前面的学习，我们知道，在平面直角坐标系下，可以用一对有序实数表示平面上点的位置，进而建立曲线的直角坐标方程, 从而用代数方法研究这些曲线的性质. 但是, 有些简单的曲线, 在用上述方法求它的方程时, 却会遇到比较大的困难. 例如,设想平面上有一个动点 $M$ 在一条从点 $O$ 出发的射线 ${OA}$ 上做匀速运动逐渐远离点 $O$ ，而射线 ${OA}$ 本身又绕点 $O$ 以固定的角速度旋转. 此时，动点 $M$ 在平面上的运动轨迹称为等速螺线 (图 2-5-4)，它在数学内部以及机械、工程等领域有广泛的应用. 如图 2-5-5 所示的由两条对称的等速螺线拼成的心形转轮 (红线所示) 就会把转轮的旋转运动转化为横杆 (蓝线所示) 的往复水平运动.\n\n![bo_d4sln7jef24c73be0pd0_44_1131_266_312_282_0.jpg](images/book-28aa1e31f9b06627cebb.jpg)\n\n图 2-5-4\n\n但是, 在平面直角坐标下要建立等速螺线的方程是一件比较复杂的事:把两点的距离用点的坐标写出, 需要用到二次根式; 而把旋转角用坐标表示出来, 更要借助于反三角函数. 因此, 研究等速螺线及其他类似曲线, 需要另辟蹊径.\n\n![bo_d4sln7jef24c73be0pd0_44_1120_615_334_256_0.jpg](images/book-79cfa7116d765544616b.jpg)\n\n图 2-5-5\n\n事实上, 确定平面上点的位置, 采用平面直角坐标系并不是唯一的方法. 现实生活中, 人们也常用方向 (实际上是角) 和距离来确定平面上点的位置. 例如, 图 2-5-6 所示的是雷达上发现北偏东 ${45}^{ \\circ  }$ 方向 ${20}\\mathrm{\\;{km}}$ 处有不明飞行物体. 这样表示平面上点的位置就是我们将要研究的另外一种坐标系 —— 极坐标系的基本思想.\n\n![bo_d4sln7jef24c73be0pd0_44_1142_975_293_297_0.jpg](images/book-7d85a09ce8c8b60f793f.jpg)\n\n图 2-5-6\n\n![bo_d4sln7jef24c73be0pd0_44_1148_1363_284_211_0.jpg](images/book-6cf74a7fc79ab9588c3e.jpg)\n\n图 2-5-7\n\n如图 2-5-7,在平面上取一定点 $O$ ,以 $O$ 为端点引射线 ${Ox}$ , 再选定一个单位长度和旋转角的正方向(一般规定逆时针方向为正方向). 这时对于平面上异于点 $O$ 的任意一点 $M$ ,设 $\\rho  = \\; \\left| {OM}\\right| ,\\theta$ 表示以射线 ${Ox}$ 为始边、射线 ${OM}$ 为终边的角,则点 $M$ 的位置可以用有序数对 $\\left( {\\rho ,\\theta }\\right)$ 表示. 我们把这样的坐标系叫做极坐标系(polar coordinate system).\n\n在极坐标系中,定点 $O$ 叫做极点 (pole),射线 ${Ox}$ 叫做极轴 (polar axis), $\\left( {\\rho ,\\theta }\\right)$ 就叫做点 $M$ 的极坐标 (polar coordinate),其中 $\\rho$ 叫做点 $M$ 的极径 (polar radius), $\\theta$ 叫做点 $M$ 的极角 (polar angle).\n\n与平面直角坐标系不一样的是, 在极坐标系中, 点的极坐标不唯一,如果 $\\left( {\\rho ,\\theta }\\right)$ 是一点的极坐标,那么 $\\left( {\\rho ,\\theta  + {2n\\pi }}\\right) \\left( {n \\in  \\mathbf{Z}}\\right)$ 都可以作为它的极坐标. 我们还允许 $\\rho$ 取负值,当 $\\rho  < 0$ 时,规定 $\\left( {\\rho ,\\theta }\\right)$ 对应的点为 $\\left( {-\\rho ,\\theta  + \\pi }\\right)$ . 此外,规定极点的坐标为 $\\left( {0,\\theta }\\right)$ , 其中 $\\theta$ 可以是任意角.\n\n不难发现,在极坐标系中,点 $\\left( {\\rho ,\\theta }\\right)$ 与 $\\left( {-\\rho ,\\theta }\\right)$ 关于极点对称,点 $\\left( {\\rho ,\\theta }\\right)$ 与 $\\left( {\\rho , - \\theta }\\right)$ 关于极轴对称.\n\n尽管在极坐标系中点的坐标不唯一, 但是在极坐标系中, 除了极点外，平面上的所有点所成的集合和实数对集合 $\\{ \\left( {\\rho ,\\theta }\\right)  \\mid  \\rho  > 0,0 \\leq  \\theta  < {2\\pi }\\}$ 是一一对应的. 也就是说,如果规定极\n\n径 $\\rho$ 取正值,极角 $\\theta$ 取小于 ${2\\pi }$ 的非负值,那么极点以外的任何点的极坐标也就唯一确定了.\n\n",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2062,
+        "end": 2096
+      },
+      {
+        "source": "book",
+        "start": 2100,
+        "end": 2100
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 332,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-21-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1044,
+        "end": 1319,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-21-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1321,
+        "end": 1514,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-21-2",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-5-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 如图 2-5-8,在极坐标系中,写出 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D$ 、 $E$ 各点的一个极坐标.\n\n![bo_d4sln7jef24c73be0pd0_45_196_253_331_374_0.jpg](images/book-94a2e838cd5b52dc6249.jpg)\n\n图 2-5-8",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2101,
+        "end": 2102
+      },
+      {
+        "source": "book",
+        "start": 2097,
+        "end": 2099
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2101,
+        "end": 2102
+      },
+      {
+        "source": "book",
+        "start": 2097,
+        "end": 2099
+      }
+    ],
+    "id": "x1-2-5-ex-6",
+    "category": "例题",
+    "answer": "解 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$ 各点的一个极坐标可分别取为 $\\left( {4,\\frac{\\pi }{6}}\\right)$ 、 $\\left( {3,\\frac{5\\pi }{12}}\\right) \\text{ 、 }\\left( {2,\\frac{7\\pi }{6}}\\right) \\text{ 、 }\\left( {5,\\frac{23\\pi }{12}}\\right) \\text{ 、 }\\left( {1,\\frac{3\\pi }{4}}\\right) .$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2095,
+        "end": 2095
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.5(3)",
+    "markdown": "## 练习 2.5(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2103,
+        "end": 2103
+      }
+    ],
+    "id": "x1-2-5-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2104,
+        "end": 2108
+      }
+    ],
+    "id": "x1-2-5-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(3) · 1",
+    "markdown": "1.(1)若约定 $\\rho  > 0,0 \\leq  \\theta  < {2\\pi }$ ，试写出图中 $A$ 、 $B$ 、 $C$ 、 $D\\text{ 、 }E$ 各点的极坐标 $\\left( {\\rho ,\\theta }\\right)$ ;\n\n(2)若约定 $\\rho  < 0,0 \\leq  \\theta  < {2\\pi }$ ，试写出图中 $A$ 、 $B$ 、 $C$ 、 $D$ 、 $E$ 各点的极坐标 $\\left( {\\rho ,\\theta }\\right)$ .\n\n![bo_d4sln7jef24c73be0pd0_45_1141_732_332_379_0.jpg](images/book-aaa97c618fd8d7b4fa7b.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2109,
+        "end": 2112
+      },
+      {
+        "source": "book",
+        "start": 2105,
+        "end": 2107
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2109,
+        "end": 2112
+      },
+      {
+        "source": "book",
+        "start": 2105,
+        "end": 2107
+      }
+    ],
+    "id": "x1-2-5-p253-1",
+    "category": "练习2.5(3)",
+    "answer": "1. (1) $A\\left( {3,\\frac{\\pi }{2}}\\right)$ 、 $B\\left( {4,\\frac{5\\pi }{6}}\\right)$ 、 $C\\left( {5,\\frac{\\pi }{12}}\\right)$ 、 $D\\left( {\\frac{7}{2},\\frac{7\\pi }{6}}\\right)$ 、 $E\\left( {1,\\frac{7\\pi }{4}}\\right)$ .\n\n(2) $A\\left( {-3,\\frac{3\\pi }{2}}\\right)$ 、 $B\\left( {-4,\\frac{11\\pi }{6}}\\right)$ 、 $C\\left( {-5,\\frac{13\\pi }{12}}\\right)$ 、 $D\\left( {-\\frac{7}{2},\\frac{\\pi }{6}}\\right)$ 、 $E\\left( {-1,\\frac{3\\pi }{4}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1222,
+        "end": 1225
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(3) · 2",
+    "markdown": "2. 在极坐标系中,画出点 $A\\left( {3,\\frac{\\pi }{4}}\\right) \\text{ 、 }B\\left( {3, - \\frac{\\pi }{4}}\\right) \\text{ 、 }C\\left( {3,\\frac{5\\pi }{4}}\\right)$ , 并说明 $A$ 和 $B\\text{ 、 }C$ 有怎样的位置关系.\n\n和平面直角坐标系的情形类似, 在极坐标系中, 平面内的一条曲线可以用含 $\\rho \\text{ 、 }\\theta$ 这两个变量的方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 来表示,方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 叫做这条曲线的极坐标方程. 此时,曲线和方程有如下的关系:\n\n?\n\n(1)以方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 的解为极坐标的点都在曲线上;\n\n---\n\n在(2)中，为什么不说曲线上每一点的所有极坐标都适合方程?\n\n---\n\n(2)曲线上每一点的所有极坐标中,至少有一个极坐标 $\\left( {\\rho ,\\theta }\\right)$ 是方程 $F\\left( {\\rho ,\\theta }\\right)  = 0$ 的解.\n\n求曲线的极坐标方程, 其实就是找到曲线上所有点的极径和极角应满足的关系式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2113,
+        "end": 2130
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2113,
+        "end": 2130
+      }
+    ],
+    "id": "x1-2-5-p253-2",
+    "category": "练习2.5(3)",
+    "answer": "2. $A$ 和 $B$ 关于极轴对称, $A$ 和 $C$ 关于极点对称.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1226,
+        "end": 1227
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 求圆心是 $C\\left( {a,0}\\right)$ 、半径是 $a$ 的圆的极坐标方程.\n\n![bo_d4sln7jef24c73be0pd0_45_213_1809_297_224_0.jpg](images/book-7d8f836e55ef08b97eb6.jpg)\n\n图 2-5-9",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2131,
+        "end": 2136
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2131,
+        "end": 2136
+      }
+    ],
+    "id": "x1-2-5-ex-7",
+    "category": "例题",
+    "answer": "解 如图 2-5-9,由题意知圆 $C$ 经过极点 $O$ . 设圆和极轴的另一个交点是 $M$ ,则 $\\left| {OM}\\right|  = {2a}$ . 设 $P\\left( {\\rho ,\\theta }\\right) \\left( {-\\frac{\\pi }{2} < \\theta  \\leq  \\frac{\\pi }{2}}\\right)$ 是圆 $C$ 上的任意一点.\n\n若点 $P$ 不在直线 ${OM}$ 上,因为 ${OM}$ 是圆的直径,所以 $\\angle {OPM}$ 为直角. 在直角三角形 ${OPM}$ 中, $\\left| {OP}\\right|  = \\left| {OM}\\right| \\cos \\theta$ ,即\n\n$$\n\\rho  = {2a}\\cos \\theta \\text{ ,这里 } - \\frac{\\pi }{2} < \\theta  < \\frac{\\pi }{2},\\theta  \\neq  0\\text{ . }\n$$\n\n当 $\\theta  = 0$ 与 $\\theta  = \\frac{\\pi }{2}$ 时,方程 $\\rho  = {2a}\\cos \\theta$ 分别给出了点 $M$ 与点 $O$ .\n\n因此,圆 $C$ 的极坐标方程是\n\n$$\n\\rho  = {2a}\\cos \\theta \\left( {-\\frac{\\pi }{2} < \\theta  \\leq  \\frac{\\pi }{2}}\\right) .\n$$\n\n![bo_d4sln7jef24c73be0pd0_46_1147_536_281_217_0.jpg](images/private-89f6bb122bf9448df522.jpg)\n\n图 2-5-10",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2137,
+        "end": 2156
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 8",
+    "markdown": "例 8 求经过点 $M\\left( {a,0}\\right) \\left( {a > 0}\\right)$ ,且与极轴夹角为 $\\varphi$ 的直线 $l$ 的极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2157,
+        "end": 2158
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2157,
+        "end": 2158
+      }
+    ],
+    "id": "x1-2-5-ex-8",
+    "category": "例题",
+    "answer": "解 如图 2-5-10,设 $P\\left( {\\rho ,\\theta }\\right)$ 是直线 $l$ 上位于点 $M$ 上方的任意一点, 则\n\n$$\n\\left| {OP}\\right|  = \\rho ,\\angle {POx} = \\theta \\left( {0 < \\theta  < \\varphi }\\right) ,\\angle {OPM} = \\varphi  - \\theta .\n$$\n\n在 $\\bigtriangleup {POM}$ 中,由正弦定理,得\n\n即\n\n$$\n\\frac{\\rho }{\\sin \\left( {\\pi  - \\varphi }\\right) } = \\frac{a}{\\sin \\left( {\\varphi  - \\theta }\\right) },\n$$\n\n$$\n\\rho \\sin \\left( {\\varphi  - \\theta }\\right)  = a\\sin \\varphi\n$$\n\n①\n\n---\n\n若 $\\varphi  = \\frac{\\pi }{2}$ ,直线 $l$ 的方程变成怎样?\n\n---\n\n当点 $P$ 位于点 $M$ 下方或与点 $M$ 重合时,同样可推得①.\n\n因此,方程①就是所求直线 $l$ 的极坐标方程.\n\n我们不仅可以建立圆、直线的极坐标方程, 也可以建立圆锥曲线的极坐标方程(见课后阅读). 下面, 我们尝试建立上一小节开头时给出的等速螺线的极坐标方程.\n\n![bo_d4sln7jef24c73be0pd0_46_1128_1303_321_233_0.jpg](images/private-18b22711f8016d2cb80c.jpg)\n\n图 2-5-11",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2159,
+        "end": 2194
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 9",
+    "markdown": "例 9 设质点 $M$ 为射线 ${OA}$ 上的动点,沿着 $\\overrightarrow{OA}$ 方向做匀速运动，同时射线 ${OA}$ 又绕着它的端点 $O$ 作等角速度旋转. 求质点 $M$ 运动的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2195,
+        "end": 2196
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2195,
+        "end": 2196
+      }
+    ],
+    "id": "x1-2-5-ex-9",
+    "category": "例题",
+    "answer": "解 如图 2-5-11,以射线 ${OA}$ 的端点 $O$ 为极点,以射线 ${OA}$ 的初始位置为极轴,建立极坐标系. 设动点的初始位置是 ${M}_{0}\\left( {{\\rho }_{0},0}\\right)$ , 点 $M$ 在 ${OA}$ 上运动的速度为 $v,{OA}$ 绕点 $O$ 转动的角速度为 $\\omega$ , 经过时间 $t$ 后,动点到达的位置为 $M\\left( {\\rho ,\\theta }\\right)$ .\n\n因为点 $M$ 沿 ${OA}$ 做匀速运动,所以\n\n$$\n\\rho  = {\\rho }_{0} + {vt};\n$$\n\n①\n\n---\n\n①和②联立实际上就是此运动轨迹的参数方程.\n\n---\n\n由射线 ${OA}$ 绕点 $O$ 作等角速度旋转,得\n\n$$\n\\theta  = {\\omega t}.\n$$\n\n②\n\n由于从点 ${M}_{0}$ 到点 $M$ 是直线运动与旋转运动的合成,因此将从②式得到的 $t = \\frac{\\theta }{\\omega }$ 代入①式，得\n\n$$\n\\rho  = {\\rho }_{0} + \\frac{v}{\\omega } \\cdot  \\theta ,\n$$\n\n其中 ${\\rho }_{0}\\text{ 、 }v\\text{ 、 }\\omega$ 为常数. 设 $\\frac{v}{\\omega } = a$ ,则方程可写成\n\n$$\n\\rho  = {\\rho }_{0} + {a\\theta }\\left( {\\theta  \\geq  0}\\right) .\n$$\n\n这就是所求轨迹的极坐标方程.\n\n这个方程所对应的曲线 (图 2-5-11) 叫做等速螺线或者叫做阿基米德螺线 (Archimedean spiral). 当 ${\\rho }_{0} = 0$ 时,就得到特殊的等速螺线的方程 $\\rho  = {a\\theta }$ ,此时极径与极角成正比.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2197,
+        "end": 2236
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.5(4)",
+    "markdown": "## 练习 2.5(4)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2237,
+        "end": 2237
+      }
+    ],
+    "id": "x1-2-5-b30",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(4) · 1",
+    "markdown": "1. 求经过点 $A\\left( {a,0}\\right)$ 且和极轴垂直的直线 $l$ 的极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2239,
+        "end": 2240
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2239,
+        "end": 2240
+      }
+    ],
+    "id": "x1-2-5-p254-1",
+    "category": "练习2.5(4)",
+    "answer": "1. $\\rho \\cos \\theta  = a\\left( {-\\frac{\\pi }{2} < \\theta  < \\frac{\\pi }{2}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1230,
+        "end": 1231
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(4) · 2",
+    "markdown": "2.(1)求圆心在极点 $O$ 、半径为 $a$ 的圆的极坐标方程；\n\n(2)求圆心在 $\\left( {a,\\frac{\\pi }{2}}\\right)$ 、半径为 $a$ 的圆的极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2241,
+        "end": 2244
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2241,
+        "end": 2244
+      }
+    ],
+    "id": "x1-2-5-p254-2",
+    "category": "练习2.5(4)",
+    "answer": "2. (1) $\\rho  = a\\left( {\\theta  \\in  \\mathbf{R}}\\right)$ . (2) $\\rho  = {2a}\\sin \\theta \\left( {\\theta  \\in  \\mathbf{R}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1232,
+        "end": 1233
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(4) · 3",
+    "markdown": "3. 分别画出下列极坐标方程和直角坐标方程的曲线:\n\n(1)极坐标方程 $\\rho  = 2$ ，直角坐标方程 $x = 2$ ；\n\n(2)极坐标方程 $\\theta  = \\frac{\\pi }{4}$ ，直角坐标方程 $x = \\frac{\\pi }{4}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2245,
+        "end": 2250
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2245,
+        "end": 2250
+      }
+    ],
+    "id": "x1-2-5-p254-3",
+    "category": "练习2.5(4)",
+    "answer": "3. (1)\n\n![bo_d402onjef24c73d2tg30_99_320_780_281_202_0.jpg](images/private-1dafb9ea9c2ebc17c984.jpg)\n\n![bo_d402onjef24c73d2tg30_99_614_777_211_220_0.jpg](images/private-200cfe7ab018003280a2.jpg)\n\n(2)\n\n![bo_d402onjef24c73d2tg30_99_937_774_209_211_0.jpg](images/private-48da523cec5026916f13.jpg)\n\n![bo_d402onjef24c73d2tg30_99_1159_767_214_228_0.jpg](images/private-0c151dca657fd3ce4551.jpg)",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1234,
+        "end": 1245
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "4 极坐标与直角坐标的互化",
+    "markdown": "## 4 极坐标与直角坐标的互化",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2251,
+        "end": 2251
+      }
+    ],
+    "id": "x1-2-5-b34",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "![bo_d4sln7jef24c73be0pd0_47_234_1273_272_276_0.jpg](images/book-19e45e34bdeb448d96bf.jpg)\n\n图 2-5-12\n\n极坐标系和直角坐标系是两种不同的坐标系, 有时需要在它们之间进行互相转化.\n\n如图 2-5-12,把直角坐标系的原点作为极点, $x$ 轴的正半轴作为极轴,并且取相同的单位长度. 设平面内任意一点 $M$ 的直角坐标为 $\\left( {x, y}\\right)$ ,极坐标为 $\\left( {\\rho ,\\theta }\\right)$ .\n\n当 $\\rho  > 0$ 时,由三角函数的定义,可以得到如下的关系式:\n\n$$\nx = \\rho \\cos \\theta , y = \\rho \\sin \\theta .\n$$\n\n①\n\n当 $\\rho  = 0$ 时,①式仍然成立.\n\n![bo_d4sln7jef24c73be0pd0_47_215_1681_288_247_0.jpg](images/book-dca3edce0fcb8036b6b6.jpg)\n\n图 2-5-13\n\n当 $\\rho  < 0$ 时,如图 2-5-13,点 $M$ 的极坐标也可用 $\\left( {-\\rho ,\\pi  + \\theta }\\right)$ 表示,这时由于 $- \\rho  > 0$ ,因此由三角函数的定义,可得\n\n$$\nx =  - \\rho \\cos \\left( {\\pi  + \\theta }\\right)  = \\rho \\cos \\theta ,\n$$\n\n$$\ny =  - \\rho \\sin \\left( {\\pi  + \\theta }\\right)  = \\rho \\sin \\theta .\n$$\n\n这说明 $\\rho  < 0$ 时,①式也成立.\n\n综上所述，关系式①对于点 $M$ 的任一种表示法表示的极坐标都成立.\n\n关系式①可以作为已知点的极坐标求该点的直角坐标的公式.\n\n从关系式①中解出 $\\rho$ 、 $\\theta$ ,则有\n\n$$\n{\\rho }^{2} = {x}^{2} + {y}^{2},\\tan \\theta  = \\frac{y}{x}\\left( {x \\neq  0}\\right) .\n$$\n\n②\n\n关系式②可以作为已知点的直角坐标求该点的极坐标的公式.\n\n通常取 $\\rho$ 为正数,即 $\\rho  = \\sqrt{{x}^{2} + {y}^{2}}$ ; 由 $\\tan \\theta  = \\frac{y}{x}$ 确定角度 $\\theta$ 时,一般根据此点所在的象限取最小正角,满足 $0 \\leq  \\theta  < {2\\pi }$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2252,
+        "end": 2302
+      }
+    ],
+    "id": "x1-2-5-b35",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 10",
+    "markdown": "例 10 化直角坐标方程 $x - y = 0$ 为极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2303,
+        "end": 2304
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2303,
+        "end": 2304
+      }
+    ],
+    "id": "x1-2-5-ex-10",
+    "category": "例题",
+    "answer": "解 将 $x = \\rho \\cos \\theta , y = \\rho \\sin \\theta$ 代入 $x - y = 0$ ,得\n\n$$\n\\rho \\cos \\theta  - \\rho \\sin \\theta  = 0,\n$$\n\n即\n\n$$\n\\rho \\left( {\\cos \\theta  - \\sin \\theta }\\right)  = 0.\n$$\n\n解得\n\n$$\n\\rho  = 0\\text{ 或 }\\cos \\theta  - \\sin \\theta  = 0\\text{ . }\n$$\n\n由 $\\cos \\theta  - \\sin \\theta  = 0$ ,得 $\\tan \\theta  = 1$ .\n\n解得\n\n$$\n\\theta  = \\frac{\\pi }{4}\\text{ 或 }\\theta  = \\frac{5\\pi }{4}.\n$$\n\n因为 $\\rho  = 0$ 表示极点,而 $\\theta  = \\frac{\\pi }{4}$ 及 $\\theta  = \\frac{5\\pi }{4}$ 均表示过极点的射线,所以 $\\rho  = 0$ 已包含在 $\\theta  = \\frac{\\pi }{4}$ 或 $\\theta  = \\frac{5\\pi }{4}$ 中.\n\n因此,所化的极坐标方程为 $\\theta  = \\frac{\\pi }{4}$ 或 $\\theta  = \\frac{5\\pi }{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2305,
+        "end": 2334
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 11",
+    "markdown": "例 11 化极坐标方程 $\\rho  = 4\\cos \\theta$ 为直角坐标方程,并指出它是什么曲线.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2335,
+        "end": 2336
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2335,
+        "end": 2336
+      }
+    ],
+    "id": "x1-2-5-ex-11",
+    "category": "例题",
+    "answer": "解 当 $\\rho  \\neq  0$ 时,由 $\\rho  = 4\\cos \\theta$ ,得\n\n$$\n{\\rho }^{2} = {4\\rho }\\cos \\theta .\n$$\n\n由此得 ${x}^{2} + {y}^{2} = {4x}$ ,即\n\n$$\n{\\left( x - 2\\right) }^{2} + {y}^{2} = 4.\n$$\n\n①\n\n当 $\\rho  = 0$ 时,满足 $\\rho  = 4\\cos \\theta$ 的点为极点,即直角坐标系的原点 $\\left( {0,0}\\right)$ ,它也满足方程①.\n\n所以, $\\rho  = 4\\cos \\theta$ 是以 $\\left( {2,0}\\right)$ 为圆心、以 2 为半径的圆.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2337,
+        "end": 2354
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 2.5(5)",
+    "markdown": "## 练习 2.5(5)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2355,
+        "end": 2355
+      }
+    ],
+    "id": "x1-2-5-b38",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(5) · 1",
+    "markdown": "1. ( 1 )把点 $M$ 的极坐标 $\\left( {2,\\frac{\\pi }{6}}\\right)$ 化成直角坐标；\n\n( 2 )把点 $P$ 的直角坐标 $\\left( {-1,\\sqrt{3}}\\right)$ 化成极坐标.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2357,
+        "end": 2360
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2357,
+        "end": 2360
+      }
+    ],
+    "id": "x1-2-5-p255-1",
+    "category": "练习2.5(5)",
+    "answer": "1. (1) $\\left( {\\sqrt{3},1}\\right)$ . (2) $\\left( {2,\\frac{2\\pi }{3}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1248,
+        "end": 1249
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(5) · 2",
+    "markdown": "2. 化直角坐标方程 ${x}^{2} + {y}^{2} - {2ay} = 0$ 为极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2361,
+        "end": 2362
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2361,
+        "end": 2362
+      }
+    ],
+    "id": "x1-2-5-p255-2",
+    "category": "练习2.5(5)",
+    "answer": "2. $\\rho  = {2a}\\sin \\theta$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1250,
+        "end": 1251
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习2.5(5) · 3",
+    "markdown": "3. 化极坐标方程 $\\rho  = \\sin \\theta  + \\cos \\theta$ 为直角坐标方程.\n\n---\n\n如果允许 $\\rho$ 取任意实数, 那么极坐标方程 $\\theta  = \\frac{\\pi }{4}$ 及 $\\theta  = \\frac{5\\pi }{4}$ 均表示过极点的直线.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2363,
+        "end": 2370
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2363,
+        "end": 2370
+      }
+    ],
+    "id": "x1-2-5-p255-3",
+    "category": "练习2.5(5)",
+    "answer": "3. ${x}^{2} + {y}^{2} = x + y$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1252,
+        "end": 1253
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "## 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2371,
+        "end": 2371
+      }
+    ],
+    "id": "x1-2-5-b42",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "圆锥曲线的统一定义及其极坐标方程",
+    "markdown": "## 圆锥曲线的统一定义及其极坐标方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2373,
+        "end": 2373
+      }
+    ],
+    "id": "x1-2-5-b43",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在极坐标系中可以给出圆锥曲线的一个简洁的统一方程. 不过, 圆不能被这个统一方程包括, 所以本阅读材料中的圆锥曲线及椭圆均不包括圆.\n\n先讨论一下圆锥曲线的统一定义.\n\n回忆一下抛物线的定义: 给定平面上的一个定点和一条定直线, 抛物线是该平面上到此定点和到此定直线距离相等的点的轨迹, 也就是说, 抛物线是该平面上到此定点和到此定直线距离之比等于 1 的点的轨迹. 我们知道, 给定的定点是抛物线的焦点, 给定的定直线是抛物线的准线.\n\n我们希望模仿抛物线的这一定义给出椭圆的定义. 暂时在直角坐标系中讨论. 设椭圆的一个焦点为 $F\\left( {c,0}\\right)$ ,长半轴长为 $a$ ,则一点 $M\\left( {x, y}\\right)$ 在椭圆上当且仅当\n\n$$\n\\sqrt{{\\left( x + c\\right) }^{2} + {y}^{2}} + \\sqrt{{\\left( x - c\\right) }^{2} + {y}^{2}} = {2a}.\n$$\n\n由于圆不在考虑范围内, $c \\neq  0$ ,上式经变形化为等价条件\n\n$$\n\\frac{\\sqrt{{\\left( x - c\\right) }^{2} + {y}^{2}}}{\\left| x - \\frac{{a}^{2}}{c}\\right| } = e,\n$$\n\n其中 $e = \\frac{c}{a}$ 是椭圆的离心率,我们还把直线 $l = \\frac{{a}^{2}}{c}$ 称为椭圆的准线. 这样,上式用文字叙述就是: 椭圆是到焦点 $F\\left( {c,0}\\right)$ 与到准线 $l = \\frac{{a}^{2}}{c}$ 的距离之比等于离心率 $e$ 的点的轨迹,其中离心率满足 $0 < e < 1$ .\n\n由类似的推导过程可知,双曲线是到焦点 $F\\left( {c,0}\\right)$ 与到准线 $l = \\frac{{a}^{2}}{c}$ 的距离之比等于离心率 $e$ 的点的轨迹,此时离心率 $e > 1$ .\n\n由此,可以得到圆锥曲线的一个统一定义: 圆锥曲线是到一个定点 $F$ 和到一条定直线 $l\\left( {F \\notin  l}\\right)$ 距离之比为定值 $e$ 的点的轨迹. 其中,当 $0 < e < 1$ 时,轨迹为椭圆; 当 $e = 1$ 时,轨迹为抛物线; 当 $e > 1$ 时,轨迹为双曲线.\n\n据此定义可以建立圆锥曲线的统一极坐标方程.\n\n![bo_d4sln7jef24c73be0pd0_49_1194_1827_283_197_0.jpg](images/book-83cea1b0fedd1764ac7a.jpg)\n\n图 2-5-14\n\n设定点 $F$ 到定直线 $l$ 的距离为 $p\\left( {p > 0}\\right)$ ,过定点 $F$ 作定直线 $l$ 的垂线,垂足为 $K$ . 如图 2-5-14,以定点 $F$ 为极点 $O$ ,以 ${FK}$ 的反向延长线 ${Fx}$ 为极轴,建立极坐标系.\n\n设动点 $M$ 的极坐标为 $\\left( {\\rho ,\\theta }\\right)$ ,则点 $M$ 到定直线 $l$ 的距离为\n\n$$\nd = p + \\rho \\cos \\theta ,\n$$\n\n而 $\\left| {MF}\\right|  = \\rho$ ,由圆锥曲线的统一定义,有 $\\frac{\\left| MF\\right| }{d} = e$ ,可得 $\\rho  = {ed} = e\\left( {p + \\rho \\cos \\theta }\\right)$ ,整理可得\n\n$$\n\\rho  = \\frac{ep}{1 - e\\cos \\theta }.\n$$\n\n这就是圆锥曲线的统一极坐标方程. 如图 2-5-15,当 $0 < e < 1$ 时, 方程表示左焦点在极点的椭圆; 当 $e = 1$ 时,方程表示焦点在极点,开口向右的抛物线; 当 $e > 1$ 时,方程表示右焦点在极点的双曲线的右支.\n\n![bo_d4sln7jef24c73be0pd0_50_1127_496_325_253_0.jpg](images/book-aff285d4b46a5052f8e2.jpg)\n\n图 2-5-15",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2374,
+        "end": 2424
+      }
+    ],
+    "emphases": [
+      {
+        "start": 583,
+        "end": 767,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-2-5-definition-44-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-2-5-b44",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "习题 2.5",
+    "markdown": "## 习题 2.5",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2425,
+        "end": 2425
+      }
+    ],
+    "id": "x1-2-5-b45",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2427,
+        "end": 2427
+      }
+    ],
+    "id": "x1-2-5-b46",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 1",
+    "markdown": "1. 写出椭圆方程推导过程中的“反过来推演”，即验证:若点 $M$ 以方程 $\\frac{{x}^{2}}{{a}^{2}} + \\frac{{y}^{2}}{{b}^{2}} = 1 \\; \\left( {a > b > 0}\\right)$ 的解 $\\left( {x, y}\\right)$ 为坐标,则点 $M$ 一定在以 ${F}_{1}\\left( {-c,0}\\right)$ 与 ${F}_{2}\\left( {c,0}\\right)$ 为焦点的椭圆上, 这里 $c = \\sqrt{{a}^{2} - {b}^{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2429,
+        "end": 2430
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2429,
+        "end": 2430
+      }
+    ],
+    "id": "x1-2-5-h25A-1",
+    "category": "习题2.5A",
+    "answer": "1. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1258,
+        "end": 1259
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 2",
+    "markdown": "2. 给定 $A\\left( {-3,2}\\right) \\text{ 、 }B\\left( {3, - 2}\\right)$ 两点,求证: 与这两点距离相等的点 $P$ 的轨迹方程是 ${3x} - {2y} = 0.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2431,
+        "end": 2432
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2431,
+        "end": 2432
+      }
+    ],
+    "id": "x1-2-5-h25A-2",
+    "category": "习题2.5A",
+    "answer": "2. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1260,
+        "end": 1261
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 3",
+    "markdown": "3. 已知点 $P\\left( {2,1}\\right)$ 在方程 ${x}^{2} + {k}^{2}{y}^{2} - {3x} - {ky} - 4 = 0$ 所表示的曲线上,求实数 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2433,
+        "end": 2434
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2433,
+        "end": 2434
+      }
+    ],
+    "id": "x1-2-5-h25A-3",
+    "category": "习题2.5A",
+    "answer": "3. $k = 3$ 或 $k =  - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1262,
+        "end": 1263
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 4",
+    "markdown": "4. 定长为 4 的线段 ${AB}$ 的两端点分别在 $x$ 轴、 $y$ 轴上滑动,求 ${AB}$ 中点的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2435,
+        "end": 2436
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2435,
+        "end": 2436
+      }
+    ],
+    "id": "x1-2-5-h25A-4",
+    "category": "习题2.5A",
+    "answer": "4. ${x}^{2} + {y}^{2} = 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1264,
+        "end": 1265
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 5",
+    "markdown": "5. 已知动点 $C$ 到点 $A\\left( {2,0}\\right)$ 的距离是它到点 $B\\left( {8,0}\\right)$ 的距离的一半,求点 $C$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2437,
+        "end": 2438
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2437,
+        "end": 2438
+      }
+    ],
+    "id": "x1-2-5-h25A-5",
+    "category": "习题2.5A",
+    "answer": "5. ${x}^{2} + {y}^{2} = {16}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1266,
+        "end": 1267
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 6",
+    "markdown": "6. 证明: 到两坐标轴距离相等的点的轨迹方程是 ${x}^{2} - {y}^{2} = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2439,
+        "end": 2440
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2439,
+        "end": 2440
+      }
+    ],
+    "id": "x1-2-5-h25A-6",
+    "category": "习题2.5A",
+    "answer": "6. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1268,
+        "end": 1269
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 7",
+    "markdown": "7. 已知曲线 $C : {y}^{2} = x + 1$ 和定点 $A\\left( {3,1}\\right)$ ，点 $B$ 在曲线 $C$ 上运动. 求满足 $\\overrightarrow{AP} = 2\\overrightarrow{PB}$ 的点 $P$ 的轨迹方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2441,
+        "end": 2442
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2441,
+        "end": 2442
+      }
+    ],
+    "id": "x1-2-5-h25A-7",
+    "category": "习题2.5A",
+    "answer": "7. ${\\left( 3y - 1\\right) }^{2} = {6x} - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1270,
+        "end": 1271
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 8",
+    "markdown": "8. 求过点 $M\\left( {2,\\frac{\\pi }{2}}\\right)$ 且平行于极轴的直线的极坐标方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2443,
+        "end": 2444
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2443,
+        "end": 2444
+      }
+    ],
+    "id": "x1-2-5-h25A-8",
+    "category": "习题2.5A",
+    "answer": "8. $\\rho \\sin \\theta  = 2\\left( {0 < \\theta  < \\pi }\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1272,
+        "end": 1273
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5A · 9",
+    "markdown": "9. 求极坐标方程分别是 $\\rho  = 2\\cos \\theta$ 和 $\\rho  = 2\\sin \\theta$ 的两个圆的圆心距.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2445,
+        "end": 2446
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2445,
+        "end": 2446
+      }
+    ],
+    "id": "x1-2-5-h25A-9",
+    "category": "习题2.5A",
+    "answer": "9. $\\sqrt{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1274,
+        "end": 1275
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2447,
+        "end": 2447
+      }
+    ],
+    "id": "x1-2-5-b56",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 1",
+    "markdown": "1. 作出下列方程的曲线:\n\n(1) ${x}^{2} - {y}^{2} = 0$ (2) ${x}^{2} + {2xy} - 3{y}^{2} = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2449,
+        "end": 2452
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2449,
+        "end": 2452
+      }
+    ],
+    "id": "x1-2-5-h25B-1",
+    "category": "习题2.5B",
+    "answer": "1. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1278,
+        "end": 1279
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 2",
+    "markdown": "2. 已知圆 ${x}^{2} + {y}^{2} - {2x} + {2y} - 3 = 0$ 和圆 ${x}^{2} + {y}^{2} + {4x} - 1 = 0$ 关于直线 $l$ 对称,求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2453,
+        "end": 2454
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2453,
+        "end": 2454
+      }
+    ],
+    "id": "x1-2-5-h25B-2",
+    "category": "习题2.5B",
+    "answer": "2. ${3x} - y + 1 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1280,
+        "end": 1281
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 3",
+    "markdown": "3. 证明: 椭圆 ${C}_{1} : \\frac{{x}^{2}}{4} + \\frac{{y}^{2}}{3} = 1$ 与椭圆 ${C}_{2} : \\frac{{x}^{2}}{3} + \\frac{{y}^{2}}{4} = 1$ 的四个交点共圆.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2455,
+        "end": 2456
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2455,
+        "end": 2456
+      }
+    ],
+    "id": "x1-2-5-h25B-3",
+    "category": "习题2.5B",
+    "answer": "3. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1282,
+        "end": 1283
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 4",
+    "markdown": "4. 点 $P$ 在椭圆 $\\frac{{x}^{2}}{4} + {y}^{2} = 1$ 上运动,求它到直线 $l : x + {2y} - 2 = 0$ 的距离的最大值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2457,
+        "end": 2458
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2457,
+        "end": 2458
+      }
+    ],
+    "id": "x1-2-5-h25B-4",
+    "category": "习题2.5B",
+    "answer": "4. $\\frac{2\\sqrt{10} + 2\\sqrt{5}}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1284,
+        "end": 1285
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 5",
+    "markdown": "5. 点 $P$ 到定点 $F\\left( {2,0}\\right)$ 的距离与它到直线 $x = 8$ 的距离之比为 $k$ ,请分别给出 $k$ 的某个值, 使得轨迹是椭圆、双曲线和抛物线.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2459,
+        "end": 2460
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2459,
+        "end": 2460
+      }
+    ],
+    "id": "x1-2-5-h25B-5",
+    "category": "习题2.5B",
+    "answer": "5. 轨迹方程为 $\\left( {1 - {k}^{2}}\\right) {x}^{2} + {y}^{2} + 4\\left( {4{k}^{2} - 1}\\right) x = {64}{k}^{2} - 4$ .\n\n当 $k = 0$ 时,表示一个点 $\\left( {2,0}\\right)$ ; 当 $0 < k < 1$ 时,表示椭圆; 当 $k = 1$ 时,表示抛物线; 当 $k > 1$ 时,表示双曲线.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1286,
+        "end": 1289
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 6",
+    "markdown": "6. 已知椭圆 $C : \\frac{{x}^{2}}{4} + \\frac{{y}^{2}}{3} = 1$ ,试确定 $m$ 的取值范围,使该椭圆上有两个不同的点关于直线 $l : y = {4x} + m$ 对称.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2461,
+        "end": 2462
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2461,
+        "end": 2462
+      }
+    ],
+    "id": "x1-2-5-h25B-6",
+    "category": "习题2.5B",
+    "answer": "6. $\\left( {-\\frac{2\\sqrt{13}}{13},\\frac{2\\sqrt{13}}{13}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1290,
+        "end": 1291
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题2.5B · 7",
+    "markdown": "7. 在极坐标系中,求曲线 $\\rho  = \\cos \\theta  + 1$ 与 $\\rho \\cos \\theta  = 1$ 的公共点到极点的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2463,
+        "end": 2464
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2463,
+        "end": 2464
+      }
+    ],
+    "id": "x1-2-5-h25B-7",
+    "category": "习题2.5B",
+    "answer": "7. $\\frac{1 + \\sqrt{5}}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 1292,
+        "end": 1293
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

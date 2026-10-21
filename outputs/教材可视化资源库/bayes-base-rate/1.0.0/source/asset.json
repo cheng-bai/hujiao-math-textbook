@@ -1,0 +1,56 @@
+{
+  "controls": [
+    {
+      "key": "prevalence",
+      "label": "患病率 p（%）",
+      "max": 100,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    },
+    {
+      "key": "sensitivity",
+      "label": "模型检出率 s（%）",
+      "max": 100,
+      "min": 0,
+      "step": 1,
+      "type": "range"
+    },
+    {
+      "key": "falsePositive",
+      "label": "模型误报率 q（%）",
+      "max": 100,
+      "min": 0,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "explanationHtml": "<p>这是教师选学的贝叶斯拓展。设事件 D 为实际患病，符号“+”表示检测阳性；D 上的横线表示未患病。三个模型参数定义为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>p</mi><mo>=</mo><mi>P</mi><mo>(</mo><mi>D</mi><mo>)</mo><mo>，</mo><mi>s</mi><mo>=</mo><mi>P</mi><mo>(</mo><mo>+</mo><mo>|</mo><mi>D</mi><mo>)</mo><mo>，</mo><mi>q</mi><mo>=</mo><mi>P</mi><mo>(</mo><mo>+</mo><mo>|</mo><mover><mi>D</mi><mo>¯</mo></mover><mo>)</mo></math><p>其中患病率 p、检出率 s、误报率 q 均介于零与一之间。先把阳性者分成互不相交的两部分：实际患病且阳性，未患病但阳性。由概率乘法公式与全概率公式，得到：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>∩</mo><mo>+</mo><mo>)</mo><mo>=</mo><mi>p</mi><mi>s</mi><mo>，</mo><mi>P</mi><mo>(</mo><mover><mi>D</mi><mo>¯</mo></mover><mo>∩</mo><mo>+</mo><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mo>+</mo><mo>)</mo><mo>=</mo><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></math><p>现在只在阳性者中判断患病比例，条件概率的分母必须是全部阳性者，而不是全部患病者。因此，只要阳性概率大于零，就有：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>|</mo><mo>+</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>D</mi><mo>∩</mo><mo>+</mo><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mo>+</mo><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>p</mi><mi>s</mi></mrow><mrow><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></mrow></mfrac></math><p>乘以一万人后，分子是真阳性期望数，分母是真阳性与假阳性期望数之和。默认参数下，真阳性九十九，假阳性四百九十五，所以阳性者中实际患病的概率为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><mrow><mn>99</mn></mrow><mrow><mn>99</mn><mo>+</mo><mn>495</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math><p>检出率虽为百分之九十九，反向条件概率却只有六分之一，两者的条件群体不同。改变患病率，即使检出率和误报率保持不变，真阳性和假阳性的相对数量仍会变化。</p><p>边界必须单独解释：患病率为零时，患病条件群体为空，检出率只保留为模型设定，对应条件概率未定义；患病率为一时，未患病组的条件概率同样未定义。若阳性总概率为零，反向条件概率的分母为零，不能显示成百分之零。这里频数始终是模型期望值，可以为小数，不是一次实测人数；树形框大小不代表人数，只有底部构成条按比例绘制。</p>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>|</mo><mo>+</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mi>p</mi><mi>s</mi></mrow><mrow><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></mrow></mfrac><mspace width=\"1em\"/><mtext>分母须大于0</mtext></math>",
+  "goal": "用10000人的期望频数追踪真正的分母，区分检出率与阳性者中实际患病的概率。",
+  "id": "bayes-base-rate",
+  "initial": {
+    "falsePositive": 5,
+    "prevalence": 1,
+    "sensitivity": 99
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-7-1-b23",
+      "rationale": "衔接逆向条件的教材段落与选学贝叶斯公式；保留原文，明确教师拓展属性。",
+      "retainProse": true,
+      "sectionId": "x2-7-1"
+    }
+  ],
+  "stateKeys": {
+    "lesson": [],
+    "math": [
+      "prevalence",
+      "sensitivity",
+      "falsePositive"
+    ],
+    "view": []
+  },
+  "summary": "教师选学拓展。记 D 为患病，+ 为阳性，患病率为 p，模型检出率为 s，模型误报率为 q。10000人模型中，真阳性期望数为10000ps，假阳性为10000(1−p)q。只看阳性者时，分母为两者之和；因此在 ps+(1−p)q>0 时，P(D|+)=ps/[ps+(1−p)q]。这由条件概率和全概率公式得到，不是把P(+|D)直接倒过来。P(+|D)=s 还要求 p>0；p=0时该条件概率未定义，s仅保留为模型参数；p=1时误报率的条件群体同样为空。频数全部为模型期望数，可能不是整数，非一次实测人数。树形框与连线不按人数比例，底部阳性构成条按真实比例绘制；结论不依赖画面面积的猜测。",
+  "title": "检出率不变，阳性者的判断为什么会变"
+}

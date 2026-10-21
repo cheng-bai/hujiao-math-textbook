@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-2-1",
+  "book_id": "bx1",
+  "section": "2.1",
+  "title": "等式与不等式的性质",
+  "section_json": "batch/sections/bx1/bx1-2-1.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-2-1",
+  "fingerprint": "d11786697fb1a6776ad1a32ad285843abdf1bfc51cbf14f47b5e0f6e7690ec1b",
+  "status": "rendered",
+  "questions": 46,
+  "answers": 46,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-0a75e5a64fc6f73f8fdb.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg",
+      "sha256": "0a75e5a64fc6f73f8fdb661ff44b9c858cff3575d3aabe0264bd30f95fadcf18",
+      "private": false
+    },
+    "images/private-34853e7523ee018530c7.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_4_1184_665_234_339_0.jpg",
+      "sha256": "34853e7523ee018530c7e321d072f82a6684072aed78c64206965873a756356f",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/02 必修第一册 第2章 等式与不等式.md": "cc5eeb30b1f69bc04a48ef572b3efe6e543e8ed1f104ee17941ef6571f86e334"
+  },
+  "student_images": [
+    "images/book-0a75e5a64fc6f73f8fdb.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "5b160f16e5730fbea6cbeabd237546f32aedea794aa91afc636682c6e769bcbd",
+    "student.html": "0fd753e1974ff66af3507def51ed093e78a399ebf616a0fed8d2acffd4bd8428",
+    "student.zip": "389bcbd9849cf17ae32015410de871b0ed6e51562085aac32e2703cf414c591f",
+    "content.json": "765f74886fb4ed2e802570c0c46f9e805c1358a0f43cc8ee5a2731352b751ba0"
+  }
+}

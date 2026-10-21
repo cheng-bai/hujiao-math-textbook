@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "patch_id": "authored-bx1-missing-answers",
+  "created_date": "2026-10-19",
+  "scope": "必修第一册两个原阻塞节点的五个未配对题块，仅供独立复核，尚未应用到底稿或网页。",
+  "policy": "原教材和教参只读；原题逐字保留底稿文本及来源定位，新答案一律标记 newly-authored，不冒充教参原答。",
+  "items": [
+    {
+      "question_id": "bx1-2-2-p222-1",
+      "section_id": "bx1-2-2",
+      "title": "练习2.2(2) · 1",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "book_sha256": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 719,
+            "end": 728
+          }
+        ],
+        "question_markdown_sha256": "896bdf5f295e3ce862016f146251d259d16cbd13c5e6ef4e44f0cfd1391d1511"
+      },
+      "question_markdown": "1. 解下列不等式:\n\n(1) $x + 2 >  - {x}^{2}$ ； (2) $- {x}^{2} + {3x} - 4 > 0$ ；\n\n(3) $9{x}^{2} - {6x} + 1 > 0$ ； (4) ${4x} - {x}^{2} > 4$ ；\n\n(5) $2{x}^{2} + 1 \\geq  x$ ；\n\n(6) ${x}^{2} + \\frac{1}{9} \\geq  \\frac{2}{3}x$ .",
+      "answer_status": "newly-authored",
+      "answer_origin": "Newly authored solution; not transcribed from the official teacher's answer.",
+      "answer": "(1) 移项得 $x^2+x+2>0$。判别式 $\\Delta=1-8=-7<0$，二次项系数为正，故恒成立，解集为 $\\mathbf R$。\n\n(2) 移项并乘以 $-1$，得 $x^2-3x+4<0$。判别式 $\\Delta=9-16=-7<0$，且二次项系数为正，所以左边恒大于 $0$，解集为 $\\varnothing$。\n\n(3) $9x^2-6x+1=(3x-1)^2$，故解集为 $\\mathbf R\\setminus\\{\\frac13\\}=(-\\infty,\\frac13)\\cup(\\frac13,+\\infty)$。\n\n(4) 移项得 $-(x-2)^2>0$。左边恒不大于 $0$，无解，解集为 $\\varnothing$。\n\n(5) $2x^2-x+1=2(x-\\frac14)^2+\\frac78>0$，故原不等式恒成立，解集为 $\\mathbf R$。\n\n(6) 移项得 $x^2-\\frac23x+\\frac19=(x-\\frac13)^2\\ge0$，恒成立，解集为 $\\mathbf R$。",
+      "derivation_and_method_note": "逐项移项、判别式或配方，核对严格不等式及等号边界。",
+      "self_check": "已按题意复核定义域、符号、等号端点及最终结论；逐步验证见推导。"
+    },
+    {
+      "question_id": "bx1-2-2-p222-2",
+      "section_id": "bx1-2-2",
+      "title": "练习2.2(2) · 2",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "book_sha256": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 729,
+            "end": 734
+          }
+        ],
+        "question_markdown_sha256": "55195e0b9da55a67ca818681dcce32a6bc8084529ce93fc55b45cb3049e4faaa"
+      },
+      "question_markdown": "2. 写出一个一元二次不等式, 使它的解集分别为:\n\n(1) $\\left( {3 - \\sqrt{2},3 + \\sqrt{2}}\\right)$ ； (2) $\\left( {-\\infty ,3 - \\sqrt{2}\\rbrack \\cup \\lbrack 3 + \\sqrt{2}, + \\infty }\\right)$ ；\n\n(3) $\\mathbf{R}$ ； (4) $\\varnothing$ .",
+      "answer_status": "newly-authored",
+      "answer_origin": "Newly authored solution; not transcribed from the official teacher's answer.",
+      "answer": "以下各写一个满足条件的一元二次不等式。\n\n(1) $x^2-6x+7<0$。因 $x^2-6x+7=(x-3)^2-2$，其解集为 $(3-\\sqrt2,3+\\sqrt2)$。\n\n(2) $x^2-6x+7\\ge0$。由 $(x-3)^2-2\\ge0$，其解集为 $(-\\infty,3-\\sqrt2]\\cup[3+\\sqrt2,+\\infty)$。\n\n(3) $x^2+1>0$，解集为 $\\mathbf R$。\n\n(4) $x^2+1<0$，因 $x^2+1\\ge1>0$，解集为 $\\varnothing$。",
+      "derivation_and_method_note": "题目只要求写出一个，构造后用平方差不等式核验解集。",
+      "self_check": "已按题意复核定义域、符号、等号端点及最终结论；逐步验证见推导。"
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-1",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 1",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1339,
+            "end": 1340
+          }
+        ],
+        "question_markdown_sha256": "852259e22b37a1d4f279e7aacc3342d0532f8efc26f9ebc06dede1c432cd8713"
+      },
+      "question_markdown": "1. 试讨论函数 $y = \\frac{x}{1 - x^2}$ 的单调性。",
+      "answer_status": "newly-authored",
+      "answer_origin": "Newly authored solution; not transcribed from the official teacher's answer.",
+      "answer": "定义域为 $\\mathbf R\\setminus\\{-1,1\\}$。设 $x_1<x_2$ 且二者同在定义域的一个区间内，则\n$$f(x_2)-f(x_1)=\\frac{(x_2-x_1)(1+x_1x_2)}{(1-x_1^2)(1-x_2^2)}.$$\n当二者在 $(-\\infty,-1)$ 或 $(1,+\\infty)$ 时，$x_1x_2>1$；当二者在 $(-1,1)$ 时，$x_1x_2>-1$。因此各情形下 $1+x_1x_2>0$。又在同一上述区间内，$1-x_1^2$ 与 $1-x_2^2$ 同号，所以分母为正。于是 $f(x_2)-f(x_1)>0$。\n\n故函数分别在 $(-\\infty,-1)$、$(-1,1)$、$(1,+\\infty)$ 上严格递增。上述结论分别适用于每一区间，不能据此认定函数在整个定义域上严格递增。例如 $-2<0$，但 $f(-2)=\\frac23>f(0)=0$；又 $0<2$，但 $f(0)=0>f(2)=-\\frac23$。这些跨断点反例说明不能把上述分段递增结论合并。",
+      "derivation_and_method_note": "不用导数；在定义域的三个连通区间分别用函数值差证明。",
+      "self_check": "已核验定义域 R\\{−1,1}；三个区间内差值因子的正号证明完整，并代入 −2、0、2 验证跨断点不能合并的反例。题干及来源哈希不变。",
+      "answer_markdown_sha256": "4bdaa112e48715de4d566b055bed58c01d614b104c2899380586e5f81d564ab6"
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-2",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 2",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1341,
+            "end": 1342
+          }
+        ],
+        "question_markdown_sha256": "ada05213f558d0a3eab0c7e472b8e1e56a2fcea19d7d337a819c9ceef7abe38a"
+      },
+      "question_markdown": "2. 作出函数 $y = (x^2 - 1)^2 - 1$ 的大致图像，写出它的单调区间，并证明你的结论。",
+      "answer_status": "newly-authored",
+      "answer_origin": "Newly authored solution; not transcribed from the official teacher's answer.",
+      "answer": "令 $f(x)=(x^2-1)^2-1=x^4-2x^2$。它是偶函数，图像关于 $y$ 轴对称；$f(x)=x^2(x^2-2)$，故零点为 $-\\sqrt2,0,\\sqrt2$，其中 $0$ 为二重零点；$f(\\pm1)=-1$，且 $|x|\\to\\infty$ 时 $f(x)\\to\\infty$。所以图像两端向上，在 $x=\\pm1$ 处取谷底，并在原点处与 $x$ 轴相切。\n\n![函数 y=(x²−1)²−1 的大致图像：等比例坐标轴、三个零点及两处极小值](batch/patches/authored-assets/bx1-chapter-end-5-t-2-graph.svg)\n\n任取 $x_1<x_2$，有\n$$f(x_2)-f(x_1)=(x_2-x_1)(x_1+x_2)(x_1^2+x_2^2-2).$$\n若 $x_1<x_2\\le-1$，后两因子分别为负、正，差值小于 $0$；若 $-1\\le x_1<x_2\\le0$，后两因子均为负，差值大于 $0$；若 $0\\le x_1<x_2\\le1$，后两因子分别为正、负，差值小于 $0$；若 $1\\le x_1<x_2$，后两因子均为正，差值大于 $0$。端点情形因 $x_1<x_2$ 仍保持严格结论。\n\n因此，函数在 $(-\\infty,-1]$ 上严格递减，在 $[-1,0]$ 上严格递增，在 $[0,1]$ 上严格递减，在 $[1,+\\infty)$ 上严格递增。",
+      "derivation_and_method_note": "不用导数；先给对称性和关键点，再以函数值差因式分解证明四段单调性。",
+      "self_check": "已用原式 f(x)=(x²−1)²−1 核验图上零点 −√2、0、√2 和极小值点 (−1,−1)、(1,−1)；等比例坐标每单位均为100px，偶对称、W形与四段单调性一致。图像已插入候选答案，未修改原题/来源哈希。已完成 Chrome 离线视觉抽查，待独立复核。",
+      "answer_markdown_sha256": "2d9270e665643f6a4e7a0a67b80dd6b0d91e2dcdf470c6c2dd906aa06e0423a8",
+      "authored_assets": [
+        {
+          "path": "batch/patches/authored-assets/bx1-chapter-end-5-t-2-graph.svg",
+          "relative_path": "batch/patches/authored-assets/bx1-chapter-end-5-t-2-graph.svg",
+          "sha256": "2d01d2d4d348898ee90aa40e6f72bff1b1b31d64a3f83f44275aa5001080233f",
+          "kind": "accurate-svg-graph",
+          "function": "(x^2-1)^2-1",
+          "x_unit_px": 100,
+          "y_unit_px": 100,
+          "key_points": [
+            [
+              -1.4142135623730951,
+              0
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              -1
+            ],
+            [
+              1.4142135623730951,
+              0
+            ]
+          ],
+          "viewBox": [
+            0,
+            0,
+            640,
+            620
+          ],
+          "visual_check": "Chrome 离线渲染并抽看：轴比例相同、曲线与标注完整，根标注移至曲线外侧防止相交。"
+        }
+      ]
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-3",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 3",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1343,
+            "end": 1349
+          }
+        ],
+        "question_markdown_sha256": "a948e3d0db62706c938b7d68d370933f24a16a60e0542fbc9ecc4ba336ed0e54"
+      },
+      "question_markdown": "3. 已知函数 $y = f(x)$ 为偶函数，$y = g(x)$ 为奇函数，且 $f(x) + g(x) = x^2 + 2|x - 1| + 3$。求 $y = f(x)$ 及 $y = g(x)$ 的表达式。\n\n*4. 设函数 $y = f(x), x \\in \\mathbf{R}$ 的反函数是 $y = f^{-1}(x)$。\n\n(1) 如果 $y = f(x)$ 是奇函数，那么 $y = f^{-1}(x)$ 的奇偶性如何？\n\n(2) 如果 $y = f(x)$ 在定义域上是严格增函数，那么 $y = f^{-1}(x)$ 的单调性如何？",
+      "answer_status": "newly-authored",
+      "answer_origin": "Newly authored solution; not transcribed from the official teacher's answer.",
+      "answer": "设 $H(x)=x^2+2|x-1|+3$。将 $x$ 换成 $-x$，由 $f$ 偶、$g$ 奇得 $f(x)-g(x)=H(-x)=x^2+2|x+1|+3$。与原等式相加、相减得\n$$f(x)=x^2+3+|x-1|+|x+1|,\\qquad g(x)=|x-1|-|x+1|.$$\n故\n$$f(x)=\\begin{cases}x^2-2x+3,&x\\le-1,\\\\x^2+5,&-1\\le x\\le1,\\\\x^2+2x+3,&x\\ge1,\\end{cases}\\quad g(x)=\\begin{cases}2,&x\\le-1,\\\\-2x,&-1\\le x\\le1,\\\\-2,&x\\ge1.\\end{cases}$$\n\n原题块还包括第 (4) 题：\n\n(1) $f$ 有反函数，故可逆。若 $y=f(x)$，则由 $f$ 为奇函数有 $-y=f(-x)$，从而 $f^{-1}(-y)=-x=-f^{-1}(y)$。又 $f$ 的值域关于原点对称，因此反函数的定义域关于原点对称，$f^{-1}$ 为奇函数。\n\n(2) 设 $y_1<y_2$ 属于反函数的定义域，令 $x_i=f^{-1}(y_i)$。若 $x_1\\ge x_2$，由 $f$ 严格递增得 $y_1=f(x_1)\\ge f(x_2)=y_2$，矛盾。因此 $x_1<x_2$，即 $f^{-1}(y_1)<f^{-1}(y_2)$，反函数严格递增。",
+      "derivation_and_method_note": "偶奇分解以 H(x)、H(-x) 联立；同一题块的第4题也完整作答并按定义证明。",
+      "self_check": "已按题意复核定义域、符号、等号端点及最终结论；逐步验证见推导。"
+    }
+  ]
+}

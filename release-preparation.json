@@ -1,0 +1,20 @@
+{
+  "excluded_files": 1523,
+  "excluded_bytes": 216875577,
+  "bundled_source_files": 750,
+  "relocated_text_files": 374,
+  "repackaged_modules": [
+    "arithmetic-reverse-pairs/1.0.1",
+    "dihedral-normal-section/1.0.1",
+    "geometric-shift-cancel/1.0.1",
+    "hemisphere-cavalieri/1.0.1",
+    "prism-cavalieri/1.0.1",
+    "pyramid-parallel-slices/1.0.1",
+    "revolving-generator/1.0.1",
+    "skew-common-perpendicular/1.0.1",
+    "space-basis-collapse/1.0.1",
+    "sphere-moving-section/1.0.1",
+    "sqrt2-iteration-compare/1.0.1",
+    "two-directions-normal/1.0.1"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "controls": [
+    {
+      "key": "base",
+      "label": "底数 a",
+      "options": [
+        {
+          "label": "1/2",
+          "value": "0.5"
+        },
+        {
+          "label": "0.8",
+          "value": "0.8"
+        },
+        {
+          "label": "1.25",
+          "value": "1.25"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "t",
+      "label": "指数自变量 t",
+      "max": 2,
+      "min": -2,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>a</mi><mi>t</mi></msup><mo>⇔</mo><mi>t</mi><mo>=</mo><msub><mi>log</mi><mi>a</mi></msub><mi>y</mi><mo>;</mo><mspace width=\"1em\"/><msub><mi>log</mi><mrow><mn>1</mn><mo>/</mo><mi>a</mi></mrow></msub><mi>x</mi><mo>=</mo><mo>−</mo><msub><mi>log</mi><mi>a</mi></msub><mi>x</mi></mrow></math>",
+  "goal": "联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。",
+  "id": "logarithm-reflection",
+  "initial": {
+    "base": "2",
+    "t": 1
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx1-4-3-b12",
+      "rationale": "覆盖本节原prose第12块：联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx1-4-3"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "对数函数仅在 x>0 有定义，值域为全体实数，过 (1,0)，趋近 y 轴而不相交。a>1 时严格增，x>1 为正而 0<x<1 为负；0<a<1 时上述结论反向。相同底数的指数与对数交换横纵坐标，关于 y=x 对称；底数互为倒数的对数图像则关于 x 轴对称。",
+  "title": "指数和对数：交换坐标为何改变定义域"
+}

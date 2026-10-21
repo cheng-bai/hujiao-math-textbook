@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-11-4",
+  "book_id": "bx3",
+  "section": "11.4",
+  "title": "球",
+  "section_json": "batch/sections/bx3/bx3-11-4.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-11-4",
+  "fingerprint": "5bfae012f004a104436fc66e4b4080d7689570aca185b2a756aeda6c65b4decf",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-525412f2910bf40be566.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_25_584_614_882_237_0.jpg",
+      "sha256": "525412f2910bf40be566c143282489fd0dfe65fe9d2f9c6189f491184effcf78",
+      "private": false
+    },
+    "images/book-f9bd2133ab31a9b9f609.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_25_228_1138_239_239_0.jpg",
+      "sha256": "f9bd2133ab31a9b9f609b988d9357d11350bb42213927698811339b1c8867230",
+      "private": false
+    },
+    "images/book-b892a5f88a6da879aa56.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_26_1106_229_391_288_0.jpg",
+      "sha256": "b892a5f88a6da879aa56d43c9fa49b388e60aba3d57cc9d139ec7f1c9d6b0ee0",
+      "private": false
+    },
+    "images/book-e5b617dd014238868605.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_26_1170_700_262_287_0.jpg",
+      "sha256": "e5b617dd01423886860572d2bc8198356266fa28885a6f5e02a1782423af739d",
+      "private": false
+    },
+    "images/private-9394d1fa9df3df567647.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_26_1123_1692_359_368_0.jpg",
+      "sha256": "9394d1fa9df3df567647e58d194a18adacc8760745ca0639fd26d642fec5b68f",
+      "private": true
+    },
+    "images/book-6b53e1c2d2da1d2c3f3f.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_27_587_1391_867_292_0.jpg",
+      "sha256": "6b53e1c2d2da1d2c3f3f4e570d617946f2b97587cd4bb172e03681c0731f1a22",
+      "private": false
+    },
+    "images/book-bc1b953592a558a016da.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_28_417_1700_417_310_0.jpg",
+      "sha256": "bc1b953592a558a016dacc2065a2cb232e9950a1e29730f8a792e6c6ec1fa36a",
+      "private": false
+    },
+    "images/book-f995b0a15503b774e7b1.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_29_247_958_201_298_0.jpg",
+      "sha256": "f995b0a15503b774e7b143d2a90ac2d2c57acb5992cb4ff8fbaf3fbc493a409d",
+      "private": false
+    },
+    "images/book-d14ccee33a6671d8e84c.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_29_1311_1764_191_292_0.jpg",
+      "sha256": "d14ccee33a6671d8e84c223ec848e448e5e27fe7fac6d80e66c4eafc36ac224f",
+      "private": false
+    },
+    "images/book-0d848924d92f1dd4c9a6.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_30_508_1501_153_323_0.jpg",
+      "sha256": "0d848924d92f1dd4c9a6c0cec6a8d9770d871f8d600be533052ef6ef35c11c79",
+      "private": false
+    },
+    "images/book-36b6b4f2aed69e8c7ece.jpg": {
+      "source": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_30_882_1526_298_298_0.jpg",
+      "sha256": "36b6b4f2aed69e8c7ece188a759a4d0fbeddaa09e0178995823afa94fe3609cc",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第11章简单几何体/第11章简单几何体-dollar.md": "268a4581ca5499213f7bbf90834bf8e1ceeea48cbd4617117c5183cdfc176c11",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/02 必修第三册 第11章 简单几何体.md": "9f1e87e71724cb3ace7ce926a3ad38f0bd0e78362567b251a95634005b3251dc"
+  },
+  "student_images": [
+    "images/book-0d848924d92f1dd4c9a6.jpg",
+    "images/book-36b6b4f2aed69e8c7ece.jpg",
+    "images/book-525412f2910bf40be566.jpg",
+    "images/book-6b53e1c2d2da1d2c3f3f.jpg",
+    "images/book-b892a5f88a6da879aa56.jpg",
+    "images/book-bc1b953592a558a016da.jpg",
+    "images/book-d14ccee33a6671d8e84c.jpg",
+    "images/book-e5b617dd014238868605.jpg",
+    "images/book-f995b0a15503b774e7b1.jpg",
+    "images/book-f9bd2133ab31a9b9f609.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "72ee7c6c65eb85a148817284f46bd462ced49f37bb3dfded8f416a7f1710a117",
+    "student.html": "f700afbbe6103248cd0ae09e95d148ea365e40f0e20ee80370d30abaef7ff916",
+    "student.zip": "4dc71e451d132f97c4d85cdd20dff0ba189a3357fbfca76857428b1479a36003",
+    "content.json": "a2829c5a75b2840912dda71f34e0fad02fbb9e8c2b56a1f3ad9d7767bbd5d4f3"
+  }
+}

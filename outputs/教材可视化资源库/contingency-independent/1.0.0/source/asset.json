@@ -1,0 +1,46 @@
+{
+  "controls": [
+    {
+      "key": "row",
+      "label": "行边际比例",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "col",
+      "label": "列边际比例",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "total",
+      "label": "总样本数 n",
+      "max": 200,
+      "min": 20,
+      "step": 20,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>E</mi><mi>ij</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>R</mi><mi>i</mi></msub><msub><mi>C</mi><mi>j</mi></msub></mrow><mi>n</mi></mfrac></math>",
+  "goal": "调节边际分布，看到独立假设下每个格子的期望频数。",
+  "id": "contingency-independent",
+  "initial": {
+    "col": 0.6,
+    "row": 0.4,
+    "total": 100
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-8-3-b2",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+      "retainProse": true,
+      "sectionId": "x2-8-3"
+    }
+  ],
+  "summary": "在独立假设下，每格期望比例等于对应行与列边际比例之积，期望频数再乘总数 n。面积格图显示边际比例怎样决定期望值；期望频数允许非整数，且不等于观察频数。完整独立性检验还需观察值、检验统计量、适用条件和错误风险，不从检验结论推出因果。",
+  "title": "独立假设下的期望频数"
+}

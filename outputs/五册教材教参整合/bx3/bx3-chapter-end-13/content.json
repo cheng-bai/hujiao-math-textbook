@@ -1,0 +1,526 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1249,
+        "end": 1249
+      }
+    ],
+    "id": "bx3-chapter-end-13",
+    "number": "chapter-end-13",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 在统计问题中，研究对象的全体叫做总体，总体中的每一个对象叫做个体，从总体中抽取的一部分个体叫做这个总体的一个样本，样本所包含个体的数量称为样本容量.\n\n2. 抽样调查是获取数据的一种重要方式，常用的抽样方法有简单随机抽样、分层随机抽样等.\n\n3. 除了初中学习的扇形图、折线图、频数分布直方图外，还有以下几种统计图表:\n\n(1)频率分布表和频率分布直方图:可用于表示数据在不同区间上的分布情况；\n\n(2)茎叶图:通常在数据量不大的情况下使用，其特点是保留了数据的原始信息；\n\n(3)散点图:可以考察两组数据的变化趋势.\n\n4. 统计估计是指利用样本数据来对总体的信息进行估计，包括估计总体的分布和数字特征(平均数、标准差、百分位数等).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1250,
+        "end": 1264
+      }
+    ],
+    "id": "bx3-chapter-end-13-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1265,
+        "end": 1265
+      }
+    ],
+    "id": "bx3-chapter-end-13-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1267,
+        "end": 1267
+      }
+    ],
+    "id": "bx3-chapter-end-13-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 某高校研究人员希望调查该校大学生平均每天的自习时间. 他调查了 100 名大学生,发现他们每天的平均自习时间是 ${3.5}\\mathrm{\\;h}$ . 这里的总体是 ( )\n\nA. 该校的所有大学生;\n\nB. 该校所有大学生的平均每天自习时间；\n\nC. 所调查的 100 名大学生;\n\nD. 所调查的 100 名大学生的平均每天自习时间.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1269,
+        "end": 1278
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1269,
+        "end": 1278
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-1",
+    "category": "复习题A",
+    "answer": "1. B.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 688,
+        "end": 689
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 某家大型超市的日客流量(单位:千人次)分别为:3.4、3.6、5.6、1.8、3.7、4.0、 2.5、2.8、4.4、3.6. 下列图形中不利于描述这些数据的是 ( )\n\nA. 散点图； B. 条形图;\n\nC. 茎叶图; D. 扇形图.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1279,
+        "end": 1284
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1279,
+        "end": 1284
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-2",
+    "category": "复习题A",
+    "answer": "2. A.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 690,
+        "end": 691
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 某汽车销售商销售某品牌的 A、B、C 三类轿车, 每类轿车均有舒适型和经济型两种型号, 其某月的销量(单位: 辆)如下表所示.\n\n<table><tr><td></td><td>A</td><td>B</td><td>C</td></tr><tr><td>舒适型/辆</td><td>35</td><td>28</td><td>15</td></tr><tr><td>经济型/辆</td><td>50</td><td>72</td><td>40</td></tr></table>\n\n试设计一个抽样方案, 从该月购买轿车的客户中抽取 20 位, 调查他们的满意度.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1285,
+        "end": 1290
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1285,
+        "end": 1290
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-3",
+    "category": "复习题A",
+    "answer": "3. 应采用分层随机抽样, 共分为 6 层: A 类舒适型、A 类经济型、B 类舒适型、 B 类经济型、C 类舒适型、C 类经济型, 总体容量为\n\n$$\n{35} + {50} + {28} + {72} + {15} + {40} = {240}.\n$$\n\n故每层应抽取的样本量为\n\n$$\n{35} \\times  \\frac{20}{240} \\approx  {2.92};\n$$\n\n$$\n\\begin{gather} {50} \\times  \\frac{20}{240} \\approx  {4.17} \\\\ {28} \\times  \\frac{20}{240} \\approx  {2.33} \\\\ {72} \\times  \\frac{20}{240} = 6; \\\\ {15} \\times  \\frac{20}{240} = {1.25}; \\\\ {40} \\times  \\frac{20}{240} \\approx  {3.33}. \\end{gather}\n$$\n\nA 类舒适型、A 类经济型、B 类舒适型、B 类经济型、C 类舒适型、C 类经济型的轿车不妨应抽取量:3、4、2、6、1、4.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 692,
+        "end": 709
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 某校 30 名高一女生的扔手球记录如下 (单位: $\\mathrm{m}$ ):\n\n<table><tr><td>16.3</td><td>13.2</td><td>17.7</td><td>14.3</td><td>16.4</td><td>19.8</td><td>13.5</td><td>14.5</td><td>11.7</td><td>14.1</td></tr><tr><td>14.8</td><td>17.2</td><td>13.8</td><td>15.4</td><td>16.3</td><td>15.7</td><td>18.5</td><td>16.8</td><td>17.9</td><td>15.9</td></tr><tr><td>17.6</td><td>15.4</td><td>16.8</td><td>21.4</td><td>16.5</td><td>18.1</td><td>16.0</td><td>20.3</td><td>16.6</td><td>19.5</td></tr></table>\n\n(1)选择适当的组距，制作一张频率分布表;\n\n(2)在(1)的基础上，绘制一幅频率分布直方图.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1291,
+        "end": 1298
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1291,
+        "end": 1298
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-4",
+    "category": "复习题A",
+    "answer": "4. 这组数据最小值为 11.7, 最大值为 21.4, 极差为 9.7. 取组距为 2, 可制作频率分布表如下:\n\n<table><tr><td>分组</td><td>频数</td><td>频率</td></tr><tr><td>[11.7,13.7)</td><td>3</td><td>0.1</td></tr><tr><td>[13.7,15.7)</td><td>7</td><td>0.23</td></tr><tr><td>[15.7,17.7)</td><td>12</td><td>0.4</td></tr><tr><td>[17.7,19.7)</td><td>5</td><td>0.17</td></tr><tr><td>[19.7,21.7)</td><td>3</td><td>0.1</td></tr></table>\n\n绘制频率分布直方图如下:\n\n![bo_d402s6jef24c73d2tl40_126_426_1526_819_460_0.jpg](images/private-e824f6107c3331c1a80c.jpg)\n\n图 13-R8",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 710,
+        "end": 719
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 某公司对应聘人员进行能力测试，测试成绩总分为 150 分，下面是 50 位应聘人员的测试成绩:\n\n<table><tr><td>64</td><td>67</td><td>70</td><td>72</td><td>74</td><td>76</td><td>76</td><td>79</td><td>80</td><td>81</td></tr><tr><td>82</td><td>82</td><td>83</td><td>85</td><td>86</td><td>88</td><td>91</td><td>91</td><td>92</td><td>93</td></tr><tr><td>93</td><td>93</td><td>95</td><td>96</td><td>96</td><td>97</td><td>97</td><td>99</td><td>100</td><td>100</td></tr><tr><td>102</td><td>104</td><td>106</td><td>106</td><td>107</td><td>108</td><td>108</td><td>112</td><td>112</td><td>114</td></tr><tr><td>116</td><td>118</td><td>119</td><td>119</td><td>122</td><td>123</td><td>125</td><td>126</td><td>128</td><td>133</td></tr></table>\n\n试用这些数据绘制一幅茎叶图.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1299,
+        "end": 1304
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1299,
+        "end": 1304
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-5",
+    "category": "复习题A",
+    "answer": "5. 绘制茎叶图如下:\n\n![bo_d402s6jef24c73d2tl40_127_604_281_298_261_0.jpg](images/private-80a4c79304fc2e659000.jpg)\n\n图 13-R9",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 720,
+        "end": 725
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 某超市从一家食品有限公司购进一批茶叶,每罐茶叶的标准质量是 ${125}\\mathrm{\\;g}$ ,为了解该批茶叶的质量情况, 从中随机抽取 20 罐, 称得各罐质量 (单位: g) 如下:\n\n<table><tr><td>124.9</td><td>124.7</td><td>126.2</td><td>124.9</td><td>124.2</td><td>124.9</td><td>123.7</td></tr><tr><td>121.4</td><td>126.4</td><td>127.7</td><td>121.9</td><td>124.4</td><td>125.2</td><td>123.7</td></tr><tr><td>122.7</td><td>124.2</td><td>126.2</td><td>125.2</td><td>122.2</td><td>125.4</td><td></td></tr></table>\n\n回答下列问题:\n\n(1)20 罐茶叶的平均质量 $\\bar{x}$ 是多少，标准差 $s$ 是多少？\n\n(2)有多少罐茶叶的质量位于 $\\bar{x} - s$ 与 $\\bar{x} + s$ 之间,所占的百分比是多少?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1305,
+        "end": 1314
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1305,
+        "end": 1314
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-6",
+    "category": "复习题A",
+    "answer": "6. (1) $\\overline{x} \\approx  {124.51}$ , $s \\approx  {1.55}$ .\n\n(2) $\\overline{x} - s = {122.96}$ , $\\overline{x} + s = {126.06}$ ,质量位于 ${122.96}\\mathrm{g}$ 和 ${126.06}\\mathrm{g}$ 的茶叶共有 12 罐,所占百分比为 $\\frac{12}{20} = {60}\\%$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 726,
+        "end": 729
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 数据 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{n}$ 的方差为 ${s}_{x}^{2}$ ,数据 ${y}_{1}\\text{ 、 }{y}_{2}\\text{ 、 }\\cdots \\text{ 、 }{y}_{n}$ 的方差为 ${s}_{y}^{2}$ ,若 ${y}_{1} = \\; a{x}_{1} + b,{y}_{2} = a{x}_{2} + b,\\cdots ,{y}_{n} = a{x}_{n} + b$ 成立, $a\\text{ 、 }b$ 为常数,求证: ${s}_{y}^{2} = {a}^{2}{s}_{x}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1315,
+        "end": 1316
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1315,
+        "end": 1316
+      }
+    ],
+    "id": "bx3-chapter-end-13-hA-7",
+    "category": "复习题A",
+    "answer": "7. 设数据 ${x}_{1},{x}_{2},\\cdots ,{x}_{n}$ 的平均数为 $\\bar{x}$ ,数据 ${y}_{1},{y}_{2},\\cdots ,{y}_{n}$ 的平均数为 $\\bar{y}$ , 可得\n\n$$\n\\bar{y} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}\\left( {a{x}_{i} + b}\\right)  = \\frac{1}{n}\\left( {\\mathop{\\sum }\\limits_{{i = 1}}^{n}a{x}_{i} + {nb}}\\right)  = a \\cdot  \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}a{x}_{i} + b = a\\bar{x} + b,\n$$\n\n于是\n\n$$\n{s}_{y}^{2} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{\\left\\lbrack  a{x}_{i} + b - \\left( a\\bar{x} + b\\right) \\right\\rbrack  }^{2} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{\\left( a{x}_{i} - a\\bar{x}\\right) }^{2} = {a}^{2} \\cdot  \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{\\left( {x}_{i} - \\bar{x}\\right) }^{2} = {a}^{2}{s}_{x}^{2}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 730,
+        "end": 741
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1317,
+        "end": 1317
+      }
+    ],
+    "id": "bx3-chapter-end-13-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 下表是上海市 2007 年至 2016 年的月平均气温(单位:℃).\n\n<table id=\"cross-table-4\"><tr><td>年份</td><td>1月</td><td>2 月</td><td>3 月</td><td>4 月</td><td>5 月</td><td>6 月</td><td>7 月</td><td>8 月</td><td>9 月</td><td>10 月</td><td>11 月</td><td>12 月</td></tr><tr><td>2007</td><td>5.9</td><td>9.8</td><td>12.1</td><td>15.9</td><td>22.9</td><td>25</td><td>30.4</td><td>29.7</td><td>25.4</td><td>20.6</td><td>14.2</td><td>9.8</td></tr><tr><td>2008</td><td>4.5</td><td>4.2</td><td>11.6</td><td>16.1</td><td>21.8</td><td>24.2</td><td>30.4</td><td>28.6</td><td>26</td><td>21</td><td>13.3</td><td>7.9</td></tr><tr><td>2009</td><td>4.3</td><td>9.3</td><td>10.8</td><td>16.7</td><td>22.5</td><td>26.3</td><td>29</td><td>28.1</td><td>25.4</td><td>21.4</td><td>12.4</td><td>6.9</td></tr><tr><td>2010</td><td>5.7</td><td>7.7</td><td>9.6</td><td>13.3</td><td>20.9</td><td>24.1</td><td>28.8</td><td>30.9</td><td>26.2</td><td>19.3</td><td>14.2</td><td>8.1</td></tr><tr><td>2011</td><td>1.9</td><td>6.5</td><td>9.5</td><td>16.2</td><td>21.9</td><td>24.4</td><td>30.2</td><td>28.3</td><td>24.7</td><td>19.3</td><td>16.7</td><td>6.9</td></tr><tr><td>2012</td><td>5.1</td><td>4.8</td><td>9.8</td><td>17.6</td><td>21.6</td><td>24.7</td><td>29.9</td><td>29</td><td>23.9</td><td>20.1</td><td>12.6</td><td>6.6</td></tr><tr><td>2013</td><td>4.6</td><td>6.8</td><td>11</td><td>15.3</td><td>21.3</td><td>24.1</td><td>32</td><td>31</td><td>25</td><td>20</td><td>13.4</td><td>6.1</td></tr><tr><td>2014</td><td>6.6</td><td>6.1</td><td>11.5</td><td>15.7</td><td>21.7</td><td>23.3</td><td>27.4</td><td>26.3</td><td>24.2</td><td>20.2</td><td>14.8</td><td>5.7</td></tr><tr></tr><tr><td>2015</td><td>6</td><td>6.8</td><td>10.6</td><td>15.9</td><td>20.5</td><td>24.2</td><td>26.7</td><td>27.8</td><td>24.2</td><td>19.6</td><td>14</td><td>7.8</td></tr><tr><td>2016</td><td>4.4</td><td>6.9</td><td>11</td><td>16.7</td><td>20.6</td><td>24.2</td><td>29.9</td><td>29.5</td><td>24.9</td><td>20.8</td><td>13.6</td><td>9.1</td></tr></table>\n\n数据来源: 上海统计年鉴.\n\n回答下列问题:\n\n(1)10 年中每年最冷的月份相同吗？\n\n(2)10 年中哪个月份的气温波动最大？\n\n(3)10 年中哪一年的气温波动最大？\n\n(4)绘制 10 年中 7 月份与 8 月份气温的折线图，比较气温的高低.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1319,
+        "end": 1334
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1319,
+        "end": 1334
+      }
+    ],
+    "id": "bx3-chapter-end-13-hB-1",
+    "category": "复习题B",
+    "answer": "1.(1)找出每一年的 12 个月份的月平均气温的极小值:\n\n<table><tr><td>年份</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td></tr><tr><td>气温极小值月份</td><td>1月</td><td>2月</td><td>1月</td><td>1 月</td><td>1 月</td><td>2月</td><td>1月</td><td>12 月</td><td>1月</td><td>1月</td></tr><tr><td>气温极小值</td><td>5.9</td><td>4.2</td><td>4.3</td><td>5.7</td><td>1.9</td><td>4.8</td><td>4.6</td><td>5.7</td><td>6</td><td>4.4</td></tr></table>\n\n由上表可知, 10 年中每年最冷的月份并不相同.\n\n(2)气温的波动用极差来衡量,我们可以计算 2007 年到 2016 年这 10 年间 1 到 12 月份的月平均气温的极差分别为:\n\n<table><tr><td>月份</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>极差</td><td>4.7</td><td>5.6</td><td>2.6</td><td>4.3</td><td>2.4</td><td>3</td><td>5.3</td><td>4.7</td><td>2.3</td><td>2.1</td><td>4.3</td><td>4.1</td></tr></table>\n\n由上表可知, 2 月份的极差最大, 所以说 10 年中 2 月份的气温波动最大.\n\n(3)我们可以计算 2007 年到 2016 年这 10 年间每一年的月平均气温的极差分别为:\n\n<table><tr><td>年份</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td></tr><tr><td>极差</td><td>24.5</td><td>26.2</td><td>24.7</td><td>25.2</td><td>28.3</td><td>25.1</td><td>27.4</td><td>21.7</td><td>21.8</td><td>25.5</td></tr></table>\n\n由上表可知, 2011 年的月平均气温的极差最大, 所以说 10 年中 2011 年的气温波动最大.\n\n(4)10 年中 7 月份和 8 月份月平均气温的折线图如下:\n\n![bo_d402s6jef24c73d2tl40_128_416_549_810_402_0.jpg](images/private-9ca5e024ab018f4a7795.jpg)\n\n图 13-R10\n\n从折线图上看, 在不同的年份 7 月份和 8 月份的气温有高有低, 但是整体看 7 月份(蓝色折线)的气温略高于 8 月份(橘色折线). 通过计算十年间 7 月份和 8 月份的月平均气温的平均值分别为 ${29.47}^{ \\circ  }\\mathrm{C}$ 和 ${28.92}^{ \\circ  }\\mathrm{C}$ ,可见确实 7 月份的月平均气温高于 8 月份.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 744,
+        "end": 769
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 某高校数学专业共有 850 名学生, 从中选取 20 名学生参加学生代表大会. 试写出具体抽样方案.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1335,
+        "end": 1336
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1335,
+        "end": 1336
+      }
+    ],
+    "id": "bx3-chapter-end-13-hB-2",
+    "category": "复习题B",
+    "answer": "2. 提示: 可以采用分层随机抽样, 分层可考虑年级、性别等因素.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 770,
+        "end": 771
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 某校高一年级学生进行了 4 次测验, 成绩(单位:分) 如下表所示. 根据 4 次测验的结果, 我们如何比较这 10 名学生的成绩? 下周有一场数学竞赛活动, 如果需要 1 名学生参赛, 那么推荐谁去最好? 如果需要 4 名学生参赛, 那么又该推荐谁去?\n\n<table><tr><td>学生编号</td><td>第 1 次</td><td>第 2 次</td><td>第 3 次</td><td>第 4 次</td></tr><tr><td>1</td><td>90</td><td>82</td><td>97</td><td>100</td></tr><tr><td>2</td><td>103</td><td>86</td><td>101</td><td>92</td></tr><tr><td>3</td><td>77</td><td>83</td><td>106</td><td>87</td></tr><tr><td>4</td><td>94</td><td>93</td><td>99</td><td>99</td></tr><tr><td>5</td><td>89</td><td>97</td><td>93</td><td>90</td></tr><tr><td>6</td><td>101</td><td>79</td><td>87</td><td>95</td></tr><tr><td>7</td><td>91</td><td>92</td><td>91</td><td>93</td></tr><tr><td>8</td><td>82</td><td>94</td><td>100</td><td>106</td></tr><tr><td>9</td><td>88</td><td>78</td><td>95</td><td>78</td></tr><tr><td>10</td><td>83</td><td>88</td><td>104</td><td>89</td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1337,
+        "end": 1340
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1337,
+        "end": 1340
+      }
+    ],
+    "id": "bx3-chapter-end-13-hB-3",
+    "category": "复习题B",
+    "answer": "3. 可以计算这 10 名同学的四次成绩的均值和标准差, 并按照平均值从大到小进行排序:\n\n<table><tr><td>学生编号</td><td>平均值</td><td>标准差</td></tr><tr><td>4</td><td>96.3</td><td>2.8</td></tr><tr><td>2</td><td>95.5</td><td>6.9</td></tr><tr><td>8</td><td>95.5</td><td>8.9</td></tr><tr><td>1</td><td>92.3</td><td>6.9</td></tr><tr><td>5</td><td>92.3</td><td>3.1</td></tr><tr><td>7</td><td>91.8</td><td>0.8</td></tr><tr><td>10</td><td>91</td><td>7.8</td></tr><tr><td>6</td><td>90.5</td><td>8.3</td></tr><tr><td>3</td><td>88.3</td><td>10.8</td></tr><tr><td>9</td><td>84.8</td><td>7.2</td></tr></table>\n\n我们从上表中可以看出 4 号同学的四次测验成绩的均值最大, 标准差也不大, 所以如果只推荐一位同学参加比赛, 那么可以推荐 4 号同学. 而如果需要 4 名同学参加比赛, 从平均值来看, 1 号和 5 号的平均值相同, 但是 5 号的标准差较小, 成绩相对较为稳定, 所以可以推荐 4 号、2 号、8 号和 5 号同学参赛.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 772,
+        "end": 777
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 某客服部门计划根据员工每个月接通的电话数给予奖金奖励，并且要保证 50% 的员工能拿到基本奖励，拿到基本奖励的员工中至多 10% 的人能够拿到额外奖励. 该部门随机抽取了 30 名员工，调查了他们上半个月与客户的通话数量，数据如下:\n\n<table><tr><td>1344</td><td>1428</td><td>1083</td><td>1239</td><td>1381</td><td>1099</td><td>1607</td><td>1041</td><td>1130</td><td>1610</td></tr><tr><td>1445</td><td>921</td><td>931</td><td>1100</td><td>1197</td><td>1282</td><td>1549</td><td>1463</td><td>901</td><td>1354</td></tr><tr><td>1378</td><td>1752</td><td>1032</td><td>968</td><td>902</td><td>1804</td><td>1051</td><td>1319</td><td>1223</td><td>1124</td></tr></table>\n\n请利用百分位数来为该部门设计奖励方案.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1341,
+        "end": 1346
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1341,
+        "end": 1346
+      }
+    ],
+    "id": "bx3-chapter-end-13-hB-4",
+    "category": "复习题B",
+    "answer": "4. 要保证 50% 的员工能拿到基本奖励,拿到基本奖励的员工中至多 10% 的人能够拿到额外奖励, 则需要知道该客服部门员工通话数量的第 50 百分位数和第 90 百分位数. 现有随机抽取的 30 名员工的通话数量, 先算出该样本的第 50 百分位数和第 90 百分位数.\n\n对样本从小到大进行排序:\n\n$\\begin{array}{llllllllll} {901} & {902} & {921} & {931} & {968} & {1032} & {1041} & {1051} & {1083} & {1099} \\end{array}$\n\n110011241130 1197 1223 1239 1282 1319 1344 1354\n\n1378 1381 1428 1445 1463 1549 1607 1610 1752 1804\n\n由 ${30} \\times  {50}\\%  = {15}$ ,得第 50 百分位数为有序样本中第 15 个数 1223 和第 16 个数 1239 的平均数,为 1226 . 由 ${30} \\times  {90}\\%  = {27}$ ,得第 90 百分位数为有序样本中第 27 个数 1607 和第 28 个数 1610 的平均数, 为 1608.5 , 为便于操作, 我们取 1609 . 由于样本是随机抽取的, 我们可以估计该客服部门员工通话数量的第 50 百分位数和第 90 百分位数分别为 1226 和 1609 . 我们可以规定奖励方案如下:每个月与客户通话数量高于 1226 的员工可以拿到基本奖励; 每个月与客户通话数量高于 1609 的员工还可以拿到额外奖励.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 778,
+        "end": 789
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "## 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1347,
+        "end": 1347
+      }
+    ],
+    "id": "bx3-chapter-end-13-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "统计学与流行病的预防",
+    "markdown": "## 统计学与流行病的预防",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1349,
+        "end": 1349
+      }
+    ],
+    "id": "bx3-chapter-end-13-b17",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "统计学是一门应用学科，在服务于解决现实问题的同时，也促进了自身的发展. 在对抗霍乱的斗争中，人们通过统计学了解了疾病如何在人群和地区之间传播，使得流行病学取得了重大突破.\n\n霍乱是一种古老的、世界性的传染病，曾多次大规模地爆发. 当时流行的观点认为霍乱是经空气传播的, 但是约翰・斯诺(J. Snow)医师认为霍乱是经饮用水传播的. 为了证明自己是正确的，斯诺尽可能多地收集并分析过去霍乱爆发的信息，然而他的观点却遭到许多批评. 他意识到要想说服别人、挽救生命，就需要更多、更有说服力的数据.\n\n1854 年, 伦敦爆发霍乱, 10 天内夺去了 500 多人的生命. 斯诺用标点地图的方法研究了当地水井分布和霍乱患者分布之间的关系，发现在伦敦布劳德大街的一口水井供水范围内霍乱罹患率明显较高，并最终凭此线索找到该次霍乱爆发的源头:一个被污染的水泵. 然而, 斯诺推理出的霍乱与饮用水的统计关系却未能说服当时的权威人物. 后来, 这些权威人物勉强同意把水泵的把手卸掉，可那时霍乱实质上已经结束了.\n\n1866 年, 在第四次世界性霍乱爆发中, 伦敦也受到瘟疫的袭击. 当时有一位名叫威廉姆・法尔(W. Farr)的政府官员和统计学家，他熟悉约翰·斯诺关于霍乱传播机制的理论， 因此检查了当地的饮用水水源，发现当地供水公司使用的几个池塘已经被污染，于是他利用自己在政府的影响，组织这家公司从其他池塘取水. 疫情迅速结束. 这是统计学第一次使政府制止了一场传染病的传播.\n\n约翰・斯诺在有关事件中的工作被认为是流行病学的开端. 他研究的是疾病和饮用水水源之间的关系, 他的统计结论是霍乱是通过饮用水传播的, 但却不能解释霍乱是什么. 由此可知, 统计学研究擅长揭示事物之间的关系, 而不是解释事物本身.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1350,
+        "end": 1360
+      }
+    ],
+    "id": "bx3-chapter-end-13-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "附录",
+    "markdown": "## 附录",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1361,
+        "end": 1361
+      }
+    ],
+    "id": "bx3-chapter-end-13-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "随机数表",
+    "markdown": "## 随机数表",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1363,
+        "end": 1363
+      }
+    ],
+    "id": "bx3-chapter-end-13-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "<table><tr><td>59226000</td><td>49840128</td><td>66175168</td><td>39682927</td><td>43772366</td><td>27096623</td></tr><tr><td>92580956</td><td>43890890</td><td>46482834</td><td>59743458</td><td>29778149</td><td>64608925</td></tr><tr><td>91685307</td><td>17337298</td><td>29849526</td><td>37515923</td><td>03886191</td><td>14679054</td></tr><tr><td>49040040</td><td>36160806</td><td>55336993</td><td>30357068</td><td>45717397</td><td>18435701</td></tr><tr><td>17355239</td><td>47454753</td><td>01644305</td><td>44017425</td><td>26545229</td><td>10694745</td></tr><tr><td>93793904</td><td>20989216</td><td>04687617</td><td>29338350</td><td>26618921</td><td>64762526</td></tr><tr><td>39832776</td><td>39918535</td><td>32591131</td><td>40469235</td><td>04982212</td><td>20671263</td></tr><tr><td>62816846</td><td>05710346</td><td>57234293</td><td>18186926</td><td>04002237</td><td>63106244</td></tr><tr><td>47428458</td><td>84171044</td><td>10027759</td><td>66564387</td><td>46470075</td><td>06909727</td></tr><tr><td>80441606</td><td>15411242</td><td>70519846</td><td>39771512</td><td>53558695</td><td>43341615</td></tr><tr><td>72766166</td><td>96710610</td><td>82836180</td><td>87215656</td><td>79350966</td><td>62944853</td></tr><tr><td>41099393</td><td>28461623</td><td>46336299</td><td>80183929</td><td>76362103</td><td>01107346</td></tr><tr><td>81801784</td><td>01920938</td><td>92141312</td><td>20680683</td><td>25360563</td><td>82895100</td></tr><tr><td>69905310</td><td>65353900</td><td>57493311</td><td>31459391</td><td>21624304</td><td>38112455</td></tr><tr><td>59787917</td><td>95779114</td><td>11625733</td><td>77657169</td><td>01541345</td><td>82568365</td></tr><tr><td>75024229</td><td>11736617</td><td>63524669</td><td>80467176</td><td>44490095</td><td>43439111</td></tr><tr><td>50953656</td><td>45517057</td><td>71697014</td><td>14268802</td><td>00909885</td><td>02440992</td></tr><tr><td>45438420</td><td>22838556</td><td>58513683</td><td>42537733</td><td>36896297</td><td>14173518</td></tr><tr><td>88283497</td><td>13495564</td><td>60931706</td><td>78103530</td><td>12791687</td><td>18670716</td></tr><tr><td>59858423</td><td>56963372</td><td>93311792</td><td>52654671</td><td>93675422</td><td>54240310</td></tr><tr><td>35402548</td><td>26206052</td><td>79415738</td><td>27049431</td><td>22956827</td><td>24659231</td></tr><tr><td>81650727</td><td>50567781</td><td>44380924</td><td>96705937</td><td>28085550</td><td>48201683</td></tr><tr><td>97491830</td><td>29554465</td><td>09692932</td><td>46640378</td><td>96584415</td><td>76853466</td></tr><tr><td>19328695</td><td>68057304</td><td>18440085</td><td>80531471</td><td>04559480</td><td>61312472</td></tr><tr><td>83654814</td><td>33515828</td><td>72081768</td><td>39301395</td><td>73382204</td><td>62864708</td></tr><tr><td>23730036</td><td>83128893</td><td>06915888</td><td>11575032</td><td>32443830</td><td>15028558</td></tr><tr><td>21841022</td><td>40298849</td><td>34288275</td><td>43583753</td><td>89795190</td><td>05576701</td></tr><tr><td>09503674</td><td>09459742</td><td>80365675</td><td>24044018</td><td>51140183</td><td>93365031</td></tr><tr><td>22187831</td><td>37117105</td><td>03329104</td><td>85378509</td><td>61275118</td><td>31238207</td></tr><tr><td>45360022</td><td>03787150</td><td>30671289</td><td>05696497</td><td>21721212</td><td>07393401</td></tr><tr><td>16243872</td><td>07651410</td><td>24024160</td><td>08204650</td><td>95547235</td><td>75024259</td></tr><tr><td>33950051</td><td>40780663</td><td>53727573</td><td>58289968</td><td>21182191</td><td>38902726</td></tr><tr><td>80004221</td><td>10451800</td><td>87562775</td><td>61850029</td><td>00520223</td><td>91212898</td></tr><tr><td>99498653</td><td>66132909</td><td>46045108</td><td>29213428</td><td>47913888</td><td>98284202</td></tr><tr><td>52265912</td><td>78192281</td><td>75328224</td><td>37526839</td><td>70511454</td><td>39058676</td></tr><tr><td>57483470</td><td>84908759</td><td>43278083</td><td>30479696</td><td>68472456</td><td>08700563</td></tr><tr><td>72995400</td><td>99491703</td><td>21963886</td><td>69213938</td><td>30927014</td><td>19074667</td></tr><tr><td>75620520</td><td>40393927</td><td>73424446</td><td>32710498</td><td>99431490</td><td>93188160</td></tr><tr><td>24212509</td><td>69641196</td><td>24603122</td><td>54708123</td><td>88329881</td><td>90176457</td></tr><tr><td>37740024</td><td>84483003</td><td>86108195</td><td>99302536</td><td>78710561</td><td>66736716</td></tr><tr><td>30737119</td><td>31875443</td><td>91106808</td><td>45469269</td><td>09324297</td><td>35671898</td></tr><tr><td>07412122</td><td>31820088</td><td>71694552</td><td>88912618</td><td>85933858</td><td>57498645</td></tr><tr><td>55537748</td><td>47307193</td><td>44162744</td><td>35730046</td><td>35204714</td><td>31794878</td></tr><tr><td>50637513</td><td>68444728</td><td>05230553</td><td>19076435</td><td>68768912</td><td>90487194</td></tr><tr><td>77193349</td><td>31373649</td><td>19944649</td><td>80774718</td><td>26132115</td><td>19032160</td></tr><tr><td>90704894</td><td>99744927</td><td>73331642</td><td>24578121</td><td>90907615</td><td>25495469</td></tr><tr><td>57291537</td><td>25966686</td><td>40631857</td><td>69673562</td><td>88588804</td><td>20704169</td></tr><tr><td>11982254</td><td>01668184</td><td>27721819</td><td>09600397</td><td>42976310</td><td>94777888</td></tr><tr><td>99095642</td><td>15419077</td><td>87150597</td><td>18928524</td><td>55973643</td><td>70184445</td></tr><tr><td>95482772</td><td>48386040</td><td>65559303</td><td>91815865</td><td>88763922</td><td>98306095</td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1364,
+        "end": 1365
+      }
+    ],
+    "id": "bx3-chapter-end-13-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 戴维・穆尔,威廉·诺茨. 统计学的世界(第 8 版)[M]. 郑磊,译. 北京: 中信出版社,2017.\n\n### 后 记\n\n本套教学参考资料与李大潜、王建磐主编,出版的《普通高中教科书·数学》配套使用,本套教材根据中华人民共和国教育部制定并颁布实施的《普通高中数学课程标准(2017 年版 2020 年修订)》编制,并经国家教材委员会专家委员会审核通过.\n\n本套教材是由设在复旦大学和华东师范大学的两个上海市数学教育教学研究基地 (上海高校“立德树人”人文社会科学重点研究基地)联合主持编写的. 编写工作依据高中数学课程标准的具体要求,努力符合教育规律和高中学生的认知规律,结合上海城市发展定位和课程改革基础, 并力求充分体现特色. 希望我们的这一努力能经得起实践和时间的检验, 对扎实推进数学的基础教育发挥积极的作用.\n\n本书是与必修第三册教材配套的教学参考资料, 共为四章, 各章编写人员分别为阮晓明、杨家政(第 10 章)\n\n黄坪(第 11 章)\n\n应坚刚、田万国(第 12 章)\n\n陈月兰、汪家录(第 13 章)\n\n限于编写者的水平, 也由于新编教材尚缺乏教学实践的检验, 不妥及疏漏之处在所难免, 恳请广大师生及读者不吝赐教. 宝贵意见请通过邮箱 gaozhongshuxue@seph.com.cn 反馈, 不胜感激.\n\n2021 年 7 月\n\n图书在版编目 (CIP) 数据\n\n普通高中数学教学参考资料:必修. 第三册/上海市中小学 (幼儿园)课程改革委员会组织编写. 一 上海:, 2021.8(2023.6重印)\n\nISBN 978-7-5720-0848-1\n\nI. ①普... II. ①上··· III. ①中学数学课 - 高中 - 教学参考资料 IV. ①G634.603\n\n中国版本图书馆CIP数据核字(2021)第152875号",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 790,
+        "end": 822
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx3-chapter-end-13-b22",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-chapter-end-2",
+  "book_id": "bx1",
+  "section": "chapter-end-2",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx1/bx1-chapter-end-2.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-2",
+  "fingerprint": "fe0cf5de758c23433e3b1b67597dbd2f21b43d2984bc1c8b61206c03faf0d180",
+  "status": "rendered",
+  "questions": 28,
+  "answers": 28,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-d27409fde9a1a81d63ae.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg",
+      "sha256": "d27409fde9a1a81d63ae9689c147fe20a266fba9022c00cb2bc4802e08fb6382",
+      "private": false
+    },
+    "images/book-ce70cef3e828a647015d.jpg": {
+      "source": "sources/textbooks/必修第一册/第2章等式与不等式/images/bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg",
+      "sha256": "ce70cef3e828a647015dba6b0a7b75789a39feda7c2fb8974d409b912af41a35",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/02 必修第一册 第2章 等式与不等式.md": "cc5eeb30b1f69bc04a48ef572b3efe6e543e8ed1f104ee17941ef6571f86e334"
+  },
+  "student_images": [
+    "images/book-ce70cef3e828a647015d.jpg",
+    "images/book-d27409fde9a1a81d63ae.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "02d34704fcf8ab78be677106d717023ebe5c9156affcdaa20bf26f444519b316",
+    "student.html": "414f00bd81bca8efa77f6935431b33dc38871c7ddee242d268f435da1f434f9b",
+    "student.zip": "4d78c73a5bba8e6aa4137ca9d4520e31884e639c8eab830e32667f6667749fc6",
+    "content.json": "8e12da818ca172fba89174830af52cccd3af62c52391b092426a7cd084f3add0"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "book_id": "x1",
+  "status": "independent-review-complete-with-source-warning",
+  "sections": [
+    {
+      "id": "x1-1-1",
+      "status": "reviewed-with-notes",
+      "questions": 14,
+      "focus_checks": 4,
+      "issues": [
+        {
+          "origin": "independent",
+          "code": "source-aside-inside-example-answer",
+          "severity": "warning",
+          "status": "resolved",
+          "source": "book",
+          "line": 79,
+          "message": "原OCR把一次函数系数与斜率的概念结论框穿插在例3解答中，现随答案隐藏，学生正文可能少此概念结论；非原解截断。",
+          "suggestion": "可仅把79行一般概念结论提升为prose独立块，保留原行定位，不动例3推导。",
+          "verification": "79行概念结论已归prose"
+        }
+      ]
+    },
+    {
+      "id": "x1-1-2",
+      "status": "structure-pairing-reviewed",
+      "questions": 49,
+      "focus_checks": 1,
+      "issues": []
+    },
+    {
+      "id": "x1-1-3",
+      "status": "structure-pairing-reviewed",
+      "questions": 33,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-1-4",
+      "status": "structure-pairing-reviewed",
+      "questions": 12,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-2-1",
+      "status": "structure-pairing-reviewed",
+      "questions": 45,
+      "focus_checks": 1,
+      "issues": []
+    },
+    {
+      "id": "x1-2-2",
+      "status": "structure-pairing-reviewed",
+      "questions": 20,
+      "focus_checks": 2,
+      "issues": []
+    },
+    {
+      "id": "x1-2-3",
+      "status": "structure-pairing-reviewed",
+      "questions": 24,
+      "focus_checks": 3,
+      "issues": []
+    },
+    {
+      "id": "x1-2-4",
+      "status": "structure-pairing-reviewed",
+      "questions": 19,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-2-5",
+      "status": "structure-pairing-reviewed",
+      "questions": 41,
+      "focus_checks": 2,
+      "issues": []
+    },
+    {
+      "id": "x1-3-1",
+      "status": "structure-pairing-reviewed",
+      "questions": 18,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-3-2",
+      "status": "structure-pairing-reviewed",
+      "questions": 12,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-3-3",
+      "status": "structure-pairing-reviewed",
+      "questions": 13,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-3-4",
+      "status": "structure-pairing-reviewed",
+      "questions": 28,
+      "focus_checks": 1,
+      "issues": []
+    },
+    {
+      "id": "x1-4-1",
+      "status": "structure-pairing-reviewed",
+      "questions": 27,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-4-2",
+      "status": "structure-pairing-reviewed",
+      "questions": 31,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-4-3",
+      "status": "structure-pairing-reviewed",
+      "questions": 23,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-4-4",
+      "status": "reviewed-with-notes",
+      "questions": 16,
+      "focus_checks": 1,
+      "issues": [
+        {
+          "origin": "independent",
+          "code": "source-answer-sentence-truncated",
+          "severity": "warning",
+          "status": "open",
+          "source": "teacher",
+          "line": 510,
+          "message": "习题4.4(1)1(2)原源以“这意味”结束；主教参MD3467同样残句，非parser截断。核心错误说明已保留，不自行补写来源缺句。"
+        }
+      ]
+    },
+    {
+      "id": "x1-4-5",
+      "status": "structure-pairing-reviewed",
+      "questions": 3,
+      "focus_checks": 3,
+      "issues": []
+    },
+    {
+      "id": "x1-chapter-end-1",
+      "status": "structure-pairing-reviewed",
+      "questions": 24,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-chapter-end-2",
+      "status": "structure-pairing-reviewed",
+      "questions": 24,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-chapter-end-3",
+      "status": "structure-pairing-reviewed",
+      "questions": 15,
+      "focus_checks": 0,
+      "issues": []
+    },
+    {
+      "id": "x1-chapter-end-4",
+      "status": "structure-pairing-reviewed",
+      "questions": 20,
+      "focus_checks": 0,
+      "issues": []
+    }
+  ],
+  "source_preservation": {
+    "1": {
+      "source_lines_not_exact_substrings": [],
+      "note": "",
+      "decorative_rule_lines_not_repeated": [
+        77,
+        81
+      ],
+      "substantive_lines_without_provenance": []
+    },
+    "2": {
+      "source_lines_not_exact_substrings": [
+        2095
+      ],
+      "note": "2093/2095为审核确认的跨行OCR拼接，其余失配需人工查。",
+      "decorative_rule_lines_not_repeated": [
+        209,
+        213,
+        1167,
+        1171
+      ],
+      "substantive_lines_without_provenance": []
+    },
+    "3": {
+      "source_lines_not_exact_substrings": [],
+      "note": "",
+      "decorative_rule_lines_not_repeated": [],
+      "substantive_lines_without_provenance": []
+    },
+    "4": {
+      "source_lines_not_exact_substrings": [],
+      "note": "",
+      "decorative_rule_lines_not_repeated": [],
+      "substantive_lines_without_provenance": []
+    }
+  },
+  "limits": [
+    "22节点均做结构/显式题答配对/原图路径与源SHA复核；仅列出重点题做数学重算，未逐题复算。",
+    "HTML/ZIP只在实际存在时执行静态独立核验，未冒充浏览器视觉和打印验收。"
+  ],
+  "question_count": 511,
+  "focus_math_checks": 18,
+  "blocking_sections": []
+}

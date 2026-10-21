@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-chapter-end-1",
+  "book_id": "x1",
+  "section": "chapter-end-1",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/x1/x1-chapter-end-1.json",
+  "output": "outputs/五册教材教参整合/x1/x1-chapter-end-1",
+  "fingerprint": "8eb73510755875c1b65be7c7d4b51a9633bccde5cd855d08c0284f39b41e20ea",
+  "status": "rendered",
+  "questions": 24,
+  "answers": 24,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a5461ffe203b431ef947877e1374b872cfbf8517e40da122ff501c62abb79db9",
+    "student.html": "068adc28f34f0d14676cfe329d8257fd49b7d9511d431821baf09700d22bb283",
+    "student.zip": "8261de28229e3609302e08176cdd28cee9de2707bcae05845c2f7df87739ec8e",
+    "content.json": "b82f0f2559e91028dc8fafd070a66121c63f0d0440e98228ac18569fd1334d4c"
+  }
+}

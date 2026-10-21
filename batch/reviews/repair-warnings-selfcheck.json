@@ -1,0 +1,37 @@
+{
+  "pure_render_checks": [
+    {
+      "section": "x1-4-4",
+      "student": false,
+      "raw_dollar_count_outside_math": 0,
+      "new_answer_private": false
+    },
+    {
+      "section": "x1-4-4",
+      "student": true,
+      "raw_dollar_count_outside_math": 0,
+      "new_answer_private": true
+    },
+    {
+      "section": "bx2-7-3",
+      "student": false,
+      "raw_dollar_count_outside_math": 0,
+      "new_answer_private": false
+    },
+    {
+      "section": "bx2-7-3",
+      "student": true,
+      "raw_dollar_count_outside_math": 0,
+      "new_answer_private": false
+    }
+  ],
+  "replay_twice": true,
+  "bx2_visual_compatibility": {
+    "original_concept_object_exact": true,
+    "original_concept_index": 2,
+    "new_formula_title_index": 3,
+    "sourceSha256": "ae17064108d977a9362009b3c3e56ee35789c604bce45cdb89fbc3a94a390e7b",
+    "replay_twice_after_adjustment": true,
+    "both_editions_raw_dollars": 0
+  }
+}

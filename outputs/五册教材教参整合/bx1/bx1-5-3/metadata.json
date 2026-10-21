@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-5-3",
+  "book_id": "bx1",
+  "section": "5.3",
+  "title": "函数的应用",
+  "section_json": "batch/sections/bx1/bx1-5-3.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-5-3",
+  "fingerprint": "4822033d4605f451f90f26d419f1c5cc6bb74dc5bff8b9d1e58f0e29229e544f",
+  "status": "rendered",
+  "questions": 22,
+  "answers": 22,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-4f9ddc41313dcad24ad7.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_22_1132_744_343_291_0.jpg",
+      "sha256": "4f9ddc41313dcad24ad7eaca7bdda543387c2246ab36460f1a334cb3f77db6df",
+      "private": false
+    },
+    "images/private-3bae9a3cfd73eb1433fd.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_22_1154_1149_292_281_0.jpg",
+      "sha256": "3bae9a3cfd73eb1433fd6eb3563979d57a991229bd842146062242b34750af74",
+      "private": true
+    },
+    "images/private-61fe94468aca76cfada8.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_22_1155_1484_291_281_0.jpg",
+      "sha256": "61fe94468aca76cfada88cd95c2cacc672243cdaa3acff3967de0ca79024c70f",
+      "private": true
+    },
+    "images/private-40429426aea7ac807005.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_22_1154_1814_292_281_0.jpg",
+      "sha256": "40429426aea7ac8070059c1587997a5d254f07d9f72e8f99b849223d080beb5a",
+      "private": true
+    },
+    "images/book-caf3e32216a6f2fe8017.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_23_197_647_302_117_0.jpg",
+      "sha256": "caf3e32216a6f2fe80178719062e8f5dd647c3413620519a4850555ec3d2655d",
+      "private": false
+    },
+    "images/private-80d472da7c18d24cc349.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_23_179_1241_334_251_0.jpg",
+      "sha256": "80d472da7c18d24cc349227934714655ca842411162eb7fe3d1f53a6ed3efae3",
+      "private": true
+    },
+    "images/private-9d1264a269fe87b338a1.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_23_735_1752_573_270_0.jpg",
+      "sha256": "9d1264a269fe87b338a1dd9a1d09465806b3e84c58adaac89a0f07b63d5fc233",
+      "private": true
+    },
+    "images/book-ce69a782982141b8c1fa.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_24_651_854_313_269_0.jpg",
+      "sha256": "ce69a782982141b8c1fabbbd83c993fbb3a54d18c1180216252d505ede596f89",
+      "private": false
+    },
+    "images/private-254c67557d5fe4e61124.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_25_191_1588_310_273_0.jpg",
+      "sha256": "254c67557d5fe4e611245624235d8f26c5650a534e4c9c95aa6e947560f776af",
+      "private": true
+    },
+    "images/book-eab1e2c46fefa09b2518.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_27_628_1093_787_385_0.jpg",
+      "sha256": "eab1e2c46fefa09b25182e7a37c55c7fd4385f93b7eb7ee0eb74df16ac4c2555",
+      "private": false
+    },
+    "images/book-b894260df649f150033a.jpg": {
+      "source": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_27_802_1869_440_247_0.jpg",
+      "sha256": "b894260df649f150033a6164a6bc5c271c728a0e3de1bbd9868b5f1d09bf202e",
+      "private": false
+    },
+    "images/private-d27573bb497b49240e8f.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_119_565_425_341_332_0.jpg",
+      "sha256": "d27573bb497b49240e8f1094feb20343387b9e65b6c01c9cbbd60d2ec79784a7",
+      "private": true
+    },
+    "images/private-d0a0bb9d2d887fa05f86.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第一册/images/bo_d402qh3ef24c73d2tivg_119_545_1423_372_373_0.jpg",
+      "sha256": "d0a0bb9d2d887fa05f862db4585a80e8504b6bef1edce72d3ffd1568ddc5a2ae",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md": "1d6315df7072e068fc29ff14de1396e86f1dcbfa6041acb12ce329e29d600c8e"
+  },
+  "student_images": [
+    "images/book-4f9ddc41313dcad24ad7.jpg",
+    "images/book-b894260df649f150033a.jpg",
+    "images/book-caf3e32216a6f2fe8017.jpg",
+    "images/book-ce69a782982141b8c1fa.jpg",
+    "images/book-eab1e2c46fefa09b2518.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "4f59446b3e874aac1ab5b62ba8901733de91c60f6ca89c0b102888dea90796a1",
+    "student.html": "39c572b44835795a7ffea5dd023e7fc1d692cd9d6a2ef7ec28c24e4f3f7c65ac",
+    "student.zip": "57a5857bc115a4ff2dd8a41e6edf5a84eaecb4dc8e2068c1827d340232db5e55",
+    "content.json": "d1de79d4937cd9a65ac56c89c3037149eb7d9578cca29d00817c9bb01eceae9d"
+  }
+}

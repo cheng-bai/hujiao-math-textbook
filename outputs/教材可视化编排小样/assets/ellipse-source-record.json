@@ -1,0 +1,19 @@
+{
+  "adaptation": "本地副本添加受控参数 API 与第三方许可声明，原始文件未改动。",
+  "files": {
+    "ellipse-string-instrument.html": {
+      "sourceSha256": "769769e408c58d17a3998266c61658fe55420cc36ad2caaff990a15f4a7c19e5",
+      "adaptedSha256": "e7cf755c495c34e9ea808ff4b6373360f83143bea8516e7e77d7227cedbf7dd1"
+    },
+    "ellipse-definitions.html": {
+      "sourceSha256": "a7fc791fc00263b91dfca72dd6dfcce3e50dbd4106556c937db505d239efee95",
+      "adaptedSha256": "0352a9e7d63ce757dc57e64a3de8fbe383d9e5c1124c08b009a5affd4e057809"
+    }
+  },
+  "provenance": "Mathematical demonstrations contributed with Question Studio; original and adapted SHA256 values retained below.",
+  "licenses": {
+    "anatomy": "Anatomy-LICENSE.txt",
+    "katex": "KaTeX-LICENSE.txt",
+    "project": "../../LICENSE"
+  }
+}

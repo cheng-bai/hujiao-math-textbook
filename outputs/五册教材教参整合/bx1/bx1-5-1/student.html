@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx1-5-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>5.1 函数 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第一册 / 第5章函数的概念、性质及应用</div><div class="spine-number">5.1</div><nav aria-label="本节目录"><a href="#bx1-5-1"><span>5.1</span>函数</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 5.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 5.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>函数<span class="cover-dot">.</span></h1><p class="cover-deck">必修第一册<br>第5章函数的概念、性质及应用 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>6 个例题</span><span>10 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx1-5-1" data-title="函数"><section class="section-heading" id="bx1-5-1"><span class="section-number">5.1</span><div><h2>函数</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="8dcc4d01780dc3414c69dc7e18b51909e989b804107564a2733b3dad289df188" id="bx1-5-1-b1"><h1>函数的概念、性质及应用</h1>
+<aside class="key-point key-concept" id="bx1-5-1-definition-1-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在初中和上一章中，我们已学习了一次函数、二次函数、反比例函数、幂函数、指数函数及对数函数。这些函数的共同点是有两个变量，当其中的一个变量在某个范围内变化时，另一个变量就按照某种规则随之变化。这种一个变量随着另一个变量的变化而变化的对应关系，在数学上就称为函数。在对二次函数、幂函数、指数函数与对数函数的研究中，已经可以看到不同的函数间有一些共同的性质，本章将概括有关函数的一些比较重要的性质，并用严格的数学语言加以描述。</p>
+</aside><p>函数是刻画世间万物之间联系的有力工具，借助于函数，可以更好地掌握事物的发展规律，从而深化人们的认识。函数概念的引入，使数学本身也经历了从常量到变量、从有限到无限的发展，从而逐步由初等数学走向高等数学。学好函数，对进一步学习以后的一些数学知识，如三角、微积分等，都是非常必要的。</p>
+</div><h3 class="group-heading" id="bx1-5-1-b4">1 函数</h3><div class="prose" data-visual-source-sha="c5be51f48c3e14319684c2d8a192bbddf64dc084f5a877ae8295462c82d74b86" id="bx1-5-1-b5"><p>我们已经学习了正比例函数、反比例函数、一次函数、二次函数、幂函数、指数函数及对数函数等。</p>
+<p>例如，对于正比例函数 <span class="math" data-tex="y = 2x" data-display="false"></span>，变量 <span class="math" data-tex="x" data-display="false"></span> 的取值范围是 <span class="math" data-tex="\mathbf{R}" data-display="false"></span>，其对应关系是将一个实数对应到它的 2 倍。当变量 <span class="math" data-tex="x = 1" data-display="false"></span> 时，对应得到唯一的值 <span class="math" data-tex="y = 2 \times 1 = 2" data-display="false"></span>；当变量 <span class="math" data-tex="x = -3" data-display="false"></span> 时，对应得到唯一的值 <span class="math" data-tex="y = 2 \times (-3) = -6" data-display="false"></span>；当变量 <span class="math" data-tex="x" data-display="false"></span> 取遍一切实数时，对应得到所有的实数 <span class="math" data-tex="y" data-display="false"></span>。</p>
+<p>又如，对于对数函数 <span class="math" data-tex="y = \log_3 x" data-display="false"></span>，变量 <span class="math" data-tex="x" data-display="false"></span> 的取值范围是 <span class="math" data-tex="(0, +\infty)" data-display="false"></span>。其对应关系是将 <span class="math" data-tex="(0, +\infty)" data-display="false"></span> 中的实数对应到它的以 3 为底的对数。当变量 <span class="math" data-tex="x = \frac{1}{3}" data-display="false"></span> 时，对应得到唯一的值 <span class="math" data-tex="y = -1" data-display="false"></span>；当变量 <span class="math" data-tex="x = 1" data-display="false"></span> 时，对应得到唯一的值 <span class="math" data-tex="y = 0" data-display="false"></span>；当变量 <span class="math" data-tex="x" data-display="false"></span> 取遍一切正数时，对应得到所有的实数 <span class="math" data-tex="y" data-display="false"></span>。</p>
+<p>在这些例子中，都出现了两个处于变化之中的量，其中一个量之值随另一个量之值的确定而按一定的对应关系唯一确定，从而随着另一个量在一定范围内的变化而相应地发生变化。在用数学工具解决实际问题的过程中，我们还会遇到其他一些类似的情况。由此可抽象出函数的概念。</p>
+<p><strong>定义</strong> 设 <span class="math" data-tex="D" data-display="false"></span> 是一个非空的实数集，如果按照某种确定的对应关系 <span class="math" data-tex="f" data-display="false"></span>，使对集合 <span class="math" data-tex="D" data-display="false"></span> 中的任意给定的 <span class="math" data-tex="x" data-display="false"></span>，都有唯一的实数 <span class="math" data-tex="y" data-display="false"></span> 与之对应，就称这个对应关系 <span class="math" data-tex="f" data-display="false"></span> 为集合 <span class="math" data-tex="D" data-display="false"></span> 上的一个函数（function），记作</p>
+<div class="math display" data-tex="y = f(x), x \in D." data-display="true"></div>
+<aside class="key-point key-concept" id="bx1-5-1-definition-5-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>其中，<span class="math" data-tex="x" data-display="false"></span> 叫做自变量（independent variable），其取值范围（数集 D）称为该函数的定义域（domain）。</p>
+</aside><aside class="key-point key-concept" id="bx1-5-1-definition-5-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>此时，就称 <span class="math" data-tex="y" data-display="false"></span> 是 <span class="math" data-tex="x" data-display="false"></span> 的函数。当自变量 <span class="math" data-tex="x" data-display="false"></span> 取值 <span class="math" data-tex="x_0" data-display="false"></span> 时，由对应关系 <span class="math" data-tex="f" data-display="false"></span> 所确定的对应于 <span class="math" data-tex="x_0" data-display="false"></span> 的值 <span class="math" data-tex="y_0" data-display="false"></span>，称为函数在 <span class="math" data-tex="x_0" data-display="false"></span> 处的函数值，记作 <span class="math" data-tex="y_0 = f(x_0)" data-display="false"></span>。</p>
+</aside><hr />
+<p>对应关系常用小写字母，如 <span class="math" data-tex="f" data-display="false"></span>、<span class="math" data-tex="g" data-display="false"></span>、<span class="math" data-tex="h" data-display="false"></span> 等表示。</p>
+<hr />
+<aside class="key-point key-concept" id="bx1-5-1-definition-5-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>所有函数值组成的集合 <span class="math" data-tex="\{ y \mid y = f(x), x \in D \}" data-display="false"></span> 称为这个函数的值域（range）。</p>
+</aside><aside class="key-point key-concept" id="bx1-5-1-definition-5-3" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>根据函数的定义，在定义域和对应关系确定的时候，这个函数就完全被确定了，从而值域也随之被确定。因此，定义域和对应关系称为函数的两个要素。</p>
+</aside><p>在之前学习具体的函数，如幂函数、指数函数及对数函数的时候，我们往往只写出反映函数对应关系的表达式，如 <span class="math" data-tex="y = x^{\frac{1}{2}}, y = 2^x, y = \log_3 x" data-display="false"></span> 等，而不明显地写出其定义域。此时，函数 <span class="math" data-tex="y = f(x)" data-display="false"></span> 的定义域由使得其表达式 <span class="math" data-tex="f(x)" data-display="false"></span> 有意义的全体实数组成。</p>
+</div><article class="question" id="bx1-5-1-ex-1" data-question-id="bx1-5-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p><strong>例 1</strong> 求下列函数的定义域：</p>
+<p>(1) <span class="math" data-tex="y = \frac{1}{x^2 - 1}" data-display="false"></span>；</p>
+<p>(2) <span class="math" data-tex="y = \log_2(x + 1)" data-display="false"></span>；</p>
+<p>(3) <span class="math" data-tex="y = \frac{\sqrt{x + 3}}{x - 1}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-ex-2" data-question-id="bx1-5-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p><strong>例 2</strong> 判断下列函数与函数 <span class="math" data-tex="y = x" data-display="false"></span> 是否相同，并说明理由：</p>
+<p>(1) <span class="math" data-tex="y = (\sqrt{x})^2" data-display="false"></span>；(2) <span class="math" data-tex="y = \ln e^x" data-display="false"></span>；</p>
+<p>(3) <span class="math" data-tex="y = \frac{x^2}{x}" data-display="false"></span>；(4) <span class="math" data-tex="y = \sqrt[4]{x^4}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-ex-3" data-question-id="bx1-5-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p><strong>例 3</strong> 求函数 <span class="math" data-tex="y = \frac{1}{2^x + 1}" data-display="false"></span> 的值域。</p>
+</div></article><h3 class="group-heading" id="bx1-5-1-b9">练习 5.1(1)</h3><article class="question" id="bx1-5-1-p511-1" data-question-id="bx1-5-1-p511-1" data-category="practice"><div class="question-label">练习5.1(1) · 1</div><div class="question-body"><ol>
+<li>求下列函数的定义域：</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = \sqrt{(x - 2)(x + 3)}" data-display="false"></span>；</p>
+<p>(2) <span class="math" data-tex="y = \frac{1}{1 - \sqrt{x - 1}}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-p511-2" data-question-id="bx1-5-1-p511-2" data-category="practice"><div class="question-label">练习5.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>下列四组函数中，同组的两个函数是相同函数的是（）</li>
+</ol>
+<p>A. <span class="math" data-tex="y = |x|" data-display="false"></span> 与 <span class="math" data-tex="y = (\sqrt{x})^2" data-display="false"></span>；B. <span class="math" data-tex="y = x" data-display="false"></span> 与 <span class="math" data-tex="y = e^{\ln x}" data-display="false"></span>；</p>
+<p>C. <span class="math" data-tex="y = x" data-display="false"></span> 与 <span class="math" data-tex="y = \sqrt[5]{x^5}" data-display="false"></span>；D. <span class="math" data-tex="y = x" data-display="false"></span> 与 <span class="math" data-tex="y = (\frac{1}{x})^{-1}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-p511-3" data-question-id="bx1-5-1-p511-3" data-category="practice"><div class="question-label">练习5.1(1) · 3</div><div class="question-body"><ol start="3">
+<li>求下列函数的值域：</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = (\lg x)^2 + 1, x \in (0, +\infty)" data-display="false"></span>；(2) <span class="math" data-tex="y = 3x^2 - 4x + 1, x \in [0, 1]" data-display="false"></span>。</p>
+</div></article><h3 class="group-heading" id="bx1-5-1-b13">2 函数的表示方法</h3><div class="prose" data-visual-source-sha="801b175815155600ed36b39e2a368c4c633e93200342a51a0dc6713e53a3ddb2" id="bx1-5-1-b14"><aside class="key-point key-concept" id="bx1-5-1-definition-14-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>用一个数学表达式来表示两个变量之间的对应关系，这种表示函数的方法称为解析法。</p>
+</aside><p>例如，<span class="math" data-tex="y = 3x + 2, y = x^2 + 2x + 1, y = \sqrt{x^2 + 1} \; (x \in [0, 1]), y = \log_2(2^x - 1)" data-display="false"></span> 等都是用解析法表示的函数。作自由落体运动的物体的位移 <span class="math" data-tex="s" data-display="false"></span> 与时间 <span class="math" data-tex="t" data-display="false"></span> 满足 <span class="math" data-tex="s = \frac{1}{2}gt^2, t \in [0, T]" data-display="false"></span>（<span class="math" data-tex="g" data-display="false"></span> 是重力加速度），也是用解析法来表示的函数。</p>
+<aside class="key-point key-concept" id="bx1-5-1-definition-14-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>通过列出自变量的值与对应函数值的相应表格来表达函数关系的方法称为列表法，列表法通常用在定义域为有限集的情况。</p>
+</aside><p>例如，表 5-1 列出了国家统计局网站上发布的 2000 年至 2016 年的国内生产总值（GDP）。</p>
+<p><strong>表 5-1</strong> 2000 年至 2016 年中国 GDP 变化表</p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>GDP/亿元</th>
+<th>年份</th>
+<th>GDP/亿元</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2000</td>
+<td>100280</td>
+<td>2009</td>
+<td>348518</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>110863</td>
+<td>2010</td>
+<td>412119</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>121717</td>
+<td>2011</td>
+<td>487940</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>137422</td>
+<td>2012</td>
+<td>538580</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>161840</td>
+<td>2013</td>
+<td>592963</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>187319</td>
+<td>2014</td>
+<td>641281</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>219439</td>
+<td>2015</td>
+<td>685993</td>
+</tr>
+<tr>
+<td>2007</td>
+<td>270092</td>
+<td>2016</td>
+<td>740061</td>
+</tr>
+<tr>
+<td>2008</td>
+<td>319245</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>注：未包括中国香港、澳门特别行政区和台湾省的地区生产总值数据。</p>
+<p>从上表中可以看出，当自变量年份（2000 至 2016 中的整数）确定时，可按照表中所给出的对应关系，查到该年度我国的 GDP 值作为函数值。该函数的定义域为 <span class="math" data-tex="\{2000, 2001, 2002, \ldots, 2016\}" data-display="false"></span>，是一个有限集。</p>
+<aside class="key-point key-concept" id="bx1-5-1-definition-14-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>我们知道，对于函数 <span class="math" data-tex="y = f(x), x \in D" data-display="false"></span>，其定义域 <span class="math" data-tex="D" data-display="false"></span> 中每一个 <span class="math" data-tex="x" data-display="false"></span> 的值都有唯一的一个 <span class="math" data-tex="y" data-display="false"></span> 值与之对应。把这两个对应的数构成的有序实数对 <span class="math" data-tex="(x, y)" data-display="false"></span> 作为点 <span class="math" data-tex="P" data-display="false"></span> 的坐标，记作 <span class="math" data-tex="P(x, y)" data-display="false"></span>。所有这些点组成的集合 <span class="math" data-tex="G" data-display="false"></span> 叫做函数 <span class="math" data-tex="y = f(x), x \in D" data-display="false"></span> 的图像（graph），即</p>
+</aside><div class="math display" data-tex="G = \{ (x, y) \mid y = f(x), x \in D \}." data-display="true"></div>
+<p>可以看出，如果对定义域 <span class="math" data-tex="D" data-display="false"></span> 中的实数 <span class="math" data-tex="x_0" data-display="false"></span>，有 <span class="math" data-tex="f(x_0) = y_0" data-display="false"></span>，那么点 <span class="math" data-tex="P(x_0, y_0)" data-display="false"></span> 一定在该函数的图像上；反之，如果点 <span class="math" data-tex="P(x_0, y_0)" data-display="false"></span> 在该函数的图像上，那么必有 <span class="math" data-tex="x_0 \in D" data-display="false"></span>，且 <span class="math" data-tex="y_0 = f(x_0)" data-display="false"></span>。</p>
+<p>常见的一次函数、二次函数、幂函数、指数函数及对数函数的图像，已经在初中和上一章中学过了。</p>
+</div><article class="question" id="bx1-5-1-ex-4" data-question-id="bx1-5-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p><strong>例 4</strong> 作出函数 <span class="math" data-tex="y = \frac{x}{x^2 + 1}" data-display="false"></span> 的大致图像。</p>
+</div></article><article class="question" id="bx1-5-1-ex-5" data-question-id="bx1-5-1-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p><strong>例 5</strong> 以下图形中，哪些是函数的图像，哪些不是？</p>
+<p><img src="images/book-a7b17dbc1d87a6fa3502.jpg" alt="教材或教参原图" loading="eager"></p>
+<p><strong>图 5-1-2</strong></p>
+<hr />
+<p>该函数的图像会出现在第二或第四象限吗？为什么？</p>
+<p>需要注意的是，绘制在纸上的或计算机屏幕上的函数图像，终究只是大致的图像，它们无法精确地表示一个函数。但大致的图像能够帮助我们直观地了解函数的性质，从而能更好地发现和研究有关函数的性质。&quot;数形结合&quot;的方法是研究函数的重要方法之一。</p>
+<hr />
+</div></article><article class="question" id="bx1-5-1-ex-6" data-question-id="bx1-5-1-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p><strong>例 6</strong> 某车辆装配车间每 2 h 装配完成一辆车。按照计划，该车间今天生产 8 h。用解析法和图像法分别表示从当天开始生产的时刻起所经过的时间 <span class="math" data-tex="x" data-display="false"></span>（单位：h）与装配完成的车辆数 <span class="math" data-tex="y" data-display="false"></span>（单位：辆）之间的函数 <span class="math" data-tex="y = f(x)" data-display="false"></span>。</p>
+</div></article><h3 class="group-heading" id="bx1-5-1-b18">练习 5.1(2)</h3><article class="question" id="bx1-5-1-p512-1" data-question-id="bx1-5-1-p512-1" data-category="practice"><div class="question-label">练习5.1(2) · 1</div><div class="question-body"><ol>
+<li>作下列函数的大致图像：</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = -|x|" data-display="false"></span>；(2) <span class="math" data-tex="y = \sqrt{x + 2}" data-display="false"></span>；</p>
+<p>(3) <span class="math" data-tex="y = \frac{1}{x^2 + 1}" data-display="false"></span>；(4) <span class="math" data-tex="y = \frac{2x - 1}{x - 1}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-p512-2" data-question-id="bx1-5-1-p512-2" data-category="practice"><div class="question-label">练习5.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>根据下图的函数图像，用解析法表示 <span class="math" data-tex="y" data-display="false"></span> 关于 <span class="math" data-tex="x" data-display="false"></span> 的函数。</li>
+</ol>
+<p><img src="images/book-691d17f1a6c61e1aec32.jpg" alt="教材或教参原图" loading="eager"></p>
+<p><strong>(第 2 题)</strong></p>
+</div></article><h3 class="group-heading" id="bx1-5-1-b21">习题 5.1</h3><h3 class="group-heading" id="bx1-5-1-b22">A 组</h3><article class="question" id="bx1-5-1-h51A-1" data-question-id="bx1-5-1-h51A-1" data-category="homework"><div class="question-label">习题5.1A · 1</div><div class="question-body"><ol>
+<li>求下列函数的定义域：</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = \frac{1}{x^2 + 2x - 3}" data-display="false"></span>；(2) <span class="math" data-tex="y = \sqrt{4 - 3x - x^2}" data-display="false"></span>；</p>
+<p>(3) <span class="math" data-tex="y = \sqrt{x - 2} + \sqrt{x + 3}" data-display="false"></span>；</p>
+<p>(4) <span class="math" data-tex="y = \frac{1}{\lg(x + 2)} + \frac{1}{\sqrt{5 - x}}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-h51A-2" data-question-id="bx1-5-1-h51A-2" data-category="homework"><div class="question-label">习题5.1A · 2</div><div class="question-body"><ol start="2">
+<li>设 <span class="math" data-tex="p" data-display="false"></span>、<span class="math" data-tex="q" data-display="false"></span> 是常数，函数 <span class="math" data-tex="y = f(x)" data-display="false"></span> 的表达式为 <span class="math" data-tex="f(x) = x^2 + px + q" data-display="false"></span>。若 <span class="math" data-tex="f(1) = f(2) = 0" data-display="false"></span>，求 <span class="math" data-tex="f(-1)" data-display="false"></span>。</li>
+</ol>
+</div></article><article class="question" id="bx1-5-1-h51A-3" data-question-id="bx1-5-1-h51A-3" data-category="homework"><div class="question-label">习题5.1A · 3</div><div class="question-body"><ol start="3">
+<li>观察下列函数的图像，并写出它们的值域：</li>
+</ol>
+<p><img src="images/book-502c4b5e07525682e040.jpg" alt="教材或教参原图" loading="eager"></p>
+<p><strong>(第 3 题)</strong></p>
+</div></article><h3 class="group-heading" id="bx1-5-1-b26">B 组</h3><article class="question" id="bx1-5-1-h51B-1" data-question-id="bx1-5-1-h51B-1" data-category="homework"><div class="question-label">习题5.1B · 1</div><div class="question-body"><ol>
+<li>设 <span class="math" data-tex="a" data-display="false"></span> 是常数，求下列函数的定义域：</li>
+</ol>
+<p>(1) <span class="math" data-tex="y = \frac{1}{|x| - a}" data-display="false"></span>；(2) <span class="math" data-tex="y = \sqrt{x(x - a)}" data-display="false"></span>。</p>
+</div></article><article class="question" id="bx1-5-1-h51B-2" data-question-id="bx1-5-1-h51B-2" data-category="homework"><div class="question-label">习题5.1B · 2</div><div class="question-body"><ol start="2">
+<li>已知函数 <span class="math" data-tex="y = f(x)" data-display="false"></span> 的表达式为 <span class="math" data-tex="f(x) = \begin{cases} 2x(3 + x), &amp; x \geq 0, \\ 2x(3 - x), &amp; x &lt; 0. \end{cases}" data-display="false"></span> 求 <span class="math" data-tex="f(2), f(-4)" data-display="false"></span> 及 <span class="math" data-tex="f(-a)" data-display="false"></span>，其中 <span class="math" data-tex="a" data-display="false"></span> 为实数。</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-5-1-b29">课后阅读</h3><h3 class="group-heading" id="bx1-5-1-b30">函数概念的形成和发展</h3><div class="prose" data-visual-source-sha="29ea7f475c5b8b830959f9bc9af62e555ab59590727abd4d60ef09ab59f868be" id="bx1-5-1-b31"><p>17 世纪是工业生产和科学技术飞速发展的时代，在对天文和航海技术的探索中，科学家们往往需要研究一些运动中的对象，如天体位置、航海中经纬度等。这些问题的实质都是分析研究两个变化中的量之间的关系，并据此描述物体的变化规律。这是函数概念产生和发展的背景。</p>
+<p>在 17 世纪早期，意大利科学家伽利略（G. Galilei）、法国数学家笛卡儿（R. Descartes）等在他们的著作中已经注意到了一个变量对另一个变量的依赖关系，但并没有提炼出函数的概念。17 世纪后期，英国数学家牛顿（I. Newton）和德国数学家莱布尼茨（G. W. Leibniz）在分别创立微积分时，考虑的主要对象还是曲线，而牛顿则一直用&quot;流量&quot;一词来表示变量之间的关系。</p>
+<p>&quot;函数&quot;（function）一词作为数学概念首先由莱布尼茨引入，用于描述随曲线变化而变化的几何量，如坐标、切线等。此后，瑞士数学家约翰·伯努利（John Bernoulli）首次给出了明确的函数定义，他将函数描述为&quot;由变量和常量以某种方式组成的量&quot;。将函数作为中心概念进行数学研究并作为微积分基础的是瑞士数学家欧拉（L. Euler）。欧拉称变量的函数是一个解析表达式，引入了函数符号 <span class="math" data-tex="f(x)" data-display="false"></span> 并沿用至今。欧拉还将函数分成代数函数（由四则运算和开根等运算组成的函数）和超越函数（含指数、对数、三角运算等的函数），他也是第一个将正弦、余弦等当作函数处理的数学家。欧拉的很多数学发现基于他的函数观点。在 1755 年，欧拉将函数的定义修改为：如果某些变量以某种方式依赖于另一些变量，即当后面的变量变化时，前面的变量也随之变化，那么称前面的变量是后面变量的函数。</p>
+<p>在欧拉时代，人们还是习惯于用表达式来表示函数。随着对微积分研究的深入，18 世纪末 19 世纪初，人们对函数的认识有了进一步提高。德国数学家狄利克雷（P. G. L. Dirichlet）于 1837 年提出了如下的函数的定义：若对于 <span class="math" data-tex="x" data-display="false"></span> 的每一个值，<span class="math" data-tex="y" data-display="false"></span> 总有一个唯一确定的值与之对应，则称 <span class="math" data-tex="y" data-display="false"></span> 是 <span class="math" data-tex="x" data-display="false"></span> 的函数。这个定义较清楚地说明了函数概念的本质是对应关系，这个对应关系可以用公式、图像、表格或其他形式表示。这个概念非常清晰，很快被数学家所接受。到 19 世纪 70 年代以后，随着集合论的出现，就有了使用规范的集合语言表述的函数定义，函数概念也就更加精确了。</p>
+<p>中文&quot;函数&quot;一词是由我国清代数学家李善兰在 1859 年和英国人伟烈亚力（A. Wylie）合译《代微积拾级》时从英文&quot;function&quot;翻译而来，这一名词一直使用至今。</p>
+<p>从上面介绍可以看出，历史上函数概念的建立是从模糊到清晰、从朴素到深入逐步完善的，这符合人们认识事物的一般规律。了解函数概念的发展历史，对于我们更好地理解函数这一重要的数学概念会有很大的帮助。</p>
+</div></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx1-5-1" checked>函数</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

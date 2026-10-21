@@ -1,0 +1,694 @@
+{
+  "family": "foundations",
+  "selection": [
+    {
+      "sectionId": "bx1-1-1",
+      "status": "skip",
+      "reason": "集合表示与简单运算保留原静态示意；仅做集合区域开关不能替代本节必要逻辑，不新增低增益动画。"
+    },
+    {
+      "sectionId": "bx1-1-2",
+      "status": "skip",
+      "reason": "命题与充分必要条件核心是逻辑含义和反例，不以装饰动画替代准确文字。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-1",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-2-1",
+      "status": "skip",
+      "reason": "等式、不等式运算法则以条件和代数证明为主，未选纯代入型滑块。"
+    },
+    {
+      "sectionId": "bx1-2-2",
+      "status": "skip",
+      "reason": "绝对值内外侧和简单不等式的静态数轴已足够清楚；本轮严格不为太简单的知识点追加滑块。"
+    },
+    {
+      "sectionId": "bx1-2-3",
+      "status": "selected",
+      "reason": "将算术/几何平均值和等号唯一性连成可变矩形。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-2",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-3-1",
+      "status": "skip",
+      "reason": "指数运算规则主要是符号法则，动态图不比精炼推导更有效。"
+    },
+    {
+      "sectionId": "bx1-3-2",
+      "status": "skip",
+      "reason": "对数定义与运算法则在后续对数函数可视化中联动，本节不重复插入。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-3",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-4-1",
+      "status": "skip",
+      "reason": "常见幂函数比较用现有静态图足够；函数性质模块承担有序两点的高价值动态解释。"
+    },
+    {
+      "sectionId": "bx1-4-2",
+      "status": "selected",
+      "reason": "用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。"
+    },
+    {
+      "sectionId": "bx1-4-3",
+      "status": "selected",
+      "reason": "联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-4",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx1-5-1",
+      "status": "skip",
+      "reason": "函数定义需要唯一对应的准确条件，映射箭头的简单移动增益有限。"
+    },
+    {
+      "sectionId": "bx1-5-2",
+      "status": "selected",
+      "reason": "通过反例和有序两点比较区分局部点对观察与全区间单调定义。"
+    },
+    {
+      "sectionId": "bx1-5-3",
+      "status": "skip",
+      "reason": "建模须读具体情境与论证，不用通用动画替代情境条件。"
+    },
+    {
+      "sectionId": "bx1-5-4",
+      "status": "selected",
+      "reason": "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。"
+    },
+    {
+      "sectionId": "bx1-chapter-end-5",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-6-1",
+      "status": "selected",
+      "reason": "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。"
+    },
+    {
+      "sectionId": "bx2-6-2",
+      "status": "skip",
+      "reason": "三角恒等变换需要代数推导，单位圆模块已承担几何符号与投影，不重复动画。"
+    },
+    {
+      "sectionId": "bx2-6-3",
+      "status": "skip",
+      "reason": "本轮不以普通三角形拖点重复静态定理图；优先单位圆到函数的连续过程。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-6",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-7-1",
+      "status": "selected",
+      "reason": "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。"
+    },
+    {
+      "sectionId": "bx2-7-2",
+      "status": "skip",
+      "reason": "余弦可视为正弦的相位变化，正弦与Aωφ模块已覆盖关键动态关系，本节避免重复。"
+    },
+    {
+      "sectionId": "bx2-7-3",
+      "status": "selected",
+      "reason": "用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。"
+    },
+    {
+      "sectionId": "bx2-7-4",
+      "status": "selected",
+      "reason": "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-7",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-8-1",
+      "status": "skip",
+      "reason": "简单向量平移和加法已有静态图说明，本轮优先更难理解的带符号投影。"
+    },
+    {
+      "sectionId": "bx2-8-2",
+      "status": "selected",
+      "reason": "用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。"
+    },
+    {
+      "sectionId": "bx2-8-3",
+      "status": "skip",
+      "reason": "坐标运算法则主要是直接计算，沿用公式和例题，不制作低增益代入动画。"
+    },
+    {
+      "sectionId": "bx2-8-4",
+      "status": "skip",
+      "reason": "应用依具体题目情境展开，数量积投影已提供方法层的动态解释，避免泛化题解动画。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-8",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    },
+    {
+      "sectionId": "bx2-9-1",
+      "status": "skip",
+      "reason": "复数加减和四则运算保留代数基础，后续三角形式统一承担乘除几何变换。"
+    },
+    {
+      "sectionId": "bx2-9-2",
+      "status": "skip",
+      "reason": "基本复平面点表示不单独做滑块；复杂旋转伸缩放在9.4节，避免简单知识点动画。"
+    },
+    {
+      "sectionId": "bx2-9-3",
+      "status": "skip",
+      "reason": "实系数二次方程求复根以代数公式和共轭关系为主，不用动点替代推导。"
+    },
+    {
+      "sectionId": "bx2-9-4",
+      "status": "selected",
+      "reason": "用旋转伸缩把复数乘除公式与两角和展开联系起来。"
+    },
+    {
+      "sectionId": "bx2-chapter-end-9",
+      "status": "skip",
+      "reason": "章末总结、阅读和复习题不再追加独立交互，避免与正文重复。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "amgm-square",
+      "title": "和不变：矩形怎样变成最大面积正方形",
+      "goal": "将算术/几何平均值和等号唯一性连成可变矩形。",
+      "summary": "正数 a、b 的算术平均值为 (a+b)/2，几何平均值为与 a×b 矩形等面积正方形的边长。算术平均不小于几何平均，且仅 a=b 时等号成立。这里固定 a+b=8：改变两边，观察面积差如何精确由平方项控制。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>&gt;</mo><mn>0</mn><mo>;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><msqrt><mrow><mi>a</mi><mi>b</mi></mrow></msqrt><mo>=</mo><mfrac><msup><mrow><mo>(</mo><msqrt><mi>a</mi></msqrt><mo>−</mo><msqrt><mi>b</mi></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mn>2</mn></mfrac><mo>≥</mo><mn>0</mn><mo>;</mo><mtext>等号 ⇔ a=b</mtext></mrow></math>",
+      "controls": [
+        {
+          "key": "a",
+          "label": "边 a（b=8-a）",
+          "type": "range",
+          "min": 0.5,
+          "max": 7.5,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "a": 2
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-2-3",
+          "afterBlockId": "bx1-2-3-b4",
+          "rationale": "覆盖本节原prose第4块：将算术/几何平均值和等号唯一性连成可变矩形。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "exponential-base",
+      "title": "底数跨过 1：增长、衰减与固定点",
+      "goal": "用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。",
+      "summary": "a>0、a≠1 时，指数函数定义域为全体实数，值域为正实数，恒过 (0,1)，趋近 x 轴但永不相交。a>1 严格增；0<a<1 严格减。比较 x 正负两侧的函数值，观察底数在 1 两侧时整条曲线如何交换增长方向。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mo>&gt;</mo><mn>0</mn><mo>,</mo><mspace width=\"1em\"/><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo><mn>1</mn><mo>,</mo><mspace width=\"1em\"/><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mi>a</mi><mo>≠</mo><mn>1</mn></mrow></math>",
+      "controls": [
+        {
+          "key": "base",
+          "label": "底数 a",
+          "type": "select",
+          "options": [
+            {
+              "value": "0.5",
+              "label": "1/2"
+            },
+            {
+              "value": "0.8",
+              "label": "0.8"
+            },
+            {
+              "value": "1",
+              "label": "1（边界）"
+            },
+            {
+              "value": "1.25",
+              "label": "1.25"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            }
+          ]
+        },
+        {
+          "key": "x",
+          "label": "观察点 x",
+          "type": "range",
+          "min": -2,
+          "max": 2,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "base": "2",
+        "x": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-4-2",
+          "afterBlockId": "bx1-4-2-b12",
+          "rationale": "覆盖本节原prose第12块：用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "logarithm-reflection",
+      "title": "指数和对数：交换坐标为何改变定义域",
+      "goal": "联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。",
+      "summary": "对数函数仅在 x>0 有定义，值域为全体实数，过 (1,0)，趋近 y 轴而不相交。a>1 时严格增，x>1 为正而 0<x<1 为负；0<a<1 时上述结论反向。相同底数的指数与对数交换横纵坐标，关于 y=x 对称；底数互为倒数的对数图像则关于 x 轴对称。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>a</mi><mi>t</mi></msup><mo>⇔</mo><mi>t</mi><mo>=</mo><msub><mi>log</mi><mi>a</mi></msub><mi>y</mi><mo>;</mo><mspace width=\"1em\"/><msub><mi>log</mi><mrow><mn>1</mn><mo>/</mo><mi>a</mi></mrow></msub><mi>x</mi><mo>=</mo><mo>−</mo><msub><mi>log</mi><mi>a</mi></msub><mi>x</mi></mrow></math>",
+      "controls": [
+        {
+          "key": "base",
+          "label": "底数 a",
+          "type": "select",
+          "options": [
+            {
+              "value": "0.5",
+              "label": "1/2"
+            },
+            {
+              "value": "0.8",
+              "label": "0.8"
+            },
+            {
+              "value": "1.25",
+              "label": "1.25"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            }
+          ]
+        },
+        {
+          "key": "t",
+          "label": "指数自变量 t",
+          "type": "range",
+          "min": -2,
+          "max": 2,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "base": "2",
+        "t": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-4-3",
+          "afterBlockId": "bx1-4-3-b12",
+          "rationale": "覆盖本节原prose第12块：联动同底指数、对数及交换坐标，浓缩对数正负、单调性、渐近线和性质表。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "monotonic-two-points",
+      "title": "两点同时移动：单调性必须限定区间",
+      "goal": "通过反例和有序两点比较区分局部点对观察与全区间单调定义。",
+      "summary": "在区间 I 内，任意 x₁<x₂ 若总有 f(x₁)≤f(x₂)，称增函数；改为≥称减函数，改为严格不等号称严格增/减。平方函数负半轴严格减、正半轴严格增；常函数同时增且减而均不严格。正半轴幂函数指数正则严格增、负则严格减；指数和对数的方向取决于底数在 1 的哪侧。拖动两点用于发现区间与反例，不替代“任意两点”的证明。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>&lt;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>⇒</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>≤</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>;</mo><mspace width=\"1em\"/><msup><msub><mi>x</mi><mn>2</mn></msub><mn>2</mn></msup><mo>−</mo><msup><msub><mi>x</mi><mn>1</mn></msub><mn>2</mn></msup><mo>=</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>−</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo></mrow></math>",
+      "controls": [
+        {
+          "key": "kind",
+          "label": "函数模型",
+          "type": "select",
+          "options": [
+            {
+              "value": "square",
+              "label": "平方函数"
+            },
+            {
+              "value": "cube",
+              "label": "三次函数 / 3"
+            },
+            {
+              "value": "decreasing",
+              "label": "y=-x"
+            },
+            {
+              "value": "constant",
+              "label": "常函数 y=1"
+            }
+          ]
+        },
+        {
+          "key": "left",
+          "label": "左点 x₁",
+          "type": "range",
+          "min": -2,
+          "max": 1,
+          "step": 0.1
+        },
+        {
+          "key": "gap",
+          "label": "横坐标差 x₂-x₁",
+          "type": "range",
+          "min": 0.1,
+          "max": 1,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "kind": "square",
+        "left": -0.5,
+        "gap": 1
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-5-2",
+          "afterBlockId": "bx1-5-2-b19",
+          "rationale": "覆盖本节原prose第19块：通过反例和有序两点比较区分局部点对观察与全区间单调定义。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "inverse-domain",
+      "title": "反函数：保留哪一个平方根分支",
+      "goal": "用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。",
+      "summary": "反函数先以原函数值域为定义域，解出原自变量，再交换横纵坐标。点 (a,b) 与 (b,a) 关于 y=x 对称：不重合时，连线中点在 y=x 上且连线斜率为 -1。一般反函数图像因此关于 y=x 对称。平方函数须先限制为非负或非正半轴，才得到对应平方根分支；这里由同一动点看这一限制。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mi>b</mi><mo>⇔</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>;</mo><mspace width=\"1em\"/><mi>y</mi><mo>=</mo><msqrt><mi>x</mi></msqrt><mtext> 或 </mtext><mi>y</mi><mo>=</mo><mo>−</mo><msqrt><mi>x</mi></msqrt></mrow></math>",
+      "controls": [
+        {
+          "key": "branch",
+          "label": "原函数分支",
+          "type": "select",
+          "options": [
+            {
+              "value": "positive",
+              "label": "原自变量非负"
+            },
+            {
+              "value": "negative",
+              "label": "原自变量非正"
+            }
+          ]
+        },
+        {
+          "key": "x",
+          "label": "原自变量的绝对值",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "branch": "positive",
+        "x": 1.5
+      },
+      "placements": [
+        {
+          "sectionId": "bx1-5-4",
+          "afterBlockId": "bx1-5-4-b11",
+          "rationale": "覆盖本节原prose第11块：用交换坐标和定义域分支解释反函数图像的对称性及求解步骤。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "unit-circle-projection",
+      "title": "单位圆：带符号投影统一四种三角比",
+      "goal": "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。",
+      "summary": "将角顶点放在原点、始边放在 x 正半轴，终边任取非原点 P(x,y)，r 为到原点距离。锐角三角比推广为带符号坐标与 r 的比；取单位圆 r=1 后，横纵坐标直接成为 cos 与 sin。终边同向伸缩不改比值，转过整周也不改值；tan、cot 必须分别排除分母为零的情形。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>r</mi><mo>=</mo><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt><mo>&gt;</mo><mn>0</mn><mo>;</mo><mspace width=\"1em\"/><mi>sin</mi><mi>α</mi><mo>=</mo><mfrac><mi>y</mi><mi>r</mi></mfrac><mo>,</mo><mi>cos</mi><mi>α</mi><mo>=</mo><mfrac><mi>x</mi><mi>r</mi></mfrac><mo>,</mo><mi>tan</mi><mi>α</mi><mo>=</mo><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>,</mo><mi>cot</mi><mi>α</mi><mo>=</mo><mfrac><mi>x</mi><mi>y</mi></mfrac></mrow></math>",
+      "controls": [
+        {
+          "key": "angle",
+          "label": "转角（度）",
+          "type": "range",
+          "min": -360,
+          "max": 720,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "angle": 45
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-6-1",
+          "afterBlockId": "bx2-6-1-b25",
+          "rationale": "覆盖本节原prose第25块：将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "sine-unroll",
+      "title": "把单位圆的一周展开成一段正弦曲线",
+      "goal": "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。",
+      "summary": "对每个角，把弧度数作为新点的横坐标，把单位圆点的纵坐标作为新点的纵坐标，得到正弦曲线。角转一周，函数图像完成一个周期；五个关键点给出零点、峰和谷，用光滑曲线连接后按 2π 平移可扩展至全体实数。描五点是作图方法，不表示曲线由折线组成。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>P</mi><mo>(</mo><mi>cos</mi><mi>α</mi><mo>,</mo><mi>sin</mi><mi>α</mi><mo>)</mo><mo>→</mo><mi>M</mi><mo>(</mo><mi>α</mi><mo>,</mo><mi>sin</mi><mi>α</mi><mo>)</mo><mo>;</mo><mspace width=\"1em\"/><mi>sin</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>π</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi></mrow></math>",
+      "controls": [
+        {
+          "key": "angle",
+          "label": "展开转角（度）",
+          "type": "range",
+          "min": 0,
+          "max": 360,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "angle": 120
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-1",
+          "afterBlockId": "bx2-7-1-b6",
+          "rationale": "覆盖本节原prose第6块：让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "sine-transform",
+      "title": "振幅、周期、初相：不要把 φ 误当横移量",
+      "goal": "用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。",
+      "summary": "振动模型中 A>0 为振幅，ω>0 为圆频率，周期 T=2π/ω，频率 f=1/T=ω/(2π)；相位为 ωx+φ，初相为 φ。A 改变纵向幅度，ω 改变周期；水平位移是 -φ/ω 而非 -φ。负 A 或负 ω 可由诱导公式化归。时钟顺时针的负角速度情境和弹簧照片保留在原文。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>A</mi><mi>sin</mi><mo>[</mo><mi>ω</mi><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mi>φ</mi><mi>ω</mi></mfrac><mo>)</mo><mo>]</mo><mo>;</mo><mspace width=\"1em\"/><mi>T</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>π</mi></mrow><mi>ω</mi></mfrac><mo>,</mo><mi>f</mi><mo>=</mo><mfrac><mi>ω</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></mrow></math>",
+      "controls": [
+        {
+          "key": "amplitude",
+          "label": "振幅 A",
+          "type": "range",
+          "min": 0.5,
+          "max": 3,
+          "step": 0.25
+        },
+        {
+          "key": "omega",
+          "label": "圆频率 ω",
+          "type": "range",
+          "min": 0.5,
+          "max": 3,
+          "step": 0.25
+        },
+        {
+          "key": "phase",
+          "label": "初相 φ（度）",
+          "type": "range",
+          "min": -180,
+          "max": 180,
+          "step": 15
+        },
+        {
+          "key": "x",
+          "label": "观察点 x（弧度）",
+          "type": "range",
+          "min": -5,
+          "max": 5,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "amplitude": 1.5,
+        "omega": 1,
+        "phase": 30,
+        "x": 0
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-3",
+          "afterBlockId": "bx2-7-3-b2",
+          "rationale": "覆盖本节原prose第2块：用一条可调曲线同时呈现振幅、周期、频率、相位及正确横移量。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "tangent-branches",
+      "title": "正切：渐近线不是可以跨越的曲线",
+      "goal": "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。",
+      "summary": "正切值可由终边所在直线与 x=1 的交点纵坐标表示；终边与 x=1 平行时没有交点。先作 (-π/2,π/2) 一支，再按 π 的整数倍平移。定义域排除 π/2+kπ；这些直线隔开不同分支，禁止跨线连点。每支内严格增不等于整个定义域上严格增。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>tan</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1em\"/><mi>x</mi><mo>≠</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>+</mo><mi>k</mi><mi>π</mi><mo>,</mo><mi>k</mi><mo>∈</mo><mi>ℤ</mi></mrow></math>",
+      "controls": [
+        {
+          "key": "angle",
+          "label": "观察角（度）",
+          "type": "range",
+          "min": -270,
+          "max": 270,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "angle": 60
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-7-4",
+          "afterBlockId": "bx2-7-4-b4",
+          "rationale": "覆盖本节原prose第4块：通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "dot-projection",
+      "title": "投影先带符号，再计算数量积",
+      "goal": "用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。",
+      "summary": "点的投影是向目标直线作垂线的垂足；向量投影由起终点的投影之差组成。以非零 a 为方向，b 的数量投影为 |b|cosθ，投影向量为这一数乘 a 的单位向量，模为数量投影的绝对值。锐角同向、钝角反向、直角为零；b=0 也投影为零但不定义夹角。数量积进一步乘 |a|，得到数量而不是向量；这也是力做功的方向分量解释。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>proj</mi><mi>a</mi></msub><mi>b</mi><mo>=</mo><mfrac><mrow><mo>|</mo><mi>b</mi><mo>|</mo><mi>cos</mi><mi>θ</mi></mrow><mrow><mo>|</mo><mi>a</mi><mo>|</mo></mrow></mfrac><mi>a</mi><mo>;</mo><mspace width=\"1em\"/><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mo>|</mo><mi>a</mi><mo>|</mo><mo>|</mo><mi>b</mi><mo>|</mo><mi>cos</mi><mi>θ</mi></mrow></math>",
+      "controls": [
+        {
+          "key": "a",
+          "label": "非零方向向量长度 |a|",
+          "type": "range",
+          "min": 0.5,
+          "max": 4,
+          "step": 0.25
+        },
+        {
+          "key": "b",
+          "label": "向量长度 |b|",
+          "type": "range",
+          "min": 0,
+          "max": 4,
+          "step": 0.25
+        },
+        {
+          "key": "angle",
+          "label": "夹角 θ（度；b=0时不适用）",
+          "type": "range",
+          "min": 0,
+          "max": 180,
+          "step": 5
+        }
+      ],
+      "initial": {
+        "a": 3,
+        "b": 2.5,
+        "angle": 120
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-8-2",
+          "afterBlockId": "bx2-8-2-b4",
+          "rationale": "覆盖本节原prose第4块：用夹角跨越90度解释投影向量、数量投影和数量积正负，减少多图叙述。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    },
+    {
+      "id": "complex-transform",
+      "title": "复数乘除：转角与伸缩一次看清",
+      "goal": "用旋转伸缩把复数乘除公式与两角和展开联系起来。",
+      "summary": "复数相乘，模相乘、辐角相加；相除时除数非零，模相除、辐角相减。公式由两角和的正弦余弦公式展开得到；商的公式可乘回除数验证。辐角模 2π 确定；零复数没有辐角，但乘非零复数后仍为零。本模块用模和转角控制同一变换。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub><mo>=</mo><mi>r</mi><mi>s</mi><mo>[</mo><mi>cos</mi><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>+</mo><mi>i</mi><mi>sin</mi><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>]</mo><mo>;</mo><mspace width=\"1em\"/><mfrac><msub><mi>z</mi><mn>1</mn></msub><msub><mi>z</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mi>r</mi><mi>s</mi></mfrac><mo>[</mo><mi>cos</mi><mo>(</mo><mi>α</mi><mo>−</mo><mi>β</mi><mo>)</mo><mo>+</mo><mi>i</mi><mi>sin</mi><mo>(</mo><mi>α</mi><mo>−</mo><mi>β</mi><mo>)</mo><mo>]</mo><mo>,</mo><mi>s</mi><mo>&gt;</mo><mn>0</mn></mrow></math>",
+      "controls": [
+        {
+          "key": "operation",
+          "label": "运算",
+          "type": "select",
+          "options": [
+            {
+              "value": "multiply",
+              "label": "乘以 w"
+            },
+            {
+              "value": "divide",
+              "label": "除以 w"
+            }
+          ]
+        },
+        {
+          "key": "r",
+          "label": "原复数模 |z|",
+          "type": "range",
+          "min": 0,
+          "max": 2,
+          "step": 0.1
+        },
+        {
+          "key": "alpha",
+          "label": "原复数辐角（度）",
+          "type": "range",
+          "min": -180,
+          "max": 180,
+          "step": 15
+        },
+        {
+          "key": "scale",
+          "label": "变换复数模 |w|",
+          "type": "range",
+          "min": 0.5,
+          "max": 2,
+          "step": 0.1
+        },
+        {
+          "key": "beta",
+          "label": "变换转角（度）",
+          "type": "range",
+          "min": -180,
+          "max": 180,
+          "step": 15
+        }
+      ],
+      "initial": {
+        "operation": "multiply",
+        "r": 1.5,
+        "alpha": 30,
+        "scale": 1.5,
+        "beta": 60
+      },
+      "placements": [
+        {
+          "sectionId": "bx2-9-4",
+          "afterBlockId": "bx2-9-4-b11",
+          "rationale": "覆盖本节原prose第11块：用旋转伸缩把复数乘除公式与两角和展开联系起来。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。"
+        }
+      ],
+      "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。"
+    }
+  ]
+}

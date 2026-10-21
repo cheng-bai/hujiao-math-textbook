@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "id": "bx2-chapter-end-8",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "8",
+  "chapter_title": "第8章平面向量",
+  "section": "chapter-end-8",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md": "df97e6756fb784de420af97b4ec31edaf75e3dbd25ff0b9437c38cc0bb60424c",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md": "318000326b721c61ff32f752d3a32bf4b8f2005ab485d4da5dea552c4210d88c"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1525,
+          "end": 1525
+        }
+      ],
+      "id": "bx2-chapter-end-8",
+      "number": "chapter-end-8",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "heading",
+      "title": "话说向量",
+      "markdown": "## 话说向量",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1527,
+          "end": 1527
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "向量的故事可以追溯到遥远的年代. 早年的向量——物理学家称之为“矢量”，只是物理学专门用来表示力和速度等物理量的工具, 并不为数学家所重视. 古希腊学者亚里士多德 (Aristotle) 已经知道两个力的合成可以用平行四边形的法则得到. 但是, 在欧几里得 (Euclid)集古希腊数学大成的《几何原本》中，却没有讨论向量. 此后 2000 年左右，不管是文艺复兴时期, 还是牛顿(I. Newton)与莱布尼茨(G. Leibniz)创立微积分之后的 17、18 世纪, 人们对向量的认识并没有发生什么根本性的变化. 但进入 19 世纪，事情开始有了很大的转机. 其中, 对 “复数” (将在下一章学习) 认识的深入起了重要的推动作用. 为了更好地理解复数, 丹麦数学家韦塞尔 (C. Wessel) 于 1797 年, 瑞士数学家阿尔冈 (J. Argand) 于 1806 年独立地建立起复数的几何表示, 而高斯 (J. Gauss) 的工作则使这一原理广为人知, 并被数学家们普遍接受. 在熟悉复数的几何表示之后, 数学家们逐步认识到复数可用来表示和研究平面上的向量. 平面向量与复数之间建立起一一对应, 这不但为虚数的现实化提供了可能, 也为向量的发展开辟了道路.\n\n在现代数学中, 平面上和空间中直观的向量被形式化地推广为高维向量, 形成了抽象的向量空间的概念, 是大学数学中线性代数的主要内容.\n\n向量连接着代数和几何, 连接着数学与物理. 在数学上, 点的直角坐标、向量的坐标分解、直角三角形中锐角的正弦与余弦、复数的实部与虚部, 这些概念形式上不同, 却又彼此相通. 因此, 向量也会是中学数学舞台上一位独具魅力的角色.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1528,
+          "end": 1534
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "内容提要",
+      "markdown": "## 内容提要",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1535,
+          "end": 1535
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "1. 平面向量的基本概念\n\n(1)向量:既有大小又有方向的量，常用 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{AB}$ 等记号表示.\n\n(2)向量的模:向量的大小，向量 $\\overrightarrow{a}$ 的模记为 $\\left| \\overrightarrow{a}\\right|$ .\n\n(3)零向量:其模为 0，方向任意.\n\n(4)单位向量:模为 1 的向量；非零向量 $\\overrightarrow{a}$ 的单位向量是 $\\frac{\\overrightarrow{a}}{\\left| \\overrightarrow{a}\\right| }$ .\n\n(5)平行向量:方向相同或相反的向量.\n\n(6)相等向量:方向相同、模相等的向量.\n\n(7)负向量:方向相反、模相等的向量.\n\n2. 向量的线性运算\n\n(1)平面向量的加法、减法:运用平行四边形法则或三角形法则.\n\n(2)减去一个向量等于加上它的负向量.\n\n(3)实数与平面向量的乘法:实数 $\\lambda$ 与向量 $\\overrightarrow{a}$ 的乘积，记作 $\\lambda \\overrightarrow{a}$ .\n\n(4)向量的加法满足交换律和结合律；实数与向量的乘法对向量加减法满足分配律。\n\n3. 向量的投影与数量积\n\n(1)向量的夹角:向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角记为 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ ，其值 $0 \\leq  \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  \\leq  \\pi$ .\n\n(2)向量的投影:向量 $\\overrightarrow{b}$ 在非零向量 $\\overrightarrow{a}$ 方向上的投影是如下的向量:\n\n$$\n\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle \\frac{\\overrightarrow{a}}{\\left| \\overrightarrow{a}\\right| }.\n$$\n\n其中，系数 $\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 称为向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的数量投影.\n\n(3)向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的数量积定义为\n\n$$\n\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle .\n$$\n\n(4)向量的数量积满足交换律，并且是线性的(即对向量的加减满足分配律，且可与实数的乘法交换).\n\n4. 平面向量基本定理与向量的坐标表示\n\n(1)平面向量基本定理:给定平面上两个不平行的向量，则该平面上的任意向量都可以唯一地表示为这两个向量的线性组合，也就是说，平面上任意两个不平行的向量都组成了一个基.\n\n(2)向量的坐标表示:在直角坐标系中，把向量 $\\overrightarrow{a}$ 的起点放到坐标原点，向量就直接用它的终点坐标 $\\left( {x, y}\\right)$ 表示为 $\\overrightarrow{a} = \\left( {x, y}\\right)$ ，称为向量的坐标表示，这样，向量 $\\overrightarrow{a}$ 就可写成坐标轴正方向上的单位向量 $\\overrightarrow{i}\\text{ 、 }\\overrightarrow{j}$ 的线性组合 $\\overrightarrow{a} = x\\overrightarrow{i} + y\\overrightarrow{j}$ .\n\n(3)给定平面上两点 $A\\left( {{x}_{1},{y}_{1}}\\right)$ 与 $B\\left( {{x}_{2},{y}_{2}}\\right)$ ，则 $\\overrightarrow{AB} = \\left( {{x}_{2} - {x}_{1},{y}_{2} - {y}_{1}}\\right)$ .\n\n5. 坐标表示下的向量运算\n\n设向量 $\\overrightarrow{a} = \\left( {{x}_{1},{y}_{1}}\\right) ,\\overrightarrow{b} = \\left( {{x}_{2},{y}_{2}}\\right)$ ,则\n\n(1) $\\left| \\overrightarrow{a}\\right|  = \\sqrt{{x}_{1}^{2} + {y}_{1}^{2}}$ .\n\n(2) $\\overrightarrow{a} \\pm  \\overrightarrow{b} = \\left( {{x}_{1} \\pm  {x}_{2},{y}_{1} \\pm  {y}_{2}}\\right)$ .\n\n(3) $\\lambda \\overrightarrow{a} = \\left( {\\lambda {x}_{1},\\lambda {y}_{1}}\\right) ,\\lambda  \\in  \\mathbf{R}$ .\n\n(4) $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = {x}_{1}{x}_{2} + {y}_{1}{y}_{2}$ .\n\n6. 向量的夹角、平行与垂直\n\n设向量 $\\overrightarrow{a} = \\left( {{x}_{1},{y}_{1}}\\right) ,\\overrightarrow{b} = \\left( {{x}_{2},{y}_{2}}\\right)$ ,则\n\n(1) $\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\overrightarrow{a} \\cdot  \\overrightarrow{b}}{\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| } = \\frac{{x}_{1}{x}_{2} + {y}_{1}{y}_{2}}{\\sqrt{{x}_{1}^{2} + {y}_{1}^{2}}\\sqrt{{x}_{2}^{2} + {y}_{2}^{2}}}$ .\n\n(2) $\\overrightarrow{a}//\\overrightarrow{b} \\Leftrightarrow  \\overrightarrow{b} = \\lambda \\overrightarrow{a}\\left( {\\lambda  \\in  \\mathbf{R}}\\right)$ 或 $\\overrightarrow{a} = \\mu \\overrightarrow{b}\\left( {\\mu  \\in  \\mathbf{R}}\\right)  \\Leftrightarrow  {x}_{1}{y}_{2} = {x}_{2}{y}_{1}$ .\n\n(3) $\\overrightarrow{a} \\bot  \\overrightarrow{b} \\Leftrightarrow  \\overrightarrow{a} \\cdot  \\overrightarrow{b} = 0 \\Leftrightarrow  {x}_{1}{x}_{2} + {y}_{1}{y}_{2} = 0$ .\n\n7. 向量的应用\n\n要体会如何从各种有关的问题中抽象出相应的向量问题，并用所掌握的向量方法解决这个向量问题，从而使原问题得以解决.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1536,
+          "end": 1616
+        }
+      ],
+      "emphases": [
+        {
+          "start": 1016,
+          "end": 1175,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-chapter-end-8-definition-4-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1617,
+          "end": 1617
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1619,
+          "end": 1619
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1620,
+          "end": 1624
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 如图, 在边长为 1 的小正方形组成的网格上, 求:\n\n(1) $\\left| \\overrightarrow{AB}\\right|$ ； (2) $\\left| \\overrightarrow{CD}\\right|$ ； (3) $\\left| \\overrightarrow{EF}\\right|$ .\n\n![bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1625,
+          "end": 1628
+        },
+        {
+          "source": "book",
+          "start": 1621,
+          "end": 1623
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1625,
+          "end": 1628
+        },
+        {
+          "source": "book",
+          "start": 1621,
+          "end": 1623
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-1",
+      "category": "复习题A",
+      "answer": "1. (1) $3\\sqrt{2}$ . (2) $\\sqrt{26}$ . (3) $2\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 648,
+          "end": 649
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 均为非零向量,写出 $\\left| {\\overrightarrow{a} + \\overrightarrow{b}}\\right|  = \\left| \\overrightarrow{a}\\right|  + \\left| \\overrightarrow{b}\\right|$ 成立的充要条件.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1629,
+          "end": 1630
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1629,
+          "end": 1630
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-2",
+      "category": "复习题A",
+      "answer": "2. $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 同向.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 650,
+          "end": 651
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 为非零向量,且 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }5\\overrightarrow{a} - 4\\overrightarrow{b}$ 在同一起点上. 求证: 它们的终点在同一条直线上.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1631,
+          "end": 1632
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1631,
+          "end": 1632
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-3",
+      "category": "复习题A",
+      "answer": "3. 证明略, 提示: 计算它们的终点连成的向量.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 652,
+          "end": 653
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 在矩形 ${ABCD}$ 中,边 ${AB}\\text{ 、 }{AD}$ 的长分别为 $2\\text{ 、 }1$ ,若 $M\\text{ 、 }N$ 分别是边 ${BC}\\text{ 、 }{CD}$ 上的点,且满足 $\\frac{\\left| \\overrightarrow{BM}\\right| }{\\left| \\overrightarrow{BC}\\right| } = \\frac{\\left| \\overrightarrow{CN}\\right| }{\\left| \\overrightarrow{CD}\\right| }$ ,则 $\\overrightarrow{AM} \\cdot  \\overrightarrow{AN}$ 的取值范围是___.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1633,
+          "end": 1634
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1633,
+          "end": 1634
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-4",
+      "category": "复习题A",
+      "answer": "4. $\\left( {1,4}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 654,
+          "end": 655
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 已知两个向量 $\\overrightarrow{{e}_{1}}$ 、 $\\overrightarrow{{e}_{2}}$ 满足 $\\left| \\overrightarrow{{e}_{1}}\\right|  = 2$ ， $\\left| \\overrightarrow{{e}_{2}}\\right|  = 1$ ， $\\left\\langle  {\\overrightarrow{{e}_{1}},\\overrightarrow{{e}_{2}}}\\right\\rangle   = {60}^{ \\circ  }$ ，且向量 ${2\\lambda }\\overrightarrow{{e}_{1}} + 7\\overrightarrow{{e}_{2}}$ 与向量 $\\overrightarrow{{e}_{1}} + \\lambda \\overrightarrow{{e}_{2}}$ 的夹角为钝角. 求实数 $\\lambda$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1635,
+          "end": 1636
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1635,
+          "end": 1636
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-5",
+      "category": "复习题A",
+      "answer": "5. $\\left( {-7, - \\frac{\\sqrt{14}}{2}}\\right)  \\cup  \\left( {-\\frac{\\sqrt{14}}{2}, - \\frac{1}{2}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 656,
+          "end": 657
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 已知向量 $\\overrightarrow{a} = \\left( {1,0}\\right) ,\\overrightarrow{b} = \\left( {2,1}\\right)$ .\n\n(1)求 $\\left| {\\overrightarrow{a} + 3\\overrightarrow{b}}\\right|$ ；\n\n(2)当 $k$ 为何实数时， $k\\overrightarrow{a} - \\overrightarrow{b}$ 与 $\\overrightarrow{a} + 3\\overrightarrow{b}$ 平行？平行时它们是同向还是反向？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1637,
+          "end": 1642
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1637,
+          "end": 1642
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-6",
+      "category": "复习题A",
+      "answer": "6. (1)√58．(2)－－－),反向.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 658,
+          "end": 659
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 已知在平面直角坐标系中, $O$ 为原点,点 $A\\left( {4, - 3}\\right) , B\\left( {-5,{12}}\\right)$ .\n\n(1)求向量 $\\overrightarrow{AB}$ 的坐标及 $\\left| \\overrightarrow{AB}\\right|$ ；\n\n(2)已知向量 $\\overrightarrow{OC} = 2\\overrightarrow{OA} + \\overrightarrow{OB},\\overrightarrow{OD} = \\overrightarrow{OA} - 3\\overrightarrow{OB}$ ，求 $\\overrightarrow{OC}$ 及 $\\overrightarrow{OD}$ 的坐标；\n\n(3)求 $\\overrightarrow{OA} \\cdot  \\overrightarrow{OB}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1643,
+          "end": 1650
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1643,
+          "end": 1650
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-7",
+      "category": "复习题A",
+      "answer": "7. (1)(-9,15),3/34. (2) $\\left( {3,6}\\right) ,\\left( {{19}, - {39}}\\right)$ . (3) -56 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 660,
+          "end": 661
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 8",
+      "markdown": "8. 已知向量 $\\overrightarrow{a} = \\left( {3, - 2}\\right) ,\\overrightarrow{b} = \\left( {-2,1}\\right) ,\\overrightarrow{c} = \\left( {7, - 4}\\right)$ ，求 $\\lambda$ 、 $\\mu$ ，使得 $\\overrightarrow{c} = \\lambda \\overrightarrow{a} + \\mu \\overrightarrow{b}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1651,
+          "end": 1652
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1651,
+          "end": 1652
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-8",
+      "category": "复习题A",
+      "answer": "8. $\\lambda  = 1,\\mu  =  - 2$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 662,
+          "end": 663
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 9",
+      "markdown": "9. 已知点 $M\\left( {3, - 2}\\right) \\text{ 、 }N\\left( {-5, - 1}\\right)$ ,且 $\\overrightarrow{MP} = \\frac{1}{3}\\overrightarrow{MN}$ . 求点 $P$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1653,
+          "end": 1654
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1653,
+          "end": 1654
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-9",
+      "category": "复习题A",
+      "answer": "9. $\\left( {\\frac{1}{3}, - \\frac{5}{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 664,
+          "end": 665
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 10",
+      "markdown": "10. 在等腰三角形 ${ABC}$ 中,已知 $D$ 为底边 ${BC}$ 的中点. 求证: ${AD} \\bot  {BC}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1655,
+          "end": 1660
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1655,
+          "end": 1660
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-10",
+      "category": "复习题A",
+      "answer": "10. 证明略,提示: 用 $\\overrightarrow{AB}\\text{、}\\overrightarrow{AC}$ 表示 $\\overrightarrow{AD}\\text{、}\\overrightarrow{BC}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 666,
+          "end": 667
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 11",
+      "markdown": "11. 如图,在四边形 ${ABCD}$ 中, $G$ 为对角线 ${AC}$ 与 ${BD}$ 中点连线 ${MN}$ 的中点, $P$ 为平面上任意给定的一点. 求证: $4\\overrightarrow{PG} = \\; \\overrightarrow{PA} + \\overrightarrow{PB} + \\overrightarrow{PC} + \\overrightarrow{PD}.$\n\n![bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg)\n\n(第 11 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1661,
+          "end": 1662
+        },
+        {
+          "source": "book",
+          "start": 1657,
+          "end": 1659
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1661,
+          "end": 1662
+        },
+        {
+          "source": "book",
+          "start": 1657,
+          "end": 1659
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-11",
+      "category": "复习题A",
+      "answer": "11. 证明: $4\\overrightarrow{PG} = 2\\overrightarrow{PN} + 2\\overrightarrow{PM} = \\overrightarrow{PA} + \\overrightarrow{PC} + \\overrightarrow{PB} + \\overrightarrow{PD}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 668,
+          "end": 669
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 12",
+      "markdown": "12. 在四边形 ${ABCD}$ 中,向量 $\\overrightarrow{AB} = \\overrightarrow{i} + 2\\overrightarrow{j},\\overrightarrow{BC} =  - 4\\overrightarrow{i} - \\overrightarrow{j}$ , $\\overrightarrow{CD} =  - 5\\overrightarrow{i} - 3\\overrightarrow{j}$ . 求证: ${ABCD}$ 为梯形.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1663,
+          "end": 1664
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1663,
+          "end": 1664
+        }
+      ],
+      "id": "bx2-chapter-end-8-hA-12",
+      "category": "复习题A",
+      "answer": "12. 证明略,提示: 计算得到 $\\overrightarrow{AD}$ 与 $\\overrightarrow{BC}$ 平行, $\\overrightarrow{AB}$ 与 $\\overrightarrow{CD}$ 不平行.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 670,
+          "end": 671
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "## B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1665,
+          "end": 1665
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 均为非零向量,其中的任意两个向量都不平行,且 $\\overrightarrow{a} + \\overrightarrow{b}$ 与 $\\overrightarrow{c}$ 是平行向量, $\\overrightarrow{a} + \\overrightarrow{c}$ 与 $\\overrightarrow{b}$ 是平行向量. 求证: $\\overrightarrow{b} + \\overrightarrow{c}$ 与 $\\overrightarrow{a}$ 是平行向量.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1667,
+          "end": 1668
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1667,
+          "end": 1668
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-1",
+      "category": "复习题B",
+      "answer": "1. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 674,
+          "end": 675
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 2",
+      "markdown": "2. 如图,点 $A\\text{ 、 }M\\text{ 、 }B$ 在同一条直线上,点 $O$ 不在该直线上,且 $\\overrightarrow{AM} = \\frac{1}{3}\\overrightarrow{AB}$ . 设 $\\overrightarrow{OA} = \\overrightarrow{a},\\overrightarrow{OB} = \\overrightarrow{b},\\overrightarrow{OM} = \\overrightarrow{c}$ ,试用向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 表示 $\\overrightarrow{c}$ .\n\n![bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1669,
+          "end": 1678
+        },
+        {
+          "source": "book",
+          "start": 1671,
+          "end": 1673
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1669,
+          "end": 1678
+        },
+        {
+          "source": "book",
+          "start": 1671,
+          "end": 1673
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-2",
+      "category": "复习题B",
+      "answer": "2. $\\overrightarrow{c} = \\frac{2}{3}\\overrightarrow{a} + \\frac{1}{3}\\overrightarrow{b}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 676,
+          "end": 677
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 设平面上有两个向量 $\\overrightarrow{a} = \\left( {\\cos \\alpha ,\\sin \\alpha }\\right) \\left( {{0}^{ \\circ  } \\leq  \\alpha  < {360}^{ \\circ  }}\\right) ,\\overrightarrow{b} = \\left( {-\\frac{1}{2},\\frac{\\sqrt{3}}{2}}\\right)$ .\n\n(1)求证:向量 $\\overrightarrow{a} + \\overrightarrow{b}$ 与 $\\overrightarrow{a} - \\overrightarrow{b}$ 垂直；\n\n(2)当向量 $\\sqrt{3}\\overrightarrow{a} + \\overrightarrow{b}$ 与 $\\overrightarrow{a} - \\sqrt{3}\\overrightarrow{b}$ 的模相等时，求 $\\alpha$ 的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1679,
+          "end": 1684
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1679,
+          "end": 1684
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-3",
+      "category": "复习题B",
+      "answer": "3.(1)证明略,提示:两个向量的数量积为 0 .\n\n(2) $\\frac{\\pi }{6}$ 或 $\\frac{7\\pi }{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 678,
+          "end": 681
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 如图，在矩形 ${ABCD}$ 中， ${AB} = \\sqrt{2},{BC} = 2, E$ 为 ${BC}$ 的中点，点 $F$ 在边 ${CD}$ 上且 $\\overrightarrow{AB} \\cdot  \\overrightarrow{AF} = \\sqrt{2}$ . 求 $\\overrightarrow{AE} \\cdot  \\overrightarrow{BF}$ 的值.\n\n![bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg)\n\n(第 4 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1685,
+          "end": 1686
+        },
+        {
+          "source": "book",
+          "start": 1675,
+          "end": 1677
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1685,
+          "end": 1686
+        },
+        {
+          "source": "book",
+          "start": 1675,
+          "end": 1677
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-4",
+      "category": "复习题B",
+      "answer": "4. $\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 682,
+          "end": 683
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 5",
+      "markdown": "5. 已知等边三角形 ${ABC}$ 的边长为 $1,\\overrightarrow{BC} = \\overrightarrow{a},\\overrightarrow{CA} = \\overrightarrow{b},\\overrightarrow{AB} = \\overrightarrow{c}$ . 求 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} + \\overrightarrow{b} \\cdot  \\overrightarrow{c} + \\; \\overrightarrow{c} \\cdot  \\overrightarrow{a}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1687,
+          "end": 1688
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1687,
+          "end": 1688
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-5",
+      "category": "复习题B",
+      "answer": "5. $- \\frac{3}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 684,
+          "end": 685
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 6",
+      "markdown": "6. 已知向量 $\\overrightarrow{OA} = \\left( {k,{12}}\\right) ,\\overrightarrow{OB} = \\left( {4,5}\\right) ,\\overrightarrow{OC} = \\left( {-k,{10}}\\right)$ ，且 $A$ 、 $B$ 、 $C$ 三点共线. 求实数 $k$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1689,
+          "end": 1690
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1689,
+          "end": 1690
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-6",
+      "category": "复习题B",
+      "answer": "6. $- \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 686,
+          "end": 687
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 7",
+      "markdown": "7. 已知向量 $\\overrightarrow{OA} = \\left( {1,7}\\right) ,\\overrightarrow{OB} = \\left( {5,1}\\right) ,\\overrightarrow{OP} = \\left( {2,1}\\right) , K$ 为直线 ${OP}$ 上的一个动点,当 $\\overrightarrow{KA} \\cdot  \\overrightarrow{KB}$ 取最小值时,求向量 $\\overrightarrow{OK}$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1691,
+          "end": 1692
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1691,
+          "end": 1692
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-7",
+      "category": "复习题B",
+      "answer": "7. $\\left( {4,2}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 688,
+          "end": 689
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 8",
+      "markdown": "8. 如图,在正方形 ${ABCD}$ 中, $P$ 是对角线 ${AC}$ 上一点, ${PE}$ 垂直 ${AB}$ 于点 $E,{PF}$ 垂直 ${BC}$ 于点 $F$ . 求证: ${PD} \\bot  {EF}$ .\n\n![bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg)\n\n(第 8 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1693,
+          "end": 1702
+        },
+        {
+          "source": "book",
+          "start": 1695,
+          "end": 1697
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1693,
+          "end": 1702
+        },
+        {
+          "source": "book",
+          "start": 1695,
+          "end": 1697
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-8",
+      "category": "复习题B",
+      "answer": "8. 证明略,提示: 设 $\\overrightarrow{AP} = \\lambda \\overrightarrow{AB} + \\lambda \\overrightarrow{AD},0 < \\lambda  < 1$ ,用 $\\overrightarrow{AB}$ 和 $\\overrightarrow{AD}$ 作为基向量表示 $\\overrightarrow{PD}$ 和 $\\overrightarrow{EF}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 690,
+          "end": 691
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 9",
+      "markdown": "9. 证明: 三角形的三条高相交于一点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1703,
+          "end": 1704
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1703,
+          "end": 1704
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-9",
+      "category": "复习题B",
+      "answer": "9. 证明略,提示: 以一条边及其上的高所在的直线为 $x$ 轴和 $y$ 轴建立平面直角坐标系.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 692,
+          "end": 693
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 10",
+      "markdown": "10. 如图,甲、乙分处河的两岸,欲拉船 $M$ 逆流而上,需在正前方有 3 000 N 的力. 已知甲所用的力 ${\\overrightarrow{f}}_{1}$ 的大小为 ${2000}\\mathrm{\\;N}$ ,且与 $M$ 的前进方向的夹角为 $\\frac{\\pi }{6}$ . 求乙所用的力 ${\\overrightarrow{f}}_{2}$ .\n\n![bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg](sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg)\n\n(第 10 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1705,
+          "end": 1706
+        },
+        {
+          "source": "book",
+          "start": 1699,
+          "end": 1701
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1705,
+          "end": 1706
+        },
+        {
+          "source": "book",
+          "start": 1699,
+          "end": 1701
+        }
+      ],
+      "id": "bx2-chapter-end-8-hB-10",
+      "category": "复习题B",
+      "answer": "10. $\\overrightarrow{{f}_{2}}$ 的大小为 ${1000}\\sqrt{{13} - 6\\sqrt{3}}\\mathrm{\\;N}$ ,与 $M$ 的前进方向的夹角为 $\\arcsin \\frac{1}{\\sqrt{{13} - 6\\sqrt{3}}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 694,
+          "end": 695
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "## 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1707,
+          "end": 1707
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中, ${AB} = {AC} = 5,{BC} = 6, M$ 是边 ${AC}$ 上靠近 $A$ 的一个三等分点. 问: 在线段 ${BM}$ 上是否存在点 $P$ ,使得 ${PC} \\bot  {BM}$ ?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1709,
+          "end": 1710
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1709,
+          "end": 1710
+        }
+      ],
+      "id": "bx2-chapter-end-8-t-1",
+      "category": "拓展与思考",
+      "answer": "1. 不存在.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 698,
+          "end": 699
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 在 $\\bigtriangleup {ABC}$ 中,已知点 $O\\text{ 、 }G\\text{ 、 }H$ 分别是三角形的外心、重心和垂心. 求证: $O$ 、 $G\\text{ 、 }H$ 三点共线. (此直线称为欧拉线)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1711,
+          "end": 1711
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1711,
+          "end": 1711
+        }
+      ],
+      "id": "bx2-chapter-end-8-t-2",
+      "category": "拓展与思考",
+      "answer": "2. 证明略, 提示: 寻找合适的坐标轴建立平面直角坐标系.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 700,
+          "end": 701
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n张景中, 彭翕成. 绕来绕去的向量法 $\\left\\lbrack  \\mathrm{M}\\right\\rbrack$ . 北京: 科学出版社, 2010.\n\n### 附录\n\n1. 向量空间的抽象定义\n\n实数域 $\\mathbf{R}$ (也可换成其他数域) 上的向量空间是一个集合 $V$ ,并且\n\n(1)有一个定义在 $V$ 上的二元运算十(加法),使得 $a + b \\in  V$ ,对所有 $a$ 、 $b \\in  V$ ,并且满足\n\n① $a + b = b + a$ ,对所有 $a$ 、 $b \\in  V$ ；\n\n② $\\left( {a + b}\\right)  + c = a + \\left( {b + c}\\right)$ ,对所有 $a$ 、 $b$ 、 $c \\in  V$ ；\n\n③存在一个元素 $0 \\in  V$ ,使得 $0 + a = a$ ,对所有 $a \\in  V$ ;\n\n④对任何 $a \\in  V$ ,存在元素 $- a \\in  V$ ,使得 $a + \\left( {-a}\\right)  = 0$ .\n\n(2)任意 $\\lambda  \\in  \\mathbf{R}$ 与 $a \\in  V$ 定义一个元素 ${\\lambda a} \\in  V$ (可理解为实数 $\\lambda$ 与向量 $a$ 的积),满足\n\n① ${1a} = a$ ,对所有 $a \\in  V$ ；\n\n② ${0a} = 0$ ,对所有 $a \\in  V$ ；\n\n③ $\\lambda \\left( {\\mu a}\\right)  = \\left( {\\lambda \\mu }\\right) a$ ,对所有 $a \\in  V$ , $\\lambda$ 、 $\\mu  \\in  \\mathbf{R}$ ；\n\n④ $\\left( {\\lambda  + \\mu }\\right) a = {\\lambda a} + {\\mu a}$ ,对所有 $a \\in  V,\\lambda \\text{、}\\mu  \\in  \\mathbf{R}$ ；\n\n⑤ $\\lambda \\left( {a + b}\\right)  = {\\lambda a} + {\\lambda b}$ ,对所有 $a\\text{、}b \\in  V,\\lambda  \\in  \\mathbf{R}$ .\n\n2. 向量空间的例\n\n设 $n$ 是一个正整数, $n$ 个实数的数组组成的集合\n\n$$\n{\\mathbf{R}}^{n} = \\left\\{  {\\left( {{x}_{1},{x}_{2},\\cdots ,{x}_{n}}\\right)  \\mid  {x}_{1},{x}_{2},\\cdots ,{x}_{n} \\in  \\mathbf{R}}\\right\\}\n$$\n\n是一个向量空间, 只要定义\n\n$$\n\\begin{gather} \\left( {{x}_{1},{x}_{2},\\cdots ,{x}_{n}}\\right)  + \\left( {{y}_{1},{y}_{2},\\cdots ,{y}_{n}}\\right)  = \\left( {{x}_{1} + {y}_{1},{x}_{2} + {y}_{2},\\cdots ,{x}_{n} + {y}_{n}}\\right) , \\\\ \\lambda \\left( {{x}_{1},{x}_{2},\\cdots ,{x}_{n}}\\right)  = \\left( {\\lambda {x}_{1},\\lambda {x}_{2},\\cdots ,\\lambda {x}_{n}}\\right) , \\end{gather}\n$$\n\n这里 $\\lambda$ 与所有 ${x}_{i}\\text{、}{y}_{i}\\left( {i = 1,2,\\cdots , n}\\right)$ 都是实数.\n\n这是一个 $n$ 维向量空间,向量\n\n$$\n\\left( {1,0,\\cdots ,0}\\right) ,\\left( {0,1,\\cdots ,0}\\right) ,\\cdots \\cdots ,\\left( {0,0,\\cdots ,1}\\right)\n$$\n\n就组成它的一个基.\n\n实际上,这个例子有它的普遍意义: 实数域 $\\mathbf{R}$ 上的任何 $n$ 维向量空间都可以通过它的一个基表示为 (更严格的数学语言是 “同构于” ) ${\\mathbf{R}}^{n}$ .\n\n说明: 在线性代数或高等代数课程中, 为了把线性变换的矩阵左乘, 常用列的形\n\n式把数组写成 $\\left( \\begin{matrix} {x}_{1} \\\\  {x}_{2} \\\\  \\vdots \\\\  {x}_{n} \\end{matrix}\\right)$ .",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 702,
+          "end": 764
+        }
+      ],
+      "teacher_only": true
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 1621,
+      "original": "images/bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1657,
+      "original": "images/bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1671,
+      "original": "images/bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1675,
+      "original": "images/bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1695,
+      "original": "images/bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1699,
+      "original": "images/bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg",
+      "exists": true
+    }
+  ]
+}

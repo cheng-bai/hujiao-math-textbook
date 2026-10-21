@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "notes": 6,
+  "examples": 29,
+  "paired_questions": 118,
+  "homework_questions": 64,
+  "exercise_questions": 30,
+  "chapter_end_questions": 24,
+  "unique_images": 35,
+  "source_parts": 363,
+  "wikilinks": 336,
+  "source_files_unchanged": 2,
+  "pending_original_issues": 5,
+  "limits": [
+    "原稿缺损答案保留并标记",
+    "未完整数学审校",
+    "未Obsidian界面验证",
+    "当前无子agent工具，需第二遍自查"
+  ]
+}

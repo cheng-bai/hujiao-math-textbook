@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "key": "a",
+      "label": "P(A)",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "b",
+      "label": "P(B)",
+      "max": 0.9,
+      "min": 0.1,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo></math>",
+  "goal": "单位正方形内两个坐标独立均匀，矩形交集面积表达乘法关系。",
+  "id": "independent-area",
+  "initial": {
+    "a": 0.6,
+    "b": 0.5
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-12-4-b3",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "bx3-12-4"
+    }
+  ],
+  "summary": "当两个坐标独立且分别均匀时，P(X≤a,Y≤b)=ab=P(X≤a)P(Y≤b)。图形是概率模型示意，不自动适用于相关变量。",
+  "title": "独立事件的面积模型"
+}

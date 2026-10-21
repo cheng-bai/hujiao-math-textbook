@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19T16:47:01Z",
+  "command": [
+    "node",
+    "scripts/textbook-labs/test-space-sequence.mjs"
+  ],
+  "execution_context": "原教材项目根目录。测试还核对教材落点；资源包不包含整册教材，运行同一测试需原项目。",
+  "family": "space-sequence",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "space-sequence: 12 models; 236 boundary/typical states; 5026 assertions passed; 33 section decisions validated.\n",
+  "tested_files": [
+    {
+      "path": "source/space-sequence.js",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "path": "source/space-sequence.json",
+      "sha256": "5652130b4f550a3925f8bb46f74c6f66468564493e5a6d2bc1976ade3e375d9d"
+    },
+    {
+      "path": "source/test-space-sequence.mjs",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "path": "source/lab-core.js",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    }
+  ]
+}

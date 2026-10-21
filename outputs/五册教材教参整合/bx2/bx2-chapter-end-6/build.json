@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-chapter-end-6",
+  "book_id": "bx2",
+  "section": "chapter-end-6",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx2/bx2-chapter-end-6.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-chapter-end-6",
+  "fingerprint": "ddb327923d555b014ea89c3c8abf98e217cc445d69149cfdcadc529eb3103e8f",
+  "status": "rendered",
+  "questions": 24,
+  "answers": 24,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-1207fe997cf876469255.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_50_148_1121_467_356_0.jpg",
+      "sha256": "1207fe997cf87646925551bd52489c06f548f9359611de410e86b101de0b3f61",
+      "private": false
+    },
+    "images/private-9a29a446adc61ceb39ac.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_38_1133_1378_301_306_0.jpg",
+      "sha256": "9a29a446adc61ceb39ac9ce0ff775f0dc17051f7f40245f11197b53aaa18add4",
+      "private": true
+    },
+    "images/private-bd3dc81d7c8a82e14b57.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_39_1160_666_214_290_0.jpg",
+      "sha256": "bd3dc81d7c8a82e14b57c22b145918f7071a1403cb6c9ddbb51c8b669474f132",
+      "private": true
+    },
+    "images/book-9b57d9b4f377afa19179.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_54_1180_1325_293_298_0.jpg",
+      "sha256": "9b57d9b4f377afa19179a3a41a915ebc2ec1d620560648cb3a4f85a27745f278",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md": "1f2210ff0bce6971a02e05d7cd5742155939bb0793a58d28bc41aca0eccb25d4",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md": "951dfaa143a04c1455631b569dec7057de61212992a37bae59d52cee03a6aeb9"
+  },
+  "student_images": [
+    "images/book-1207fe997cf876469255.jpg",
+    "images/book-9b57d9b4f377afa19179.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "71eaf8f71a3dae8338147151ba3134c0fc9cd6c69416833e6ef6b2076e271b33",
+    "student.html": "1a072dac3cf9b2d3e012d1a2cdc9fcef637fd328c707fc86dd5eb2b6c5cfcf67",
+    "student.zip": "998e271b1024d5df5624940fcdbfa6f6e15aad693d74aa98c72f478422a94d8d",
+    "content.json": "972f5e9b058a4806f710b9fb454158424063a9e4ab34b758876f22b348d5278d"
+  }
+}

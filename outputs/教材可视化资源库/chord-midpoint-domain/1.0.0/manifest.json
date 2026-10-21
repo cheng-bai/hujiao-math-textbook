@@ -1,0 +1,354 @@
+{
+  "asset_id": "f9216559-c4c7-5083-8bf5-e5bc93bd4639",
+  "contributors": [
+    {
+      "name": "Codex deep-geometry implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "candidate": true,
+      "u": 0.4
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-geometry",
+    "source_build_sha256": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x1-2-5-b5",
+          "rationale": "在轨迹方程双向验证步骤后增设选学探究，保留全部原文。",
+          "retainProse": true,
+          "sectionId": "x1-2-5",
+          "sourceSha256": "56a46a33f53c713751cd9f27d0569adfe37cfc23f0e4100a23c11fd7900aea61"
+        }
+      ],
+      "sections": [
+        "x1-2-5"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 23318,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792"
+    },
+    {
+      "bytes": 11941,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "cf318c83796a9335f89df9eff59a872345ff35aead211ed9441fbdce81ff471b"
+    },
+    {
+      "bytes": 7955,
+      "media_type": "text/javascript",
+      "path": "source/deep-geometry.js",
+      "role": "source",
+      "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+    },
+    {
+      "bytes": 14266,
+      "media_type": "application/json",
+      "path": "source/deep-geometry.json",
+      "role": "source",
+      "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+    },
+    {
+      "bytes": 4838,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-geometry.mjs",
+      "role": "source",
+      "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 4128,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "b5497fbe20b5e1b0c2303e0ffe7719f6469941e368646aaf34006d8c94da43da"
+    },
+    {
+      "bytes": 4931,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "1f9d5073922acbfa44d4ff4702d014ea3a3c69c8b677aa36969912107ced984e"
+    },
+    {
+      "bytes": 1025,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "4ca9764549806f42122937f0eb8de854a4857abb24a85c9c78e792de2b1ffae7"
+    },
+    {
+      "bytes": 2308,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "226f47514fdcff9b950ffd6bcdf8565c234ac9f99a6c97935ce4dfb59378497e"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "bf23852c60031757d715d84f8b93d1f82f8d19d5db06fff1ee687ef841739e2f"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 523,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "4fc43d6630d74e1877f5ffea9dd444d47291645359eaff2d5deec98a9ce6c207"
+    },
+    {
+      "bytes": 187988,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "379c49e5cb82a696c930b507580af6fbb9f5c2949d91b370b0e2271127384b02"
+    },
+    {
+      "bytes": 112814,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "46604ca9eb68fb55baea595d8a88d25f6178a9bae90afdeb57420a310f83bc80"
+    },
+    {
+      "bytes": 181998,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "91fd7670aeecb6afaa4e4baefba5e85e259a5c1b020f15559ec42b4dc835f481"
+    },
+    {
+      "bytes": 112613,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "cdfd1ac45d651e51632844afed53e9fac01f8cfb19fe5423fefb6b3010702b8e"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "a7b726e14acf675226a90707f420ac213d8bd349015d34eb8f5f371a8ace4fe8"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "固定椭圆x²/4+y²=1，平行弦所在直线为y=x+t。联立得5x²+8tx+4t²−4=0，两个不同交点存在当且仅当t²<5。由两根和可得弦中点M=(−4t/5,t/5)，故y=−x/4且|x|<4/√5。反过来，对此开线段内任意一点，取t=−5x/4均可构造非退化弦。因此轨迹恰为开线段，而不是消元所得整条直线；t=±√5时相切，端点不取。本模块为选学探究，保留原文的双向验证。"
+    ],
+    "learning_goals": [
+      "用相切与相离状态区分必要条件和充分条件，解释轨迹端点为何不取。"
+    ],
+    "objects": [
+      "弦中点轨迹：消元整线与有效开线段"
+    ],
+    "parameters": {
+      "candidate": {
+        "default": true,
+        "domain": "布尔状态：显示/隐藏；不改变数学条件。",
+        "type": "boolean"
+      },
+      "u": {
+        "default": 0.4,
+        "display_range": [
+          -1.4,
+          1.4
+        ],
+        "domain": "本实验允许输入范围 [-1.4, 1.4]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-geometry"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "用相切与相离状态区分必要条件和充分条件，解释轨迹端点为何不取。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "candidate": true,
+          "u": 0.4
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "chord-midpoint-domain",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "candidate": {
+        "type": "boolean"
+      },
+      "u": {
+        "maximum": 1.4,
+        "minimum": -1.4,
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "弦中点轨迹：消元整线与有效开线段",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:40Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-geometry.js",
+          "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+        },
+        {
+          "path": "source/deep-geometry.json",
+          "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+        },
+        {
+          "path": "source/test-deep-geometry.mjs",
+          "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.839662Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.839662Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.712837Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "fd66666f0251f270dbf06ee541be5ec3257e06b36d2261935e2577a3a2cad792"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "cf318c83796a9335f89df9eff59a872345ff35aead211ed9441fbdce81ff471b"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

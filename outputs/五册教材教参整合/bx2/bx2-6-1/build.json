@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-6-1",
+  "book_id": "bx2",
+  "section": "6.1",
+  "title": "正弦、余弦、正切、余切",
+  "section_json": "batch/sections/bx2/bx2-6-1.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-6-1",
+  "fingerprint": "b819ecdc60931857069586c55ea10e1abd84fd61846a5d8747efa26746d47130",
+  "status": "rendered",
+  "questions": 72,
+  "answers": 72,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-992f1c03935c75620c4f.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_0_0_1_1654_1178_0.jpg",
+      "sha256": "992f1c03935c75620c4f7b0c8d9cc03f7ab380a6e66c88d0eca648655314749a",
+      "private": false
+    },
+    "images/book-286c810cf9817d2f8bbe.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_1_207_701_283_202_0.jpg",
+      "sha256": "286c810cf9817d2f8bbe2191250c84e4fbf216d90c798382a96b570f5c4ee1e6",
+      "private": false
+    },
+    "images/book-a7120af7c6fcf12bd12d.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_2_1172_648_256_224_0.jpg",
+      "sha256": "a7120af7c6fcf12bd12d3e81171beb8c16e2386133720dca4a045cbf19d50883",
+      "private": false
+    },
+    "images/book-ddafce420f70398c437b.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_2_234_1340_782_279_0.jpg",
+      "sha256": "ddafce420f70398c437b771e315f1f5f0275f286d8edfd1e270ddf238da30765",
+      "private": false
+    },
+    "images/book-0cd51892f49987fe8260.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_4_1159_226_283_258_0.jpg",
+      "sha256": "0cd51892f49987fe82607b72f009c93929377edb649a22c54166620539396eb7",
+      "private": false
+    },
+    "images/private-061d8aaedada78ceb7c2.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_5_205_523_286_255_0.jpg",
+      "sha256": "061d8aaedada78ceb7c2caf08292f2fc9c2d57b94bd30c2affd711b9c3acd480",
+      "private": true
+    },
+    "images/book-1758fa3a2bd1af425eac.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_6_1154_936_291_233_0.jpg",
+      "sha256": "1758fa3a2bd1af425eac5077a3bfaf3c35f6e73499845ff74c08ec9a405535c4",
+      "private": false
+    },
+    "images/book-18c934abc0ac5ab9da79.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_6_294_1672_661_461_0.jpg",
+      "sha256": "18c934abc0ac5ab9da7979877f64c858611f9ee5916b45e488028d12e1171160",
+      "private": false
+    },
+    "images/private-bd24505fcd4604bdc654.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_8_391_300_467_536_0.jpg",
+      "sha256": "bd24505fcd4604bdc65478eb0da81e1832f7578597355840c11b44a972f8dd9e",
+      "private": true
+    },
+    "images/book-6b083f216e7cff52b5d6.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_9_177_231_341_292_0.jpg",
+      "sha256": "6b083f216e7cff52b5d60de547824e602a2fcbe1baf6c4c6197d2d787d0930a2",
+      "private": false
+    },
+    "images/book-a5298e31d489224553ee.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_9_209_582_275_273_0.jpg",
+      "sha256": "a5298e31d489224553ee2c4d2305374f396c2233bc217e71934e8f440798716f",
+      "private": false
+    },
+    "images/book-1bbad214a00d82241884.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_13_209_233_275_273_0.jpg",
+      "sha256": "1bbad214a00d82241884624118a0f2bbd342343c8c997e7012252d77419e0a6f",
+      "private": false
+    },
+    "images/book-2a4820677e789ec2c704.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_13_209_795_275_271_0.jpg",
+      "sha256": "2a4820677e789ec2c7045c8b69b43886d7ff819bbba74027ec7c8d44cf4c9b9b",
+      "private": false
+    },
+    "images/book-6305ac57cf100dfc19f8.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_13_208_1408_276_275_0.jpg",
+      "sha256": "6305ac57cf100dfc19f8babcac38e173376ac5fbf895d28255efe2f1e8d10b05",
+      "private": false
+    },
+    "images/book-4391fae268efdb2fa193.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_15_200_715_292_277_0.jpg",
+      "sha256": "4391fae268efdb2fa1935edff57fd4db6b29987a5eba9bf4667b2e0d8faa9e9a",
+      "private": false
+    },
+    "images/book-b6b7a81d8b71d9fb224b.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_17_165_1086_362_278_0.jpg",
+      "sha256": "b6b7a81d8b71d9fb224b1db0a98f9ad56d4dbb737094299fb21116e53072340f",
+      "private": false
+    },
+    "images/book-c8f0cb71653a642e19b6.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_18_146_937_963_335_0.jpg",
+      "sha256": "c8f0cb71653a642e19b638a2650626a4407195e48b03043fbd9c5d26e9cb1ca5",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md": "1f2210ff0bce6971a02e05d7cd5742155939bb0793a58d28bc41aca0eccb25d4",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md": "951dfaa143a04c1455631b569dec7057de61212992a37bae59d52cee03a6aeb9"
+  },
+  "student_images": [
+    "images/book-0cd51892f49987fe8260.jpg",
+    "images/book-1758fa3a2bd1af425eac.jpg",
+    "images/book-18c934abc0ac5ab9da79.jpg",
+    "images/book-1bbad214a00d82241884.jpg",
+    "images/book-286c810cf9817d2f8bbe.jpg",
+    "images/book-2a4820677e789ec2c704.jpg",
+    "images/book-4391fae268efdb2fa193.jpg",
+    "images/book-6305ac57cf100dfc19f8.jpg",
+    "images/book-6b083f216e7cff52b5d6.jpg",
+    "images/book-992f1c03935c75620c4f.jpg",
+    "images/book-a5298e31d489224553ee.jpg",
+    "images/book-a7120af7c6fcf12bd12d.jpg",
+    "images/book-b6b7a81d8b71d9fb224b.jpg",
+    "images/book-c8f0cb71653a642e19b6.jpg",
+    "images/book-ddafce420f70398c437b.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "27a3f7c0ea9486b50f9220599a2c62cc81b46ba35d7673f4134bc30a6e2a3eac",
+    "student.html": "6eaac53dfbc7b54ed5f2fc395cb51496f10b78ab3941a67b50a3337b7f2ceb1e",
+    "student.zip": "2132b56310294723d984a5d20dbac531382c2bdd058c52629b9a27e85be9819d",
+    "content.json": "4264611a16d8c4e35910f5bf26656f4096b9fa635efc22b3cf2ac24ac3c7e014"
+  }
+}

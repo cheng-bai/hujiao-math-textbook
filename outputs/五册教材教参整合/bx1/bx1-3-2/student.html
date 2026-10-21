@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx1-3-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>3.2 对数 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第一册 / 第3章幂、指数与对数</div><div class="spine-number">3.2</div><nav aria-label="本节目录"><a href="#bx1-3-2"><span>3.2</span>对数</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 3.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 3.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>对数<span class="cover-dot">.</span></h1><p class="cover-deck">必修第一册<br>第3章幂、指数与对数 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>7 个例题</span><span>23 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx1-3-2" data-title="对数"><section class="section-heading" id="bx1-3-2"><span class="section-number">3.2</span><div><h2>对数</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="bx1-3-2-b2">1 对数的定义</h3><div class="prose" data-visual-source-sha="56fb095d30f79fc5521b9192a0706879ee42134260740d40de7c3b7655028d89" id="bx1-3-2-b3"><p><img src="images/book-bb2b04d9b19e0ef9eea3.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>纳皮尔(J. Napier, 1550 - 1617), 苏格兰数学家, 对数的发明者.</p>
+<p>想象这样一个场景, 某人在银行存入 1 万元, 若年利率为 5%，且按年计复利，经过多少年 1 万元存款才能连本带利超过 5 万元呢?</p>
+<p>年利率为 5% 的意思是一年之后 1 万元变成 <span class="math" data-tex="1 \times  \left( {1 + 5\% }\right)  =" data-display="false"></span> 1.05 万元. 按年计复利的意思是每过一年自动将连本带利作为本金再次存入银行生息. 这样,经过 <span class="math" data-tex="n" data-display="false"></span> 年后,存款连本带利的总数应达到 <span class="math" data-tex="{1.05}^{n}" data-display="false"></span> 万元. 根据题意,我们要回答,当 <span class="math" data-tex="n" data-display="false"></span> 是多少时,</p>
+<div class="math display" data-tex="{1.05}^{n} &gt; 5\text{ ? }" data-display="true"></div>
+<p>实际上,如果能够找到一个数 <span class="math" data-tex="x" data-display="false"></span> ,使得 <span class="math" data-tex="{1.05}^{x} = 5" data-display="false"></span> ,那么 <span class="math" data-tex="n" data-display="false"></span> 就是大于 <span class="math" data-tex="x" data-display="false"></span> 的最小整数.</p>
+<p>抽象一下上面的问题: 设 <span class="math" data-tex="a &gt; 0, N &gt; 0" data-display="false"></span> ,要找 <span class="math" data-tex="x" data-display="false"></span> ,使得</p>
+<div class="math display" data-tex="{a}^{x} = N\text{ . }" data-display="true"></div>
+<p>①</p>
+<p>要讨论这个问题,首先要假设 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ,以保证对所有的 <span class="math" data-tex="x" data-display="false"></span> , <span class="math" data-tex="{a}^{x}" data-display="false"></span> 都有定义. 还要假设 <span class="math" data-tex="a \neq  1" data-display="false"></span> ,因为如果 <span class="math" data-tex="a = 1,{a}^{x}" data-display="false"></span> 就恒等于 1, 在 <span class="math" data-tex="N &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="N \neq  1" data-display="false"></span> 时,方程①无解; 而在 <span class="math" data-tex="N = 1" data-display="false"></span> 时,方程①有解但不唯一.</p>
+<p>此外,在 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ,且 <span class="math" data-tex="a \neq  1" data-display="false"></span> 时,只要 <span class="math" data-tex="N &gt; 0" data-display="false"></span> ,方程 <span class="math" data-tex="{a}^{x} = N" data-display="false"></span> 总有唯一的解.</p>
+<aside class="key-point key-concept" id="bx1-3-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p><strong>定义</strong> 在 <span class="math" data-tex="a &gt; 0, a \neq  1" data-display="false"></span> ,且 <span class="math" data-tex="N &gt; 0" data-display="false"></span> 的条件下,唯一满足 <span class="math" data-tex="{a}^{x} = N" data-display="false"></span> 的数 <span class="math" data-tex="x" data-display="false"></span> ,称为 <span class="math" data-tex="N" data-display="false"></span> 以 <span class="math" data-tex="a" data-display="false"></span> 为底的对数 (logarithm),并用符号 <span class="math" data-tex="{\log }_{a}N" data-display="false"></span> 表示,而 <span class="math" data-tex="N" data-display="false"></span> 称为真数.</p>
+</aside><blockquote>
+<p>对数的底是不等于 1 的正数.</p>
+</blockquote>
+<blockquote>
+<p>&quot;log&quot;是拉丁文 logarithmus 的缩写.</p>
+</blockquote>
+<p>这样, 在讨论对数的时候, 我们总是假设底是不等于 1 的正数,并且假设真数是正数. 另外,由定义,对数 <span class="math" data-tex="{\log }_{a}N" data-display="false"></span> 这个记号表示满足方程 <span class="math" data-tex="{a}^{x} = N" data-display="false"></span> 的唯一确定的数 <span class="math" data-tex="x" data-display="false"></span> . 因此</p>
+<div class="math display" data-tex="{a}^{{\log }_{a}N} = N." data-display="true"></div>
+<p>②</p>
+<p>这个式子看起来很玄妙, 但不过是对数定义的另一个表达方式而已, 也充分说明对数运算是指数运算的逆运算.</p>
+<p>由此恒等式可以推出,若两个正数 <span class="math" data-tex="M\text{ 、 }N" data-display="false"></span> 的对数 <span class="math" data-tex="{\log }_{a}M" data-display="false"></span> 与 <span class="math" data-tex="{\log }_{a}N" data-display="false"></span> 相等,则 <span class="math" data-tex="M = N" data-display="false"></span> ,即若同一个底的两个对数相等,则其真数必相等. 这是因为</p>
+<div class="math display" data-tex="M = {a}^{{\log }_{a}M} = {a}^{{\log }_{a}N} = N." data-display="true"></div>
+<p>此外,因为 <span class="math" data-tex="{a}^{0} = 1,{a}^{1} = a" data-display="false"></span> ,易见</p>
+<div class="math display" data-tex="{\log }_{a}1 = 0,{\log }_{a}a = 1." data-display="true"></div>
+<p>在一些特殊情况下, 可以写出对数的具体数值, 而在一般情况下, 估算对数的精确值极为困难, 需要查阅有关的对数表或利用计算器来得到对数的近似值.</p>
+</div><article class="question" id="bx1-3-2-ex-1" data-question-id="bx1-3-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p><strong>例 1</strong> 求下列各式的值:</p>
+<p>(1)log <span class="math" data-tex="{}_{2}8" data-display="false"></span> ；</p>
+<p>(2)lo <span class="math" data-tex="{\text{ g }}_{2}\sqrt{2}" data-display="false"></span> ;</p>
+<p>(3) <span class="math" data-tex="{\log }_{10}{0.000}" data-display="false"></span> 01.</p>
+</div></article><article class="question" id="bx1-3-2-ex-2" data-question-id="bx1-3-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p><strong>例 2</strong> 求下列各式中 <span class="math" data-tex="x" data-display="false"></span> 的值:</p>
+<p>(1) <span class="math" data-tex="{\log }_{2}x =  - 1" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\log }_{\frac{1}{2}}x = 3" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\ln x =  - 1" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx1-3-2-b6">练习 3.2(1)</h3><article class="question" id="bx1-3-2-p321-1" data-question-id="bx1-3-2-p321-1" data-category="practice"><div class="question-label">练习3.2(1) · 1</div><div class="question-body"><ol>
+<li>以下对数式中,与指数式 <span class="math" data-tex="{5}^{x} = 6" data-display="false"></span> 等价的是 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="{\log }_{5}6 = x" data-display="false"></span> ; B. <span class="math" data-tex="{\log }_{5}x = 6" data-display="false"></span> ;</p>
+<p>C. <span class="math" data-tex="{\log }_{6}x = 5" data-display="false"></span> ; D. <span class="math" data-tex="{\log }_{x}6 = 5" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-p321-2" data-question-id="bx1-3-2-p321-2" data-category="practice"><div class="question-label">练习3.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1)lo <span class="math" data-tex="{\text{ g }}_{5}" data-display="false"></span> 25; (2) <span class="math" data-tex="{\log }_{\frac{1}{3}}{27}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\log }_{4}\sqrt{2}" data-display="false"></span> ； (4) <span class="math" data-tex="{2}^{{\log }_{2}3}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-p321-3" data-question-id="bx1-3-2-p321-3" data-category="practice"><div class="question-label">练习3.2(1) · 3</div><div class="question-body"><ol start="3">
+<li>求下列各式中 <span class="math" data-tex="x" data-display="false"></span> 的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{4}x = 2" data-display="false"></span> ； (2) <span class="math" data-tex="{\log }_{x}4 = 2" data-display="false"></span> .</p>
+</div></article><h3 class="group-heading" id="bx1-3-2-b10">2 对数的运算性质</h3><div class="prose" data-visual-source-sha="54aaf8bdbdc6814bdf2404bb607655b6552a4fee24ab6fa4ce7d71fac42aff60" id="bx1-3-2-b11"><p>引进对数的初衷是为了处理多位数的乘除及开方. 在本节中可以看到, 对数可以把乘除运算转变为加减运算, 并把乘方开方运算转化为乘除运算. 这为多位数的乘除及开方运算提供了一条简便的途径.</p>
+<p>我们知道指数的运算性质: 对任意给定的正数 <span class="math" data-tex="a" data-display="false"></span> 及实数 <span class="math" data-tex="s" data-display="false"></span> 、 <span class="math" data-tex="t" data-display="false"></span> ,有</p>
+<div class="math display" data-tex="{a}^{s + t} = {a}^{s}{a}^{t}," data-display="true"></div>
+<p>通俗地说, 指数可以把加减转化为乘除. 这个性质在对数中怎么体现呢?</p>
+<p>在本节中,我们总假设 <span class="math" data-tex="a &gt; 0" data-display="false"></span> ,且 <span class="math" data-tex="a \neq  1" data-display="false"></span> .</p>
+<p>设 <span class="math" data-tex="M &gt; 0, N &gt; 0" data-display="false"></span> ,令 <span class="math" data-tex="b = {\log }_{a}M, c = {\log }_{a}N" data-display="false"></span> ,就有 <span class="math" data-tex="{a}^{b} = M" data-display="false"></span> , <span class="math" data-tex="{a}^{c} = N" data-display="false"></span> ,因此</p>
+<div class="math display" data-tex="{MN} = {a}^{b}{a}^{c} = {a}^{b + c}." data-display="true"></div>
+<p>从而, 由对数的定义, 有</p>
+<div class="math display" data-tex="{\log }_{a}\left( {MN}\right)  = b + c = {\log }_{a}M + {\log }_{a}N." data-display="true"></div>
+<p>由此可得下述对数运算的基本性质.</p>
+<p><strong>对数性质 1</strong> 当 <span class="math" data-tex="M &gt; 0, N &gt; 0" data-display="false"></span> 时,</p>
+<div class="math display" data-tex="{\log }_{a}\left( {MN}\right)  = {\log }_{a}M + {\log }_{a}N." data-display="true"></div>
+<p>由性质 1 可以推出</p>
+<div class="math display" data-tex="{\log }_{a}M = {\log }_{a}\left( {\frac{M}{N} \cdot  N}\right)  = {\log }_{a}\frac{M}{N} + {\log }_{a}N," data-display="true"></div>
+<p>从而得到</p>
+<p><strong>对数性质 2</strong> 当 <span class="math" data-tex="M &gt; 0, N &gt; 0" data-display="false"></span> 时,</p>
+<div class="math display" data-tex="{\log }_{a}\frac{M}{N} = {\log }_{a}M - {\log }_{a}N." data-display="true"></div>
+<p>对数性质 1 与 2 可以通俗地解释为: 对数把乘除运算转化为加减运算.</p>
+<p>设 <span class="math" data-tex="N &gt; 0" data-display="false"></span> ,令 <span class="math" data-tex="b = {\log }_{a}N" data-display="false"></span> ,则 <span class="math" data-tex="N = {a}^{b}" data-display="false"></span> . 由 <span class="math" data-tex="{\left( {a}^{b}\right) }^{c} = {a}^{bc}" data-display="false"></span> ,得 <span class="math" data-tex="{a}^{bc} = {N}^{c}" data-display="false"></span> ,从而由对数的定义, <span class="math" data-tex="{bc} = {\log }_{a}{N}^{c}" data-display="false"></span> . 所以,我们有</p>
+<p><strong>对数性质 3</strong> 当 <span class="math" data-tex="N &gt; 0" data-display="false"></span> 时,对任何给定的实数 <span class="math" data-tex="c" data-display="false"></span> ,</p>
+<div class="math display" data-tex="{\log }_{a}{N}^{c} = c{\log }_{a}N." data-display="true"></div>
+<p>特别地,当 <span class="math" data-tex="c" data-display="false"></span> 为大于 1 的正整数 <span class="math" data-tex="n" data-display="false"></span> 时,乘方转化为乘; 当 <span class="math" data-tex="c = \frac{1}{n}" data-display="false"></span> 时,开方转化为除. 这说明: 对数把乘方及开方分别转化为乘与除.</p>
+</div><article class="question" id="bx1-3-2-ex-3" data-question-id="bx1-3-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p><strong>例 3</strong> 求下列各式的值:</p>
+<p>(1)lo <span class="math" data-tex="{g}_{3}\left( {{9}^{4} \times  {3}^{2}}\right)" data-display="false"></span> ;</p>
+<p>(2) <span class="math" data-tex="{\log }_{3}\sqrt[5]{9}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="2{\log }_{5}{10} + {\log }_{5}3 - {\log }_{5}{12}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-ex-4" data-question-id="bx1-3-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p><strong>例 4</strong> 已知 <span class="math" data-tex="{\log }_{5}2 = a,{5}^{b} = 3" data-display="false"></span> ,用 <span class="math" data-tex="a" data-display="false"></span> 及 <span class="math" data-tex="b" data-display="false"></span> 表示 <span class="math" data-tex="{\log }_{5}{12}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-ex-5" data-question-id="bx1-3-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p><strong>例 5</strong> 在有声世界, 声强级是表示声强度相对大小的指标. 其值 <span class="math" data-tex="y" data-display="false"></span> [单位: <span class="math" data-tex="\mathrm{{dB}}" data-display="false"></span> (分贝)] 定义为</p>
+<div class="math display" data-tex="y = {10}\lg \frac{I}{{I}_{0}}." data-display="true"></div>
+<p>其中, <span class="math" data-tex="I" data-display="false"></span> 为声场中某点的声强度,其单位为 <span class="math" data-tex="\mathrm{W}/{\mathrm{m}}^{2}" data-display="false"></span> (瓦/平方米), <span class="math" data-tex="{I}_{0} = {10}^{-{12}}\mathrm{\;W}/{\mathrm{m}}^{2}" data-display="false"></span> 为基准值.</p>
+<p>(1)如果 <span class="math" data-tex="I = {10}\mathrm{\;W}/{\mathrm{m}}^{2}" data-display="false"></span> ，求相应的声强级；</p>
+<p>(2)声强级为 <span class="math" data-tex="{60}\mathrm{\;{dB}}" data-display="false"></span> 时的声强度 <span class="math" data-tex="{I}_{60}" data-display="false"></span> 是声强级为 <span class="math" data-tex="{50}\mathrm{\;{dB}}" data-display="false"></span> 时的声强度 <span class="math" data-tex="{I}_{50}" data-display="false"></span> 的多少倍?</p>
+<p><img src="images/book-8e35d3356ee705fd0765.jpg" alt="教材或教参原图" loading="eager"></p>
+<blockquote>
+<p>一般地，正常交谈的声音是 <span class="math" data-tex="{60}\mathrm{{dB}}" data-display="false"></span> ,闹市区的声音是 <span class="math" data-tex="{80}\mathrm{\;{dB}}" data-display="false"></span> , 飞机起飞时的声音大约是 <span class="math" data-tex="{120}\mathrm{{dB}}" data-display="false"></span> .</p>
+</blockquote>
+</div></article><h3 class="group-heading" id="bx1-3-2-b15">练习 3.2(2)</h3><article class="question" id="bx1-3-2-p322-1" data-question-id="bx1-3-2-p322-1" data-category="practice"><div class="question-label">练习3.2(2) · 1</div><div class="question-body"><ol>
+<li>已知 <span class="math" data-tex="A = {\log }_{a}x, B = {\log }_{a}y\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> . 用 <span class="math" data-tex="A" data-display="false"></span> 及 <span class="math" data-tex="B" data-display="false"></span> 表示下列各式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{a}{xy}" data-display="false"></span> ;</p>
+<p>(2) <span class="math" data-tex="{\log }_{a}\frac{{x}^{2}}{\sqrt{y}}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-p322-2" data-question-id="bx1-3-2-p322-2" data-category="practice"><div class="question-label">练习3.2(2) · 2</div><div class="question-body"><ol start="2">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{15}3 + {\log }_{15}5" data-display="false"></span> ； (2) <span class="math" data-tex="{\log }_{2}\sqrt[3]{4}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\log }_{5}\sqrt{10} - \frac{1}{2}{\log }_{5}{250}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-p322-3" data-question-id="bx1-3-2-p322-3" data-category="practice"><div class="question-label">练习3.2(2) · 3</div><div class="question-body"><ol start="3">
+<li>已知 <span class="math" data-tex="{\log }_{7}3 = a,{7}^{b} = 2" data-display="false"></span> . 用 <span class="math" data-tex="a" data-display="false"></span> 及 <span class="math" data-tex="b" data-display="false"></span> 表示 <span class="math" data-tex="{\log }_{7}{72}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-3-2-b19">3 对数的换底</h3><div class="prose" data-visual-source-sha="7538d1080638fa908ed1d73ff4d83be7686958f1f32a4b7372b82185993f2a4f" id="bx1-3-2-b20"><p>下面将介绍对数换底公式. 不同底的对数可以很方便地互相转换.</p>
+<p>如前所述,对数的底 <span class="math" data-tex="a" data-display="false"></span> 总是为不等于 1 的正数.</p>
+<p>设 <span class="math" data-tex="b &gt; 0" data-display="false"></span> 且 <span class="math" data-tex="b \neq  1" data-display="false"></span> 为另一个底,且 <span class="math" data-tex="N &gt; 0" data-display="false"></span> . 令 <span class="math" data-tex="c = {\log }_{b}N" data-display="false"></span> ,即 <span class="math" data-tex="{b}^{c} = N" data-display="false"></span> . 由对数性质 3,得</p>
+<div class="math display" data-tex="{\log }_{a}N = {\log }_{a}{b}^{c} = c{\log }_{a}b = {\log }_{b}N \cdot  {\log }_{a}b," data-display="true"></div>
+<p>因此得到</p>
+<p><strong>对数换底公式</strong> 当 <span class="math" data-tex="N &gt; 0" data-display="false"></span> 时,</p>
+<div class="math display" data-tex="{\log }_{b}N = \frac{{\log }_{a}N}{{\log }_{a}b}." data-display="true"></div>
+<p>它把以 <span class="math" data-tex="b" data-display="false"></span> 为底的对数换成两个以 <span class="math" data-tex="a" data-display="false"></span> 为底的对数的商,其中 <span class="math" data-tex="{\log }_{a}b" data-display="false"></span> 只与两个底的值有关,而与真数 <span class="math" data-tex="N" data-display="false"></span> 无关.</p>
+<p>例如，估算 <span class="math" data-tex="{\log }_{2}3" data-display="false"></span> ，可先应用换底公式，得</p>
+<div class="math display" data-tex="{\log }_{2}3 = \frac{\lg 3}{\lg 2}." data-display="true"></div>
+<p>再利用计算器上的常用对数功能键,得 <span class="math" data-tex="\lg 2 \approx  {0.3010},\lg 3 \approx  {0.4771}" data-display="false"></span> . 因此</p>
+<div class="math display" data-tex="{\log }_{2}3 \approx  \frac{0.4771}{0.3010} \approx  {1.5850}." data-display="true"></div>
+</div><article class="question" id="bx1-3-2-ex-6" data-question-id="bx1-3-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p><strong>例 6</strong> 求下列各式的值:</p>
+<p>(1) <span class="math" data-tex="{\log }_{2}{25} \times  {\log }_{3}4 \times  {\log }_{5}9" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="\frac{1}{{\log }_{2}3} + \frac{\lg {13.5}}{\lg 3}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-ex-7" data-question-id="bx1-3-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p><strong>例 7</strong> 设 <span class="math" data-tex="a &gt; 0, a \neq  1" data-display="false"></span> ,且 <span class="math" data-tex="N &gt; 0" data-display="false"></span> . 求证: 若 <span class="math" data-tex="m \neq  0" data-display="false"></span> ,则 <span class="math" data-tex="{\log }_{{a}^{m}}{N}^{n} = \frac{n}{m}{\log }_{a}N." data-display="false"></span></p>
+</div></article><h3 class="group-heading" id="bx1-3-2-b23">练习 3.2(3)</h3><article class="question" id="bx1-3-2-p323-1" data-question-id="bx1-3-2-p323-1" data-category="practice"><div class="question-label">练习3.2(3) · 1</div><div class="question-body"><ol>
+<li>求下列各式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{8}\frac{1}{4}" data-display="false"></span> ;</p>
+<p>(2) <span class="math" data-tex="{\log }_{a}b \cdot  {\log }_{b}c \cdot  {\log }_{c}a" data-display="false"></span> ( <span class="math" data-tex="a" data-display="false"></span> 、 <span class="math" data-tex="b" data-display="false"></span> 、 <span class="math" data-tex="c" data-display="false"></span> 均为不等于 1 的正数)；</p>
+<p>(3) <span class="math" data-tex="{3}^{2 + {\log }_{9}4}" data-display="false"></span> ；</p>
+<p>(4) <span class="math" data-tex="\frac{{\log }_{5}2 \times  {\log }_{7}9}{{\log }_{5}\frac{1}{3} \times  {\log }_{7}2}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-p323-2" data-question-id="bx1-3-2-p323-2" data-category="practice"><div class="question-label">练习3.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="{\log }_{3}2 = a" data-display="false"></span> ,用 <span class="math" data-tex="a" data-display="false"></span> 表示 <span class="math" data-tex="{\log }_{2}{96}" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="bx1-3-2-p323-3" data-question-id="bx1-3-2-p323-3" data-category="practice"><div class="question-label">练习3.2(3) · 3</div><div class="question-body"><ol start="3">
+<li>设 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 是两个不等于 1 的正数,求证: <span class="math" data-tex="{\log }_{b}a = \frac{1}{{\log }_{a}b}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-3-2-b27">习题 3.2</h3><h3 class="group-heading" id="bx1-3-2-b28">A 组</h3><article class="question" id="bx1-3-2-h32A-1" data-question-id="bx1-3-2-h32A-1" data-category="homework"><div class="question-label">习题3.2A · 1</div><div class="question-body"><ol>
+<li>把下列指数式写成对数式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{3}^{4} = {81}" data-display="false"></span> ； (2) <span class="math" data-tex="{5}^{-\frac{1}{2}} = x" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-2" data-question-id="bx1-3-2-h32A-2" data-category="homework"><div class="question-label">习题3.2A · 2</div><div class="question-body"><ol start="2">
+<li>将下列对数式写成指数式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{\frac{1}{3}}{27} =  - 3" data-display="false"></span> ； (2) <span class="math" data-tex="{\log }_{2}\frac{1}{8} =  - 3" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-3" data-question-id="bx1-3-2-h32A-3" data-category="homework"><div class="question-label">习题3.2A · 3</div><div class="question-body"><ol start="3">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1)lo <span class="math" data-tex="{\text{ g }}_{\text{ 3 }}" data-display="false"></span> 27 ; (2) <span class="math" data-tex="{\log }_{\frac{1}{2}}8" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\ln \frac{1}{\mathrm{e}} + \lg \sqrt{10}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-4" data-question-id="bx1-3-2-h32A-4" data-category="homework"><div class="question-label">习题3.2A · 4</div><div class="question-body"><ol start="4">
+<li>求下列各式中 <span class="math" data-tex="x" data-display="false"></span> 的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{2}x = 5" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\log }_{\sqrt{5}}\frac{1}{125} = x" data-display="false"></span> ;</p>
+<p>(3) <span class="math" data-tex="{\log }_{x}4 = \frac{1}{2}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-5" data-question-id="bx1-3-2-h32A-5" data-category="homework"><div class="question-label">习题3.2A · 5</div><div class="question-body"><ol start="5">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{2}\left( {2 \times  \sqrt[3]{2}}\right)" data-display="false"></span> ； (2) <span class="math" data-tex="{\log }_{21}3 + {\log }_{21}7" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\log }_{5}\sqrt{6} - \frac{1}{2}{\log }_{5}{150}" data-display="false"></span> ; (4) <span class="math" data-tex="{3}^{{\log }_{3}1} + {\log }_{2}{48} - {\log }_{2}3" data-display="false"></span> ；</p>
+<p>(5) <span class="math" data-tex="3{\log }_{3}\frac{3}{2} - {\log }_{3}\frac{7}{4} + \frac{1}{2}{\log }_{3}4 + {\log }_{3}7" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-6" data-question-id="bx1-3-2-h32A-6" data-category="homework"><div class="question-label">习题3.2A · 6</div><div class="question-body"><ol start="6">
+<li>已知 <span class="math" data-tex="A = {\log }_{a}x, B = {\log }_{a}y, C = {\log }_{a}z\left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> . 用 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 及 <span class="math" data-tex="C" data-display="false"></span> 表示下列各式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{a}\left( {x{y}^{2}}\right)" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{\log }_{a}\frac{xy}{\sqrt{z}}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\log }_{a}\left( {{x}^{2}{y}^{2}}\right)  + {\log }_{a}\left( {y\sqrt{x}}\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-7" data-question-id="bx1-3-2-h32A-7" data-category="homework"><div class="question-label">习题3.2A · 7</div><div class="question-body"><ol start="7">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1)lo <span class="math" data-tex="{g}_{4}2\sqrt{2}" data-display="false"></span> ； (2)lo <span class="math" data-tex="{\text{ g }}_{2}3 \times" data-display="false"></span> lo <span class="math" data-tex="{\text{ g }}_{9}2" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\frac{3}{{\log }_{2}6} + \frac{3}{{\log }_{3}6}" data-display="false"></span> ；</p>
+<p>(4) <span class="math" data-tex="\left( {{\log }_{4}3 + {\log }_{8}3}\right) \left( {{\log }_{3}2 + {\log }_{9}2}\right)  + {\log }_{\frac{1}{2}}\sqrt[4]{32}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32A-8" data-question-id="bx1-3-2-h32A-8" data-category="homework"><div class="question-label">习题3.2A · 8</div><div class="question-body"><ol start="8">
+<li>已知 <span class="math" data-tex="a = \lg 5" data-display="false"></span> ,用 <span class="math" data-tex="a" data-display="false"></span> 表示 <span class="math" data-tex="\lg 2" data-display="false"></span> 和 <span class="math" data-tex="\lg {20}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="bx1-3-2-b37">B 组</h3><article class="question" id="bx1-3-2-h32B-1" data-question-id="bx1-3-2-h32B-1" data-category="homework"><div class="question-label">习题3.2B · 1</div><div class="question-body"><ol>
+<li>求下列各式中 <span class="math" data-tex="x" data-display="false"></span> 的取值范围:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{2}\left( {1 - {3x}}\right)" data-display="false"></span> ; (2) <span class="math" data-tex="{\log }_{a}\left( {{x}^{2} + x}\right) \left( {a &gt; 0\text{ 且 }a \neq  1}\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32B-2" data-question-id="bx1-3-2-h32B-2" data-category="homework"><div class="question-label">习题3.2B · 2</div><div class="question-body"><ol start="2">
+<li>求下列各式的值:</li>
+</ol>
+<p>(1) <span class="math" data-tex="{\log }_{4}8 - {\log }_{\frac{1}{9}}3 - {\log }_{\sqrt{2}}4" data-display="false"></span> ； (2) <span class="math" data-tex="{2}^{{\log }_{6}5} \times  {3}^{{\log }_{6}5}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="{\left( \lg {50}\right) }^{2} + \lg 2 \times  \lg {50}^{2} + {\left( \lg 2\right) }^{2}" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx1-3-2-h32B-3" data-question-id="bx1-3-2-h32B-3" data-category="homework"><div class="question-label">习题3.2B · 3</div><div class="question-body"><ol start="3">
+<li>科学家以里氏震级来度量地震的强度,若设 <span class="math" data-tex="I" data-display="false"></span> 为地震时所散发出来的相对能量程度,则里氏震级度量 <span class="math" data-tex="r" data-display="false"></span> 可定义为 <span class="math" data-tex="r = \frac{2}{3}\lg I + 2" data-display="false"></span> . 求 7.8 级地震和 6.9 级地震的相对能量比值. (结果精确到个位)</li>
+</ol>
+</div></article><article class="question" id="bx1-3-2-h32B-4" data-question-id="bx1-3-2-h32B-4" data-category="homework"><div class="question-label">习题3.2B · 4</div><div class="question-body"><ol start="4">
+<li>已知 <span class="math" data-tex="\lg 2 = a,\lg 3 = b" data-display="false"></span> . 用 <span class="math" data-tex="a" data-display="false"></span> 及 <span class="math" data-tex="b" data-display="false"></span> 表示 <span class="math" data-tex="{\log }_{2}3" data-display="false"></span> 及 <span class="math" data-tex="{\log }_{12}{25}" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="bx1-3-2-h32B-5" data-question-id="bx1-3-2-h32B-5" data-category="homework"><div class="question-label">习题3.2B · 5</div><div class="question-body"><ol start="5">
+<li>已知 <span class="math" data-tex="{5.4}^{x} = 3,{0.6}^{y} = 3" data-display="false"></span> . 求 <span class="math" data-tex="\frac{1}{x} - \frac{1}{y}" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="bx1-3-2-h32B-6" data-question-id="bx1-3-2-h32B-6" data-category="homework"><div class="question-label">习题3.2B · 6</div><div class="question-body"><ol start="6">
+<li>设 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c\text{ 、 }d" data-display="false"></span> 均为正数,且 <span class="math" data-tex="a\text{ 、 }c" data-display="false"></span> 均不为 1 . 求证:</li>
+</ol>
+<div class="math display" data-tex="{\log }_{a}b \cdot  {\log }_{c}d = {\log }_{a}d \cdot  {\log }_{c}b." data-display="true"></div>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx1-3-2" checked>对数</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

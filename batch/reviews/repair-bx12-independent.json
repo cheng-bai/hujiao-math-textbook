@@ -1,0 +1,574 @@
+{
+  "status": "pass",
+  "reviewer": "repair_bx3 agent (independent of bx12 author)",
+  "scope": "38 active revised question blocks in 5 sections plus 1 false-duplicate classification",
+  "errors": [],
+  "reviewed_questions": [
+    {
+      "question_id": "bx1-2-2-p222-1",
+      "verdict": "pass",
+      "mathematical_check": "六问移项后分别为恒正、恒负、(3x-1)^2>0、-(x-2)^2>0、恒正、完全平方非负；解集与端点正确。",
+      "book_lines_read": [
+        [
+          719,
+          728
+        ]
+      ]
+    },
+    {
+      "question_id": "bx1-2-2-p222-2",
+      "verdict": "pass",
+      "mathematical_check": "前两式为(x-3)^2-2<0与>=0；后两式恒真/恒假，均为一元二次不等式。",
+      "book_lines_read": [
+        [
+          729,
+          734
+        ]
+      ]
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-4",
+      "verdict": "pass",
+      "mathematical_check": "逆函数定义域为f(R)，奇性确保值域关于0对称；严格增性用反证比较原像，两个小问均完整。",
+      "book_lines_read": [
+        [
+          1345,
+          1349
+        ]
+      ]
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-1",
+      "verdict": "pass",
+      "mathematical_check": "独立通分得到(v-u)(1+uv)/[(1-u²)(1-v²)]；三个连通区间内分子分母严格正，不能跨无定义点合并。",
+      "book_lines_read": [
+        [
+          1339,
+          1340
+        ]
+      ]
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-2",
+      "verdict": "pass",
+      "mathematical_check": "x^4-2x²的转折点为-1,0,1；先复合x²再复合(u-1)²-1可证四段单调性，补证覆盖全部区间。",
+      "book_lines_read": [
+        [
+          1341,
+          1342
+        ]
+      ],
+      "teacher_lines_read": [
+        626,
+        634
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-3",
+      "verdict": "pass",
+      "mathematical_check": "h(x)与h(-x)相加相减分别得x²+|x-1|+|x+1|+3及|x-1|-|x+1|。",
+      "book_lines_read": [
+        [
+          1343,
+          1344
+        ]
+      ],
+      "teacher_lines_read": [
+        636,
+        636
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-1",
+      "verdict": "pass",
+      "mathematical_check": "独立计算角差720,2160,1080,480度；选D；等角与同终边区别选C；0<2α<180度选C。",
+      "book_lines_read": [
+        [
+          889,
+          908
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-6-1-h61A-2",
+      "verdict": "pass",
+      "mathematical_check": "-1441模360为359，890模360为170，象限IV、II正确。",
+      "book_lines_read": [
+        [
+          909,
+          912
+        ]
+      ],
+      "teacher_lines_read": [
+        348,
+        348
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-3",
+      "verdict": "pass",
+      "mathematical_check": "225,1500,-22.5,-216度分别为5π/4,25π/3,-π/8,-6π/5；III,I,IV,II；新增第4问正确。",
+      "book_lines_read": [
+        [
+          913,
+          916
+        ]
+      ],
+      "teacher_lines_read": [
+        350,
+        352
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-4",
+      "verdict": "pass",
+      "mathematical_check": "α=l/r=5π/6，S=lr/2=5π/3。",
+      "book_lines_read": [
+        [
+          917,
+          918
+        ]
+      ],
+      "teacher_lines_read": [
+        354,
+        354
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-5",
+      "verdict": "pass",
+      "mathematical_check": "分别以r=5和r=2归一化两点；sin,cos,tan,cot全部符号与值正确。",
+      "book_lines_read": [
+        [
+          919,
+          922
+        ]
+      ],
+      "teacher_lines_read": [
+        356,
+        358
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-6",
+      "verdict": "pass",
+      "mathematical_check": "237度sin负/390度cos正；135度tan负/275度cos正；第三式两个负因子与正分母，故负负正。",
+      "book_lines_read": [
+        [
+          923,
+          928
+        ]
+      ],
+      "teacher_lines_read": [
+        360,
+        360
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-7",
+      "verdict": "pass",
+      "mathematical_check": "第一问sin<0 cos>0为IV；第二问原式有定义时sin/tan=cos>0，排除坐标轴后为I或IV。",
+      "book_lines_read": [
+        [
+          929,
+          934
+        ]
+      ],
+      "teacher_lines_read": [
+        362,
+        362
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-8",
+      "verdict": "pass",
+      "mathematical_check": "2π/3位于II，7π/6位于III，三角函数值与符号正确。",
+      "book_lines_read": [
+        [
+          935,
+          936
+        ]
+      ],
+      "teacher_lines_read": [
+        364,
+        366
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-9",
+      "verdict": "pass",
+      "mathematical_check": "用sin²+cos²=1及象限限制；tan=-1/2有II与IV两支，均保留。",
+      "book_lines_read": [
+        [
+          937,
+          940
+        ]
+      ],
+      "teacher_lines_read": [
+        368,
+        370
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-10",
+      "verdict": "pass",
+      "mathematical_check": "两式分别平方展开和通分得到；恒等式理解为原两边有定义的公共域。",
+      "book_lines_read": [
+        [
+          941,
+          946
+        ]
+      ],
+      "teacher_lines_read": [
+        372,
+        374
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-11",
+      "verdict": "pass",
+      "mathematical_check": "(tan-1)/(tan+1)=1/3；(sin-cos)²=1-2sin cos给3/8。",
+      "book_lines_read": [
+        [
+          947,
+          950
+        ]
+      ],
+      "teacher_lines_read": [
+        376,
+        376
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-12",
+      "verdict": "pass",
+      "mathematical_check": "1110→30度，-600→120度，-7π/6→5π/6；四值均正确。",
+      "book_lines_read": [
+        [
+          951,
+          954
+        ]
+      ],
+      "teacher_lines_read": [
+        378,
+        378
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-13",
+      "verdict": "pass",
+      "mathematical_check": "23π/3模2π为5π/3；-87π/4模2π为π/4；六个值正确。",
+      "book_lines_read": [
+        [
+          955,
+          956
+        ]
+      ],
+      "teacher_lines_read": [
+        380,
+        382
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-h61A-14",
+      "verdict": "pass",
+      "mathematical_check": "逐项诱导化简得到0,sinα,cotα,-tanα；只在原式有定义时使用约分。",
+      "book_lines_read": [
+        [
+          957,
+          966
+        ]
+      ],
+      "teacher_lines_read": [
+        384,
+        384
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-6-1-p611-3",
+      "verdict": "pass",
+      "mathematical_check": "独立模360得45,185.3,350,170度；I,III,IV,II，四问齐全。",
+      "book_lines_read": [
+        [
+          107,
+          130
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-7-1-h71A-2",
+      "verdict": "pass",
+      "mathematical_check": "2π除以频率绝对值得7π和2π/3。",
+      "book_lines_read": [
+        [
+          505,
+          508
+        ]
+      ],
+      "teacher_lines_read": [
+        320,
+        320
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-3",
+      "verdict": "pass",
+      "mathematical_check": "T=π/|ω|=2，故ω=±π/2；没有漏负值。",
+      "book_lines_read": [
+        [
+          509,
+          510
+        ]
+      ],
+      "teacher_lines_read": [
+        322,
+        322
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-4",
+      "verdict": "pass",
+      "mathematical_check": "四函数以s=sin x处理；最大最小及所有等号点正确，限制区间第三问端点与π/2均检查。",
+      "book_lines_read": [
+        [
+          511,
+          516
+        ]
+      ],
+      "teacher_lines_read": [
+        324,
+        330
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-6",
+      "verdict": "pass",
+      "mathematical_check": "第一比较同增区间；第二分别为-sin(π/11)与-sin(π/12)，前者较小。",
+      "book_lines_read": [
+        [
+          521,
+          524
+        ]
+      ],
+      "teacher_lines_read": [
+        334,
+        334
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-7",
+      "verdict": "pass",
+      "mathematical_check": "两函数相位不等式反解得到所列四组区间；负号方向与x/3周期拉伸正确。",
+      "book_lines_read": [
+        [
+          525,
+          528
+        ]
+      ],
+      "teacher_lines_read": [
+        336,
+        338
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-8",
+      "verdict": "pass",
+      "mathematical_check": "合成为2√3 sin(x+π/6)；s²+4s在[-1,1]递增得[-3,5]。",
+      "book_lines_read": [
+        [
+          529,
+          532
+        ]
+      ],
+      "teacher_lines_read": [
+        340,
+        342
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-9",
+      "verdict": "pass",
+      "mathematical_check": "sin x=1/2两族零点π/6+2kπ,5π/6+2kπ齐全。",
+      "book_lines_read": [
+        [
+          533,
+          534
+        ]
+      ],
+      "teacher_lines_read": [
+        344,
+        344
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-7-1-h71A-1",
+      "verdict": "pass",
+      "mathematical_check": "上移正弦五点正确；|sin x|翻折且周期π，端点0与中点1正确。",
+      "book_lines_read": [
+        [
+          501,
+          504
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-7-1-h71A-5",
+      "verdict": "pass",
+      "mathematical_check": "sin x/x排除0但仍对称；x/(1+sin x)排除-π/2+2kπ不对称，举π/2与-π/2正确。",
+      "book_lines_read": [
+        [
+          517,
+          520
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-1",
+      "verdict": "pass",
+      "mathematical_check": "周期4π、2π/3；相位与非零振幅不改变周期。",
+      "book_lines_read": [
+        [
+          1091,
+          1094
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-2",
+      "verdict": "pass",
+      "mathematical_check": "四问偶、奇、偶、非奇非偶；tan5x及1/cos x排除点对称，第四问反例准确。",
+      "book_lines_read": [
+        [
+          1095,
+          1100
+        ]
+      ]
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-3",
+      "verdict": "pass",
+      "mathematical_check": "2x∈(-π/2,π/2)，sin2x=√3/2唯一2x=π/3，故x=π/6。",
+      "book_lines_read": [
+        [
+          1101,
+          1102
+        ]
+      ],
+      "teacher_lines_read": [
+        466,
+        466
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-4",
+      "verdict": "pass",
+      "mathematical_check": "独立反解四个相位区间；第三问4π周期，第四问正切开区间宽π/2，端点无定义，均正确。",
+      "book_lines_read": [
+        [
+          1103,
+          1108
+        ]
+      ],
+      "teacher_lines_read": [
+        468,
+        474
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-6",
+      "verdict": "pass",
+      "mathematical_check": "A=3,ω=3,φ=π/6，参数齐全。",
+      "book_lines_read": [
+        [
+          1111,
+          1112
+        ]
+      ],
+      "teacher_lines_read": [
+        478,
+        478
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-7",
+      "verdict": "pass",
+      "mathematical_check": "四组极值及全部等号点独立校对；第二、四问严格按限制定义域筛点，无漏点。",
+      "book_lines_read": [
+        [
+          1113,
+          1122
+        ]
+      ],
+      "teacher_lines_read": [
+        480,
+        486
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-8",
+      "verdict": "pass",
+      "mathematical_check": "10-2cos(πt/12-π/6)给范围[8,12]；y>11解为10<t<18，阈值端点不包含。",
+      "book_lines_read": [
+        [
+          1123,
+          1132
+        ]
+      ],
+      "teacher_lines_read": [
+        488,
+        490
+      ],
+      "source_pairing_exact_prefix": true
+    },
+    {
+      "question_id": "bx2-chapter-end-7-hA-5",
+      "verdict": "pass",
+      "mathematical_check": "由x=(u-π/3)/2得到-π/6,π/12,π/3,7π/12,5π/6，纵坐标0,2,0,-2,0，周期π和平移π/6正确。",
+      "book_lines_read": [
+        [
+          1109,
+          1110
+        ]
+      ]
+    }
+  ],
+  "false_duplicate_review": [
+    {
+      "id": "bx2-6-1-ex-14-L495",
+      "verdict": "pass",
+      "reason": "重复块题面为原例14题面的完整后缀，答案与原例14完全相同；确属假重复，无题目丢失。"
+    }
+  ],
+  "numeric_supplement_checks": 18,
+  "sources_unchanged": true,
+  "limitations": [
+    "不等同于这5节中未修改的所有原题答案均经数学审定。",
+    "只做内容与溯源独立复核，真实网页、学生包和打印由主agent集成验收。"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "controls": [
+    {
+      "key": "n",
+      "label": "样本容量",
+      "max": 100,
+      "min": 5,
+      "step": 5,
+      "type": "range"
+    },
+    {
+      "key": "seed",
+      "label": "模拟种子",
+      "max": 9,
+      "min": 1,
+      "step": 1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>SE</mi><mo>(</mo><mover><mi>X</mi><mo>¯</mo></mover><mo>)</mo><mo>=</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac></math>",
+  "goal": "从U(0,1)总体重复抽取80个独立样本，观察样本均值的抽样波动，区别于单一样本的均值/中位数。",
+  "id": "sampling-mean",
+  "initial": {
+    "n": 30,
+    "seed": 3
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-13-5-b12",
+      "rationale": "补充抽样波动，不覆盖本段样本平均数、中位数、众数、加权均值的定义与讨论；需保留原文常显。",
+      "retainProse": true,
+      "sectionId": "bx3-13-5"
+    }
+  ],
+  "summary": "本实验是对样本均值概念的延伸：从均匀总体 U(0,1) 重复抽样，观察不同样本的均值分布；总体均值为 1/2，独立抽样时理论标准误为 σ/√n。它不解释中位数、众数或加权平均的全部定义，因此原段正文仍是必要阅读，不将其折叠替代。",
+  "title": "样本均值的抽样波动"
+}

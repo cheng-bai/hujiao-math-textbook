@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19T19:38:40Z",
+  "command": [
+    "node",
+    "scripts/textbook-labs/test-deep-geometry.mjs"
+  ],
+  "execution_context": "原教材项目根目录。测试还核对教材落点；资源包不包含整册教材，运行同一测试需原项目。",
+  "family": "deep-geometry",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"status\":\"passed\",\"assets\":3,\"placements\":4,\"renderStates\":1335,\"checks\":29109}\n",
+  "tested_files": [
+    {
+      "path": "source/deep-geometry.js",
+      "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+    },
+    {
+      "path": "source/deep-geometry.json",
+      "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+    },
+    {
+      "path": "source/test-deep-geometry.mjs",
+      "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+    },
+    {
+      "path": "source/lab-core.js",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    }
+  ]
+}

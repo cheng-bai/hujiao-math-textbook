@@ -1,0 +1,28 @@
+{
+  "id": "bx1-chapter-end-4",
+  "book_id": "bx1",
+  "section_path": "batch/sections/bx1/bx1-chapter-end-4.json",
+  "fingerprint": "cc5d202de15bb43ba18fe9128ca3b636c6414f94f74ab8ca562b1a52f00d736b",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 15,
+        "answers": 15,
+        "teacher_formulas": 209,
+        "student_formulas": 110,
+        "checks": 69,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 10.58,
+  "finished_at": "2026-10-20T02:06:35+08:00"
+}

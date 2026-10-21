@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-5-2",
+  "book_id": "x2",
+  "section": "5.2",
+  "title": "导数的运算",
+  "section_json": "batch/sections/x2/x2-5-2.json",
+  "output": "outputs/五册教材教参整合/x2/x2-5-2",
+  "fingerprint": "ffc0f84fbabbe820cd4d88e376820d4ccbd94e2d1878242a912e45efe59a81b0",
+  "status": "rendered",
+  "questions": 37,
+  "answers": 37,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第5章导数及其应用/第5章导数及其应用-dollar.md": "bfc657df6ab52a9de18667d87896c927efe5c1244fbe83e92ad9e9b596cd2c6d",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/01 选必第二册 第5章 导数及其应用.md": "aa7eb6b92f5613a1edd135f4724e9d5923a85f9cc476df8a6e319460e37679bc"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a8b1cec809e2461753076cc551114eef69cee5588b37e692722dc2c95ee9cd8a",
+    "student.html": "49b5f851699f00fd3648ab4b4e6dce0162f2cabf3b47fed1c93c5728bbc81ede",
+    "student.zip": "c2ecd82ece0dbb9185775dd9a162cfd45f2cf6b6b9a86f0abf98fe5749411761",
+    "content.json": "99779db1f2b964dd7dd64673a225bb71b53ff156aac63962becddb52598d5202"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "family": "deep-analysis",
+  "selection": [],
+  "assets": [
+    {
+      "id": "parameter-cubic-roots",
+      "title": "根在哪里合并：含参三次方程的临界状态",
+      "goal": "拖动水平线，解释不同实根数为什么只在极值高度发生变化，而不只是数当前屏幕上的交点。",
+      "summary": "设 f(x)=x³−3x，则 f′(x)=3(x−1)(x+1)。因此 f 在 (−∞,−1)、(1,+∞) 上严格增，在 (−1,1) 上严格减；将驻点端点并入，考虑三段 (−∞,−1]、[−1,1]、[1,+∞)。由 f(−1)=2、f(1)=−2 及两端趋势，这三段的值域依次为 (−∞,2]、[−2,2]、[−2,+∞)。当 −2<a<2 时各段各有一个交点；当 a=±2 时相邻交点合并，只剩两个不同实根；|a|>2 时仅一个实根。临界值还可直接验证：x³−3x−2=(x+1)²(x−2)，x³−3x+2=(x−1)²(x+2)，相切的根均为二重根。重数不是不同交点个数；非临界状态的数值根仅作近似显示。图中的横纵单位刻度不同，不据图估计切线角度。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>=</mo><mi>a</mi><mspace width=\"1em\"/><mi>f</mi><mo>′</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>",
+      "controls": [
+        {
+          "key": "a",
+          "label": "水平线高度 a（临界值为 −2、2）",
+          "type": "range",
+          "min": -4,
+          "max": 4,
+          "step": 0.05
+        },
+        {
+          "key": "showDerivative",
+          "label": "同时显示导函数图像",
+          "type": "checkbox"
+        }
+      ],
+      "initial": {
+        "a": 0,
+        "showDerivative": false
+      },
+      "placements": [
+        {
+          "sectionId": "x2-5-3",
+          "afterBlockId": "x2-5-3-b14",
+          "retainProse": true,
+          "rationale": "在极值定义后的方法深化；保留极值、驻点及原例题正文，不以探索替代论证。"
+        }
+      ],
+      "stateKeys": {
+        "math": [
+          "a"
+        ],
+        "view": [],
+        "lesson": [
+          "showDerivative"
+        ]
+      },
+      "explanationHtml": "<p>要判断所有参数下的根数，不应逐一试算参数，而应先找出函数的单调区间。因为每个严格单调区间与同一条水平线至多相交一次，根的个数由水平线是否进入各段值域决定。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>，</mo><mi>f</mi><mo>′</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math><p>导数在两个驻点外为正、两驻点之间为负。将驻点端点并入，函数在以下三段的值域分别为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtable columnalign=\"left left\"><mtr><mtd><mo>(</mo><mo>−</mo><mi>∞</mi><mo>,</mo><mo>−</mo><mn>1</mn><mo>]</mo></mtd><mtd><mo>→</mo><mo>(</mo><mo>−</mo><mi>∞</mi><mo>,</mo><mn>2</mn><mo>]</mo></mtd></mtr><mtr><mtd><mo>[</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>]</mo></mtd><mtd><mo>→</mo><mo>[</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>]</mo></mtd></mtr><mtr><mtd><mo>[</mo><mn>1</mn><mo>,</mo><mo>+</mo><mi>∞</mi><mo>)</mo></mtd><mtd><mo>→</mo><mo>[</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>+</mo><mi>∞</mi><mo>)</mo></mtd></mtr></mtable></math><p>函数连续，且在每段上严格单调，因此水平线高度位于该段值域时，恰有一个交点。参数严格介于两极值之间时，三段各提供一个不同根；参数等于某个极值时，相邻两段提供的是同一个驻点，不能重复算作两个不同根；参数在两极值范围外时，仅剩一个交点。临界值的因式分解为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></math><p>平方因子说明相切处是二重根。因此临界值有两个不同实根，按实根重数计为三个。范围外只有一个实根，另外两个根不是实数。图上的根坐标为数值近似，根数分类依据上述单调性与值域，不能由屏幕采样代替。</p>"
+    },
+    {
+      "id": "counting-equal-multiplicity",
+      "title": "为什么能除以重复次数：从有序过程到最终结果",
+      "goal": "选择一个最终结果，反查它对应的全部有序过程；比较统一重复与不统一重复，判断何时可以整体相除。",
+      "summary": "场景一：从1至6六个不同元素中依次等可能地不放回取两个，共6×5=30个有序结果。忽略顺序后，每组{i,j}（i≠j）恰对应(i,j)、(j,i)，故共30÷2=15组。场景二：两枚可区分的公平骰子独立投掷，36个有序结果等可能；忽略顺序后，同点数组各有1个来源，异点数组各有2个来源，共6+15=21组。因此不能统一用36÷2计数，更不能把21个无序结果视为等可能：同点数组概率1/36，异点数组概率2/36。这里统一相除的依据是每个最终结果被计次数相同。选取重复项在不放回场景中无效，界面诚实保留该选择并标明结果不存在。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi mathvariant=\"normal\">C</mi><mn>6</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mrow><mn>6</mn><mo>×</mo><mn>5</mn></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>15</mn><mspace width=\"1em\"/><mn>36</mn><mo>=</mo><mn>6</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>15</mn><mo>×</mo><mn>2</mn></math>",
+      "controls": [
+        {
+          "key": "scenario",
+          "label": "生成过程",
+          "type": "select",
+          "options": [
+            {
+              "value": "distinct",
+              "label": "六个不同元素取2，不放回"
+            },
+            {
+              "value": "dice",
+              "label": "两枚公平骰子，允许同点数"
+            }
+          ]
+        },
+        {
+          "key": "result",
+          "label": "选择最终结果，反查有序来源",
+          "type": "select",
+          "options": [
+            {
+              "value": "1-1",
+              "label": "{1,1}（同项仅骰子有效）"
+            },
+            {
+              "value": "1-2",
+              "label": "{1,2}"
+            },
+            {
+              "value": "1-3",
+              "label": "{1,3}"
+            },
+            {
+              "value": "1-4",
+              "label": "{1,4}"
+            },
+            {
+              "value": "1-5",
+              "label": "{1,5}"
+            },
+            {
+              "value": "1-6",
+              "label": "{1,6}"
+            },
+            {
+              "value": "2-2",
+              "label": "{2,2}（同项仅骰子有效）"
+            },
+            {
+              "value": "2-3",
+              "label": "{2,3}"
+            },
+            {
+              "value": "2-4",
+              "label": "{2,4}"
+            },
+            {
+              "value": "2-5",
+              "label": "{2,5}"
+            },
+            {
+              "value": "2-6",
+              "label": "{2,6}"
+            },
+            {
+              "value": "3-3",
+              "label": "{3,3}（同项仅骰子有效）"
+            },
+            {
+              "value": "3-4",
+              "label": "{3,4}"
+            },
+            {
+              "value": "3-5",
+              "label": "{3,5}"
+            },
+            {
+              "value": "3-6",
+              "label": "{3,6}"
+            },
+            {
+              "value": "4-4",
+              "label": "{4,4}（同项仅骰子有效）"
+            },
+            {
+              "value": "4-5",
+              "label": "{4,5}"
+            },
+            {
+              "value": "4-6",
+              "label": "{4,6}"
+            },
+            {
+              "value": "5-5",
+              "label": "{5,5}（同项仅骰子有效）"
+            },
+            {
+              "value": "5-6",
+              "label": "{5,6}"
+            },
+            {
+              "value": "6-6",
+              "label": "{6,6}（同项仅骰子有效）"
+            }
+          ]
+        }
+      ],
+      "initial": {
+        "scenario": "distinct",
+        "result": "1-2"
+      },
+      "placements": [
+        {
+          "sectionId": "x2-6-3",
+          "afterBlockId": "x2-6-3-b10",
+          "retainProse": true,
+          "rationale": "在排列与组合对应表后深化重复计数的条件，原公式推导和例题保持可见。"
+        }
+      ],
+      "stateKeys": {
+        "math": [
+          "scenario",
+          "result"
+        ],
+        "view": [],
+        "lesson": []
+      },
+      "explanationHtml": "<p>先问一个最终结果对应多少个有序生成过程，再判断这个数对所有最终结果是否一致。只有重复次数一致时，才可用有序结果总数统一相除。</p><p>从六个不同元素中不放回取两个。第一步有六种选择，第二步有五种选择，共三十个有序过程。对每组不同元素，两种次序都存在，且恰有这两种，因此：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo>{</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>}</mo><mo>↔</mo><mo>(</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>)</mo><mo>、</mo><mo>(</mo><mi>j</mi><mo>,</mo><mi>i</mi><mo>)</mo><mo>，</mo><mi>i</mi><mo>≠</mo><mi>j</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi mathvariant=\"normal\">C</mi><mn>6</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mrow><mn>6</mn><mo>×</mo><mn>5</mn></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>15</mn></math><p>换成两枚可区分的公平骰子独立投掷，有三十六个等可能有序结果。忽略顺序后，同点数组只有一种来源，异点数组有两种来源。六组同点数与十五组异点数共同组成二十一组，但被计次数并不统一：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>36</mn><mo>=</mo><mn>6</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>15</mn><mo>×</mo><mn>2</mn><mo>，</mo><mn>21</mn><mo>=</mo><mn>6</mn><mo>+</mo><mn>15</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mo>{</mo><mi>i</mi><mo>,</mo><mi>i</mi><mo>}</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>36</mn></mrow></mfrac><mo>，</mo><mi>P</mi><mo>(</mo><mo>{</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>}</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>36</mn></mrow></mfrac><mo>，</mo><mi>i</mi><mo>≠</mo><mi>j</mi></math><p>因此不能用三十六统一除以二，也不能对无序结果直接使用“有利组数除以二十一”。这里最终结果写作无序对，花括号仅表示忽略顺序，不把同点数的两次出现删除。第一种场景选中同项时结果不存在，切换到骰子场景后才有效。左栏高亮逐一展示当前最终结果的全部来源。</p>"
+    },
+    {
+      "id": "bayes-base-rate",
+      "title": "检出率不变，阳性者的判断为什么会变",
+      "goal": "用10000人的期望频数追踪真正的分母，区分检出率与阳性者中实际患病的概率。",
+      "summary": "教师选学拓展。记 D 为患病，+ 为阳性，患病率为 p，模型检出率为 s，模型误报率为 q。10000人模型中，真阳性期望数为10000ps，假阳性为10000(1−p)q。只看阳性者时，分母为两者之和；因此在 ps+(1−p)q>0 时，P(D|+)=ps/[ps+(1−p)q]。这由条件概率和全概率公式得到，不是把P(+|D)直接倒过来。P(+|D)=s 还要求 p>0；p=0时该条件概率未定义，s仅保留为模型参数；p=1时误报率的条件群体同样为空。频数全部为模型期望数，可能不是整数，非一次实测人数。树形框与连线不按人数比例，底部阳性构成条按真实比例绘制；结论不依赖画面面积的猜测。",
+      "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>|</mo><mo>+</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mi>p</mi><mi>s</mi></mrow><mrow><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></mrow></mfrac><mspace width=\"1em\"/><mtext>分母须大于0</mtext></math>",
+      "controls": [
+        {
+          "key": "prevalence",
+          "label": "患病率 p（%）",
+          "type": "range",
+          "min": 0,
+          "max": 100,
+          "step": 0.1
+        },
+        {
+          "key": "sensitivity",
+          "label": "模型检出率 s（%）",
+          "type": "range",
+          "min": 0,
+          "max": 100,
+          "step": 1
+        },
+        {
+          "key": "falsePositive",
+          "label": "模型误报率 q（%）",
+          "type": "range",
+          "min": 0,
+          "max": 100,
+          "step": 0.1
+        }
+      ],
+      "initial": {
+        "prevalence": 1,
+        "sensitivity": 99,
+        "falsePositive": 5
+      },
+      "placements": [
+        {
+          "sectionId": "x2-7-1",
+          "afterBlockId": "x2-7-1-b23",
+          "retainProse": true,
+          "rationale": "衔接逆向条件的教材段落与选学贝叶斯公式；保留原文，明确教师拓展属性。"
+        }
+      ],
+      "stateKeys": {
+        "math": [
+          "prevalence",
+          "sensitivity",
+          "falsePositive"
+        ],
+        "view": [],
+        "lesson": []
+      },
+      "explanationHtml": "<p>这是教师选学的贝叶斯拓展。设事件 D 为实际患病，符号“+”表示检测阳性；D 上的横线表示未患病。三个模型参数定义为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>p</mi><mo>=</mo><mi>P</mi><mo>(</mo><mi>D</mi><mo>)</mo><mo>，</mo><mi>s</mi><mo>=</mo><mi>P</mi><mo>(</mo><mo>+</mo><mo>|</mo><mi>D</mi><mo>)</mo><mo>，</mo><mi>q</mi><mo>=</mo><mi>P</mi><mo>(</mo><mo>+</mo><mo>|</mo><mover><mi>D</mi><mo>¯</mo></mover><mo>)</mo></math><p>其中患病率 p、检出率 s、误报率 q 均介于零与一之间。先把阳性者分成互不相交的两部分：实际患病且阳性，未患病但阳性。由概率乘法公式与全概率公式，得到：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>∩</mo><mo>+</mo><mo>)</mo><mo>=</mo><mi>p</mi><mi>s</mi><mo>，</mo><mi>P</mi><mo>(</mo><mover><mi>D</mi><mo>¯</mo></mover><mo>∩</mo><mo>+</mo><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mo>+</mo><mo>)</mo><mo>=</mo><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></math><p>现在只在阳性者中判断患病比例，条件概率的分母必须是全部阳性者，而不是全部患病者。因此，只要阳性概率大于零，就有：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>D</mi><mo>|</mo><mo>+</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mi>P</mi><mo>(</mo><mi>D</mi><mo>∩</mo><mo>+</mo><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><mo>+</mo><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>p</mi><mi>s</mi></mrow><mrow><mi>p</mi><mi>s</mi><mo>+</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mi>q</mi></mrow></mfrac></math><p>乘以一万人后，分子是真阳性期望数，分母是真阳性与假阳性期望数之和。默认参数下，真阳性九十九，假阳性四百九十五，所以阳性者中实际患病的概率为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mfrac><mrow><mn>99</mn></mrow><mrow><mn>99</mn><mo>+</mo><mn>495</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>6</mn></mrow></mfrac></math><p>检出率虽为百分之九十九，反向条件概率却只有六分之一，两者的条件群体不同。改变患病率，即使检出率和误报率保持不变，真阳性和假阳性的相对数量仍会变化。</p><p>边界必须单独解释：患病率为零时，患病条件群体为空，检出率只保留为模型设定，对应条件概率未定义；患病率为一时，未患病组的条件概率同样未定义。若阳性总概率为零，反向条件概率的分母为零，不能显示成百分之零。这里频数始终是模型期望值，可以为小数，不是一次实测人数；树形框大小不代表人数，只有底部构成条按比例绘制。</p>"
+    }
+  ]
+}

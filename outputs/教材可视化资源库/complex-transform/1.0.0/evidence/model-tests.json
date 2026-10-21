@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-19T16:47:01Z",
+  "command": [
+    "node",
+    "scripts/textbook-labs/test-foundations.mjs"
+  ],
+  "execution_context": "原教材项目根目录。测试还核对教材落点；资源包不包含整册教材，运行同一测试需原项目。",
+  "family": "foundations",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"family\":\"foundations\",\"sections\":38,\"assets\":11,\"states\":369,\"independentRelations\":1095,\"status\":\"passed\"}\n",
+  "tested_files": [
+    {
+      "path": "source/foundations.js",
+      "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+    },
+    {
+      "path": "source/foundations.json",
+      "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+    },
+    {
+      "path": "source/test-foundations.mjs",
+      "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+    },
+    {
+      "path": "source/lab-core.js",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    }
+  ]
+}

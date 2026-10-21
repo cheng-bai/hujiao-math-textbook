@@ -1,0 +1,28 @@
+{
+  "id": "x2-6-3",
+  "book_id": "x2",
+  "section_path": "batch/sections/x2/x2-6-3.json",
+  "fingerprint": "671a81f2048fbc49d600c391e04f1e56b34629da34233079364546b18e4edf6f",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 29,
+        "answers": 29,
+        "teacher_formulas": 166,
+        "student_formulas": 91,
+        "checks": 97,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 13.28,
+  "finished_at": "2026-10-20T02:16:46+08:00"
+}

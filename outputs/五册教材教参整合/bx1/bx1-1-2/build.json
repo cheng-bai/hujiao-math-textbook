@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-1-2",
+  "book_id": "bx1",
+  "section": "1.2",
+  "title": "常用逻辑用语",
+  "section_json": "batch/sections/bx1/bx1-1-2.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-1-2",
+  "fingerprint": "d6b69b7cf74516a298225628dbe8ef5a098029c9958812dd610ab794daaeca67",
+  "status": "rendered",
+  "questions": 24,
+  "answers": 24,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第1章集合与逻辑/第1章集合与逻辑-dollar.md": "5ba1cf1ca79b39d5be42c799a856cdcedf644f49578e1dbdc01c0d63a0567022",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/01 必修第一册 第1章 集合与逻辑.md": "5e894f38d1d271f0a2e3029d4a0fe38206bd658580f736515e804333d79b592e"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "c4d9154175fd40f588f09574d88db82bbbdba8a90195bd06cbd2c9501ade6e8b",
+    "student.html": "75bbaf8c50107ce2989ab37e90df33103c304f6af4712b5e93de3fc492f2c2b9",
+    "student.zip": "a472fbfc01db06ff242c13ba7d70d948a3f1b09fe7b47f875a264163a6a1a4b9",
+    "content.json": "f79199b46740a23cae1c8652db706f4fecbedd23e5a0f888b61441028bdbd3eb"
+  }
+}

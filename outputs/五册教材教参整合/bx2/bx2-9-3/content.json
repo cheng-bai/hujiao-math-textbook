@@ -1,0 +1,658 @@
+[
+  {
+    "type": "section",
+    "title": "实系数一元二次方程",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 743,
+        "end": 743
+      }
+    ],
+    "id": "bx2-9-3",
+    "number": "9.3",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 9.3 实系数一元二次方程\n\n### 教学重点\n\n在复数范围内完整解决实系数一元二次方程的求解以及根与系数的关系.\n\n### 内容分析\n\n在复数范围内求解实系数一元二次方程, 依然继承了初中阶段推导一元二次方程求根公式的配方法. 这里碰到的关键问题是判别式 (它可能是正数、0 、负数) 在复数范围内有几个平方根. 因此,教材中特地用了一小节讨论实数的平方根,用“待定系数法”不仅找出了给定实数的平方根, 而且证明了只有我们所找到的那些平方根.\n\n后一个问题往往没有引起注意,并在教材编写和教学中常常被忽略. 事实上,当求出一个非零实数的两个平方根后, 很少有人再问一下: 当视野扩大到复数系以后, 这个实数还有其他平方根吗? 这不是一个没有意义的问题 (在四元数体内, 一个实数可以不只有两个平方根), 它是唯一因式分解定理 (实系数多项式在复数域内只有本质唯一的因式分解) 的推论. 但现有的中小学教材都没有提到唯一因式分解定理, 因此必须单独证明所需要的结论.\n\n好在我们用很短的一小节,用很简单的办法就解决了问题: 实数 $c \\geq  0$ 只有已知的实平方根 $\\pm  \\sqrt{c}$ ；实数 $c < 0$ 只有一对共轭的纯虚平方根 $\\pm  \\sqrt{-c}\\mathrm{i}$ .\n\n有了这个铺垫之后, 关于实系数一元二次方程根的讨论都是顺理成章的, 而复数范围内实系数一元二次方程根与系数的关系以及对二次多项式的分解因式, 都是对初中阶段相应知识的自然发展.\n\n例 1 以 -25 的平方根为代表研究负数的开平方问题,由此可引出 $- c\\left( {c > 0}\\right)$ 的平方根为 $\\pm  \\sqrt{-c}\\mathrm{i}$ . 这是继规定 $\\mathrm{i}$ 为 -1 的平方根之后,应该紧随其后的负数开平方问题, 也是在复数范围内解实系数一元二次方程的准备知识.\n\n例 2 在一元二次方程判别式为负值时, 直接套用一元二次方程的求根公式得到方程的虚数解. 在教学中, 也可以针对此题再次运用配方法重演一元二次方程解得虚数根的过程.\n\n例 3 的教学除了关注一元二次方程根与系数关系的运用, 首先应该引导学生通过对求根公式的观察得到结论: 若一元二次方程有虚数根, 则必定为一对共轭虚根.\n\n例 4 将实系数一元二次方程的虚数根与二次多项式在复数范围内作分解因式相联系, 教学时可将其与一元二次方程有两个实无理数根而对二次多项式作分解因式的情形相类比.\n\n### 注意事项\n\n在复数范围内求解实系数一元二次方程的教学, 要积极倡导学生通过自主探究或以合作学习的方式, 获得对于数学新概念推动既有数学知识发展的实践体验. 同时, 应注意避免以此为话题而过多地引入各种复数范围内解方程的问题.\n\n### 教学建议\n\n对于实系数一元二次方程, 学生通过初中阶段的学习以及本套教材必修 1 “ 2.1 等式与不等式的性质”中的“一元二次方程的解集及根与系数的关系”的学习,通常都有一定的认知基础. 因此, 实系数一元二次方程求根公式的推导和根的情况的讨论都不难, 在教学中可以根据不同学生的学习情况, 采用或者是教师课堂讲解, 或者是课堂上教师指导下的学生自主探究, 或者是学生课外讨论交流、课内小结汇报等多种不同的方式开展教学. 作为铺垫的实数的平方根讨论本身也没有难度, 关键是引导学生理解问题所在.\n\n对学有余力的学生,可引导他们探索复系数一元二次方程的求解问题(见“探究与实践”).",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 190,
+        "end": 223
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-9-3-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在初中课程中已学过了实系数一元二次方程, 它具有标准形式\n\n$$\na{x}^{2} + {bx} + c = 0\\left( {a\\text{ 、 }b\\text{ 、 }c \\in  \\mathbf{R}, a \\neq  0}\\right) .\n$$\n\n我们已经知道可用判别式 $\\Delta  = {b}^{2} - {4ac}$ 来判定这个方程实根的存在性. 具体地说, 在实数范围内考虑:\n\n(1)当 $\\Delta  > 0$ 时，该方程有两个不相等的实根 $\\frac{-b \\pm  \\sqrt{\\Delta }}{2a}$ ；\n\n(2)当 $\\Delta  = 0$ 时，该方程有两个相等的实根(二重根) $- \\frac{b}{2a}$ ；\n\n(3)当 $\\Delta  < 0$ 时，该方程没有实根.\n\n我们现在再来讨论实系数一元二次方程的求根问题，但将根的取值范围从实数拓广到复数. 也就是说, 我们不仅要讨论实根, 还要讨论虚根. 我们要解决的问题实际上有两个:\n\n(A) 当 $\\Delta  \\geq  0$ 时,除了已经找到的实根外,方程在复数范围还有其他的根吗?\n\n(B) 当 $\\Delta  < 0$ 时,方程在复数范围有根吗? 怎样求出它的根?\n\n回答这两个问题,关键是对 $\\Delta$ (它是一个实数) 在复数范围的平方根问题有个准确的把握.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 744,
+        "end": 766
+      }
+    ],
+    "id": "bx2-9-3-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 实数的平方根",
+    "markdown": "## 1 实数的平方根",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 767,
+        "end": 767
+      }
+    ],
+    "id": "bx2-9-3-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "设 $c \\in  \\mathbf{R}$ ,并设 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 是它的一个平方根,即 ${\\left( a + b\\mathrm{i}\\right) }^{2} = c$ . 将上式左边展开,得到 $\\left( {{a}^{2} - {b}^{2}}\\right)  + {2ab}\\mathrm{i} = c$ ,再根据复数相等的条件, 就得到\n\n$$\n\\left\\{  \\begin{array}{l} {a}^{2} - {b}^{2} = c, \\\\  {2ab} = 0. \\end{array}\\right.\n$$\n\n从第二个等式可知, $a$ 与 $b$ 中至少有一个为零.\n\n当 $c \\geq  0$ 时,必须 $b = 0$ ,否则 $a = 0$ ,从而推出 $c =  - {b}^{2} < 0$ , 与假设矛盾. 于是, $a + b\\mathrm{i} = a$ 必是 $c$ 的一个实平方根. 这说明, 除了已知的实平方根 $a =  \\pm  \\sqrt{c}$ ,非负实数 $c$ 在复数范围没有其他的平方根.\n\n而当 $c < 0$ 时,必须 $a = 0$ ,否则 $b = 0$ ,从而推出 $c = {a}^{2} > 0$ , 与假设矛盾. 于是, ${b}^{2} =  - c > 0$ ,从而 $b =  \\pm  \\sqrt{-c}$ . 此时 $c$ 的平方根有两个: $\\pm  \\sqrt{-c}\\mathrm{i}$ ,它们是两个共轭的纯虚数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 768,
+        "end": 780
+      }
+    ],
+    "id": "bx2-9-3-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 在复数范围求 25 与 -25 的平方根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 781,
+        "end": 782
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 781,
+        "end": 782
+      }
+    ],
+    "id": "bx2-9-3-ex-1",
+    "category": "例题",
+    "answer": "解 因为 ${25} > 0$ ,它在复数范围的平方根与实数范围的平方根是一样的,都是 $\\pm  5$ ; 因为 $- {25} < 0$ ,它没有实平方根,而在复数范围其平方根是 $\\pm  \\sqrt{-\\left( {-{25}}\\right) }\\mathrm{i} =  \\pm  5\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 783,
+        "end": 784
+      }
+    ],
+    "teacher_analysis": "例 1 以 -25 的平方根为代表研究负数的开平方问题,由此可引出 $- c\\left( {c > 0}\\right)$ 的平方根为 $\\pm  \\sqrt{-c}\\mathrm{i}$ . 这是继规定 $\\mathrm{i}$ 为 -1 的平方根之后,应该紧随其后的负数开平方问题, 也是在复数范围内解实系数一元二次方程的准备知识.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 206,
+        "end": 206
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "2 实系数一元二次方程",
+    "markdown": "## 2 实系数一元二次方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 785,
+        "end": 785
+      }
+    ],
+    "id": "bx2-9-3-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们现在在复数范围求解实系数一元二次方程 $a{x}^{2} + {bx} + c \\; = 0\\left( {a \\neq  0}\\right)$ . 用配方法,得到\n\n$$\n{\\left( x + \\frac{b}{2a}\\right) }^{2} = \\frac{\\Delta }{4{a}^{2}}\\text{ ,即 }{\\left( 2ax + b\\right) }^{2} = \\Delta \\text{ ,其中 }\\Delta  = {b}^{2} - {4ac}.\n$$\n\n这就是说, ${2ax} + b$ 是实数 $\\Delta$ 的平方根. 由前面关于实数平方根的讨论, 就可以回答本节引言中所提的两个问题了, 其答案是: 在复数范围内,\n\n(1)当 $\\Delta  > 0$ 时,方程有两个不相等的实根 $\\frac{-b \\pm  \\sqrt{\\Delta }}{2a}$ ;\n\n(2)当 $\\Delta  = 0$ 时,方程有两个相等的实根 (二重根) $- \\frac{b}{2a}$ ;\n\n(3)当 $\\Delta  < 0$ 时,方程有一对共轭虚根 $\\frac{-b \\pm  \\sqrt{-\\Delta }\\mathrm{i}}{2a}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 786,
+        "end": 800
+      }
+    ],
+    "id": "bx2-9-3-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 在复数范围内解方程: $2{x}^{2} - {4x} + 5 = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 801,
+        "end": 802
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 801,
+        "end": 802
+      }
+    ],
+    "id": "bx2-9-3-ex-2",
+    "category": "例题",
+    "answer": "解 该方程的判别式 $\\Delta  = {\\left( -4\\right) }^{2} - 4 \\times  2 \\times  5 =  - {24} < 0$ ,所以此方程有一对共轭虚根\n\n$$\nx = \\frac{-\\left( {-4}\\right)  \\pm  \\sqrt{24}\\mathrm{i}}{4} = 1 \\pm  \\frac{\\sqrt{6}}{2}\\mathrm{i}.\n$$\n\n如果实系数一元二次方程 $a{x}^{2} + {bx} + c = 0\\left( {a \\neq  0}\\right)$ 有实根 ${x}_{1}$ 与 ${x}_{2}$ ,由必修课程第 2 章已经知道这两个根与方程的系数有如下关系(韦达定理):\n\n$$\n{x}_{1} + {x}_{2} =  - \\frac{b}{a},{x}_{1}{x}_{2} = \\frac{c}{a}.\n$$\n\n实系数一元二次方程的根与系数的关系在虚根的情况下仍然成立, 这只要直接把根代入验证就可以了.\n\n---\n\n有兴趣的同学可以写出在复数范围内求解实系数一元二次方程的完整算法, 并上机加以实现.\n\n请同学们自行完成这一验证过程.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 803,
+        "end": 824
+      }
+    ],
+    "teacher_analysis": "例 2 在一元二次方程判别式为负值时, 直接套用一元二次方程的求根公式得到方程的虚数解. 在教学中, 也可以针对此题再次运用配方法重演一元二次方程解得虚数根的过程.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 208,
+        "end": 208
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 如果 $p\\text{ 、 }q$ 都是实数,而关于 $x$ 的方程 $2{x}^{2} + {px} + \\; q = 0$ 有一个根 $- 2 + 3\\mathrm{i}$ ,求 $p\\text{ 、 }q$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 825,
+        "end": 826
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 825,
+        "end": 826
+      }
+    ],
+    "id": "bx2-9-3-ex-3",
+    "category": "例题",
+    "answer": "解 方程 $2{x}^{2} + {px} + q = 0$ 有一个虚根 $- 2 + 3\\mathrm{i}$ ,则它的另一个根必为其共轭复数 $- 2 - 3\\mathrm{i}$ . 由根与系数的关系,有\n\n$$\n\\left( {-2 + 3\\mathrm{i}}\\right)  + \\left( {-2 - 3\\mathrm{i}}\\right)  =  - \\frac{p}{2},\\left( {-2 + 3\\mathrm{i}}\\right) \\left( {-2 - 3\\mathrm{i}}\\right)  = \\frac{q}{2},\n$$\n\n从而 $p = 8, q = {26}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 827,
+        "end": 834
+      }
+    ],
+    "teacher_analysis": "例 3 的教学除了关注一元二次方程根与系数关系的运用, 首先应该引导学生通过对求根公式的观察得到结论: 若一元二次方程有虚数根, 则必定为一对共轭虚根.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 210,
+        "end": 210
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 在复数范围将 $2{x}^{2} - {4x} + 5$ 分解因式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 835,
+        "end": 836
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 835,
+        "end": 836
+      }
+    ],
+    "id": "bx2-9-3-ex-4",
+    "category": "例题",
+    "answer": "解 例 2 中已经求出方程 $2{x}^{2} - {4x} + 5 = 0$ 的两个根 $1 + \\frac{\\sqrt{6}}{2}\\mathrm{i}$ 与 $1 - \\frac{\\sqrt{6}}{2}\\mathrm{i}$ ,所以\n\n$$\n2{x}^{2} - {4x} + 5 = 2\\left( {x - 1 - \\frac{\\sqrt{6}}{2}\\mathrm{i}}\\right) \\left( {x - 1 + \\frac{\\sqrt{6}}{2}\\mathrm{i}}\\right) .\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 837,
+        "end": 842
+      }
+    ],
+    "teacher_analysis": "例 4 将实系数一元二次方程的虚数根与二次多项式在复数范围内作分解因式相联系, 教学时可将其与一元二次方程有两个实无理数根而对二次多项式作分解因式的情形相类比.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 212,
+        "end": 212
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 9.3",
+    "markdown": "## 练习 9.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 843,
+        "end": 843
+      }
+    ],
+    "id": "bx2-9-3-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习9.3 · 1",
+    "markdown": "1. 已知 $k$ 是一个实常数，而关于 $x$ 的一元二次方程 ${x}^{2} - {2kx} - k = 0$ 有两个虚根. 求 $k$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 845,
+        "end": 846
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 845,
+        "end": 846
+      }
+    ],
+    "id": "bx2-9-3-p93-1",
+    "category": "练习9.3",
+    "answer": "1. $- 1 < k < 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 414,
+        "end": 415
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.3 · 2",
+    "markdown": "2. 在复数范围内解方程:\n\n(1) ${x}^{2} + 2 = 0$ ； (2) ${x}^{2} + {2x} + 3 = 0$ ；\n\n(3) $2\\left( {{x}^{2} + 4}\\right)  = {5x}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 852
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 847,
+        "end": 852
+      }
+    ],
+    "id": "bx2-9-3-p93-2",
+    "category": "练习9.3",
+    "answer": "2. (1) $x =  \\pm  \\sqrt{2}\\mathrm{i}$ . (2) $x =  - 1 \\pm  \\sqrt{2}\\mathrm{i}.$ (3) $x = \\frac{5 \\pm  \\sqrt{39}\\mathrm{i}}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 416,
+        "end": 417
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.3 · 3",
+    "markdown": "3. 若 ${x}_{1}$ 和 ${x}_{2}$ 是方程 $2{x}^{2} + x + 3 = 0$ 的两个根,求 $\\frac{1}{{x}_{1}} + \\frac{1}{{x}_{2}}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 853,
+        "end": 854
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 853,
+        "end": 854
+      }
+    ],
+    "id": "bx2-9-3-p93-3",
+    "category": "练习9.3",
+    "answer": "3. $- \\frac{1}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 418,
+        "end": 419
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 9.3",
+    "markdown": "## 习题 9.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 855,
+        "end": 855
+      }
+    ],
+    "id": "bx2-9-3-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 857,
+        "end": 857
+      }
+    ],
+    "id": "bx2-9-3-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题9.3A · 1",
+    "markdown": "1. 在复数范围内解下列一元二次方程:\n\n(1) $4{x}^{2} + {25} = 0$ ； (2) ${x}^{2} - {2x} - 2 = 0$ ；\n\n(3) ${x}^{2} - x + 1 = 0$ ； (4) $\\left( {x - 3}\\right) \\left( {x - 5}\\right)  = 2$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 859,
+        "end": 864
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 859,
+        "end": 864
+      }
+    ],
+    "id": "bx2-9-3-h93A-1",
+    "category": "习题9.3A",
+    "answer": "1. (1) $x =  \\pm  \\frac{5}{2}\\mathrm{i}.$ (2) $x = 1 \\pm  \\sqrt{3}$ . (3) $x = \\frac{1 \\pm  \\sqrt{3}\\mathrm{i}}{2}$ . (4) $x = 4 \\pm  \\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 424,
+        "end": 425
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.3A · 2",
+    "markdown": "2. 已知 $2 + 3\\mathrm{i}$ 是实系数一元二次方程 ${x}^{2} + {bx} + c = 0$ 一个根,求 $b\\text{ 、 }c$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 865,
+        "end": 866
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 865,
+        "end": 866
+      }
+    ],
+    "id": "bx2-9-3-h93A-2",
+    "category": "习题9.3A",
+    "answer": "2. $b =  - 4, c = {13}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 426,
+        "end": 427
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.3A · 3",
+    "markdown": "3. 已知关于 $x$ 的实系数一元二次方程 ${x}^{2} + {kx} + 3 = 0$ 有两个虚根 ${x}_{1}$ 和 ${x}_{2}$ ,且 $\\left| {{x}_{1} - {x}_{2}}\\right|  = 2\\sqrt{2}$ . 求 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 867,
+        "end": 868
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 867,
+        "end": 868
+      }
+    ],
+    "id": "bx2-9-3-h93A-3",
+    "category": "习题9.3A",
+    "answer": "3. $\\pm  2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 428,
+        "end": 429
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "## B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 869,
+        "end": 869
+      }
+    ],
+    "id": "bx2-9-3-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题9.3B · 1",
+    "markdown": "1. 在复数范围内解方程:\n\n(1) ${x}^{4} - {16} = 0$ ； (2) ${x}^{4} + 3{x}^{2} - {10} = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 871,
+        "end": 874
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 871,
+        "end": 874
+      }
+    ],
+    "id": "bx2-9-3-h93B-1",
+    "category": "习题9.3B",
+    "answer": "1. (1) $x =  \\pm  2$ 或 $x =  \\pm  2\\mathrm{i}$ . (2) $x =  \\pm  \\sqrt{2}$ 或 $x =  \\pm  \\sqrt{5}\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 432,
+        "end": 433
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.3B · 2",
+    "markdown": "2. 已知两个复数的和为 4 、积为 6 ，求这两个复数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 875,
+        "end": 876
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 875,
+        "end": 876
+      }
+    ],
+    "id": "bx2-9-3-h93B-2",
+    "category": "习题9.3B",
+    "answer": "2. $2 + \\sqrt{2}\\mathrm{i}$ 和 $2 - \\sqrt{2}\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 434,
+        "end": 435
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.3B · 3",
+    "markdown": "3. 在复数范围内分解因式:\n\n(1) ${a}^{2} + {2ab} + {b}^{2} + {c}^{2}$ ; (2) ${x}^{2} + 5{y}^{2}$ ；\n\n(3) $2{x}^{2} - {6x} + 5$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 877,
+        "end": 882
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 877,
+        "end": 882
+      }
+    ],
+    "id": "bx2-9-3-h93B-3",
+    "category": "习题9.3B",
+    "answer": "3. (1) $\\left( {a + b + c\\mathrm{i}}\\right) \\left( {a + b - c\\mathrm{i}}\\right)$ . (2) $\\left( {x + \\sqrt{5}y\\mathrm{i}}\\right) \\left( {x - \\sqrt{5}y\\mathrm{i}}\\right)$ .\n\n(3) $2\\left( {x - \\frac{3 + \\mathrm{i}}{2}}\\right) \\left( {x - \\frac{3 - \\mathrm{i}}{2}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 436,
+        "end": 439
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.3B · 4",
+    "markdown": "4. 已知关于 $x$ 的实系数一元二次方程 ${x}^{2} + {kx} + {k}^{2} - {2k} = 0$ 有两个虚根 ${x}_{1}$ 和 ${x}_{2}$ ，且 ${x}_{1}^{2} + {x}_{2}^{2} = 3$ . 求 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 883,
+        "end": 884
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 883,
+        "end": 884
+      }
+    ],
+    "id": "bx2-9-3-h93B-4",
+    "category": "习题9.3B",
+    "answer": "4. 3 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 440,
+        "end": 441
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "探究与实践",
+    "markdown": "## 探究与实践",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 885,
+        "end": 885
+      }
+    ],
+    "id": "bx2-9-3-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "同学们也许会注意到,用配方法导出 ${\\left( 2ax + b\\right) }^{2} = \\Delta$ 时并不在乎原来的一元二次方程 $a{x}^{2} + {bx} + c = 0\\left( {a \\neq  0}\\right)$ 是否具有实系数. 当方程不局限于实系数时,判别式 $\\Delta  = {b}^{2} - {4ac}$ 可能为虚数. 如果我们有方法能够找出任意复数的平方根, 那么一般复系数一元二次方程就可解了. 要得到一个复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的平方根,可以从假设 ${\\left( c + d\\mathrm{i}\\right) }^{2} = a + b\\mathrm{i}$ ( $c\\text{ 、 }d \\in  \\mathbf{R}$ )开始,令等式两边的实部、虚部分别相等,得到关于 $c\\text{ 、 }d$ 的方程组并求解. 这个方法是可行的, 有兴趣的同学不妨一试.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 886,
+        "end": 888
+      }
+    ],
+    "id": "bx2-9-3-b26",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

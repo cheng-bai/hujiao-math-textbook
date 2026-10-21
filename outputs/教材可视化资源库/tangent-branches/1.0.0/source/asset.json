@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "key": "angle",
+      "label": "观察角（度）",
+      "max": 270,
+      "min": -270,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><mi>tan</mi><mi>x</mi><mo>=</mo><mfrac><mrow><mi>sin</mi><mi>x</mi></mrow><mrow><mi>cos</mi><mi>x</mi></mrow></mfrac><mo>,</mo><mspace width=\"1em\"/><mi>x</mi><mo>≠</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>+</mo><mi>k</mi><mi>π</mi><mo>,</mo><mi>k</mi><mo>∈</mo><mi>ℤ</mi></mrow></math>",
+  "goal": "通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。",
+  "id": "tangent-branches",
+  "initial": {
+    "angle": 60
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-7-4-b4",
+      "rationale": "覆盖本节原prose第4块：通过跨越被排除角度的读数和不连通曲线解释正切分支、周期及渐近线。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx2-7-4"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "正切值可由终边所在直线与 x=1 的交点纵坐标表示；终边与 x=1 平行时没有交点。先作 (-π/2,π/2) 一支，再按 π 的整数倍平移。定义域排除 π/2+kπ；这些直线隔开不同分支，禁止跨线连点。每支内严格增不等于整个定义域上严格增。",
+  "title": "正切：渐近线不是可以跨越的曲线"
+}

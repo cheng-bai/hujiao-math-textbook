@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-10-5",
+  "book_id": "bx3",
+  "section": "10.5",
+  "title": "异面直线间的距离",
+  "section_json": "batch/sections/bx3/bx3-10-5.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-10-5",
+  "fingerprint": "1a10b181566eec4fa672c04b87b2466b9e58e518c0d5148c5b50d1a235691cd0",
+  "status": "rendered",
+  "questions": 14,
+  "answers": 14,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-20f664afc1c88cc27299.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg",
+      "sha256": "20f664afc1c88cc272998222027ba2e41a4eb0f40793a4d18b5dae83858ddaff",
+      "private": false
+    },
+    "images/book-9ae2e3c7937f9dd3160d.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg",
+      "sha256": "9ae2e3c7937f9dd3160df082460bb20823ac33b2f13759a6d15fd508b815b11e",
+      "private": false
+    },
+    "images/book-40900358dd6f82ad4440.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg",
+      "sha256": "40900358dd6f82ad4440f3ea40617ed6d54b2e1841b2b2c02b8989cf123a6062",
+      "private": false
+    },
+    "images/book-6962e7909b9126ce1c45.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg",
+      "sha256": "6962e7909b9126ce1c45e15eb532886255c27dc865823eec8abb78fc17c538f0",
+      "private": false
+    },
+    "images/book-146451fc9b55f19c7792.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg",
+      "sha256": "146451fc9b55f19c7792f3340456da9ef193882ee34165fbc5ca4ad7e733c601",
+      "private": false
+    },
+    "images/book-13d08171f4079f2c0651.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg",
+      "sha256": "13d08171f4079f2c06510920276e4014718ef3e5a4d3adcd95df1ec0f83693da",
+      "private": false
+    },
+    "images/book-deaf82bc9b485e525de6.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg",
+      "sha256": "deaf82bc9b485e525de633e87c6d36a0b90502ebe6e0becfff4211044bd045ff",
+      "private": false
+    },
+    "images/book-b5928511505e4b8bbcd1.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg",
+      "sha256": "b5928511505e4b8bbcd12c3e76fa6bcb22f53d66552dff8cc6327888e6c367ae",
+      "private": false
+    },
+    "images/book-f757bac3c32b30256337.jpg": {
+      "source": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg",
+      "sha256": "f757bac3c32b30256337654817f177b0659575ea1bea2bc9d2569cb6a7cb901c",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md": "35f2b6b5d4d617ad9b28dd03d2d7a4190ec8c59bd3ccc8efd7048727738feb57",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md": "d5c15f5e9d051e7978e665f9b953ed977d378af9dcbc9486005917629a23558e"
+  },
+  "student_images": [
+    "images/book-13d08171f4079f2c0651.jpg",
+    "images/book-146451fc9b55f19c7792.jpg",
+    "images/book-20f664afc1c88cc27299.jpg",
+    "images/book-40900358dd6f82ad4440.jpg",
+    "images/book-6962e7909b9126ce1c45.jpg",
+    "images/book-9ae2e3c7937f9dd3160d.jpg",
+    "images/book-b5928511505e4b8bbcd1.jpg",
+    "images/book-deaf82bc9b485e525de6.jpg",
+    "images/book-f757bac3c32b30256337.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "93703b5101aa72c3fb2d69b0cd2537333fff3d82b0dda0b0bab04ffa87b6afb5",
+    "student.html": "e5b2ad8b5d4b3d38203608ff361f1faef3533e923873a43c494bd9d2d243ac30",
+    "student.zip": "c42c98ef498df33ce9dd30fad1e25175f15eeae4c1df0366f46716c20a0c5db4",
+    "content.json": "5cf16539bd1b06fcaf1bf28150e391549cd09a2f94bb5d14334d8df0c3501eab"
+  }
+}

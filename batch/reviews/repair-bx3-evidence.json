@@ -1,0 +1,2572 @@
+{
+  "repair": "repair-bx3-v1",
+  "sections": [
+    {
+      "section": "bx3-10-1",
+      "issues_before": [
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "习题10.1B",
+          "question_numbers": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "answer_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 28,
+      "questions_after": 29,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-10-1-b43",
+          "fields": [
+            "analysis_provenance",
+            "answer",
+            "answer_provenance",
+            "category",
+            "editorial_answer",
+            "editorial_original_markdown",
+            "markdown",
+            "provenance_question",
+            "teacher_analysis",
+            "title",
+            "type"
+          ],
+          "before": {
+            "type": "prose",
+            "title": "",
+            "markdown": "1.1 个平面把空间分成 2 部分，2 个平面把空间分成 3 或 4 部分，3 个平面把空间分成几部分?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 328,
+                "end": 330
+              }
+            ]
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 1",
+            "markdown": "1. 1 个平面把空间分成 2 部分，2 个平面把空间分成 3 或 4 部分，3 个平面把空间分成几部分?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 328,
+                "end": 330
+              }
+            ],
+            "id": "bx3-10-1-b43",
+            "category": "习题10.1B",
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 328,
+                "end": 330
+              }
+            ],
+            "answer": "【编辑补写】\n\n三个不同平面可把空间分成 $4,6,7,8$ 部分。\n\n第三个平面若与前两个平面都平行，就新增一个区域，共有 $4$ 个区域；三个平面中恰有两个平行时，第三个平面横截它们，共有 $6$ 个区域；三平面共一条交线时，共有 $6$ 个区域；三平面两两相交且三条交线互相平行而不重合时，共有 $7$ 个区域；三平面两两相交且三条不同交线交于一点时，共有 $8$ 个区域。\n\n也可统一计数：加入第三个平面时，它与前两个平面的交线在该平面内把它分成几部分，空间就新增几部分。前两平面平行时，原有 $3$ 区，新增 $1$ 或 $3$ 区；前两平面相交时，原有 $4$ 区，新增 $2,3,4$ 区。于是只有上述四种结果。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_original_markdown": "1.1 个平面把空间分成 2 部分，2 个平面把空间分成 3 或 4 部分，3 个平面把空间分成几部分?",
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 328,
+                  "end": 330
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-10-1-h101B-2",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题10.1B · 2",
+            "markdown": "2. 若平面 $\\alpha$ 与平面 $\\beta$ 、 $\\gamma$ 都相交,则这三个平面的交线可能有几条?\n\nA. 1 条或 2 条; B. 2 条或 3 条;\n\nC. 1 条或 3 条; D. 1 条或 2 条或 3 条.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 331,
+                "end": 336
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 331,
+                "end": 336
+              }
+            ],
+            "id": "bx3-10-1-h101B-2",
+            "category": "习题10.1B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 2",
+            "markdown": "2. 若平面 $\\alpha$ 与平面 $\\beta$ 、 $\\gamma$ 都相交,则这三个平面的交线可能有几条?\n\nA. 1 条或 2 条; B. 2 条或 3 条;\n\nC. 1 条或 3 条; D. 1 条或 2 条或 3 条.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 331,
+                "end": 336
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 331,
+                "end": 336
+              }
+            ],
+            "id": "bx3-10-1-h101B-2",
+            "category": "习题10.1B",
+            "answer": "2. D.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-1-h101B-3",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题10.1B · 3",
+            "markdown": "3. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,已知 $O$ 是 ${DB}$ 的中点,且直线 ${A}_{1}C$ 交平面 ${C}_{1}{BD}$ 于点 $M$ ，点 ${C}_{1}\\text{ 、 }M\\text{ 、 }O$ 的位置关系是___.\n\n![bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg)\n\n(第 3 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 337,
+                "end": 346
+              },
+              {
+                "source": "book",
+                "start": 339,
+                "end": 341
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 337,
+                "end": 346
+              },
+              {
+                "source": "book",
+                "start": 339,
+                "end": 341
+              }
+            ],
+            "id": "bx3-10-1-h101B-3",
+            "category": "习题10.1B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 3",
+            "markdown": "3. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,已知 $O$ 是 ${DB}$ 的中点,且直线 ${A}_{1}C$ 交平面 ${C}_{1}{BD}$ 于点 $M$ ，点 ${C}_{1}\\text{ 、 }M\\text{ 、 }O$ 的位置关系是___.\n\n![bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg)\n\n(第 3 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 337,
+                "end": 346
+              },
+              {
+                "source": "book",
+                "start": 339,
+                "end": 341
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 337,
+                "end": 346
+              },
+              {
+                "source": "book",
+                "start": 339,
+                "end": 341
+              }
+            ],
+            "id": "bx3-10-1-h101B-3",
+            "category": "习题10.1B",
+            "answer": "3. 三点共线.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-1-h101B-4",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题10.1B · 4",
+            "markdown": "4. 如图,已知 $A \\in  l, B \\in  l, C \\in  l, O \\notin  l$ . 求证: ${OA}\\text{ 、 }{OB}\\text{ 、 }{OC}$ 在同一平面上.\n\n![bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg)\n\n(第 4 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 347,
+                "end": 348
+              },
+              {
+                "source": "book",
+                "start": 343,
+                "end": 345
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 347,
+                "end": 348
+              },
+              {
+                "source": "book",
+                "start": 343,
+                "end": 345
+              }
+            ],
+            "id": "bx3-10-1-h101B-4",
+            "category": "习题10.1B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 4",
+            "markdown": "4. 如图,已知 $A \\in  l, B \\in  l, C \\in  l, O \\notin  l$ . 求证: ${OA}\\text{ 、 }{OB}\\text{ 、 }{OC}$ 在同一平面上.\n\n![bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg)\n\n(第 4 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 347,
+                "end": 348
+              },
+              {
+                "source": "book",
+                "start": 343,
+                "end": 345
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 347,
+                "end": 348
+              },
+              {
+                "source": "book",
+                "start": 343,
+                "end": 345
+              }
+            ],
+            "id": "bx3-10-1-h101B-4",
+            "category": "习题10.1B",
+            "answer": "4. 因为 $O \\notin  l$ ,由公理 2 推论 1,知 $O$ 与 $l$ 可确定平面 $\\alpha$ ,所以 $O \\in  \\alpha , l \\subset  \\alpha$ . 因为 $A\\text{、}B\\text{、}C$ 在直线 $l$ 上,所以 $A \\in  \\alpha , B \\in  \\alpha , C \\in  \\alpha$ . 由公理 1,知 ${OA} \\subset  \\alpha ,{OB} \\subset  \\alpha$ , ${OC} \\subset  \\alpha$ .",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-1-h101B-5",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题10.1B · 5",
+            "markdown": "5. 如图,已知 $D$ 及 $E$ 是 $\\bigtriangleup {ABC}$ 的边 ${AC}$ 及 ${BC}$ 上的点,平面 $\\alpha$ 经过 $D\\text{ 、 }E$ 两点,直线 ${AB}$ 与平面 $\\alpha$ 交于点 $P$ . 求证: 点 $P$ 在直线 ${DE}$ 上.\n\n![bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg)\n\n(第 5 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 349,
+                "end": 358
+              },
+              {
+                "source": "book",
+                "start": 351,
+                "end": 353
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 349,
+                "end": 358
+              },
+              {
+                "source": "book",
+                "start": 351,
+                "end": 353
+              }
+            ],
+            "id": "bx3-10-1-h101B-5",
+            "category": "习题10.1B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 5",
+            "markdown": "5. 如图,已知 $D$ 及 $E$ 是 $\\bigtriangleup {ABC}$ 的边 ${AC}$ 及 ${BC}$ 上的点,平面 $\\alpha$ 经过 $D\\text{ 、 }E$ 两点,直线 ${AB}$ 与平面 $\\alpha$ 交于点 $P$ . 求证: 点 $P$ 在直线 ${DE}$ 上.\n\n![bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg)\n\n(第 5 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 349,
+                "end": 358
+              },
+              {
+                "source": "book",
+                "start": 351,
+                "end": 353
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 349,
+                "end": 358
+              },
+              {
+                "source": "book",
+                "start": 351,
+                "end": 353
+              }
+            ],
+            "id": "bx3-10-1-h101B-5",
+            "category": "习题10.1B",
+            "answer": "5. 由公理 2,知 $A\\text{、}B\\text{、}C$ 可确定一个平面 $\\beta$ ,所以 ${AC} \\subset  \\beta$ . 因为 $D \\in  {AC}$ ,所以 $D \\in  \\beta$ ,又因为 $D \\in  \\alpha$ ,所以 $D \\in  \\alpha  \\cap  \\beta$ . 同理 $E \\in  \\alpha  \\cap  \\beta , P \\in  \\alpha  \\cap  \\beta$ ,由公理 3,知点 $P$ 在直线 ${DE}$ 上.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-1-h101B-6",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题10.1B · 6",
+            "markdown": "6. 如图,已知 $E\\text{ 、 }F\\text{ 、 }G\\text{ 、 }H$ 分别是正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱 ${AB}\\text{ 、 }{BC}\\text{ 、 }C{C}_{1}$ 、 ${C}_{1}{D}_{1}$ 的中点,且 ${EF}$ 与 ${HG}$ 相交于点 $Q$ . 求证: 点 $Q$ 在直线 ${DC}$ 上.\n\n![bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg)\n\n(第 6 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 359,
+                "end": 360
+              },
+              {
+                "source": "book",
+                "start": 355,
+                "end": 357
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 359,
+                "end": 360
+              },
+              {
+                "source": "book",
+                "start": 355,
+                "end": 357
+              }
+            ],
+            "id": "bx3-10-1-h101B-6",
+            "category": "习题10.1B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题10.1B · 6",
+            "markdown": "6. 如图,已知 $E\\text{ 、 }F\\text{ 、 }G\\text{ 、 }H$ 分别是正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱 ${AB}\\text{ 、 }{BC}\\text{ 、 }C{C}_{1}$ 、 ${C}_{1}{D}_{1}$ 的中点,且 ${EF}$ 与 ${HG}$ 相交于点 $Q$ . 求证: 点 $Q$ 在直线 ${DC}$ 上.\n\n![bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg)\n\n(第 6 题)",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 359,
+                "end": 360
+              },
+              {
+                "source": "book",
+                "start": 355,
+                "end": 357
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 359,
+                "end": 360
+              },
+              {
+                "source": "book",
+                "start": 355,
+                "end": 357
+              }
+            ],
+            "id": "bx3-10-1-h101B-6",
+            "category": "习题10.1B",
+            "answer": "6. 因为 ${EF} \\cap  {HG} = Q$ ,所以 $Q \\in  {EF}$ ,又因为 ${EF} \\subset$ 平面 ${ABCD}$ ,所以 $Q \\in$ 平面 ${ABCD}$ . 同理可得, $Q \\in$ 平面 ${DC}{C}_{1}{D}_{1}$ . 又平面 ${ABCD} \\cap$ 平面 ${DC}{C}_{1}{D}_{1} = {DC}$ ,所以 $Q \\in  {DC}$ .",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-1-b49",
+          "fields": [
+            "editorial_note",
+            "title"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "习题10.1B · 未配对参考答案原文（题号异常）",
+            "markdown": "1.4 或 6 或 7 或 8 .\n\n2. D.\n\n3. 三点共线.\n\n4. 因为 $O \\notin  l$ ,由公理 2 推论 1,知 $O$ 与 $l$ 可确定平面 $\\alpha$ ,所以 $O \\in  \\alpha , l \\subset  \\alpha$ . 因为 $A\\text{、}B\\text{、}C$ 在直线 $l$ 上,所以 $A \\in  \\alpha , B \\in  \\alpha , C \\in  \\alpha$ . 由公理 1,知 ${OA} \\subset  \\alpha ,{OB} \\subset  \\alpha$ , ${OC} \\subset  \\alpha$ .\n\n5. 由公理 2,知 $A\\text{、}B\\text{、}C$ 可确定一个平面 $\\beta$ ,所以 ${AC} \\subset  \\beta$ . 因为 $D \\in  {AC}$ ,所以 $D \\in  \\beta$ ,又因为 $D \\in  \\alpha$ ,所以 $D \\in  \\alpha  \\cap  \\beta$ . 同理 $E \\in  \\alpha  \\cap  \\beta , P \\in  \\alpha  \\cap  \\beta$ ,由公理 3,知点 $P$ 在直线 ${DE}$ 上.\n\n6. 因为 ${EF} \\cap  {HG} = Q$ ,所以 $Q \\in  {EF}$ ,又因为 ${EF} \\subset$ 平面 ${ABCD}$ ,所以 $Q \\in$ 平面 ${ABCD}$ . 同理可得, $Q \\in$ 平面 ${DC}{C}_{1}{D}_{1}$ . 又平面 ${ABCD} \\cap$ 平面 ${DC}{C}_{1}{D}_{1} = {DC}$ ,所以 $Q \\in  {DC}$ .",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "teacher",
+            "title": "习题10.1B · 原始参考答案留存（已人工归位）",
+            "markdown": "1.4 或 6 或 7 或 8 .\n\n2. D.\n\n3. 三点共线.\n\n4. 因为 $O \\notin  l$ ,由公理 2 推论 1,知 $O$ 与 $l$ 可确定平面 $\\alpha$ ,所以 $O \\in  \\alpha , l \\subset  \\alpha$ . 因为 $A\\text{、}B\\text{、}C$ 在直线 $l$ 上,所以 $A \\in  \\alpha , B \\in  \\alpha , C \\in  \\alpha$ . 由公理 1,知 ${OA} \\subset  \\alpha ,{OB} \\subset  \\alpha$ , ${OC} \\subset  \\alpha$ .\n\n5. 由公理 2,知 $A\\text{、}B\\text{、}C$ 可确定一个平面 $\\beta$ ,所以 ${AC} \\subset  \\beta$ . 因为 $D \\in  {AC}$ ,所以 $D \\in  \\beta$ ,又因为 $D \\in  \\alpha$ ,所以 $D \\in  \\alpha  \\cap  \\beta$ . 同理 $E \\in  \\alpha  \\cap  \\beta , P \\in  \\alpha  \\cap  \\beta$ ,由公理 3,知点 $P$ 在直线 ${DE}$ 上.\n\n6. 因为 ${EF} \\cap  {HG} = Q$ ,所以 $Q \\in  {EF}$ ,又因为 ${EF} \\subset$ 平面 ${ABCD}$ ,所以 $Q \\in$ 平面 ${ABCD}$ . 同理可得, $Q \\in$ 平面 ${DC}{C}_{1}{D}_{1}$ . 又平面 ${ABCD} \\cap$ 平面 ${DC}{C}_{1}{D}_{1} = {DC}$ ,所以 $Q \\in  {DC}$ .",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 544,
+                "end": 555
+              }
+            ],
+            "teacher_only": true,
+            "id": "bx3-10-1-b49",
+            "editorial_note": "原稿留存用于复核；各题答案已按题意逐题配对，不再作为未归属内容。"
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-10-3",
+      "issues_before": [
+        {
+          "code": "example-answer-boundary",
+          "severity": "blocking",
+          "message": "未找到例题解答起点，未猜分",
+          "line": 759
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 39,
+      "questions_after": 39,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-10-3-b4",
+          "fields": [
+            "markdown",
+            "provenance"
+          ],
+          "before": {
+            "type": "prose",
+            "title": "",
+            "markdown": "上面我们已按照直线与平面的公共点的个数来划分了空间直线与平面的位置关系, 其中, 当直线与平面没有公共点时, 我们说直线与平面平行, 并沿用平面几何中的平行符号来表示, 如 $l//\\alpha$ . 但是,因为直线与平面都是无限延伸的,要直接判断直线与平面是否有公共点往往是比较困难的, 所以我们需要一个简便的直线与平面平行的判定定理.\n\n观察房门的转动情景可以看到，房门开启后，无论门转到什么位置, 房门外沿所在的直线始终都是和门框所在的平面平行的. 这是因为房门的外沿与内沿是平行的, 而在房门的转动过程中, 内沿始终都在门框所在的平面上. 由此可以引出下面的直线与平面平行的判定定理:\n\n直线与平面平行的判定定理 如果不在平面上的一条直线与这个平面上的一条直线平行, 那么该直线与这个平面平行.\n\n下面, 用反证法来证明这个定理.\n\n已知: 如图 10-3-1,直线 $a$ 不在平面 $\\alpha$ 上,直线 $b$ 在平面 $\\alpha$ 上,且 $a//b$ .\n\n![bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg)\n\n图 10-3-1\n\n求证: 直线 $a//$ 平面 $\\alpha$ .\n\n证明 假设直线 $a$ 不平行于平面 $\\alpha$ ,则直线 $a$ 与平面 $\\alpha$ 有公共点,设为点 $P$ . 在平面 $\\alpha$ 上,过点 $P$ 作已知直线 $b$ 的平行线 ${a}^{\\prime }$ . 因为 $a$ 不在 $\\alpha$ 上,所以 ${a}^{\\prime }$ 与 $a$ 不重合. 另一方面,因为 $a// \\; b,{a}^{\\prime }//b$ ,所以 ${a}^{\\prime }//a$ ,这和 $a$ 与 ${a}^{\\prime }$ 交于点 $P$ 矛盾. 所以原假设不成立,从而 $a//\\alpha$ .\n\n依据上述判定定理, 要判定不在平面上的一条直线与这个平面平行, 只要在此平面上找到此直线的一条平行线即可.\n\n证明 如图 10-3-2,因为棱 $B{B}_{1}$ 平行且等于棱 $D{D}_{1}$ ,所以 $B{B}_{1}{D}_{1}D$ 是平行四边形,从而 ${BD}//{B}_{1}{D}_{1}$ . 因为直线 ${B}_{1}{D}_{1}$ 在平面 $A{B}_{1}{D}_{1}$ 上,而直线 ${BD}$ 不在平面 $A{B}_{1}{D}_{1}$ 上,由上述判定定理,得到直线 ${BD}//$ 平面 $A{B}_{1}{D}_{1}$ .\n\n![bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg)\n\n图 10-3-2",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 732,
+                "end": 758
+              }
+            ]
+          },
+          "after": {
+            "type": "prose",
+            "title": "",
+            "markdown": "上面我们已按照直线与平面的公共点的个数来划分了空间直线与平面的位置关系, 其中, 当直线与平面没有公共点时, 我们说直线与平面平行, 并沿用平面几何中的平行符号来表示, 如 $l//\\alpha$ . 但是,因为直线与平面都是无限延伸的,要直接判断直线与平面是否有公共点往往是比较困难的, 所以我们需要一个简便的直线与平面平行的判定定理.\n\n观察房门的转动情景可以看到，房门开启后，无论门转到什么位置, 房门外沿所在的直线始终都是和门框所在的平面平行的. 这是因为房门的外沿与内沿是平行的, 而在房门的转动过程中, 内沿始终都在门框所在的平面上. 由此可以引出下面的直线与平面平行的判定定理:\n\n直线与平面平行的判定定理 如果不在平面上的一条直线与这个平面上的一条直线平行, 那么该直线与这个平面平行.\n\n下面, 用反证法来证明这个定理.\n\n已知: 如图 10-3-1,直线 $a$ 不在平面 $\\alpha$ 上,直线 $b$ 在平面 $\\alpha$ 上,且 $a//b$ .\n\n![bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg)\n\n图 10-3-1\n\n求证: 直线 $a//$ 平面 $\\alpha$ .\n\n证明 假设直线 $a$ 不平行于平面 $\\alpha$ ,则直线 $a$ 与平面 $\\alpha$ 有公共点,设为点 $P$ . 在平面 $\\alpha$ 上,过点 $P$ 作已知直线 $b$ 的平行线 ${a}^{\\prime }$ . 因为 $a$ 不在 $\\alpha$ 上,所以 ${a}^{\\prime }$ 与 $a$ 不重合. 另一方面,因为 $a// \\; b,{a}^{\\prime }//b$ ,所以 ${a}^{\\prime }//a$ ,这和 $a$ 与 ${a}^{\\prime }$ 交于点 $P$ 矛盾. 所以原假设不成立,从而 $a//\\alpha$ .\n\n依据上述判定定理, 要判定不在平面上的一条直线与这个平面平行, 只要在此平面上找到此直线的一条平行线即可.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 732,
+                "end": 752
+              }
+            ],
+            "id": "bx3-10-3-b4"
+          }
+        },
+        {
+          "block": "bx3-10-3-ex-1",
+          "fields": [
+            "answer",
+            "answer_provenance",
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis"
+          ],
+          "before": {
+            "type": "question",
+            "title": "例题 1",
+            "markdown": "例 1 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,证明直线 ${BD}$ 平行于平面 $A{B}_{1}{D}_{1}$ .\n\n![bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg)\n\n图 10-3-3",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 759,
+                "end": 764
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 759,
+                "end": 764
+              }
+            ],
+            "id": "bx3-10-3-ex-1",
+            "category": "例题",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 1",
+            "markdown": "例 1 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,证明直线 ${BD}$ 平行于平面 $A{B}_{1}{D}_{1}$ .\n\n![bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg)\n\n图 10-3-2",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 759,
+                "end": 760
+              },
+              {
+                "source": "book",
+                "start": 755,
+                "end": 758
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 759,
+                "end": 760
+              },
+              {
+                "source": "book",
+                "start": 755,
+                "end": 758
+              }
+            ],
+            "id": "bx3-10-3-ex-1",
+            "category": "例题",
+            "answer": "证明 如图 10-3-2,因为棱 $B{B}_{1}$ 平行且等于棱 $D{D}_{1}$ ,所以 $B{B}_{1}{D}_{1}D$ 是平行四边形,从而 ${BD}//{B}_{1}{D}_{1}$ . 因为直线 ${B}_{1}{D}_{1}$ 在平面 $A{B}_{1}{D}_{1}$ 上,而直线 ${BD}$ 不在平面 $A{B}_{1}{D}_{1}$ 上,由上述判定定理,得到直线 ${BD}//$ 平面 $A{B}_{1}{D}_{1}$ .",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 753,
+                "end": 754
+              }
+            ],
+            "teacher_analysis": "【编辑归位】原OCR把本例证明及图10-3-2排在题干之前，现将长方体图移至例1题干，证明归入例1答案；误附的空间四边形图10-3-3转归例2。图像、图号与来源原件未改。",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-3-ex-2",
+          "fields": [
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis"
+          ],
+          "before": {
+            "type": "question",
+            "title": "例题 2",
+            "markdown": "例 2 证明: 空间四边形相邻两边中点的连线, 必平行于经过另外两边的平面.\n\n已知: 如图 10-3-3,在空间四边形 ${ABCD}$ 中,设 $E\\text{ 、 }F$ 分别是两边 ${AB}\\text{ 、 }{AD}$ 的中点.\n\n求证: ${EF}//$ 平面 ${BCD}$ .",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 765,
+                "end": 770
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 765,
+                "end": 770
+              }
+            ],
+            "id": "bx3-10-3-ex-2",
+            "category": "例题",
+            "answer": "证明 连接 ${BD}$ . 在 $\\bigtriangleup {ABD}$ 中,中位线 ${EF}$ 必平行于边 ${BD}$ .\n\n因为 ${BD}$ 在平面 ${BCD}$ 上,而 ${EF}$ 不在平面 ${BCD}$ 上,由上述判定定理,得到 ${EF}//$ 平面 ${BCD}$ .",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 771,
+                "end": 774
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 2",
+            "markdown": "例 2 证明: 空间四边形相邻两边中点的连线, 必平行于经过另外两边的平面.\n\n已知: 如图 10-3-3,在空间四边形 ${ABCD}$ 中,设 $E\\text{ 、 }F$ 分别是两边 ${AB}\\text{ 、 }{AD}$ 的中点.\n\n求证: ${EF}//$ 平面 ${BCD}$ .\n\n![bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg)\n\n图 10-3-3",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 765,
+                "end": 770
+              },
+              {
+                "source": "book",
+                "start": 761,
+                "end": 764
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 765,
+                "end": 770
+              },
+              {
+                "source": "book",
+                "start": 761,
+                "end": 764
+              }
+            ],
+            "id": "bx3-10-3-ex-2",
+            "category": "例题",
+            "answer": "证明 连接 ${BD}$ . 在 $\\bigtriangleup {ABD}$ 中,中位线 ${EF}$ 必平行于边 ${BD}$ .\n\n因为 ${BD}$ 在平面 ${BCD}$ 上,而 ${EF}$ 不在平面 ${BCD}$ 上,由上述判定定理,得到 ${EF}//$ 平面 ${BCD}$ .",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 771,
+                "end": 774
+              }
+            ],
+            "teacher_analysis": "【编辑图属校注】图10-3-3中的空间四边形ABCD及中点E、F对应本例，现从例1题干移来；保留原图与原图号。",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-10-3-ex-6",
+          "fields": [
+            "answer",
+            "answer_provenance",
+            "editorial_boundary_note",
+            "markdown",
+            "teacher_analysis"
+          ],
+          "before": {
+            "type": "question",
+            "title": "例题 6",
+            "markdown": "例 6 证明: 从平面外一点向这个平面所引的垂线段和斜线段中,\n\n(1)垂线段比任何给定的一条斜线段都短;\n\n(2)两条斜线段相等的充要条件是它们相应的两条投影相等.\n\n(1)因为 ${PO} \\bot  \\alpha$ ，由直线与平面垂直的定义，有 ${PO} \\bot  {OA}$ . 由直角三角形中斜边与直角边的关系,知 ${PO} < {PA}$ ,所以垂线段比任何给定的一条斜线段都短.\n\n![bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg)\n\n图 10-3-16",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 999,
+                "end": 1010
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 999,
+                "end": 1010
+              }
+            ],
+            "id": "bx3-10-3-ex-6",
+            "category": "例题",
+            "answer": "证明 如图 10-3-16,记 ${PO}$ 是平面 $\\alpha$ 的垂线段, ${PA}$ 和 ${PB}$ 是平面 $\\alpha$ 的斜线段, ${OA}$ 和 ${OB}$ 分别是它们在平面 $\\alpha$ 内的投影.\n\n(2)先证充分性. 设 ${OA} = {OB}$ ，则直角三角形 ${PAO}$ 与直角三角形 ${PBO}$ 全等，所以 ${PA} = {PB}$ . 再证必要性. 如果 ${PA} = {PB}$ , 那么同样有 $\\bigtriangleup {PAO} \\cong  \\bigtriangleup {PBO}$ ,所以 ${OA} = {OB}$ .\n\n![bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg)\n\n图 10-3-17",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 1011,
+                "end": 1018
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 6",
+            "markdown": "例 6 证明: 从平面外一点向这个平面所引的垂线段和斜线段中,\n\n(1)垂线段比任何给定的一条斜线段都短;\n\n(2)两条斜线段相等的充要条件是它们相应的两条投影相等.\n\n![bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg)\n\n图 10-3-16",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 999,
+                "end": 1010
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 999,
+                "end": 1010
+              }
+            ],
+            "id": "bx3-10-3-ex-6",
+            "category": "例题",
+            "answer": "证明 如图 10-3-16,记 ${PO}$ 是平面 $\\alpha$ 的垂线段, ${PA}$ 和 ${PB}$ 是平面 $\\alpha$ 的斜线段, ${OA}$ 和 ${OB}$ 分别是它们在平面 $\\alpha$ 内的投影.\n\n(1)因为 ${PO} \\bot  \\alpha$ ，由直线与平面垂直的定义，有 ${PO} \\bot  {OA}$ . 由直角三角形中斜边与直角边的关系,知 ${PO} < {PA}$ ,所以垂线段比任何给定的一条斜线段都短.\n\n(2)先证充分性. 设 ${OA} = {OB}$ ，则直角三角形 ${PAO}$ 与直角三角形 ${PBO}$ 全等，所以 ${PA} = {PB}$ . 再证必要性. 如果 ${PA} = {PB}$ , 那么同样有 $\\bigtriangleup {PAO} \\cong  \\bigtriangleup {PBO}$ ,所以 ${OA} = {OB}$ .",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 1005,
+                "end": 1006
+              },
+              {
+                "source": "book",
+                "start": 1011,
+                "end": 1014
+              }
+            ],
+            "teacher_analysis": "【编辑图属校注】本例使用图10-3-16的P、O、A、B及垂线段/斜线段。误收在本例答案尾部的图10-3-17涉及l、投影及夹角，已归入例7题干；原图与图号未改。",
+            "analysis_provenance": [],
+            "editorial_boundary_note": "将误混入题干的(1)证明移回答案；保留题设、图形和完整原解。"
+          }
+        },
+        {
+          "block": "bx3-10-3-ex-7",
+          "fields": [
+            "answer",
+            "editorial_boundary_note",
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis"
+          ],
+          "before": {
+            "type": "question",
+            "title": "例题 7",
+            "markdown": "例 7 如图 10-3-17,设 $l$ 是平面 $\\alpha$ 的一条斜线,与平面 $\\alpha$ 交于点 $O,{l}^{\\prime }$ 是 $l$ 在平面 $\\alpha$ 上的投影, ${l}^{\\prime \\prime }$ 是平面 $\\alpha$ 上过点 $O$ 的另一条直线, $l$ 与 ${l}^{\\prime }$ 所成的角为 $\\theta , l$ 与 ${l}^{\\prime \\prime }$ 所成的角为 $\\mu$ . 求证: $\\theta  < \\mu$ .",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1019,
+                "end": 1020
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1019,
+                "end": 1020
+              }
+            ],
+            "id": "bx3-10-3-ex-7",
+            "category": "例题",
+            "answer": "证明 在 $l$ 上取异于 $O$ 的一点 $A$ ,过点 $A$ 作 ${l}^{\\prime }$ 与 ${l}^{\\prime \\prime }$ 的垂线, 垂足分别是 $B$ 与 $C$ ,连接 ${BC}$ . 因为 ${l}^{\\prime }$ 是 $l$ 在平面 $\\alpha$ 上的投影, ${AB}$ 是平面 $\\alpha$ 的垂线， $\\bigtriangleup {ABC}$ 是直角三角形， $\\angle {ABC}$ 是直角， 所以 $\\left| {AB}\\right|  < \\left| {AC}\\right|$ . 在直角三角形 ${ABO}$ 与 ${ACO}$ 中,分别有\n$$\n\\sin \\theta  = \\frac{\\left| AB\\right| }{\\left| AO\\right| },\\sin \\mu  = \\frac{\\left| AC\\right| }{\\left| AO\\right| },\n$$\n\n---\n\n这个例题的证明不是“纯几何”的, 但数学不同分支的知识和方法的综合运用, 有时可以快捷地解决问题.\n\n---\n\n由此可见 $\\sin \\theta  < \\sin \\mu$ . 因为在 $\\left( {0,\\frac{\\pi }{2}}\\right)$ 中正弦函数是增函数,所以 $\\theta  < \\mu$ .\n\n如果 ${l}^{\\prime \\prime }$ 是平面 $\\alpha$ 上的任意直线, $l$ 与 ${l}^{\\prime \\prime }$ 所成的角 $\\mu$ 可以通过把 ${l}^{\\prime \\prime }$ 在平面 $\\alpha$ 上平行移动到通过 $O$ 的位置 (不排除与 ${l}^{\\prime }$ 重合的情况)而得到. 据例 7 得知,总有 $\\theta  \\leq  \\mu$ . 这说明了: 斜线与平面所成的角, 是这条斜线与平面内任何直线所成角中的最小的角.",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 1021,
+                "end": 1035
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 7",
+            "markdown": "例 7 如图 10-3-17,设 $l$ 是平面 $\\alpha$ 的一条斜线,与平面 $\\alpha$ 交于点 $O,{l}^{\\prime }$ 是 $l$ 在平面 $\\alpha$ 上的投影, ${l}^{\\prime \\prime }$ 是平面 $\\alpha$ 上过点 $O$ 的另一条直线, $l$ 与 ${l}^{\\prime }$ 所成的角为 $\\theta , l$ 与 ${l}^{\\prime \\prime }$ 所成的角为 $\\mu$ . 求证: $\\theta  < \\mu$ .\n\n![bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg](sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg)\n\n图 10-3-17",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1019,
+                "end": 1020
+              },
+              {
+                "source": "book",
+                "start": 1015,
+                "end": 1018
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1019,
+                "end": 1020
+              },
+              {
+                "source": "book",
+                "start": 1015,
+                "end": 1018
+              }
+            ],
+            "id": "bx3-10-3-ex-7",
+            "category": "例题",
+            "answer": "【编辑补证：角度边界】题中 $l$ 是平面 $\\alpha$ 的斜线，即它与平面相交但不垂直于平面，故它与投影所成的角满足 $0<\\theta<\\frac\\pi2$，不包含 $\\theta=0$ 或 $\\theta=\\frac\\pi2$。$l$ 与平面内过 $O$ 的直线 $l^{\\prime\\prime}$ 不重合，所以两直线所成的角满足 $0<\\mu\\le\\frac\\pi2$。\n\n若 $\\mu=\\frac\\pi2$，直接由 $\\theta<\\frac\\pi2=\\mu$ 得结论。此时原解中从 $A$ 向 $l^{\\prime\\prime}$ 作垂线的垂足 $C$ 就是 $O$，不能把 $\\triangle ACO$ 当作非退化直角三角形。下列原解的三角形比较步骤只用于余下的 $0<\\mu<\\frac\\pi2$ 情形；此时 $\\theta,\\mu$ 都在正弦函数的严格增区间内，推理成立。这样两种情形覆盖了题面允许的全部角度。\n\n【教材原解（保留）】\n\n证明 在 $l$ 上取异于 $O$ 的一点 $A$ ,过点 $A$ 作 ${l}^{\\prime }$ 与 ${l}^{\\prime \\prime }$ 的垂线, 垂足分别是 $B$ 与 $C$ ,连接 ${BC}$ . 因为 ${l}^{\\prime }$ 是 $l$ 在平面 $\\alpha$ 上的投影, ${AB}$ 是平面 $\\alpha$ 的垂线， $\\bigtriangleup {ABC}$ 是直角三角形， $\\angle {ABC}$ 是直角， 所以 $\\left| {AB}\\right|  < \\left| {AC}\\right|$ . 在直角三角形 ${ABO}$ 与 ${ACO}$ 中,分别有\n$$\n\\sin \\theta  = \\frac{\\left| AB\\right| }{\\left| AO\\right| },\\sin \\mu  = \\frac{\\left| AC\\right| }{\\left| AO\\right| },\n$$\n\n---\n\n这个例题的证明不是“纯几何”的, 但数学不同分支的知识和方法的综合运用, 有时可以快捷地解决问题.\n\n---\n\n由此可见 $\\sin \\theta  < \\sin \\mu$ . 因为在 $\\left( {0,\\frac{\\pi }{2}}\\right)$ 中正弦函数是增函数,所以 $\\theta  < \\mu$ .\n\n如果 ${l}^{\\prime \\prime }$ 是平面 $\\alpha$ 上的任意直线, $l$ 与 ${l}^{\\prime \\prime }$ 所成的角 $\\mu$ 可以通过把 ${l}^{\\prime \\prime }$ 在平面 $\\alpha$ 上平行移动到通过 $O$ 的位置 (不排除与 ${l}^{\\prime }$ 重合的情况)而得到. 据例 7 得知,总有 $\\theta  \\leq  \\mu$ . 这说明了: 斜线与平面所成的角, 是这条斜线与平面内任何直线所成角中的最小的角.",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 1021,
+                "end": 1035
+              }
+            ],
+            "teacher_analysis": "【编辑图属校注】图10-3-17中的l、投影l′、另一条平面直线l″及θ、μ对应本例，现移至本题题干，学生可见；保留原图与原图号。",
+            "analysis_provenance": [],
+            "editorial_boundary_note": "在answer中补齐μ=90°的直接证明；由斜线定义明确0<θ<90°。原解完整保留，非退化三角形证明限定μ为锐角。"
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-12-1",
+      "issues_before": [
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "习题12.1A",
+          "number": 1,
+          "line": 241
+        },
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "习题12.1A",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "answer_numbers": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 16,
+      "questions_after": 16,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-12-1-h121A-1",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题12.1A · 1",
+            "markdown": "1. 判断下列事件中，哪些是确定的事件，哪些是不确定的事件？\n\n(1)在空地上抛一石块，石块会下落；\n\n(2)明天上午八时到九时之间，你会接到一个推销电话；\n\n(3)买一张福利彩票，会中奖.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 241,
+                "end": 248
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 241,
+                "end": 248
+              }
+            ],
+            "id": "bx3-12-1-h121A-1",
+            "category": "习题12.1A",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题12.1A · 1",
+            "markdown": "1. 判断下列事件中，哪些是确定的事件，哪些是不确定的事件？\n\n(1)在空地上抛一石块，石块会下落；\n\n(2)明天上午八时到九时之间，你会接到一个推销电话；\n\n(3)买一张福利彩票，会中奖.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 241,
+                "end": 248
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 241,
+                "end": 248
+              }
+            ],
+            "id": "bx3-12-1-h121A-1",
+            "category": "习题12.1A",
+            "answer": "【编辑补写】\n\n(1)是确定的事件（必然事件）；(2)(3)是不确定的事件（随机事件）。在通常地面环境下石块必下落；是否接到推销电话、彩票是否中奖事先不能确定。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 241,
+                  "end": 248
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-12-1-h121A-2",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题12.1A · 2",
+            "markdown": "2. 抛掷 100 枚同一类型且质地均匀的硬币, 下面的陈述哪些是正确的, 哪些是错误的?\n\n(1)全部出现正面向上是不可能的；\n\n(2)至少有 1 枚出现正面向上是必然的；\n\n(3)出现 50 枚正面向上、50 枚正面向下是不确定的.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 249,
+                "end": 256
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 249,
+                "end": 256
+              }
+            ],
+            "id": "bx3-12-1-h121A-2",
+            "category": "习题12.1A",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题12.1A · 2",
+            "markdown": "2. 抛掷 100 枚同一类型且质地均匀的硬币, 下面的陈述哪些是正确的, 哪些是错误的?\n\n(1)全部出现正面向上是不可能的；\n\n(2)至少有 1 枚出现正面向上是必然的；\n\n(3)出现 50 枚正面向上、50 枚正面向下是不确定的.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 249,
+                "end": 256
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 249,
+                "end": 256
+              }
+            ],
+            "id": "bx3-12-1-h121A-2",
+            "category": "习题12.1A",
+            "answer": "2.(1)错误. 出现全部正面向上是一个随机现象. (2)错误. 至少 1 枚正面向上是一个随机现象. (3)正确. 这是一个随机现象.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 366,
+                "end": 371
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-12-1-h121A-3",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题12.1A · 3",
+            "markdown": "3. 从装有红、白、黑三种颜色的小球各 1 个的袋子中任取 2 个小球, 写出这个随机试验的样本空间.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 257,
+                "end": 258
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 257,
+                "end": 258
+              }
+            ],
+            "id": "bx3-12-1-h121A-3",
+            "category": "习题12.1A",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题12.1A · 3",
+            "markdown": "3. 从装有红、白、黑三种颜色的小球各 1 个的袋子中任取 2 个小球, 写出这个随机试验的样本空间.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 257,
+                "end": 258
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 257,
+                "end": 258
+              }
+            ],
+            "id": "bx3-12-1-h121A-3",
+            "category": "习题12.1A",
+            "answer": "3. $\\Omega  = \\{$ 红白,红黑,白黑 $\\}$ .",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 366,
+                "end": 371
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-12-1-h121A-4",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "习题12.1A · 4",
+            "markdown": "4. \"一名学生一次掷 3 颗骰子，3 颗都掷得点数 6\"的事件是 ( )\n\nA. 不可能事件； B. 必然事件;\n\nC. 可能性较大的随机事件; D. 可能性较小的随机事件.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 259,
+                "end": 264
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 259,
+                "end": 264
+              }
+            ],
+            "id": "bx3-12-1-h121A-4",
+            "category": "习题12.1A",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "习题12.1A · 4",
+            "markdown": "4. \"一名学生一次掷 3 颗骰子，3 颗都掷得点数 6\"的事件是 ( )\n\nA. 不可能事件； B. 必然事件;\n\nC. 可能性较大的随机事件; D. 可能性较小的随机事件.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 259,
+                "end": 264
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 259,
+                "end": 264
+              }
+            ],
+            "id": "bx3-12-1-h121A-4",
+            "category": "习题12.1A",
+            "answer": "4. D.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 366,
+                "end": 371
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-12-1-b29",
+          "fields": [
+            "editorial_note",
+            "title"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "习题12.1A · 未配对参考答案原文（题号异常）",
+            "markdown": "2.(1)错误. 出现全部正面向上是一个随机现象. (2)错误. 至少 1 枚正面向上是一个随机现象. (3)正确. 这是一个随机现象.\n\n3. $\\Omega  = \\{$ 红白,红黑,白黑 $\\}$ .\n\n4. D.",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 366,
+                "end": 371
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "teacher",
+            "title": "习题12.1A · 原始参考答案留存（已人工归位）",
+            "markdown": "2.(1)错误. 出现全部正面向上是一个随机现象. (2)错误. 至少 1 枚正面向上是一个随机现象. (3)正确. 这是一个随机现象.\n\n3. $\\Omega  = \\{$ 红白,红黑,白黑 $\\}$ .\n\n4. D.",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 366,
+                "end": 371
+              }
+            ],
+            "teacher_only": true,
+            "id": "bx3-12-1-b29",
+            "editorial_note": "原稿留存用于复核；各题答案已按题意逐题配对，不再作为未归属内容。"
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-12-3",
+      "issues_before": [
+        {
+          "code": "unattached-book-solution",
+          "severity": "blocking",
+          "message": "正文中检测到独立证明或解答，已隔离教师侧，需复核归属与正文续接",
+          "line": 835
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 6,
+      "questions_after": 7,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-12-3-b2",
+          "fields": [
+            "markdown",
+            "provenance"
+          ],
+          "before": {
+            "type": "prose",
+            "title": "",
+            "markdown": "某个事件发生的概率是对这个事件发生可能性大小的一种度量, 这种度量能不能被验证呢? 换言之, 除了给我们关于事件发生可能性的心理预期外, 概率大小究竟有什么实际意义呢? 回到抛掷一枚硬币这件事情,正面朝上的概率是 $\\frac{1}{2}$ ,除了硬币质地均匀的原因之外, 是否还有其他解释呢?\n\n实际上, 概率可以从频率的角度来检验. 频率也是一个生活中常用的词. 如果一个随机试验只有两种可能的结果, 一个是 \"成功\",概率是 $p\\left( {0 < p < 1}\\right)$ ,一个是 \"失败\",概率是 $1 - p$ ,那么这个随机试验称为伯努利试验. 如果抛掷一枚硬币, 把正面朝上称为成功, 掷骰子把点数 6 向上称为成功, 那么它们都可以看作伯努利试验. 假设我们可以独立地重复一个伯努利试验 $n$ 次, 其中成功的次数记作 ${S}_{n}$ ,那么\n\n$$\n\\frac{{S}_{n}}{n}\n$$\n\n就被称为 $\\left( {n\\text{ 次试验中 }}\\right)$ 成功的频率 (frequency). 频率是一个数, 依赖于试验次数 $n$ . 它不是一个确定的数,而是一个随机的数.\n\n通过大量的观察，人们发现了下面这个定律，它说明频率具有稳定性, 在试验次数足够多时, 会稳定地趋向于概率. 这给出了由概率来表示可能性大小的理由, 或者说概率在某种意义上是可以检验的.\n\n伯努利大数定律 (law of large numbers): 独立地重复一个伯努利试验 $n$ 次,当 $n$ 很大时,频率 $\\frac{{S}_{n}}{n}$ 逼近概率.\n\n这个结论之所以被称为定律, 或许是因为它直观地像是一个自然定律. 它很早就被数学家观察到, 并在瑞士数学家雅各布· 伯努利 1713 年出版的书中首次给出了证明.\n\n注意, 伯努利大数定律的成立有一个条件, 即 \"假设我们可以独立地重复一个伯努利试验\", 这个条件非常关键. 抛掷硬币、 掷骰子这类随机试验可以独立地重复, 然而许多随机现象是不可以独立地重复的. 例如, 某人今年会不会得流感是随机的, 每个人的高考成绩也是随机的, 但这些现象都不能独立地重复. 可以独立地重复的才称得上是一个试验. 虽然人们对于不能独立地重复的随机现象也谈论概率, 但那是主观的概率, 并不能检验.\n\n---\n\n\"独立地重复\"有严格的数学定义, 但这里可以按字面来理解.\n\n由于试验具有随机性, 因此频率是一个不确定的量, 而概率是一个确定的量.\n\n大数定律的名称中的\"大数\"是指需重复很多次才会出现\"频率逼近概率\"这个现象.\n\n---\n\n![bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg](sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg)\n\n雅各布・伯努利(Jakob Bernoulli, 1654—1705), 瑞士数学家，伯努利家族 (其中有许多著名科学家、 数学家)中的一员，对概率论的主要贡献发表在其著作《猜度术》中，其中包括大数定律.\n\n在抛掷一枚硬币时，既可能正面朝上，也可能反面朝上，预先做出确定性的判断是不可能的. 但是假如硬币质地均匀，人们会相信出现正面的可能性与出现反面的可能性应该大体相等, 即在大量试验中出现正面的频率应接近于 50% . 为了验证这一点, 历史上曾有不少人做过实验, 下面是用抛掷硬币来验证频率稳定性的著名例子(表 12-1).\n\n表 12-1\n\n<table><tr><td>实验者</td><td>抛掷硬币次数</td><td>出现正面次数</td><td>频率</td></tr><tr><td>蒲丰</td><td>4 040</td><td>2048</td><td>0.5069</td></tr><tr><td>费勒</td><td>10000</td><td>4979</td><td>0.497 9</td></tr><tr><td>皮尔逊</td><td>12000</td><td>6019</td><td>0.5016</td></tr><tr><td>皮尔逊</td><td>24000</td><td>12 012</td><td>0.500 5</td></tr></table>\n\n援引它不仅是因为它的权威性，而且是因为实验简单，人人都可以做. 从表 12-1 可以看出，随着试验次数的增加，频率接近 $\\frac{1}{2}$ . 同时还可看出,出现正面的概率是 $\\frac{1}{2}$ ,并不是意味着抛掷 2 次硬币必出现 1 次正面, 抛掷 10 次必出现 5 次正面, 而是在大量试验中,出现正面的频率值越来越稳定在 $\\frac{1}{2}$ 附近. 频率在大数次的试验中稳定于某一常数(概率)这个事实非常重要. 正因为如此, 在实际中可以把频率作为概率(的估计值)来应用. 频率也称为经验概率,计算它通常是为了估计概率 $P$ . 为了区别于概率, 经验概率用 $\\widehat{P}$ 来表示.\n\n例 某药物公司实验一种降低胆固醇的新药，在 500 个病人中进行实验，结果如表 12-2 所示.\n\n表 12-2\n\n<table><tr><td>胆固醇降低的人数</td><td>没有起作用的人数</td><td>胆固醇升高的人数</td></tr><tr><td>307</td><td>120</td><td>73</td></tr></table>\n\n求下列事件的经验概率:\n\n(1)使用药物后胆固醇降低；\n\n(2)使用药物后没有起作用；\n\n(3)使用药物后胆固醇升高.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 780,
+                "end": 834
+              }
+            ],
+            "emphases": [
+              {
+                "start": 149,
+                "end": 388,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-0",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 415,
+                "end": 513,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-1",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 700,
+                "end": 781,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-2",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 1900,
+                "end": 2216,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-3",
+                "origin": "editorial-emphasis"
+              }
+            ]
+          },
+          "after": {
+            "type": "prose",
+            "title": "",
+            "markdown": "某个事件发生的概率是对这个事件发生可能性大小的一种度量, 这种度量能不能被验证呢? 换言之, 除了给我们关于事件发生可能性的心理预期外, 概率大小究竟有什么实际意义呢? 回到抛掷一枚硬币这件事情,正面朝上的概率是 $\\frac{1}{2}$ ,除了硬币质地均匀的原因之外, 是否还有其他解释呢?\n\n实际上, 概率可以从频率的角度来检验. 频率也是一个生活中常用的词. 如果一个随机试验只有两种可能的结果, 一个是 \"成功\",概率是 $p\\left( {0 < p < 1}\\right)$ ,一个是 \"失败\",概率是 $1 - p$ ,那么这个随机试验称为伯努利试验. 如果抛掷一枚硬币, 把正面朝上称为成功, 掷骰子把点数 6 向上称为成功, 那么它们都可以看作伯努利试验. 假设我们可以独立地重复一个伯努利试验 $n$ 次, 其中成功的次数记作 ${S}_{n}$ ,那么\n\n$$\n\\frac{{S}_{n}}{n}\n$$\n\n就被称为 $\\left( {n\\text{ 次试验中 }}\\right)$ 成功的频率 (frequency). 频率是一个数, 依赖于试验次数 $n$ . 它不是一个确定的数,而是一个随机的数.\n\n通过大量的观察，人们发现了下面这个定律，它说明频率具有稳定性, 在试验次数足够多时, 会稳定地趋向于概率. 这给出了由概率来表示可能性大小的理由, 或者说概率在某种意义上是可以检验的.\n\n伯努利大数定律 (law of large numbers): 独立地重复一个伯努利试验 $n$ 次,当 $n$ 很大时,频率 $\\frac{{S}_{n}}{n}$ 逼近概率.\n\n这个结论之所以被称为定律, 或许是因为它直观地像是一个自然定律. 它很早就被数学家观察到, 并在瑞士数学家雅各布· 伯努利 1713 年出版的书中首次给出了证明.\n\n注意, 伯努利大数定律的成立有一个条件, 即 \"假设我们可以独立地重复一个伯努利试验\", 这个条件非常关键. 抛掷硬币、 掷骰子这类随机试验可以独立地重复, 然而许多随机现象是不可以独立地重复的. 例如, 某人今年会不会得流感是随机的, 每个人的高考成绩也是随机的, 但这些现象都不能独立地重复. 可以独立地重复的才称得上是一个试验. 虽然人们对于不能独立地重复的随机现象也谈论概率, 但那是主观的概率, 并不能检验.\n\n---\n\n\"独立地重复\"有严格的数学定义, 但这里可以按字面来理解.\n\n由于试验具有随机性, 因此频率是一个不确定的量, 而概率是一个确定的量.\n\n大数定律的名称中的\"大数\"是指需重复很多次才会出现\"频率逼近概率\"这个现象.\n\n---\n\n![bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg](sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg)\n\n雅各布・伯努利(Jakob Bernoulli, 1654—1705), 瑞士数学家，伯努利家族 (其中有许多著名科学家、 数学家)中的一员，对概率论的主要贡献发表在其著作《猜度术》中，其中包括大数定律.\n\n在抛掷一枚硬币时，既可能正面朝上，也可能反面朝上，预先做出确定性的判断是不可能的. 但是假如硬币质地均匀，人们会相信出现正面的可能性与出现反面的可能性应该大体相等, 即在大量试验中出现正面的频率应接近于 50% . 为了验证这一点, 历史上曾有不少人做过实验, 下面是用抛掷硬币来验证频率稳定性的著名例子(表 12-1).\n\n表 12-1\n\n<table><tr><td>实验者</td><td>抛掷硬币次数</td><td>出现正面次数</td><td>频率</td></tr><tr><td>蒲丰</td><td>4 040</td><td>2048</td><td>0.5069</td></tr><tr><td>费勒</td><td>10000</td><td>4979</td><td>0.497 9</td></tr><tr><td>皮尔逊</td><td>12000</td><td>6019</td><td>0.5016</td></tr><tr><td>皮尔逊</td><td>24000</td><td>12 012</td><td>0.500 5</td></tr></table>\n\n援引它不仅是因为它的权威性，而且是因为实验简单，人人都可以做. 从表 12-1 可以看出，随着试验次数的增加，频率接近 $\\frac{1}{2}$ . 同时还可看出,出现正面的概率是 $\\frac{1}{2}$ ,并不是意味着抛掷 2 次硬币必出现 1 次正面, 抛掷 10 次必出现 5 次正面, 而是在大量试验中,出现正面的频率值越来越稳定在 $\\frac{1}{2}$ 附近. 频率在大数次的试验中稳定于某一常数(概率)这个事实非常重要. 正因为如此, 在实际中可以把频率作为概率(的估计值)来应用. 频率也称为经验概率,计算它通常是为了估计概率 $P$ . 为了区别于概率, 经验概率用 $\\widehat{P}$ 来表示.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 780,
+                "end": 820
+              }
+            ],
+            "emphases": [
+              {
+                "start": 149,
+                "end": 388,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-0",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 415,
+                "end": 513,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-1",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 700,
+                "end": 781,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-2",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 1900,
+                "end": 2216,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-12-3-definition-2-3",
+                "origin": "editorial-emphasis"
+              }
+            ],
+            "id": "bx3-12-3-b2"
+          }
+        },
+        {
+          "block": "bx3-12-3-b3",
+          "fields": [
+            "analysis_provenance",
+            "answer",
+            "answer_provenance",
+            "category",
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis",
+            "teacher_only",
+            "title",
+            "type"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "教材证明或前置解答 · 待边界复核",
+            "markdown": "解 (1) 如果把\"使用药物后胆固醇降低\"记作事件 $A$ ,那么\n\n$$\n\\widehat{P}\\left( A\\right)  = \\frac{307}{500} = {0.614}.\n$$\n\n(2)如果把\"使用药物后没有起作用\"记作事件 $B$ ,那么\n\n$$\n\\widehat{P}\\left( B\\right)  = \\frac{120}{500} = {0.240}.\n$$\n\n(3)如果把\"使用药物后胆固醇升高\"记作事件 $C$ ,那么\n\n$$\n\\widehat{P}\\left( C\\right)  = \\frac{73}{500} = {0.146}.\n$$",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 835,
+                "end": 852
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 · 新药试验的经验概率",
+            "markdown": "例 某药物公司实验一种降低胆固醇的新药，在 500 个病人中进行实验，结果如表 12-2 所示.\n\n表 12-2\n\n<table><tr><td>胆固醇降低的人数</td><td>没有起作用的人数</td><td>胆固醇升高的人数</td></tr><tr><td>307</td><td>120</td><td>73</td></tr></table>\n\n求下列事件的经验概率:\n\n(1)使用药物后胆固醇降低；\n\n(2)使用药物后没有起作用；\n\n(3)使用药物后胆固醇升高.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 821,
+                "end": 834
+              }
+            ],
+            "id": "bx3-12-3-b3",
+            "category": "例题",
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 821,
+                "end": 834
+              }
+            ],
+            "answer": "解 (1) 如果把\"使用药物后胆固醇降低\"记作事件 $A$ ,那么\n\n$$\n\\widehat{P}\\left( A\\right)  = \\frac{307}{500} = {0.614}.\n$$\n\n(2)如果把\"使用药物后没有起作用\"记作事件 $B$ ,那么\n\n$$\n\\widehat{P}\\left( B\\right)  = \\frac{120}{500} = {0.240}.\n$$\n\n(3)如果把\"使用药物后胆固醇升高\"记作事件 $C$ ,那么\n\n$$\n\\widehat{P}\\left( C\\right)  = \\frac{73}{500} = {0.146}.\n$$",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 835,
+                "end": 852
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-chapter-end-12",
+      "issues_before": [
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "复习题B",
+          "number": 2,
+          "line": 1307
+        },
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "复习题B",
+          "number": 3,
+          "line": 1309
+        },
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "复习题B",
+          "number": 4,
+          "line": 1315
+        },
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "复习题B",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "answer_numbers": [
+            1
+          ]
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 14,
+      "questions_after": 14,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-chapter-end-12-hB-1",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "复习题B · 1",
+            "markdown": "1. 某学生做两道选择题, 已知每道题均有 4 个选项, 其中有且只有一个正确答案. 该学生随意填写两个答案, 求两个答案都选错的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1305,
+                "end": 1306
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1305,
+                "end": 1306
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-1",
+            "category": "复习题B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "复习题B · 1",
+            "markdown": "1. 某学生做两道选择题, 已知每道题均有 4 个选项, 其中有且只有一个正确答案. 该学生随意填写两个答案, 求两个答案都选错的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1305,
+                "end": 1306
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1305,
+                "end": 1306
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-1",
+            "category": "复习题B",
+            "answer": "【编辑补写】\n\n两道题的选项对共有 $4\\times4=16$ 种等可能结果，每道题有3个错误选项，故都错的结果有 $3\\times3=9$ 种，所求概率为 $\\frac9{16}$。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 1305,
+                  "end": 1306
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-chapter-end-12-hB-2",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "复习题B · 2",
+            "markdown": "2. 盒子中有标号为 1、2、3 的 3 个大小与质地相同的球, 随机地取 1 个球, 放回后再取 1 个球, 把这 2 个球对应的号码按照取的先后顺序组成一个两位数. 求个位数与十位数不相同的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1307,
+                "end": 1308
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1307,
+                "end": 1308
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-2",
+            "category": "复习题B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "复习题B · 2",
+            "markdown": "2. 盒子中有标号为 1、2、3 的 3 个大小与质地相同的球, 随机地取 1 个球, 放回后再取 1 个球, 把这 2 个球对应的号码按照取的先后顺序组成一个两位数. 求个位数与十位数不相同的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1307,
+                "end": 1308
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1307,
+                "end": 1308
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-2",
+            "category": "复习题B",
+            "answer": "【编辑补写】\n\n按先后顺序共有 $3\\times3=9$ 种等可能结果。十位确定后，个位有2种不同的选择，故符合条件的结果有 $3\\times2=6$ 种，所求概率为 $\\frac69=\\frac23$。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 1307,
+                  "end": 1308
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-chapter-end-12-hB-3",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "复习题B · 3",
+            "markdown": "3. 一个盒子中装有 4 张卡片，卡片上分别写有数字 1、2、3、4 . 现从盒子中随机抽取卡片.\n\n(1)若一次抽取 3 张卡片，求 3 张卡片上数字之和大于 7 的概率；\n\n(2)若第一次抽取 1 张卡片，放回后再抽取 1 张卡片，求两次抽取的卡片上数字之和大于 7 的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1309,
+                "end": 1314
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1309,
+                "end": 1314
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-3",
+            "category": "复习题B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "复习题B · 3",
+            "markdown": "3. 一个盒子中装有 4 张卡片，卡片上分别写有数字 1、2、3、4 . 现从盒子中随机抽取卡片.\n\n(1)若一次抽取 3 张卡片，求 3 张卡片上数字之和大于 7 的概率；\n\n(2)若第一次抽取 1 张卡片，放回后再抽取 1 张卡片，求两次抽取的卡片上数字之和大于 7 的概率.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1309,
+                "end": 1314
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1309,
+                "end": 1314
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-3",
+            "category": "复习题B",
+            "answer": "【编辑补写】\n\n(1)一次抽取3张共有4种等可能组合：$\\{1,2,3\\},\\{1,2,4\\},\\{1,3,4\\},\\{2,3,4\\}$，和依次为 $6,7,8,9$。其中2种的和大于7，所求概率为 $\\frac24=\\frac12$。\n\n(2)有放回抽取，按先后顺序共有 $4\\times4=16$ 种等可能结果。两数之和大于7仅有 $(4,4)$ 一种，故所求概率为 $\\frac1{16}$。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 1309,
+                  "end": 1314
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-chapter-end-12-hB-4",
+          "fields": [
+            "answer",
+            "editorial_answer",
+            "editorial_conflict"
+          ],
+          "before": {
+            "type": "question",
+            "title": "复习题B · 4",
+            "markdown": "4. 盒子中有散落的黑白棋子若干粒,已知从中取出 2 粒都是黑子的概率是 $\\frac{1}{7}$ ,从中取出 2 粒都是白子的概率是 $\\frac{1}{6}$ . 问: 从中任意取出 2 粒恰好是同一颜色的概率是多少?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1315,
+                "end": 1316
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1315,
+                "end": 1316
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-4",
+            "category": "复习题B",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "复习题B · 4",
+            "markdown": "4. 盒子中有散落的黑白棋子若干粒,已知从中取出 2 粒都是黑子的概率是 $\\frac{1}{7}$ ,从中取出 2 粒都是白子的概率是 $\\frac{1}{6}$ . 问: 从中任意取出 2 粒恰好是同一颜色的概率是多少?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 1315,
+                "end": 1316
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 1315,
+                "end": 1316
+              }
+            ],
+            "id": "bx3-chapter-end-12-hB-4",
+            "category": "复习题B",
+            "answer": "【编辑补写】\n\n若仅按互斥事件加法公式作形式运算，“两粒都是黑子”与“两粒都是白子”的并是“同一颜色”，于是得到原题预期值 $\\frac17+\\frac16=\\frac{13}{42}$。\n\n【编辑校注：原题数据存在模型冲突】在通常的有限盒中不放回任取两粒的模型下，实际上不存在满足这两个概率条件的黑白棋子数量，不能把上面的形式运算值当作可实现模型的概率。\n\n设黑、白棋子数分别为 $b,w$，总数为 $n=b+w$。因两种同色事件的概率均为正，故 $b,w\\ge2$，从而 $n\\ge4$。同色概率应为\n$$P=\\frac{b(b-1)+w(w-1)}{n(n-1)}.$$\n由 $(b-w)^2\\ge0$ 得 $b^2+w^2\\ge n^2/2$，因此\n$$P\\ge\\frac{n^2/2-n}{n(n-1)}=\\frac{n-2}{2(n-1)}\\ge\\frac13,$$\n最后一个不等式等价于 $n\\ge4$。但题设相加所得 $13/42<1/3$，矛盾。\n\n综上，$13/42$ 是题设数值相加的预期形式答案；原题的两项概率不能同时来自所描述的有限黑白棋子盒。此处保留原题与预期值，并标明数据冲突，不擅改任一分数。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 1315,
+                  "end": 1316
+                }
+              ]
+            },
+            "editorial_conflict": {
+              "kind": "source-model-inconsistency",
+              "status": "disclosed-with-proof",
+              "formal_expected_answer": "13/42",
+              "reason": "Finite black-white population with both colors at least 2 has same-color probability at least 1/3.",
+              "source_question_preserved": true
+            }
+          }
+        },
+        {
+          "block": "bx3-chapter-end-12-b25",
+          "fields": [
+            "editorial_note",
+            "title"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "复习题B · 未配对参考答案原文（题号异常）",
+            "markdown": "1. $\\frac{9}{16}$ . 2. $\\frac{2}{3}$ . 3. (1) $\\frac{1}{2}$ .",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 556,
+                "end": 557
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "teacher",
+            "title": "复习题B · 原始参考答案留存（已人工归位）",
+            "markdown": "1. $\\frac{9}{16}$ . 2. $\\frac{2}{3}$ . 3. (1) $\\frac{1}{2}$ .",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 556,
+                "end": 557
+              }
+            ],
+            "teacher_only": true,
+            "id": "bx3-chapter-end-12-b25",
+            "editorial_note": "原稿留存用于复核；各题答案已按题意逐题配对，不再作为未归属内容。"
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-13-1",
+      "issues_before": [
+        {
+          "code": "unattached-book-solution",
+          "severity": "blocking",
+          "message": "正文中检测到独立证明或解答，已隔离教师侧，需复核归属与正文续接",
+          "line": 37
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 8,
+      "questions_after": 9,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-13-1-b4",
+          "fields": [
+            "markdown",
+            "provenance"
+          ],
+          "before": {
+            "type": "prose",
+            "title": "",
+            "markdown": "---\n\n![bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg](sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg)\n\n许宝騄(1910—1970)， 中国数学家, 中国科学院学部委员. 他的研究领域涉及统计推断、极限理论、马尔可夫过程等. 他是中国概率论数理统计教学和科学研究的开创者.\n\n---\n\n在统计问题中, 我们把研究对象的全体叫做总体 (population), 总体中的每一个对象叫做个体 (element), 总体中所含个体的数量, 称为总体的容量. 从总体中抽取的一部分个体叫做这个总体的一个样本 (sample), 样本所含个体的数量称为样本量(sample size), 也称样本容量. 例如:\n\n(1)要考查某班级全体学生的身高，就可以通过测量该班每个学生的身高组成一个总体，其中的每个学生的身高就是一个个体. 这样的总体只包含有限个个体, 我们可以把它们全部列出来. 如果我们要考查上海高一学生的身高, 那么总体就是所有上海高一学生的身高. 虽然这也是一个有限总体, 但其容量显然比前面的总体大得多.\n\n(2)2018 年，教育部基础教育质量监测中心发布了《中国义务教育质量监测报告》，抽取了全国 31 个省(自治区、直辖市)和新疆生产建设兵团共 973 个县(市、区)的 572 314 名四、八年级学生进行体质健康状况调查, 调查的指标包括肺活量和 50 米跑的成绩等. 在这项研究中, “义务教育阶段全国学生的肺活量”和 “义务教育阶段全国学生的 50 米跑成绩”是两个总体. “572314 名学生的肺活量”和 “572314 名学生的 50 米跑成绩” 分别是上述两个总体的样本. 调查结果表明: 四年级学生肺活量达到及格标准的比例 (以下简称“达标率”) 为 98.1%，优秀率为 33.4%；几年级学生肺活量达标率为 95.9%，优秀率为 31.0%。四年级学生 50 米跑达标率为 96.3%，优秀率为 18.3%；几年级学生 50 米跑达标率为 94.7%，优秀率为 21.4%. “达标率”“优秀率”等用来描述样本特征的概括性数字度量, 称为统计量 (statistic), 我们可以用这些样本的统计量来推断总体的数字特征.\n\n(3)小明从家到学校有两种走法:乘坐公交车可以直达，乘坐地铁需要换乘. 他想研究一下哪种方式更好, 于是分别记录了 50 次乘坐公交车花费的时间和 50 次乘坐地铁花费的时间. 在这个问题中涉及两个总体:一个是“乘坐公交车从小明家到学校花费的时间”，另一个是“乘坐地铁从小明家到学校花费的时间”. 这两个总体都有无穷多的个体, 小明记录的数据分别是它们的样本. 小明的目的是想通过样本的统计量, 如平均花费时间、最少花费时间、最多花费时间等来比较两个总体的优劣.\n\n(4)银行为了调查客户对柜台服务的满意程度，请每位顾客在操作面板上选择一个数字, 其中, 数字 1 表示“非常满意”, 2 表示“比较满意”，3 表示“一般”，4 表示“不满意”，5 表示“非常不满意”. 在这项调查中，“顾客对柜台服务的满意程度”是总体， 其中的数据都是 $1 \\sim  5$ 中的某个数. 如果某个营业日有 100 名顾客对柜台服务进行了评价，那么当日所收集到的 100 个数据就是其中的一个样本.\n\n从上面的例子可以看到, 统计学的具体研究对象是多种多样的, 它们有一个共同的特点, 就是具有不确定性. 例如, 在调查 “某班全体学生的身高”问题时, 虽然每次测量结束后可以得到一组确定的数据, 但由于测量的误差, 这组数据其实只是总体的一个带有误差的样本. 统计活动的基本思想是通过分析样本的统计特征去推断总体的统计特征. 因此, 样本数据的代表性和获取方式十分重要.\n\n例 为客观了解上海市民家庭存书量，上海市统计局社情民意调查中心通过 12340 电话调查系统开展专项调查，成功访问了 2007 位上海市民. 在这项调查中, 总体和样本分别是什么? 样本量是多少?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 14,
+                "end": 36
+              }
+            ],
+            "emphases": [
+              {
+                "start": 271,
+                "end": 428,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-13-1-definition-4-0",
+                "origin": "editorial-emphasis"
+              }
+            ]
+          },
+          "after": {
+            "type": "prose",
+            "title": "",
+            "markdown": "---\n\n![bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg](sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg)\n\n许宝騄(1910—1970)， 中国数学家, 中国科学院学部委员. 他的研究领域涉及统计推断、极限理论、马尔可夫过程等. 他是中国概率论数理统计教学和科学研究的开创者.\n\n---\n\n在统计问题中, 我们把研究对象的全体叫做总体 (population), 总体中的每一个对象叫做个体 (element), 总体中所含个体的数量, 称为总体的容量. 从总体中抽取的一部分个体叫做这个总体的一个样本 (sample), 样本所含个体的数量称为样本量(sample size), 也称样本容量. 例如:\n\n(1)要考查某班级全体学生的身高，就可以通过测量该班每个学生的身高组成一个总体，其中的每个学生的身高就是一个个体. 这样的总体只包含有限个个体, 我们可以把它们全部列出来. 如果我们要考查上海高一学生的身高, 那么总体就是所有上海高一学生的身高. 虽然这也是一个有限总体, 但其容量显然比前面的总体大得多.\n\n(2)2018 年，教育部基础教育质量监测中心发布了《中国义务教育质量监测报告》，抽取了全国 31 个省(自治区、直辖市)和新疆生产建设兵团共 973 个县(市、区)的 572 314 名四、八年级学生进行体质健康状况调查, 调查的指标包括肺活量和 50 米跑的成绩等. 在这项研究中, “义务教育阶段全国学生的肺活量”和 “义务教育阶段全国学生的 50 米跑成绩”是两个总体. “572314 名学生的肺活量”和 “572314 名学生的 50 米跑成绩” 分别是上述两个总体的样本. 调查结果表明: 四年级学生肺活量达到及格标准的比例 (以下简称“达标率”) 为 98.1%，优秀率为 33.4%；几年级学生肺活量达标率为 95.9%，优秀率为 31.0%。四年级学生 50 米跑达标率为 96.3%，优秀率为 18.3%；几年级学生 50 米跑达标率为 94.7%，优秀率为 21.4%. “达标率”“优秀率”等用来描述样本特征的概括性数字度量, 称为统计量 (statistic), 我们可以用这些样本的统计量来推断总体的数字特征.\n\n(3)小明从家到学校有两种走法:乘坐公交车可以直达，乘坐地铁需要换乘. 他想研究一下哪种方式更好, 于是分别记录了 50 次乘坐公交车花费的时间和 50 次乘坐地铁花费的时间. 在这个问题中涉及两个总体:一个是“乘坐公交车从小明家到学校花费的时间”，另一个是“乘坐地铁从小明家到学校花费的时间”. 这两个总体都有无穷多的个体, 小明记录的数据分别是它们的样本. 小明的目的是想通过样本的统计量, 如平均花费时间、最少花费时间、最多花费时间等来比较两个总体的优劣.\n\n(4)银行为了调查客户对柜台服务的满意程度，请每位顾客在操作面板上选择一个数字, 其中, 数字 1 表示“非常满意”, 2 表示“比较满意”，3 表示“一般”，4 表示“不满意”，5 表示“非常不满意”. 在这项调查中，“顾客对柜台服务的满意程度”是总体， 其中的数据都是 $1 \\sim  5$ 中的某个数. 如果某个营业日有 100 名顾客对柜台服务进行了评价，那么当日所收集到的 100 个数据就是其中的一个样本.\n\n从上面的例子可以看到, 统计学的具体研究对象是多种多样的, 它们有一个共同的特点, 就是具有不确定性. 例如, 在调查 “某班全体学生的身高”问题时, 虽然每次测量结束后可以得到一组确定的数据, 但由于测量的误差, 这组数据其实只是总体的一个带有误差的样本. 统计活动的基本思想是通过分析样本的统计特征去推断总体的统计特征. 因此, 样本数据的代表性和获取方式十分重要.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 14,
+                "end": 34
+              }
+            ],
+            "emphases": [
+              {
+                "start": 271,
+                "end": 428,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-13-1-definition-4-0",
+                "origin": "editorial-emphasis"
+              }
+            ],
+            "id": "bx3-13-1-b4"
+          }
+        },
+        {
+          "block": "bx3-13-1-b5",
+          "fields": [
+            "analysis_provenance",
+            "answer",
+            "answer_provenance",
+            "category",
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis",
+            "teacher_only",
+            "title",
+            "type"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "教材证明或前置解答 · 待边界复核",
+            "markdown": "解 总体是上海市民家庭的存书量, 样本是被成功访问的 2007 位上海市民家庭的存书量, 样本量是 2007.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 37,
+                "end": 38
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 · 家庭存书量调查",
+            "markdown": "例 为客观了解上海市民家庭存书量，上海市统计局社情民意调查中心通过 12340 电话调查系统开展专项调查，成功访问了 2007 位上海市民. 在这项调查中, 总体和样本分别是什么? 样本量是多少?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 35,
+                "end": 36
+              }
+            ],
+            "id": "bx3-13-1-b5",
+            "category": "例题",
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 35,
+                "end": 36
+              }
+            ],
+            "answer": "解 总体是上海市民家庭的存书量, 样本是被成功访问的 2007 位上海市民家庭的存书量, 样本量是 2007.",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 37,
+                "end": 38
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-13-2",
+      "issues_before": [
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "练习13.2",
+          "number": 1,
+          "line": 145
+        },
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "练习13.2",
+          "question_numbers": [
+            1,
+            2,
+            3
+          ],
+          "answer_numbers": [
+            2,
+            3
+          ]
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 10,
+      "questions_after": 10,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-13-2-p132-1",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.2 · 1",
+            "markdown": "1. 完成下列任务所获得的数据是观测数据还是实验数据？\n\n(1)某高校为了解大学一年级新生的计算机水平，举行了新生计算机水平测试，获得了每一位大学一年级新生的计算机成绩;\n\n(2)某旅游公司为开发新的旅游产品，调查了 500 名客户对于旅游目的地的偏好；\n\n(3)某科研团队研发出一种新型生态除草剂，检测了该除草剂防控稻田杂草的效果.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 145,
+                "end": 152
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 145,
+                "end": 152
+              }
+            ],
+            "id": "bx3-13-2-p132-1",
+            "category": "练习13.2",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.2 · 1",
+            "markdown": "1. 完成下列任务所获得的数据是观测数据还是实验数据？\n\n(1)某高校为了解大学一年级新生的计算机水平，举行了新生计算机水平测试，获得了每一位大学一年级新生的计算机成绩;\n\n(2)某旅游公司为开发新的旅游产品，调查了 500 名客户对于旅游目的地的偏好；\n\n(3)某科研团队研发出一种新型生态除草剂，检测了该除草剂防控稻田杂草的效果.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 145,
+                "end": 152
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 145,
+                "end": 152
+              }
+            ],
+            "id": "bx3-13-2-p132-1",
+            "category": "练习13.2",
+            "answer": "【编辑补写】\n\n(1)观测数据；(2)观测数据；(3)实验数据。计算机水平测试用来测量已有水平，旅游偏好调查记录已有意愿；新型除草剂的检测是在施用药剂后研究其效果，研究者施加了处理。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 145,
+                  "end": 152
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-13-2-p132-2",
+          "fields": [
+            "answer",
+            "answer_provenance"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.2 · 2",
+            "markdown": "2. 2014 年我国发布了《第三次全国经济普查公报》，结果显示我国高技术制造业规模不断扩大，研发投入大幅度增加，创新能力稳步提高. 试在网上搜索该文件并从中找出以下数据:\n\n(1)截至 2013 年底，我国高技术制造业共有多少家企业？实现利润总额多少亿元？\n\n(2)2013 年，我国投入高技术制造业研发经费为多少亿元？高技术制造业申请发明专利多少万件?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 153,
+                "end": 158
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 153,
+                "end": 158
+              }
+            ],
+            "id": "bx3-13-2-p132-2",
+            "category": "练习13.2",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.2 · 2",
+            "markdown": "2. 2014 年我国发布了《第三次全国经济普查公报》，结果显示我国高技术制造业规模不断扩大，研发投入大幅度增加，创新能力稳步提高. 试在网上搜索该文件并从中找出以下数据:\n\n(1)截至 2013 年底，我国高技术制造业共有多少家企业？实现利润总额多少亿元？\n\n(2)2013 年，我国投入高技术制造业研发经费为多少亿元？高技术制造业申请发明专利多少万件?",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 153,
+                "end": 158
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 153,
+                "end": 158
+              }
+            ],
+            "id": "bx3-13-2-p132-2",
+            "category": "练习13.2",
+            "answer": "2. (1)26 894, 7233.7. (2)2034.3, 7.4. 提示:可以登录国家统计局网站, 找出《第三次全国经济普查主要数据公报(第二号)》.",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 388,
+                "end": 391
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        },
+        {
+          "block": "bx3-13-2-p132-3",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.2 · 3",
+            "markdown": "3. 请你提出一个与统计有关的实际问题, 并与同学讨论其中的总体和样本, 初步判断样本的代表性和获取方式.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 159,
+                "end": 160
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 159,
+                "end": 160
+              }
+            ],
+            "id": "bx3-13-2-p132-3",
+            "category": "练习13.2",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.2 · 3",
+            "markdown": "3. 请你提出一个与统计有关的实际问题, 并与同学讨论其中的总体和样本, 初步判断样本的代表性和获取方式.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 159,
+                "end": 160
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 159,
+                "end": 160
+              }
+            ],
+            "id": "bx3-13-2-p132-3",
+            "category": "练习13.2",
+            "answer": "【编辑补写】\n\n示例：调查本校高一年级学生每天的课外阅读时长。总体是该校高一年级全体学生每天的课外阅读时长，样本是随机抽取的学生对应的阅读时长。可按班级人数比例分层，在各班随机抽人，统一记录同一周的日均时长。这样可避免只调查阅读兴趣小组或某一个班造成的明显偏向；仍应检查未应答及自报误差，不能把随机抽样等同于必然具有代表性。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 159,
+                  "end": 160
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-13-2-b17",
+          "fields": [
+            "editorial_note",
+            "title"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "练习13.2 · 未配对参考答案原文（题号异常）",
+            "markdown": "2. (1)26 894, 7233.7. (2)2034.3, 7.4. 提示:可以登录国家统计局网站, 找出《第三次全国经济普查主要数据公报(第二号)》.\n\n3. 略.",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 388,
+                "end": 391
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "teacher",
+            "title": "练习13.2 · 原始参考答案留存（已人工归位）",
+            "markdown": "2. (1)26 894, 7233.7. (2)2034.3, 7.4. 提示:可以登录国家统计局网站, 找出《第三次全国经济普查主要数据公报(第二号)》.\n\n3. 略.",
+            "provenance": [
+              {
+                "source": "teacher",
+                "start": 388,
+                "end": 391
+              }
+            ],
+            "teacher_only": true,
+            "id": "bx3-13-2-b17",
+            "editorial_note": "原稿留存用于复核；各题答案已按题意逐题配对，不再作为未归属内容。"
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-13-3",
+      "issues_before": [
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "练习13.3(1)",
+          "number": 1,
+          "line": 281
+        },
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "练习13.3(1)",
+          "number": 2,
+          "line": 287
+        },
+        {
+          "code": "missing-answer",
+          "severity": "blocking",
+          "message": "正式教参答案缺失或题号重复，未配对",
+          "group": "练习13.3(1)",
+          "number": 3,
+          "line": 289
+        },
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "练习13.3(1)",
+          "question_numbers": [
+            1,
+            2,
+            3
+          ],
+          "answer_numbers": []
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 13,
+      "questions_after": 13,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-13-3-p1331-1",
+          "fields": [
+            "answer",
+            "answer_provenance",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.3(1) · 1",
+            "markdown": "1. 下列抽取样本的方法是简单随机抽样吗? 判断并简要说明理由.\n\n(1)某在线商城在网站首页发布问卷调查，调查登录该网站的客户对于该商城的满意度, 访问该网站者可以自愿点击填写;\n\n(2)检验员抽检一箱零件，每次检验时抽取 1 个零件，检验后放回箱子里，再进行第二次检验, 一共检验了 10 次.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 281,
+                "end": 286
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 281,
+                "end": 286
+              }
+            ],
+            "id": "bx3-13-3-p1331-1",
+            "category": "练习13.3(1)",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.3(1) · 1",
+            "markdown": "1. 下列抽取样本的方法是简单随机抽样吗? 判断并简要说明理由.\n\n(1)某在线商城在网站首页发布问卷调查，调查登录该网站的客户对于该商城的满意度, 访问该网站者可以自愿点击填写;\n\n(2)检验员抽检一箱零件，每次检验时抽取 1 个零件，检验后放回箱子里，再进行第二次检验, 一共检验了 10 次.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 281,
+                "end": 286
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 281,
+                "end": 286
+              }
+            ],
+            "id": "bx3-13-3-p1331-1",
+            "category": "练习13.3(1)",
+            "answer": "(1)不是。参加问卷由客户自愿选择，各客户被选入的机会不一定相同。\n\n(2)不是本节所指的不放回简单随机抽样。同一个零件可能被重复抽取，10次检验不保证得到10个不同的样本个体。这里应区别“有放回随机抽取”与本节抽取不同个体组成样本的要求。",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 412,
+                "end": 412
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "expanded",
+              "by": "repair-bx3-v1",
+              "note": "依据教参判断补足理由"
+            }
+          }
+        },
+        {
+          "block": "bx3-13-3-p1331-2",
+          "fields": [
+            "answer",
+            "answer_provenance",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.3(1) · 2",
+            "markdown": "2. 写出 10 首歌曲的名称, 用抽签法抽取其中 3 首.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 287,
+                "end": 288
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 287,
+                "end": 288
+              }
+            ],
+            "id": "bx3-13-3-p1331-2",
+            "category": "练习13.3(1)",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.3(1) · 2",
+            "markdown": "2. 写出 10 首歌曲的名称, 用抽签法抽取其中 3 首.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 287,
+                "end": 288
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 287,
+                "end": 288
+              }
+            ],
+            "id": "bx3-13-3-p1331-2",
+            "category": "练习13.3(1)",
+            "answer": "【编辑补写】\n\n可自选10首歌曲，依次编号1至10。例如《茉莉花》《小星星》《送别》《童年》《歌声与微笑》《让我们荡起双桨》《春天在哪里》《蜗牛与黄鹂鸟》《外婆的澎湖湾》《明天会更好》。把10个编号写在外观相同的号签上，放入容器混合均匀，每次不放回地抽1张，连续抽3次；所得编号对应的3首歌曲就是所抽样本。抽取结果并不唯一，不能预先指定某3首必被抽中。",
+            "answer_provenance": [
+              {
+                "source": "teacher",
+                "start": 414,
+                "end": 414
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 287,
+                  "end": 288
+                }
+              ]
+            }
+          }
+        },
+        {
+          "block": "bx3-13-3-p1331-3",
+          "fields": [
+            "answer",
+            "editorial_answer"
+          ],
+          "before": {
+            "type": "question",
+            "title": "练习13.3(1) · 3",
+            "markdown": "3. 现从编号为 1~500 的 500 支水笔中抽取 10 支水笔进行书写长度检测. 试用随机数法抽出这 10 支水笔对应的编号.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 289,
+                "end": 290
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 289,
+                "end": 290
+              }
+            ],
+            "id": "bx3-13-3-p1331-3",
+            "category": "练习13.3(1)",
+            "answer": "",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          },
+          "after": {
+            "type": "question",
+            "title": "练习13.3(1) · 3",
+            "markdown": "3. 现从编号为 1~500 的 500 支水笔中抽取 10 支水笔进行书写长度检测. 试用随机数法抽出这 10 支水笔对应的编号.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 289,
+                "end": 290
+              }
+            ],
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 289,
+                "end": 290
+              }
+            ],
+            "id": "bx3-13-3-p1331-3",
+            "category": "练习13.3(1)",
+            "answer": "【编辑补写】\n\n把水笔编号为 $001,002,\\ldots,500$。从随机数表中随机选定起点和阅读方向，按三位一组读取：保留 $001$ 至 $500$ 的编号，舍去 $000$、大于 $500$ 的数及已保留的重复编号，直到得到10个不同编号。对应的10支水笔即为样本。\n\n也可用计算机产生同样的均匀随机数，按上述规则拒绝无效与重复编号。每一步对尚未入选的编号一视同仁，因而不会因舍弃重复编号而偏向某支水笔。抽取结果具有随机性，不存在唯一正确的10个编号。",
+            "answer_provenance": [],
+            "teacher_analysis": "",
+            "analysis_provenance": [],
+            "editorial_answer": {
+              "status": "authored",
+              "by": "repair-bx3-v1",
+              "basis": [
+                {
+                  "source": "book",
+                  "start": 289,
+                  "end": 290
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section": "bx3-13-5",
+      "issues_before": [
+        {
+          "code": "unattached-book-solution",
+          "severity": "blocking",
+          "message": "正文中检测到独立证明或解答，已隔离教师侧，需复核归属与正文续接",
+          "line": 825
+        }
+      ],
+      "issues_after": [],
+      "questions_before": 18,
+      "questions_after": 19,
+      "source_hashes_unchanged": true,
+      "changes": [
+        {
+          "block": "bx3-13-5-b12",
+          "fields": [
+            "markdown",
+            "provenance"
+          ],
+          "before": {
+            "type": "prose",
+            "title": "",
+            "markdown": "利用初中阶段学习过的平均数、中位数和众数, 我们可以描述有限样本的集中趋势. 例如,设样本数据为 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{n}$ , 由公式\n\n$$\n\\bar{x} = \\frac{{x}_{1} + {x}_{2} + \\cdots  + {x}_{n}}{n}\n$$\n\n就得到样本平均数,它描述了样本数据的平均水平. 如果 $n$ 个数据中不同的数据 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{k}$ 的频数分别为 ${f}_{1}\\text{ 、 }{f}_{2}\\text{ 、 }\\cdots$ 、 ${f}_{k}$ ,那么样本平均数为\n\n$$\n\\bar{x} = \\frac{{x}_{1}{f}_{1} + {x}_{2}{f}_{2} + \\cdots  + {x}_{k}{f}_{k}}{n}.\n$$\n\n当数据量大且重复率高时, 后一个公式可减少计算量.\n\n我们引进一个记号 $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}$ 表示多项连加的和 ${x}_{1} + {x}_{2} + \\cdots  + \\; {x}_{n}$ ,即\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i} = {x}_{1} + {x}_{2} + \\cdots  + {x}_{n},\n$$\n\n其中 $\\sum$ (读作 Sigma)称为求和符号,其下方的 $i = 1$ 表示 $i$ 从 1 开始取连续的整数值,上方的 $n$ 表示 $i$ 的取值到 $n$ 结束,而 ${x}_{i}$ 是与整数 $i$ 相联系的一个表达式. 如果 $c$ 是一个常数,由乘法对加法的分配律立即得到\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}c{x}_{i} = c\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\n$$\n\n用这个记号, 前面关于样本平均数的两个公式可以分别记为\n\n$$\n\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\\text{ 与 }\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{k}{x}_{i}{f}_{i}.\n$$\n\n某公司实行薪资保密制度，员工只知道自己的工作所得，而不知道其他员工的薪资. 现要了解该公司员工的平均年薪、中等年薪以及赚取人数最多的那种年薪. 在公司员工的花名册中随机抽取 15 名员工，调查得到这 15 名员工的年薪(单位:万元) 如下:\n\n$$\n\\begin{array}{llllllll} {8.1} & {8.1} & {8.4} & {11.0} & {5.3} & {8.2} & {7.4} & {9.8} \\end{array}\n$$\n\n$$\n\\begin{array}{lllllll} {7.6} & {13.8} & {8.1} & {6.5} & {10.5} & {9.5} & {8.2} \\end{array}\n$$\n\n---\n\n该公司的人事部门招聘员工时，最有可能用哪种年薪来回答有关待遇方面的问题?\n\n---\n\n公司全体员工的平均年薪可用样本的平均数来估计，员工的中等年薪可用样本的中位数来估计，而赚取人数最多的那种年薪可用样本的众数来估计.\n\n样本的平均值 $\\bar{x} = \\frac{\\left( {8.1} + {8.1} + \\cdots  + {8.2}\\right) }{15} = {8.7}$ (万元). 把所有年薪从低到高排序, 中间第 8 个数 8.2 即是样本中位数. 8.1 出现了 3 次，次数最多，即样本的众数为 8.1 .\n\n于是, 我们估计该公司员工的平均年薪可能为 8.7 万元, 中等年薪可能为 8.2 万元，赚取 8.1 万元年薪的可能性最大. 当然， 这样的估计是否合理, 还取决于样本的容量与代表性.\n\n例 2 为了解某体校学生跑步的情况, 观察随机抽取的 20 名学生一周内跑步的累计数 (单位: $\\mathrm{{km}}$ )，在各区间内的频数记录如表 13-6 所示.\n\n表 13-6\n\n<table><tr><td>周跑步累计数分组区间</td><td>频数</td></tr><tr><td>[5.5,10.5)</td><td>1</td></tr><tr><td>[10.5,15.5)</td><td>2</td></tr><tr><td>[15.5,20.5)</td><td>3</td></tr><tr><td>[20.5,25.5)</td><td>5</td></tr><tr><td>[25.5,30.5)</td><td>4</td></tr><tr><td>[30.5,35.5)</td><td>3</td></tr><tr><td>[35.5,40.5)</td><td>2</td></tr></table>\n\n试估计一周内该校学生平均跑步累计数.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 762,
+                "end": 824
+              }
+            ],
+            "emphases": [
+              {
+                "start": 672,
+                "end": 819,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-13-5-definition-12-0",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 918,
+                "end": 1097,
+                "kind": "formula",
+                "title": "教材公式",
+                "id": "bx3-13-5-formula-12-1",
+                "origin": "editorial-emphasis"
+              }
+            ]
+          },
+          "after": {
+            "type": "prose",
+            "title": "",
+            "markdown": "利用初中阶段学习过的平均数、中位数和众数, 我们可以描述有限样本的集中趋势. 例如,设样本数据为 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{n}$ , 由公式\n\n$$\n\\bar{x} = \\frac{{x}_{1} + {x}_{2} + \\cdots  + {x}_{n}}{n}\n$$\n\n就得到样本平均数,它描述了样本数据的平均水平. 如果 $n$ 个数据中不同的数据 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }\\cdots \\text{ 、 }{x}_{k}$ 的频数分别为 ${f}_{1}\\text{ 、 }{f}_{2}\\text{ 、 }\\cdots$ 、 ${f}_{k}$ ,那么样本平均数为\n\n$$\n\\bar{x} = \\frac{{x}_{1}{f}_{1} + {x}_{2}{f}_{2} + \\cdots  + {x}_{k}{f}_{k}}{n}.\n$$\n\n当数据量大且重复率高时, 后一个公式可减少计算量.\n\n我们引进一个记号 $\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}$ 表示多项连加的和 ${x}_{1} + {x}_{2} + \\cdots  + \\; {x}_{n}$ ,即\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i} = {x}_{1} + {x}_{2} + \\cdots  + {x}_{n},\n$$\n\n其中 $\\sum$ (读作 Sigma)称为求和符号,其下方的 $i = 1$ 表示 $i$ 从 1 开始取连续的整数值,上方的 $n$ 表示 $i$ 的取值到 $n$ 结束,而 ${x}_{i}$ 是与整数 $i$ 相联系的一个表达式. 如果 $c$ 是一个常数,由乘法对加法的分配律立即得到\n\n$$\n\\mathop{\\sum }\\limits_{{i = 1}}^{n}c{x}_{i} = c\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\n$$\n\n用这个记号, 前面关于样本平均数的两个公式可以分别记为\n\n$$\n\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{n}{x}_{i}\\text{ 与 }\\bar{x} = \\frac{1}{n}\\mathop{\\sum }\\limits_{{i = 1}}^{k}{x}_{i}{f}_{i}.\n$$\n\n某公司实行薪资保密制度，员工只知道自己的工作所得，而不知道其他员工的薪资. 现要了解该公司员工的平均年薪、中等年薪以及赚取人数最多的那种年薪. 在公司员工的花名册中随机抽取 15 名员工，调查得到这 15 名员工的年薪(单位:万元) 如下:\n\n$$\n\\begin{array}{llllllll} {8.1} & {8.1} & {8.4} & {11.0} & {5.3} & {8.2} & {7.4} & {9.8} \\end{array}\n$$\n\n$$\n\\begin{array}{lllllll} {7.6} & {13.8} & {8.1} & {6.5} & {10.5} & {9.5} & {8.2} \\end{array}\n$$\n\n---\n\n该公司的人事部门招聘员工时，最有可能用哪种年薪来回答有关待遇方面的问题?\n\n---\n\n公司全体员工的平均年薪可用样本的平均数来估计，员工的中等年薪可用样本的中位数来估计，而赚取人数最多的那种年薪可用样本的众数来估计.\n\n样本的平均值 $\\bar{x} = \\frac{\\left( {8.1} + {8.1} + \\cdots  + {8.2}\\right) }{15} = {8.7}$ (万元). 把所有年薪从低到高排序, 中间第 8 个数 8.2 即是样本中位数. 8.1 出现了 3 次，次数最多，即样本的众数为 8.1 .\n\n于是, 我们估计该公司员工的平均年薪可能为 8.7 万元, 中等年薪可能为 8.2 万元，赚取 8.1 万元年薪的可能性最大. 当然， 这样的估计是否合理, 还取决于样本的容量与代表性.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 762,
+                "end": 816
+              }
+            ],
+            "emphases": [
+              {
+                "start": 672,
+                "end": 819,
+                "kind": "concept",
+                "title": "教材概念与条件",
+                "id": "bx3-13-5-definition-12-0",
+                "origin": "editorial-emphasis"
+              },
+              {
+                "start": 918,
+                "end": 1097,
+                "kind": "formula",
+                "title": "教材公式",
+                "id": "bx3-13-5-formula-12-1",
+                "origin": "editorial-emphasis"
+              }
+            ],
+            "id": "bx3-13-5-b12"
+          }
+        },
+        {
+          "block": "bx3-13-5-b13",
+          "fields": [
+            "analysis_provenance",
+            "answer",
+            "answer_provenance",
+            "category",
+            "markdown",
+            "provenance",
+            "provenance_question",
+            "teacher_analysis",
+            "teacher_only",
+            "title",
+            "type"
+          ],
+          "before": {
+            "type": "teacher",
+            "title": "教材证明或前置解答 · 待边界复核",
+            "markdown": "解 先求出各区间的中点值: $8\\text{ 、 }{13}\\text{ 、 }{18}\\text{ 、 }{23}\\text{ 、 }{28}\\text{ 、 }{33}\\text{ 、 }{38}$ . 则一周内这 20 名学生跑步累计的平均数为\n\n$$\n\\frac{8 \\times  1 + {13} \\times  2 + \\cdots  + {38} \\times  2}{20} = {24.5}\\left( \\mathrm{\\;{km}}\\right) .\n$$\n\n由于这 20 名学生是随机抽取的, 因此可以估计一周内该校学生平均跑步累计约 ${24.5}\\mathrm{\\;{km}}$ .",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 825,
+                "end": 832
+              }
+            ],
+            "teacher_only": true
+          },
+          "after": {
+            "type": "question",
+            "title": "例题 2",
+            "markdown": "例 2 为了解某体校学生跑步的情况, 观察随机抽取的 20 名学生一周内跑步的累计数 (单位: $\\mathrm{{km}}$ )，在各区间内的频数记录如表 13-6 所示.\n\n表 13-6\n\n<table><tr><td>周跑步累计数分组区间</td><td>频数</td></tr><tr><td>[5.5,10.5)</td><td>1</td></tr><tr><td>[10.5,15.5)</td><td>2</td></tr><tr><td>[15.5,20.5)</td><td>3</td></tr><tr><td>[20.5,25.5)</td><td>5</td></tr><tr><td>[25.5,30.5)</td><td>4</td></tr><tr><td>[30.5,35.5)</td><td>3</td></tr><tr><td>[35.5,40.5)</td><td>2</td></tr></table>\n\n试估计一周内该校学生平均跑步累计数.",
+            "provenance": [
+              {
+                "source": "book",
+                "start": 817,
+                "end": 824
+              }
+            ],
+            "id": "bx3-13-5-b13",
+            "category": "例题",
+            "provenance_question": [
+              {
+                "source": "book",
+                "start": 817,
+                "end": 824
+              }
+            ],
+            "answer": "解 先求出各区间的中点值: $8\\text{ 、 }{13}\\text{ 、 }{18}\\text{ 、 }{23}\\text{ 、 }{28}\\text{ 、 }{33}\\text{ 、 }{38}$ . 则一周内这 20 名学生跑步累计的平均数为\n\n$$\n\\frac{8 \\times  1 + {13} \\times  2 + \\cdots  + {38} \\times  2}{20} = {24.5}\\left( \\mathrm{\\;{km}}\\right) .\n$$\n\n由于这 20 名学生是随机抽取的, 因此可以估计一周内该校学生平均跑步累计约 ${24.5}\\mathrm{\\;{km}}$ .",
+            "answer_provenance": [
+              {
+                "source": "book",
+                "start": 825,
+                "end": 832
+              }
+            ],
+            "teacher_analysis": "",
+            "analysis_provenance": []
+          }
+        }
+      ]
+    }
+  ]
+}

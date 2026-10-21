@@ -1,0 +1,1068 @@
+{
+  "schema_version": 1,
+  "id": "x1-4-3",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "4",
+  "chapter_title": "第4章数列",
+  "section": "4.3",
+  "title": "数列",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "数列",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 991,
+          "end": 991
+        }
+      ],
+      "id": "x1-4-3",
+      "number": "4.3",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 4.3 数列\n\n### 教学重点\n\n理解数列的概念; 理解单调数列, 会判断简单数列的单调性, 并求解简单数列的最大项、最小项; 理解通项公式和递推公式是表示数列的方法.\n\n### 内容分析\n\n在学习等差数列、等比数列两种特殊数列的基础上, 结合一些生活中的例子, 让学生感悟按照一定顺序排列的一列数即为数列. 这个排列的顺序不一定有规律可循. 排列顺序不同即为不同的数列, 这是数列与数集的一个区别; 此外, 数列中的项可以重复,而数集中的元素不可重复,这也是数列与数集的一个区别. 给定数列 $\\left\\{  {a}_{n}\\right\\}$ ,如果可以用一个关于序数 $n$ 的公式来表述数列中的任一项 ${a}_{n}$ ,那么这个公式就称为数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.\n\n数列按照项数是否有限分为有穷数列与无穷数列; 而按照数列中项的变化趋势可分为增数列、减数列和常数列等. 数列的简单表示方法有: 列表法, 通项公式, 递推公式. 根据数列的通项公式与单调数列的定义, 可以判断一些简单数列的单调性, 并求解最大项、最小项问题.\n\n因为已掌握等差数列、等比数列这两种特殊的数列, 与“二期课改”教材中学生学习本节时的知识基础不同, 本节课可以对学生解决一般数列问题提出更高的要求, 在利用递推公式表示数列时引入了根据实际情况寻找数列递推关系的问题. 本节还涉及将某些一般数列转化为等差数列或等比数列进而求解的问题, 这可以让学生感悟研究数学问题的一般方法, 即将未知的问题转化为已知问题进而求解的化归思想.\n\n例 1. 由通项公式求数列的项, 只需把项的序数代入通项公式就能得到. 在本例的教学过程中, 教师可以引导学有余力的学生把数列的图像画出来, 从而让学生感悟数列与函数之间的联系与区别.\n\n例 2.根据单调数列的定义,判断数列的单调性,即判断 ${a}_{n + 1} - {a}_{n}$ 与 0 的大小关系.\n\n例 3. 利用数列的单调性判断数列的最大项、最小项问题.\n\n例 4 旨在引导学生在实际生活中通过寻求数列的递推关系作为突破点来研究相关数列. 帮助学生体会在实际问题中寻求数列的递推关系往往是更加容易的, 通过思考数列的后一项与前一项(或者前几项)的关系求得数列的递推公式,再据此利用等差数列一节中介绍的累加法, 就可以得到数列的通项公式.\n\n例 5 旨在引导学生思考对于某些一般数列, 可以通过构造的方法将其转化为等差数列或等比数列这两种特殊数列进行求解, 体现了数学的化归思想. 本例的实际背景可以参见本章复习题的拓展与思考的第 1 题. 对于学有余力的学生, 可以让他们先考虑拓展与思考的第 1 题, 尝试寻求到本例的递推关系后再求解, 以培养学生的数学建模与逻辑思维能力.\n\n### 注意事项\n\n本节在本章所处的位置与“二期课改”教材中的相应位置不同,对学生的要求也要更高些. 因为前面已介绍了等差数列与等比数列这两种特殊的数列, 学生容易误解为数列都是有规律可循的一列数, 在教学中, 教师可以让学生多举一些实例加深对数列概念的理解.\n\n对于将某些一般数列转化为等差数列、等比数列进而求解的问题, 如本节例 5 , 旨在给学生呈现数学的一种化归的思想, 而并非强调将一般的递推公式转化为等差数列、等比数列的技巧性要求,切忌让学生大量操练与记忆一些能转化为等差数列、等比数列的特殊的递推关系. 本节例 4 , 则是想让学生感悟在实际问题中如何利用数列的知识建立模型, 沿着 “递推公式⇒通项公式⇒数列的性质与数列求和的简单运用” 这样的路径开展研究, 培养学生思考问题的习惯并提高解决问题的能力, 提升学生的数学抽象、直观想象与逻辑推理的数学核心素养, 因此, 应避免编制烦琐而仅偏重技巧的难题.\n\n### 教学建议\n\n数列可视为一种函数, 其定义域是正整数集的一个子集, 而值域则是由其所有项组成的数集; 反之,对于定义域为正整数集的子集的函数 $y = f\\left( x\\right)$ ,其函数值也可以组成一个数列. 以这种方式所定义的函数, 在必修课程第 5 章中并没有重点讲述, 对学生而言是一个新的东西. 在本节中可以不涉及这一方面的内容, 并不会影响对主题的理解, 但如果要讲到这一点, 那么一定要花一些时间讲清楚. 因为函数与数列对于学生而言是两大难点, 教师可以根据学生情况, 在学生已掌握等差数列、等比数列两种特殊数列的基础上, 将数列与函数的联系介绍给学生, 但也只需点到为止, 使学生对此有一个概念就可以了. 本节与“二期课改”教材相比,增加了判断数列单调性,并求数列最大项、最小项的例题. 在讲解这些例题时, 可以让学生利用定义来判断数列的单调性, 也可以引导学生思考哪些通项公式还能用函数的方法判断单调性, 并且要注意数列与函数的联系与区别, 感受离散与连续的关系.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 184,
+          "end": 217
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "heading",
+      "title": "1 数列的概念与性质",
+      "markdown": "### 1 数列的概念与性质",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 993,
+          "end": 993
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "除了我们前面学过的等差数列、等比数列这两类特殊的数列外, 在现实世界中, 许多事物的数量也可以排成一列数.\n\n(1)如图 4-3-1，能够表示成三角形点阵的点数依次为\n\n$$\n1,3,6,{10},{15},{21},{28},\\cdots \\text{ . }\n$$\n\n①\n\n![bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg)\n\n图 4-3-1\n\n(2)如图 4-3-2，能够表示成正方形点阵的点数依次为\n\n$$\n1,4,9,{16},{25},\\cdots \\text{ . }\n$$\n\n②\n\n![bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg)\n\n图 4-3-2\n\n(3)目前通用的第五套人民币纸币的面额(单位:元)按照从大到小的顺序排列依次为\n\n$$\n{100},{50},{20},{10},5,1.\n$$\n\n③\n\n(4)医生要对病人的体温进行 24 小时监控，某天从 0 时开始记录，每隔 4 小时记录一次，共记录 7 次，监测到病人的体温 (单位:℃)依次为\n\n$$\n{39.2},{38.3},{37.5},{37.0},{36.8},{37.2},{37.6}\\text{ . }\n$$\n\n④\n\n(5)将 $\\sqrt{2}$ 的不足近似值按小数位数从少到多的顺序排列依次为\n\n$$\n1,{1.4},{1.41},{1.414},{1.4142},{1.41421},\\cdots \\text{ . }\n$$\n\n⑤\n\n像这样, 按照一定顺序排列的一列数称为一个数列 (number sequence). 数列与以往学过的数集相比, 有下述不同点: 集合中的元素是无序的, 而数列的项必须按一定顺序排列, 即为有序的; 此外, 集合中的元素要求互异, 而数列的项可以是相同的.\n\n---\n\n$\\sqrt{2}$ 的不足近似值: 按照所需要的精确度截取指定数位后, 直接略去后面的数位, 就得到了一个小于 $\\sqrt{2}$ 的近似值,称为 $\\sqrt{2}$ 的不足近似值.\n\n---\n\n给定一个数列 $\\left\\{  {a}_{n}\\right\\}$ ,当项的序数 $n$ 确定时,相应的项 ${a}_{n}$ 也就确定了. 于是,项 ${a}_{n}$ 与项的序数 $n$ 之间存在着对应关系,这种对应关系可描述如下\n\n$$\n\\text{ 项的序数 }1,2,3,4,\\cdots , n,\\cdots \\text{ . }\n$$\n\n$\\downarrow   \\downarrow   \\downarrow   \\downarrow   \\downarrow$\n\n项 ${a}_{1},{a}_{2},{a}_{3},{a}_{4},\\cdots ,{a}_{n},\\cdots$ .\n\n项数有限的数列叫做有穷数列 (finite sequence); 项数无限的数列叫做无穷数列 (infinite sequence). 从第 2 项起, 每一项都不小于其前一项的数列 $\\left\\{  {a}_{n}\\right\\}$ 叫做增数列,此时 ${a}_{n + 1} \\geq  {a}_{n}$ ( $n$ 为正整数)成立. 特别地，从第 2 项起, 每一项都大于其前一项的数列 $\\left\\{  {a}_{n}\\right\\}$ 叫做严格增数列,此时 ${a}_{n + 1} > {a}_{n}$ ( $n$ 为正整数) 成立. 相应地,从第 2 项起,每一项都不大于其前一项的数列 $\\left\\{  {a}_{n}\\right\\}$ 叫做减数列,此时 ${a}_{n + 1} \\leq  {a}_{n}$ ( $n$ 为正整数) 成立. 特别地,从第 2 项起,每一项都小于其前一项的数列 $\\left\\{  {a}_{n}\\right\\}$ 叫做严格减数列,此时 ${a}_{n + 1} < {a}_{n}$ ( $n$ 为正整数) 成立. 增数列和减数列统称为单调数列. 各项均相等的数列叫做常数列.\n\n给定数列 $\\left\\{  {a}_{n}\\right\\}$ ,如果可以用一个关于序数 $n$ 的公式来表示数列中的任一项 ${a}_{n}$ ,那么这个公式就称为数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式 (general term). 有了数列的通项公式, 就可以算出数列中的各项.\n\n实际中, 也常用列表法来表示数列. 例如, 对于数列④, 我们可以用下表直观地表示:\n\n表 4-1\n\n<table><tr><td>监测次数 $\\left( n\\right)$</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>体温 $\\left( {a}_{n}\\right)$</td><td>39.2</td><td>38.3</td><td>37.5</td><td>37.0</td><td>36.8</td><td>37.2</td><td>37.6</td></tr></table>\n\n注:体温单位为℃ (摄氏度).",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 994,
+          "end": 1074
+        }
+      ],
+      "emphases": [
+        {
+          "start": 851,
+          "end": 979,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-3-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 986,
+          "end": 1080,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-3-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1391,
+          "end": 1908,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-3-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1910,
+          "end": 2068,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-3-3",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式,写出这些数列的前 5 项:\n\n(1) ${a}_{n} = \\frac{n - 2}{n + 1}$ ；\n\n(2) ${a}_{n} = 1 + {\\left( -\\frac{1}{2}\\right) }^{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1075,
+          "end": 1080
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1075,
+          "end": 1080
+        }
+      ],
+      "id": "x1-4-3-ex-1",
+      "category": "例题",
+      "answer": "解 我们可根据相应的通项公式, 用列表法分别写出这两个数列的前 5 项.\n\n---\n\n公差为正数的等差数列为严格增数列; 公差为负数的等差数列为严格减数列; 公差为零的等差数列为常数列.\n\n---\n\n表 4-2\n\n<table><tr><td>$n$</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>${a}_{n} = \\frac{n - 2}{n + 1}$</td><td>$- \\frac{1}{2}$</td><td>0</td><td>$\\frac{1}{4}$</td><td>$\\frac{2}{5}$</td><td>$\\frac{1}{2}$</td></tr><tr><td>${a}_{n} = 1 + {\\left( -\\frac{1}{2}\\right) }^{n}$</td><td>$\\frac{1}{2}$</td><td>$\\frac{5}{4}$</td><td>$\\frac{7}{8}$</td><td>17 16</td><td>31 32</td></tr></table>",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1081,
+          "end": 1092
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 给出数列 $\\left\\{  {a}_{n}\\right\\}$ 的下述通项公式,判断这些数列是否为单调数列, 请说明理由.\n\n(1) ${a}_{n} = 1 + {\\left( \\frac{1}{2}\\right) }^{n}$ ；\n\n(2) ${a}_{n} = n - \\frac{1}{n}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1093,
+          "end": 1098
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1093,
+          "end": 1098
+        }
+      ],
+      "id": "x1-4-3-ex-2",
+      "category": "例题",
+      "answer": "解( 1 )因为\n\n$$\n{a}_{n + 1} - {a}_{n} = \\left\\lbrack  {1 + {\\left( \\frac{1}{2}\\right) }^{n + 1}}\\right\\rbrack   - \\left\\lbrack  {1 + {\\left( \\frac{1}{2}\\right) }^{n}}\\right\\rbrack\n$$\n\n$$\n=  - {\\left( \\frac{1}{2}\\right) }^{n + 1} < 0,\n$$\n\n所以 ${a}_{n + 1} < {a}_{n}$ . 从而数列 $\\left\\{  {a}_{n}\\right\\}$ 为严格减数列.\n\n(2)因为\n\n$$\n{a}_{n + 1} - {a}_{n} = \\left( {n + 1 - \\frac{1}{n + 1}}\\right)  - \\left( {n - \\frac{1}{n}}\\right)\n$$\n\n$$\n= 1 + \\frac{1}{n\\left( {n + 1}\\right) } > 0,\n$$\n\n所以 ${a}_{n + 1} > {a}_{n}$ . 从而数列 $\\left\\{  {a}_{n}\\right\\}$ 为严格增数列.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1099,
+          "end": 1122
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式是 ${a}_{n} = \\left( {n + 1}\\right) {\\left( \\frac{9}{10}\\right) }^{n - 1}$ . 试问: 该数列是否有最大项? 若有, 指出第几项最大; 若没有, 试说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1123,
+          "end": 1124
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1123,
+          "end": 1124
+        }
+      ],
+      "id": "x1-4-3-ex-3",
+      "category": "例题",
+      "answer": "解 因为\n\n$$\n{a}_{n + 1} - {a}_{n} = \\left( {n + 2}\\right) {\\left( \\frac{9}{10}\\right) }^{n} - \\left( {n + 1}\\right) {\\left( \\frac{9}{10}\\right) }^{n - 1}\n$$\n\n$$\n= {\\left( \\frac{9}{10}\\right) }^{n - 1} \\cdot  \\left( \\frac{8 - n}{10}\\right) ,\n$$\n\n所以当 $n \\leq  7$ 时, ${a}_{n + 1} > {a}_{n}$ ; 当 $n = 8$ 时, ${a}_{n + 1} = {a}_{n}$ ; 当 $n \\geq  9$ 时, ${a}_{n + 1} < {a}_{n}$ .\n\n于是,数列 $\\left\\{  {a}_{n}\\right\\}$ 的最大项为第 8 项和第 9 项,其值为 $\\frac{{9}^{8}}{{10}^{7}}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1125,
+          "end": 1138
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.3(1)",
+      "markdown": "#### 练习 4.3(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1139,
+          "end": 1139
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(1) · 1",
+      "markdown": "1. 根据数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式填表:\n\n<table><tr><td>$n$</td><td>1</td><td>2</td><td>...</td><td>5</td><td>...</td><td></td><td>...</td><td>$n$</td><td>...</td></tr><tr><td>${a}_{n}$</td><td></td><td></td><td>...</td><td></td><td>...</td><td>156</td><td>...</td><td>$n\\left( {n + 1}\\right)$</td><td>...</td></tr></table>",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1141,
+          "end": 1144
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1141,
+          "end": 1144
+        }
+      ],
+      "id": "x1-4-3-p431-1",
+      "category": "练习4.3(1)",
+      "answer": "1.\n\n<table><tr><td>$n$</td><td>1</td><td>2</td><td>...</td><td>5</td><td>...</td><td>12</td><td>...</td><td>$n$</td><td>...</td></tr><tr><td>${a}_{n}$</td><td>2</td><td>6</td><td>...</td><td>30</td><td>...</td><td>156</td><td>...</td><td>$n\\left( {n + 1}\\right)$</td><td>...</td></tr></table>",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 436,
+          "end": 439
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(1) · 2",
+      "markdown": "2. 图中的三角形图案称为谢宾斯基三角形. 在下图四个三角形图案中, 着色的小三角形的个数依次排列成一个数列的前四项, 请写出其前四项, 并给出这个数列的一个通项公式.\n\n![bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1145,
+          "end": 1150
+        },
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1149
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1145,
+          "end": 1150
+        },
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1149
+        }
+      ],
+      "id": "x1-4-3-p431-2",
+      "category": "练习4.3(1)",
+      "answer": "2. ${a}_{1} = 1,{a}_{2} = 3,{a}_{3} = 9,{a}_{4} = {27}$ . 数列 $\\left\\{  {a}_{n}\\right\\}$ 的一个通项公式为 ${a}_{n} = {3}^{n - 1}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 440,
+          "end": 441
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(1) · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式是 ${a}_{n} = \\left| {{2n} - 7}\\right|$ . 试问: 该数列是否有最小项? 若有,指出第几项最小; 若没有, 试说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1151,
+          "end": 1152
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1151,
+          "end": 1152
+        }
+      ],
+      "id": "x1-4-3-p431-3",
+      "category": "练习4.3(1)",
+      "answer": "3. ${a}_{n + 1} - {a}_{n} = \\left| {{2n} - 5}\\right|  - \\left| {{2n} - 7}\\right|$ . 当 $n = 1\\text{、}2$ 时, ${a}_{n + 1} < {a}_{n}$ ; 当 $n = 3$ 时, ${a}_{n + 1} = {a}_{n}$ ; 当 $n \\geq  4$ 时, ${a}_{n + 1} > {a}_{n}$ .\n\n因此,该数列的最小项为第 3 项和第 4 项,其值为 $1 : {a}_{3} = {a}_{4} = 1$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 442,
+          "end": 445
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 利用递推公式表示数列",
+      "markdown": "### 2 利用递推公式表示数列",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1153,
+          "end": 1153
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "等差数列 $\\left\\{  {a}_{n}\\right\\}$ ,其中 ${a}_{1} = 2$ ,公差 $d = 3$ ,可以用下面的公式表示:\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{n} = {a}_{n - 1} + 3\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 2. \\end{array}\\right.\n$$\n\n等比数列 $\\left\\{  {a}_{n}\\right\\}$ ,其中 ${a}_{1} = 2$ ,公比 $q = 3$ ,可以用下面的公式表示:\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{n} = 3{a}_{n - 1}\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 2. \\end{array}\\right.\n$$\n\n如果数列 $\\left\\{  {a}_{n}\\right\\}$ 的任一项 ${a}_{n}$ 可由其前一项 ${a}_{n - 1}$ (或前几项) 通过一个公式来表示，那么这个公式就叫做这个数列的一个递推公式. 它也是表示数列的一种方法. 有时, 数列通项公式不容易被发现, 但可通过数列的递推关系来描述该数列.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1154,
+          "end": 1168
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 196,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-4-3-formula-12-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 198,
+          "end": 391,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-4-3-formula-12-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 393,
+          "end": 550,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-12-0",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 在平面上画 $n$ 条直线,假设其中任意 2 条直线都相交,且任意 3 条直线都不共点. 设这 $n$ 条直线将平面分成了 ${a}_{n}$ 个部分.\n\n(1)写出数列 $\\left\\{  {a}_{n}\\right\\}$ 的一个递推公式；\n\n(2)写出数列 $\\left\\{  {a}_{n}\\right\\}$ 的一个通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1169,
+          "end": 1174
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1169,
+          "end": 1174
+        }
+      ],
+      "id": "x1-4-3-ex-4",
+      "category": "例题",
+      "answer": "解 (1) 我们先通过观察 $n = 1$ 、 2、3 时的图形来探究 ${a}_{n}$ 的情况.\n\n![bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg)\n\n图 4-3-3\n\n从图 4-3-3 中可以看出:\n\n当 $n = 1$ 时,第 1 条直线将平面分为两个部分,所以\n\n$$\n{a}_{1} = 2\\text{ . }\n$$\n\n当 $n = 2$ 时,第 2 条直线与前面的 1 条直线相交,有 1 个交点. 这个交点将第 2 条直线分成 2 段, 且每一段将原有的平面部分进一步多分出两个部分, 所以\n\n$$\n{a}_{2} = {a}_{1} + 2\\text{ . }\n$$\n\n当 $n = 3$ 时,第 3 条直线与前面的 2 条直线都相交,有 2 个交点. 这 2 个交点将第 3 条直线分成 3 段, 且每一段将原有的平面部分进一步多分出三个部分, 所以\n\n$$\n{a}_{3} = {a}_{2} + 3\\text{ . }\n$$\n\n依此类推: 第 $n\\left( {n \\geq  2}\\right)$ 条直线与前面的 $\\left( {n - 1}\\right)$ 条直线都相交, 有 $\\left( {n - 1}\\right)$ 个交点. 这 $\\left( {n - 1}\\right)$ 个交点将第 $n$ 条直线分成 $n$ 段,且每一段将原有的平面部分进一步多分出 $n$ 个部分,所以\n\n$$\n{a}_{n} = {a}_{n - 1} + n\\left( {n \\geq  2}\\right) .\n$$\n\n这样,数列 $\\left\\{  {a}_{n}\\right\\}$ 可以用下面的递推公式表示:\n\n$$\n\\left\\{  \\begin{array}{l} {a}_{n} = {a}_{n - 1} + n\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 2. \\end{array}\\right.\n$$\n\n(2)由上述递推公式, 有\n\n$$\n{a}_{2} = {a}_{1} + 2,\n$$\n\n$$\n{a}_{3} = {a}_{2} + 3,\n$$\n\n$$\n{a}_{4} = {a}_{3} + 4,\n$$\n\n...\n\n$$\n{a}_{n} = {a}_{n - 1} + n\\left( {n \\geq  2}\\right) .\n$$\n\n由上述等式以及 ${a}_{1} = 2$ ,可得\n\n$$\n{a}_{n} = {a}_{1} + 2 + 3 + 4 + \\cdots  + n\n$$\n\n$$\n= {a}_{1} + \\frac{\\left( {n + 2}\\right) \\left( {n - 1}\\right) }{2}\n$$\n\n$$\n= \\frac{{n}^{2} + n + 2}{2}\\;\\left( {n \\geq  2}\\right) .\n$$\n\n当 $n = 1$ 时,由于 ${a}_{1} = 2$ ,上面的等式也成立.\n\n所以,数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = \\frac{{n}^{2} + n + 2}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1175,
+          "end": 1250
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的递推公式为 $\\left\\{  \\begin{array}{l} {a}_{n} = 2{a}_{n - 1} + 1\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 1. \\end{array}\\right.$\n\n(1)求证:数列 $\\left\\{  {{a}_{n} + 1}\\right\\}$ 为等比数列；\n\n(2)求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1251,
+          "end": 1256
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1251,
+          "end": 1256
+        }
+      ],
+      "id": "x1-4-3-ex-5",
+      "category": "例题",
+      "answer": "解 (1) 证明: 已知递推公式 ${a}_{n} = 2{a}_{n - 1} + 1\\left( {n \\geq  2}\\right)$ .\n\n在上述等式两边同时加 1 , 得\n\n$$\n{a}_{n} + 1 = 2{a}_{n - 1} + 2 = 2\\left( {{a}_{n - 1} + 1}\\right) \\left( {n \\geq  2}\\right) .\n$$\n\n由递推公式,易证 ${a}_{n} > 0\\left( {n \\geq  1}\\right)$ ,于是 ${a}_{n - 1} + 1 > 0\\left( {n \\geq  2}\\right)$ , 故 $\\frac{{a}_{n} + 1}{{a}_{n - 1} + 1} = 2\\left( {n \\geq  2}\\right)$ . 所以,数列 $\\left\\{  {{a}_{n} + 1}\\right\\}$ 是以 ${a}_{1} + 1 = 2$ 为首项、以 2 为公比的等比数列.\n\n(2)因为数列 $\\left\\{  {{a}_{n} + 1}\\right\\}$ 是以 ${a}_{1} + 1 = 2$ 为首项、以 2 为公比的等比数列, 所以\n\n$$\n{a}_{n} + 1 = {2}^{n}\\left( {n \\geq  1}\\right) ,\n$$\n\n从而 ${a}_{n} = {2}^{n} - 1\\left( {n \\geq  1}\\right)$ ,这就是数列 $\\left\\{  {a}_{n}\\right\\}$ 的一个通项公式.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1257,
+          "end": 1274
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 4.3(2)",
+      "markdown": "#### 练习 4.3(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1275,
+          "end": 1275
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(2) · 1",
+      "markdown": "1. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 对任意正整数 $n$ ,均满足 ${a}_{1}{a}_{2}\\cdots {a}_{n} = {n}^{2}$ .\n\n(1)写出数列 $\\left\\{  {a}_{n}\\right\\}$ 的前五项；\n\n(2)求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1277,
+          "end": 1282
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1277,
+          "end": 1282
+        }
+      ],
+      "id": "x1-4-3-p432-1",
+      "category": "练习4.3(2)",
+      "answer": "1. (1) ${a}_{1} = 1,{a}_{2} = 4,{a}_{3} = \\frac{9}{4},{a}_{4} = \\frac{16}{9},{a}_{5} = \\frac{25}{16}$ .\n\n(2) ${a}_{n} = \\left\\{  \\begin{array}{ll} 1, & n = 1, \\\\  {\\left( \\frac{n}{n - 1}\\right) }^{2}, & n \\geq  2. \\end{array}\\right.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 448,
+          "end": 451
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(2) · 2",
+      "markdown": "2. 在数列 $\\left\\{  {a}_{n}\\right\\}$ 中, ${a}_{1} = 2$ ,且 ${a}_{n} = {a}_{n - 1} + \\lg \\frac{n}{n - 1}\\left( {n \\geq  2}\\right)$ . 求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "id": "x1-4-3-p432-2",
+      "category": "练习4.3(2)",
+      "answer": "2. ${a}_{n} = \\left( {{a}_{n} - {a}_{n - 1}}\\right)  + \\left( {{a}_{n} - {a}_{n - 1}}\\right)  + \\cdots  + \\left( {{a}_{2} - {a}_{1}}\\right)  + {a}_{1} = \\lg \\frac{n}{n - 1} + \\lg \\frac{n - 1}{n - 2} + \\cdots  + \\; \\lg \\frac{2}{1} + 2 = 2 + \\lg n.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 452,
+          "end": 453
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习4.3(2) · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 满足 ${a}_{1} = 1,{a}_{n} = 2{a}_{n - 1} + 3\\left( {n \\geq  2}\\right)$ .\n\n(1)求证:数列 $\\left\\{  {{a}_{n} + 3}\\right\\}$ 为等比数列；\n\n(2)求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1290
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1290
+        }
+      ],
+      "id": "x1-4-3-p432-3",
+      "category": "练习4.3(2)",
+      "answer": "3. (1)当 $n = 1$ 时,首项为 ${a}_{1} + 3 = 4$ . 当 $n \\geq  2$ 时, ${a}_{n} + 3 = 2{a}_{n - 1} + 3 + 3 = 2\\left( {{a}_{n - 1} + 3}\\right)$ .\n\n显然 ${a}_{n} > 0$ ,进而 ${a}_{n} + 3 > 0$ . 故 $\\frac{{a}_{n} + 3}{{a}_{n - 1} + 3} = 2$ 为常数.\n\n因此,数列 $\\left\\{  {{a}_{n} + 3}\\right\\}$ 是以 4 为首项、以 2 为公比的等比数列.\n\n(2)由(1), ${a}_{n} + 3 = {2}^{n + 1}$ ,故 ${a}_{n} = {2}^{n + 1} - 3$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 454,
+          "end": 461
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "课后阅读",
+      "markdown": "#### 课后阅读",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1291
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "神奇的斐波那契数列",
+      "markdown": "##### 神奇的斐波那契数列",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1293,
+          "end": 1293
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "1202 年, 意大利数学家斐波那契 (L. Fibonacci) 出版了一部著作《算盘全书》(Liber Abacci). 他在书中提出了一个关于兔子繁殖的问题: 一对新生的小兔子(一雄一雌)，到第 3 个月开始每月新生一对(一雄一雌)小兔子. 在假设不发生死亡的情况下，问:从第一对新生小兔子开始, 到第 10 个月底会有多少对兔子?\n\n第 1 个月, 只有 1 对小兔子; 第 2 个月, 那对小兔子长成熟了; 第 3 个月, 成熟的兔子生下 1 对小兔子, 这时有 2 对兔子; 第 4 个月, 成熟的兔子再生 1 对小兔子, 而另 1 对小兔子长成熟了，共有 3 对兔子; 如此推算下去，我们可以得到下面的表格:\n\n表 4-3\n\n<table><tr><td>时间(月)</td><td>初生兔子(对)</td><td>成熟兔子(对)</td><td>兔子总数(对)</td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>2</td><td>0</td><td>1</td><td>1</td></tr><tr><td>3</td><td>1</td><td>1</td><td>2</td></tr><tr><td>4</td><td>1</td><td>2</td><td>3</td></tr><tr><td>5</td><td>2</td><td>3</td><td>5</td></tr><tr><td>6</td><td>3</td><td>5</td><td>8</td></tr><tr><td>7</td><td>5</td><td>8</td><td>13</td></tr><tr><td>8</td><td>8</td><td>13</td><td>21</td></tr><tr><td>9</td><td>13</td><td>21</td><td>34</td></tr><tr><td>10</td><td>21</td><td>34</td><td>55</td></tr></table>\n\n如果时间不限于 10 个月, 在理想的情境下, 这个问题引出如下的无穷数列:\n\n$1,1,2,3,5,8,{13},{21},{34},{55},{89},{144},{233},\\cdots ,$\n\n这就是斐波那契数列, 其中的每一个数都称为斐波那契数. 它有这样的特点: 从第三项开始,每一项都是其前两项的和. 如果用 ${F}_{n}$ 表示第 $n$ 个斐波那契数,那么有\n\n$$\n{F}_{n} = {F}_{n - 1} + {F}_{n - 2}\\left( {n \\geq  3}\\right) .\n$$\n\n可以证明 (有兴趣的同学, 可查阅有关的课外阅读资料), 其通项公式为\n\n$$\n{F}_{n} = \\frac{1}{\\sqrt{5}}\\left\\lbrack  {{\\left( \\frac{1 + \\sqrt{5}}{2}\\right) }^{n} - {\\left( \\frac{1 - \\sqrt{5}}{2}\\right) }^{n}}\\right\\rbrack  .\n$$\n\n人们在研究斐波那契数列的过程中，发现该数列在自然界竟是如此普遍. 例如，考虑树木枝条的数量. 某种树木第 1 年长出幼枝，第 2 年幼枝长成粗干，第 3 年粗干可生出幼枝. 如图 4-3-4, 每条树枝都按照这个规律成长, 则每年的分枝数正好构成斐波那契数列.\n\n![bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg)\n\n图 4-3-4\n\n---\n\n黄金比例又称为黄金分割数, 是指点 $P$ 把线段 ${AB}$ 分割成 ${AP}$ 和 ${PB}$ 两段,使得 ${AP}$ 是 ${AB}$ 和 ${PB}$ 的比例中项. 其中, ${AP}$ 与 ${AB}$ 的比值 $\\frac{\\sqrt{5} - 1}{2}$ 称为黄金比例, 也叫黄金分割数, 它是被公认的最具有审美意义的比例数.\n\n---\n\n在数学上, 斐波那契数列有许多奇妙的性质. 其任一给定项与其后一项的比交替地大于或小于黄金比例, 并且该比值无限趋近于黄金比例, 即有\n\n$$\n\\mathop{\\lim }\\limits_{{n \\rightarrow   + \\infty }}\\frac{{F}_{n}}{{F}_{n + 1}} = \\frac{\\sqrt{5} - 1}{2}.\n$$\n\n只要你的心中有“数”，随处可见斐波那契数列. 它蕴含在自然界中, 也出现在文艺作品里. 它是解开不少数学谜题的钥匙, 更在诸多科学领域中有着广泛的应用. 经由斐波那契数列的镜像, 我们的世界竟是如此五彩缤纷!",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1294,
+          "end": 1338
+        }
+      ],
+      "emphases": [
+        {
+          "start": 1009,
+          "end": 1098,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-21-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1170,
+          "end": 1362,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-4-3-formula-21-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1653,
+          "end": 1828,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-4-3-definition-21-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "习题 4.3",
+      "markdown": "#### 习题 4.3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1339,
+          "end": 1339
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1341
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 1",
+      "markdown": "1. 已知下列数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式,写出它的前 4 项.\n\n(1) ${a}_{n} = {n}^{2} - {5n}$ ； (2) ${a}_{n} = \\frac{\\cos {n\\pi }}{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1346
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1346
+        }
+      ],
+      "id": "x1-4-3-h43A-1",
+      "category": "习题4.3A",
+      "answer": "1. (1) ${a}_{1} =  - 4,{a}_{2} =  - 6,{a}_{3} =  - 6,{a}_{4} =  - 4$ .\n\n(2) ${a}_{1} =  - \\frac{1}{2},{a}_{2} = \\frac{1}{2},{a}_{3} =  - \\frac{1}{2},{a}_{4} = \\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 466,
+          "end": 469
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 2",
+      "markdown": "2. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = \\frac{{n}^{2} + n - 1}{3}$ ，79 $\\frac{2}{3}$ 是否是该数列中的项？若是，是第几项?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1347,
+          "end": 1348
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1347,
+          "end": 1348
+        }
+      ],
+      "id": "x1-4-3-h43A-2",
+      "category": "习题4.3A",
+      "answer": "2. 由 $\\frac{{n}^{2} + n - 1}{3} = {79}\\frac{2}{3}$ ,解得 $n = {15}$ (负根已舍). 所以 ${79}\\frac{2}{3}$ 是该数列的第 15 项.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 470,
+          "end": 471
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {n}^{2} - {8n} + 5$ .\n\n(1)写出这个数列的前 5 项;\n\n(2)这个数列有没有最小项？如果有，是第几项？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1349,
+          "end": 1354
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1349,
+          "end": 1354
+        }
+      ],
+      "id": "x1-4-3-h43A-3",
+      "category": "习题4.3A",
+      "answer": "3. (1) ${a}_{1} =  - 2,{a}_{2} =  - 7,{a}_{3} =  - {10},{a}_{4} =  - {11},{a}_{5} =  - {10}$ .\n\n(2) ${a}_{n} = {\\left( n - 4\\right) }^{2} - {11}$ ,最小项为 ${a}_{4} =  - {11}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 472,
+          "end": 475
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 4",
+      "markdown": "4. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = \\left( {{3n} - 2}\\right) {\\left( \\frac{3}{5}\\right) }^{n}$ ,试问: 该数列是否有最大项、最小项? 若有, 分别指出第几项最大、最小; 若没有, 试说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1355,
+          "end": 1356
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1355,
+          "end": 1356
+        }
+      ],
+      "id": "x1-4-3-h43A-4",
+      "category": "习题4.3A",
+      "answer": "4. 因为 ${a}_{n + 1} - {a}_{n} = \\left( {{3n} + 1}\\right) {\\left( \\frac{3}{5}\\right) }^{n + 1} - \\left( {{3n} - 2}\\right) {\\left( \\frac{3}{5}\\right) }^{n} = \\frac{{13} - {6n}}{5}{\\left( \\frac{3}{5}\\right) }^{n}$ ,所以,当 $n = 1,2$ 时, ${a}_{n + 1} > {a}_{n}$ ；当 $n \\geq  3$ 时, ${a}_{n + 1} < {a}_{n}$ .\n\n于是,该数列第 3 项为最大项,而 ${a}_{1} = \\frac{3}{5}$ ,且 $\\mathop{\\lim }\\limits_{{n \\rightarrow  \\infty }}{a}_{n} = 0$ ,所以数列 $\\left\\{  {a}_{n}\\right\\}$ 无最小项.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 476,
+          "end": 479
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 5",
+      "markdown": "5. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的首项 ${a}_{1} = 1$ ,且 ${a}_{n} = {2}^{n - 1} \\cdot  {a}_{n - 1}\\left( {n \\geq  2}\\right)$ . 求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1357,
+          "end": 1358
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1357,
+          "end": 1358
+        }
+      ],
+      "id": "x1-4-3-h43A-5",
+      "category": "习题4.3A",
+      "answer": "5. 数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {2}^{\\frac{n\\left( {n - 1}\\right) }{2}}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 480,
+          "end": 481
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 6",
+      "markdown": "6. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 满足 ${a}_{1} = {33}$ ,且 ${a}_{n} - {a}_{n - 1} = 2\\left( {n - 1}\\right) \\left( {n \\geq  2}\\right)$ . 求数列 $\\left\\{  \\frac{{a}_{n}}{n}\\right\\}$ 的最小项.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1359,
+          "end": 1360
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1359,
+          "end": 1360
+        }
+      ],
+      "id": "x1-4-3-h43A-6",
+      "category": "习题4.3A",
+      "answer": "6. 数列 $\\left\\{  \\frac{{a}_{n}}{n}\\right\\}$ 中的最小项为第 6 项 $\\frac{{a}_{6}}{6} = \\frac{21}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 482,
+          "end": 483
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3A · 7",
+      "markdown": "7. 一个正方形被等分成九个相等的小正方形,将最中间的一个正方形挖掉,得图①; 再将剩下的每个正方形都分成九个相等的小正方形, 并将其最中间的一个正方形挖掉, 得图②; 如此继续下去……\n\n(1)图③中共挖掉了多少个正方形？\n\n(2)求每次挖掉的正方形个数所构成的数列的一个递推公式.\n\n![bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg)\n\n(第 7 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1361,
+          "end": 1370
+        },
+        {
+          "source": "book",
+          "start": 1367,
+          "end": 1369
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1361,
+          "end": 1370
+        },
+        {
+          "source": "book",
+          "start": 1367,
+          "end": 1369
+        }
+      ],
+      "id": "x1-4-3-h43A-7",
+      "category": "习题4.3A",
+      "answer": "7. (1) 73 个.\n\n(2)设每次挖掉的正方形的个数所构成的数列为 $\\left\\{  {a}_{n}\\right\\}$ . 该数列满足的递推公式为 ${a}_{n} = {a}_{n - 1} + {8}^{n - 1}\\left( {n \\geq  2}\\right)$ 或 ${a}_{n} = 8{a}_{n - 1} + 1\\left( {n \\geq  2}\\right)$ ,数列 $\\left\\{  {a}_{n}\\right\\}$ 可以表示为: $\\left\\{  {\\begin{array}{l} {a}_{n} = {a}_{n - 1} + {8}^{n - 1}\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 1 \\end{array}\\text{ 或 }\\left\\{  \\begin{array}{l} {a}_{n} = 8{a}_{n - 1} + 1\\left( {n \\geq  2}\\right) , \\\\  {a}_{1} = 1. \\end{array}\\right. }\\right.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 484,
+          "end": 487
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1371,
+          "end": 1371
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题4.3B · 1",
+      "markdown": "1. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = \\frac{n - \\sqrt{97}}{n - \\sqrt{98}}$ ,试问: 该数列是否有最大项、最小项? 若有, 分别指出第几项最大、最小; 若没有, 试说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1373,
+          "end": 1374
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1373,
+          "end": 1374
+        }
+      ],
+      "id": "x1-4-3-h43B-1",
+      "category": "习题4.3B",
+      "answer": "1. 数列 $\\left\\{  {a}_{n}\\right\\}$ 的最大项为第 10 项, ${a}_{10} = \\frac{{10} - \\sqrt{97}}{{10} - \\sqrt{98}}$ ,最小项为第 9 项, ${a}_{9} = \\frac{9 - \\sqrt{97}}{9 - \\sqrt{98}}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 490,
+          "end": 491
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3B · 2",
+      "markdown": "2. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {n}^{2} + {\\lambda n}$ ,其中 $\\lambda$ 是常数. 若数列 $\\left\\{  {a}_{n}\\right\\}$ 为严格增数列,求 $\\lambda$ 的取值范围.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1375,
+          "end": 1376
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1375,
+          "end": 1376
+        }
+      ],
+      "id": "x1-4-3-h43B-2",
+      "category": "习题4.3B",
+      "answer": "2. $\\left( {-3, + \\infty }\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 492,
+          "end": 493
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3B · 3",
+      "markdown": "3. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n}$ ,且 ${a}_{1} = 1,{a}_{n + 1} = 2{S}_{n}\\left( {n\\text{ 为正整数 }}\\right)$ . 求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1377,
+          "end": 1378
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1377,
+          "end": 1378
+        }
+      ],
+      "id": "x1-4-3-h43B-3",
+      "category": "习题4.3B",
+      "answer": "3. 数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = \\left\\{  \\begin{array}{ll} 1, & n = 1, \\\\  2 \\cdot  {3}^{n - 2}, & n \\geq  2. \\end{array}\\right.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 494,
+          "end": 495
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3B · 4",
+      "markdown": "4. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} = {12} - {12} \\cdot  {\\left( \\frac{2}{3}\\right) }^{n}$ .\n\n(1)求数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式；\n\n(2)若数列 $\\left\\{  {b}_{n}\\right\\}$ 满足 ${b}_{n} = \\left( {{2n} - 1}\\right) {a}_{n}$ ，间是否存在正整数 $m$ ，使得 ${b}_{m} \\geq  9$ 成立，并说明理由.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1379,
+          "end": 1384
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1379,
+          "end": 1384
+        }
+      ],
+      "id": "x1-4-3-h43B-4",
+      "category": "习题4.3B",
+      "answer": "4. (1)数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = 4 \\cdot  {\\left( \\frac{2}{3}\\right) }^{n - 1}$ .\n\n(2)提示:因为数列 $\\left\\{  {b}_{n}\\right\\}$ 的最大项为 ${b}_{3} = \\frac{80}{9} < 9$ ,所以不存在正整数 $m$ ,使得 ${b}_{m} \\geq  9$ 成立.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 496,
+          "end": 499
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题4.3B · 5",
+      "markdown": "5. 某皮革厂第 1 年初有资金 1000 万元，由于引进了先进的生产设备，资金年平均增长率可达到 50%. 每年年底定额扣除下一年的消费基金后, 将剩余资金投入再生产. 这家皮革厂每年应扣除多少消费基金, 才能实现资金在第 5 年年底扣除消费基金后达到 2000 万元的目标?(结果精确到 1 万元)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1385,
+          "end": 1386
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1385,
+          "end": 1386
+        }
+      ],
+      "id": "x1-4-3-h43B-5",
+      "category": "习题4.3B",
+      "answer": "5. 设从第 1 年年初算起,该厂第 $n$ 年底的剩余资金为 ${a}_{n}$ 万元,则 ${a}_{1} = {1000}$ ,而经过 5 年底的剩余资金为 ${a}_{6}$ 万元. 设这家皮革厂每年应扣除消费基金 $x$ 万元,则 ${a}_{n + 1} = {1.5}{a}_{n} - x$ ,变形为 ${a}_{n + 1} - {2x} = {1.5}\\left( {{a}_{n} - {2x}}\\right)$ ,所以 $\\left\\{  {{a}_{n} - {2x}}\\right\\}$ 是以 1.5 为公比的等比数列, ${a}_{n} - {2x} = {1.5}^{n - 1}\\left( {{1000} - {2x}}\\right)$ ,根据题意知 ${a}_{6} = {2x} + {1.5}^{5}\\left( {{1000} - {2x}}\\right)  =$ 2000,解得 $x = \\frac{{1000}\\left( {{1.5}^{5} - 2}\\right) }{2\\left( {{1.5}^{5} - 1}\\right) } \\approx  {424}$ 万元.\n\n所以这家皮革厂每年应扣除消费基金 424 万元, 才能实现资金经过 5 年达到 2000 万元的目标.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 500,
+          "end": 503
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 1005,
+      "original": "images/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1017,
+      "original": "images/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1147,
+      "original": "images/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1177,
+      "original": "images/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1321,
+      "original": "images/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1367,
+      "original": "images/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-4-3.json",
+    "question_count": 23,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

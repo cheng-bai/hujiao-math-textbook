@@ -1,0 +1,35 @@
+{
+  "controls": [
+    {
+      "key": "u",
+      "label": "平行线位置 u（±1为相切）",
+      "max": 1.4,
+      "min": -1.4,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "candidate",
+      "label": "显示消元得到的整条直线",
+      "type": "checkbox"
+    }
+  ],
+  "explanationHtml": "<p><strong>问题入口。</strong>这里的“弦”要求椭圆上两个不同的交点。消元只给出中点必须满足的关系，尚未说明整条直线上的点都能产生这样的弦。</p><p><strong>必要性。</strong>把直线方程代入椭圆方程，得到关于交点横坐标的一元二次方程：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>5</mn><msup><mrow><mi>x</mi></mrow><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>t</mi><mi>x</mi><mo>+</mo><mn>4</mn><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>−</mo><mn>4</mn><mo>=</mo><mn>0</mn></math><p>两个交点不同，当且仅当判别式为正：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>Δ</mi><mo>=</mo><mn>16</mn><mo>(</mo><mn>5</mn><mo>−</mo><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>)</mo><mo>&gt;</mo><mn>0</mn><mo>⇔</mo><msup><mrow><mi>t</mi></mrow><mn>2</mn></msup><mo>&lt;</mo><mn>5</mn></math><p>由两根和及直线方程，中点坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>M</mi><mo>(</mo><mo>−</mo><mfrac><mrow><mn>4</mn><mi>t</mi></mrow><mrow><mn>5</mn></mrow></mfrac><mo>,</mo><mfrac><mrow><mi>t</mi></mrow><mrow><mn>5</mn></mrow></mfrac><mo>)</mo></math><p>因此，所有真实弦中点均满足：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mi>x</mi></mrow><mrow><mn>4</mn></mrow></mfrac><mo>，</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mfrac><mrow><mn>4</mn></mrow><mrow><msqrt><mn>5</mn></msqrt></mrow></mfrac></math><p><strong>充分性。</strong>任取满足上述条件的点，设其横坐标为：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>x</mi><mn>0</mn></msub><mo>，</mo><mi>t</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mn>5</mn><msub><mi>x</mi><mn>0</mn></msub></mrow><mrow><mn>4</mn></mrow></mfrac></math><p>由横坐标的严格范围可知判别式为正，所以对应直线与椭圆有两个不同交点；按上面的中点公式，其横坐标正是所取横坐标，纵坐标也相同。故开线段上每一点都能成为真实弦中点，没有遗漏。</p><p><strong>端点不取。</strong>参数为下列值时判别式为零，两交点合一，只得到切点而非非退化弦。超出此范围则无交点。</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>t</mi><mo>=</mo><mo>±</mo><msqrt><mn>5</mn></msqrt></math>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mi>x</mi><mn>4</mn></mfrac><mo>，</mo><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mfrac><mn>4</mn><msqrt><mn>5</mn></msqrt></mfrac><mo>；</mo><mi>t</mi><mo>=</mo><msqrt><mn>5</mn></msqrt><mi>u</mi></math>",
+  "goal": "用相切与相离状态区分必要条件和充分条件，解释轨迹端点为何不取。",
+  "id": "chord-midpoint-domain",
+  "initial": {
+    "candidate": true,
+    "u": 0.4
+  },
+  "placements": [
+    {
+      "afterBlockId": "x1-2-5-b5",
+      "rationale": "在轨迹方程双向验证步骤后增设选学探究，保留全部原文。",
+      "retainProse": true,
+      "sectionId": "x1-2-5"
+    }
+  ],
+  "summary": "固定椭圆x²/4+y²=1，平行弦所在直线为y=x+t。联立得5x²+8tx+4t²−4=0，两个不同交点存在当且仅当t²<5。由两根和可得弦中点M=(−4t/5,t/5)，故y=−x/4且|x|<4/√5。反过来，对此开线段内任意一点，取t=−5x/4均可构造非退化弦。因此轨迹恰为开线段，而不是消元所得整条直线；t=±√5时相切，端点不取。本模块为选学探究，保留原文的双向验证。",
+  "title": "弦中点轨迹：消元整线与有效开线段"
+}

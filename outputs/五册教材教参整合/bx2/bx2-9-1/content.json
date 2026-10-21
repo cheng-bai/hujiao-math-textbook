@@ -1,0 +1,1357 @@
+[
+  {
+    "type": "section",
+    "title": "复数及其四则运算",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "id": "bx2-9-1",
+    "number": "9.1",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "##### 9.1 复数及其四则运算\n\n### 教学重点\n\n回顾初中阶段一元二次方程的求根公式, 提出负数开平方问题并引出复数的概念, 理解复数相等的含义以及复数的四则运算规则并依据算理正确地进行计算, 根据复数的代数形式对复数加以分类.\n\n### 内容分析\n\n复数系是为了解决负数的开平方问题而对实数系所作的扩充, 四则运算是复数系最为重要的组成部分, 只有明确了复数相等关系的含义并定义了复数的运算, 复数才有了“数”的基本特征.\n\n定义复数集及复数集上的运算有不同的方法. 例如, 严谨的方法之一是把复数系定义为实数域上具有基 $\\{ 1 = \\left( {1,0}\\right) ,\\mathrm{i} = \\left( {0,1}\\right) \\}$ 的二维向量空间 (自然地具有加减法运算) 上恰当地定义乘法与除法,使其成为一个域,且等式 ${\\mathrm{i}}^{2} =  - 1$ 自然地成立. 这种方法先几何地构建复数系, 代数的性质和运算规则都在几何框架下实现. 另一种严谨方法是代数的,关键在于构建实数域的二维代数扩域,即先构建实数域 $\\mathbf{R}$ 上的一元多项式代数 $\\mathbf{R}\\left\\lbrack  T\\right\\rbrack$ ,再做 $\\mathbf{R}\\left\\lbrack  T\\right\\rbrack$ 关于它的极大理想 $\\left( {{T}^{2} + 1}\\right)$ 的商域, $T$ 在商域中的像 (记为 i)即为虚数单位.\n\n这两种方法虽然严谨,但是它们脱离了学生的知识储备和认知水平,也与复数理论发展的历史进程相去甚远. 因此, 在中学教材中复数的引入通常由引入 -1 的一个平方根 $\\mathrm{i}$ 开始,构建 $a + b\\mathrm{i}$ 形式的记号所成的集合 $\\mathbf{C}$ ,通过确定相等关系并定义运算赋予这些记号以“数”的意义,从而使 $\\mathbf{C}$ 成为一个数系 (即复数系).\n\n本教材也是这样建立复数理论的. 但与许多教材不同的是,我们摒弃了在复数运算出现之前先讲相关概念,甚至先建立复数的几何表示的做法,而把引入部分的理论建构压缩到极小,实施“运算先行”的策略. 具体做法体现在以下两个方面:\n\n一是, 人为规定了 -1 的一个平方根 (虚数单位) 为 i 以后, 通过形式地定义运算作出“新数”: 先作实数 $b$ 与虚数单位 $\\mathrm{i}$ 的乘积 $b\\mathrm{i}\\left( {b \\in  \\mathbf{R}}\\right)$ ,再把 $b\\mathrm{i}$ 与既有的实数 $a$ 相加而得到 $a + b\\mathrm{i}$ ,从而得到完整的复数集 $\\mathbf{C}$ . 这个过程通过形式的运算制造出新数,严格说来是比较抽象的, 但由于比较自然, 因此学生接受起来不会有什么困难.\n\n实施“运算先行”策略之前,我们用约定的形式给“一个复数等于 0 ”和“两个复数相等”以明确的含义. 这两个约定对学生而言是自然的,也不会有学习的障碍(从数学本质上说, 这个约定只是说明在复空间中 1 和 i 是实数域上线性无关的向量). 有了这个约定,我们就沿着 “运算先行” 之路继续前行: 以多项式四则运算规则与 ${\\mathrm{i}}^{2} =  - 1$ 相结合来定义复数四则运算(实际上是前文所说的用扩域方法定义复数域时得出的复数运算), 这是一种为构建新知识体系而对既有知识所进行的顺理成章的“移植”. 沿着这样的复数知识发生与发展的路径, 学生就可以将复数运算与初中阶段所学习的多项式运算相对接, 为掌握复数四则运算提供一个非常熟悉的背景支撑.\n\n在定义了复数、约定了复数的相等关系并建立了四则运算规则以后, 学生头脑里作为“数”的复数概念就基本形成了. 接下来教材把与复数相关的概念进一步细化, 先将 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 中的 $a\\text{、}b$ 分别称为复数 $a + b\\mathrm{i}$ 的实部与虚部, $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ 称为复数的代数形式(这里不妨先预告后续内容“复数的三角形式”). 既然复数是继实数以后所学习的有关“数”的知识,那么很自然地应该仿照对于实数的研究将复数进行分类, 由此引出虚数和纯虚数等概念, 并指出虚数才是在实数之外所新增的数, 复数以实数和虚数分作两类, 复数和虚数并非是同一个概念. 共轭复数是复数理论中的一个重要概念, 它在本节可看到的作用是将复数的除法运算归结为 “分子和分母同时乘分母的共轭复数” 这样较为简洁的表述语言. 而教材中求共轭复数与复数四则运算的关系公式, 其验证过程既是学生进一步巩固复数四则运算法则的教学素材, 也是实践体验数学符号语言与自然语言 (例如, 复数和的共轭等于共轭的和) 相互转换的学习机会. 需注意教材给出“商的共轭等于共轭的商”的证明过程, 并没有程序化地使用复数的实部、虚部进行验证, 而是在乘法结论基础上用逆运算的思想的简洁证明.\n\n例 1 中四个有关复数加法、减法以及乘法运算的问题, 在强调了复数的四则运算可以根据多项式运算法则与 ${\\mathrm{i}}^{2} =  - 1$ 相结合而展开的思想方法后,可以学生自主练习、 教师适度指导的方式完成.\n\n例 2 示范了复数除法运算法则的运用. 在教学中,可以类比对 $\\frac{1}{a + \\sqrt{b}}$ 进行分母有理化的方法,说明除数为 $c + d\\mathrm{i}\\left( {c\\text{、}d \\in  \\mathbf{R}}\\right)$ 的复数除法运算中将分子和分母同乘 $c - d\\mathrm{i}$ ,便可以将除法运算化归为乘法运算. 可以引导学生回忆一下,这种方法是利用公式 $\\left( {a + b}\\right) \\left( {a - b}\\right)  = \\; {a}^{2} - {b}^{2}$ 将分母中的二次根式去掉.\n\n例 3 展示虚数单位 $\\mathrm{i}$ 的整数次幂的周期性. 教学中可引导学生从 $\\mathrm{i}$ 开始自主探究发现规律,并通过讨论交流,提炼、概括 “对任意整数 $m$ ,都有 ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3} =$ 0”的结论, 其中应注意引导学生体会, 以符号语言呈现的上述结论与自然语言表达“i 的四个连续整数次幂之和为零”的相互转换.\n\n例 4 说明在实数范围内成立的完全平方和(差)等公式在复数范围内仍然成立.\n\n例 5 和例 6 体现将复数概念细化的各个要素以及将复数的分类准确运用于具体的复数.\n\n例 7 指出在复数集 $\\mathbf{C}$ 中, $z \\in  \\mathbf{R}$ 的充要条件是 $z = \\bar{z}$ ,这是复数的一条重要性质, 它是以不同于“复数问题实数化”的思想方法处理复数问题的工具之一. 同时, 这一问题的论证过程是对于充要条件证明方法的复习.\n\n例 8 的求解有两条不同的路径, 学生容易想到的方法是根据已知条件先计算得出 $\\frac{{z}_{1}}{{z}_{2}}$ 的结果再写出 $z$ 的值,而教材所呈现的方法,则在体现共轭复数运算性质运用的同时, 通过两边取共轭来体现等式 “两边同时……” 这一非常重要的数学思想方法.\n\n### 注意事项\n\n教材虽然介绍了虚数单位的整数次幂运算及其性质, 但是对以复数代数形式表示的复数, 幂运算以局限于平方运算为宜, 复数的高次乘方运算, 待以后学习了复数的三角形式和指数形式后可以更方便地处理.\n\n二期课改教材在复数四则运算之后专设一节讲述复数的平方根与复数的立方根, 因为本教材通过“ 9.4 复数的三角形式”一节,使得一般的求复数方根的题目不再困难, 就没有必要设置这样的专节了. 而且, 在 “9.3 实系数一元二次方程” 中, 讨论实数的平方根时没有采用复数的三角形式, 仅用复数的代数形式和 “待定系数法” 就解决问题了. 这个方法完全可以用于复数平方根的讨论, 在后面的“探究与实践”中提到这一事实时, 让学生自由探索.\n\n### 教学建议\n\n复数的四则运算可用多项式运算与虚数单位 $\\mathrm{i}$ 的性质 ${\\mathrm{i}}^{2} =  - 1$ 相结合加以开展. 在讲解复数运算规则时,可以从类比根式运算入手,通过对实数 $a + b\\sqrt{2}$ 与 $c + d\\sqrt{2}(a$ 、 $b\\text{、}c\\text{、}d \\in  \\mathbf{R}$ ) 四则运算的复习,引导学生自主探究复数的四则运算规则. 特别地,讲复数除法时, 注意类比分母含有无理数的分数的分母有理化, 在讲了共轭复数以后可以再次回顾, 指明作除法时把分子和分母同乘分母的共轭复数这一关键点.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 92,
+        "end": 137
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-9-1-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 本章概述",
+    "markdown": "## 一、本章概述\n\n### 总体要求\n\n复数是在实数的基础上, 人们对于数的认识的进一步发展. 复数是数系扩充过程中的一个重要环节, 对于复数概念和运算规则的规定, 使得复数成为一类重要的运算对象, 同时, 复数又兼具非常明确的几何意义. 复数从代数和几何等多个方面呈现其与客观世界的深刻联系. 复数是现代数学工作者和各个领域的科技工作者广泛运用的基本数学工具.\n\n数学的发展史表明, 复数与无理数一样, 都是人类理性思维的产物, 体现了数学知识体系的内在矛盾对于数学发展的推动作用. 从实数系到复数系, 首先是满足了数学自身发展的需要, 人们逐步发现复数与几何的关联乃至复数与客观世界更为广泛的联系, 反过来又进一步推动了复数理论的发展与完善. 对复数知识起源的简要介绍, 有益于学生理性思维的形成和发展.\n\n在复数知识的学习中, 学生会了解一些新的概念和规则, 从中体会类比、推广等数学思想方法. 复数学习内容的呈现, 凸现了复数与中学数学各个知识模块的紧密联系,在探寻复数与图形的联系中强化“数”与“形”相互结合的意识,体验从复数这一新的视角把握代数与几何的关联. 在介绍复数的概念、运算以及几何意义等基础知识的过程中, 应重视发挥其对学生数学抽象、数学运算、逻辑推理以及直观想象等数学核心素养发展的促进作用.\n\n### 课时安排建议\n\n本章的课时安排建议为 $5 + 2 + 1$ ,共计 8 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan=\"2\">9.1 复数及其四则运算</td><td rowspan=\"2\">2</td><td>复数的引入与复数的四则运算 1 课时</td></tr><tr><td>复数的实部、虚部与共轭 1 课时</td></tr></table>\n\n(续表)\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan=\"2\">9.2 复数的几何意义</td><td rowspan=\"2\">2</td><td>复平面与复数的坐标表示、复数的向量表示、复数加法的平行四边形法则 1 课时</td></tr><tr><td>复数的模 1 课时</td></tr><tr><td>9.3 实系数一元二次方程</td><td>1</td><td/></tr><tr><td rowspan=\"2\">9.4 (选学)复数的三角形式</td><td rowspan=\"2\">2</td><td>复数的三角形式 1 课时</td></tr><tr><td>三角形式下复数的乘除运算、三角形式下复数的乘方与开方 1 课时</td></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容共分为四节, 分别是 9.1 复数及其四则运算, 9.2 复数的几何意义, 9.3 实系数一元二次方程, 9.4 复数的三角形式.\n\n本教材复数内容与众不同的处理方法是 “运算先行”,在全章开头引入复数之后, 单刀直入地介绍复数的四则运算, 而相关的概念和理论框架随后逐步完善.\n\n具体地说,“9.1 复数及其四则运算”开门见山地从负数的开平方引入虚数单位, 从虚数单位与实数的运算引入一般的复数. 从本章课后阅读简要介绍的复数起源故事可以看到, 在三次方程求根公式的研究中, 数学家不得不面对负数的开平方问题. 为了解决这个在当时属于 “不现实” 的问题, 数学家凭空想象出一种新的数, 叫做 \"imaginary number\"(想象的数,翻译后被叫做虚数),其中虚数单位 $\\mathrm{i}$ 满足 ${\\mathrm{i}}^{2} =  - 1$ .\n\n在定义了虚数单位后, 用 “运算” 的途径构建复数集 $\\mathbf{C}$ : 首先把虚数单位与实数 “相乘”,得到形如 $b\\mathrm{i}\\left( {b \\in  \\mathbf{R}}\\right)$ 的纯虚数,然后把这样的虚数与实数“相加”,得到一般的复数 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ . 这种引进一般复数的方式突出了数系的运算特征.\n\n复数相等的关系是建立复数运算的逻辑基础. 教材把复数相等作为 “约定” 在这里出现了. 有了复数相等关系后, 就能类比多项式的运算法则直接给出复数运算的定义, 使学生能不太困难地理解和进行复数的运算. 在教学时, 注意让学生进行这种类比, 而不是强求学生死记运算公式.\n\n由于“运算先行”,复数的实部、虚部和共轭等概念在复数的四则运算之后才出现, 然后衔接到 9.2 节的内容.\n\n因此, 本教材复数理论的建立可以描述为以运算为抓手, 先搭建一个基本满足需要的框架, 再加以逐步细化并形成严谨的逻辑体系的过程. 这样的复数知识呈现方式, 在某种程度上还原了历史上数学家对于复数研究非常朴素而自然的探究过程, 它为学生用一种朴实无华的思想方法进行科学创新的思考提供了一次体验的机会. 同时, 将复数的四则运算与实数范围内多项式的运算建立起一个清晰的联系, 从而将需要学习的新知识链接于学生头脑中掌握得较好的既有知识. 这样的知识呈现顺序, 有利于学生更加快捷、高效地获取新的数学知识和数学思想方法.\n\n“9.2 复数的几何意义”的主要目的是通过复平面建立复数与点及向量之间的对应关系. 复数的代数形式反映了数系扩充的一般表示方法, 也为复平面的构建提供了方便. 复数代数形式中的实部与虚部, 自然地成为复数所对应的向量在一组正交基 $\\left( {1,0}\\right)$ 与 $\\left( {0,1}\\right)$ 下的坐标. 在建立了复数与向量之间的对应关系后,不仅可以用向量的加减运算来表示复数的加减运算, 而且可以将向量加减运算的平行四边形法则推广到复数的加减运算上, 在赋予复数加减运算几何意义的同时, 也自然地将向量的模的概念推广到复数上. 教材中的这种处理方法如顺水推舟,将第 8 章与第 9 章自然地联结在一起.\n\n本套教材在复数引入之初就给出了复数四则运算的定义, 与在定义了复平面和复数的坐标表示后再引入复数运算相比较, 更突出复数作为一个数系的运算特征, 而把复平面及复数运算的几何意义作为一种拓展性质. 从逻辑上看, 这样的处理更合理.\n\n“9.3 实系数一元二次方程”是对复数引入情境(求复数的平方根)的一种呼应,彻底解决了实系数一元二次方程问题, 得出任意一个实系数一元二次方程都有两个根, 并对虚根的共轭性以及根与系数的关系 (即韦达定理) 进行了充分的讨论. 教师要心中有数的是, 这一内容是著名的“代数学基本定理”(复系数一元多项式方程在复数域内一定有一个根) 以及它的推论 (如果重根按重数计,复系数一元 $n$ 次多项式方程在复数域内正好有 $n$ 个根) 的最简单的情形: 二次多项式方程,而且只考虑实系数的情形 (复系数的情况在节后的“探究与实践”中).\n\n“9.4 复数的三角形式”属于选学内容, 是二期课改教材中没有的内容. 复数的代数形式虽然能够较为方便地处理复数的加、减、乘、除等四则运算, 但是, 要对以代数形式表示的复数进行高次乘方和开方运算, 是一项较为困难的工作. 在 9.2 节中建立复数与复平面上的点的一一对应之后, 很自然地联想到用在直角坐标系中确定点的位置的几何量来表示对应的复数. 除了点的直角坐标 (它给出复数的代数形式) 外, 还有一组几何量可以准确地给出点的位置, 它们是复数的模和辐角 (这组几何量将来可以联系到点的极坐标). 用复数的模和辐角的正弦与余弦, 构建一种不同于代数形式的复数表达方式, 由此, 复数便有了另一种非常重要且有用的表示形式, 即复数的三角形式. 若复数以三角形式表示, 则复数的乘除运算以及乘方和开方运算都有非常简洁的表达式, 并可以显示出这些运算的几何意义: 复数的三角形式是一种刻画旋转变换非常便捷、有效的工具. 以三角形式表示的复数乘法、除法公式, 清晰而自然地体现了复数乘法的几何意义. 例如, 一个复数乘(除以)一个模为 1 的复数, 在复平面上就是一个点绕着坐标原点旋转某一角度.\n\n在三角形式的基础上, 还可以进一步用指数形式来表示复数, 但本教材不涉及. 复数的三角形式和指数形式在数学中都具有广泛的应用.\n\n对复数代数形式和三角形式相关知识的介绍, 构成了相对完整的复数系的基础知识, 展示了复数这一代数概念与几何的内在联系, 为学生又一次提供了用代数手段解决几何问题的实践体验.\n\n### 教学提示\n\n回顾初中阶段求解一元二次方程的相关知识, 由此提出负数的开平方问题并引出虚数单位的概念, 这是在课堂教学中介绍复数知识通行的做法. 但是, 希望在一元二次方程判别式小于零时有解, 并非是数学家引入虚数概念的直接动因. 这里, 可以结合本章的课后阅读,从三次方程求根公式的研究过程中要解释 $x = \\sqrt[3]{2 + \\sqrt{-{121}}} - \\; \\sqrt[3]{2 + \\sqrt{-{121}}}$ 的意义入手,引导学生思考其中需要解决的两个问题: 第一,负数开平方的含义是什么? 第二,即使负数可以开平方,那么开方的结果与实数之间的“十”是怎样联系的? 也就是它怎样参与实数的运算. 由此便可自然地将教学内容指向本章第 1 节复数的概念、复数相等以及复数四则运算规则等知识. 在整个复数教学过程中, 教师要把握“运算先行”的模式,即先定义并让学生操作复数的四则运算,再细化复数的相关概念的知识呈现方式, 引导学生关注创立复数理论的过程中那些非常朴素的思想方法, 体验、感悟怎样用最便捷、有效的方式, 将科学创新的成果与既有的知识体系有机融合.\n\n复数的运算法则和复数的几何意义是复数基础知识中的两个核心内容. 复数概念从诞生到确立其在数学中的地位经历了近 300 年的时间, 这其中复数的几何意义功不可没. 复数几何意义涉及中学数学多方面的知识, 复数、直角坐标平面上的点以及向量相互紧密联系, 它们有许多共同点, 但是各自的性质又有不少差异. 向量和复数都可以进行加减运算, 而且都遵守平行四边形法则, 这是它们的共性. 复数可以进行乘除运算, 而且运算的结果仍然是复数; 而向量的数量积在某种意义下也是乘法, 但是其运算结果不是向量. 可见这两个“乘法”是完全不同的概念,不能混淆. 复数的模是实数绝对值概念的延伸, 复数与向量的模描述了点之间的距离, 而且都满足三角不等式. 在复数几何意义的教学中,要引导学生以较为宽阔的视野思考相关知识的联系与区别,体会“类比”这一十分重要的思想方法,学会主动地运用复数工具描述几何现象.\n\n利用复数的代数形式 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,将复数问题化归到实数领域的问题, 这是中学数学在解决有关复数的问题时常用的思想方法. 但是, 如果所有的复数问题都可以这样回到实数来处理, 那么复数除了形式的存在就没有更多意义了. 对此, 教材安排了少量的例题和习题,向学生展示不以 $a + b\\mathrm{i}(a\\text{、}b \\in  \\mathbf{R}$ ) 的形式表示复数而直接以复数 $z$ 对其性质展开研究. 通过一些简单的例题和习题,如求解虚系数一元一次方程等问题, 对解决复数问题不同于“复数问题实数化”的思想方法作出适度的介绍.\n\n现行市场上不少型号的学生用计算器都具有复数运算的功能, 教师要提倡学生通过阅读说明书以及合作交流等方式, 以学生自主探究为主掌握计算器的复数运算功能, 促进学生运用现代数学工具能力的发展.\n\n在复数教学内容基本完成以后, 教师可以再次引导学生关注复数与实数的异同点, 并启发学生思考: 为什么教材上只阐述了复数的相等关系而没有复数的大小关系? 进而引导学生通过课外书籍的阅读或网上浏览, 了解数系扩充的基本原则、序关系等相关知识, 进一步拓展数学的学习视野.\n\n### 评价建议\n\n复数的相关概念、复数的运算以及复数的几何性质, 是复数知识的核心内容, 也是教学评价的重点. 要以复数知识为载体, 通过教学评价, 促进学生数学抽象、数学运算、逻辑推理以及直观想象等核心素养的提升. 可以通过一些简单的探究性问题 (比如,“若实数 ${x}_{1}{x}_{2} = 0$ ,则 ${x}_{1}$ 和 ${x}_{2}$ 中至少有一个为零”能否推广到复数) 的讨论, 促进学生发现问题、提出问题、分析问题和解决问题能力的发展.\n\n虽然复数运算可以通过计算器进行, 但笔算是学生理解复数的算理以及性质的一个必不可少的过程, 笔算的正确率是学生运算能力的一种外在表现. 在过程性评价中, 对于一些简单的复数运算问题, 可以对学生使用计算器作一些适度的限制.\n\n复数的几何意义是一项综合性较强的学习内容, 其中不仅包含了对于“形”的直观感悟, 还有不少关于几何及代数的逻辑推理. 在有关复数几何意义的教学评价选材中, 应注意体现适度的逻辑推理和直观想象方面的要求, 通过简单的数学过程表述, 促进学生逻辑推理和数学表达能力的发展.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 22,
+        "end": 89
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-9-1-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "复数\n\n实系数一元二次方程并不是总有实数解的, 这是因为在实数范围内负数不能进行开平方运算. 在数学的发展史上有一件有意思的事: 数学家在研究三次方程求解的过程中, 即使最终得到实根, 过程中却常常要对一些负数开平方, 遇到了难以自圆其说的尴尬. 于是, 一种被称作为“虚数”的新数于 16 世纪开始被引入了数学. 实数与虚数合称为复数.\n\n复数是人类理性思维的演绎成果, 它的产生首先是因为数学家解决数学自身问题的需要, 在很长的一段时间内, 人们并不清楚它与现实世界到底有怎样的联系. 后来，数学家建立了复数与向量, 即复数与几何的关联, 在大学学习力学和电磁学时, 会看到复数在其中的重要作用, 复数在数学及其他科学领域中也越来越体现出它的重要性. 现在, 复数已经成为数学工作者与许多领域的科技人员熟练掌握并广泛应用的基本数学工具.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2,
+        "end": 8
+      }
+    ],
+    "emphases": [
+      {
+        "start": 4,
+        "end": 169,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-9-1-definition-3-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-9-1-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 复数的引入与复数的四则运算",
+    "markdown": "## 1 复数的引入与复数的四则运算",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 9,
+        "end": 9
+      }
+    ],
+    "id": "bx2-9-1-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "为了解决负数的开平方问题, 数学家引入了一个不同于实数的新数 i, 称为虚数单位 (imaginary unit), 并规定\n\n$$\n{\\mathrm{i}}^{2} =  - 1,\n$$\n\n即规定 $\\mathrm{i}$ 是 -1 的一个平方根. 更一般地,把任意 $b \\in  \\mathbf{R}$ 与虚数单位 $\\mathrm{i}$ 的乘积记为 $b\\mathrm{i}$ ,并规定虚数单位与实数间的乘法满足交换律与结合律. 对于 $b\\mathrm{i}$ ,我们有,\n\n$$\n{\\left( b\\mathrm{i}\\right) }^{2} = \\left( {b\\mathrm{i}}\\right) \\left( {b\\mathrm{i}}\\right)  = {b}^{2}{\\mathrm{i}}^{2} =  - {b}^{2},\n$$\n\n即 $b\\mathrm{i}$ 是 $- {b}^{2}$ 的一个平方根. 只要 $b \\neq  0, - {b}^{2}$ 就是一个负数,而且任何负数都具有这个形式. 因此, 引进虚数单位后, 我们得到了所有负数的平方根.\n\n一个实数 $a$ 可以与形如 $b\\mathrm{i}\\left( {b \\in  \\mathbf{R}}\\right)$ 的数相加,规定把它们的和用实系数二项式的形式表示成 $a + b\\mathrm{i}$ .\n\n定义 形如 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 的数称为一个复数 (complex number).\n\n全体复数构成的集合用字母 $\\mathbf{C}$ 表示.\n\n我们约定:\n\n(1)复数 $a + b\\mathrm{i} = 0\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)  \\Leftrightarrow  a = 0$ 且 $b = 0$ ；\n\n(2)复数 $a + b\\mathrm{i} = c + d\\mathrm{i}\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right)  \\Leftrightarrow  a = c$ 且 $b = d$ .\n\n在前面规定的实数与虚数单位之间的乘法以及实数与 $b\\mathrm{i}$ 形式的复数的加法基础上, 可以定义两个复数之间的加法、减法和乘法.\n\n两个复数的相加或相减, 按多项式相加或相减, 再进行去括号与合并同类项. 因此, 我们有如下的公式:\n\n$$\n\\left( {a + b\\mathrm{i}}\\right)  \\pm  \\left( {c + d\\mathrm{i}}\\right)  = \\left( {a \\pm  c}\\right)  + \\left( {b \\pm  d}\\right) \\mathrm{i}\n$$\n\n$$\n\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right) \\text{ . }\n$$\n\n两个复数相乘，可按多项式相乘，再用条件 ${\\mathrm{i}}^{2} =  - 1$ 化简整理所得的结果. 因此,如果 $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}$ ,那么\n\n$$\n\\left( {a + b\\mathrm{i}}\\right) \\left( {c + d\\mathrm{i}}\\right)  = {ac} + {bc}\\mathrm{i} + {ad}\\mathrm{i} + {bd}{\\mathrm{i}}^{2}\n$$\n\n$$\n= \\left( {{ac} - {bd}}\\right)  + \\left( {{bc} + {ad}}\\right) \\mathrm{i}.\n$$\n\n这样, 我们得到了如下复数乘法的公式:\n\n$$\n\\left( {a + b\\mathrm{i}}\\right) \\left( {c + d\\mathrm{i}}\\right)  = \\left( {{ac} - {bd}}\\right)  + \\left( {{bc} + {ad}}\\right) \\mathrm{i}\n$$\n\n$$\n\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right) \\text{ . }\n$$\n\n复数加法与乘法满足交换律、结合律与乘法对加法的分配律.\n\n虽然这里列出了复数加法、减法和乘法的公式, 但在实际计算中, 其实不必硬记并套用公式, 用多项式运算的方式直接解题也是非常简洁的.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 10,
+        "end": 72
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 62,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-9-1-definition-5-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 607,
+        "end": 701,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-9-1-definition-5-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1068,
+        "end": 1262,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "bx2-9-1-formula-5-2",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1686,
+        "end": 1849,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "bx2-9-1-formula-5-3",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-9-1-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 计算:\n\n(1)(1+3i)+(-4+2i)；\n\n(2)(3-2i)-(3+2i)；\n\n(3) $\\left( {2 - {3i}}\\right) \\left( {4 + {2i}}\\right)$ ；\n\n(4) $\\left( {1 + {2i}}\\right) \\left( {3 + {4i}}\\right) \\left( {-2 + i}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 73,
+        "end": 82
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 73,
+        "end": 82
+      }
+    ],
+    "id": "bx2-9-1-ex-1",
+    "category": "例题",
+    "answer": "解 (1) $\\left( {1 + {3i}}\\right)  + \\left( {-4 + {2i}}\\right)  = \\left( {1 - 4}\\right)  + \\left( {3 + 2}\\right) i =  - 3 + {5i}$ .\n\n(2) $\\left( {3 - {2i}}\\right)  - \\left( {3 + {2i}}\\right)  = \\left( {3 - 3}\\right)  + \\left( {-2 - 2}\\right) i =  - {4i}$ ，\n\n(3) $\\left( {2 - 3\\mathrm{i}}\\right) \\left( {4 + 2\\mathrm{i}}\\right)  = 2 \\times  4 + 2 \\times  2\\mathrm{i} - 4 \\times  3\\mathrm{i} - \\left( {2\\mathrm{i}}\\right)  \\times  \\left( {3\\mathrm{i}}\\right)$\n\n$$\n= 8 + 4\\mathrm{i} - {12}\\mathrm{i} - 6 \\times  \\left( {-1}\\right)  = {14} - 8\\mathrm{i}.\n$$\n\n(4) $\\left( {1 + {2i}}\\right) \\left( {3 + {4i}}\\right) \\left( {-2 + i}\\right) \\; = \\left( {1 \\times  3 + 1 \\times  4\\mathrm{i} + 3 \\times  2\\mathrm{i} + 2 \\times  4{\\mathrm{i}}^{2}}\\right) \\left( {-2 + \\mathrm{i}}\\right)$\n\n$$\n= \\left( {-5 + {10}\\mathrm{i}}\\right) \\left( {-2 + \\mathrm{i}}\\right)\n$$\n\n$= \\left( {-5}\\right)  \\times  \\left( {-2}\\right)  - 5\\mathrm{i} - 2 \\times  {10}\\mathrm{i} + {10}{\\mathrm{i}}^{2} =  - {25}\\mathrm{i}.$\n\n下面讨论复数系中的除法运算.\n\n就像在实数系中一样,复数系中的除法也是作为乘法的逆运算定义的. 复数 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 除以非零复数 $c + d\\mathrm{i}(c\\text{ 、 }d \\in$ R),就是求一个复数 $x + y\\mathrm{i}\\left( {x\\text{ 、 }y \\in  \\mathbf{R}}\\right)$ ,使得\n\n$$\n\\left( {c + d\\mathrm{i}}\\right) \\left( {x + y\\mathrm{i}}\\right)  = a + b\\mathrm{i}.\n$$\n\n为了找出 $x + y\\mathrm{i}$ ,我们把上式两边同乘 $c - d\\mathrm{i}$ ,得到\n\n$$\n\\left( {c - d\\mathrm{i}}\\right) \\left( {c + d\\mathrm{i}}\\right) \\left( {x + y\\mathrm{i}}\\right)  = \\left( {c - d\\mathrm{i}}\\right) \\left( {a + b\\mathrm{i}}\\right) ,\n$$\n\n即 $\\;\\left( {{c}^{2} + {d}^{2}}\\right) \\left( {x + y\\mathrm{i}}\\right)  = \\left( {{ac} + {bd}}\\right)  + \\left( {{bc} - {ad}}\\right) \\mathrm{i}$ .\n\n由于 $c + d\\mathrm{i}$ 是一个非零复数,实数 ${c}^{2} + {d}^{2} \\neq  0$ ,从而可以在等式两边同乘 $\\frac{1}{{c}^{2} + {d}^{2}}$ ,得到\n\n$$\nx + y\\mathrm{i} = \\frac{{ac} + {bd}}{{c}^{2} + {d}^{2}} + \\frac{{bc} - {ad}}{{c}^{2} + {d}^{2}}\\mathrm{i}.\n$$\n\n---\n\n与初中学过的形如 $a + b\\sqrt{2}$ 的根式之间的运算作个类比.\n\n---\n\n下一步,我们用复数乘法公式不难验证求出的 $x + y\\mathrm{i}$ 确实满足 $\\left( {c + d\\mathrm{i}}\\right) \\left( {x + y\\mathrm{i}}\\right)  = a + b\\mathrm{i}$ (留作习题). 这就证明了 $x + y\\mathrm{i}$ 的存在性及唯一性. 因此,在复数系中可以做除法,且如果把 $a + b\\mathrm{i}$ 除以 $c + d\\mathrm{i}$ 的商以分式形式记为 $\\frac{a + b\\mathrm{i}}{c + d\\mathrm{i}}$ ,就有如下复数除法公式:\n\n$$\n\\frac{a + b\\mathrm{i}}{c + d\\mathrm{i}} = \\frac{{ac} + {bd}}{{c}^{2} + {d}^{2}} + \\frac{{bc} - {ad}}{{c}^{2} + {d}^{2}}\\mathrm{i}\n$$\n\n$$\n\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}, c + d\\mathrm{i} \\neq  0}\\right) .\n$$\n\n与做复数的加减法及乘法类似, 同学们并不需要死记这个除法公式,实际要做的只是化简分式 $\\frac{a + b\\mathrm{i}}{c + d\\mathrm{i}}$ . 我们可以把分子与分母同乘 $c - d\\mathrm{i}$ 后再化简整理,即得\n\n$$\n\\frac{a + b\\mathrm{i}}{c + d\\mathrm{i}} = \\frac{\\left( {a + b\\mathrm{i}}\\right) \\left( {c - d\\mathrm{i}}\\right) }{\\left( {c + d\\mathrm{i}}\\right) \\left( {c - d\\mathrm{i}}\\right) } = \\frac{\\left( {{ac} + {bd}}\\right)  + \\left( {{bc} - {ad}}\\right) \\mathrm{i}}{{c}^{2} + {d}^{2}}\n$$\n\n$$\n= \\frac{{ac} + {bd}}{{c}^{2} + {d}^{2}} + \\frac{{bc} - {ad}}{{c}^{2} + {d}^{2}}\\mathrm{i}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 83,
+        "end": 148
+      }
+    ],
+    "teacher_analysis": "例 1 中四个有关复数加法、减法以及乘法运算的问题, 在强调了复数的四则运算可以根据多项式运算法则与 ${\\mathrm{i}}^{2} =  - 1$ 相结合而展开的思想方法后,可以学生自主练习、 教师适度指导的方式完成.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 114,
+        "end": 114
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 计算:\n\n(1) $\\frac{3 + \\mathrm{i}}{2 - \\mathrm{i}}$ ；\n\n(2) $\\frac{1 + \\sqrt{2}\\mathrm{i}}{1 - \\sqrt{2}\\mathrm{i}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 149,
+        "end": 154
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 149,
+        "end": 154
+      }
+    ],
+    "id": "bx2-9-1-ex-2",
+    "category": "例题",
+    "answer": "解 (1) $\\frac{3 + \\mathrm{i}}{2 - \\mathrm{i}} = \\frac{\\left( {3 + \\mathrm{i}}\\right) \\left( {2 + \\mathrm{i}}\\right) }{\\left( {2 - \\mathrm{i}}\\right) \\left( {2 + \\mathrm{i}}\\right) } = \\frac{\\left( {6 - 1}\\right)  + \\left( {3 + 2}\\right) \\mathrm{i}}{4 - \\left( {-1}\\right) } = \\frac{5 + 5\\mathrm{i}}{5} = 1 + \\mathrm{i}$ .\n\n(2) $\\frac{1 + \\sqrt{2}\\mathrm{i}}{1 - \\sqrt{2}\\mathrm{i}} = \\frac{{\\left( 1 + \\sqrt{2}\\mathrm{i}\\right) }^{2}}{\\left( {1 - \\sqrt{2}\\mathrm{i}}\\right) \\left( {1 + \\sqrt{2}\\mathrm{i}}\\right) } = \\frac{1 + 2\\sqrt{2}\\mathrm{i} - 2}{1 + 2} =  - \\frac{1}{3} + \\frac{2\\sqrt{2}}{3}\\mathrm{i}.$\n\n我们还约定若干个相同复数相乘可以写成幂的形式: 对任意复数 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 与任何正整数 $n,{\\left( a + b\\mathrm{i}\\right) }^{n}$ 表示 $n$ 个 $a + b\\mathrm{i}$ 相乘.\n\n非零复数的负指数幂也是有意义的: 当 $a + b\\mathrm{i} \\neq  0$ 时,对任何正整数 $n,{\\left( a + b\\mathrm{i}\\right) }^{-n} = \\frac{1}{{\\left( a + b\\mathrm{i}\\right) }^{n}}$ ; 当 $a + b\\mathrm{i} \\neq  0$ 时,还约定 ${\\left( a + b\\mathrm{i}\\right) }^{0} = 1.$\n\n同底数幂的运算规则同样适用于复数,如 ${\\left( a + b\\mathrm{i}\\right) }^{m}{\\left( a + b\\mathrm{i}\\right) }^{n} \\; = {\\left( a + b\\mathrm{i}\\right) }^{m + n},{\\left\\lbrack  {\\left( a + b\\mathrm{i}\\right) }^{m}\\right\\rbrack  }^{n} = {\\left( a + b\\mathrm{i}\\right) }^{mn}$ (这里 $m\\text{ 、 }n$ 都是整数).\n\n---\n\n这个方法是否似曾相识? 与分母有理化过程做一比较.\n\n---\n\n此外, 因为复数关于加法和乘法的运算律都成立, 所以两实数和(差)的完全平方公式以及平方差公式等常用的乘法公式在复数范围内也都适用.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 155,
+        "end": 172
+      }
+    ],
+    "teacher_analysis": "例 2 示范了复数除法运算法则的运用. 在教学中,可以类比对 $\\frac{1}{a + \\sqrt{b}}$ 进行分母有理化的方法,说明除数为 $c + d\\mathrm{i}\\left( {c\\text{、}d \\in  \\mathbf{R}}\\right)$ 的复数除法运算中将分子和分母同乘 $c - d\\mathrm{i}$ ,便可以将除法运算化归为乘法运算. 可以引导学生回忆一下,这种方法是利用公式 $\\left( {a + b}\\right) \\left( {a - b}\\right)  = \\; {a}^{2} - {b}^{2}$ 将分母中的二次根式去掉.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 116,
+        "end": 116
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 (1)计算虚数单位 i 的整数次幂，并找出规律；\n\n(2)对任意整数 $m$ ，计算 ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 173,
+        "end": 176
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 173,
+        "end": 176
+      }
+    ],
+    "id": "bx2-9-1-ex-3",
+    "category": "例题",
+    "answer": "解(1)我们有\n\n$$\n{\\mathrm{i}}^{1} = \\mathrm{i},{\\mathrm{i}}^{2} =  - 1,{\\mathrm{i}}^{3} = {\\mathrm{i}}^{2} \\times  \\mathrm{i} =  - 1 \\times  \\mathrm{i} =  - \\mathrm{i},{\\mathrm{i}}^{4} = {\\left( {\\mathrm{i}}^{2}\\right) }^{2} = {\\left( -1\\right) }^{2} = 1.\n$$\n\n由最后一个等式,推知对任意整数 $n,{\\mathrm{i}}^{4n} = {\\left( {\\mathrm{i}}^{4}\\right) }^{n} = {1}^{n} = 1$ . 因此,\n\ni 的幂的一般规律是:对任意给定的整数 $n$ ，均有\n\n$$\n{\\mathrm{i}}^{4n} = 1,{\\mathrm{i}}^{{4n} + 1} = \\mathrm{i},{\\mathrm{i}}^{{4n} + 2} =  - 1,{\\mathrm{i}}^{{4n} + 3} =  - \\mathrm{i}.\n$$\n\n(2) ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3} = {\\mathrm{i}}^{m}\\left( {1 + \\mathrm{i} + {\\mathrm{i}}^{2} + {\\mathrm{i}}^{3}}\\right)$\n\n$$\n= {\\mathrm{i}}^{m}\\left\\lbrack  {1 + \\mathrm{i} + \\left( {-1}\\right)  + \\left( {-\\mathrm{i}}\\right) }\\right\\rbrack   = 0.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 177,
+        "end": 196
+      }
+    ],
+    "teacher_analysis": "例 3 展示虚数单位 $\\mathrm{i}$ 的整数次幂的周期性. 教学中可引导学生从 $\\mathrm{i}$ 开始自主探究发现规律,并通过讨论交流,提炼、概括 “对任意整数 $m$ ,都有 ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3} =$ 0”的结论, 其中应注意引导学生体会, 以符号语言呈现的上述结论与自然语言表达“i 的四个连续整数次幂之和为零”的相互转换.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 118,
+        "end": 118
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 计算: ${\\left( a + b\\mathrm{i}\\right) }^{2} - {\\left( a - b\\mathrm{i}\\right) }^{2}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 197,
+        "end": 198
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 197,
+        "end": 198
+      }
+    ],
+    "id": "bx2-9-1-ex-4",
+    "category": "例题",
+    "answer": "解 ${\\left( a + b\\mathrm{i}\\right) }^{2} - {\\left( a - b\\mathrm{i}\\right) }^{2}$\n\n$= \\left\\lbrack  {\\left( {a + b\\mathrm{i}}\\right)  + \\left( {a - b\\mathrm{i}}\\right) }\\right\\rbrack  \\left\\lbrack  {\\left( {a + b\\mathrm{i}}\\right)  - \\left( {a - b\\mathrm{i}}\\right) }\\right\\rbrack$\n\n$= \\left( {2a}\\right)  \\times  \\left( {{2b}\\mathrm{i}}\\right)  = {4ab}\\mathrm{i}.$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 199,
+        "end": 204
+      }
+    ],
+    "teacher_analysis": "例 4 说明在实数范围内成立的完全平方和(差)等公式在复数范围内仍然成立.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 120,
+        "end": 120
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 9.1(1)",
+    "markdown": "## 练习 9.1(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 205,
+        "end": 205
+      }
+    ],
+    "id": "bx2-9-1-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(1) · 1",
+    "markdown": "1. 已知 $\\left( {x + {2y}}\\right)  + \\left( {{5x} - y}\\right) \\mathrm{i} = 9 + \\mathrm{i}$ ，其中 $x$ 、 $y \\in  \\mathbf{R}$ . 求 $x$ 、 $y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 207,
+        "end": 208
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 207,
+        "end": 208
+      }
+    ],
+    "id": "bx2-9-1-p911-1",
+    "category": "练习9.1(1)",
+    "answer": "1. $x = 1, y = 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 266,
+        "end": 267
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(1) · 2",
+    "markdown": "2. 计算:\n\n(1) $\\left( {-1 + {3i}}\\right)  + \\left( {2 + {6i}}\\right)$ ； (2) $\\left( {3 - {2i}}\\right)  - \\left( {4 + i}\\right)$ ；\n\n(3) $\\left( {\\frac{1}{2} - \\frac{\\sqrt{3}}{2}\\mathrm{i}}\\right) \\left( {\\sqrt{3} + \\mathrm{i}}\\right)$ ；___ (4) ${\\left( 1 + \\mathrm{i}\\right) }^{6}$ ；\n\n(5) $\\frac{2}{1 - \\mathrm{i}}$ ； (6) $\\frac{-1 + 2\\mathrm{i}}{-1 - 2\\mathrm{i}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 209,
+        "end": 216
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 209,
+        "end": 216
+      }
+    ],
+    "id": "bx2-9-1-p911-2",
+    "category": "练习9.1(1)",
+    "answer": "2. (1) $1 + 9\\mathrm{i}$ . (2) $- 1 - 3\\mathrm{i}$ . (3) $\\sqrt{3} - \\mathrm{i}$ .\n\n(4) $- 8\\mathrm{i}$ . (5) $1 + \\mathrm{i}$ . (6) $- \\frac{3}{5} - \\frac{4}{5}\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 268,
+        "end": 271
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 复数的实部、虚部与共轭",
+    "markdown": "## 2 复数的实部、虚部与共轭",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 217,
+        "end": 217
+      }
+    ],
+    "id": "bx2-9-1-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们已经引入了复数并介绍了复数的四则运算, 本小节将进一步介绍与复数有关的一些概念, 以期对复数及其运算有更好的把握与理解.\n\n复数的表达方式 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 称为它的代数形式,其中的实数 $a$ 和 $b$ 分别叫做该复数的实部 (real part) 和虚部 (imaginary part). 为了行文的简洁与方便, 复数也常常用单个字母(常用 $z$ )来表示，此时它的实部和虚部分别记作 $\\operatorname{Re}z$ 与 $\\operatorname{Im}z$ . 即,若复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ ,则 $\\operatorname{Re}z = a,\\operatorname{Im}z = b$ . 若复数 $z = a + b\\mathrm{i}$ 的虚部为零,即 $b = 0$ ,则 $z = a$ 是个实数; 当 $b \\neq  0$ 时, $z$ 称为虚数 (imaginary number). 特别地,当 $a = 0$ 但 $b \\neq  0$ 时, $z = b\\mathrm{i}$ 称为纯虚数 (pure imaginary number). 我们已经知道, $z = 0$ 当且仅当 $a = 0$ 且 $b = 0$ ,此时 $z$ 是一个实数.\n\n实数是虚部等于零的复数, 因此, 实数集合是复数集合的子集,并且是一个真子集,即 $\\mathbf{R} \\subset  \\mathbf{C}$ .\n\n复数可以按以下方式分类:\n\n$$\n\\text{ 复数 }\\left( {z = a + b\\mathrm{i}, a\\text{ 、 }b \\in  \\mathbf{R}}\\right) \\left\\{  \\begin{array}{l} \\text{ 实数 }\\left( {b = 0}\\right) \\\\  \\text{ 虚数 }\\left( {b \\neq  0}\\right) \\\\  \\text{ 一纯虚数 }\\left( {b \\neq  0, a = 0}\\right)  \\end{array}\\right.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 218,
+        "end": 230
+      }
+    ],
+    "emphases": [
+      {
+        "start": 64,
+        "end": 662,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-9-1-definition-14-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-9-1-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 填写下表:\n\n<table><tr><td>$z$</td><td>是否复数</td><td>是否实数</td><td>是否虚数</td><td>是否纯虚数</td><td>$\\operatorname{Re}z$</td><td>$\\operatorname{Im}z$</td></tr><tr><td>-0.5i</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$- \\frac{1}{2} - \\sqrt{2}\\mathrm{i}$</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$\\pi$</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$\\sqrt{3}$</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2i-5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 231,
+        "end": 234
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 231,
+        "end": 234
+      }
+    ],
+    "id": "bx2-9-1-ex-5",
+    "category": "例题",
+    "answer": "解\n\n<table><tr><td>$z$</td><td>是否复数</td><td>是否实数</td><td>是否虚数</td><td>是否纯虚数</td><td>$\\operatorname{Re}z$</td><td>$\\operatorname{Im}z$</td></tr><tr><td>-0.5i</td><td>是</td><td>否</td><td>是</td><td>是</td><td>0</td><td>-0.5</td></tr><tr><td>$- \\frac{1}{2} - \\sqrt{2}\\mathrm{i}$</td><td>是</td><td>否</td><td>是</td><td>否</td><td>$- \\frac{1}{2}$</td><td>$- \\sqrt{2}$</td></tr><tr><td>$\\pi$</td><td>是</td><td>是</td><td>否</td><td>否</td><td>$\\pi$</td><td>0</td></tr><tr><td>0</td><td>是</td><td>是</td><td>否</td><td>否</td><td>0</td><td>0</td></tr><tr><td>$\\sqrt{3}$</td><td>是</td><td>是</td><td>否</td><td>否</td><td>✓3</td><td>0</td></tr><tr><td>2i-5</td><td>是</td><td>否</td><td>是</td><td>否</td><td>-5</td><td>2</td></tr></table>",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 235,
+        "end": 238
+      }
+    ],
+    "teacher_analysis": "例 5 和例 6 体现将复数概念细化的各个要素以及将复数的分类准确运用于具体的复数.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 122,
+        "end": 122
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 求实数 $m$ 的值或取值范围,使得复数\n\n$$\nz = {m}^{2} + m - 2 + \\left( {{m}^{2} - 1}\\right) \\mathrm{i}\n$$\n\n分别是:\n\n(1)实数； (2)虚数；\n\n(3)纯虚数； (4) 0 .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 239,
+        "end": 250
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 239,
+        "end": 250
+      }
+    ],
+    "id": "bx2-9-1-ex-6",
+    "category": "例题",
+    "answer": "解 (1) $z$ 为实数当且仅当 ${m}^{2} - 1 = 0$ ,即 $m = 1$ 或 $m =  - 1$ . 所以,当 $m = 1$ 或 $m =  - 1$ 时,复数 $z = {m}^{2} + m - 2 + \\left( {{m}^{2} - 1}\\right) \\mathrm{i}$ 是实数.\n\n(2) $z$ 是虚数当且仅当 ${m}^{2} - 1 \\neq  0$ ，即 $m \\neq  1$ 且 $m \\neq   - 1$ . 所以,当 $m <  - 1$ 或 $- 1 < m < 1$ 或 $m > 1$ 时,复数 $z = {m}^{2} + m - 2 + \\; \\left( {{m}^{2} - 1}\\right) \\mathrm{i}$ 是虚数.\n\n(3) $z$ 是纯虚数当且仅当 $\\left\\{  \\begin{array}{l} {m}^{2} + m - 2 = 0, \\\\  {m}^{2} - 1 \\neq  0, \\end{array}\\right.$ 即 $\\left\\{  \\begin{array}{l} \\left( {m + 2}\\right) \\left( {m - 1}\\right)  = 0, \\\\  \\left( {m + 1}\\right) \\left( {m - 1}\\right)  \\neq  0, \\end{array}\\right.$ 唯一满足此条件的 $m$ 的值是 $m =  - 2$ . 所以,当 $m =  - 2$ 时,复数 $z = {m}^{2} + m - 2 + \\left( {{m}^{2} - 1}\\right) \\mathrm{i}$ 是纯虚数.\n\n(4) $z = 0$ 当且仅当 $\\left\\{  \\begin{array}{l} {m}^{2} + m - 2 = 0, \\\\  {m}^{2} - 1 = 0, \\end{array}\\right.$ 即 $\\left\\{  \\begin{array}{l} \\left( {m + 2}\\right) \\left( {m - 1}\\right)  = 0, \\\\  \\left( {m + 1}\\right) \\left( {m - 1}\\right)  = 0, \\end{array}\\right.$ 唯一满足此条件的 $m$ 的值是 $m = 1$ . 所以,当 $m = 1$ 时,复数 $z = {m}^{2} + m - 2 + \\left( {{m}^{2} - 1}\\right) \\mathrm{i}$ 等于 0 .\n\n在推导复数除法公式时, 如果除数 (如果把除法写成分式, 就是分母)是 $c + d\\mathrm{i}\\left( {c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ ,我们把被除数与除数 (分子与分母) 同乘复数 $c - {di}$ ,就可把除数 (分母) 化为实数 ${c}^{2} + {d}^{2}$ . 像 $c + {di}$ 与 $c - {di}\\left( {c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ 这样实部相同而虚部互为相反数的一对复数叫做共轭复数 (conjugate complex number), 也称这两个复数互为共轭, 或者说其中的一个数是另一个数的共轭复数. 共轭复数是复数理论中的一个重要概念. 一对共轭复数的积必为实数, 用此性质可以把分母的虚数化为实数, 从而把除法的结果写成复数的代数形式. 共轭复数的更多性质和应用在进一步的学习中还会见到.\n\n一个复数 $z$ 的共轭复数记为 $\\bar{z}$ . 因此,若 $z = a + b\\mathrm{i}(a\\text{ 、 }b \\in$ R),则 $\\bar{z} = a - b\\mathrm{i}$ . 共轭复数具有如下性质:\n\n(1)一个复数的共轭复数的共轭复数是它自己, 即对任何复数 $z,\\bar{z} = z$ ;\n\n(2)取共轭复数的过程与复数的四则运算可交换，即对复数 ${z}_{1}$ 与 ${z}_{2}$ ,\n\n$$\n\\overline{{z}_{1} \\pm  {z}_{2}} = \\overline{{z}_{1}} \\pm  \\overline{{z}_{2}},\\overline{{z}_{1}{z}_{2}} = \\overline{{z}_{1}}\\overline{{z}_{2}},\n$$\n\n且当 ${z}_{2} \\neq  0$ 时, $\\overline{\\left( \\frac{{z}_{1}}{{z}_{2}}\\right) } = \\overline{\\frac{{z}_{1}}{{z}_{2}}}$ .\n\n性质 (1) 从共轭复数的定义即得.\n\n---\n\n性质 (2) 的含义是, 两个过程 (“取共轭”与 “作四则运算”) 的先后次序可以交换, 即对一个四则运算的结果取共轭, 与先对参与四则运算的各数取共轭后再作四则运算, 所得的结果是一样的.\n\n---\n\n性质(2)对加法与减法，验证是直截了当的，留作练习. 下面对乘法与除法分别验证这个性质.\n\n设 ${z}_{1} = a + b\\mathrm{i},{z}_{2} = c + d\\mathrm{i}\\left( {a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d \\in  \\mathbf{R}}\\right)$ ,则\n\n$$\n\\overline{{z}_{1}}\\overline{{z}_{2}} = \\left( {a - b\\mathrm{i}}\\right) \\left( {c - d\\mathrm{i}}\\right)  = \\left( {{ac} - {bd}}\\right)  - \\left( {{ad} + {bc}}\\right) \\mathrm{i}\n$$\n\n$$\n= \\overline{\\left( {{ac} - {bd}}\\right)  + \\left( {{ad} + {bc}}\\right) \\mathrm{i}} = \\overline{{z}_{1}{z}_{2}},\n$$\n\n从而乘法的情况得证.\n\n现设 ${z}_{2} \\neq  0$ ,则由乘法情形的结果,有 $\\overline{\\left( \\frac{{z}_{1}}{{z}_{2}}\\right) } \\cdot  \\overline{{z}_{2}} = \\overline{\\left( \\frac{{z}_{1}}{{z}_{2}} \\cdot  {z}_{2}\\right) } = \\; \\overline{{z}_{1}}$ . 由于 $\\overline{{z}_{2}}$ 也不等于 0,等式两边同除以 $\\overline{{z}_{2}}$ ,便得到 $\\overline{\\left( \\frac{{z}_{1}}{{z}_{2}}\\right) } = \\frac{\\overline{{z}_{1}}}{\\overline{{z}_{2}}}$ , 这就是除法时的结论.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 251,
+        "end": 296
+      }
+    ],
+    "teacher_analysis": "例 5 和例 6 体现将复数概念细化的各个要素以及将复数的分类准确运用于具体的复数.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 122,
+        "end": 122
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 设 $z$ 是复数,求证: $\\bar{z} = z$ 是 $z \\in  \\mathbf{R}$ 的充要条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "id": "bx2-9-1-ex-7",
+    "category": "例题",
+    "answer": "证明 必要性: 由 $z \\in  \\mathbf{R}$ ,可知 $z$ 的代数形式 $a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 中 $b = 0$ ,所以 $\\bar{z} = z$ .\n\n充分性: 设复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 满足 $z = \\bar{z}$ ,即 $a + b\\mathrm{i} \\; = a - b\\mathrm{i}$ . 由复数相等的充要条件,得 $b =  - b$ ,从而 $b = 0$ ,即 $z \\in  \\mathbf{R}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 299,
+        "end": 302
+      }
+    ],
+    "teacher_analysis": "例 7 指出在复数集 $\\mathbf{C}$ 中, $z \\in  \\mathbf{R}$ 的充要条件是 $z = \\bar{z}$ ,这是复数的一条重要性质, 它是以不同于“复数问题实数化”的思想方法处理复数问题的工具之一. 同时, 这一问题的论证过程是对于充要条件证明方法的复习.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 124,
+        "end": 124
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 8",
+    "markdown": "例 8 设 ${z}_{1} = 1 + 3\\mathrm{i},{z}_{2} = 1 - \\mathrm{i}$ . 求复数 $z$ ,使得 $\\bar{z} = \\frac{{z}_{1}}{{z}_{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 303,
+        "end": 304
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 303,
+        "end": 304
+      }
+    ],
+    "id": "bx2-9-1-ex-8",
+    "category": "例题",
+    "answer": "解 根据条件, 并由共轭复数的性质, 得到\n\n$$\nz = \\overline{\\bar{z}} = \\frac{\\overline{{z}_{1}}}{\\overline{{z}_{2}}} = \\frac{1 - 3\\mathrm{i}}{1 + \\mathrm{i}} = \\frac{\\left( {1 - 3\\mathrm{i}}\\right) \\left( {1 - \\mathrm{i}}\\right) }{\\left( {1 + \\mathrm{i}}\\right) \\left( {1 - \\mathrm{i}}\\right) }\n$$\n\n$$\n= \\frac{\\left( {1 - 3}\\right)  + \\left( {-3 - 1}\\right) \\mathrm{i}}{1 + 1} = \\frac{-2 - 4\\mathrm{i}}{2} =  - 1 - 2\\mathrm{i}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 305,
+        "end": 314
+      }
+    ],
+    "teacher_analysis": "例 8 的求解有两条不同的路径, 学生容易想到的方法是根据已知条件先计算得出 $\\frac{{z}_{1}}{{z}_{2}}$ 的结果再写出 $z$ 的值,而教材所呈现的方法,则在体现共轭复数运算性质运用的同时, 通过两边取共轭来体现等式 “两边同时……” 这一非常重要的数学思想方法.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 126,
+        "end": 126
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 9.1(2)",
+    "markdown": "## 练习 9.1(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 315,
+        "end": 315
+      }
+    ],
+    "id": "bx2-9-1-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(2) · 1",
+    "markdown": "1. 对复数 ${z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ,验证: $\\overline{{z}_{1} + {z}_{2}} = \\overline{{z}_{1}} + \\overline{{z}_{2}},\\overline{{z}_{1} - {z}_{2}} = \\overline{{z}_{1}} - \\overline{{z}_{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 317,
+        "end": 318
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 317,
+        "end": 318
+      }
+    ],
+    "id": "bx2-9-1-p912-1",
+    "category": "练习9.1(2)",
+    "answer": "1. 证明: 设 ${z}_{1} = a + b\\mathrm{i},{z}_{2} = c + d\\mathrm{i}\\left( {a\\text{、}b\\text{、}c\\text{、}d \\in  \\mathbf{R}}\\right)$ ,则 ${z}_{1} + {z}_{2} = \\left( {a + c}\\right)  + \\left( {b + d}\\right) \\mathrm{i}$ , $\\overline{{z}_{1} + {z}_{2}} = \\left( {a + c}\\right)  - \\left( {b + d}\\right) \\mathrm{i}$ ,又 $\\overline{{z}_{1}} + \\overline{{z}_{2}} = \\left( {a - b\\mathrm{i}}\\right)  + \\left( {c - d\\mathrm{i}}\\right)  = \\left( {a + c}\\right)  - \\left( {b + d}\\right) \\mathrm{i}$ ,所以 $\\overline{{z}_{1} + {z}_{2}} = \\overline{{z}_{1}} + \\overline{{z}_{2}}$ .\n\n$\\overline{{z}_{1} - {z}_{2}} = \\overline{{z}_{1}} - \\overline{{z}_{2}}$ 的验证与之类似.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 274,
+        "end": 277
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(2) · 2",
+    "markdown": "2. 在下列复数中, 哪些是实数? 哪些是虚数? 哪些是纯虚数? 各数的实部和虚部分别是什么?\n\n$$\n- 5 + 6\\mathrm{i}\\text{ 、 }\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}\\mathrm{i}\\text{ 、 } - \\sqrt{3}\\text{ 、 }\\mathrm{i}\\text{ 、 }0\\text{ 、 }\\cos \\frac{\\pi }{5} + \\mathrm{i}\\sin \\frac{\\pi }{5}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 319,
+        "end": 324
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 319,
+        "end": 324
+      }
+    ],
+    "id": "bx2-9-1-p912-2",
+    "category": "练习9.1(2)",
+    "answer": "2. 在复数 $- 5 + 6\\mathrm{i}\\text{、}\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}\\mathrm{i}\\text{、} - \\sqrt{3}\\text{、}\\mathrm{i}\\text{、}0\\text{、}\\cos \\frac{\\pi }{5} + \\mathrm{i}\\sin \\frac{\\pi }{5}$ 中, $- \\sqrt{3}\\text{、}0$ 是实数, $- 5 + 6\\mathrm{i}\\text{、}\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}\\mathrm{i}\\text{、}\\mathrm{i}\\text{、}\\cos \\frac{\\pi }{5} + \\mathrm{i}\\sin \\frac{\\pi }{5}$ 是虚数, $\\mathrm{i}$ 是纯虚数.\n\n复数 $- 5 + 6\\mathrm{i}$ 的实部是 -5,虚部是 6 . 复数 $\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}\\mathrm{i}$ 的实部是 $\\frac{\\sqrt{2}}{2}$ ,虚部是 $\\frac{\\sqrt{2}}{2}$ . 复数一 $\\sqrt{3}$ 的实部是 $- \\sqrt{3}$ ,虚部是 0 . 复数 $\\mathrm{i}$ 的实部是0,虚部是 1 . 复数 0 的实部是 0 , 虚部是 0 . 复数 $\\cos \\frac{\\pi }{5} + \\mathrm{i}\\sin \\frac{\\pi }{5}$ 的实部是 $\\cos \\frac{\\pi }{5}$ ,虚部是 $\\sin \\frac{\\pi }{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 278,
+        "end": 281
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(2) · 3",
+    "markdown": "3. 下列关于复数 $z$ 和 $\\bar{z}$ 的命题是真命题还是假命题? 请给出结论并说明理由.\n\n(1) $z + \\bar{z}$ 一定是实数； (2) $z - \\bar{z}$ 一定是纯虚数；\n\n(3)若 $z - \\bar{z} = 0$ ，则 $z$ 是实数； (4)若 $z + \\bar{z} = 0$ ，则 $z$ 是纯虚数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 325,
+        "end": 330
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 325,
+        "end": 330
+      }
+    ],
+    "id": "bx2-9-1-p912-3",
+    "category": "练习9.1(2)",
+    "answer": "3. (1)真命题. 设 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,则 $z + \\bar{z} = \\left( {a + b\\mathrm{i}}\\right)  + \\left( {a - b\\mathrm{i}}\\right)  = {2a} \\in  \\mathbf{R}$ .\n\n(2)假命题. 若 $z = 1$ ,则 $\\bar{z} = 1, z - \\bar{z} = 0$ ,不是纯虚数.\n\n(3)真命题. 设 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,则 $z - \\bar{z} = \\left( {a + b\\mathrm{i}}\\right)  - \\left( {a - b\\mathrm{i}}\\right)  = {2b}\\mathrm{i}$ . 由 $z - \\; \\bar{z} = 0$ ,得 $b = 0$ . 所以 $z \\in  \\mathbf{R}$ .\n\n(4)假命题. 若 $z = 0$ ,则 $\\bar{z} = 0$ ,此时 $z + \\bar{z} = 0$ ,但 0 不是纯虚数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 282,
+        "end": 289
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习9.1(2) · 4",
+    "markdown": "4. 求实数 $m$ 的值或取值范围,使得复数 $z = \\left( {m + 2}\\right)  + \\left( {m - 1}\\right) \\mathrm{i}$ 分别是:\n\n(1)实数； (2)虚数； (3)纯虚数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 334
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 334
+      }
+    ],
+    "id": "bx2-9-1-p912-4",
+    "category": "练习9.1(2)",
+    "answer": "4. (1) $m = 1$ . (2) $m < 1$ 或 $m > 1$ . (3) $m =  - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 290,
+        "end": 291
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 9.1",
+    "markdown": "## 习题 9.1",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 335,
+        "end": 335
+      }
+    ],
+    "id": "bx2-9-1-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 337,
+        "end": 337
+      }
+    ],
+    "id": "bx2-9-1-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 1",
+    "markdown": "1. 已知复数 $\\left( {\\frac{1}{2}x + y}\\right)  + \\left( {{5x} + \\frac{2}{3}y - {16}}\\right) \\mathrm{i} =  - 4$ ，其中 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 339,
+        "end": 340
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 339,
+        "end": 340
+      }
+    ],
+    "id": "bx2-9-1-h91A-1",
+    "category": "习题9.1A",
+    "answer": "1. $x = 4, y =  - 6$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 296,
+        "end": 297
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 2",
+    "markdown": "2. 已知 $\\left( {x + y}\\right)  - {xy}\\mathrm{i} =  - 5 + {24}\\mathrm{i}$ ,其中 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 341,
+        "end": 342
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 341,
+        "end": 342
+      }
+    ],
+    "id": "bx2-9-1-h91A-2",
+    "category": "习题9.1A",
+    "answer": "2. $\\left\\{  \\begin{array}{l} x = 3, \\\\  y =  - 8 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} x =  - 8, \\\\  y = 3. \\end{array}\\right.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 298,
+        "end": 299
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 3",
+    "markdown": "3. 计算:\n\n(1) $\\left( {\\frac{1}{4} - \\frac{13}{5}\\mathrm{i}}\\right)  + \\left( {\\frac{2}{3} + \\frac{5}{2}\\mathrm{i}}\\right)$ ；___ (2) $- \\left( {3 - {4i}}\\right)  + \\left( {2 + \\mathrm{i}}\\right)  - \\left( {1 - {5i}}\\right)$ ；\n\n(3) $\\left\\lbrack  {\\left( {a + b}\\right)  + \\left( {a - b}\\right) \\mathrm{i}}\\right\\rbrack   - \\left\\lbrack  {\\left( {a - b}\\right)  - \\left( {a + b}\\right) \\mathrm{i}}\\right\\rbrack  \\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ ；\n\n(4) $\\left( {4 - {3i}}\\right) \\left( {3 + {4i}}\\right)$ ； (5) $\\left( {-2 + {3i}}\\right) \\left( {5 - {4i}}\\right)$ ；\n\n(6) ${\\left( \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{2}}{2}\\mathrm{i}\\right) }^{2}$ ； (7) $\\frac{7 + 9\\mathrm{i}}{1 + 2\\mathrm{i}}$ ；\n\n(8) $\\frac{6 - {5i}}{2 + {3i}}$ ； (9) $\\frac{\\sqrt{5} + \\sqrt{3}\\mathrm{i}}{\\sqrt{5} - \\sqrt{3}\\mathrm{i}} - \\frac{\\sqrt{3} + \\sqrt{5}\\mathrm{i}}{\\sqrt{3} - \\sqrt{5}\\mathrm{i}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 343,
+        "end": 354
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 343,
+        "end": 354
+      }
+    ],
+    "id": "bx2-9-1-h91A-3",
+    "category": "习题9.1A",
+    "answer": "3. (1) $\\frac{11}{12} - \\frac{1}{10}\\mathrm{i}$ . (2) $- 2 + {10}\\mathrm{i}$ . (3) ${2b} + {2a}\\mathrm{i}$ .\n\n(4) ${24} + 7\\mathrm{i}$ . (5) $2 + 2\\mathrm{{3i}}$ . (6) $- \\mathrm{i}$ .\n\n(7) $5 - \\mathrm{i}$ . (8) $- \\frac{3}{13} - \\frac{28}{13}\\mathrm{i}$ . (9) $\\frac{1}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 300,
+        "end": 305
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 4",
+    "markdown": "4. 用复数乘法公式验证: 若 $c + d\\mathrm{i} \\neq  0$ ,则 $\\left( {c + d\\mathrm{i}}\\right) \\left( {\\frac{{ac} + {bd}}{{c}^{2} + {d}^{2}} + \\frac{{bc} - {ad}}{{c}^{2} + {d}^{2}}\\mathrm{i}}\\right)  = a + b\\mathrm{i}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 355,
+        "end": 356
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 355,
+        "end": 356
+      }
+    ],
+    "id": "bx2-9-1-h91A-4",
+    "category": "习题9.1A",
+    "answer": "4. 证明: $\\left( {c + d\\mathrm{i}}\\right) \\left( {\\frac{{ac} + {bd}}{{c}^{2} + {d}^{2}} + \\frac{{bc} - {ad}}{{c}^{2} + {d}^{2}}\\mathrm{i}}\\right)  = \\frac{c\\left( {{ac} + {bd}}\\right)  - d\\left( {{bc} - {ad}}\\right) }{{c}^{2} + {d}^{2}} + \\frac{c\\left( {{bc} - {ad}}\\right)  + d\\left( {{ac} + {bd}}\\right) }{{c}^{2} + {d}^{2}}\\mathrm{i} = \\; \\frac{a\\left( {{c}^{2} + {d}^{2}}\\right) }{{c}^{2} + {d}^{2}} + \\frac{b\\left( {{c}^{2} + {d}^{2}}\\right) }{{c}^{2} + {d}^{2}}\\mathrm{i} = a + b\\mathrm{i}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 306,
+        "end": 307
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 5",
+    "markdown": "5. 已知复数 ${z}_{1} = \\left( {{a}^{2} + 2}\\right)  + \\left( {-{2a} - 1}\\right) \\mathrm{i},{z}_{2} = \\left( {a - 6}\\right)  + \\left( {{a}^{2} + a}\\right) \\mathrm{i}$ ，其中 $a \\in  \\mathbf{R}$ . 若 ${z}_{1} \\; + {z}_{2} = 2 + \\mathrm{i}$ ,求 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 357,
+        "end": 358
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 357,
+        "end": 358
+      }
+    ],
+    "id": "bx2-9-1-h91A-5",
+    "category": "习题9.1A",
+    "answer": "5. 2 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 308,
+        "end": 309
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 6",
+    "markdown": "6. 设实数 $x\\text{ 、 }y$ 使得 $\\left( {x + y\\mathrm{i}}\\right) \\mathrm{i} - 2 + 4\\mathrm{i} = \\left( {x - y\\mathrm{i}}\\right) \\left( {1 + \\mathrm{i}}\\right)$ ,求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 359,
+        "end": 360
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 359,
+        "end": 360
+      }
+    ],
+    "id": "bx2-9-1-h91A-6",
+    "category": "习题9.1A",
+    "answer": "6. $x = 6, y =  - 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 310,
+        "end": 311
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 7",
+    "markdown": "7. 已知实数 $x\\text{ 、 }y$ 使得 $\\frac{x}{1 - \\mathrm{i}} + \\frac{y}{1 - 2\\mathrm{i}} = \\frac{5}{1 - 3\\mathrm{i}}$ ,求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 361,
+        "end": 362
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 361,
+        "end": 362
+      }
+    ],
+    "id": "bx2-9-1-h91A-7",
+    "category": "习题9.1A",
+    "answer": "7. $x =  - 1, y = 5$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 312,
+        "end": 313
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 8",
+    "markdown": "8. 求复数 $- 3 + 2\\mathrm{i}$ 与复数 $2 + 3\\mathrm{i}$ 的乘积的共轭复数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 363,
+        "end": 364
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 363,
+        "end": 364
+      }
+    ],
+    "id": "bx2-9-1-h91A-8",
+    "category": "习题9.1A",
+    "answer": "8. $- {12} + 5\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 314,
+        "end": 315
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 9",
+    "markdown": "9. 若复数 ${z}_{1} = a + 2\\mathrm{i}\\left( {a \\in  \\mathbf{R}}\\right) ,{\\bar{z}}_{2} = 3 + 4\\mathrm{i}$ ,且 $\\frac{{z}_{1}}{{z}_{2}}$ 为纯虚数,求 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 365,
+        "end": 366
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 365,
+        "end": 366
+      }
+    ],
+    "id": "bx2-9-1-h91A-9",
+    "category": "习题9.1A",
+    "answer": "9. $\\frac{8}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 316,
+        "end": 317
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 10",
+    "markdown": "10. 已知复数 $z = 1 + \\mathrm{i}$ ，求 $\\frac{{\\bar{z}}^{2} - \\bar{z} + 1}{{\\bar{z}}^{2} + \\bar{z} + 1}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 367,
+        "end": 368
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 367,
+        "end": 368
+      }
+    ],
+    "id": "bx2-9-1-h91A-10",
+    "category": "习题9.1A",
+    "answer": "10. $\\frac{3}{13} - \\frac{2}{13}\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 318,
+        "end": 319
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 11",
+    "markdown": "11. 求实数 $m$ 的值,使得复数 $\\left( {{m}^{2} - {3m} - 4}\\right)  + \\left( {{m}^{2} - {5m} - 6}\\right) \\mathrm{i}$ 分别是:\n\n(1)实数； (2)纯虚数； (3)零.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 369,
+        "end": 372
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 369,
+        "end": 372
+      }
+    ],
+    "id": "bx2-9-1-h91A-11",
+    "category": "习题9.1A",
+    "answer": "11. (1) $m = 6$ 或 $m =  - 1$ . (2) $m = 4$ . (3) $m =  - 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 320,
+        "end": 321
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1A · 12",
+    "markdown": "12. 已知 $\\left( {2{x}^{2} - {5x} + 2}\\right)  + \\left( {{y}^{2} + y - 2}\\right) \\mathrm{i} = 0$ ,其中 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 373,
+        "end": 374
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 373,
+        "end": 374
+      }
+    ],
+    "id": "bx2-9-1-h91A-12",
+    "category": "习题9.1A",
+    "answer": "12. $\\left\\{  \\begin{array}{l} x = 2, \\\\  y = 1 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} x = 2, \\\\  y =  - 2 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} x = \\frac{1}{2}, \\\\  y = 1 \\end{array}\\right.$ 或 $\\left\\{  \\begin{array}{l} x = \\frac{1}{2}, \\\\  y =  - 2. \\end{array}\\right.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 322,
+        "end": 323
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 375,
+        "end": 375
+      }
+    ],
+    "id": "bx2-9-1-b38",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 1",
+    "markdown": "1. 计算:\n\n(1) ${\\left( \\frac{1 - \\mathrm{i}}{1 + \\mathrm{i}}\\right) }^{3}$ ； (2) $\\frac{-2 + 2\\sqrt{3}\\mathrm{i}}{{\\left( \\sqrt{3} + \\mathrm{i}\\right) }^{2}}$ ；\n\n(3) ${\\left( 1 + \\mathrm{i}\\right) }^{10} - {\\left( 1 - \\mathrm{i}\\right) }^{10}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 377,
+        "end": 382
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 377,
+        "end": 382
+      }
+    ],
+    "id": "bx2-9-1-h91B-1",
+    "category": "习题9.1B",
+    "answer": "1. (1) i. (2) $\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\mathrm{i}$ . (3) 64i.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 326,
+        "end": 327
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 2",
+    "markdown": "2. 已知复数 ${z}_{1} = 5 + {10}\\mathrm{i}$ 及 ${z}_{2} = 3 - 4\\mathrm{i}$ ，且复数 $z$ 满足 $\\frac{1}{z} = \\frac{1}{\\overline{{z}_{1}}} + \\frac{1}{\\overline{{z}_{2}}}$ . 求 $z$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 383,
+        "end": 384
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 383,
+        "end": 384
+      }
+    ],
+    "id": "bx2-9-1-h91B-2",
+    "category": "习题9.1B",
+    "answer": "2. $5 + \\frac{5}{2}\\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 328,
+        "end": 329
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 3",
+    "markdown": "3. 已知复数 $\\left( {{x}^{2} - {y}^{2} - 7}\\right)  + \\left( {x - y - 3}\\right) \\mathrm{i}$ 等于 $- 2\\mathrm{i}$ ,其中 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 385,
+        "end": 386
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 385,
+        "end": 386
+      }
+    ],
+    "id": "bx2-9-1-h91B-3",
+    "category": "习题9.1B",
+    "answer": "3. $x = 4, y = 3$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 330,
+        "end": 331
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 4",
+    "markdown": "4. 已知 $\\left( {{2x} + {3y}}\\right)  + \\left( {{x}^{2} - {y}^{2}}\\right) \\mathrm{i} = y + 2 + 4\\mathrm{i}$ ,其中 $x\\text{ 、 }y \\in  \\mathbf{R}$ . 求 $x\\text{ 、 }y$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 387,
+        "end": 388
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 387,
+        "end": 388
+      }
+    ],
+    "id": "bx2-9-1-h91B-4",
+    "category": "习题9.1B",
+    "answer": "4. $x = \\frac{5}{2}, y =  - \\frac{3}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 332,
+        "end": 333
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 5",
+    "markdown": "5. 是否存在实数 $m$ ,使得复数 $z = {m}^{2} + {2m} - {15} + \\frac{{m}^{2} - {5m} + 6}{{m}^{2} - {25}}\\mathrm{i}$ 分别满足下列条件? 若存在,求出 $m$ 的值或取值范围; 若不存在,请说明理由.\n\n(1) $z$ 是实数； (2) $z$ 是虚数；\n\n(3) $z$ 是纯虚数； (4)z 是零.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 394
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 394
+      }
+    ],
+    "id": "bx2-9-1-h91B-5",
+    "category": "习题9.1B",
+    "answer": "5. (1) $m = 2$ 或 $m = 3.\\;$ (2) $m <  - 5$ 或 $- 5 < m < 2$ 或 $2 < m < 3$ 或 $3 < m < 5$ 或 $m > 5$ .\n\n(3) 不存在. (4) $m = 3$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 334,
+        "end": 337
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 6",
+    "markdown": "6. 选择题:\n\n(1)设 ${z}_{1}\\text{ 、 }{z}_{2} \\in  \\mathbf{C}$ ，则 “ ${z}_{1}\\text{ 、 }{z}_{2}$ 中至少有一个虚数” 是 “ ${z}_{1} - {z}_{2}$ 为虚数” 的(C) ( )\n\nA. 充分非必要条件; B. 必要非充分条件;\n\nC. 充要条件; D. 既非充分也非必要条件.\n\n(2)若实数 $a$ 使得(1-i)+(1+i) $a \\neq  0$ ，则 ( )\n\nA. $a \\neq  1$ ; B. $a \\neq   - 1$ ;\n\nC. $a \\neq  1$ 且 $a \\neq   - 1$ ; D. $a$ 可以是任意实数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 395,
+        "end": 408
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 395,
+        "end": 408
+      }
+    ],
+    "id": "bx2-9-1-h91B-6",
+    "category": "习题9.1B",
+    "answer": "6. (1) B. (2) D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 338,
+        "end": 339
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 7",
+    "markdown": "7. 如果复数 $z$ 满足 $\\left( {1 + {2i}}\\right) \\bar{z} = 4 + {3i}$ ,求 $z$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 409,
+        "end": 410
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 409,
+        "end": 410
+      }
+    ],
+    "id": "bx2-9-1-h91B-7",
+    "category": "习题9.1B",
+    "answer": "7. $z = 2 + \\mathrm{i}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 340,
+        "end": 341
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题9.1B · 8",
+    "markdown": "8. 设复数 $z = a + b\\mathrm{i}$ ，其中 $a\\text{ 、 }b \\in  \\mathbf{R}, a \\neq  0$ 且 $b \\neq  0$ . 求证: $\\frac{z + \\bar{z}}{z - \\bar{z}}$ 是纯虚数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 411,
+        "end": 412
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 411,
+        "end": 412
+      }
+    ],
+    "id": "bx2-9-1-h91B-8",
+    "category": "习题9.1B",
+    "answer": "8. 证明: 由 $z = a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,得 $\\frac{z + \\bar{z}}{z - \\bar{z}} = \\frac{\\left( {a + b\\mathrm{i}}\\right)  + \\left( {a - b\\mathrm{i}}\\right) }{\\left( {a + b\\mathrm{i}}\\right)  - \\left( {a - b\\mathrm{i}}\\right) } = \\frac{2a}{{2b}\\mathrm{i}} =  - \\frac{a}{b}\\mathrm{i}$ ,而实数 $a\\text{、}b$ 都不等于 0,所以 $\\frac{z + \\bar{z}}{z - \\bar{z}} =  - \\frac{a}{b}\\mathrm{i}$ 是纯虚数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 342,
+        "end": 343
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

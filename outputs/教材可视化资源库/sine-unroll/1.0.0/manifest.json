@@ -1,0 +1,291 @@
+{
+  "asset_id": "0aaeb4db-797b-55f5-b092-0d290722de24",
+  "contributors": [
+    {
+      "name": "Codex foundations implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:02Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "angle": 120
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "foundations",
+    "source_build_sha256": "82d8d27f776744438a2930554edc9b1a3bc428d84fda5740458fbda67d0e9ac1",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx2-7-1-b6",
+          "rationale": "覆盖本节原prose第6块：让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sectionId": "bx2-7-1",
+          "sourceSha256": "949117d75640665f4549fbafc741d7454980f0bc3e2e44a6b5c9bb9dd22dd513"
+        }
+      ],
+      "sections": [
+        "bx2-7-1"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 24665,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "82d8d27f776744438a2930554edc9b1a3bc428d84fda5740458fbda67d0e9ac1"
+    },
+    {
+      "bytes": 13200,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "0226c13564ee7095607d6057fd9a38946568459d78090e22f57d88f33c59af6d"
+    },
+    {
+      "bytes": 12180,
+      "media_type": "text/javascript",
+      "path": "source/foundations.js",
+      "role": "source",
+      "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+    },
+    {
+      "bytes": 31651,
+      "media_type": "application/json",
+      "path": "source/foundations.json",
+      "role": "source",
+      "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+    },
+    {
+      "bytes": 4611,
+      "media_type": "text/javascript",
+      "path": "source/test-foundations.mjs",
+      "role": "source",
+      "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1683,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "197f8683a250b6640af329d355f8a26ad78e4b96c40cab7d44eea179e3caba69"
+    },
+    {
+      "bytes": 3140,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "41ce79c19ff43505aeae0de35011e4b8bcfb2044911984fb8b70aa4db6f68686"
+    },
+    {
+      "bytes": 1048,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "d18552b8e7e88de5c39b5e776812408d37e05ba02cfae079eb2463ae0883018e"
+    },
+    {
+      "bytes": 2336,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "0f2698ac58bf900c8169a3cbbaddff68dce60b47879a0b20233d15326f8c1190"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "97bca0ee7e8e00e178498140720a0c6339745d24512bae4eec0e009ea43c5423"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 523,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "d494f63ccdc34f040329e9f0c3b05d09e1a736e0560a611ada13fcefafe6b79a"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "对每个角，把弧度数作为新点的横坐标，把单位圆点的纵坐标作为新点的纵坐标，得到正弦曲线。角转一周，函数图像完成一个周期；五个关键点给出零点、峰和谷，用光滑曲线连接后按 2π 平移可扩展至全体实数。描五点是作图方法，不表示曲线由折线组成。"
+    ],
+    "learning_goals": [
+      "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。"
+    ],
+    "objects": [
+      "把单位圆的一周展开成一段正弦曲线"
+    ],
+    "parameters": {
+      "angle": {
+        "default": 120,
+        "display_range": [
+          0,
+          360
+        ],
+        "domain": "本实验允许输入范围 [0, 360]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "foundations"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "angle": 120
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "sine-unroll",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "angle": {
+        "maximum": 360,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "把单位圆的一周展开成一段正弦曲线",
+  "updated_at": "2026-10-19T16:47:02Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/foundations.js",
+          "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+        },
+        {
+          "path": "source/foundations.json",
+          "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+        },
+        {
+          "path": "source/test-foundations.mjs",
+          "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126409Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "82d8d27f776744438a2930554edc9b1a3bc428d84fda5740458fbda67d0e9ac1"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126409Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "82d8d27f776744438a2930554edc9b1a3bc428d84fda5740458fbda67d0e9ac1"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-9-1",
+  "book_id": "bx2",
+  "section": "9.1",
+  "title": "复数及其四则运算",
+  "section_json": "batch/sections/bx2/bx2-9-1.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-9-1",
+  "fingerprint": "c17e762408899a69c88ffad7b86fde30018f247816ced16be7c5f39d20d575d0",
+  "status": "rendered",
+  "questions": 34,
+  "answers": 34,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "7f99ee0f3ed7f3e9e138f03c8694631422bc6fc79ec13cb6fdcc45a7339ef16a",
+    "student.html": "4f21e8761aa8c278703ee5bb790e7f8f0f5976206ef389acb54c4530d604a67d",
+    "student.zip": "11b4b617e2500755340d4f9d1a0b618cbbbaab143b11f838c00d89d3ebbdf409",
+    "content.json": "5e5007f723dceec31432b315dcbc0b7bd20c7355130f6de947358203b2e10a22"
+  }
+}

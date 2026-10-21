@@ -1,0 +1,1344 @@
+[
+  {
+    "type": "section",
+    "id": "bx2-8-2-reading",
+    "title": "向量的数量积",
+    "number": "01",
+    "subtitle": "",
+    "markdown": "",
+    "provenance": [],
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "intro",
+    "title": "本节阅读主线",
+    "markdown": "先分清“投影向量”与“数量投影”，再从做功情境进入数量积。通过投影的线性性质理解分配律，最后把模、夹角和垂直关系联结起来。教材保留原有次序，教参分析就近出现，超出本节的背景材料放在备课附记。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b0",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "section",
+    "title": "向量的投影",
+    "markdown": "",
+    "provenance": [],
+    "id": "projection",
+    "number": "01",
+    "subtitle": "投影是向量，数量投影是有正负的实数",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在物理课中，我们学过“功”的概念. 一个物体在外力作用下产生位移, 外力所做的功是这个力在位移方向上的分力大小与位移量的乘积. 如果力 $\\overrightarrow{f}$ 和位移 $\\overrightarrow{s}$ 如图 8-2-1 所示，那么力 $\\overrightarrow{f}$ 所做的功是 $W = \\left| \\overrightarrow{f}\\right| \\left| \\overrightarrow{s}\\right| \\cos \\theta$ ,其中 $\\theta$ 表示力 $\\overrightarrow{f}$ 的方向与物体位移 $\\overrightarrow{s}$ 的方向之间的夹角, $\\left| \\overrightarrow{f}\\right| \\cos \\theta$ 是 $\\overrightarrow{f}$ 在位移方向上的分力的大小.\n\n![](images/book-9463af36f532338c8cdb.jpg)\n\n图 8-2-1\n\n如上所述, “功”这个数量完全被力和位移这两个向量所决定, 如何从这一具体事例抽象出对任意两个向量定义的一种数学运算呢?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 481,
+        "end": 487
+      }
+    ],
+    "id": "bx2-8-2-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "做功情境中的“大小”如何理解",
+    "markdown": "原文在示意图情境下把 $|\\overrightarrow{f}|\\cos\\theta$ 称为分力的“大小”。推广到钝角时，它是沿位移方向的有符号分量，可以为负；投影向量的模是 $|\\overrightarrow{f}|\\,|\\cos\\theta|$，不能为负。功也可以为负，不要把数量投影与长度混同。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们再试着理解功的定义和功的计算公式的推导, 看能得到什么启示.\n\n功并不是把力的大小和位移向量的大小直接相乘而得到, 而是把作用力在位移方向上的分力大小乘物体位移量. “在位移方向上的分力”是作用力 $\\overrightarrow{f}$ 在位移向量 $\\overrightarrow{s}$ 方向上的投影 ${\\overrightarrow{f}}_{1}$ (图 8-2-2). 这就引出了向量在一条直线或另一个向量方向上的投影的概念.\n\n![](images/book-d1e2defaaf448c372c7b.jpg)\n\n图 8-2-2\n\n平面上一点 $A$ 在直线 $l$ 上的投影就是过点 $A$ 作直线 $l$ 的垂线而得到的垂足 ${A}^{\\prime }$ .\n\n\n功不是向量, 而是一个数量.\n\n\n如果向量 $\\overrightarrow{AB}$ 的起点 $A$ 和终点 $B$ 在直线 $l$ 上的投影分别为点 ${A}^{\\prime }$ 和 ${B}^{\\prime }$ ,那么向量 $\\overrightarrow{{A}^{\\prime }{B}^{\\prime }}$ 叫做向量 $\\overrightarrow{AB}$ 在直线 $l$ 上的投影向量(图 8-2-3),简称为投影. 从而,一个向量 $\\overrightarrow{b}$ 在一个非零向量 $\\overrightarrow{a}$ 的方向上的投影，就是 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 的任意一条所在直线上的投影. 因为所有这些直线都互相平行,所以 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 的方向上的投影 (在相等意义下)是唯一确定的.\n\n![](images/book-bf2cfee938c14a142be6.jpg)\n\n图 8-2-3\n\n我们现在讨论 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 的方向上的投影与向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 的关系. 我们先设 $\\overrightarrow{b} \\neq  \\overrightarrow{0}$ .\n\n\n为了行文简洁, 有时也常常用一个希腊字母(如 $\\theta$ )来指代向量的夹角.\n\n\n以一点 $O$ 为起点,作 $\\overrightarrow{OA} = \\overrightarrow{a},\\overrightarrow{OB} = \\overrightarrow{b}$ (图 8-2-4),我们把射线 ${OA}\\text{ 、 }{OB}$ 的夹角称为向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角,记作 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ ,它的取值范围为 $\\left\\lbrack  {0,\\pi }\\right\\rbrack$ . 特别地,当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\pi }{2}$ 时,称 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 垂直,记作 $\\overrightarrow{a} \\bot  \\overrightarrow{b}$ . 设向量 $\\overrightarrow{OB}$ 的终点 $B$ 在 $\\overrightarrow{OA}$ 所在直线上的投影为 ${B}^{\\prime },\\overrightarrow{O{B}^{\\prime }}$ 即为向量 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影.\n\n![](images/book-43cf4d7eb7d7a9858e1d.jpg)\n\n图 8-2-4\n\n容易看出, $\\left| \\overrightarrow{O{B}^{\\prime }}\\right|  = \\left| \\overrightarrow{b}\\right| \\left| {\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle }\\right|$ . 当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  < \\frac{\\pi }{2}$ 时, $\\overrightarrow{O{B}^{\\prime }}$ 与 $\\overrightarrow{OA}$ 同向; 当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  > \\frac{\\pi }{2}$ 时, $\\overrightarrow{O{B}^{\\prime }}$ 与 $\\overrightarrow{OA}$ 反向；当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\pi }{2}$ 时, 即 $\\overrightarrow{a} \\bot  \\overrightarrow{b}$ 时, $\\overrightarrow{O{B}^{\\prime }} = \\overrightarrow{0}$ . 由此可以得知,如果令 $\\overrightarrow{{a}_{0}} = \\frac{1}{\\left| \\overrightarrow{a}\\right| }\\overrightarrow{a}$ 是 $\\overrightarrow{a}$ 的单位向量,那么向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的投影为\n\n$$\n\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle \\overrightarrow{{a}_{0}} = \\frac{\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle }{\\left| \\overrightarrow{a}\\right| }\\overrightarrow{a}.\n$$\n\n在上式中,实数 $\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 称为向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的数量投影,它是一个数量,其绝对值等于向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的投影的模. 当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  < \\frac{\\pi }{2}$ 时,其值为正,向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的投影和 $\\overrightarrow{a}$ 具有相同方向; 当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  > \\frac{\\pi }{2}$ 时,其值为负,向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的投影和 $\\overrightarrow{a}$ 具有相反方向; 而当 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\pi }{2}$ , 即 $\\overrightarrow{a} \\bot  \\overrightarrow{b}$ 时,其值为 0 .\n\n由投影的定义立即得知, 零向量在任何非零向量方向上的投影是零向量, 而相应的数量投影的绝对值是该投影的模, 因此, 这个数量投影等于 0 .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 491,
+        "end": 535
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-projection-definition",
+        "kind": "concept",
+        "title": "投影向量：投影两个端点，再确定方向",
+        "start": 362,
+        "end": 778,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-vector-angle",
+        "kind": "condition",
+        "title": "向量夹角：先把两个非零向量移到同一起点",
+        "start": 1048,
+        "end": 1699,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-projection-formula",
+        "kind": "formula",
+        "title": "投影公式：目标方向必须由非零向量确定",
+        "start": 1753,
+        "end": 2852,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-signed-projection",
+        "kind": "concept",
+        "title": "数量投影有正负；它的绝对值才是投影的模",
+        "start": 2854,
+        "end": 3558,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-2-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 为什么以投影向量为主线",
+    "markdown": "本节由通过力的作用做功这个物理现象引出向量数量积. 全节包括 “向量的投影” 和“向量的数量积的定义与运算律”两小节.\n\n对“力做功”这个物理模型做分析时,常常把力分解成运动方向上的分力和垂直于运动方向的分力. 垂直于运动方向的分力对做功没有贡献,从而只有在运动方向上的分力才是真正做功的力. 这个运动方向上的分力就是力在运动方向上的投影. 这就引出一个向量在另一个非零向量方向上的投影的概念.\n\n必须强调的是, 这里所说的投影是一个向量(为了强调它的向量属性, 有时用术语投影向量), 它的起点和终点分别是原向量的起点和终点的投影. 必须注意的是, 这与二期课改教材所说的一个向量在另一个非零向量方向上的投影是不一致的. 二期课改教材所说的“投影”是一个数量,其绝对值是本教材所说的投影向量的模. 本教材把二期课改教材所说的“投影”称为“数量投影”. 可以用式子把这两种投影的关系表达出来: 如果 $\\overrightarrow{a}$ 是一个非零向量,它的单位向量是 ${\\overrightarrow{a}}_{0}$ ,那么向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的投影是\n\n$$\n\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle \\overrightarrow{{a}_{0}},\n$$\n\n其中 $\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 就是向量 $\\overrightarrow{b}$ 在向量 $\\overrightarrow{a}$ 方向上的数量投影. 这里 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 是向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角. 如果仅就向量到向量的投影而言,二者能够互推,这是因为投影是 $\\overrightarrow{{a}_{0}}$ 的数量倍数, 完全决定于一个数量, 即数量投影. 由于这个原因, 这两个不同的投影概念在使用层面上没有差异.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 180,
+        "end": 190
+      }
+    ],
+    "id": "bx2-8-2-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 01",
+    "markdown": "例 1 已知向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角为 $\\frac{2\\pi }{3}$ ,且 $\\left| \\overrightarrow{a}\\right|  = 3,\\left| \\overrightarrow{b}\\right|  = 4$ . 求 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影与数量投影.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 537,
+        "end": 538
+      }
+    ],
+    "answer": "解 向量 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影是\n\n$$\n\\frac{\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle }{\\left| \\overrightarrow{a}\\right| }\\overrightarrow{a} = \\frac{4\\cos \\frac{2\\pi }{3}}{3}\\overrightarrow{a} =  - \\frac{2}{3}\\overrightarrow{a},\n$$\n\n相应的数量投影是 $\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = 4\\cos \\frac{2\\pi }{3} =  - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 539,
+        "end": 545
+      }
+    ],
+    "teacher_analysis": "例 1 不过是投影的具体例子, 有助于学生对概念的理解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 240,
+        "end": 240
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "question",
+    "title": "例题 02",
+    "markdown": "例 2 已知 $\\overrightarrow{a}$ 是非零向量, $\\overrightarrow{b}$ 与 $\\overrightarrow{c}$ 是任意向量,它们在 $\\overrightarrow{a}$ 方向上的投影分别为 ${\\overrightarrow{b}}^{\\prime }$ 与 ${\\overrightarrow{c}}^{\\prime }$ . 求证: $\\overrightarrow{b} + \\overrightarrow{c}$ 在 $\\overrightarrow{a}$ 方向上的投影为 ${\\overrightarrow{b}}^{\\prime } \\; + \\overrightarrow{{c}^{\\prime }}$ .\n\n![](images/book-ae4bd2eb59c209b8babf.jpg)\n\n图 8-2-5",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 557,
+        "end": 558
+      },
+      {
+        "source": "book",
+        "start": 553,
+        "end": 555
+      }
+    ],
+    "answer": "证明 如图 8-2-5,设 $\\overrightarrow{a}$ 所在的直线为 $l$ . 从任意一点 $O$ 出发作向量 $\\overrightarrow{OB} = \\overrightarrow{b},\\overrightarrow{BC} = \\overrightarrow{c}$ ,则 $\\overrightarrow{OC} = \\overrightarrow{b} + \\overrightarrow{c}$ . 分别作点 $O\\text{ 、 }B\\text{ 、 }C$ 在 $l$ 上的投影 ${O}^{\\prime }\\text{ 、 }{B}^{\\prime }\\text{ 、 }{C}^{\\prime }$ . 由投影的定义, ${\\overrightarrow{b}}^{\\prime } = \\overrightarrow{{O}^{\\prime }{B}^{\\prime }},\\overrightarrow{{c}^{\\prime }} = \\; \\overrightarrow{{B}^{\\prime }{C}^{\\prime }}$ ，而 $\\overrightarrow{b} + \\overrightarrow{c} = \\overrightarrow{OC}$ 的投影是 $\\overrightarrow{{O}^{\\prime }{C}^{\\prime }} = \\overrightarrow{{O}^{\\prime }{B}^{\\prime }} + \\overrightarrow{{B}^{\\prime }{C}^{\\prime }} = \\overrightarrow{{b}^{\\prime }} + \\overrightarrow{{c}^{\\prime }}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 559,
+        "end": 559
+      }
+    ],
+    "teacher_analysis": "例 2 证明了两个向量和的投影等于投影的和, 这是向量投影的线性性质中比较困难的一部分 (另一部分是向量数量倍数的投影等于投影的同一数量倍数, 见练习 8.2 (1)的第 1 题),但用几何方法解决,直截了当. 实际上,从本例题结论立即可以推出两个向量和的数量投影等于数量投影的和. 本例题的所证结果在下一小节向量数量积对加法的分配律的证明中起关键作用.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 242,
+        "end": 242
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "这个结论与练习 8.2(1)的第 1 题的结论一般合称为“投影的线性性质”.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 549,
+        "end": 549
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-projection-linearity",
+        "kind": "method",
+        "title": "把“和”与“数乘”放在同一条投影主线",
+        "start": 0,
+        "end": 38,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-2-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "练习8.2（1）",
+    "markdown": "",
+    "provenance": [],
+    "id": "practice-1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（1） · 1",
+    "markdown": "1. 设 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 是两个向量,其中 $\\overrightarrow{a} \\neq  \\overrightarrow{0},\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影是 $\\overrightarrow{{b}^{\\prime }}$ . 又设 $\\lambda  \\in  \\mathbf{R}$ . 分 $\\lambda  \\geq  0$ 与 $\\lambda  < 0$ 两种情况,证明 $\\lambda \\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影是 $\\lambda {\\overrightarrow{b}}^{\\prime }$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l1-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 563,
+        "end": 564
+      }
+    ],
+    "answer": "1. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 468,
+        "end": 469
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（1） · 2",
+    "markdown": "2. 若 $\\bigtriangleup  {ABC}$ 为等边三角形，求下列各角:\n\n(1) $\\langle \\overrightarrow{CA},\\overrightarrow{CB}\\rangle$ ； (2) $\\langle \\overrightarrow{AC},\\overrightarrow{BC}\\rangle$ ； (3) $\\langle \\overrightarrow{AB},\\overrightarrow{BC}\\rangle$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l1-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 565,
+        "end": 568
+      }
+    ],
+    "answer": "2. (1) $\\frac{\\pi }{3}$ . (2) $\\frac{\\pi }{3}$ . (3) $\\frac{2\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 470,
+        "end": 471
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（1） · 3",
+    "markdown": "3. 已知 $\\left| \\overrightarrow{a}\\right|  = 5,\\left| \\overrightarrow{b}\\right|  = 6,\\sin \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = {0.6}$ ，求 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影与数量投影.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l1-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 569,
+        "end": 570
+      }
+    ],
+    "answer": "3. $\\pm  \\frac{24}{25}\\overrightarrow{a}, \\pm  {4.8}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 472,
+        "end": 473
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（1）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "数量积的定义与运算律",
+    "markdown": "",
+    "provenance": [],
+    "id": "product",
+    "number": "02",
+    "subtitle": "运算结果是实数；先核对运算类型，再迁移数的运算经验",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "模仿功的定义,设 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 是两个非零向量,定义 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的数量积 (scalar product)\n\n$$\n\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle ,\n$$\n\n\n数量积又称为标量积, 也称为内积 (inner product) 或点积 (dot product). 记号 $\\overrightarrow{a} \\cdot  \\overrightarrow{b}$ 中间的“ $\\cdot$ ”不可以省略, 也不可以用 “✗”代替·\n\n\n即 $\\overrightarrow{a} \\cdot  \\overrightarrow{b}$ 是 $\\overrightarrow{a}$ 的模 $\\left| \\overrightarrow{a}\\right| \\text{ 、 }\\overrightarrow{b}$ 的模 $\\left| \\overrightarrow{b}\\right|$ 与 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 夹角 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 的余弦的乘积.\n\n在这个公式中, $\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 就是 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的数量投影,而 $\\left| \\overrightarrow{a}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ 就是 $\\overrightarrow{a}$ 在 $\\overrightarrow{b}$ 方向上的数量投影.\n\n我们约定可以把 $\\overrightarrow{a} \\cdot  \\overrightarrow{a}$ 简记为 ${\\overrightarrow{a}}^{2}$ ,它其实就是 ${\\left| \\overrightarrow{a}\\right| }^{2}$ .\n\n我们还规定零向量与任意向量的数量积为 0 .\n\n有了这个定义,物理中的功 $W$ 就是力向量 $\\overrightarrow{f}$ 与位移向量 $\\overrightarrow{s}$ 的数量积 $\\overrightarrow{f} \\cdot  \\overrightarrow{s}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 573,
+        "end": 593
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-dot-definition",
+        "kind": "formula",
+        "title": "数量积：模长相乘，再乘夹角余弦",
+        "start": 0,
+        "end": 310,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-zero-dot",
+        "kind": "condition",
+        "title": "零向量单独规定：不需要给它指定一个夹角",
+        "start": 1193,
+        "end": 1341,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-2-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 参与运算与运算结果的类型",
+    "markdown": "向量的数量积的定义公式直接脱胎于力做功的计算公式, 学生不太会有理解的困难. 但要提醒学生注意两点:\n\n(1)虽然教材在本小节一开始就两个非零向量定义数量积,但在后面加了“零向量与任意向量的数量积为 0 ”的规定,它保证了数量积的定义公式同样适用于零向量的情况,只要加上一个普适的假设: 零向量与任何向量的夹角可以是 $\\left\\lbrack  {0,\\pi }\\right\\rbrack$ 中的任何角.\n\n(2)运算与数的乘法运算的本质差别还在于:两个数相乘,得到的运算结果还是一个数, 即整个运算过程都在数的集合内部实现了; 但是, 两个向量的数量积是一个数, 不再是一个向量了, 也就是说数量积运算不能在向量集合内部实现. 还可以比较实数与向量的乘积, 它是两个不同类型的量进行运算, 而数量积是两个相同类型的量 (都是向量) 进行运算, 得到另外类型的量(实数). 要用这些例子启发学生认识到运算的概念也会随着数学研究范围的扩大而得到拓展.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 204,
+        "end": 208
+      }
+    ],
+    "id": "bx2-8-2-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "零向量与夹角公式的边界",
+    "markdown": "上方教参将零向量的夹角表述为可取任意角，这是使数量积表达式相容的一种约定，不是由两条射线确定的几何夹角。本页不据此给零向量指定夹角：遇到零向量时直接使用数量积为 $0$ 的规定；反求夹角以及用夹角判断垂直时，先检查两个向量均非零。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 03",
+    "markdown": "例 3 如图 8-2-6,给定边长为 6 的正三角形 ${ABC}$ . 求 $\\overrightarrow{AB} \\cdot  \\overrightarrow{AC}$ 和 $\\overrightarrow{AB} \\cdot  \\overrightarrow{BC}$ .\n\n![](images/book-0c0552f98f764606afc1.jpg)\n\n图 8-2-6",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 599,
+        "end": 600
+      },
+      {
+        "source": "book",
+        "start": 595,
+        "end": 597
+      }
+    ],
+    "answer": "解 因为 $\\langle \\overrightarrow{AB},\\overrightarrow{AC}\\rangle  = {60}^{ \\circ  }$ ,所以\n\n$$\n\\overrightarrow{AB} \\cdot  \\overrightarrow{AC} = \\left| \\overrightarrow{AB}\\right| \\left| \\overrightarrow{AC}\\right| \\cos {60}^{ \\circ  } = 6 \\times  6 \\times  \\frac{1}{2} = {18};\n$$\n\n又因为 $\\langle \\overrightarrow{AB},\\overrightarrow{BC}\\rangle  = {120}^{ \\circ  }$ ,所以\n\n$$\n\\overrightarrow{AB} \\cdot  \\overrightarrow{BC} = \\left| \\overrightarrow{AB}\\right| \\left| \\overrightarrow{BC}\\right| \\cos {120}^{ \\circ  } = 6 \\times  6 \\times  \\left( {-\\frac{1}{2}}\\right)  =  - {18}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 601,
+        "end": 611
+      }
+    ],
+    "teacher_analysis": "例 3 是求数量积的具体例子.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 244,
+        "end": 244
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "类比数的乘法的运算律, 我们可以证明向量的数量积运算满足如下运算律:\n\n设 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 和 $\\overrightarrow{c}$ 是向量, $\\lambda$ 是实数,则\n\n向量数量积的交换律: $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\overrightarrow{b} \\cdot  \\overrightarrow{a}$ ;\n\n向量数量积对数乘的结合律: $\\left( {\\lambda \\overrightarrow{a}}\\right)  \\cdot  \\overrightarrow{b} = \\overrightarrow{a} \\cdot  \\left( {\\lambda \\overrightarrow{b}}\\right) \\; = \\lambda \\left( {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right) ;$\n\n向量数量积对加法的分配律: $\\overrightarrow{a} \\cdot  \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)  = \\overrightarrow{a} \\cdot  \\overrightarrow{b} + \\; \\overrightarrow{a} \\cdot  \\overrightarrow{c}$ .\n\n证明(1)因为 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\langle \\overrightarrow{b},\\overrightarrow{a}\\rangle$ ，所以结论是显然的.\n\n\n对向量的数量积谈结合律是没有意义的, 因为不能定义三个向量的数量积; 另外，对向量的数量积, 消去律不成立, 即从 $\\overrightarrow{a} \\cdot  \\overrightarrow{c} = \\overrightarrow{b} \\cdot  \\overrightarrow{c}$ 及 $\\overrightarrow{c} \\neq  \\overrightarrow{0}$ 不能推出 $\\overrightarrow{a} = \\overrightarrow{b}$ .\n\n\n(2)如果 $\\overrightarrow{a}$ 和 $\\overrightarrow{b}$ 有一个是零向量，或者 $\\lambda  = 0$ ，那么结论是显然的,从而不妨设 $\\overrightarrow{a}$ 和 $\\overrightarrow{b}$ 都是非零向量,且 $\\lambda  \\neq  0$ . 若 $\\lambda  > 0$ ,则 $\\left| {\\lambda \\overrightarrow{a}}\\right|  = \\lambda \\left| \\overrightarrow{a}\\right| ,\\left\\langle  {\\lambda \\overrightarrow{a},\\overrightarrow{b}}\\right\\rangle   = \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ ; 若 $\\lambda  < 0$ ,则 $\\left| {\\lambda \\overrightarrow{a}}\\right|  =  - \\lambda \\left| \\overrightarrow{a}\\right|$ , $\\langle \\lambda \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\pi  - \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ ,两种情况代入数量积定义公式,都得到\n\n$$\n\\left( {\\lambda \\overrightarrow{a}}\\right)  \\cdot  \\overrightarrow{b} = \\lambda \\left( {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right) .\n$$\n\n再利用向量数量积的交换律,就得到 $\\overrightarrow{a} \\cdot  \\left( {\\lambda \\overrightarrow{b}}\\right)  = \\lambda \\left( {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right)$ .\n\n(3)如果 $\\overrightarrow{a} = \\overrightarrow{0}$ ，那么结论是显然的，从而不妨设 $\\overrightarrow{a} \\neq  \\overrightarrow{0}$ . 把 $\\overrightarrow{b}$ 、 $\\overrightarrow{c}$ 和 $\\overrightarrow{b} + \\overrightarrow{c}$ 在 $\\overrightarrow{a}$ 的方向作投影，根据向量和的投影等于它们投影的和，就得到\n\n$$\n\\overrightarrow{a} \\cdot  \\left( {\\overrightarrow{b} + \\overrightarrow{c}}\\right)  = \\overrightarrow{a} \\cdot  \\overrightarrow{b} + \\overrightarrow{a} \\cdot  \\overrightarrow{c}.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 613,
+        "end": 643
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-dot-laws",
+        "kind": "formula",
+        "title": "交换律、对数乘的结合律、对加法的分配律",
+        "start": 0,
+        "end": 671,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-no-cancellation",
+        "kind": "condition",
+        "title": "不能照搬：数量积没有向量间的结合律，也不能消去",
+        "start": 805,
+        "end": 1054,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-2-b18",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 分配律的投影依据",
+    "markdown": "要求学生理解并能运用的数量积的运算律有交换律、对数乘的结合律和对向量加法的分配律. 这些运算律及其证明在教材第 113-114 页, 这里只对向量数量积对加法的分配律的证明做如下细节补充:由于向量和的投影等于它们投影的和这一结论已在例 2 证明, 因此\n\n$$\n\\begin{aligned}\n&\\left|\\overrightarrow{b}+\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}+\\overrightarrow{c}\\rangle\\overrightarrow{a_0}\\\\\n&=\\left|\\overrightarrow{b}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}\\rangle\\overrightarrow{a_0}\n+\\left|\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{c}\\rangle\\overrightarrow{a_0}\\\\\n&=\\left(\\left|\\overrightarrow{b}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}\\rangle\n+\\left|\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{c}\\rangle\\right)\\overrightarrow{a_0}.\n\\end{aligned}\n$$\n\n①\n\n这里 ${\\overrightarrow{a}}_{0}$ 是 $\\overrightarrow{a}$ 的单位向量. 直接把 ① 式两端的向量与 $\\overrightarrow{a}$ 做数量积,并注意到 $\\overrightarrow{a} \\cdot \\; \\overrightarrow{{a}_{0}} = \\left| \\overrightarrow{a}\\right|$ ,就得到所希望的结果. 也可以由①式得出\n\n$$\n\\left| {\\overrightarrow{b} + \\overrightarrow{c}}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b} + \\overrightarrow{c}\\rangle  = \\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  + \\left| \\overrightarrow{c}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{c}\\rangle .\n$$\n\n②\n\n②式两边同乘实数 $\\left| \\overrightarrow{a}\\right|$ 也得到所要的结果.\n\n②式说的是向量和的数量投影等于它们数量投影的和, 这里是通过投影向量证明的, 与二期课改教材中的证法不一样.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 210,
+        "end": 228
+      }
+    ],
+    "id": "bx2-8-2-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "分配律：把未定义的夹角和循环推理都避开",
+    "markdown": "固定非零向量 $\\overrightarrow{a}$，记其单位向量为 $\\overrightarrow{a_0}$。把任意向量 $\\overrightarrow{x}$ 在该方向上的投影写成 $p(\\overrightarrow{x})\\overrightarrow{a_0}$，其中 $p(\\overrightarrow{0})=0$。由例2的投影等式，比较同一非零向量 $\\overrightarrow{a_0}$ 的系数，得\n\n$$p(\\overrightarrow{b}+\\overrightarrow{c})=p(\\overrightarrow{b})+p(\\overrightarrow{c}).$$\n\n又由数量积定义及零向量的规定，对任意 $\\overrightarrow{x}$ 都有 $\\overrightarrow{a}\\cdot\\overrightarrow{x}=|\\overrightarrow{a}|p(\\overrightarrow{x})$。两边乘以 $|\\overrightarrow{a}|$，即得分配律。这也覆盖 $\\overrightarrow{b}$、$\\overrightarrow{c}$ 或其和为零的情况；若 $\\overrightarrow{a}=\\overrightarrow{0}$，等式两边直接为零。不能在尚未证明分配律时，把“与一个和作数量积”直接展开；教参原式先合并为同一单位向量的倍数，或采用这里的系数论证，便无此问题。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "由于数量积的交换律和分配律与数的乘法类似, 容易证明如下的公式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 645,
+        "end": 645
+      }
+    ],
+    "id": "bx2-8-2-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 04",
+    "markdown": "例 4 证明:\n\n(1) ${\\left( \\overrightarrow{a} + \\overrightarrow{b}\\right) }^{2} = {\\overrightarrow{a}}^{2} + 2\\overrightarrow{a} \\cdot  \\overrightarrow{b} + {\\overrightarrow{b}}^{2}$ ;\n\n(2) $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  \\cdot  \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  = {\\overrightarrow{a}}^{2} - {\\overrightarrow{b}}^{2}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 647,
+        "end": 652
+      }
+    ],
+    "answer": "证明 (1)的证明如下:\n\n$$\n{\\left( \\overrightarrow{a} + \\overrightarrow{b}\\right) }^{2} = \\overrightarrow{a} \\cdot  \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{b} \\cdot  \\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)\n$$\n\n$$\n= {\\overrightarrow{a}}^{2} + \\overrightarrow{a} \\cdot  \\overrightarrow{b} + \\overrightarrow{b} \\cdot  \\overrightarrow{a} + {\\overrightarrow{b}}^{2}\n$$\n\n$$\n= {\\overrightarrow{a}}^{2} + 2\\overrightarrow{a} \\cdot  \\overrightarrow{b} + {\\overrightarrow{b}}^{2}\\text{ . }\n$$\n\n对于 (2), 我们有\n\n$$\n\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  \\cdot  \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)\n$$\n\n$$\n= {\\overrightarrow{a}}^{2} + \\overrightarrow{b} \\cdot  \\overrightarrow{a} - \\overrightarrow{a} \\cdot  \\overrightarrow{b} - {\\overrightarrow{b}}^{2}\n$$\n\n$$\n= {\\overrightarrow{a}}^{2} - {\\overrightarrow{b}}^{2}\\text{ . }\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 653,
+        "end": 679
+      }
+    ],
+    "teacher_analysis": "例 4 要求证明两个“乘法公式”, 即两向量和的平方公式和两向量平方差的公式, 边框中还提到两向量差的平方公式. 注意, 这里所说的“平方”都是指一个向量和自己的数量积. 前面说过, 这些公式仅作为例题, 不要求掌握. 事实上, 要使用这些公式时, 直接推导也是很容易的. 这里还要再提醒学生注意的是, 不是所有关于数的乘法公式都可以移植到向量上, 例如所有三次方以上的公式都不能移植, 因为一个向量关于数量积的三次方是无法定义的.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 246,
+        "end": 246
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "由(1)类似可证: ${\\left( \\overrightarrow{a} - \\overrightarrow{b}\\right) }^{2} = {\\overrightarrow{a}}^{2} - 2\\overrightarrow{a} \\cdot  \\overrightarrow{b} \\; + {\\overrightarrow{b}}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 729,
+        "end": 729
+      }
+    ],
+    "id": "bx2-8-2-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教参视角 · 公式的教学地位与运算边界",
+    "markdown": "还要注意教材第 113 页边框中的两点说明: 其一, 对向量的数量积谈结合律是没有意义的, 因为不能定义三个向量的数量积(前段所说, 两个向量的数量积不再是向量了, 当然就无法与第三个向量做数量积); 其二, 对向量的数量积, 消去律不成立, 即从 $\\overrightarrow{a} \\cdot  \\overrightarrow{c} = \\overrightarrow{b} \\cdot  \\overrightarrow{c}$ 及 $\\overrightarrow{c} \\neq  \\overrightarrow{0}$ 无法推出 $\\overrightarrow{a} = \\overrightarrow{b}$ (这等价于两个非零向量的数量积可以是零).\n\n在这些运算律之外, 不必让学生再去掌握其他“公式”. 例 4 的两个公式 (完全平方公式与平方差公式) 也仅是例题而已, 不要求学生掌握与应用, 更不要追求它们的 “丰富内涵”.\n\n本节给出的向量夹角公式是向量的数量积的定义公式的简单变形, 目前还没有看出它的强大功能, 可以像教材那样, 先给学生一个预告: 当向量的坐标表示实现后, 向量的数量积直接由坐标算出, 这个夹角公式就变成非常有用了. 留一个伏笔, 引起学生继续学习的兴趣.\n\n向量的数量积是在平面上既有的角度和垂直关系的本质反映, 从而必然是刻画向量垂直关系的最本质的手段, 要让学生深刻理解和掌握. 教材中与垂直关系充要条件并列的不等式 $\\left| {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right|  \\leq  \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ 及其相等情况的分析难度不大,也希望学生了解. 在下文(8.3 节例 8)还会回到这个话题. 这里特别提醒学生注意,这个不等式中“≤”号两边的“ ︳”符号有着不同的含义.\n\n本节共 6 道例题.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 230,
+        "end": 238
+      }
+    ],
+    "id": "bx2-8-2-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "若 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 均为非零向量,则由向量的数量积的定义,可从数量积来反推向量夹角的公式:\n\n$$\n\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\overrightarrow{a} \\cdot  \\overrightarrow{b}}{\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| }.\n$$\n\n在 8.3 节中我们将利用向量的坐标 (从而不通过向量的夹角) 直接来计算向量的数量积, 而上面的公式就提供了计算向量夹角的有效方法.\n\n由向量的数量积的定义, 可以得到:\n\n(1) $\\overrightarrow{a}\\bot \\overrightarrow{b}$ 当且仅当 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = 0$ ；\n\n(2) $\\left| {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right|  \\leq  \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ ，当且仅当 $\\overrightarrow{a}//\\overrightarrow{b}$ 时等号成立.\n\n当 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 平行且同向时, $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ ; 当 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 平行且反向时, $\\overrightarrow{a} \\cdot  \\overrightarrow{b} =  - \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ . 特别地, ${\\overrightarrow{a}}^{2} = {\\left| \\overrightarrow{a}\\right| }^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 681,
+        "end": 695
+      }
+    ],
+    "emphases": [
+      {
+        "id": "key-angle-formula",
+        "kind": "formula",
+        "title": "反求夹角：分母的两个模长均不能为零",
+        "start": 0,
+        "end": 270,
+        "origin": "editorial-emphasis"
+      },
+      {
+        "id": "key-dot-geometry",
+        "kind": "condition",
+        "title": "非零向量的垂直判定；不等式中的两类绝对值",
+        "start": 339,
+        "end": 1082,
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-8-2-b25",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "两个条件，不要在迁移时丢失",
+    "markdown": "把 $\\overrightarrow{a}\\cdot\\overrightarrow{b}=0$ 与“夹角为直角”互相转化时，明确限定两个向量非零。若采用零向量与任意向量正交的代数约定，也不能说零向量因此有一个确定的直角。式 $|\\overrightarrow{a}\\cdot\\overrightarrow{b}|\\leq |\\overrightarrow{a}|\\,|\\overrightarrow{b}|$ 左端是实数的绝对值，右端是两个向量模长的乘积；含零向量时不等式及等号仍成立，而“同向或反向”的文字解释只用于两个非零向量。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b26",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 05",
+    "markdown": "例 5 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 2,\\left| \\overrightarrow{b}\\right|  = 3,\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\pi }{3}$ . 求 $\\left| {3\\overrightarrow{a} - 2\\overrightarrow{b}}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 697,
+        "end": 698
+      }
+    ],
+    "answer": "解 因为\n\n$$\n{\\left| 3\\overrightarrow{a} - 2\\overrightarrow{b}\\right| }^{2} = {\\left( 3\\overrightarrow{a} - 2\\overrightarrow{b}\\right) }^{2}\n$$\n\n$$\n= {\\left( 3\\overrightarrow{a}\\right) }^{2} - 2\\left( {3\\overrightarrow{a}}\\right)  \\cdot  \\left( {2\\overrightarrow{b}}\\right)  + {\\left( 2\\overrightarrow{b}\\right) }^{2}\n$$\n\n$$\n= 9{\\overrightarrow{a}}^{2} - {12}\\overrightarrow{a} \\cdot  \\overrightarrow{b} + 4{\\overrightarrow{b}}^{2}\n$$\n\n$$\n= 9{\\left| \\overrightarrow{a}\\right| }^{2} - {12}\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| \\cos \\frac{\\pi }{3} + 4{\\left| \\overrightarrow{b}\\right| }^{2}\n$$\n\n$$\n= 9 \\times  {2}^{2} - {12} \\times  2 \\times  3 \\times  \\frac{1}{2} + 4 \\times  {3}^{2}\n$$\n\n$$\n= {36}\\text{ , }\n$$\n\n所以 $\\left| {3\\overrightarrow{a} - 2\\overrightarrow{b}}\\right|  = 6$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 699,
+        "end": 725
+      }
+    ],
+    "teacher_analysis": "例 5 与例 6 是使用向量夹角公式的具体例子. 上文说过, 向量夹角公式真正发挥作用是在向量的坐标表示之后. 这里的两个例子不过是小试牛刀.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 248,
+        "end": 248
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "question",
+    "title": "例题 06",
+    "markdown": "例 6 已知 $\\left| \\overrightarrow{a}\\right|  = 6,\\left| \\overrightarrow{b}\\right|  = 3,\\overrightarrow{a} \\cdot  \\overrightarrow{b} =  - 9\\sqrt{2}$ . 求 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-ex6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 733,
+        "end": 734
+      }
+    ],
+    "answer": "解 因为 $\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\overrightarrow{a} \\cdot  \\overrightarrow{b}}{\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| } = \\frac{-9\\sqrt{2}}{6 \\times  3} =  - \\frac{\\sqrt{2}}{2}$ ,所以 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle \\; = \\frac{3\\pi }{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 735,
+        "end": 735
+      }
+    ],
+    "teacher_analysis": "例 5 与例 6 是使用向量夹角公式的具体例子. 上文说过, 向量夹角公式真正发挥作用是在向量的坐标表示之后. 这里的两个例子不过是小试牛刀.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 248,
+        "end": 248
+      }
+    ],
+    "category": "例题",
+    "edited_analysis": false
+  },
+  {
+    "type": "heading",
+    "title": "练习8.2（2）",
+    "markdown": "",
+    "provenance": [],
+    "id": "practice-2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（2） · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $\\overrightarrow{AB} \\cdot  \\overrightarrow{BC} = 0$ . 判断 $\\bigtriangleup {ABC}$ 的形状,并说明理由.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l2-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 739,
+        "end": 740
+      }
+    ],
+    "answer": "1. 直角三角形, 理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 476,
+        "end": 477
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（2） · 2",
+    "markdown": "2. 填空题:\n\n(1)设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 4,\\left| \\overrightarrow{b}\\right|  = 9,\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\pi }{6}$ ，则 $\\overrightarrow{a} \\cdot  \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  =$ ___；\n\n(2)设向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 5$ ， $\\left| \\overrightarrow{b}\\right|  = 6$ ， $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  \\cdot  \\overrightarrow{b} = {21}$ ，则 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l2-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 741,
+        "end": 746
+      }
+    ],
+    "answer": "2. (1) ${16} - {18}\\sqrt{3}$ . (2) $\\frac{2\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 478,
+        "end": 479
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习8.2（2） · 3",
+    "markdown": "3. 设向量 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 2$ ， $\\left| \\overrightarrow{b}\\right|  = 3$ ，且 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = {120}^{ \\circ  }$ . 求 $\\left| {\\overrightarrow{a} + \\overrightarrow{b}}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-l2-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 747,
+        "end": 748
+      }
+    ],
+    "answer": "3. $\\sqrt{7}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 480,
+        "end": 481
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "练习8.2（2）",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "课后习题",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework",
+    "number": "03",
+    "subtitle": "保留教材A、B组及小问顺序，不另行分级或改编",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "习题8.2 A组",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework-a",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 1",
+    "markdown": "1. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 6,\\left| \\overrightarrow{b}\\right|  = 3$ ，且 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} =  - {12}$ ，则向量 $\\overrightarrow{a}$ 在向量 $\\overrightarrow{b}$ 方向上的投影是___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 753,
+        "end": 754
+      }
+    ],
+    "answer": "1. $- \\frac{4}{3}\\overrightarrow{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 486,
+        "end": 487
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 2",
+    "markdown": "2. 在 $\\bigtriangleup  {ABC}$ 中，若 $\\left| {AB}\\right|  = 3$ ， $\\left| {AC}\\right|  = 2$ ， $\\left| {BC}\\right|  = \\sqrt{10}$ ，则 $\\overrightarrow{AB} \\cdot  \\overrightarrow{AC} =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 755,
+        "end": 756
+      }
+    ],
+    "answer": "2. $\\frac{3}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 488,
+        "end": 489
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 3",
+    "markdown": "3. 已知向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的夹角为 ${45}^{ \\circ  }$ ，且 $\\left| \\overrightarrow{a}\\right|  = 1$ ， $\\left| {2\\overrightarrow{a} - \\overrightarrow{b}}\\right|  = \\sqrt{10}$ ，则 $\\left| \\overrightarrow{b}\\right|  =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 757,
+        "end": 758
+      }
+    ],
+    "answer": "3. $3\\sqrt{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 490,
+        "end": 491
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 4",
+    "markdown": "4. 在菱形 ${ABCD}$ 中， $\\left( {\\overrightarrow{AB} + \\overrightarrow{AD}}\\right)  \\cdot  \\left( {\\overrightarrow{AB} - \\overrightarrow{AD}}\\right)  =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 759,
+        "end": 760
+      }
+    ],
+    "answer": "4. 0 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 492,
+        "end": 493
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 5",
+    "markdown": "5. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 1,\\left| \\overrightarrow{b}\\right|  = \\sqrt{2}$ ，向量 $\\overrightarrow{a} - \\overrightarrow{b}$ 与 $\\overrightarrow{a}$ 垂直. 求 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 761,
+        "end": 762
+      }
+    ],
+    "answer": "5. $\\frac{\\pi }{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 494,
+        "end": 495
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 6",
+    "markdown": "6. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left\\langle  {\\overrightarrow{a},\\overrightarrow{b}}\\right\\rangle   = {60}^{ \\circ  },\\left| \\overrightarrow{a}\\right|  = 3,\\left| \\overrightarrow{b}\\right|  = 3$ . 求 ${\\left( \\overrightarrow{a} + \\overrightarrow{b}\\right) }^{2}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 763,
+        "end": 764
+      }
+    ],
+    "answer": "6. $27$.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 496,
+        "end": 497
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 7",
+    "markdown": "7. 在 $\\bigtriangleup {ABC}$ 中, $\\left| {AB}\\right|  = \\left| {AC}\\right|  = 4,\\overrightarrow{AB} \\cdot  \\overrightarrow{AC} = 8$ . 判断 $\\bigtriangleup {ABC}$ 的形状,并说明理由.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q7",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 765,
+        "end": 766
+      }
+    ],
+    "answer": "7. 等边三角形, 理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 498,
+        "end": 499
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 8",
+    "markdown": "8. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 4,\\left| \\overrightarrow{b}\\right|  = 5,\\left| {\\overrightarrow{a} + \\overrightarrow{b}}\\right|  = \\sqrt{21}$ . 分别求下列各式的值:\n\n(1) $\\overrightarrow{a} \\cdot  \\overrightarrow{b}$ ；\n\n(2) $\\left( {{2\\overrightarrow{a}} - \\overrightarrow{b}}\\right)  \\cdot  \\left( {\\overrightarrow{a} + 3\\overrightarrow{b}}\\right)$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q8",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 767,
+        "end": 772
+      }
+    ],
+    "answer": "8. (1) -10. (2) -93 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 500,
+        "end": 501
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 9",
+    "markdown": "9. 设 ${\\overrightarrow{e}}_{1}\\text{ 、 }{\\overrightarrow{e}}_{2}$ 是互相垂直的单位向量,向量 $\\overrightarrow{a} = 2{\\overrightarrow{e}}_{1} - {\\overrightarrow{e}}_{2},\\overrightarrow{b} =  - 3{\\overrightarrow{e}}_{1} + 2{\\overrightarrow{e}}_{2}$ . 求 $\\left( {\\overrightarrow{a} - 2\\overrightarrow{b}}\\right)  \\cdot  \\left( {3\\overrightarrow{a} + \\overrightarrow{b}}\\right) .$\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q9",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 773,
+        "end": 774
+      }
+    ],
+    "answer": "9. 29.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 502,
+        "end": 503
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 10",
+    "markdown": "10. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 1,\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  \\cdot  \\left( {\\overrightarrow{a} - \\overrightarrow{b}}\\right)  = \\frac{1}{2}$ .\n\n(1)求 $\\left| \\overrightarrow{b}\\right|$ ；\n\n(2)设 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\frac{1}{2}$ ，求 $\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q10",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 775,
+        "end": 780
+      }
+    ],
+    "answer": "10. (1) $\\frac{\\sqrt{2}}{2}$ . (2) $\\frac{\\pi }{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 504,
+        "end": 505
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 11",
+    "markdown": "11. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 满足 $\\overrightarrow{a} + \\overrightarrow{b} + \\overrightarrow{c} = \\overrightarrow{0}$ ,且 $\\left| \\overrightarrow{a}\\right|  = 4,\\left| \\overrightarrow{b}\\right|  = 3,\\left| \\overrightarrow{c}\\right|  = 5$ . 求下列各式的值:\n\n(1) $\\overrightarrow{a} \\cdot  \\overrightarrow{c}$ ；\n\n(2) $\\overrightarrow{a} \\cdot  \\overrightarrow{b} + \\overrightarrow{b} \\cdot  \\overrightarrow{c} + \\overrightarrow{c} \\cdot  \\overrightarrow{a}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q11",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 781,
+        "end": 786
+      }
+    ],
+    "answer": "11. (1) -16. (2) -25.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 506,
+        "end": 507
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 A组 · 12",
+    "markdown": "12. 在 $\\bigtriangleup {ABC}$ 中, $C = \\frac{\\pi }{2},\\left| {AC}\\right|  = 1$ . 求 $\\overrightarrow{AB} \\cdot  \\overrightarrow{CA}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-a-q12",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 787,
+        "end": 788
+      }
+    ],
+    "answer": "12. -1.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 508,
+        "end": 509
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 A组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题8.2 B组",
+    "markdown": "",
+    "provenance": [],
+    "id": "homework-b",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,若 $\\left| {AB}\\right|  = 2,\\left| {AC}\\right|  = 3,\\overrightarrow{AB} \\cdot  \\overrightarrow{BC} = 1$ ,则 $\\left| {BC}\\right|  =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q1",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 791,
+        "end": 792
+      }
+    ],
+    "answer": "1. $\\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 514,
+        "end": 515
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 2",
+    "markdown": "2. 设向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 满足 $\\left| \\overrightarrow{a}\\right|  = 2,\\left| \\overrightarrow{b}\\right|  = 1,\\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{2\\pi }{3}$ . 求 $\\left| {\\overrightarrow{a} - \\overrightarrow{b}}\\right|$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q2",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 793,
+        "end": 794
+      }
+    ],
+    "answer": "2. $\\sqrt{7}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 516,
+        "end": 517
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中, $\\left| {BC}\\right|  = 3,\\left| {AC}\\right|  = 1,\\angle {BCA} = {30}^{ \\circ  }$ . 求 $\\overrightarrow{BC} \\cdot  \\overrightarrow{CA}$ .\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q3",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 795,
+        "end": 796
+      }
+    ],
+    "answer": "3. $- \\frac{3\\sqrt{3}}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 518,
+        "end": 519
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 4",
+    "markdown": "4. 在直角三角形 ${ABC}$ 中,若 $D$ 是斜边 ${AB}$ 的中点, $P$ 为线段 ${CD}$ 的中点,则 $\\frac{{\\left| PA\\right| }^{2} + {\\left| PB\\right| }^{2}}{{\\left| PC\\right| }^{2}} =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q4",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 797,
+        "end": 798
+      }
+    ],
+    "answer": "4. $10$.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 520,
+        "end": 521
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 5",
+    "markdown": "5. 在 $\\bigtriangleup {ABC}$ 中,设 $M$ 是 ${BC}$ 的中点,且 $\\left| {AM}\\right|  = 3,\\left| {BC}\\right|  = {10}$ ,则 $\\overrightarrow{AB} \\cdot \\overrightarrow{AC} =$ ___.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q5",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 799,
+        "end": 800
+      }
+    ],
+    "answer": "5. -16.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 522,
+        "end": 523
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 6",
+    "markdown": "6. 已知 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}$ 都是非零向量,且 $\\overrightarrow{a} + 3\\overrightarrow{b}$ 与 $7\\overrightarrow{a} - 5\\overrightarrow{b}$ 垂直, $\\overrightarrow{a} - 4\\overrightarrow{b}$ 与 $7\\overrightarrow{a} - 2\\overrightarrow{b}$ 垂直. 求 $\\overrightarrow{a}$ 、 $\\overrightarrow{b}$ 的夹角.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q6",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 801,
+        "end": 802
+      }
+    ],
+    "answer": "6. $\\frac{\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 524,
+        "end": 525
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 7",
+    "markdown": "7. 在 $\\bigtriangleup {ABC}$ 中，内角 $A\\text{ 、 }B\\text{ 、 }C$ 的对边依次为 $a\\text{ 、 }b\\text{ 、 }c$ . 求证: $\\overrightarrow{AB} \\cdot  \\overrightarrow{AC} = \\; \\frac{1}{2}\\left( {{b}^{2} + {c}^{2} - {a}^{2}}\\right) .$\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q7",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 803,
+        "end": 804
+      }
+    ],
+    "answer": "7. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 526,
+        "end": 527
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题8.2 B组 · 8",
+    "markdown": "8. 在四边形 ${ABCD}$ 中,设向量 $\\overrightarrow{AB} = \\overrightarrow{a},\\overrightarrow{BC} = \\overrightarrow{b},\\overrightarrow{CD} = \\overrightarrow{c},\\overrightarrow{DA} = \\overrightarrow{d}$ ,且 $\\overrightarrow{a} \\cdot \\overrightarrow{b} = \\overrightarrow{b} \\cdot \\overrightarrow{c} = \\overrightarrow{c} \\cdot \\overrightarrow{d} = \\overrightarrow{d} \\cdot \\overrightarrow{a}$ . 求证: 四边形 ${ABCD}$ 是矩形.\n\n",
+    "provenance": [],
+    "id": "bx2-c8-s82-b-q8",
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 805,
+        "end": 806
+      }
+    ],
+    "answer": "8. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 528,
+        "end": 529
+      }
+    ],
+    "teacher_analysis": "",
+    "category": "习题8.2 B组",
+    "analysis_provenance": []
+  },
+  {
+    "type": "section",
+    "title": "备课附记与来源",
+    "markdown": "",
+    "provenance": [],
+    "id": "sources",
+    "number": "04",
+    "subtitle": "教学重点、概念推广与课堂取舍",
+    "teacher_only": true,
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "本节教学重点",
+    "markdown": "在物理中的“功”的基础上抽象出投影向量及向量的数量积概念, 感悟这些问题上数学抽象的特点与意义; 让学生熟悉向量数量积公式 (包括导出的向量夹角公式), 理解向量数量积的运算律.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 176,
+        "end": 176
+      }
+    ],
+    "id": "bx2-8-2-b57",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "背景阅读 · 从直线投影到平面投影",
+    "markdown": "但是, 为什么教材以及它的上位文件国家课程标准改用投影向量来阐述相关内容? 最重要的理由是, 数量投影只是在特定语境中定义的一个特殊的概念, 无法在数学更大的范围内进行合适的推广, 而向量意义下的投影是几何学中一般的投影概念在向量理论中的反映. 一般地说, 几何学中的投影是一个几何变换, 它把高维空间的一个几何对象变换到它的一个较低维数的子空间中的一个几何对象 (而不是数). 例如, 三维空间中的物体的三视图就是这个物体在三个互相正交的二维子空间(平面)上的投影. 几何学上的投影一方面起着把高维空间中对象的研究化为较低维数空间中的投影对象的研究(维数的降低可能使研究得以简化); 反过来, 通过在不同较低维数子空间上的投影对象的研究, 又能“拼凑”出有关高维空间原对象的某些认知. 三视图的例子就是这样.\n\n回到向量的语境. 设想老师们都已熟悉空间向量. 我们可以像定义向量到直线(或非零向量方向) 上的投影那样定义一个向量在一个平面上的投影: 如图 8-R4,作向量 $\\overrightarrow{AB}$ 的起点 $A$ 与终点 $B$ 在平面 $\\alpha$ 上的投影 ${A}^{\\prime }$ 与 ${B}^{\\prime }$ ,则向量 $\\overrightarrow{{A}^{\\prime }{B}^{\\prime }}$ 就定义为向量 $\\overrightarrow{AB}$ 在平面 $\\alpha$ 上的投影 (当然,我们还要验证相等的向量在这个做法下得到的投影也是相等的向量, 从而说明这个定义是有意义的, 但这里不深入细节了). 这个定义是向量到向量 (或者说到直线) 投影概念的自然推广.\n\n![](images/private-c5e7d85d9db3c2de2dce.jpg)\n\n图 8-R4\n\n这里给出的空间向量在平面上的投影出现在本套教材选择性必修第一册习题 3.1B 组第 3 题(教材第 102 页). 这道题中给出了向量意义的投影的传递性:把一个向量投影到一个平面, 再把平面中的投影向量进一步投影到该平面中一个非零向量方向上, 相当于直接把原向量投影到最后的那个非零向量上. 这种传递性也是一般的几何学上投影的传递性在向量理论中的反映.\n\n关于投影的这些说明供教师参考, 并希望教师通过自己的理解和体会, 更好地把教材所讲述的投影内容的教学做好, 特别注意不要把关于投影和数量积的教学回到数量投影主导的思路上.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 192,
+        "end": 202
+      }
+    ],
+    "id": "bx2-8-2-b58",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "注意事项",
+    "markdown": "本教材没有把向量的数量积放在 “平面向量的坐标表示” 总标题之下,明确表明数量积的定义与坐标表示没有关系, 注意这个变化. 在坐标表示下数量积的公式, 则在下一节中再介绍.\n\n对部分教师而言, 从数量投影到投影向量的转换也许有一定困难. 希望大家认真阅读上文所说的这种转换的意义,先让自己对教材和教学内容理解上完成这种转换, 才能对本节内容的教学有更好的把握.\n\n从参与运算的量和运算结果的量的差别, 让学生体会数的乘法、数与向量的乘法以及向量的数量积之间的差别, 理解数学运算概念的拓展. 让学生体会不能定义三个向量的数量积, 从而数量积的结合律无从谈起.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 252,
+        "end": 256
+      }
+    ],
+    "id": "bx2-8-2-b59",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "教学建议",
+    "markdown": "对学生直截了当地讲投影向量, 数量投影仅作为辅助概念出现, 不要偏离这个取向. 本教参花费较多篇幅谈投影向量在数学中的地位和意义, 是为了让老师们的思想从数量投影主导转换到投影向量主导. 学生第一次接触向量的数量积概念, 没有习惯的或固有的想法, 因此不要把概念转换所引起的困惑传递给学生.\n\n数量积运算的定义是本节的核心内容, 其引入的逻辑顺序是: “力做功”作为情境, 得到功的计算公式, 再直接模仿功的计算公式定义向量的数量积. 这样的处理没有过分依赖投影概念, 对学生直接切入核心内容的学习是有所裨益的. 但这样的处理也有明显的不足:“向量的投影”这一小节的内容容易被边缘化. 教材例 2 的设置并把例题的结论用于向量数量积对加法的分配律的证明, 在某种程度上弥补了这个缺陷, 希望老师们注意到这一点.\n\n有兴趣的老师也可以尝试直接模仿功的定义(而不是功的计算公式)来定义向量的数量积. 这样的处理使得 “做功的情境引入一投影的讨论一数量积的定义”的过程一气呵成,实质性地把投影向量融合于向量的数量积的定义中,有它理论上的优势. 这个定义分两个步骤完成. 第一步,先定义两个平行向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 的数量积 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} =  \\pm  \\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right|$ , 两向量同向取正,异向取负; 第二步,对任意向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ (其中 $\\overrightarrow{a} \\neq  \\overrightarrow{0}$ ),定义 $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\; \\overrightarrow{a} \\cdot  {\\overrightarrow{b}}^{\\prime }$ ,其中 $\\overrightarrow{{b}^{\\prime }}$ 为 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影. 这个定义中的第一步是把 “功等于位移方向上的力乘位移” 这个直观描述数学化, 第二步是功的定义的直接模仿. 要从这个定义得出数量积的公式,只要对平行向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{b}$ 验证一下 $\\left( {\\lambda \\overrightarrow{a}}\\right)  \\cdot  \\left( {\\mu \\overrightarrow{b}}\\right)  = {\\lambda \\mu }\\left( {\\overrightarrow{a} \\cdot  \\overrightarrow{b}}\\right)$ ,再把投影的公式代入就可以了.\n\n在数量积的教学中要特别启发学生理解, 向量的数量积与数的乘积是截然不同的运算, 绝对不能想当然地把数的运算的性质搬到向量的数量积上, 要让学生体会到重新审视和证明数量积的运算定律的必要性.\n\n希望老师们能回忆一下大学的代数课程,并且能理解:我们现在在平面上已知的欧氏空间结构中做数量积, 而在大学高等代数或线性代数课程中, 欧氏空间的结构是反过来由给定的数量积决定的. 可见, 数量积与欧氏空间结构本质上是一回事. 因此, 在本节教学中, 数量积与欧氏空间中的夹角(特别是垂直关系) 的联系是数量积必须要关注的, 数量积的几何应用也常常围绕这个关系推出.\n\n本节教学应聚焦于向量理论本体, 可以适当联系向量在平面几何和三角学中的应用, 但不宜喧宾夺主.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 260,
+        "end": 270
+      }
+    ],
+    "id": "bx2-8-2-b60",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "editor",
+    "title": "本节编辑与保留边界",
+    "markdown": "本页整合教材8.2的概念、推导、6个例题和26道练习习题，保留教参的“证明略”“理由略”。恢复数量积点、删除确定的重复错误式等修改均写入编辑记录。教参背景中的空间、欧氏结构只供教师理解，不作为学生证明所需知识；本轮不提前展开8.3的坐标公式。",
+    "provenance": [],
+    "teacher_only": true,
+    "id": "bx2-8-2-b61",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

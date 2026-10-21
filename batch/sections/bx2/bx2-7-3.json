@@ -1,0 +1,926 @@
+{
+  "schema_version": 1,
+  "id": "bx2-7-3",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "7",
+  "chapter_title": "第7章三角函数",
+  "section": "7.3",
+  "title": "正弦型函数的图像",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md": "aa198208462a3427ed9d0e4b9291ff53a870f74e46b159f9513c1bd96beefeff",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md": "1fabcbcd4f3cbe946e2576ba67d6bdc7962a79eb957c90f5770da428b4899df8"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "正弦型函数的图像",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 715
+        }
+      ],
+      "id": "bx2-7-3",
+      "number": "7.3",
+      "subtitle": "教材与正式教参整合",
+      "editor_original_title": "函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 7.3 函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像\n\n### 教学重点\n\n结合具体实例,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 以及表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的实际意义. 会用三角函数解决简单的实际问题, 体会可利用三角函数构建刻画周期变化事物的数学模型.\n\n在 $A > 0,\\omega  > 0$ 的情况下,分别研究 $y = A\\sin x\\text{、}y = \\sin {\\omega x}\\text{、}y = \\sin \\left( {x + \\varphi }\\right)$ 的图像,并发现它们与 $y = \\sin x$ 的图像之间的关系. 能借助图像理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义, 了解参数的变化对函数图像的影响.\n\n会用五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的大致图像.\n\n### 内容分析\n\n“函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像”是第一节“正弦函数的图像与性质”的深入. 它包含三部分内容: 一是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 表达式中参数 $A$ 、 $\\omega$ 、 $\\varphi$ 的意义；二是参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的变化对图像的影响; 三是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 图像的画法.\n\n从一个实际生活中大家熟悉的钟表转动问题引入函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ ,并直接给出简谐振动中物体离开平衡位置的位移 $y$ 与时间 $x$ 的函数关系 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\; \\left( {A > 0,\\omega  > 0}\\right)$ ,使学生了解研究函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像的必要性,了解函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n例 1 借助图像,让学生体会参数 $A\\text{、}\\omega \\text{、}\\varphi$ 变化对函数图像的影响.\n\n例 2 是为了使学生掌握用前面学过的五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,并进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n例 3 的目的是让学生体会到, 可以利用三角函数构建刻画周期变化事物的数学模型,并使学生进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 在实际问题中的意义.\n\n探究与实践“潮汐的函数模拟”取自一个实际问题的数据. 若学生选择函数 $y = \\; A\\sin \\left( {{\\omega x} + \\varphi }\\right)  + B$ 进行模拟,需要学生考虑函数最大值的平均值和最小值的平均值, 计算出这两个平均值的差, 还要学会处理图像上两个最高点的水平距离, 两个最低点的水平距离等数据,由此找出参数 $A\\text{、}\\omega \\text{、}\\varphi$ 和 $B$ 的适当的值.\n\n课后阅读“声音中的三角函数”让学生进一步感受三角函数在解决具体周期变化规律问题中的作用.\n\n习题 7.3A 组的第 3 题和 B 组的第 3 题不需要学生具有相关的物理知识. 例如, 在 B 组的第 3 题中, 已直接给出了三相交流电的线电压的有效值的定义, 学生只需结合定义利用所学的数学知识就可以解决. 通过这些练习, 可以使学生体会到三角函数在现实世界中的应用.\n\n### 注意事项\n\n本节的知识重点是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像及其表达式中参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n需要掌握的内容是:\n\n(1)对于函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ (其中参数 $A > 0,\\omega  > 0)$ ,要知道: $A$ 增大时图像的振幅增大, $\\omega$ 增大时图像相邻两个零点的间距减小, $\\varphi$ 增大时图像向左平移;\n\n(2)给定参数 $A\\text{、}\\omega \\text{、}\\varphi$ ,能用五点法作出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像；\n\n(3)给出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,能从图像中确定参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的值.\n\n需要注意的是,参数 $A\\text{、}\\omega \\text{、}\\varphi$ 对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响不应超过例 1 中的定性要求, 特别是不应要求学生在不止一个参数变化时掌握函数图像的变换.\n\n### 教学建议\n\n本节内容较丰富,根据学生实际情况,教学过程中可以用 1 课时或 1.5 课时完成.\n\n例 1 的教学过程中, 建议充分利用计算器、计算机画出三角函数的直观图像, 帮助学生观察、比较并发现它们的变化规律, 再通过计算验证相应的结论. 可以分两步进行以分散难点: 第一步在三个不同的直角坐标系中分别画出 $y = 2\\sin x$ 与 $y = \\sin x$ 的图像; $y = \\sin {2x}$ 与 $y = \\sin x$ 的图像; $y = \\sin \\left( {x + \\frac{\\pi }{2}}\\right)$ 与 $y = \\sin x$ 的图像. 第二步把它们的图像放到同一个直角坐标系中,进行观察与比较. 参数 $A\\text{、}\\omega \\text{、}\\varphi$ 分别对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响仅限于本例给出的定性结果,避免编制更复杂的习题.\n\n例 2 中可以先回顾五点 (作图) 法画正弦函数的过程, 再确定函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的五个关键点,作出它的大致图像.\n\n探究与实践活动建议让学生以研究报告或小论文的形式进行小结,培养学生数学建模的素养.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 190,
+          "end": 241
+        }
+      ],
+      "teacher_only": true,
+      "id": "bx2-7-3-b1"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在现实生活中, 我们知道钟表分针的转动具有周期现象. 怎样用函数来描述这种周期现象呢?\n\n![bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg)\n\n图 7-3-1\n\n如图 7-3-1,假设分针的旋转中心到针尖末端的长度为 $A$ , 设 $t = 0$ 分时,分针针尖指向点 ${P}_{0}$ ,随着 $t$ 的增加,分针沿顺时针方向走动,设经过 $t$ 分钟,针尖指向点 $P$ .\n\n以分针的旋转中心为坐标原点,建立如图 7-3-1 所示的平面直角坐标系. 设指向点 $P$ 的针尖末端对应的点的纵坐标为 $y$ ,因为分针每分钟旋转 $\\frac{\\pi }{30}$ 弧度,所以针尖末端对应的点在角 $- \\frac{\\pi }{30}t + \\frac{\\pi }{6}$ (弧度)的终边上,从而其纵坐标 $y$ 关于时间 $t$ 变化的函数关系为 $y = A\\sin \\left( {-\\frac{\\pi }{30}t + \\frac{\\pi }{6}}\\right) , t \\in  \\lbrack 0, + \\infty ).$\n\n---\n\n弹簧下端挂着砝码上下振动. 若从 $x = 0$ 时刻开始，每间隔一小段时间(如 0.1 s)给弹簧和砝码拍一张照片，并按时间顺序, 将弹簧顶端对齐排成一列得到图 7-3-2.\n\n---\n\n在物理学和工程技术的许多问题中, 经常也会遇到形如 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的函数 (其中 $A\\text{ 、 }\\omega \\text{ 、 }\\varphi$ 均是常数). 例如,物体做简谐运动(如单摆或弹簧的振动) 的过程中, 物体离开平衡位置的位移 $y$ 与时间 $x$ 的关系为\n\n$$\ny = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right) .\n$$\n\n上式中, $A$ 是物体振动时离开平衡位置的最大距离,称为该振动的振幅(amplitude). $A$ 越大,振动的幅度越大.\n\n单摆或弹簧往复振动一次所需的时间 $T = \\frac{2\\pi }{\\omega }$ 称为该振动的周期 (即前面所说的最小正周期). $\\omega$ 越大,振动的周期越小.\n\n![bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg)\n\n图 7-3-2\n\n在单位时间内振动的次数 $f = \\frac{1}{T} = \\frac{\\omega }{2\\pi }$ 称为该振动的频率 (frequency),而 $\\omega  = {2\\pi f}$ 相应地称为圆频率. $\\omega$ 越大,振动的频率越大.\n\n---\n\n$y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 中 $A < 0$ 或 $\\omega  < 0$ ,我们可以用诱导公式将它化为 $A > 0$ 且 $\\omega  > 0$ .\n\n若函数\n\n---\n\n${\\omega x} + \\varphi$ 称为该振动的相位 (phase). 当 $x = 0$ 时的相位 $\\varphi$ 称为初始相位 (initial phase).\n\n下面，我们借助于计算器 (机) 来探讨 $A$ 、 $\\omega$ 、 $\\varphi$ 的变化对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 图像的影响.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 716,
+          "end": 760
+        }
+      ],
+      "emphases": [
+        {
+          "start": 970,
+          "end": 1033,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-2-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1035,
+          "end": 1124,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-2-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1279,
+          "end": 1407,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-2-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1542,
+          "end": 1631,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-2-3",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "id": "bx2-7-3-repair-math-title",
+      "type": "prose",
+      "title": "",
+      "markdown": "**原教材节题：** 函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 715
+        }
+      ],
+      "editorial_note": "数学题名移入已有公式渲染通道；原教材题名及全部数学内容未改。"
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 当函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 中的常数 $A$ 、 $\\omega$ 、 $\\varphi$ 分别取下列各组值时,用计算器 (机) 在同一平面直角坐标系中作出它们的图像:\n\n(1) $A = 2,\\omega  = 1,\\varphi  = 0$ ；\n\n(2) $A = 1,\\omega  = 2,\\varphi  = 0$ ；\n\n(3) $A = 1,\\omega  = 1,\\varphi  = \\frac{\\pi }{2}$ .\n\n![bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg)\n\n图 7-3-3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 768
+        },
+        {
+          "source": "book",
+          "start": 771,
+          "end": 773
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 761,
+          "end": 768
+        },
+        {
+          "source": "book",
+          "start": 771,
+          "end": 773
+        }
+      ],
+      "id": "bx2-7-3-ex-1",
+      "category": "例题",
+      "answer": "解 用计算器(机)可作出相应的图像,如图 7-3-3 所示:\n\n把例 1 中的三个函数的图像与正弦函数 $y = \\sin x$ 的图像进行比较,可以看到,当 $A$ 增大时,图像的振幅增大; 当 $\\omega$ 增大时, 图像相邻的两个零点的差的绝对值减小, 即周期减小; 而当 $\\varphi$ 增加一个正数值时,正弦曲线向左平移相应的值.\n\n我们已经知道函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 的定义域为 $\\mathbf{R}$ ,值域为 $\\left\\lbrack  {-A, A}\\right\\rbrack$ ,最小正周期为 $\\frac{2\\pi }{\\omega }$ . 那么,如何作出函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的大致图像呢?\n\n我们可先用 “五点法” 作出它在长度为一个周期的区间内的大致图像,再向左、右不断平移,就可以得到函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的大致图像.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 769,
+          "end": 770
+        },
+        {
+          "source": "book",
+          "start": 774,
+          "end": 780
+        }
+      ],
+      "teacher_analysis": "例 1 借助图像,让学生体会参数 $A\\text{、}\\omega \\text{、}\\varphi$ 变化对函数图像的影响.\n\n例 1 的教学过程中, 建议充分利用计算器、计算机画出三角函数的直观图像, 帮助学生观察、比较并发现它们的变化规律, 再通过计算验证相应的结论. 可以分两步进行以分散难点: 第一步在三个不同的直角坐标系中分别画出 $y = 2\\sin x$ 与 $y = \\sin x$ 的图像; $y = \\sin {2x}$ 与 $y = \\sin x$ 的图像; $y = \\sin \\left( {x + \\frac{\\pi }{2}}\\right)$ 与 $y = \\sin x$ 的图像. 第二步把它们的图像放到同一个直角坐标系中,进行观察与比较. 参数 $A\\text{、}\\omega \\text{、}\\varphi$ 分别对函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的影响仅限于本例给出的定性结果,避免编制更复杂的习题.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 206,
+          "end": 206
+        },
+        {
+          "source": "teacher",
+          "start": 236,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 作出函数 $y = 3\\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right)$ 的大致图像,并指出其振幅、频率和初始相位.\n\n![bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg)\n\n图 7-3-4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 781,
+          "end": 782
+        },
+        {
+          "source": "book",
+          "start": 797,
+          "end": 799
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 781,
+          "end": 782
+        },
+        {
+          "source": "book",
+          "start": 797,
+          "end": 799
+        }
+      ],
+      "id": "bx2-7-3-ex-2",
+      "category": "例题",
+      "answer": "解 函数 $y = 3\\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right)$ 的最小正周期 $T = \\frac{2\\pi }{2} = \\pi$ .\n\n由 $0 \\leq  {2x} + \\frac{\\pi }{4} \\leq  {2\\pi }$ ,可得 $- \\frac{\\pi }{8} \\leq  x \\leq  \\frac{7\\pi }{8}$ . 我们先用 “五点法” 作出此函数在区间 $\\left\\lbrack  {-\\frac{\\pi }{8},\\frac{7\\pi }{8}}\\right\\rbrack$ 上的大致图像.\n\n令 $t = {2x} + \\frac{\\pi }{4}$ ,将五个关键点列表 (表 7-2) 如下:\n\n表 7-2\n\n<table><tr><td>$t = {2x} + \\frac{\\pi }{4}$</td><td>0</td><td>$\\frac{\\pi }{2}$</td><td>$\\pi$</td><td>$\\frac{3\\pi }{2}$</td><td>${2\\pi }$</td></tr><tr><td>$x$</td><td>$- \\frac{\\pi }{8}$</td><td>$\\frac{\\pi }{8}$</td><td>$\\frac{3\\pi }{8}$</td><td>$\\frac{5\\pi }{8}$</td><td>$\\frac{7\\pi }{8}$</td></tr><tr><td>$3\\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right)$</td><td>0</td><td>3</td><td>0</td><td>-3</td><td>0</td></tr></table>\n\n描点并用光滑曲线把它们连接起来. 由于此函数的周期为 $\\pi$ , 我们可以把此函数在区间 $\\left\\lbrack  {-\\frac{\\pi }{8},\\frac{7\\pi }{8}}\\right\\rbrack$ 上的大致图像向左、右不断地平移,就可以得到 $y = 3\\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right)$ 的大致图像 (图 7-3-4).\n\n这个函数的振幅为 3,频率为 $f = \\frac{\\omega }{2\\pi } = \\frac{1}{\\pi }$ ,初始相位为 $\\frac{\\pi }{4}$ .\n\n",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 783,
+          "end": 796
+        },
+        {
+          "source": "book",
+          "start": 800,
+          "end": 800
+        }
+      ],
+      "teacher_analysis": "例 2 是为了使学生掌握用前面学过的五点 (作图) 法作出 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,并进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 的意义.\n\n例 2 中可以先回顾五点 (作图) 法画正弦函数的过程, 再确定函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的五个关键点,作出它的大致图像.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 208,
+          "end": 208
+        },
+        {
+          "source": "teacher",
+          "start": 238,
+          "end": 238
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 已知交流电的电流强度 $I$ 关于时间 $t$ 的函数为 $I = \\; {I}_{0}\\sin \\left( {{\\omega t} + \\varphi }\\right)$ ,其中 ${I}_{0} > 0,\\omega  > 0,0 \\leq  \\varphi  < {2\\pi }$ . 根据图像求出它的周期、频率和电流的最大值,并写出 ${I}_{0}\\text{ 、 }\\omega$ 和 $\\varphi$ 的值.\n\n\n\n![bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg)\n\n图 7-3-5",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 801,
+          "end": 802
+        },
+        {
+          "source": "book",
+          "start": 806,
+          "end": 806
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 801,
+          "end": 802
+        },
+        {
+          "source": "book",
+          "start": 806,
+          "end": 806
+        },
+        {
+          "source": "book",
+          "start": 803,
+          "end": 805
+        }
+      ],
+      "id": "bx2-7-3-ex-3",
+      "category": "例题",
+      "answer": "解 由图像可以看出,这个交流电的周期 $T = {0.02}\\mathrm{\\;s}$ ,频率 $f = \\frac{1}{T} = \\frac{1}{0.02} = {50}\\mathrm{\\;{Hz}}$ ,电流的最大值为 ${10}\\mathrm{\\;A}$ .\n\n---\n\n当 $t = {2x} + \\frac{\\pi }{4}$ 取 $0\\text{ 、 }\\frac{\\pi }{2}\\text{ 、 }\\pi \\text{ 、 }\\frac{3\\pi }{2}\\text{ 、 }{2\\pi }$ 时, 相对应的点是作 $y = 3\\sin \\left( {{2x} + \\frac{\\pi }{4}}\\right) , \\; x \\in  \\left\\lbrack  {-\\frac{\\pi }{8},\\frac{7\\pi }{8}}\\right\\rbrack$ 图像的五个关键点.\n\n---\n\n在 $I = {I}_{0}\\sin \\left( {{\\omega t} + \\varphi }\\right)$ 中, ${I}_{0} = {10},\\omega  = \\frac{2\\pi }{T} = \\frac{2\\pi }{0.02} = {100\\pi }$ . 再把点 $\\left( {\\frac{T}{4},{10}}\\right)$ 即 $\\left( {{0.005},{10}}\\right)$ 代入 $I = {I}_{0}\\sin \\left( {{\\omega t} + \\varphi }\\right)$ ,得 $\\sin \\left( {\\frac{\\pi }{2} + \\varphi }\\right)  = 1$ . 又因为 $0 \\leq  \\varphi  < {2\\pi }$ ,所以 $\\varphi  = 0$ .\n\n---\n\n在例 3 中确定初相 $\\varphi$ 时,若把点 $\\left( {0,0}\\right)$ 代入函数表达式，得 $\\sin \\varphi  = 0$ ,并取 $\\varphi  = \\pi$ , 这种做法对吗? 为什么?\n\n---",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 807,
+          "end": 822
+        }
+      ],
+      "teacher_analysis": "例 3 的目的是让学生体会到, 可以利用三角函数构建刻画周期变化事物的数学模型,并使学生进一步理解参数 $A\\text{、}\\omega \\text{、}\\varphi$ 在实际问题中的意义.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 210,
+          "end": 210
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 7.3",
+      "markdown": "#### 练习 7.3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 823,
+          "end": 823
+        }
+      ],
+      "id": "bx2-7-3-b6"
+    },
+    {
+      "type": "question",
+      "title": "练习7.3 · 1",
+      "markdown": "1. 作出下列函数的大致图像:\n\n(1) $y = \\sin \\left( {x + \\frac{\\pi }{6}}\\right)$ ； (2) $y = 3\\sin \\left( {{2x} - \\frac{\\pi }{3}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 825,
+          "end": 828
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 825,
+          "end": 828
+        }
+      ],
+      "id": "bx2-7-3-p73-1",
+      "category": "练习7.3",
+      "answer": "1. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 400,
+          "end": 401
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.3 · 2",
+      "markdown": "2. 下列函数中,与函数 $y = 5\\sin \\left( {{3x} + \\frac{\\pi }{4}}\\right)$ 的图像形状相同的是 ( )\n\nA. $y = 8\\sin \\left( {{3x} + \\frac{\\pi }{4}}\\right)$ ; B. $y = 3\\sin \\left( {{5x} + \\frac{\\pi }{4}}\\right)$ ;\n\nC. $y = 5\\sin 2\\left( {x + \\frac{\\pi }{4}}\\right)$ ; D. $y = 5\\sin 3\\left( {x + \\frac{\\pi }{4}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 829,
+          "end": 834
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 829,
+          "end": 834
+        }
+      ],
+      "id": "bx2-7-3-p73-2",
+      "category": "练习7.3",
+      "answer": "2. D.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 402,
+          "end": 403
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.3 · 3",
+      "markdown": "3. 下图是函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像,请根据图中的信息,写出该图像的一个函数表达式.\n\n![bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 840
+        },
+        {
+          "source": "book",
+          "start": 837,
+          "end": 839
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 835,
+          "end": 840
+        },
+        {
+          "source": "book",
+          "start": 837,
+          "end": 839
+        }
+      ],
+      "id": "bx2-7-3-p73-3",
+      "category": "练习7.3",
+      "answer": "3. $y = \\frac{3}{2}\\sin \\left( {{2x} + \\frac{\\pi }{6}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 404,
+          "end": 405
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "探究与实践",
+      "markdown": "##### 探究与实践",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 841,
+          "end": 841
+        }
+      ],
+      "id": "bx2-7-3-b10"
+    },
+    {
+      "type": "heading",
+      "title": "潮汐的函数模拟",
+      "markdown": "###### 潮汐的函数模拟",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 843,
+          "end": 843
+        }
+      ],
+      "id": "bx2-7-3-b11"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "在月亮和太阳的引力作用下，海水水面发生的周期性涨落现象叫做潮汐. 一般早潮叫潮, 晚潮叫汐. 下面是某港有一天记录的潮汐高度 (cm) 与相应时间 (h) 的关系表 (表7-3) 和潮汐曲线图 (图 7-3-6):\n\n表 7-3\n\n<table><tr><td>时间/h</td><td>1</td><td>$8\\frac{19}{30}$</td><td>13 $\\frac{53}{60}$</td><td>20 $\\frac{7}{10}$</td></tr><tr><td>潮汐高度/cm</td><td>478</td><td>112</td><td>461</td><td>116</td></tr></table>\n\n![bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg)\n\n图 7-3-6\n\n请根据以上数据,选择适当的函数模型,写出潮汐高度 $y\\left( \\mathrm{\\;{cm}}\\right)$ 关于时间 $t\\left( \\mathrm{\\;h}\\right)$ 的函数的近似表达式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 844,
+          "end": 856
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 107,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-12-0",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "bx2-7-3-b12"
+    },
+    {
+      "type": "heading",
+      "title": "课后阅读",
+      "markdown": "##### 课后阅读",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 857,
+          "end": 857
+        }
+      ],
+      "id": "bx2-7-3-b13"
+    },
+    {
+      "type": "heading",
+      "title": "声音中的三角函数",
+      "markdown": "###### 声音中的三角函数",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 859,
+          "end": 859
+        }
+      ],
+      "id": "bx2-7-3-b14"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "当我们演奏钢琴、小提琴等乐器时，其琴弦振动引起周围空气的振动，这些振动再传到我们的耳膜引起耳膜振动, 我们就能听到美妙的音乐了. 虽然这些振动变化非常复杂, 但它们都有明显的周期性, 可以用三角函数来描述.\n\n音叉振动产生的声音是纯音,可以用函数 $A\\sin \\left( {{\\omega t} + \\varphi }\\right)$ 来表示,其中振幅 $A$ 决定音量的大小,频率 $f = \\frac{\\omega }{2\\pi }$ 决定音调的高低. 频率高的声音尖利,而频率低的声音低沉. 纯音的频率固定, 很简单, 但它听起来非常单调.\n\n钢琴或小提琴等乐器产生的音都不是纯音, 但它们可以分解为各种纯音的和, 其中频率最低的纯音称为基音, 其他的称为泛音. 不同乐器奏出同一个音符时, 其基音相同, 但泛音各不相同, 形成了乐器的音色. 泛音的频率是基音频率的倍数, 由微积分中的傅里叶级数展开, 可知一个乐器的振动可以写为\n\n$$\n{A}_{0} + {A}_{1}\\sin \\left( {{\\omega t} + {\\varphi }_{1}}\\right)  + {A}_{2}\\sin \\left( {{2\\omega t} + {\\varphi }_{2}}\\right)  + {A}_{3}\\sin \\left( {{3\\omega t} + {\\varphi }_{3}}\\right)  + \\cdots .\n$$\n\n在音乐会上，当多种乐器同时演奏时，我们可以通过泛音来辨别出不同乐器所发出的声音.\n\n既然音叉和乐器发出的声音都是振动, 我们也可以通过比较两个声音的差别来调校乐器. 例如, 可以用标准音叉来调准钢琴某个键的发音. 简单起见, 设某标准音叉和钢琴某个键发出的音量大小相同, 即这两个振动的振幅相同, 于是这两个振动可分别记作 $A\\sin \\left( {{\\omega }_{1}t + {\\varphi }_{1}}\\right)$ 和 $A\\sin \\left( {{\\omega }_{2}t + {\\varphi }_{2}}\\right)$ ,其中 ${\\omega }_{1}$ 及 ${\\omega }_{2}$ 分别为两者的圆频率. 当这两个振动合成时, 由和差化积公式, 合成后的振动可以表示为\n\n$$\nA\\sin \\left( {{\\omega }_{1}t + {\\varphi }_{1}}\\right)  + A\\sin \\left( {{\\omega }_{2}t + {\\varphi }_{2}}\\right)\n$$\n\n$$\n= {2A}\\sin \\left( {\\frac{{\\omega }_{1} + {\\omega }_{2}}{2}t + \\frac{{\\varphi }_{1} + {\\varphi }_{2}}{2}}\\right) \\cos \\left( {\\frac{{\\omega }_{1} - {\\omega }_{2}}{2}t + \\frac{{\\varphi }_{1} - {\\varphi }_{2}}{2}}\\right) .\n$$\n\n当两者的频率很接近,即 ${\\omega }_{1}$ 和 ${\\omega }_{2}$ 很接近时, $\\cos \\left( {\\frac{{\\omega }_{1} - {\\omega }_{2}}{2}t + \\frac{{\\varphi }_{1} - {\\varphi }_{2}}{2}}\\right)$ 的频率很低, 会产生如下合成后的振动图像(图 7-3-7):\n\n![bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg)\n\n图 7-3-7\n\n这时,我们可以听到时响时轻的拍音. 调整琴键的频率直到听不到拍音时,就得到 ${\\omega }_{1} \\; \\approx  {\\omega }_{2}$ ,这个键就校准好了.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 860,
+          "end": 890
+        }
+      ],
+      "emphases": [
+        {
+          "start": 277,
+          "end": 420,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-7-3-definition-15-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 669,
+          "end": 1101,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx2-7-3-formula-15-1",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "bx2-7-3-b15"
+    },
+    {
+      "type": "heading",
+      "title": "习题 7.3",
+      "markdown": "#### 习题 7.3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 891,
+          "end": 891
+        }
+      ],
+      "id": "bx2-7-3-b16"
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "##### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 893,
+          "end": 893
+        }
+      ],
+      "id": "bx2-7-3-b17"
+    },
+    {
+      "type": "question",
+      "title": "习题7.3A · 1",
+      "markdown": "1. 当函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right) \\left( {A > 0,\\omega  > 0}\\right)$ 中的常数 $A\\text{ 、 }\\omega \\text{ 、 }\\varphi$ 分别取下列各组值时, 在同一平面直角坐标系中分别作出它们的图像:\n\n(1) $A = \\frac{1}{2},\\omega  = 1,\\varphi  = 0$ ； (2) $A = 1,\\omega  = \\frac{1}{2},\\varphi  = 0$ ；\n\n(3) $A = 1,\\omega  = 1,\\varphi  =  - \\frac{\\pi }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 895,
+          "end": 900
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 895,
+          "end": 900
+        }
+      ],
+      "id": "bx2-7-3-h73A-1",
+      "category": "习题7.3A",
+      "answer": "1. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 410,
+          "end": 411
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3A · 2",
+      "markdown": "2. 求函数 $y = \\sqrt{2}\\sin \\left( {{30\\pi x} - \\frac{\\pi }{12}}\\right)$ 的振幅、频率和初始相位.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 901,
+          "end": 902
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 901,
+          "end": 902
+        }
+      ],
+      "id": "bx2-7-3-h73A-2",
+      "category": "习题7.3A",
+      "answer": "2. 函数 $y = \\sqrt{2}\\sin \\left( {{30\\pi x} - \\frac{\\pi }{12}}\\right)$ 的振幅为 $\\sqrt{2}$ ,频率为 $f = \\frac{1}{T} = \\frac{30\\pi }{2\\pi } = {15}$ ,初始相位是 $- \\frac{\\pi }{12}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 412,
+          "end": 413
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3A · 3",
+      "markdown": "3. 已知某交流电流 $I\\left( \\mathrm{\\;A}\\right)$ 随时间 $t\\left( \\mathrm{\\;s}\\right)$ 的变化规律可以用函数 $I = 8\\sin \\left( {{100\\pi t} - \\frac{\\pi }{2}}\\right)$ ， $t \\in  \\lbrack 0, + \\infty )$ 表示. 求这种交流电流在 ${0.5}\\mathrm{\\;s}$ 内往复运行的次数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 903,
+          "end": 904
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 903,
+          "end": 904
+        }
+      ],
+      "id": "bx2-7-3-h73A-3",
+      "category": "习题7.3A",
+      "answer": "3. 因为频率为 $f = \\frac{1}{T} = \\frac{100\\pi }{2\\pi } = {50}$ (次/秒),所以这种交流电流在 ${0.5}\\mathrm{\\;s}$ 内往复运行的次数为 ${0.5} \\times  {50} = {25}$ (次).",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 414,
+          "end": 415
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3A · 4",
+      "markdown": "4. 作出函数 $y = 2\\sin \\left( {\\frac{1}{2}x + \\frac{\\pi }{6}}\\right)$ 的大致图像.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 905,
+          "end": 906
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 905,
+          "end": 906
+        }
+      ],
+      "id": "bx2-7-3-h73A-4",
+      "category": "习题7.3A",
+      "answer": "4. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 416,
+          "end": 417
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3A · 5",
+      "markdown": "5. 如图, 弹簧挂着的小球上下振动. 设小球相对于平衡位置(即静止时的位置) 的距离 $h\\left( \\mathrm{\\;{cm}}\\right)$ 与时间 $t\\left( \\mathrm{\\;s}\\right)$ 之间的函数表达式是 $h = 2\\sin \\left( {{\\pi t} + \\frac{\\pi }{4}}\\right) , t \\geq  0$ ,作出这个函数的大致图像,并回答下列问题:\n\n\n(1)小球开始振动 (即 $t = 0$ ) 时的位置在哪里?\n\n(2)小球最高点和最低点与平衡位置的距离分别是多少？\n\n(3)经过多少时间小球往复振动一次？\n\n(4)每秒钟小球往复振动多少次？\n\n![bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 907,
+          "end": 920
+        },
+        {
+          "source": "book",
+          "start": 909,
+          "end": 911
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 907,
+          "end": 920
+        },
+        {
+          "source": "book",
+          "start": 909,
+          "end": 911
+        }
+      ],
+      "id": "bx2-7-3-h73A-5",
+      "category": "习题7.3A",
+      "answer": "5. 图略. (1)在 $h = \\sqrt{2}\\left( \\mathrm{\\;{cm}}\\right)$ 处. (2) $2\\mathrm{\\;{cm}}$ . (3) $2\\mathrm{\\;s}$ . (4)0.5 次.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 418,
+          "end": 419
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "##### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 921,
+          "end": 921
+        }
+      ],
+      "id": "bx2-7-3-b23"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 922,
+          "end": 926
+        }
+      ],
+      "id": "bx2-7-3-b24"
+    },
+    {
+      "type": "question",
+      "title": "习题7.3B · 1",
+      "markdown": "1. 作出函数 $y = \\sin x + \\sqrt{3}\\cos x$ 的大致图像.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 928
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 928
+        }
+      ],
+      "id": "bx2-7-3-h73B-1",
+      "category": "习题7.3B",
+      "answer": "1. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 422,
+          "end": 423
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3B · 2",
+      "markdown": "2. 如图,已知函数 $y = A\\cos \\left( {{\\omega x} + \\varphi }\\right) (A > 0,\\omega  > 0$ , $0 < \\varphi  < {2\\pi })$ 的图像与 $y$ 轴的交点为 $\\left( {0,1}\\right)$ ,并已知其在 $y$ 轴右侧的第一个最高点和第一个最低点的坐标分别为 $\\left( {{x}_{0},2}\\right)$ 和 $\\left( {{x}_{0} + {2\\pi }, - 2}\\right)$ . 求此函数的表达式.\n\n![bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg](sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 929,
+          "end": 930
+        },
+        {
+          "source": "book",
+          "start": 923,
+          "end": 925
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 929,
+          "end": 930
+        },
+        {
+          "source": "book",
+          "start": 923,
+          "end": 925
+        }
+      ],
+      "id": "bx2-7-3-h73B-2",
+      "category": "习题7.3B",
+      "answer": "2. $y = 2\\cos \\left( {\\frac{x}{2} + \\frac{5\\pi }{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 424,
+          "end": 425
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.3B · 3",
+      "markdown": "3. 三相交流电的插座上有四个插孔, 其电压分别为\n\n$$\n{U}_{0} = 0,{U}_{1} = A\\sin {\\omega t},{U}_{2} = A\\sin \\left( {{\\omega t} + \\frac{2\\pi }{3}}\\right) ,{U}_{3} = A\\sin \\left( {{\\omega t} + \\frac{4\\pi }{3}}\\right) ,\n$$\n\n其中 $\\omega  = {100\\pi }\\mathrm{{rad}}/\\mathrm{s}, A = {220}\\sqrt{2}\\mathrm{\\;V}$ . 记 ${U}_{2} - {U}_{1},{U}_{3} - {U}_{2},{U}_{1} - {U}_{3}$ 的最大值分别为 ${Y}_{1}$ 、 ${Y}_{2}\\text{ 、 }{Y}_{3}$ ,试计算三相交流电的线电压的有效值 $\\frac{{Y}_{1}}{\\sqrt{2}}\\text{ 、 }\\frac{{Y}_{2}}{\\sqrt{2}}$ 及 $\\frac{{Y}_{3}}{\\sqrt{2}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 931,
+          "end": 938
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 931,
+          "end": 938
+        }
+      ],
+      "id": "bx2-7-3-h73B-3",
+      "category": "习题7.3B",
+      "answer": "3. 因为 ${U}_{2} - {U}_{1} = A\\sin \\left( {{\\omega t} + \\frac{2\\pi }{3}}\\right)  - A\\sin {\\omega t} = A\\sin {\\omega t} \\cdot  \\cos \\frac{2\\pi }{3} + A\\cos {\\omega t} \\cdot  \\sin \\frac{2\\pi }{3} - \\; A\\sin {\\omega t} =  - \\frac{3}{2}A\\sin {\\omega t} + \\frac{\\sqrt{3}}{2}A\\cos {\\omega t} =  - \\sqrt{3}A\\sin \\left( {{\\omega t} - \\frac{\\pi }{6}}\\right)$ ,所以其最大值为 ${Y}_{1} = \\; \\sqrt{3}A = {220}\\sqrt{6}$ . 同理, ${Y}_{2} = {220}\\sqrt{6},{Y}_{3} = {220}\\sqrt{6}$ . 因此,三相交流电的线电压的有效值 $\\frac{{Y}_{1}}{\\sqrt{2}} = \\frac{{Y}_{2}}{\\sqrt{2}} = \\frac{{Y}_{3}}{\\sqrt{2}} = {220}\\sqrt{3}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 426,
+          "end": 427
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "7.3·例1",
+      "paired_manifest": "sources/paired/第7章三角函数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "7.3·例2",
+      "paired_manifest": "sources/paired/第7章三角函数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "7.3·例3",
+      "paired_manifest": "sources/paired/第7章三角函数教材教参配对-20261009/配对清单.json"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 719,
+      "original": "images/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 743,
+      "original": "images/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 771,
+      "original": "images/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 797,
+      "original": "images/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 803,
+      "original": "images/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 837,
+      "original": "images/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 851,
+      "original": "images/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 885,
+      "original": "images/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 909,
+      "original": "images/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 923,
+      "original": "images/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg",
+      "exists": true
+    }
+  ],
+  "editor_original_title": "函数 $y = A\\sin \\left( {{\\omega x} + \\varphi }\\right)$ 的图像",
+  "repair_history": [
+    {
+      "id": "repair-warnings-v1",
+      "action": "UI节标题采用同义纯文字，完整原题名以公共Markdown公式呈现；既有正文和可视化锚点不动。",
+      "resolved_warnings": [
+        {
+          "code": "visible-dollar-delimiters",
+          "severity": "warning",
+          "cause": "section title is an escaped plain-text UI field, not a multiline delimiter error",
+          "previous_count_each_edition": 2
+        }
+      ],
+      "evidence": "batch/patches/repair-warnings-v1.json"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="bx3-12-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>12.1 随机现象与样本空间 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx3.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第三册 / 第12章概率初步</div><div class="spine-number">12.1</div><nav aria-label="本节目录"><a href="#bx3-12-1"><span>12.1</span>随机现象与样本空间</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 12.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 12.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>随机现象与样本空间<span class="cover-dot">.</span></h1><p class="cover-deck">必修第三册<br>第12章概率初步 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>4 个例题</span><span>12 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx3-12-1" data-title="随机现象与样本空间"><section class="section-heading" id="bx3-12-1"><span class="section-number">12.1</span><div><h2>随机现象与样本空间</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="aacbf388c89cf08850b498fdfa02a736b6a963275c91f5a79d2b4cd9ffeba01b" id="bx3-12-1-b1"><h1>概率初步</h1>
+<p><img src="images/book-4135bbf5a9c4f7280488.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>随机现象无处不在, 且与我们的生活息息相关. 它看似没有规律, 但实际上隐含着深刻的规律. 概率论就是研究随机现象背后所蕴藏的规律的数学理论. 它在现代社会中变得越来越重要, 在数学中的地位也越来越高. 在这一章中，我们将理解概率的意义，学习求解简单的概率问题. 尽管所涉及的数学实际上是相当初等的, 但第一次接触随机现象, 真正理解起来可能并不容易, 和学习以往的内容不同, 不仅要换一种思路, 而且要换一套语言.</p>
+</div><h3 class="group-heading" id="bx3-12-1-b4">1 随机现象</h3><div class="prose" data-visual-source-sha="eb33bc19aef5521082d90886758e2b90554dbfbdd4462181807e2bc13e7e5696" id="bx3-12-1-b5"><p>概率是描述一个随机现象中某事件发生的可能性 (或者机会)大小的一种度量. 要理解概率，首先要理解随机现象或者随机性.</p>
+<aside class="key-point key-concept" id="bx3-12-1-definition-5-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>现实世界有具确定性的现象, 对其可以预见确切的结果, 但更多的是具不确定性的现象, 也就是无法预知确切结果的现象. 如俗语说:天有不测风云，人有旦夕祸福，许多事情人们无法预知, 更无法掌控. 具不确定性的现象也称为随机现象 (random phenomenon), 或者说具有随机性.</p>
+</aside><p>先看几个生活中常见的例子:</p>
+<ol>
+<li>
+<p>向上抛掷一枚硬币. 能够确定的是, 因为重力的作用, 它必定会落在地面上. 但是究竟哪一面朝上, 却是无法预知的.</p>
+</li>
+<li>
+<p>在车流不大的高速公路上, <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两地相距 <span class="math" data-tex="{100}\mathrm{\;{km}}" data-display="false"></span> . 上午 8 时从 <span class="math" data-tex="A" data-display="false"></span> 地出发,以 <span class="math" data-tex="{100}\mathrm{\;{km}}/\mathrm{h}" data-display="false"></span> 的速度去往 <span class="math" data-tex="B" data-display="false"></span> 地,那么我们可以肯定地说, 上午 9 时可以到达. 但如果上午 8 时从上海人民广场出发去上海浦东国际机场，由于市内堵车，我们很难准确预测什么时间可以到达.</p>
+</li>
+<li>
+<p>如果将 1 万元存到某银行，年利率为 3%，那么一年后的利息收入必是 300 元. 但如果将此 1 万元买该银行的股票，那么一年后的收益却是不确定的.</p>
+</li>
+<li>
+<p>人随着年龄增长慢慢变老, 这是确定无疑的. 但是观察 60 岁左右的人，会发现其衰老的程度很不一样，呈现出随机性.</p>
+</li>
+</ol>
+<p>由于随机性的存在, 我们无法准确地预测在一个随机现象中会出现什么样的结果, 然而, 对于随机现象, 我们是不是完全束手无策了呢? 答案是否定的. 尽管我们无法确切预测到结果, 但对出现某一结果的可能性大小还是有预期的, 而且通常可以得到其估计值. 例如, 抛掷一枚硬币, 人们对于可能出现的两种状态有相同的期待,也就是说两个面各自出现的可能性都是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> ; 如果多次抛掷硬币, 人们会期待两个面出现的次数应该是差不多的. 又如, 我们虽然不能确切地知道明天是否会下雨, 但是借助气象研究, 气象台可以通过公布降雨概率, 对明天下雨的可能性大小作出预期, 供公众参考. 这说明, 人们相信随机现象中还是存在某种规律的, 找出这种规律就是概率论所要研究的目标.</p>
+<hr />
+<p>概率描述随机现象中某些结果出现的可能性大小.</p>
+<p><img src="images/book-a01f29ae8e473c6c63cd.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>费马 (P. de Fermat, 1601-1665), 法国数学家，正式职业是律师. 费马与帕斯卡在 1654 年 7-10 月有 7 封关于分奖金问题的书信来往, 开启了概率论的研究.</p>
+<p><img src="images/book-e76ec97cb50a203c0245.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>帕斯卡 (B. Pascal, 1623 —1662), 法国数学家、 物理学家.</p>
+<hr />
+<aside class="key-point key-concept" id="bx3-12-1-definition-5-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>现实中有很多不同类型的随机现象. 简单分为可随意重复的, 如抛掷硬币、掷骰子、抽签等, 称为随机试验; 与不可随意重复的, 如天气、动物寿命等. 它们的研究方法也不尽相同. 概率论是由研究随机性而发展起来的一个数学分支, 它起源于 1654 年两位法国数学家费马和帕斯卡对赌徒提出的分奖金问题的通信讨论. 该分奖金问题可叙述如下:</p>
+</aside><p><span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两人下棋,每局两人获胜的可能性一样. 某一天两人要进行一场三局两胜的比赛, 最终胜者赢得 100 元奖金. 第一局比赛 <span class="math" data-tex="A" data-display="false"></span> 胜,后因为有其他要事而中止比赛. 问: 怎么分 100 元奖金才公平?</p>
+<p>尽管 <span class="math" data-tex="A" data-display="false"></span> 胜了第一局,但结果依然是不确定的, <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 都有胜的机会. 但因为 <span class="math" data-tex="A" data-display="false"></span> 已胜一局,所以如果比赛继续下去, <span class="math" data-tex="A" data-display="false"></span> 胜的可能性更大. 因此, 按照最终取胜的可能性大小 (也就是概率) 比例进行分配是大家认可的一个公平分配方案, 从而问题归结于如何计算 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 各自取胜的概率.</p>
+<p>历史上很多人考虑过这个问题，包括费马、帕斯卡、惠更斯 (C. Huygens)等, 他们从不同的角度得到了同样的答案, 说明该问题背后有着某种规律. 这些规律引起了数学家的兴趣, 由此开启了对概率论的研究.</p>
+<p>现在, 你也来想一想, 看能否像 300 多年前的数学家那样运用对概率的直觉来回答这个问题. 等学完这一章, 我们再来解答这个问题.</p>
+</div><h3 class="group-heading" id="bx3-12-1-b6">练习 12.1(1)</h3><article class="question" id="bx3-12-1-p1211-1" data-question-id="bx3-12-1-p1211-1" data-category="practice"><div class="question-label">练习12.1(1) · 1</div><div class="question-body"><ol>
+<li>判断下面哪些是随机现象, 哪些是确定性现象, 并列举几个生活中的确定性现象与随机现象的例子.</li>
+</ol>
+<p>(1)明天太阳升起；</p>
+<p>(2)明天上海局部地区下雨；</p>
+<p>(3)明年小明又大一岁；</p>
+<p>(4)小明今天放学回家到路口时恰好碰到绿灯.</p>
+</div></article><article class="question" id="bx3-12-1-p1211-2" data-question-id="bx3-12-1-p1211-2" data-category="practice"><div class="question-label">练习12.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>仿照正文中的例子分析下面两句话里含有怎样的随机性.</li>
+</ol>
+<p>(1)今年冬天一定会下雪；</p>
+<p>(2)今年我要参加高考，应该能考上大学.</p>
+</div></article><h3 class="group-heading" id="bx3-12-1-b9">2 样本空间与事件</h3><div class="prose" data-visual-source-sha="e6ee2ea880acca3cd830fdd32a52689ad80bc86b90bcd277c25b9b2797ddd89f" id="bx3-12-1-b10"><p>学习概率论, 首先要学会概率论的一套语言. 由于概率论中的很多术语直接使用生活中的语言, 在学习的时候要格外注意它们在概率论与生活中使用时的语义区别, 其中最重要的三个术语是样本空间、事件与概率.</p>
+<p>考察一个随机现象 <span class="math" data-tex="E" data-display="false"></span> ,首先要观察其中有哪些可能出现的结果.</p>
+<aside class="key-point key-concept" id="bx3-12-1-definition-10-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 一个随机现象中依某个角度观察其所有可能出现(发生)的结果所组成的集合称为一个样本空间 (sample space),用 <span class="math" data-tex="\Omega" data-display="false"></span> 表示, 其中的元素称为基本事件 (elementary event) 或者样本点 (sample point).</p>
+</aside><hr />
+<p>样本空间中的基本事件须是互斥的， 即任何两个均不会同时发生.</p>
+<hr />
+</div><article class="question" id="bx3-12-1-ex-1" data-question-id="bx3-12-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 写出下面随机试验的样本空间:</p>
+<p>(1)抛掷一枚硬币，观察朝上的面；</p>
+<p>(2)掷一颗骰子(每一面上分别标注数字 1、2、3、4、5、6 的质地均匀的小正方体), 观察朝上的点数;</p>
+<hr />
+<p>按照习惯，在说到掷硬币或骰子时, 我们总是观察朝上的面和点数.</p>
+<hr />
+<p>(3)从装有标号为 1、2、3 的三个球的袋子中依次取两个球 (第一次取出的球不再放回)，观察标号，考虑标号顺序；</p>
+<p>(4)从装有标号为 1、2、3 的三个球的袋子中依次取两个球 (第一次取出的球不再放回), 观察标号, 不考虑标号顺序;</p>
+<hr />
+<p>考虑标号顺序是指不同的顺序表示不同的结果, 例 如, (1，2)与(2，1)是两个不同的结果. 在不考虑顺序的情况下， (1,2)与(2,1)是一样的.</p>
+<hr />
+<p>(5)连续掷一颗骰子，直到点数 6 出现为止，观察掷的次数；</p>
+<p>(6)向一面墙随机掷飞镖，观察其落点.</p>
+</div></article><article class="question" id="bx3-12-1-ex-2" data-question-id="bx3-12-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 掷一颗骰子，写出下列事件相应的样本空间的子集:</p>
+<p>(1)点数 6 没有出现；</p>
+<p>(2)出现偶数；</p>
+<p>(3)点数不超过 2.</p>
+</div></article><article class="question" id="bx3-12-1-ex-3" data-question-id="bx3-12-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 掷两颗骰子, 试表示其样本空间以及掷出的两个点数都是偶数这个事件所对应的子集.</p>
+</div></article><article class="question" id="bx3-12-1-ex-4" data-question-id="bx3-12-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 写出抛掷两枚硬币的样本空间.</p>
+<hr />
+<p>注意:对于同一个随机现象，由于观察结果的角度不同, 样本空间也不同, 如例 4 所示.</p>
+<hr />
+</div></article><h3 class="group-heading" id="bx3-12-1-b15">练习 12.1(2)</h3><article class="question" id="bx3-12-1-p1212-1" data-question-id="bx3-12-1-p1212-1" data-category="practice"><div class="question-label">练习12.1(2) · 1</div><div class="question-body"><ol>
+<li>按某个观察角度，写出下面随机现象的一个样本空间:</li>
+</ol>
+<p>(1)抛掷 3 枚硬币；</p>
+<p>(2)将 3 个不同颜色的球放入 3 个不同的容器中，但每个容器最多放 1 个球。</p>
+</div></article><article class="question" id="bx3-12-1-p1212-2" data-question-id="bx3-12-1-p1212-2" data-category="practice"><div class="question-label">练习12.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>掷一颗骰子，写出样本空间及与下列事件相对应的基本事件子集:</li>
+</ol>
+<p>(1)1 没有出现； (2)出现奇数； (3)点数超过 2 .</p>
+</div></article><article class="question" id="bx3-12-1-p1212-3" data-question-id="bx3-12-1-p1212-3" data-category="practice"><div class="question-label">练习12.1(2) · 3</div><div class="question-body"><ol start="3">
+<li>从两男两女四人中随机选出两人,</li>
+</ol>
+<p>(1)写出样本空间；</p>
+<p>(2)写出两人恰好是一男一女这个事件所对应的子集.</p>
+</div></article><h3 class="group-heading" id="bx3-12-1-b19">习题 12.1</h3><h3 class="group-heading" id="bx3-12-1-b20">A 组</h3><article class="question" id="bx3-12-1-h121A-1" data-question-id="bx3-12-1-h121A-1" data-category="homework"><div class="question-label">习题12.1A · 1</div><div class="question-body"><ol>
+<li>判断下列事件中，哪些是确定的事件，哪些是不确定的事件？</li>
+</ol>
+<p>(1)在空地上抛一石块，石块会下落；</p>
+<p>(2)明天上午八时到九时之间，你会接到一个推销电话；</p>
+<p>(3)买一张福利彩票，会中奖.</p>
+</div></article><article class="question" id="bx3-12-1-h121A-2" data-question-id="bx3-12-1-h121A-2" data-category="homework"><div class="question-label">习题12.1A · 2</div><div class="question-body"><ol start="2">
+<li>抛掷 100 枚同一类型且质地均匀的硬币, 下面的陈述哪些是正确的, 哪些是错误的?</li>
+</ol>
+<p>(1)全部出现正面向上是不可能的；</p>
+<p>(2)至少有 1 枚出现正面向上是必然的；</p>
+<p>(3)出现 50 枚正面向上、50 枚正面向下是不确定的.</p>
+</div></article><article class="question" id="bx3-12-1-h121A-3" data-question-id="bx3-12-1-h121A-3" data-category="homework"><div class="question-label">习题12.1A · 3</div><div class="question-body"><ol start="3">
+<li>从装有红、白、黑三种颜色的小球各 1 个的袋子中任取 2 个小球, 写出这个随机试验的样本空间.</li>
+</ol>
+</div></article><article class="question" id="bx3-12-1-h121A-4" data-question-id="bx3-12-1-h121A-4" data-category="homework"><div class="question-label">习题12.1A · 4</div><div class="question-body"><ol start="4">
+<li>&quot;一名学生一次掷 3 颗骰子，3 颗都掷得点数 6&quot;的事件是 ( )</li>
+</ol>
+<p>A. 不可能事件； B. 必然事件;</p>
+<p>C. 可能性较大的随机事件; D. 可能性较小的随机事件.</p>
+</div></article><h3 class="group-heading" id="bx3-12-1-b25">B 组</h3><article class="question" id="bx3-12-1-h121B-1" data-question-id="bx3-12-1-h121B-1" data-category="homework"><div class="question-label">习题12.1B · 1</div><div class="question-body"><ol>
+<li>下列哪些是不确定的事件?</li>
+</ol>
+<p>(1)学生甲明天竞选班长成功；</p>
+<p>(2)两支足球队明天比赛，主场队取胜；</p>
+<p>(3)若集合 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C" data-display="false"></span> 满足 <span class="math" data-tex="A \subseteq  B \subseteq  C" data-display="false"></span> ,则 <span class="math" data-tex="A \subseteq  C" data-display="false"></span> .</p>
+</div></article><article class="question" id="bx3-12-1-h121B-2" data-question-id="bx3-12-1-h121B-2" data-category="homework"><div class="question-label">习题12.1B · 2</div><div class="question-body"><ol start="2">
+<li>一个口袋中有大小与质地相同的 1 个白球、 2 个黑球、3 个红球, 从中任取 2 个球, 观察球的颜色. 写出样本空间及与下列事件相应的基本事件子集:</li>
+</ol>
+<p>(1)含有白球; (2)至少含有 1 个黑球.</p>
+</div></article><article class="question" id="bx3-12-1-h121B-3" data-question-id="bx3-12-1-h121B-3" data-category="homework"><div class="question-label">习题12.1B · 3</div><div class="question-body"><ol start="3">
+<li>两个男生、两个女生随机站一排,</li>
+</ol>
+<p>(1)写出样本空间；</p>
+<p>(2)写出每个人的相邻之人总是异性这个事件所对应的子集；</p>
+<p>(3)写出每个人的相邻之人至少有一个异性这个事件所对应的子集.</p>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx3-12-1" checked>随机现象与样本空间</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

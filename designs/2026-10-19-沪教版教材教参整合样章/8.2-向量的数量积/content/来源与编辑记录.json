@@ -1,0 +1,118 @@
+{
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md": "df97e6756fb784de420af97b4ec31edaf75e3dbd25ff0b9437c38cc0bb60424c",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md": "318000326b721c61ff32f752d3a32bf4b8f2005ab485d4da5dea552c4210d88c"
+  },
+  "assets": {
+    "images/book-bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg",
+      "sha256": "9463af36f532338c8cdb474eb51ebf312076ed75a1a5e6863df8ad8c9f57160f"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg",
+      "sha256": "d1e2defaaf448c372c7bbd5dc899386866533c0759c821c8bd8be6472c94cfb1"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg",
+      "sha256": "bf2cfee938c14a142be6398c7b69d3ef780aa8497bb1af4ba6167057275c6119"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg",
+      "sha256": "43cf4d7eb7d7a9858e1df08aabc34e9c44f39e77375809cbf1ad19ea7b7d2f4b"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg",
+      "sha256": "ae4bd2eb59c209b8babf762f0af55ab570c3cf738c6af7b6e9376af911937233"
+    },
+    "images/book-bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg",
+      "sha256": "0c0552f98f764606afc17690e5e946582ea826286c9a7e041e059343a322df7e"
+    },
+    "images/teacher-bo_d402nkref24c73d2tegg_73_601_613_334_254_0.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第二册/images/bo_d402nkref24c73d2tegg_73_601_613_334_254_0.jpg",
+      "sha256": "c5e7d85d9db3c2de2dce907c73ecfeb8b1c2acf253511746e87bb1e7a987abcf"
+    }
+  },
+  "edits": [
+    {
+      "before": "若 $\\lambda  > 0$ ,则 $\\left| {\\lambda \\overrightarrow{a}}\\right|  =  - \\lambda \\left| \\overrightarrow{a}\\right|$ , ",
+      "after": "若 $\\lambda  > 0$ ,则 ",
+      "reason": "λ>0段删除重复且符号错误的模长式，保留λ<0段及紧随其后的正确式",
+      "source": "book",
+      "source_lines": [
+        631
+      ]
+    },
+    {
+      "before": "\\begin{aligned} \\left| {\\overrightarrow{b} + \\overrightarrow{c}}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b} + \\overrightarrow{c}\\rangle \\overrightarrow{{a}_{0}} = \\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle \\overrightarrow{{a}_{0}} + \\left| \\overrightarrow{c}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{c}\\rangle \\overrightarrow{{a}_{0}} &  \\\\ = \\left( {\\left| \\overrightarrow{b}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  + \\left| \\overrightarrow{c}\\right| \\cos \\langle \\overrightarrow{a},\\overrightarrow{c}\\rangle }\\right) \\overrightarrow{{a}_{0}}, &  \\end{aligned}",
+      "after": "\\begin{aligned}\n&\\left|\\overrightarrow{b}+\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}+\\overrightarrow{c}\\rangle\\overrightarrow{a_0}\\\\\n&=\\left|\\overrightarrow{b}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}\\rangle\\overrightarrow{a_0}\n+\\left|\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{c}\\rangle\\overrightarrow{a_0}\\\\\n&=\\left(\\left|\\overrightarrow{b}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{b}\\rangle\n+\\left|\\overrightarrow{c}\\right|\\cos\\langle\\overrightarrow{a},\\overrightarrow{c}\\rangle\\right)\\overrightarrow{a_0}.\n\\end{aligned}",
+      "reason": "教参分配律推导按等号换行，数学含义不变",
+      "source": "teacher",
+      "source_lines": [
+        213
+      ]
+    },
+    {
+      "before": "证明 (1)的证明如下: ?",
+      "after": "证明 (1)的证明如下:",
+      "reason": "删除例4证明首句末尾孤立OCR问号",
+      "source": "book",
+      "source_lines": [
+        653
+      ]
+    },
+    {
+      "before": "6.27.",
+      "after": "6. $27$.",
+      "reason": "教参A组第6题分开题号与答案，不改数值",
+      "source": "teacher",
+      "source_lines": [
+        496
+      ]
+    },
+    {
+      "before": "4.10.",
+      "after": "4. $10$.",
+      "reason": "教参B组第4题分开题号与答案，不改数值",
+      "source": "teacher",
+      "source_lines": [
+        520
+      ]
+    },
+    {
+      "before": "$\\overrightarrow{AB}$ . $\\overrightarrow{AC} =$",
+      "after": "$\\overrightarrow{AB} \\cdot \\overrightarrow{AC} =$",
+      "reason": "B组第5题恢复数量积点，不把点积断成两段公式",
+      "source": "book",
+      "source_lines": [
+        799
+      ]
+    },
+    {
+      "before": "$\\overrightarrow{a} \\cdot  \\overrightarrow{b} = \\overrightarrow{b}$ . $\\overrightarrow{c} = \\overrightarrow{c} \\cdot  \\overrightarrow{d} = \\overrightarrow{d} \\cdot  \\overrightarrow{a}$",
+      "after": "$\\overrightarrow{a} \\cdot \\overrightarrow{b} = \\overrightarrow{b} \\cdot \\overrightarrow{c} = \\overrightarrow{c} \\cdot \\overrightarrow{d} = \\overrightarrow{d} \\cdot \\overrightarrow{a}$",
+      "reason": "B组第8题恢复数量积点及连续等式",
+      "source": "book",
+      "source_lines": [
+        805
+      ]
+    }
+  ],
+  "coverage": {
+    "ranges": {
+      "book": [
+        481,
+        806
+      ],
+      "teacher": [
+        174,
+        270
+      ]
+    },
+    "missing_substantive_lines": {
+      "book": [],
+      "teacher": []
+    },
+    "boundary": "教材标题重建为网页语义层级；旁注549与729分别归入相应例题之后；例题图按配对清单就近放置。"
+  }
+}

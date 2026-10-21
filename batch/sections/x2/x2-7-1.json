@@ -1,0 +1,880 @@
+{
+  "schema_version": 1,
+  "id": "x2-7-1",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "7",
+  "chapter_title": "第7章概率初步(续)",
+  "section": "7.1",
+  "title": "条件概率与相关公式",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md": "f24bb495b492c1d6617e45d97bc2a42951ca4d7710507fb3bb77280f2c88505c",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "条件概率与相关公式",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 3,
+          "end": 3
+        }
+      ],
+      "id": "x2-7-1",
+      "number": "7.1",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "章导语",
+      "markdown": "# 概率初步(续)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1,
+          "end": 2
+        }
+      ]
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 本章概述",
+      "markdown": "## 一、本章概述\n\n### 总体要求\n\n本章是必修第 12 章“概率初步”的延续, 将进一步学习概率的相关知识, 包括随机事件的条件概率与相关的公式、随机变量及其分布列、正态分布等.\n\n本章主要学习条件概率与相关公式、随机变量的分布与特征、常用分布. 总体意图是通过具体实例, 进一步介绍概率中的一些重要概念及计算概率的条件概率公式与全概率公式等, 帮助学生了解条件概率及其与独立性的关系, 以及全概率公式, 能进行简单计算, 进一步认识概率的直观含义; 学习随机变量的概念及其分布, 以及它们的期望与方差, 感悟随机变量及其分布的含义, 知道可以通过随机变量更好地刻画随机现象; 了解几个重要的概率模型及其分布, 理解伯努利试验, 掌握二项分布, 了解超几何分布; 感悟服从正态分布的随机变量; 基于随机变量及其分布解决简单的实际问题.\n\n本章涉及的重要概念有:条件概率 (条件概率公式、概率的乘法公式、全概率公式、次列叶斯公式),随机变量(随机变量的分布、伯努利分布、期望、期望的线性性质、方差、方差的性质), 分布 (二项分布、超几何分布、正态分布).\n\n内容包括:随机事件的条件概率、全概率公式、随机变量及其分布列、正态分布.\n\n(1)随机事件的条件概率\n\n① 结合古典概型,了解条件概率的概念,能计算简单随机事件的条件概率.\n\n\n② 结合古典概型,了解条件概率与独立性的关系.\n\n③ 结合古典概型,会利用乘法公式计算概率.\n\n④ 结合古典概型,会利用全概率公式计算概率.\n\n⑤ *了解贝叶斯公式.\n\n(2)随机变量及其分布列\n\n① 通过具体实例, 了解随机变量的概念, 理解随机变量分布及其数字特征 (期望、方差).\n\n② 通过具体实例,了解伯努利试验,掌握二项分布及其数字特征,并能解决简单的实际问题.\n\n③ 通过具体实例, 了解超几何分布及其期望, 并能解决简单的实际问题.\n\n(3)正态分布\n\n① 通过误差模型,了解服从正态分布的随机变量. 通过具体实例,借助频率直方图的几何直观,了解正态分布的特征.\n\n② 了解正态分布的期望、方差及其含义.\n\n### 课时安排建议\n\n本章的课时安排建议为 $8 + 1 + 1$ ,共计 10 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan=\"3\">7.1 条件概率与相关公式</td><td rowspan=\"3\">3</td><td>条件概率 1 课时</td></tr><tr><td>全概率公式 1 课时</td></tr><tr><td>*贝叶斯公式 1 课时</td></tr><tr><td rowspan=\"3\">7.2 随机变量的分布与特征</td><td rowspan=\"3\">3</td><td>随机变量与分布 1 课时</td></tr><tr><td>期望 1 课时</td></tr><tr><td>方差 1 课时</td></tr><tr><td rowspan=\"3\">7.3 常用分布</td><td rowspan=\"3\">3</td><td>二项分布 1 课时</td></tr><tr><td>超几何分布 1 课时</td></tr><tr><td>正态分布 1 课时</td></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容共分为三节, 分别是 7.1 条件概率与相关公式, 7.2 随机变量的分布与特征, 7.3 常用分布.\n\n本章内容对于学生来说,学习难度较大. 在古典概率模型中,事件 $A$ 发生之后, 随机现象的结果就剩下事件 $A$ 中的基本事件,从而事件 $A$ 变成了由这些基本事件所构成的新的样本空间. 这个样本空间仍然是等可能的,这时事件 $B$ 发生的概率就称为事件 $B$ 基于条件 $A$ 的概率,或在事件 $A$ 发生的条件下事件 $B$ 发生的概率,或已知事件 $A$ 发生,事件 $B$ 发生的概率. 这称为条件概率,记为 $P\\left( {B \\mid  A}\\right)$ . 如果事件 $A$ 与 $B$ 相互独立,就有 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right)$ ,从而 $P\\left( {B \\mid  A}\\right)  = P\\left( B\\right)$ ,说明在两个事件独立的情况下, 条件概率等于概率. 反之, 若条件概率等于概率, 则两个事件是独立的.\n\n全概率公式是概率论中最基本、最重要的公式之一, 其内涵丰富, 应用广泛, 蕴含了化整为零、化复杂为简单的数学思想. 将一个复杂事件的概率分解成若干个简单事件的概率之和,即指一个事件 $A$ 发生的概率 $P\\left( A\\right)$ 是其在不同条件下发生的概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的加权平均. 这样,如果能掌握一个事件的全部信息,就可以计算出一个客观概率 (古典概率). 然而, 生活中绝大多数决策所面临的信息是不完全的, 如果手中只有有限而不完整的信息, 我们就要在此情况下尽可能作出一个好的预测. 换言之, 可以先在主观判断的基础上估计一个值, 然后根据观察到的新信息不断修正. 贝叶斯公式就是当已知某个事件发生时,问导致这个结果的第 $i$ 个原因出现的可能性是多少,即执果索因.\n\n随机变量与函数都是一种对应关系. 随机变量是把试验结果对应为实数,而函数是把实数对应为实数. 随机试验的样本空间就是随机变量作为一个函数的定义域, 随机变量的取值范围相当于函数的值域. 把随机现象的结果数量化, 即用数值表示随机现象的结果, 就可以用常见的数学工具来研究这些随机现象. 期望是概率论和数理统计中的重要概念之一, 反映了随机变量取值分布的特征, 学习期望将为今后学习概率统计知识作铺垫,同时,它在市场预测、经济统计、风险与决策等领域有着广泛的应用, 对今后学习数学及相关学科会产生深远的影响.\n\n本章通过一些比较简单的具体实例来引入相关概念及公式, 由浅入深, 尽量使学生易于接受及理解. 采用娓娓道来的方式讲述有关的知识点, 注重逻辑推理, 力求让学生更好地体会数学概念, 体验数学的严谨性, 注重对学生数学素养的培养. 教材内容的呈现坚持从实例出发,每节内容中都设置熟悉的情境引入,重视使用生活实例, 通过朴素直白的叙述,使看起来困难的内容简洁明晰,力求明白易懂,并通过启发性的问题引发思考, 自然地展现知识与方法的产生、形成与发展过程. 例如: (1)在学习条件概率时,假设一个袋子里装有大小与质地相同的 2 个黑球、3 个白球, 两人依次随机不放回地摸 1 个球,可知第一个人摸到白球的概率为 $\\frac{3}{5}$ ,问:第二个人摸到白球的概率是多少? 有的人会认为: 如果第一个人摸到的是白球, 那么剩下的白球还有 2 个,第二个人摸到白球的概率应是 $\\frac{1}{2}$ ; 而如果第一个人摸到的是黑球,那么剩下的白球还有 3 个,第二个人摸到白球的概率应是 $\\frac{3}{4}$ . 这就必然使学生产生疑惑, 从而引发进一步的思考. (2)在学习全概率公式时,以三个供应商供货产品的优良率来计算总体的优良率, 从而提出全概率公式, 并通过例 3 的学习, 指出这正应用了全概率公式的思想: 全概率公式是概率的可加性与概率乘法公式的组合. (3)在学习随机变量时,先提出在许多情况下,可以利用数来表示随机现象的结果, 然后给出生活中的 5 个实例, 以解释随机变量. (4) 在学习期望时, 问: 掷一颗骰子, 掷得点数的期望是 3.5, 甚至不是一个整数, 那么, 期望到底有什么意义呢? (5) 在学习方差时指出, 我们不仅能够时刻感知无处不在的随机性, 还能够感知随机性的大小. 一般来说, 如果某事件发生的可能性很大或者很小, 它的随机性就相对较小.\n\n本章例题设计多以题组的形式给出, 力求在问题变式中辨析, 在比较中获得认知. 例题与练习或习题配套呈现, 习题是例题的延伸与推广, 是学习理解例题的逐步深化, 由此可体会巧妙处理特殊性与一般性的关系在解决问题中的科学思维方式.\n\n本章内容的编写紧扣课程标准, 内容的呈现符合学生的认知规律, 知识的发生、 发展遵循从具体到抽象、从特殊到一般的规律, 符合学生学习实际, 能促进学生数学思维能力的提高. 教材内容的表述自然、清晰,具有较强的可读性.\n\n### 教学提示\n\n内容编排按照课程标准的要求,体现教育性及科学性,注意培养学生数学抽象、 数学运算、数学建模、数据分析等核心素养, 提升学生的理解能力和运算能力.\n\n教师应通过典型案例开展教学活动, 案例的情境应是丰富的、有趣的、学生熟悉的. 在案例教学中要重视过程, 层次清楚地体现从具体到抽象、从实际到理论的过程.\n\n教学中, 应引导学生通过具体实例, 理解可以用随机变量更好地刻画随机现象, 感悟随机变量与随机事件的关系; 理解随机事件独立性与条件概率之间的关系; 通过二项分布、超几何分布、正态分布的学习, 理解随机变量及其分布. 在教学过程中, 应在引导学生利用所学知识解决一些实际问题的基础上, 适当进行严格、准确的描述.\n\n### 评价建议\n\n在终结性评价中, 关注对基础知识、基本方法的掌握, 要能够结合具体实例, 理解随机事件的独立性和条件概率的关系, 理解随机变量在描述随机现象中的作用, 掌握两个基本概率模型及其应用, 了解正态分布的作用, 进一步深入理解随机思想在解决实际问题中的作用.\n\n在过程性评价中, 关注理解概念、提升能力、培育素养. 重点提升数据分析、数学建模、数学运算和数学抽象等方面的素养.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 22,
+          "end": 96
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "##### 7.1 条件概率与相关公式\n\n### 教学重点\n\n(1)结合古典概型,了解条件概率；\n\n(2)能计算简单随机事件的条件概率；\n\n(3)会利用乘法公式计算概率；\n\n(4)会利用全概率公式计算概率；\n\n(5)*了解贝叶斯公式.\n\n核心概念: 条件概率、条件概率公式、全概率公式.\n\n核心素养:数学抽象、数学运算.\n\n### 内容分析\n\n本节旨在通过具体实例, 进一步介绍概率中的一些重要概念及计算概率的条件概率公式、全概率公式等, 进一步揭示概率的直观含义.\n\n(1)条件概率. 在事件 $A$ 发生的条件下,事件 $B$ 发生,试验结果必须是既在 $A$ 中又在 $B$ 中的事件,即必须属于 $A \\cap  B$ ,这等于是在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率. 于是,条件概率 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ . 将该式的分子、 分母都除以 $\\left| \\Omega \\right|$ ,就得到 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ . 这是一个以古典概率模型为前提所得到的公式,但其思想方法可以推广.\n\n(2)概率的乘法公式. 事件 $A\\text{、}B$ 同时发生的概率等于 $A$ 发生的概率与在 $A$ 发生的条件下 $B$ 发生的概率的乘积,即 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right)$ . 从样本空间的角度看,求 $P\\left( {A \\cap  B}\\right)$ 时,是在原来的样本空间 $\\Omega$ 中进行讨论的. 而求 $P\\left( {B \\mid  A}\\right)$ 时,由于已经知道事件 $A$ 发生,所考虑的样本空间就不是 $\\Omega$ 而是 $A$ 了. 因此,事件“ $A \\cap  B$ ”与事件“ $B \\mid  A$ ” 是完全不同的事件,它们之间的联系由乘法公式揭示.\n\n(3)全概率公式. 把样本空间 $\\Omega$ 分成 $n$ 个两两不同时发生(两两互斥)的事件 ${\\Omega }_{1}$ , ${\\Omega }_{2},\\cdots ,{\\Omega }_{n}$ ,即 $\\Omega  = {\\Omega }_{1} \\cup  {\\Omega }_{2} \\cup  \\cdots  \\cup  {\\Omega }_{n}$ ,且当 $i \\neq  j$ 时有 ${\\Omega }_{i} \\cap  {\\Omega }_{j} = \\varnothing$ . 这样就可以将一个复杂事件的概率分解成若干个简单事件的概率之和,即指一个事件 $A$ 发生的概率 $P\\left( A\\right)$ 是其在不同条件下发生的概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的加权平均,其中条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的权重为 $P\\left( {\\Omega }_{k}\\right) , k = 1,2,\\cdots , n$ ,即成立 $P\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right)$ ,这是一个简单直观的重要公式.\n\n例 4 回答了日常生活中抽签时抽到好签的概率是否与抽签顺序有关的问题.\n\n(4)*贝叶斯公式. 贝叶斯公式为利用搜集到的信息对原有判断进行修正提供了有效的手段. 在贝叶斯公式及其变形中, $P\\left( {{\\Omega }_{i} \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right) }{P\\left( A\\right) } = P\\left( {\\Omega }_{i}\\right)$ . $\\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) }{P\\left( A\\right) }$ . 对于任意给定的 $i$ 来说, $P\\left( {\\Omega }_{i}\\right)$ 称为事件 ${\\Omega }_{i}$ 的先验概率. 一个已经发生了的事件 $A$ 可以看作一个新的信息,在 $A$ 发生的条件下, ${\\Omega }_{i}$ 发生的概率 $P\\left( {{\\Omega }_{i} \\mid  A}\\right)$ 可以看作对原概率 $P\\left( {\\Omega }_{i}\\right)$ 的一个矫正,称为后验概率. 贝叶斯公式提供了一种通过不断学习经验来认识随机现象的思想, 是机器学习的理论基础之一.\n\n通常,在事件 $B$ 发生的条件下发生事件 $A$ 的概率,与在事件 $A$ 发生的条件下发生事件 $B$ 的概率是不一样的. 然而,这两者具有确定的关系,贝叶斯公式就是对这种关系的陈述,即成立 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  B}\\right) P\\left( B\\right) }{P\\left( A\\right) }$ .\n\n例 1、例 2 旨在帮助学生理解条件概率,并直接运用条件概率公式求解. 练习 7.1 (1)的第 1、3 题旨在辨析条件概率以及两个事件同时发生的概率,习题 7.1A 组第 1、 2 题是对这两道例题的巩固.\n\n例 3 是为了说明全概率公式的直观意义, 在没有给出公式之前, 启发学生能自主获得.\n\n例 4 以特殊事例进行建模, 通过应用全概率公式计算, 说明抽签的结果与抽签顺序无关. 教学中, 还可以继续证明第四、第五个人摸到白球的概率, 使学生透彻理解抽签时抽到好签的概率与抽签顺序无关.\n\n例 5 先厘清第一次摸球后黑球可能在 A 罐中, 也可能在 B 罐中, 进而分类讨论两种情况下的条件概率, 并应用全概率公式求解. 练习 7.1(2) 的第 2、3 题、习题 7.1A 组第 3、4 题是对该例题的巩固.\n\n例 6 以一个实际问题为背景, 求在检测呈阳性反应时, 该人患有这种疾病的条件概率, 而已知信息是患有这种疾病检测呈阳性反应的概率及不患有这种疾病检测呈阳性反应的概率. 建立典型的贝叶斯公式模型, 是后验概率对先验概率的一个矫正, 并在该例的基础上, 给出一般形式的贝叶斯公式.\n\n### 注意事项\n\n注意“求事件 $A$ 发生且事件 $B$ 发生的概率”与“已知事件 $A$ 发生,求事件 $B$ 发生的概率”两者的不同. 在实际问题中, 需注意分辨.\n\n如果事件 $A$ 是否发生对事件 $B$ 发生的概率没有影响,即 $P\\left( {B \\mid  A}\\right)  = P\\left( B\\right)$ ,就称两个事件 $A\\text{、}B$ 相互独立,并把这两个事件叫做相互独立事件.\n\n贝叶斯公式诱导出一种统计学观点, 也是哲学观点: 事件的概率可以根据出现的新信息来进行修正.\n\n### 教学建议\n\n计算条件概率通常有两种基本方法: 一是根据定义,得 $P\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }$ ; 二是改变样本空间,即在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率,得 $P\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }$ .",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 99,
+          "end": 154
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "![bo_d4slos3ef24c73be0qug_0_0_3_1654_1170_0.jpg](sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_0_0_3_1654_1170_0.jpg)\n\n本章作为概率初步 (必修课程第 12 章) 的续篇，将重点介绍条件概率、概率的乘法公式以及全概率公式. 条件概率表示所考察的事件在其他事件发生的条件下的概率, 是概率论中的一个重要概念. 由条件概率可以得到全概率公式和贝叶斯公式等重要公式, 它们是计算概率的重要方法, 并进一步展示了概率的直观含义. 本章还将介绍随机变量的概念及其分布, 以及它们的期望与方差, 最后简单地介绍几个重要而基本的概率模型与正态分布.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 4,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 条件概率",
+      "markdown": "### 1 条件概率",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 9,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "假设一个袋子里装有大小与质地相同的 2 个黑球、 3 个白球, 两人依次随机不放回地摸 1 个球, 可知第一个人摸到白球的概率为 $\\frac{3}{5}$ ,那么第二个人摸到白球的概率是多少呢? 第二个人摸到白球的概率是否与第一个人相同？有的人会认为:如果第一个人摸到的是白球, 那么剩下的白球还有 2 个, 第二个人摸到白球的概率应是 $\\frac{1}{2}$ ; 而如果第一个人摸到的是黑球,那么剩下的白球还有 3 个,第二个人摸到白球的概率应是 $\\frac{3}{4}$ . 人们必然会产生疑惑:第二个人摸到白球的概率究竟是多少？\n\n其实, 我们刚才所说的是两个不同意义的概率: 一个是以前讨论过的概率, 一个则是本章要介绍的条件概率. 我们知道, 一个事件发生的概率是该事件的一个属性, 它不会因为其他事件是否发生而改变. 但是我们可以谈论在其他事件发生的条件下, 该事件发生的概率. 这时候谈论的就是条件概率, 而不是原本的概率.\n\n从上面这个例子看,设事件 $A$ 是第一个人摸到白球,事件 $B$ 是第二个人摸到白球. 当 $A$ 发生之后,袋子里剩下 4 个球,其中 2 个白球、 2 个黑球. 这样, 对第二个摸球的人来说, 相应的随机现象就与第一个人摸球之前不同, 样本空间也不同了. 这时 $B$ 发生的概率是 $\\frac{1}{2}$ ,这是条件概率.\n\n什么是条件概率 (conditional probability)? 在古典概率模型中,事件 $A$ 发生之后,随机现象的结果就剩下事件 $A$ 中的基本事件,所以事件 $A$ 变成了由这些基本事件所构成的新的样本空间. 这个样本空间仍然是等可能的,这时事件 $B$ 发生的概率称为事件 $B$ 基于条件 $A$ 的概率,或在事件 $A$ 发生的条件下,事件 $B$ 发生的概率,或已知事件 $A$ 发生,事件 $B$ 发生的概率,记为 $P\\left( {B \\mid  A}\\right)$ . 事实上,这等于是在一个样本空间为 $A$ 的随机试验中,求事件 $A \\cap  B$ 发生的概率,即\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{\\left| A \\cap  B\\right| }{\\left| A\\right| }.\n$$\n\n---\n\n注意“求事件 $A$ 发生且事件 $B$ 发生的概率”与“已知事件 $A$ 发生,求事件 $B$ 发生的概率”两者的不同.\n\n---\n\n将上式的分子、分母同时除以 $\\left| \\Omega \\right|$ ,就得到条件概率公式: 在事件 $A$ 发生的条件下,事件 $B$ 发生的概率是\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) }.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 10,
+          "end": 34
+        }
+      ],
+      "emphases": [
+        {
+          "start": 594,
+          "end": 895,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-7-1-definition-6-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1058,
+          "end": 1228,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x2-7-1-formula-6-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 掷一颗骰子并观察出现的点数. 已知出现的点数不超过 3 ，求出现的点数是奇数的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 35,
+          "end": 36
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 35,
+          "end": 36
+        }
+      ],
+      "id": "x2-7-1-ex-1",
+      "category": "例题",
+      "answer": "解 设事件 $A$ 表示“出现的点数不超过 3 ”，事件 $B$ 表示“出现的点数是奇数”. 题目所求概率是事件 $A$ 发生的条件下,事件 $B$ 发生的概率,也就是求 $P\\left( {B \\mid  A}\\right)$ . 因为 $A = \\{ 1,2,3\\} , B = \\; \\{ 1,3,5\\}$ ,所以 $A \\cap  B = \\{ 1,3\\}$ ,从而 $P\\left( {A \\cap  B}\\right)  = \\frac{2}{6}$ . 因此\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) } = \\frac{\\frac{2}{6}}{\\frac{3}{6}} = \\frac{2}{3}.\n$$\n\n如果已知相应的条件概率, 那么就可以计算两事件同时发生的概率: 事件 $A\\text{ 、 }B$ 同时发生的概率等于 $A$ 发生的概率与在 $A$ 发生的条件下 $B$ 发生的概率的乘积,即\n\n$$\nP\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right) .\n$$\n\n这个公式称为概率的乘法公式.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 37,
+          "end": 50
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 一个罐子中有大小与质地相同的黑、白、红三个球, 不放回地摸球. 求:\n\n(1)在第一次没有摸到黑球的条件下，第二次也没有摸到黑球的概率;\n\n(2)两次都没有摸到黑球的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 51,
+          "end": 56
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 51,
+          "end": 56
+        }
+      ],
+      "id": "x2-7-1-ex-2",
+      "category": "例题",
+      "answer": "解 用 $A\\text{ 、 }B$ 分别表示第一次、第二次没有摸到黑球的事件.\n\n(1)第一个问题是计算条件概率. $A$ 发生之后,罐子中还有\n\n---\n\n前一个公式适用于古典概率模型, 后一个公式适用于所有的情况.\n\n---\n\n两个球, 且其中一个是黑球, 所以\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{1}{2}.\n$$\n\n(2)第二个问题是计算 $A\\text{ 、 }B$ 同时发生的概率. 已知 $P\\left( A\\right)  = \\frac{2}{3}, P\\left( {B \\mid  A}\\right)  = \\frac{1}{2}$ ,由概率的乘法公式,有\n\n$$\nP\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right)  = \\frac{2}{3} \\times  \\frac{1}{2} = \\frac{1}{3}.\n$$\n\n如果事件 $A$ 与 $B$ 独立,那么就有 $P\\left( {A \\cap  B}\\right)  = P\\left( A\\right) P\\left( B\\right)$ , 从而条件概率\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) } = \\frac{P\\left( A\\right) P\\left( B\\right) }{P\\left( A\\right) } = P\\left( B\\right) .\n$$\n\n这说明在两个事件独立的情况下，条件概率等于概率. 反之, 若条件概率等于概率, 则两个事件是独立的.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 57,
+          "end": 86
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 7.1(1)",
+      "markdown": "### 练习 7.1(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 87,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(1) · 1",
+      "markdown": "1. 一个家庭有两个孩子.\n\n(1)已知年龄大的是女孩，求年龄小的也是女孩的概率；\n\n(2)已知其中一个是女孩，求另一个也是女孩的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 89,
+          "end": 94
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 89,
+          "end": 94
+        }
+      ],
+      "id": "x2-7-1-p711-1",
+      "category": "练习7.1(1)",
+      "answer": "1. (1) $\\frac{1}{2}$ . (2) $\\frac{1}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 331,
+          "end": 332
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(1) · 2",
+      "markdown": "2. 掷一颗骰子,令事件 $A = \\{ 2,3,5\\} , B = \\{ 1,2,4,5,6\\}$ . 求 $P\\left( A\\right) \\text{ 、 }P\\left( B\\right)$ 、 $P\\left( {A \\cap  B}\\right)$ 及 $P\\left( {A \\mid  B}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 95,
+          "end": 96
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 95,
+          "end": 96
+        }
+      ],
+      "id": "x2-7-1-p711-2",
+      "category": "练习7.1(1)",
+      "answer": "2. $P\\left( A\\right)  = \\frac{1}{2}, P\\left( B\\right)  = \\frac{5}{6}, P\\left( {A \\cap  B}\\right)  = \\frac{1}{3}, P\\left( {A \\mid  B}\\right)  = \\frac{2}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 333,
+          "end": 334
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(1) · 3",
+      "markdown": "3. 在一个盒子中有大小与质地相同的 20 个球, 其中 10 个红球, 10 个白球. 两人依次不放回地各摸 1 个球, 求:\n\n(1)在第一个人摸出 1 个红球的条件下，第二个人摸出 1 个白球的概率；\n\n(2)第一个人摸出 1 个红球，且第二个人摸出 1 个白球的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 97,
+          "end": 102
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 97,
+          "end": 102
+        }
+      ],
+      "id": "x2-7-1-p711-3",
+      "category": "练习7.1(1)",
+      "answer": "3. (1) $\\frac{10}{19}$ . (2) $\\frac{5}{19}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 335,
+          "end": 336
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 全概率公式",
+      "markdown": "### 2 全概率公式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 103,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "全概率公式是指一个事件发生的概率是其在不同条件下发生概率的加权平均, 这是一个简单直观的重要公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 104,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 假设某产品的一个部件来自三个供应商，供货占比分别是 $\\frac{1}{2}\\text{ 、 }\\frac{1}{6}\\text{ 、 }\\frac{1}{3}$ ,而它们的良品率分别是 0.96、0.90、0.93 . 问:该部件的总体良品率是多少？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 107,
+          "end": 108
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 107,
+          "end": 108
+        }
+      ],
+      "id": "x2-7-1-ex-3",
+      "category": "例题",
+      "answer": "解 总体良品率显然不是三个良品率的简单平均, 而是与部件供应商的供货占比有关. 因此, 总体良品率为\n\n$$\n{0.96} \\times  \\frac{1}{2} + {0.90} \\times  \\frac{1}{6} + {0.93} \\times  \\frac{1}{3} = {0.48} + {0.15} + {0.31} = {0.94},\n$$\n\n即为这三个供应商良品率的加权平均, 而其中的权重就是供货占比.\n\n这正应用了全概率公式的思想. 设某个随机试验的结果可以分成 $n$ 种情况,即设样本空间 $\\Omega$ 可分成 $n$ 个两两不同时发生 (两两互斥)的事件 ${\\Omega }_{1},{\\Omega }_{2},\\cdots ,{\\Omega }_{n}$ ,即\n\n$$\n\\Omega  = {\\Omega }_{1} \\cup  {\\Omega }_{2} \\cup  \\cdots  \\cup  {\\Omega }_{n},\n$$\n\n且当 $i \\neq  j$ 时有 ${\\Omega }_{i} \\cap  {\\Omega }_{j} = \\varnothing$ . 因此有\n\n$$\n\\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {\\Omega }_{k}\\right)  = 1.\n$$\n\n一个事件 $A$ 的发生可以看作是在不同情况下分别发生,即成立\n\n$$\nA = \\left( {A \\cap  {\\Omega }_{1}}\\right)  \\cup  \\left( {A \\cap  {\\Omega }_{2}}\\right)  \\cup  \\cdots  \\cup  \\left( {A \\cap  {\\Omega }_{n}}\\right) .\n$$\n\n因此, 由概率的可加性和乘法公式, 得\n\n$$\nP\\left( A\\right)  = P\\left( {A \\cap  {\\Omega }_{1}}\\right)  + P\\left( {A \\cap  {\\Omega }_{2}}\\right)  + \\cdots  + P\\left( {A \\cap  {\\Omega }_{n}}\\right)\n$$\n\n$$\n= P\\left( {A \\mid  {\\Omega }_{1}}\\right) P\\left( {\\Omega }_{1}\\right)  + P\\left( {A \\mid  {\\Omega }_{2}}\\right) P\\left( {\\Omega }_{2}\\right)  + \\cdots  + P\\left( {A \\mid  {\\Omega }_{n}}\\right) P\\left( {\\Omega }_{n}\\right) .\n$$\n\n于是我们得到全概率公式\n\n$$\nP\\left( A\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right) .\n$$\n\n所以 $P\\left( A\\right)$ 实际上是条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的加权平均,而条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 的权重为 $P\\left( {\\Omega }_{k}\\right) , k = 1,2,\\cdots , n$ .\n\n全概率公式是计算概率的一种重要方法. 现在我们用它来回答抽签时抽到好签的概率是否与抽签顺序有关的问题.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 109,
+          "end": 154
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 证明: 在抽签的时候, 抽到好签的概率与抽签顺序没有关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 155,
+          "end": 156
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 155,
+          "end": 156
+        }
+      ],
+      "id": "x2-7-1-ex-4",
+      "category": "例题",
+      "answer": "解 抽签的方式有两种:放回与不放回. 放回的情况很简单, 因为每次的结果是相互独立的, 所以当然与顺序无关. 对于不放回的情况, 我们用前面不放回摸球的例子来说明.\n\n假设一个袋子中装有大小与质地相同的 3 个白球、 2 个黑球, 5 个人依次不放回地摸球, 下面证明每个人摸到白球的概率都是 $\\frac{3}{5}$ .\n\n用事件 $A$ 表示第一个人摸到白球,事件 $B$ 表示第二个人摸到白球. 显然, $P\\left( A\\right)  = \\frac{3}{5}$ . 第二个人摸球的时候有两种可能的情况:一种是 $A$ 发生，即第一个人摸到白球，这时袋子中剩有 2 白2黑; 另一种是 $A$ 没有发生，即第一个人摸到黑球，这时袋子中剩有 3 白 1 黑. 在第一种情况下,条件概率为 $P\\left( {B \\mid  A}\\right)  = \\; \\frac{2}{4}$ ; 而在第二种情况下,条件概率为 $P\\left( {B \\mid  \\bar{A}}\\right)  = \\frac{3}{4}$ . 由于上述两种情况发生的概率分别是 $\\frac{3}{5}$ 和 $\\frac{2}{5}$ ,因此可以直观地看出 $B$ 发生的概率应该是两个条件概率的加权平均, 即\n\n$$\nP\\left( B\\right)  = \\frac{2}{4} \\times  \\frac{3}{5} + \\frac{3}{4} \\times  \\frac{2}{5} = \\frac{12}{20} = \\frac{3}{5},\n$$\n\n---\n\n全概率公式是概率的可加性与乘法公式的组合.\n\n我们经常简单地说“抽签与顺序无关”，实际上是指抽到什么签的可能性与顺序无关.\n\n---\n\n其值与 $P\\left( A\\right)$ 相等.\n\n第三个人摸球，记他摸到白球的事件为 $C$ ，其概率是多少呢? 前面两个人摸球会产生四种可能的情况:\n\n$$\n{\\Omega }_{1} = A \\cap  B,{\\Omega }_{2} = A \\cap  \\bar{B},{\\Omega }_{3} = \\bar{A} \\cap  B,{\\Omega }_{4} = \\bar{A} \\cap  \\bar{B}.\n$$\n\n用乘法公式, 这四种情况发生的概率分别是\n\n$$\n\\frac{3}{5} \\times  \\frac{2}{4} = \\frac{6}{20},\\frac{3}{5} \\times  \\frac{2}{4} = \\frac{6}{20},\\frac{2}{5} \\times  \\frac{3}{4} = \\frac{6}{20},\\frac{2}{5} \\times  \\frac{1}{4} = \\frac{2}{20}.\n$$\n\n例如,\n\n$$\nP\\left( {\\Omega }_{2}\\right)  = P\\left( {A \\cap  \\bar{B}}\\right)  = P\\left( A\\right) P\\left( {\\bar{B} \\mid  A}\\right)  = \\frac{3}{5} \\times  \\frac{2}{4} = \\frac{6}{20},\n$$\n\n其余同理. 在这四种情况下, 袋子中剩下的黑、白球的个数分别是: 1 白 2 黑、 2 白 1 黑、 3 白 0 黑,因此事件 $C$ 的条件概率分别是 $\\frac{1}{3}\\text{ 、 }\\frac{2}{3}\\text{ 、 }\\frac{2}{3}\\text{ 、 }1$ . 再应用全概率公式,就推出\n\n$$\nP\\left( C\\right)  = \\mathop{\\sum }\\limits_{{k = 1}}^{4}P\\left( {C \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right)\n$$\n\n$$\n= \\frac{1}{3} \\times  \\frac{6}{20} + \\frac{2}{3} \\times  \\frac{6}{20} + \\frac{2}{3} \\times  \\frac{6}{20} + 1 \\times  \\frac{2}{20}\n$$\n\n$$\n= \\frac{36}{60} = \\frac{3}{5},\n$$\n\n其值仍与 $P\\left( A\\right)$ 相等.\n\n类似地,第四、第五个人摸到白球的概率仍然是 $\\frac{3}{5}$ ,也就是说, 摸到白球的概率与摸球的顺序无关.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 157,
+          "end": 212
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 设有两个罐子, $A$ 罐中放有 2 个白球、 1 个黑球, $B$ 罐中放有 3 个白球,这些球的大小与质地相同. 现在从两个罐子中各摸 1 个球并交换,求这样交换 2 次后,黑球还在 $A$ 罐中的概率.\n\n---\n\n请详细证明第四、 第五个人摸到白球的概率仍然是 $\\frac{3}{5}$ .\n\n---",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 213,
+          "end": 220
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 213,
+          "end": 220
+        }
+      ],
+      "id": "x2-7-1-ex-5",
+      "category": "例题",
+      "answer": "解 用 ${A}_{1}\\text{ 、 }{A}_{2}$ 分别表示事件交换 1 次、 2 次后黑球还在 $A$ 罐中. 易见 ${A}_{1}$ 相当于第一次摸球的时候没有摸到黑球,其概率为 $\\frac{2}{3}$ ,即 $P\\left( {A}_{1}\\right)  = \\frac{2}{3}$ . 第一次交换之后,有两种可能的情况: 一种是黑球在 $A$ 罐中,其概率是 $\\frac{2}{3}$ ; 另一种是黑球在 $B$ 罐中,其概率是 $\\frac{1}{3}$ . 由全概率公式\n\n$$\nP\\left( {A}_{2}\\right)  = P\\left( {{A}_{2} \\mid  {A}_{1}}\\right) P\\left( {A}_{1}\\right)  + P\\left( {{A}_{2} \\mid  {\\bar{A}}_{1}}\\right) P\\left( {\\bar{A}}_{1}\\right) ,\n$$\n\n其中 $P\\left( {{A}_{2} \\mid  {A}_{1}}\\right)$ 是已知黑球在 $A$ 罐中、再次交换后还在 $A$ 罐中的条件概率,它等于第二次没有摸到黑球的概率,是 $\\frac{2}{3}$ ; 类似地, $P\\left( {{A}_{2} \\mid  {\\bar{A}}_{1}}\\right)$ 是已知黑球在 $B$ 罐中、再次交换后又回到 $A$ 罐中的条件概率,它等于第二次摸到黑球的概率,是 $\\frac{1}{3}$ . 因此\n\n$$\nP\\left( {A}_{2}\\right)  = \\frac{2}{3} \\times  \\frac{2}{3} + \\frac{1}{3} \\times  \\frac{1}{3} = \\frac{5}{9}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 221,
+          "end": 232
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 7.1(2)",
+      "markdown": "### 练习 7.1(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 233,
+          "end": 233
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(2) · 1",
+      "markdown": "1. 公司库房中的某个零件的 70% 来自 A 公司，30% 来自 B 公司，两个公司的正品率分别是 ${95}\\%$ 和 ${90}\\%$ . 从库房中任取一个零件,求它是正品的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 235,
+          "end": 236
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 235,
+          "end": 236
+        }
+      ],
+      "id": "x2-7-1-p712-1",
+      "category": "练习7.1(2)",
+      "answer": "1. 0.935.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 339,
+          "end": 340
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(2) · 2",
+      "markdown": "2. 盒子中有大小与质地相同的 5 个红球和 4 个白球, 从中随机取 1 个球, 观察其颜色后放回, 并同时放入与其相同颜色的球 3 个, 再从盒子中取 1 个球. 求第二次取出的球是白色的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 237,
+          "end": 238
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 237,
+          "end": 238
+        }
+      ],
+      "id": "x2-7-1-p712-2",
+      "category": "练习7.1(2)",
+      "answer": "2. 设事件 $A$ 表示第一次取出的是白球,事件 $B$ 表示第二次取出的是白球,则 $P\\left( B\\right)  = P\\left( A\\right) P\\left( {B \\mid  A}\\right)  + P\\left( \\bar{A}\\right) P\\left( {B \\mid  \\bar{A}}\\right)  = \\frac{4}{9}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 341,
+          "end": 342
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(2) · 3",
+      "markdown": "3. 从一个放有大小与质地相同的 3 个黑球、2 个白球的袋子里摸出 2 个球并放入另外一个空袋子里, 再从后一个袋子里摸出 1 个球. 求该球是黑色的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 239,
+          "end": 240
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 239,
+          "end": 240
+        }
+      ],
+      "id": "x2-7-1-p712-3",
+      "category": "练习7.1(2)",
+      "answer": "3. $\\frac{3}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 343,
+          "end": 344
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "3 贝叶斯公式",
+      "markdown": "### 3 贝叶斯公式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 241,
+          "end": 241
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "全概率公式是利用条件概率 $P\\left( {A \\mid  {\\Omega }_{k}}\\right)$ 与权重 $P\\left( {\\Omega }_{k}\\right) \\; \\left( {k = 1,2,\\cdots , n}\\right)$ 来计算事件发生的概率 $P\\left( A\\right)$ . 在某些场合下, 我们也需要计算在 $A$ 发生的条件下 ${\\Omega }_{k}$ 发生的概率 $P\\left( {{\\Omega }_{k} \\mid  A}\\right) \\; \\left( {k = 1,2,\\cdots , n}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 242,
+          "end": 244
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 已知人群中有 5%的人患有一种严重的疾病，而已有的检测方法很繁琐, 也很昂贵. 某公司自称发明了一种方便且成本低廉的医学检测方法, 已知这种方法对患有这种疾病的人检测时, 90%呈阳性反应, 而对不患有这种疾病的人检测时, 有 5%的人呈阳性反应. 从这两个数据看, 这种方法似乎是不错的, 管理部门该怎么评价它的准确率？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 245,
+          "end": 246
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 245,
+          "end": 246
+        }
+      ],
+      "id": "x2-7-1-ex-6",
+      "category": "例题",
+      "answer": "解 首先要清楚什么是一个检测方法的准确率. 检测方法的准确率是指当一个人被检测呈阳性反应时, 他的确患有这种疾病的概率. 用事件 $B$ 表示一个人患有此疾病, $P\\left( B\\right)$ 就是患病率,并用事件 $A$ 来表示其检测呈阳性. 我们要计算条件概率 $P\\left( {B \\mid  A}\\right)$ . 由已知条件,患病率 $P\\left( B\\right)  = {0.05}$ ,患病者检测呈阳性的概率 $P\\left( {A \\mid  B}\\right)  = {0.9}$ ,非患病者检测呈阳性的概率 $P\\left( {A \\mid  \\bar{B}}\\right)  = {0.05}$ . 由全概率公式, 有\n\n$$\nP\\left( A\\right)  = P\\left( {A \\mid  B}\\right) P\\left( B\\right)  + P\\left( {A \\mid  \\bar{B}}\\right) P\\left( \\bar{B}\\right)\n$$\n\n$$\n= {0.9} \\times  {0.05} + {0.05} \\times  {0.95} = {0.0925}\\text{ . }\n$$\n\n再由条件概率公式及概率的乘法公式, 就得到\n\n$$\nP\\left( {B \\mid  A}\\right)  = \\frac{P\\left( {A \\cap  B}\\right) }{P\\left( A\\right) } = \\frac{P\\left( {A \\mid  B}\\right) P\\left( B\\right) }{P\\left( A\\right) } = \\frac{{0.9} \\times  {0.05}}{0.0925} = \\frac{18}{37}.\n$$\n\n这说明其准确率不到 $\\frac{1}{2}$ ,管理部门可由此断定这不是一个有效的检测方案.\n\n上面计算概率 $P\\left( {B \\mid  A}\\right)$ 的公式的一般形式称为贝叶斯公式, 即对 $i = 1,2,\\cdots , n$ ,成立\n\n$$\nP\\left( {{\\Omega }_{i} \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right) }{\\mathop{\\sum }\\limits_{{k = 1}}^{n}P\\left( {A \\mid  {\\Omega }_{k}}\\right) P\\left( {\\Omega }_{k}\\right) }.\n$$\n\n实际上, 由乘法公式得\n\n$$\nP\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right)  = P\\left( {A \\cap  {\\Omega }_{i}}\\right)  = P\\left( A\\right) P\\left( {{\\Omega }_{i} \\mid  A}\\right) ,\n$$\n\n因此\n\n$$\nP\\left( {{\\Omega }_{i} \\mid  A}\\right)  = \\frac{P\\left( {A \\mid  {\\Omega }_{i}}\\right) P\\left( {\\Omega }_{i}\\right) }{P\\left( A\\right) },\n$$\n\n再对分母应用全概率公式即推出贝叶斯公式.\n\n对于任意给定的 $i$ 来说, $P\\left( {\\Omega }_{i}\\right)$ 称为事件 ${\\Omega }_{i}$ 的先验概率 (prior probability). 一个已经发生了的事件 $A$ 可以看作一个新的信息. 在 $A$ 发生的条件下, ${\\Omega }_{i}$ 的概率 $P\\left( {{\\Omega }_{i} \\mid  A}\\right)$ 可以看作对原概率 $P\\left( {\\Omega }_{i}\\right)$ 的一个矫正,称为后验概率 (posterior probability).\n\n贝叶斯公式提供了一种通过不断学习经验来认识随机现象的思想, 是机器学习的理论基础之一.\n\n---\n\n贝叶斯公式诱导出一种统计学观点, 也是哲学观点: 事件的概率可以根据出现的新信息进行修正.\n\n---",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 247,
+          "end": 294
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 7.1(3)",
+      "markdown": "### 练习 7.1(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 295,
+          "end": 295
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(3) · 1",
+      "markdown": "1. 设某公路上经过的货车与客车的数量之比为 2 :1,货车中途停车修理的概率为 0.02，客车中途停车修理的概率为 0.01 . 今有一辆汽车中途停车修理，求该汽车是货车的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 297,
+          "end": 298
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 297,
+          "end": 298
+        }
+      ],
+      "id": "x2-7-1-p713-1",
+      "category": "练习7.1(3)",
+      "answer": "1. $\\frac{4}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 347,
+          "end": 348
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习7.1(3) · 2",
+      "markdown": "2. 已知在所有男子中有 5% 患有色盲症，在所有女子中有 0.25% 患有色盲症. 现随机抽取一人发现患有色盲症，问:其为男子的概率是多少？(设男子和女子的人数相等)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 299,
+          "end": 300
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 299,
+          "end": 300
+        }
+      ],
+      "id": "x2-7-1-p713-2",
+      "category": "练习7.1(3)",
+      "answer": "2. $\\frac{20}{21}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 349,
+          "end": 350
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 7.1",
+      "markdown": "### 习题 7.1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 301,
+          "end": 301
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 303,
+          "end": 303
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题7.1A · 1",
+      "markdown": "1. 掷一颗骰子所得的样本空间为 $\\Omega  = \\{ 1,2,3,4,5,6\\}$ . 令事件 $A = \\{ 2,3,5\\} , B = \\{ 1,2,4$ , 5,6\\}. 求 $P\\left( {B \\mid  A}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 305,
+          "end": 306
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 305,
+          "end": 306
+        }
+      ],
+      "id": "x2-7-1-h71A-1",
+      "category": "习题7.1A",
+      "answer": "1. $\\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 355,
+          "end": 356
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.1A · 2",
+      "markdown": "2. 将一枚质地均匀的硬币抛掷 2 次，设事件 $A$ 为 “第一次出现正面”，事件 $B$ 为 “第二次出现正面”. 求 $P\\left( {A \\mid  B}\\right)$ 与 $P\\left( {B \\mid  A}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 307,
+          "end": 308
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 307,
+          "end": 308
+        }
+      ],
+      "id": "x2-7-1-h71A-2",
+      "category": "习题7.1A",
+      "answer": "2. $\\frac{1}{2},\\frac{1}{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 357,
+          "end": 358
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.1A · 3",
+      "markdown": "3. 某工厂有四条流水线生产同一产品, 已知这四条流水线的产量分别占总产量的 15%、20%、30%和35%，又知这四条流水线的产品不合格率依次为 0.05、0.04、0.03 和 0.02 从该厂的这一产品中任取一件, 抽到不合格品的概率是多少?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 309,
+          "end": 310
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 309,
+          "end": 310
+        }
+      ],
+      "id": "x2-7-1-h71A-3",
+      "category": "习题7.1A",
+      "answer": "3. 0.031 5.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 359,
+          "end": 360
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.1A · 4",
+      "markdown": "4. 假设有两箱同种零件, 第一箱内装有 50 件, 其中 10 件为一等品; 第二箱内装有 30 件, 其中 18 件为一等品(两箱外观相同). 现从两箱中随意挑出一箱, 然后从该箱中先后随机地取出两个零件 (取出的零件不放回). 求先取出的零件是一等品的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 311,
+          "end": 312
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 311,
+          "end": 312
+        }
+      ],
+      "id": "x2-7-1-h71A-4",
+      "category": "习题7.1A",
+      "answer": "4. $\\frac{2}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 361,
+          "end": 362
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 313
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题7.1B · 1",
+      "markdown": "1. 设某种动物活到 20 岁的概率为 0.8 ，活到 25 岁的概率为 0.4 。现有一只 20 岁的该种动物, 它活到 25 岁的概率是多少?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 315,
+          "end": 316
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 315,
+          "end": 316
+        }
+      ],
+      "id": "x2-7-1-h71B-1",
+      "category": "习题7.1B",
+      "answer": "1.0.5.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 365,
+          "end": 366
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题7.1B · 2",
+      "markdown": "2. 袋中装有编号为 1 到 $N$ 的 $N$ 个球. 先从袋中任取一个球,若该球不是 1 号球,则放回袋中; 若是 1 号球, 则不放回, 然后再摸一次. 求第二次摸到 2 号球的概率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 317,
+          "end": 318
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 317,
+          "end": 318
+        }
+      ],
+      "id": "x2-7-1-h71B-2",
+      "category": "习题7.1B",
+      "answer": "2. 设事件 $A$ 表示第 1 次摸到 1 号球,事件 $B$ 表示第 2 次摸到 2 号球.\n\n$P\\left( B\\right)  = P\\left( {B \\mid  A}\\right) P\\left( A\\right)  + P\\left( {B \\mid  \\bar{A}}\\right) P\\left( \\bar{A}\\right)  = \\frac{1}{N - 1} \\cdot  \\frac{1}{N} + \\frac{1}{N} \\cdot  \\frac{N - 1}{N} = \\frac{{N}^{2} - N + 1}{{N}^{2}\\left( {N - 1}\\right) }.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 367,
+          "end": 370
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 5,
+      "original": "images/bo_d4slos3ef24c73be0qug_0_0_3_1654_1170_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_0_0_3_1654_1170_0.jpg",
+      "exists": true
+    }
+  ]
+}

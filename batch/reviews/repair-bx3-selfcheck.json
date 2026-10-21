@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "section": "bx3-10-1",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 1
+    },
+    {
+      "section": "bx3-10-3",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 0
+    },
+    {
+      "section": "bx3-12-1",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 0
+    },
+    {
+      "section": "bx3-12-3",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 1
+    },
+    {
+      "section": "bx3-chapter-end-12",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 0
+    },
+    {
+      "section": "bx3-13-1",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 1
+    },
+    {
+      "section": "bx3-13-2",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 0
+    },
+    {
+      "section": "bx3-13-3",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 0
+    },
+    {
+      "section": "bx3-13-5",
+      "block_ids_preserved": true,
+      "question_ids_preserved": true,
+      "image_occurrences_preserved": true,
+      "question_delta": 1
+    }
+  ],
+  "independent_enumerations": {
+    "13.5_example2_weighted_mean": 24.5,
+    "chapter12_B3_part1": "2/4",
+    "chapter12_B3_part2": "1/16"
+  },
+  "idempotent_replay": true,
+  "diagram_repair": {
+    "independent_source_images_viewed": 4,
+    "verified_assignments": {
+      "bx3-10-3-ex-1": "10-3-2",
+      "bx3-10-3-ex-2": "10-3-3",
+      "bx3-10-3-ex-6": "10-3-16",
+      "bx3-10-3-ex-7": "10-3-17"
+    },
+    "all_in_question_stems_with_captions": true,
+    "all_old_image_occurrences_preserved": true,
+    "proofs_kept_in_answers": true,
+    "idempotent_replay": true
+  },
+  "chapter12_B4_model_conflict": {
+    "formal_answer": "13/42",
+    "finite_population_feasibility": false,
+    "proof_disclosed": true
+  },
+  "example7_angle_boundary": {
+    "supplement_in_answer": true,
+    "original_answer_preserved_verbatim": true,
+    "theta_domain": "0<theta<pi/2 from oblique line definition",
+    "mu_domain": "0<mu<=pi/2",
+    "mu_right_angle_proved_separately": true,
+    "acute_mu_original_proof_preserved": true,
+    "idempotent_replay": true
+  }
+}

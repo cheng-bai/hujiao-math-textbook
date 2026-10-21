@@ -1,0 +1,376 @@
+{
+  "asset_id": "c91db546-7942-5cfc-9671-a45cef25e123",
+  "contributors": [
+    {
+      "name": "Codex deep-analysis implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "falsePositive": 5,
+      "prevalence": 1,
+      "sensitivity": 99
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-analysis",
+    "source_build_sha256": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x2-7-1-b23",
+          "rationale": "衔接逆向条件的教材段落与选学贝叶斯公式；保留原文，明确教师拓展属性。",
+          "retainProse": true,
+          "sectionId": "x2-7-1",
+          "sourceSha256": "87590ab1b423632b56be005ee0e3ed4e901aa174ce475f8e48d50a4a3b5ef915"
+        }
+      ],
+      "sections": [
+        "x2-7-1"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 26964,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913"
+    },
+    {
+      "bytes": 5276,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "5a68e4c822978df5e1995827fba78231c61f7385ca92ccd258c1b764a555be1f"
+    },
+    {
+      "bytes": 10543,
+      "media_type": "text/javascript",
+      "path": "source/deep-analysis.js",
+      "role": "source",
+      "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+    },
+    {
+      "bytes": 17486,
+      "media_type": "application/json",
+      "path": "source/deep-analysis.json",
+      "role": "source",
+      "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+    },
+    {
+      "bytes": 6615,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-analysis.mjs",
+      "role": "source",
+      "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 5364,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "67cd1f836a084927b223bd173ed93ace3caea8b338663f5ae56e92cc61b1fd23"
+    },
+    {
+      "bytes": 7430,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "9ca2bdd5260ad1e0710afa21d89750f503bc4c8302debf8c023129313fef4498"
+    },
+    {
+      "bytes": 1065,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "e49f69609e726a999d0fe3b43e8ec15966c044e0029b0d59e719fedd4df3db96"
+    },
+    {
+      "bytes": 3186,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "12681477830e83d1acf9f843292438df7975faefa0bdc4bff6efe6cb4a30f930"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "83361f541f98a95dfe0b5277eaf1169b5858aee48adcc2326338948a2f778d33"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 526,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "e68681fca6c75fe6512bd8ccadc1b05cd76155c78840c073f21ffda4ebcc0365"
+    },
+    {
+      "bytes": 153982,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "327e398f13d7bc8cfcd7ee646988f048a85c073b08e02cb0dad951d30f188222"
+    },
+    {
+      "bytes": 102860,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "226415466363de3025d8a96a61f236637b433895e3bf60f4944bb7b0dffdc5f1"
+    },
+    {
+      "bytes": 198477,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "8ed6c420e0993f4069beae34820d0b83e7f6bfaeb071a5e36cf19617655abbcd"
+    },
+    {
+      "bytes": 102860,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "226415466363de3025d8a96a61f236637b433895e3bf60f4944bb7b0dffdc5f1"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "eb808b13b9e6773626c4d84a150b60636a4e7db3b47e7eec04ced84562bd6b20"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "教师选学拓展。记 D 为患病，+ 为阳性，患病率为 p，模型检出率为 s，模型误报率为 q。10000人模型中，真阳性期望数为10000ps，假阳性为10000(1−p)q。只看阳性者时，分母为两者之和；因此在 ps+(1−p)q>0 时，P(D|+)=ps/[ps+(1−p)q]。这由条件概率和全概率公式得到，不是把P(+|D)直接倒过来。P(+|D)=s 还要求 p>0；p=0时该条件概率未定义，s仅保留为模型参数；p=1时误报率的条件群体同样为空。频数全部为模型期望数，可能不是整数，非一次实测人数。树形框与连线不按人数比例，底部阳性构成条按真实比例绘制；结论不依赖画面面积的猜测。"
+    ],
+    "learning_goals": [
+      "用10000人的期望频数追踪真正的分母，区分检出率与阳性者中实际患病的概率。"
+    ],
+    "objects": [
+      "检出率不变，阳性者的判断为什么会变"
+    ],
+    "parameters": {
+      "falsePositive": {
+        "default": 5,
+        "display_range": [
+          0,
+          100
+        ],
+        "domain": "本实验允许输入范围 [0, 100]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "prevalence": {
+        "default": 1,
+        "display_range": [
+          0,
+          100
+        ],
+        "domain": "本实验允许输入范围 [0, 100]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "sensitivity": {
+        "default": 99,
+        "display_range": [
+          0,
+          100
+        ],
+        "domain": "本实验允许输入范围 [0, 100]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-analysis"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "用10000人的期望频数追踪真正的分母，区分检出率与阳性者中实际患病的概率。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "falsePositive": 5,
+          "prevalence": 1,
+          "sensitivity": 99
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "bayes-base-rate",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "falsePositive": {
+        "maximum": 100,
+        "minimum": 0,
+        "type": "number"
+      },
+      "prevalence": {
+        "maximum": 100,
+        "minimum": 0,
+        "type": "number"
+      },
+      "sensitivity": {
+        "maximum": 100,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "检出率不变，阳性者的判断为什么会变",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:41Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-analysis.js",
+          "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+        },
+        {
+          "path": "source/deep-analysis.json",
+          "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+        },
+        {
+          "path": "source/test-deep-analysis.mjs",
+          "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840129Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840129Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.714522Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "544fcd9e0eaea34c10d3e76d50058e786b190047987c1f66f91a35d713624913"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "5a68e4c822978df5e1995827fba78231c61f7385ca92ccd258c1b764a555be1f"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

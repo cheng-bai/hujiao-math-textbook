@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-chapter-end-3",
+  "book_id": "bx1",
+  "section": "chapter-end-3",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx1/bx1-chapter-end-3.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-chapter-end-3",
+  "fingerprint": "0d95dd797ba613f213a998bea5d19bf49b0c756ccc9ab96e46587fd9dcef1180",
+  "status": "rendered",
+  "questions": 13,
+  "answers": 13,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-ea9fa1af4ad30f45abd4.jpg": {
+      "source": "sources/textbooks/必修第一册/第3章幂、指数与对数/images/bo_d4slo93ef24c73be0qag_16_1041_1541_429_293_0.jpg",
+      "sha256": "ea9fa1af4ad30f45abd499cc47582842e41a3a6601ee0cbdb5e5b18e4781273e",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第3章幂、指数与对数/第3章幂、指数与对数-dollar.md": "d394a7f7209c6c834e01e3ac4fba011e664ec3bc8bac15e701a8f4df10a9b5b4",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/03 必修第一册 第3章 幂、指数与对数.md": "4a5cfac9de1c0cb9f62c13cc400a175dce09818823b153d80a506bbd7ecfd68c"
+  },
+  "student_images": [
+    "images/book-ea9fa1af4ad30f45abd4.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "047bc4fa724265dee5b884c4698585d8d1a28322cd8f2d4d3f506998e824f5ea",
+    "student.html": "d2d07a6d42e97c2eb299c9de095270728ea5673c3da6ab8dc2948994ede203ae",
+    "student.zip": "c5aca4fae9cbca7c35e9ffdf47b9e962e77120b22f614fb3ffaa9f3affc96650",
+    "content.json": "05b171bbcf38a03cd9c7accd8937f1f16e14d0e9573c606f790def1869af7795"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "controls": [
+    {
+      "key": "spread",
+      "label": "概率质量向两端移动",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>=</mo><munderover><mo>∑</mo><mi>i</mi><mi>n</mi></munderover><msub><mi>x</mi><mi>i</mi></msub><msub><mi>p</mi><mi>i</mi></msub><mo>;</mo><mi>D</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>=</mo><munderover><mo>∑</mo><mi>i</mi><mi>n</mi></munderover><msup><mrow><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup><msub><mi>p</mi><mi>i</mi></msub></math>",
+  "goal": "移动离散分布各概率质量，观察期望和方差如何联动。",
+  "id": "distribution-moments",
+  "initial": {
+    "spread": 0.4
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-7-2-b11",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "x2-7-2"
+    }
+  ],
+  "summary": "E(X)=Σxᵢpᵢ 是概率加权中心；D(X)=Σ(xᵢ−E(X))²pᵢ 衡量围绕中心的平方离散。",
+  "title": "概率质量的重心与离散"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_body_lines_preserved": true,
+  "source_fragments": 260,
+  "examples_recounted": 16,
+  "questions_recounted": 80,
+  "answer_under_correct_heading": 80,
+  "images_hashed": 34,
+  "source_unchanged": 2,
+  "limits": [
+    "未完整数学审校",
+    "未Obsidian界面验证"
+  ],
+  "review_status": "第二遍自查通过，未另做子agent复核"
+}

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="teacher" data-section-id="bx3-12-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>12.1 随机现象与样本空间 · 教师整合版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-bx3.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="../index.html">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第三册 / 第12章概率初步</div><div class="spine-number">12.1</div><nav aria-label="本节目录"><a href="#bx3-12-1"><span>12.1</span>随机现象与样本空间</a></nav><div class="sidebar-foot">沪教数学讲义<br>教师阅读 / 备课</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">教师阅读 <span class="subtle">/ 12.1</span></span><div class="controls"><button id="answer-toggle" aria-pressed="false">隐藏全部答案</button><button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 12.1</div><p class="edition">教师整合版 / 沪教版高中数学</p><h1>随机现象与样本空间<span class="cover-dot">.</span></h1><p class="cover-deck">必修第三册<br>第12章概率初步 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>4 个例题</span><span>12 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="bx3-12-1" data-title="随机现象与样本空间"><section class="section-heading" id="bx3-12-1"><span class="section-number">12.1</span><div><h2>随机现象与样本空间</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="aacbf388c89cf08850b498fdfa02a736b6a963275c91f5a79d2b4cd9ffeba01b" id="bx3-12-1-b1"><h1>概率初步</h1>
+<p><img src="images/book-4135bbf5a9c4f7280488.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>随机现象无处不在, 且与我们的生活息息相关. 它看似没有规律, 但实际上隐含着深刻的规律. 概率论就是研究随机现象背后所蕴藏的规律的数学理论. 它在现代社会中变得越来越重要, 在数学中的地位也越来越高. 在这一章中，我们将理解概率的意义，学习求解简单的概率问题. 尽管所涉及的数学实际上是相当初等的, 但第一次接触随机现象, 真正理解起来可能并不容易, 和学习以往的内容不同, 不仅要换一种思路, 而且要换一套语言.</p>
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L1–6</a></div></div><aside class="teacher teacher-only"><div class="eyebrow">教参原文</div><h3>正式教参 · 本章概述</h3><h2>一、本章概述</h2>
+<h3>总体要求</h3>
+<p>在初中阶段, 学生已经学习了一些概率的知识, 通过日常生活中的事例, 感知不确定性事件及其可能性大小, 意识到生活中处处有概率问题, 并逐步积累了一些有关随机事件、等可能试验、概率、频率等的初步概念. 学生已经能根据经验对一些随机事件发生的可能性大小进行定性的描述, 通过大量重复的随机试验、利用频率来估计随机事件的概率, 认识频率及概率之间的区别和联系, 掌握了等可能试验中事件的概率计算公式, 会运用枚举法分析等可能性试验的所有结果, 学习了画树形图. 学生在经历解释生活实际中一些现象、体会关于概率问题的分析和思考方法、了解概率知识的一些应用之后, 已初步树立了概率意识, 为在高中阶段进一步学习概率奠定了基础.</p>
+<p>和必然性现象一样, 随机现象同样是现实世界中大量出现的现象, 了解它的规律有着重要的理论和实际意义, 概率论就是研究随机现象所蕴藏的规律的数学理论. 为理解概率思想及古典概率模型的特征, 本章的总体编写意图是理解与思考随机现象, 分析游戏怎么变成数学、直觉怎么变成定理, 用数学的眼光观察世界; 理解概率的意义, 应用概率的语言和分析问题的思路, 用数学的语言表达世界; 掌握概率这一衡量随机事件发生可能性大小的度量, 为人们认识具有不确定性的客观世界提供重要的思维模式和解决问题的方法, 用数学的思维思考世界. 统计的研究对象是数据, 核心是数据分析, 概率为统计的研究及发展提供了理论基础.</p>
+<p>本章的核心概念有: 概率 (随机现象、样本空间、基本事件、事件、随机事件、 必然事件、不可能事件), 古典概率 (等可能性、互斥事件、对立事件、可加性), 频率(伯努利试验、大数定律)和独立性(独立随机试验).</p>
+<p>通过本章的学习, 结合具体实例, 可以帮助学生理解样本点、有限样本空间、随机事件, 会计算古典概型中简单随机事件的概率, 加深对随机现象的认识和理解.</p>
+<p>内容包括:随机事件与概率、随机事件的独立性.</p>
+<p>(1)随机事件与概率</p>
+<p>① 结合具体实例, 理解样本点和样本空间的含义, 理解随机事件与样本点的关系. 了解随机事件的并、交与互斥的含义, 能结合实例进行随机事件的并、交运算.</p>
+<p>② 结合具体实例,理解古典概型,能计算古典概型中简单随机事件的概率.</p>
+<p>③ 通过实例, 理解概率的性质, 掌握随机事件概率的运算法则.</p>
+<p>④ 结合实例,会用频率估计概率.</p>
+<p>(2)随机事件的独立性</p>
+<p>结合有限样本空间, 了解两个随机事件独立性的含义. 结合古典概型, 利用独立性计算概率.</p>
+<h3>课时安排建议</h3>
+<p>本章的课时安排建议为 9+1,共计 10 课时. 建议如下:</p>
+<div class="source-table"><table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td rowspan="2">12.1 随机现象与样本空间</td><td rowspan="2">2</td><td>随机现象 1 课时</td></tr><tr><td>样本空间与事件 1 课时</td></tr><tr><td rowspan="4">12.2 古典概率</td><td rowspan="4">4</td><td>等可能性与概率 1 课时</td></tr><tr><td>等可能性(续) 1 课时</td></tr><tr><td>事件关系和运算 1 课时</td></tr><tr><td>可加性 1 课时</td></tr><tr><td>12.3 频率与概率</td><td>1</td><td>频率与概率 1 课时</td></tr><tr><td rowspan="2">12.4 随机事件的独立性</td><td rowspan="2">2</td><td>独立随机事件 1 课时</td></tr><tr><td>事件的独立性 1 课时</td></tr><tr><td>复习与小结</td><td>1</td><td></tr></table></div>
+<h3>内容编排与特色</h3>
+<p>本章内容共分为四节,分别是 12.1 随机现象与样本空间、12.2 古典概率、12.3 频率与概率、 12.4 随机事件的独立性.</p>
+<p>概率教学旨在让学生了解随机现象与概率的意义. 本章从不同的角度来理解概率. 从直观的角度看, 人们对随机性之中的可能性大小有一个心理预期, 即心理概率. 对满足有限性和等可能性的随机事件即古典概率模型给出了概率计算公式 <span class="math" data-tex="P\left( A\right)  = \frac{\left| A\right| }{\left| \Omega \right| }" data-display="false"></span> . 独立地重复一个伯努利试验 <span class="math" data-tex="n" data-display="false"></span> 次,其中成功的次数 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,成功的频率 <span class="math" data-tex="\frac{{S}_{n}}{n}" data-display="false"></span> 就是经验概率. 后者是概率的频率定义, 实际上也是求一个事件的概率的基本方法: 进行大量的重复试验, 用这个事件发生的频率近似地作为它的概率. 在一定条件下, 在做大量重复试验时, 随着试验次数的增加, 一个事件出现的频率总在一个固定数的附近摆动, 显示出其稳定性. 这个固定的数就是该事件的概率, 这是概率的统计定义, 由伯努利大数定律可保证其正确性. 这样通过多角度多层次的学习, 有利于从不同的视角理解概率的意义, 感悟概率的思想.</p>
+<p>有鉴于此, 在整个概率的教学过程中, 没有直接给出概率的公理化定义, 也没有明确从定义在事件域上的函数观点来理解和认识概率, 而是将概率空间、事件对应的子集及概率应具备的三条公理(非负性、规范性、可列可加性)分散在各节中学习,并推出了一些在计算概率时很有用的性质. 这样做, 在数学上简单易懂, 有利于将注意力集中在概率思想与体系的发展, 将直觉与理论密切结合起来, 可以凸显概率的基础知识, 逐步理解概率的思想, 培养相应的数学素养, 也为将来在大学进一步学习概率奠定一个良好的基础.</p>
+<p>随机事件在一次试验中是否发生自然是随机的, 但随机性中仍含有规律性, 认识了这种随机性中的规律性, 就能比较准确地预测随机事件发生的可能性. 实际上, 随机事件的随机性与稳定性是偶然性与必然性的辩证统一. 本章应用概率的语言阐述问题和分析问题, 抽象出概率论固有的一些基本概念, 通过推理得到概率的基本性质, 并借用了集合论的语言和符号来表述事件的关系和运算, 逐步构建概率思想的框架.</p>
+<p>教材重点讨论古典概率, 讲述怎么列举等可能的样本空间, 并在解决古典概型问题时,重视对古典概率模型的分析,明确概率的运算性质,使体系更加严密,凸显概率的语言和分析问题的思路; 注意较多地以经典概率问题为案例进行分析, 其中有些问题在历史上就是概率问题研究的起始, 或是大众甚至当时的数学家所困惑的, 能很好地再现概率研究的发展历程及研究方法的创新; 同时, 更加重视对概率空间的认识及理解, 重视模型的建立, 使理论更加直观, 也使学生容易正确理解.</p>
+<p>教材对频率逼近概率的意义多做了一点解释, 引入了伯努利大数定律. 阐述了概率的频率定义、统计定义, 有利于理解概率的意义, 感悟概率的思想.</p>
+<p>遵循从具体到抽象、从特殊到一般的认知规律, 教材力求结构严谨、说理清楚、推理严格, 符合学生的实际学习状况. 概率论中的很多术语直接使用生活中的语言, 但有其特殊的含义, 为了准确理解并掌握概率的基本概念, 教材中内容的呈现尽量从实例出发, 每节内容都从设置熟悉的情境引入, 结合具体实例, 采用娓娓道来的叙事方式,自然地展现知识与方法的产生、形成与发展的过程. 例如: (1)学习随机现象,先看几个生活中常见的例子:抛掷硬币,落地时哪一面朝上； 到达目的地的具体时间; 股市中一年的收益; 每一天的天气情况; 等等. (2)学习等可能性, 从最简单的掷硬币来学习与概率相关的概念. 抛一枚硬币这个随机试验一共有两个可能的结果: 正面朝上与反面朝上, 其中有且只有一个结果会出现. 古典概型中简单的随机事件的概率计算和性质分析, 加深了学生对随机现象的认识和理解. (3)学习独立随机试验, 从一个放了两种颜色的球的罐子里摸一个球, 放回去摇匀再摸一个球, 这两次摸球作为实验是独立的; 但若摸一个球不放回、再摸一个球, 两次摸球的结果就会有联系, 它们之间不独立. 引入集合语言通过枚举法帮助学生理解随机事件与概率、随机事件的独立性. 从抛硬币有限样本空间出发, 定义了随机事件的独立性, 并利用独立性计算概率, 等等. 这些都强调了概率与实际生活之间的紧密联系.</p>
+<p>教材以概率初步的相关知识为主线, 凸显了知识的内在逻辑和重要的处理方法, 并强调数学与实际生活之间的紧密联系, 创设合理的教学情境, 启发学生不断深入思考, 把握概率问题的本质. 通过数学史知识的渗透, 激发学生的学习兴趣, 引导学生感悟数学的科学价值、应用价值与文化价值. 本章章首语、教材边框、课后阅读、拓展思考等栏目的设计力求信息清晰、素材广泛,渗透数学文化,促进学生的自主学习和实践能力, 有效引发思考, 并拓展视野, 在润物无声之中培育学生的思维能力与综合素质.</p>
+<h3>教学提示</h3>
+<p>在概率的教学中, 应引导学生通过日常生活中的实例了解随机事件与概率的意义, 培养学生从直观现象出发去认识理论, 并学习怎么把一个实际问题数学化. 在随机事件和样本空间的教学中, 应引导学生通过古典概型认识样本空间, 理解随机事件发生的含义; 理解古典概型的特征、试验结果的有限性和每一个试验结果出现的等可能性, 知道只有在这种特征下, 才能定义古典概型中随机事件发生的概率. 教学中要适当介绍基本计数方法 (如树状图、列表等), 以计算古典概率中随机事件发生的概率. 理解独立性, 学会用独立性来计算概率.</p>
+<p>概率教学的核心问题是让学生了解随机现象与概率的意义, 加强与实际生活的联系, 以科学的态度评价身边的一些随机现象. 适当地增加学生间合作学习交流的机会, 尽量让学生自己举出生活和学习中与古典概型有关的实例, 并进行相互讨论, 使学生在体会概率意义的同时, 感受与他人合作的重要性以及培养实事求是的科学态度和锲而不舍的求学精神.</p>
+<p>在数学建模、数据分析、逻辑推理、数学运算等方面落实抽象思维能力的培养, 体会几何直观之外的直观, 培养学生的核心素养.</p>
+<p>应该注意, 在所有的概率性质中最重要的是可加性和独立性, 教师应让学生认识到事件不相交时的加法公式与事件独立时的乘积公式是概率的自然特性.</p>
+<p>鼓励学生尽可能运用实例和实物来熟悉随机现象,也可以运用计算器、计算机进行模拟活动, 处理数据, 更好地体会概率的意义和统计思想. 例如, 利用计算器产生随机数来模拟掷硬币试验等, 利用计算机来计算样本量较大的数据的样本均值、样本方差等.</p>
+<h3>评价建议</h3>
+<p>在过程性评价中, 关注对基础知识、基本方法的掌握. 要能够掌握古典概率的基本特征, 根据实际问题构建概率模型, 解决简单的实际问题. 要能够借助古典概型初步认识有限样本空间、随机事件, 以及随机事件的概率.</p>
+<p>在终结性评价中, 要关注理解概念、提升能力、培育素养. 要能够区别统计思维与确定性思维的差异、归纳推断与演绎证明的差异. 能够结合具体问题, 理解统计推断结果的或然性, 正确运用统计结果解释实际问题. 重点提升从直观到抽象的思维能力、逻辑推理能力和数学运算素养.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L22–91</a></div></aside><aside class="teacher teacher-only"><div class="eyebrow">教参原文</div><h3>正式教参 · 教材分析与教学建议</h3><h5>12.1 随机现象与样本空间</h5>
+<h3>数学重点</h3>
+<p>(1)通过具体事例,理解随机现象的概念；</p>
+<p>(2)理解样本空间、基本事件的概念；</p>
+<p>(3)能够对具体问题写出样本空间和事件.</p>
+<p>核心概念: 随机现象、样本空间.</p>
+<p>核心素养:数学建模、逻辑推理.</p>
+<h3>内容分析</h3>
+<p>内容要求:通过具体实例,理解随机现象,理解随机试验; 会选取基本事件以构成样本空间.</p>
+<p>“随机现象与样本空间”是一节与生活实际联系紧密的概念课, 旨在在理解随机现象定义的基础上理解其核心思想一一随机思想, 有助于培养学生用一分为二、对立统一的辩证唯物主义观点分析问题和认识世界. 生活中存在着大量的随机现象, 如天气、保险、彩票等, 随机思想在当今社会中有着广泛的应用. 在我们生活的世界中, 处处充满了不确定性. 无论是自然界中的风和日丽或地震、海啸, 还是经济、 政治、社会生活中的风险与机遇,面对各种可能发生也可能不发生的事件,人们常常必须做出“选择”和“决策”,尽可能使损失减少到最小或收益达到最大. 研究随机性有助于探究大自然和生活中种种事件发生的规律,从而指导人们的生产和生活. 在概率成为普通生活常识的今天, 对随机现象有一个较清楚的认识, 是每一个公民文化素质的基本要求. 用数学方法研究这些不确定现象(通常称为随机现象)是概率论的任务.</p>
+<p>随机现象表面上看来似乎杂乱无章, 但有一定的规律可循. 随机现象揭示的是条件和结果之间的非确定性联系, 其数量关系无法用确定的函数关系描述. 在一次观察中随机现象的结果具有偶然性, 但在大量试验或观察中, 结果具有一定的统计规律性, 概率论就是研究随机现象所具有的本质规律的一门数学学科.</p>
+<p>随机现象是通过试验来研究的. 对随机现象进行观察或为了某种目的而进行的实验统称为试验, 把观察结果或实验结果称为试验结果. 对于随机现象, 当在相同的条件下重复进行试验时, 尽管不能预知每次试验的具体结果, 但这个试验的所有可能结果往往是可知的. 例如, 抛掷一枚骰子做试验, 观察骰子掷出的点数, 共有 6 种可能的结果: 点数为1,2,3,4,5,6,但在每次抛掷之前,并不能确定骰子最终掷出的点数.</p>
+<p>随机事件就是在某种条件 <span class="math" data-tex="S" data-display="false"></span> 下,不能事先预测结果的事件. 当条件 <span class="math" data-tex="S" data-display="false"></span> 改变时,事件的性质也可能发生变化, 结果也会因此改变. 在判断事件类型时, 一定要明确前提条件 <span class="math" data-tex="S" data-display="false"></span> ,它决定着事件的属性,没有这个条件就无法判断一个事件是否发生. 例如, “常温常压下,水沸腾”是不可能事件,但“100℃常压下,水沸腾”就成为必然事件了. 有时结果比较复杂, 要准确理解结果所包含的各种情况. 对于同一个随机现象, 由于观察结果的角度不同, 样本空间也可以不同, 如例 4.</p>
+<p>把事件与集合相类比, 将样本空间看成全集, 每个事件都可以看成该全集的一个子集, 这样, 就可以将事件与集合对应起来. 借用已有集合的知识和语言, 有利于对概念的理解和掌握. 在学习概率的时候, 要注意体会和熟悉其独特的语言表述方式.</p>
+<h3>注意事项</h3>
+<p>概率是描述一个随机现象中某事件发生的可能性(或者机会)大小的一种度量. 要理解概率, 首先要理解随机现象或者随机性, 其次要理解人们对随机性之中可能性大小的预期.</p>
+<p>学习概率论, 要学会概率论的一套语言. 由于概率论中的很多术语直接借用生活中的语言, 要格外注意它们在概率论与生活中使用时的语义区别, 其中最重要的三个术语是样本空间、事件与概率.</p>
+<h3>教学建议</h3>
+<p>为确定样本空间, 必须明确事件发生的条件, 根据题意, 按一定的次序列出问题的答案, 按规律去写, 要做到既不重复也不遗漏.</p>
+<p>教学中要注意通过生活中的实例与数学模型理解基本事件的概念. 求基本事件个数主要是采用枚举法, 通过列表和画出树状图等方式写出所有的基本事件, 化解由于还没有学习排列组合所引起的困惑. 重点在于培养学生的数学应用意识.</p>
+<p>列表法: 将基本事件用表格的方式表示出来, 可以清楚基本事件的总数, 以及要求的事件所包含的基本事件数. 列表法适合较简单的试验, 基本事件较多的试验不适合用列表法.</p>
+<p>树状图法: 树状图法是用树状的图形把基本事件列举出来的一种方法. 树状图法便于分析基本事件间的结构关系, 对于较复杂的问题, 可以作为一种分析问题的主要手段. 树状图法适合于较复杂的试验的题目.</p>
+<p>注意, 对于一个随机现象来说, 有以下三点值得注意:</p>
+<p>(1)样本空间可能因为观察角度的不同而不同,不同的观察角度导致不同的答案, 不能算作错误;</p>
+<p>(2)事件的概率由随机现象本身决定,不会因为样本空间的不同而不同；</p>
+<p>(3)基本事件(样本点)是样本空间的元素,而事件是样本空间的子集.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L94–145</a></div></aside><h3 class="group-heading" id="bx3-12-1-b4">1 随机现象</h3><div class="prose" data-visual-source-sha="eb33bc19aef5521082d90886758e2b90554dbfbdd4462181807e2bc13e7e5696" id="bx3-12-1-b5"><p>概率是描述一个随机现象中某事件发生的可能性 (或者机会)大小的一种度量. 要理解概率，首先要理解随机现象或者随机性.</p>
+<aside class="key-point key-concept" id="bx3-12-1-definition-5-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>现实世界有具确定性的现象, 对其可以预见确切的结果, 但更多的是具不确定性的现象, 也就是无法预知确切结果的现象. 如俗语说:天有不测风云，人有旦夕祸福，许多事情人们无法预知, 更无法掌控. 具不确定性的现象也称为随机现象 (random phenomenon), 或者说具有随机性.</p>
+</aside><p>先看几个生活中常见的例子:</p>
+<ol>
+<li>
+<p>向上抛掷一枚硬币. 能够确定的是, 因为重力的作用, 它必定会落在地面上. 但是究竟哪一面朝上, 却是无法预知的.</p>
+</li>
+<li>
+<p>在车流不大的高速公路上, <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两地相距 <span class="math" data-tex="{100}\mathrm{\;{km}}" data-display="false"></span> . 上午 8 时从 <span class="math" data-tex="A" data-display="false"></span> 地出发,以 <span class="math" data-tex="{100}\mathrm{\;{km}}/\mathrm{h}" data-display="false"></span> 的速度去往 <span class="math" data-tex="B" data-display="false"></span> 地,那么我们可以肯定地说, 上午 9 时可以到达. 但如果上午 8 时从上海人民广场出发去上海浦东国际机场，由于市内堵车，我们很难准确预测什么时间可以到达.</p>
+</li>
+<li>
+<p>如果将 1 万元存到某银行，年利率为 3%，那么一年后的利息收入必是 300 元. 但如果将此 1 万元买该银行的股票，那么一年后的收益却是不确定的.</p>
+</li>
+<li>
+<p>人随着年龄增长慢慢变老, 这是确定无疑的. 但是观察 60 岁左右的人，会发现其衰老的程度很不一样，呈现出随机性.</p>
+</li>
+</ol>
+<p>由于随机性的存在, 我们无法准确地预测在一个随机现象中会出现什么样的结果, 然而, 对于随机现象, 我们是不是完全束手无策了呢? 答案是否定的. 尽管我们无法确切预测到结果, 但对出现某一结果的可能性大小还是有预期的, 而且通常可以得到其估计值. 例如, 抛掷一枚硬币, 人们对于可能出现的两种状态有相同的期待,也就是说两个面各自出现的可能性都是 <span class="math" data-tex="\frac{1}{2}" data-display="false"></span> ; 如果多次抛掷硬币, 人们会期待两个面出现的次数应该是差不多的. 又如, 我们虽然不能确切地知道明天是否会下雨, 但是借助气象研究, 气象台可以通过公布降雨概率, 对明天下雨的可能性大小作出预期, 供公众参考. 这说明, 人们相信随机现象中还是存在某种规律的, 找出这种规律就是概率论所要研究的目标.</p>
+<hr />
+<p>概率描述随机现象中某些结果出现的可能性大小.</p>
+<p><img src="images/book-a01f29ae8e473c6c63cd.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>费马 (P. de Fermat, 1601-1665), 法国数学家，正式职业是律师. 费马与帕斯卡在 1654 年 7-10 月有 7 封关于分奖金问题的书信来往, 开启了概率论的研究.</p>
+<p><img src="images/book-e76ec97cb50a203c0245.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>帕斯卡 (B. Pascal, 1623 —1662), 法国数学家、 物理学家.</p>
+<hr />
+<aside class="key-point key-concept" id="bx3-12-1-definition-5-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>现实中有很多不同类型的随机现象. 简单分为可随意重复的, 如抛掷硬币、掷骰子、抽签等, 称为随机试验; 与不可随意重复的, 如天气、动物寿命等. 它们的研究方法也不尽相同. 概率论是由研究随机性而发展起来的一个数学分支, 它起源于 1654 年两位法国数学家费马和帕斯卡对赌徒提出的分奖金问题的通信讨论. 该分奖金问题可叙述如下:</p>
+</aside><p><span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两人下棋,每局两人获胜的可能性一样. 某一天两人要进行一场三局两胜的比赛, 最终胜者赢得 100 元奖金. 第一局比赛 <span class="math" data-tex="A" data-display="false"></span> 胜,后因为有其他要事而中止比赛. 问: 怎么分 100 元奖金才公平?</p>
+<p>尽管 <span class="math" data-tex="A" data-display="false"></span> 胜了第一局,但结果依然是不确定的, <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 都有胜的机会. 但因为 <span class="math" data-tex="A" data-display="false"></span> 已胜一局,所以如果比赛继续下去, <span class="math" data-tex="A" data-display="false"></span> 胜的可能性更大. 因此, 按照最终取胜的可能性大小 (也就是概率) 比例进行分配是大家认可的一个公平分配方案, 从而问题归结于如何计算 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 各自取胜的概率.</p>
+<p>历史上很多人考虑过这个问题，包括费马、帕斯卡、惠更斯 (C. Huygens)等, 他们从不同的角度得到了同样的答案, 说明该问题背后有着某种规律. 这些规律引起了数学家的兴趣, 由此开启了对概率论的研究.</p>
+<p>现在, 你也来想一想, 看能否像 300 多年前的数学家那样运用对概率的直觉来回答这个问题. 等学完这一章, 我们再来解答这个问题.</p>
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L10–50</a></div></div><h3 class="group-heading" id="bx3-12-1-b6">练习 12.1(1)</h3><article class="question" id="bx3-12-1-p1211-1" data-question-id="bx3-12-1-p1211-1" data-category="practice"><div class="question-label">练习12.1(1) · 1</div><div class="question-body"><ol>
+<li>判断下面哪些是随机现象, 哪些是确定性现象, 并列举几个生活中的确定性现象与随机现象的例子.</li>
+</ol>
+<p>(1)明天太阳升起；</p>
+<p>(2)明天上海局部地区下雨；</p>
+<p>(3)明年小明又大一岁；</p>
+<p>(4)小明今天放学回家到路口时恰好碰到绿灯.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L53–62</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol>
+<li>(1)确定性现象. (2)随机现象. (3)确定性现象. (4)随机现象.</li>
+</ol>
+<p>确定性现象:铁块扔水池中会下沉；冬天的平均气温低于夏天的平均气温.</p>
+<p>随机现象: 小汽车老化发生自燃; 明天数学考试李明得第一名.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L336–341</a></div></div></details></article><article class="question" id="bx3-12-1-p1211-2" data-question-id="bx3-12-1-p1211-2" data-category="practice"><div class="question-label">练习12.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>仿照正文中的例子分析下面两句话里含有怎样的随机性.</li>
+</ol>
+<p>(1)今年冬天一定会下雪；</p>
+<p>(2)今年我要参加高考，应该能考上大学.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L63–68</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>2.(1)冬天存在下雪的可能性,本身就具有随机性. 而今年冬天是否下雪更无法预知,具有随机性. (2)参加高考能否正常发挥或者超水平发挥是无法事先预知的, 具有随机性.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L342–343</a></div></div></details></article><h3 class="group-heading" id="bx3-12-1-b9">2 样本空间与事件</h3><div class="prose" data-visual-source-sha="e6ee2ea880acca3cd830fdd32a52689ad80bc86b90bcd277c25b9b2797ddd89f" id="bx3-12-1-b10"><p>学习概率论, 首先要学会概率论的一套语言. 由于概率论中的很多术语直接使用生活中的语言, 在学习的时候要格外注意它们在概率论与生活中使用时的语义区别, 其中最重要的三个术语是样本空间、事件与概率.</p>
+<p>考察一个随机现象 <span class="math" data-tex="E" data-display="false"></span> ,首先要观察其中有哪些可能出现的结果.</p>
+<aside class="key-point key-concept" id="bx3-12-1-definition-10-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 一个随机现象中依某个角度观察其所有可能出现(发生)的结果所组成的集合称为一个样本空间 (sample space),用 <span class="math" data-tex="\Omega" data-display="false"></span> 表示, 其中的元素称为基本事件 (elementary event) 或者样本点 (sample point).</p>
+</aside><hr />
+<p>样本空间中的基本事件须是互斥的， 即任何两个均不会同时发生.</p>
+<hr />
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L70–82</a></div></div><article class="question" id="bx3-12-1-ex-1" data-question-id="bx3-12-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 写出下面随机试验的样本空间:</p>
+<p>(1)抛掷一枚硬币，观察朝上的面；</p>
+<p>(2)掷一颗骰子(每一面上分别标注数字 1、2、3、4、5、6 的质地均匀的小正方体), 观察朝上的点数;</p>
+<hr />
+<p>按照习惯，在说到掷硬币或骰子时, 我们总是观察朝上的面和点数.</p>
+<hr />
+<p>(3)从装有标号为 1、2、3 的三个球的袋子中依次取两个球 (第一次取出的球不再放回)，观察标号，考虑标号顺序；</p>
+<p>(4)从装有标号为 1、2、3 的三个球的袋子中依次取两个球 (第一次取出的球不再放回), 观察标号, 不考虑标号顺序;</p>
+<hr />
+<p>考虑标号顺序是指不同的顺序表示不同的结果, 例 如, (1，2)与(2，1)是两个不同的结果. 在不考虑顺序的情况下， (1,2)与(2,1)是一样的.</p>
+<hr />
+<p>(5)连续掷一颗骰子，直到点数 6 出现为止，观察掷的次数；</p>
+<p>(6)向一面墙随机掷飞镖，观察其落点.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L83–108</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解(1)将抛掷一枚硬币出现的两个可能结果——正面或反面朝上，分别简记作 <span class="math" data-tex="H" data-display="false"></span> 、 <span class="math" data-tex="T" data-display="false"></span> ，那么样本空间是</p>
+<div class="math display" data-tex="\Omega  = \{ H, T\} ." data-display="true"></div>
+<p>(2)用朝上的点数来表示结果, 那么样本空间是</p>
+<div class="math display" data-tex="\Omega  = \{ 1,2,3,4,5,6\} ." data-display="true"></div>
+<p>(3)用符号(1，2)表示第一次摸出 1 号球而第二次摸出 2 号球, 那么样本空间就是</p>
+<div class="math display" data-tex="\Omega  = \{ \left( {1,2}\right) ,\left( {2,1}\right) ,\left( {1,3}\right) ,\left( {3,1}\right) ,\left( {2,3}\right) ,\left( {3,2}\right) \} ." data-display="true"></div>
+<p>(4)如果不考虑顺序，那么(1，2)与(2，1)是同一个结果， 所以</p>
+<div class="math display" data-tex="\Omega  = \{ 1 * 2,1 * 3,2 * 3\} ," data-display="true"></div>
+<p>其中 <span class="math" data-tex="1 * 2" data-display="false"></span> 表示一次摸出 1 号球而另一次摸出 2 号球.</p>
+<p>(5)如果第一次就掷到点数 6，那么结果是 1 ；如果前 <span class="math" data-tex="n - 1" data-display="false"></span> 次不是点数 6,而第 <span class="math" data-tex="n" data-display="false"></span> 次是点数 6,那么结果是 <span class="math" data-tex="n" data-display="false"></span> . 所以,此时样本空间是所有的正整数, 它是一个无限的集合.</p>
+<p>(6) 样本空间是墙面上所有的点的集合，也是无限的.</p>
+<p>前四个例子，还有生活中的许多例子，如抽牌、摸球、抽签等, 可能出现的结果都是有限的, 即样本空间只有有限个元素; 而后两个例子中的样本空间则有无限个元素.</p>
+<p>对于一个随机现象, 我们经常会关注其中某件事情发生的可能性有多大. 例如, 抛掷一枚硬币, 出现正面的可能性有多大; 从上海人民广场出发, 一小时内到达上海浦东国际机场的可能性有多大, 等等. 这件事情在数学中称为事件 (event), 或称为随机事件, 而在样本空间确定之后, 事件实际上可以看作样本空间的一个子集，如例 2 所示.</p>
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L109–142</a></div></div></details></article><article class="question" id="bx3-12-1-ex-2" data-question-id="bx3-12-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 掷一颗骰子，写出下列事件相应的样本空间的子集:</p>
+<p>(1)点数 6 没有出现；</p>
+<p>(2)出现偶数；</p>
+<p>(3)点数不超过 2.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L143–150</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 已知样本空间是 <span class="math" data-tex="\Omega  = \{ 1,2,3,4,5,6\}" data-display="false"></span> .</p>
+<p>(1)点数 6 没有出现这个事件，实际上是指点数 1、2、3、 4、5 之一出现,此事件即为 <span class="math" data-tex="\{ 1,2,3,4,5\}" data-display="false"></span> ,它是 <span class="math" data-tex="\{ 6\}" data-display="false"></span> 的补集.</p>
+<p>(2)出现偶数这个事件，实际上是指点数2、4、6之一出现,此事件就是子集 <span class="math" data-tex="\{ 2,4,6\}" data-display="false"></span> .</p>
+<p>(3)点数不超过 2 这个事件，实际上是指点数 1 或者 2 出现, 此事件就是子集 <span class="math" data-tex="\{ 1,2\}" data-display="false"></span> .</p>
+<p>一个事件对应于样本空间的一个子集, 即满足事件所述条件的所有基本事件的集合. 如果其中某个基本事件发生, 就说该事件发生.</p>
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L151–160</a></div></div></details></article><article class="question" id="bx3-12-1-ex-3" data-question-id="bx3-12-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 掷两颗骰子, 试表示其样本空间以及掷出的两个点数都是偶数这个事件所对应的子集.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L161–162</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 将两颗骰子分别称为第一骰子和第二骰子, 且考虑标号顺序. 若它们的点数分别为 <span class="math" data-tex="a" data-display="false"></span> 和 <span class="math" data-tex="b" data-display="false"></span> ,则记作 <span class="math" data-tex="\left( {a, b}\right)" data-display="false"></span> . 那么样本空间就是</p>
+<div class="math display" data-tex="\Omega  = \{ \left( {a, b}\right)  \mid  a = 1,\cdots ,6;b = 1,\cdots ,6\} ," data-display="true"></div>
+<hr />
+<p>注意基本事件与事件之间的区别, 基本事件是样本空间中的元素, 而事件是样本空间的某个子集.</p>
+<hr />
+<p>其中包含 36 个基本事件.</p>
+<p>两个点数都是偶数这个事件所对应的集合是</p>
+<div class="math display" data-tex="\{ \left( {2,2}\right) ,\left( {2,4}\right) ,\left( {2,6}\right) ,\left( {4,2}\right) ,\left( {4,4}\right) ,\left( {4,6}\right) ,\left( {6,2}\right) ,\left( {6,4}\right) ,\left( {6,6}\right) \} ." data-display="true"></div>
+<p>在一个随机试验中, 有两个特别的事件. 一个必然发生, 称为必然事件,它对应的子集就是样本空间 <span class="math" data-tex="\Omega" data-display="false"></span> ,即所有基本事件的集合; 另外一个必然不发生, 称为不可能事件, 对应的子集是空集 <span class="math" data-tex="\varnothing" data-display="false"></span> . 它们统称为确定事件, 其余的称为不确定事件.</p>
+<hr />
+<p>必然事件就是必然会发生的事件，而不可能事件就是不可能发生的事件.</p>
+<hr />
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L163–190</a></div></div></details></article><article class="question" id="bx3-12-1-ex-4" data-question-id="bx3-12-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 写出抛掷两枚硬币的样本空间.</p>
+<hr />
+<p>注意:对于同一个随机现象，由于观察结果的角度不同, 样本空间也不同, 如例 4 所示.</p>
+<hr />
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L191–198</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>解 抛掷两枚硬币, 如果对它们进行区分, 如分别标上白和黑两种颜色,就可以用两个顺序的字母表示结果. 例如, <span class="math" data-tex="{HT}" data-display="false"></span> 表示白的硬币是正面, 黑的硬币是反面. 那么样本空间是</p>
+<div class="math display" data-tex="\Omega  = \{ {HH},{HT},{TH},{TT}\} ." data-display="true"></div>
+<p>如果不去刻意区分这两枚硬币, 那么就只看到 3 个结果: 两个正面, 一个正面一个反面, 两个反面. 所以, 样本空间是</p>
+<div class="math display" data-tex="\Omega  = \{ \text{ 两正,一正一反,两反\}. }" data-display="true"></div>
+<hr />
+<p>注意:我们现在虽然还没有正式地从数学上定义概率, 但可以从直观的角度使用这个名词.</p>
+<hr />
+<p>这里要注意两点:第一，样本空间是由观察问题的角度而确定的; 第二, 尽管从不同的角度观察随机现象会影响样本空间的呈现, 但不影响其中事件发生的可能性大小, 也就是概率. 以例 4 为例, 直观上, 大家都知道第一个样本空间中的 4 个结果的概率均为 <span class="math" data-tex="\frac{1}{4}" data-display="false"></span> ,而第二个样本空间中的三个结果的概率则依次是 <span class="math" data-tex="\frac{1}{4}" data-display="false"></span> 、 <span class="math" data-tex="\frac{1}{2}\text{ 、 }\frac{1}{4}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L199–218</a></div></div></details></article><h3 class="group-heading" id="bx3-12-1-b15">练习 12.1(2)</h3><article class="question" id="bx3-12-1-p1212-1" data-question-id="bx3-12-1-p1212-1" data-category="practice"><div class="question-label">练习12.1(2) · 1</div><div class="question-body"><ol>
+<li>按某个观察角度，写出下面随机现象的一个样本空间:</li>
+</ol>
+<p>(1)抛掷 3 枚硬币；</p>
+<p>(2)将 3 个不同颜色的球放入 3 个不同的容器中，但每个容器最多放 1 个球。</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L221–226</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>1.(1) <span class="math" data-tex="\Omega  = \{ {HHH},{THH},{HTH},{HHT},{HTT},{THT},{TTH},{TTT}\}" data-display="false"></span> ,共 8 个元素. (2)设三个小球分别用标号 <span class="math" data-tex="1\text{、}2\text{、}3" data-display="false"></span> 表示,三个容器分别用 <span class="math" data-tex="A\text{、}B\text{、}C" data-display="false"></span> 表示, 如果放置的结果是 1 号球在 <span class="math" data-tex="A" data-display="false"></span> 容器、 2 号球在 <span class="math" data-tex="B" data-display="false"></span> 容器、 3 号球在 <span class="math" data-tex="C" data-display="false"></span> 容器,那么用 123 来表示, 其他类似.</p>
+<div class="math display" data-tex="\Omega  = \{ {123},{132},{213},{231},{312},{321}\} \text{,共 6 个元素.}" data-display="true"></div>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L346–351</a></div></div></details></article><article class="question" id="bx3-12-1-p1212-2" data-question-id="bx3-12-1-p1212-2" data-category="practice"><div class="question-label">练习12.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>掷一颗骰子，写出样本空间及与下列事件相对应的基本事件子集:</li>
+</ol>
+<p>(1)1 没有出现； (2)出现奇数； (3)点数超过 2 .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L227–230</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>样本空间 <span class="math" data-tex="\Omega  = \{ 1,2,3,4,5,6\}" data-display="false"></span> .</li>
+</ol>
+<p>(1) <span class="math" data-tex="A = \{ 2,3,4,5,6\}" data-display="false"></span> . (2) <span class="math" data-tex="B = \{ 1,3,5\}" data-display="false"></span> . (3) <span class="math" data-tex="C = \{ 3,4,5,6\}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L352–355</a></div></div></details></article><article class="question" id="bx3-12-1-p1212-3" data-question-id="bx3-12-1-p1212-3" data-category="practice"><div class="question-label">练习12.1(2) · 3</div><div class="question-body"><ol start="3">
+<li>从两男两女四人中随机选出两人,</li>
+</ol>
+<p>(1)写出样本空间；</p>
+<p>(2)写出两人恰好是一男一女这个事件所对应的子集.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L231–236</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li>设两个男生分别用 <span class="math" data-tex="A\text{、}B" data-display="false"></span> 表示,女生分别用 <span class="math" data-tex="C\text{、}D" data-display="false"></span> 表示.</li>
+</ol>
+<p>(1) <span class="math" data-tex="\left\{  {{AB},{AC},{AD},{BC},{BD},{CD}}\right\}" data-display="false"></span> . (2) <span class="math" data-tex="\{ {AC},{AD},{BC},{BD}\}" data-display="false"></span> .</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L356–359</a></div></div></details></article><h3 class="group-heading" id="bx3-12-1-b19">习题 12.1</h3><h3 class="group-heading" id="bx3-12-1-b20">A 组</h3><article class="question" id="bx3-12-1-h121A-1" data-question-id="bx3-12-1-h121A-1" data-category="homework"><div class="question-label">习题12.1A · 1</div><div class="question-body"><ol>
+<li>判断下列事件中，哪些是确定的事件，哪些是不确定的事件？</li>
+</ol>
+<p>(1)在空地上抛一石块，石块会下落；</p>
+<p>(2)明天上午八时到九时之间，你会接到一个推销电话；</p>
+<p>(3)买一张福利彩票，会中奖.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L241–248</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>【编辑补写】</p>
+<p>(1)是确定的事件（必然事件）；(2)(3)是不确定的事件（随机事件）。在通常地面环境下石块必下落；是否接到推销电话、彩票是否中奖事先不能确定。</p>
+</div></details></article><article class="question" id="bx3-12-1-h121A-2" data-question-id="bx3-12-1-h121A-2" data-category="homework"><div class="question-label">习题12.1A · 2</div><div class="question-body"><ol start="2">
+<li>抛掷 100 枚同一类型且质地均匀的硬币, 下面的陈述哪些是正确的, 哪些是错误的?</li>
+</ol>
+<p>(1)全部出现正面向上是不可能的；</p>
+<p>(2)至少有 1 枚出现正面向上是必然的；</p>
+<p>(3)出现 50 枚正面向上、50 枚正面向下是不确定的.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L249–256</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>2.(1)错误. 出现全部正面向上是一个随机现象. (2)错误. 至少 1 枚正面向上是一个随机现象. (3)正确. 这是一个随机现象.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L366–371</a></div></div></details></article><article class="question" id="bx3-12-1-h121A-3" data-question-id="bx3-12-1-h121A-3" data-category="homework"><div class="question-label">习题12.1A · 3</div><div class="question-body"><ol start="3">
+<li>从装有红、白、黑三种颜色的小球各 1 个的袋子中任取 2 个小球, 写出这个随机试验的样本空间.</li>
+</ol>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L257–258</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li><span class="math" data-tex="\Omega  = \{" data-display="false"></span> 红白,红黑,白黑 <span class="math" data-tex="\}" data-display="false"></span> .</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L366–371</a></div></div></details></article><article class="question" id="bx3-12-1-h121A-4" data-question-id="bx3-12-1-h121A-4" data-category="homework"><div class="question-label">习题12.1A · 4</div><div class="question-body"><ol start="4">
+<li>&quot;一名学生一次掷 3 颗骰子，3 颗都掷得点数 6&quot;的事件是 ( )</li>
+</ol>
+<p>A. 不可能事件； B. 必然事件;</p>
+<p>C. 可能性较大的随机事件; D. 可能性较小的随机事件.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L259–264</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="4">
+<li>D.</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L366–371</a></div></div></details></article><h3 class="group-heading" id="bx3-12-1-b25">B 组</h3><article class="question" id="bx3-12-1-h121B-1" data-question-id="bx3-12-1-h121B-1" data-category="homework"><div class="question-label">习题12.1B · 1</div><div class="question-body"><ol>
+<li>下列哪些是不确定的事件?</li>
+</ol>
+<p>(1)学生甲明天竞选班长成功；</p>
+<p>(2)两支足球队明天比赛，主场队取胜；</p>
+<p>(3)若集合 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C" data-display="false"></span> 满足 <span class="math" data-tex="A \subseteq  B \subseteq  C" data-display="false"></span> ,则 <span class="math" data-tex="A \subseteq  C" data-display="false"></span> .</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L267–274</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><p>1.(1)(2)是不确定的事件.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L374–375</a></div></div></details></article><article class="question" id="bx3-12-1-h121B-2" data-question-id="bx3-12-1-h121B-2" data-category="homework"><div class="question-label">习题12.1B · 2</div><div class="question-body"><ol start="2">
+<li>一个口袋中有大小与质地相同的 1 个白球、 2 个黑球、3 个红球, 从中任取 2 个球, 观察球的颜色. 写出样本空间及与下列事件相应的基本事件子集:</li>
+</ol>
+<p>(1)含有白球; (2)至少含有 1 个黑球.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L275–278</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="2">
+<li>样本空间 <span class="math" data-tex="\Omega  = \{" data-display="false"></span> 白黑,白红,黑黑,黑红,红红 <span class="math" data-tex="\}" data-display="false"></span> .</li>
+</ol>
+<p>(1){白黑,白红}. (2){白黑,黑黑,黑红}.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L376–379</a></div></div></details></article><article class="question" id="bx3-12-1-h121B-3" data-question-id="bx3-12-1-h121B-3" data-category="homework"><div class="question-label">习题12.1B · 3</div><div class="question-body"><ol start="3">
+<li>两个男生、两个女生随机站一排,</li>
+</ol>
+<p>(1)写出样本空间；</p>
+<p>(2)写出每个人的相邻之人总是异性这个事件所对应的子集；</p>
+<p>(3)写出每个人的相邻之人至少有一个异性这个事件所对应的子集.</p>
+</div><div class="provenance teacher-only"><a href="../_sources/1c586666db23a88b-第12章概率初步-dollar.md" target="_blank" rel="noopener">教材 L279–286</a></div><details class="answer" open><summary>答案与解析<span>收起 / 展开</span></summary><div class="answer-body"><ol start="3">
+<li>设两个男生分别用 <span class="math" data-tex="A\text{、}B" data-display="false"></span> 表示,女生分别用 <span class="math" data-tex="C\text{、}D" data-display="false"></span> 表示.</li>
+</ol>
+<p>(1) <span class="math" data-tex="\Omega  = \{ {ABCD},{ABDC},{ACBD},{ACDB},{ADBC},{ADCB},{BACD},{BADC},{BCDA}" data-display="false"></span> , <span class="math" data-tex="{BCAD},{BDAC},{BDCA},{CABD},{CADB},{CBAD},{CBDA},{CDAB},{CDBA},{DABC}" data-display="false"></span> , <span class="math" data-tex="{DACB},{DBAC},{DBCA},{DCAB},{DCBA}\}" data-display="false"></span> ,共 24 个元素. <span class="math" data-tex="\;\left( 2\right) \;\{ {ACBD},{ADBC}" data-display="false"></span> , <span class="math" data-tex="{CADB},{DACB},{BCAD},{BDAC},{CBDA},{DBCA}\}" data-display="false"></span> ,共 8 个元素. <span class="math" data-tex="\;\left( 3\right) \{ {ACBD}" data-display="false"></span> , <span class="math" data-tex="{ADBC},{CADB},{DACB},{ACDB},{ADCB},{CABD},{DABC},{BCAD},{BDAC},{CBDA}" data-display="false"></span> , <span class="math" data-tex="{DBCA},{BCDA},{BDCA},{CBAD},{DBAC}\}" data-display="false"></span> ,共 16 个元素.</p>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L380–383</a></div></div></details></article><aside class="teacher teacher-only"><div class="eyebrow">教参原文</div><h3>习题12.1A · 原始参考答案留存（已人工归位）</h3><p>2.(1)错误. 出现全部正面向上是一个随机现象. (2)错误. 至少 1 枚正面向上是一个随机现象. (3)正确. 这是一个随机现象.</p>
+<ol start="3">
+<li>
+<p><span class="math" data-tex="\Omega  = \{" data-display="false"></span> 红白,红黑,白黑 <span class="math" data-tex="\}" data-display="false"></span> .</p>
+</li>
+<li>
+<p>D.</p>
+</li>
+</ol>
+<div class="provenance teacher-only"><a href="../_sources/440056ebc94f25e9-03 必修第三册 第12章 概率初步.md" target="_blank" rel="noopener">教参 L366–371</a></div></aside></section></div><footer class="book-footer"><p>原始教材与教参只读保留；缺答、来源疑点与校核状态见本节检查记录。结构、离线渲染和打印检查不代替数学复核。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>完整内容</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="answers" ><span>试题＋答案</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="bx3-12-1" checked>随机现象与样本空间</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"><label><input type="checkbox" id="print-notes">附带教参分析与教师批注</label><label><input type="checkbox" id="print-sources">保留来源行号</label></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">教师批注按勾选附带。“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

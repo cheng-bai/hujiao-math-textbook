@@ -1,0 +1,496 @@
+{
+  "scope": "Original nonempty textbook lines, source-reference bounds, source hashes, stable question IDs. Not mathematical review or classification correctness.",
+  "chapters": [
+    {
+      "id": "x1-c1",
+      "book_id": "x1",
+      "model_hashes": {
+        "x1-1-1": "a504d3016f9e3606b3875e29238b4527a6b90bfd3c2808a88056cd33adf14586",
+        "x1-1-2": "e57c5076acaf9ec3106d113a22d7bd49545f31650d7df9954d894eb9a66dfe4b",
+        "x1-1-3": "c5e0f466e5043b93e4a4e3427d59244e2a1b578a51a48c17ddf447cfa8d6835c",
+        "x1-1-4": "f2fd1d59918ffb7a9adad63a15224ad6eb34730d62a61f304563d158bed9d534",
+        "x1-chapter-end-1": "9072604525da0c19ef8ff7abbd671fa1142da4440392ff0d8b94141ea510d898"
+      },
+      "questions": 132,
+      "unique_ids": 132,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x1-c2",
+      "book_id": "x1",
+      "model_hashes": {
+        "x1-2-1": "063c6ade16787b42da9c878f86c78f1a3b007d016440da1a054c512fca877568",
+        "x1-2-2": "9e5181bd557881d8c1b348bfeac720adc8eaba430a8183a616fb739d09d31bbe",
+        "x1-2-3": "6cb67c7fc47aab4bd0c5c971419bd861d834b987133d624edc77fc3230d5c0d7",
+        "x1-2-4": "d35a44aa6631157d50718d049c2ba7b265d2e72b0d117b1bc0378343a1feed9a",
+        "x1-2-5": "ccaf963bd916808ff96e220331fa0175abe0cc89a7fc1f761ef58560bfb83b69",
+        "x1-chapter-end-2": "8023608307f10ceb80144d3f23b4b74931904a16199a0f506242fc777e54c7e9"
+      },
+      "questions": 173,
+      "unique_ids": 173,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [
+        {
+          "line": 2095,
+          "excerpt": "解 $A\\text{ 、 }B\\text{ 、 }C\\text{ 、 }D\\text{ 、 }E$ 各点的一个极坐标可分别取为 $\\left( {4,\\frac{\\pi }{6}}\\right)$ 、"
+        }
+      ],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x1-c3",
+      "book_id": "x1",
+      "model_hashes": {
+        "x1-3-1": "100f34d29f2e370126e5452e43886313fbe6896c63ab2624e9e62567126844e2",
+        "x1-3-2": "36099382dddd42d82cc612bde7c27ff5a32cd42e27ab938795e354c91e350418",
+        "x1-3-3": "06271ee0af78276e1c42707962316865ed92f5694b316715d91c5a20300214af",
+        "x1-3-4": "b2c6669a5851cae8e3547dc5fb3ce958ede50676772a94b007d960a1d4c6d489",
+        "x1-chapter-end-3": "1afd70d0c152ac1ff9929bafa450abbef5315f6bf019db1ba8eefc500f885f09"
+      },
+      "questions": 86,
+      "unique_ids": 86,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x1-c4",
+      "book_id": "x1",
+      "model_hashes": {
+        "x1-4-1": "02c356ed8ff12a50c8db172b523dc7e072270522b821240a19a288410481d286",
+        "x1-4-2": "837da56b82deab69422691c5ef3c62cb36d5350c17d313b2659192047ef0cdf8",
+        "x1-4-3": "bd4dcbdc06c1c88c2f51cc8fedf557c2a76bd3d44cc38193bea329ef7b12c5dc",
+        "x1-4-4": "37577585aa94da424664113a5e244401723a973987c85aed6752577112887cb5",
+        "x1-4-5": "25dc06eb1aa6f83374d2f5ea633b4dbab0d2320e679079b41cd64478d661745e",
+        "x1-chapter-end-4": "6fcb68924e5aed473138868373d0bcd75dc6c89d9f8ab9e0965fee5b555323aa"
+      },
+      "questions": 120,
+      "unique_ids": 120,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx1-c1",
+      "book_id": "bx1",
+      "model_hashes": {
+        "bx1-1-1": "1c39b5b625db8d589a63b2cd1a781c84d49478aafe319caa400dfb327dd7eba8",
+        "bx1-1-2": "913cb4410730f512b804bd082013ac4adc324acd881162a1ac638fa564305c16",
+        "bx1-chapter-end-1": "61784b6442c8e7d57e3413fe73a43633a197deffe52526ac004b17d07e0d5dd8"
+      },
+      "questions": 79,
+      "unique_ids": 79,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx1-c2",
+      "book_id": "bx1",
+      "model_hashes": {
+        "bx1-2-1": "ace5d09676b8fc0847019d7d54b32791b52e9647fe345abb917bd370c3d377f0",
+        "bx1-2-2": "dc1ace16f85650dd9204c12fb345e146fc42ab81b42cc66820b9ab038a6a3307",
+        "bx1-2-3": "d49373d2cb9c49db074914e0149d2f91f60c0407197061e2dd4f017270aa7133",
+        "bx1-chapter-end-2": "86c0500720422aeed4173bcd0fa5c0316a0d0780375243bb72c63ec16bc3ca25"
+      },
+      "questions": 153,
+      "unique_ids": 153,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx1-c3",
+      "book_id": "bx1",
+      "model_hashes": {
+        "bx1-3-1": "9da87979b80740e4ad29cb6ce092b27428919302b19cc518c0eb64249e8aa61a",
+        "bx1-3-2": "3b7e9a29b25c22f63296284cfd89cfa0b9cf253a245365c30c84634d7baa65f7",
+        "bx1-chapter-end-3": "198ec723cf5b794db93d68ac3927eeda562ecd6f9b88f2e3adec929a36efef3d"
+      },
+      "questions": 65,
+      "unique_ids": 65,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx1-c4",
+      "book_id": "bx1",
+      "model_hashes": {
+        "bx1-4-1": "db3f3d2b0e05a4a3727de6715039b6ac219ab306b2a0993cfcac2bcd8c755307",
+        "bx1-4-2": "bcfcaec66893e7a46d85280553eff2ecab48dbaeab7604d8fff41584238e825a",
+        "bx1-4-3": "5f9070b07188e762ab0b55d79114d9d8c4ad20e7f180073f894296134d8f5cc5",
+        "bx1-chapter-end-4": "c8023c15d2c39b592f7f3c49cfd2b4acc0d2982a600091ca4d9beac8c54f8fb3"
+      },
+      "questions": 96,
+      "unique_ids": 96,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx1-c5",
+      "book_id": "bx1",
+      "model_hashes": {
+        "bx1-5-1": "7bf0108039a829b8092e8a24074f3f9307289345447bb67eeebe154fe3ae6f93",
+        "bx1-5-2": "0edb4e2fe63784b51fb24ab470ca0f67eb8713801bef40e2490641470c07ce33",
+        "bx1-5-3": "bf92f197458b42b10269265d70962fe2b7914f7008ba4b40c985c479f5773169",
+        "bx1-5-4": "8709593c240c322922cb85fe85684c57bc2d872552bc3d9b97341521e6ebfe02",
+        "bx1-chapter-end-5": "5f6e63c644a2f6bc4c98ca3c902bde115c290f9264d98e75e8c855e74954673c"
+      },
+      "questions": 115,
+      "unique_ids": 115,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx2-c6",
+      "book_id": "bx2",
+      "model_hashes": {
+        "bx2-6-1": "d677735af945369698e9cf65cd9c7a4563baac9ce7d2cf8ae1743048155950fa",
+        "bx2-6-2": "3895fbbd79e7dd0c790cc9b10eda006e3ef01ee242e187a4659eba4e751aadd7",
+        "bx2-6-3": "cfacefa6290eb1028ade43214fc918b21dc9b096c3536a4d02314d9244c6cfad",
+        "bx2-chapter-end-6": "502a0b38292e468a02f92a1d1c1fba4e5f71bc48e3fc471dab70bd37c8ee8f9f"
+      },
+      "questions": 190,
+      "unique_ids": 190,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx2-c7",
+      "book_id": "bx2",
+      "model_hashes": {
+        "bx2-7-1": "d146595a25da11420ea88e71aa934e13db7876ad4ff640ca445fe7c0c69b6a73",
+        "bx2-7-2": "704324c1e006123841f864eeb1daba9265b74d93766df41964cd06eeddd75ae9",
+        "bx2-7-3": "efcf97261690cc55cc94474e0c5d59f73018ea233250304947e1f6fd1f9c7c5f",
+        "bx2-7-4": "638153be99c7b5d41966454779f2c8f2abb6233820d4cf30fd0664ad1430b499",
+        "bx2-chapter-end-7": "6c1bb8a9c5dcc9186579f68019577b5ea985cf7c112250ee5c255febbaa27113"
+      },
+      "questions": 93,
+      "unique_ids": 93,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx2-c8",
+      "book_id": "bx2",
+      "model_hashes": {
+        "bx2-8-1": "b46826abcc189d1d37484053b90544f4b0ecf8563a1b5c3dee063a8bff7b3fc3",
+        "bx2-8-2": "0712d4408f0bc7f10e470160f26c195d28c8e45d8d06b046a687731dde609199",
+        "bx2-8-3": "643f1b8dce2b954623882437302f7b3cbd41c3483824cc106c8b3c52e563a5dd",
+        "bx2-8-4": "67805a2762b8365618ba26b04c8e0408908bb870e3361df03f4d986de3671e82",
+        "bx2-chapter-end-8": "2cf53125a1afbe95d5f2a79b5b9e311c09037abc5f043e29b22545a9bd669ef1"
+      },
+      "questions": 147,
+      "unique_ids": 147,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [
+        429,
+        789
+      ],
+      "book_lines_requiring_manual_comparison": [
+        {
+          "line": 151,
+          "excerpt": "由结合律,我们常常把 $\\left( {\\overrightarrow{a} + \\overrightarrow{b}}\\right)  + \\overrightarrow{c}$ 与 $\\overr"
+        },
+        {
+          "line": 235,
+          "excerpt": "由于 $\\bigtriangleup {ABC}$ 是等边三角形,故 $\\angle {ADB}$ 是菱形,且 $\\left| \\overrightarrow{CD}\\right|  = \\; 2\\l"
+        },
+        {
+          "line": 243,
+          "excerpt": "2. 已知 $A\\text{ 、 }B\\text{ 、 }\\overrightarrow{C\\text{ 、 }D}\\text{ 、 }E$ 是平面上任意五个点,求证: $\\overrightarro"
+        },
+        {
+          "line": 259,
+          "excerpt": "暂不考虑有关量的单位,采用实数与向量乘积的记号,下午 3 时和 4 时 30 分科考船相对于 $A$ 的位移向量就可写为 $3\\overrightarrow{v}$ 和 4.5v，再考虑有关量的单位，"
+        },
+        {
+          "line": 631,
+          "excerpt": "(2)如果 $\\overrightarrow{a}$ 和 $\\overrightarrow{b}$ 有一个是零向量，或者 $\\lambda  = 0$ ，那么结论是显然的,从而不妨设 $\\overri"
+        },
+        {
+          "line": 653,
+          "excerpt": "证明 (1)的证明如下: ?"
+        },
+        {
+          "line": 799,
+          "excerpt": "5. 在 $\\bigtriangleup {ABC}$ 中,设 $M$ 是 ${BC}$ 的中点,且 $\\left| {AM}\\right|  = 3,\\left| {BC}\\right|  = {1"
+        },
+        {
+          "line": 805,
+          "excerpt": "8. 在四边形 ${ABCD}$ 中,设向量 $\\overrightarrow{AB} = \\overrightarrow{a},\\overrightarrow{BC} = \\overrightarr"
+        }
+      ],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx2-c9",
+      "book_id": "bx2",
+      "model_hashes": {
+        "bx2-9-1": "bc2881a538177e8d6c86cc0b330621bd23c2de95a805e7e3c5a127342ed908a6",
+        "bx2-9-2": "be9f8a6a21387b475a591b004ae0d90b38733ecb17a054dffa8402f7a652768d",
+        "bx2-9-3": "c56b72adfabac1f48b836d30c5e6cbd655fc70148434cb4862f5459dfb14ee50",
+        "bx2-9-4": "ddf1a6f589eeb0a1bb9bc35c2646599dbe1490c17e7ba8f912e4b8b748bb3cdd",
+        "bx2-chapter-end-9": "62e6a1dc4c252ec1c2ef339f350e18e487c19e6f29542c950b62a3f8c38cabda"
+      },
+      "questions": 111,
+      "unique_ids": 111,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx3-c10",
+      "book_id": "bx3",
+      "model_hashes": {
+        "bx3-10-1": "6b922f406562f55eb3ec950a7c6d5273c2e919b118e1428ba78151f251d49f3f",
+        "bx3-10-2": "9d5ed627062f7e278d21d4a4b436860a11469434e08e5e69ce476839c1cd3e61",
+        "bx3-10-3": "dd60045f99c6c9592f774adbc36e5ccccd568def1b62a14b3eb1e233956511de",
+        "bx3-10-4": "4e4508f8b9aefff9e4d14eab68af673d9e4211526b1523de781eae7f93b1dd82",
+        "bx3-10-5": "f6a0e5b665171256bbc123d1cb42924eacc0ef2a29d715f2809e0b93308bada9",
+        "bx3-chapter-end-10": "2a4dfe3a11997dc52e472e647c00db55ed58fa25dd28316390cd73155516b1a1"
+      },
+      "questions": 153,
+      "unique_ids": 153,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx3-c11",
+      "book_id": "bx3",
+      "model_hashes": {
+        "bx3-11-1": "01de697c601fbd54e40e663454b4502e30358cff8d215ecfead9f471cc3b6247",
+        "bx3-11-2": "ce25069955532c541daaec9abd8612186fcfbb4af626543cfbc68c1963d78e67",
+        "bx3-11-3": "f2e1e56f42ea8eab12e53644a3c19d24e2fa37610b8c5769480a39ef063b56c1",
+        "bx3-11-4": "919e9966d0c496fb77857a3697d5f29de8921df63834b2e2d4e9466436a5d41a",
+        "bx3-chapter-end-11": "b15d9cc8abad6d2573943e9b2080be1df57ffec0b6cfa89bb2471014500f5cb9"
+      },
+      "questions": 103,
+      "unique_ids": 103,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx3-c12",
+      "book_id": "bx3",
+      "model_hashes": {
+        "bx3-12-1": "def89f44b84f717ca6cd2eb2f9e03c225506c734e7045193d8affa2b9fa971da",
+        "bx3-12-2": "05b0062d848cc32f667e8d4551163b5f26e2d1ca3baf509fb982ba142699036e",
+        "bx3-12-3": "97f74ea1e6d57fa3eaaae83788dad9d372a59cb5967ddd2bd61427035e698c70",
+        "bx3-12-4": "747284f7403f53f66ead0725cb70cf69377fdbf003ab786a1ae92b51ea4b1026",
+        "bx3-chapter-end-12": "3c069ceb9730182b73c16e2e4853004c1a9f845da77652d2e383d94a0ba4218a"
+      },
+      "questions": 83,
+      "unique_ids": 83,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "bx3-c13",
+      "book_id": "bx3",
+      "model_hashes": {
+        "bx3-13-1": "138fbfab349ef5724ca88459dd696be0e36ae329db14770cf2d7641d62e3bbad",
+        "bx3-13-2": "b95f5dcfb465d6fa03866faf3181b42c0824c95c3363dde1f15ed98d3161764f",
+        "bx3-13-3": "0b5e1faf63703e36aa0ffe93b2bb184dec1897c49f22aa8db8e10e270d6e6b21",
+        "bx3-13-4": "c6726d5f4520368ae5283305748ca77e338aaf760abff9760c5964c78f3d52b4",
+        "bx3-13-5": "de7ed4a0583ce28c655b224c6920d092bf5174dffed821b24fc9da6ee34079ba",
+        "bx3-13-6": "9673a56f4f4dc1d2549b7d370741b1a09a146d200cbabaa7a9de2c4f9c7132a0",
+        "bx3-chapter-end-13": "8d89ca559199ff351b6bb9a40ddfa3436d23c2d01db1957b71f1413e91b7eb62"
+      },
+      "questions": 82,
+      "unique_ids": 82,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x2-c5",
+      "book_id": "x2",
+      "model_hashes": {
+        "x2-5-1": "b7470715b9ed274c172aca6f2d06804c4449a41e5b4915094f6dba3280f35f92",
+        "x2-5-2": "79a6e75a723e90f01e61f75d0c4f215096ea4809a8230d35a3b5326648729654",
+        "x2-5-3": "4d41b3239d88bc242cf45d13241ea6aa65c50cb2e81a3927d71327811991571e",
+        "x2-chapter-end-5": "f3c0b0b0c10880ffced0bc8ef0f994daab743bdcb360896fee7a5a2371e59c93"
+      },
+      "questions": 107,
+      "unique_ids": 107,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [
+        {
+          "line": 1059,
+          "excerpt": "解 根据题意,可知 ${h}^{2} = {d}^{2} - {b}^{2}$ ,所以 $W\\left( b\\right)  = \\frac{1}{6}b\\left( {{d}^{2} - {b}^{"
+        },
+        {
+          "line": 1067,
+          "excerpt": "求导,得 ${W}^{\\prime }\\left( b\\right)  = \\frac{1}{6}{d}^{2} - \\frac{1}{2}{b}^{2}$ . 令 ${W}^{\\prime }\\le"
+        },
+        {
+          "line": 1069,
+          "excerpt": "由问题的实际意义,当 $b = \\frac{\\sqrt{3}}{3}d$ 时,梁的抗弯强度最大,此时, ${h}^{2} = {d}^{2} - {b}^{2} = \\frac{2}{3}{d}^{2"
+        }
+      ],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x2-c6",
+      "book_id": "x2",
+      "model_hashes": {
+        "x2-6-1": "9e918f54b50e59ce22381d67224e02db02521e019886b49e847982079c43a1d4",
+        "x2-6-2": "6cbd3bcb897a15009353bac21ea4533d2a8024e26984ac0840b249a939aaf1b4",
+        "x2-6-3": "871713dc0a08af5a670e752e6aeafe8786e0af7513b3619bd90b86bea1bb4bb9",
+        "x2-6-4": "e2455681393ad4898ff98a91f449abf0c5116ae16dbdb96b25819a27dc5e076d",
+        "x2-6-5": "607d2f42f6884f3dad4e8eb4ac320bd01ba2c081c45db657e4d289f046597ffe",
+        "x2-chapter-end-6": "e542bd6b6c20346d75c21e1af4a1c4b0615001a8e4058a26c87f25976c3b0d3c"
+      },
+      "questions": 124,
+      "unique_ids": 124,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x2-c7",
+      "book_id": "x2",
+      "model_hashes": {
+        "x2-7-1": "21357cee11a79403a02f0da322310f79dc6d894bf863af49876c4748f7450723",
+        "x2-7-2": "4ede040e145c80fd823b668449184ddfeaf62b303682393f1441e0e3cfeec9b4",
+        "x2-7-3": "a5bf7c456ffdce4f73eec475aa67b353f3812726a6c62ffd6cc2833fea94e1ea",
+        "x2-chapter-end-7": "9c8cd0988b47a15af2faf6b6562fc063e32963a55dc325a9e61f59ae33f0c50e"
+      },
+      "questions": 76,
+      "unique_ids": 76,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    },
+    {
+      "id": "x2-c8",
+      "book_id": "x2",
+      "model_hashes": {
+        "x2-8-1": "aff9ce53c29bc1723e661cf288c6b9ff99dcf25cfd2d29a1c41aaa1ed8e586f9",
+        "x2-8-2": "eda1ac0b0f7d00d6868335b5158e043e6710158322b7e85768d5203397644d48",
+        "x2-8-3": "4f6140bc6271a9a45f4eaba7d02ed33039e9afd9016b99e8f20b5683e52f1765",
+        "x2-chapter-end-8": "3160908399fa36774f465e65f343e55ffc1d60c96bb7265a6ac5ee96402a1e01"
+      },
+      "questions": 49,
+      "unique_ids": 49,
+      "source_reference_bounds_errors": [],
+      "uncovered_book_lines": [],
+      "book_lines_requiring_manual_comparison": [],
+      "source_hashes_current": true,
+      "limits": [
+        "A source-span being retained does not prove the correct public/answer role.",
+        "Explicit OCR repairs and curated accepted samples can cause legitimate line-level differences."
+      ]
+    }
+  ]
+}

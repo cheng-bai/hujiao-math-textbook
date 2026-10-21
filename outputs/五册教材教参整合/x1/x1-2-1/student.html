@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x1-2-1"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>2.1 圆 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/module-data-student.js"></script><script defer src="../_shared/visual-assets/conic-catalog.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第一册 / 第2章圆锥曲线</div><div class="spine-number">2.1</div><nav aria-label="本节目录"><a href="#x1-2-1"><span>2.1</span>圆</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 2.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 2.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>圆<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第一册<br>第2章圆锥曲线 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>12 个例题</span><span>33 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x1-2-1" data-title="圆"><section class="section-heading" id="x1-2-1"><span class="section-number">2.1</span><div><h2>圆</h2><p>教材与正式教参整合</p></div></section><div class="prose" data-visual-source-sha="b4ce68d8a880d84d67bead35707041d58a0b7b9bcd43aed13de84427068d8300" id="x1-2-1-b1"><h1>圆锥曲线</h1>
+<p><img src="images/book-3f90ab2267261eb42cba.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>在上一章中，我们初步领略了解析几何的一些基本特点，知道通过建立平面直角坐标系得到直线的方程, 然后利用方程讨论点与直线、直线与直线的位置关系. 在这一章中, 通过对圆锥曲线的研究, 我们进一步深入解析几何的核心领域并体验解析几何的思想和作用.</p>
+<p>对圆锥曲线的研究虽然可以追溯到两千多年前的古希腊时代，但直到笛卡儿坐标系的引入, 才找到更一般且统一的处理方法. 在直角坐标平面上, 所有圆锥曲线都可以用二元二次方程来表示，从而可以用方程的思想去解决与这些曲线有关的问题. 由于圆锥曲线是日常生活中常见的曲线，在航天、航海、光学等领域都有广泛的应用，这使得解析几何成为数学的一个重要分支.</p>
+<p>除了直线和圆以外, 椭圆、双曲线和抛物线已经与平面几何所涉及的内容有本质的区别, 但却与函数有了联系, 如反比例函数的图像是双曲线、二次函数的图像是抛物线等.</p>
+</div><h3 class="group-heading" id="x1-2-1-b4">1 曲线方程的概念</h3><div class="prose" data-visual-source-sha="4ec770c2ce4eba9e9c852d3326e546d9e98443b710a3c59fab3044a9749a653d" id="x1-2-1-b5"><p>在上一章 1.2 节中, 我们针对具体的例子解释了什么是 “直线的方程”, 从而引导了全章的学习. 通过上一章的学习, 我们对“直线方程”有了更多认识. 在此基础上我们不难总结出“直线方程”的严格定义:在一个平面直角坐标系中给定一条直线和一个关于 <span class="math" data-tex="x" data-display="false"></span> 与 <span class="math" data-tex="y" data-display="false"></span> 的二元一次方程,如果给定直线上的每一个点的坐标都是该给定方程的解, 而且以给定方程的解为坐标的点都在该给定直线上, 那么称这个给定的方程是给定直线的方程.</p>
+<p>如果考虑更为一般的平面曲线 (直线是它的特例), 可以直接把这个定义推广而给出曲线方程的概念: 在一个平面直角坐标系中给定一条曲线和一个关于 <span class="math" data-tex="x" data-display="false"></span> 与 <span class="math" data-tex="y" data-display="false"></span> 的二元方程,如果给定曲线上的每一个点的坐标都是该给定方程的解, 而且以给定方程的解为坐标的点都在该给定曲线上, 那么称这个给定的方程是给定曲线的方程, 也称这条给定的曲线是给定方程的曲线.</p>
+</div><h3 class="group-heading" id="x1-2-1-b6">2 圆的标准方程</h3><div class="prose" data-visual-source-sha="d9d61bdcfe33569bcbef8192aebb11028cbf9c888eba43a3c72de42c3b214212" id="x1-2-1-b7"><p>在各种非直线的平面曲线中, 我们最熟悉的是圆.</p>
+<p>在平面几何中已经知道, 圆 (circle) 是到一个定点的距离等于定长 (大于零) 的点的轨迹. 这个定点就是圆心 (center), 定长就是圆的半径 (radius). 如果一个圆在直角坐标平面上, 我们该如何确定这个圆的位置, 并且建立圆的方程呢?</p>
+<p>显然, 只要圆心的位置及圆的半径确定, 一个圆在平面上的位置就完全确定了. 假设在平面直角坐标系中,已知圆 <span class="math" data-tex="C" data-display="false"></span> 的圆心是 <span class="math" data-tex="C\left( {a, b}\right)" data-display="false"></span> ,半径是 <span class="math" data-tex="r\left( {r &gt; 0}\right)" data-display="false"></span> ,如图 2-1-1 所示. 我们来考察这个圆上的动点 <span class="math" data-tex="P\left( {x, y}\right)" data-display="false"></span> 的坐标所满足的方程.</p>
+<p><img src="images/book-d9467677b765af414f00.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-1</p>
+<p>因为 <span class="math" data-tex="\left| {PC}\right|  = r" data-display="false"></span> ,即 <span class="math" data-tex="\sqrt{{\left( x - a\right) }^{2} + {\left( y - b\right) }^{2}} = r" data-display="false"></span> ,两边平方后得</p>
+<div class="math display" data-tex="{\left( x - a\right) }^{2} + {\left( y - b\right) }^{2} = {r}^{2}," data-display="true"></div>
+<p>①</p>
+<p>所以圆 <span class="math" data-tex="C" data-display="false"></span> 上任意一点 <span class="math" data-tex="P\left( {x, y}\right)" data-display="false"></span> 的坐标都满足方程①.</p>
+<p>反之,若平面上有一点 <span class="math" data-tex="M" data-display="false"></span> 的坐标 <span class="math" data-tex="\left( {{x}_{1},{y}_{1}}\right)" data-display="false"></span> 是方程①的解,则 <span class="math" data-tex="{\left( {x}_{1} - a\right) }^{2} + {\left( {y}_{1} - b\right) }^{2} = {r}^{2}" data-display="false"></span> ,即 <span class="math" data-tex="{\left| MC\right| }^{2} = {r}^{2}" data-display="false"></span> ,可得 <span class="math" data-tex="\left| {MC}\right|  = r" data-display="false"></span> . 所以,点 <span class="math" data-tex="M" data-display="false"></span> 在以 <span class="math" data-tex="C" data-display="false"></span> 为圆心、以 <span class="math" data-tex="r" data-display="false"></span> 为半径的圆上.</p>
+<aside class="key-point key-concept" id="x1-2-1-definition-7-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>因此,方程①是圆 <span class="math" data-tex="C" data-display="false"></span> 的方程. 我们把它叫做圆的标准方程.</p>
+</aside><p>特别地,当 <span class="math" data-tex="a = b = 0" data-display="false"></span> ,即圆心在原点 <span class="math" data-tex="O\left( {0,0}\right)" data-display="false"></span> 时,圆的标准方程为</p>
+<div class="math display" data-tex="{x}^{2} + {y}^{2} = {r}^{2}." data-display="true"></div>
+<hr />
+<p>若设 <span class="math" data-tex="N\left( {x, y}\right)" data-display="false"></span> 为圆 <span class="math" data-tex="C" data-display="false"></span> 上任意一点,能否由 <span class="math" data-tex="\overrightarrow{NP} \bot  \overrightarrow{NQ}" data-display="false"></span> 求得圆 <span class="math" data-tex="C" data-display="false"></span> 的方程?</p>
+<hr />
+</div><article class="question" id="x1-2-1-ex-1" data-question-id="x1-2-1-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 已知两点 <span class="math" data-tex="P\left( {3,4}\right) \text{ 、 }Q\left( {-5,6}\right)" data-display="false"></span> ,求以 <span class="math" data-tex="{PQ}" data-display="false"></span> 为直径的圆 <span class="math" data-tex="C" data-display="false"></span> 的方程.</p>
+</div></article><article class="question" id="x1-2-1-ex-2" data-question-id="x1-2-1-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 设平面上有一条长度为 4 的线段 <span class="math" data-tex="{AB}" data-display="false"></span> ,试建立适当的平面直角坐标系,求到线段 <span class="math" data-tex="{AB}" data-display="false"></span> 两端点的距离的平方和为 16 的点的轨迹方程.</p>
+<p><img src="images/book-5f7bbef794578d1f326e.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-2</p>
+</div></article><article class="question" id="x1-2-1-ex-3" data-question-id="x1-2-1-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 造船时, 为了船体放样, 要画出甲板圆弧线. 由于这条圆弧线的半径很大, 无法直接在钢板上用圆规画出, 需要先建立这条圆弧线的方程, 再用描点法画出圆弧线. 如图 2-1-3, 已知圆弧 <span class="math" data-tex="\overset{\text{ ⏜ }}{AB}" data-display="false"></span> 的半径 <span class="math" data-tex="r" data-display="false"></span> 为 <span class="math" data-tex="{29}\mathrm{\;m}" data-display="false"></span> ,圆弧 <span class="math" data-tex="\overset{\text{ ⏜ }}{AB}" data-display="false"></span> 所对的弦长 <span class="math" data-tex="l" data-display="false"></span> 为 <span class="math" data-tex="{12}\mathrm{\;m}" data-display="false"></span> , 以 <span class="math" data-tex="\mathrm{m}" data-display="false"></span> 为单位,建立适当的平面直角坐标系,并求圆弧 <span class="math" data-tex="\overset{\text{ ⏜ }}{AB}" data-display="false"></span> 的方程. (结果精确到 <span class="math" data-tex="{0.001}\mathrm{\;m}" data-display="false"></span> )</p>
+<p><img src="images/book-a359078b998e01512e51.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-3</p>
+</div></article><article class="question" id="x1-2-1-ex-4" data-question-id="x1-2-1-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 已知一个圆与 <span class="math" data-tex="y" data-display="false"></span> 轴相切,其圆心在直线 <span class="math" data-tex="x - {3y} = 0" data-display="false"></span> 上,且直线 <span class="math" data-tex="y = x" data-display="false"></span> 被该圆截得的弦长为 <span class="math" data-tex="2\sqrt{7}" data-display="false"></span> . 求此圆的方程.</p>
+<p><img src="images/book-e438e1c3fb62983138a5.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-4</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b12">练习 2.1(1)</h3><article class="question" id="x1-2-1-p211-1" data-question-id="x1-2-1-p211-1" data-category="practice"><div class="question-label">练习2.1(1) · 1</div><div class="question-body"><ol>
+<li>求以 <span class="math" data-tex="C\left( {3,4}\right)" data-display="false"></span> 为圆心,且过点 <span class="math" data-tex="M\left( {1, - 3}\right)" data-display="false"></span> 的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p211-2" data-question-id="x1-2-1-p211-2" data-category="practice"><div class="question-label">练习2.1(1) · 2</div><div class="question-body"><ol start="2">
+<li>求以 <span class="math" data-tex="C\left( {-1,2}\right)" data-display="false"></span> 为圆心,且与直线 <span class="math" data-tex="{2x} - {3y} - 5 = 0" data-display="false"></span> 相切的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p211-3" data-question-id="x1-2-1-p211-3" data-category="practice"><div class="question-label">练习2.1(1) · 3</div><div class="question-body"><ol start="3">
+<li>一个圆与 <span class="math" data-tex="y" data-display="false"></span> 轴相切于点 <span class="math" data-tex="\left( {0,4}\right)" data-display="false"></span> ,且在 <span class="math" data-tex="x" data-display="false"></span> 轴正半轴上截得长为 6 的弦. 求此圆的方程.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-2-1-b16">3 圆的一般方程</h3><div class="prose" data-visual-source-sha="9e767caf5ddedf8e48f7bcfd28c16bbbf9ea428b5e809247ae25f912c6ed3130" id="x1-2-1-b17"><p>我们知道直线的一般式方程是 <span class="math" data-tex="{ax} + {by} + c = 0" data-display="false"></span> ( <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 不同时为零).</p>
+<p>下面来建立圆的一般方程.</p>
+<p>把圆的标准方程 <span class="math" data-tex="{\left( x - a\right) }^{2} + {\left( y - b\right) }^{2} = {r}^{2}" data-display="false"></span> 展开并整理,可得</p>
+<div class="math display" data-tex="{x}^{2} + {y}^{2} - {2ax} - {2by} + {a}^{2} + {b}^{2} - {r}^{2} = 0." data-display="true"></div>
+<p>由此可见, 任何一个圆的方程都可以写成下面的形式:</p>
+<div class="math display" data-tex="{x}^{2} + {y}^{2} + {Dx} + {Ey} + F = 0." data-display="true"></div>
+<p>②</p>
+<p>其中, <span class="math" data-tex="D\text{ 、 }E\text{ 、 }F" data-display="false"></span> 均为实常数.</p>
+<p>反过来,如果给定实常数 <span class="math" data-tex="D\text{ 、 }E\text{ 、 }F" data-display="false"></span> ,方程②是否都表示一个圆呢? 将方程②左边配方并整理, 可得</p>
+<div class="math display" data-tex="{\left( x + \frac{D}{2}\right) }^{2} + {\left( y + \frac{E}{2}\right) }^{2} = \frac{{D}^{2} + {E}^{2} - {4F}}{4}." data-display="true"></div>
+<p>由此可以看出:</p>
+<p>(1)当 <span class="math" data-tex="{D}^{2} + {E}^{2} - {4F} &gt; 0" data-display="false"></span> 时，方程②表示以(-2、b，-3 b) 心、以 <span class="math" data-tex="\frac{\sqrt{{D}^{2} + {E}^{2} - {4F}}}{2}" data-display="false"></span> 为半径的圆；</p>
+<p>( 2 )当 <span class="math" data-tex="{D}^{2} + {E}^{2} - {4F} = 0" data-display="false"></span> 时，方程②表示一个点 <span class="math" data-tex="\left( {-\frac{D}{2}, - \frac{E}{2}}\right)" data-display="false"></span> ；</p>
+<p>(3)当 <span class="math" data-tex="{D}^{2} + {E}^{2} - {4F} &lt; 0" data-display="false"></span> 时，方程②没有实根，此时方程 ②不表示任何图形.</p>
+<aside class="key-point key-concept" id="x1-2-1-definition-17-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>因此,当 <span class="math" data-tex="{D}^{2} + {E}^{2} - {4F} &gt; 0" data-display="false"></span> 时,方程②叫做圆的一般方程.</p>
+</aside></div><article class="question" id="x1-2-1-ex-5" data-question-id="x1-2-1-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 求经过 <span class="math" data-tex="A\left( {1,0}\right) \text{ 、 }B\left( {3,0}\right) \text{ 、 }C\left( {2,2}\right)" data-display="false"></span> 三点的圆的方程.</p>
+</div></article><div class="prose" data-visual-source-sha="ed700da6e6216512aa4060b0aaf14525a1266f00137cf1741188f63223837e1f" id="x1-2-1-b19"><aside class="key-point key-concept" id="x1-2-1-definition-19-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p><span class="math" data-tex="{D}^{2} + {E}^{2} - {4F}" data-display="false"></span> 可以称为方程②的判别式.</p>
+</aside></div><article class="question" id="x1-2-1-ex-6" data-question-id="x1-2-1-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 若圆 <span class="math" data-tex="{x}^{2} + {y}^{2} - {2x} + t = 0" data-display="false"></span> 与直线 <span class="math" data-tex="{2x} + y = 0" data-display="false"></span> 相交于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,且 <span class="math" data-tex="\overrightarrow{OA} \cdot  \overrightarrow{OB} =  - 1" data-display="false"></span> (其中点 <span class="math" data-tex="O" data-display="false"></span> 为坐标原点). 求 <span class="math" data-tex="t" data-display="false"></span> 的值和圆的方程.</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b21">练习 2.1(2)</h3><article class="question" id="x1-2-1-p212-1" data-question-id="x1-2-1-p212-1" data-category="practice"><div class="question-label">练习2.1(2) · 1</div><div class="question-body"><ol>
+<li>求经过 <span class="math" data-tex="A\left( {3,2}\right) \text{ 、 }B\left( {1,1}\right) \text{ 、 }C\left( {2, - 1}\right)" data-display="false"></span> 三点的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p212-2" data-question-id="x1-2-1-p212-2" data-category="practice"><div class="question-label">练习2.1(2) · 2</div><div class="question-body"><ol start="2">
+<li>讨论方程 <span class="math" data-tex="{x}^{2} + {y}^{2} - {2y} + \lambda \left( {{x}^{2} + {y}^{2} - {2x}}\right)  = 0\left( \lambda \right." data-display="false"></span> 为实数 <span class="math" data-tex=")" data-display="false"></span> 所表示的曲线.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p212-3" data-question-id="x1-2-1-p212-3" data-category="practice"><div class="question-label">练习2.1(2) · 3</div><div class="question-body"><ol start="3">
+<li>已知两点 <span class="math" data-tex="A\left( {-5,0}\right) \text{ 、 }B\left( {5,0}\right)" data-display="false"></span> ,动点 <span class="math" data-tex="P" data-display="false"></span> 到点 <span class="math" data-tex="A" data-display="false"></span> 的距离是它到点 <span class="math" data-tex="B" data-display="false"></span> 的距离的 3 倍. 求点 <span class="math" data-tex="P" data-display="false"></span> 的轨迹方程.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-2-1-b25">4 直线与圆的位置关系</h3><div class="prose" data-visual-source-sha="dd37af766486128993673193fe415c22f37f9b0fa6f64553cb55109713513731" id="x1-2-1-b26"><p>在平面几何中, 我们已经知道直线与圆的三种位置关系: 有两个不同的公共点时二者相交, 有且只有一个公共点时二者相切, 没有公共点时二者相离. 本节我们将借助圆和直线的方程, 利用代数方法来讨论直线与圆的位置关系.</p>
+<hr />
+<p>把圆的方程写成 <span class="math" data-tex="{\left( x - s\right) }^{2} + {\left( y - t\right) }^{2} = \; {r}^{2}" data-display="false"></span> ,依据平面几何知识,直线 <span class="math" data-tex="l : {ax} + {by} + \; c = 0" data-display="false"></span> 与圆的位置关系取决于圆心 <span class="math" data-tex="\left( {s, t}\right)" data-display="false"></span> 到 <span class="math" data-tex="l" data-display="false"></span> 的距离和半径 <span class="math" data-tex="r" data-display="false"></span> 的大小关系, 请用上一章所学的点到直线距离的知识, 把各种不同的位置关系描述出来.</p>
+<hr />
+<aside class="key-point key-concept" id="x1-2-1-definition-26-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>如果给定圆 <span class="math" data-tex="C : {x}^{2} + {y}^{2} + {Dx} + {Ey} + F = 0" data-display="false"></span> 和直线 <span class="math" data-tex="l : {ax} + \; {by} + c = 0" data-display="false"></span> ，与上一章讨论两条直线交点类似，平面上一点是直线 <span class="math" data-tex="l" data-display="false"></span> 与圆 <span class="math" data-tex="C" data-display="false"></span> 的公共点的充要条件是这一点的坐标是如下方程组的解:</p>
+</aside><div class="math display" data-tex="\left\{  \begin{array}{l} {x}^{2} + {y}^{2} + {Dx} + {Ey} + F = 0, \\  {ax} + {by} + c = 0. \end{array}\right." data-display="true"></div>
+<p>从而, 可以通过讨论上述方程组的解的不同情形来判断直线与圆的位置关系.</p>
+</div><article class="question" id="x1-2-1-ex-7" data-question-id="x1-2-1-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 已知圆 <span class="math" data-tex="C" data-display="false"></span> 的方程是 <span class="math" data-tex="{x}^{2} + {y}^{2} = 9" data-display="false"></span> . 当 <span class="math" data-tex="b" data-display="false"></span> 为何值时,直线 <span class="math" data-tex="l : {2x} - y + b = 0" data-display="false"></span> 与圆 <span class="math" data-tex="C" data-display="false"></span> 分别有两个不同的公共点？有一个公共点? 没有公共点?</p>
+</div></article><article class="question" id="x1-2-1-ex-8" data-question-id="x1-2-1-ex-8" data-category="example"><div class="question-label">例题 8</div><div class="question-body"><p>例 8 (1)如图2-1-6，已知 <span class="math" data-tex="M\left( {{x}_{0},{y}_{0}}\right)" data-display="false"></span> 为圆 <span class="math" data-tex="O" data-display="false"></span> : <span class="math" data-tex="{x}^{2} + {y}^{2} = 4" data-display="false"></span> 上一点,求过点 <span class="math" data-tex="M" data-display="false"></span> 的圆 <span class="math" data-tex="O" data-display="false"></span> 的切线 <span class="math" data-tex="l" data-display="false"></span> 的方程;</p>
+<p>(2)求过点 <span class="math" data-tex="N\left( {2,2\sqrt{3}}\right)" data-display="false"></span> 且与圆 <span class="math" data-tex="O : {x}^{2} + {y}^{2} = 4" data-display="false"></span> 相切的直线的方程.</p>
+<p><img src="images/book-54eba6447618ca4c3c89.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-6</p>
+</div></article><article class="question" id="x1-2-1-ex-9" data-question-id="x1-2-1-ex-9" data-category="example"><div class="question-label">例题 9</div><div class="question-body"><p>例 9 过圆 <span class="math" data-tex="O : {x}^{2} + {y}^{2} = {16}" data-display="false"></span> 外一点 <span class="math" data-tex="M\left( {2, - 6}\right)" data-display="false"></span> 任意作一条割线交圆 <span class="math" data-tex="O" data-display="false"></span> 于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,求弦 <span class="math" data-tex="{AB}" data-display="false"></span> 的中点 <span class="math" data-tex="C" data-display="false"></span> 的轨迹.</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b30">练习 2.1(3)</h3><article class="question" id="x1-2-1-p213-1" data-question-id="x1-2-1-p213-1" data-category="practice"><div class="question-label">练习2.1(3) · 1</div><div class="question-body"><ol>
+<li>( 1 )求经过点 <span class="math" data-tex="\left( {-3,4}\right)" data-display="false"></span> 且与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {25}" data-display="false"></span> 相切的直线的方程；</li>
+</ol>
+<p>(2)求经过点 <span class="math" data-tex="\left( {2,4}\right)" data-display="false"></span> 且与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = 4" data-display="false"></span> 相切的直线的方程.</p>
+</div></article><article class="question" id="x1-2-1-p213-2" data-question-id="x1-2-1-p213-2" data-category="practice"><div class="question-label">练习2.1(3) · 2</div><div class="question-body"><ol start="2">
+<li>当 <span class="math" data-tex="a" data-display="false"></span> 为何值时,直线 <span class="math" data-tex="x + y - a = 0" data-display="false"></span> 与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = 2" data-display="false"></span> 分别有如下位置关系:</li>
+</ol>
+<p>(1)相交； (2)相切； (3)相离.</p>
+</div></article><article class="question" id="x1-2-1-p213-3" data-question-id="x1-2-1-p213-3" data-category="practice"><div class="question-label">练习2.1(3) · 3</div><div class="question-body"><ol start="3">
+<li>已知直线 <span class="math" data-tex="l" data-display="false"></span> 经过点 <span class="math" data-tex="P\left( {6, - 4}\right)" data-display="false"></span> 且被圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {20}" data-display="false"></span> 截得长为 <span class="math" data-tex="6\sqrt{2}" data-display="false"></span> 的弦,求 <span class="math" data-tex="l" data-display="false"></span> 的方程.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-2-1-b34">5 圆与圆的位置关系</h3><div class="prose" data-visual-source-sha="4a3ba579405a31439f30929e637293e2dc2aaa6536cb05a58e05ef36d63b6130" id="x1-2-1-b35"><p>圆是常见的平面几何图形, 两个或多个圆之间不同位置关系的合理使用, 会对装置的功能或艺术品的美感产生不同的作用. 如图 2-1-8 中的自行车双轮、滚珠轴承、奥运五环、花布图案, 都是圆的位置关系应用的实例.</p>
+<p><img src="images/book-178c9e4d8b8b96518f1b.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-8</p>
+<p>我们只讨论两个圆的位置关系.</p>
+<p>从初中的平面几何学习中, 我们知道两个圆之间有内含(包括同心)、内切、相交、外切和外离五种位置关系. 在平面直角坐标系中, 如果给出两个圆的标准方程</p>
+<div class="math display" data-tex="{C}_{1} : {\left( x - {a}_{1}\right) }^{2} + {\left( y - {b}_{1}\right) }^{2} = {r}_{1}^{2}," data-display="true"></div>
+<div class="math display" data-tex="{C}_{2} : {\left( x - {a}_{2}\right) }^{2} + {\left( y - {b}_{2}\right) }^{2} = {r}_{2}^{2}," data-display="true"></div>
+<p>我们就可以从方程中读出两个圆的圆心坐标 <span class="math" data-tex="\left( {{a}_{1},{b}_{1}}\right) \text{ 、 }\left( {{a}_{2},{b}_{2}}\right)" data-display="false"></span> , 半径 <span class="math" data-tex="{r}_{1}\text{ 、 }{r}_{2}" data-display="false"></span> ,进而由圆心坐标求得圆心距</p>
+<div class="math display" data-tex="d = \sqrt{{\left( {a}_{1} - {a}_{2}\right) }^{2} + {\left( {b}_{1} - {b}_{2}\right) }^{2}}." data-display="true"></div>
+<p>所以</p>
+<p>当 <span class="math" data-tex="d &lt; \left| {{r}_{1} - {r}_{2}}\right|" data-display="false"></span> 时,两圆内含; 当 <span class="math" data-tex="d = \left| {{r}_{1} - {r}_{2}}\right|" data-display="false"></span> 时,两圆内切; 当 <span class="math" data-tex="\left| {{r}_{1} - {r}_{2}}\right|  &lt; d &lt; {r}_{1} + {r}_{2}" data-display="false"></span> 时,两圆相交; 当 <span class="math" data-tex="d = {r}_{1} + {r}_{2}" data-display="false"></span> 时,两圆外切; 当 <span class="math" data-tex="d &gt; {r}_{1} + {r}_{2}" data-display="false"></span> 时,两圆外离.</p>
+<p>如果给出两个圆的一般方程</p>
+<div class="math display" data-tex="{C}_{1} : {x}^{2} + {y}^{2} + {D}_{1}x + {E}_{1}y + {F}_{1} = 0," data-display="true"></div>
+<div class="math display" data-tex="{C}_{2} : {x}^{2} + {y}^{2} + {D}_{2}x + {E}_{2}y + {F}_{2} = 0," data-display="true"></div>
+<p>我们当然可以把它们都化成标准方程, 然后用上述圆心距与半径的关系判断这两个圆的位置关系. 此外, 我们也可以像判断两条直线的位置关系与判断直线和圆的位置关系那样, 通过解联立方程组判断两个圆有几个公共点, 从而得知它们是相交、相切(包括内切与外切)还是相离 (包括内含与外离). 因此, 我们解方程组</p>
+<div class="math display" data-tex="\left\{  \begin{array}{l} {x}^{2} + {y}^{2} + {D}_{1}x + {E}_{1}y + {F}_{1} = 0, \\  {x}^{2} + {y}^{2} + {D}_{2}x + {E}_{2}y + {F}_{2} = 0. \end{array}\right." data-display="true"></div>
+<p>如果上述方程组有两组不同的解,那么圆 <span class="math" data-tex="{C}_{1}" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2}" data-display="false"></span> 相交; 如果上述方程组只有一组解 (实际上应该理解为两组相同的解, 因为它们是由一元二次方程两个相同的根得出的),那么圆 <span class="math" data-tex="{C}_{1}" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2}" data-display="false"></span> 内切或外切; 如果上述方程组无解,那么圆 <span class="math" data-tex="{C}_{1}" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2}" data-display="false"></span> 内含或外离.</p>
+<p>上述方程组由两个二元二次方程组成, 只要把这两个方程相减, 一般情况下可以得到一个二元一次方程</p>
+<div class="math display" data-tex="\left( {{D}_{1} - {D}_{2}}\right) x + \left( {{E}_{1} - {E}_{2}}\right) y + \left( {{F}_{1} - {F}_{2}}\right)  = 0." data-display="true"></div>
+<p>因此, 求解上述方程组, 只要把这个二元一次方程和上述方程组中的任何一个方程联立求解就可以了.</p>
+</div><article class="question" id="x1-2-1-ex-10" data-question-id="x1-2-1-ex-10" data-category="example"><div class="question-label">例题 10</div><div class="question-body"><p>例 10 判断圆 <span class="math" data-tex="{C}_{1} : {x}^{2} + {y}^{2} - {2x} = 0" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2} : {x}^{2} + {y}^{2} - {4y} = 0" data-display="false"></span> 的位置关系.</p>
+</div></article><article class="question" id="x1-2-1-ex-11" data-question-id="x1-2-1-ex-11" data-category="example"><div class="question-label">例题 11</div><div class="question-body"><p>例 11 证明圆 <span class="math" data-tex="{C}_{1} : {x}^{2} + {y}^{2} - {4x} + {6y} + 5 = 0" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2}" data-display="false"></span> : <span class="math" data-tex="{x}^{2} + {y}^{2} - {6x} + {4y} + {11} = 0" data-display="false"></span> 内切,并求切点坐标.</p>
+</div></article><article class="question" id="x1-2-1-ex-12" data-question-id="x1-2-1-ex-12" data-category="example"><div class="question-label">例题 12</div><div class="question-body"><p>例 12 如图 2-1-9(1),圆 <span class="math" data-tex="{O}_{1}" data-display="false"></span> 与圆 <span class="math" data-tex="{O}_{2}" data-display="false"></span> 的半径都是 1, <span class="math" data-tex="{O}_{1}{O}_{2} = 4" data-display="false"></span> ,过动点 <span class="math" data-tex="P" data-display="false"></span> 分别作圆 <span class="math" data-tex="{O}_{1}" data-display="false"></span> 、圆 <span class="math" data-tex="{O}_{2}" data-display="false"></span> 的切线 <span class="math" data-tex="{PM}\text{ 、 }{PN}(M" data-display="false"></span> 、 <span class="math" data-tex="N" data-display="false"></span> 分别为切点),使得 <span class="math" data-tex="\left| {PM}\right|  = \sqrt{2}\left| {PN}\right|" data-display="false"></span> . 试通过建立适当的平面直角坐标系,求动点 <span class="math" data-tex="P" data-display="false"></span> 的轨迹.</p>
+<p><img src="images/book-3e7131b632932303fd05.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-9</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b39">练习 2.1(4)</h3><article class="question" id="x1-2-1-p214-1" data-question-id="x1-2-1-p214-1" data-category="practice"><div class="question-label">练习2.1(4) · 1</div><div class="question-body"><ol>
+<li>已知圆 <span class="math" data-tex="{C}_{1} : {\left( x - 2\right) }^{2} + {\left( y - 2\right) }^{2} = 1" data-display="false"></span> 和圆 <span class="math" data-tex="{C}_{2} : {x}^{2} + {\left( y - m\right) }^{2} = {m}^{2}\left( {m &gt; 0}\right)" data-display="false"></span> ,当 <span class="math" data-tex="m" data-display="false"></span> 为何值时,圆 <span class="math" data-tex="{C}_{1}" data-display="false"></span> 与圆 <span class="math" data-tex="{C}_{2}" data-display="false"></span> 分别内切、相交?</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p214-2" data-question-id="x1-2-1-p214-2" data-category="practice"><div class="question-label">练习2.1(4) · 2</div><div class="question-body"><ol start="2">
+<li>求与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {25}" data-display="false"></span> 外切于点 <span class="math" data-tex="P\left( {4, - 3}\right)" data-display="false"></span> 且半径为 1 的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-p214-3" data-question-id="x1-2-1-p214-3" data-category="practice"><div class="question-label">练习2.1(4) · 3</div><div class="question-body"><ol start="3">
+<li>已知圆 <span class="math" data-tex="{x}^{2} + {y}^{2} - {2x} + {2y} - 3 = 0" data-display="false"></span> 和圆 <span class="math" data-tex="{x}^{2} + {y}^{2} + {4x} - 1 = 0" data-display="false"></span> 相交于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,求公共弦 <span class="math" data-tex="{AB}" data-display="false"></span> 的长.</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-2-1-b43">习题 2.1</h3><h3 class="group-heading" id="x1-2-1-b44">A 组</h3><article class="question" id="x1-2-1-h21A-1" data-question-id="x1-2-1-h21A-1" data-category="homework"><div class="question-label">习题2.1A · 1</div><div class="question-body"><ol>
+<li>根据下列条件,分别求圆的方程:</li>
+</ol>
+<p>(1)圆心为 <span class="math" data-tex="C\left( {-\frac{3}{2},3}\right)" data-display="false"></span> ,半径 <span class="math" data-tex="r = \sqrt{3}" data-display="false"></span> ；</p>
+<p>(2)圆心为 <span class="math" data-tex="C\left( {\sqrt{2},1}\right)" data-display="false"></span> ，过点 <span class="math" data-tex="A\left( {-1,\sqrt{2}}\right)" data-display="false"></span> ；</p>
+<p>(3)与 <span class="math" data-tex="x" data-display="false"></span> 轴相交于 <span class="math" data-tex="A\left( {1,0}\right)" data-display="false"></span> 、 <span class="math" data-tex="B\left( {5,0}\right)" data-display="false"></span> 两点，且半径等于✓5.</p>
+</div></article><article class="question" id="x1-2-1-h21A-2" data-question-id="x1-2-1-h21A-2" data-category="homework"><div class="question-label">习题2.1A · 2</div><div class="question-body"><ol start="2">
+<li>已知圆 <span class="math" data-tex="{\left( x - a\right) }^{2} + {\left( y - b\right) }^{2} = {r}^{2}\left( {r &gt; 0}\right)" data-display="false"></span> ,求在下列情况下,实数 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }r" data-display="false"></span> 应分别满足什么条件:</li>
+</ol>
+<p>(1)圆过原点； (2)圆心在 <span class="math" data-tex="x" data-display="false"></span> 轴上；</p>
+<p>(3)圆与 <span class="math" data-tex="x" data-display="false"></span> 轴相切； (4)圆与两坐标轴均相切.</p>
+</div></article><article class="question" id="x1-2-1-h21A-3" data-question-id="x1-2-1-h21A-3" data-category="homework"><div class="question-label">习题2.1A · 3</div><div class="question-body"><ol start="3">
+<li>求过点 <span class="math" data-tex="M\left( {5,2}\right) \text{ 、 }N\left( {3,2}\right)" data-display="false"></span> ,且圆心在直线 <span class="math" data-tex="y = {2x} - 3" data-display="false"></span> 上的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-4" data-question-id="x1-2-1-h21A-4" data-category="homework"><div class="question-label">习题2.1A · 4</div><div class="question-body"><ol start="4">
+<li>已知 <span class="math" data-tex="{a}^{2}{x}^{2} + \left( {a + 2}\right) {y}^{2} + {2ax} + a = 0" data-display="false"></span> 表示圆,求实数 <span class="math" data-tex="a" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-5" data-question-id="x1-2-1-h21A-5" data-category="homework"><div class="question-label">习题2.1A · 5</div><div class="question-body"><ol start="5">
+<li>直线 <span class="math" data-tex="l" data-display="false"></span> 与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} + {2x} - {4y} + a = 0\left( {a &lt; 3}\right)" data-display="false"></span> 相交于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,且弦 <span class="math" data-tex="{AB}" data-display="false"></span> 的中点为 <span class="math" data-tex="\left( {0,1}\right)" data-display="false"></span> . 求直线 <span class="math" data-tex="l" data-display="false"></span> 的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-6" data-question-id="x1-2-1-h21A-6" data-category="homework"><div class="question-label">习题2.1A · 6</div><div class="question-body"><ol start="6">
+<li>已知圆过原点，且与 <span class="math" data-tex="x" data-display="false"></span> 轴、 <span class="math" data-tex="y" data-display="false"></span> 轴的交点的坐标分别为 <span class="math" data-tex="\left( {a,0}\right)" data-display="false"></span> 、 <span class="math" data-tex="\left( {0, b}\right)" data-display="false"></span> ，其中 <span class="math" data-tex="{ab} \neq  0" data-display="false"></span> . 求这个圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-7" data-question-id="x1-2-1-h21A-7" data-category="homework"><div class="question-label">习题2.1A · 7</div><div class="question-body"><ol start="7">
+<li>判断直线 <span class="math" data-tex="x\cos \theta  + y\sin \theta  = r" data-display="false"></span> 与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {r}^{2}" data-display="false"></span> 的位置关系.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-8" data-question-id="x1-2-1-h21A-8" data-category="homework"><div class="question-label">习题2.1A · 8</div><div class="question-body"><ol start="8">
+<li>已知直线 <span class="math" data-tex="{2x} + {3y} + 1 = 0" data-display="false"></span> 和圆 <span class="math" data-tex="{x}^{2} + {y}^{2} - {2x} - 3 = 0" data-display="false"></span> 相交于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,求弦 <span class="math" data-tex="{AB}" data-display="false"></span> 的垂直平分线的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-9" data-question-id="x1-2-1-h21A-9" data-category="homework"><div class="question-label">习题2.1A · 9</div><div class="question-body"><ol start="9">
+<li>求与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {25}" data-display="false"></span> 内切于点 <span class="math" data-tex="P\left( {3, - 4}\right)" data-display="false"></span> 且半径为 1 的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-10" data-question-id="x1-2-1-h21A-10" data-category="homework"><div class="question-label">习题2.1A · 10</div><div class="question-body"><ol start="10">
+<li>已知圆 <span class="math" data-tex="C" data-display="false"></span> 过点 <span class="math" data-tex="\left( {-4,0}\right)" data-display="false"></span> 且与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} - {4x} - {6y} = 0" data-display="false"></span> 相切于原点,求圆 <span class="math" data-tex="C" data-display="false"></span> 的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21A-11" data-question-id="x1-2-1-h21A-11" data-category="homework"><div class="question-label">习题2.1A · 11</div><div class="question-body"><ol start="11">
+<li>圆拱桥的一个圆拱如图所示,该圆拱的跨度 <span class="math" data-tex="{AB}" data-display="false"></span> 为 <span class="math" data-tex="{20}\mathrm{\;m}" data-display="false"></span> ,拱高 <span class="math" data-tex="{OP}" data-display="false"></span> 为 <span class="math" data-tex="4\mathrm{\;m}" data-display="false"></span> ,在建造过程中每隔 <span class="math" data-tex="4\mathrm{\;m}" data-display="false"></span> 需用一个支柱支撑. 求支柱 <span class="math" data-tex="{A}_{2}{B}_{2}" data-display="false"></span> 的高度. (结果精确到 <span class="math" data-tex="{0.01}\mathrm{\;m}" data-display="false"></span> )</li>
+</ol>
+<p><img src="images/book-99d1dd0326ac33d4d94d.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 11 题)</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b56">B 组</h3><article class="question" id="x1-2-1-h21B-1" data-question-id="x1-2-1-h21B-1" data-category="homework"><div class="question-label">习题2.1B · 1</div><div class="question-body"><ol>
+<li>给定点 <span class="math" data-tex="A\left( {2,3}\right)" data-display="false"></span> 与圆 <span class="math" data-tex="C : {x}^{2} + {y}^{2} = {25}" data-display="false"></span> ,求圆 <span class="math" data-tex="C" data-display="false"></span> 的过点 <span class="math" data-tex="A" data-display="false"></span> 最短弦所在直线的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-2" data-question-id="x1-2-1-h21B-2" data-category="homework"><div class="question-label">习题2.1B · 2</div><div class="question-body"><ol start="2">
+<li>一个圆过点 <span class="math" data-tex="\left( {2, - 1}\right)" data-display="false"></span> ,圆心在直线 <span class="math" data-tex="{2x} + y = 0" data-display="false"></span> 上,且与直线 <span class="math" data-tex="x - y - 1 = 0" data-display="false"></span> 相切. 求这个圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-3" data-question-id="x1-2-1-h21B-3" data-category="homework"><div class="question-label">习题2.1B · 3</div><div class="question-body"><ol start="3">
+<li>已知圆 <span class="math" data-tex="{x}^{2} + {y}^{2} + {6x} - {8y} + {25} = {r}^{2}" data-display="false"></span> 与 <span class="math" data-tex="x" data-display="false"></span> 轴相切，求这个圆截 <span class="math" data-tex="y" data-display="false"></span> 轴所得的弦长.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-4" data-question-id="x1-2-1-h21B-4" data-category="homework"><div class="question-label">习题2.1B · 4</div><div class="question-body"><ol start="4">
+<li>求圆 <span class="math" data-tex="C : {x}^{2} + {y}^{2} + {4x} + {2y} - 3 = 0" data-display="false"></span> 关于点 <span class="math" data-tex="M\left( {1,1}\right)" data-display="false"></span> 对称的圆的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-5" data-question-id="x1-2-1-h21B-5" data-category="homework"><div class="question-label">习题2.1B · 5</div><div class="question-body"><ol start="5">
+<li>已知动直线 <span class="math" data-tex="{kx} - y + 1 = 0" data-display="false"></span> (其中 <span class="math" data-tex="k \in  \mathbf{R}" data-display="false"></span> ) 和圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = 4" data-display="false"></span> 相交于 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 两点,求弦 <span class="math" data-tex="{AB}" data-display="false"></span> 的中点的轨迹方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-6" data-question-id="x1-2-1-h21B-6" data-category="homework"><div class="question-label">习题2.1B · 6</div><div class="question-body"><ol start="6">
+<li>求经过点 <span class="math" data-tex="\left( {5, - 5}\right)" data-display="false"></span> 且与圆 <span class="math" data-tex="{x}^{2} + {y}^{2} = {25}" data-display="false"></span> 相切的直线的方程.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-7" data-question-id="x1-2-1-h21B-7" data-category="homework"><div class="question-label">习题2.1B · 7</div><div class="question-body"><ol start="7">
+<li>已知直线 <span class="math" data-tex="y = x + m" data-display="false"></span> 和曲线 <span class="math" data-tex="y = \sqrt{1 - {x}^{2}}" data-display="false"></span> 有两个不同的交点,求实数 <span class="math" data-tex="m" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-8" data-question-id="x1-2-1-h21B-8" data-category="homework"><div class="question-label">习题2.1B · 8</div><div class="question-body"><ol start="8">
+<li>已知直线 <span class="math" data-tex="l : x - y + 4 = 0" data-display="false"></span> 与圆 <span class="math" data-tex="C : {\left( x - 1\right) }^{2} + {\left( y - 1\right) }^{2} = 2" data-display="false"></span> ,求圆 <span class="math" data-tex="C" data-display="false"></span> 上各点到直线 <span class="math" data-tex="l" data-display="false"></span> 的距离的最大值.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-9" data-question-id="x1-2-1-h21B-9" data-category="homework"><div class="question-label">习题2.1B · 9</div><div class="question-body"><ol start="9">
+<li>已知实数 <span class="math" data-tex="x\text{ 、 }y" data-display="false"></span> 满足 <span class="math" data-tex="{\left( x - 2\right) }^{2} + {y}^{2} = 3" data-display="false"></span> ,求 <span class="math" data-tex="\frac{y}{x}" data-display="false"></span> 的取值范围.</li>
+</ol>
+</div></article><article class="question" id="x1-2-1-h21B-10" data-question-id="x1-2-1-h21B-10" data-category="homework"><div class="question-label">习题2.1B · 10</div><div class="question-body"><ol start="10">
+<li><span class="math" data-tex="{400}\mathrm{\;m}" data-display="false"></span> 标准跑道的内圈如图所示( <span class="math" data-tex="{400}\mathrm{\;m}" data-display="false"></span> 标准跑道最内圈的长度为 <span class="math" data-tex="{400}\mathrm{\;m}" data-display="false"></span> )，其中左右两端均是半径为 <span class="math" data-tex="{36}\mathrm{\;m}" data-display="false"></span> 的半圆弧.</li>
+</ol>
+<p>(1)求每条直道的长度; (π 取 3.14，结果精确到 <span class="math" data-tex="1\mathrm{\;m}" data-display="false"></span> )</p>
+<p>(2)建立适当的平面直角坐标系，写出上半部分跑道所对应的函数表达式.</p>
+<p><img src="images/book-5544846ea3f8ef1617b3.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 10 题)</p>
+</div></article><h3 class="group-heading" id="x1-2-1-b67">探究与实践</h3><h3 class="group-heading" id="x1-2-1-b68">追捕走私船</h3><div class="prose" data-visual-source-sha="f5ca8991de1e76beda910c2775ccd1fb009839b42f782a1cad15888163a89073" id="x1-2-1-b69"><p>如图 2-1-10,设直线 <span class="math" data-tex="l" data-display="false"></span> 为公海与领海的分界线,一巡逻艇在 <span class="math" data-tex="A" data-display="false"></span> 处发现北偏东 <span class="math" data-tex="{60}^{ \circ  }" data-display="false"></span> 海面 <span class="math" data-tex="B" data-display="false"></span> 处有一艘走私船,此走私船正向停泊在公海上接应的走私海轮 <span class="math" data-tex="C" data-display="false"></span> 航行,以便上海轮后逃窜. 已知巡逻艇的航速是走私船航速的 2 倍, <span class="math" data-tex="A" data-display="false"></span> 与公海相距约 12 海里,走私船可能向任一方向逃窜. 请回答下列问题:</p>
+<p><img src="images/book-4bde123ce49ae992a024.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 2-1-10</p>
+<p>(1)如果走私船和巡逻艇都是沿直线航行，那么走私船能被截获的点是哪些？</p>
+<p>(2)根据截获点的轨迹，探讨“可截获区域”和“非截获区域”；</p>
+<p>(3)如果走私船在非截获区域就进入公海，那么巡逻艇追捕失败. 要保证在领海内捕获,就应保证 “非截获区域” 与公海区域不相交 (即交集为空集). 此时, <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 相距最远是多少海里?</p>
+</div></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x1-2-1" checked>圆</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

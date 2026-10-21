@@ -1,0 +1,708 @@
+{
+  "schema_version": 1,
+  "id": "x1-1-1",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "1",
+  "chapter_title": "第1章平面直角坐标系中的直线",
+  "section": "1.1",
+  "title": "直线的倾斜角与斜率",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "直线的倾斜角与斜率",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 9,
+          "end": 9
+        }
+      ],
+      "id": "x1-1-1",
+      "number": "1.1",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "prose",
+      "title": "章导语",
+      "markdown": "# 平面直角坐标系中的直线\n\n![bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg)\n\n在本册教材的这一章和下一章中, 我们将学习解析几何的初步知识与方法. 解析几何的研究思路是通过引进坐标系, 建立“点”与“数” 之间的一一对应, 从而用代数的观点与方法解决几何问题.\n\n几何中, 与直线相关的问题主要包括: 点与直线、直线与直线之间的位置关系, 以及由直线组成的平面图形的性质与度量. 虽然其中的许多问题我们并不陌生, 用以往学过的平面几何的方法也能解决, 但本章所采取的是一种新的思路和方法, 它具有一般性和普适性. 通过学习, 可以帮助我们理解解析几何的一些基本特点.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 本章概述",
+      "markdown": "## 一、本章概述\n\n### 总体要求\n\n在本章和下一章中我们将学习平面解析几何的初步知识与方法. 平面解析几何的思想是通过建立适当的平面坐标系, 用方程表示曲线, 通过研究方程的特点来研究曲线的特征, 从而用代数的观点与方法解决几何问题.\n\n通过初中阶段的平面几何课程, 学生学习了直线, 知道两点可以确定一条直线, 知道两条直线的相交、平行与垂直的几何特征, 知道可以通过两条相交直线的夹角确定其相对位置; 在 “图形与坐标” 中, 学生学习了平面直角坐标系, 知道平面直角坐标系可以确定平面上图形的位置, 初步体会了通过坐标讨论平面图形的运动与对称问题; 在初中代数中, 学生学习了一次函数, 知道一次函数的图像是直线, 可以通过直线的倾斜方向判断一次函数的单调性, 体验了“由数到形”再“由形到数”的数形结合过程.\n\n本章将从代数的角度研究直线. 在平面直角坐标系中认识直线的几何特征并掌握倾斜角和斜率的概念; 学习直线不同形式的方程, 学会根据实际需要选择不同形式的直线方程来解决问题; 学习并掌握利用直线方程来判定两条直线位置关系的方法, 学习如何根据直线方程求两条直线的夹角并掌握夹角的余弦公式; 学习如何根据点的坐标和直线方程求点到直线的距离, 掌握点到直线的距离公式及两条平行线之间的距离公式等.\n\n通过方程来研究曲线的性质, 是平面解析几何的特点与优点. 曲线方程概念的建立是结合本章与下一章的内容逐步完成的. 本章学习建立直线与二元一次方程的联系, 并藉以体会曲线方程的基本思想和验证曲线方程的基本步骤.\n\n通过本章的学习,可以帮助学生体验在平面直角坐标系中,如何用代数的方法研究几何问题, 感悟其中蕴含的丰富的数学思想, 促进学生直观想象、数学运算、逻辑推理、数学抽象和数学建模等数学学科核心素养的发展.\n\n### 课时安排建议\n\n本章的课时安排建议为 9+1 ,共计 10 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td>1.1 直线的倾斜角与斜率</td><td>1</td><td/></tr><tr><td rowspan=\"2\">1.2 直线的方程</td><td rowspan=\"2\">4</td><td>几种特殊形式的直线方程 2 课时</td></tr><tr><td>直线的一般式方程 2 课时</td></tr><tr><td rowspan=\"2\">1.3 两条直线的位置关系</td><td rowspan=\"2\">3</td><td>两条直线的相交、平行与重合 1 课时</td></tr><tr><td>两条直线垂直的判定与夹角的求法 2 课时</td></tr><tr><td>1.4 点到直线的距离</td><td>1</td><td/></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容共分为四节, 分别是 1.1 直线的倾斜角与斜率, 1.2 直线的方程, 1.3 两条直线的位置关系, 1.4 点到直线的距离.\n\n“1.1 直线的倾斜角与斜率” 主要介绍在平面直角坐标系中与直线相关的两个量——倾斜角与斜率, 为直线方程的引入作准备. 倾斜角是个几何量, 是直接表示直线相对于 $x$ 轴的“倾斜程度”的角. 而与倾斜角直接联系的另一个量是直线的斜率,它定义为倾斜角的正切. 经过正切函数的转化, 量的属性发生了根本的变化, 斜率是直线上点的坐标的简单的代数式, 也在直线方程的系数中有直接的表达. 从这个角度看, 斜率与其说是一个几何量, 不如说是一个代数量. 解析几何部分的第一节课就充分体现了解析几何最重要的特征:把几何量与代数量联系起来,为用代数的观点解决几何问题作准备.\n\n“1.2 直线的方程”主要介绍三种不同形式的直线方程: 点斜式方程、两点式方程与一般式方程. 作为点斜式方程的特例, 教材还介绍了直线的斜截式方程; 在直线的一般式方程的学习中, 引入了直线的法向量概念, 并在此基础上介绍了直线的点法式方程.\n\n平面解析几何是要通过研究曲线的方程 (代数对象) 来研究平面上的曲线 (几何对象), 因此平面解析几何理论赖以建立的支柱是曲线方程的概念. 从严密的逻辑角度, 这个概念应该一开始就给出, 这样才能顺理成章地讨论直线的方程、圆锥曲线的方程等. 但一般性的曲线方程的定义是高度抽象的, 在学生对曲线还没有感性认识和知识储备的情况下, 定义一般意义的曲线方程会让学生无所适从. 本册教材采用的策略是把难点分散, 为学生搭建层层递进的理解台阶. 本章只出现 “直线的方程”的概念, 分两个台阶实现,并且没有严格地使用“定义”的形式给出:第一台阶是一个有具体数字的例子, 其伏笔在 1.1 节的例 3 中, 准确的描述在 1.2 节的第 1 小节的引言部分: 从 “与点 $A\\left( {-1,2}\\right) \\text{、}B\\left( {3,4}\\right)$ 共线的点 $C\\left( {x, y}\\right)$ 的坐标一定满足关系式 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ ”和 “如果点 $C\\left( {x, y}\\right)$ 的坐标满足关系式 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ ,那么点 $C\\left( {x, y}\\right)$ 一定与点 $A\\left( {-1,2}\\right) \\text{、}B\\left( {3,4}\\right)$ 共线”,推出“经过点 $A\\left( {-1,2}\\right) \\text{、}B\\left( {3,4}\\right)$ 的直线 ${AB}$ 上的点正好是以方程 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ 的解作为坐标的点”,于是给出了“直线 ${AB}$ 的方程是 $y - 2 = \\; \\frac{1}{2}\\left( {x + 1}\\right)$ ”与“方程 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ 表示了直线 ${AB}$ ”的精确含义.\n\n第二台阶是把具体数字变成字母, 从推导点斜式方程入手, 从“直线上的点的坐标都满足方程”和“满足方程的点都在直线上”两个方向建立起直线方程的概念. 两点式方程是点斜式方程的等价变形, 其引入没有纠缠于两个方向的论证. 一般式方程的引入在逻辑上有点不同:先说明所得到的特殊形式的直线方程都可以等价变形为一般式方程, 再说明一般式方程都是特殊形式变形而成. 最后, 在点法式方程的说明中把上述两个方向论证改写成充要条件, 学生应该不会有大的障碍.\n\n曲线方程的进一步学习在下一章继续展开.\n\n“1.3 两条直线的位置关系”学习用直线的方程判断两条直线的位置关系,从直线的方程出发, 结合直线的几何特征, 判断两条直线是否平行、重合或相交, 判定两条直线是否垂直, 求两条相交直线的夹角. 在内容的编排上, 首先学习的是根据方程判断两条直线常见的位置关系: 相交、平行与重合; 接着研究其中的相交关系, 由特殊的垂直关系的判定到一般情况下的夹角的求法. 展现了由一般到特殊再到一般的认知顺序. 通过这些知识的学习, 引导学生体验如何通过代数的方法解决几何问题, 提高数学运算的能力. 这里对代数方法的理解, 可以从研究直线方程的解的特点出发, 也可以从方程得到直线的几何特征出发来解决与直线有关的问题.\n\n“1.4 点到直线的距离”学习如何求点到直线的距离, 需要掌握点到直线的距离公式与两条平行线间的距离公式. 本节首先探索如何根据点的坐标和直线方程求点到直线之间的距离,经过分析和比较,发现从法向量的角度推导点到直线的距离公式最为简便, 这是对“二期课改”教材的继承. 在掌握了点到直线的距离公式后, 作为该公式的应用和巩固,推导得到两条平行线之间的距离公式. 考虑到课程标准的要求,本节没有安排点到直线的有向距离的内容, 这是有别于 “二期课改” 教材的地方.\n\n总之, 本章以 “如何用代数的方法研究几何问题”为主线, 以学生熟悉的几何知识一 直线 一为载体, 引导学生学习和体验如何用代数的方法表示直线, 如何用直线的方程分析和解决与直线有关的问题. 在掌握直线的知识和方法的基础上, 帮助学生初步学习解析几何的方法, 进一步体验数形结合的思想.\n\n### 教学提示\n\n在本章的教学中,应引导学生重视从 “方程” 的角度研究 “直线” 的过程,强调平面直角坐标系在这个过程中的基础作用. 为了减轻学生学习的难度, 平面直角坐标系通常是给定的, 我们更关注的是在平面直角坐标系中, 如何根据给定条件确定直线的方程, 学会用 “数” 的知识解决 “形” 的问题.\n\n作为平面几何内容的直线,学生有很好的认知基础,所以学习新知识时可以从学生已知的几何基础出发, 思考在平面直角坐标系中如何用 “数”表示. 例如, 平面几何中两点确定一条直线,那么在平面直角坐标系中两点的坐标就确定了经过这两点的直线的位置. 在平面直角坐标系中一点和倾斜角可以确定直线的位置,其中点可以用坐标表示,倾斜角如何用坐标表示呢? 这就有了斜率的定义. 这些知识的生成是理性思维的结果, 适当的数学情境也是创设问题情境的一种方式.\n\n对直线的方程概念的认识是一个渐进的过程, 本章虽然没有明确给出曲线的方程的定义, 但是在求直线的点斜式方程、点法式方程时, 都在渗透两个要点: 一是直线上任意一点的坐标都满足方程, 二是以方程的解为坐标的点一定在直线上. 两个要点不断再现, 促进理解, 为第 2 章进一步学习和理解 “曲线的方程”打下基础.\n\n在本章的教学过程中, 既要突出直线的方程的代数作用, 如通过研究方程的解来判断一个点是否在一条直线上, 判断两条直线是否相交、平行或重合; 也要挖掘直线的方程中蕴含的几何特征,如直线的倾斜角、法向量,为判断两条直线的位置关系、 求点到直线的距离等问题拓展思路.\n\n信息技术的应用会给教学带来方便, 促进学生理解有关的知识. 教学中, 可以适当应用教学软件,动态地展现一些过程,降低抽象思维的难度. 例如,直线的倾斜程度如何随斜率的变化而变化; 直线的位置如何随着一些参数的变化而变化.\n\n作为解析几何的起始章节,在教学中可适当穿插一些数学史的知识,组织学生收集、阅读解析几何的形成和发展的历史资料(例如,参考文献[3][4][5]的有关章节), 撰写小论文,论述解析几何发展的过程、重要结果、主要任务、关键事件及其对人类文明的贡献,彰显数学的人文价值.\n\n### 评价建议\n\n本章的教学可以从以下几个角度进行评价:\n\n关注学生是否能体会和理解解析几何的基本思想,体会坐标系在建立几何对象与代数描述之间重要的桥梁作用, 理解直线方程概念在联系直线的几何理论与方程的代数性质之间的作用.\n\n关注学生对本章引入的基本概念的掌握和理解. 例如, 理解倾斜角、斜率及其在表达直线的几何性质方面的意义, 理解直线的方程的概念, 理解从正反两个方面论证一个方程是给定直线的方程的必要性, 熟悉直线的不同形式方程之间的关系, 熟练进行直线不同形式方程的转换.\n\n关注学生是否在学习知识的过程中经历和体验了知识的发生发展过程. 例如, 直线的倾斜角是怎么来的？为什么有了倾斜角还需要定义斜率？直线和二元一次方程有什么关系? 直线法向量的几何意义和代数刻画.\n\n关注学生是否掌握了本章的基本方法,能否用二元一次方程或二元一次方程组的方法解决直线或直线间关系的几何问题. 例如, 根据方程判定两条直线的位置关系的方法, 通过解方程组求两条直线的交点坐标, 根据直线方程求两条直线的夹角及求点到直线的距离等.\n\n关注学生在思考和解决直线问题时的思维过程. 例如, 能否根据问题情境合理选择直线的方程形式, 能否多角度思考判定两条直线的位置关系的方法, 能否结合图形思考两条直线的法向量的夹角与直线夹角的关系, 能否用多种方法求点到直线的距离等.\n\n本章教学的一个关键的评价指标是学生是否初步掌握了用二元一次方程或方程组解决与直线有关的几何问题, 了解解析几何的基本特点. 当然, 在评价过程中要充分注意到这是解析几何的起始阶段, 对直线和方程的关系的认识是一个逐步加深的过程, 对解析几何的思想和方法是一个学习和体验的过程, 不宜在开始阶段操之过急.\n\n本章涉及较多的符号运算与数形结合过程, 可以重点发展与评价学生在数学运算和直观想象方面的数学学科核心素养.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 22,
+          "end": 93
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "##### 1.1 直线的倾斜角与斜率\n\n### 教学重点\n\n掌握直线的倾斜角和斜率的概念及其相互联系, 理解倾斜角 (或斜率) 在决定直线与平面直角坐标系的相对位置关系中的重要作用, 熟悉用直线上两点的坐标表示直线斜率的公式, 初步体会用代数工具表达几何图形的思想.\n\n### 内容分析\n\n“两点确定一条直线”,这是数学中的常识了. 在建立了平面直角坐标系的平面上, 当然两点还是确定一条直线, 但和平面几何不一样的是, 两点不仅仅是作业纸上点出的两个点, 它们所决定的直线也不仅仅是用直尺把两点连接起来的线. 现在所谈的点, 要给出点的坐标; 所谈的直线, 要写出直线的方程.\n\n下一节我们将准确地给出 “两点确定一条直线” 的解析几何描述——直线的两点式方程. 在两点式方程推导过程中, 跟直线有关的一个代数量 “斜率” 起了很大的作用, 而与这个代数量直接联系的几何量是直线的“倾斜角”. 因此, 作为 “1.2 直线的方程” 的前导, 本节先介绍直线的倾斜角与斜率.\n\n我们都在给定的平面直角坐标系中讨论问题.\n\n直线的倾斜角是个几何量,是直接表示直线相对于 $x$ 轴的“倾斜程度”的角. 精确地说,直线 $l$ 的倾斜角 $\\theta$ 是 $x$ 轴绕直线 $l$ 与 $x$ 轴的交点沿逆时针方向旋转到与 $l$ 的重合位置所转过的最小正角. 如果直线 $l$ 与 $x$ 轴平行或重合,定义 $\\theta  = 0$ . 这样, $0 \\leq  \\theta  < \\pi$ .\n\n与倾斜角直接联系的是直线的斜率 $k = \\tan \\theta$ (当 $\\theta  = \\frac{\\pi }{2}$ 时,斜率不存在). 经过正切函数的转化,量的属性发生了根本的变化: $k$ 是直线 $l$ 上点的坐标的简单代数式一经过两点 $A\\left( {{x}_{1},{y}_{1}}\\right) \\text{、}B\\left( {{x}_{2},{y}_{2}}\\right) \\left( {{x}_{1} \\neq  {x}_{2}}\\right)$ 的直线 $l$ 的斜率是\n\n$$\nk = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}.\n$$\n\n倾斜角(或斜率)的重要意义在于,给了直线的倾斜角(或斜率),直线的方向就完全确定了. 这句话的准确含义是, 所有具有这个倾斜角(或斜率)的直线都平行. 这个结论的依据是 “两条直线被第三条直线所截, 如果同位角相等, 那么这两条直线平行”. 于是, 如果还知道直线上的一点, 这条直线就完全确定了, 根据是 “经过直线外的一点, 有且只有一条直线与已知直线平行”, 即著名的欧几里得第五公设 (的等价命题).\n\n下一节一开始我们将讨论如何把第五公设所说的这条直线从解析几何的角度给确定出来, 也就是说, 如果给定已知直线的斜率和直线上一点, 我们要求出这个唯一存在的直线的方程. 本节的例 3 是解决这个问题的先导.\n\n本节有 3 道例题.\n\n例 1 是对经过两点的直线的斜率公式的简单应用, 并巩固倾斜角与斜率的关系, 教学时需要提醒学生注意斜率公式中两个坐标的顺序, 可通过变式说明斜率符号变化对直线“倾斜方向”的影响.\n\n例 2 是与已学知识的联系. 初中阶段学生已经知道了一次函数 $y = {kx} + b\\left( {k \\neq  0}\\right)$ 的图像是直线,并把其中的 $k$ 称为斜率. 本例验证了初中就一次函数所定义的 “斜率” 确实是现在一般意义下的 “斜率”,解释了一次函数 $y = {kx} + b\\left( {k \\neq  0}\\right)$ 中系数 $k$ 的几何意义. 本例沟通初中所学的一次函数图像与这里的直线方程之间的联系, 巩固了经过两点的直线的斜率公式, 也为直线的斜截式方程作了铺垫.\n\n例 3 有一个承上启下的作用, 既学习了如何应用斜率知识解决三点共线问题, 又为下一节如何求直线的方程埋下伏笔.\n\n### 注意事项\n\n把直线的倾斜角和斜率作为本章的第一节内容, 有别于 “二期课改” 教材, 既为了突出斜率在直线方程中的作用, 也考虑到学生对解析几何方法的学习需要适应过程, 并为进一步学习直线的方程作准备.\n\n直线 $l$ 的倾斜角不是 $l$ 与 $x$ 轴作为两条直线的夹角. 我们约定,两条直线的夹角是它们所成的两组对顶角中较小的那对角的大小,从而取值范围是 $\\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack$ ,而倾斜角取值范围是 $\\lbrack 0,\\pi )$ .\n\n从解析几何的角度看, 斜率的概念远比倾斜角重要. 这主要因为它是代数量, 可以直接从直线上点的坐标、直线方程的系数上读得, 或者经过简单代数运算获得. 斜率对于刻画直线在平面直角坐标系中的位置和讨论直线的性质是非常方便的.\n\n直线的斜率在后续课程的学习中还会发挥很大的作用. 例如, “在导数及其应用” 一章(选择性必修课程第 5 章)的学习中,学生将知道,函数在一点的导数实际上确定了它的图像在这一点上切线的斜率, 它与函数的单调性、极值等有密切联系.\n\n### 教学建议\n\n作为解析几何的第一节课, 要开宗明义, 强调解析几何的研究思路是通过引进坐标系, 建立几何对象与代数量之间的联系, 从而用代数的观点与方法解决几何问题. 要突出平面直角坐标系的作用, 要强调放在平面直角坐标系中思考和解决几何问题的新思路. “内容分析”部分为这种思路的课程引入和实施作了尝试,可供参考.\n\n“倾斜角”与“斜率”就是一对典型的“几何描述”与“代数刻画”的孪生概念,前者给出了直线与坐标系相对位置关系的几何直观描述, 而后者则把直观描述转换为点的坐标之间的数值关系.\n\n这里所定义的斜率与初中学习一次函数时所定义的斜率的一致性在例 2 中讲清了. 不要认为这是一个可有可无的例题, 它对理清学生的思路, 建立前后知识的关联是有意义的.\n\n斜率不存在的情况教材只用一句话和一张图 (图 1-1-2) 说明, 可适当展开. 不同的斜率值(>0、=0或<0)以及对应的倾斜角的变化和直线在几何上的不同特征要通过“数形结合”呈现,引导学生用运动的观点加以分析,让学生加深印象.\n\n例 3 的承上启下作用要重视.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 96,
+          "end": 151
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "设平面直角坐标系中有一条直线 $l$ ,我们如何确定该直线在坐标系中的位置并把它描述出来呢?\n\n在平面直角坐标系中, 已经有了两条互相垂直的直线, 即两条坐标轴,我们只要能确定直线 $l$ 与其中一条坐标轴的相对位置,就能描述出该直线在坐标系中的位置. 不妨先设直线 $l$ 与 $x$ 轴相交于点 $A$ ,如图 1-1-1 所示. 将 $x$ 轴绕点 $A$ 沿逆时针方向旋转到与 $l$ 重合时所转过的最小正角 $\\theta$ 叫做直线 $l$ 的倾斜角 (angle of inclination). 显然, $0 < \\theta  < \\pi$ . 当直线 $l$ 与 $x$ 轴平行或重合时, 规定倾斜角为 0,这样,直线 $l$ 的倾斜角的取值范围就可扩大为 $0 \\leq  \\theta  < \\pi$ ,即 $\\theta  \\in  \\lbrack 0,\\pi )$ . 特别地,当倾斜角 $\\theta  = \\frac{\\pi }{2}$ 时,直线 $l$ 与 $x$ 轴垂直.\n\n![bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg)\n\n图 1-1-1\n\n如果知道了直线 $l$ 的倾斜角以及它经过的一个确定的点,那么就准确地给出了直线 $l$ 在坐标系中的位置. 由于倾斜角难以直接用坐标表示出来, 而倾斜角的三角函数与坐标的关系更为密切. 为此,我们引进一个新的概念: 当直线 $l$ 的倾斜角 $\\theta  \\neq  \\frac{\\pi }{2}$ 时, 定义 $\\tan \\theta$ 为直线 $l$ 的斜率 (slope),常用字母 $k$ 表示,即 $k = \\tan \\theta$ ; 当 $\\theta  = \\frac{\\pi }{2}$ ,即 $l$ 与 $x$ 轴垂直时,我们说直线 $l$ 的斜率不存在.\n\n我们来看如何用坐标表示一条直线的斜率.\n\n设直线 $l$ 经过不同的两点 $A\\left( {{x}_{1},{y}_{1}}\\right) \\text{ 、 }B\\left( {{x}_{2},{y}_{2}}\\right)$ . 当 ${x}_{1} = {x}_{2}$ 时,直线 $l$ 与 $x$ 轴垂直 (图 1-1-2),此时,直线 $l$ 的倾斜角 $\\theta  = \\frac{\\pi }{2}$ , 斜率不存在.\n\n![bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg)\n\n图 1-1-2\n\n![bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg)\n\n图 1-1-3\n\n![bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg)\n\n图 1-1-4\n\n当 ${x}_{1} \\neq  {x}_{2}$ 时,不妨设 ${x}_{1} < {x}_{2}$ ,有以下 3 种情况:\n\n(1)若 ${y}_{1} < {y}_{2}$ ，则 $l$ 的倾斜角 $\\theta$ 为锐角. 如图 1-1-3，作直角三角形 ${ABC}$ ,可得 $k = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}$ .\n\n(2)若 ${y}_{1} = {y}_{2}$ ，则直线 $l$ 与 $x$ 轴平行或重合，所以 $l$ 的倾斜角 $\\theta  = 0$ ,斜率也等于 0,这就是 (1) 结果中令 ${y}_{1} = {y}_{2}$ 所得的值.\n\n(3)若 ${y}_{1} > {y}_{2}$ ，则直线 $l$ 的倾斜角 $\\theta$ 为钝角. 如图 1-1-4， 同样作直角三角形 ${ABC}$ ,则 $\\angle {ABC} = \\pi  - \\theta$ . 在直角三角形 ${ABC}$ 中,因为 $\\tan \\angle {ABC} = \\frac{\\left| CA\\right| }{\\left| CB\\right| } = \\frac{{y}_{1} - {y}_{2}}{{x}_{2} - {x}_{1}}$ ,所以 $\\tan \\left( {\\pi  - \\theta }\\right)  = \\; \\frac{{y}_{1} - {y}_{2}}{{x}_{2} - {x}_{1}}$ ,由此得 $\\tan \\theta  = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}$ ,即 $k = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}$ ,这与(1)中的结果相同.\n\n综上所述, 可以得到: 在平面直角坐标系中, 经过不同的两点 $A\\left( {{x}_{1},{y}_{1}}\\right) \\text{ 、 }B\\left( {{x}_{2},{y}_{2}}\\right) \\left( {{x}_{1} \\neq  {x}_{2}}\\right)$ 的直线 $l$ 的斜率为\n\n$$\nk = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 10,
+          "end": 50
+        }
+      ],
+      "emphases": [
+        {
+          "start": 48,
+          "end": 454,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-1-1-definition-4-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 2406,
+          "end": 2621,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-1-1-formula-4-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 已知直线 $l$ 经过点 $A\\left( {-1, - 1}\\right)$ 、 $B\\left( {2,3}\\right)$ ，求它的斜率与倾斜角.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 51,
+          "end": 52
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 51,
+          "end": 52
+        }
+      ],
+      "id": "x1-1-1-ex-1",
+      "category": "例题",
+      "answer": "解 设直线 $l$ 的斜率为 $k$ ,倾斜角为 $\\theta$ ,则\n\n$$\nk = \\tan \\theta  = \\frac{3 - \\left( {-1}\\right) }{2 - \\left( {-1}\\right) } = \\frac{4}{3},\n$$\n\n从而 $\\theta  = \\arctan \\frac{4}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 53,
+          "end": 60
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 求一次函数 $y = {kx} + b\\left( {k \\neq  0}\\right)$ 所表示直线的斜率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 61,
+          "end": 62
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 61,
+          "end": 62
+        }
+      ],
+      "id": "x1-1-1-ex-2",
+      "category": "例题",
+      "answer": "解 设一次函数 $y = {kx} + b\\left( {k \\neq  0}\\right)$ 的图像是直线 $l$ . 在函数表达式中, $x$ 的值分别取 ${x}_{1} = 0$ 及 ${x}_{2} = 1$ ,得 ${y}_{1} = b$ 及 ${y}_{2} = k + b$ . 所以, $A\\left( {0, b}\\right)$ 与 $B\\left( {1, k + b}\\right)$ 是直线 $l$ 上的两点. 依据斜率公式, 得直线 $l$ 的斜率为\n\n$$\n\\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}} = \\frac{\\left( {k + b}\\right)  - b}{1 - 0} = k.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 63,
+          "end": 68
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 已知三点 $A\\left( {-1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right) \\text{ 、 }C\\left( {x, y}\\right)$ 共线,求点 $C$ 的坐标 $x$ 与 $y$ 所满足的关系式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 69,
+          "end": 70
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 69,
+          "end": 70
+        }
+      ],
+      "id": "x1-1-1-ex-3",
+      "category": "例题",
+      "answer": "解 因为 $A\\text{ 、 }B$ 两点的横坐标不同,所以直线 ${AB}$ 的斜率是\n\n$$\nk = \\frac{4 - 2}{3 - \\left( {-1}\\right) } = \\frac{1}{2}.\n$$\n\n又由题设知,点 $C$ 在直线 ${AB}$ 上,即 ${AB}$ 与 ${AC}$ 是同一条直线.\n\n当点 $C$ 与点 $A$ 不重合时,用 $A\\text{ 、 }C$ 两点的坐标表示斜率得\n\n$$\nk = \\frac{y - 2}{x - \\left( {-1}\\right) } = \\frac{y - 2}{x + 1},\n$$\n\n此时 $x$ 与 $y$ 要满足的关系式是 $\\frac{y - 2}{x + 1} = \\frac{1}{2}$ ,变形得\n\n$$\ny - 2 = \\frac{1}{2}\\left( {x + 1}\\right) .\n$$\n\n当点 $C$ 与点 $A$ 重合时,点 $C$ 的坐标也满足上式.\n\n所以, $x$ 与 $y$ 满足的关系式是 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 71,
+          "end": 76
+        },
+        {
+          "source": "book",
+          "start": 82,
+          "end": 100
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "prose",
+      "title": "一次函数的斜率",
+      "markdown": "一次函数 $y = \\; {kx} + b\\left( {k \\neq  0}\\right)$ 的一次项系数 $k$ 就是其对应直线的斜率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 79,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 1.1",
+      "markdown": "### 练习 1.1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 101,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习1.1 · 1",
+      "markdown": "1. 求经过下列两点的直线的斜率和倾斜角:\n\n(1) $P\\left( {-2,2}\\right)$ 、 $Q\\left( {2, - 2}\\right)$ ；\n\n(2) $P\\left( {5,\\sqrt{3}}\\right)$ 、 $Q\\left( {2,2\\sqrt{3}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 103,
+          "end": 108
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 103,
+          "end": 108
+        }
+      ],
+      "id": "x1-1-1-p11-1",
+      "category": "练习1.1",
+      "answer": "1.(1)斜率为 -1,倾斜角为 ${135}^{ \\circ  }$ . (2)斜率为 $- \\frac{\\sqrt{3}}{3}$ ,倾斜角为 ${150}^{ \\circ  }$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 534,
+          "end": 535
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.1 · 2",
+      "markdown": "2. 在平面直角坐标系中有一个边长为 1 的正方形 ${OABC}$ ,其中 $O$ 为坐标原点,点 $A$ 、 $C$ 分别在 $x$ 轴和 $y$ 轴上,点 $B$ 在第一象限. 求直线 ${OB}$ 和 ${AC}$ 的斜率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 109,
+          "end": 110
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 109,
+          "end": 110
+        }
+      ],
+      "id": "x1-1-1-p11-2",
+      "category": "练习1.1",
+      "answer": "2. 直线 ${OB}$ 和 ${AC}$ 的斜率为 1 和 -1 .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 536,
+          "end": 537
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习1.1 · 3",
+      "markdown": "3. 证明: 在平面直角坐标系中, 如果两条直线平行, 那么它们的倾斜角相等.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 111,
+          "end": 112
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 111,
+          "end": 112
+        }
+      ],
+      "id": "x1-1-1-p11-3",
+      "category": "练习1.1",
+      "answer": "3. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 538,
+          "end": 539
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 1.1",
+      "markdown": "### 习题 1.1",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 113,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 115,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 116,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题1.1A · 1",
+      "markdown": "1. 如图,在平面直角坐标系中,直线 ${l}_{1}$ 与 ${l}_{2}$ 垂直,垂足为 $A$ , ${l}_{1}\\text{ 、 }{l}_{2}$ 与 $x$ 轴的交点分别为 $B\\text{ 、 }C,\\angle {ABC} = \\frac{\\pi }{6}$ . 试分别求直线 ${l}_{1}$ 、 ${l}_{2}$ 的倾斜角和斜率.\n\n![bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 121,
+          "end": 122
+        },
+        {
+          "source": "book",
+          "start": 117,
+          "end": 119
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 121,
+          "end": 122
+        },
+        {
+          "source": "book",
+          "start": 117,
+          "end": 119
+        }
+      ],
+      "id": "x1-1-1-h11A-1",
+      "category": "习题1.1A",
+      "answer": "1. 直线 ${l}_{1}$ 的倾斜角为 $\\frac{5\\pi }{6}$ ,斜率为 $- \\frac{\\sqrt{3}}{3}$ ; 直线 ${l}_{2}$ 的倾斜角为 $\\frac{\\pi }{3}$ ,斜率为 $\\sqrt{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 544,
+          "end": 545
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1A · 2",
+      "markdown": "2. 求经过下列两点的直线的斜率与倾斜角:\n\n(1) $P\\left( {1,2}\\right)$ 、 $Q\\left( {2, - 1}\\right)$ ；\n\n(2) $M\\left( {2,1}\\right)$ 、 $N\\left( {a, - 2}\\right)$ ，其中实数 $a$ 是常数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 123,
+          "end": 128
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 123,
+          "end": 128
+        }
+      ],
+      "id": "x1-1-1-h11A-2",
+      "category": "习题1.1A",
+      "answer": "2.(1)斜率为 -3,倾斜角为 $\\pi  - \\arctan 3$ .\n\n(2)当 $a < 2$ 时,斜率为 $\\frac{3}{2 - a}$ ,倾斜角为 $\\arctan \\frac{3}{2 - a}$ ；\n\n当 $a = 2$ 时,斜率不存在,倾斜角为 $\\frac{\\pi }{2}$ ;\n\n当 $a > 2$ 时,斜率为 $\\frac{3}{2 - a}$ ,倾斜角为 $\\pi  - \\arctan \\frac{3}{a - 2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 546,
+          "end": 553
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1A · 3",
+      "markdown": "3. 根据下列直线 $l$ 的倾斜角 $\\theta$ 的取值范围,计算斜率 $k$ 的取值范围:\n\n(1) $\\theta  \\in  \\left\\lbrack  {\\frac{\\pi }{4},\\frac{\\pi }{3}}\\right\\rbrack$ ；\n\n\n(2) $\\theta  \\in  \\left( {\\frac{\\pi }{2},\\frac{2\\pi }{3}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 129,
+          "end": 138
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 129,
+          "end": 138
+        }
+      ],
+      "id": "x1-1-1-h11A-3",
+      "category": "习题1.1A",
+      "answer": "3. (1) $\\left\\lbrack  {1,\\sqrt{3}}\\right\\rbrack$ . (2) $\\left( {-\\infty , - \\sqrt{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 554,
+          "end": 555
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1A · 4",
+      "markdown": "4. 已知三个不同的点 $A\\left( {2, a}\\right) \\text{ 、 }B\\left( {a + 1,{2a} + 1}\\right) \\text{ 、 }C\\left( {-4,1 + a}\\right)$ 在同一条直线上,求实数 $a$ 的值及该直线的斜率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 139,
+          "end": 140
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 139,
+          "end": 140
+        }
+      ],
+      "id": "x1-1-1-h11A-4",
+      "category": "习题1.1A",
+      "answer": "4. $a =  - \\frac{5}{7}$ ,斜率为 $- \\frac{1}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 556,
+          "end": 557
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1A · 5",
+      "markdown": "5. 如图,已知点 $A\\left( {2,4}\\right) \\text{ 、 }B\\left( {-1, - 1}\\right) \\text{ 、 }C\\left( {4,1}\\right)$ ,过点 $B$ 的直线 $l$ 与线段 ${AC}$ 相交. 求直线 $l$ 的斜率 $k$ 的取值范围.\n\n![bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg](sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg)\n\n(第 5 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 141,
+          "end": 142
+        },
+        {
+          "source": "book",
+          "start": 133,
+          "end": 135
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 141,
+          "end": 142
+        },
+        {
+          "source": "book",
+          "start": 133,
+          "end": 135
+        }
+      ],
+      "id": "x1-1-1-h11A-5",
+      "category": "习题1.1A",
+      "answer": "5. $\\left\\lbrack  {\\frac{2}{5},\\frac{5}{3}}\\right\\rbrack$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 558,
+          "end": 559
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 143,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题1.1B · 1",
+      "markdown": "1. 已知常数 $\\theta  \\in  \\lbrack 0,\\pi )$ ,试用 $\\theta$ 表示经过 $P\\left( {0,0}\\right) \\text{ 、 }Q\\left( {\\sin \\theta ,\\cos \\theta }\\right)$ 两点的直线 $l$ 的倾斜角.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 145,
+          "end": 146
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 145,
+          "end": 146
+        }
+      ],
+      "id": "x1-1-1-h11B-1",
+      "category": "习题1.1B",
+      "answer": "1. 当 $\\theta  \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack$ 时,直线 $l$ 的倾斜角为 $\\frac{\\pi }{2} - \\theta$ ; 当 $\\theta  \\in  \\left( {\\frac{\\pi }{2},\\pi }\\right)$ 时,直线 $l$ 的倾斜角为 $\\frac{3\\pi }{2} - \\theta$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 562,
+          "end": 563
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1B · 2",
+      "markdown": "2. 设直线 ${l}_{1}\\text{ 、 }{l}_{2}$ 的倾斜角分别为 ${\\theta }_{1}\\text{ 、 }{\\theta }_{2}$ ,求证: ${l}_{1} \\bot  {l}_{2}$ 的充要条件是 $\\left| {{\\theta }_{1} - {\\theta }_{2}}\\right|  = \\frac{\\pi }{2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 147,
+          "end": 148
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 147,
+          "end": 148
+        }
+      ],
+      "id": "x1-1-1-h11B-2",
+      "category": "习题1.1B",
+      "answer": "2. 证明略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 564,
+          "end": 565
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题1.1B · 3",
+      "markdown": "3. 已知直线 $l$ 在平面直角坐标系中的斜率是 $k$ ,向量 $\\overrightarrow{a}$ 在直线 $l$ 上. 求向量 $\\overrightarrow{a}$ 在 $x$ 轴上的投影向量.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 149,
+          "end": 150
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 149,
+          "end": 150
+        }
+      ],
+      "id": "x1-1-1-h11B-3",
+      "category": "习题1.1B",
+      "answer": "3. 当 $k = 0$ 时,为 $\\overrightarrow{a}$ ; 当 $k \\neq  0$ 且 $\\overrightarrow{a}$ 与 $\\overrightarrow{b} = \\left( {1,0}\\right)$ 为锐角时,向量投影为 $\\left( {\\frac{\\left| \\overrightarrow{a}\\right| }{\\sqrt{1 + {k}^{2}}},0}\\right)$ ; 当 $k \\neq  0$ 且 $\\overrightarrow{a}$ 与 $\\overrightarrow{b} = \\left( {1,0}\\right)$ 为钝角时,向量投影为 $\\left( {\\frac{-\\left| \\overrightarrow{a}\\right| }{\\sqrt{1 + {k}^{2}}},0}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 566,
+          "end": 567
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "line": 664,
+      "repair": "恢复OCR遗漏的1.2习题B组9题答案编号",
+      "evidence": "独立复算截距和与面积，分别C=5与C=±10√2，吻合教材第9题"
+    },
+    {
+      "line": 79,
+      "repair": "将OCR插入例3解答中的一般概念框归还教材正文"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 15,
+      "original": "images/bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 25,
+      "original": "images/bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 29,
+      "original": "images/bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 33,
+      "original": "images/bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 117,
+      "original": "images/bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 133,
+      "original": "images/bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 3,
+      "original": "images/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "reviewed-with-notes",
+    "reviewer": "batch/reviews/x1-1-1.json",
+    "question_count": 14,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

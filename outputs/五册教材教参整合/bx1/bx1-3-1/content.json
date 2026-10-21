@@ -1,0 +1,879 @@
+[
+  {
+    "type": "section",
+    "title": "幂与指数",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 9,
+        "end": 9
+      }
+    ],
+    "id": "bx1-3-1",
+    "number": "3.1",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "章导语",
+    "markdown": "# 幂、指数与对数\n\n![bo_d4slo93ef24c73be0qag_0_2_18_1652_1165_0.jpg](images/book-a8836bbf1b491528f535.jpg)\n\n关于幂我们并不陌生, 在初中时已经学过正整数指数幂及其基本的运算性质，并经历了将正整数指数幂推广到整数指数幂的过程. 本章通过定义分数指数幂，将指数从整数拓展到有理数，再引入无理数指数幂，最终将指数从有理数拓展到实数. 这为下一章用幂函数描述变量之间的相应关系作好准备.\n\n本章还将学习对数这一个新的概念, 它是指数运算的逆运算. 16 世纪末，随着当时天文、航海及工程实践的迅速发展，大量多位数乘除及开方的计算困扰着那时的科学家和工程师. 在简化计算的迫切需求下, 对数这个概念得以诞生, 并在实际计算中得到广泛应用. 现在, 功能强大的现代计算器使多位数的乘除及开方计算变得非常方便, 对数用于简化计算的功能已经完成了其历史任务. 但是, 对数这个概念及对数函数的种种性质在现代数学和其他科学领域中的作用却有增无减, 一直占据着重要的位置.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1,
+        "end": 8
+      }
+    ],
+    "id": "bx1-3-1-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 本章概述",
+    "markdown": "## 一、本章概述\n\n### 总体要求\n\n幂、指数与对数是数学中重要的概念, 在众多数学分支及其他科学领域中一直发挥着重要的作用. 指数运算与对数运算互为逆运算, 在 16 世纪末, 随着当时天文、 航海及工程实践的迅速发展, 大量多位数乘除及开方的计算困扰着那时的科学家和工程师, 在简化计算的迫切需求下, 对数得以诞生, 并在实际计算中得以广泛的应用. 在计算机已经普及的今天, 以往对数在计算中的功用虽已淡化, 但对数在现代数学和其他科学领域中的作用却有增无减, 始终占据着重要的位置.\n\n在初中已经学过了正整数指数幂、整数指数幂及其基本的运算性质. 本章在初中学习的基础上通过定义分数指数幂, 将指数从整数拓展到有理数, 再通过引入无理数指数幂, 最终将指数从有理数拓展到实数. 在此基础上, 通过指数运算的逆运算, 定义了对数这一个新的概念, 为下一章用幂函数、指数函数与对数函数描述变量之间的相应关系作准备.\n\n通过本章的学习, 帮助学生了解指数幂的拓展过程; 理解指数与对数的概念及它们的相互关系与基本性质; 运用这些性质解决简单的实际问题, 体会对数在计算中所起的作用. 经历指数幂的拓展、对数的概念及其运算性质的学习过程, 对于培养与提升学生的数学抽象、逻辑推理等方面的核心素养有着重要的意义, 而运用运算性质解决实际的问题, 对培养数学运算的素养也会起到重要的作用.\n\n### 课时安排建议\n\n本章的课时安排建议为 5+1 ,共计 6 课时. 建议如下:\n\n<table><tr><td>章节名</td><td>建议课时</td><td>具体课时分配建议</td></tr><tr><td>3.1 幂与指数</td><td>2</td><td>指数幂的拓展 2 课时</td></tr><tr><td rowspan=\"3\">3.2 对数</td><td rowspan=\"3\">3</td><td>对数的定义 1 课时</td></tr><tr><td>对数的运算性质 1 课时</td></tr><tr><td>对数的换底 1 课时</td></tr><tr><td>复习与小结</td><td>1</td><td/></tr></table>\n\n### 内容编排与特色\n\n本章内容分为两节, 分别是 “3.1 幂与指数” 和 “3.2 对数”.\n\n“3.1 幂与指数”. 学生在初中已学习了正整数指数幂、零指数幂、负整数指数幂以及整数指数幂的运算性质. 本节对这部分内容的处理方式是 “分析回顾, 适当拓展”, 通过再次经历从正整数指数幂推广到整数指数幂的过程, 感受指数幂的拓展的必要性和合理性, 并在此基础上通过类比思想, 将定义整数指数幂的方法推广到定义有理数指数幂及实数指数幂, 使学生能更加系统地了解指数幂的拓展过程.\n\n在本节中给出了幂的基本不等式, 这是知识的新增长点. 在第 4 章中将通过幂的基本不等式, 实现对幂函数、指数函数和对数函数的严格单调性的证明, 从而在数学抽象的基础上实现了由几何直观到数学符号语言的表述再到严格论证的过程, 体现了数学思维的严谨性.\n\n“ 3.2 对数”. 本节内容主要由对数的定义、运算性质及应用组成, 这与“二期课改\"教材大体一致. 但是, 为什么要讲对数? 对数在人类文明的发展史上到底有哪些石破天惊的作用？对数在当今社会中到底还有哪些重要性？本节教材从数学文化的层面, 深入地阐述了对数的起源及其在数学和其他科学领域中的作用, 让学生不仅从知识层面上了解对数,更从意义层面上了解对数,感受对数的“灵魂”,从而增加学习的兴趣和自觉性.\n\n本章最大的特点是将“幂、指数与对数”从“幂函数、指数函数与对数函数”中分离出来, 独立成章, 从而将运算从函数中剥离出来, 使运算不再作为函数的依附, 而是运算先行, 再引入函数的观点. 这可以让学生更为系统地了解指数幂的推广过程, 深入了解指数与对数的关系, 更加熟练地掌握指数与对数的运算性质, 在提升学生数学运算素养的同时, 也更符合知识的有机体系和学生学习的进程.\n\n### 教学提示\n\n要关注幂、指数与对数的整体处理框架, 引导学生先了解指数幂的拓展过程, 建立幂与指数的概念, 再从指数运算与对数运算互为逆运算入手, 从指数引入对数概念及其运算性质, 系统地建立指数与对数的知识体系.\n\n幂与指数的教学, 应关注指数幂的运算性质, 引导学生经历从整数指数幂到有理数指数幂、再到实数指数幂的拓展过程, 掌握指数幂的运算性质.\n\n对数的教学应从实例入手, 关注其在简化运算中的作用. 可从数学文化的层面适当加入对数的起源与其在数学及其他科学领域所起到的作用.\n\n教学中可适当加入信息技术. 例如, 可采取从特殊到一般的方法, 先利用计算器探索对数的运算性质及规律之后, 再进行严格的证明.\n\n鼓励学生收集、阅读对数概念的形成与发展的历史资料,撰写小论文,论述对数发明的过程以及对数对简化运算的作用.\n\n### 评价建议\n\n本章的评价应关注以下几点:\n\n1. 对于指数幂的拓展, 要关注学生是否能体会指数幂拓展的着眼点是保持原有的运算性质, 自主地感受到拓展过程的合理性. 但是, 对正无理数指数幂的定义的证明不宜作为重点,可不作评价.\n\n2. 学生能否从整体上了解幂、指数和对数的联系与区别.\n\n3. 对于数学运算素养的评价, 应侧重在确定了运算对象后, 能否选择合适的运算法则, 明确运算思路, 求得运算结果. 例如, 在对数运算中, 若遇到不同底数时, 能否考虑到换底, 再选择合适的对数运算性质进行运算等. 但对一些复杂的换底公式的应用不作要求.\n\n4. 对于数学文化部分的评价, 应侧重于所递交的小论文是否能准确论述对数发明的过程, 理解对数在简化运算中的作用, 感受对数对数学及其他学科领域所起到的重要作用, 根据不同的层次水平, 给出具体评价结果.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 22,
+        "end": 73
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-3-1-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "##### 3.1 幂与指数\n\n### 教学重点\n\n指数幂的拓展, 指数幂的运算性质: 在初中学习了正整数指数幂、整数指数幂的基础上,通过对有理数指数幂 ${a}^{\\frac{m}{n}}(a > 0$ ,且 $a \\neq  1;m\\text{、}n$ 为整数,且 $n > 0)$ 、实数指数幂 ${a}^{x}\\left( {a > 0\\text{,且}a \\neq  1;x \\in  \\mathbf{R}}\\right)$ 含义的认识,了解指数幂的拓展过程,掌握指数幂的运算性质.\n\n### 内容分析\n\n初中已经学习了正整数指数幂及其基本的运算性质, 并经历了将正整数指数幂推广到整数指数幂的过程. 本节通过引入方根概念定义分数指数幂, 将指数从整数拓展到有理数, 再引入无理数指数幂, 最终将指数从有理数拓展到实数, 为对数概念的引入以及用函数思想来描述变量之间的关系作好准备.\n\n通过本节课的教学, 不仅应对指数幂的拓展过程有了解, 同时对思维方式的推广、逻辑思维能力的培养、数学运算素养的提升都有着重要的意义.\n\n例 1、例 2 是方根与根式的简单应用. 例 1 旨在说明有时可依据乘方与开方互为逆运算的关系,求一个实数的 $n$ 次方根. 特别要提醒的是,正数的偶数次方根有两个,要防止在求偶数次方根时失根. 可以从例 2 出发探究 $\\sqrt[n]{{a}^{n}} = a$ 是否对一切大于 1 的正整数 $n$ 都成立; 如果不一定,那么其结果是什么? 以培养学生从特殊到一般的数学思想. 习题 3.1A 组的第 1、2 题, B 组的第 1 题是该组例题的配套习题, 其中 A 组的第 1、2 题旨在巩固概念、夯实基础; 而 B 组的第 1 题是该例题的拓展.\n\n例 3、例 4 是为巩固有理数指数幂的定义及其运算性质而设计的. 特别要注意的是, 要控制例 4 这类题的难度, 其设计不是为了进行烦琐的根式运算, 而是为了熟悉有理数指数幂与根式的互化, 掌握有理数指数幂的概念. 习题 A 组的第 3、4、5、6 题是该组例题的配套习题, 旨在巩固概念、夯实基础.\n\n例 5 是为了理解与掌握实数指数幂的概念及其运算性质. 例 5 的第 (2) 小题要严格按照例题的解题步骤进行: 首先是系数相乘除, 其中要注意符号; 然后是同底数幂相乘除. 习题 A 组的第 7 题, B 组的第 2 题是该组习题的配套习题, 其中 A 组的第 7 题旨在巩固概念、夯实基础,而 B 组的第 2 题是该例题的拓展.\n\n### 注意事项\n\n在幂与指数的教学中, 应突出指数幂的拓展过程, 让学生体会到指数幂的拓展的必要性与合理性. 而要领会这一点, 必须让学生重新经历由正整数指数幂推广到整数指数幂的过程, 领会指数幂的拓展是建立在保证幂的三条运算性质仍然成立的基础上的, 一定要加以分析领会, 切不可简单回顾.\n\n在定义有理数指数幂时,通常先直接定义 ${a}^{\\frac{m}{n}} = \\sqrt[n]{{a}^{m}},(m\\text{、}n$ 均为正整数 $)$ 再进一步定义 ${a}^{-\\frac{m}{n}} = \\frac{1}{\\sqrt[n]{{a}^{m}}}$ . 本教材采用了两次定义的方式: 设 $a > 0, s$ 为有理数,为定义 ${a}^{s}$ ,先当 $s = \\frac{1}{n}$ 且 $n$ 是正整数时,定义 ${a}^{\\frac{1}{n}} = \\sqrt[n]{a}$ ; 再当 $s = \\frac{m}{n}, m$ 是一个整数且 $n$ 是一个大于 1 的整数时,定义 ${a}^{\\frac{m}{n}} = {\\left( {a}^{m}\\right) }^{\\frac{1}{n}} = \\sqrt[n]{{a}^{m}}$ . 这样定义有理数指数幂,避开了对正、 负分数指数幂的分别定义, 而利用整数指数幂及根式进行定义, 更能体现指数幂拓展的合理性.\n\n需要指出的是, 定义正数的无理数指数幂时, 要用到无理数由有理数逼近的性质,且利用了实数的完备性,不仅相当烦琐,而且在中学阶段实际上是难以讲清楚的,教学中不宜展开,只要知道有关的结论就可以了. 下面是如何定义 ${2}^{\\sqrt{2}}$ 的思路, 供参考.\n\n结论: 任意两个有理数之间一定存在无理数.\n\n证明: 任意给定 ${r}_{1}\\text{、}{r}_{2} \\in  \\mathbf{Q}$ ,不妨设 ${r}_{1} < {r}_{2}$ .\n\n注意到 $0 < \\frac{\\sqrt{2}}{2} < 1$ ,有 $0 < \\frac{\\sqrt{2}}{2}\\left( {{r}_{2} - {r}_{1}}\\right)  < {r}_{2} - {r}_{1}$ ,从而 ${r}_{1} < {r}_{1} + \\frac{\\sqrt{2}}{2}\\left( {{r}_{2} - {r}_{1}}\\right)  < {r}_{2}$ .\n\n因为 ${r}_{1} + \\frac{\\sqrt{2}}{2}\\left( {{r}_{2} - {r}_{1}}\\right)$ 是无理数,所以结论成立.\n\n先取指数 $\\sqrt{2}$ 的不足近似值 ${t}_{n}$ 和 $\\sqrt{2}$ 的过剩近似值 ${s}_{n}$ ,见表 3-1. 那么指数 $\\sqrt{2}$ 一定在每个对应区间内, 即成立\n\n$$\n{t}_{n} < \\sqrt{2} < {s}_{n}.\n$$\n\n表 3-1\n\n<table><tr><td>$n$</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>... ...</td></tr><tr><td>${t}_{n}$</td><td>1</td><td>1.4</td><td>1.41</td><td>1.414</td><td>1.414 2</td><td>... ...</td></tr><tr><td>${s}_{n}$</td><td>2</td><td>1.5</td><td>1.42</td><td>1.415</td><td>1.414 3</td><td>... ...</td></tr></table>\n\n相应地有\n\n表 3-2\n\n<table><tr><td>$n$</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>... ...</td></tr><tr><td>${2}^{{t}_{n}}$</td><td>${2}^{1}$</td><td>${2}^{1.4}$</td><td>${2}^{1.41}$</td><td>${2}^{1.414}$</td><td>${2}^{1,{4142}}$</td><td>... ...</td></tr><tr><td>${2}^{{s}_{n}}$</td><td>${2}^{2}$</td><td>${2}^{1.5}$</td><td>${2}^{1.42}$</td><td>${2}^{1,{415}}$</td><td>${2}^{{1.414}\\;3}$</td><td>... ...</td></tr></table>\n\n${2}^{\\sqrt{2}}$ 应在实数 ${2}^{{t}_{n}}$ 与 ${2}^{{s}_{n}}$ 之间. 观察表 3-2 中 ${2}^{{t}_{n}}$ 和 ${2}^{{s}_{n}}$ 的变化规律,可以发现: 在 $n$ 无限增大的过程中, ${2}^{{t}_{n}}$ 越来越大, ${2}^{{s}_{n}}$ 越来越小,而相应的区间长度 ${2}^{{s}_{n}} - {2}^{{t}_{n}}$ 也越来越小,且无限逼近于 0 . 这样,随着 $n$ 的无限增大, ${2}^{{t}_{n}}$ 与 ${2}^{{s}_{n}}$ 无限逼近同一个实数,从而就可以定义这个实数为 ${2}^{\\sqrt{2}}$ . 这实际上是用到了极限的思想.\n\n在分别定义了整数指数幂、有理数指数幂、无理数指数幂之后, 教材中都指出所有幂的运算性质 (1) 到 (3) 依然成立. 但有关的证明过程可以淡化, 不必为此花过多的时间, 只要让学生有所体会即可.\n\n与“二期课改”教材不同的是,本教材增加了幂的基本不等式,为下一章证明幂函数、指数函数、对数函数是严格单调函数作准备, 其证明过程也用到了极限思想. 以下给出证明的思路:\n\n(1)当 $s$ 为正整数时,由不等式的常用性质的第五条,可知:由 $a > 1$ ,得 ${a}^{\\frac{1}{s}} > 1$ .\n\n(2)当 $s$ 为正有理数时,存在两个正整数 $m\\text{、}n$ ,使得 ${a}^{s} = {a}^{\\frac{m}{n}} = {\\left( {a}^{\\frac{1}{n}}\\right) }^{m}$ . 由( 1 ), 得 ${a}^{s} > 1$ .\n\n(3)当 $s$ 为正实数时,由无理数可以由有理数逼近的性质,存在两个正整数 $m\\text{、}n$ , 使得 $\\frac{m}{n} < s < \\frac{m + 1}{n}$ . 由 (2),得 ${a}^{\\frac{m}{n}} > 1,{a}^{\\frac{m + 1}{n}} > 1$ ,因 ${a}^{s}$ 介于这二者之间,从而 ${a}^{s} > 1$ .\n\n### 教学建议\n\n初中已经学过正整数指数幂和整数指数幂, 在教学中要避免简单回顾, 一定要注重分析, 让学生体会拓展的必要性与合理性.\n\n教学中可创设适当的情境, 让学生感受指数幂拓展的必要性. 在掌握了整数指数幂的定义之后, 引导学生自主尝试定义有理数指数幂.\n\n在引入无理数指数幂的定义时, 学有余力的学生可借助计算器体验运算中的逼近思想.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 76,
+        "end": 145
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-3-1-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 指数幂的拓展",
+    "markdown": "### 1 指数幂的拓展",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 11,
+        "end": 11
+      }
+    ],
+    "id": "bx1-3-1-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在初中我们已经学过正整数指数幂的定义和运算性质.\n\n如果 $a$ 是一个实数, $n$ 是一个正整数,那么称\n\n$$\n{a}^{n} = \\underset{n\\text{ 个 }a}{\\underbrace{a \\cdot  a \\cdot  \\cdots  \\cdot  a}}\n$$\n\n为 $a$ 的 $n$ 次幂. 正整数指数幂满足如下的运算性质:\n\n对任意给定的实数 $a\\text{ 、 }b$ 及正整数 $s\\text{ 、 }t$ ,有\n\n(1) ${a}^{s}{a}^{t} = {a}^{s + t}$ ;\n\n(2) ${\\left( {a}^{s}\\right) }^{t} = {a}^{st}$ ；\n\n(3) ${\\left( ab\\right) }^{t} = {a}^{t}{b}^{t}$ .\n\n为了定义整数指数幂，我们在保证上述幂的运算性质仍然成立的条件下定义 ${a}^{0}$ 及 ${a}^{-n}$ ( $n$ 为正整数).\n\n假设性质 (1) 对所有的整数 $s\\text{ 、 }t$ 均成立,则当 $s = 1, t = 0$ 时, 有\n\n$$\na = {a}^{1 + 0} = {a}^{1} \\cdot  {a}^{0} = a \\cdot  {a}^{0}.\n$$\n\n所以,当 $a \\neq  0$ 时, ${a}^{0} = 1$ .\n\n当 $s = n, t =  - n$ 时,有\n\n$$\n{a}^{n + \\left( {-n}\\right) } = {a}^{n} \\cdot  {a}^{-n} = {a}^{0} = 1.\n$$\n\n所以,当 $a \\neq  0$ 时, ${a}^{-n} = \\frac{1}{{a}^{n}}$ .\n\n因此,当 $a \\neq  0$ 时,可以定义\n\n$$\n\\left\\{  \\begin{array}{l} {a}^{0} = 1, \\\\  {a}^{-n} = \\frac{1}{{a}^{n}}. \\end{array}\\right.\n$$\n\n这样,可以证明对任意给定的非零实数 $a\\text{ 、 }b$ 及整数 $s\\text{ 、 }t$ ,上述幂的运算性质 (1) 至 (3) 仍然成立.\n\n在定义了整数指数幂后, 就会问: 能否定义有理数指数幂呢? 答案是肯定的. 为此先拓展根式的概念.\n\n$a$ 的 $n$ 次方叫做 $a$ 的 $n$ 次幂,记作 ${a}^{n}$ . 称 $a$ 为幂的底数 (简称为底), $n$ 为幂的指数.\n\n> 同底数的幂相乘， 底数不变, 指数相加.\n\n$$\n{a}^{0} = 1\\left( {a \\neq  0}\\right) .\n$$\n\n一般地,如果 $n$ 为大于 1 的整数,且 ${x}^{n} = a$ ,那么 $x$ 叫做 $a$ 的 $n$ 次方根.\n\n当 $n$ 是奇数时,由于正数的 $n$ 次方是一个正数,负数的 $n$ 次方是一个负数,因此 $a$ 的 $n$ 次方根是唯一存在的,且可用 $\\sqrt[n]{a}$ 表示. 例如,因为 ${2}^{5} = {32}$ ,所以 $\\sqrt[5]{32} = 2$ ; 因为 ${\\left( -2\\right) }^{5} =  - {32}$ ,所以 $\\sqrt[5]{-{32}} =  - 2.$\n\n但当 $n$ 是偶数时,由于互为相反数的两个数的 $n$ 次方是同一个数,因此一个正数的 $n$ 次方根有两个,它们互为相反数. 这时,正数 $a$ 的正的 $n$ 次方根用 $\\sqrt[n]{a}$ 表示,而负的 $n$ 次方根用 $- \\sqrt[n]{a}$ 表示,它们可以合并简写成 $\\pm  \\sqrt[n]{a}\\left( {a > 0}\\right)$ . 例如,16 的 4 次方根可以表示为 $\\sqrt[4]{16} = 2$ 及 $- \\sqrt[4]{16} =  - 2$ ,简记为 $\\pm  \\sqrt[4]{16} =  \\pm  2$ . 显然, 负数没有偶数次方根.\n\n0 的任何次方根都是 0,记作 $\\sqrt[n]{0} = 0$ .\n\n式子 $\\sqrt[n]{a}$ 叫做 $a$ 的 $n$ 次根式,这里 $n$ 叫做根指数, $a$ 叫做被开方数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 12,
+        "end": 76
+      }
+    ],
+    "emphases": [
+      {
+        "start": 1011,
+        "end": 1084,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-3-1-definition-5-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1156,
+        "end": 1218,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-3-1-definition-5-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1771,
+        "end": 1830,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-3-1-definition-5-2",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-3-1-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "**例 1** ( 1 )求 $- \\frac{1}{32}$ 的 5 次方根；\n\n( 2 )求 81 的 4 次方根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 77,
+        "end": 80
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 77,
+        "end": 80
+      }
+    ],
+    "id": "bx1-3-1-ex-1",
+    "category": "例题",
+    "answer": "解(1)因为 ${\\left( -\\frac{1}{2}\\right) }^{5} =  - \\frac{1}{32}$ ，所以 $\\sqrt[5]{-\\frac{1}{32}} =  - \\frac{1}{2}$ .\n\n(2)因为 ${\\left( \\pm 3\\right) }^{4} = {81}$ ，所以 $\\pm  \\sqrt[4]{81} =  \\pm  3$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 81,
+        "end": 84
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "**例 2** 求下列各根式的值:\n\n(1) $\\sqrt[5]{{\\left( -2\\right) }^{5}}$ ；\n\n(2) $\\sqrt[6]{{\\left( -8\\right) }^{2}}$ .\n\n> 当 $n$ 为奇数时, $\\sqrt[n]{{a}^{n}} = a$\n>\n> 当 $n$ 为偶数时, $\\sqrt[n]{{a}^{n}} = \\left| a\\right| .$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 85,
+        "end": 94
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 85,
+        "end": 94
+      }
+    ],
+    "id": "bx1-3-1-ex-2",
+    "category": "例题",
+    "answer": "解(1) $\\sqrt[5]{{\\left( -2\\right) }^{5}} =  - 2$ .\n\n(2) $\\sqrt[6]{{\\left( -8\\right) }^{2}} = \\sqrt[6]{{8}^{2}} = \\sqrt[6]{{2}^{6}} = 2$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 95,
+        "end": 98
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 3.1(1)",
+    "markdown": "#### 练习 3.1(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 99,
+        "end": 99
+      }
+    ],
+    "id": "bx1-3-1-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(1) · 1",
+    "markdown": "1. 求 $- \\frac{32}{243}$ 的 5 次方根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 101,
+        "end": 102
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 101,
+        "end": 102
+      }
+    ],
+    "id": "bx1-3-1-p311-1",
+    "category": "练习3.1(1)",
+    "answer": "1. 因为 ${\\left( -\\frac{2}{3}\\right) }^{5} =  - \\frac{32}{243}$ ,所以 $\\sqrt[5]{-\\frac{32}{243}} =  - \\frac{2}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 192,
+        "end": 193
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(1) · 2",
+    "markdown": "2. 求 9 的 4 次方根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 103,
+        "end": 104
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 103,
+        "end": 104
+      }
+    ],
+    "id": "bx1-3-1-p311-2",
+    "category": "练习3.1(1)",
+    "answer": "2. 因为任何正数的偶次方根有两个,又因为 ${\\left( \\pm \\sqrt{3}\\right) }^{4} = 9$ ,所以 9 的 4 次方根为 $\\pm  \\sqrt[4]{9} =  \\pm  \\sqrt{3}.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 194,
+        "end": 195
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(1) · 3",
+    "markdown": "3. 求下列各根式的值:\n\n(1) $\\sqrt[5]{{\\left( -4\\right) }^{5}}$ ； (2) $\\sqrt[6]{{\\left( a - b\\right) }^{6}}$ (其中 $a < b$ ).\n\n为了定义有理数指数幂, 我们首先定义正数的有理数指数幂, 使得整数指数幂的三条运算性质对有理数指数幂仍然成立.\n\n设 $a > 0, s$ 为有理数,我们定义 ${a}^{s}$ .\n\n当 $s = \\frac{1}{n}$ ,而 $n$ 是正整数时,若 $n = 1$ ,则 ${a}^{\\frac{1}{n}} = a$ ,这种情况比较特殊,无需定义; 若 $n$ 大于 1,则定义 ${a}^{\\frac{1}{n}} = \\sqrt[n]{a}$ ,即为 $a$ 的 $n$ 次根式,它是方程 ${x}^{n} = a$ 的唯一正数解.\n\n当 $s = \\frac{m}{n}$ ,而 $m$ 是一个整数, $n$ 是一个大于 1 的整数时, 定义\n\n$$\n{a}^{\\frac{m}{n}} = {\\left( {a}^{m}\\right) }^{\\frac{1}{n}} = \\sqrt[n]{{a}^{m}}.\n$$\n\n可以证明,当 $\\frac{m}{n} = \\frac{{m}^{\\prime }}{{n}^{\\prime }}$ 且 ${m}^{\\prime }$ 为整数及 ${n}^{\\prime }$ 为大于 1 的整数时,总成立 ${a}^{\\frac{m}{n}} = {a}^{\\frac{{m}^{\\prime }}{{n}^{\\prime }}}$ .\n\n当 $s$ 为有理数时,它总可表示为两个互素整数的商 $\\frac{m}{n}$ ,其中 $m$ 是整数,而 $n$ 是正整数,可定义 ${a}^{s} = {a}^{\\frac{m}{n}}$ .\n\n根据 $\\frac{1}{n}$ 次幂的定义,有 ${\\left( {a}^{\\frac{1}{n}}\\right) }^{n} = a$ . 再由分数指数幂的定义与整数指数幂的运算性质 (2), 有\n\n$$\n{\\left( {a}^{\\frac{1}{n}}\\right) }^{m} = {\\left( {a}^{\\frac{1}{n}}\\right) }^{\\frac{nm}{n}} = {\\left\\lbrack  {\\left( {a}^{\\frac{1}{n}}\\right) }^{nm}\\right\\rbrack  }^{\\frac{1}{n}} = {\\left\\lbrack  {\\left( {\\left( {a}^{\\frac{1}{n}}\\right) }^{n}\\right) }^{m}\\right\\rbrack  }^{\\frac{1}{n}} = {\\left( {a}^{m}\\right) }^{\\frac{1}{n}}.\n$$\n\n因此,也可以把 ${a}^{\\frac{m}{n}}$ 等价地定义为\n\n$$\n{a}^{\\frac{m}{n}} = {\\left( {a}^{\\frac{1}{n}}\\right) }^{m} = {\\left( \\sqrt[n]{a}\\right) }^{m}.\n$$\n\n利用整数指数幂的运算性质(1)至(3)，可以证明这三条性质对有理数指数幂仍然成立. 我们也可以证明以下的幂的基本不等式: 当实数 $a > 1$ ,有理数 $s > 0$ 时,不等式 ${a}^{s} > 1$ 成立.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 105,
+        "end": 138
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 105,
+        "end": 138
+      }
+    ],
+    "id": "bx1-3-1-p311-3",
+    "category": "练习3.1(1)",
+    "answer": "3. (1) $\\sqrt[5]{{\\left( -4\\right) }^{5}} =  - 4$ . 4. ( 2 )因为 $a < b$ ,所以 $\\sqrt[6]{{\\left( a - b\\right) }^{6}} = \\left| {a - b}\\right|  = b - a$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 196,
+        "end": 197
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "**例 3** 求下列各式的值:\n\n(1) ${4}^{\\frac{3}{2}}$ ；\n\n(2) ${\\left( \\frac{81}{625}\\right) }^{-\\frac{3}{4}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 139,
+        "end": 144
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 139,
+        "end": 144
+      }
+    ],
+    "id": "bx1-3-1-ex-3",
+    "category": "例题",
+    "answer": "解 反复利用有理数指数幂的运算性质, 可得\n\n(1) ${4}^{\\frac{3}{2}} = {\\left( {2}^{2}\\right) }^{\\frac{3}{2}} = {2}^{3} = 8$ .\n\n(2) ${\\left( \\frac{81}{625}\\right) }^{-\\frac{3}{4}} = {\\left( \\frac{625}{81}\\right) }^{\\frac{3}{4}} = {\\left\\lbrack  {\\left( \\frac{625}{81}\\right) }^{\\frac{1}{4}}\\right\\rbrack  }^{3} = {\\left( \\frac{5}{3}\\right) }^{3} = \\frac{125}{27}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 145,
+        "end": 150
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "**例 4** 用有理数指数幂的形式表示下列各式(其中 $a > 0$ ): (1) $\\sqrt[3]{{a}^{2}}$ ；\n\n> ${a}^{\\frac{1}{n}} = \\sqrt[n]{a}\\left( {a > 0, n}\\right)$ 为大于 1 的整数).\n>\n> 当 $a < 0$ 且 $n$ 是正奇数时, 存在唯一的实数 $x$ ,使得\n>\n> ${x}^{n} = a < 0,$\n>\n> 此时 ${a}^{\\frac{1}{n}}$ 能被定义.\n>\n> 当 $a < 0$ 且 $n$ 是正偶数时, 因为不存在实数 $x$ ,使得\n>\n> ${x}^{n} = a < 0,$\n>\n> 故不能定义 ${a}^{\\frac{1}{n}}$ .\n>\n> 当 $a = 0$ 且 $n$ 是正整数时, 也可定义 ${0}^{\\frac{1}{n}} = 0.$\n>\n> 一般地,在 $n$ 为大于 1 的整数,且 $m$ 为整数时,对所有使得 $\\sqrt[n]{{a}^{m}}$ 有意义的实数 $a$ ,都可定义\n>\n> ${a}^{\\frac{m}{n}} = \\sqrt[n]{{a}^{m}}.$\n\n(2) ${a}^{3} \\cdot  \\sqrt[4]{{a}^{3}}$ ；\n\n(3) $\\sqrt{a\\sqrt{a}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 151,
+        "end": 176
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 151,
+        "end": 176
+      }
+    ],
+    "id": "bx1-3-1-ex-4",
+    "category": "例题",
+    "answer": "解 由有理数指数幂的定义和运算性质, 可得\n\n(1) $\\sqrt[3]{{a}^{2}} = {a}^{\\frac{2}{3}}$ .\n\n(2) ${a}^{3} \\cdot  \\sqrt[4]{{a}^{3}} = {a}^{3} \\cdot  {a}^{\\frac{3}{4}} = {a}^{3 + \\frac{3}{4}} = {a}^{\\frac{15}{4}}$ .\n\n(3) $\\sqrt{a\\sqrt{a}} = {\\left( a \\cdot  {a}^{\\frac{1}{2}}\\right) }^{\\frac{1}{2}} = {\\left( {a}^{\\frac{3}{2}}\\right) }^{\\frac{1}{2}} = {a}^{\\frac{3}{4}}$ .\n\n下面我们考虑正数的无理数指数幂, 在上述对正数的有理数指数幂定义的基础上,可以证明: 对任意一个正数 $a$ 与任意一个无理数 $s$ ,可确定一个唯一的实数,记作 ${a}^{s}$ ,使得上述有理数指数幂的三条运算性质与幂的基本不等式对所有的实数 ${a}^{s}$ 都成立. 我们把这个实数 ${a}^{s}$ 定义为 $a$ 的 $s$ 次幂.\n\n这样,当指数幂从正整数拓展到实数时,我们要求底 $a$ 是一个正数. 此时指数幂满足以下的运算性质与幂的基本不等式.\n\n**性质** 对任意给定的正数 $a$ 、 $b$ 及实数 $s$ 、 $t$ ，有\n\n$$\n{a}^{s}{a}^{t} = {a}^{s + t},\n$$\n\n$$\n{\\left( {a}^{s}\\right) }^{t} = {a}^{st},\n$$\n\n$$\n{\\left( ab\\right) }^{t} = {a}^{t}{b}^{t}.\n$$\n\n**定理** 当 $a > 1, s > 0$ 时， ${a}^{s} > 1$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 177,
+        "end": 204
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "**例 5** 化简下列各式:\n\n(1) ${\\left( {x}^{\\frac{\\sqrt{3}}{2}}\\right) }^{\\sqrt{3}} \\cdot  \\sqrt{x}$ (其中 $x > 0$ )；\n\n(2) $\\frac{\\left( {{a}^{\\frac{2}{3}}{b}^{\\frac{1}{2}}}\\right) \\left( {-3{a}^{\\frac{1}{2}}{b}^{\\frac{1}{3}}}\\right) }{\\frac{1}{3}{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}}$ (其中 $a > 0, b > 0$ ).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 205,
+        "end": 210
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 205,
+        "end": 210
+      }
+    ],
+    "id": "bx1-3-1-ex-5",
+    "category": "例题",
+    "answer": "解(1)反复应用上述运算性质，可得\n\n$$\n{\\left( {x}^{\\frac{\\sqrt{3}}{2}}\\right) }^{\\sqrt{3}} \\cdot  \\sqrt{x} = {x}^{\\frac{\\sqrt{3}}{2} \\times  \\sqrt{3}} \\cdot  {x}^{\\frac{1}{2}} = {x}^{\\frac{3}{2}} \\cdot  {x}^{\\frac{1}{2}} = {x}^{\\frac{3}{2} + \\frac{1}{2}} = {x}^{2}.\n$$\n\n(2)由有理数指数幂的运算性质, 可得\n\n$\\frac{\\left( {{a}^{\\frac{2}{3}}{b}^{\\frac{1}{2}}}\\right) \\left( {-3{a}^{\\frac{1}{2}}{b}^{\\frac{1}{3}}}\\right) }{\\frac{1}{3}{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}} = \\left( {-3 \\times  3}\\right) {a}^{\\frac{2}{3} + \\frac{1}{2} - \\frac{1}{6}}{b}^{\\frac{1}{2} + \\frac{1}{3} - \\frac{5}{6}} =  - {9a}{b}^{0} =  - {9a}.$\n\n> 这个证明要用到无理数由有理数逼近的性质, 相当繁复, 此处略去不讲.\n>\n> 此定理常称为幂的基本不等式, 在后面学习中还会用到.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 211,
+        "end": 224
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 3.1(2)",
+    "markdown": "#### 练习 3.1(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 225,
+        "end": 225
+      }
+    ],
+    "id": "bx1-3-1-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(2) · 1",
+    "markdown": "1. 求下列各式的值:\n\n(1)100 ${}^{\\frac{1}{2}}$ ；\n\n(2) ${8}^{-\\frac{2}{3}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 227,
+        "end": 232
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 227,
+        "end": 232
+      }
+    ],
+    "id": "bx1-3-1-p312-1",
+    "category": "练习3.1(2)",
+    "answer": "1. (1) ${100}^{\\frac{1}{2}} = {\\left( {10}^{2}\\right) }^{\\frac{1}{2}} = {10}^{1} = {10}$ . (2) ${8}^{-\\frac{2}{3}} = {\\left( \\frac{1}{8}\\right) }^{\\frac{2}{3}} = {\\left\\lbrack  {\\left( \\frac{1}{2}\\right) }^{3}\\right\\rbrack  }^{\\frac{2}{3}} = {\\left( \\frac{1}{2}\\right) }^{2} = \\frac{1}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 200,
+        "end": 201
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(2) · 2",
+    "markdown": "2. 用有理数指数幂的形式表示下列各式(其中 $a > 0$ ):\n\n(1) ${a}^{\\frac{10}{3}} \\cdot  \\sqrt[5]{{a}^{3}}$ ；\n\n(2) $\\sqrt[3]{a\\sqrt[3]{a}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 233,
+        "end": 238
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 233,
+        "end": 238
+      }
+    ],
+    "id": "bx1-3-1-p312-2",
+    "category": "练习3.1(2)",
+    "answer": "2. (1) ${a}^{\\frac{10}{3}} \\cdot  \\sqrt[5]{{a}^{3}} = {a}^{\\frac{10}{3}} \\cdot  {a}^{\\frac{3}{5}} = {a}^{\\frac{10}{3} + \\frac{3}{5}} = {a}^{\\frac{59}{15}}$ . (2) $\\sqrt[3]{a\\sqrt[3]{a}} = {\\left( a \\cdot  {a}^{\\frac{1}{3}}\\right) }^{\\frac{1}{3}} = {\\left( {a}^{\\frac{4}{3}}\\right) }^{\\frac{1}{3}} = {a}^{\\frac{4}{9}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 202,
+        "end": 203
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(2) · 3",
+    "markdown": "3. 化简下列各式:\n\n(1) ${\\left( {a}^{3 + \\sqrt{3}}\\right) }^{3 - \\sqrt{3}}$ (其中 $a > 0$ )；\n\n(2) $\\frac{4{a}^{\\frac{2}{3}}{b}^{2}}{\\left( {{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}}\\right) \\left( {-\\frac{2}{3}{a}^{\\frac{1}{2}}b}\\right) }$ (其中 $a > 0, b > 0$ ).",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 239,
+        "end": 244
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 239,
+        "end": 244
+      }
+    ],
+    "id": "bx1-3-1-p312-3",
+    "category": "练习3.1(2)",
+    "answer": "3. (1) ${\\left( {a}^{3 + \\sqrt{3}}\\right) }^{3 - \\sqrt{3}} = {a}^{\\left( {3 + \\sqrt{3}}\\right)  \\times  \\left( {3 - \\sqrt{3}}\\right) } = {a}^{6}$ .\n\n(2) $\\frac{4{a}^{\\frac{2}{3}}{b}^{2}}{\\left( {{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}}\\right) \\left( {-\\frac{2}{3}{a}^{\\frac{1}{2}}b}\\right) } = 4 \\cdot  \\left( {-\\frac{3}{2}}\\right) {a}^{\\frac{2}{3} - \\frac{1}{6} - \\frac{1}{2}}{b}^{2 - \\frac{5}{6} - 1} =  - 6{a}^{0}{b}^{\\frac{1}{6}} =  - 6{b}^{\\frac{1}{6}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 204,
+        "end": 207
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习3.1(2) · 4",
+    "markdown": "4. 已知 $0 < a < 1, s > 0$ . 求证: $0 < {a}^{s} < 1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 245,
+        "end": 246
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 245,
+        "end": 246
+      }
+    ],
+    "id": "bx1-3-1-p312-4",
+    "category": "练习3.1(2)",
+    "answer": "4. 因为 $0 < a < 1$ ,所以 $\\frac{1}{a} > 1$ . 又因为 $s > 0$ ,由幂的基本不等式,得 ${\\left( \\frac{1}{a}\\right) }^{s} > 1$ ,故 $0 < {a}^{s} < 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 208,
+        "end": 209
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 3.1",
+    "markdown": "### 习题 3.1",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 247,
+        "end": 247
+      }
+    ],
+    "id": "bx1-3-1-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 249,
+        "end": 249
+      }
+    ],
+    "id": "bx1-3-1-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 1",
+    "markdown": "1.(1)求一64的立方根； (2)求 256 的 4 次方根.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 251,
+        "end": 252
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 251,
+        "end": 252
+      }
+    ],
+    "id": "bx1-3-1-h31A-1",
+    "category": "习题3.1A",
+    "answer": "1.(1)因为 ${\\left( -4\\right) }^{3} =  - {64}$ ,所以 $\\sqrt[3]{-{64}} =  - 4$ .\n\n(2)因为任何正数的偶次方根有两个,又因为 ${\\left( \\pm 4\\right) }^{4} = {256}$ ,所以 256 的 4 次方根为 $\\pm  \\sqrt[4]{256} =  \\pm  4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 214,
+        "end": 217
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 2",
+    "markdown": "2. 求下列各根式的值:\n\n(1) $\\sqrt[5]{\\frac{243}{32}}$ ； (2) $- \\sqrt[3]{0.125}$ ；\n\n(3) $\\sqrt[7]{{\\left( -2\\right) }^{7}}$ ； (4) $\\sqrt[6]{{\\left( -{27}\\right) }^{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 253,
+        "end": 258
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 253,
+        "end": 258
+      }
+    ],
+    "id": "bx1-3-1-h31A-2",
+    "category": "习题3.1A",
+    "answer": "2. (1) $\\sqrt[5]{\\frac{243}{32}} = \\frac{3}{2}$ . (2) $- \\sqrt[3]{0.125} =  - {0.5}$ . (3) $\\sqrt[7]{{\\left( -2\\right) }^{7}} =  - 2$ .\n\n(4) $\\sqrt[6]{{\\left( -{27}\\right) }^{2}} = \\sqrt[6]{{3}^{6}} = 3$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 218,
+        "end": 221
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 3",
+    "markdown": "3. 用有理数指数幂的形式表示下列各式(其中 $x > 0, y > 0$ ):\n\n(1) $\\sqrt[3]{{x}^{5}}$ ； (2) ${\\left( \\sqrt[5]{x}\\right) }^{3}$ ；\n\n(3) $\\sqrt[7]{{x}^{3}{y}^{4}}$ ； (4) $\\sqrt[7]{\\frac{{x}^{3}}{{y}^{4}}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 259,
+        "end": 264
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 259,
+        "end": 264
+      }
+    ],
+    "id": "bx1-3-1-h31A-3",
+    "category": "习题3.1A",
+    "answer": "3. (1) $\\sqrt[3]{{x}^{5}} = {x}^{\\frac{5}{3}}$ . (2) $\\sqrt[5]{{x}^{3}} = {x}^{\\frac{3}{5}}$ . (3) $\\sqrt[7]{{x}^{3}{y}^{4}} = {x}^{\\frac{3}{7}}{y}^{\\frac{4}{7}}$ .\n\n(4) $\\sqrt[7]{\\frac{{x}^{3}}{{y}^{4}}} = {x}^{\\frac{3}{7}}{y}^{-\\frac{4}{7}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 222,
+        "end": 225
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 4",
+    "markdown": "4. 用根式的形式表示下列各式(其中 $a > 0$ ):\n\n(1) ${a}^{\\frac{2}{3}}$ ； (2) ${a}^{\\frac{3}{4}}$ ；\n\n(3) ${a}^{-\\frac{2}{5}}$ ； (4) ${a}^{-\\frac{5}{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 265,
+        "end": 270
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 265,
+        "end": 270
+      }
+    ],
+    "id": "bx1-3-1-h31A-4",
+    "category": "习题3.1A",
+    "answer": "4. (1) ${a}^{\\frac{2}{3}} = \\sqrt[3]{{a}^{2}}$ . (2) ${a}^{\\frac{3}{4}} = \\sqrt[4]{{a}^{3}}$ . (3) ${a}^{-\\frac{2}{5}} = \\frac{1}{\\sqrt[5]{{a}^{2}}}$ .\n\n(4) ${a}^{-\\frac{5}{2}} = \\frac{1}{\\sqrt{{a}^{5}}}\\left( \\right.$ 或 $\\left. {{a}^{-\\frac{5}{2}} = \\frac{1}{{a}^{2}\\sqrt{a}}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 226,
+        "end": 229
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 5",
+    "markdown": "5. 求下列各式中 $x$ 的值(其中 $x > 0$ ):\n\n(1) ${x}^{3} = {27}$ ； (2) ${x}^{4} = {121}$ ；\n\n(3) ${x}^{\\frac{3}{2}} = {1000}$ ； (4) ${x}^{-\\frac{4}{3}} = \\frac{16}{625}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 271,
+        "end": 276
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 271,
+        "end": 276
+      }
+    ],
+    "id": "bx1-3-1-h31A-5",
+    "category": "习题3.1A",
+    "answer": "5. (1) $x = {27}^{\\frac{1}{3}} = 3$ .\n\n(2)由 ${x}^{4} = {121}$ ,得 $x =  \\pm  \\sqrt[4]{121} =  \\pm  \\sqrt{11}$ . 又 $x > 0$ ,所以 $x = \\sqrt{11}$ .\n\n(3) $x = {1000}^{\\frac{2}{3}} = {\\left( {10}^{3}\\right) }^{\\frac{2}{3}} = {10}^{2} = {100}$ .\n\n(4)由 ${x}^{\\frac{4}{3}} = \\frac{625}{16}$ ,得 $x =  \\pm  \\sqrt[4]{{\\left( \\frac{625}{16}\\right) }^{3}} =  \\pm  \\sqrt[4]{{\\left\\lbrack  {\\left( \\frac{5}{2}\\right) }^{4}\\right\\rbrack  }^{3}} =  \\pm  {\\left( \\frac{5}{2}\\right) }^{3} =  \\pm  \\frac{125}{8}$ . 又 $x > 0$ , 所以 $x = \\frac{125}{8}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 230,
+        "end": 237
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 6",
+    "markdown": "6. 用有理数指数幂的形式表示下列各式(其中 $a > 0, b > 0$ ):\n\n(1) ${a}^{\\frac{1}{3}}{a}^{\\frac{1}{4}}$ ； (2) $\\sqrt[3]{a\\sqrt{a}}$ ；\n\n(3) ${\\left( {a}^{\\frac{1}{4}}{b}^{-\\frac{3}{8}}\\right) }^{8}$ ；\n\n(4) ${\\left( \\frac{{a}^{-3}{b}^{4}}{\\sqrt{b}}\\right) }^{-\\frac{1}{3}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 277,
+        "end": 284
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 277,
+        "end": 284
+      }
+    ],
+    "id": "bx1-3-1-h31A-6",
+    "category": "习题3.1A",
+    "answer": "6. (1) ${a}^{\\frac{1}{3}}{a}^{\\frac{1}{4}} = {a}^{\\frac{1}{3} + \\frac{1}{4}} = {a}^{\\frac{7}{12}}$ . (2) $\\sqrt[3]{a\\sqrt{a}} = {\\left( a \\cdot  {a}^{\\frac{1}{2}}\\right) }^{\\frac{1}{3}} = {\\left( {a}^{\\frac{3}{2}}\\right) }^{\\frac{1}{3}} = {a}^{\\frac{1}{2}}$ .\n\n(3) ${\\left( {a}^{\\frac{1}{4}}{b}^{-\\frac{3}{8}}\\right) }^{8} = {a}^{\\frac{1}{4} \\times  8}{b}^{-\\frac{3}{8} \\times  8} = {a}^{2}{b}^{-3}$ .\n\n(4) ${\\left( \\frac{{a}^{-3}{b}^{4}}{\\sqrt{b}}\\right) }^{-\\frac{1}{3}} = {a}^{\\left( {-3}\\right)  \\times  \\left( {-\\frac{1}{3}}\\right) }{b}^{\\left( {4 - \\frac{1}{2}}\\right)  \\times  \\left( {-\\frac{1}{3}}\\right) } = a{b}^{-\\frac{7}{6}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 238,
+        "end": 243
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1A · 7",
+    "markdown": "7. 化简下列各式(其中 $a > 0, b > 0$ ):\n\n(1) $\\frac{\\left( {2{a}^{\\frac{2}{3}}{b}^{\\frac{1}{2}}}\\right) \\left( {-6{a}^{\\frac{1}{2}}{b}^{\\frac{1}{3}}}\\right) }{3{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}}$ ；\n\n(2) ${\\left( {a}^{2 - \\sqrt{3}}b\\right) }^{2 + \\sqrt{3}} \\cdot  {b}^{2 - \\sqrt{3}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 285,
+        "end": 290
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 285,
+        "end": 290
+      }
+    ],
+    "id": "bx1-3-1-h31A-7",
+    "category": "习题3.1A",
+    "answer": "7. (1) $\\frac{\\left( {2{a}^{\\frac{2}{3}}{b}^{\\frac{1}{2}}}\\right) \\left( {-6{a}^{\\frac{1}{2}}{b}^{\\frac{1}{3}}}\\right) }{3{a}^{\\frac{1}{6}}{b}^{\\frac{5}{6}}} =  - 4{a}^{\\frac{2}{3} + \\frac{1}{2} - \\frac{1}{6}}{b}^{\\frac{1}{2} + \\frac{1}{3} - \\frac{5}{6}} =  - {4a}$ .\n\n(2) ${\\left( {a}^{2 - \\sqrt{3}}b\\right) }^{2 + \\sqrt{3}} \\cdot  {b}^{2 - \\sqrt{3}} = {a}^{\\left( {2 - \\sqrt{3}}\\right)  \\times  \\left( {2 + \\sqrt{3}}\\right) }{b}^{2 + \\sqrt{3} + 2 - \\sqrt{3}} = a{b}^{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 244,
+        "end": 247
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 291,
+        "end": 291
+      }
+    ],
+    "id": "bx1-3-1-b29",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题3.1B · 1",
+    "markdown": "1. 当 $x < 0$ 时,求 $\\left| x\\right|  + \\sqrt[6]{{x}^{6}} + 2\\sqrt[3]{{x}^{3}}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 293,
+        "end": 294
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 293,
+        "end": 294
+      }
+    ],
+    "id": "bx1-3-1-h31B-1",
+    "category": "习题3.1B",
+    "answer": "1. 因为 $x < 0$ ,所以 $\\left| x\\right|  + \\sqrt[6]{{x}^{6}} + 2\\sqrt[3]{{x}^{3}} = \\left| x\\right|  + \\left| x\\right|  + {2x} = 2\\left| x\\right|  + {2x} =  - {2x} + {2x} = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 250,
+        "end": 251
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1B · 2",
+    "markdown": "2. 设 ${a}^{2x} = 2$ ,且 $a > 0$ . 求 $\\frac{{a}^{3x} + {a}^{-{3x}}}{{a}^{x} + {a}^{-x}}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 295,
+        "end": 296
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 295,
+        "end": 296
+      }
+    ],
+    "id": "bx1-3-1-h31B-2",
+    "category": "习题3.1B",
+    "answer": "2. 因为 $\\frac{{a}^{3x} + {a}^{-{3x}}}{{a}^{x} + {a}^{-x}} = \\frac{\\left( {{a}^{x} + {a}^{-x}}\\right) \\left( {{a}^{2x} + {a}^{-{2x}} - 1}\\right) }{{a}^{x} + {a}^{-x}} = {a}^{2x} + {a}^{-{2x}} - 1$ ,又因为 ${a}^{2x} = 2$ , 所以 ${a}^{2x} + {a}^{-{2x}} - 1 = {a}^{2x} + \\frac{1}{{a}^{2x}} - 1 = 2 + \\frac{1}{2} - 1 = \\frac{3}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 252,
+        "end": 253
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题3.1B · 3",
+    "markdown": "3. 设 $a > b > 0$ ,求证: ${a}^{a}{b}^{b} > {\\left( ab\\right) }^{\\frac{a + b}{2}}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "id": "bx1-3-1-h31B-3",
+    "category": "习题3.1B",
+    "answer": "3. 证明: 因为 $a > b > 0$ ,所以 $\\frac{a}{b} > 1$ ,且 $\\frac{a - b}{2} > 0$ . 由幂的基本不等式,得 ${\\left( \\frac{a}{b}\\right) }^{\\frac{a - b}{2}} > 1$ . 因此 $\\frac{{a}^{a}{b}^{b}}{{\\left( ab\\right) }^{\\frac{a + b}{2}}} = {a}^{\\frac{a - b}{2}}{b}^{\\frac{b - a}{2}} = {\\left( \\frac{a}{b}\\right) }^{\\frac{a - b}{2}} > 1$ ,又因为 ${\\left( ab\\right) }^{\\frac{a + b}{2}} > 0$ ,所以 ${a}^{a}{b}^{b} > {\\left( ab\\right) }^{\\frac{a + b}{2}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 254,
+        "end": 255
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-7-3",
+  "book_id": "x2",
+  "section": "7.3",
+  "title": "常用分布",
+  "section_json": "batch/sections/x2/x2-7-3.json",
+  "output": "outputs/五册教材教参整合/x2/x2-7-3",
+  "fingerprint": "37052de9f96d8dbbd5d87bb145a5aaab0446c01ee0636eb7627d69d07ee993b9",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-476ae303bf2a5310cedb.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_64_609_931_427_282_0.jpg",
+      "sha256": "476ae303bf2a5310cedb36e86ad65e67581e135c430140ef5f751bcf28610e3e",
+      "private": true
+    },
+    "images/private-d1e11a011c29b01f4cdc.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_64_577_1731_492_304_0.jpg",
+      "sha256": "d1e11a011c29b01f4cdc20760a1577f5eb6865b39c3bcb47099339bee3fa5879",
+      "private": true
+    },
+    "images/book-a18273d934edf4d1057f.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_24_198_1599_863_422_0.jpg",
+      "sha256": "a18273d934edf4d1057f05ddd1ea4b2e81fe2e029cf0ef8af5747315932c4b19",
+      "private": false
+    },
+    "images/book-390acbee8aba894f4d8b.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_25_642_744_759_386_0.jpg",
+      "sha256": "390acbee8aba894f4d8be1d994b2ef5069091dc62f6f2c3b914c1dc5a232a5e4",
+      "private": false
+    },
+    "images/book-caa7e0e7bdd13a7632e8.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_25_774_1776_488_309_0.jpg",
+      "sha256": "caa7e0e7bdd13a7632e88c1eba742e40eca54065ae60a92461cdc5a60c3c7ce6",
+      "private": false
+    },
+    "images/book-1b1a11b369ca136bcad4.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_26_370_850_519_249_0.jpg",
+      "sha256": "1b1a11b369ca136bcad40c3c19e07158a633cd9ec6e460418bbc717db4a77b2e",
+      "private": false
+    },
+    "images/book-83ec19228c3e9a41dae0.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_26_371_1782_520_250_0.jpg",
+      "sha256": "83ec19228c3e9a41dae0ceca1e40b104e9fadb4c59688147109f14f2d773646c",
+      "private": false
+    },
+    "images/private-acce32deb032d80d908c.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/images/bo_d4slos3ef24c73be0qug_28_283_1249_691_346_0.jpg",
+      "sha256": "acce32deb032d80d908c122e056d7ba5968ec7d8d05b8f89cfa8d998a9e967b0",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md": "f24bb495b492c1d6617e45d97bc2a42951ca4d7710507fb3bb77280f2c88505c",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md": "e551fbd0907883e43ddfd5bf96488427096e591acdf99a8c872372b560aae691"
+  },
+  "student_images": [
+    "images/book-1b1a11b369ca136bcad4.jpg",
+    "images/book-390acbee8aba894f4d8b.jpg",
+    "images/book-83ec19228c3e9a41dae0.jpg",
+    "images/book-a18273d934edf4d1057f.jpg",
+    "images/book-caa7e0e7bdd13a7632e8.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "c7da71f9034ad5e51cf8f0799d97bb287b0e1401087e2cb2c151b03ce91f8f5c",
+    "student.html": "71bd9c374afd90f2f57b6f9c0dc36eda980a6ce76908795b64fce7856ec15673",
+    "student.zip": "260c7175348b0b366aa296729f68379666e6b5ab37aa35376a930b6a559606e6",
+    "content.json": "fa1200fa57cc0fd5d14aa5c687a72f72eac653bfaac09403bc7607cbc1d198f5"
+  }
+}

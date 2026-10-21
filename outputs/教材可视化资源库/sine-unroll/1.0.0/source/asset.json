@@ -1,0 +1,28 @@
+{
+  "controls": [
+    {
+      "key": "angle",
+      "label": "展开转角（度）",
+      "max": 360,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>P</mi><mo>(</mo><mi>cos</mi><mi>α</mi><mo>,</mo><mi>sin</mi><mi>α</mi><mo>)</mo><mo>→</mo><mi>M</mi><mo>(</mo><mi>α</mi><mo>,</mo><mi>sin</mi><mi>α</mi><mo>)</mo><mo>;</mo><mspace width=\"1em\"/><mi>sin</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>π</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi></mrow></math>",
+  "goal": "让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。",
+  "id": "sine-unroll",
+  "initial": {
+    "angle": 120
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx2-7-1-b6",
+      "rationale": "覆盖本节原prose第6块：让圆上点的纵坐标逐步映射为正弦曲线上的点，代替多张静态描点图。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx2-7-1"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "对每个角，把弧度数作为新点的横坐标，把单位圆点的纵坐标作为新点的纵坐标，得到正弦曲线。角转一周，函数图像完成一个周期；五个关键点给出零点、峰和谷，用光滑曲线连接后按 2π 平移可扩展至全体实数。描五点是作图方法，不表示曲线由折线组成。",
+  "title": "把单位圆的一周展开成一段正弦曲线"
+}

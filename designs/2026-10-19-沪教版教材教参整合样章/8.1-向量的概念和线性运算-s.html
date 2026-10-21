@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>8.1 向量的概念和线性运算 · 学生阅读版</title><link rel="stylesheet" href="vendor-katex/katex.min.css"><link rel="stylesheet" href="book.css"><script defer src="vendor-katex/katex.min.js"></script><script defer src="book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div>
+<aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">必修第二册 / 第八章</div><div class="spine-number">8.1</div><nav aria-label="本节目录"><a href="#concept"><span>01</span>向量的概念</a><a href="#addition"><span>02</span>向量的加法和减法</a><a href="#multiplication"><span>03</span>实数与向量的乘法</a><a href="#homework"><span>04</span>课后习题</a></nav><div class="sidebar-foot">chengbai 数学讲义<br>网页版样章 · 2026.10.19<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 8.1</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button></div></header>
+<main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">PLANE VECTORS · SECTION 8.1</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>向量的概念<br>和线性运算<span class="cover-dot">.</span></h1><p class="cover-deck">把“方向”引入运算。<br>从几何表示出发，建立可推演、可应用的向量语言。</p><div class="chapter-meta"><span>3 个知识主题</span><span>8 个例题</span><span>29 道练习与习题</span></div></header>
+<div class="book-body"><section class="content-module" data-module="concept" data-title="向量的概念">
+<section class="section-heading" id="concept"><span class="section-number">01</span><div><h2>向量的概念</h2><p>从实际的量，到可以平移的数学对象</p></div></section>
+<div class="prose"><p>1 向量的概念</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-1</p>
+<p>图 8-1-1 展示了国产大飞机 C919 在蓝天翱翔的雄姿. 飞机从 <span class="math" data-tex="A" data-display="false"></span> 飞行到 <span class="math" data-tex="B" data-display="false"></span> . 它的位移是一个既有大小又有方向的量,它的大小是 <span class="math" data-tex="A\text{ 、 }B" data-display="false"></span> 间的距离,方向由 <span class="math" data-tex="A" data-display="false"></span> 到 <span class="math" data-tex="B" data-display="false"></span> .</p>
+<p>像“一点相对于另一点的位移”这种既有大小又有方向的量叫做向量 (vector). 准确地说, 一个向量由两个要素定义, 一是它的大小(一个非负实数)，一是它的方向.</p>
+<p>在研究向量的性质并定义与向量相关的各种运算时, 常常把向量用有向线段 (directed line-segment, 即指定了方向的线段) 表示出来, 线段的长度就是向量的大小, 线段的方向表示向量的方向. 我们也直接把表示向量的有向线段称作向量, 有向线段的起点称为向量的起点，有向线段的终点称为向量的终点. 本章只研究在一个平面上的向量, 就是要求所涉及的所有向量都能用同一个平面上的有向线段表示出来.</p>
+<p>向量通常用上方加箭头的小写字母表示，如 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> ，读作向量 <span class="math" data-tex="a" data-display="false"></span> . 向量也可以用上方加箭头的两个大写字母表示，如 <span class="math" data-tex="\overrightarrow{AB}" data-display="false"></span> ，读作向量 <span class="math" data-tex="{AB}" data-display="false"></span> ,其中 <span class="math" data-tex="A" data-display="false"></span> 是向量的起点， <span class="math" data-tex="B" data-display="false"></span> 是向量的终点.</p>
+<p>在讨论向量时，仅仅有数值(可以是任何实数)而没有方向的量称为数量 (scalar), 又称为 “标量”.</p>
+<p>除了位移，向量还有很多现实的原型. 例如，“力”就是一个典型的例子.</p>
+<p>图 8-1-2 是由若干个单位正方形组成的网格, <span class="math" data-tex="\overrightarrow{GH}" data-display="false"></span> 表示大小为 2 个单位、方向由 <span class="math" data-tex="G" data-display="false"></span> 到 <span class="math" data-tex="H" data-display="false"></span> 的向量; <span class="math" data-tex="\overrightarrow{MN}" data-display="false"></span> 表示大小为 <span class="math" data-tex="\sqrt{5}" data-display="false"></span> 个单位、 方向由 <span class="math" data-tex="M" data-display="false"></span> 到 <span class="math" data-tex="N" data-display="false"></span> 的向量.</p>
+<p>“向量”又称为“矢量”, 在物理学中较常使用.</p>
+<p>物理学中所研究的力有大小、方向和作用点三要素，我们研究的向量舍弃了作用点这一要素, 这种向量叫做自由向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-2</p>
+<p>请同学们描述图 8-1-2 中向量 <span class="math" data-tex="\overrightarrow{CD}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{EF}\text{ 、 }\overrightarrow{PQ}" data-display="false"></span> 的大小与方向.</p>
+<p>向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的大小叫做 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的模 (modulus)，记作 <span class="math" data-tex="\left| \overrightarrow{a}\right|" data-display="false"></span> . 模为 1 的向量叫做单位向量(unit vector).</p>
+<p>规定模为 0 的向量叫做零向量(zero vector),记作 <span class="math" data-tex="\overrightarrow{0}" data-display="false"></span> ,可认为它具有任意方向.</p>
+<p>如果两个非零向量所在的直线平行或者重合, 那么称这两个向量平行. 我们用记号 <span class="math" data-tex="\overrightarrow{a}//\overrightarrow{b}" data-display="false"></span> 表示向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 平行.</p>
+<aside class="key-point key-concept" id="key-vector-equality" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>相等向量：比较模与方向</h3><p>如果两个向量同方向且具有相同的模, 根据向量的定义, 它们就是同一个向量, 不过我们常常只说它们是相等的向量. 特别地, 一个向量平移后得到的向量与原来的向量相等. 例如, 图 8-1-3 中,向量 <span class="math" data-tex="\overrightarrow{MN}" data-display="false"></span> 是向量 <span class="math" data-tex="\overrightarrow{AB}" data-display="false"></span> 经过平移后得到的,所以 <span class="math" data-tex="\overrightarrow{MN} = \overrightarrow{AB}" data-display="false"></span> .</p>
+</aside><p><img src="images/book-bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-3</p>
+<p>由于约定了零向量具有任意方向, 因此它平行于任意向量. 这样, 根据向量相等的定义, 零向量都是相等的.</p>
+</div>
+
+<article class="question" id="bx2-c8-s81-ex1" data-question-id="bx2-c8-s81-ex1" data-category="example"><div class="question-label">例题 01</div><div class="question-body"><p>例 1 如图 8-1-4,在等边三角形 <span class="math" data-tex="{ABC}" data-display="false"></span> 中, <span class="math" data-tex="D\text{ 、 }E\text{ 、 }F" data-display="false"></span> 分别是边 <span class="math" data-tex="{BC}\text{ 、 }{AB}\text{ 、 }{AC}" data-display="false"></span> 的中点. 写出图中与向量 <span class="math" data-tex="\overrightarrow{EF}" data-display="false"></span> 平行和相等的向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-4</p>
+</div></article>
+<div class="prose"><p>请在图 8-1-4 中找出与 <span class="math" data-tex="\overrightarrow{AE}" data-display="false"></span> 相等的向量.</p>
+<p>如果一对平行向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 具有相等的模但方向相反,那么称它们互为负向量,或者称 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 为 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的负向量,记作 <span class="math" data-tex="\overrightarrow{b} =  - \overrightarrow{a}" data-display="false"></span> . 图 8-1-4中的向量 <span class="math" data-tex="\overrightarrow{DB}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{EF}" data-display="false"></span> 就是互为负向量. 一般地,对于平面上任意两点 <span class="math" data-tex="P\text{ 、 }Q" data-display="false"></span> ,均有 <span class="math" data-tex="\overrightarrow{PQ} =  - \overrightarrow{QP}" data-display="false"></span> .</p>
+</div>
+<article class="question" id="bx2-c8-s81-ex2" data-question-id="bx2-c8-s81-ex2" data-category="example"><div class="question-label">例题 02</div><div class="question-body"><p>例 2 在图 8-1-4 中，写出向量 <span class="math" data-tex="\overrightarrow{AE}" data-display="false"></span> 的负向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-4</p>
+</div></article>
+<div class="prose"><p>尽管可以画出一个向量的许多负向量，但由于它们彼此都相等, 因此一个向量的负向量在相等的意义下是唯一的.</p>
+</div>
+<h3 class="group-heading" id="practice-1">练习8.1（1）</h3>
+<article class="question" id="bx2-c8-s81-l1-q1" data-question-id="bx2-c8-s81-l1-q1" data-category="practice"><div class="question-label">练习8.1（1） · 1</div><div class="question-body"><ol>
+<li>指出下列各种量中的向量:</li>
+</ol>
+<p>(1)密度； (2)体积； (3)速度； (4)能量;</p>
+<p>(5) 电阻; (6)加速度； (7)功; (8) 力矩.</p>
+<p>你能找出更多向量的例子吗?</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-l1-q2" data-question-id="bx2-c8-s81-l1-q2" data-category="practice"><div class="question-label">练习8.1（1） · 2</div><div class="question-body"><ol start="2">
+<li>中国象棋中的“马”走“日”。如图是一个棋盘，当“马”自点 <span class="math" data-tex="A" data-display="false"></span> 走“一步”后的落点可以为点 <span class="math" data-tex="{A}_{1}\text{ 、 }{A}_{2}" data-display="false"></span> 或 <span class="math" data-tex="{A}_{3}" data-display="false"></span> ,表示该“马”走“一步”的向量为 <span class="math" data-tex="\overrightarrow{A{A}_{1}}\text{ 、 }\overrightarrow{A{A}_{2}}" data-display="false"></span> 或 <span class="math" data-tex="\overrightarrow{A{A}_{3}}" data-display="false"></span> ,它们是相等的向量吗? 在图中分别用向量表示当“马”在点 <span class="math" data-tex="B" data-display="false"></span> 处各走“一步”的情形.</li>
+</ol>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 2 题)</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-l1-q3" data-question-id="bx2-c8-s81-l1-q3" data-category="practice"><div class="question-label">练习8.1（1） · 3</div><div class="question-body"><ol start="3">
+<li>如图,点 <span class="math" data-tex="O" data-display="false"></span> 是正六边形 <span class="math" data-tex="{ABCDEF}" data-display="false"></span> 的中心,分别写出图中</li>
+</ol>
+<p>(1)与 <span class="math" data-tex="\overrightarrow{OA}" data-display="false"></span> 相等的向量； (2)与 <span class="math" data-tex="\overrightarrow{OB}" data-display="false"></span> 平行的向量；</p>
+<p>(3)与 <span class="math" data-tex="\overrightarrow{OC}" data-display="false"></span> 模相等的向量； (4) <span class="math" data-tex="\overrightarrow{OB}" data-display="false"></span> 的负向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 3 题)</p>
+</div></article>
+</section>
+<section class="content-module" data-module="addition" data-title="向量的加法和减法">
+<section class="section-heading" id="addition"><span class="section-number">02</span><div><h2>向量的加法和减法</h2><p>让不同方向的量进入同一套运算</p></div></section>
+<div class="prose"><h2>2 向量的加法和减法</h2>
+<p>在物理学习中, 我们已经知道了当不在同一方向上的两个力 <span class="math" data-tex="\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}" data-display="false"></span> 同时作用于一个物体时,它们的合力是以 <span class="math" data-tex="\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}" data-display="false"></span> 为相邻两边的平行四边形 <span class="math" data-tex="{OACB}" data-display="false"></span> 对角线 <span class="math" data-tex="\overrightarrow{OC}" data-display="false"></span> 所表示的力 (图 8-1-5).</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-5</p>
+<p>一般向量的加法也采用上述求合力的方法. 设给定两个不平行的向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> ，如图 8-1-6，如果以点 <span class="math" data-tex="O" data-display="false"></span> 为起点，分别作 <span class="math" data-tex="\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}" data-display="false"></span> ,那么以 <span class="math" data-tex="\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}" data-display="false"></span> 为邻边的平行四边形 <span class="math" data-tex="{OACB}" data-display="false"></span> 的对角线所表示的向量 <span class="math" data-tex="\overrightarrow{OC} = \overrightarrow{c}" data-display="false"></span> 就定义为向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 的和,记作 <span class="math" data-tex="\overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}" data-display="false"></span> . 求向量和的运算,叫做向量的加法 (addition of vectors). 我们把这种作向量和的方法叫做向量加法的平行四边形法则 (parallelogram law).</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-6</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-7</p>
+<p>由于平行四边形对边平行且相等,有 <span class="math" data-tex="\overrightarrow{AC} = \overrightarrow{OB} = \overrightarrow{b}" data-display="false"></span> ,因此求向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 的和 <span class="math" data-tex="\overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}" data-display="false"></span> ,在 <span class="math" data-tex="\bigtriangleup {OAC}" data-display="false"></span> 中就可以实现: 如图8-1-7, 若以 <span class="math" data-tex="O" data-display="false"></span> 为起点作向量 <span class="math" data-tex="\overrightarrow{OA} = \overrightarrow{a}" data-display="false"></span> ，再以 <span class="math" data-tex="A" data-display="false"></span> 为起点作向量 <span class="math" data-tex="\overrightarrow{AC} = \overrightarrow{b}" data-display="false"></span> ，则连接起点 <span class="math" data-tex="O" data-display="false"></span> 与终点 <span class="math" data-tex="C" data-display="false"></span> 得到向量 <span class="math" data-tex="\overrightarrow{OC}" data-display="false"></span> ,它就是 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 两向量的和 <span class="math" data-tex="\overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}" data-display="false"></span> . 我们把这种作向量和的方法叫做向量加法的三角形法则.</p>
+<p>向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 满足 <span class="math" data-tex="\overrightarrow{a}//\overrightarrow{b}" data-display="false"></span> 时 (包括 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 中出现零向量的情况), 无法使用平行四边形法则, 但上述三角形法则的步骤 (即若从一点 <span class="math" data-tex="O" data-display="false"></span> 出发作向量 <span class="math" data-tex="\overrightarrow{OA} = \overrightarrow{a}" data-display="false"></span> ，再以 <span class="math" data-tex="A" data-display="false"></span> 为起点作向量 <span class="math" data-tex="\overrightarrow{AC} = \overrightarrow{b}" data-display="false"></span> ，则向量 <span class="math" data-tex="\overrightarrow{OC} = \overrightarrow{a} + \overrightarrow{b}" data-display="false"></span> )仍然可以用于作出点 <span class="math" data-tex="C" data-display="false"></span> ,使得 <span class="math" data-tex="\overrightarrow{OC} = \overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}" data-display="false"></span> ,只不过此时 <span class="math" data-tex="\bigtriangleup {OAC}" data-display="false"></span> 不存在,只剩下一条直线上三条首尾相接、互相重叠的线段了. 图 8-1-8 的三幅图分别给出了 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 方向相同、 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 方向相反且 <span class="math" data-tex="\left| \overrightarrow{a}\right|  \geq  \left| \overrightarrow{b}\right|" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 方向相反且 <span class="math" data-tex="\left| \overrightarrow{a}\right|  \leq  \left| \overrightarrow{b}\right|" data-display="false"></span> 三种情况的图示(后两种情况当 <span class="math" data-tex="\left| \overrightarrow{a}\right|  = \left| \overrightarrow{b}\right|" data-display="false"></span> 时是一致的，此时 <span class="math" data-tex="O\text{ 、 }C" data-display="false"></span> 两点重合,从而 <span class="math" data-tex="\overrightarrow{c} = \overrightarrow{0}" data-display="false"></span> ).</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-8</p>
+<p>特别地, 当三个向量中出现一个零向量, 就得出</p>
+<div class="math display" data-tex="\overrightarrow{a} + \overrightarrow{0} = \overrightarrow{0} + \overrightarrow{a} = \overrightarrow{a}\text{ 和 }\overrightarrow{a} + \left( {-\overrightarrow{a}}\right)  = \overrightarrow{0}." data-display="true"></div>
+<aside class="key-point key-formula" id="key-addition-laws" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>加法交换律与结合律</h3><p>向量加法满足如下运算律 ( <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 是平面上的任意向量):</p>
+<p>交换律 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} = \overrightarrow{b} + \overrightarrow{a}" data-display="false"></span> .</p>
+<p>结合律 <span class="math" data-tex="\;\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  + \overrightarrow{c} = \overrightarrow{a} + \left( {\overrightarrow{b} + \overrightarrow{c}}\right)" data-display="false"></span> .</p>
+</aside><p>由结合律,我们常常把 <span class="math" data-tex="\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  + \overrightarrow{c}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{a} + \left( {\overrightarrow{b} + \overrightarrow{c}}\right)" data-display="false"></span> 都简记为 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} + \overrightarrow{c}" data-display="false"></span>.</p>
+<p>根据平行四边形法则, 比较容易验证向量加法的交换律, 而结合律的证明见下面的例 3.</p>
+</div>
+
+<article class="question" id="bx2-c8-s81-ex3" data-question-id="bx2-c8-s81-ex3" data-category="example"><div class="question-label">例题 03</div><div class="question-body"><p>例 3 已知 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 是平面上任意给定的向量,求证: <span class="math" data-tex="\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  + \overrightarrow{c} = \overrightarrow{a} + \left( {\overrightarrow{b} + \overrightarrow{c}}\right) ." data-display="false"></span></p>
+</div></article>
+<div class="prose"><aside class="key-point key-method" id="key-head-tail" data-emphasis="method"><div class="key-label">编辑标注 · 思想方法</div><h3>首尾相接：把多段位移合成一段</h3><p>把例 3 证明中求向量和的方法略加推广, 可得: 若干个起点、终点依次相接的向量的和是以第一个向量的起点为起点、以最后一个向量的终点为终点的向量. 这是求向量和很实用的规则, 可以称之为 “首尾规则”.</p>
+</aside></div>
+<article class="question" id="bx2-c8-s81-ex4" data-question-id="bx2-c8-s81-ex4" data-category="example"><div class="question-label">例题 04</div><div class="question-body"><p>例 4 一物体受水平方向 6 N 和铅垂方向 8 N 的两个力的作用，求合力的大小以及合力与铅垂方向偏离的角度. (结果精确到 <span class="math" data-tex="\left. {0.01}^{ \circ  }\right)" data-display="false"></span></p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-9</p>
+</div></article>
+<div class="prose"><p>我们现在考虑向量的减法.</p>
+<p>就像数的运算中减法是加法的逆运算一样,向量的减法也是作为向量加法的逆运算来定义的. 这就是说,如果已知向量 <span class="math" data-tex="\overrightarrow{a} + \; \overrightarrow{b} = \overrightarrow{c}" data-display="false"></span> ,那么向量 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 叫做向量 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 与向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的差,记作 <span class="math" data-tex="\overrightarrow{b} = \overrightarrow{c} - \overrightarrow{a}" data-display="false"></span> . 求向量差的运算, 叫做向量的减法.</p>
+<aside class="key-point key-method" id="key-subtraction" data-emphasis="method"><div class="key-label">编辑标注 · 思想方法</div><h3>转化思想：减法化为加法</h3><p>数的运算的经验使我们容易想到</p>
+<div class="math display" data-tex="\overrightarrow{c} - \overrightarrow{a} = \overrightarrow{c} + \left( {-\overrightarrow{a}}\right) ." data-display="true"></div>
+<p>向量的减法可以转化为向量的加法.</p>
+</aside><p><img src="images/book-bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-10</p>
+<p>只要用向量加法的交换律、结合律以及 <span class="math" data-tex="\overrightarrow{a} + \left( {-\overrightarrow{a}}\right)  = \overrightarrow{0}" data-display="false"></span> 的事实, 就可以直接验证这一公式:</p>
+<div class="math display" data-tex="\overrightarrow{c} - \overrightarrow{a} = \overrightarrow{c} + \left\lbrack  {\left( {-\overrightarrow{a}}\right)  + \overrightarrow{a}}\right\rbrack   - \overrightarrow{a}" data-display="true"></div>
+<div class="math display" data-tex="= \left\lbrack  {\overrightarrow{c} + \left( {-\overrightarrow{a}}\right) }\right\rbrack   + \left( {\overrightarrow{a} - \overrightarrow{a}}\right)" data-display="true"></div>
+<div class="math display" data-tex="= \overrightarrow{c} + \left( {-\overrightarrow{a}}\right) \text{ . }" data-display="true"></div>
+<p>当 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 与 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 不平行时,我们还可以借助如图 8-1-10 所示的平行四边形得出这一公式: 由平行四边形右下方的三角形知 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} = \overrightarrow{c}" data-display="false"></span> ,即 <span class="math" data-tex="\overrightarrow{b} = \overrightarrow{c} - \overrightarrow{a}" data-display="false"></span> ,而由左上方的三角形知 <span class="math" data-tex="\overrightarrow{b} = \overrightarrow{c} + \left( {-\overrightarrow{a}}\right)" data-display="false"></span> . 这就得到要证明的结果 <span class="math" data-tex="\overrightarrow{c} - \overrightarrow{a} = \overrightarrow{c} + \left( {-\overrightarrow{a}}\right)" data-display="false"></span> .</p>
+</div>
+<article class="question" id="bx2-c8-s81-ex5" data-question-id="bx2-c8-s81-ex5" data-category="example"><div class="question-label">例题 05</div><div class="question-body"><p>例 5 已知 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 是边长为 1 的等边三角形,点 <span class="math" data-tex="O" data-display="false"></span> 是 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 所在平面上的任意一点. 求向量 <span class="math" data-tex="\left( {\overrightarrow{OA} - \overrightarrow{OC}}\right)  + \left( {\overrightarrow{OB} - \overrightarrow{OC}}\right)" data-display="false"></span> 的模.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-11</p>
+</div></article>
+<h3 class="group-heading" id="practice-2">练习8.1（2）</h3>
+<article class="question" id="bx2-c8-s81-l2-q1" data-question-id="bx2-c8-s81-l2-q1" data-category="practice"><div class="question-label">练习8.1（2） · 1</div><div class="question-body"><ol>
+<li>在 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 中,化简:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{AB} - \overrightarrow{AC} =" data-display="false"></span> ___； (2) <span class="math" data-tex="\overrightarrow{BC} - \overrightarrow{AC} =" data-display="false"></span></p>
+</div></article>
+<article class="question" id="bx2-c8-s81-l2-q2" data-question-id="bx2-c8-s81-l2-q2" data-category="practice"><div class="question-label">练习8.1（2） · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C\text{ 、 }D\text{ 、 }E" data-display="false"></span> 是平面上任意五个点,求证: <span class="math" data-tex="\overrightarrow{AE} = \overrightarrow{AB} + \overrightarrow{BC} + \overrightarrow{CD} + \overrightarrow{DE}" data-display="false"></span> . 这个结果可以推广到更多点的情况吗?</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-l2-q3" data-question-id="bx2-c8-s81-l2-q3" data-category="practice"><div class="question-label">练习8.1（2） · 3</div><div class="question-body"><ol start="3">
+<li>试说明,如果三个首尾相接的向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 所在的线段能拼接成三角形,那么一定满足条件 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} + \overrightarrow{c} = \overrightarrow{0}" data-display="false"></span> . 反过来,如果 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} + \overrightarrow{c} = \overrightarrow{0}" data-display="false"></span> ,那么三向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 所在的线段一定能拼接成三角形吗? 说明理由.</li>
+</ol>
+</div></article>
+</section>
+<section class="content-module" data-module="multiplication" data-title="实数与向量的乘法">
+<section class="section-heading" id="multiplication"><span class="section-number">03</span><div><h2>实数与向量的乘法</h2><p>用一个系数，统一表达伸缩与反向</p></div></section>
+<div class="prose"><h2>3 实数与向量的乘法</h2>
+<p>如图 8-1-12, 某科考船以 12 海里/时的速度匀速沿东北方向航行，中午 12 时船的位置在点 <span class="math" data-tex="A" data-display="false"></span> 处. 请描述下午 3 时和下午 4 时 30 分该船与点 <span class="math" data-tex="A" data-display="false"></span> 的相对位置.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-12</p>
+<p>同学们一定很容易给出答案:该船下午 3 时在点 <span class="math" data-tex="A" data-display="false"></span> 东北方向的 36 海里处,而下午 4 时 30 分在点 <span class="math" data-tex="A" data-display="false"></span> 东北方向的 54 海里处. 同学们的计算可能是直接把速度的数值乘时间, 忽略了速度和位移都是向量这一事实. 这样把向量问题简化为数量问题处理, 碰到复杂问题(如多个方向位移的合成)时就可能力不从心了. 如果回到向量记号,用 <span class="math" data-tex="\overrightarrow{v}" data-display="false"></span> 表示科考船的速度,即东北方向 12 海里/时, 那么该船下午 3 时和 4 时 30 分相对于 <span class="math" data-tex="A" data-display="false"></span> 的位移向量可以直接表示为 <span class="math" data-tex="3\overrightarrow{v}" data-display="false"></span> 和 <span class="math" data-tex="{4.5}\overrightarrow{v}" data-display="false"></span> ，这里的 3 与 4.5 是时间，它们只是数量(实数). 为了在向量空间中解释这种乘积, 我们要先定义实数与向量的乘法.</p>
+<aside class="key-point key-formula" id="key-scalar-product" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>数乘：模的变化与方向</h3><p>实数 <span class="math" data-tex="\lambda" data-display="false"></span> 与向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的乘积是一个向量,记作 <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> . 它的模 <span class="math" data-tex="\left| {\lambda \overrightarrow{a}}\right|  = \left| \lambda \right| \left| \overrightarrow{a}\right|" data-display="false"></span> ; 当 <span class="math" data-tex="\lambda  &gt; 0" data-display="false"></span> 时, <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> 的方向与 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 相同; 当 <span class="math" data-tex="\lambda  &lt; 0" data-display="false"></span> 时, <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> 的方向与 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 相反. 特别地,当 <span class="math" data-tex="\overrightarrow{a} = \overrightarrow{0}" data-display="false"></span> 或 <span class="math" data-tex="\lambda  = 0" data-display="false"></span> 时, <span class="math" data-tex="\lambda \overrightarrow{a} \; = \overrightarrow{0}" data-display="false"></span> .</p>
+</aside><p>暂不考虑有关量的单位,采用实数与向量乘积的记号,下午 3 时和 4 时 30 分科考船相对于 <span class="math" data-tex="A" data-display="false"></span> 的位移向量就可写为 <span class="math" data-tex="3\overrightarrow{v}" data-display="false"></span> 和 <span class="math" data-tex="4.5\overrightarrow{v}" data-display="false"></span>，再考虑有关量的单位，由于 3 及 4.5 的单位是小时，速度的单位是海里/时,从而下午 3 时和 4 时 30 分科考船在点 <span class="math" data-tex="A" data-display="false"></span> 东北方向 36 海里处和 54 海里处. 我们还可以把上午 9 时科考船相对于 <span class="math" data-tex="A" data-display="false"></span> 的位移向量表示成(-3) <span class="math" data-tex="\overrightarrow{v}" data-display="false"></span> ，即点 <span class="math" data-tex="A" data-display="false"></span> 西南方向 36 海里处.</p>
+<p>数学上实数与向量的乘积只是简单地理解为原向量的倍数. 但在实际问题中, 向量和实数都有可能被赋予特定的意义和单位, 如上例中的速度、位移和时间, 它们的乘积就可能有更复杂的含义.</p>
+<p>容易看出,当 <span class="math" data-tex="\lambda" data-display="false"></span> 是一个正整数时, <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> 就是 <span class="math" data-tex="\lambda" data-display="false"></span> 个 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 相加. 例如,当 <span class="math" data-tex="\lambda  = 1" data-display="false"></span> 时, <span class="math" data-tex="1\overrightarrow{a} = \overrightarrow{a}" data-display="false"></span> ; 当 <span class="math" data-tex="\lambda  = 3" data-display="false"></span> 时, <span class="math" data-tex="3\overrightarrow{a} = \overrightarrow{a} + \overrightarrow{a} + \overrightarrow{a}" data-display="false"></span> .</p>
+<p>当 <span class="math" data-tex="\lambda  =  - 1" data-display="false"></span> 时, <span class="math" data-tex="\left( {-1}\right) \overrightarrow{a}" data-display="false"></span> 与向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的模相等但方向相反,故 <span class="math" data-tex="\left( {-1}\right) \overrightarrow{a}" data-display="false"></span> 是向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的负向量,即 <span class="math" data-tex="\left( {-1}\right) \overrightarrow{a} =  - \overrightarrow{a}" data-display="false"></span> . 据此,再用下文所示运算律中的第二个公式,我们可以更一般地把 <span class="math" data-tex="\left( {-\lambda }\right) \overrightarrow{a}" data-display="false"></span> 记为 <span class="math" data-tex="- \lambda \overrightarrow{a}" data-display="false"></span> ,它是向量 <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> 的负向量.</p>
+<p>根据实数与向量的乘积的定义，可知 <span class="math" data-tex="\lambda \overrightarrow{a}" data-display="false"></span> 是与 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 平行的向量. 反之,如果向量 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 与非零向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 平行,那么一定存在实数 <span class="math" data-tex="\lambda" data-display="false"></span> ,使得 <span class="math" data-tex="\overrightarrow{b} = \lambda \overrightarrow{a}" data-display="false"></span> . 当向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 同向时, <span class="math" data-tex="\lambda  = \frac{\left| \overrightarrow{b}\right| }{\left| \overrightarrow{a}\right| }" data-display="false"></span> ; 当向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 反向时, <span class="math" data-tex="\lambda  =  - \frac{\left| \overrightarrow{b}\right| }{\left| \overrightarrow{a}\right| }" data-display="false"></span> . 故</p>
+<aside class="key-point key-condition" id="key-parallel-condition" data-emphasis="condition"><div class="key-label">编辑标注 · 条件提醒</div><h3>平行的代数表示：基准向量必须非零</h3><p>向量 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 与非零向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 平行的充要条件是:存在实数 <span class="math" data-tex="\lambda" data-display="false"></span> ， 使得 <span class="math" data-tex="\overrightarrow{b} = \lambda \overrightarrow{a}" data-display="false"></span> .</p>
+</aside><p>同学们可以验证实数与向量的乘法满足下面的运算律:</p>
+<aside class="key-point key-formula" id="key-scalar-laws" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>数乘运算律</h3><p>设 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 是向量, <span class="math" data-tex="\lambda \text{ 、 }\mu  \in  \mathbf{R}" data-display="false"></span> ,有</p>
+<div class="math display" data-tex="\left( {\lambda  + \mu }\right) \overrightarrow{a} = \lambda \overrightarrow{a} + \mu \overrightarrow{a};" data-display="true"></div>
+<div class="math display" data-tex="\lambda \left( {\mu \overrightarrow{a}}\right)  = \left( {\lambda \mu }\right) \overrightarrow{a};" data-display="true"></div>
+<div class="math display" data-tex="\lambda \left( {\overrightarrow{a} + \overrightarrow{b}}\right)  = \lambda \overrightarrow{a} + \lambda \overrightarrow{b}." data-display="true"></div>
+</aside><aside class="key-point key-condition" id="key-unit-vector" data-emphasis="condition"><div class="key-label">编辑标注 · 条件提醒</div><h3>单位化：先检查向量非零</h3><p>与非零向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 同方向的单位向量叫做向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的单位向量,记作 <span class="math" data-tex="\overrightarrow{{a}_{0}}" data-display="false"></span> . 根据实数与向量的乘法的定义,可知 <span class="math" data-tex="\overrightarrow{a} = \left| \overrightarrow{a}\right| \overrightarrow{{a}_{0}}" data-display="false"></span> ,即</p>
+<div class="math display" data-tex="\overrightarrow{{a}_{0}} = \frac{1}{\left| \overrightarrow{a}\right| }\overrightarrow{a}." data-display="true"></div>
+</aside><p>向量的加法、减法以及实数与向量的乘法, 统称为向量的线性运算(linear operation). 从一个或几个向量出发, 通过线性运算得到的新向量称为原来那些向量的线性组合 (linear combination). 例如, <span class="math" data-tex="\overrightarrow{x} = 3\overrightarrow{a} + \overrightarrow{b} - 4\overrightarrow{c}" data-display="false"></span> 就是向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}" data-display="false"></span> 的一个线性组合.</p>
+</div>
+
+<article class="question" id="bx2-c8-s81-ex6" data-question-id="bx2-c8-s81-ex6" data-category="example"><div class="question-label">例题 06</div><div class="question-body"><p>例 6 化简下列向量线性运算:</p>
+<p>(1) <span class="math" data-tex="\left( {-2}\right)  \times  \left( {\frac{1}{2}\overrightarrow{a}}\right)" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="2\left( {\overrightarrow{a} - \overrightarrow{b}}\right)  + 3\left( {\overrightarrow{a} + \overrightarrow{b}}\right)" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\left( {\lambda  - \mu }\right) \left( {\overrightarrow{a} + \overrightarrow{b}}\right)  - \left( {\lambda  + \mu }\right) \left( {\overrightarrow{a} - \overrightarrow{b}}\right)" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-ex7" data-question-id="bx2-c8-s81-ex7" data-category="example"><div class="question-label">例题 07</div><div class="question-body"><p>例 7 已知向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 满足 <span class="math" data-tex="\frac{1}{2}\left( {\overrightarrow{a} - 3\overrightarrow{c}}\right)  + 2\left( {2\overrightarrow{a} - 3\overrightarrow{b}}\right) \; = \overrightarrow{0}" data-display="false"></span> ,试用 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 表示 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-ex8" data-question-id="bx2-c8-s81-ex8" data-category="example"><div class="question-label">例题 08</div><div class="question-body"><p>例 8 如图 8-1-13,在 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 中, <span class="math" data-tex="D" data-display="false"></span> 是 <span class="math" data-tex="{AB}" data-display="false"></span> 的中点, <span class="math" data-tex="E" data-display="false"></span> 是 <span class="math" data-tex="{BC}" data-display="false"></span> 延长线上一点,且 <span class="math" data-tex="{BE} = {2BC}" data-display="false"></span> .</p>
+<p>(1)用向量 <span class="math" data-tex="\overrightarrow{BA}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{BC}" data-display="false"></span> 表示 <span class="math" data-tex="\overrightarrow{DE}" data-display="false"></span> ；</p>
+<p>(2)用向量 <span class="math" data-tex="\overrightarrow{CA}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{CB}" data-display="false"></span> 表示 <span class="math" data-tex="\overrightarrow{DE}" data-display="false"></span> .</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 8-1-13</p>
+</div></article>
+<h3 class="group-heading" id="practice-3">练习8.1（3）</h3>
+<article class="question" id="bx2-c8-s81-l3-q1" data-question-id="bx2-c8-s81-l3-q1" data-category="practice"><div class="question-label">练习8.1（3） · 1</div><div class="question-body"><ol>
+<li>化简下列向量线性运算:</li>
+</ol>
+<p>(1) <span class="math" data-tex="4\left( {{2\overrightarrow{a}} - \overrightarrow{b}}\right)  + 3\left( {{3\overrightarrow{a}} - {2\overrightarrow{b}}}\right)" data-display="false"></span> ； (2) <span class="math" data-tex="\frac{1}{4}\left( {\overrightarrow{a} + 2\overrightarrow{b}}\right)  - \frac{1}{6}\left( {5\overrightarrow{a} - 2\overrightarrow{b}}\right)  + \frac{1}{4}\overrightarrow{b}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="2\left( {3\overrightarrow{a} - 4\overrightarrow{b} + \overrightarrow{c}}\right)  - 3\left( {2\overrightarrow{a} + \overrightarrow{b} - 3\overrightarrow{c}}\right)" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-l3-q2" data-question-id="bx2-c8-s81-l3-q2" data-category="practice"><div class="question-label">练习8.1（3） · 2</div><div class="question-body"><ol start="2">
+<li>根据下列条件,求向量 <span class="math" data-tex="\overrightarrow{x}" data-display="false"></span> :</li>
+</ol>
+<p>(1) <span class="math" data-tex="2\overrightarrow{x} + 3\left( {\overrightarrow{b} + \overrightarrow{x}}\right)  = \overrightarrow{0}" data-display="false"></span> ； (2) <span class="math" data-tex="2\overrightarrow{a} + 5\left( {\overrightarrow{b} - \overrightarrow{x}}\right)  = \overrightarrow{0}" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\frac{1}{3}\left( {\overrightarrow{x} - \overrightarrow{a}}\right)  - \frac{1}{2}\left( {\overrightarrow{b} - 2\overrightarrow{x} + \overrightarrow{x}}\right)  + \overrightarrow{b} = \overrightarrow{0}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-l3-q3" data-question-id="bx2-c8-s81-l3-q3" data-category="practice"><div class="question-label">练习8.1（3） · 3</div><div class="question-body"><ol start="3">
+<li>如图,在 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 中,已知 <span class="math" data-tex="D" data-display="false"></span> 是 <span class="math" data-tex="{BC}" data-display="false"></span> 的中点, <span class="math" data-tex="G" data-display="false"></span> 是 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 的重心. 设向量 <span class="math" data-tex="\overrightarrow{BC} = \overrightarrow{a}" data-display="false"></span> ，向量 <span class="math" data-tex="\overrightarrow{AC} = \overrightarrow{b}" data-display="false"></span> . 试用向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 分别表示向量 <span class="math" data-tex="\overrightarrow{AD}\text{ 、 }\overrightarrow{AG}\text{ 、 }\overrightarrow{GC}" data-display="false"></span> .</li>
+</ol>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 3 题)</p>
+</div></article>
+</section>
+<section class="content-module" data-module="homework" data-title="课后习题">
+<section class="section-heading" id="homework"><span class="section-number">04</span><div><h2>课后习题</h2><p>保留教材A、B组顺序，不另行分级或改编</p></div></section>
+<h3 class="group-heading" id="homework-a">习题8.1 A组</h3>
+<article class="question" id="bx2-c8-s81-a-q1" data-question-id="bx2-c8-s81-a-q1" data-category="homework"><div class="question-label">习题8.1 A组 · 1</div><div class="question-body"><ol>
+<li>如果把平面上所有的单位向量的起点都平移到同一点, 那么它们的终点构成的图形是什么?</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q2" data-question-id="bx2-c8-s81-a-q2" data-category="homework"><div class="question-label">习题8.1 A组 · 2</div><div class="question-body"><ol start="2">
+<li>在平面直角坐标系中, 作出表示下列向量的有向线段:</li>
+</ol>
+<p>(1)向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 的起点在坐标原点，与 <span class="math" data-tex="x" data-display="false"></span> 轴正方向的夹角为 <span class="math" data-tex="{120}^{ \circ  }" data-display="false"></span> 且 <span class="math" data-tex="\left| \overrightarrow{a}\right|  = 3" data-display="false"></span> ；</p>
+<p>(2)向量 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 的模为 4，方向与 <span class="math" data-tex="y" data-display="false"></span> 轴的正方向反向；</p>
+<p>(3)向量 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 的方向与 <span class="math" data-tex="y" data-display="false"></span> 轴的正方向同向，模为 2 .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q3" data-question-id="bx2-c8-s81-a-q3" data-category="homework"><div class="question-label">习题8.1 A组 · 3</div><div class="question-body"><ol start="3">
+<li>判断下列命题的真假, 并说明理由:</li>
+</ol>
+<p>(1)长度相等的向量均为相等向量;</p>
+<p>(2)给定向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}" data-display="false"></span> ，若 <span class="math" data-tex="\overrightarrow{a} = \overrightarrow{b},\overrightarrow{b} = \overrightarrow{c}" data-display="false"></span> ，则 <span class="math" data-tex="\overrightarrow{a} = \overrightarrow{c}" data-display="false"></span> ；</p>
+<p>(3)若 <span class="math" data-tex="{ABCD}" data-display="false"></span> 为平行四边形，则必有 <span class="math" data-tex="\overrightarrow{AB} = \overrightarrow{CD}" data-display="false"></span> ；</p>
+<p>(4)若平面上四点 <span class="math" data-tex="A" data-display="false"></span> 、 <span class="math" data-tex="B" data-display="false"></span> 、 <span class="math" data-tex="C" data-display="false"></span> 、 <span class="math" data-tex="D" data-display="false"></span> 使 <span class="math" data-tex="\overrightarrow{AB} = \overrightarrow{CD}" data-display="false"></span> ，则 <span class="math" data-tex="{AB}//{CD}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q4" data-question-id="bx2-c8-s81-a-q4" data-category="homework"><div class="question-label">习题8.1 A组 · 4</div><div class="question-body"><ol start="4">
+<li>如图，在 <span class="math" data-tex="\bigtriangleup  {ABC}" data-display="false"></span> 中，点 <span class="math" data-tex="D" data-display="false"></span> 、 <span class="math" data-tex="E" data-display="false"></span> 、 <span class="math" data-tex="F" data-display="false"></span> 分别是 <span class="math" data-tex="{AB}" data-display="false"></span> 、 <span class="math" data-tex="{BC}" data-display="false"></span> 、 <span class="math" data-tex="{CA}" data-display="false"></span> 的中点，根据下列条件， 写出相应的向量:</li>
+</ol>
+<p>(1)与向量 <span class="math" data-tex="\overrightarrow{AD}" data-display="false"></span> 相等的向量；</p>
+<p>(2)向量 <span class="math" data-tex="\overrightarrow{DE}" data-display="false"></span> 的负向量；</p>
+<p>(3)与向量 <span class="math" data-tex="\overrightarrow{EF}" data-display="false"></span> 平行的向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 4 题)</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q5" data-question-id="bx2-c8-s81-a-q5" data-category="homework"><div class="question-label">习题8.1 A组 · 5</div><div class="question-body"><ol start="5">
+<li>如图,已知向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}" data-display="false"></span> ,作出下列向量:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b},\overrightarrow{b} + \overrightarrow{c},\overrightarrow{a} + \overrightarrow{c}" data-display="false"></span> ； (2) <span class="math" data-tex="\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  + \overrightarrow{c}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{a} + \left( {\overrightarrow{b} + \overrightarrow{c}}\right)" data-display="false"></span> .</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 5 题)</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q6" data-question-id="bx2-c8-s81-a-q6" data-category="homework"><div class="question-label">习题8.1 A组 · 6</div><div class="question-body"><ol start="6">
+<li>化简下列向量运算:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{AB} + \overrightarrow{BC} + \overrightarrow{CD} + \overrightarrow{DA}" data-display="false"></span> ； (2) <span class="math" data-tex="\left( {\overrightarrow{AB} - \overrightarrow{AC}}\right)  + \left( {\overrightarrow{BD} - \overrightarrow{CD}}\right)" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\left( {\overrightarrow{AB} + \overrightarrow{MB}}\right)  + \left( {\overrightarrow{BD} + \overrightarrow{DM}}\right)" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q7" data-question-id="bx2-c8-s81-a-q7" data-category="homework"><div class="question-label">习题8.1 A组 · 7</div><div class="question-body"><ol start="7">
+<li>设向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 表示 “向东走 <span class="math" data-tex="2\mathrm{\;{km}}" data-display="false"></span> ” ; 向量 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> 表示 “向西走 <span class="math" data-tex="1\mathrm{\;{km}}" data-display="false"></span> ”; 向量 <span class="math" data-tex="\overrightarrow{c}" data-display="false"></span> 表示 “向南走 <span class="math" data-tex="2\mathrm{\;{km}}" data-display="false"></span> ”; 向量 <span class="math" data-tex="\overrightarrow{d}" data-display="false"></span> 表示“向北走 <span class="math" data-tex="1\mathrm{\;{km}}" data-display="false"></span> ”. 试说明下列向量所表示的意义:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{a}" data-display="false"></span> ； (2) <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{c}" data-display="false"></span> ； (3) <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{b} + \overrightarrow{d}" data-display="false"></span> ； (4) <span class="math" data-tex="\overrightarrow{c} + \overrightarrow{d} + \overrightarrow{c}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q8" data-question-id="bx2-c8-s81-a-q8" data-category="homework"><div class="question-label">习题8.1 A组 · 8</div><div class="question-body"><ol start="8">
+<li>设向量 <span class="math" data-tex="\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}" data-display="false"></span> ，且 <span class="math" data-tex="\left| \overrightarrow{OA}\right|  = {12},\left| \overrightarrow{OB}\right|  = 4,\angle {AOB} = \frac{\pi }{3}" data-display="false"></span> . 求 <span class="math" data-tex="\left| {\overrightarrow{a} + \overrightarrow{b}}\right|" data-display="false"></span> .</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q9" data-question-id="bx2-c8-s81-a-q9" data-category="homework"><div class="question-label">习题8.1 A组 · 9</div><div class="question-body"><ol start="9">
+<li>运用作图的方法, 验证下列等式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\frac{1}{2}\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  + \frac{1}{2}\left( {\overrightarrow{a} - \overrightarrow{b}}\right)  = \overrightarrow{a}" data-display="false"></span> ; (2) <span class="math" data-tex="\frac{1}{2}\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  - \frac{1}{2}\left( {\overrightarrow{a} - \overrightarrow{b}}\right)  = \overrightarrow{b}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q10" data-question-id="bx2-c8-s81-a-q10" data-category="homework"><div class="question-label">习题8.1 A组 · 10</div><div class="question-body"><ol start="10">
+<li>化简下列向量运算:</li>
+</ol>
+<p>(1) <span class="math" data-tex="4\left( {\overrightarrow{a} + \overrightarrow{b}}\right)  - 3\left( {\overrightarrow{a} - \overrightarrow{b}}\right)  - 8\overrightarrow{b}" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="3\left( {\overrightarrow{a} - 2\overrightarrow{b} + \overrightarrow{c}}\right)  + 4\left( {\overrightarrow{c} - \overrightarrow{a} - \overrightarrow{b}}\right)" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\frac{1}{3}\left\lbrack  {\frac{1}{2}\left( {2\overrightarrow{a} + 8\overrightarrow{b}}\right)  - \left( {4\overrightarrow{a} - 2\overrightarrow{b}}\right) }\right\rbrack" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q11" data-question-id="bx2-c8-s81-a-q11" data-category="homework"><div class="question-label">习题8.1 A组 · 11</div><div class="question-body"><ol start="11">
+<li>已知四边形 <span class="math" data-tex="{ABCD}" data-display="false"></span> 和点 <span class="math" data-tex="O" data-display="false"></span> 在同一平面上,设向量 <span class="math" data-tex="\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b},\overrightarrow{OC} = \overrightarrow{c},\overrightarrow{OD} \; = \overrightarrow{d}" data-display="false"></span> ,且 <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{c} = \overrightarrow{b} + \overrightarrow{d}" data-display="false"></span> . 求证: <span class="math" data-tex="{ABCD}" data-display="false"></span> 是平行四边形.</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-a-q12" data-question-id="bx2-c8-s81-a-q12" data-category="homework"><div class="question-label">习题8.1 A组 · 12</div><div class="question-body"><ol start="12">
+<li>已知平行四边形 <span class="math" data-tex="{ABCD}" data-display="false"></span> ,设向量 <span class="math" data-tex="\overrightarrow{AC} = \overrightarrow{a},\overrightarrow{BD} = \overrightarrow{b}" data-display="false"></span> . 试用 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 表示下列向量:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{AB}" data-display="false"></span> ； (2) <span class="math" data-tex="\overrightarrow{BC}" data-display="false"></span> .</p>
+</div></article>
+<h3 class="group-heading" id="homework-b">习题8.1 B组</h3>
+<article class="question" id="bx2-c8-s81-b-q1" data-question-id="bx2-c8-s81-b-q1" data-category="homework"><div class="question-label">习题8.1 B组 · 1</div><div class="question-body"><ol>
+<li>如图是由边长为 1 的小正方形组成的网格. 按要求,分别以 <span class="math" data-tex="A\text{ 、 }B\text{ 、 }C" data-display="false"></span> 为向量的起点, 在图中画出下列向量:</li>
+</ol>
+<p>(1)正北方向且模为 2 的向量 <span class="math" data-tex="\overrightarrow{AE}" data-display="false"></span> ；</p>
+<p>(2)模为 <span class="math" data-tex="2\sqrt{2}" data-display="false"></span> 、方向为北偏西 <span class="math" data-tex="{45}^{ \circ  }" data-display="false"></span> 的向量 <span class="math" data-tex="\overrightarrow{BF}" data-display="false"></span> ；</p>
+<p>(3)(2)中向量 <span class="math" data-tex="\overrightarrow{BF}" data-display="false"></span> 的负向量.</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 1 题)</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q2" data-question-id="bx2-c8-s81-b-q2" data-category="homework"><div class="question-label">习题8.1 B组 · 2</div><div class="question-body"><ol start="2">
+<li>已知正方形 <span class="math" data-tex="{ABCD}" data-display="false"></span> 的边长为 1,求:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\left| {\overrightarrow{AB} + \overrightarrow{BC}}\right|" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="\left| {\overrightarrow{AB} + \overrightarrow{BD} - \overrightarrow{AC}}\right|" data-display="false"></span> ；</p>
+<p>(3) <span class="math" data-tex="\left| {\overrightarrow{AB} - \overrightarrow{BC} + \overrightarrow{AC}}\right|" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q3" data-question-id="bx2-c8-s81-b-q3" data-category="homework"><div class="question-label">习题8.1 B组 · 3</div><div class="question-body"><ol start="3">
+<li>如图,已知向量 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}" data-display="false"></span> ,作出下列向量:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\overrightarrow{a} + \overrightarrow{c} - \overrightarrow{b}" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{a} + \left( {\overrightarrow{c} - \overrightarrow{b}}\right)" data-display="false"></span> ； (2) <span class="math" data-tex="\overrightarrow{a} - \left( {\overrightarrow{b} + \overrightarrow{c}}\right)" data-display="false"></span> 和 <span class="math" data-tex="\overrightarrow{a} - \overrightarrow{c} - \overrightarrow{b}" data-display="false"></span> .</p>
+<p><img src="images/book-bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 3 题)</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q4" data-question-id="bx2-c8-s81-b-q4" data-category="homework"><div class="question-label">习题8.1 B组 · 4</div><div class="question-body"><ol start="4">
+<li>试用作图法验证下列不等式:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\left| \overrightarrow{a}\right|  - \left| \overrightarrow{b}\right|  \leq  \left| {\overrightarrow{a} + \overrightarrow{b}}\right|  \leq  \left| \overrightarrow{a}\right|  + \left| \overrightarrow{b}\right|" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="\left| \overrightarrow{a}\right|  - \left| \overrightarrow{b}\right|  \leq  \left| {\overrightarrow{a} - \overrightarrow{b}}\right|  \leq  \left| \overrightarrow{a}\right|  + \left| \overrightarrow{b}\right|" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q5" data-question-id="bx2-c8-s81-b-q5" data-category="homework"><div class="question-label">习题8.1 B组 · 5</div><div class="question-body"><ol start="5">
+<li>判断下列命题的真假, 并说明理由:</li>
+</ol>
+<p>(1)若存在一个 <span class="math" data-tex="\lambda  \in  \mathbf{R}" data-display="false"></span> 使 <span class="math" data-tex="\lambda \overrightarrow{a} = \lambda \overrightarrow{b}" data-display="false"></span> ,则 <span class="math" data-tex="\overrightarrow{a} = \overrightarrow{b}" data-display="false"></span> ；</p>
+<p>(2)对于任意给定的实数 <span class="math" data-tex="\lambda" data-display="false"></span> 和向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> 、 <span class="math" data-tex="\overrightarrow{b}" data-display="false"></span> ，均有 <span class="math" data-tex="\lambda \left( {\overrightarrow{a} - \overrightarrow{b}}\right)  = \lambda \overrightarrow{a} - \lambda \overrightarrow{b}" data-display="false"></span> ；</p>
+<p>(3)对于任意给定的实数 <span class="math" data-tex="\lambda \text{ 、 }\mu" data-display="false"></span> 和向量 <span class="math" data-tex="\overrightarrow{a}" data-display="false"></span> ,均有 <span class="math" data-tex="\left( {\lambda  - \mu }\right) \overrightarrow{a} = \lambda \overrightarrow{a} - \mu \overrightarrow{a}" data-display="false"></span> .</p>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q6" data-question-id="bx2-c8-s81-b-q6" data-category="homework"><div class="question-label">习题8.1 B组 · 6</div><div class="question-body"><ol start="6">
+<li>设 <span class="math" data-tex="\overrightarrow{a}\text{ 、 }\overrightarrow{b}" data-display="false"></span> 是两个不平行的向量,求证: 若实数 <span class="math" data-tex="\lambda \text{ 、 }\mu" data-display="false"></span> 使得 <span class="math" data-tex="\lambda \overrightarrow{a} + \mu \overrightarrow{b} = \overrightarrow{0}" data-display="false"></span> ,则 <span class="math" data-tex="\lambda  = \mu  = 0" data-display="false"></span> .</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q7" data-question-id="bx2-c8-s81-b-q7" data-category="homework"><div class="question-label">习题8.1 B组 · 7</div><div class="question-body"><ol start="7">
+<li>已知 <span class="math" data-tex="\overrightarrow{{e}_{1}}\text{ 、 }\overrightarrow{{e}_{2}}" data-display="false"></span> 是两个不平行的向量,而向量 <span class="math" data-tex="\overrightarrow{AB} = 3\overrightarrow{{e}_{1}} - 2\overrightarrow{{e}_{2}},\overrightarrow{BC} =  - 2\overrightarrow{{e}_{1}} + 4\overrightarrow{{e}_{2}},\overrightarrow{CD} \; =  - 2\overrightarrow{{e}_{1}} - 4\overrightarrow{{e}_{2}}" data-display="false"></span> . 求证: <span class="math" data-tex="A\text{ 、 }C\text{ 、 }D" data-display="false"></span> 三点共线.</li>
+</ol>
+</div></article>
+<article class="question" id="bx2-c8-s81-b-q8" data-question-id="bx2-c8-s81-b-q8" data-category="homework"><div class="question-label">习题8.1 B组 · 8</div><div class="question-body"><ol start="8">
+<li>已知 <span class="math" data-tex="G" data-display="false"></span> 是 <span class="math" data-tex="\bigtriangleup {ABC}" data-display="false"></span> 的重心， <span class="math" data-tex="D" data-display="false"></span> 、 <span class="math" data-tex="E" data-display="false"></span> 、 <span class="math" data-tex="F" data-display="false"></span> 分别为 <span class="math" data-tex="{AB}" data-display="false"></span> 、 <span class="math" data-tex="{AC}" data-display="false"></span> 、 <span class="math" data-tex="{BC}" data-display="false"></span> 中点. 求证: <span class="math" data-tex="\overrightarrow{GD} + \overrightarrow{GE} \; + \overrightarrow{GF} = \overrightarrow{0}" data-display="false"></span> .</li>
+</ol>
+</div></article>
+</section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含题目答案、解析、教参分析或教师背景材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="concept" checked>向量的概念</label><label><input type="checkbox" name="print-module" value="addition" checked>向量的加法和减法</label><label><input type="checkbox" name="print-module" value="multiplication" checked>实数与向量的乘法</label><label><input type="checkbox" name="print-module" value="homework" checked>课后习题</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

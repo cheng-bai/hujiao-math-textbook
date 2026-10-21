@@ -1,0 +1,28 @@
+{
+  "id": "x2-chapter-end-6",
+  "book_id": "x2",
+  "section_path": "batch/sections/x2/x2-chapter-end-6.json",
+  "fingerprint": "05a98de7e7d1045e772385751a48cb5ea21df6055c104285b3d157c09c56eefc",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 16,
+        "answers": 16,
+        "teacher_formulas": 167,
+        "student_formulas": 99,
+        "checks": 71,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 18.71,
+  "finished_at": "2026-10-20T02:17:23+08:00"
+}

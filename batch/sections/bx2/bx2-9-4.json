@@ -1,0 +1,848 @@
+{
+  "schema_version": 1,
+  "id": "bx2-9-4",
+  "book_id": "bx2",
+  "book_title": "必修第二册",
+  "chapter": "9",
+  "chapter_title": "第9章复数",
+  "section": "9.4",
+  "title": "复数的三角形式",
+  "sources": {
+    "book": "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "复数的三角形式",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 889,
+          "end": 889
+        }
+      ],
+      "id": "bx2-9-4",
+      "number": "9.4",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### *9.4 复数的三角形式\n\n### 教学重点\n\n通过复数的几何意义了解复数的三角形式及相关概念, 形成复数的代数形式与三角形式间的联系, 掌握用复数三角形式表示的复数乘法、除法、乘方、开方运算公式. 了解复数乘法运算的几何意义.\n\n### 内容分析\n\n直角坐标平面上点的坐标可以表示为 $\\left( {r\\cos \\theta , r\\sin \\theta }\\right)$ 的形式,其中 $r$ 是坐标原点到给定点的距离, $\\theta$ 是 $x$ 轴正半轴绕原点旋转到通过给定点位置所经过的角. 由此, 给定点所对应的复数就可以写成 $z = r\\left( {\\cos \\theta  + \\mathrm{i}\\sin \\theta }\\right)$ ,这便是复数的三角形式,此时 $r$ 称为复数的模, $\\theta$ 称为复数的辐角. 这样引入复数的三角形式,可以降低它的神秘感,让学生觉得自然,容易接受.\n\n要让学生体会到,复数的表示形式这样一个小小的转换让我们进入一个新的天地: 由于两角和差正余弦公式的介入, 使得复数乘、除时二项式的乘除计算转化为辐角的和差运算(是否与对数化积商为和差很相似? 老师们如果熟悉复数的指数形式, 可以看出它们实际上是相通的, 但此“相通”不宜作为教学的内容), 从而使得复数的乘、除、乘方、开方的运算公式有着异乎寻常的简单形式, 特别使得原来复杂得几乎无从着手的连续乘除和高次的乘方与开方运算变成轻而易举的事情. 不仅如此, 通过辐角的增减, 还清晰地体现了复数乘法运算的几何意义, 使得旋转变换这一常见的图形运动有了方便的代数刻画. 复数的三角形式的这些功能和特点凸显了它的重要意义.\n\n本节的难点之一是复数乘法的几何意义. 伸缩变换只是实数乘法的问题, 尽量讲得简单扼要, 也可联系上一章所讲的向量的数量倍数运算(实数与向量的乘法). 要把重点放在旋转变换上, 让学生理解旋转就是辐角的增减问题, 从而与复数乘除相联系.\n\n本节的另一个难点是开方时要考虑被开方数的不同辐角 (不仅仅是辐角的主值). 这个难点要分散处理, 先在定义复数的三角形式时强调一个复数的辐角可以取相差 ${2\\pi }$ 倍数的不同值,而不限于取主值; 然后在讲开方公式时启发学生注意到 ${2\\pi }$ 的倍数除以一个大于 1 的整数后不一定是 ${2\\pi }$ 的倍数了,所以不同的辐角可能给出不同的方根. 还可让学生比较为什么乘、除、乘方公式中不用考虑这个问题.\n\n从复数的三角形式还可以引申到复数的指数形式 $z = r{\\mathrm{e}}^{\\mathrm{i}\\theta }$ . 但实际上,复指数的定义要用到指数的级数展开, 这在中学阶段是无法给出的, 所有中学教科书和初等数学课外读物上所谓的复数指数形式都是有其形而无其实. 本教材没有引入指数形式的记号.\n\n例 1 介绍复数的代数形式向三角形式的转化. 在完成复数模的计算后, 要关注复数在复平面上的对应点所在的位置, 正确把握正负数以及纯虚数的辐角. 对于复平面上所对应的点落在第一、第二、第三、第四象限的复数 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,可分别以锐角、 $\\pi$ 一锐角、 $\\pi$ 十锐角、 ${2\\pi }$ 一锐角的方式给出它的辐角,其中的锐角是 $\\arctan \\left| \\frac{b}{a}\\right|$ ,由此形成一个化复数的代数形式为三角形式的准程序化操作.\n\n例 2 是与三角有关的复数的“伪三角形式”转化为正确的三角形式问题, 其关键有两点: 一是准确掌握三角形式的特点, 二是诱导公式等三角公式的灵活运用.\n\n例 3 是复数三角形式下的乘法和除法运算法则在标准情形中的运用. 对复数三角形式下运算法则的运用, 教学要求应限于标准情形中的运用为宜.\n\n例 4 展示了复数乘法对于向量旋转的刻画, 在此可回顾“9.2 复数的几何意义”例 4,指明复数三角形式下的乘法法则清晰地体现了复数乘法与旋转变换的联系,强调复数乘法是代数描述旋转变换最为便捷的工具之一.\n\n例 5 和例 6 分别是复数三角形式下的乘法和开方运算法则在标准情形中的运用, 由此展示这是复数乘方和开方运算的首选工具.\n\n### 注意事项\n\n复数的三角形式作为选学内容, 其教学可根据不同学生的学情, 从教学内容到学习方式, 都应当有更多的灵活处理以体现教学的适切性. 希望能让选学这一内容的学生, 对于以复数三角形式为基础的复数乘除运算以及乘方和开方运算法则有初步的了解和直接的运用, 知道复数的加减乘除四则运算都有重要的几何意义, 知道描述平面几何中点的平移、对称、旋转变换的代数工具. 不要作更多的拓展.\n\n### 教学建议\n\n引导学有余力的学生在教师的指导下, 在复习任意角以及三角函数相关知识的基础上, 通过自主研读、讨论交流的方式获取知识. 教师可以通过课内讲解、课外讲座等方式介绍相关内容并给学生以指导和帮助. 其教学应更多地关注拓展学生的数学视野, 进一步激发学生探究数学的愿望, 并体验自主探究、合作学习的过程.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 224,
+          "end": 259
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "本章第 1 节讲了用复数的代数形式所表达的复数运算公式. 这时, 复数的加减运算公式比较简洁. 但是, 复数的乘除, 特别是复数的除法, 相应的公式比较复杂, 计算比较繁琐. 本节将介绍复数的另外一种表示形式——三角形式，在这种形式下，复数的乘除有比较简洁的计算公式, 相应运算的意义也会更明显地表现出来.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 890,
+          "end": 892
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 复数的三角形式",
+      "markdown": "## 1 复数的三角形式",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 893,
+          "end": 893
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "如图 9-4-1,复数 $z = a + b\\mathrm{i}\\left( {a\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 对应着复平面上的一个点 $Z\\left( {a, b}\\right)$ . 我们把以原点 $O$ 为顶点、 $x$ 轴的正半轴为始边、 射线 ${OZ}$ 为终边的角 $\\theta$ ,叫做复数 $z$ 的辐角 (argument),记作 Arg $z$ . 这里的角是 6.1 节意义下的任意角,即它是从原点出发的一条射线从始边位置旋转到终边位置所形成的角, 逆时针旋转时其度量取正值, 顺时针旋转时其度量取负值, 不旋转时其度量为 0 .\n\n![bo_d4sll53ef24c73be0n1g_21_216_1019_262_255_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_21_216_1019_262_255_0.jpg)\n\n图 9-4-1\n\n因为一个角的终边绕原点 $O$ 旋转 ${2\\pi }$ 仍回到原来的位置,所以任意一个非零复数 $z$ 的辐角都有无穷多个,其任意两个辐角的大小的差一定是 ${2\\pi }$ 的整数倍. 例如,虚数单位 $\\mathrm{i}$ 的辐角可以是任何 $\\frac{\\pi }{2} + {2k\\pi }, k \\in  \\mathbf{Z}$ .\n\n规定:复数 0 的辐角的大小是任意的值.\n\n---\n\n两个非零复数相等，当且仅当它们的模与辐角主值分别相等.\n\n---\n\n在复数 $z$ 的所有辐角中,满足 $0 \\leq  \\theta  < {2\\pi }$ 的辐角 $\\theta$ 称为 $z$ 的辐角主值,记作 $\\arg z$ . 复数的辐角虽不是唯一确定的,但非零复数的辐角主值则是唯一确定的.\n\n复数的任意一个辐角 $\\theta$ 与复数的模 $r = \\left| z\\right|  = \\sqrt{{a}^{2} + {b}^{2}}$ 一起, 就完全确定了复数 $z = a + b\\mathrm{i}$ . 事实上,如图9-4-1,我们有\n\n$$\na = r\\cos \\theta , b = r\\sin \\theta .\n$$\n\n于是\n\n$$\nz = r\\left( {\\cos \\theta  + \\mathrm{i}\\sin \\theta }\\right) .\n$$\n\n复数的这种表示形式叫做它的三角形式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 894,
+          "end": 926
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 300,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-4-definition-4-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 689,
+          "end": 807,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-4-definition-4-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1055,
+          "end": 1073,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-4-definition-4-2",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 分别写出下列复数的模 $r$ 与辐角主值 $\\theta$ ,并把这些复数用三角形式表示:\n\n(1) $\\sqrt{3} + \\mathrm{i}$ ；\n\n(2)-1+i;\n\n(3)-1；\n\n(4) $- 3 - {4i}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 936
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 927,
+          "end": 936
+        }
+      ],
+      "id": "bx2-9-4-ex-1",
+      "category": "例题",
+      "answer": "解 (1) $r = \\sqrt{{\\left( \\sqrt{3}\\right) }^{2} + {1}^{2}} = 2,\\cos \\theta  = \\frac{\\sqrt{3}}{2},\\sin \\theta  = \\frac{1}{2},\\theta$ 为第一象限角,故辐角主值为 $\\theta  = \\arg \\left( {\\sqrt{3} + \\mathrm{i}}\\right)  = \\frac{\\pi }{6}$ ,从而 $\\sqrt{3} + \\mathrm{i}$ 的三角形式为 $2\\left( {\\cos \\frac{\\pi }{6} + \\mathrm{i}\\sin \\frac{\\pi }{6}}\\right)$ ,即\n\n$$\n\\sqrt{3} + \\mathrm{i} = 2\\left( {\\cos \\frac{\\pi }{6} + \\mathrm{i}\\sin \\frac{\\pi }{6}}\\right) .\n$$\n\n(2) $r = \\sqrt{{\\left( -1\\right) }^{2} + {1}^{2}} = \\sqrt{2},\\cos \\theta  =  - \\frac{1}{\\sqrt{2}} =  - \\frac{\\sqrt{2}}{2},\\sin \\theta  = \\frac{1}{\\sqrt{2}} \\; = \\frac{\\sqrt{2}}{2},\\theta$ 为第二象限角,故辐角主值为 $\\theta  = \\arg \\left( {-1 + \\mathrm{i}}\\right)  = \\frac{3\\pi }{4}$ . 因此, 用三角形式表示-1+i, 有\n\n$$\n- 1 + \\mathrm{i} = \\sqrt{2}\\left( {\\cos \\frac{3\\pi }{4} + \\mathrm{i}\\sin \\frac{3\\pi }{4}}\\right) .\n$$\n\n(3)-1 的模 $r = \\sqrt{{\\left( -1\\right) }^{2} + {0}^{2}} = 1$ ， -1 所对应的点 $\\left( {-1,0}\\right)$ 在 $x$ 轴的负半轴上,故辐角主值为 $\\theta  = \\arg \\left( {-1}\\right)  = \\pi$ . 因此,用三角形式表示-1，有\n\n$$\n- 1 = \\cos \\pi  + \\mathrm{i}\\sin \\pi .\n$$\n\n(4) $r = \\sqrt{{\\left( -3\\right) }^{2} + {\\left( -4\\right) }^{2}} = 5,\\cos \\theta  =  - \\frac{3}{5},\\sin \\theta  =  - \\frac{4}{5},\\theta$ 为第三象限角,且 $\\tan \\theta  = \\frac{4}{3}$ ,故辐角主值为 $\\theta  = \\arg \\left( {-3 - 4\\mathrm{i}}\\right)  = \\; \\pi  + \\arctan \\frac{4}{3}$ . 因此,用三角形式表示 $- 3 - 4\\mathrm{i}$ ,有\n\n$$\n- 3 - 4\\mathrm{i} = 5\\left\\lbrack  {\\cos \\left( {\\pi  + \\arctan \\frac{4}{3}}\\right)  + \\mathrm{i}\\sin \\left( {\\pi  + \\arctan \\frac{4}{3}}\\right) }\\right\\rbrack  .\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 937,
+          "end": 960
+        }
+      ],
+      "teacher_analysis": "例 1 介绍复数的代数形式向三角形式的转化. 在完成复数模的计算后, 要关注复数在复平面上的对应点所在的位置, 正确把握正负数以及纯虚数的辐角. 对于复平面上所对应的点落在第一、第二、第三、第四象限的复数 $a + b\\mathrm{i}\\left( {a\\text{、}b \\in  \\mathbf{R}}\\right)$ ,可分别以锐角、 $\\pi$ 一锐角、 $\\pi$ 十锐角、 ${2\\pi }$ 一锐角的方式给出它的辐角,其中的锐角是 $\\arctan \\left| \\frac{b}{a}\\right|$ ,由此形成一个化复数的代数形式为三角形式的准程序化操作.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 242,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 把下列复数用三角形式表示:\n\n(1) $\\cos \\theta  - \\mathrm{i}\\sin \\theta$ ;\n\n(2) $- 2\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 961,
+          "end": 966
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 961,
+          "end": 966
+        }
+      ],
+      "id": "bx2-9-4-ex-2",
+      "category": "例题",
+      "answer": "解(1)因为 $\\cos \\left( {-\\theta }\\right)  = \\cos \\theta ,\\sin \\left( {-\\theta }\\right)  =  - \\sin \\theta$ ,所以 $\\cos \\theta  - \\mathrm{i}\\sin \\theta$ 的三角形式是 $\\cos \\left( {-\\theta }\\right)  + \\mathrm{i}\\sin \\left( {-\\theta }\\right)$ .\n\n(2) $- 2\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ 的模是 2 又因为 $\\cos \\left( {\\pi  + \\alpha }\\right)  = \\; - \\cos \\alpha ,\\sin \\left( {\\pi  + \\alpha }\\right)  =  - \\sin \\alpha$ ,所以 $- 2\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ 的三角形式是2[cos $\\left( {\\pi  + \\alpha }\\right)  + \\mathrm{i}$ sin $\\left( {\\pi  + \\alpha }\\right) \\rbrack$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 967,
+          "end": 970
+        }
+      ],
+      "teacher_analysis": "例 2 是与三角有关的复数的“伪三角形式”转化为正确的三角形式问题, 其关键有两点: 一是准确掌握三角形式的特点, 二是诱导公式等三角公式的灵活运用.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 244,
+          "end": 244
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 9.4(1)",
+      "markdown": "## 练习 9.4(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 971,
+          "end": 971
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习9.4(1) · 1",
+      "markdown": "1. 下列复数是否用三角形式来表示的? 为什么?\n\n(1)3π(cos 0.5+i sin 0.5)； (2) $2\\left( {\\sin 1 + \\mathrm{i}\\cos 1}\\right)$ ；\n\n(3) $\\cos {131\\pi } + \\mathrm{i}\\sin {131\\pi }$ ； (4) $\\sqrt{2}\\left( {\\cos {0.3\\pi } + \\mathrm{i}\\sin {0.2\\pi }}\\right)$ ；\n\n(5) $- 2\\left( {\\cos \\frac{\\pi }{4} + \\mathrm{i}\\sin \\frac{\\pi }{4}}\\right)$ ； (6) $3\\left( {\\cos \\frac{\\pi }{5} - \\mathrm{i}\\sin \\frac{\\pi }{5}}\\right)$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 973,
+          "end": 980
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 973,
+          "end": 980
+        }
+      ],
+      "id": "bx2-9-4-p941-1",
+      "category": "练习9.4(1)",
+      "answer": "1.(1)3π(cos 0.5+i sin 0.5)是复数的三角形式,它与复数三角形式的规定 $r(\\cos \\theta  + \\; \\mathrm{i}\\sin \\theta )$ (其中 $r \\geq  0$ )相一致.\n\n(2) $2\\left( {\\sin 1 + \\mathrm{i}\\cos 1}\\right)$ 不符合复数三角形式的规定,将其改写为复数三角形式的结果是 $2\\left\\lbrack  {\\cos \\left( {\\frac{\\pi }{2} - 1}\\right)  + \\mathrm{i}\\sin \\left( {\\frac{\\pi }{2} - 1}\\right) }\\right\\rbrack$ .\n\n(3) $\\cos {131\\pi } + \\mathrm{i}\\sin {131\\pi }$ 是复数的三角形式,它与复数三角形式的规定 $r(\\cos \\theta  + \\; \\mathrm{i}\\sin \\theta )$ (其中 $r \\geq  0$ )相一致.\n\n(4) $\\sqrt{2}\\left( {\\cos {0.3\\pi } + \\mathrm{i}\\sin {0.2\\pi }}\\right)$ 不符合复数三角形式的规定,实部中的余弦与虚部中的正弦的角不相等.\n\n(5) $- 2\\left( {\\cos \\frac{\\pi }{4} + \\mathrm{i}\\sin \\frac{\\pi }{4}}\\right)$ 不符合复数三角形式的规定,将其改写为复数三角形式的结果是 $2\\left\\lbrack  {\\cos \\left( {\\pi  + \\frac{\\pi }{4}}\\right)  + \\mathrm{i}\\sin \\left( {\\pi  + \\frac{\\pi }{4}}\\right) }\\right\\rbrack   = 2\\left( {\\cos \\frac{5\\pi }{4} + \\mathrm{i}\\sin \\frac{5\\pi }{4}}\\right)$ .\n\n(6) $3\\left( {\\cos \\frac{\\pi }{5} - \\mathrm{i}\\sin \\frac{\\pi }{5}}\\right)$ 不符合复数三角形式的规定,将其改写为复数三角形式的结果是 $3\\left\\lbrack  {\\cos \\left( {-\\frac{\\pi }{5}}\\right)  + \\mathrm{i}\\sin \\left( {-\\frac{\\pi }{5}}\\right) }\\right\\rbrack$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 444,
+          "end": 455
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.4(1) · 2",
+      "markdown": "2. 把下列复数用三角形式表示(用辐角主值):\n\n(1) 3; (2)-2i;\n\n(3) $1 + \\mathrm{i}$ ； (4)-1+ $\\sqrt{3}\\mathrm{i}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 981,
+          "end": 986
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 981,
+          "end": 986
+        }
+      ],
+      "id": "bx2-9-4-p941-2",
+      "category": "练习9.4(1)",
+      "answer": "2. (1) $3\\left( {\\cos 0 + \\mathrm{i}\\sin 0}\\right)$ .\n\n(2) $2\\left( {\\cos \\frac{3\\pi }{2} + \\mathrm{i}\\sin \\frac{3\\pi }{2}}\\right)$ .\n\n(3) $\\sqrt{2}\\left( {\\cos \\frac{\\pi }{4} + \\mathrm{i}\\sin \\frac{\\pi }{4}}\\right)$ . (4) $2\\left( {\\cos \\frac{2\\pi }{3} + \\mathrm{i}\\sin \\frac{2\\pi }{3}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 456,
+          "end": 461
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 三角形式下复数的乘除运算",
+      "markdown": "## 2 三角形式下复数的乘除运算",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 987,
+          "end": 987
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "现在我们讨论三角形式下的复数乘除运算公式.\n\n设有两个用三角形式表示的复数 ${z}_{1} = r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ 与 ${z}_{2} = s\\left( {\\cos \\beta  + \\mathrm{i}\\sin \\beta }\\right)$ ,其中 $r = \\left| {z}_{1}\\right|  \\geq  0, s = \\left| {z}_{2}\\right|  \\geq  0$ ,则\n\nQ\n\n$$\n{z}_{1}{z}_{2} = {rs}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  + \\beta }\\right) }\\right\\rbrack  ;\n$$\n\n$$\n\\frac{{z}_{1}}{{z}_{2}} = \\frac{r}{s}\\left\\lbrack  {\\cos \\left( {\\alpha  - \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack  \\left( {{z}_{2} \\neq  0}\\right) .\n$$\n\n---\n\n三角形式下的复数乘除运算公式称为棣莫弗公式.\n\n---\n\n![bo_d4sll53ef24c73be0n1g_23_251_1624_193_214_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_23_251_1624_193_214_0.jpg)\n\n棣莫弗 (A. De Moivre, 1667-1754), 法国数学家.\n\n也就是说，两个复数相乘，其积的模等于模的积，积的辐角等于辐角的和；两个复数相除(除数不为零)，其商的模等于模的商, 商的辐角等于辐角的差.\n\n证明 乘积的公式的推导是两角和的正弦、余弦公式的直接应用:\n\n$$\n{z}_{1}{z}_{2} = {rs}\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right) \\left( {\\cos \\beta  + \\mathrm{i}\\sin \\beta }\\right)\n$$\n\n$$\n= {rs}\\left\\lbrack  {\\left( {\\cos \\alpha \\cos \\beta  - \\sin \\alpha \\sin \\beta }\\right)  + \\mathrm{i}\\left( {\\sin \\alpha \\cos \\beta  + \\cos \\alpha \\sin \\beta }\\right) }\\right\\rbrack\n$$\n\n$$\n= {rs}\\left\\lbrack  {\\cos \\left( {\\alpha  + \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  + \\beta }\\right) }\\right\\rbrack  ,\n$$\n\n乘积公式得证.\n\n现在设 ${z}_{2} \\neq  0$ (从而 $s \\neq  0$ ),用乘积公式计算复数 ${z}_{2}$ 与 $\\frac{r}{s}\\left\\lbrack  {\\cos \\left( {\\alpha  - \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack$ 的乘积,就得到\n\n$$\n{z}_{2} \\cdot  \\frac{r}{s}\\left\\lbrack  {\\cos \\left( {\\alpha  - \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\alpha  - \\beta }\\right) }\\right\\rbrack\n$$\n\n$$\n= s \\cdot  \\frac{r}{s}\\left\\lbrack  {\\cos \\left( {\\beta  + \\alpha  - \\beta }\\right)  + \\mathrm{i}\\sin \\left( {\\beta  + \\alpha  - \\beta }\\right) }\\right\\rbrack\n$$\n\n$$\n= r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)  = {z}_{1},\n$$\n\n再把等式两边同除以 ${z}_{2}$ ,就得到所求的除法公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 988,
+          "end": 1046
+        }
+      ],
+      "emphases": [
+        {
+          "start": 609,
+          "end": 631,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "bx2-9-4-definition-11-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 890,
+          "end": 1053,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "bx2-9-4-formula-11-1",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 计算, 并用复数的代数形式表示计算结果:\n\n(1) $\\sqrt{3}\\left( {\\cos \\frac{\\pi }{12} + \\mathrm{i}\\sin \\frac{\\pi }{12}}\\right)  \\cdot  \\sqrt{2}\\left( {\\cos \\frac{\\pi }{4} + \\mathrm{i}\\sin \\frac{\\pi }{4}}\\right)$ ；\n\n(2) $\\frac{4\\left( {\\cos \\frac{4\\pi }{3} + \\mathrm{i}\\sin \\frac{4\\pi }{3}}\\right) }{2\\left( {\\cos \\frac{5\\pi }{6} + \\mathrm{i}\\sin \\frac{5\\pi }{6}}\\right) }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1047,
+          "end": 1052
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1047,
+          "end": 1052
+        }
+      ],
+      "id": "bx2-9-4-ex-3",
+      "category": "例题",
+      "answer": "解 $\\left( 1\\right) \\sqrt{3}\\left( {\\cos \\frac{\\pi }{12} + \\mathrm{i}\\sin \\frac{\\pi }{12}}\\right)  \\cdot  \\sqrt{2}\\left( {\\cos \\frac{\\pi }{4} + \\mathrm{i}\\sin \\frac{\\pi }{4}}\\right)$\n\n$$\n= \\sqrt{3} \\times  \\sqrt{2}\\left\\lbrack  {\\cos \\left( {\\frac{\\pi }{12} + \\frac{\\pi }{4}}\\right)  + \\mathrm{i}\\sin \\left( {\\frac{\\pi }{12} + \\frac{\\pi }{4}}\\right) }\\right\\rbrack\n$$\n\n$$\n= \\sqrt{6}\\left( {\\cos \\frac{\\pi }{3} + \\mathrm{i}\\sin \\frac{\\pi }{3}}\\right)\n$$\n\n$$\n= \\sqrt{6}\\left( {\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\mathrm{i}}\\right)\n$$\n\n$$\n= \\frac{\\sqrt{6}}{2} + \\frac{3\\sqrt{2}}{2}\\mathrm{i}.\n$$\n\n(2) $\\frac{4\\left( {\\cos \\frac{4\\pi }{3} + \\mathrm{i}\\sin \\frac{4\\pi }{3}}\\right) }{2\\left( {\\cos \\frac{5\\pi }{6} + \\mathrm{i}\\sin \\frac{5\\pi }{6}}\\right) }$\n\n$$\n= 2\\left\\lbrack  {\\cos \\left( {\\frac{4\\pi }{3} - \\frac{5\\pi }{6}}\\right)  + \\mathrm{i}\\sin \\left( {\\frac{4\\pi }{3} - \\frac{5\\pi }{6}}\\right) }\\right\\rbrack\n$$\n\n$$\n= 2\\left( {\\cos \\frac{\\pi }{2} + \\mathrm{i}\\sin \\frac{\\pi }{2}}\\right)\n$$\n\n$$\n= 2\\mathrm{i}\\text{ . }\n$$\n\n我们现在来分析复数乘法的几何意义.\n\n在复平面上,把复数 ${z}_{1} = r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right)$ (其中 $r = \\left| {z}_{1}\\right|  \\geq  0$ ) 对应的向量记为 $\\overrightarrow{O{Z}_{1}}$ ,则 $\\left| \\overrightarrow{O{Z}_{1}}\\right|  = r$ ,而从 $x$ 轴正向到 $\\overrightarrow{O{Z}_{1}}$ 方向需旋转 $\\alpha$ 角 (当 $\\alpha  > 0$ 时,逆时针旋转; 当 $\\alpha  < 0$ 时,顺时针旋转).\n\n把 ${z}_{1}$ 乘一个非负实数 $s$ ,就是把向量 $\\overrightarrow{O{Z}_{1}}$ 伸缩为原来的 $s$ 倍,成为向量 $\\overrightarrow{O{Z}_{1}^{\\prime }} = s\\overrightarrow{O{Z}_{1}}$ (向量与实数的乘积),使它的模 $\\left| \\overrightarrow{O{Z}_{1}^{\\prime }}\\right|  = {sr}$ ,而其辐角不变 (图 9-4-2(1)).\n\n![bo_d4sll53ef24c73be0n1g_25_579_402_887_307_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_579_402_887_307_0.jpg)\n\n图 9-4-2\n\n把 ${z}_{1}$ 乘一个模为 1 的复数 $\\cos \\beta  + \\mathrm{i}\\sin \\beta$ ，就是把 ${z}_{1}$ 的辐角从 $\\alpha$ 变成了 $\\alpha  + \\beta$ ，将向量 $\\overrightarrow{O{Z}_{1}}$ 变成为向量 $\\overrightarrow{O{Z}_{1}}$ ，而其模 $\\left| \\overrightarrow{O{Z}_{1}}\\right|  = \\; r$ 不变 (图 9-4-2(2)). 也就是说,这个乘法就是让向量 $\\overrightarrow{O{Z}_{1}}$ 绕坐标原点旋转 $\\beta$ 角成为向量 $\\overrightarrow{O{Z}_{1}}$ ，使得以 $x$ 轴正半轴为始边、以 $\\overrightarrow{O{Z}_{1}}$ 为终边的角是 $\\alpha  + \\beta$ . 这样，“旋转”这一重要的几何变换可以用复数乘法得到准确的表达. 例如，由于 $\\mathrm{i}$ 的辐角主值是 $\\frac{\\pi }{2}$ ，因此把 ${z}_{1}$ 乘 $\\mathrm{i}$ 就是让向量 $\\overrightarrow{O{Z}_{1}}$ 绕坐标原点逆时针旋转 $\\frac{\\pi }{2}$ . Q\n\n---\n\n当 $\\beta  > 0$ 时,逆时针旋转; 当 $\\beta  < 0$ 时, 顺时针旋转.\n\n---\n\n一般地,把复数 ${z}_{1}$ 乘任意一个复数 ${z}_{2} = s\\left( {\\cos \\beta  + \\mathrm{i}\\sin \\beta }\\right)$ , 在几何上就是对 $\\overrightarrow{O{Z}_{1}}$ 作上述两个变换的合成: 先伸缩,再旋转, 或者先旋转, 后伸缩 (图 9-4-2(3)). 从复数乘法的结果我们知道, 这两个不同顺序会得到同样的结果.\n\n$$\n{z}^{\\prime } = \\left( {-2 + 2\\mathrm{i}}\\right) \\left( {\\cos {120}^{ \\circ  } + \\mathrm{i}\\sin {120}^{ \\circ  }}\\right)\n$$\n\n$$\n= \\left( {-2 + 2\\mathrm{i}}\\right) \\left( {-\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\mathrm{i}}\\right)\n$$\n\n$$\n= \\left( {1 - \\sqrt{3}}\\right)  - \\left( {1 + \\sqrt{3}}\\right) \\mathrm{i}.\n$$\n\n",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1053,
+          "end": 1116
+        },
+        {
+          "source": "book",
+          "start": 1120,
+          "end": 1120
+        }
+      ],
+      "teacher_analysis": "例 3 是复数三角形式下的乘法和除法运算法则在标准情形中的运用. 对复数三角形式下运算法则的运用, 教学要求应限于标准情形中的运用为宜.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 246,
+          "end": 246
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 如图 9-4-3,设复数 $- 2 + 2\\mathrm{i}$ 在复平面上所对应的向量是 $\\overrightarrow{OZ}$ ,将 $\\overrightarrow{OZ}$ 绕原点 $O$ 逆时针旋转 ${120}^{ \\circ  }$ 得到向量 $\\overrightarrow{O{Z}^{\\prime }}$ . 求向量 $\\overrightarrow{O{Z}^{\\prime }}$ 所对应的复数. (结果用复数的代数形式表示)\n\n![bo_d4sll53ef24c73be0n1g_25_221_1468_255_315_0.jpg](sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_221_1468_255_315_0.jpg)\n\n图 9-4-3",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1122
+        },
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1119
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1121,
+          "end": 1122
+        },
+        {
+          "source": "book",
+          "start": 1117,
+          "end": 1119
+        }
+      ],
+      "id": "bx2-9-4-ex-4",
+      "category": "例题",
+      "answer": "解 设向量 $\\overrightarrow{O{Z}^{\\prime }}$ 对应的复数为 ${z}^{\\prime }$ ,则",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1123,
+          "end": 1124
+        }
+      ],
+      "teacher_analysis": "例 4 展示了复数乘法对于向量旋转的刻画, 在此可回顾“9.2 复数的几何意义”例 4,指明复数三角形式下的乘法法则清晰地体现了复数乘法与旋转变换的联系,强调复数乘法是代数描述旋转变换最为便捷的工具之一.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 248,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "3 三角形式下复数的乘方与开方",
+      "markdown": "## 3 三角形式下复数的乘方与开方",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1125,
+          "end": 1125
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "复数的 $n$ 次幂 ( $n$ 是正整数) 是 $n$ 个相同复数的连乘,因此, 根据复数乘法公式,一个复数的 $n$ 次幂的模是底数模的 $n$ 次幂, 而其辐角是底数辐角的 $n$ 倍.\n\n作为乘方的逆运算,自然会想到,一个复数开 $n$ 次方,方根的模是被开方数模的 $n$ 次方根,而方根的辐角是被开方数辐角的 $n$ 分之一. 这个规则原则上没错,但要注意的是: 由于被开方数不同辐角的 $n$ 分之一所得出的辐角可能有不同的主值, 在这个过程中被开方数的辐角不能只取主值. 事实上,如果 $\\alpha$ 是被开方数的辐角之一,以下 $n$ 个值都可以作为被开方数 $n$ 次方根的辐角:\n\n$$\n\\frac{\\alpha }{n},\\frac{\\alpha  + {2\\pi }}{n},\\frac{\\alpha  + {4\\pi }}{n},\\cdots ,\\frac{\\alpha  + 2\\left( {n - 1}\\right) \\pi }{n}.\n$$\n\n这 $n$ 个值之间的差都不是 ${2\\pi }$ 的整数倍,它们都给出了不同的 $n$ 次方根; 而其余可能的辐角 $\\frac{\\alpha  + {2k\\pi }}{n}\\left( {k \\in  \\mathbf{Z}}\\right)$ 都与上述辐角之一相差 ${2\\pi }$ 的整数倍,它们不会再给出更多不同的 $n$ 次方根了.\n\n现在可把复数的乘方与开方的公式总结如下:\n\n设 $z = r\\left( {\\cos \\alpha  + \\mathrm{i}\\sin \\alpha }\\right) \\left( {r = \\left| z\\right|  \\geq  0}\\right)$ ,则对任何正整数 $n$ ,有\n\n${z}^{n} = {r}^{n}\\left( {\\cos {n\\alpha } + \\mathrm{i}\\sin {n\\alpha }}\\right) ;$\n\n$z$ 的 $n$ 次方根为\n\n$\\sqrt[n]{r}\\left( {\\cos \\frac{\\alpha  + {2k\\pi }}{n} + \\mathrm{i}\\sin \\frac{\\alpha  + {2k\\pi }}{n}}\\right) , k = 0,1,2,\\cdots , n - 1.$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1126,
+          "end": 1146
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 计算 ${\\left( 1 - \\mathrm{i}\\right) }^{20}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1148
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1147,
+          "end": 1148
+        }
+      ],
+      "id": "bx2-9-4-ex-5",
+      "category": "例题",
+      "answer": "解 将 $1 - \\mathrm{i}$ 写成三角形式 $1 - \\mathrm{i} = \\sqrt{2}\\left( {\\cos \\frac{7\\pi }{4} + \\mathrm{i}\\sin \\frac{7\\pi }{4}}\\right)$ ，就可以得到\n\n${\\left( 1 - \\mathrm{i}\\right) }^{20} = {2}^{10}\\left( {\\cos {35\\pi } + \\mathrm{i}\\sin {35\\pi }}\\right)  = {1024}\\left( {\\cos \\pi  + \\mathrm{i}\\sin \\pi }\\right)  =  - {1024}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1149,
+          "end": 1152
+        }
+      ],
+      "teacher_analysis": "例 5 和例 6 分别是复数三角形式下的乘法和开方运算法则在标准情形中的运用, 由此展示这是复数乘方和开方运算的首选工具.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 250,
+          "end": 250
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 求 1 的三次方根.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1153,
+          "end": 1154
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1153,
+          "end": 1154
+        }
+      ],
+      "id": "bx2-9-4-ex-6",
+      "category": "例题",
+      "answer": "解 因为 $1 = \\cos 0 + \\mathrm{i}\\sin 0$ ,所以它的三次方根是 $\\cos \\frac{2k\\pi }{3} + \\; \\mathrm{i}\\sin \\frac{2k\\pi }{3}\\left( {k = 0,1,2}\\right)$ ,即\n\n$$\n1 = \\cos 0 + \\mathrm{i}\\sin 0,\n$$\n\n$$\n\\omega  = \\cos \\frac{2\\pi }{3} + \\mathrm{i}\\sin \\frac{2\\pi }{3} =  - \\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\mathrm{i},\n$$\n\n$$\n{\\omega }^{2} = \\cos \\frac{4\\pi }{3} + \\mathrm{i}\\sin \\frac{4\\pi }{3} =  - \\frac{1}{2} - \\frac{\\sqrt{3}}{2}\\mathrm{i}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 1155,
+          "end": 1168
+        }
+      ],
+      "teacher_analysis": "例 5 和例 6 分别是复数三角形式下的乘法和开方运算法则在标准情形中的运用, 由此展示这是复数乘方和开方运算的首选工具.",
+      "analysis_provenance": [
+        {
+          "source": "teacher",
+          "start": 250,
+          "end": 250
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 9.4(2)",
+      "markdown": "## 练习 9.4(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1169,
+          "end": 1169
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习9.4(2) · 1",
+      "markdown": "1. 计算:\n\n(1) $8\\left( {\\cos \\frac{\\pi }{6} + \\mathrm{i}\\sin \\frac{\\pi }{6}}\\right)  \\cdot  2\\left( {\\cos \\frac{\\pi }{3} + \\mathrm{i}\\sin \\frac{\\pi }{3}}\\right)$ ;\n\n(2) $\\frac{6\\left( {\\cos \\frac{3\\pi }{5} + \\mathrm{i}\\sin \\frac{3\\pi }{5}}\\right) }{2\\left( {\\cos \\frac{\\pi }{10} + \\mathrm{i}\\sin \\frac{\\pi }{10}}\\right) }$ ;\n\n(3) ${\\left\\lbrack  \\sqrt{2}\\left( \\cos \\frac{\\pi }{6} + \\mathrm{i}\\sin \\frac{\\pi }{6}\\right) \\right\\rbrack  }^{5}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1178
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1171,
+          "end": 1178
+        }
+      ],
+      "id": "bx2-9-4-p942-1",
+      "category": "练习9.4(2)",
+      "answer": "1. (1) 16i. (2) 3i. (3) $- 2\\sqrt{6} + 2\\sqrt{2}\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 464,
+          "end": 465
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习9.4(2) · 2",
+      "markdown": "2. 求 1 的所有四次方根.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1179,
+          "end": 1180
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1179,
+          "end": 1180
+        }
+      ],
+      "id": "bx2-9-4-p942-2",
+      "category": "练习9.4(2)",
+      "answer": "2. 1, i, -1, -i.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 466,
+          "end": 467
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 9.4",
+      "markdown": "## 习题 9.4",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1181,
+          "end": 1181
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1183,
+          "end": 1183
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题9.4A · 1",
+      "markdown": "1. 把下列复数用三角形式表示 (用辐角主值):\n\n(1)4-4i; (2) $- 3\\sqrt{3} - {3i}$ ；\n\n(3) $\\sin \\frac{\\pi }{8} + \\mathrm{i}\\cos \\frac{\\pi }{8}$ ; (4) $\\frac{\\pi }{\\cos \\frac{\\pi }{7} + \\mathrm{i}\\sin \\frac{\\pi }{7}}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1190
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1190
+        }
+      ],
+      "id": "bx2-9-4-h94A-1",
+      "category": "习题9.4A",
+      "answer": "1. (1) $4\\sqrt{2}\\left( {\\cos \\frac{7\\pi }{4} + \\mathrm{i}\\sin \\frac{7\\pi }{4}}\\right)$ . (2) $6\\left( {\\cos \\frac{7\\pi }{6} + \\mathrm{i}\\sin \\frac{7\\pi }{6}}\\right)$ .\n\n(3) $\\cos \\frac{3\\pi }{8} + \\mathrm{i}\\sin \\frac{3\\pi }{8}$ . (4) $\\cos \\frac{13\\pi }{7} + \\mathrm{i}\\sin \\frac{13\\pi }{7}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 472,
+          "end": 475
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.4A · 2",
+      "markdown": "2. 计算,并将结果用复数的代数形式表示:\n\n(1) $\\sqrt{2}\\left( {\\cos {240}^{ \\circ  } + \\mathrm{i}\\sin {240}^{ \\circ  }}\\right)  \\cdot  \\frac{\\sqrt{3}}{2}\\left( {\\cos {60}^{ \\circ  } + \\mathrm{i}\\sin {60}^{ \\circ  }}\\right)$ ;\n\n(2) $\\frac{{12}\\left( {\\cos \\frac{11\\pi }{6} + \\mathrm{i}\\sin \\frac{11\\pi }{6}}\\right) }{6\\left( {\\cos \\frac{2\\pi }{3} + \\mathrm{i}\\sin \\frac{2\\pi }{3}}\\right) }$ ; (3) $\\frac{\\sqrt{3}\\left( {\\cos {150}^{ \\circ  } + \\mathrm{i}\\sin {150}^{ \\circ  }}\\right) }{\\sqrt{2}\\left( {\\cos {300}^{ \\circ  } + \\mathrm{i}\\sin {300}^{ \\circ  }}\\right) }$ ;\n\n(4) ${\\left\\lbrack  \\sqrt{2}\\left( \\sin \\frac{\\pi }{6} + \\mathrm{i}\\cos \\frac{\\pi }{6}\\right) \\right\\rbrack  }^{3}$ ； (5) ${\\left( \\sqrt{3} - \\mathrm{i}\\right) }^{12}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1191,
+          "end": 1198
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1191,
+          "end": 1198
+        }
+      ],
+      "id": "bx2-9-4-h94A-2",
+      "category": "习题9.4A",
+      "answer": "2. (1) $\\frac{\\sqrt{6}}{4} - \\frac{3\\sqrt{2}}{4}\\mathrm{i}$ . (2) $- \\sqrt{3} - \\mathrm{i}$ . (3) $- \\frac{3\\sqrt{2}}{4} - \\frac{\\sqrt{6}}{4}\\mathrm{i}$ .\n\n(4) $- 2\\sqrt{2}$ . (5) 4096.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 476,
+          "end": 479
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.4A · 3",
+      "markdown": "3. 求 $- \\mathrm{i}$ 的所有三次方根.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1199,
+          "end": 1200
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1199,
+          "end": 1200
+        }
+      ],
+      "id": "bx2-9-4-h94A-3",
+      "category": "习题9.4A",
+      "answer": "3. i, $- \\frac{\\sqrt{3}}{2} - \\frac{1}{2}\\mathrm{i},\\frac{\\sqrt{3}}{2} - \\frac{1}{2}\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 480,
+          "end": 481
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1201,
+          "end": 1201
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题9.4B · 1",
+      "markdown": "1. 计算,并将结果用复数的代数形式表示:\n\n(1) ${\\left( \\cos \\frac{11\\pi }{6} + \\mathrm{i}\\sin \\frac{11\\pi }{6}\\right) }^{2} \\cdot  \\sqrt{2}\\left( {\\cos \\frac{5\\pi }{3} + \\mathrm{i}\\sin \\frac{5\\pi }{3}}\\right)$ ;\n\n(2) $\\frac{\\sqrt{5}{\\left( \\cos \\frac{5\\pi }{4} + \\mathrm{i}\\sin \\frac{5\\pi }{4}\\right) }^{2} \\cdot  \\sqrt{2}\\left( {\\cos \\frac{7\\pi }{3} + \\mathrm{i}\\sin \\frac{7\\pi }{3}}\\right) }{\\sqrt{3}\\left( {\\cos \\frac{7\\pi }{3} + \\mathrm{i}\\sin \\frac{7\\pi }{3}}\\right)  \\cdot  \\sqrt{5}\\left( {\\cos \\frac{7\\pi }{3} - \\mathrm{i}\\sin \\frac{7\\pi }{3}}\\right) }$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1203,
+          "end": 1208
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1203,
+          "end": 1208
+        }
+      ],
+      "id": "bx2-9-4-h94B-1",
+      "category": "习题9.4B",
+      "answer": "1. (1) $- \\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{6}}{2}\\mathrm{i}$ . (2) $- \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{6}}{6}\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 484,
+          "end": 485
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.4B · 2",
+      "markdown": "2. 设复数 $- 3 - 4\\mathrm{i}$ 在复平面上所对应的向量是 $\\overrightarrow{OZ}$ ,将 $\\overrightarrow{OZ}$ 绕原点 $O$ 顺时针旋转 ${810}^{ \\circ  }$ 得到向量 $\\overrightarrow{O{Z}^{\\prime }}$ . 求向量 $\\overrightarrow{O{Z}^{\\prime }}$ 所对应的复数. (结果用复数的代数形式表示)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1209,
+          "end": 1210
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1209,
+          "end": 1210
+        }
+      ],
+      "id": "bx2-9-4-h94B-2",
+      "category": "习题9.4B",
+      "answer": "2. $- 4 + 3\\mathrm{i}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 486,
+          "end": 487
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题9.4B · 3",
+      "markdown": "3. 求复数 $3 + 4\\mathrm{i}$ 与复数 $- 1 + 7\\mathrm{i}$ 在复平面上所对应的两个向量的夹角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1211,
+          "end": 1212
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1211,
+          "end": 1212
+        }
+      ],
+      "id": "bx2-9-4-h94B-3",
+      "category": "习题9.4B",
+      "answer": "3. $\\frac{\\pi }{4}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 488,
+          "end": 489
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例1",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例2",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例3",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例4",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例5",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    },
+    {
+      "repair": "复用哈希一致的既有例题配对记录（题图、教参分析及缺失解答边界）",
+      "key": "9.4·例6",
+      "paired_manifest": "sources/paired/第9章复数教材教参配对-20261009/配对清单.json"
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 897,
+      "original": "images/bo_d4sll53ef24c73be0n1g_21_216_1019_262_255_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_21_216_1019_262_255_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1009,
+      "original": "images/bo_d4sll53ef24c73be0n1g_23_251_1624_193_214_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_23_251_1624_193_214_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1091,
+      "original": "images/bo_d4sll53ef24c73be0n1g_25_579_402_887_307_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_579_402_887_307_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1117,
+      "original": "images/bo_d4sll53ef24c73be0n1g_25_221_1468_255_315_0.jpg",
+      "absolute": "sources/textbooks/必修第二册/第9章复数/images/bo_d4sll53ef24c73be0n1g_25_221_1468_255_315_0.jpg",
+      "exists": true
+    }
+  ]
+}

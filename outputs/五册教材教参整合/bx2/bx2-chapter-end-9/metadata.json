@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-chapter-end-9",
+  "book_id": "bx2",
+  "section": "chapter-end-9",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx2/bx2-chapter-end-9.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-chapter-end-9",
+  "fingerprint": "6badc800f0de98a28ee611fbc1c2e455de3f016809f504c67c679c1ed3374606",
+  "status": "rendered",
+  "questions": 13,
+  "answers": 13,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md": "1d09a92867974672a5d6a0e2af27d0c8e1440f6153fdb8cf307b6be405fdb726",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md": "ca2a7d8f5819fa80992382900df6e5c1842294c5ab5f3f9ce8e05103442e102d"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "df4b0cfa2dfdb936eef69da50be6f8b7f9191e8f4e4cb1b962cfecd0a689707f",
+    "student.html": "cba726ca0c8ddae36c357636730112428aafb59826572f96bf44a0b742477d6b",
+    "student.zip": "1316c2ae7843ed2792f471073cf01d96d404aecba91f8a10d321716671972f9c",
+    "content.json": "0c59f70e467fc2a6d9215031dc8f71b907b8c8f1d12231c94b7c90b45b3c57ac"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-8-3",
+  "book_id": "x2",
+  "section": "8.3",
+  "title": "2×2 列联表",
+  "section_json": "batch/sections/x2/x2-8-3.json",
+  "output": "outputs/五册教材教参整合/x2/x2-8-3",
+  "fingerprint": "d1dc165e93a3f0bde29cc6e94353c746c2d4b7524a39bd49d69b02afa8c13a4c",
+  "status": "rendered",
+  "questions": 8,
+  "answers": 8,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md": "21b1df385af3645c43ac2bf2fe3b7703c288d96ea4e8bef4ec0fba4f7f8d42a5",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md": "70596878acb5841fc585358b25ed22582bd7da897b937db8c9a7ae644baacb67"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "ec9b3c27a5fdd240a4ab49621e19ee56ba923a036a64030ff884ebe64ac86b61",
+    "student.html": "25a90af7e0ae16f969373e8c8d169896f831c513c677a2e81100ddfa04c4459a",
+    "student.zip": "541980d50e854324a622ac05046295f191a93eff15f6c8239427d065811da726",
+    "content.json": "18b24c1bc6c3dd24c9c5cf108d9c5a6bbfbdb7e856046f65a3851a7ea0ae791c"
+  }
+}

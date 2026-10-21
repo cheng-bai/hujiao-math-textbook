@@ -1,0 +1,52 @@
+{
+  "controls": [
+    {
+      "key": "shape",
+      "label": "生成图形",
+      "options": [
+        {
+          "label": "直角三角形 → 圆锥",
+          "value": "cone"
+        },
+        {
+          "label": "矩形 → 圆柱",
+          "value": "cylinder"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "sweep",
+      "label": "旋转进度（度）",
+      "max": 360,
+      "min": 0,
+      "step": 10,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mtext>圆柱母线∥轴；圆锥母线与轴相交</mtext></math>",
+  "goal": "转动矩形或直角三角形，看不同高度的圆怎样组成柱或锥。",
+  "id": "revolving-generator",
+  "initial": {
+    "shape": "cone",
+    "sweep": 240,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-11-3-b6",
+      "rationale": "接替生成图形、旋转轴、母线与旋转面的长文字解释。",
+      "sectionId": "bx3-11-3"
+    }
+  ],
+  "summary": "平面封闭图形绕其所在平面内一条定直线旋转一周，形成旋转体。矩形绕一边旋转形成圆柱；直角三角形绕一直角边旋转形成圆锥；母线的扫掠表面与封闭图形的扫掠实体应区分。",
+  "title": "旋转体：从平面图形到空间实体"
+}

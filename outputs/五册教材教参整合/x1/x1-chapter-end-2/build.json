@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-chapter-end-2",
+  "book_id": "x1",
+  "section": "chapter-end-2",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/x1/x1-chapter-end-2.json",
+  "output": "outputs/五册教材教参整合/x1/x1-chapter-end-2",
+  "fingerprint": "f612f9dd028bd76bca578fc3ecf9cbfda13b0f4ce04a20d5921fc499b9a87570",
+  "status": "rendered",
+  "questions": 24,
+  "answers": 24,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md": "f9a3bb0b1aae50a77724a0067d2a54459e56dae712b033b9938051dd996af7c4",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md": "955c9f50ad7cda82b9d3bd28bfabcfc8b11cb574e5aff5b0c61addbde6e61445"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "b56a8933232f67fb8df50a8b42a17691fd6ab2e9618e78068e776d4537e32c84",
+    "student.html": "c4fc0e47b1c578ce9f722da2f9d9b96d6a8c57fe3d78eefd11e22786e59500b5",
+    "student.zip": "98a5c4fe50a51055bce0055ada7a699414e8f05735b8f34fa96537ea110db68b",
+    "content.json": "11434db90d7b383e5f1e6a7063a5705bb5a68f8fc82721976f76d65aa41cb74c"
+  }
+}

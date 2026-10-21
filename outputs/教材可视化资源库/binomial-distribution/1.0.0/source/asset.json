@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "key": "n",
+      "label": "试验次数n",
+      "max": 20,
+      "min": 1,
+      "step": 1,
+      "type": "range"
+    },
+    {
+      "key": "p",
+      "label": "成功概率p",
+      "max": 0.95,
+      "min": 0.05,
+      "step": 0.05,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>=</mo><msubsup><mi>C</mi><mi>n</mi><mi>k</mi></msubsup><msup><mi>p</mi><mi>k</mi></msup><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>−</mo><mi>k</mi></mrow></msup></math>",
+  "goal": "改变成功率和试验次数，观察二项分布的概率质量如何重排。",
+  "id": "binomial-distribution",
+  "initial": {
+    "n": 10,
+    "p": 0.4
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-7-3-b3",
+      "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。",
+      "sectionId": "x2-7-3"
+    }
+  ],
+  "summary": "只有n次相互独立且成功概率均为p的伯努利试验时，X~B(n,p)，P(X=k)=C(n,k)p^k(1-p)^(n-k)。",
+  "title": "二项分布的概率质量"
+}

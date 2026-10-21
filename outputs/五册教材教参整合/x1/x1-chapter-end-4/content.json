@@ -1,0 +1,750 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1919,
+        "end": 1919
+      }
+    ],
+    "id": "x1-chapter-end-4",
+    "number": "chapter-end-4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 等差数列:设 $n$ 为正整数，若数列 $\\left\\{  {a}_{n}\\right\\}$ 满足 ${a}_{n + 1} - {a}_{n} = d$ ，则 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列； 等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式: ${a}_{n} = {a}_{1} + \\left( {n - 1}\\right) d$ ；\n\n等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和公式: ${S}_{n} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}$ 或 ${S}_{n} = n{a}_{1} + \\frac{n\\left( {n - 1}\\right) }{2}d$ .\n\n2. 等比数列:设 $n$ 为正整数，若数列 $\\left\\{  {a}_{n}\\right\\}$ 满足 $\\frac{{a}_{n + 1}}{{a}_{n}} = q\\left( {q \\neq  0}\\right)$ ，则 $\\left\\{  {a}_{n}\\right\\}$ 为等比数列； 等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式: ${a}_{n} = {a}_{1}{q}^{n - 1}$ ；\n\n等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和公式: ${S}_{n} = \\frac{{a}_{1}\\left( {1 - {q}^{n}}\\right) }{1 - q}\\left( {q \\neq  1}\\right)$ 或 ${S}_{n} = \\frac{{a}_{1} - {a}_{n}q}{1 - q}\\left( {q \\neq  1}\\right)$ .\n\n3. 数列:按照一定顺序排列的一列数称为数列.\n\n4. 用数学归纳法证明命题的一般步骤是:\n\n(1)证明当 $n$ 取第一个值 ${n}_{0}$ 时，命题成立；\n\n(2)假设当 $n = k\\left( {k \\geq  {n}_{0}}\\right)$ 时命题成立，证明当 $n = k + 1$ 时命题也成立.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1920,
+        "end": 1936
+      }
+    ],
+    "id": "x1-chapter-end-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "#### 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1937,
+        "end": 1937
+      }
+    ],
+    "id": "x1-chapter-end-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "##### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1939,
+        "end": 1939
+      }
+    ],
+    "id": "x1-chapter-end-4-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 填空题:\n\n(1)已知数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列，下面的数列中必为等差数列的序号是___.\n\n① $\\left\\{  {a}_{2n}\\right\\}$ ② $\\left\\{  {{a}_{n} + {a}_{n + 1}}\\right\\}$ ③ $\\left\\{  {3{a}_{n} + 1}\\right\\}$ ④ $\\left\\{  \\left| {a}_{n}\\right| \\right\\}$\n\n(2)已知数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列，下面的数列中必为等比数列的序号是___.\n\n① $\\left\\{  {a}_{n}^{2}\\right\\}$ ② $\\left\\{  {{a}_{n} + {a}_{n + 1}}\\right\\}$ ③ $\\left\\{  \\frac{1}{{a}_{n}}\\right\\}$ ④ $\\left\\{  {2}^{{a}_{n}}\\right\\}$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1941,
+        "end": 1950
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1941,
+        "end": 1950
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-1",
+    "category": "复习题A",
+    "answer": "1. (1) ①②③. (2) ①③.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 578,
+        "end": 579
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 选择题:\n\n(1)我国古代数学名著《算法统宗》中有如下问题: “远望巍巍塔七层，红光点点倍加增，共灯三百八十一，请问尖头几盏灯?”意思是:一座 7 层塔共挂了 381 盏灯，且相邻两层中的下一层灯的盖数是上一层灯的盖数的 2 倍, 则塔的顶层灯的盖数是 ( )\n\nA. 1; B. 3; C. 5; D. 9.\n\n(2)已知数列 $\\left\\{  {a}_{n}\\right\\}$ ，若 ${a}_{1} = 3,{a}_{2} = 6$ ，且 ${a}_{n + 2} = {a}_{n + 1} - {a}_{n}$ ( $n$ 为正整数)，则数列的第 35 项为 ( )\n\nA. 6 ; B. -3 ; C. -12; D. -6.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1951,
+        "end": 1960
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1951,
+        "end": 1960
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-2",
+    "category": "复习题A",
+    "answer": "2. (1) B. (2) D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 580,
+        "end": 581
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 在等差数列 $\\left\\{  {a}_{n}\\right\\}$ 中,已知公差 $d = \\frac{1}{2}$ ,且 ${a}_{1} + {a}_{3} + {a}_{5} + \\cdots  + {a}_{99} = {60}$ . 求 ${a}_{1} + {a}_{2} + \\; {a}_{3} + \\cdots  + {a}_{99} + {a}_{100}$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1961,
+        "end": 1962
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1961,
+        "end": 1962
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-3",
+    "category": "复习题A",
+    "answer": "3. ${a}_{1} + {a}_{2} + {a}_{3} + \\cdots  + {a}_{99} + {a}_{100} = {145}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 582,
+        "end": 583
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 已知存在常数 $t$ ,使得等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n} = t{n}^{2} + \\left( {t - 9}\\right) n + t - \\frac{3}{2}$ . 求该数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1963,
+        "end": 1964
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1963,
+        "end": 1964
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-4",
+    "category": "复习题A",
+    "answer": "4. 数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {3n} - 9$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 584,
+        "end": 585
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 设 ${S}_{n}$ 为等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和,求证: 数列 $\\left\\{  \\frac{{S}_{n}}{n}\\right\\}$ 是等差数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1965,
+        "end": 1966
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1965,
+        "end": 1966
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-5",
+    "category": "复习题A",
+    "answer": "5. 提示: 设数列 $\\left\\{  {a}_{n}\\right\\}$ 的公差为 $d$ ,利用 $\\frac{{S}_{n}}{n} = {a}_{1} + \\frac{n - 1}{2}d$ 结合定义法证明.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 586,
+        "end": 587
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 已知数列 $\\left\\{  {{\\log }_{3}{a}_{n}}\\right\\}$ 是等差数列,且 ${\\log }_{3}{a}_{1} + {\\log }_{3}{a}_{2} + \\cdots  + {\\log }_{3}{a}_{10} = {10}$ . 求 ${a}_{5}{a}_{6}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1967,
+        "end": 1968
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1967,
+        "end": 1968
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-6",
+    "category": "复习题A",
+    "answer": "6. ${a}_{5}{a}_{6} = 9$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 588,
+        "end": 589
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 已知等差数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n}$ ,且满足 ${a}_{1} = {29},{S}_{10} = {S}_{20}$ . 这个数列的前多少项和最大? 并求此最大值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1969,
+        "end": 1970
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1969,
+        "end": 1970
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-7",
+    "category": "复习题A",
+    "answer": "7. 这个数列的前 15 项和最大, 最大值为 225.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 590,
+        "end": 591
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 在 2 与 9 之间插入两个数, 使前三个数成等差数列, 后三个数成等比数列. 试写出这个数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1971,
+        "end": 1972
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1971,
+        "end": 1972
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-8",
+    "category": "复习题A",
+    "answer": "8. 这个数列为2,4,6,9或 $2,\\frac{1}{4}, - \\frac{3}{2},9$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 592,
+        "end": 593
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 9",
+    "markdown": "9. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 是等比数列,且 ${a}_{1},{a}_{2},{a}_{4}$ 成等差数列. 求数列 $\\left\\{  {a}_{n}\\right\\}$ 的公比.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1973,
+        "end": 1974
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1973,
+        "end": 1974
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-9",
+    "category": "复习题A",
+    "answer": "9. 公比为 1 或 $\\frac{-1 \\pm  \\sqrt{5}}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 594,
+        "end": 595
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 10",
+    "markdown": "10. 用数学归纳法证明:\n\n$$\n\\frac{1}{2} + \\frac{2}{{2}^{2}} + \\frac{3}{{2}^{3}} + \\cdots  + \\frac{n}{{2}^{n}} = 2 - \\frac{n + 2}{{2}^{n}}\\text{ ( }n\\text{ 为正整数). }\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1975,
+        "end": 1980
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1975,
+        "end": 1980
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-10",
+    "category": "复习题A",
+    "answer": "10. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 596,
+        "end": 597
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 11",
+    "markdown": "11. (1) 依次计算下列各式的值:\n\n$$\n\\frac{1}{1},\\frac{1}{1} + \\frac{1}{1 + 2},\\frac{1}{1} + \\frac{1}{1 + 2} + \\frac{1}{1 + 2 + 3},\\frac{1}{1} + \\frac{1}{1 + 2} + \\frac{1}{1 + 2 + 3} + \\frac{1}{1 + 2 + 3 + 4}.\n$$\n\n(2)根据(1)中的计算结果，猜想\n\n$$\n{S}_{n} = \\frac{1}{1} + \\frac{1}{1 + 2} + \\frac{1}{1 + 2 + 3} + \\cdots  + \\frac{1}{1 + 2 + 3 + \\cdots  + n}\\text{ ( }n\\text{ 为正整数) }\n$$\n\n的表达式, 并用数学归纳法证明相应的结论.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1981,
+        "end": 1994
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1981,
+        "end": 1994
+      }
+    ],
+    "id": "x1-chapter-end-4-hA-11",
+    "category": "复习题A",
+    "answer": "11. (1) $1,\\frac{4}{3},\\frac{3}{2},\\frac{8}{5}$ .\n\n(2)猜想 $\\frac{1}{1} + \\frac{1}{1 + 2} + \\frac{1}{1 + 2 + 3} + \\cdots  + \\frac{1}{1 + 2 + 3 + \\cdots  + n} = \\frac{2n}{n + 1}$ . 数学归纳法证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 598,
+        "end": 601
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1995,
+        "end": 1995
+      }
+    ],
+    "id": "x1-chapter-end-4-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 选择题:\n\n(1)已知 $a, x, b$ 和 $b, y, c$ 均为等差数列，而 $a, b, c$ 为等比数列，且 ${xy} \\neq  0$ ， 则 $\\frac{a}{x} + \\frac{c}{y}$ 的值等于 ( )\n\nA. 1 ; B. 2; C. 3; D. 4.\n\n(2)已知两个等差数列 $\\left\\{  {a}_{n}\\right\\}$ 和 $\\left\\{  {b}_{n}\\right\\}$ 的前 $n$ 项和分别为 ${A}_{n}$ 和 ${B}_{n}$ ，且满足 $\\frac{{A}_{n}}{{B}_{n}} = \\frac{{7n} + {45}}{n + 3}$ ， 则使得 $\\frac{{a}_{n}}{{b}_{n}}$ 为整数的正整数 $n$ 的个数为 ( )\n\nA. 2 ; B. 3; C. 4; D. 5.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1997,
+        "end": 2006
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1997,
+        "end": 2006
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-1",
+    "category": "复习题B",
+    "answer": "1. (1) B. (2) D.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 604,
+        "end": 605
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 已知 ${S}_{n}$ 是等比数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和,且 ${S}_{3},{S}_{9},{S}_{6}$ 成等差数列. 求证: ${a}_{2},{a}_{8}$ , ${a}_{5}$ 成等差数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2007,
+        "end": 2008
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2007,
+        "end": 2008
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-2",
+    "category": "复习题B",
+    "answer": "2. 提示: 设公比为 $q$ ,由 $2{S}_{9} = {S}_{3} + {S}_{6}$ ,得 ${q}^{3} =  - \\frac{1}{2}$ ,利用等差中项定义证明.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 606,
+        "end": 607
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 已知在等差数列 $\\left\\{  {a}_{n}\\right\\}$ 中, ${a}_{10} = 0$ .\n\n(1)求证: ${a}_{1} + {a}_{2} + \\cdots  + {a}_{n} = {a}_{1} + {a}_{2} + \\cdots  + {a}_{{19} - n}$ 对一切小于 19 的正整数 $n$ 都成立;\n\n(2)类比上述性质，在等比数列 $\\left\\{  {b}_{n}\\right\\}$ 中，若 ${b}_{9} = 1$ ，可以得到什么结论？",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2009,
+        "end": 2014
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2009,
+        "end": 2014
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-3",
+    "category": "复习题B",
+    "answer": "3. 提示: (1) 当 $n \\leq  9$ 时, ${19} - n \\geq  {10}$ . 因为 ${a}_{n + 1} + {a}_{{19} - n} = {a}_{n + 2} + {a}_{{18} - n} = \\cdots  = \\; 2{a}_{10} = 0$ ,所以 ${a}_{n + 1} + {a}_{n + 2} + \\cdots  + {a}_{{18} - n} + {a}_{{19} - n} = 0$ ,两边同加 ${a}_{1} + {a}_{2} + \\cdots  + {a}_{n}$ ,得 ${a}_{1} + {a}_{2} + \\cdots  + {a}_{n} + {a}_{n + 1} + \\cdots  + {a}_{{19} - n} = {a}_{1} + {a}_{2} + \\cdots  + {a}_{n}$ ,得证.\n\n当 ${10} \\leq  n \\leq  {19}$ 时, ${19} - n \\leq  9$ . 同理可证.\n\n(2)在等比数列 $\\left\\{  {b}_{n}\\right\\}$ 中,若 ${b}_{9} = 1$ ,则 ${b}_{1}{b}_{2} \\cdot  \\cdots  \\cdot  {b}_{n} = {b}_{1}{b}_{2} \\cdot  \\cdots  \\cdot  {b}_{{17} - n}$ 对于一切小于 17 的正整数 $n$ 都成立.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 608,
+        "end": 613
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的各项均为正数， ${a}_{1} = \\frac{1}{3}$ ，且 ${a}_{n} = \\frac{{a}_{n - 1}}{2{a}_{n - 1} + 1}\\left( {n \\geq  2}\\right)$ .\n\n(1)求证:数列 $\\left\\{  \\frac{1}{{a}_{n}}\\right\\}$ 是等差数列；\n\n(2)若数列 $\\left\\{  {b}_{n}\\right\\}$ 满足 ${b}_{n} = \\left\\{  \\begin{array}{l} 2, n = 1, \\\\  n{a}_{n}, n \\geq  2, \\end{array}\\right.$ 求数列 $\\left\\{  {b}_{n}\\right\\}$ 中的最大项与最小项.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2015,
+        "end": 2020
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2015,
+        "end": 2020
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-4",
+    "category": "复习题B",
+    "answer": "4. 提示: (1) ${a}_{n} \\neq  0$ ,把递推式两边同时取倒数,有 $\\frac{1}{{a}_{n}} = 2 + \\frac{1}{{a}_{n - 1}}\\left( {n \\geq  2}\\right)$ ,所以 $\\left\\{  \\frac{1}{{a}_{n}}\\right\\}$ 是以 $\\frac{1}{{a}_{1}} = 3$ 为首项、以 2 为公差的等差数列.\n\n(2) ${b}_{n} = \\left\\{  \\begin{array}{ll} 2, & n = 1, \\\\  \\frac{n}{{2n} + 1}, & n \\geq  2, \\end{array}\\right.$ 因此数列 $\\left\\{  {b}_{n}\\right\\}$ 的最大项为 ${b}_{1} = 2$ ,最小项为 ${b}_{2} = \\frac{2}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 614,
+        "end": 617
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 已知数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和为 ${S}_{n}$ ,且 ${S}_{n} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}$ . 求证: 数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2021,
+        "end": 2022
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2021,
+        "end": 2022
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-5",
+    "category": "复习题B",
+    "answer": "5. 提示: 由 ${S}_{n} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}$ ,知 ${S}_{n - 1} = \\frac{\\left( {n - 1}\\right) \\left( {{a}_{1} + {a}_{n - 1}}\\right) }{2}\\left( {n \\geq  2}\\right)$ ,\n\n所以 ${a}_{n} = {S}_{n} - {S}_{n - 1} = \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2} - \\frac{\\left( {n - 1}\\right) \\left( {{a}_{1} + {a}_{n - 1}}\\right) }{2}\\left( {n \\geq  2}\\right)$ ,①\n\n${a}_{n + 1} = {S}_{n + 1} - {S}_{n} = \\frac{\\left( {n + 1}\\right) \\left( {{a}_{1} + {a}_{n + 1}}\\right) }{2} - \\frac{n\\left( {{a}_{1} + {a}_{n}}\\right) }{2}.$②\n\n②-①并整理,得 ${a}_{n + 1} - {a}_{n} = {a}_{n} - {a}_{n - 1}\\left( {n \\geq  2}\\right)$ ,即 $2{a}_{n} = {a}_{n - 1} + {a}_{n + 1}\\left( {n \\geq  2}\\right)$ .\n\n所以数列 $\\left\\{  {a}_{n}\\right\\}$ 是等差数列.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 618,
+        "end": 627
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 用数学归纳法证明:\n\n$$\n1 - \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\cdots  + \\frac{1}{{2n} - 1} - \\frac{1}{2n} = \\frac{1}{n + 1} + \\frac{1}{n + 2} + \\cdots  + \\frac{1}{2n}\\text{ ( }n\\text{ 为正整数). }\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2023,
+        "end": 2028
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2023,
+        "end": 2028
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-6",
+    "category": "复习题B",
+    "answer": "6. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 628,
+        "end": 629
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 是否存在常数 $a\\text{ 、 }b\\text{ 、 }c$ ,使等式\n\n$$\n1 \\cdot  \\left( {{n}^{2} - {1}^{2}}\\right)  + 2 \\cdot  \\left( {{n}^{2} - {2}^{2}}\\right)  + \\cdots  + n \\cdot  \\left( {{n}^{2} - {n}^{2}}\\right)  = a{n}^{4} + b{n}^{2} + c\n$$\n\n对任意正整数 $n$ 都成立? 证明你的结论.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2029,
+        "end": 2036
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2029,
+        "end": 2036
+      }
+    ],
+    "id": "x1-chapter-end-4-hB-7",
+    "category": "复习题B",
+    "answer": "7. 提示: 假设存在常数 $a\\text{、}b\\text{、}c$ ,使等式 $1 \\cdot  \\left( {{n}^{2} - {1}^{2}}\\right)  + 2 \\cdot  \\left( {{n}^{2} - {2}^{2}}\\right)  + 3 \\cdot  \\left( {{n}^{2} - {3}^{2}}\\right)  + \\cdots  + \\; n \\cdot  \\left( {{n}^{2} - {n}^{2}}\\right)  = a{n}^{4} + b{n}^{2} + c$ 对任意正整数 $n$ 都成立.\n\n当 $n = 1,2,3$ 时,等式均应成立,可解得 $a = \\frac{1}{4}, b =  - \\frac{1}{4}, c = 0$ .\n\n由此猜想 $1 \\cdot  \\left( {{n}^{2} - {1}^{2}}\\right)  + 2 \\cdot  \\left( {{n}^{2} - {2}^{2}}\\right)  + 3 \\cdot  \\left( {{n}^{2} - {3}^{2}}\\right)  + \\cdots  + n \\cdot  \\left( {{n}^{2} - {n}^{2}}\\right)  = \\frac{1}{4}{n}^{4} - \\frac{1}{4}{n}^{2}$ 对任意正整数 $n$ 都成立. 数学归纳法证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 630,
+        "end": 635
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "#### 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2037,
+        "end": 2037
+      }
+    ],
+    "id": "x1-chapter-end-4-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 如图所示, 有三根直杆和套在一根直杆上的若干金属片, 把金属片按下列规则从一根直杆上全部移到另一根直杆上:\n\n① 每次只移动 1 个金属片;\n\n② 较大的金属片不能放在较小的金属片上面.\n\n试推测: 把 $n$ 个金属片从 1 号直杆移到 3 号直杆,最少需要移动多少次?\n\n![bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg](images/book-5f60495395eef6b590f6.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2039,
+        "end": 2050
+      },
+      {
+        "source": "book",
+        "start": 2047,
+        "end": 2049
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2039,
+        "end": 2050
+      },
+      {
+        "source": "book",
+        "start": 2047,
+        "end": 2049
+      }
+    ],
+    "id": "x1-chapter-end-4-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 提示: 设将第 $n$ 个金属片从 1 号直杆移到 3 号直杆需移动的最少次数记为 ${a}_{n}$ . 要先说明数列 $\\left\\{  {a}_{n}\\right\\}$ 满足递推关系: ${a}_{n} = 2{a}_{n - 1} + 1\\left( {n \\geq  2}\\right)$ .\n\n据此得到数列 $\\left\\{  {a}_{n}\\right\\}$ 的通项公式为 ${a}_{n} = {2}^{n} - 1$ ,因此最少需要移动 ${2}^{n} - 1$ 次.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 638,
+        "end": 641
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 如图, 将一个边长为 1 的正三角形的每条边三等分, 以中间一段为边向外作正三角形, 并擦去中间这一段, 如此继续下去得到的曲线称为科克雪花曲线. 将下面的图形依次记作 ${M}_{1}\\text{ 、 }{M}_{2}\\text{ 、 }{M}_{3}\\text{ 、 }\\cdots \\text{ 、 }{M}_{n}\\text{ 、 }\\cdots$ .\n\n\n(1)求 ${M}_{n}$ 的周长;\n\n(2)求 ${M}_{n}$ 的面积；\n\n(3)当 $n \\rightarrow   + \\infty$ 时,科克雪花曲线所围成的图形是周长无限增大而面积却有极限的图形吗? 若是, 请求出其面积的极限; 若不是, 请说明理由.\n\n![bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg](images/book-0d0c62f7da5a5967c8b8.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2051,
+        "end": 2061
+      },
+      {
+        "source": "book",
+        "start": 2053,
+        "end": 2055
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2051,
+        "end": 2061
+      },
+      {
+        "source": "book",
+        "start": 2053,
+        "end": 2055
+      }
+    ],
+    "id": "x1-chapter-end-4-t-2",
+    "category": "拓展与思考",
+    "answer": "2. (1)设 ${M}_{n}$ 的周长为 ${L}_{n}$ ,其通项公式为 ${L}_{n} = 3 \\cdot  {\\left( \\frac{4}{3}\\right) }^{n - 1}$ .\n\n(2)设 ${M}_{n}$ 的面积为 ${A}_{n}$ ,可证明 ${A}_{n} = \\frac{2\\sqrt{3}}{5} - \\frac{3\\sqrt{3}}{20} \\cdot  {\\left( \\frac{4}{9}\\right) }^{n - 1}$ .\n\n(3)当 $n$ 无限增大时, ${L}_{n}$ 也随之无限增大,而 $\\mathop{\\lim }\\limits_{{n \\rightarrow  \\infty }}{A}_{n} = \\frac{2\\sqrt{3}}{5}$ .\n\n因此, 科克雪花曲线所围成的图形是周长无限增大而面积却有极限的图形, 且面积的极限为 $\\frac{2\\sqrt{3}}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 642,
+        "end": 649
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 华罗庚. 数学归纳法[M]. 上海: 上海教育出版社, 1963.\n\n[2] 李大潜. 黄金分割漫话[M]. 北京:高等教育出版社,2007.\n\n### 后 记\n\n本套教学参考资料与李大潜、王建磐主编,上海教育出版社出版的《普通高中教科书·数学》配套使用,本套教材根据中华人民共和国教育部制定并颁布实施的《普通高中数学课程标准(2017 年版 2020 年修订)》编制,并经国家教材委员会专家委员会审核通过.\n\n本套教材是由设在复旦大学和华东师范大学的两个上海市数学教育教学研究基地 (上海高校“立德树人”人文社会科学重点研究基地)联合主持编写的. 编写工作依据高中数学课程标准的具体要求,努力符合教育规律和高中学生的认知规律,结合上海城市发展定位和课程改革基础, 并力求充分体现特色. 希望我们的这一努力能经得起实践和时间的检验,对扎实推进数学的基础教育发挥积极的作用.\n\n本书是与选择性必修第一册教材配套的教学参考资料, 共为四章, 各章编写人员分别为\n\n曾国光(第 1 章)\n\n虞涛、李英(第 2 章)\n\n王华、施洪亮(第 3 章)\n\n叶莎莎、许亚善(第 4 章)\n\n限于编写者的水平, 也由于新编教材尚缺乏教学实践的检验, 不妥及疏漏之处在所难免, 恳请广大师生及读者不吝赐教. 宝贵意见请通过邮箱 gaozhongshuxue@seph.com.cn 反馈, 不胜感激.\n\n### 图书在版编目 (CIP) 数据\n\n普通高中数学教学参考资料:选择性必修. 第一册 / 上海市中小学(幼儿园)课程改革委员会组织编写. 一上海:上海教育出版社,2022.1\n\nISBN 978-7-5720-1315-7\n\nI. ①普... II. ①上... III. ①中学数学课 - 高中 - 教学参考资料 IV. ①G634.603\n\n中国版本图书馆CIP数据核字(2022)第004338号",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 650,
+        "end": 684
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-chapter-end-4-b26",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

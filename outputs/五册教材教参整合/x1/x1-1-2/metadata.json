@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-1-2",
+  "book_id": "x1",
+  "section": "1.2",
+  "title": "直线的方程",
+  "section_json": "batch/sections/x1/x1-1-2.json",
+  "output": "outputs/五册教材教参整合/x1/x1-1-2",
+  "fingerprint": "6c1d185ac6c22ab4294d9363c688fc839704215ae26d7c7aa2f1892806510742",
+  "status": "rendered",
+  "questions": 49,
+  "answers": 49,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-510a42bc51ced1018306.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg",
+      "sha256": "510a42bc51ced1018306dd0b44d7cc9175c7f33685c3b7f992ba84b685dd4fd7",
+      "private": false
+    },
+    "images/book-0803699d4bd156a5aaa9.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg",
+      "sha256": "0803699d4bd156a5aaa93d7ac60e41354e3081e39778c9737e1c0d61bdcd8d66",
+      "private": false
+    },
+    "images/book-0aa8765636284a38d4fb.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg",
+      "sha256": "0aa8765636284a38d4fb98375622d4deac582eec8da1c5ad9d7fdf0283dc3143",
+      "private": false
+    },
+    "images/book-8bac2035b68f5da078e4.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg",
+      "sha256": "8bac2035b68f5da078e4a5026955552b283168762705f7e31487990aec669892",
+      "private": false
+    },
+    "images/private-9b3887bfe849369f8877.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg",
+      "sha256": "9b3887bfe849369f88777a73613474738a6d6b0d23c2bc51e96338f2bc9c7db9",
+      "private": true
+    },
+    "images/book-b66ff40e9cc9c10ab480.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg",
+      "sha256": "b66ff40e9cc9c10ab480c3992950dcaf203c7c10c7fa31f566bac8696765a144",
+      "private": false
+    },
+    "images/private-cddfa046e981fa81ee15.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_40_1077_1646_338_320_0.jpg",
+      "sha256": "cddfa046e981fa81ee154add5c587173bc942edf0e4f11b567255dd801f7f0fc",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+  },
+  "student_images": [
+    "images/book-0803699d4bd156a5aaa9.jpg",
+    "images/book-0aa8765636284a38d4fb.jpg",
+    "images/book-510a42bc51ced1018306.jpg",
+    "images/book-8bac2035b68f5da078e4.jpg",
+    "images/book-b66ff40e9cc9c10ab480.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "f01f9678874d41bb9dcbbf3ac6e608c00088866b09afed6b266c97e5811a80e3",
+    "student.html": "444e1e3ad8d68e199f26180564d483ddc900cea95266b9110e23a4f801d3e341",
+    "student.zip": "8f04264bf63a27a3933ead3f98b51b61cc604f810306a9f1fbc617acfce4c5e7",
+    "content.json": "a3f8cc48152373bda213f209758cc1a5aff75044063b4d3b97923da6c58c39ce"
+  }
+}

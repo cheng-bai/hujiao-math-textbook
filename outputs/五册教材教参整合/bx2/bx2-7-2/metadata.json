@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-7-2",
+  "book_id": "bx2",
+  "section": "7.2",
+  "title": "余弦函数的图像与性质",
+  "section_json": "batch/sections/bx2/bx2-7-2.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-7-2",
+  "fingerprint": "ced4539174ebef831f5f5ce06b0a5c164c1ca20eca56dde1e21df5f93ade796a",
+  "status": "rendered",
+  "questions": 13,
+  "answers": 13,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-0ab74014bf2e2872b3cc.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_16_152_1703_945_222_0.jpg",
+      "sha256": "0ab74014bf2e2872b3ccd1036352b1cb011468d1b963543a53a83a6a363804f9",
+      "private": false
+    },
+    "images/book-75454739f85619cc65e0.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_16_1175_1778_252_188_0.jpg",
+      "sha256": "75454739f85619cc65e098898e47edfe1cb470ec17024531d69c9fab45e7e33d",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md": "aa198208462a3427ed9d0e4b9291ff53a870f74e46b159f9513c1bd96beefeff",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md": "1fabcbcd4f3cbe946e2576ba67d6bdc7962a79eb957c90f5770da428b4899df8"
+  },
+  "student_images": [
+    "images/book-0ab74014bf2e2872b3cc.jpg",
+    "images/book-75454739f85619cc65e0.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "458153d907c565b154de9fcd1120788838c2159bcea89663ca17005252b3c1aa",
+    "student.html": "9f5a324b6b98449f0195320263f8796f13d8e98064f450d4b00abe0e675cc03f",
+    "student.zip": "f6b4005be048bf533e2ec5b87b5f998d00a0279ccfcbf98a5c1bd1202bcdcb63",
+    "content.json": "7cdb5c429c3682741743c085a707340fe49e1f6266854fbbdd573600ec675a25"
+  }
+}

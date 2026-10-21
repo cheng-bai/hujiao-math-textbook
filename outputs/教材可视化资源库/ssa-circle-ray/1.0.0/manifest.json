@@ -1,0 +1,378 @@
+{
+  "asset_id": "d02deeb0-e234-51fb-a6ba-33953d149b10",
+  "contributors": [
+    {
+      "name": "Codex deep-geometry implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "A": 30,
+      "mode": "explore",
+      "ratio": 1.5
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-geometry",
+    "source_build_sha256": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx2-6-3-b3",
+          "rationale": "正弦定理后加入教师拓展，呈现SSA多解依据，不替换原定理推导。",
+          "retainProse": true,
+          "sectionId": "bx2-6-3",
+          "sourceSha256": "306d6a7ff874ee6cc1f85a814c820f6ca2de2e20204c4333f8757cd5dc5ab462"
+        }
+      ],
+      "sections": [
+        "bx2-6-3"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 24358,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d"
+    },
+    {
+      "bytes": 6074,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "a54880acd66b7e43d65af2181c0c733ca3f948a67dc1fb653bfeae9f3a8b55f0"
+    },
+    {
+      "bytes": 7955,
+      "media_type": "text/javascript",
+      "path": "source/deep-geometry.js",
+      "role": "source",
+      "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+    },
+    {
+      "bytes": 14266,
+      "media_type": "application/json",
+      "path": "source/deep-geometry.json",
+      "role": "source",
+      "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+    },
+    {
+      "bytes": 4838,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-geometry.mjs",
+      "role": "source",
+      "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 5438,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "e008962df732adcf9c47db5890f2c72129daa54415a06e1c6230b517327931ce"
+    },
+    {
+      "bytes": 4931,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "1f9d5073922acbfa44d4ff4702d014ea3a3c69c8b677aa36969912107ced984e"
+    },
+    {
+      "bytes": 1025,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "4ca9764549806f42122937f0eb8de854a4857abb24a85c9c78e792de2b1ffae7"
+    },
+    {
+      "bytes": 2549,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "23507f429723cb0944f0159818b2541fee527c0a8ceb8048e5ae7f959b2c334a"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "b95a450255bd69f6ed8ea9c52cfd09f1034b27c7dd18e4a6ed5bacb6b02773ae"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 523,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "a58988185f3ce6e6d1fc5a3705b8941ea19fddcf98260accdb3a04356b4f625a"
+    },
+    {
+      "bytes": 137746,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "ab69c63c7a7834e222fb26ce079b9755416aadc901ad31cae8d6d9484e4daa44"
+    },
+    {
+      "bytes": 89756,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "3981f848fb56351f43be45b14227ab958b67d4385a4acdee480cf588206115d7"
+    },
+    {
+      "bytes": 185339,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "466d4c3d4547780a523c9fa1f25467d4819820cf4acc7d795047f9f0bec3b989"
+    },
+    {
+      "bytes": 90323,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "76306ec32996ebc5cb3fdfb5c27cf57cba2db2a3b847be77ee279cb59bce2dec"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "14fdeece94f4f332b5cc76457616437fcd8db134d6ca1f3203da350ef276975d"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "教师拓展，不将完整SSA分类提升为全体学生必学。固定AC=b=3及角A，令C=(3cosA,3sinA)，B=(c,0)，其中c>0。由BC=a得(c−3cosA)²+h²=a²，h=3sinA。圆与直线的候选交点还须剔除c≤0者。因此a=h虽为相切，却仅在A为锐角时产生一个有效三角形；直角时B=A退化，钝角时切点在反向延长线上。a=b时同样须剔除B=A。动态探索解释分类依据，不能以有限次拖动替代上述方程和有效性验证。"
+    ],
+    "learning_goals": [
+      "将可能的三角形个数转化为有效交点数，辨别相切、反向交点及退化解。"
+    ],
+    "objects": [
+      "SSA为何不唯一：圆与射线的有效交点"
+    ],
+    "parameters": {
+      "A": {
+        "default": 30,
+        "display_range": [
+          20,
+          160
+        ],
+        "domain": "本实验允许输入范围 [20, 160]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      },
+      "mode": {
+        "default": "explore",
+        "domain": "允许的离散选项：[\"explore\", \"below\", \"height\", \"above\", \"equal\", \"long\"]",
+        "type": "enum"
+      },
+      "ratio": {
+        "default": 1.5,
+        "display_range": [
+          0.5,
+          3
+        ],
+        "domain": "本实验允许输入范围 [0.5, 3]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-geometry"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "将可能的三角形个数转化为有效交点数，辨别相切、反向交点及退化解。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "A": 30,
+          "mode": "explore",
+          "ratio": 1.5
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "ssa-circle-ray",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "A": {
+        "maximum": 160,
+        "minimum": 20,
+        "type": "integer"
+      },
+      "mode": {
+        "enum": [
+          "explore",
+          "below",
+          "height",
+          "above",
+          "equal",
+          "long"
+        ],
+        "type": "string"
+      },
+      "ratio": {
+        "maximum": 3,
+        "minimum": 0.5,
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "SSA为何不唯一：圆与射线的有效交点",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:40Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-geometry.js",
+          "sha256": "84fa8a3941dbddc74409b851c6d70577e85639fa1832e49d86b6554ebcad6aeb"
+        },
+        {
+          "path": "source/deep-geometry.json",
+          "sha256": "0d7e49213df4914ba089f3f297cfd38876b1e99775b41da320554ee2a7fe93de"
+        },
+        {
+          "path": "source/test-deep-geometry.mjs",
+          "sha256": "579b7e757e492f14684ab6c3b2361a63a82dc4c421f2fa561542d2f9acb23047"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840014Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840014Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.713552Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "0a9bac08de7aee102a359fd7d434ad5e813dac8284c4789fe66f882423303e8d"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "a54880acd66b7e43d65af2181c0c733ca3f948a67dc1fb653bfeae9f3a8b55f0"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

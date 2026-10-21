@@ -1,0 +1,375 @@
+{
+  "asset_id": "6b479375-a6d5-5b38-9f29-74e9ada8da79",
+  "contributors": [
+    {
+      "name": "Codex deep-analysis implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T19:38:41Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "result": "1-2",
+      "scenario": "distinct"
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "deep-analysis",
+    "source_build_sha256": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x2-6-3-b10",
+          "rationale": "在排列与组合对应表后深化重复计数的条件，原公式推导和例题保持可见。",
+          "retainProse": true,
+          "sectionId": "x2-6-3",
+          "sourceSha256": "0250c6b40e8f882b0d0c223e305ef3a94937c88670eb960fb65e84ae820fcf50"
+        }
+      ],
+      "sections": [
+        "x2-6-3"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 27102,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21"
+    },
+    {
+      "bytes": 10224,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "79d860d34a06a418b391c3afa22813a9566fd893c999d0955f6e7b9184dfe042"
+    },
+    {
+      "bytes": 10543,
+      "media_type": "text/javascript",
+      "path": "source/deep-analysis.js",
+      "role": "source",
+      "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+    },
+    {
+      "bytes": 17486,
+      "media_type": "application/json",
+      "path": "source/deep-analysis.json",
+      "role": "source",
+      "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+    },
+    {
+      "bytes": 6615,
+      "media_type": "text/javascript",
+      "path": "source/test-deep-analysis.mjs",
+      "role": "source",
+      "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 6315,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "fc3bef86c4ae0125d53b8c3d5b555d4b3d2d89dd34cbd835aa09ac121d047d62"
+    },
+    {
+      "bytes": 7430,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "9ca2bdd5260ad1e0710afa21d89750f503bc4c8302debf8c023129313fef4498"
+    },
+    {
+      "bytes": 1065,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "e49f69609e726a999d0fe3b43e8ec15966c044e0029b0d59e719fedd4df3db96"
+    },
+    {
+      "bytes": 5471,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "58d240610f581842961a91a09af2a0a651077e9bb774a6eab7e8798cf5c6d42d"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "23e900e66cadd35a12df7ecc378bfef5ea135dc9b7143ae0bf4c572e3f2c8e73"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 538,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "b9334d1a26b6fb1e502638bad8d535516d8ebfa14b5b4e19d6c85b637b44e18f"
+    },
+    {
+      "bytes": 145590,
+      "media_type": "image/png",
+      "path": "evidence/visual-0.png",
+      "role": "evidence",
+      "sha256": "d70d5ab369f18ec880aa7239eb14d0ebf7695877540a50c741109393c7be8ce6"
+    },
+    {
+      "bytes": 89165,
+      "media_type": "image/png",
+      "path": "evidence/visual-1.png",
+      "role": "evidence",
+      "sha256": "cbdc5db1f76978d63e14b9141aa64c24959336e58f69a93a19e324a1dbac4c13"
+    },
+    {
+      "bytes": 158831,
+      "media_type": "image/png",
+      "path": "evidence/visual-2.png",
+      "role": "evidence",
+      "sha256": "dff3a3ad24414f34210c45ba5eb4ed112efcb56a36f5adbe936faf139e5dc141"
+    },
+    {
+      "bytes": 89165,
+      "media_type": "image/png",
+      "path": "evidence/visual-3.png",
+      "role": "evidence",
+      "sha256": "cbdc5db1f76978d63e14b9141aa64c24959336e58f69a93a19e324a1dbac4c13"
+    },
+    {
+      "bytes": 394,
+      "media_type": "application/json",
+      "path": "evidence/visual-review.json",
+      "role": "evidence",
+      "sha256": "2c0771e1896d79b8390d23ab99cf39fc2c3f8cff2b6de36a379e7518d39159f1"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "场景一：从1至6六个不同元素中依次等可能地不放回取两个，共6×5=30个有序结果。忽略顺序后，每组{i,j}（i≠j）恰对应(i,j)、(j,i)，故共30÷2=15组。场景二：两枚可区分的公平骰子独立投掷，36个有序结果等可能；忽略顺序后，同点数组各有1个来源，异点数组各有2个来源，共6+15=21组。因此不能统一用36÷2计数，更不能把21个无序结果视为等可能：同点数组概率1/36，异点数组概率2/36。这里统一相除的依据是每个最终结果被计次数相同。选取重复项在不放回场景中无效，界面诚实保留该选择并标明结果不存在。"
+    ],
+    "learning_goals": [
+      "选择一个最终结果，反查它对应的全部有序过程；比较统一重复与不统一重复，判断何时可以整体相除。"
+    ],
+    "objects": [
+      "为什么能除以重复次数：从有序过程到最终结果"
+    ],
+    "parameters": {
+      "result": {
+        "default": "1-2",
+        "domain": "允许的离散选项：[\"1-1\", \"1-2\", \"1-3\", \"1-4\", \"1-5\", \"1-6\", \"2-2\", \"2-3\", \"2-4\", \"2-5\", \"2-6\", \"3-3\", \"3-4\", \"3-5\", \"3-6\", \"4-4\", \"4-5\", \"4-6\", \"5-5\", \"5-6\", \"6-6\"]",
+        "type": "enum"
+      },
+      "scenario": {
+        "default": "distinct",
+        "domain": "允许的离散选项：[\"distinct\", \"dice\"]",
+        "type": "enum"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "deep-analysis"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "选择一个最终结果，反查它对应的全部有序过程；比较统一重复与不统一重复，判断何时可以整体相除。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "result": "1-2",
+          "scenario": "distinct"
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "counting-equal-multiplicity",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "result": {
+        "enum": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "1-6",
+          "2-2",
+          "2-3",
+          "2-4",
+          "2-5",
+          "2-6",
+          "3-3",
+          "3-4",
+          "3-5",
+          "3-6",
+          "4-4",
+          "4-5",
+          "4-6",
+          "5-5",
+          "5-6",
+          "6-6"
+        ],
+        "type": "string"
+      },
+      "scenario": {
+        "enum": [
+          "distinct",
+          "dice"
+        ],
+        "type": "string"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "为什么能除以重复次数：从有序过程到最终结果",
+  "updated_at": "2026-10-19T19:38:41Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T19:38:41Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/deep-analysis.js",
+          "sha256": "82c5f30508ff8d6986a284bd13b538d99be648cca82715575cf9d8f5a99ea86e"
+        },
+        {
+          "path": "source/deep-analysis.json",
+          "sha256": "0b012f446e12e5f00679aa5d8be842ca0fbc6655cee2c7538e3a62b73c8803dc"
+        },
+        {
+          "path": "source/test-deep-analysis.mjs",
+          "sha256": "c8e693a12be608ef123fdc121627837b4851dea815cbd6b17c59083f4df3404e"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840091Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:19:00.840091Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T19:35:35.714472Z",
+      "evidence": [
+        "evidence/visual-0.png",
+        "evidence/visual-1.png",
+        "evidence/visual-2.png",
+        "evidence/visual-3.png",
+        "evidence/visual-review.json"
+      ],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "63cbf587e1a5c1c5e961652d5d317dc0985d51d7394acbbfa932493b34f63c21"
+        },
+        {
+          "path": "previews/preview.svg",
+          "sha256": "79d860d34a06a418b391c3afa22813a9566fd893c999d0955f6e7b9184dfe042"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

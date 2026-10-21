@@ -1,0 +1,342 @@
+{
+  "scope": "content-only",
+  "review_status": "pending-independent-review",
+  "sections": [
+    {
+      "section_id": "bx1-2-2",
+      "status": "already-applied",
+      "actions": [
+        {
+          "question_id": "bx1-2-2-p222-1",
+          "action": "author-or-correct",
+          "reason": "教参第662—664行缺题号和第(1)问，按完整题面补写六问。"
+        },
+        {
+          "question_id": "bx1-2-2-p222-2",
+          "action": "author-or-correct",
+          "reason": "教参第666—668行缺主编号，依题面校订并补验解集。"
+        }
+      ],
+      "question_count_before": 48,
+      "question_count_after": 48,
+      "blocking_before": 3,
+      "blocking_after": 0
+    },
+    {
+      "section_id": "bx1-chapter-end-5",
+      "status": "already-applied",
+      "actions": [
+        {
+          "action": "split-swallowed-starred-question",
+          "question_id": "bx1-chapter-end-5-t-4",
+          "source_lines": [
+            1345,
+            1349
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-1",
+          "action": "author-or-correct",
+          "reason": "保留教参624行结论，补上必修阶段作差证明。"
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-2",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            626,
+            634
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-3",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            636,
+            636
+          ]
+        },
+        {
+          "question_id": "bx1-chapter-end-5-t-4",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            638,
+            644
+          ]
+        }
+      ],
+      "question_count_before": 18,
+      "question_count_after": 19,
+      "blocking_before": 1,
+      "blocking_after": 0
+    },
+    {
+      "section_id": "bx2-6-1",
+      "status": "already-applied",
+      "actions": [
+        {
+          "question_id": "bx2-6-1-h61A-1",
+          "action": "author-or-correct",
+          "reason": "教参346行只存(2)(3)，补写第(1)问及判别依据。"
+        },
+        {
+          "question_id": "bx2-6-1-h61A-2",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            348,
+            348
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-3",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            350,
+            352
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-4",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            354,
+            354
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-5",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            356,
+            358
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-6",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            360,
+            360
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-7",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            362,
+            362
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-8",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            364,
+            366
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-9",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            368,
+            370
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-10",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            372,
+            374
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-11",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            376,
+            376
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-12",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            378,
+            378
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-13",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            380,
+            382
+          ]
+        },
+        {
+          "question_id": "bx2-6-1-h61A-14",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            384,
+            384
+          ]
+        },
+        {
+          "action": "remove-false-question-classification",
+          "question_id": "bx2-6-1-ex-14-L495",
+          "reason": "侧注重复，前一题已含(1)—(4)完整题面与证明。"
+        },
+        {
+          "action": "complete-nearby-partial-answer",
+          "question_id": "bx2-6-1-p611-3"
+        }
+      ],
+      "question_count_before": 73,
+      "question_count_after": 72,
+      "blocking_before": 3,
+      "blocking_after": 0
+    },
+    {
+      "section_id": "bx2-7-1",
+      "status": "already-applied",
+      "actions": [
+        {
+          "question_id": "bx2-7-1-h71A-2",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            320,
+            320
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-3",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            322,
+            322
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-4",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            324,
+            330
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-6",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            334,
+            334
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-7",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            336,
+            338
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-8",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            340,
+            342
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-9",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            344,
+            344
+          ]
+        },
+        {
+          "question_id": "bx2-7-1-h71A-1",
+          "action": "author-or-correct",
+          "reason": "教参318行仅写略，补足可以直接作图的关键点与变换。"
+        },
+        {
+          "question_id": "bx2-7-1-h71A-5",
+          "action": "author-or-correct",
+          "reason": "教参332行只保留第(3)问且丢主编号，补全定义域与三问理由。"
+        }
+      ],
+      "question_count_before": 37,
+      "question_count_after": 37,
+      "blocking_before": 2,
+      "blocking_after": 0
+    },
+    {
+      "section_id": "bx2-chapter-end-7",
+      "status": "already-applied",
+      "actions": [
+        {
+          "question_id": "bx2-chapter-end-7-hA-1",
+          "action": "author-or-correct",
+          "reason": "教参462行缺主编号及第(1)问。"
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-2",
+          "action": "author-or-correct",
+          "reason": "教参464行只存第(4)问，补齐四问及定义域。"
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-3",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            466,
+            466
+          ]
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-4",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            468,
+            474
+          ]
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-6",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            478,
+            478
+          ]
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-7",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            480,
+            486
+          ]
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-8",
+          "action": "manual-source-match",
+          "teacher_lines": [
+            488,
+            490
+          ]
+        },
+        {
+          "question_id": "bx2-chapter-end-7-hA-5",
+          "action": "author-or-correct",
+          "reason": "教参476行只写略，补足五点作图和周期延拓说明。"
+        }
+      ],
+      "question_count_before": 16,
+      "question_count_after": 16,
+      "blocking_before": 3,
+      "blocking_after": 0
+    }
+  ]
+}

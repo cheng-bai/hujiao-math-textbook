@@ -1,0 +1,56 @@
+{
+  "controls": [
+    {
+      "key": "base",
+      "label": "底数 a",
+      "options": [
+        {
+          "label": "1/2",
+          "value": "0.5"
+        },
+        {
+          "label": "0.8",
+          "value": "0.8"
+        },
+        {
+          "label": "1（边界）",
+          "value": "1"
+        },
+        {
+          "label": "1.25",
+          "value": "1.25"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "x",
+      "label": "观察点 x",
+      "max": 2,
+      "min": -2,
+      "step": 0.1,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>y</mi><mo>=</mo><msup><mi>a</mi><mi>x</mi></msup><mo>&gt;</mo><mn>0</mn><mo>,</mo><mspace width=\"1em\"/><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo><mn>1</mn><mo>,</mo><mspace width=\"1em\"/><mi>a</mi><mo>&gt;</mo><mn>0</mn><mo>,</mo><mi>a</mi><mo>≠</mo><mn>1</mn></mrow></math>",
+  "goal": "用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。",
+  "id": "exponential-base",
+  "initial": {
+    "base": "2",
+    "x": 1
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx1-4-2-b12",
+      "rationale": "覆盖本节原prose第12块：用参数曲线代替指数函数两类图像、单调性与性质表的重复说明。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+      "sectionId": "bx1-4-2"
+    }
+  ],
+  "sourceReuse": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+  "summary": "a>0、a≠1 时，指数函数定义域为全体实数，值域为正实数，恒过 (0,1)，趋近 x 轴但永不相交。a>1 严格增；0<a<1 严格减。比较 x 正负两侧的函数值，观察底数在 1 两侧时整条曲线如何交换增长方向。",
+  "title": "底数跨过 1：增长、衰减与固定点"
+}

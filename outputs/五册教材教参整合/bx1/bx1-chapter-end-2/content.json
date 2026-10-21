@@ -1,0 +1,1053 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1403,
+        "end": 1403
+      }
+    ],
+    "id": "bx1-chapter-end-2",
+    "number": "chapter-end-2",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "调和平均值与算术平均值不等式",
+    "markdown": "## 调和平均值与算术平均值不等式",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1405,
+        "end": 1405
+      }
+    ],
+    "id": "bx1-chapter-end-2-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "船速一定的汽船, 在静水中和有流速的河中往返航行同样的距离, 所需的时间是否一样？有人认为二者所需的时间是一样的, 他们的理由是: 当河水有流速时, 汽船逆流上行虽然速度要减慢，但回来时顺流下行的速度要加快，二者互相补偿，航行时间就应和在静水中往返一次所需的时间一样.\n\n上面的说法貌似有理，但事实却并非如此. 为说明这一点，只需做一下简单的计算就可以了. 设汽船在静水中航行的速度为 ${v}_{\\text{ 静 }}$ ,河水的流速为 ${v}_{\\text{ 水 }}$ ,汽船在河流中航行的单程距离为 $L$ . 那么汽船逆流上行的实际速度是 ${v}_{\\text{ 上 }} = {v}_{\\text{ 静 }} - {v}_{\\text{ 水 }}$ ,而顺流下行的实际速度是 ${v}_{\\mathrm{\\text{ 下 }}} = {v}_{\\text{ 静 }} + {v}_{\\text{ 水 }}$ . 这样汽船往返一次所需的总时间是\n\n$$\n\\frac{L}{{v}_{\\mathrm{\\text{ 上 }}}} + \\frac{L}{{v}_{\\mathrm{\\text{ 下 }}}} = \\frac{L}{{v}_{\\mathrm{\\text{ 静 }}} - {v}_{\\mathrm{\\text{ 水 }}}} + \\frac{L}{{v}_{\\mathrm{\\text{ 静 }}} + {v}_{\\mathrm{\\text{ 水 }}}} = \\frac{{2L}{v}_{\\mathrm{\\text{ 静 }}}}{{v}_{\\mathrm{\\text{ 粉 }}}^{2} - {v}_{\\mathrm{\\text{ 水 }}}^{2}} = \\frac{2L}{{v}_{\\mathrm{\\text{ 静 }}}\\left( {1 - \\frac{{v}_{\\mathrm{\\text{ 水 }}}^{2}}{{v}_{\\mathrm{\\text{ 静 }}}^{2}}}\\right) },\n$$\n\n它总是大于汽船在静水中往返一次的时间 $\\frac{2L}{{v}_{\\text{ 静 }}}$ ,且河水流速愈大,二者的差距愈大.\n\n由上式, 我们可以看到, 汽船在有流速的河中行驶的平均速度是\n\n$$\n\\frac{2L}{\\frac{L}{{v}_{\\mathrm{\\text{ 上 }}}} + \\frac{L}{{v}_{\\mathrm{\\text{ 下 }}}}} = \\frac{2}{\\frac{1}{{v}_{\\mathrm{\\text{ 上 }}}} + \\frac{1}{{v}_{\\mathrm{\\text{ 下 }}}}},\n$$\n\n它也是汽船上、下航行速度 ${v}_{\\text{ 上 }}\\text{ 、 }{v}_{\\text{ 下 }}$ 的某种平均值,称为调和平均值. 而汽船上、下航行速度 ${v}_{\\text{ 上 }}\\text{ 、 }{v}_{\\text{ 下 }}$ 的算术平均值\n\n$$\n\\frac{{v}_{\\text{ 上 }} + {v}_{\\text{ 下 }}}{2} = {v}_{\\text{ 阶 }}\n$$\n\n正是汽船在静水中航行的速度. 注意到\n\n$$\n\\frac{2}{\\frac{1}{{v}_{\\mathrm{\\text{ 上 }}}} + \\frac{1}{{v}_{\\mathrm{\\text{ 下 }}}}} = {v}_{\\text{ 静 }}\\left( {1 - \\frac{{v}_{\\text{ 水 }}^{2}}{{v}_{\\text{ 静 }}^{2}}}\\right)  \\leq  {v}_{\\text{ 静 }} = \\frac{{v}_{\\mathrm{\\text{ 上 }}} + {v}_{\\mathrm{\\text{ 下 }}}}{2},\n$$\n\n就说明调和平均值总小于等于算术平均值.\n\n事实上,对此有一个一般性的结论: 对任意给定的两个正数 $a\\text{ 、 }b$ ,已知 $\\frac{a + b}{2}$ 为其算术平均值,并定义 $\\frac{2}{\\frac{1}{a} + \\frac{1}{b}}$ 为其调和平均值 (harmonic mean),就有\n\n$$\n\\frac{2}{\\frac{1}{a} + \\frac{1}{b}} \\leq  \\frac{a + b}{2}\n$$\n\n且等号当且仅当 $a = b$ 时成立,即调和平均值必小于等于算术平均值.\n\n历史上著名的迈克耳孙-莫雷实验(1887 年)正是利用上述原理而设计的. 过去人们认为光既然是一种波, 而波的传播是需要媒介的, 如声波的传播需要空气做媒介, 水波的传播需要水做媒介等，因此光的传播也需要有媒介．但光是能够在真空中传播的，因此人们想象整个宇宙空间(包括真空)中充满了一种作为光传播媒介的神秘物质——以太. 当地球以 ${30}\\mathrm{\\;{km}}/\\mathrm{s}$ 的速度绕太阳运动时,必定会有强烈的“以太风”迎面吹来. 这样,和上面的例子一样, 光线迎 “以太风”传播一定距离再反射回来所花费的时间, 和光线垂直于 “以太风” 方向传播同样的距离再反射回来所花费的时间, 就应该是不相等的. 迈克耳孙 (A. Michelson)和莫雷(E. Morley)依此原理设计了一个实验, 证明了两束光所花费的时间并无不同, 从而说明地球相对以太是静止的, 或者以太根本就不存在. 随着爱因斯坦相对论的建立, 以太学说逐渐被学界所抛弃.\n\n1907 年, 迈克耳孙因 “发明光学干涉仪并使用其进行光谱学和基本度量学研究”, 获得了诺贝尔物理学奖。作为迈克耳孙光学干涉仪的一个最著名的应用，迈克耳孙-莫雷实验解决了当年普遍困惑物理学界的问题, 而其基本思想竟是平均值不等式这一初等数学的知识!",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1406,
+        "end": 1448
+      }
+    ],
+    "emphases": [
+      {
+        "start": 1153,
+        "end": 1289,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx1-chapter-end-2-definition-2-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx1-chapter-end-2-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "内容提要",
+    "markdown": "## 内容提要",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1449,
+        "end": 1449
+      }
+    ],
+    "id": "bx1-chapter-end-2-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 实数大小的比较:\n\n$a > b \\Leftrightarrow  a - b > 0;a = b \\Leftrightarrow  a - b = 0;a < b \\Leftrightarrow  a - b < 0$ .\n\n2. 等式的基本性质:\n\n传递性 如果 $a = b$ ，且 $b = c$ ，那么 $a = c$ .\n\n加法性质 如果 $a = b, c \\in  \\mathbf{R}$ ,那么 $a + c = b + c$ .\n\n乘法性质 如果 $a = b, c \\in  \\mathbf{R}$ ,那么 ${ac} = {bc}$ .\n\n3. 不等式的基本性质:\n\n传递性 如果 $a > b$ ,且 $b > c$ ,那么 $a > c$ .\n\n加法性质 如果 $a > b, c \\in  \\mathbf{R}$ ,那么 $a + c > b + c$ .\n\n乘法性质 如果 $a > b, c > 0$ ,那么 ${ac} > {bc}$ ; 如果 $a > b, c < 0$ ,那么 ${ac} < {bc}$ .\n\n4. 不等式的常用性质:\n\n如果 $a > b, c > d$ ,那么 $a + c > b + d$ .\n\n如果 $a > b > 0$ ,那么 $\\frac{1}{b} > \\frac{1}{a} > 0$ .\n\n如果 $a > b > 0, c > d > 0$ ,那么 ${ac} > {bd} > 0$ .\n\n如果 $a > b > 0$ ,那么 ${a}^{n} > {b}^{n} > 0$ ,其中 $n$ 是正整数.\n\n如果 ${a}^{n} > {b}^{n} > 0$ ,其中 $a > 0, b > 0, n$ 是正整数,那么 $a > b > 0$ .\n\n5. 一元二次方程的根与系数关系:\n\n设 $a{x}^{2} + {bx} + c = 0\\left( {a \\neq  0}\\right)$ 的两根为 ${x}_{1}\\text{ 、 }{x}_{2}$ ,则 ${x}_{1} + {x}_{2} =  - \\frac{b}{a},{x}_{1}{x}_{2} = \\frac{c}{a}$ .\n\n6. 一元二次不等式的求解(下表中均假设 $a > 0$ ，而 $\\Delta  = {b}^{2} - {4ac}$ ):\n\n<table><tr><td></td><td>$\\Delta  > 0$</td><td>$\\Delta  = 0$</td><td>$\\Delta  < 0$</td></tr><tr><td>$a{x}^{2} + {bx} + c = 0$</td><td>有两不同实根 ${x}_{1} < {x}_{2}$</td><td>有两相同实根 ${x}_{1} = {x}_{2}$</td><td>无实根</td></tr><tr><td>$a{x}^{2} + {bx} + c > 0$</td><td>解集为 $\\left( {-\\infty ,{x}_{1}}\\right)  \\cup  \\left( {{x}_{2}, + \\infty }\\right)$</td><td>解集为 $\\left( {-\\infty ,{x}_{1}}\\right)  \\cup  \\left( {{x}_{1}, + \\infty }\\right)$</td><td>解集为 R</td></tr><tr><td>$a{x}^{2} + {bx} + c \\geq  0$</td><td>解集为 $\\left( {-\\infty ,{x}_{1}}\\right\\rbrack   \\cup  \\left\\lbrack  {{x}_{2}, + \\infty }\\right)$</td><td>解集为 $\\mathbf{R}$</td><td>解集为 R</td></tr><tr><td>$a{x}^{2} + {bx} + c < 0$</td><td>解集为 $\\left( {{x}_{1},{x}_{2}}\\right)$</td><td>解集为 $\\varnothing$</td><td>解集为 $\\varnothing$</td></tr><tr><td>$a{x}^{2} + {bx} + c \\leq  0$</td><td>解集为 $\\left\\lbrack  {{x}_{1},{x}_{2}}\\right\\rbrack$</td><td>解集为 $\\left\\{  {x}_{1}\\right\\}$</td><td>解集为 $\\varnothing$</td></tr></table>\n\n7. 基本不等式:\n\n平均值不等式 $\\frac{a + b}{2} \\geq  \\sqrt{ab}\\left( {a > 0, b > 0}\\right)$ ，当且仅当 $a = b$ 时等号成立.\n\n常用不等式 ${a}^{2} + {b}^{2} \\geq  {2ab}$ ，当且仅当 $a = b$ 时等号成立.\n\n$$\n{\\left( \\frac{a + b}{2}\\right) }^{2} \\geq  {ab}\\text{ ,当且仅当 }a = b\\text{ 时等号成立. }\n$$\n\n三角不等式 $\\left| {a + b}\\right|  \\leq  \\left| a\\right|  + \\left| b\\right|$ ，当且仅当 ${ab} \\geq  0$ 时等号成立.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1450,
+        "end": 1502
+      }
+    ],
+    "id": "bx1-chapter-end-2-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1503,
+        "end": 1503
+      }
+    ],
+    "id": "bx1-chapter-end-2-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "## A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1505,
+        "end": 1505
+      }
+    ],
+    "id": "bx1-chapter-end-2-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 设一元二次方程 $2{x}^{2} - {6x} - 3 = 0$ 的两个实根为 ${x}_{1}\\text{ 、 }{x}_{2}$ ,求下列各式的值:\n\n(1) $\\left( {{x}_{1} + 1}\\right) \\left( {{x}_{2} + 1}\\right)$ ； (2) $\\left( {{x}_{1}^{2} - 1}\\right) \\left( {{x}_{2}^{2} - 1}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1507,
+        "end": 1510
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1507,
+        "end": 1510
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-1",
+    "category": "复习题A",
+    "answer": "1. (1) $\\frac{5}{2}$ . (2) $- \\frac{35}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 830,
+        "end": 831
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 设 $a > b > 0$ ,比较 $\\frac{b + {2a}}{a + {2b}}$ 与 $\\frac{a}{b}$ 的值的大小.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1511,
+        "end": 1512
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1511,
+        "end": 1512
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-2",
+    "category": "复习题A",
+    "answer": "2. $\\frac{b + {2a}}{a + {2b}} < \\frac{a}{b}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 832,
+        "end": 833
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 已知 $x > y$ ,求证: ${x}^{3} - {y}^{3} > {x}^{2}y - x{y}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1513,
+        "end": 1514
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1513,
+        "end": 1514
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-3",
+    "category": "复习题A",
+    "answer": "3. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 834,
+        "end": 835
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 若关于 $x$ 的不等式 $\\left( {a + 1}\\right) x - a < 0$ 的解集为 $\\left( {2, + \\infty }\\right)$ ,求实数 $a$ 的值,并求不等式 $\\left( {a - 1}\\right) x + 3 - a > 0$ 的解集.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1515,
+        "end": 1516
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1515,
+        "end": 1516
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-4",
+    "category": "复习题A",
+    "answer": "4. $a =  - 2$ ,解集为 $\\left( {-\\infty ,\\frac{5}{3}}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 836,
+        "end": 837
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 解下列一元二次不等式:\n\n(1) $- {x}^{2} + {11} <  - {2x} - 4$ ； (2) $3{x}^{2} < {13x} + {10}$ ；\n\n(3) ${6x} + 2 \\geq  {5{x}^{2}}$ ； (4) ${x}^{2} \\leq  8\\left( {1 - x}\\right)$ ；\n\n(5) $- {x}^{2} \\geq  9\\left( {9 - {2x}}\\right)$ ； (6) $3\\left( {x - 3}\\right)  \\leq  {x}^{2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1517,
+        "end": 1524
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1517,
+        "end": 1524
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-5",
+    "category": "复习题A",
+    "answer": "5. (1)解集为 $\\left( {-\\infty , - 3}\\right)  \\cup  \\left( {5, + \\infty }\\right)$ . (2)解集为 $\\left( {-\\frac{2}{3},5}\\right) .\\;$ (3) 解集为 (4) 解集为 $\\left\\lbrack  {-4 - 2\\sqrt{6}, - 4 + 2\\sqrt{6}}\\right\\rbrack$ . (5) 解集为 $\\{ 9\\}$ .\n\n(6) 解集为 $\\mathbf{R}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 838,
+        "end": 841
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 试写出一个二次项系数为 1 的一元二次不等式, 使它的解集分别为:\n\n(1) $\\left( {-\\infty ,\\sqrt{2}}\\right)  \\cup  \\left( {\\sqrt{2}, + \\infty }\\right)$ ； (2) $\\left\\lbrack  {2 - \\sqrt{3},2 + \\sqrt{3}}\\right\\rbrack$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1525,
+        "end": 1528
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1525,
+        "end": 1528
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-6",
+    "category": "复习题A",
+    "answer": "6. (1) ${x}^{2} - 2\\sqrt{2}x + 2 > 0$ . (2) ${x}^{2} - {4x} + 1 \\leq  0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 842,
+        "end": 843
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 求不等式 $5 \\leq  {x}^{2} - {2x} + 2 < {26}$ 的所有正整数解.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1529,
+        "end": 1530
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1529,
+        "end": 1530
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-7",
+    "category": "复习题A",
+    "answer": "7. 正整数解为3,4,5.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 844,
+        "end": 845
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 解下列分式不等式:\n\n(1) $\\frac{{2x} + 1}{x + 7} >  - 3$ ； (2) $\\frac{3x}{{x}^{2} + 2} \\geq  1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1531,
+        "end": 1534
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1531,
+        "end": 1534
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-8",
+    "category": "复习题A",
+    "answer": "8. (1)解集为 $\\left( {-\\infty , - 7}\\right)  \\cup  \\left( {-\\frac{22}{5}, + \\infty }\\right) .\\;$ (2)解集为 $\\left\\lbrack  {1,2}\\right\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 846,
+        "end": 847
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 9",
+    "markdown": "9. 设关于 $x$ 的不等式 ${a}_{1}{x}^{2} + {b}_{1}x + {c}_{1} > 0$ 与 ${a}_{2}{x}^{2} + {b}_{2}x + {c}_{2} > 0$ 的解集分别为 $A\\text{ 、 }B$ , 试用集合运算表示下列不等式组的解集:\n\n(1) $\\left\\{  \\begin{array}{l} {a}_{1}{x}^{2} + {b}_{1}x + {c}_{1} > 0, \\\\  {a}_{2}{x}^{2} + {b}_{2}x + {c}_{2} > 0; \\end{array}\\right.$\n\n(2) $\\left\\{  \\begin{array}{l} {a}_{1}{x}^{2} + {b}_{1}x + {c}_{1} \\leq  0, \\\\  {a}_{2}{x}^{2} + {b}_{2}x + {c}_{2} > 0; \\end{array}\\right.$\n\n(3) $\\left\\{  \\begin{array}{l} {a}_{1}{x}^{2} + {b}_{1}x + {c}_{1} \\leq  0, \\\\  {a}_{2}{x}^{2} + {b}_{2}x + {c}_{2} \\leq  0. \\end{array}\\right.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1535,
+        "end": 1542
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1535,
+        "end": 1542
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-9",
+    "category": "复习题A",
+    "answer": "9. (1) $A \\cap  B$ . (2) $\\overline{A} \\cap  B$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 848,
+        "end": 849
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 10",
+    "markdown": "10. 解下列含绝对值的不等式:\n\n(1) $\\left| {{2x} - 1}\\right|  \\leq  x$ ； (2) $\\left| {{2x} + 1}\\right|  + \\left| {x - 2}\\right|  < 8$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1543,
+        "end": 1546
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1543,
+        "end": 1546
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-10",
+    "category": "复习题A",
+    "answer": "10. (1)解集为 $\\left\\lbrack  {\\frac{1}{3},1}\\right\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 850,
+        "end": 851
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 11",
+    "markdown": "11. 已知 $a\\text{ 、 }b$ 是正数,求证: $\\sqrt{\\left( {1 + a}\\right) \\left( {1 + b}\\right) } \\geq  1 + \\sqrt{ab}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1547,
+        "end": 1548
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1547,
+        "end": 1548
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-11",
+    "category": "复习题A",
+    "answer": "11. 证明: $\\sqrt{\\left( {1 + a}\\right) \\left( {1 + b}\\right) } \\geq  1 + \\sqrt{ab} \\Leftrightarrow  \\left( {1 + a}\\right) \\left( {1 + b}\\right)  \\geq  1 + 2\\sqrt{ab} + {ab}$\n\n$$\n\\Leftrightarrow  a + b \\geq  2\\sqrt{ab}\n$$\n\n$$\n\\Leftrightarrow  {\\left( \\sqrt{a} - \\sqrt{b}\\right) }^{2} \\geq  0\\text{. }\n$$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 852,
+        "end": 861
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 12",
+    "markdown": "12. 如图,在直角三角形 ${ABC}$ 中, ${AD}$ 垂直于斜边 ${BC}$ ,且垂足为 $D$ . 设 ${BD}$ 及 ${CD}$ 的长度分别为 $a$ 与 $b$ .\n\n(1)求斜边上的高 ${AD}$ 与中线 ${AE}$ 的长;\n\n(2)用不等式表示斜边上的高 ${AD}$ 与中线 ${AE}$ 长度的大小关系.\n\n![bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg](images/book-d27409fde9a1a81d63ae.jpg)\n\n(第 12 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1549,
+        "end": 1562
+      },
+      {
+        "source": "book",
+        "start": 1555,
+        "end": 1557
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1549,
+        "end": 1562
+      },
+      {
+        "source": "book",
+        "start": 1555,
+        "end": 1557
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-12",
+    "category": "复习题A",
+    "answer": "12. (1) ${AD} = \\sqrt{ab},{AE} = \\frac{a + b}{2}$ . (2) $\\sqrt{ab} \\leq  \\frac{a + b}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 862,
+        "end": 863
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 13",
+    "markdown": "13. 如图,已知直角梯形 ${ABCD}$ 的顶点 $A\\left( {a,0}\\right) \\text{ 、 }B\\left( {b,0}\\right)$ 位于 $x$ 轴上,顶点 $C\\text{ 、 }D$ 落在函数 $y = \\left| x\\right|$ 的图像上, $M\\text{ 、 }N$ 分别为线段 ${AB}\\text{ 、 }{CD}$ 的中点, $O$ 为坐标原点, $Q$ 为线段 ${OC}$ 与线段 ${MN}$ 的交点.\n\n(1)求中点 $M$ 的坐标，以及线段 ${MQ}$ 、 ${MN}$ 的长度；\n\n(2)用不等式表示 ${MQ}$ 、 ${MN}$ 长度的大小关系.\n\n![bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg](images/book-ce70cef3e828a647015d.jpg)\n\n(第 13 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1563,
+        "end": 1568
+      },
+      {
+        "source": "book",
+        "start": 1559,
+        "end": 1561
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1563,
+        "end": 1568
+      },
+      {
+        "source": "book",
+        "start": 1559,
+        "end": 1561
+      }
+    ],
+    "id": "bx1-chapter-end-2-hA-13",
+    "category": "复习题A",
+    "answer": "13. (1) $M\\left( {\\frac{a + b}{2},0}\\right) ,\\left| {MQ}\\right|  = \\left| \\frac{a + b}{2}\\right| ,\\left| {MN}\\right|  = \\frac{\\left| a\\right|  + \\left| b\\right| }{2}$ .\n\n(2) $\\left| \\frac{a + b}{2}\\right|  \\leq  \\frac{\\left| a\\right|  + \\left| b\\right| }{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 864,
+        "end": 867
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1569,
+        "end": 1569
+      }
+    ],
+    "id": "bx1-chapter-end-2-b20",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 已知一元二次方程 ${x}^{2} + {px} + p = 0$ 的两个实根分别为 $\\alpha$ 、 $\\beta$ ，且 ${\\alpha }^{2} + {\\beta }^{2} = 3$ . 求实数 $p$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1571,
+        "end": 1572
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1571,
+        "end": 1572
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-1",
+    "category": "复习题B",
+    "answer": "1. $p =  - 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 870,
+        "end": 871
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 已知一元二次方程 $2{x}^{2} - {4x} + m + 3 = 0$ 有两个同号实根,求实数 $m$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1573,
+        "end": 1574
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1573,
+        "end": 1574
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-2",
+    "category": "复习题B",
+    "answer": "2. $m$ 的取值范围为 $( - 3, - 1\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 872,
+        "end": 873
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 设 $a\\text{ 、 }b \\in  \\mathbf{R}$ ,已知关于 $x$ 的不等式 $\\left( {a + b}\\right) x + \\left( {b - {2a}}\\right)  < 0$ 的解集为 $\\left( {1, + \\infty }\\right)$ , 求不等式 $\\left( {a - b}\\right) x + {3b} - a > 0$ 的解集.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1575,
+        "end": 1576
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1575,
+        "end": 1576
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-3",
+    "category": "复习题B",
+    "answer": "3. 解集为 $\\left( {-\\infty , - 1}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 874,
+        "end": 875
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 解下列不等式:\n\n(1) $- 2 < \\frac{1}{{2x} + 1} \\leq  3$ ； (2) $2 < \\left| {x + 1}\\right|  \\leq  3$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1577,
+        "end": 1580
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1577,
+        "end": 1580
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-4",
+    "category": "复习题B",
+    "answer": "4. (1)解集为 $\\left( {-\\infty , - \\frac{3}{4}}\\right)  \\cup  \\left\\lbrack  {-\\frac{1}{3}, + \\infty }\\right)$ . (2)解集为 $\\left\\lbrack  {-4, - 3)\\cup (1,2}\\right\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 876,
+        "end": 877
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 已知集合 $A = \\{ x \\mid  \\left| {x - a}\\right|  < 2\\} , B = \\left\\{  {x\\left| {\\;\\frac{{2x} - 1}{x + 2} < 1}\\right. }\\right\\}$ ，且 $A \\subseteq  B$ . 求实数 $a$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1581,
+        "end": 1582
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1581,
+        "end": 1582
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-5",
+    "category": "复习题B",
+    "answer": "5. $a$ 的取值范围为 $\\left\\lbrack  {0,1}\\right\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 878,
+        "end": 879
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 证明: 若 $x >  - 1$ ,则 $x + \\frac{1}{x + 1} \\geq  1$ ,并指出等号成立的条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1583,
+        "end": 1584
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1583,
+        "end": 1584
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-6",
+    "category": "复习题B",
+    "answer": "6. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 880,
+        "end": 881
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 设 $a\\text{ 、 }b$ 为正数,且 $a + b = 2$ . 求 $\\frac{1}{a} + \\frac{1}{b}$ 的最小值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1585,
+        "end": 1586
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1585,
+        "end": 1586
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-7",
+    "category": "复习题B",
+    "answer": "7. 最小值为 2 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 882,
+        "end": 883
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 8",
+    "markdown": "8. 已知 $a\\text{ 、 }b\\text{ 、 }c$ 都是正数,求证: $\\frac{b + c}{a} + \\frac{c + a}{b} + \\frac{a + b}{c} \\geq  6$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1587,
+        "end": 1588
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1587,
+        "end": 1588
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-8",
+    "category": "复习题B",
+    "answer": "8. 证明: $\\frac{b + c}{a} + \\frac{c + a}{b} + \\frac{a + b}{c} = \\frac{b}{a} + \\frac{a}{b} + \\frac{c}{a} + \\frac{a}{c} + \\frac{c}{b} + \\frac{b}{c}$\n\n$$\n\\geq  2\\sqrt{\\frac{b}{a} \\cdot  \\frac{a}{b}} + 2\\sqrt{\\frac{c}{a} \\cdot  \\frac{a}{c}} + 2\\sqrt{\\frac{c}{b} \\cdot  \\frac{b}{c}} = 6.\n$$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 884,
+        "end": 889
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 9",
+    "markdown": "9. 设实数 $x\\text{ 、 }y$ 满足 $\\left| {x + y}\\right|  = 1$ ,求 ${xy}$ 的最大值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1589,
+        "end": 1590
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1589,
+        "end": 1590
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-9",
+    "category": "复习题B",
+    "answer": "9. 不妨设 $x, y$ 同号. 由 $1 = \\left| {x + y}\\right|$ ,得 $1 = \\left| x\\right|  + \\left| y\\right| ,{xy} = \\left| {xy}\\right|  \\leq \\; {\\left( \\frac{\\left| x\\right|  + \\left| y\\right| }{2}\\right) }^{2} = \\frac{1}{4}$ ,当且仅当 $\\left| x\\right|  = \\left| y\\right|$ ,即 $x = y =  \\pm  \\frac{1}{2}$ 时,等号成立. 所以, ${xy}$ 的最大值为 $\\frac{1}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 890,
+        "end": 891
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 10",
+    "markdown": "10. 已知 $a\\text{ 、 }b$ 为实数,求证: $\\left| a\\right|  + \\left| b\\right|  \\leq  \\left| {a + b}\\right|  + \\left| {a - b}\\right|$ ,并指出等号成立的条件.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1591,
+        "end": 1592
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1591,
+        "end": 1592
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-10",
+    "category": "复习题B",
+    "answer": "10. 证明: 由 $\\left| a\\right|  \\leq  \\left| \\frac{a + b}{2}\\right|  + \\left| \\frac{a - b}{2}\\right| ,\\left| b\\right|  \\leq  \\left| \\frac{b + a}{2}\\right|  + \\left| \\frac{b - a}{2}\\right|$ ,可得 $\\left| a\\right|  + \\left| b\\right|  \\leq \\; \\left| {a + b}\\right|  + \\left| {a - b}\\right|$ ,当且仅当 $\\left( {a + b}\\right) \\left( {a - b}\\right)  \\geq  0$ 并且 $\\left( {a + b}\\right) \\left( {b - a}\\right)  \\geq  0$ ,即 $\\left| a\\right|  = \\left| b\\right|$ 时, 等号成立.\n\n另证:\n\n(1) ${ab} \\geq  0$ 时, $\\left| a\\right|  + \\left| b\\right|  = \\left| {a + b}\\right|  \\leq  \\left| {a + b}\\right|  + \\left| {a - b}\\right|$ .\n\n(2) ${ab} < 0$ 时, $\\left| a\\right|  + \\left| b\\right|  = \\left| {a - b}\\right|  \\leq  \\left| {a + b}\\right|  + \\left| {a - b}\\right|$ .\n\n当且仅当 $a = b$ 或 $a =  - b$ 时,等号成立.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 892,
+        "end": 901
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 11",
+    "markdown": "11. 已知 $a\\text{ 、 }b$ 是实数,\n\n(1)求证: ${a}^{2} + {ab} + {b}^{2} \\geq  0$ ，并指出等号成立的条件；\n\n(2)求证:如果 $a > b$ ，那么 ${a}^{3} > {b}^{3}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1593,
+        "end": 1598
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1593,
+        "end": 1598
+      }
+    ],
+    "id": "bx1-chapter-end-2-hB-11",
+    "category": "复习题B",
+    "answer": "11. 证明:\n\n(1) ${a}^{2} + {ab} + {b}^{2} = {\\left( a + \\frac{1}{2}b\\right) }^{2} + \\frac{3}{4}{b}^{2} \\geq  0$ ,当且仅当 $\\left\\{  \\begin{array}{l} a + \\frac{1}{2}b = 0, \\\\  b = 0, \\end{array}\\right.$ 即 $a = b = 0$ 时, 等式成立.\n\n(2) ${a}^{3} - {b}^{3} = \\left( {a - b}\\right) \\left( {{a}^{2} + {ab} + {b}^{2}}\\right)$ .\n\n因为 $a > b$ ,所以 $a - b > 0$ ; 并且 ${a}^{2} + {ab} + {b}^{2} > 0$ ,所以 ${a}^{3} > {b}^{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 902,
+        "end": 909
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "## 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1599,
+        "end": 1599
+      }
+    ],
+    "id": "bx1-chapter-end-2-b32",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 解下列不等式:\n\n(1) $\\frac{{3x} - {11}}{{x}^{2} - {6x} + 9} \\leq  1$ ； (2) $\\left| {3 - {2x}}\\right|  \\geq  \\left| {x + 1}\\right|$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1601,
+        "end": 1604
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1601,
+        "end": 1604
+      }
+    ],
+    "id": "bx1-chapter-end-2-t-1",
+    "category": "拓展与思考",
+    "answer": "1. (1)解集为 $\\left( {-\\infty ,3}\\right)  \\cup  (3,4\\rbrack  \\cup  \\lbrack 5, + \\infty )$ . (2)解集为 $\\left( {-\\infty ,\\frac{2}{3}}\\right\\rbrack   \\cup  \\lbrack 4, + \\infty )$ . 提示: 本题旨在强化等价变形, 并且两小题都有两种解法. (1) 既可以先移项, 化为分式 $\\leq  0$ 的形式,也可以两边同乘分母,化为一元二次不等式,但需要注意分母为零的情形. (2)既可以采用按零点分段, 讨论符号的方式去除两边的绝对值符号再求解, 也可以采用两边平方的方式去掉绝对值符号来求解.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 912,
+        "end": 913
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 已知集合 $A = \\left\\{  {x \\mid  {x}^{2} - {2x} - 3 > 0}\\right\\}  , B = \\left\\{  {x \\mid  {x}^{2} + {px} + q \\leq  0}\\right\\}$ . 若 $A \\cup  B = \\mathbf{R}$ ,且 $A \\cap  B = \\lbrack  - 2, - 1)$ ,求实数 $p$ 及 $q$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1605,
+        "end": 1606
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1605,
+        "end": 1606
+      }
+    ],
+    "id": "bx1-chapter-end-2-t-2",
+    "category": "拓展与思考",
+    "answer": "2. $p =  - 1, q =  - 6$ . 提示: 本题旨在根据解集的性质反过来确定参数的取值,是不等式求解的逆向问题.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 914,
+        "end": 915
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 3",
+    "markdown": "3. 已知实数 $0 < a < b$ ,求证:\n\n$$\na < \\frac{2ab}{a + b} < \\sqrt{ab} < \\frac{a + b}{2} < \\sqrt{\\frac{{a}^{2} + {b}^{2}}{2}} < b.\n$$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1607,
+        "end": 1612
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1607,
+        "end": 1612
+      }
+    ],
+    "id": "bx1-chapter-end-2-t-3",
+    "category": "拓展与思考",
+    "answer": "3. 证明: 由于 $0 < a < b$ ,可得 $\\sqrt{ab} < \\frac{a + b}{2}$ ;\n\n$\\frac{2ab}{a + b} < \\sqrt{ab} \\Leftrightarrow  2\\sqrt{ab} < a + b \\Leftrightarrow  \\sqrt{ab} < \\frac{a + b}{2}; \\; \\frac{a + b}{2} < \\sqrt{\\frac{{a}^{2} + {b}^{2}}{2}} \\Leftrightarrow  {\\left( \\frac{a + b}{2}\\right) }^{2} < \\frac{{a}^{2} + {b}^{2}}{2} \\Leftrightarrow  {\\left( a + b\\right) }^{2} < 2\\left( {{a}^{2} + {b}^{2}}\\right)  \\Leftrightarrow  {\\left( a - b\\right) }^{2} > 0;$ 因为 $\\sqrt{\\frac{{a}^{2} + {b}^{2}}{2}} < \\sqrt{\\frac{{b}^{2} + {b}^{2}}{2}} = b$ ,\n\n所以 $a < \\frac{2ab}{a + b} < \\sqrt{ab} < \\frac{a + b}{2} < \\sqrt{\\frac{{a}^{2} + {b}^{2}}{2}} < b$ .\n\n提示: 本题给出了正数四种平均值之间的大小关系 (调和平均值 $\\leq$ 几何平均值 $\\leq$ 算术平均值 $\\leq$ 平方平均值),旨在加深对平均值的认识.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 916,
+        "end": 923
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 4",
+    "markdown": "4. 方程 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)  = 0$ 的三个根 1、2、3 将数轴划分为四个区间,即 $\\left( {-\\infty ,1}\\right) ,\\left( {1,2}\\right) ,\\left( {2,3}\\right) ,\\left( {3, + \\infty }\\right)$ . 试在这四个区间上分别考察 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)$ 的解集. 符号,从而得出不等式 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)  > 0$ 与 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)  < 0$ 的解集.\n\n一般地,对 ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }{x}_{3} \\in  \\mathbf{R}$ ,且 ${x}_{1} \\leq  {x}_{2} \\leq  {x}_{3}$ ,试分别求不等式\n\n$$\n\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) \\left( {x - {x}_{3}}\\right)  > 0\\text{ 与 }\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) \\left( {x - {x}_{3}}\\right)  < 0\n$$\n\n的解集. (提示: ${x}_{1}\\text{ 、 }{x}_{2}\\text{ 、 }{x}_{3}$ 相互之间可能相等,需要分情况讨论)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1613,
+        "end": 1621
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1613,
+        "end": 1621
+      }
+    ],
+    "id": "bx1-chapter-end-2-t-4",
+    "category": "拓展与思考",
+    "answer": "4. 不等式 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)  > 0$ 的解集为 $\\left( {1,2}\\right)  \\cup  \\left( {3, + \\infty }\\right)$ .\n\n不等式 $\\left( {x - 1}\\right) \\left( {x - 2}\\right) \\left( {x - 3}\\right)  < 0$ 的解集为 $\\left( {-\\infty ,1}\\right)  \\cup  \\left( {2,3}\\right)$ .\n\n更为一般地,首先求解不等式 $\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) \\left( {x - {x}_{3}}\\right)  > 0$ ,需按如下情形讨论:\n\n(1) ${x}_{1} < {x}_{2} < {x}_{3}$ 时,解集为 $\\left( {{x}_{1},{x}_{2}}\\right)  \\cup  \\left( {{x}_{3}, + \\infty }\\right)$ ；\n\n(2) ${x}_{1} < {x}_{2} = {x}_{3}$ 时,原不等式化为 $\\left( {x - {x}_{1}}\\right) {\\left( x - {x}_{2}\\right) }^{2} > 0$ ,解集为 $\\left( {{x}_{1},{x}_{2}}\\right)  \\cup \\; \\left( {{x}_{2}, + \\infty }\\right)$ ;\n\n(3) ${x}_{1} = {x}_{2} < {x}_{3}$ ,原不等式化为 ${\\left( x - {x}_{1}\\right) }^{2}\\left( {x - {x}_{3}}\\right)  > 0$ ,解集为 $\\left( {{x}_{3}, + \\infty }\\right)$ ；\n\n(4) ${x}_{1} = {x}_{2} = {x}_{3}$ 时,原不等式化为 ${\\left( x - {x}_{1}\\right) }^{3} > 0$ ,解集为 $\\left( {{x}_{1}, + \\infty }\\right)$ .\n\n其次,求解不等式 $\\left( {x - {x}_{1}}\\right) \\left( {x - {x}_{2}}\\right) \\left( {x - {x}_{3}}\\right)  < 0$ ,需分如下情形讨论:\n\n(1) ${x}_{1} < {x}_{2} < {x}_{3}$ 时,解集为 $\\left( {-\\infty ,{x}_{1}}\\right)  \\cup  \\left( {{x}_{2},{x}_{3}}\\right)$ ；\n\n(2) ${x}_{1} < {x}_{2} = {x}_{3}$ 时,原不等式化为 $\\left( {x - {x}_{1}}\\right) {\\left( x - {x}_{2}\\right) }^{2} < 0$ ,解集为 $\\left( {-\\infty ,{x}_{1}}\\right)$ ；\n\n(3) ${x}_{1} = {x}_{2} < {x}_{3}$ 时,原不等式化为 ${\\left( x - {x}_{1}\\right) }^{2}\\left( {x - {x}_{3}}\\right)  < 0$ ,解集为 $\\left( {-\\infty ,{x}_{1}}\\right)  \\cup \\; \\left( {{x}_{1},{x}_{3}}\\right)$ ;\n\n(4) ${x}_{1} = {x}_{2} = {x}_{3}$ 时,原不等式化为 ${\\left( x - {x}_{1}\\right) }^{3} < 0$ ,解集为 $\\left( {-\\infty ,{x}_{1}}\\right)$ .\n\n提示: 本题旨在引导学生了解如何利用分段讨论表达式符号的方式来求解三次不等式, 此外, 在分类讨论时还需注意有重根的情形. 用数轴标根法直接得出不等式解集的做法, 可在第五章中再加以补充.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 924,
+        "end": 949
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 史济怀. 平均[M]. 北京:科学出版社,2002.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 950,
+        "end": 954
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-chapter-end-2-b37",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

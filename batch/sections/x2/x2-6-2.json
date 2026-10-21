@@ -1,0 +1,1267 @@
+{
+  "schema_version": 1,
+  "id": "x2-6-2",
+  "book_id": "x2",
+  "book_title": "选择性必修第二册",
+  "chapter": "6",
+  "chapter_title": "第6章计数原理",
+  "section": "6.2",
+  "title": "排列",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "排列",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 259,
+          "end": 259
+        }
+      ],
+      "id": "x2-6-2",
+      "number": "6.2",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 6.2 排列\n\n### 教学重点\n\n明确排列和排列数的概念, 掌握排列数的计算方法, 能进行与排列数有关的简单恒等式的推导和证明.\n\n### 内容分析\n\n排列是基本的计数模型之一, 是乘法原理的一个最主要的应用, 学习排列是对学生已有的计数经验的理论提升. 对这部分内容的理解, 既需要学生认识乘法原理的本质, 熟练掌握排列数的计算, 也要熟练运用符号语言. 这部分内容的学习效果直接影响到后面对组合的学习, 在教学中, 教师需要处理好问题难度和典型性之间的关系.\n\n例 1 旨在利用枚举法,使学生了解“排列”的含义,明确其核心特点为“元素之间的相对顺序”. 通过这个例子, 学生也能初步体会如何计算满足一定条件的排列数, 为后面学习排列数的计算作好准备. 练习 6.2(1) 的第 1、2 题和习题 6.2A 组的第 1、2 题均是可以使用枚举法解决的排列问题.\n\n例 2 和例 3 提供了解决排列问题的常用方法一一对应, 一个排列可以对应为将若干个不同的元素放在有编号的位子上. 对应也是解决计数问题的常用方法, 不过限于学生的知识基础, 教材中只涉及简单的对应. 练习 6.2(2) 的第 1、2 题和习题 6.2A 组的第 3 至 5 题的处理方法本质上均可以看作对应.\n\n例 4 是有限制条件的排列问题. 构造三位正整数时, 需考虑到百位数不能为 0 , 因此,可以先考虑受限制的位子的排法,再考虑其他位子元素的排列；或者先考虑受限制的元素的排法, 再考虑其他位子元素的排列. 另一方面, 本题提供了从反面思考问题的角度, 这也是解决计数问题的常用策略. 练习 6.2(2) 的第 1、2 题, 习题 6.2A 组的第 6 题, 习题 6.2B 组的第 4 至 6 题是例 4 的延伸.\n\n例 5 是两种常见的排列问题: 给定元素间隔排列或相邻排列. 练习 ${6.2}\\left( 2\\right)$ 的第 2 题、习题 6.2B 组的第 2 题是这两种方法的应用和深化.\n\n例 6 是一个综合运用排列与加法原理的问题. 旨在说明, 在综合使用计数方法求解的问题中, 一般先从分类开始, 将问题分解成若干“类”, 而在每一类的计算中, 则使用相应的计数模型或计数原理.\n\n例 7、例 8、例 9 旨在明确排列数的表达形式和表达规律,并涉及排列数的化简计算和简单恒等式的证明. 练习 6.2(3) 的第 1、2 题, 习题 6.2A 组的第 7 至 9 题是对排列数计算公式的应用.\n\n### 注意事项\n\n在计数过程中, “对应”是一种常用的方法. 在学习计数原理之初, 教师可以通过一些简单的例子说明“对应”的方法, 但要控制问题的难度. 例 2 和排列数的推导过程就使用了“对应”方法.\n\n对于排列问题, 应关注对计数过程的剖析, 突出乘法原理的本质. 对一个问题应尽可能从多种角度进行分析, 比较不同计数过程的异同, 分析可能产生错误结果的原因(参见例 4 和例 5).\n\n要注意对常用方法和典型问题的总结, 如 “从反面计算” “间隔排列” “相邻排列”等.\n\n### 教学建议\n\n在教学过程中, 应当突出对排列本质的理解, 加强对典型问题的剖析, 而淡化技巧, 避免繁杂的问题. 对于典型的排列问题, 可以从不同的角度进行考虑, 采用不同的处理方式, 从而帮助学生理解相关的定义和计算的方法.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 97,
+          "end": 130
+        }
+      ],
+      "teacher_only": true,
+      "id": "x2-6-2-b1"
+    },
+    {
+      "type": "heading",
+      "title": "1 排列的定义",
+      "markdown": "### 1 排列的定义",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 261,
+          "end": 261
+        }
+      ],
+      "id": "x2-6-2-b2"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "考虑下面两个问题:\n\n问题 1: 从甲、乙、丙 3 名学生中任选 2 名, 一名担任正班长, 另一名担任副班长. 有多少种不同的选法?\n\n这个问题就是从甲、乙、丙 3 名学生中，每次任选 2 名，按照正班长在左、副班长在右的顺序排列, 求一共有多少种不同的排法.\n\n首先确定正班长, 在 3 名学生中, 任选一名作为正班长, 有 3 种方法; 然后确定副班长, 当正班长选定后, 副班长就只能在其余的两人中选取, 有 2 种方法. 于是, 根据乘法原理, 从甲、 乙、丙 3 名学生中，每次任选 2 名，按照正班长在左、副班长在右的顺序排列的不同方法共有\n\n$$\n3 \\times  2 = 6\n$$\n\n种, 即有 6 种不同的选法.\n\n问题 1 是从 3 个不同的元素 $a\\text{ 、 }b\\text{ 、 }c$ 中任取 2 个,并按序排列, 求一共有多少种不同的排列方法. 所有的排列是\n\n$$\n{ab}\\text{ 、 }{ac}\\text{ 、 }{ba}\\text{ 、 }{bc}\\text{ 、 }{ca}\\text{ 、 }{cb}\\text{ . }\n$$\n\n这些排列的总数为 $3 \\times  2 = 6$ .\n\n问题 2: 已知抛物线的方程为 $y = a{x}^{2} + {bx} + c$ ,其中 $a\\text{ 、 }b$ 、 $c \\in  \\{ 1,2,3,4\\}$ ,且 $a\\text{ 、 }b\\text{ 、 }c$ 两两不同. 求这样的抛物线的个数.\n\n这个问题就是从 4 个不同的数字中，每次任取 3 个不同的数字,按照 ${x}^{2}$ 的系数、 $x$ 的系数和常数项这样的顺序排列起来, 求一共有多少种不同的排法.\n\n第一步,先确定 ${x}^{2}$ 的系数,从 $1\\text{ 、 }2\\text{ 、 }3\\text{ 、 }4$ 这 4 个数字中任取 1 个, 有 4 种方法;\n\n第二步,确定 $x$ 的系数,当 ${x}^{2}$ 的系数确定以后, $x$ 的系数只能从余下的 3 个数字中任取 1 个,有 3 种方法;\n\n第三步,确定常数项,当 ${x}^{2}$ 的系数和 $x$ 的系数都确定以后, 常数项只能从余下的 2 个数字中任取 1 个, 有 2 种方法.\n\n根据乘法原理, 从 4 个不同的数字中, 每次任取 3 个不同的数字,分别作为 ${x}^{2}$ 的系数、 $x$ 的系数和常数项的方法共有\n\n$$\n4 \\times  3 \\times  2 = {24}\n$$\n\n种. 具体方法如图 6-2-1 所示( ☐☐ ☐ 中的数字从左至右依次为 ${x}^{2}$ 的系数、 $x$ 的系数和常数项).\n\n![bo_d4slon3ef24c73be0qm0_8_258_504_749_637_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_8_258_504_749_637_0.jpg)\n\n图 6-2-1\n\n以上两个问题的共同点在于, 都是从若干个不同元素中选取部分 (或全部) 元素, 并按序排列, 求一共有多少种不同的排法.\n\n定义 $M$ 几个互不相同的元素中,取出 $m\\left( {m \\leq  n}\\right)$ 个不同元素按照一定的顺序排成一列,叫做从 $n$ 个元素中取出 $m$ 个元素的一个排列(permutation).\n\n从排列的定义可以看出, 如果两个排列是相同的, 不仅组成这两个排列的元素完全相同, 而且排列的顺序也是完全相同的. 如果所取的元素不完全相同, 那么这两个排列是两个不同的排列 (如问题 1 中的 ${ab}$ 与 ${ac}$ ); 如果所取的元素完全相同,但排列顺序不同, 那么这两个排列也是不同的排列 (如问题 2 中的 3[2] 与 3[12]).",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 262,
+          "end": 312
+        }
+      ],
+      "emphases": [
+        {
+          "start": 1368,
+          "end": 1476,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-6-2-definition-3-0",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "x2-6-2-b3"
+    },
+    {
+      "type": "question",
+      "title": "例题 1",
+      "markdown": "例 1 写出从 $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d$ 四个元素中任取两个不同元素的所有排列.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 313,
+          "end": 314
+        }
+      ],
+      "id": "x2-6-2-ex-1",
+      "category": "例题",
+      "answer": "解 先画出下面的树形图 (图 6-2-2): 于是可知,所有的排列是 ${ab}\\text{ 、 }{ac}\\text{ 、 }{ad}\\text{ 、 }{ba}\\text{ 、 }{bc}\\text{ 、 }{bd}\\text{ 、 }{ca}\\text{ 、 }{cb}$ 、 ${cd}\\text{ 、 }{da}\\text{ 、 }{db}\\text{ 、 }{dc}.$\n\n![bo_d4slon3ef24c73be0qm0_8_227_1904_813_132_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_8_227_1904_813_132_0.jpg)\n\n图 6-2-2",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 315,
+          "end": 320
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 2",
+      "markdown": "例 2 将 6 本不同的书排成一排, 有多少种不同的排法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 321,
+          "end": 322
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 321,
+          "end": 322
+        }
+      ],
+      "id": "x2-6-2-ex-2",
+      "category": "例题",
+      "answer": "解 考虑一排的 6 个位子(图 6-2-3). 将 6 本书排成一排, 相当于将这 6 本书分别放到这 6 个位子中, 这是将全部 6 个元素进行排列的问题.\n\n![bo_d4slon3ef24c73be0qm0_9_198_595_322_67_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_9_198_595_322_67_0.jpg)\n\n图 6-2-3\n\n从左至右将 6 个位子依次编号为 1 到 6 ，完成一个排列可以分为以下六个步骤:\n\n第一步:确定放在 1 号位上的书，有 6 种方法；\n\n第二步:确定放在 2 号位上的书，有 5 种方法；\n\n第三步:确定放在 3 号位上的书，有 4 种方法；\n\n第四步:确定放在 4 号位上的书，有 3 种方法；\n\n第五步:确定放在 5 号位上的书，有 2 种方法；\n\n第六步:确定放在 6 号位上的书, 有 1 种方法.\n\n根据乘法原理, 不同的排法数为\n\n$$\n6 \\times  5 \\times  4 \\times  3 \\times  2 \\times  1 = {720}.\n$$\n\n于是, 将 6 本不同的书排成一排, 有 720 种不同的排法.",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 323,
+          "end": 350
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 3",
+      "markdown": "例 3 10 名学生排成两排照相, 每排 5 人，共有多少种不同的排列方式?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 351,
+          "end": 352
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 351,
+          "end": 352
+        }
+      ],
+      "id": "x2-6-2-ex-3",
+      "category": "例题",
+      "answer": "解 将第一排的 5 个位置从左至右编号，号码分别为 1 到 5 ； 再将第二排的 5 个位置从左至右编号, 号码分别为 6 到 10 . 这样, 问题就转化为: 10 名学生排在编号为 1 到 10 的十个位置上，共有多少种不同的排法？ 这时，完成一个排列可以分为以下十个步骤:\n\n第一步:确定坐在 1 号位上的学生，有 10 种方法；\n\n第二步:确定坐在 2 号位上的学生，有 9 种方法；\n\n......\n\n第 $k$ 步: 确定坐在 $k$ 号位上的学生,有 ${11} - k$ 种方法;\n\n......\n\n第十步:确定坐在 10 号位上的学生，有 1 种方法.\n\n根据乘法原理, 不同的排法数为\n\n$$\n{10} \\times  9 \\times  8 \\times  \\cdots  \\times  2 \\times  1 = {3628800}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 353,
+          "end": 372
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(1)",
+      "markdown": "#### 练习 6.2(1)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 373,
+          "end": 373
+        }
+      ],
+      "id": "x2-6-2-b7"
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(1) · 1",
+      "markdown": "1. 写出从 $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d\\text{ 、 }e$ 这五个不同元素中任意取出两个元素的所有排列.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 375,
+          "end": 376
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 375,
+          "end": 376
+        }
+      ],
+      "id": "x2-6-2-p621-1",
+      "category": "练习6.2(1)",
+      "answer": "1. ${ab},{ac},{ad},{ae},{bc},{bd},{be},{cd},{ce},{de},{ed},{ec},{eb},{ea},{dc},{db},{da}$ , ${cb},{ca},{ba}.$",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 257,
+          "end": 258
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(1) · 2",
+      "markdown": "2. 已知 $M = \\{ 1,2,3,4\\}$ ,且 $m \\in  M, n \\in  M$ ,方程 $\\frac{{x}^{2}}{m} + \\frac{{y}^{2}}{n} = 1$ 表示的曲线是椭圆. 问: 可以有多少个不同的椭圆?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 377,
+          "end": 378
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 377,
+          "end": 378
+        }
+      ],
+      "id": "x2-6-2-p621-2",
+      "category": "练习6.2(1)",
+      "answer": "2. 12.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 259,
+          "end": 260
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "2 排列数的计算",
+      "markdown": "### 2 排列数的计算",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 379,
+          "end": 379
+        }
+      ],
+      "id": "x2-6-2-b10"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "怎样计算从 $n$ 个不同元素中取出 $m$ 个元素的排列的个数? 一般地，我们有下面的定义:\n\n定义 从 $n$ 个互不相同的元素中,取出 $m\\left( {m \\leq  n}\\right)$ 个不同元素的所有排列的个数,叫做从 $n$ 个元素中取出 $m$ 个元素的排列数,用符号 ${\\mathbf{P}}_{n}^{m}$ 表示.\n\n---\n\nP 是英文 permutation 的第一个字母. 在有些资料中也用符号 ${\\mathrm{A}}_{n}^{m}$ 表示排列数.\n\n---\n\n例如,问题 1 中的选法数可以表示为 ${\\mathrm{P}}_{3}^{2} = 6$ ; 问题 2 中的抛物线个数可以表示为 ${\\mathrm{P}}_{4}^{3} = {24}$ . 下面研究排列数的计算公式.\n\n求排列数 ${\\mathrm{P}}_{n}^{3}$ ,可以这样考虑: 假定有排好顺序的 3 个位子 (图 6-2-4),从 $n$ 个互不相同的元素 ${a}_{1}\\text{ 、 }{a}_{2}\\text{ 、 }\\cdots \\text{ 、 }{a}_{n}$ 中任取 3 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 ${\\mathrm{P}}_{n}^{3}$ .\n\n![bo_d4slon3ef24c73be0qm0_10_380_1432_501_185_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_10_380_1432_501_185_0.jpg)\n\n图 6-2-4\n\n为了计算 ${\\mathrm{P}}_{n}^{3}$ ,可以分成以下三个步骤:\n\n第一步,确定 1 号位上的元素,这可以从 $n$ 个互不相同的元素中任取一个填空,有 $n$ 种方法;\n\n第二步,确定 2 号位上的元素,这可以从剩下的 $n - 1$ 个互不相同的元素中任取一个填空,有 $n - 1$ 种方法;\n\n第三步,确定 3 号位上的元素,这可以从剩下的 $n - 2$ 个互不相同的元素中任取一个填空,有 $n - 2$ 种方法.\n\n根据乘法原理, 可以得到排列数为\n\n$$\n{\\mathrm{P}}_{n}^{3} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) .\n$$\n\n同样,求 ${\\mathrm{P}}_{n}^{m}$ ,可以这样考虑: 假定有排好顺序的 $m$ 个位子 (图 6-2-5),从 $n$ 个互不相同的元素 ${a}_{1}\\text{ 、 }{a}_{2}\\text{ 、 }\\cdots \\text{ 、 }{a}_{n}$ 中任取 $m$ 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 ${\\mathrm{P}}_{n}^{m}$ .\n\n![bo_d4slon3ef24c73be0qm0_11_607_590_821_188_0.jpg](sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_11_607_590_821_188_0.jpg)\n\n图 6-2-5\n\n为了计算 ${\\mathrm{P}}_{n}^{m}$ ,可以分成以下 $m$ 个步骤:\n\n第一步,确定 1 号位上的元素,这可以从 $n$ 个互不相同的元素中任取一个填空,有 $n$ 种方法;\n\n第二步,确定 2 号位上的元素,这可以从剩下的 $n - 1$ 个互不相同的元素中任取一个填空,有 $n - 1$ 种方法;\n\n第三步，确定 3 号位上的元素，这可以从剩下的 $n - 2$ 个互不相同的元素中任取一个填空,有 $n - 2$ 种方法;\n\n以此类推,当前面的 $m - 1$ 个位子都被填好后, $m$ 号位可以从余下的 $n - \\left( {m - 1}\\right)$ 个互不相同的元素中任取一个填空,有 $n - \\; m + 1$ 种方法.\n\n根据乘法原理, 可以得到排列数为\n\n$$\n{\\mathrm{P}}_{n}^{m} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\left( {n - m + 1}\\right) ,\n$$\n\n其中 $m$ 及 $n$ 是正整数，且 $m \\leq  n$ . 这个公式叫做排列数公式.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 380,
+          "end": 436
+        }
+      ],
+      "emphases": [
+        {
+          "start": 49,
+          "end": 171,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-6-2-definition-11-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 1949,
+          "end": 1995,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-6-2-definition-11-1",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "x2-6-2-b11"
+    },
+    {
+      "type": "question",
+      "title": "例题 4",
+      "markdown": "例 4 用 0、1、2、3、4、5 这 6 个数字，可以组成多少个没有重复数字的三位数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 437,
+          "end": 438
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 437,
+          "end": 438
+        }
+      ],
+      "id": "x2-6-2-ex-4",
+      "category": "例题",
+      "answer": "解 解法一: 用 0 到 5 这 6 个数字组成一个三位数, 可以看成从这 6 个数字中任取 3 个的一个排列 (0 排在百位的除外). 由于百位上的数字不能是 0 , 因此可以分两个步骤考虑: 先排百位上的数字, 再排十位和个位上的数字.\n\n百位上的数字从 1 到 5 这 5 个数字中任取 1 个,有 ${\\mathrm{P}}_{5}^{1}$ 种情形; 十位和个位上的数字, 可以从余下的 5 个数字中任取 2 个, 有 ${\\mathrm{P}}_{5}^{2}$ 种情形. 根据乘法原理,所求的三位数的个数为\n\n$$\n{\\mathrm{P}}_{5}^{1}{\\mathrm{P}}_{5}^{2} = 5 \\times  5 \\times  4 = {100}.\n$$\n\n解法二: 从 0 到 5 这 6 个数字中任取 3 个数字的排列数, 减去其中以 0 为排头的排列数, 就是用这 6 个数字组成的没有重复数字的三位数的个数.\n\n从 0 到 5 这 6 个数字中任取 3 个数字的排列数为 ${\\mathrm{P}}_{6}^{3}$ ,其中以 0 为排头的排列数为 ${\\mathrm{P}}_{5}^{2}$ ,因此所求的三位数的个数为\n\n$$\n{\\mathrm{P}}_{6}^{3} - {\\mathrm{P}}_{5}^{2} = 6 \\times  5 \\times  4 - 5 \\times  4 = {100}.\n$$\n\n解法三: 由于 0 不能出现在百位上, 因此可以根据数码中是否有 0 和 0 出现在哪一位上进行分类讨论.\n\n满足条件的三位数可以分成三类:\n\n每一位数字都不是 0 的三位数有 ${\\mathrm{P}}_{5}^{3}$ 个;\n\n个位数字是 0 的三位数有 ${\\mathrm{P}}_{5}^{2}$ 个;\n\n十位数字是 0 的三位数有 ${\\mathrm{P}}_{5}^{2}$ 个.\n\n根据加法原理，符合条件的三位数的个数为\n\n$$\n{\\mathrm{P}}_{5}^{3} + {\\mathrm{P}}_{5}^{2} + {\\mathrm{P}}_{5}^{2} = {60} + {20} + {20} = {100}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 439,
+          "end": 470
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 5",
+      "markdown": "例 5 (1)7 个人站成一排. 若甲和乙不能相邻排列，有多少种不同的排法?\n\n(2)要将 8 本各不相同的教科书排成一排放在书架上，其中数学书 3 本、外语书 2 本、物理书 3 本. 如果 3 本数学书要排在一起, 2 本外语书也要排在一起, 那么有多少种不同的排法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 474
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 471,
+          "end": 474
+        }
+      ],
+      "id": "x2-6-2-ex-5",
+      "category": "例题",
+      "answer": "解(1)解法一:因为甲和乙不能相邻，所以可以先考虑确定甲和乙在排列中的位置, 再进行排列.\n\n将一排的 7 个位置从左向右依次编号为 1 到 7 ，则甲和乙所在位置的编号有以下 15 种情形:\n\n$\\left( {1,3}\\right) \\text{ 、 }\\left( {1,4}\\right) \\text{ 、 }\\left( {1,5}\\right) \\text{ 、 }\\left( {1,6}\\right) \\text{ 、 }\\left( {1,7}\\right) \\text{ 、 }\\left( {2,4}\\right) \\text{ 、 }\\left( {2,5}\\right) \\text{ 、 }\\left( {2,6}\\right)$  、\n\n$\\left( {2,7}\\right) \\text{ 、 }\\left( {3,5}\\right) \\text{ 、 }\\left( {3,6}\\right) \\text{ 、 }\\left( {3,7}\\right) \\text{ 、 }\\left( {4,6}\\right) \\text{ 、 }\\left( {4,7}\\right) \\text{ 、 }\\left( {5,7}\\right) .$\n\n这样, 可以分两步找出符合条件的排列:\n\n第一步,确定甲和乙在以上 15 种情形中的位置,有 ${15} \\times  2$ 种情形;\n\n第二步,确定余下 5 人在排列中的位置,有 ${\\mathrm{P}}_{5}^{5}$ 种情形.\n\n根据乘法原理, 符合条件的排列的个数为\n\n$$\n{15} \\times  2 \\times  {\\mathrm{P}}_{5}^{5} = {30} \\times  {120} = {3600}.\n$$\n\n解法二: 因为甲和乙不能相邻, 所以可以先将余下 5 人排列好, 相邻两人中间均留有一个空位, 加上两端的空位, 共有 6 个空位, 再将甲乙两人分别插入其中两个不同的空位即可.\n\n这样, 可以分两步找出符合条件的排列:\n\n第一步,先对甲和乙以外的 5 人进行排列,共有 ${\\mathrm{P}}_{5}^{5}$ 种情形, 这 5 人形成了 6 个空位;\n\n第二步，再将甲和乙分别插入这 6 个空位中的 2 个，共有 ${\\mathrm{P}}_{6}^{2}$ 种情形.\n\n根据乘法原理, 符合条件的排列的个数为\n\n$$\n{\\mathrm{P}}_{5}^{5}{\\mathrm{P}}_{6}^{2} = {120} \\times  {30} = {3600}.\n$$\n\n总之，7 个人站成一排，若甲和乙不能相邻排列，共有 3600 种排法.\n\n(2)分三个步骤完成这件事情:\n\n第一步:将 3 本数学书和 2 本外语书都分别看作一本书，然后连同其他 3 本物理书排成一排,有 ${\\mathrm{P}}_{5}^{5}$ 种排法;\n\n第二步:3 本数学书的位置可以互换，有 ${\\mathrm{P}}_{3}^{3}$ 种排法；\n\n第三步:2 本外语书的位置也可以互换，有 ${\\mathrm{P}}_{2}^{2}$ 种排法.\n\n根据乘法原理, 不同排法的总数为\n\n$$\n{\\mathrm{P}}_{5}^{5}{\\mathrm{P}}_{3}^{3}{\\mathrm{P}}_{2}^{2} = {120} \\times  6 \\times  2 = {1440}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 475,
+          "end": 524
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 6",
+      "markdown": "例 6 将 $a\\text{ 、 }b\\text{ 、 }c\\text{ 、 }d\\text{ 、 }e\\text{ 、 }f$ 六个不同元素排成一列,其中 $a$ 不在首位, $b$ 不在末位. 问: 有多少种不同的排法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 525,
+          "end": 526
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 525,
+          "end": 526
+        }
+      ],
+      "id": "x2-6-2-ex-6",
+      "category": "例题",
+      "answer": "解 根据 $a$ 所在的位置可以分以下两种情形:\n\n若 $a$ 在末位,则余下 5 个元素可任意排列,这样的排列的个数为\n\n$$\n{\\mathrm{P}}_{5}^{5} = 5 \\times  4 \\times  3 \\times  2 \\times  1 = {120}.\n$$\n\n若 $a$ 不在末位,则因为 $a$ 不在首位,可以分三步找出符合条件的排列:\n\n第一步,确定 $a$ 的位置,有 4 种情形;\n\n第二步,确定 $b$ 的位置,有 4 种情形;\n\n第三步，确定余下 4 个元素在排列中的位置，有 ${\\mathrm{P}}_{4}^{4}$ 种情形.\n\n根据乘法原理, $a$ 不在首位和末位的排列的个数为\n\n$$\n4 \\times  4 \\times  {\\mathrm{P}}_{4}^{4} = {16} \\times  4 \\times  3 \\times  2 \\times  1 = {384}.\n$$\n\n综上, 满足条件的排列的个数为\n\n$$\n{120} + {384} = {504}.\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 527,
+          "end": 554
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(2)",
+      "markdown": "#### 练习 6.2(2)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 555,
+          "end": 555
+        }
+      ],
+      "id": "x2-6-2-b15"
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(2) · 1",
+      "markdown": "1. 5 名篮球队员甲、乙、丙、丁、戊，排成一排.\n\n(1)共有多少种不同的排法？\n\n(2)若甲必须站在排头，有多少种不同的排法？\n\n(3)若甲不能站排头，也不能站排尾，有多少种不同的排法？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 564
+        }
+      ],
+      "id": "x2-6-2-b16",
+      "category": "练习6.2(2)",
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 557,
+          "end": 564
+        }
+      ],
+      "answer": "【回源配对并编辑补解】(1) $120$；(2) $24$；(3) $72$。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 263,
+          "end": 264
+        }
+      ],
+      "teacher_analysis": "(1)五名队员全排列，共 $5!=120$ 种。(2)固定甲在排头，余下四人有 $4!=24$ 种。(3)甲有三个内部位置可选，每种位置其余四人有 $4!$ 种，共 $3\\times4!=72$ 种。原OCR“1.5名”是第1题加“5名”，不是小数。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(2) · 2",
+      "markdown": "2.(1)配制某种染色剂，需要加入 3 种有机染料、 2 种无机染料和 2 种添加剂，其中有机染料的添加顺序不可以相邻. 为研究所有不同的添加顺序对染色效果的影响, 总共要试验多少次?\n\n(2)某展览馆计划展出 10 幅不同的画, 其中水彩画 1 幅、油画 4 幅、国画 5 幅. 现排成一排陈列, 要求同一品种的画必须连在一起, 并且水彩画不放在两端. 问: 有多少种不同的陈列方式?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 565,
+          "end": 568
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 565,
+          "end": 568
+        }
+      ],
+      "id": "x2-6-2-p622-2",
+      "category": "练习6.2(2)",
+      "answer": "【回源配对并编辑补解】(1) $1440$ 次；(2) $5760$ 种。",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 265,
+          "end": 266
+        }
+      ],
+      "teacher_analysis": "(1)先排四种非有机材料，有 $4!$ 种。在形成的五个空位中选三个放入三种不同有机染料，有 $\\mathrm C_5^3 3!$ 种，共 $4!\\mathrm C_5^3 3!=1440$ 次。(2)三类画作为三个块，水彩画块必须在中间，另两块可交换；块内分别有 $4!$、$5!$ 种排法，故共 $2\\times4!\\times5!=5760$ 种。",
+      "analysis_provenance": [],
+      "editor_revision": {
+        "author": "编辑补写/复核",
+        "kind": "source_repair_with_independent_derivation",
+        "not_original_teacher_text": true
+      }
+    },
+    {
+      "type": "heading",
+      "title": "3 排列数的性质",
+      "markdown": "### 3 排列数的性质",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 569
+        }
+      ],
+      "id": "x2-6-2-b18"
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "把 $n$ 个不同元素全部进行排列,叫做这 $n$ 个元素的全排列. 在排列数公式 ${\\mathrm{P}}_{n}^{m} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\left( {n - m + 1}\\right) \\left( {1 \\leq  m \\leq  n}\\right)$ 中, 令 $m = n$ ,得知 $n$ 个元素的全排列总数是\n\n$$\n{\\mathrm{P}}_{n}^{n} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots 3 \\cdot  2 \\cdot  1.\n$$\n\n为方便起见,把乘积 $n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots 3 \\cdot  2 \\cdot  1$ 记作 $n!$ ,读作 $n$ 的阶乘,那么 $n$ 个不同元素的全排列数可以写成\n\n$$\n{\\mathrm{P}}_{n}^{n} = n!\n$$\n\n利用阶乘符号可以将排列数公式作如下变形:\n\n$$\n{\\mathrm{P}}_{n}^{m} = n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\left( {n - m + 1}\\right)\n$$\n\n$$\n= \\frac{n\\left( {n - 1}\\right) \\left( {n - 2}\\right) \\cdots \\left( {n - m + 1}\\right) \\left( {n - m}\\right) \\cdots 2 \\cdot  1}{\\left( {n - m}\\right) \\cdots 2 \\cdot  1}\n$$\n\n$$\n= \\frac{n!}{\\left( {n - m}\\right) !}\n$$\n\n即排列数公式还可写成\n\n$$\n{\\mathrm{P}}_{n}^{m} = \\frac{n!}{\\left( {n - m}\\right) !}.\n$$\n\n为了使这个公式在 $m = n$ 时也成立,我们规定\n\n$$\n0! = 1\\text{ . }\n$$\n\n所以 $\\mathop{\\Pr }\\limits_{n}^{m} = \\frac{n!}{\\left( {n - m}\\right) !}$ 在 $m = 0$ 时也成立,即 $\\mathop{\\Pr }\\limits_{n}^{0} = 1$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 570,
+          "end": 610
+        }
+      ],
+      "emphases": [
+        {
+          "start": 0,
+          "end": 210,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x2-6-2-definition-19-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 475,
+          "end": 603,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x2-6-2-formula-19-1",
+          "origin": "editorial-emphasis"
+        }
+      ],
+      "id": "x2-6-2-b19"
+    },
+    {
+      "type": "question",
+      "title": "例题 7",
+      "markdown": "例 7 设 $n$ 是一个不小于 17 的正整数,用排列数表示 $\\left( {n - {16}}\\right) \\left( {n - {15}}\\right) \\cdots \\left( {n - 6}\\right) .$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 611,
+          "end": 612
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 611,
+          "end": 612
+        }
+      ],
+      "id": "x2-6-2-ex-7",
+      "category": "例题",
+      "answer": "解 根据排列数公式, 可以得到\n\n$$\n\\left( {n - {16}}\\right) \\left( {n - {15}}\\right) \\cdots \\left( {n - 6}\\right)  = \\left( {n - 6}\\right) \\left\\lbrack  {\\left( {n - 6}\\right)  - 1}\\right\\rbrack  \\left\\lbrack  {\\left( {n - 6}\\right)  - 2}\\right\\rbrack\n$$\n\n$$\n\\cdots \\left\\lbrack  {\\left( {n - 6}\\right)  - {11} + 1}\\right\\rbrack\n$$\n\n$$\n= {\\mathrm{P}}_{n - 6}^{11}\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 613,
+          "end": 626
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 8",
+      "markdown": "例 8 已知 $m\\text{ 、 }n$ 是正整数,且 $m \\leq  n$ . 求证:\n\n(1) ${\\mathrm{P}}_{n}^{m} = n{\\mathrm{P}}_{n - 1}^{m - 1}$ ;\n\n(2) ${\\mathrm{P}}_{n}^{m} + m{\\mathrm{P}}_{n}^{m - 1} = {\\mathrm{P}}_{n + 1}^{m}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 627,
+          "end": 632
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 627,
+          "end": 632
+        }
+      ],
+      "id": "x2-6-2-ex-8",
+      "category": "例题",
+      "answer": "证明 (1) 根据排列数公式, 可以得到\n\n$$\n{\\mathrm{P}}_{n}^{m} = \\frac{n!}{\\left( {n - m}\\right) !} = \\frac{n \\cdot  \\left( {n - 1}\\right) !}{\\left\\lbrack  {\\left( {n - 1}\\right)  - \\left( {m - 1}\\right) }\\right\\rbrack  !}\n$$\n\n$$\n= n{\\mathrm{P}}_{n - 1}^{m - 1}\\text{ . }\n$$\n\n所以, ${\\mathrm{P}}_{n}^{m} = n{\\mathrm{P}}_{n - 1}^{m - 1}$ .\n\n(2)根据排列数公式，可以得到\n\n$$\n{\\mathrm{P}}_{n}^{m} + m{\\mathrm{P}}_{n}^{m - 1} = \\frac{n!}{\\left( {n - m}\\right) !} + m\\frac{n!}{\\left( {n - m + 1}\\right) !}\n$$\n\n$$\n= \\frac{n!\\left( {n - m + 1}\\right)  + n! \\times  m}{\\left( {n - m + 1}\\right) !}\n$$\n\n$$\n= \\frac{n!\\left( {n - m + 1 + m}\\right) }{\\left\\lbrack  {\\left( {n + 1}\\right)  - m}\\right\\rbrack  !}\n$$\n\n$$\n= \\frac{\\left( {n + 1}\\right) !}{\\left\\lbrack  {\\left( {n + 1}\\right)  - m}\\right\\rbrack  !}\n$$\n\n$$\n= {\\mathrm{P}}_{n + 1}^{m}\\text{ . }\n$$\n\n所以, ${\\mathrm{P}}_{n}^{m} + m{\\mathrm{P}}_{n}^{m - 1} = {\\mathrm{P}}_{n + 1}^{m}$ .",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 633,
+          "end": 668
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "例题 9",
+      "markdown": "例 9 解关于正整数 $n$ 的方程: ${\\mathrm{P}}_{{2n} + 1}^{4} = {140}{\\mathrm{P}}_{n}^{3}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 669,
+          "end": 670
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 669,
+          "end": 670
+        }
+      ],
+      "id": "x2-6-2-ex-9",
+      "category": "例题",
+      "answer": "解 首先,由排列数的定义,有 $\\left\\{  \\begin{array}{l} {2n} + 1 \\geq  4, \\\\  n \\geq  3, \\end{array}\\right.$ 由此解得 $n \\geq  3$ . 此外, 原方程可化为\n\n$$\n\\left( {{2n} + 1}\\right) {2n}\\left( {{2n} - 1}\\right) \\left( {{2n} - 2}\\right)  = {140n}\\left( {n - 1}\\right) \\left( {n - 2}\\right) ,\n$$\n\n再化简, 可得\n\n$$\n\\left( {{2n} + 1}\\right) \\left( {{2n} - 1}\\right)  = {35}\\left( {n - 2}\\right) ,\n$$\n\n即\n\n$$\n4{n}^{2} - {35n} + {69} = 0,\n$$\n\n即\n\n$$\n\\left( {n - 3}\\right) \\left( {{4n} - {23}}\\right)  = 0.\n$$\n\n舍去非整数的根 $n = \\frac{23}{4}$ ,故\n\n$$\nn = 3\\text{ . }\n$$",
+      "answer_provenance": [
+        {
+          "source": "book",
+          "start": 671,
+          "end": 700
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "练习 6.2(3)",
+      "markdown": "#### 练习 6.2(3)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 701,
+          "end": 701
+        }
+      ],
+      "id": "x2-6-2-b23"
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(3) · 1",
+      "markdown": "1. 已知 $n$ 是正整数,且 $\\frac{{\\mathrm{P}}_{n}^{7} - {\\mathrm{P}}_{n}^{5}}{{\\mathrm{P}}_{n}^{5}} = {89}$ . 求 $n$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 704
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 703,
+          "end": 704
+        }
+      ],
+      "id": "x2-6-2-p623-1",
+      "category": "练习6.2(3)",
+      "answer": "1. 15.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 269,
+          "end": 270
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习6.2(3) · 2",
+      "markdown": "2. 已知 $n$ 为不小于 2 的正整数,求证: ${\\mathrm{P}}_{n + 1}^{n + 1} - {\\mathrm{P}}_{n}^{n} = {n}^{2}{\\mathrm{P}}_{n - 1}^{n - 1}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 705,
+          "end": 706
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 705,
+          "end": 706
+        }
+      ],
+      "id": "x2-6-2-p623-2",
+      "category": "练习6.2(3)",
+      "answer": "2. 提示: 把 $n + 1$ 个元素进行全排列,有 ${\\mathrm{P}}_{n + 1}^{n + 1}$ 种排法,其中,编号为 $n + 1$ 的元素恰位于最后一个位置的排法有 ${\\mathrm{P}}_{n}^{n}$ 种; 如果编号为 $n + 1$ 的元素不在最后一个位置上,那么它可以位于前 $n$ 个位置中的任意一个,最后一个位置上的元素编号可取 1, $2,\\cdots , n$ 中的一个,即剩下的 $n - 1$ 个元素放置在余下的 $n - 1$ 个位置上. 由乘法原理即得结论.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 271,
+          "end": 272
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 6.2",
+      "markdown": "### 习题 6.2",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 707,
+          "end": 707
+        }
+      ],
+      "id": "x2-6-2-b26"
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 709,
+          "end": 709
+        }
+      ],
+      "id": "x2-6-2-b27"
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 1",
+      "markdown": "1. 用 1、2、3、4 可以组成多少个没有重复数字的正整数? 其中有多少个偶数?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 711,
+          "end": 712
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 711,
+          "end": 712
+        }
+      ],
+      "id": "x2-6-2-h62A-1",
+      "category": "习题6.2A",
+      "answer": "1.24; 12.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 277,
+          "end": 278
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 2",
+      "markdown": "2. 从 1、2、3、4、5 这 5 个数字中，任取 2 个不同的数字作为一个点的坐标，一共可以组成多少个不同的点?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 714
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 713,
+          "end": 714
+        }
+      ],
+      "id": "x2-6-2-h62A-2",
+      "category": "习题6.2A",
+      "answer": "2.20.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 279,
+          "end": 280
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 3",
+      "markdown": "3. 在方程 ${ax} + {by} = 0$ 中,设系数 $a\\text{ 、 }b$ 是集合 $\\{ 0,1,2,3,5,7\\}$ 中两个不同的元素. 求这些方程所表示的不同直线的条数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 715,
+          "end": 716
+        }
+      ],
+      "id": "x2-6-2-h62A-3",
+      "category": "习题6.2A",
+      "answer": "3.22.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 281,
+          "end": 282
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 4",
+      "markdown": "4. 将 5 个人排成一排, 若甲和乙必须排在一起, 则有多少种不同的排法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 717,
+          "end": 718
+        }
+      ],
+      "id": "x2-6-2-h62A-4",
+      "category": "习题6.2A",
+      "answer": "4.48.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 283,
+          "end": 284
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 5",
+      "markdown": "5. 从 7 名运动员中选 4 名组成接力队参加 $4 \\times  {100}$ 米接力赛. 问:甲、乙两人都不跑中间两棒的排法有多少种?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 720
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 719,
+          "end": 720
+        }
+      ],
+      "id": "x2-6-2-h62A-5",
+      "category": "习题6.2A",
+      "answer": "5.400.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 285,
+          "end": 286
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 6",
+      "markdown": "6. 从 7 名男生和 5 名女生中选取 3 人依次进行面试.\n\n(1)若参加面试的人全是女生，则有多少种不同的面试方法?\n\n(2)若参加面试的人中，恰好有 1 名女生，则有多少种不同的面试方法？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 721,
+          "end": 726
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 721,
+          "end": 726
+        }
+      ],
+      "id": "x2-6-2-h62A-6",
+      "category": "习题6.2A",
+      "answer": "6. (1) 60. (2) 630.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 287,
+          "end": 288
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 7",
+      "markdown": "7. 若 $m$ 为正整数，且 $m < {27}$ ，则 $\\left( {{27} - m}\\right) \\left( {{28} - m}\\right) \\cdots \\left( {{34} - m}\\right)$ 等于 ( )\n\nA. ${\\mathrm{P}}_{{27} - m}^{8}$ ; B. ${\\mathrm{P}}_{{34} - m}^{{27} - m}$ ;\n\nC. ${\\mathrm{P}}_{{34} - m}^{7}$ ; D. ${\\mathrm{P}}_{{34} - m}^{8}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 727,
+          "end": 732
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 727,
+          "end": 732
+        }
+      ],
+      "id": "x2-6-2-h62A-7",
+      "category": "习题6.2A",
+      "answer": "7. D.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 289,
+          "end": 290
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 8",
+      "markdown": "8. 求满足等式 ${\\mathrm{P}}_{2n}^{3} = {28}{\\mathrm{P}}_{n}^{2}$ 的正整数 $n$ 的值.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 733,
+          "end": 734
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 733,
+          "end": 734
+        }
+      ],
+      "id": "x2-6-2-h62A-8",
+      "category": "习题6.2A",
+      "answer": "8. 4.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 291,
+          "end": 292
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2A · 9",
+      "markdown": "9. 解关于正整数 $x$ 的不等式 ${\\mathrm{P}}_{8}^{x} < 6{\\mathrm{P}}_{8}^{x - 2}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 735,
+          "end": 736
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 735,
+          "end": 736
+        }
+      ],
+      "id": "x2-6-2-h62A-9",
+      "category": "习题6.2A",
+      "answer": "9. 8.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 293,
+          "end": 294
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 737,
+          "end": 737
+        }
+      ],
+      "id": "x2-6-2-b37"
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 1",
+      "markdown": "1. 有 4 张分别标有数字 1、2、3、4 的红色卡片和 4 张分别标有数字 1、2、3、4 的蓝色卡片，从这 8 张卡片中取出 4 张排成一行. 如果所取出的 4 张卡片所标数字之和等于 10 , 那么不同的排法共有多少种?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 739,
+          "end": 740
+        }
+      ],
+      "id": "x2-6-2-h62B-1",
+      "category": "习题6.2B",
+      "answer": "1. 432.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 297,
+          "end": 298
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 2",
+      "markdown": "2. 有 6 张连号的电影票, 分给 3 名教师和 3 名学生, 要求师生相间而坐. 求不同分法的种数.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 741,
+          "end": 742
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 741,
+          "end": 742
+        }
+      ],
+      "id": "x2-6-2-h62B-2",
+      "category": "习题6.2B",
+      "answer": "2. 72.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 299,
+          "end": 300
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 3",
+      "markdown": "3. 在一张节目单中原有 6 个节目已排好顺序, 现要插入 3 个节目, 并要求不改变原有 6 个节目前后相对顺序. 问: 一共有多少种不同的插法?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 743,
+          "end": 744
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 743,
+          "end": 744
+        }
+      ],
+      "id": "x2-6-2-h62B-3",
+      "category": "习题6.2B",
+      "answer": "3. 504.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 301,
+          "end": 302
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 4",
+      "markdown": "4. 2 名男生和 4 名女生排成一排. 问: 男生既不相邻也不排两端的不同排法共有多少种?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 745,
+          "end": 746
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 745,
+          "end": 746
+        }
+      ],
+      "id": "x2-6-2-h62B-4",
+      "category": "习题6.2B",
+      "answer": "4. 144.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 303,
+          "end": 304
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 5",
+      "markdown": "5. 在一次电影展中, 某影院要在两天内播映 12 部参赛影片, 每天只有 6 个时间段播放 6 部参赛影片，每个时间段播放 1 部，其中甲、乙两部电影不能在同一天放映. 问:有多少种不同的排片方案？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 747,
+          "end": 748
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 747,
+          "end": 748
+        }
+      ],
+      "id": "x2-6-2-h62B-5",
+      "category": "习题6.2B",
+      "answer": "5. 261273600.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 305,
+          "end": 306
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题6.2B · 6",
+      "markdown": "6. 从 6 人中选取 4 人分别去 $A$ 、 $B$ 、 $C$ 、 $D$ 四个城市游览，要求每个城市有一人游览， 而每人只游览一个城市，且这 6 人中，甲、乙两人都不去 $A$ 地游览。问:不同的选择方案共有多少种?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 749,
+          "end": 750
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 749,
+          "end": 750
+        }
+      ],
+      "id": "x2-6-2-h62B-6",
+      "category": "习题6.2B",
+      "answer": "6. 240.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 307,
+          "end": 308
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "teacher",
+      "title": "练习6.2(2) · 原教参答案存档（已逐题复核回接）",
+      "markdown": "1. (1) 120. (2) 24. (3) 72.\n\n2. (1) 1440. (2) 5760.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 263,
+          "end": 266
+        }
+      ],
+      "teacher_only": true,
+      "id": "x2-6-2-b44"
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [
+    {
+      "id": "repair-x2-v1",
+      "resolved_issues": [
+        {
+          "code": "answer-group-numbering",
+          "severity": "blocking",
+          "message": "题组题号集合不一致或重复，整组停止自动配对以防错位",
+          "group": "练习6.2(2)",
+          "question_numbers": [
+            2
+          ],
+          "answer_numbers": [
+            1,
+            2
+          ]
+        }
+      ],
+      "evidence": "batch/reviews/repair-x2-author.json",
+      "source_files_read_only": true
+    }
+  ],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 303,
+      "original": "images/bo_d4slon3ef24c73be0qm0_8_258_504_749_637_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_8_258_504_749_637_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 317,
+      "original": "images/bo_d4slon3ef24c73be0qm0_8_227_1904_813_132_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_8_227_1904_813_132_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 325,
+      "original": "images/bo_d4slon3ef24c73be0qm0_9_198_595_322_67_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_9_198_595_322_67_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 395,
+      "original": "images/bo_d4slon3ef24c73be0qm0_10_380_1432_501_185_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_10_380_1432_501_185_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 415,
+      "original": "images/bo_d4slon3ef24c73be0qm0_11_607_590_821_188_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_11_607_590_821_188_0.jpg",
+      "exists": true
+    }
+  ]
+}

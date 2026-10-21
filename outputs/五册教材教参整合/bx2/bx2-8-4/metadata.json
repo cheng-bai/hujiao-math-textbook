@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-8-4",
+  "book_id": "bx2",
+  "section": "8.4",
+  "title": "向量的应用",
+  "section_json": "batch/sections/bx2/bx2-8-4.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-8-4",
+  "fingerprint": "e73d4141b7a6117c42ac574ef13aa699ab83dc336e4afc951cb3e6773d0fc330",
+  "status": "rendered",
+  "questions": 22,
+  "answers": 22,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-6c74e375db90cc01f3dc.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_28_1124_1554_357_236_0.jpg",
+      "sha256": "6c74e375db90cc01f3dc515dbc9d4391932839414b229cf1baed4716505bd4b1",
+      "private": false
+    },
+    "images/book-690e3b08339f981f4d17.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_29_188_535_318_164_0.jpg",
+      "sha256": "690e3b08339f981f4d17f5c7f6f4146e4d52e3602315ee3d27f52b6b8a7c6ecb",
+      "private": false
+    },
+    "images/book-b21294e3b3266d019b31.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_29_160_1461_376_214_0.jpg",
+      "sha256": "b21294e3b3266d019b31c267f749d86001d03b114b529b886dd5cd157ad37fdc",
+      "private": false
+    },
+    "images/book-12f1335225b8ec55f507.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_30_1194_586_279_271_0.jpg",
+      "sha256": "12f1335225b8ec55f5076c715f643518652d438b4ab37cfe7124467ea54d14f9",
+      "private": false
+    },
+    "images/book-85478d6898a19a2a333b.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_30_1161_1000_276_273_0.jpg",
+      "sha256": "85478d6898a19a2a333bcd42bd1f1ac2c096c7e6a153f2e4db39cd9e78d219c5",
+      "private": false
+    },
+    "images/book-e6872ee56eb3c507430b.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_31_156_356_377_280_0.jpg",
+      "sha256": "e6872ee56eb3c507430b14aefa07068f1540e311f0c2e92768ab87b372da6f5e",
+      "private": false
+    },
+    "images/book-9b4f6716143e506ef745.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_31_667_1459_711_388_0.jpg",
+      "sha256": "9b4f6716143e506ef745887890d1d6ef6f916f31220f6180bffd1b2b85967bb7",
+      "private": false
+    },
+    "images/book-75205db06ce47a9f3535.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_32_1110_1897_360_177_0.jpg",
+      "sha256": "75205db06ce47a9f3535b4067eef4eeb9bbc59c64316caa5d294699bb0d131f3",
+      "private": false
+    },
+    "images/book-9cb1677e83566d0497f8.jpg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_33_1177_1168_312_508_0.jpg",
+      "sha256": "9cb1677e83566d0497f8b0fb893a4f640d46781f62ec1ca7918b4dbb8f7cf008",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md": "df97e6756fb784de420af97b4ec31edaf75e3dbd25ff0b9437c38cc0bb60424c",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md": "318000326b721c61ff32f752d3a32bf4b8f2005ab485d4da5dea552c4210d88c"
+  },
+  "student_images": [
+    "images/book-12f1335225b8ec55f507.jpg",
+    "images/book-690e3b08339f981f4d17.jpg",
+    "images/book-6c74e375db90cc01f3dc.jpg",
+    "images/book-75205db06ce47a9f3535.jpg",
+    "images/book-85478d6898a19a2a333b.jpg",
+    "images/book-9b4f6716143e506ef745.jpg",
+    "images/book-9cb1677e83566d0497f8.jpg",
+    "images/book-b21294e3b3266d019b31.jpg",
+    "images/book-e6872ee56eb3c507430b.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "d0dc322216eef57bbe3a801f38d66a20db2ab8f5143ea77f5a1226e2480e36df",
+    "student.html": "00f0c14f56b48c24cc11fe93220aa3f0d8c3b4533d0b8de5216b35efc9a6525f",
+    "student.zip": "577fbe63ecc1a706c002b5c1ad87576e8f6576137e0fc948f1f4c0f8d1e98841",
+    "content.json": "0568edd3c55d64030775af3264eff94dea5e52bc036134ad6e581ac09349d7e2"
+  }
+}

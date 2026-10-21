@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "review_id": "authored-bx1-missing-answers-review",
+  "created_date": "2026-10-19",
+  "reviewer": "review_bx1_authored",
+  "patch_file": "batch/patches/authored-bx1-missing-answers.json",
+  "patch_sha256": "a78802d89963e427c3d80fdddd2d4408ea52d07c994c9ab81cd529166952c077",
+  "method": "独立复核agent的对照复核：已看到候选答案后逐题回读教材原题，重新推导并逐步检验；不是盲核。不参考起草模型的内部推理。原始教材、候选答案和网页均未修改。",
+  "scope": "5个题块，覆盖教材6道原编号题；练习6小问+4小问、拓展第1/2/3题及第4题两小问。",
+  "summary": {
+    "question_blocks_reviewed": 5,
+    "math_derivations_passed": 5,
+    "complete_answer_blocks_passed": 5,
+    "pending_figure_blocks": 0,
+    "source_hash_matches": 5,
+    "question_hash_matches": 5,
+    "deterministic_arithmetic_checks": 13,
+    "mathematical_errors_found": 0,
+    "mandatory_deliverable_findings": 0,
+    "resolved_findings": 2
+  },
+  "status": "passed-candidate-math-and-standalone-figure-review",
+  "items": [
+    {
+      "question_id": "bx1-2-2-p222-1",
+      "section_id": "bx1-2-2",
+      "title": "练习2.2(2) · 1",
+      "status": "pass",
+      "confidence": "high",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "book_sha256": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 719,
+            "end": 728
+          }
+        ],
+        "question_markdown_sha256": "896bdf5f295e3ce862016f146251d259d16cbd13c5e6ef4e44f0cfd1391d1511"
+      },
+      "source_sha256_verified": true,
+      "question_sha256_verified": true,
+      "source_lines_match_question": true,
+      "answer_sha256": "b3368e966a0d92c3aa3f27301f57cf0e5bbf7896153fb042ded72553d1aaa5c5",
+      "conclusion": "六小问的解集依次为 R、空集、R去掉1/3、空集、R、R。",
+      "independent_recalculation": [
+        "x^2+x+2=(x+1/2)^2+7/4>0；-x^2+3x-4=-(x-3/2)^2-7/4<0。",
+        "9x^2-6x+1=(3x-1)^2；严格大于0排除且只排除x=1/3。",
+        "4x-x^2-4=-(x-2)^2≤0；2x^2-x+1=2(x-1/4)^2+7/8>0。",
+        "x^2-(2/3)x+1/9=(x-1/3)^2≥0；最后两题允许等号，均全实数。"
+      ],
+      "findings": []
+    },
+    {
+      "question_id": "bx1-2-2-p222-2",
+      "section_id": "bx1-2-2",
+      "title": "练习2.2(2) · 2",
+      "status": "pass",
+      "confidence": "high",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "book_sha256": "bfac84b0c02116474bed96466fe4ff85c9fb5738fa140ce7103330557d4a4254",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 729,
+            "end": 734
+          }
+        ],
+        "question_markdown_sha256": "55195e0b9da55a67ca818681dcce32a6bc8084529ce93fc55b45cb3049e4faaa"
+      },
+      "source_sha256_verified": true,
+      "question_sha256_verified": true,
+      "source_lines_match_question": true,
+      "answer_sha256": "3b1c6d2784771434ca31038f863198b52625120da6d7a80f7ad3dddf0d3cf4be",
+      "conclusion": "四个构造均符合一元二次不等式要求和指定解集。",
+      "independent_recalculation": [
+        "(x-3)^2-2=(x-(3-√2))(x-(3+√2))=x^2-6x+7；向上开口时负值在两根间，非负值在两根外且包含两根。",
+        "x^2+1始终正，故大于0的解集为R、小于0的解集为空；四小问二次项均非零。"
+      ],
+      "findings": []
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-1",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 1",
+      "status": "pass",
+      "confidence": "high",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1339,
+            "end": 1340
+          }
+        ],
+        "question_markdown_sha256": "852259e22b37a1d4f279e7aacc3342d0532f8efc26f9ebc06dede1c432cd8713"
+      },
+      "source_sha256_verified": true,
+      "question_sha256_verified": true,
+      "source_lines_match_question": true,
+      "answer_sha256": "4bdaa112e48715de4d566b055bed58c01d614b104c2899380586e5f81d564ab6",
+      "conclusion": "定义域分为三个区间，三个区间内分别严格递增；不可并为全定义域上的严格递增。",
+      "independent_recalculation": [
+        "定义域R\\{-1,1}。f(b)-f(a)=(b-a)(1+ab)/((1-a^2)(1-b^2))，由通分展开分子得到该恒等式。",
+        "在两个外侧区间a,b同号且|a|,|b|>1，故ab>1；在中间区间|ab|<1，故1+ab>0；分母因同区间而同号相乘为正。",
+        "因此每一段有b>a⇒f(b)>f(a)。补充反例f(-2)=2/3>f(0)=0，即使-2<0也不满足跨断点递增；f(0)=0>f(2)=-2/3亦然。"
+      ],
+      "findings": [
+        {
+          "severity": "note",
+          "category": "STYLE_ONLY",
+          "description": "“定义域断开”本身不足以推出不能合并；本题结论正确，建议用f(-2)>f(0)、f(0)>f(2)的反例补充依据。无需因此阻塞。",
+          "resolved": true,
+          "resolution": "已修复：新版替换单纯断开理由，并补-2<0而f(-2)=2/3>f(0)=0、0<2而f(0)=0>f(2)=-2/3两项精确反例；数值与原函数相符。"
+        }
+      ],
+      "previous_answer_sha256": "3e2f40978c304e465ca0ade3316033a779fa5bc305251974e2e9546d8609a95c"
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-2",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 2",
+      "status": "pass",
+      "confidence": "high",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1341,
+            "end": 1342
+          }
+        ],
+        "question_markdown_sha256": "ada05213f558d0a3eab0c7e472b8e1e56a2fcea19d7d337a819c9ceef7abe38a"
+      },
+      "source_sha256_verified": true,
+      "question_sha256_verified": true,
+      "source_lines_match_question": true,
+      "answer_sha256": "2d9270e665643f6a4e7a0a67b80dd6b0d91e2dcdf470c6c2dd906aa06e0423a8",
+      "conclusion": "四段严格单调性和作图关键点正确；新增W形静态图的模型、等比例坐标、五个锚点及Chrome实际显示均已核验。",
+      "independent_recalculation": [
+        "f(x)=x^4-2x^2为偶函数；f(x)+1=(x^2-1)^2≥0，下界-1仅在x=±1取得。",
+        "零点x=-√2、0、√2；0为二重零点，原点是局部最大值0、两侧函数值为负。",
+        "f(b)-f(a)=(b-a)(a+b)(a^2+b^2-2)。a<b≤-1时两后因子负、正；-1≤a<b≤0时均负；0≤a<b≤1时正、负；1≤a<b时均正。严格不等式使端点不出现零乘积。",
+        "故递减(-∞,-1]、[0,1]；递增[-1,0]、[1,+∞)。原点切线为x轴，可由f(h)/h=h^3-2h趋于0核验，仅作复核不需引入正文。"
+      ],
+      "findings": [
+        {
+          "severity": "required",
+          "category": "MISSING_FIGURE",
+          "description": "原题“作出大致图像”尚未落实，候选答案只有文字描述，不应标记整项完成。需补W形静态图，标出(-√2,0)、(-1,-1)、(0,0)、(1,-1)、(√2,0)，核对模型与实际显示/打印。",
+          "resolved": true,
+          "resolution": "已补SVG并在候选答案引用；独立检查1005个曲线顶点、1004段中点、五个锚点和100px/单位等比例坐标，Chrome离线打开后截图视觉抽查通过。"
+        }
+      ],
+      "previous_answer_sha256": "16ecd705fba2729dea0e8eadd8776f076456a142042c8f0fe41f705a2ae38e33",
+      "graph_review": {
+        "asset_path": "batch/patches/authored-assets/bx1-chapter-end-5-t-2-graph.svg",
+        "asset_sha256": "2d01d2d4d348898ee90aa40e6f72bff1b1b31d64a3f83f44275aa5001080233f",
+        "answer_asset_hash_matches": true,
+        "answer_image_reference_matches_asset": true,
+        "function": "f(x)=(x^2-1)^2-1=x^4-2x^2",
+        "map": "X=320+100x; Y=405-100y",
+        "x_unit_px": 100,
+        "y_unit_px": 100,
+        "equal_scales_verified_from_axis_grid": true,
+        "curve_vertices": 1005,
+        "vertex_max_residual_px": 0.007725692774727122,
+        "segment_midpoint_max_residual_px": 0.01221587181511552,
+        "tolerance_px": 0.02,
+        "x_vertices_strictly_increase": true,
+        "key_points": [
+          {
+            "mathematical_point": [
+              -1.4142135623730951,
+              0
+            ],
+            "expected_svg_point": [
+              178.5786437626905,
+              405
+            ],
+            "nearest_marked_error_px": 0.0003562373095178373
+          },
+          {
+            "mathematical_point": [
+              -1,
+              -1
+            ],
+            "expected_svg_point": [
+              220,
+              505
+            ],
+            "nearest_marked_error_px": 0.0
+          },
+          {
+            "mathematical_point": [
+              0,
+              0
+            ],
+            "expected_svg_point": [
+              320,
+              405
+            ],
+            "nearest_marked_error_px": 0.0
+          },
+          {
+            "mathematical_point": [
+              1,
+              -1
+            ],
+            "expected_svg_point": [
+              420,
+              505
+            ],
+            "nearest_marked_error_px": 0.0
+          },
+          {
+            "mathematical_point": [
+              1.4142135623730951,
+              0
+            ],
+            "expected_svg_point": [
+              461.4213562373095,
+              405
+            ],
+            "nearest_marked_error_px": 0.0003562373095178373
+          }
+        ],
+        "actual_display": {
+          "engine": "Playwright Chrome headless, file:// offline SVG",
+          "viewport": [
+            760,
+            720
+          ],
+          "rendered_svg_size": [
+            640,
+            620
+          ],
+          "page_errors": [],
+          "screenshot_visual_review": "已真实打开截图：W形、两谷底、原点相切、对称性、公式与五处标签均清晰完整，未见裁切或关键标签相交。",
+          "screenshot_sha256": "de03f1243aaf025d22a23449a9fd28812ea8892431dd88acecf3b272a6197d20",
+          "limitation": "本次验证独立SVG及候选Markdown引用；尚未应用补丁，未复验教材整合页面、学生隔离或PDF打印。"
+        }
+      }
+    },
+    {
+      "question_id": "bx1-chapter-end-5-t-3",
+      "section_id": "bx1-chapter-end-5",
+      "title": "拓展与思考 · 3",
+      "status": "pass",
+      "confidence": "high",
+      "source": {
+        "book_path": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "book_sha256": "9ac811f449eb7b4d06e6aa1e0913d7a70c4cf4964c9ec0e18d5ab5f371c91461",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1343,
+            "end": 1349
+          }
+        ],
+        "question_markdown_sha256": "a948e3d0db62706c938b7d68d370933f24a16a60e0542fbc9ecc4ba336ed0e54"
+      },
+      "source_sha256_verified": true,
+      "question_sha256_verified": true,
+      "source_lines_match_question": true,
+      "answer_sha256": "ca6b5fa22b7e6261cfaabbe96a1216080a5dd90b1b4ba2d08cf095aa94b2a877",
+      "conclusion": "第3题的偶奇分解及同题块第4题的两项反函数性质均正确、证明完整。",
+      "independent_recalculation": [
+        "设H(x)=x^2+2|x-1|+3，则f=(H(x)+H(-x))/2=x^2+3+|x-1|+|x+1|，g=(H(x)-H(-x))/2=|x-1|-|x+1|。",
+        "x≤-1时f=x^2-2x+3、g=2；-1≤x≤1时f=x^2+5、g=-2x；x≥1时f=x^2+2x+3、g=-2；±1处左右表达一致。f偶、g奇，且f+g=H对全体实数恒成立。",
+        "反函数存在意味着f在R上单射。若f奇，则值域V关于0对称；y=f(x)⇒-y=f(-x)⇒f^{-1}(-y)=-x=-f^{-1}(y)，所以反函数在V上为奇函数。无需假设V=R。",
+        "若f严格递增，任取y1<y2∈V，若其原像x1≥x2则f(x1)≥f(x2)与y1<y2矛盾，所以逆函数在V上严格递增。",
+        "当前稳定题块ID将教材第3题与第4题合并收录，候选答案已覆盖两题，未漏答；后续结构拆分如有需要应保持来源和ID映射。"
+      ],
+      "findings": []
+    }
+  ],
+  "exact_arithmetic_checks": [
+    {
+      "check_id": "q1-square-expansions",
+      "result": "pass",
+      "detail": "2(x-1/4)^2+7/8 = 2x^2-x+1; constant 1/8+7/8=1"
+    },
+    {
+      "check_id": "q3-difference--3--2",
+      "result": "pass",
+      "detail": "x1=-3, x2=-2: exact difference identity and positive difference; supplemental spot check only"
+    },
+    {
+      "check_id": "q3-difference--1/2-1/2",
+      "result": "pass",
+      "detail": "x1=-1/2, x2=1/2: exact difference identity and positive difference; supplemental spot check only"
+    },
+    {
+      "check_id": "q3-difference-2-3",
+      "result": "pass",
+      "detail": "x1=2, x2=3: exact difference identity and positive difference; supplemental spot check only"
+    },
+    {
+      "check_id": "q4-difference--2--1",
+      "result": "pass",
+      "detail": "x1=-2, x2=-1: exact quartic difference identity; supplemental spot check only"
+    },
+    {
+      "check_id": "q4-difference--1-0",
+      "result": "pass",
+      "detail": "x1=-1, x2=0: exact quartic difference identity; supplemental spot check only"
+    },
+    {
+      "check_id": "q4-difference-0-1",
+      "result": "pass",
+      "detail": "x1=0, x2=1: exact quartic difference identity; supplemental spot check only"
+    },
+    {
+      "check_id": "q4-difference-1-2",
+      "result": "pass",
+      "detail": "x1=1, x2=2: exact quartic difference identity; supplemental spot check only"
+    },
+    {
+      "check_id": "q5-odd-even--3",
+      "result": "pass",
+      "detail": "x=-3: sum and parity exact; supplemental spot check only"
+    },
+    {
+      "check_id": "q5-odd-even--1",
+      "result": "pass",
+      "detail": "x=-1: sum and parity exact; supplemental spot check only"
+    },
+    {
+      "check_id": "q5-odd-even-0",
+      "result": "pass",
+      "detail": "x=0: sum and parity exact; supplemental spot check only"
+    },
+    {
+      "check_id": "q5-odd-even-1",
+      "result": "pass",
+      "detail": "x=1: sum and parity exact; supplemental spot check only"
+    },
+    {
+      "check_id": "q5-odd-even-3",
+      "result": "pass",
+      "detail": "x=3: sum and parity exact; supplemental spot check only"
+    }
+  ],
+  "limitations": [
+    "补丁尚未应用；此次通过针对候选答案及独立SVG，不代表教材整合网页、打印、离线资源打包或学生答案隔离已通过。",
+    "精确有理数抽验仅辅助检查，符号恒等式和全区间符号论证已逐题另行重算；未使用CAS。",
+    "此次复核不是全书数学审校。"
+  ],
+  "review_rounds": [
+    {
+      "round": 1,
+      "patch_sha256": "f169715e9fbe2ab7167e46b6893e704746bd5d7933da20454825deffcd2aa141",
+      "outcome": "5块数学通过；t-2缺图待补，t-1有非阻塞表述建议。"
+    },
+    {
+      "round": 2,
+      "patch_sha256": "a78802d89963e427c3d80fdddd2d4408ea52d07c994c9ab81cd529166952c077",
+      "outcome": "t-1反例、t-2图像与引用均通过；5块候选完整通过。"
+    }
+  ]
+}

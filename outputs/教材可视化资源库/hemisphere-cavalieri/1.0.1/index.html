@@ -1,0 +1,307 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>球体积：半球与柱挖锥的截面对照</title><style>:root{--ink:#273d33;--accent:#27685c;--secondary:#346da1;--warm:#ae6036;--line:#d8ded1;--paper:#fffef8}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:12px/1.6 "PingFang SC","Microsoft YaHei",sans-serif}main{padding:10px 12px}.lab-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(180px,1fr);gap:14px}.figure{min-width:0;background:linear-gradient(140deg,#f7f9f1,#fffef8);border:1px solid var(--line);border-radius:3px;overflow:hidden}svg{display:block;width:100%;height:auto;max-height:350px}svg path,svg line{fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}svg .grid{stroke:#e4e9df;stroke-width:.6}svg .axis{stroke:#9cae9e;stroke-width:1}svg .curve{stroke:var(--accent);stroke-width:2.5}svg .secondary{stroke:var(--secondary);stroke-width:2}svg .highlight{stroke:var(--warm);stroke-width:2.5}svg .aux{stroke:#829784;stroke-width:1.3}svg .dashed{stroke:#829784;stroke-width:1.3;stroke-dasharray:5 4}svg .area{fill:#d4e8dc99;stroke:var(--accent);stroke-width:1.2}svg .point{fill:var(--accent);stroke:var(--paper);stroke-width:1.3}svg text{font:12px "PingFang SC",sans-serif;fill:var(--ink)}svg .label{font-size:12px}svg circle.secondary{fill:var(--secondary)}svg circle.highlight{fill:var(--warm)}.formula{font-size:17px;padding:8px;background:#ecf1e6;border-left:2px solid var(--accent);overflow:auto}.formula math{max-width:100%}h3{font:600 17px/1.5 "Songti SC","STSong",serif;margin:0 0 7px}.hint{font-size:10px;color:#6a7d68;margin:5px 8px}#metrics{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:10px 0}#metrics div{border-top:1px solid var(--line);padding:5px 0;min-width:0}small{display:block;color:#7b8875;font-size:10px}strong{font:500 14px/1.5 "PingFang SC",sans-serif;overflow-wrap:anywhere}#note{font-size:11px;color:#61745f;line-height:1.7}#controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:8px}label{min-width:0;font-size:11px}label output{float:right;color:var(--accent);font-variant-numeric:tabular-nums}input[type=range]{display:block;width:100%;margin:6px 0;accent-color:var(--accent)}select{display:block;width:100%;font:11px "PingFang SC",sans-serif;padding:5px;background:var(--paper);border:1px solid #c5d0bf}.check{display:flex;align-items:center;gap:5px}button{font:11px "PingFang SC",sans-serif;padding:5px 12px;background:transparent;border:1px solid #bbcbb4;color:var(--accent);cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #ae6036;outline-offset:2px}.bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:8px;font-size:10px;color:#788574}@media(max-width:600px){.lab-grid{grid-template-columns:1fr;gap:9px}#controls{grid-template-columns:repeat(2,minmax(0,1fr))}svg{max-height:280px}.formula{font-size:15px}#metrics{margin:7px 0}.bottom{align-items:flex-start}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.lab-grid>div{min-width:0}@media(max-width:600px){.lab-grid{grid-template-columns:minmax(0,1fr)}}
+main>.formula{margin-bottom:8px}
+</style></head><body><main><div class="formula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mi>S</mi><mtext>圆</mtext></msub><mo>=</mo><mi>π</mi><mo>(</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><msub><mi>S</mi><mtext>圆环</mtext></msub></math></div><div class="lab-grid"><div class="figure"><svg id="diagram" viewBox="0 0 600 360" role="img" aria-label="球体积：半球与柱挖锥的截面对照"></svg></div><div><div id="metrics" aria-live="polite"></div><p id="note"></p></div></div><div id="controls"></div><div class="bottom"><span>改变参数，观察关系；图形取样不能替代证明。</span><button id="reset">恢复初始状态</button></div></main><script>window.LAB_SPEC={"id":"hemisphere-cavalieri","title":"球体积：半球与柱挖锥的截面对照","goal":"同步升降截面，比较圆盘与圆环的面积。","summary":"半径R的半球与同半径、同高R的圆柱挖去倒锥，在任意高度h的截面积同为π(R²−h²)。由祖暅原理得半球体积等于柱减锥，进而球体积为4πR³/3。","formula":"<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>S<\/mi><mtext>圆<\/mtext><\/msub><mo>=<\/mo><mi>π<\/mi><mo>(<\/mo><msup><mi>R<\/mi><mn>2<\/mn><\/msup><mo>−<\/mo><msup><mi>h<\/mi><mn>2<\/mn><\/msup><mo>)<\/mo><mo>=<\/mo><msub><mi>S<\/mi><mtext>圆环<\/mtext><\/msub><\/math>","controls":[{"key":"level","label":"等高截面比例","type":"range","min":0,"max":1,"step":0.05},{"key":"yaw","label":"观察视角（不改变数学关系）","type":"range","min":0,"max":180,"step":5}],"initial":{"level":0.5,"yaw":35},"stateKeys":{"math":["level"],"view":["yaw"],"lesson":[]}};</script><script>(() => {
+  'use strict';
+  const escape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const fmt = (value, digits = 3) => Number.isFinite(value) ? String(Number(value.toFixed(digits))) : '不适用';
+  const path = (points, cls = 'curve', close = false) => {
+    const valid = points.filter(point => point && point.every(Number.isFinite));
+    if (!valid.length) return '';
+    return `<path class="${escape(cls)}" d="${valid.map((p, i) => (i ? 'L' : 'M') + p.map(n => n.toFixed(2)).join(',')).join(' ')}${close ? 'Z' : ''}"/>`;
+  };
+  const line = (p, q, cls = 'aux') => path([p, q], cls);
+  const text = (x, y, value, cls = 'label') => `<text x="${fmt(x, 2)}" y="${fmt(y, 2)}" class="${escape(cls)}">${escape(value)}</text>`;
+  const dot = (p, label = '', cls = 'point') => `<circle cx="${fmt(p[0], 2)}" cy="${fmt(p[1], 2)}" r="4" class="${escape(cls)}"/>` + (label ? text(p[0] + 7, p[1] - 8, label) : '');
+  function world(xmin, xmax, ymin, ymax) {
+    const scale = Math.min(516 / (xmax - xmin), 278 / (ymax - ymin));
+    const ox = 300 - (xmin + xmax) * scale / 2, oy = 180 + (ymin + ymax) * scale / 2;
+    const p = (x, y) => [ox + x * scale, oy - y * scale];
+    let axes = '';
+    const step = Math.pow(10, Math.floor(Math.log10(Math.max(xmax - xmin, ymax - ymin) / 7)));
+    const increment = Math.max(step, 1e-4);
+    let count = 0;
+    for (let x = Math.ceil(xmin / increment) * increment; x <= xmax && count < 90; x += increment, count++) axes += line(p(x, ymin), p(x, ymax), 'grid');
+    count = 0;
+    for (let y = Math.ceil(ymin / increment) * increment; y <= ymax && count < 90; y += increment, count++) axes += line(p(xmin, y), p(xmax, y), 'grid');
+    if (ymin <= 0 && ymax >= 0) axes += line(p(xmin, 0), p(xmax, 0), 'axis') + text(...p(xmax, 0), 'x');
+    if (xmin <= 0 && xmax >= 0) axes += line(p(0, ymin), p(0, ymax), 'axis') + text(...p(0, ymax), 'y');
+    if (xmin < 0 && xmax > 0 && ymin < 0 && ymax > 0) axes += text(ox - 14, oy + 17, 'O');
+    return {p, axes, scale};
+  }
+  function project(point, yaw = 35, elevation = 25, scale = 34, origin = [300, 190]) {
+    const a = yaw * Math.PI / 180, b = elevation * Math.PI / 180;
+    const horizontal = point[0] * Math.cos(a) - point[1] * Math.sin(a);
+    const depth = point[0] * Math.sin(a) + point[1] * Math.cos(a);
+    return [origin[0] + horizontal * scale, origin[1] - (point[2] * Math.cos(b) - depth * Math.sin(b)) * scale];
+  }
+  window.LabTools = {escape, fmt, path, line, text, dot, world, project,
+    polygon: (points, cls = 'area') => path(points, cls, true),
+    sample: (fn, from, to, count = 120) => Array.from({length: count + 1}, (_, i) => fn(from + (to - from) * i / count))};
+})();
+</script><script>/* Pure models and SVG scenes. Camera parameters never enter mathematical readouts. */
+(() => {
+  'use strict';
+  const pi = Math.PI;
+  const radians = x => x * pi / 180;
+  const add = (a,b) => a.map((v,i)=>v+b[i]);
+  const mul = (a,t) => a.map(v=>v*t);
+  const norm = a => Math.hypot(...a);
+  const dot = (a,b) => a.reduce((sum,v,i)=>sum+v*b[i],0);
+  const escape = value => String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const viewNote = '三维图为正交投影，屏幕长度、角度不等于真实度量；视角不改变数学读数。';
+  const frame = (title,body) => `<title>${escape(title)}</title>${body}`;
+  const camera = (s,L,origin=[300,225],scale=42) => p=>L.project(p,Number(s.yaw??35),25,scale,origin);
+  const plane = (P,L,z=0,extent=2.7) => L.polygon([[-extent,-extent,z],[extent,-extent,z],[extent,extent,z],[-extent,extent,z]].map(P),'area');
+  const segment = (P,L,a,b,cls='curve') => L.line(P(a),P(b),cls);
+  const circle = (P,L,r,z=0,cls='curve') => L.path(L.sample(t=>P([r*Math.cos(t),r*Math.sin(t),z]),0,2*pi),cls);
+  const wirePrism = (P,L,offset=[0,0,0],h=3) => {
+    const base=[[-1.5,-1.5,0],[1.5,-1.5,0],[1.5,1.5,0],[-1.5,1.5,0]];
+    const top=base.map(p=>add(p,add(offset,[0,0,h])));
+    return L.path(base.map(P),'secondary',true)+L.path(top.map(P),'secondary',true)+base.map((p,i)=>segment(P,L,p,top[i],'aux')).join('');
+  };
+  const experiments = {
+    'skew-common-perpendicular': {
+      model(s) {
+        const h=Number(s.height), theta=Number(s.theta), a=radians(theta);
+        const parallel=Math.abs(Math.sin(a))<1e-10;
+        return {h,theta,direction:[Math.cos(a),Math.sin(a),0],distance:Math.abs(h),angle:Math.min(theta,180-theta),
+          type:parallel?(Math.abs(h)<1e-10?'重合':'平行'):(Math.abs(h)<1e-10?'相交':'异面'),
+          footA:[0,0,0],footB:[0,0,h],uniquePerpendicular:!parallel&&Math.abs(h)>1e-10};
+      },
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L);let svg=plane(P,L,0);
+        svg+=segment(P,L,[-3,0,0],[3,0,0],'curve');
+        svg+=segment(P,L,add(m.footB,mul(m.direction,-3)),add(m.footB,mul(m.direction,3)),'secondary');
+        svg+=segment(P,L,m.footA,m.footB,'highlight');
+        svg+=m.distance<1e-10?L.dot(P(m.footA),'A=B'):L.dot(P(m.footA),'A')+L.dot(P(m.footB),'B');
+        svg+=L.text(30,30,'转动视角：屏幕上交叉，不一定真的相交')+L.text(30,337,`真实关系：${m.type}；垂足连接线同时垂直于两条直线`);
+        return {svg:frame('异面直线与公垂线',svg),metrics:[['位置关系',m.type],['两线距离',L.fmt(m.distance)],['方向夹角',`${L.fmt(m.angle)}°`]],note:viewNote+(m.uniquePerpendicular?' 在异面状态，AB是唯一公垂线段。':' 边界状态不是异面直线；平行时最短连接线不唯一，重合或相交时距离为零。')};
+      }
+    },
+    'two-directions-normal': {
+      model(s) {
+        const a=radians(Number(s.separation)),tilt=radians(Number(s.tilt));
+        const u=[1,0,0],v=[Math.cos(a),Math.sin(a),0],n=[0,Math.sin(tilt),Math.cos(tilt)];
+        const independent=Math.abs(Math.sin(a))>1e-10;
+        return {u,v,n,independent,dotU:dot(n,u),dotV:dot(n,v),normal:Math.abs(Math.sin(tilt))<1e-10,degenerate:!independent};
+      },
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L);let svg=plane(P,L);
+        svg+=segment(P,L,mul(m.u,-2.4),mul(m.u,2.4),'secondary')+segment(P,L,mul(m.v,-2.4),mul(m.v,2.4),'curve');
+        svg+=segment(P,L,[0,0,0],mul(m.n,3),'highlight')+L.dot(P(mul(m.n,3)),'l')+L.dot(P([0,0,0]),'O');
+        svg+=L.text(30,30,m.independent?'平面内两条相交线：缺一不可':'两条方向重合：一个垂直条件不能代替两个')+L.text(30,336,`线面实际关系：${m.normal?'垂直':'不垂直'}；先看条件，勿凭投影判断`);
+        return {svg:frame('线面垂直判定的两个独立方向',svg),metrics:[['与方向u数量积',L.fmt(m.dotU)],['与方向v数量积',L.fmt(m.dotV)],['两方向是否独立',m.independent?'是':'否']],note:viewNote+' 两条线须在平面内相交；重合方向时，即使两项读数同为零，也不能推出线面垂直。'};
+      }
+    },
+    'dihedral-normal-section': {
+      model(s) {const a=radians(Number(s.angle));return {angle:Number(s.angle),u:[0,2.7,0],v:[0,2.7*Math.cos(a),2.7*Math.sin(a)],normalAngle:Math.min(Number(s.angle),180-Number(s.angle))};},
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L,[300,230],42),v=mul(m.v,1/2.7);
+        const a=[[-2.4,0,0],[2.4,0,0],[2.4,2.7,0],[-2.4,2.7,0]],b=[[-2.4,0,0],[2.4,0,0],add([2.4,0,0],m.v),add([-2.4,0,0],m.v)];
+        let svg=L.polygon(a.map(P),'area')+L.polygon(b.map(P),'area')+segment(P,L,[-2.8,0,0],[2.8,0,0],'aux');
+        svg+=L.polygon([[0,0,0],[0,3,0],[0,3,3],[0,0,3]].map(P),'area');
+        svg+=segment(P,L,[0,0,0],m.u,'curve')+segment(P,L,[0,0,0],m.v,'highlight');
+        svg+=L.path(L.sample(t=>P([0,.85*Math.cos(t),.85*Math.sin(t)]),0,radians(m.angle)),'highlight');
+        svg+=L.text(30,30,'截取垂直于棱的平面，把空间张角变成平面角')+L.text(30,337,'选定的两个半平面决定二面角；整平面的夹角取较小者');
+        return {svg:frame('二面角的垂直截面',svg),metrics:[['二面角',`${m.angle}°`],['两整平面夹角',`${m.normalAngle}°`],['截面内两射线与棱数量积','均为0']],note:viewNote+' 二面角可在0°至180°变化；0°与180°为边界退化。不能随意选两条斜线来测二面角。'};
+      }
+    },
+    'prism-cavalieri': {
+      model(s) {const shift=Number(s.shift),t=Number(s.level);return {shift,t,height:3,baseArea:9,sectionArea:9,volume:27,sectionOffset:shift*t};},
+      render(s,L) {
+        const m=this.model(s),left=camera(s,L,[155,247],24),right=camera(s,L,[430,247],24);
+        const section=P=>{const t=m.t,z=t*3;return L.polygon([[-1.5,-1.5,z],[1.5,-1.5,z],[1.5,1.5,z],[-1.5,1.5,z]].map(P),'highlight');};
+        let svg=wirePrism(left,L)+wirePrism(right,L,[m.shift,0,0]);
+        svg+=section(left)+section(p=>right(add(p,[m.sectionOffset,0,0])));
+        svg+=L.text(50,30,'直柱与斜柱：倾斜后等高截面仍相等')+L.text(70,320,'直柱')+L.text(375,320,'斜柱（高不变）');
+        return {svg:frame('柱体的等高截面与祖暅原理',svg),metrics:[['截面高度',L.fmt(3*m.t)],['两截面面积','9 / 9'],['两柱体积','27 / 27']],note:viewNote+' 底面为边长3的正方形，高固定为3。水平平移顶面不改变任意等高截面的面积；由祖暅原理得到体积相等。'};
+      }
+    },
+    'pyramid-parallel-slices': {
+      model(s) {const t=Number(s.level),shift=Number(s.shift);return {t,shift,height:3,baseArea:16,ratio:1-t,sectionArea:16*(1-t)**2,volume:16,remainingTopVolume:16*(1-t)**3};},
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L,[275,260],38),base=[[-2,-2,0],[2,-2,0],[2,2,0],[-2,2,0]],apex=[m.shift,0,3];
+        const section=base.map(b=>add(mul(b,1-m.t),mul(apex,m.t)));
+        let svg=L.polygon(base.map(P),'area')+base.map(b=>segment(P,L,b,apex,'aux')).join('')+L.polygon(section.map(P),'highlight');
+        svg+=segment(P,L,[m.shift,0,0],apex,'dashed')+L.dot(P(apex),'S');
+        svg+=L.text(30,30,'平行截面：线性缩小，面积按比例的平方缩小')+L.text(30,337,'移动顶点但保持同底等高，锥体体积不变');
+        return {svg:frame('棱锥的平行截面与同底等高',svg),metrics:[['高度占比',L.fmt(m.t)],['截面/底面面积比',L.fmt(m.ratio**2)],['锥体体积',L.fmt(m.volume)]],note:viewNote+' 此模型高3、底面积16。截面与底面相似，线性比为1−t；同底等高锥体体积均为16。截面读数帮助理解相似关系，不以有限次拖动替代体积公式证明，完整推导保留在原文。'};
+      }
+    },
+    'revolving-generator': {
+      model(s) {const cone=s.shape==='cone',sweep=Number(s.sweep);return {cone,sweep,radius:2,height:3,volume:cone?4*pi:12*pi,full:Math.abs(sweep-360)<1e-9};},
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L,[285,260],40),end=radians(m.sweep),rho=z=>m.cone?2*(1-z/3):2;
+        let svg=segment(P,L,[0,0,0],[0,0,3.5],'aux');
+        for(let j=0;j<=8;j++){const a=end*j/8;svg+=segment(P,L,[2*Math.cos(a),2*Math.sin(a),0],[rho(3)*Math.cos(a),rho(3)*Math.sin(a),3],j===8?'highlight':'aux');}
+        for(const z of [0,1,2,3])svg+=L.path(L.sample(a=>P([rho(z)*Math.cos(a),rho(z)*Math.sin(a),z]),0,end),'secondary');
+        const a=end,poly=m.cone?[[0,0,0],[2*Math.cos(a),2*Math.sin(a),0],[0,0,3]]:[[0,0,0],[2*Math.cos(a),2*Math.sin(a),0],[2*Math.cos(a),2*Math.sin(a),3],[0,0,3]];
+        svg+=L.polygon(poly.map(P),'area')+L.path(poly.map(P),'highlight',true)+L.text(30,30,m.cone?'直角三角形绕直角边旋转':'矩形绕一边旋转')+L.text(30,337,m.full?'已旋转一周，扫成完整旋转体':'旋转尚未满一周：目前是部分扫掠，不是完整旋转体');
+        return {svg:frame('旋转体的生成过程',svg),metrics:[['旋转角',`${m.sweep}°`],['完整体积（满一周）',L.fmt(m.volume)],['底半径 / 高','2 / 3']],note:viewNote+' 线框中的水平圆弧是不同高度的扫掠轨迹。圆锥的母线与轴相交，圆柱的母线与轴平行。'};
+      }
+    },
+    'sphere-moving-section': {
+      model(s) {const h=Number(s.level),R=2;const sq=R*R-h*h;return {h,R,radius:sq>=0?Math.sqrt(Math.max(0,sq)):null,area:sq>=0?pi*Math.max(0,sq):0,type:sq<0?'无交':Math.abs(sq)<1e-10?'相切于一点':Math.abs(h)<1e-10?'大圆截面':'小圆截面'};},
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L,[300,220],49);let svg='';
+        for(let i=0;i<4;i++){const a=i*pi/4;svg+=L.path(L.sample(t=>P([2*Math.cos(t)*Math.cos(a),2*Math.cos(t)*Math.sin(a),2*Math.sin(t)]),0,2*pi),'aux');}
+        svg+=plane(P,L,m.h,2.4);
+        if(m.radius!==null){svg+=circle(P,L,m.radius,m.h,'highlight')+segment(P,L,[0,0,0],[0,0,m.h],'dashed')+segment(P,L,[0,0,m.h],[m.radius,0,m.h],'highlight')+segment(P,L,[0,0,0],[m.radius,0,m.h],'secondary')+(Math.abs(m.h)<1e-10?'':L.dot(P([0,0,m.h]),'H'));}
+        svg+=L.dot(P([0,0,0]),Math.abs(m.h)<1e-10?'O=H':'O')+L.text(30,30,'平面远离球心：大圆 → 小圆 → 点 → 无交');
+        return {svg:frame('球的移动截面与勾股关系',svg),metrics:[['截面类型',m.type],['球心到平面距离',L.fmt(Math.abs(m.h))],['截面半径',m.radius===null?'不存在':L.fmt(m.radius)]],note:viewNote+' 半径R=2。平面距离小于R才截出圆；等于R仅交于一点，大于R无交。截面半径、垂距、球半径构成直角三角形。'};
+      }
+    },
+    'hemisphere-cavalieri': {
+      model(s) {const t=Number(s.level),R=2,h=R*t;return {t,R,h,r:Math.sqrt(Math.max(0,R*R-h*h)),hemisphereArea:pi*(R*R-h*h),annulusArea:pi*R*R-pi*h*h,volume:16*pi/3};},
+      render(s,L) {
+        const m=this.model(s),A=camera(s,L,[155,235],38),B=camera(s,L,[435,235],38);let svg='';
+        for(let i=0;i<4;i++){const a=i*pi/4;svg+=L.path(L.sample(t=>A([2*Math.cos(t)*Math.cos(a),2*Math.cos(t)*Math.sin(a),2*Math.sin(t)]),0,pi),'aux');}
+        svg+=circle(A,L,2,0,'secondary')+circle(A,L,m.r,m.h,'highlight');
+        svg+=circle(B,L,2,0,'secondary')+circle(B,L,2,2,'secondary');
+        for(const a of [0,pi/2,pi,3*pi/2]){svg+=segment(B,L,[2*Math.cos(a),2*Math.sin(a),0],[2*Math.cos(a),2*Math.sin(a),2],'aux')+segment(B,L,[0,0,0],[2*Math.cos(a),2*Math.sin(a),2],'aux');}
+        svg+=circle(B,L,2,m.h,'highlight')+circle(B,L,m.h,m.h,'highlight');
+        const diskPath=(P,r)=>L.sample(t=>P([r*Math.cos(t),r*Math.sin(t),m.h]),0,2*pi,100).map((p,i)=>(i?'L':'M')+p.join(',')).join(' ')+'Z';
+        svg+=`<path class="area" fill-rule="evenodd" d="${diskPath(A,m.r)}"/><path class="area" fill-rule="evenodd" d="${diskPath(B,2)} ${diskPath(B,m.h)}"/>`;
+        svg+=L.text(25,30,'同一高度：半球的圆截面 = 柱挖锥的圆环截面')+L.text(80,320,'半球')+L.text(365,320,'圆柱减去倒锥');
+        return {svg:frame('半球与圆柱减倒锥的等高截面',svg),metrics:[['截面高度',L.fmt(m.h)],['左 / 右截面积',`${L.fmt(m.hemisphereArea)} / ${L.fmt(m.annulusArea)}`],['两体积',L.fmt(m.volume)]],note:viewNote+' 柱与倒锥的半径、高均为2。任意等高处，左截面面积为圆面积减去半径h的圆面积，恰与右圆环相等；依据祖暅原理，半球体积等于柱减锥。'};
+      }
+    },
+    'space-basis-collapse': {
+      model(s) {const h=Number(s.height),c=Number(s.coefficient),u=[2,0,0],v=[0,2,0],w=[1,1,h];return {h,c,u,v,w,target:add(add(u,v),mul(w,c)),det:4*h,independent:Math.abs(h)>1e-10,volume:Math.abs(4*h)};},
+      render(s,L) {
+        const m=this.model(s),P=camera(s,L,[245,260],37);let svg=plane(P,L,0,2.8);
+        const O=[0,0,0],u=m.u,v=m.v,w=m.w;
+        const vertices=[O,u,add(u,v),v,w,add(w,u),add(add(w,u),v),add(w,v)];
+        for(const [a,b] of [[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]])svg+=segment(P,L,vertices[a],vertices[b],'aux');
+        svg+=segment(P,L,O,u,'curve')+segment(P,L,O,v,'secondary')+segment(P,L,O,w,'highlight')+L.dot(P(u),'u')+L.dot(P(v),'v')+L.dot(P(w),'w');
+        svg+=segment(P,L,O,m.target,'dashed')+L.dot(P(m.target),'p = u + v + cw');
+        svg+=L.text(25,30,m.independent?'非共面：三方向张成整个空间':'共面退化：第三方向被压进同一平面');
+        return {svg:frame('空间基底与非共面条件',svg),metrics:[['平行六面体体积',L.fmt(m.volume)],['三方向是否构成基底',m.independent?'是':'否'],['p的真实高度',L.fmt(m.target[2])]],note:viewNote+' 固定u=(2,0,0)、v=(0,2,0)，令w=(1,1,h)。h=0时w=(u+v)/2，只能张成平面，不能唯一表示所有空间向量。平行六面体是直观辅助，基本定理的完整证明保留。'};
+      }
+    },
+    'arithmetic-reverse-pairs': {
+      model(s) {const n=Math.round(Number(s.n)),d=Number(s.difference),progress=Number(s.progress),a=1;const terms=Array.from({length:n},(_,i)=>a+i*d);return {n,d,progress,terms,reversed:[...terms].reverse(),pair:terms[0]+terms[n-1],sum:n*(terms[0]+terms[n-1])/2};},
+      render(s,L) {
+        const m=this.model(s),w=480/m.n,scale=120/m.pair;let svg=L.text(25,30,'正序与倒序逐列相加：每列的总高度都相同');
+        for(let i=0;i<m.n;i++){const x=55+i*w,h1=m.terms[i]*scale,h2=m.reversed[i]*scale,top2=(1-m.progress)*(330-h2)+m.progress*(230-h1-h2);
+          svg+=L.polygon([[x,230],[x+w*.84,230],[x+w*.84,230-h1],[x,230-h1]],'area')+L.path([[x,230],[x,230-h1],[x+w*.84,230-h1]],'curve');
+          svg+=L.polygon([[x,top2+h2],[x+w*.84,top2+h2],[x+w*.84,top2],[x,top2]],'area')+L.path([[x,top2+h2],[x+w*.84,top2+h2],[x+w*.84,top2]],'secondary');
+          svg+=L.text(x+3,222-h1,L.fmt(m.terms[i],1))+L.text(x+3,top2+16,L.fmt(m.reversed[i],1));
+        }
+        if(m.progress>.999)svg+=L.line([50,110],[545,110],'highlight');
+        return {svg:frame('等差数列倒序相加',svg),metrics:[['每列配对和',L.fmt(m.pair)],['总列数',m.n],['原数列和',L.fmt(m.sum)]],note:'把配对进度推到最右端：两份数列拼成n列等高的图形，所得总和是原和的两倍。为使用正面积条，本图演示首项1、公差非负的情形；代数倒序相加对所有实数等差数列同样成立。'};
+      }
+    },
+    'geometric-shift-cancel': {
+      model(s) {const n=Math.round(Number(s.n)),q=Number(s.ratio),stage=Number(s.stage);const terms=Array.from({length:n},(_,i)=>q**i),sum=terms.reduce((a,b)=>a+b,0);return {n,q,stage,terms,sum,next:q**n,lhs:(1-q)*sum,rhs:1-q**n,constant:q===1};},
+      render(s,L) {
+        const m=this.model(s),w=500/(m.n+1);let svg=L.text(25,30,m.constant?'q = 1：不能除以1−q，直接按项数求和':'两行相减：相同幂次对齐，中间项全部消去');
+        svg+=L.text(15,102,'S')+L.text(15,178,'qS');
+        for(let i=0;i<=m.n;i++){
+          const x=55+i*w,val=m.q**i;let first=i<m.n,second=i>0;
+          if(first)svg+=L.dot([x,97],'','point')+L.text(x-10,79,L.fmt(val,2));
+          if(second)svg+=L.dot([x,171],'','point')+L.text(x-10,202,L.fmt(val,2));
+          if(first&&second&&m.stage>=1)svg+=L.line([x,110],[x,156],'aux');
+          if(first&&second&&m.stage>=2)svg+=L.line([x-13,65],[x+13,92],'highlight')+L.line([x-13,185],[x+13,211],'highlight');
+        }
+        const max=Math.max(1,...m.terms.map(Math.abs)),barScale=58/max;
+        svg+=L.line([45,282],[560,282],'aux')+L.text(25,337,'下方显示各项正负和相对大小；上方按幂次位置对齐');
+        m.terms.forEach((v,i)=>{const x=55+i*w;svg+=L.line([x,282],[x,282-v*barScale],v>=0?'curve':'secondary')+L.dot([x,282-v*barScale]);});
+        return {svg:frame('等比数列错位相减',svg),metrics:[['公比',m.q],['前n项和',L.fmt(m.sum)],['(1−q)S / 1−q^n',`${L.fmt(m.lhs)} / ${L.fmt(m.rhs)}`]],note:'第一行从幂次0到n−1，乘q后第二行从幂次1到n。移动消去步骤，观察只留下首尾。q=1时相减得到0=0，不能据此除以零；此时和等于n。本图首项固定为1，任意首项可整体乘回。'};
+      }
+    },
+    'sqrt2-iteration-compare': {
+      model(s) {const initial=Number(s.initial),steps=Math.round(Number(s.steps));const f=s.method==='reciprocal'?x=>2/x:s.method==='slow'?x=>1+1/(x+1):x=>(x+2/x)/2;const terms=[initial];for(let i=0;i<steps;i++)terms.push(f(terms.at(-1)));return {initial,steps,terms,last:terms.at(-1),error:Math.abs(terms.at(-1)-Math.sqrt(2)),method:s.method,f};},
+      render(s,L) {
+        const m=this.model(s),W=L.world(0,4.5,0,4.5);let svg=W.axes;
+        const f=m.f;svg+=L.path(L.sample(x=>W.p(x,f(x)),.25,4.5).filter(p=>p[1]>=25&&p[1]<=335),'curve')+L.line(W.p(0,0),W.p(4.4,4.4),'secondary');
+        for(let i=0;i<m.steps;i++){const x=m.terms[i],y=m.terms[i+1];svg+=L.path([W.p(x,x),W.p(x,y),W.p(y,y)],i===m.steps-1?'highlight':'aux');}
+        const rootPoint=W.p(Math.sqrt(2),Math.sqrt(2)),currentPoint=W.p(m.last,m.last);
+        svg+=L.dot(rootPoint,'固定点');
+        if(Math.hypot(currentPoint[0]-rootPoint[0],currentPoint[1]-rootPoint[1])<12)svg+=L.text(rootPoint[0]+7,rootPoint[1]+21,'当前项≈固定点');
+        else svg+=L.dot(currentPoint)+L.text(currentPoint[0]+7,currentPoint[1]+21,'当前项');
+        svg+=L.text(25,24,'函数曲线与对角线之间，逐步看见数列怎样走');
+        return {svg:frame('三种迭代法逼近根号2',svg),metrics:[['当前项序号',m.steps+1],['当前项',L.fmt(m.last,10)],['与√2的误差（浮点近似）',m.error.toExponential(3)]],note:m.method==='reciprocal'?'x→2/x一般在两个数之间往返，初值恰为√2时才固定；等价变形不保证迭代收敛。':m.method==='slow'?'x→1+1/(x+1)在√2两侧交替逼近。图像与误差均为有限步浮点演示，不能代替收敛证明。':'巴比伦迭代x→(x+2/x)/2：正初值经过一次迭代后不小于√2，之后逐步下降。达到机器精度后误差可能不再下降；收敛依据仍需数学论证。'};
+      }
+    }
+  };
+  window.TEXTBOOK_EXPERIMENTS=Object.assign(window.TEXTBOOK_EXPERIMENTS||{},experiments);
+})();
+</script><script>(() => {
+  'use strict';
+  const spec = window.LAB_SPEC, experiment = window.TEXTBOOK_EXPERIMENTS[spec.id], L = window.LabTools;
+  let state = {...spec.initial};
+  const $ = selector => document.querySelector(selector);
+  const controls = $('#controls');
+  controls.innerHTML = spec.controls.map(control => {
+    const label = L.escape(control.label), key = L.escape(control.key);
+    if (control.type === 'select') return `<label>${label}<select data-key="${key}">${control.options.map(option => `<option value="${L.escape(option.value)}">${L.escape(option.label)}</option>`).join('')}</select></label>`;
+    if (control.type === 'checkbox') return `<label class="check"><input data-key="${key}" type="checkbox">${label}</label>`;
+    return `<label>${label}<output data-output="${key}"></output><input data-key="${key}" type="range" min="${control.min}" max="${control.max}" step="${control.step}"></label>`;
+  }).join('');
+  function render() {
+    const result = experiment.render({...state}, L);
+    $('#diagram').innerHTML = result.svg;
+    $('#metrics').innerHTML = (result.metrics || []).map(([label, value]) => `<div><small>${L.escape(label)}</small><strong>${L.escape(value)}</strong></div>`).join('');
+    $('#note').textContent = result.note || '';
+    for (const control of spec.controls) {
+      const input = controls.querySelector(`[data-key="${control.key}"]`);
+      if (control.type === 'checkbox') input.checked = state[control.key];
+      else input.value = state[control.key];
+      const output = controls.querySelector(`[data-output="${control.key}"]`);
+      if (output) output.textContent = L.fmt(state[control.key], 4);
+    }
+    window.__textbookLab = {id: spec.id, state: {...state}, model: experiment.model({...state})};
+  }
+  controls.addEventListener('input', event => {
+    const input = event.target, control = spec.controls.find(item => item.key === input.dataset.key);
+    if (!control) return;
+    state[control.key] = control.type === 'checkbox' ? input.checked
+      : control.type === 'select' ? control.options.find(option => String(option.value) === input.value).value : Number(input.value);
+    render();
+  });
+  $('#reset').addEventListener('click', () => {state = {...spec.initial}; render();});
+  function validState(next) {
+    return next && typeof next === 'object' && Object.keys(next).length === spec.controls.length && spec.controls.every(c => {
+      const value = next[c.key];
+      return c.type === 'checkbox' ? typeof value === 'boolean' : c.type === 'select'
+        ? c.options.some(option => option.value === value) : Number.isFinite(value) && value >= c.min && value <= c.max && Math.abs((value-c.min)/c.step-Math.round((value-c.min)/c.step)) < 1e-7;
+    });
+  }
+  function restoreScene() {
+    const hash = new URLSearchParams(location.hash.slice(1)), scene = hash.get('scene'), encoded = hash.get('state');
+    if (!scene && !encoded) return;
+    state = {...spec.initial};
+    try {
+      if (scene && scene !== 'explore') throw Error('未知场景');
+      if (encoded) {
+        const overlay = JSON.parse(encoded);
+        if (!overlay || typeof overlay !== 'object' || Array.isArray(overlay) || Object.keys(overlay).some(key => !['math', 'view', 'lesson'].includes(key))) throw Error('状态分组不合法');
+        const next = {...spec.initial};
+        for (const [group, values] of Object.entries(overlay)) {
+          if (!values || typeof values !== 'object' || Array.isArray(values)) throw Error('状态分组不合法');
+          for (const [key, value] of Object.entries(values)) {
+            if (!spec.stateKeys[group].includes(key)) throw Error('未知或错组参数');
+            next[key] = value;
+          }
+        }
+        if (!validState(next)) throw Error('参数超出范围');
+        state = next;
+      }
+      render();
+    } catch (error) {
+      state = {...spec.initial}; render();
+      $('#note').textContent = error.message + '，已恢复默认探索状态。' + $('#note').textContent;
+    }
+  }
+  addEventListener('hashchange', restoreScene);
+  window.TixuPlugin = {
+    getState: () => ({...state}),
+    setState: next => {if (!validState(next)) throw Error('模块参数超出定义范围'); state = {...next}; render();},
+    pause: () => {},
+  };
+  render();
+  restoreScene();
+})();
+</script></body></html>

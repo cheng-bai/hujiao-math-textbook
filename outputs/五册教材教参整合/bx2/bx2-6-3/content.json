@@ -1,0 +1,1777 @@
+[
+  {
+    "type": "section",
+    "title": "解三角形",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1781,
+        "end": 1781
+      }
+    ],
+    "id": "bx2-6-3",
+    "number": "6.3",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 6.3 解三角形\n\n### 教学重点\n\n探索三角形边长与角度的关系, 掌握正弦定理、余弦定理.\n\n能用正弦定理、余弦定理解决简单的实际问题.\n\n### 内容分析\n\n“解三角形”包含两部分内容: 一是正弦定理和余弦定理的推导, 并应用于求三角形的边长或角度等基本量; 二是综合应用正弦定理和余弦定理解决简单的实际问题.\n\n例 1 作为本节引例, 将生产生活中的实际问题转化为具体数学问题, 体现了在解三角形中引入正弦定理的必要性, 同时也有利于学生数学建模能力的培养. 从教学要求来说, 在已知三角形两角和一边的条件下, 使用正弦定理入手求解三角形中的其他量相对比较容易, 无需再像初中时那样通过辅助线并转化为直角三角形来求解.\n\n例 2 主要介绍了正弦定理中边与所对角的正弦之比的几何意义. 本题对圆的基础知识的了解有一定要求, 本质上是转化为直角三角形处理. 该证明方法和数学史上的一般证明方法有一定差异, 但相对来讲更容易理解.\n\n例 3 旨在熟悉面积公式和例 2 的结论.\n\n例 4 要求在已知三角形两边和一夹角的条件下, 求其他的边或角等基本量. 对此问题, 从余弦定理入手相对便利. 在求得另一边后, 用正弦定理或余弦定理求其他量都是可行的选择. 在使用正弦定理求得角的正弦后, 在判断角为锐角或钝角时, 可以借助大边对大角的定性判断.\n\n例 5 旨在说明在已知三角形两边和其中一边所对的角的条件下, 求其他的边或角等基本量. 对此问题, 使用正弦定理或余弦定理入手都是可行的. 如果从正弦定理入手,要判断角为锐角或钝角,可使用大边对大角来加以判断,在某些情况下也是有难度的. 如果从余弦定理入手求边, 计算量相对较大, 但判断解较为容易. 对于此类问题不要求深入研究, 能够根据相应条件求解即可.\n\n例 6 说明在已知三角形三边的条件下, 求其角. 对此问题, 使用余弦定理入手解三角形是常用的方法. 在已知三角形三边求面积的过程中, 也给出了证明海伦公式的一般思路.\n\n例 7 旨在说明如何综合运用正弦定理和余弦定理证明三角形的相关问题. 在教学过程中也可以让学生探究本题的其他证明方法.\n\n例 8 实际上也是典型的三角形求解综合问题, 涉及了三角形面积公式、余弦定理和同角三角关系. 在三角形求解过程中, 要意识到已知某个角的正弦值求其余弦值时, 会涉及到对角为锐角还是钝角的判断.\n\n例 9 是将第一节中“已知正弦、余弦或正切值求角”和反三角函数知识综合起来的题目. 在教学中, 对反三角函数知识不必过分拓展和拔高, 也不应拓展到三角方程.\n\n例 10 是常见的三角测量问题. 在初中, 学生通常将其处理为两个直角三角形的求解, 而本题告诉学生也可以将其处理为一个斜三角形和一个直角三角形的求解. 该模型的建立和求解是相对容易的, 而且符合学生的生活体验, 因此将其作为正弦定理和余弦定理应用于三角测量中的第一个案例.\n\n例 11 让学生进一步体会三角测量的模型建立过程, 而借助图形和数据分析是解决问题的关键. 三角测量往往涉及多个三角形, 需要分析判断已有数据, 选用合理的求解顺序和定理.\n\n### 注意事项\n\n正弦定理和余弦定理是三角形中边角关系的定量刻画, 正弦定理是直角三角形中边角数量关系的推广, 余弦定理是直角三角形勾股定理的推广. 在证明定理的过程中, 学生容易通过作三角形的高从而转化为直角三角形来推导, 但该方法必须用分类讨论来保证其严谨性, 这点对许多学生来讲是有难度的. 本教材中用解析法证明正弦定理和余弦定理, 与正弦、余弦、正切的定义等知识一脉相承, 学生还可以体会到解析法论证带来的简洁之美.\n\n正弦和余弦定理在三角测量中的应用较为广泛,如“如何测量底部不能达到的建筑物高度” “如何测量地面上不能达到的两点间距离” 等. 本节仅要求处理简单的三角测量问题.\n\n### 教学建议\n\n正弦定理和余弦定理的证明方法较多,教师可以引导学生探究不同的证明,提高学生的学习主动性和论证能力.\n\n解三角形案例中, 已知三角形两边和一对角求解其他量时, 用正弦定理和余弦定理入手都是可行的方法, 不要误认为只有用正弦定理入手才便利. 对于这类问题的解的讨论, 在国家课程标准中是不作要求的, 只要给出数据加以求解即可. 事实上求解过程也会面临解的讨论问题, 但无需过分拓展.\n\n本教材中对反三角函数的要求是掌握锐角的反三角函数表示, 或者说只要求以反三角函数记号表达锐角即可. 考虑到后续章节 (如向量、解析几何和立体几何等章节) 的学习需要, 结合第一节“已知正弦、余弦或正切值求角”的知识, 可以得到一般性结论. 不要求掌握反三角函数的定义、性质和图像, 仅要求能够用反三角函数的记号表达所求角, 并能用计算器求出近似值. 另外, 这里并不意味着对三角方程的求解提出要求.\n\n正弦定理与余弦定理的教学一定要联系实际,使学生懂得解三角形的知识在实际生活中有着广泛的应用, 从而加强数学的应用意识, 并提高学习的积极性. 在用正弦定理、余弦定理解决简单的实际问题的教学中, 要注重让学生体会数学建模的一般思路和方法, 同时也要注意控制问题难度和引导学生合理使用计算器等工具.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 210,
+        "end": 259
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx2-6-3-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 正弦定理",
+    "markdown": "### 1 正弦定理",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1783,
+        "end": 1783
+      }
+    ],
+    "id": "bx2-6-3-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "在初中我们已学习了直角三角形的求解问题, 但在解决实际问题时, 所遇到的三角形往往不是直角三角形. 我们将不是直角三角形的三角形统称为斜三角形. 在三角形的三个角和三条边这六个元素中, 经常会遇到已知其中三个元素 (至少一个元素为边) 求其他元素的问题, 这称为解三角形. 为此, 需要知道边和角之间的数量关系.\n\n例如,某林场为了及时发现火情,设立了两个观测点 $A$ 和 $B$ . 某日两个观测点的林场人员都观测到 $C$ 处出现火情. 在 $A$ 处观测到火情发生在北偏西 ${40}^{ \\circ  }$ 方向，而在 $B$ 处观测到火情在北偏西 60° 方向. 已知 $B$ 在 $A$ 的正东方向 ${10}\\mathrm{\\;{km}}$ 处 (图 6-3-1),要确定火场 $C$ 分别距 $A$ 及 $B$ 多远. 将此问题转化为数学问题: 在 $\\bigtriangleup {ABC}$ 中,已知 $\\angle {CAB} = {130}^{ \\circ  },\\angle {CBA} = {30}^{ \\circ  },{AB} = {10}\\mathrm{\\;{km}}$ . 求 ${AC}$ 与 ${BC}$ 的长.\n\n为解答这个斜三角形问题, 就要研究斜三角形中边与角之间的关系.\n\n在 $\\bigtriangleup {ABC}$ 中,无论 $A$ 为锐角、直角还是钝角,对边 ${AB}$ 上的高 $h$ ,都有 $h = b\\sin A$ ,其中 $b$ 为边 ${AC}$ 的长. 为了避免分类讨论, 我们借助平面直角坐标系来统一处理.\n\n如图 6-3-2,以 $\\bigtriangleup {ABC}$ 的顶点 $A$ 为坐标原点,边 ${AB}$ 所在直线为 $x$ 轴,建立平面直角坐标系. 将角 $A\\text{ 、 }B$ 及 $C$ 所对边的边长分别记作 $a\\text{ 、 }b$ 及 $c$ ,则点 $B\\text{ 、 }C$ 的坐标分别为 $\\left( {c,0}\\right)$ 及 $\\left( {b\\cos A, b\\sin A}\\right)$ ,而 $\\bigtriangleup {ABC}$ 的面积 ${S}_{\\bigtriangleup {ABC}} = \\frac{1}{2}{AB} \\cdot  h = \\frac{1}{2}{bc}\\sin A$ . 同理可得 ${S}_{\\bigtriangleup {ABC}} = \\frac{1}{2}{ac}\\sin B,{S}_{\\bigtriangleup {ABC}} = \\frac{1}{2}{ab}\\sin C$ .\n\n![bo_d52056jef24c73bg6dsg_39_186_1616_321_205_0.jpg](images/book-3575ce4be7abcedc7e85.jpg)\n\n图 6-3-2\n\n---\n\n本章以后若不特别说明,在 $\\bigtriangleup {ABC}$ 中角 $A\\text{ 、 }B\\text{ 、 }C$ 所对边的边长都分别记作 $a$ 、 $b\\text{ 、 }c$ .\n\n---\n\n这就是说, 三角形的面积等于任意两边与它们夹角正弦值的乘积的一半, 即三角形的面积公式为\n\n$$\n{S}_{\\bigtriangleup {ABC}} = \\frac{1}{2}{ab}\\sin C = \\frac{1}{2}{ac}\\sin B = \\frac{1}{2}{bc}\\sin A.\n$$\n\n将上式同时除以 $\\frac{1}{2}{abc}$ ,就得到\n\n$$\n\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c},\n$$\n\n即\n\n$$\n\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}.\n$$\n\n这样,我们就得到了正弦定理: 在 $\\bigtriangleup {ABC}$ 中,若角 $A\\text{ 、 }B$ 及 $C$ 所对边的边长分别为 $a\\text{ 、 }b$ 及 $c$ ,则有\n\n$$\n\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}.\n$$\n\n---\n\n正弦定理是“大角对大边”这一几何性质的定量刻画.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1784,
+        "end": 1788
+      },
+      {
+        "source": "book",
+        "start": 1792,
+        "end": 1838
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 156,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-6-3-definition-3-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1351,
+        "end": 1502,
+        "kind": "formula",
+        "title": "教材公式",
+        "id": "bx2-6-3-formula-3-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-6-3-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 如图 6-3-1,在 $\\bigtriangleup {ABC}$ 中,已知 $\\angle {CAB} = {130}^{ \\circ  }$ , $\\angle {CBA} = {30}^{ \\circ  },{AB} = {10}\\mathrm{\\;{km}}$ . 求 ${AC}$ 与 ${BC}$ 的长. (结果精确到 ${0.1}\\mathrm{\\;{km}}$ )\n\n![bo_d52056jef24c73bg6dsg_39_218_1030_262_211_0.jpg](images/book-069f500d0ebce5823c18.jpg)\n\n图 6-3-1",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1839,
+        "end": 1840
+      },
+      {
+        "source": "book",
+        "start": 1789,
+        "end": 1791
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1839,
+        "end": 1840
+      },
+      {
+        "source": "book",
+        "start": 1789,
+        "end": 1791
+      }
+    ],
+    "id": "bx2-6-3-ex-1",
+    "category": "例题",
+    "answer": "解 在 $\\bigtriangleup {ABC}$ 中,由于 $C = {180}^{ \\circ  } - {130}^{ \\circ  } - {30}^{ \\circ  } = {20}^{ \\circ  }$ ,由正弦定理, 得\n\n$$\n\\frac{a}{\\sin {130}^{ \\circ  }} = \\frac{b}{\\sin {30}^{ \\circ  }} = \\frac{10}{\\sin {20}^{ \\circ  }},\n$$\n\n从而\n\n$$\na = {10} \\times  \\frac{\\sin {130}^{ \\circ  }}{\\sin {20}^{ \\circ  }} \\approx  {22.4}\\left( \\mathrm{\\;{km}}\\right) , b = {10} \\times  \\frac{\\sin {30}^{ \\circ  }}{\\sin {20}^{ \\circ  }} \\approx  {14.6}\\left( \\mathrm{\\;{km}}\\right) .\n$$\n\n所以， ${AC}$ 长约为 ${14.6}\\mathrm{\\;{km}}$ ， ${BC}$ 长约为 ${22.4}\\mathrm{\\;{km}}$ .\n\n利用例 1 的结果, 在本节一开始所考虑的问题中, 就可以确定火场 $C$ 的位置.\n\n正弦定理表明三角形的各边和它所对角的正弦的比相等. 那么, 这个比的几何意义是什么呢?\n\n",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1841,
+        "end": 1858
+      },
+      {
+        "source": "book",
+        "start": 1862,
+        "end": 1862
+      }
+    ],
+    "teacher_analysis": "例 1 作为本节引例, 将生产生活中的实际问题转化为具体数学问题, 体现了在解三角形中引入正弦定理的必要性, 同时也有利于学生数学建模能力的培养. 从教学要求来说, 在已知三角形两角和一边的条件下, 使用正弦定理入手求解三角形中的其他量相对比较容易, 无需再像初中时那样通过辅助线并转化为直角三角形来求解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 222,
+        "end": 222
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 已知圆 $O$ 是 $\\bigtriangleup {ABC}$ 的外接圆,其圆心为 $O$ ,直径为 ${2R}$ . 试用 $R$ 与角 $A\\text{ 、 }B$ 及 $C$ 的正弦来表示三角形三边的边长 $a\\text{ 、 }b$ 及 $c$ .\n\n![bo_d52056jef24c73bg6dsg_40_1154_1847_293_253_0.jpg](images/book-d421ab27f47df0c43971.jpg)\n\n图 6-3-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1863,
+        "end": 1864
+      },
+      {
+        "source": "book",
+        "start": 1859,
+        "end": 1861
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1863,
+        "end": 1864
+      },
+      {
+        "source": "book",
+        "start": 1859,
+        "end": 1861
+      }
+    ],
+    "id": "bx2-6-3-ex-2",
+    "category": "例题",
+    "answer": "解 由于三角形内角和等于 ${180}^{ \\circ  }$ ,因此角 $A\\text{ 、 }B$ 及 $C$ 中至少有两个角是锐角,不妨设 $A$ 为锐角,如图 6-3-3 所示. 过 $B$ 作直径 ${BD}$ ,并连接 ${CD}$ . 直径 ${BD}$ 所对的圆周角 $\\angle {DCB} = {90}^{ \\circ  }$ , 弧 ${BC}$ 所对的圆周角 $\\angle D = \\angle A$ ,且 ${BD} = {2R}$ . 于是\n\n$$\na = {BC} = {BD}\\sin D = {BD}\\sin A = {2R}\\sin A,\n$$\n\n即 $\\frac{a}{\\sin A} = {2R}$ .\n\n这样, 由正弦定理就得到\n\n$$\n\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = {2R}\\text{ ( }R\\text{ 为 } \\bigtriangleup  {ABC}\\text{ 的外接圆半径), }\n$$\n\n---\n\n能否用其他方法求解例 2 ?\n\n---\n\n换言之\n\n$$\na = {2R}\\sin A, b = {2R}\\sin B, c = {2R}\\sin C.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1865,
+        "end": 1890
+      }
+    ],
+    "teacher_analysis": "例 2 主要介绍了正弦定理中边与所对角的正弦之比的几何意义. 本题对圆的基础知识的了解有一定要求, 本质上是转化为直角三角形处理. 该证明方法和数学史上的一般证明方法有一定差异, 但相对来讲更容易理解.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 224,
+        "end": 224
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 设 $R$ 是 $\\bigtriangleup {ABC}$ 的外接圆的半径, $S$ 为 $\\bigtriangleup {ABC}$ 的面积. 求证:\n\n(1) $S = \\frac{abc}{4R}$ ；\n\n(2) $S = {2{R}^{2}}\\sin A\\sin B\\sin C$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1891,
+        "end": 1896
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1891,
+        "end": 1896
+      }
+    ],
+    "id": "bx2-6-3-ex-3",
+    "category": "例题",
+    "answer": "证明 (1) $S = \\frac{1}{2}{ab}\\sin C = \\frac{1}{2}{ab} \\cdot  \\frac{c}{2R} = \\frac{abc}{4R}$ .\n\n(2) $S = \\frac{1}{2}{ab}\\sin C = \\frac{1}{2} \\cdot  {2R}\\sin A \\cdot  {2R}\\sin B \\cdot  \\sin C \\; = 2{R}^{2}\\sin A\\sin B\\sin C$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1897,
+        "end": 1900
+      }
+    ],
+    "teacher_analysis": "例 3 旨在熟悉面积公式和例 2 的结论.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 226,
+        "end": 226
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.3(1)",
+    "markdown": "#### 练习 6.3(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1901,
+        "end": 1901
+      }
+    ],
+    "id": "bx2-6-3-b7",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(1) · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $a = 7, B = {30}^{ \\circ  }, C = {85}^{ \\circ  }$ . 求 $c$ . (结果精确到 0.01)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1903,
+        "end": 1904
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1903,
+        "end": 1904
+      }
+    ],
+    "id": "bx2-6-3-p631-1",
+    "category": "练习6.3(1)",
+    "answer": "1. $c \\approx  {7.69}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 530,
+        "end": 531
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(1) · 2",
+    "markdown": "2. 在 $\\bigtriangleup {ABC}$ 中,已知 $a = 5, A = {40}^{ \\circ  }, B = {80}^{ \\circ  }$ . 求 $b\\text{ 、 }c$ 和面积 $S$ . (结果精确到 0.01)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1905,
+        "end": 1906
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1905,
+        "end": 1906
+      }
+    ],
+    "id": "bx2-6-3-p631-2",
+    "category": "练习6.3(1)",
+    "answer": "2. $b \\approx  {7.66}, c \\approx  {6.74}, S \\approx  {16.58}$ (由于近似的方法不同,面积答案也可能为 $S \\approx$ 16.59).",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 532,
+        "end": 533
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(1) · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中,如果 ${\\sin }^{2}A + {\\sin }^{2}B = {\\sin }^{2}C$ ,试判断该三角形的形状.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1907,
+        "end": 1908
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1907,
+        "end": 1908
+      }
+    ],
+    "id": "bx2-6-3-p631-3",
+    "category": "练习6.3(1)",
+    "answer": "3. 直角三角形.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 534,
+        "end": 535
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 余弦定理",
+    "markdown": "### 2 余弦定理",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1909,
+        "end": 1909
+      }
+    ],
+    "id": "bx2-6-3-b11",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "正弦定理刻画了三角形中边与角的正弦之间的关系. 那么, 三角形中边与角的余弦之间存在什么关系呢?\n\n在图 6-3-2 中, 由两点间的距离公式, 得\n\n$$\na = \\left| {BC}\\right|  = \\sqrt{{\\left( b\\cos A - c\\right) }^{2} + {\\left( b\\sin A - 0\\right) }^{2}}\n$$\n\n$$\n= \\sqrt{{\\left( b\\cos A - c\\right) }^{2} + {\\left( b\\sin A\\right) }^{2}},\n$$\n\n两边平方, 得\n\n$$\n{a}^{2} = {b}^{2}{\\cos }^{2}A - {2bc}\\cos A + {c}^{2} + {b}^{2}{\\sin }^{2}A = {b}^{2} + {c}^{2} - {2bc}\\cos A,\n$$\n\n即\n\n$$\n{a}^{2} = {b}^{2} + {c}^{2} - {2bc}\\cos A.\n$$\n\n同理可得\n\n$$\n{b}^{2} = {a}^{2} + {c}^{2} - {2ac}\\cos B,\n$$\n\n$$\n{c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C.\n$$\n\n这样,我们就得到了余弦定理: 在 $\\bigtriangleup {ABC}$ 中,设角 $A\\text{ 、 }B$ 及 $C$ 所对边的边长分别为 $a\\text{ 、 }b$ 及 $c$ ,则有\n\n$$\n{a}^{2} = {b}^{2} + {c}^{2} - {2bc}\\cos A,\n$$\n\n$$\n{b}^{2} = {a}^{2} + {c}^{2} - {2ac}\\cos B,\n$$\n\n$$\n{c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C.\n$$\n\n余弦定理也可以表示成如下形式:\n\n$$\n\\cos A = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{2bc},\n$$\n\n$$\n\\cos B = \\frac{{a}^{2} + {c}^{2} - {b}^{2}}{2ac}\n$$\n\n$$\n\\cos C = \\frac{{a}^{2} + {b}^{2} - {c}^{2}}{2ab}.\n$$\n\n将余弦定理用于直角三角形, 立即可得勾股定理. 因此, 勾股定理可视为余弦定理的特例. 正弦定理和余弦定理都定量刻画了三角形的边角关系, 是求解三角形的基本工具. 我们已在上节例 1 中应用正弦定理处理了已知两角和一边求解三角形其他元素的问题,现在再来研究其他情况.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1910,
+        "end": 1974
+      }
+    ],
+    "id": "bx2-6-3-b12",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 在 $\\bigtriangleup {ABC}$ 中,已知 $a = \\sqrt{6}, b = \\sqrt{3} + 1, C = {45}^{ \\circ  }$ . 求 $c\\text{ 、 }A$ 及 $B$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1975,
+        "end": 1976
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1975,
+        "end": 1976
+      }
+    ],
+    "id": "bx2-6-3-ex-4",
+    "category": "例题",
+    "answer": "解 由余弦定理, 得\n\n$$\n{c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C = 6 + {\\left( \\sqrt{3} + 1\\right) }^{2} - 2\\sqrt{6} \\times  \\left( {\\sqrt{3} + 1}\\right)  \\times  \\frac{\\sqrt{2}}{2} = 4,\n$$\n\n故 $c = 2$ .\n\n再由余弦定理,得\n\n$$\n\\cos A = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{2bc} = \\frac{{\\left( \\sqrt{3} + 1\\right) }^{2} + 4 - 6}{2 \\times  \\left( {\\sqrt{3} + 1}\\right)  \\times  2} = \\frac{1}{2}.\n$$\n\n因为角 $A$ 为三角形的内角,所以 $A = {60}^{ \\circ  }$ .\n\n由三角形内角和定理,最后可得 $B = {180}^{ \\circ  } - A - C = {75}^{ \\circ  }$ .\n\n所以, $c = 2, A = {60}^{ \\circ  }, B = {75}^{ \\circ  }$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 1977,
+        "end": 1996
+      }
+    ],
+    "teacher_analysis": "例 4 要求在已知三角形两边和一夹角的条件下, 求其他的边或角等基本量. 对此问题, 从余弦定理入手相对便利. 在求得另一边后, 用正弦定理或余弦定理求其他量都是可行的选择. 在使用正弦定理求得角的正弦后, 在判断角为锐角或钝角时, 可以借助大边对大角的定性判断.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 228,
+        "end": 228
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 在 $\\bigtriangleup {ABC}$ 中,已知 $a = 2, b = 2\\sqrt{3}, A = {30}^{ \\circ  }$ . 求 $B\\text{ 、 }C$ 及 $c$ .\n\n---\n\n例 4 中,如果用正弦定理求出 $\\sin A = \\frac{\\sqrt{3}}{2}$ , 如何判断 $A = {60}^{ \\circ  }$ ?\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1997,
+        "end": 2004
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1997,
+        "end": 2004
+      }
+    ],
+    "id": "bx2-6-3-ex-5",
+    "category": "例题",
+    "answer": "解 方法一:由正弦定理，得\n\n$$\n\\frac{2}{\\sin {30}^{ \\circ  }} = \\frac{2\\sqrt{3}}{\\sin B},\n$$\n\n所以 $\\sin B = \\frac{\\sqrt{3}}{2}$ ,从而 $B = {60}^{ \\circ  }$ 或 $B = {180}^{ \\circ  } - {60}^{ \\circ  } = {120}^{ \\circ  }$ .\n\n当 $B = {60}^{ \\circ  }$ 时, $C = {180}^{ \\circ  } - {30}^{ \\circ  } - {60}^{ \\circ  } = {90}^{ \\circ  }$ ,再由\n\n$$\n\\frac{2}{\\sin {30}^{ \\circ  }} = \\frac{c}{\\sin {90}^{ \\circ  }},\n$$\n\n得 $c = 4$ ；\n\n当 $B = {120}^{ \\circ  }$ 时, $C = {180}^{ \\circ  } - {30}^{ \\circ  } - {120}^{ \\circ  } = {30}^{ \\circ  }$ ,再由\n\n$$\n\\frac{2}{\\sin {30}^{ \\circ  }} = \\frac{c}{\\sin {30}^{ \\circ  }},\n$$\n\n得 $c = 2$ .\n\n所以, $B = {60}^{ \\circ  }, C = {90}^{ \\circ  }, c = 4$ 或 $B = {120}^{ \\circ  }, C = {30}^{ \\circ  }, c = 2$ .\n\n方法二: 由余弦定理, 得\n\n$$\n{2}^{2} = {\\left( 2\\sqrt{3}\\right) }^{2} + {c}^{2} - 2 \\times  2\\sqrt{3} \\times  c \\times  \\cos {30}^{ \\circ  },\n$$\n\n即 ${c}^{2} - {6c} + 8 = 0$ ,所以 $c = 4$ 或 $c = 2$ .\n\n当 $c = 4$ 时, $\\cos B = \\frac{{2}^{2} + {4}^{2} - {\\left( 2\\sqrt{3}\\right) }^{2}}{2 \\times  4 \\times  2} = \\frac{1}{2}$ ,所以 $B = {60}^{ \\circ  }$ , 从而 $C = {180}^{ \\circ  } - {30}^{ \\circ  } - {60}^{ \\circ  } = {90}^{ \\circ  }$ ;\n\n当 $c = 2$ 时, $\\cos B = \\frac{{2}^{2} + {2}^{2} - {\\left( 2\\sqrt{3}\\right) }^{2}}{2 \\times  2 \\times  2} =  - \\frac{1}{2}$ ,所以 $B = {120}^{ \\circ  }$ , 从而 $C = {180}^{ \\circ  } - {30}^{ \\circ  } - {120}^{ \\circ  } = {30}^{ \\circ  }$ .\n\n于是得到结论:\n\n$$\nB = {60}^{ \\circ  }, C = {90}^{ \\circ  }, c = 4\\text{ 或 }B = {120}^{ \\circ  }, C = {30}^{ \\circ  }, c = 2\\text{ . }\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2005,
+        "end": 2048
+      }
+    ],
+    "teacher_analysis": "例 5 旨在说明在已知三角形两边和其中一边所对的角的条件下, 求其他的边或角等基本量. 对此问题, 使用正弦定理或余弦定理入手都是可行的. 如果从正弦定理入手,要判断角为锐角或钝角,可使用大边对大角来加以判断,在某些情况下也是有难度的. 如果从余弦定理入手求边, 计算量相对较大, 但判断解较为容易. 对于此类问题不要求深入研究, 能够根据相应条件求解即可.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 230,
+        "end": 230
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 在 $\\bigtriangleup {ABC}$ 中，已知 $a = 4, b = 5, c = 6$ . 求角 $A$ 的余弦值和 $\\bigtriangleup {ABC}$ 的面积 $S$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2049,
+        "end": 2050
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2049,
+        "end": 2050
+      }
+    ],
+    "id": "bx2-6-3-ex-6",
+    "category": "例题",
+    "answer": "解 由余弦定理，得\n\n$$\n\\cos A = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{2bc} = \\frac{{5}^{2} + {6}^{2} - {4}^{2}}{2 \\times  5 \\times  6} = \\frac{3}{4}.\n$$\n\n由此可得\n\n$$\n\\sin A = \\sqrt{1 - {\\cos }^{2}A} = \\sqrt{1 - {\\left( \\frac{3}{4}\\right) }^{2}} = \\frac{\\sqrt{7}}{4},\n$$\n\n从而\n\n$$\nS = \\frac{1}{2}{bc}\\sin A = \\frac{1}{2} \\times  5 \\times  6 \\times  \\frac{\\sqrt{7}}{4} = \\frac{15}{4}\\sqrt{7}.\n$$\n\n---\n\n将例 5 中的数据 $a = 2$ 改为 $a = 4$ ,该三角形只有一解. 对于已知三角形两边及其中一边所对角的三角形求解问题, 有兴趣的同学可以深入加以研究.\n\n如例 5 所示, 已知三角形两边和其中一边所对的角, 解出来的三角形可能不唯一确定. 而对其他的情形，如本节例 4 、 例 6 和上节中的例 1 , 都有确定的解. 这与证明三角形全等的条件之间有联系吗?\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2051,
+        "end": 2076
+      }
+    ],
+    "teacher_analysis": "例 6 说明在已知三角形三边的条件下, 求其角. 对此问题, 使用余弦定理入手解三角形是常用的方法. 在已知三角形三边求面积的过程中, 也给出了证明海伦公式的一般思路.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 232,
+        "end": 232
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.3(2)",
+    "markdown": "#### 练习 6.3(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2077,
+        "end": 2077
+      }
+    ],
+    "id": "bx2-6-3-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(2) · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $a = 3, b = 4, C = {60}^{ \\circ  }$ . 求 $c$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2079,
+        "end": 2080
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2079,
+        "end": 2080
+      }
+    ],
+    "id": "bx2-6-3-p632-1",
+    "category": "练习6.3(2)",
+    "answer": "1. $c = \\sqrt{13}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 538,
+        "end": 539
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(2) · 2",
+    "markdown": "2. 在 $\\bigtriangleup {ABC}$ 中,已知 $A = {45}^{ \\circ  }, a = 2\\sqrt{6}, b = 2\\sqrt{3}$ . 求 $B\\text{ 、 }C$ 及 $c$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2081,
+        "end": 2082
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2081,
+        "end": 2082
+      }
+    ],
+    "id": "bx2-6-3-p632-2",
+    "category": "练习6.3(2)",
+    "answer": "2. $B = {30}^{ \\circ  }, C = {105}^{ \\circ  }, c = 3\\sqrt{2} + \\sqrt{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 540,
+        "end": 541
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(2) · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中,已知三边之比为 $2 : 3 : 4$ . 求该三角形的最大角的余弦值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2083,
+        "end": 2084
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2083,
+        "end": 2084
+      }
+    ],
+    "id": "bx2-6-3-p632-3",
+    "category": "练习6.3(2)",
+    "answer": "3. $- \\frac{1}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 542,
+        "end": 543
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 在 $\\bigtriangleup {ABC}$ 中,已知 ${b}^{2} + {c}^{2} - {bc} = {a}^{2}$ ,且 $\\frac{b}{c} = \\frac{\\tan B}{\\tan C}$ . 求证: $\\bigtriangleup {ABC}$ 为等边三角形.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2085,
+        "end": 2086
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2085,
+        "end": 2086
+      }
+    ],
+    "id": "bx2-6-3-ex-7",
+    "category": "例题",
+    "answer": "证明 记 $\\bigtriangleup {ABC}$ 外接圆的半径为 $R$ ,由 $\\frac{b}{c} = \\frac{\\tan B}{\\tan C}$ ,得\n\n$$\n\\frac{{2R}\\sin B}{{2R}\\sin C} = \\frac{\\sin B \\cdot  \\cos C}{\\cos B \\cdot  \\sin C}\\text{ ,即 }\\cos B = \\cos C\\text{ . }\n$$\n\n又由 $B\\text{ 、 }C \\in  \\left( {0,\\pi }\\right)$ ,得 $B = C$ ,从而 $b = c$ . 再由 ${b}^{2} + {c}^{2} - {bc} \\; = {a}^{2}$ ,得 ${b}^{2} = {a}^{2}$ ,从而 $a = b$ .\n\n所以， $\\bigtriangleup  {ABC}$ 为等边三角形.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2087,
+        "end": 2096
+      }
+    ],
+    "teacher_analysis": "例 7 旨在说明如何综合运用正弦定理和余弦定理证明三角形的相关问题. 在教学过程中也可以让学生探究本题的其他证明方法.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 234,
+        "end": 234
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 8",
+    "markdown": "例 8 在 $\\bigtriangleup  {ABC}$ 中，已知 $a = 5$ ， $b = 4$ ，且三角形面积 $S = 8$ . 求 $c$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2097,
+        "end": 2098
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2097,
+        "end": 2098
+      }
+    ],
+    "id": "bx2-6-3-ex-8",
+    "category": "例题",
+    "answer": "解 由 $S = \\frac{1}{2}{ab}\\sin C = 8$ ,得 $\\sin C = \\frac{4}{5}$ ,所以\n\n$$\n\\cos C =  \\pm  \\sqrt{1 - {\\sin }^{2}C} =  \\pm  \\frac{3}{5}.\n$$\n\n当 $\\cos C = \\frac{3}{5}$ 时,\n\n$$\n{c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C = {25} + {16} - 2 \\times  5 \\times  4 \\times  \\frac{3}{5} = {17};\n$$\n\n而当 $\\cos C =  - \\frac{3}{5}$ 时,\n\n${c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C = {25} + {16} - 2 \\times  5 \\times  4 \\times  \\left( {-\\frac{3}{5}}\\right)  = {65}.$\n\n所以, $c = \\sqrt{17}$ 或 $c = \\sqrt{65}$ .\n\n为了表示例 8 中的角 $C$ ,我们引入如下记号.\n\n一般地,我们用 $\\arcsin a$ 表示满足 $\\sin x = a\\left( {0 \\leq  a \\leq  1}\\right)$ 的角 $x\\left( {x \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack  }\\right)$ ; 用 $\\arccos a$ 表示满足 $\\cos x = a\\left( {0 \\leq  a \\leq  1}\\right)$ 的角 $x \\; \\left( {x \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right\\rbrack  }\\right)$ ; 用 $\\arctan a$ 表示满足 $\\tan x = a\\left( {a \\geq  0}\\right)$ 的角 $x \\; \\left( {x \\in  \\left\\lbrack  {0,\\frac{\\pi }{2}}\\right) }\\right)$ . 这样,由 $\\sin \\frac{\\pi }{6} = \\frac{1}{2}$ 就得到 $\\arcsin \\frac{1}{2} = \\frac{\\pi }{6}$ . 同理, 有 $\\arccos \\frac{\\sqrt{2}}{2} = \\frac{\\pi }{4}$ 及 $\\arctan \\sqrt{3} = \\frac{\\pi }{3}$ . 因此,当例 8 中的角 $C$ 为锐角时,可以表示为 $\\arcsin \\frac{4}{5}$ 或 $\\arccos \\frac{3}{5}$ ; 而当角 $C$ 为钝角时,可以表示为 $\\pi  - \\arcsin \\frac{4}{5}$ 或 $\\pi  - \\arccos \\frac{3}{5}$ .\n\n---\n\n符号 arcsin、arccos、 arc tan 在计算器上一般分别用 ${\\sin }^{-1}$ 、 ${\\cos }^{-1}$ 、 ${\\tan }^{-1}$ 表示.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2099,
+        "end": 2126
+      }
+    ],
+    "teacher_analysis": "例 8 实际上也是典型的三角形求解综合问题, 涉及了三角形面积公式、余弦定理和同角三角关系. 在三角形求解过程中, 要意识到已知某个角的正弦值求其余弦值时, 会涉及到对角为锐角还是钝角的判断.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 236,
+        "end": 236
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 9",
+    "markdown": "例 9 根据下列条件,分别求角 $x$ :\n\n(1)已知 $\\sin x = \\frac{1}{3}$ ；\n\n(2)已知 $\\cos x =  - \\frac{3}{5}, x \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack$ ；\n\n(3)已知 $\\tan x =  - 3, x \\in  \\left( {\\frac{\\pi }{2},\\frac{3\\pi }{2}}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2127,
+        "end": 2134
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2127,
+        "end": 2134
+      }
+    ],
+    "id": "bx2-6-3-ex-9",
+    "category": "例题",
+    "answer": "解(1)设锐角 $\\alpha$ 满足 $\\sin \\alpha  = \\frac{1}{3}$ ，就有 $\\alpha  = \\arcsin \\frac{1}{3}$ . 这样， 原式等价于求解 $\\sin x = \\sin \\alpha$ ,从而有 $x = {k\\pi } + {\\left( -1\\right) }^{k}\\alpha , k \\in  \\mathbf{Z}$ . 于是,满足条件的角为 $x = {k\\pi } + {\\left( -1\\right) }^{k}\\arcsin \\frac{1}{3}, k \\in  \\mathbf{Z}$ .\n\n(2)设锐角 $\\alpha$ 满足 $\\cos \\alpha  = \\frac{3}{5}$ ，就有 $\\alpha  = \\arccos \\frac{3}{5}$ . 因为 $\\cos \\left( {\\pi  - \\alpha }\\right)  =  - \\cos \\alpha  =  - \\frac{3}{5}$ ,所以原式等价于求解 $\\cos x = \\; \\cos \\left( {\\pi  - \\alpha }\\right)$ ,从而有 $x = {2k\\pi } \\pm  \\left( {\\pi  - \\arccos \\frac{3}{5}}\\right) , k \\in  \\mathbf{Z}$ .\n\n又因为 $x \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack$ ,所以 $x = \\pi  - \\arccos \\frac{3}{5}$ .\n\n(3)设锐角 $\\alpha$ 满足 $\\tan \\alpha  = 3$ ，就有 $\\alpha  = \\arctan 3$ . 因为 $\\tan \\left( {-\\alpha }\\right) \\; =  - \\tan \\alpha  =  - 3$ ,所以原式等价于求解 $\\tan x = \\tan \\left( {-\\alpha }\\right)$ ,从而有 $x = {k\\pi } + \\left( {-\\arctan 3}\\right) , k \\in  \\mathbf{Z}.$\n\n又因为 $x \\in  \\left( {\\frac{\\pi }{2},\\frac{3\\pi }{2}}\\right)$ ,所以 $x = \\pi  - \\arctan 3$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2135,
+        "end": 2144
+      }
+    ],
+    "teacher_analysis": "例 9 是将第一节中“已知正弦、余弦或正切值求角”和反三角函数知识综合起来的题目. 在教学中, 对反三角函数知识不必过分拓展和拔高, 也不应拓展到三角方程.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 238,
+        "end": 238
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.3(3)",
+    "markdown": "#### 练习 6.3(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2145,
+        "end": 2145
+      }
+    ],
+    "id": "bx2-6-3-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(3) · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $a = 4, B = {60}^{ \\circ  }$ ,其面积为 $5\\sqrt{3}$ . 求 $b$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2147,
+        "end": 2148
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2147,
+        "end": 2148
+      }
+    ],
+    "id": "bx2-6-3-p633-1",
+    "category": "练习6.3(3)",
+    "answer": "1. $b = \\sqrt{21}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 546,
+        "end": 547
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(3) · 2",
+    "markdown": "2. 证明: 平行四边形中, 四边平方和等于对角线平方和.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2149,
+        "end": 2150
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2149,
+        "end": 2150
+      }
+    ],
+    "id": "bx2-6-3-p633-2",
+    "category": "练习6.3(3)",
+    "answer": "2. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 548,
+        "end": 549
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(3) · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中,求证:\n\n(1) $\\frac{{a}^{2} + {b}^{2}}{{c}^{2}} = \\frac{{\\sin }^{2}A + {\\sin }^{2}B}{{\\sin }^{2}C}$ ;\n\n(2) ${a}^{2} + {b}^{2} + {c}^{2} = 2\\left( {{bc}\\cos A + {ac}\\cos B + {ab}\\cos C}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2151,
+        "end": 2156
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2151,
+        "end": 2156
+      }
+    ],
+    "id": "bx2-6-3-p633-3",
+    "category": "练习6.3(3)",
+    "answer": "3. 证明: (1) $\\frac{{a}^{2} + {b}^{2}}{{c}^{2}} = \\frac{{\\left( 2R\\sin A\\right) }^{2} + {\\left( 2R\\sin B\\right) }^{2}}{{\\left( 2R\\sin C\\right) }^{2}} = \\frac{{\\sin }^{2}A + {\\sin }^{2}B}{{\\sin }^{2}C}$ .\n\n(2) ${a}^{2} = {b}^{2} + {c}^{2} - {2bc}\\cos A,{b}^{2} = {a}^{2} + {c}^{2} - {2ac}\\cos B,{c}^{2} = {a}^{2} + {b}^{2} - {2ab}\\cos C$ . 将上述三式相加并整理,得 ${a}^{2} + {b}^{2} + {c}^{2} = 2\\left( {{ab}\\cos C + {ac}\\cos B + {bc}\\cos A}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 550,
+        "end": 553
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(3) · 4",
+    "markdown": "4. 分别求满足下列条件的角.\n\n(1) $\\sin x = \\frac{3}{5}, x \\in  \\left\\lbrack  {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right\\rbrack$ ; (2) $\\cos x =  - \\frac{2}{3}, x \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack$ ;\n\n(3) $\\tan x =  - 2, x \\in  \\left( {-\\frac{\\pi }{2},\\frac{\\pi }{2}}\\right)$ ; (4) $\\sin x =  - \\frac{2}{3}, x \\in  \\mathbf{R}$ .\n\n解三角形在实际生活中, 尤其是在测量方面, 有着广泛的应用. 下面通过一些实例来体会解三角形在测量上的应用.\n\n![bo_d52056jef24c73bg6dsg_46_1132_646_341_498_0.jpg](images/book-73a98f1c34e27b6eb33b.jpg)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2157,
+        "end": 2166
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2157,
+        "end": 2166
+      }
+    ],
+    "id": "bx2-6-3-p633-4",
+    "category": "练习6.3(3)",
+    "answer": "4. (1) $\\arcsin \\frac{3}{5}$ . (2) $\\pi  - \\arccos \\frac{2}{3}$ . (3) $- \\arctan 2$ . (4) ${k\\pi } - {\\left( -1\\right) }^{k}\\arcsin \\frac{2}{3}$ , $k \\in  \\mathbf{Z}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 554,
+        "end": 555
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 10",
+    "markdown": "例 10 金茂大厦是改革开放以来上海出现的超高层标志性建筑. 有一位测量爱好者在与金茂大厦底部同一水平线上的 $B$ 处测得金茂大厦顶部 $A$ 的仰角为 ${15.66}^{ \\circ  }$ ,再向金茂大厦前进 ${500}\\mathrm{\\;m}$ 到达 $C$ 处,测得金茂大厦顶部 $A$ 的仰角为 ${22.81}^{ \\circ  }$ . 请根据以上数据估算出金茂大厦的高度. (结果精确到 $1\\mathrm{\\;m}$ )\n\n![bo_d52056jef24c73bg6dsg_46_1141_1200_320_140_0.jpg](images/book-8f877ebe08c64a990cb8.jpg)\n\n图 6-3-4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2167,
+        "end": 2168
+      },
+      {
+        "source": "book",
+        "start": 2173,
+        "end": 2175
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2167,
+        "end": 2168
+      },
+      {
+        "source": "book",
+        "start": 2173,
+        "end": 2175
+      }
+    ],
+    "id": "bx2-6-3-ex-10",
+    "category": "例题",
+    "answer": "解 根据题意, 作出如图 6-3-4 所示的示意图, 问题转化为求直角三角形 ${ABD}$ 中边 ${AD}$ 的长.\n\n在 $\\bigtriangleup {ABC}$ 中, $\\angle {ABC} = {15.66}^{ \\circ  },\\angle {BAC} = {22.81}^{ \\circ  } - {15.66}^{ \\circ  } = \\; {7.15}^{ \\circ  },{BC} = {500}\\mathrm{\\;m}$ .\n\n由正弦定理,有 $\\frac{500}{\\sin {7.15}^{ \\circ  }} = \\frac{AC}{\\sin {15.66}^{ \\circ  }}$ ,即\n\n$$\n{AC} = \\frac{{500}\\sin {15.66}^{ \\circ  }}{\\sin {7.15}^{ \\circ  }} \\approx  {1084.3}\\left( \\mathrm{\\;m}\\right) .\n$$\n\n从而 ${AD} = {AC} \\times  \\sin {22.81}^{ \\circ  } \\approx  {420}\\left( \\mathrm{\\;m}\\right)$ .\n\n所以，所估算的金茂大厦高度约为 ${420}\\mathrm{\\;m}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2169,
+        "end": 2172
+      },
+      {
+        "source": "book",
+        "start": 2176,
+        "end": 2186
+      }
+    ],
+    "teacher_analysis": "例 10 是常见的三角测量问题. 在初中, 学生通常将其处理为两个直角三角形的求解, 而本题告诉学生也可以将其处理为一个斜三角形和一个直角三角形的求解. 该模型的建立和求解是相对容易的, 而且符合学生的生活体验, 因此将其作为正弦定理和余弦定理应用于三角测量中的第一个案例.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 240,
+        "end": 240
+      }
+    ]
+  },
+  {
+    "type": "question",
+    "title": "例题 11",
+    "markdown": "例 11 甲船在距离 $A$ 港口 24 海里并在南偏西 ${20}^{ \\circ  }$ 方向的 $C$ 处驻留等候进港，乙船在 $A$ 港口南偏东 ${40}^{ \\circ  }$ 方向的 $B$ 处沿直线行驶入港，甲、乙两船距离为 31 海里. 当乙船行驶 20 海里到达 $D$ 处时,接到港口指令,前往救援忽然发生火灾的甲船. 求此时甲、乙两船之间的距离.\n\n\n\n![bo_d52056jef24c73bg6dsg_46_1148_1789_308_270_0.jpg](images/book-fdfeb980069cfb0c96f0.jpg)\n\n图 6-3-5",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2187,
+        "end": 2188
+      },
+      {
+        "source": "book",
+        "start": 2192,
+        "end": 2192
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2187,
+        "end": 2188
+      },
+      {
+        "source": "book",
+        "start": 2192,
+        "end": 2192
+      },
+      {
+        "source": "book",
+        "start": 2189,
+        "end": 2191
+      }
+    ],
+    "id": "bx2-6-3-ex-11",
+    "category": "例题",
+    "answer": "解 根据题意, 作出如图 6-3-5 所示的示意图, 其中\n\n$$\n{AC} = {24},{BC} = {31},\\angle {CAD} = {20}^{ \\circ  } + {40}^{ \\circ  } = {60}^{ \\circ  }.\n$$\n\n在 $\\bigtriangleup {ABC}$ 中,由正弦定理,得 $\\frac{24}{\\sin \\angle {ABC}} = \\frac{31}{\\sin {60}^{ \\circ  }}$ ,从而 $\\sin \\angle {ABC} = \\frac{{12}\\sqrt{3}}{31}.$\n\n由 ${AC} < {BC}$ ,知 $\\angle {ABC}$ 为锐角,故\n\n$$\n\\cos \\angle {ABC} = \\sqrt{1 - {\\sin }^{2}\\angle {ABC}} = \\frac{23}{31}.\n$$\n\n在 $\\bigtriangleup {BCD}$ 中,由余弦定理,有\n\n$$\n{CD} = \\sqrt{B{C}^{2} + B{D}^{2} - {2BD} \\cdot  {BC} \\cdot  \\cos \\angle {ABC}}\n$$\n\n$$\n= \\sqrt{{31}^{2} + {20}^{2} - 2 \\times  {31} \\times  {20} \\times  \\frac{23}{31}}\n$$\n\n$$\n= {21}\\text{ (海里). }\n$$\n\n所以, 此时甲、乙两船之间的距离为 21 海里.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 2193,
+        "end": 2222
+      }
+    ],
+    "teacher_analysis": "例 11 让学生进一步体会三角测量的模型建立过程, 而借助图形和数据分析是解决问题的关键. 三角测量往往涉及多个三角形, 需要分析判断已有数据, 选用合理的求解顺序和定理.",
+    "analysis_provenance": [
+      {
+        "source": "teacher",
+        "start": 242,
+        "end": 242
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "title": "练习 6.3(4)",
+    "markdown": "#### 练习 6.3(4)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2223,
+        "end": 2223
+      }
+    ],
+    "id": "bx2-6-3-b30",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(4) · 1",
+    "markdown": "1. 某货轮在 $A$ 处看灯塔 $S$ 在北偏东 ${30}^{ \\circ  }$ 方向. 它以每小时 18 海里的速度向正北方向航行，经过 40 分钟航行到 $B$ 处，看灯塔 $S$ 在北偏东 ${75}^{ \\circ  }$ 方向. 求此时货轮到灯塔 $S$ 的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2225,
+        "end": 2226
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2225,
+        "end": 2226
+      }
+    ],
+    "id": "bx2-6-3-p634-1",
+    "category": "练习6.3(4)",
+    "answer": "1. $\\angle {BSA} = {75}^{ \\circ  } - {30}^{ \\circ  } = {45}^{ \\circ  },{AB} = {18} \\times  \\frac{40}{60} = {12}$ . 由 $\\frac{BS}{\\sin {30}^{ \\circ  }} = \\frac{AB}{\\sin {45}^{ \\circ  }}$ ,得 ${BS} = 6\\sqrt{2}$ (海里). 所以,货轮到灯塔 $S$ 的距离为 $6\\sqrt{2}$ 海里.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 558,
+        "end": 559
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(4) · 2",
+    "markdown": "2. 我缉私船发现位于正北方向的走私船以每小时 30 海里的速度向北偏东 ${45}^{ \\circ  }$ 方向的公海逃窜，已知缉私船的最大时速是 45 海里，为了及时截住走私船，缉私船应以什么方向追击走私船? (结果精确到 ${0.01}^{ \\circ  }$ )",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2227,
+        "end": 2228
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2227,
+        "end": 2228
+      }
+    ],
+    "id": "bx2-6-3-p634-2",
+    "category": "练习6.3(4)",
+    "answer": "2. 设缉私船应以北偏东 $\\alpha$ 方向,经过时间 $t$ 追上走私船,则 $\\frac{30t}{\\sin \\alpha } = \\frac{45t}{\\sin {135}^{ \\circ  }}$ ,从而 $\\sin \\alpha  = \\frac{2}{3}\\sin {135}^{ \\circ  } = \\frac{\\sqrt{2}}{3}$ ,即 $\\alpha  \\approx  {28.13}^{ \\circ  }$ . 所以,缉私船应以北偏东 ${28.13}^{ \\circ  }$ 方向追击走私船.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 560,
+        "end": 561
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习6.3(4) · 3",
+    "markdown": "3. 修建铁路时要在一个山体上开挖一隧道, 需要测量隧道口 $D\\text{ 、 }E$ 之间的距离. 测量人员在山的一侧选取点 $C$ ,因有障碍物, 无法直接测得 ${CE}$ 及 ${DE}$ 的距离. 现测得 ${CA} = {482.80}\\mathrm{\\;m},{CB} = \\; {631.50}\\mathrm{\\;m},\\angle {ACB} = {56.3}^{ \\circ  }$ ; 又测得 $A$ 及 $B$ 两点到隧道口的距离分别是 ${80.13}\\mathrm{\\;m}$ 及 ${40.24}\\mathrm{\\;m}\\left( {A\\text{ 、 }D\\text{ 、 }E\\text{ 、 }B}\\right.$ 在同一直线上 $)$ . 求隧道 ${DE}$ 的长. (结果精确到 $1\\mathrm{\\;m}$ )\n\n![bo_d52056jef24c73bg6dsg_47_1170_1079_334_321_0.jpg](images/book-e40e4dd4da3d0067ed3a.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2229,
+        "end": 2234
+      },
+      {
+        "source": "book",
+        "start": 2231,
+        "end": 2233
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2229,
+        "end": 2234
+      },
+      {
+        "source": "book",
+        "start": 2231,
+        "end": 2233
+      }
+    ],
+    "id": "bx2-6-3-p634-3",
+    "category": "练习6.3(4)",
+    "answer": "3. 在 $\\bigtriangleup {ABC}$ 中, $\\angle {ACB} = {56.3}^{ \\circ  }$ ,由余弦定理 $A{B}^{2} = A{C}^{2} + B{C}^{2} - {2AC} \\cdot  {BC}$ . $\\cos \\angle {ACB} = {482.80}^{2} + {631.50}^{2} - 2 \\times  {482.80} \\times  {631.50} \\times  \\cos {56.3}^{ \\circ  } \\approx  {293.557.052}^{ \\circ  }$ ,得 ${AB} \\approx  {541.81}$ (米), ${DE} = {AB} - {AD} - {BE} \\approx  {421}$ (米). 所以,隧道的长约为 421 米.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 562,
+        "end": 563
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 6.3",
+    "markdown": "#### 习题 6.3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2235,
+        "end": 2235
+      }
+    ],
+    "id": "bx2-6-3-b34",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "##### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2237,
+        "end": 2237
+      }
+    ],
+    "id": "bx2-6-3-b35",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中,已知 $A = {120}^{ \\circ  }, B = {45}^{ \\circ  },{AC} = 2$ . 求 ${BC}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2239,
+        "end": 2240
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2239,
+        "end": 2240
+      }
+    ],
+    "id": "bx2-6-3-h63A-1",
+    "category": "习题6.3A",
+    "answer": "1. ${BC} = \\sqrt{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 568,
+        "end": 569
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 2",
+    "markdown": "2. 在 $\\bigtriangleup {ABC}$ 中,已知 $b = {40}, c = {32}, A = {60}^{ \\circ  }$ . 求 $a$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2241,
+        "end": 2242
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2241,
+        "end": 2242
+      }
+    ],
+    "id": "bx2-6-3-h63A-2",
+    "category": "习题6.3A",
+    "answer": "2. $a = 8\\sqrt{21}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 570,
+        "end": 571
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中,若 $a = 7, b = 8,\\cos C = \\frac{13}{14}$ . 求最大角的余弦值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2243,
+        "end": 2244
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2243,
+        "end": 2244
+      }
+    ],
+    "id": "bx2-6-3-h63A-3",
+    "category": "习题6.3A",
+    "answer": "3. $c = 3,\\cos B =  - \\frac{1}{7}$ ,最大角 $B$ 的余弦值为 $- \\frac{1}{7}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 572,
+        "end": 573
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 4",
+    "markdown": "4. 已知 $\\bigtriangleup {ABC}$ 的面积为 $3, a = 3, b = 2\\sqrt{2}$ . 求 $c$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2245,
+        "end": 2246
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2245,
+        "end": 2246
+      }
+    ],
+    "id": "bx2-6-3-h63A-4",
+    "category": "习题6.3A",
+    "answer": "4. $c = \\sqrt{5}$ 或 $c = \\sqrt{29}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 574,
+        "end": 575
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 5",
+    "markdown": "5. 在 $\\bigtriangleup {ABC}$ 中,已知 $b = 2, c = \\sqrt{2}, B = {45}^{ \\circ  }$ . 求 $C\\text{ 、 }a$ 及 $A$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2247,
+        "end": 2248
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2247,
+        "end": 2248
+      }
+    ],
+    "id": "bx2-6-3-h63A-5",
+    "category": "习题6.3A",
+    "answer": "5. $C = {30}^{ \\circ  }, a = \\sqrt{3} + 1, A = {105}^{ \\circ  }$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 576,
+        "end": 577
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 6",
+    "markdown": "6. 在 $\\bigtriangleup {ABC}$ 中,若 $c = 2, C = \\frac{\\pi }{3}$ ,且其面积为 $\\sqrt{3}$ ,求 $a$ 及 $b$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2249,
+        "end": 2250
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2249,
+        "end": 2250
+      }
+    ],
+    "id": "bx2-6-3-h63A-6",
+    "category": "习题6.3A",
+    "answer": "6. 由题意,得 $\\frac{1}{2}{ab}\\sin \\frac{\\pi }{3} = \\sqrt{3}$ 和 ${a}^{2} + {b}^{2} - {2ab}\\cos \\frac{\\pi }{3} = 4$ ,从而有 ${ab} = 4$ 和 ${a}^{2} + {b}^{2} - \\; {ab} = 4$ ,解得 $a = b = 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 578,
+        "end": 579
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 7",
+    "markdown": "7. 在 $\\bigtriangleup {ABC}$ 中,已知 ${AD}$ 是 $\\angle {BAC}$ 的内角平分线. 求证: $\\frac{AB}{AC} = \\frac{BD}{DC}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2251,
+        "end": 2252
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2251,
+        "end": 2252
+      }
+    ],
+    "id": "bx2-6-3-h63A-7",
+    "category": "习题6.3A",
+    "answer": "7. 证明: 在 $\\bigtriangleup {BAD}$ 中,有 $\\frac{AB}{\\sin \\angle {ADB}} = \\frac{BD}{\\sin \\angle {BAD}}$ ,在 $\\bigtriangleup {CAD}$ 中,有 $\\frac{AC}{\\sin \\angle {ADC}} = \\; \\frac{CD}{\\sin \\angle {CAD}}$ ,由 $\\angle {ADB} = {180}^{ \\circ  } - \\angle {ADC},\\angle {BAD} = \\angle {CAD}$ ,得 $\\sin \\angle {ADB} = \\sin \\angle {ADC}$ , $\\sin \\angle {BAD} = \\sin \\angle {CAD}$ ,从而有 $\\frac{AB}{AC} = \\frac{BD}{DC}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 580,
+        "end": 581
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 8",
+    "markdown": "8. 在 $\\bigtriangleup {ABC}$ 中,已知 ${AB} = \\sqrt{3},{BC} = 3,{AC} = 4$ . 求边 ${AC}$ 上的中线 ${BD}$ 的长.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2253,
+        "end": 2254
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2253,
+        "end": 2254
+      }
+    ],
+    "id": "bx2-6-3-h63A-8",
+    "category": "习题6.3A",
+    "answer": "8. 在 $\\bigtriangleup {ABD}$ 中,由余弦定理,得 $B{D}^{2} + 4 - 2 \\cdot  2 \\cdot  {BD}\\cos \\angle {ADB} = 3$ . 在 $\\bigtriangleup {CBD}$ 中,由余弦定理,得 $B{D}^{2} + 4 - 2 \\cdot  2 \\cdot  {BD}\\cos \\angle {CDB} = 9$ . 又由 $\\angle {ADB} = {180}^{ \\circ  } - \\; \\angle {CDB}$ ,得 $\\cos \\angle {ADB} =  - \\cos \\angle {CDB}$ ,将上述两式相加,即得 $2\\left( {B{D}^{2} + 4}\\right)  = 3 + 9$ , 从而 ${BD} = \\sqrt{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 582,
+        "end": 583
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 9",
+    "markdown": "9. 根据下列条件,分别判断三角形 ${ABC}$ 的形状:\n\n(1) $a = {2b}\\cos C$ ；\n\n(2) $\\tan B = \\frac{\\cos \\left( {B - C}\\right) }{\\sin A - \\sin \\left( {B - C}\\right) }$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2255,
+        "end": 2260
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2255,
+        "end": 2260
+      }
+    ],
+    "id": "bx2-6-3-h63A-9",
+    "category": "习题6.3A",
+    "answer": "9. ( 1 )由 $a = {2b}\\cos C = {2b} \\cdot  \\frac{{a}^{2} + {b}^{2} - {c}^{2}}{{2a}b}$ ,得 ${c}^{2} = {b}^{2}$ ,所以三角形 ${ABC}$ 为等腰三角形.\n\n(2) $\\tan B = \\frac{\\cos \\left( {B - C}\\right) }{\\sin A - \\sin \\left( {B - C}\\right) } = \\frac{\\cos B\\cos C + \\sin B\\sin C}{\\sin \\left( {B + C}\\right)  - \\sin \\left( {B - C}\\right) } = \\frac{\\cos B\\cos C + \\sin B\\sin C}{2\\cos B\\sin C}$ , 所以 $\\frac{\\sin B}{\\cos B} = \\frac{\\cos B\\cos C + \\sin B\\sin C}{2\\cos B\\sin C}$ ,从而有 $\\cos B\\cos C - \\sin B\\sin C = 0$ ,即 $\\cos \\left( {B + C}\\right)  =$ 0,故 $B + C = \\frac{\\pi }{2}$ ,三角形 ${ABC}$ 为直角三角形.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 584,
+        "end": 587
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3A · 10",
+    "markdown": "10. 如图,自动卸货汽车采用液压机构,设计时需要计算油泵顶杆 ${BC}$ 的长度. 已知车厢的最大仰角为 ${60}^{ \\circ  }$ ,油泵顶点 $B$ 与车厢支点 $A$ 之间的距离为 ${1.95}\\mathrm{\\;m},{AB}$ 与水平线之间的夹角为 ${6}^{ \\circ  }{20}^{\\prime },{AC}$ 的长为 ${1.4}\\mathrm{\\;m}$ . 计算 ${BC}$ 的长. (结果精确到 ${0.01}\\mathrm{\\;m}$ )\n\n![bo_d52056jef24c73bg6dsg_48_422_737_778_354_0.jpg](images/book-5e1ada40f0daba1ef3e8.jpg)\n\n(第 10 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2261,
+        "end": 2266
+      },
+      {
+        "source": "book",
+        "start": 2263,
+        "end": 2265
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2261,
+        "end": 2266
+      },
+      {
+        "source": "book",
+        "start": 2263,
+        "end": 2265
+      }
+    ],
+    "id": "bx2-6-3-h63A-10",
+    "category": "习题6.3A",
+    "answer": "10. ${BC} = \\sqrt{{1.95}^{2} + {1.4}^{2} - 2 \\times  {1.95} \\times  {1.4} \\times  \\cos {66}^{ \\circ  }{20}^{\\prime }} \\approx  {1.89}$ (米).",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 588,
+        "end": 589
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2267,
+        "end": 2267
+      }
+    ],
+    "id": "bx2-6-3-b46",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 1",
+    "markdown": "1. 在 $\\bigtriangleup {ABC}$ 中，若 $\\sqrt{3}a = {2b}\\sin A$ ，求 $B$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2269,
+        "end": 2270
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2269,
+        "end": 2270
+      }
+    ],
+    "id": "bx2-6-3-h63B-1",
+    "category": "习题6.3B",
+    "answer": "1. $\\frac{\\pi }{3}$ 或 $\\frac{2\\pi }{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 592,
+        "end": 593
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 2",
+    "markdown": "2. 已知 $\\bigtriangleup {ABC}$ 的面积 $S = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{4}$ ,求 $A$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2271,
+        "end": 2272
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2271,
+        "end": 2272
+      }
+    ],
+    "id": "bx2-6-3-h63B-2",
+    "category": "习题6.3B",
+    "answer": "2. 由 $S = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{4}$ ,得 $\\frac{1}{2}{bc}\\sin A = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{4}$ ,从而 $\\sin A = \\frac{{b}^{2} + {c}^{2} - {a}^{2}}{2bc} = \\; \\cos A$ ,因此 $\\tan A = 1$ . 又 $A \\in  \\left( {0,\\pi }\\right)$ ,所以 $A = \\frac{\\pi }{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 594,
+        "end": 595
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 3",
+    "markdown": "3. 在 $\\bigtriangleup {ABC}$ 中,已知 $a = {13}, b = {14}, c = {15}$ .\n\n(1)求 $\\cos A$ ；\n\n(2)求 $\\bigtriangleup  {ABC}$ 的面积 $S$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2273,
+        "end": 2278
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2273,
+        "end": 2278
+      }
+    ],
+    "id": "bx2-6-3-h63B-3",
+    "category": "习题6.3B",
+    "answer": "3. (1) $\\cos A = \\frac{3}{5}.\\;$ (2)面积 $S = {84}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 596,
+        "end": 597
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 4",
+    "markdown": "4. 已知三角形两边之和为 8，其夹角为 ${60}^{ \\circ  }$ . 分别求这个三角形周长的最小值和面积的最大值, 并指出面积最大时三角形的形状.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2279,
+        "end": 2280
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2279,
+        "end": 2280
+      }
+    ],
+    "id": "bx2-6-3-h63B-4",
+    "category": "习题6.3B",
+    "answer": "4. 周长最小值为 12; 当三角形为等边三角形时,面积取得最大值 $4\\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 598,
+        "end": 599
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 5",
+    "markdown": "5. 求分别满足下列条件的角:\n\n(1) $\\sin x = \\frac{2}{5}, x \\in  \\left\\lbrack  {0,\\pi }\\right\\rbrack$ ; (2) $\\cos x =  - \\frac{2}{3}, x \\in  \\left\\lbrack  {0,{2\\pi }}\\right\\rbrack$ ；\n\n(3) $\\tan x =  - \\frac{1}{2}, x \\in  \\mathbf{R}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2281,
+        "end": 2286
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2281,
+        "end": 2286
+      }
+    ],
+    "id": "bx2-6-3-h63B-5",
+    "category": "习题6.3B",
+    "answer": "5. (1) $\\arcsin \\frac{2}{5}$ 或 $\\pi  - \\arcsin \\frac{2}{5}$ . (2) $\\pi  \\pm  \\arccos \\frac{2}{3}$ . (3) ${k\\pi } - \\arctan \\frac{1}{2}, k \\in  \\mathbf{Z}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 600,
+        "end": 601
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 6",
+    "markdown": "6. 在 $\\bigtriangleup {ABC}$ 中, $A = {60}^{ \\circ  }, b = 1$ ,且其面积为 $\\sqrt{3}$ . 求 $a$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2287,
+        "end": 2288
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2287,
+        "end": 2288
+      }
+    ],
+    "id": "bx2-6-3-h63B-6",
+    "category": "习题6.3B",
+    "answer": "6. $a = \\sqrt{13}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 602,
+        "end": 603
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 7",
+    "markdown": "7. 某船在海面 $A$ 处测得灯塔 $C$ 在北偏东 ${30}^{ \\circ  }$ 方向，与 $A$ 相距 ${10}\\sqrt{3}$ 海里，且测得灯塔 $B$ 在北偏西 ${75}^{ \\circ  }$ 方向,与 $A$ 相距 ${15}\\sqrt{6}$ 海里. 船由 $A$ 向正北方向航行到 $D$ 处,测得灯塔 $B$ 在南偏西 ${60}^{ \\circ  }$ 方向. 这时灯塔 $C$ 与 $D$ 相距多少海里? $C$ 在 $D$ 的什么方向?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2289,
+        "end": 2294
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2289,
+        "end": 2294
+      }
+    ],
+    "id": "bx2-6-3-h63B-7",
+    "category": "习题6.3B",
+    "answer": "7. 在 $\\bigtriangleup {ADB}$ 中,由 $\\frac{AD}{\\sin {45}^{ \\circ  }} = \\frac{{15}\\sqrt{6}}{\\sin {60}^{ \\circ  }}$ ,得 ${AD} = {30}$ . 在 $\\bigtriangleup {ACD}$ 中, ${CD} = \\; \\sqrt{{30}^{2} + {\\left( {10}\\sqrt{3}\\right) }^{2} - 2 \\times  {{10}\\sqrt{3}} \\times  {30} \\times  {\\cos {30}^{ \\circ  }}} = {{10}\\sqrt{3}}$ ,从而得 ${\\angle {ADC}} = {30}^{ \\circ  }$ . 所以灯塔 $C$ 与 $D$ 相距 ${10}\\sqrt{3}$ 海里, $C$ 在 $D$ 的南偏东 ${30}^{ \\circ  }$ 方向.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 604,
+        "end": 605
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 8",
+    "markdown": "8. 如图,为了测定对岸 $A\\text{ 、 }B$ 两点之间的距离,在河的一岸定一条基线 ${CD}$ ,测得 ${CD} = {100}\\mathrm{\\;m},\\angle {ACD} = {80}^{ \\circ  },\\angle {BCD} = \\; {45}^{ \\circ  },\\angle {BDC} = {70}^{ \\circ  },\\angle {ADC} = {33}^{ \\circ  }$ . 求 $A\\text{ 、 }B$ 间的距离. (结果精确到 ${0.01}\\mathrm{\\;m}$ )\n\n![bo_d52056jef24c73bg6dsg_49_1138_226_361_276_0.jpg](images/book-39f0e7f626aed2f28d2f.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2295,
+        "end": 2296
+      },
+      {
+        "source": "book",
+        "start": 2291,
+        "end": 2293
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2295,
+        "end": 2296
+      },
+      {
+        "source": "book",
+        "start": 2291,
+        "end": 2293
+      }
+    ],
+    "id": "bx2-6-3-h63B-8",
+    "category": "习题6.3B",
+    "answer": "8. 在 $\\bigtriangleup  {BCD}$ 中,由 $\\frac{100}{\\sin {65}^{ \\circ  }} = \\frac{BD}{\\sin {45}^{ \\circ  }}$ ,得 ${BD} \\approx  {78.02}$ (米). 在 $\\bigtriangleup  {ACD}$ 中,由 $\\frac{100}{\\sin {67}^{ \\circ  }} = \\; \\frac{AD}{\\sin {80}^{ \\circ  }}$ ,得 ${AD} \\approx  {106.99}$ (米). 在 $\\bigtriangleup  {ABD}$ 中, ${AB} = \\sqrt{A{D}^{2} + B{D}^{2} - {2AD} \\cdot  {BD} \\cdot  \\cos {37}^{ \\circ  }} \\approx$ 64.81(米)",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 606,
+        "end": 607
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题6.3B · 9",
+    "markdown": "9. 在 $\\bigtriangleup {ABC}$ 中,求证:\n\n(1) $\\frac{\\cos {2A}}{{a}^{2}} - \\frac{\\cos {2B}}{{b}^{2}} = \\frac{1}{{a}^{2}} - \\frac{1}{{b}^{2}}$ ;\n\n(2) $\\left( {{a}^{2} - {b}^{2} - {c}^{2}}\\right) \\tan A + \\left( {{a}^{2} - {b}^{2} + {c}^{2}}\\right) \\tan B = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2297,
+        "end": 2302
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 2297,
+        "end": 2302
+      }
+    ],
+    "id": "bx2-6-3-h63B-9",
+    "category": "习题6.3B",
+    "answer": "9. 证明: (1) $\\frac{\\cos {2A}}{{a}^{2}} - \\frac{\\cos {2B}}{{b}^{2}} - \\left( {\\frac{1}{{a}^{2}} - \\frac{1}{{b}^{2}}}\\right)  = \\frac{\\cos {2A} - 1}{{a}^{2}} + \\frac{1 - \\cos {2B}}{{b}^{2}} = \\frac{2{\\sin }^{2}B}{{b}^{2}} - \\; \\frac{2{\\sin }^{2}A}{{a}^{2}} = 0$ ,从而有 $\\frac{\\cos {2A}}{{a}^{2}} - \\frac{\\cos {2B}}{{b}^{2}} = \\frac{1}{{a}^{2}} - \\frac{1}{{b}^{2}}$ .\n\n(2) $\\left( {{a}^{2} - {b}^{2} - {c}^{2}}\\right) \\tan A + \\left( {{a}^{2} - {b}^{2} + {c}^{2}}\\right) \\tan B =  - {2bc}\\cos A\\tan A + {2ac}\\cos B\\tan B = \\; - {2bc}\\sin A + {2ac}\\sin B = 4{S}_{\\bigtriangleup {ABC}} - 4{S}_{\\bigtriangleup {ABC}} = 0.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 608,
+        "end": 611
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "探究与实践",
+    "markdown": "#### 探究与实践",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2303,
+        "end": 2303
+      }
+    ],
+    "id": "bx2-6-3-b56",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "探究与实践",
+    "markdown": "#### 探究与实践",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2305,
+        "end": 2305
+      }
+    ],
+    "id": "bx2-6-3-b57",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "海伦公式和”三斜求积”公式",
+    "markdown": "##### 海伦公式和”三斜求积”公式",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2307,
+        "end": 2307
+      }
+    ],
+    "id": "bx2-6-3-b58",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "已知三角形三边边长求三角形面积的问题, 据说最早是由古希腊数学家阿基米德 (Archimedes)解决的,计算公式为 $S = \\sqrt{p\\left( {p - a}\\right) \\left( {p - b}\\right) \\left( {p - c}\\right) }$ (其中 $p = \\frac{a + b + c}{2}$ ). 但这个公式通常称为海伦公式, 因为人们最早见到这个公式出现在海伦 (Heron) 的著作《测地术》中，并在海伦的著作《经纬仪》等书中都给出了证明.\n\n我国南宋著名数学家秦九韶也独立发现了与海伦公式等价的公式, 但其证明已经失传. 他在著作《数书九章》卷五“田域类”里指出 “问有沙田一段，有三斜. 其小斜十三里, 中斜十四里，大斜十五里，里法三百步，其田几何”，给出的解法为 “以小斜幂并大斜幂减中斜幂，余半之自乘于上，以小斜幂乘大斜幂减上，余四约之，为实. 一为从隅，开平方得积”. 即是说,记三百步为一里,以里为单位, $a = {13}, b = {14}, c = {15}$ ,面积可由公式 $S = \\sqrt{\\frac{1}{4}\\left\\lbrack  {{a}^{2}{c}^{2} - {\\left( \\frac{{a}^{2} + {c}^{2} - {b}^{2}}{2}\\right) }^{2}}\\right\\rbrack  }$ 得出,这就是著名的 “三斜求积” 公式. 秦九韶还对一次同余式组、高次方程的数值解法、线性方程组等都有深入研究, 因此美国科学史家萨顿 (G. Sarton)评价他为“他那个民族，那个时代，并且确实也是所有时代最伟大的数学家之一”.\n\n利用三角形面积公式和余弦定理证明海伦公式和“三斜求积”公式虽有一定难度，但揭示海伦公式和“三斜求积”公式的等价性并不是太困难，希望同学们加以探究.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 2308,
+        "end": 2314
+      }
+    ],
+    "emphases": [
+      {
+        "start": 0,
+        "end": 246,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx2-6-3-definition-59-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx2-6-3-b59",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

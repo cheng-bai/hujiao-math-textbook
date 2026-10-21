@@ -1,0 +1,66 @@
+{
+  "section_id": "x1-2-3",
+  "status": "structure-pairing-reviewed",
+  "model_sha256": "01ffb0ef0ec7ce5378e0397ad0aaa216761592e667f5625f88d220e833a54b05",
+  "coverage": {
+    "structure": "模型所有块的字段/ID/图路径/教参隔离标志与显式题号配对检查；人工重点另记",
+    "question_count": 24,
+    "answered_count": 24,
+    "source_hashes": {
+      "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md": "f9a3bb0b1aae50a77724a0067d2a54459e56dae712b033b9938051dd996af7c4",
+      "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md": "955c9f50ad7cda82b9d3bd28bfabcfc8b11cb574e5aff5b0c61addbde6e61445"
+    },
+    "key_math_checks": [
+      {
+        "id": "x1-2-3-h23A-3",
+        "method": "实轴8给a4，焦距10给c5，b²9；焦轴可x或y",
+        "result": "1148为题3答案"
+      },
+      {
+        "id": "x1-2-3-h23A-4",
+        "method": "y轴双曲线要求m+2<0且m+1<0",
+        "result": "m<-2，1150为题4答案，不是另一个题3"
+      },
+      {
+        "id": "x1-2-3-h23A-5",
+        "method": "渐近线±√2x得2x²-y²=k，代(1,1)得k1",
+        "result": "1152为题5答案，不能按源错号4配题4"
+      }
+    ],
+    "focus_math_review": true,
+    "emphasis_count": 9,
+    "student_html_zip_static_check": {
+      "private_field_markers": [],
+      "disallowed_members": [],
+      "crc_error": null,
+      "scope": "字段/包内容静态检查，不代替浏览器和源OCR语义泄漏复核"
+    }
+  },
+  "issues": [],
+  "patches": [
+    {
+      "source": "teacher",
+      "start": 1150,
+      "end": 1150,
+      "kind": "OCR-number-override",
+      "proposed": "3.恢复为4.",
+      "confidence": "high",
+      "applied": true,
+      "verification": "按源行及新JSON对应题答字段复验；源文件不改"
+    },
+    {
+      "source": "teacher",
+      "start": 1152,
+      "end": 1152,
+      "kind": "OCR-number-override",
+      "proposed": "4.恢复为5.",
+      "confidence": "high",
+      "applied": true,
+      "verification": "按源行及新JSON对应题答字段复验；源文件不改"
+    }
+  ],
+  "limits": [
+    "未逐题复算；结构配对通过不等于数学通过。",
+    "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+  ]
+}

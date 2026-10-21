@@ -1,0 +1,292 @@
+{
+  "asset_id": "dd73786b-0a70-55cd-bd08-724b6909e849",
+  "contributors": [
+    {
+      "name": "Codex calculus-stats implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:04Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "outlier": 7
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "calculus-stats",
+    "source_build_sha256": "cda61f4ad53c50d03feb1f25291d4556c51025cfa9de55cca37753ec0c806d73",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x2-8-2-b3",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sectionId": "x2-8-2",
+          "sourceSha256": "29d322f783eb636cb99cd5cb35f924e6ff804755c0d58e4f8b9ccd51a1aedeaa"
+        }
+      ],
+      "sections": [
+        "x2-8-2"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 25392,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "cda61f4ad53c50d03feb1f25291d4556c51025cfa9de55cca37753ec0c806d73"
+    },
+    {
+      "bytes": 6765,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "e14a33e9ca45c5116cbd7fb2c2d3639ac58f90f634e391e5f5fdb2205cdc8b67"
+    },
+    {
+      "bytes": 12944,
+      "media_type": "text/javascript",
+      "path": "source/calculus-stats.js",
+      "role": "source",
+      "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+    },
+    {
+      "bytes": 26504,
+      "media_type": "application/json",
+      "path": "source/calculus-stats.json",
+      "role": "source",
+      "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+    },
+    {
+      "bytes": 5064,
+      "media_type": "text/javascript",
+      "path": "source/test-calculus-stats.mjs",
+      "role": "source",
+      "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1462,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "775443d11fd55dba9e4c43840de7eb68eee8e75bb5b59a60933c9a7365c57ed9"
+    },
+    {
+      "bytes": 4068,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "e44aeb8fa89f5e4bfb3d1a0ccb1206ce45aef864a00729d62a339c2522f2dee3"
+    },
+    {
+      "bytes": 1088,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "a7e298875d84bdfa028953f7047b0541543836610b63c9aea48755b71fc76e0e"
+    },
+    {
+      "bytes": 4088,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "5366b163fcad49ec493a5c072fd6f1fded75f11e1f7f17c14503202134b221c3"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "fe19f5d472bcc6c2ac4676dee348a55169ad1a1e300d361cd9b45b28eb382d3d"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 505,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "83b26d33da9acf3fb0c1fb5f8ac962aac3261312edee2d03e64f9efe2969dcb8"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "最小二乘回归线随所有观测点变化；离群点可能显著改变斜率和相关系数。相关不证明因果，异常点需先核查来源。"
+    ],
+    "learning_goals": [
+      "拖动一个离群点，比较最小二乘直线斜率变化和数据关联。"
+    ],
+    "objects": [
+      "离群点怎样改变回归线"
+    ],
+    "parameters": {
+      "outlier": {
+        "default": 7,
+        "display_range": [
+          -2,
+          8
+        ],
+        "domain": "本实验允许输入范围 [-2, 8]；不等同数学对象的一般定义域。",
+        "type": "number"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "calculus-stats"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "拖动一个离群点，比较最小二乘直线斜率变化和数据关联。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "outlier": 7
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "regression-outlier",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "outlier": {
+        "maximum": 8,
+        "minimum": -2,
+        "type": "number"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "离群点怎样改变回归线",
+  "updated_at": "2026-10-19T16:47:04Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/calculus-stats.js",
+          "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+        },
+        {
+          "path": "source/calculus-stats.json",
+          "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+        },
+        {
+          "path": "source/test-calculus-stats.mjs",
+          "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130378Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "cda61f4ad53c50d03feb1f25291d4556c51025cfa9de55cca37753ec0c806d73"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130378Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "cda61f4ad53c50d03feb1f25291d4556c51025cfa9de55cca37753ec0c806d73"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

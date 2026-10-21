@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-1-4",
+  "book_id": "x1",
+  "section": "1.4",
+  "title": "点到直线的距离",
+  "section_json": "batch/sections/x1/x1-1-4.json",
+  "output": "outputs/五册教材教参整合/x1/x1-1-4",
+  "fingerprint": "aa8abe1090edef5225ad7b0db70a2089f73c663a9d187604f267981c264e4ebe",
+  "status": "rendered",
+  "questions": 12,
+  "answers": 12,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-b3eea358c5acbbb85044.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg",
+      "sha256": "b3eea358c5acbbb850447823282c00cfd9d7faca40361dbfed13b95144e9768e",
+      "private": false
+    },
+    "images/private-ce0cc7c240909b50195f.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/images/bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg",
+      "sha256": "ce0cc7c240909b50195f8d27e3d03e1ef2038501231a946d51702e2f0cb59b22",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md": "7f3a7376e2317114a3606e908defc90e0a01db188ddcde0ea7025814f0496577",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md": "d1c3551a471d0df8f1c423832d7b604a0e77f9e09cc22d731491f089cb6728c6"
+  },
+  "student_images": [
+    "images/book-b3eea358c5acbbb85044.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "b080cf1b44ef29496b08bd2c3f56ee6c3659a429a22b9ef5673430cf7978e279",
+    "student.html": "e39228f3a9ce1b7a581c1a8e9db09a351871f633a107b1c8175f39fab10d85af",
+    "student.zip": "233e0e9281e177e7ebf657b95fdd33402b6224983f7813b5ab524aff14e7e207",
+    "content.json": "3a2a1bb42308553ce4260026577f179c54ccf8a5991816c1c4d5c4f49fb6960d"
+  }
+}

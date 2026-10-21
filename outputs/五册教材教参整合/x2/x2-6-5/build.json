@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x2-6-5",
+  "book_id": "x2",
+  "section": "6.5",
+  "title": "二项式定理",
+  "section_json": "batch/sections/x2/x2-6-5.json",
+  "output": "outputs/五册教材教参整合/x2/x2-6-5",
+  "fingerprint": "e7c8891985e257f9b5c36253ec8176788405050354c882f43a25196a087e286a",
+  "status": "rendered",
+  "questions": 19,
+  "answers": 19,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-b49f6f6aa3f453d23331.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_29_1016_1281_264_258_0.jpg",
+      "sha256": "b49f6f6aa3f453d2333179ad6c21dd507ba4875cdc612021b5079bd637789f02",
+      "private": false
+    },
+    "images/book-d686b01a2467082762b6.jpg": {
+      "source": "sources/textbooks/选择性必修第二册/第6章计数原理/images/bo_d4slon3ef24c73be0qm0_30_390_269_483_541_0.jpg",
+      "sha256": "d686b01a2467082762b65ec1917a8535c568f217e9deecda08510f5696b2dfa7",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md": "0ce14008fa514dc3ad775fad19cf2cb6f1c7708471e8a39463604848697e9c6b",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md": "c782fea84e7507662b03f6811600606b53a0a6cb0d5925440be7466ea3ca320b"
+  },
+  "student_images": [
+    "images/book-b49f6f6aa3f453d23331.jpg",
+    "images/book-d686b01a2467082762b6.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "fd8f54252d41032e638bc5208836e183be9d0cf1ec95fed33cdb1ffd2545275e",
+    "student.html": "4e10a862a95fca9e3c50e9d935edb99cc1c35fd09aefb83dfa1344d649a93066",
+    "student.zip": "5c66b4ebdb1de7e299f1defb240382cdf19346af4fe2bd685603f3d67b0d5483",
+    "content.json": "249e67dac82ec73ffa5f409f2944824bfadfa96cd3a29e4cd98487c962553cc5"
+  }
+}

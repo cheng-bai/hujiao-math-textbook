@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-chapter-end-13",
+  "book_id": "bx3",
+  "section": "chapter-end-13",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx3/bx3-chapter-end-13.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-chapter-end-13",
+  "fingerprint": "7baba2dab120ff60324c96093537e319ab4f394d38fb15feffc32cf3d79e0fb9",
+  "status": "rendered",
+  "questions": 11,
+  "answers": 11,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-e824f6107c3331c1a80c.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_126_426_1526_819_460_0.jpg",
+      "sha256": "e824f6107c3331c1a80c516dffdcc36e4e8ba8fbd7aade43b3ebc76c5efc4cf9",
+      "private": true
+    },
+    "images/private-80a4c79304fc2e659000.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_127_604_281_298_261_0.jpg",
+      "sha256": "80a4c79304fc2e659000f8cfd7e6bda6a5f135cf6389e059d1cc0bb5d5413398",
+      "private": true
+    },
+    "images/private-9ca5e024ab018f4a7795.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参必修第三册/images/bo_d402s6jef24c73d2tl40_128_416_549_810_402_0.jpg",
+      "sha256": "9ca5e024ab018f4a77953a63afb65038d1ddab0d49d9a811dab3e76b2e1689c5",
+      "private": true
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a911bb5dc7ff3494e9c8ace5ce1428537e23777b932c80f87d7a60c39765c6ce",
+    "student.html": "ca977df22d79aff4f754e8688a61398365b5345235a58592626dacaa2339e830",
+    "student.zip": "f25828a23c65a49febf487c70c11d8890212f306d73f68f912cfbd1485f08bac",
+    "content.json": "a8abe2f4e2579f91243be65cec1913e831fb50656a3bde4db5ab0c210b259dfb"
+  }
+}

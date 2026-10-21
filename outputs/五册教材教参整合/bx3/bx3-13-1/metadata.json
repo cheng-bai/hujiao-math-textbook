@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-13-1",
+  "book_id": "bx3",
+  "section": "13.1",
+  "title": "总体与样本",
+  "section_json": "batch/sections/bx3/bx3-13-1.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-13-1",
+  "fingerprint": "7fd29988bb2aebd626478984d3c32ba203c20b4e977eef9161ff161c10592471",
+  "status": "rendered",
+  "questions": 9,
+  "answers": 9,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-0a97af12f57385870d8a.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_0_0_1_1654_1150_0.jpg",
+      "sha256": "0a97af12f57385870d8a42c268ef0c9e92fbafcd53be547cdee10304ef74add5",
+      "private": false
+    },
+    "images/book-fda968e9a23e4deb74e6.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_1_244_490_206_251_0.jpg",
+      "sha256": "fda968e9a23e4deb74e6c291b7db4b93a7b014959a70fd461ef3831a0fd6641e",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [
+    "images/book-0a97af12f57385870d8a.jpg",
+    "images/book-fda968e9a23e4deb74e6.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "afcbe55393cb996d987536c2011ec384f716e8220cf4c48662c39c205bead93a",
+    "student.html": "b8c7bbc3d3eff4a620a054fb8fcfc4dacc257c81f53911ac8f6bba652fe6a5a8",
+    "student.zip": "0723acf26e5bb9577b74ee277c4d79fe6fdc8cbfda976a0e2c34012e5aed42bb",
+    "content.json": "7d02a7fd2e0f06aec8a9cd1115b3e6575d073e5ec9317988c8fd8bdc9914206b"
+  }
+}

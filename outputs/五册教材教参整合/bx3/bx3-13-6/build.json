@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-13-6",
+  "book_id": "bx3",
+  "section": "13.6",
+  "title": "统计活动",
+  "section_json": "batch/sections/bx3/bx3-13-6.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-13-6",
+  "fingerprint": "c6e7e5193af6dd6a60d3c507fe239bc2c21bd7c919882e102e42c3e991579c21",
+  "status": "rendered",
+  "questions": 6,
+  "answers": 6,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "896e93104e1b4cfafba92ad8f4900255aade3e1d490aaca1d66beb61a3937156",
+    "student.html": "a61bf5fe014a03f1eb155cf268a6d25ad0a07aae599fa7020655b396bcd7358f",
+    "student.zip": "19bdf223c80b8265993d9777418aada3fd1ebef8fd5f376ddf2d449f6c50f2c7",
+    "content.json": "29020397638bf156928bca6ca18039bf656c8601150ab4a6005063ec8ab759ab"
+  }
+}

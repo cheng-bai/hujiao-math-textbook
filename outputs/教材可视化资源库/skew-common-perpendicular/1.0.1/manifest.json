@@ -1,0 +1,310 @@
+{
+  "asset_id": "4549fdd2-e523-5e9d-90e3-c51aeed1ba21",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:03Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "height": 2,
+      "theta": 65
+    },
+    "view": {
+      "yaw": 35
+    }
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "5dc18c00141599d0e92cbfcd7f86bfebb6bac0deb5e7b9e0684e4d6e4a27f2b7",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx3-10-2-b12",
+          "rationale": "接替异面直线的实景与空间位置长段解释。",
+          "sectionId": "bx3-10-2",
+          "sourceSha256": "59858eb024dcc0fbd21707cf2b55f143680c4a51587f924b99ddf1efc9d4b6fe"
+        },
+        {
+          "afterBlockId": "bx3-10-5-b2",
+          "rationale": "接替公垂线与异面直线距离的构造说明。",
+          "sectionId": "bx3-10-5",
+          "sourceSha256": "49fa1cfb876f42510d2d03fdfdf82f897493f39e82d6279803b762a9f9d8dfc6"
+        }
+      ],
+      "sections": [
+        "bx3-10-2",
+        "bx3-10-5"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31300,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "5dc18c00141599d0e92cbfcd7f86bfebb6bac0deb5e7b9e0684e4d6e4a27f2b7"
+    },
+    {
+      "bytes": 3928,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "cf09a0953d344b2509bbd6b2ff85991d656555704706f1d446f5e6ff0c47da0d"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 2020,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "c3ba7c54b0d027fc173288b697ed9580e636a6399e4b7ede1d304a6d226b009d"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 4765,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "548dca2dc8b08952c5c8e3b4b94249ecba6bda5d80fb01a278b71ef13edac9af"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "a3579ddf9a0e303644e6aa746a9d54b766f4b3dccc5f8b3b518ca8b01e726c0f"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 517,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "d7ff19c92651072fb98c5002c15c51c7a985efaee5f47cb2de9cb590bbbbad7a"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "空间直线有相交、平行和异面等情形。异面直线不共面，所成角按平移方向确定；其距离为唯一公垂线段长度。图中高度为零或方向平行时不再是异面状态。"
+    ],
+    "learning_goals": [
+      "用旋转视角分离屏幕交叉与空间相交，观察公垂线段。"
+    ],
+    "objects": [
+      "异面直线：投影交叉与真实距离"
+    ],
+    "parameters": {
+      "height": {
+        "default": 2,
+        "display_range": [
+          0,
+          3
+        ],
+        "domain": "本实验允许输入范围 [0, 3]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "theta": {
+        "default": 65,
+        "display_range": [
+          0,
+          180
+        ],
+        "domain": "本实验允许输入范围 [0, 180]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "{\"kind\": \"derived\", \"paths\": [\"source-origins/Documents/数学/ai 处理的成品/异面直线-空间观察仪/异面直线-空间观察仪.html\", \"source-origins/Documents/数学/ai 处理的成品/异面直线-正方体版/skew-lines-cube.html\"], \"note\": \"沿用既有空间观察与切换视角的教学思路；原题专用模型不直接搬入。采用独立、可验证的两线纯模型，未修改来源。\"}",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "height": 2,
+          "theta": 65
+        },
+        "view": {
+          "yaw": 35
+        }
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "skew-common-perpendicular",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "height": {
+        "maximum": 3,
+        "minimum": 0,
+        "type": "number"
+      },
+      "theta": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    },
+    "view": {
+      "yaw": {
+        "maximum": 180,
+        "minimum": 0,
+        "type": "integer"
+      }
+    }
+  },
+  "state_link": "hash-json-v1",
+  "title": "异面直线：投影交叉与真实距离",
+  "updated_at": "2026-10-21T06:06:17.506742Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.127167Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "5dc18c00141599d0e92cbfcd7f86bfebb6bac0deb5e7b9e0684e4d6e4a27f2b7"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.127167Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "5dc18c00141599d0e92cbfcd7f86bfebb6bac0deb5e7b9e0684e4d6e4a27f2b7"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

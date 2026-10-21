@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-6-3",
+  "book_id": "bx2",
+  "section": "6.3",
+  "title": "解三角形",
+  "section_json": "batch/sections/bx2/bx2-6-3.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-6-3",
+  "fingerprint": "9911bcc4781a2e85f304daaebf13707d0421121b823a626671db9e8936d476b8",
+  "status": "rendered",
+  "questions": 43,
+  "answers": 43,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-3575ce4be7abcedc7e85.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_39_186_1616_321_205_0.jpg",
+      "sha256": "3575ce4be7abcedc7e85d9f00d801f613dba641845a81b42918909afe183fe14",
+      "private": false
+    },
+    "images/book-069f500d0ebce5823c18.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_39_218_1030_262_211_0.jpg",
+      "sha256": "069f500d0ebce5823c189b532bc24d340e3fbf208d32fa1d85cf80f6030856e2",
+      "private": false
+    },
+    "images/book-d421ab27f47df0c43971.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_40_1154_1847_293_253_0.jpg",
+      "sha256": "d421ab27f47df0c4397145f63720f9139d8c00ad4bbd6d4e781d8829906ad197",
+      "private": false
+    },
+    "images/book-73a98f1c34e27b6eb33b.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_46_1132_646_341_498_0.jpg",
+      "sha256": "73a98f1c34e27b6eb33b29792aadeb0550bbaa78a8bd890c6d407420f23b6efd",
+      "private": false
+    },
+    "images/book-8f877ebe08c64a990cb8.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_46_1141_1200_320_140_0.jpg",
+      "sha256": "8f877ebe08c64a990cb8185efdd35c44efdfc625eab88e02e3eb054f4c08f0c9",
+      "private": false
+    },
+    "images/book-fdfeb980069cfb0c96f0.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_46_1148_1789_308_270_0.jpg",
+      "sha256": "fdfeb980069cfb0c96f08e04e70e2b69aa5226741b98763a16de66e4865de3b0",
+      "private": false
+    },
+    "images/book-e40e4dd4da3d0067ed3a.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_47_1170_1079_334_321_0.jpg",
+      "sha256": "e40e4dd4da3d0067ed3a17b9c7f83661d930309c319578900e275950942ddb41",
+      "private": false
+    },
+    "images/book-5e1ada40f0daba1ef3e8.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_48_422_737_778_354_0.jpg",
+      "sha256": "5e1ada40f0daba1ef3e8eca3f4dbb7b3b56224c64d4ad75692ace00712014988",
+      "private": false
+    },
+    "images/book-39f0e7f626aed2f28d2f.jpg": {
+      "source": "sources/textbooks/必修第二册/第6章三角/images/bo_d52056jef24c73bg6dsg_49_1138_226_361_276_0.jpg",
+      "sha256": "39f0e7f626aed2f28d2f9b2d452b34112172fa39f4f668907db9f7dc7b850d0c",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md": "1f2210ff0bce6971a02e05d7cd5742155939bb0793a58d28bc41aca0eccb25d4",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md": "951dfaa143a04c1455631b569dec7057de61212992a37bae59d52cee03a6aeb9"
+  },
+  "student_images": [
+    "images/book-069f500d0ebce5823c18.jpg",
+    "images/book-3575ce4be7abcedc7e85.jpg",
+    "images/book-39f0e7f626aed2f28d2f.jpg",
+    "images/book-5e1ada40f0daba1ef3e8.jpg",
+    "images/book-73a98f1c34e27b6eb33b.jpg",
+    "images/book-8f877ebe08c64a990cb8.jpg",
+    "images/book-d421ab27f47df0c43971.jpg",
+    "images/book-e40e4dd4da3d0067ed3a.jpg",
+    "images/book-fdfeb980069cfb0c96f0.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "95b789170e32fced52f412a29d0d3352ce0fdc647e4d0ac13106c7fa4275acde",
+    "student.html": "724b1a9625e070f7ffd8762674d5e1c2303cc0e3a07d600314052e00d4146cc0",
+    "student.zip": "88f5ccc971c950d3c02784796cb6882ae6b79131ae168c38cdcd1b4c1d8da336",
+    "content.json": "9e27739a36dbe29e367026b8d75885c0a892550001513ace1be52f7863f13c14"
+  }
+}

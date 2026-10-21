@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-13-2",
+  "book_id": "bx3",
+  "section": "13.2",
+  "title": "数据的获取",
+  "section_json": "batch/sections/bx3/bx3-13-2.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-13-2",
+  "fingerprint": "4d82cbc9ea2684e233d962f850b71a6ac46fe2d9873643b871f3890964f597a2",
+  "status": "rendered",
+  "questions": 10,
+  "answers": 10,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-86695197a4ea1432dc31.jpg": {
+      "source": "sources/textbooks/必修第三册/第13章统计/images/bo_d4slmv3ef24c73be0p20_5_184_230_329_328_0.jpg",
+      "sha256": "86695197a4ea1432dc31cc96788c675ef78291e6bad2f4aa4e7dfddd7692be91",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "student_images": [
+    "images/book-86695197a4ea1432dc31.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "8c01565067bd19a635d83fdde6195adb68d2ede59bc042a0a3988fa092f05f7e",
+    "student.html": "cf62264ae43a608ddecbad3936a9726a7c778555a03e966cc51e523cf0f293fb",
+    "student.zip": "c69dde588509be616acf3a2b528da350a46dcdae3e5640b927e158bd207ba0ad",
+    "content.json": "41cdb68173bd339f517c85c1ad1f848d9801b4c84c2bf46564961a7a31423af4"
+  }
+}

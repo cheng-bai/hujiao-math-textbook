@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx1-3-2",
+  "book_id": "bx1",
+  "section": "3.2",
+  "title": "对数",
+  "section_json": "batch/sections/bx1/bx1-3-2.json",
+  "output": "outputs/五册教材教参整合/bx1/bx1-3-2",
+  "fingerprint": "4eaf03ec640963565b28809d79ed2edee52e59f7a6bef653f7990be601bf9cdc",
+  "status": "rendered",
+  "questions": 30,
+  "answers": 30,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-bb2b04d9b19e0ef9eea3.jpg": {
+      "source": "sources/textbooks/必修第一册/第3章幂、指数与对数/images/bo_d4slo93ef24c73be0qag_7_250_704_199_222_0.jpg",
+      "sha256": "bb2b04d9b19e0ef9eea3a2298914afa0594e62bfac2268efd401b7820c7d1527",
+      "private": false
+    },
+    "images/book-8e35d3356ee705fd0765.jpg": {
+      "source": "sources/textbooks/必修第一册/第3章幂、指数与对数/images/bo_d4slo93ef24c73be0qag_11_209_877_269_208_0.jpg",
+      "sha256": "8e35d3356ee705fd0765697b44fc8022c692bce0e51cb51dbd4a0a49b253fe84",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第一册/第3章幂、指数与对数/第3章幂、指数与对数-dollar.md": "d394a7f7209c6c834e01e3ac4fba011e664ec3bc8bac15e701a8f4df10a9b5b4",
+    "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/03 必修第一册 第3章 幂、指数与对数.md": "4a5cfac9de1c0cb9f62c13cc400a175dce09818823b153d80a506bbd7ecfd68c"
+  },
+  "student_images": [
+    "images/book-8e35d3356ee705fd0765.jpg",
+    "images/book-bb2b04d9b19e0ef9eea3.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a15df4c63c37137159825d451c3601929d0bb3274e82b0317919e801ae50dd13",
+    "student.html": "834d9fb662eddb0656aba501787d1fad7de86b230b762efa1585eb160a178f43",
+    "student.zip": "65b60374a96434e288b16fc3c7c3b5f5fda5651247f02d503d783e4463b67cfd",
+    "content.json": "9240c7fc096a125085ff9da40ef4966c7779dd2663d18fb8b1ded2c50f49a84f"
+  }
+}

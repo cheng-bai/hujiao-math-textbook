@@ -1,0 +1,21 @@
+name: Check portable release
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  static-check:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m compileall -q scripts serve.py tools/anatomy/scripts
+      - run: python scripts/check_release.py
+      - run: python scripts/test_portability.py
+      - run: python -m pip install markdown-it-py==4.0.0
+      - run: python scripts/test_build_roundtrip.py

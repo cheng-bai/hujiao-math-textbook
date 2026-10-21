@@ -1,0 +1,482 @@
+[
+  {
+    "type": "section",
+    "title": "点到直线的距离",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 853,
+        "end": 853
+      }
+    ],
+    "id": "x1-1-4",
+    "number": "1.4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 1.4 点到直线的距离\n\n### 教学重点\n\n本节的教学重点在于让学生掌握点到直线的距离的公式, 并了解公式的推导过程, 体验数形结合的思想和向量方法的应用.\n\n### 内容分析\n\n给定平面上的一个点和一条直线, 几何上关心的问题自然是: (1) 点是否在直线上? (2)如果点不在直线上, 它到直线的距离是多少? 解析几何中在相同的条件下我们关心的依然是这两个问题, 不过给定条件和问题答案必须用点的坐标和直线的方程来描述. 也就是说, 给定的条件是一个点的坐标和一条直线的方程, 上述问题 (1) 的判断在 1.2 节已有回答: 点在直线上当且仅当点的坐标满足直线的方程. 当点不在直线上时, 如何用点的坐标和直线的方程表示出点到直线的距离, 这是本节要解决的问题. 于是,设给定直线 $l : {ax} + {by} + c = 0\\left( {a\\text{、}b}\\right.$ 不同时为零 $)$ 和直线外一点 $P\\left( {x}_{0}\\right.$ , $\\left. {y}_{0}\\right)$ ,要求点 $P$ 与直线 $l$ 的距离.\n\n学习了平面几何和解析几何的学生很自然的想法是写出过点 $P$ 并垂直于直线 $l$ 的直线 ${l}^{\\prime }$ 的方程,求直线 ${l}^{\\prime }$ 与已知直线 $l$ 交点 $Q\\left( {{x}_{Q},{y}_{Q}}\\right)$ 的坐标,再求线段 ${PQ}$ 的长度 $d$ . 这肯定是可行的解决问题方案. 教材没有对这个方案提供细节,只说计算量比较大, 然后转到向量方法. 这里就这个方案提供一个完整的解题过程, 包括其中一些技巧性的提示, 供教师参考.\n\n因为 $\\left( {a, b}\\right)  \\cdot  \\left( {b, - a}\\right)  = 0$ ,所以所有垂直于直线 $l$ 的直线具有法向量 $\\left( {b, - a}\\right)$ , 直线 ${l}^{\\prime }$ 的点法式方程为 ${l}^{\\prime } : b\\left( {x - {x}_{0}}\\right)  - a\\left( {y - {y}_{0}}\\right)  = 0$ . 这样,点 $Q$ 的坐标是方程组\n\n$$\n\\left\\{  \\begin{array}{l} {ax} + {by} + c = 0, \\\\  b\\left( {x - {x}_{0}}\\right)  - a\\left( {y - {y}_{0}}\\right)  = 0 \\end{array}\\right.\n$$\n\n的解. 考虑到要计算的是 $\\left| {PQ}\\right|  = \\sqrt{{\\left( {x}_{Q} - {x}_{0}\\right) }^{2} + {\\left( {y}_{Q} - {y}_{0}\\right) }^{2}}$ ,不妨把上述方程组整理成关于未知数 $x - {x}_{0}$ 与 $y - {y}_{0}$ 的二元一次方程组,得\n\n$$\n\\left\\{  \\begin{array}{l} a\\left( {x - {x}_{0}}\\right)  + b\\left( {y - {y}_{0}}\\right)  =  - \\left( {a{x}_{0} + b{y}_{0} + c}\\right) , \\\\  b\\left( {x - {x}_{0}}\\right)  - a\\left( {y - {y}_{0}}\\right)  = 0. \\end{array}\\right.\n$$\n\n又容易看出,把两个方程两侧分别平方后相加,关于未知数的项只有 $x - {x}_{0}$ 与 $y - {y}_{0}$ 的平方项, 即有\n\n$$\n\\left( {{a}^{2} + {b}^{2}}\\right) \\left\\lbrack  {{\\left( x - {x}_{0}\\right) }^{2} + {\\left( y - {y}_{0}\\right) }^{2}}\\right\\rbrack   = {\\left( a{x}_{0} + b{y}_{0} + c\\right) }^{2},\n$$\n\n这与我们所希望的结果在形式上很接近. 点 $Q\\left( {{x}_{Q},{y}_{Q}}\\right)$ 的坐标满足这个方程,所以\n\n$$\n{\\left( {x}_{Q} - {x}_{0}\\right) }^{2} + {\\left( {y}_{Q} - {y}_{0}\\right) }^{2} = \\frac{{\\left( a{x}_{0} + b{y}_{0} + c\\right) }^{2}}{{a}^{2} + {b}^{2}}.\n$$\n\n此式两边开平方, 得\n\n$$\nd = \\frac{\\left| a{x}_{0} + b{y}_{0} + c\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}.\n$$\n\n⑧\n\n上述解法主体是纯代数的,但在求直线 ${l}^{\\prime }$ 的方程时还是用了直线的法向量和点法式方程 (当然, 这也是可以回避的, 但我们要从源头上去绕圈子了. 这似乎对我们本节课的学习没有更多的启迪).\n\n本册教材没有采用前面的计算,而是把求 $d = \\left| \\overrightarrow{PQ}\\right|$ 的问题转化为求 $\\overrightarrow{PQ}$ 与法向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 的数量积的问题: 由于 $\\overrightarrow{PQ}//\\overrightarrow{n},\\cos \\langle \\overrightarrow{PQ},\\overrightarrow{n}\\rangle  =  \\pm  1$ ,因此 $\\overrightarrow{PQ} \\cdot  \\overrightarrow{n} =  \\pm  \\left| \\overrightarrow{PQ}\\right| \\; \\left| \\overrightarrow{n}\\right|$ ,从而\n\n$$\nd = \\left| \\overrightarrow{PQ}\\right|  = \\frac{\\left| \\overrightarrow{PQ} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{n}\\right| },\n$$\n\n后续的推导也给出了公式 ⑧.\n\n本节有 3 道例题.\n\n例 1 是点到直线距离公式的简单应用.\n\n例 2 是用点到直线的距离公式, 求两条平行直线之间的距离, 并由特殊到一般, 拓展得到任意两条平行直线 ${ax} + {by} + {c}_{1} = 0$ 与 ${ax} + {by} + {c}_{2} = 0\\left( {a\\text{、}b}\\right.$ 不同时为零) 之间的距离公式\n\n$$\nd = \\frac{\\left| {c}_{1} - {c}_{2}\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}.\n$$\n\n在推导过程中将平行线之间的距离化归为点到直线的距离以及计算过程中的整体代换的方法是值得学习的.\n\n例 3 是为了巩固两条平行直线之间的距离公式, 同时也巩固了根据已知直线方程设其平行线方程的方法.\n\n### 注意事项\n\n1. 教材推导公式 ⑧ 时用了垂足 $Q$ ,但这个垂足条件不是本质需要的,只是承接上一段的论述信手拈来,便于学生理解罢了. 事实上,在直线 $l$ 上任取一点 $M$ 来代替垂足 $Q$ ,同样可以得出 $d = \\frac{\\left| \\overrightarrow{PM} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{n}\\right| }$ (但 $d = \\left| \\overrightarrow{PM}\\right|$ 一般是不成立的),不过其理由变成了点 $P$ 到直线 $l$ 的距离 $d$ 是向量 $\\overrightarrow{PM}$ (其中点 $M$ 在直线 $l$ 上)在 $l$ 的法向量 $\\overrightarrow{n}$ 方向上投影的模. 根据向量投影的公式 (必修第二册第 106 页) 和向量的数量积的定义 (必修第二册第 107 页),可得 $\\overrightarrow{PM}$ 在 $\\overrightarrow{n}$ 方向上投影是\n\n$$\n\\frac{\\left| \\overrightarrow{PM}\\right| \\cos \\langle \\overrightarrow{PM},\\overrightarrow{n}\\rangle }{\\left| \\overrightarrow{n}\\right| }\\overrightarrow{n} = \\frac{\\left| \\overrightarrow{PM}\\right| \\left| \\overrightarrow{n}\\right| \\cos \\langle \\overrightarrow{PM},\\overrightarrow{n}\\rangle }{{\\left| \\overrightarrow{n}\\right| }^{2}}\\overrightarrow{n} = \\frac{\\overrightarrow{PM} \\cdot  \\overrightarrow{n}}{{\\left| \\overrightarrow{n}\\right| }^{2}}\\overrightarrow{n},\n$$\n\n于是 $d$ 等于它的模,即\n\n$$\nd = \\frac{\\left| \\overrightarrow{PM} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{n}\\right| }.\n$$\n\n再用点 $M$ 的坐标 $\\left( {{x}_{M},{y}_{M}}\\right)$ 代替点 $Q$ 的坐标 $\\left( {{x}_{Q},{y}_{Q}}\\right)$ 就可仿照教材进行后续推导,得到公式⑧.\n\n这里的 $\\overrightarrow{PM} \\cdot  \\overrightarrow{n} = \\overrightarrow{PQ} \\cdot  \\overrightarrow{n}$ ,或者更一般地,对直线 $l$ 上的任意两点 $M$ 与 ${M}^{\\prime }$ ,都可得到 $\\overrightarrow{PM} \\cdot  \\overrightarrow{n} = \\overrightarrow{P{M}^{\\prime }} \\cdot  \\overrightarrow{n}$ ,这在向量理论中是很容易理解的,这是因为 $\\overrightarrow{P{M}^{\\prime }} = \\overrightarrow{PM} + \\; \\overrightarrow{M{M}^{\\prime }}$ ,而 $\\overrightarrow{M{M}^{\\prime }} \\bot  \\overrightarrow{n}$ ,从而\n\n$$\n\\overrightarrow{P{M}^{\\prime }} \\cdot  \\overrightarrow{n} = \\overrightarrow{PM} \\cdot  \\overrightarrow{n} + \\overrightarrow{M{M}^{\\prime }} \\cdot  \\overrightarrow{n} = \\overrightarrow{PM} \\cdot  \\overrightarrow{n}.\n$$\n\n2. 在分析和推导点到直线的距离公式中, 要充分尊重学生的思维过程, 提倡通性通法, 鼓励发散性思维, 不否定和排斥用设方程、解方程组的方法求垂足的坐标, 再求点到直线距离的方法; 不排斥结合几何图形, 用一些几何的方法求点到直线的距离公式.\n\n3. 与“二期课改”教材不同的是,本册教材不要求学习点到直线的有向距离公式, 即 $\\delta  = \\frac{a{x}_{0} + b{y}_{0} + c}{\\sqrt{{a}^{2} + {b}^{2}}}$ . 教师不必纠缠于此主题.\n\n### 教学建议\n\n本节课题的引入,可以创设生活情境,从生活中需要计算的点到直线的距离开始; 也可以从数学的角度提出,在平面直角坐标系中,因为坐标 $\\left( {{x}_{0},{y}_{0}}\\right)$ 确定一个点 (设为 $P$ ),关于 $x\\text{、}y$ 的二元一次方程 ${ax} + {by} + c = 0$ 确定一条直线 (设为 $l$ ),所以一定可以用 ${x}_{0}\\text{、}{y}_{0}\\text{、}a\\text{、}b\\text{、}c$ 来表示点 $P$ 到直线 $l$ 的距离; 还可以从特殊到一般,由具体到抽象. 如何选择, 由学生的认知基础决定.\n\n建议将距离公式的推导设计成一个探索过程, 教师和学生一起经历. 可以从学生最容易想到的解方程组入手. 参考“内容分析”部分所给的解方程过程,引导学生进行未知数的替换, 并探索捷径走向我们的目标. 可以设想, 如果要求未知数的解, 再作平方和及开平方以计算距离, 势必非常复杂和冗长. 让学生在教师指导下实践把过程的中间结果和目标相比, 从而接近目标、达到目标, 享受灵活解题的乐趣.\n\n用向量的数量积方式推导公式素材的选取可以有弹性. 可以根据学生的条件在 “垂足”(教材中的方法) 和直线上任意点 (“注意事项”之 1 ) 中选择一种加以处理. 如果学生有足够的余力, 可以从特殊到一般, 两种情况都讲, 并体会其中的思维发展, 复习向量的有关知识.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 426,
+        "end": 527
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-1-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们首先讨论直线 $l : {ax} + {by} + c = 0$ ( $a\\text{ 、 }b$ 不同时为零) 外一点 $P\\left( {{x}_{0},{y}_{0}}\\right)$ 到这条直线的距离. 根据点到直线距离的定义, 如图 1-4-1,过点 $P$ 作直线 $l$ 的垂线,设垂足是 $Q\\left( {{x}_{Q},{y}_{Q}}\\right)$ ,则线段 ${PQ}$ 的长度就是点 $P$ 到直线 $l$ 的距离 $d$ . 因此,只要求出 ${PQ}$ 所在直线的方程,然后与 $l$ 的方程联立得到一个二元一次方程组,解这个方程组就可以得到点 $Q$ 的坐标,进而利用两点间的距离公式求出 ${PQ}$ 的长度. 这种方法的思路很清晰,但运算量比较大. 为了简便计算, 我们介绍另外一种方法.\n\n![bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg](images/book-b3eea358c5acbbb85044.jpg)\n\n图 1-4-1\n\n由直线 $l$ 的一般式方程知, $\\overrightarrow{n} = \\left( {a, b}\\right)$ 是 $l$ 的一个法向量, 所以 $\\overrightarrow{PQ}//\\overrightarrow{n}$ ,即 $\\left| {\\cos \\langle \\overrightarrow{PQ},\\overrightarrow{n}\\rangle }\\right|  = 1$ ,从而\n\n$$\nd = \\left| \\overrightarrow{PQ}\\right|  = \\frac{\\left| \\overrightarrow{PQ} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{n}\\right| } = \\frac{\\left| a\\left( {x}_{Q} - {x}_{0}\\right)  + b\\left( {y}_{Q} - {y}_{0}\\right) \\right| }{\\sqrt{{a}^{2} + {b}^{2}}}\n$$\n\n$$\n= \\frac{\\left| \\left( a{x}_{Q} + b{y}_{Q}\\right)  - \\left( a{x}_{0} + b{y}_{0}\\right) \\right| }{\\sqrt{{a}^{2} + {b}^{2}}}.\n$$\n\n因为点 $Q$ 在 $l$ 上,所以 $a{x}_{Q} + b{y}_{Q} + c = 0$ ,即\n\n$$\na{x}_{Q} + b{y}_{Q} =  - c.\n$$\n\n所以, $d = \\frac{\\left| -c - \\left( a{x}_{0} + b{y}_{0}\\right) \\right| }{\\sqrt{{a}^{2} + {b}^{2}}}$ ,从而得到点 $P\\left( {{x}_{0},{y}_{0}}\\right)$ 到直线 $l : {ax} + {by} + c = 0$ 的距离公式\n\n$$\nd = \\frac{\\left| a{x}_{0} + b{y}_{0} + c\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}.\n$$\n\n当点 $P$ 在直线 $l$ 上时,上述公式仍然成立,此时 $d = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 854,
+        "end": 884
+      }
+    ],
+    "id": "x1-1-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 根据下列条件,求点 $P$ 到直线 $l$ 的距离 $d$ :\n\n(1) $P\\left( {1,2}\\right)$ ， $l : x + {2y} + 5 = 0$ ；\n\n(2) $P\\left( {-\\sqrt{3},3}\\right)$ ， $l : y = \\sqrt{3}x + 3$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 885,
+        "end": 890
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 885,
+        "end": 890
+      }
+    ],
+    "id": "x1-1-4-ex-1",
+    "category": "例题",
+    "answer": "解(1)由点到直线的距离公式, 得\n\n$$\nd = \\frac{\\left| 1 + 2 \\times  2 + 5\\right| }{\\sqrt{{1}^{2} + {2}^{2}}} = 2\\sqrt{5}.\n$$\n\n(2)将直线 $l$ 的方程化为 $\\sqrt{3}x - y + 3 = 0$ ，所以由点到直线的距离公式, 得\n\n$$\nd = \\frac{\\left| \\sqrt{3} \\times  \\left( -\\sqrt{3}\\right)  + \\left( -1\\right)  \\times  3 + 3\\right| }{\\sqrt{{\\left( \\sqrt{3}\\right) }^{2} + {\\left( -1\\right) }^{2}}} = \\frac{3}{2}.\n$$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 891,
+        "end": 902
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 求平行直线 ${l}_{1} : \\sqrt{2}x + y + 1 = 0$ 与 ${l}_{2} : \\sqrt{2}x + y + 4 = 0$ 之间的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 903,
+        "end": 904
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 903,
+        "end": 904
+      }
+    ],
+    "id": "x1-1-4-ex-2",
+    "category": "例题",
+    "answer": "解 两条平行线之间的距离就是其中一条直线上的一点到另一条直线的距离. 为方便计算,我们在直线 ${l}_{1}$ 上取一个特殊点 $P\\left( {0, - 1}\\right)$ ,点 $P$ 到直线 ${l}_{2} : \\sqrt{2}x + y + 4 = 0$ 的距离为\n\n$$\nd = \\frac{\\left| \\sqrt{2} \\times  0 + 1 \\times  \\left( -1\\right)  + 4\\right| }{\\sqrt{2 + 1}} = \\sqrt{3}.\n$$\n\n所以,直线 ${l}_{1}$ 与 ${l}_{2}$ 之间的距离为 $\\sqrt{3}$ .\n\n如图 1-4-2,对于两条平行线 ${l}_{1} : {ax} + {by} + {c}_{1} = 0$ 与 ${l}_{2} : {ax} + \\; {by} + {c}_{2} = 0\\left( {a\\text{ 、 }b}\\right.$ 不同时为零 $)$ ,我们可以采取同样的方法求它们之间的距离. 取 ${l}_{1}$ 上一点 $P\\left( {{x}_{0},{y}_{0}}\\right)$ ,则 $a{x}_{0} + b{y}_{0} + {c}_{1} = 0$ . 点 $P$ 到 ${l}_{2}$ 的距离 $d = \\frac{\\left| a{x}_{0} + b{y}_{0} + {c}_{2}\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}$ . 由 $a{x}_{0} + b{y}_{0} + {c}_{1} = 0$ ,得 $a{x}_{0} + \\; b{y}_{0} =  - {c}_{1}$ ,所以 $d = \\frac{\\left| -{c}_{1} + {c}_{2}\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}$ . 也就是说: 平行线 ${l}_{1} : {ax} + \\; {by} + {c}_{1} = 0$ 与 ${l}_{2} : {ax} + {by} + {c}_{2} = 0$ 的距离为\n\n$$\nd = \\frac{\\left| {c}_{1} - {c}_{2}\\right| }{\\sqrt{{a}^{2} + {b}^{2}}}.\n$$\n\n![bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg](images/private-ce0cc7c240909b50195f.jpg)\n\n图 1-4-2",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 905,
+        "end": 922
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 已知直线 ${l}_{1} : y = \\sqrt{2}x + 1$ ,直线 ${l}_{2}$ 与 ${l}_{1}$ 平行,且与 ${l}_{1}$ 的距离为 2 . 求直线 ${l}_{2}$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 923,
+        "end": 924
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 923,
+        "end": 924
+      }
+    ],
+    "id": "x1-1-4-ex-3",
+    "category": "例题",
+    "answer": "解 由题意,可设 ${l}_{2}$ 的方程为 $y = \\sqrt{2}x + b\\left( {b \\in  \\mathbf{R}\\text{ 且 }b \\neq  1}\\right)$ .\n\n直线 ${l}_{1}$ 与 ${l}_{2}$ 的一般式方程为\n\n$$\n{l}_{1} : \\sqrt{2}x - y + 1 = 0\\text{ 与 }{l}_{2} : \\sqrt{2}x - y + b = 0.\n$$\n\n由两条平行直线之间的距离公式, 得\n\n$$\n\\frac{\\left| 1 - b\\right| }{\\sqrt{{1}^{2} + {\\left( \\sqrt{2}\\right) }^{2}}} = 2.\n$$\n\n解得 $b = 2\\sqrt{3} + 1$ 或 $b =  - 2\\sqrt{3} + 1$ .\n\n所以,直线 ${l}_{2}$ 的方程为 $y = \\sqrt{2}x + 2\\sqrt{3} + 1$ 或 $y = \\sqrt{2}x - 2\\sqrt{3} + 1$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 925,
+        "end": 942
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.4",
+    "markdown": "### 练习 1.4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 943,
+        "end": 943
+      }
+    ],
+    "id": "x1-1-4-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.4 · 1",
+    "markdown": "1. 根据下列条件,求点 $M\\left( {-2, - 1}\\right)$ 到直线 $l$ 的距离 $d$ :\n\n(1) $l : x = 3$ ；\n\n(2) $l : y = 3$ ；\n\n(3) $l : {x + y} = {3;}$\n\n(4) $l : y = {3x} - 5$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 945,
+        "end": 954
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 945,
+        "end": 954
+      }
+    ],
+    "id": "x1-1-4-p14-1",
+    "category": "练习1.4",
+    "answer": "1. (1) $d = 5$ . (2) $d = 4$ . (3) $d = 3\\sqrt{2}$ . (4) $d = \\sqrt{10}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 742,
+        "end": 743
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.4 · 2",
+    "markdown": "2. 在直角三角形 ${ABC}$ 中, $\\angle A = \\frac{\\pi }{2},\\left| {AB}\\right|  = 6,\\left| {AC}\\right|  = 8$ . 求三角形的重心 $G$ 到斜边 ${BC}$ 所在直线的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 955,
+        "end": 956
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 955,
+        "end": 956
+      }
+    ],
+    "id": "x1-1-4-p14-2",
+    "category": "练习1.4",
+    "answer": "2. $\\frac{8}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 744,
+        "end": 745
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 1.4",
+    "markdown": "### 习题 1.4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 957,
+        "end": 957
+      }
+    ],
+    "id": "x1-1-4-b9",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 959,
+        "end": 959
+      }
+    ],
+    "id": "x1-1-4-b10",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.4A · 1",
+    "markdown": "1. 求点 $P\\left( {2,3}\\right)$ 到直线 $l$ 的距离:\n\n(1) $l : {3x} - {2y} = {13}$ ；\n\n(2) $l : y =  - {2x} + 3$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 961,
+        "end": 966
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 961,
+        "end": 966
+      }
+    ],
+    "id": "x1-1-4-h14A-1",
+    "category": "习题1.4A",
+    "answer": "1. (1) $\\sqrt{13}$ . (2) $\\frac{4\\sqrt{5}}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 750,
+        "end": 751
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.4A · 2",
+    "markdown": "2. 已知点 $A\\left( {a,6}\\right)$ 到直线 ${3x} - {4y} - 4 = 0$ 的距离等于 4,求实数 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 967,
+        "end": 968
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 967,
+        "end": 968
+      }
+    ],
+    "id": "x1-1-4-h14A-2",
+    "category": "习题1.4A",
+    "answer": "2. $a = \\frac{8}{3}$ 或 $a = {16}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 752,
+        "end": 753
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.4A · 3",
+    "markdown": "3. 求下列两条平行线之间的距离:\n\n(1) ${l}_{1} : {2x} - {3y} + 1 = 0,{l}_{2} : {4x} - {6y} + 1 = 0$ ；\n\n(2) ${l}_{1} : y = \\frac{\\sqrt{3}}{2}x + 1,{l}_{2} : \\sqrt{3}x - {2y} + 1 = 0$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 969,
+        "end": 974
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 969,
+        "end": 974
+      }
+    ],
+    "id": "x1-1-4-h14A-3",
+    "category": "习题1.4A",
+    "answer": "3. (1) $\\frac{\\sqrt{13}}{26}$ . (2) $\\frac{\\sqrt{7}}{7}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 754,
+        "end": 755
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.4A · 4",
+    "markdown": "4. 已知直线 ${l}_{1} : {2x} - y + a = 0$ 与直线 ${l}_{2} :  - {4x} + {2y} + 1 = 0$ 的距离为 $\\frac{7\\sqrt{5}}{10}$ ，求实数 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 975,
+        "end": 976
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 975,
+        "end": 976
+      }
+    ],
+    "id": "x1-1-4-h14A-4",
+    "category": "习题1.4A",
+    "answer": "4. $a = 3$ 或 $a =  - 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 756,
+        "end": 757
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 977,
+        "end": 977
+      }
+    ],
+    "id": "x1-1-4-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.4B · 1",
+    "markdown": "1. 已知点 $A\\left( {1,0}\\right) \\text{ 、 }B\\left( {4, - 4}\\right)$ . 若点 $A$ 与点 $B$ 到直线 $l$ 的距离都为 2,求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 979,
+        "end": 980
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 979,
+        "end": 980
+      }
+    ],
+    "id": "x1-1-4-h14B-1",
+    "category": "习题1.4B",
+    "answer": "1. $y + 2 = 0$ 或 ${24x} - {7y} - {74} = 0$ 或 ${4x} + {3y} + 6 = 0$ 或 ${4x} + {3y} - {14} = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 760,
+        "end": 761
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.4B · 2",
+    "markdown": "2. 已知点 $P$ 是直线 ${3x} - {4y} + 2 = 0$ 上任意一点,求点 $P$ 与点 $A\\left( {3, - 1}\\right)$ 之间距离的最小值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 981,
+        "end": 982
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 981,
+        "end": 982
+      }
+    ],
+    "id": "x1-1-4-h14B-2",
+    "category": "习题1.4B",
+    "answer": "2. 3 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 762,
+        "end": 763
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.4B · 3",
+    "markdown": "3. 已知直线 $l$ 经过点 $P\\left( {1,1}\\right)$ 且与直线 ${l}_{1} : y = \\sqrt{3}x + 1$ 和 ${l}_{2} : y = \\sqrt{3}x + 3$ 分别交于点 $A$ 和点 $B$ . 若 $\\left| {AB}\\right|  = \\sqrt{2}$ ,求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 983,
+        "end": 984
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 983,
+        "end": 984
+      }
+    ],
+    "id": "x1-1-4-h14B-3",
+    "category": "习题1.4B",
+    "answer": "3. $y =  - \\left( {2 + \\sqrt{3}}\\right) x + 3 + \\sqrt{3}$ 或 $y = \\left( {2 - \\sqrt{3}}\\right) x - 1 + \\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 764,
+        "end": 765
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

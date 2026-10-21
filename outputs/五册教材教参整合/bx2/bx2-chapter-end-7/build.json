@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx2-chapter-end-7",
+  "book_id": "bx2",
+  "section": "chapter-end-7",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx2/bx2-chapter-end-7.json",
+  "output": "outputs/五册教材教参整合/bx2/bx2-chapter-end-7",
+  "fingerprint": "6248ef93c47dbd81285a7050a8039a94412f911bd5fffb6181ce000337b995fb",
+  "status": "rendered",
+  "questions": 16,
+  "answers": 16,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-73cff52f688ba81e7292.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg",
+      "sha256": "73cff52f688ba81e72927fd5d57a1f3e06c716acc0b78da86fb0ca398a70a7e9",
+      "private": false
+    },
+    "images/book-0df30b6316b790ed09f1.jpg": {
+      "source": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg",
+      "sha256": "0df30b6316b790ed09f189b11bd6fe3b724056d49a9454927f8625990ae83362",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md": "aa198208462a3427ed9d0e4b9291ff53a870f74e46b159f9513c1bd96beefeff",
+    "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md": "1fabcbcd4f3cbe946e2576ba67d6bdc7962a79eb957c90f5770da428b4899df8"
+  },
+  "student_images": [
+    "images/book-0df30b6316b790ed09f1.jpg",
+    "images/book-73cff52f688ba81e7292.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "444227da046afa9f5b848b0f011469f8db187e3dd85f25339e1867da472a9f1f",
+    "student.html": "33a51e25785c99af122f331122b7189cbf81eb5580a2a37109fcf2c94a340f76",
+    "student.zip": "3e09182863caa08e719afe34ea964c2a37367f7683abfba2e7a1833de941e94d",
+    "content.json": "16de9cfb8c9e0f003a18040c669c44c2081c99ed93dddf45ef813dfdf803354d"
+  }
+}

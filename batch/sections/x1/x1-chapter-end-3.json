@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "id": "x1-chapter-end-3",
+  "book_id": "x1",
+  "book_title": "选择性必修第一册",
+  "chapter": "3",
+  "chapter_title": "第3章空间向量及其应用",
+  "section": "chapter-end-3",
+  "title": "章末阅读、内容提要与复习题",
+  "sources": {
+    "book": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "章末阅读、内容提要与复习题",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1187,
+          "end": 1187
+        }
+      ],
+      "id": "x1-chapter-end-3",
+      "number": "chapter-end-3",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "heading",
+      "title": "1. 空间向量的概念与运算",
+      "markdown": "## 1. 空间向量的概念与运算",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1189,
+          "end": 1189
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "(1)空间向量的定义和相关概念(模、零向量、单位向量、平行向量、相等向量、负向量等)与平面向量情形相同.\n\n(2)对只与一组共面向量相关的问题，有关平面向量的定义与结论均适用. 特别地， 平面向量运算(加法、减法、与实数的乘法、数量积)的定义与性质直接适用于空间向量.\n\n2. 向量共面的充要条件与空间向量基本定理\n\n(1)向量共面的充要条件:如果 $\\overrightarrow{{e}_{1}}$ 与 $\\overrightarrow{{e}_{2}}$ 是两个不平行的向量，那么空间中的向量 $\\overrightarrow{a}$ 与 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 共面的充要条件是:存在唯一的一对实数 $\\lambda$ 与 $\\mu$ ，使得 $\\overrightarrow{a} = \\lambda \\overrightarrow{{e}_{1}} + \\mu \\overrightarrow{{e}_{2}}$ .\n\n(2)空间向量基本定理:如果 $\\overrightarrow{{e}_{1}}\\text{ 、 }\\overrightarrow{{e}_{2}}$ 与 $\\overrightarrow{{e}_{3}}$ 是不共面的向量，那么对于空间中任一向量 $\\overrightarrow{a}$ ,存在唯一的一组实数 $\\lambda \\text{ 、 }\\mu$ 与 $\\nu$ ,使得 $\\overrightarrow{a} = \\lambda {\\overrightarrow{e}}_{1} + \\mu {\\overrightarrow{e}}_{2} + \\nu {\\overrightarrow{e}}_{3}$ . 也就是说,空间任意三个不共面的向量都组成空间向量的一个基.\n\n3. 空间向量的坐标表示\n\n(1)空间向量的坐标表示:建立空间直角坐标系，把向量 $\\overrightarrow{p}$ 的起点放在坐标原点，该向量就直接用它的终点坐标 $\\left( {x, y, z}\\right)$ 表示为 $p = \\left( {x, y, z}\\right)$ ，这个表示的意义是: $\\overrightarrow{p}$ 是坐标轴正方向上的单位向量 $\\overrightarrow{i}\\text{ 、 }\\overrightarrow{j}$ 与 $\\overrightarrow{k}$ 的线性组合 $\\overrightarrow{p} = x\\overrightarrow{i} + y\\overrightarrow{j} + z\\overrightarrow{k}$ .\n\n(2)给定空间两点 $A\\left( {{x}_{1},{y}_{1},{z}_{1}}\\right)$ 与 $B\\left( {{x}_{2},{y}_{2},{z}_{2}}\\right)$ ，则 $\\overrightarrow{AB} = \\left( {{x}_{2} - {x}_{1},{y}_{2} - {y}_{1},{z}_{2} - {z}_{1}}\\right)$ .\n\n4. 坐标表示下的空间向量运算\n\n设向量 $\\overrightarrow{a} = \\left( {{x}_{1},{y}_{1},{z}_{1}}\\right) ,\\overrightarrow{b} = \\left( {{x}_{2},{y}_{2},{z}_{2}}\\right)$ ,则\n\n(1) $\\left| \\overrightarrow{a}\\right|  = \\sqrt{{x}_{1}^{2} + {y}_{1}^{2} + {z}_{1}^{2}}$ ；\n\n(2) $\\overrightarrow{a} \\pm  \\overrightarrow{b} = \\left( {{x}_{1} \\pm  {x}_{2},{y}_{1} \\pm  {y}_{2},{z}_{1} \\pm  {z}_{2}}\\right)$ ；\n\n(3) $\\lambda \\overrightarrow{a} = \\left( {\\lambda {x}_{1},\\lambda {y}_{1},\\lambda {z}_{1}}\\right) ,\\lambda  \\in  \\mathbf{R}$ ；\n\n(4) $\\overrightarrow{a} \\cdot  \\overrightarrow{b} = {x}_{1}{x}_{2} + {y}_{1}{y}_{2} + {z}_{1}{z}_{2}$ .\n\n5. 空间向量的夹角、平行与垂直\n\n设向量 $\\overrightarrow{a} = \\left( {{x}_{1},{y}_{1},{z}_{1}}\\right) ,\\overrightarrow{b} = \\left( {{x}_{2},{y}_{2},{z}_{2}}\\right)$ 均为非零向量，则\n\n(1) $\\cos \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = \\frac{\\overrightarrow{a} \\cdot  \\overrightarrow{b}}{\\left| \\overrightarrow{a}\\right| \\left| \\overrightarrow{b}\\right| } = \\frac{{x}_{1}{x}_{2} + {y}_{1}{y}_{2} + {z}_{1}{z}_{2}}{\\sqrt{{x}_{1}^{2} + {y}_{1}^{2} + {z}_{1}^{2}}\\sqrt{{x}_{2}^{2} + {y}_{2}^{2} + {z}_{2}^{2}}}$ ;\n\n(2) $\\overrightarrow{a}//\\overrightarrow{b} \\Leftrightarrow  \\overrightarrow{a} = \\lambda \\overrightarrow{b},\\lambda  \\in  \\mathbf{R} \\Leftrightarrow  {x}_{1} = \\lambda {x}_{2},{y}_{1} = \\lambda {y}_{2},{z}_{1} = \\lambda {z}_{2},\\lambda  \\in  \\mathbf{R}$ ；\n\n(3) $\\overrightarrow{a} \\bot  \\overrightarrow{b} \\Leftrightarrow  \\overrightarrow{a} \\cdot  \\overrightarrow{b} = 0 \\Leftrightarrow  {x}_{1}{x}_{2} + {y}_{1}{y}_{2} + {z}_{1}{z}_{2} = 0$ .\n\n6. 空间向量在立体几何中的应用\n\n空间中的直线和平面可以分别通过方向向量和法向量与空间向量联系起来，从而把立体几何的许多问题化为向量的问题加以解决.\n\n(1)空间直线与平面之间的平行与垂直\n\n① 两条直线平行的充要条件是它们的方向向量平行；两条直线垂直的充要条件是它们的方向向量垂直.\n\n② 直线和平面垂直的充要条件是直线的方向向量为平面的法向量；平面外一条直线和平面平行的充要条件是直线的方向向量垂直于平面的法向量.\n\n③ 两个平面垂直的充要条件是其中一个平面过另一个平面的一个法向量；两个平面平行的充要条件是它们的法向量平行.\n\n(2)求距离\n\n① 平面外一点 $A$ 到平面的距离 $d$ 由公式\n\n$$\nd = \\frac{\\left| \\overrightarrow{n} \\cdot  \\overrightarrow{AB}\\right| }{\\left| \\overrightarrow{n}\\right| }\n$$\n\n给出，其中 $\\overrightarrow{n}$ 是平面的一个法向量， $B$ 是平面上任意一点.\n\n② 平面的平行线到平面的距离、平行平面间的距离均化为点到平面的距离来处理.\n\n(3)求角的大小\n\n① 具有方向向量 $\\overrightarrow{{r}_{1}}$ 与 $\\overrightarrow{{r}_{2}}$ 的两条直线的夹角 $\\theta$ 由如下公式确定:\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{r}_{1}} \\cdot  \\overrightarrow{{r}_{2}}\\right| }{\\left| \\overrightarrow{{r}_{1}}\\right| \\left| \\overrightarrow{{r}_{2}}\\right| }.\n$$\n\n② 具有方向向量 $\\overrightarrow{r}$ 的直线与具有法向量 $\\overrightarrow{n}$ 的平面的夹角 $\\theta$ 由如下公式确定:\n\n$$\n\\sin \\theta  = \\frac{\\left| \\overrightarrow{r} \\cdot  \\overrightarrow{n}\\right| }{\\left| \\overrightarrow{r}\\right| \\left| \\overrightarrow{n}\\right| }\n$$\n\n③ 具有法向量 $\\overrightarrow{{n}_{1}}$ 与 $\\overrightarrow{{n}_{2}}$ 的两个平面所成的锐二面角(或直二面角) $\\theta$ 由如下公式确定:\n\n$$\n\\cos \\theta  = \\frac{\\left| \\overrightarrow{{n}_{1}} \\cdot  \\overrightarrow{{n}_{2}}\\right| }{\\left| \\overrightarrow{{n}_{1}}\\right| \\left| \\overrightarrow{{n}_{2}}\\right| }.\n$$",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1190,
+          "end": 1272
+        }
+      ],
+      "emphases": [
+        {
+          "start": 3018,
+          "end": 3064,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-chapter-end-3-definition-2-0",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3066,
+          "end": 3131,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-chapter-end-3-definition-2-1",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3133,
+          "end": 3187,
+          "kind": "concept",
+          "title": "教材概念与条件",
+          "id": "x1-chapter-end-3-definition-2-2",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3441,
+          "end": 3714,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-chapter-end-3-formula-2-3",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3716,
+          "end": 3958,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-chapter-end-3-formula-2-4",
+          "origin": "editorial-emphasis"
+        },
+        {
+          "start": 3960,
+          "end": 4243,
+          "kind": "formula",
+          "title": "教材公式",
+          "id": "x1-chapter-end-3-formula-2-5",
+          "origin": "editorial-emphasis"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "复习题",
+      "markdown": "## 复习题",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1273,
+          "end": 1273
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "## A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1275,
+          "end": 1275
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 1",
+      "markdown": "1. 求连接点 $A\\left( {x, y, z}\\right)$ 与点 $B\\left( {{x}^{\\prime },{y}^{\\prime },{z}^{\\prime }}\\right)$ 的线段 ${AB}$ 的中点 $M$ 的坐标.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1277,
+          "end": 1282
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1277,
+          "end": 1282
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-1",
+      "category": "复习题A",
+      "answer": "1. $M\\left( {\\frac{x + {x}^{\\prime }}{2},\\frac{y + {y}^{\\prime }}{2},\\frac{z + {z}^{\\prime }}{2}}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 526,
+          "end": 527
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 2",
+      "markdown": "2. 在正四面体 ${ABCD}$ 中, $E$ 为 ${BC}$ 的中点, $F$ 为 ${CD}$ 的中点. 试用向量 $\\overrightarrow{AB}\\text{ 、 }\\overrightarrow{AC}$ 、 $\\overrightarrow{AD}$ 来表示 $\\overrightarrow{BF}$ .",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1283,
+          "end": 1284
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-2",
+      "category": "复习题A",
+      "answer": "2. $- \\frac{{a}^{2}}{8}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 528,
+          "end": 529
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 3",
+      "markdown": "3. 给定点 $A\\left( {1,0,0}\\right) \\text{ 、 }B\\left( {3,1,1}\\right) \\text{ 、 }C\\left( {2,0,1}\\right)$ 与点 $D\\left( {5, - 4,3}\\right)$ .\n\n(1)求 $\\overrightarrow{AD}$ 在 $\\overrightarrow{AB}\\text{ 、 }\\overrightarrow{BC}\\text{ 、 }\\overrightarrow{CA}$ 方向上的投影向量；\n\n(2)求点 $D$ 到平面 ${ABC}$ 的距离.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1290
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1285,
+          "end": 1290
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-3",
+      "category": "复习题A",
+      "answer": "3. (1) $\\overrightarrow{AD}$ 在 $\\overrightarrow{AB}$ 方向上的投影向量是 $\\left( {\\frac{7}{3},\\frac{7}{6},\\frac{7}{6}}\\right)$ ；\n\n$\\overrightarrow{AD}$ 在 $\\overrightarrow{BC}$ 方向上的投影向量是 $\\left( {0,0,0}\\right)$ ;\n\n$\\overrightarrow{AD}$ 在 $\\overrightarrow{CA}$ 方向上的投影向量是 $\\left( {\\frac{7}{2},0,\\frac{7}{2}}\\right)$ .\n\n(2) $\\frac{5\\sqrt{3}}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 530,
+          "end": 537
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 4",
+      "markdown": "4. 如图,在正三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中, $\\left| {AB}\\right|  = \\sqrt{2}\\left| {A{A}_{1}}\\right|$ , $D$ 是 ${A}_{1}{B}_{1}$ 的中点,点 $E$ 在 ${A}_{1}{C}_{1}$ 上,且 ${DE} \\bot  {AE}$ .\n\n(1)求证:平面 ${ADE}\\bot$ 平面 ${AC}{C}_{1}{A}_{1}$ ；\n\n(2)求直线 ${AD}$ 和平面 ${AB}{C}_{1}$ 所成角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg)\n\n(第 4 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1296
+        },
+        {
+          "source": "book",
+          "start": 1279,
+          "end": 1281
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1291,
+          "end": 1296
+        },
+        {
+          "source": "book",
+          "start": 1279,
+          "end": 1281
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-4",
+      "category": "复习题A",
+      "answer": "4.(1)证明略.\n\n(2) $\\arcsin \\frac{\\sqrt{10}}{5}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 538,
+          "end": 541
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 5",
+      "markdown": "5. 已知正四棱锥的体积为 12，底面对角线的长为 $2\\sqrt{6}$ . 求侧面与底面所成二面角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1297,
+          "end": 1298
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1297,
+          "end": 1298
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-5",
+      "category": "复习题A",
+      "answer": "5. $\\frac{\\pi }{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 542,
+          "end": 543
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 6",
+      "markdown": "6. 如图,已知 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 是底面边长为 1 的正四棱柱, ${O}_{1}$ 是 ${A}_{1}{C}_{1}$ 和 ${B}_{1}{D}_{1}$ 的交点.\n\n(1)设 $A{B}_{1}$ 与底面 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 所成角的大小为 $\\alpha$ ，二面角 $A - {B}_{1}{D}_{1} - {A}_{1}$ 的大小为 $\\beta$ . 求证: $\\tan \\beta  = \\sqrt{2}\\tan \\alpha$ ;\n\n(2)若点 $C$ 到平面 $A{B}_{1}{D}_{1}$ 的距离为 $\\frac{4}{3}$ ，求此正四棱柱的高.\n\n![bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg)\n\n(第 6 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1299,
+          "end": 1312
+        },
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1307
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1299,
+          "end": 1312
+        },
+        {
+          "source": "book",
+          "start": 1305,
+          "end": 1307
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-6",
+      "category": "复习题A",
+      "answer": "6.(1)证明略. (2) 2.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 544,
+          "end": 545
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 7",
+      "markdown": "7. 如图，在直三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中， $\\angle {ACB} = {90}^{ \\circ  }$ ， $\\left| {AC}\\right|  = \\left| {BC}\\right|  = \\left| {C{C}_{1}}\\right|  = 2$ .\n\n(1)求证: $A{B}_{1} \\bot  B{C}_{1}$ ；\n\n(2)求点 $B$ 到平面 $A{B}_{1}{C}_{1}$ 的距离.\n\n![bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg)\n\n(第 7 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1313,
+          "end": 1318
+        },
+        {
+          "source": "book",
+          "start": 1309,
+          "end": 1311
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1313,
+          "end": 1318
+        },
+        {
+          "source": "book",
+          "start": 1309,
+          "end": 1311
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-7",
+      "category": "复习题A",
+      "answer": "7.(1)证明略. (2) $\\sqrt{2}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 546,
+          "end": 547
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 8",
+      "markdown": "8. 如图,四棱锥 $P - {ABCD}$ 的底面 ${ABCD}$ 为梯形, ${AD}//{BC},{AB} \\bot  {BC},\\left| {AB}\\right|  = 1$ , $\\left| {AD}\\right|  = 3,\\angle {ADC} = {45}^{ \\circ  }$ ,且 ${PA} \\bot$ 平面 ${ABCD},\\left| {PA}\\right|  = 1$ .\n\n(1)求异面直线 ${PB}$ 与 ${CD}$ 所成角的大小；\n\n(2)求四棱锥 $P - {ABCD}$ 的体积.\n\n![bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg)\n\n(第 8 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1332
+        },
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1327
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1319,
+          "end": 1332
+        },
+        {
+          "source": "book",
+          "start": 1325,
+          "end": 1327
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-8",
+      "category": "复习题A",
+      "answer": "8. (1) $\\frac{\\pi }{3}$ . (2) $\\frac{5}{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 548,
+          "end": 549
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题A · 9",
+      "markdown": "9. 如图,在直三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中, $\\angle {BAC} = {90}^{ \\circ  },\\left| {AB}\\right|  = \\left| {AC}\\right|  = a,\\left| {A{A}_{1}}\\right|  = {2a}$ , $D$ 为 ${BC}$ 的中点, $E$ 为 $C{C}_{1}$ 上的点,且 $\\left| {CE}\\right|  = \\frac{1}{4}\\left| {C{C}_{1}}\\right|$ .\n\n(1)求证: ${BE}\\bot$ 平面 ${AD}{B}_{1}$ ；\n\n(2)求二面角 $B - A{B}_{1} - D$ 的大小.\n\n![bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg)\n\n(第 9 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1338
+        },
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1331
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1333,
+          "end": 1338
+        },
+        {
+          "source": "book",
+          "start": 1329,
+          "end": 1331
+        }
+      ],
+      "id": "x1-chapter-end-3-hA-9",
+      "category": "复习题A",
+      "answer": "9. (1)证明略. (2) $\\arccos \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 550,
+          "end": 551
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1339,
+          "end": 1339
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 1",
+      "markdown": "1. 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $\\left| {AB}\\right|  = \\left| {BC}\\right|  = 2,{A}_{1}D$ 与 $B{C}_{1}$ 所成的角为 $\\frac{\\pi }{2}$ . 求 $B{C}_{1}$ 与平面 $B{B}_{1}{D}_{1}D$ 所成角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1342
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1342
+        }
+      ],
+      "id": "x1-chapter-end-3-hB-1",
+      "category": "复习题B",
+      "answer": "1. $\\frac{\\pi }{6}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 554,
+          "end": 555
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 2",
+      "markdown": "2. 如图,在平行六面体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,点 $E\\text{ 、 }F$ 分别在 ${B}_{1}B$ 和 ${D}_{1}D$ 上,且 $\\left| {BE}\\right|  = \\frac{1}{3}\\left| {B{B}_{1}}\\right| ,\\left| {DF}\\right|  = \\frac{2}{3}\\left| {D{D}_{1}}\\right| .$\n\n(1)求证: $A$ 、 $E$ 、 ${C}_{1}$ 、 $F$ 四点共面；\n\n(2)若 $\\overrightarrow{EF} = \\lambda \\overrightarrow{AB} + \\mu \\overrightarrow{AD} + \\nu \\overrightarrow{A{A}_{1}}$ ，求 $\\lambda  + \\mu  + \\nu$ 的值.\n\n![bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1356
+        },
+        {
+          "source": "book",
+          "start": 1349,
+          "end": 1351
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1343,
+          "end": 1356
+        },
+        {
+          "source": "book",
+          "start": 1349,
+          "end": 1351
+        }
+      ],
+      "id": "x1-chapter-end-3-hB-2",
+      "category": "复习题B",
+      "answer": "2.(1)证明略. (2) $\\lambda  + \\mu  + \\nu  = \\frac{1}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 556,
+          "end": 557
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 3",
+      "markdown": "3. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\\text{ 、 }F$ 分别是 ${BC}\\text{ 、 }{A}_{1}{D}_{1}$ 的中点.\n\n(1)求证:四边形 ${B}_{1}{EDF}$ 是菱形；\n\n(2)求异面直线 ${A}_{1}C$ 与 ${DE}$ 所成角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg)\n\n(第 3 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1357,
+          "end": 1362
+        },
+        {
+          "source": "book",
+          "start": 1353,
+          "end": 1355
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1357,
+          "end": 1362
+        },
+        {
+          "source": "book",
+          "start": 1353,
+          "end": 1355
+        }
+      ],
+      "id": "x1-chapter-end-3-hB-3",
+      "category": "复习题B",
+      "answer": "3.(1)证明略.\n\n(2) $\\arccos \\frac{\\sqrt{15}}{15}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 558,
+          "end": 561
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "复习题B · 4",
+      "markdown": "4. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\\text{ 、 }F$ 分别是 ${BC}\\text{ 、 }C{C}_{1}$ 的中点.\n\n(1)求证:点 ${D}_{1}$ 在平面 ${AEF}$ 上；\n\n(2)求平面 ${AEF}{D}_{1}$ 与底面 ${ABCD}$ 所成二面角的大小.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1368
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1368
+        }
+      ],
+      "id": "x1-chapter-end-3-hB-4",
+      "category": "复习题B",
+      "answer": "4.(1)证明略. (2) $\\arccos \\frac{2}{3}$ 与 $\\pi  - \\arccos \\frac{2}{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 562,
+          "end": 563
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "拓展与思考",
+      "markdown": "## 拓展与思考",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1369,
+          "end": 1369
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1370,
+          "end": 1374
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 1",
+      "markdown": "1. 如图, ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 为正方体,动点 $P$ 在对角线 $B{D}_{1}$ 上,记 $\\frac{\\left| {D}_{1}P\\right| }{\\left| {D}_{1}B\\right| } = \\lambda$ .\n\n(1)求证: ${AP}\\bot {B}_{1}C$ ；\n\n(2)若异面直线 ${AP}$ 与 ${D}_{1}{B}_{1}$ 所成角为 $\\frac{\\pi }{4}$ ，求 $\\lambda$ 的值；\n\n(3)当 $\\angle {APC}$ 为钝角时,求 $\\lambda$ 的取值范围.\n\n![bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg)\n\n(第 1 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1375,
+          "end": 1386
+        },
+        {
+          "source": "book",
+          "start": 1371,
+          "end": 1373
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1375,
+          "end": 1386
+        },
+        {
+          "source": "book",
+          "start": 1371,
+          "end": 1373
+        }
+      ],
+      "id": "x1-chapter-end-3-t-1",
+      "category": "拓展与思考",
+      "answer": "1.(1)证明略. (2) $\\lambda  = 1$ . (3) $\\left( {\\frac{1}{3},1}\\right)$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 566,
+          "end": 567
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "拓展与思考 · 2",
+      "markdown": "2. 如图,平行六面体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的底面 ${ABCD}$ 是正方形, $O$ 为底面的中心, ${A}_{1}O \\bot$ 平面 ${ABCD}$ , $\\left| {AB}\\right|  = \\left| {A{A}_{1}}\\right|  = \\sqrt{2}.$\n\n(1)求证: ${A}_{1}C\\bot$ 平面 $B{B}_{1}{D}_{1}D$ ；\n\n(2)求平面 ${OC}{B}_{1}$ 与平面 $B{B}_{1}{D}_{1}D$ 所成二面角的大小.\n\n![bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg](sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg)\n\n(第 2 题)",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1387,
+          "end": 1391
+        },
+        {
+          "source": "book",
+          "start": 1383,
+          "end": 1385
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1387,
+          "end": 1391
+        },
+        {
+          "source": "book",
+          "start": 1383,
+          "end": 1385
+        }
+      ],
+      "id": "x1-chapter-end-3-t-2",
+      "category": "拓展与思考",
+      "answer": "2.(1)证明略. (2) $\\frac{\\pi }{3}$ 或 $\\frac{2\\pi }{3}$ .",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 568,
+          "end": 569
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 相关阅读材料",
+      "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 张景中,彭翕成. 绕来绕去的向量法[M]. 北京:科学出版社,2010.\n\n[2] 赵生初. 向量观念下的直线方程与立体几何[M]. 哈尔滨: 哈尔滨工业大学出版社,2020.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 570,
+          "end": 576
+        }
+      ],
+      "teacher_only": true
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": [
+    {
+      "source": "book",
+      "line": 1279,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1305,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1309,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1325,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1329,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1349,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1353,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1371,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg",
+      "exists": true
+    },
+    {
+      "source": "book",
+      "line": 1383,
+      "original": "images/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg",
+      "absolute": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg",
+      "exists": true
+    }
+  ],
+  "independent_review": {
+    "status": "structure-pairing-reviewed",
+    "reviewer": "batch/reviews/x1-chapter-end-3.json",
+    "question_count": 15,
+    "limits": [
+      "未逐题复算；结构配对通过不等于数学通过。",
+      "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+    ]
+  }
+}

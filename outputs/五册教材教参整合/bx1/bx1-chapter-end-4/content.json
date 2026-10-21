@@ -1,0 +1,620 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 981,
+        "end": 981
+      }
+    ],
+    "id": "bx1-chapter-end-4",
+    "number": "chapter-end-4",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "火箭速度的计算公式",
+    "markdown": "#### 火箭速度的计算公式",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 983,
+        "end": 983
+      }
+    ],
+    "id": "bx1-chapter-end-4-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "航天之父、俄罗斯科学家齐奥科夫斯基(K. E. Tsiolkovsky)于 1903 年给出火箭速度的计算公式\n\n$$\nv = {V}_{0}\\ln \\left( {1 + \\frac{M}{{m}_{0}}}\\right) .\n$$\n\n其中, ${V}_{0}$ 是燃料相对于火箭的喷射速度, $M$ 是燃料的质量, ${m}_{0}$ 是火箭 (除去燃料) 的质量, $v$ 是火箭将燃料喷射完之后达到的速度. 可以看出 $v$ 与 $M$ 是对数函数的关系,由于对数函数增长速度很慢,通过大量增加燃料 (即增加 $\\frac{M}{{m}_{0}}$ ) 难以达到航天器绕地球运行所需要的第一宇宙速度，据此他又提出了采用多级火箭发射航天器的设想.\n\n现代运载火箭大多采用三级火箭，当第一级火箭的燃料用完时，点燃第二级火箭并抛弃第一级火箭,这相当于大大减小第二级火箭推进时的 ${m}_{0}$ ,从而在第二级火箭燃料用完时航天器可以达到较高的速度. 然后类似地点燃第三级火箭并抛弃第二级火箭, 最终可以将航天器送入太空轨道.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 984,
+        "end": 994
+      }
+    ],
+    "id": "bx1-chapter-end-4-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "内容提要",
+    "markdown": "### 内容提要",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 995,
+        "end": 995
+      }
+    ],
+    "id": "bx1-chapter-end-4-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 幂函数 $y = {x}^{a}$ 的定义域由指数 $a$ 决定. 随着指数 $a$ 的不同，幂函数的定义域是不同的.\n\n2. 幂函数 $y = {x}^{a}$ 有单调性:当 $a > 0$ 时，它在区间 $\\left( {0, + \\infty }\\right)$ 上是严格增函数；而当 $a < 0$ 时，它在区间 $\\left( {0, + \\infty }\\right)$ 上是严格减函数.\n\n3. 指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的定义域是全体实数.\n\n4. 指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 有单调性:当 $a > 1$ 时，它在 $\\mathbf{R}$ 上是严格增函数； 而当 $0 < a < 1$ 时，它在 $\\mathbf{R}$ 上是严格减函数.\n\n5. 对数函数 $y = {\\log }_{a}x\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的定义域是全体正实数.\n\n6. 对数函数 $y = {\\log }_{a}x\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 有单调性:当 $a > 1$ 时，它在区间 $\\left( {0, + \\infty }\\right)$ 上是严格增函数；而当 $0 < a < 1$ 时，它在区间 $\\left( {0, + \\infty }\\right)$ 上是严格减函数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 996,
+        "end": 1008
+      }
+    ],
+    "id": "bx1-chapter-end-4-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "### 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1009,
+        "end": 1009
+      }
+    ],
+    "id": "bx1-chapter-end-4-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1011,
+        "end": 1011
+      }
+    ],
+    "id": "bx1-chapter-end-4-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 填空题:\n\n(1)若点 $\\left( {2,\\sqrt{2}}\\right)$ 在幂函数 $y = {x}^{a}$ 的图像上，则该幂函数的表达式为___； 若点 $\\left( {2,\\sqrt{2}}\\right)$ 在指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像上,则该指数函数的表达式为 ; 若点 $\\left( {\\sqrt{2},2}\\right)$ 在对数函数 $y = {\\log }_{a}x\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 的图像上,则该对数函数的表达式为___.\n\n(2)若幂函数 $y = {x}^{k}$ 在区间 $\\left( {0, + \\infty }\\right)$ 上是严格减函数，则实数 $k$ 的取值范围为___.\n\n(3)已知常数 $a > 0$ 且 $a \\neq  1$ ，假设无论 $a$ 为何值，函数 $y = {a}^{x - 2} + 1$ 的图像恒经过一个定点. 则这个点的坐标为___.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1013,
+        "end": 1020
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1013,
+        "end": 1020
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-1",
+    "category": "复习题A",
+    "answer": "1. (1) $y = {x}^{\\frac{1}{2}};y = {\\left( \\sqrt[4]{2}\\right) }^{x};y = {\\log }_{\\sqrt[{12}]{2}}x$ . (2) $k < 0$ . (3) $\\left( {2,2}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 466,
+        "end": 467
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 选择题:\n\n(1)若指数函数 $y = {a}^{x}\\left( {a > 0\\text{ 且 }a \\neq  1}\\right)$ 在 $\\mathbf{R}$ 上是严格减函数，则下列不等式中，一定能成立的是 ( )\n\nA. $a > 1$ ; B. $a < 0$ ;\n\nC. $a\\left( {a - 1}\\right)  < 0$ ; D. $a\\left( {a - 1}\\right)  > 0$ .\n\n(2)在同一平面直角坐标系中,一次函数 $y = x + a$ 与对数函数 $y = {\\log }_{a}x$ ( $a > 0$ 且 $a \\neq  1)$ 的图像关系可能是 ( )\n\n![bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg](images/book-b309d2b14b93e14c7d2a.jpg)\n\n(第 2(2)题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1021,
+        "end": 1034
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1021,
+        "end": 1034
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-2",
+    "category": "复习题A",
+    "answer": "2. (1) C. (2) C.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 468,
+        "end": 469
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 求下列函数的的定义域:\n\n(1) $y = {\\left( x - 1\\right) }^{\\frac{5}{2}}$ ; (2) $y = {3}^{\\sqrt{x - 1}}$ ；\n\n(3) $y = \\lg \\frac{1 + x}{1 - x}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1035,
+        "end": 1040
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1035,
+        "end": 1040
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-3",
+    "category": "复习题A",
+    "answer": "3. (1)函数 $y = {\\left( x - 1\\right) }^{\\frac{5}{2}} = \\sqrt{{\\left( x - 1\\right) }^{5}}$ ,只要 $x - 1 \\geq  0$ ,该函数都有意义,所以其定义域是 $\\lbrack 1, + \\infty )$ .\n\n(2)当 $x - 1 \\geq  0$ ,即 $x \\geq  1$ 时,该函数才有意义,所以其定义域是 $\\lbrack 1, + \\infty )$ .\n\n(3)当 $\\frac{1 + x}{1 - x} > 0$ ,即 $- 1 < x < 1$ 时,该函数才有意义,所以其定义域是 $\\left( {-1,1}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 470,
+        "end": 475
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 比较下列各题中两个数的大小:\n\n(1) ${0.1}^{0.7}$ 与 ${0.2}^{0.7}$ ； (2) ${0.7}^{0.1}$ 与 ${0.7}^{0.2}$ ；\n\n(3) ${\\log }_{0.7}{0.1}$ 与 ${\\log }_{0.7}{0.2}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1041,
+        "end": 1046
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1041,
+        "end": 1046
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-4",
+    "category": "复习题A",
+    "answer": "4.(1)考虑幂函数 $y = {x}^{0.7}$ ,因为指数大于 0 的幂函数在区间 $\\left( {0, + \\infty }\\right)$ 上是严格增函数,所以 ${0.1}^{0.7} < {0.2}^{0.7}$ .\n\n(2)考虑指数函数 $y = {0.7}^{x}$ ,因为底小于 1 且大于 0 的指数函数 $y = {a}^{x}$ 在 $\\mathbf{R}$ 上是严格减函数,所以 ${0.7}^{0.1} > {0.7}^{0.2}$ .\n\n(3)因为 $0 < a < 1$ 的对数函数 $y = {\\log }_{a}x$ 在区间 $\\left( {0, + \\infty }\\right)$ 上是严格减函数,所以 ${\\log }_{0.7}{0.1} > {\\log }_{0.7}{0.2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 476,
+        "end": 481
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 设点 $\\left( {\\sqrt{2},2}\\right)$ 在幂函数 ${y}_{1} = {x}^{a}$ 的图像上,点 $\\left( {-2,\\frac{1}{4}}\\right)$ 在幂函数 ${y}_{2} = {x}^{b}$ 的图像上. 当 $x$ 取何值时, ${y}_{1} = {y}_{2}$ ?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1047,
+        "end": 1048
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1047,
+        "end": 1048
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-5",
+    "category": "复习题A",
+    "answer": "5. 由题意,得 ${\\left( \\sqrt{2}\\right) }^{a} = 2$ ,且 ${\\left( -2\\right) }^{b} = \\frac{1}{4}$ ,解得 $a = 2$ 且 $b =  - 2$ . 因此得 ${x}^{2} = {x}^{-2}$ , 解得 $x =  \\pm  1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 482,
+        "end": 483
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 设 $a = {\\left( \\frac{2}{3}\\right) }^{x}, b = {x}^{\\frac{3}{2}}$ 及 $c = {\\log }_{\\frac{2}{3}}x$ ,当 $x > 1$ 时,试比较 $a\\text{ 、 }b$ 及 $c$ 之间的大小关系.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1049,
+        "end": 1050
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1049,
+        "end": 1050
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-6",
+    "category": "复习题A",
+    "answer": "6. 因为 $x > 1$ ,所以 ${\\log }_{\\frac{2}{3}}x < 0 < {\\left( \\frac{2}{3}\\right) }^{x} < 1 < {x}^{\\frac{3}{2}}$ ,因此 ${\\log }_{\\frac{2}{3}}x < {\\left( \\frac{2}{3}\\right) }^{x} < {x}^{\\frac{3}{2}}$ ,即 $c < \\; a < b$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 484,
+        "end": 485
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 设常数 $a > 0$ 且 $a \\neq  1$ ,若函数 $y = {\\log }_{a}\\left( {x + 1}\\right)$ 在区间 $\\left\\lbrack  {0,1}\\right\\rbrack$ 上的最大值为 1,最小值为 0,求实数 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1051,
+        "end": 1052
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1051,
+        "end": 1052
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-7",
+    "category": "复习题A",
+    "answer": "7. 当 $a > 1$ 时,函数 $y = {\\log }_{a}\\left( {x + 1}\\right)$ 在区间 $\\left\\lbrack  {0,1}\\right\\rbrack$ 上是严格增函数. 所以,当 $x = 0$ 时,该函数取到最小值,此时 $y = {\\log }_{a}1 = 0$ ; 当 $x = 1$ 时,该函数取到最大值,此时 $y = {\\log }_{a}2 = 1$ ,解得 $a = 2$ .\n\n当 $0 < a < 1$ 时,函数 $y = {\\log }_{a}\\left( {x + 1}\\right)$ 在区间 $\\left\\lbrack  {0,1}\\right\\rbrack$ 上是严格减函数. 所以,当 $x = 0$ 时,该函数取到最大值,而此时 $y = {\\log }_{a}1 = 0$ ,故无解.\n\n因此 $a = 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 486,
+        "end": 491
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 如果光线每通过一块玻璃其强度要减少 ${10}\\%$ ,那么至少需要将多少块这样的玻璃重叠起来,才能使通过它们的光线强度低于原来的 $\\frac{1}{3}$ ?",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1053,
+        "end": 1054
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1053,
+        "end": 1054
+      }
+    ],
+    "id": "bx1-chapter-end-4-hA-8",
+    "category": "复习题A",
+    "answer": "8. 设至少需要将 $n$ 块这样的玻璃重叠起来才能满足要求. 由题意,得 ${\\left( 1 - {10}\\% \\right) }^{n} < \\; \\frac{1}{3}$ ,解得 $n > {\\log }_{0.9}\\frac{1}{3} \\approx  {10.43}$ . 所以,至少需要 11 块这样的玻璃重叠起来,才能使通过它们的光线强度低于原来的 $\\frac{1}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 492,
+        "end": 493
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1055,
+        "end": 1055
+      }
+    ],
+    "id": "bx1-chapter-end-4-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 填空题:\n\n(1)已知 $m \\in  \\mathbf{Z}$ ，设幂函数 $y = {x}^{{m}^{2} - {4m}}$ 的图像关于原点成中心对称，且与 $x$ 轴及 $y$ 轴均无交点,则 $m$ 的值为___.\n\n(2)设 $a$ 、 $b$ 为常数，若 $0 < a < 1$ ， $b <  - 1$ ，则函数 $y = {a}^{x} + b$ 的图像必定不经过第象限.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1057,
+        "end": 1062
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1057,
+        "end": 1062
+      }
+    ],
+    "id": "bx1-chapter-end-4-hB-1",
+    "category": "复习题B",
+    "answer": "1. (1) 1 或 3.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 496,
+        "end": 497
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 选择题:\n\n(1)若 $m > n > 1$ ,而 $0 < x < 1$ ,则下列不等式正确的是 ( )\n\nA. ${m}^{x} < {n}^{x}$ ; B. ${x}^{m} < {x}^{n}$ ;\n\nC. ${\\log }_{x}m > {\\log }_{x}n$ ; D. ${\\log }_{m}x < {\\log }_{n}x$ .\n\n(2)在同一平面直角坐标系中,二次函数 $y = a{x}^{2} + {bx}$ 与指数函数 $y = {\\left( \\frac{b}{a}\\right) }^{x}$ 的图像关系可能为 ( )\n\n![bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg](images/book-62e40bf3dacf1fec1823.jpg)\n\n(第 2(2)题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1063,
+        "end": 1076
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1063,
+        "end": 1076
+      }
+    ],
+    "id": "bx1-chapter-end-4-hB-2",
+    "category": "复习题B",
+    "answer": "2. (1) B. (2) A.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 498,
+        "end": 499
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 设 $a$ 为常数且 $0 < a < 1$ ,若 $y = {\\left( {\\log }_{a}\\frac{3}{5}\\right) }^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,求实数 $a$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1077,
+        "end": 1078
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1077,
+        "end": 1078
+      }
+    ],
+    "id": "bx1-chapter-end-4-hB-3",
+    "category": "复习题B",
+    "answer": "3. 因为函数 $y = {\\left( {\\log }_{a}\\frac{3}{5}\\right) }^{x}$ 在 $\\mathbf{R}$ 上是严格增函数,所以 ${\\log }_{a}\\frac{3}{5} > 1$ ,又因为 $0 < \\; a < 1$ ,所以 $\\frac{3}{5} < a < 1$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 500,
+        "end": 501
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 在同一平面直角坐标系中,作出函数 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 及 $y = {x}^{\\frac{1}{2}}$ 的大致图像,并求方程 ${\\left( \\frac{1}{2}\\right) }^{x} = {x}^{\\frac{1}{2}}$ 的解的个数.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1079,
+        "end": 1080
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1079,
+        "end": 1080
+      }
+    ],
+    "id": "bx1-chapter-end-4-hB-4",
+    "category": "复习题B",
+    "answer": "4. 因为函数 $y = {\\left( \\frac{1}{2}\\right) }^{x}$ 的图像与函数 $y = {x}^{\\frac{1}{2}}$ 的图像的交点个数为 1 个,所以方程 ${\\left( \\frac{1}{2}\\right) }^{x} = {x}^{\\frac{1}{2}}$ 的解的个数为 1 个. 图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 502,
+        "end": 503
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 已知集合 $A = \\left\\{  {y\\left| {\\;y = {\\left( \\frac{1}{2}\\right) }^{x}}\\right. , x \\in  \\lbrack  - 2,0)}\\right\\}$ ，用列举法表示集合 $B = \\left\\{  {y \\mid  y = {\\log }_{3}x, x}\\right. \\; \\in  A$ 且 $y \\in  \\mathbf{Z}\\}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1081,
+        "end": 1082
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1081,
+        "end": 1082
+      }
+    ],
+    "id": "bx1-chapter-end-4-hB-5",
+    "category": "复习题B",
+    "answer": "5. 因为 $A = \\{ x \\mid  1 < x \\leq  4\\}$ ,所以 $B = \\left\\{  {y \\mid  y = {\\log }_{3}x, x \\in  (1,4\\rbrack }\\right.$ 且 $\\left. {y \\in  \\mathbf{Z}}\\right\\}$ ,因此用列举法表示的集合为 $B = \\{ 1\\}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 504,
+        "end": 505
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "### 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1083,
+        "end": 1083
+      }
+    ],
+    "id": "bx1-chapter-end-4-b21",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. ${\\log }_{2}3$ 是有理数吗? 请证明你的结论.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1085,
+        "end": 1086
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1085,
+        "end": 1086
+      }
+    ],
+    "id": "bx1-chapter-end-4-t-1",
+    "category": "拓展与思考",
+    "answer": "1. ${\\log }_{2}3$ 不是有理数.\n\n证明: 假设 ${\\log }_{2}3$ 是有理数,那么它可以写成既约分数的形式 ${\\log }_{2}3 = \\frac{m}{n}$ ,其中 $m\\text{、}n$ 均为正整数. 它等价于 ${2}^{\\frac{m}{n}} = 3$ ,因此 ${3}^{n} = {2}^{m}$ . 因为对任意的正整数 $m,{2}^{m}$ 为 $m$ 个 2 相乘,所以 ${2}^{m}$ 均是偶数,而对任意的正整数 $n,{3}^{n}$ 均为奇数,说明 ${3}^{n} \\neq  {2}^{m}$ ,与 ${3}^{n} = {2}^{m}$ 矛盾. 这说明 ${\\log }_{2}3$ 不可能是有理数.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 508,
+        "end": 511
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 仅利用对数函数的单调性和计算器上的乘方功能来确定对数 ${\\log }_{2}3$ 第二位小数的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1087,
+        "end": 1087
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1087,
+        "end": 1087
+      }
+    ],
+    "id": "bx1-chapter-end-4-t-2",
+    "category": "拓展与思考",
+    "answer": "2. 因为 ${\\log }_{2}3$ 的第一位小数为 5,所以首先比较 ${\\log }_{2}3$ 与 1.55,这等价于比较 3 与 ${2}^{1.55} = {2}^{\\frac{31}{20}}$ ,即比较 ${3}^{20}$ 与 ${2}^{31}$ . 由于 ${3}^{20} = {3486784401} > {2147483648} = {2}^{31}$ ,所以 3 > ${2}^{1.55}$ . 由对数函数的单调性,得 ${\\log }_{2}3 > {1.55}$ .\n\n再比较 ${\\log }_{2}3$ 与 1.58. 这等价于比较 3 与 ${2}^{1.58} = {2}^{\\frac{79}{50}}$ ,即比较 ${3}^{50}$ 与 ${2}^{79}$ . 因为 ${3}^{50} > \\; {7.178979876} \\times  {10}^{23} > {6.044629099} \\times  {10}^{23} > {2}^{79}$ ,所以 $3 > {2}^{1.58}$ . 由对数函数的单调性得 ${\\log }_{2}3 > {1.58}$ .\n\n最后比较 ${\\log }_{2}3$ 与 1.59. 这等价于比较 3 与 ${2}^{1.59} = {2}^{\\frac{159}{100}}$ ,即比较 ${3}^{100}$ 与 ${2}^{159}$ . 因为 ${3}^{100} < {5.153775208} \\times  {10}^{47} < {7.307508186} \\times  {10}^{47} < {2}^{159}$ ,所以 $3 < {2}^{1.59}$ . 由对数函数的单调性得 ${\\log }_{2}3 < {1.59}$ .\n\n因此 ${1.58} < {\\log }_{2}3 < {1.59},{\\log }_{2}3$ 的第二位小数为 8 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 512,
+        "end": 519
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 参考文献\n\n[1] 李大潜. 漫话 e [M]. 北京:高等教育出版社,2011.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 520,
+        "end": 524
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx1-chapter-end-4-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

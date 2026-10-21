@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "id": "bx3-13-6",
+  "book_id": "bx3",
+  "book_title": "必修第三册",
+  "chapter": "13",
+  "chapter_title": "第13章统计",
+  "section": "13.6",
+  "title": "统计活动",
+  "sources": {
+    "book": "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md",
+    "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md"
+  },
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md": "454a3a9b20f13a727a275da637277ef54ba877fc2e369399db2a4a00230604be",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md": "37b7ab2c91e3c3ed0973536fe38e14abb6339bf9379e1d055517f8d015c9a4a2"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "统计活动",
+      "markdown": "",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1163,
+          "end": 1163
+        }
+      ],
+      "id": "bx3-13-6",
+      "number": "13.6",
+      "subtitle": "教材与正式教参整合"
+    },
+    {
+      "type": "teacher",
+      "title": "正式教参 · 教材分析与教学建议",
+      "markdown": "#### 13.6 统计活动\n\n### 教学重点\n\n本节是一个统计活动课. 学生身体综合素质如何, 不仅是每位学生、家长关心的, 也是社会和政府所关注的问题. 教材围绕完成一份“高一年级学生的体质健康报告”展开,让学生经历从实际问题出发,首先思考监测体质需要监测哪些指标开始, 然后上网查阅《国家学生体质健康标准》,制定活动计划,即“明确研究问题一设计调查方案一收集数据一整理与分析数据一初步结论”,最后按计划实施,经历完整的统计过程. 在不断积累统计活动经验的同时, 增强学生的统计意识, 加深理解统计思想与方法, 发展学生的统计观念.\n\n### 内容分析\n\n教材安排这个统计活动, 一方面是在前面学习了获取数据的基本途径及相关概念, 抽样、统计图表、用样本估计总体等统计的基本知识和基本技能之后, 在此通过统计活动的方式进行知识总结和综合应用; 另一方面在积累基本活动经验的同时, 让学生应用所学的统计基础知识和基本技能去发现问题、分析问题和解决实际问题, 在体会统计与现实生活密切联系的同时, 培养学生的理性思维, 明确统计活动的几个主要步骤, 在活动中认识到统计发挥的作用, 针对不同的问题选择合适的统计方法, 在这一系列过程中发展学生的统计观念, 提高数据分析和处理的数学素养.\n\n练习 13.6 第 1 题是调查本班学生的体重和平均每日课外体育活动时间, 目的是应用统计方法研究这两组数据的关系,一方面培养学生的统计意识,另一方面复习前面的散点图知识. 练习 13.6 第 2 题让学生思考一个统计活动主题, 从而按照教材介绍的统计活动基本步骤完成任务, 是一个开放题. 一方面复习本节的内容, 另一方面巩固建立的统计观念、统计知识和思维方式.\n\n习题 13.6A 组有两道题目, 第一题比较简单, 第二题需要设计统计活动, 具有一定的思维量. B 组也有两道题目, 第一题是 “调查上海市小型乘用车的销售情况”, 涉及的统计知识有如何获得数据、分析数据等, 进而解决问题. 该问题与学生的实际生活联系紧密,有利于巩固学生的统计知识、统计意识和统计思维. 第二题是讨论影响健康因素的问题, 也是一个开放题. 影响健康的因素很多, 习题通过让学生记录一天的睡眠、运动、娱乐和学习时间,进而思考哪些可以作为统计问题,此题对培养学生的问题意识有积极作用. 习题体现了一定的层次性和拓展性.\n\n### 注意事项\n\n从统计活动的要求上, 教材也涉及了不同的层次. 这里的统计活动, 教材只是给出了活动的主要步骤, 数据的收集、整理、呈现、分析以及得出结论的过程, 具体操作希望通过学生的活动自己来完成, 并在此基础上能进一步发展他们的统计意识.\n\n### 教学建议\n\n教师可以在前一节课结束时让学生在“学生体质健康网”上下载《国家学生体质健康标准》.\n\n课前,在进行统计活动之前,教师可以鼓励学生根据自己对身边同学的观察、根据经验对学生体质监测需要从哪些方面(也就是构建指标)进行监测比较有效,先做个猜测. 然后查阅资料,包括国内的《国家学生体质健康标准》,甚至国外的,以增强学生参与活动的积极性. 另外该活动需要的数据较多,故可以分小组收集各指标数据, 做好活动的准备工作.\n\n课中主要是实施和讨论. 首先要说明统计活动的重要性, 以及开展活动制定计划的必要性; 然后按照计划将收集的数据进行整理, 利用表格和统计图呈现数据, 通过寻找数据特征, 对照标准, 从而解决问题. 在每个环节教师要提出一些值得思考的问题, 如选择怎样的统计表、统计图呈现比较合理, 检测耐力看哪些指标, 立定跳远可以检测什么体能等, 让大家都要参与到统计活动中. 结果出来后, 教师要带着学生思考所得结论与现实是否吻合, 反思选择的这些指标是否能说明问题, 是否需要增加或减少, 指标的标准值是否合理等.\n\n课后主要是通过查阅资料写一两点的反思, 为今后修订该标准提供参考.",
+      "provenance": [
+        {
+          "source": "teacher",
+          "start": 326,
+          "end": 353
+        }
+      ],
+      "teacher_only": true
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "为了使同学们能在实践中更好地运用统计方法, 下面将通过一个具体案例, 介绍统计活动的主要过程.\n\n《国家学生体质健康标准》是评价学生综合素质的重要依据. 请查找这一标准的最新版本，并据以完成一份本校高一年级学生的体质健康报告. 具体工作和要求如下.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1164,
+          "end": 1168
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "1 确定调查方案",
+      "markdown": "### 1 确定调查方案",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1169,
+          "end": 1169
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "首先我们要找到最新版的《国家学生体质健康标准》，并从中获得“体质健康”的指标. 访问互联网，找到了最新版的《国家学生体质健康标准(2014 年修订)》，从中查出高中生体质标准包括身高、体重、肺活量、 50 米跑、坐位体前屈、引体向上 (女:仰卧起坐)、立定跳远和耐力跑 1000 米跑(女:800 米跑)等指标, 并得到每项指标的评分标准、每项指标所占的权重和等级划分标准等信息. 不妨将班级的学生分成 8 个小组, 分别调查所在学校高一年级学生的相关数据.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1170,
+          "end": 1172
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "2 确定调查对象",
+      "markdown": "### 2 确定调查对象",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1173,
+          "end": 1173
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "考虑采取全年级调查还是抽样调查, 简单随机抽样还是分层随机抽样来抽取调查对象. 将所抽取的调查对象进行编号, 注意不管采取哪种取样方法, 各小组的调查对象应该一致.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1174,
+          "end": 1176
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "3 收集数据",
+      "markdown": "### 3 收集数据",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1177,
+          "end": 1177
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "仿照表 13-8 进行数据收集.\n\n表 13-8 学生体质健康数据收集表\n\n<table><tr><td>编号</td><td>性别</td><td>身高</td><td>体重</td><td>肺活量</td><td>50 米跑</td><td>坐位体前屈</td><td>引体/ 仰卧</td><td>立定跳远</td><td>1000 米/ 800 米</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$N$</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1178,
+          "end": 1184
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "4 数据整理与分析",
+      "markdown": "### 4 数据整理与分析",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1185
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "《国家学生体质健康标准(2014 年修订)》单项指标评分表包含了小学一年级到大学的评分规则. 因为我们的研究对象是高一年级学生, 所以首先需要整理出一份关于高一年级学生的单项指标评分表 (表 13-9、表 13-10). 表 13-11 是各项指标所占权重.\n\n表 13-9 高一年级男生/女生体重指数(BMI)单项评分表(单位:kg/m²)\n\n<table><tr><td>等级</td><td>单项得分</td><td>男生</td><td>女生</td></tr><tr><td>正常</td><td>100</td><td></td><td></td></tr><tr><td>低体重</td><td rowspan=\"2\">80</td><td></td><td></td></tr><tr><td>超重</td><td></td><td></td></tr><tr><td>肥胖</td><td>60</td><td></td><td></td></tr></table>\n\n注:BMI = 身高 ${}^{2}$ (体重单位:kg，身高单位:m).\n\n表 13-10 高一年级男女学生体质健康单项评分细则\n\n<table id=\"cross-table-3\"><tr><td>等级</td><td>单项得分</td><td>男生肺</td><td>女生肺</td><td>男 50</td><td>女 50</td><td>男坐</td><td>女坐</td><td>男立定</td><td>女立定</td><td>男引体</td><td>女仰卧</td><td>男 1 000 米</td><td>女 800 米</td></tr><tr><td rowspan=\"3\">优秀</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>95</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>90</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"2\">良好</td><td>85</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>80</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"6\">及格</td><td>78</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>76</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>74</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>72</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>70</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>68</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr></tr><tr><td rowspan=\"4\">及格</td><td>66</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>64</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>62</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>60</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"5\">不及格</td><td>50</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>40</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n表 13-11 国家学生体质健康标准单项指标与权重\n\n<table><tr><td>测试对象</td><td>单项指标</td><td>权重/%</td></tr><tr><td rowspan=\"2\">小学一年级至大学四年级</td><td>体重指数(BMI)</td><td>15</td></tr><tr><td>肺活量</td><td>15</td></tr><tr><td rowspan=\"5\">初中、高中、 大学各年级</td><td>50 米跑</td><td>20</td></tr><tr><td>坐位体前屈</td><td>10</td></tr><tr><td>立定跳远</td><td>10</td></tr><tr><td>引体向上(男)/1 分钟仰卧起坐(女)</td><td>10</td></tr><tr><td>1000 米跑(男)/800 米跑(女)</td><td>20</td></tr></table>\n\n评价等级:总分 90 分及以上为优秀；总分 80 分一 89 分为良好；总分 60 分—79 分为及格；总分 60 分以下为不及格.\n\n收集了数据后, 可以考虑对所得数据进行以下几个方面的统计分析:\n\n(1)各项指标的频率分布直方图；\n\n(2)各项指标的集中趋势和离散程度；\n\n(3)相关指标(如体重与身高)的散点图；\n\n(4)依据样本数据和指标权重计算样本学生的体质健康综合指标, 并计算样本学生的优秀率、良好率和及格率.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1186,
+          "end": 1214
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "5 初步结论",
+      "markdown": "### 5 初步结论",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1215,
+          "end": 1215
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "title": "",
+      "markdown": "依据上述数据分析, 讨论本校高一年级学生的体质健康达标情况, 指出存在的问题并提出改进的建议.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1216,
+          "end": 1218
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "练习 13.6",
+      "markdown": "### 练习 13.6",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1219,
+          "end": 1219
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "练习13.6 · 1",
+      "markdown": "1. 调查本班学生的体重指数和平均每日课外体育活动时间，并通过散点图考察这两组数据之间的关系.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1221,
+          "end": 1222
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1221,
+          "end": 1222
+        }
+      ],
+      "id": "bx3-13-6-p136-1",
+      "category": "练习13.6",
+      "answer": "1. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 666,
+          "end": 667
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "练习13.6 · 2",
+      "markdown": "2. 想一个你所知道的统计活动，简单说明这个统计活动想要解决的问题、研究对象、 获取数据的途径以及所采用的数据分析方法.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1223,
+          "end": 1224
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1223,
+          "end": 1224
+        }
+      ],
+      "id": "bx3-13-6-p136-2",
+      "category": "练习13.6",
+      "answer": "2. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 668,
+          "end": 669
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "习题 13.6",
+      "markdown": "### 习题 13.6",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1225,
+          "end": 1225
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "A 组",
+      "markdown": "#### A 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1227,
+          "end": 1227
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题13.6A · 1",
+      "markdown": "1. 你认为下面哪些活动属于统计活动?\n\n(1)某测量队要测量一块三角形土地的面积，先分别测得三条边长，然后利用海伦公式求土地的面积;\n\n(2)研究人员通过测量儿童及其父母的身高，来预测儿童长大成人后的身高；\n\n(3)研究人员通过调查上海市某校高一年级新生的平均身高，来推断上海市青少年的平均身高.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1229,
+          "end": 1236
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1229,
+          "end": 1236
+        }
+      ],
+      "id": "bx3-13-6-h136A-1",
+      "category": "习题13.6A",
+      "answer": "1. (1)不是.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 674,
+          "end": 675
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题13.6A · 2",
+      "markdown": "2. 有两种制作纸飞机的方法. 请设计一个统计活动, 用以考察哪种制作方法可以使纸飞机飞得更远.",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1237,
+          "end": 1238
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1237,
+          "end": 1238
+        }
+      ],
+      "id": "bx3-13-6-h136A-2",
+      "category": "习题13.6A",
+      "answer": "2. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 676,
+          "end": 677
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "heading",
+      "title": "B 组",
+      "markdown": "#### B 组",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1239,
+          "end": 1239
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "title": "习题13.6B · 1",
+      "markdown": "1. 如果要调查上海市小型乘用车的销售情况, 那么你认为可以收集哪些数据, 如何收集? 对所收集的数据可以进行哪些统计分析?",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1241,
+          "end": 1242
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1241,
+          "end": 1242
+        }
+      ],
+      "id": "bx3-13-6-h136B-1",
+      "category": "习题13.6B",
+      "answer": "1. 略.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 680,
+          "end": 681
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    },
+    {
+      "type": "question",
+      "title": "习题13.6B · 2",
+      "markdown": "2. 有很多因素都会影响到一个人的健康，因此，记录自己生活、工作、学习的一些数据, 可能对你在 “健康每一天” 上所做的努力提供一些有益的启示.\n\n(1)记录自己一天分别用于睡眠、运动、娱乐和学习的时间(单位:min)；\n\n(2)当全班同学的这些数据汇总后，可以用于讨论哪些统计问题？",
+      "provenance": [
+        {
+          "source": "book",
+          "start": 1243,
+          "end": 1248
+        }
+      ],
+      "provenance_question": [
+        {
+          "source": "book",
+          "start": 1243,
+          "end": 1248
+        }
+      ],
+      "id": "bx3-13-6-h136B-2",
+      "category": "习题13.6B",
+      "answer": "2. (1)略. (2)可以讨论全班同学一天平均睡眠时间、运动时间、娱乐时间和学习时间；查阅资料获取这个年龄段学生正常的睡眠小时,找差异；男女生有否差异；身高与睡眠时间有无关系等.",
+      "answer_provenance": [
+        {
+          "source": "teacher",
+          "start": 682,
+          "end": 683
+        }
+      ],
+      "teacher_analysis": "",
+      "analysis_provenance": []
+    }
+  ],
+  "issues": [],
+  "parser_version": "batch-extract-v1",
+  "review_status": "pending-independent-review",
+  "editorial_repairs": [],
+  "image_references": []
+}

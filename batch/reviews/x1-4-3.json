@@ -1,0 +1,24 @@
+{
+  "section_id": "x1-4-3",
+  "status": "structure-pairing-reviewed",
+  "model_sha256": "2faa2dde4eb50933eebee28a30fef2de4989d7b0510228b1c3eab8dc066fb5ab",
+  "coverage": {
+    "structure": "模型所有块的字段/ID/图路径/教参隔离标志与显式题号配对检查；人工重点另记",
+    "question_count": 23,
+    "answered_count": 23,
+    "source_hashes": {
+      "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md": "c5e9671ed7c5df0022b2f941ca76b4d1e8f2dd880a366026b6d56bb616a75003",
+      "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md": "88a09344933024a8b725f21c9f08fe404b4ec3b80b5133b4fce0d164aba324d8"
+    },
+    "key_math_checks": [],
+    "focus_math_review": false,
+    "emphasis_count": 10,
+    "student_html_zip_static_check": "not-built"
+  },
+  "issues": [],
+  "patches": [],
+  "limits": [
+    "未逐题复算；结构配对通过不等于数学通过。",
+    "尚未独立核验最终HTML、PDF或学生ZIP的物理隔离。"
+  ]
+}

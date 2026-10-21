@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-chapter-end-12",
+  "book_id": "bx3",
+  "section": "chapter-end-12",
+  "title": "章末阅读、内容提要与复习题",
+  "section_json": "batch/sections/bx3/bx3-chapter-end-12.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-chapter-end-12",
+  "fingerprint": "52cc300050fe362cd978a24a39421e46b64976027e9e1a5d85e410288b4489c8",
+  "status": "rendered",
+  "questions": 14,
+  "answers": 14,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {},
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "student_images": [],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "a8b876528e6366d455bfa2ff12f7134c7472aac88fc7d28b8eeb23913cda6916",
+    "student.html": "1e31319eebafdf028d3e114d5aeeaaf1890f2c817ea4b6e2be87dcf5b0005de7",
+    "student.zip": "445d831bdf1158709f24b7247964b6b36f4448a135b9dac7a1085e221624238c",
+    "content.json": "1a962a7585a381feae56e310d651d28f8d3c0e607d75a1abe30e6a6b6b538efb"
+  }
+}

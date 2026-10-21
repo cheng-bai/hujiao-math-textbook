@@ -1,0 +1,1873 @@
+[
+  {
+    "type": "section",
+    "title": "直线的方程",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 151,
+        "end": 151
+      }
+    ],
+    "id": "x1-1-2",
+    "number": "1.2",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 教材分析与教学建议",
+    "markdown": "#### 1.2 直线的方程\n\n### 教学重点\n\n从具体数字例子到一般字母表述, 逐步体会 “直线方程”的含义, 并了解几何对象 “直线”与代数对象 “二元一次方程”之间的对应关系,为几何问题代数化提供新的天地. 在学习过程中, 要注意体会 “直线上点的坐标均是二元一次方程的解, 而以二元一次方程的解为坐标的点均在直线上”这一双向的验证过程,为下一章学习 “曲线方程”打好基础.\n\n在直线方程的学习中, 重点关注点斜式、两点式和一般式的直线方程, 了解它们的推导过程或引入方式, 掌握它们的主要特征, 并能在问题的情境中选用恰当的方程形式解决问题. 理解直线的法向量的几何意义与代数表达, 能初步使用法向量解决相关的问题.\n\n### 内容分析\n\n本节的第 1 小节学习特殊形式的直线方程, 主要介绍了点斜式方程与两点式方程, 斜截式方程也作为特例被提及. 整个论述基于上一节所推导的经过两点的直线的斜率公式.\n\n点斜式方程的讨论始于上一节例 3 ,这个例题就一个具体的数字例子实际上给出了直线的方程, 不过只验证了直线上的任何点的坐标都满足方程. 本节第 1 小节的引言重复了上一节例 3 的结果, 并添加了关于坐标满足方程的任何点一定在直线上的补白, 于是可以严格地把例 3 中得到的关系式称为所求直线的方程. 如前所述, 这是理解“直线的方程”的第一台阶.\n\n第 1 小节点斜式方程与两点式方程的推导完全依赖于上一节的斜率公式, 推导过程也与上一节的例 3 没有本质的差别(除了具体的数字变成了一般的字母). 值得指出的是, 在点斜式方程推导出来后, 教材除了说明直线上的任何点的坐标都满足方程外, 还切切实实验证了坐标满足方程的任何点一定在直线上. 这样完整地分别从两个方向论证一个方程是给定直线的方程在教材中仅此一处 (后文在点法式方程验证时, 用了充要条件的语言描述),这是理解“直线的方程”的第二台阶,教学中应该把握住.\n\n作为点斜式方程的特例,第 1 小节还介绍了 (直线在 $y$ 轴上的) 截距概念和斜截式方程. 当斜率不为 0 时,斜截式方程就是一次函数的表达式. 除了考虑直线在 $y$ 轴上的截距,当然还可以考虑它在 $x$ 轴上的截距,如果两个截距都不是 0,还可以用两个截距把直线的方程写出来 (见习题 1.2A 组第 8 题), 习惯上称它为直线的截距式方程 (只要求学生能完成习题, 截距式方程的概念及应用不作要求).\n\n点斜式方程是用解析几何方法在由斜率决定的一组平行线中确定过定点的唯一直线, 而两点式方程就是 “两点确定一条直线” 这一几何常识的解析几何表达. 这些方程分别体现直线的不同几何要素. 解决与直线相关的问题时, 根据问题提供的几何要素采用不同形式的直线方程, 往往可以取得意想不到的效果. 这里蕴含的代数观点解决几何问题的解析几何特征很值得细细体会.\n\n第 2 小节讨论直线的一般式方程的切入点是代数的. 既然直线的点斜式和两点式方程都是二元一次方程, 我们就舍弃方程特殊形式及其几何背景, 从代数角度考虑最一般的二元一次方程\n\n$$\n{ax} + {by} + c = 0\\text{(}a\\text{、}b\\text{不同时为零).}\n$$\n\n①\n\n注意这里的“ $a\\text{、}b$ 不同时为零”不是外加的条件,因为如果 $a\\text{、}b$ 同时为零,①式仅为 $c = 0$ ,不再是一个二元一次方程. 我们允许一个未知数带零系数,但仍视为二元一次方程(而不是一元一次方程)讨论它的解和几何意义.\n\n我们已经知道:\n\n所有直线的方程都可以用①式那样的二元一次方程表示(所有直线都可以用两点式方程表示, 即使斜率不存在也可以, 参看本册教材第 8 页, 从而都可以化成①式那样的二元一次方程).\n\n我们还想知道:\n\n(1)是不是①式那样的二元一次方程都表示一条直线？(这个问题有了肯定的回答后, 我们才能称方程①为直线的一般式方程!)\n\n(2)纯代数方式引入的方程①是否也揭示直线的一些几何性质呢？\n\n问题(1)容易解决:如果 $b \\neq  0$ ,①式可化为斜截式方程,从而表示一条直线；当 $b = 0$ 时,必有 $a \\neq  0$ ,方程①的解集是 $\\left\\{  {\\left( {-\\frac{c}{a}, m}\\right)  \\mid  m \\in  \\mathbf{R}}\\right\\}$ ,从而它表示过点 $\\left( {-\\frac{c}{a},0}\\right)$ 且垂直于 $x$ 轴的直线 (注意:这里把 $b = 0$ 时的方程①还看成二元一次方程,才有上述的解集).\n\n问题(2)的讨论导致一个新的概念——直线的法向量——的出现,从而把向量工具引入到解析几何中. 所谓直线的法向量是和直线上所有向量都垂直的非零向量. 一个令人惊奇的结论是:以直线的一般式方程①中的一次项系数为坐标的向量 $\\left( {a, b}\\right)$ 是直线的一个法向量. 这个结论的证明在例 9 中.\n\n用给定的向量作法向量的直线互相都平行, 和点斜式方程类似, 只要再给定直线上的一个点, 就把直线完全确定下来了. 这就给出了直线的点法式方程的概念: 过点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 且有法向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 的直线的方程是\n\n$$\na\\left( {x - {x}_{0}}\\right)  + b\\left( {y - {y}_{0}}\\right)  = 0.\n$$\n\n②\n\n教材用向量数量积的形式给出了点 $P\\left( {x, y}\\right)$ 在直线上的充要条件,进而推出点 $P\\left( {x, y}\\right)$ 在直线上的充要条件是其坐标满足方程②. 这里又一次给出了直线方程的验证, 不过不是从 “直线上的任何点的坐标都满足方程” 和 “坐标满足方程的任何点一定在直线上” 两个方向分别验证, 而是以充要条件的形式一起完成了两个方向的验证. 因为对 “直线的方程”的理解没有在第二台阶的基础上作质的提升,所以没把这段论述当作更高的台阶.\n\n点法式方程的学习在很大程度上是对 “二期课改” 教材的继承. 点法式方程为后继学习两条直线的位置关系、点到直线的距离等内容提供了新的思路和方法.\n\n本节共 11 道例题.\n\n例 1 是为巩固点斜式方程与倾斜角、斜率、截距等概念而设计的一道简单题目.\n\n例 2 给出了判定一个已知点是否在一条直线上的代数方法一判断点的坐标是否是方程的解. 虽然方法简单, 但是原理很深刻, 可以算是理解 “直线的方程” 的一道例题. 当然, 作判断之前应该先根据题设条件求出直线的一个方程, 教材所用的方法是用待定系数法求出斜截式方程. 其实, 此题解答更佳方案是使用截距式方程 (参看习题 1.2A 组第 8 题). 教材对直线的截距式方程不作要求, 但如果教学时间比较宽裕, 让学生见识一下也未尝不可.\n\n例 3 与例 4 是为了巩固直线的两点式方程, 例 4 是在三角形的背景下求直线方程,其中还出现了垂直于 $x$ 轴的直线的方程.\n\n例 5 是对前面所学的直线不同形式的方程的应用, 可以选用两点式方程也可以选择点斜式方程, 教学中不要局限于一种解法.\n\n例 6 是求直线方程问题的反问题, 由直线的一般式方程作出其几何图形, 并求直线斜率和在 $y$ 轴上的截距. 作出直线最一般的办法是找出直线上的两点,或者找出直线与平面直角坐标系的几何关联 (平行、垂直、夹角等), 教材给出的本例第 (1) 小题的解答是找到直线上的一个点,并且知道直线平行于 $x$ 轴; 第 (2) 小题用了最通用的方法, 找出直线上的两个点. 从方程找直线的斜率和截距不过是把一般式方程变形为所需要的特殊形式的方程.\n\n例 7 实际上是对本节内容的一个突破, 从讨论单条直线到讨论具有某种共同特征的一组直线. 此例给出的是过一个特定点的直线系, 问题没有太大难度, 把方程作一些变形就可以得到要证明的结果. 但是, 本例可能给学生带来一些新的见识和新的启发. 注意: 带参数的直线系的问题可以不断地增大难度, 教师不要在这方面变换题目强化练习, 就本例给学生一些直观的体会就可以了.\n\n例 8 讨论直角坐标平面上带参量的直线方程中参量取值与直线所经过的区域的关系, 问题比较综合. 解题的关键是把题设条件转化为关于参量的不等式, 然后解不等式得到参量的取值范围. 为了能使用题设的几何条件, 解题的第一步必须把方程化为与几何条件相关的特殊形式. 教材所给的解法是把方程化为斜截式. 方程转化的过程如要用含参量的代数式作分母, 必须排除分母为 0 的情况, 或者把分母为 0 的情况单独考虑. 本例要作分母的是代数式 $m$ ,解题一开始就把 $m = 0$ 的情况排除了,于是把方程化为斜截式就没有困难了. 解题的第二步是把题设用方程系数的不等式表示出来. 本例中,因为直线过第一、第二象限,它在 $y$ 轴上的截距大于 0 是马上得到的. 但是由直线过第一、第二与第四象限而得出直线的斜率小于 0 似乎不那么直观. 可以反过来考虑: 斜率大于 0 的斜截式方程 $y = {kx} + b$ 所表示的直线一定过第三象限,事实上,只要取 $x$ 为小于 $- \\frac{b}{k}$ 的负数,则 $x\\text{、}y$ 都取负值了. 解题的最后一步是解不等式, 这是必修课程第 2 章的内容, 不赘述.\n\n本例的上述解法可以说是通法通则, 便于学生模仿. 但本例的如下解法或许更为简便: 先排除 $m = 0$ 与 $m =  - 1$ 的情况,然后在方程中分别令 $x = 0$ 与 $y = 0$ ,得到直线在 $y$ 轴与 $x$ 轴上的截距分别为 $\\frac{m - 2}{m}$ 与 $\\frac{m - 2}{m + 1}$ ,而由题设推知这两个截距都是正的, 于是解不等式组\n\n$$\n\\left\\{  \\begin{array}{l} \\frac{m - 2}{m} > 0, \\\\  \\frac{m - 2}{m + 1} > 0 \\end{array}\\right.\n$$\n\n就可以了.\n\n例 9 是为了引出直线的法向量概念并证明以直线一般式方程的一次项系数为坐标的向量是直线的法向量.\n\n例 10 是点法式方程的简单应用, 同时也复习了一个向量的坐标等于它的终点坐标减去起点坐标.\n\n例 11 是用点法式方程解决几何图形面积的一个综合应用, 与例 8 有相似之处. 先根据条件写出直线的点法式方程, 排除特殊情况 (直线平行于坐标轴的情况), 然后求出直线在两个坐标轴上的截距, 而直线与坐标轴围成的三角形的面积不过是两个截距绝对值之积的一半,因此马上可以列出关于参量 $m$ 的方程并解出结果.\n\n### 注意事项\n\n1. 在本节教材引言中,说过 “任何直线的方程都是关于 $x$ 与 $y$ 的二元一次方程”和 “任何关于 $x$ 与 $y$ 的二元一次方程都表示一条直线”. 这两句话的第二句完全没有问题; 如果局限在平面直角坐标系中的直线和关于 $x$ 与 $y$ 的二元一次方程的关系上说, 第一句话也是对的. 更严格的表述见本册教材 2.1 节第 1 小节的第一段, 教师应按此口径进行教学. 但教师应该了解, 如果讨论一般的曲线的语境中的直线, 没有了二元一次方程的限定, 上述第一句话就有欠缺了, 我们至多可以说 “任何直线的方程都可以取为关于 $x$ 与 $y$ 的二元一次方程”. 例如,根据本册教材 2.1 节的第 1 小节第二段的定义, ${x}^{2} - {2xy} + {y}^{2} = 0$ 和 $\\left( {x - y}\\right) \\left( {{x}^{2} + {y}^{2} + 1}\\right)  = 0$ 都是第一、第三象限角的平分线 $l$ 的方程, 但它们不是二元一次方程. 当然, 更深入的数学学习可以把这两个方程定义的曲线和直线 $l$ (它对应的二元一次方程是 $x - y = 0$ ) 区分开来: ${x}^{2} - {2xy} + {y}^{2} = 0$ 表示的是两条 $l$ 重合在一起的二重直线; $\\left( {x - y}\\right) \\left( {{x}^{2} + {y}^{2} + 1}\\right)  = 0$ 表示的是由直线 $l$ 与一个虚曲线组成的多分支曲线. 这段文字不是要把更高深的数学引入到教师的理解和教学中去, 而是提醒有这样一个有歧义的地方存在, 如果有学生提出类似的复杂方程作为直线的方程, 只要符合教材 2.1 节第 1 小节第二段的定义, 就应该认为是正确的, 并对学生的探索精神加以鼓励.\n\n2. 有些特殊形式的直线方程并不是对所有直线都适用. 例如, 只有当直线的斜率存在 (即直线不垂直于 $x$ 轴) 时,谈论它的点斜式方程才是有意义的. 又如,两个坐标对称形式的两点式方程\n\n$$\n\\frac{y - {y}_{1}}{{y}_{2} - {y}_{1}} = \\frac{x - {x}_{1}}{{x}_{2} - {x}_{1}},\n$$\n\n只有当直线不垂直于任何坐标轴时才有意义. 但不等于说只有当直线不垂直于任何坐标轴时才有两点式方程. 例如, 本册教材第 8 页所示, 可以把直线的两点式方程改写为\n\n$$\n\\left( {{x}_{2} - {x}_{1}}\\right) \\left( {y - {y}_{1}}\\right)  = \\left( {{y}_{2} - {y}_{1}}\\right) \\left( {x - {x}_{1}}\\right) ,\n$$\n\n它就适用于所有情况.\n\n3. 作为点斜式方程的特例, 斜截式方程要作为教学内容出现, 特别关注它与一次函数的关系. 截距式方程的定义只在习题中出现, 不作为教学要求, 但两个截距都在正文中明确定义,作为教学要求.\n\n4. 与坐标轴平行的直线也要让学生了解, 特别要让学生体会到表示这些特殊位置的直线的方程 $x = a$ 和 $y = b$ 要看成二元一次方程,而不是一元一次方程,从而它们的解集分别是 $\\{ \\left( {a, n}\\right)  \\mid  n \\in  \\mathbf{R}\\}$ 和 $\\{ \\left( {m, b}\\right)  \\mid  m \\in  \\mathbf{R}\\}$ ,分别表示垂直于 $x$ 轴且在 $x$ 轴上截距为 $a$ 的直线和垂直于 $y$ 轴且在 $y$ 轴上截距为 $b$ 的直线. 前者倾斜角为 $\\frac{\\pi }{2}$ ,斜率不存在; 后者倾斜角为 0,斜率为 0 . 还要注意,当 $a = 0$ 时,方程 $x = a$ 表示 $y$ 轴; 当 $b =$ 0 时,方程 $y = b$ 表示 $x$ 轴.\n\n5. 教材中直线的一般式方程引入时作为承上启下的第一句话“不管哪种形式的直线方程都是关于 $x$ 与 $y$ 的二元一次方程”,但这句话本质是让最一般的二元一次方程 ${ax} + {by} + c = 0\\left( {a\\text{、}b}\\right.$ 不同时为零) 在这里“亮相”.\n\n关于这个方程, 注意三点: 其一, 教材中“因此都可以化为”几个字不过说了学生都已经熟悉的平凡事实, 没有必要把让学生理解 “化”、动手 “化” 当作教学的关注点; 其二,确实要向学生强调条件 “a、b 不同时为零”,当上下文不足以判断 “a、b 不同时为零”时, 要把它写在方程表达式后面作为附加说明, 但更重要的是要让学生真正明白这个条件是自然的而不是外加的,因为当 $a\\text{、}b$ 同时为零时, ${ax} + {by} + c = 0$ 变成了 $c = 0$ ,它不再是直线方程了；其三,如果 $a$ 、 $b$ 中恰有一个为零时,就表示了上文所说的垂直于坐标轴的直线, 这个问题要予以关注.\n\n如前所述, 只有验证了所有形如①式的方程都表示一条直线后, 才能称①式为直线的一般式方程. 还要注意的是,直线的一般式方程可以差一个非零的常数倍, ${ax} + \\; {by} + c = 0\\left( {a\\text{、}b\\text{不同时为零}}\\right)$ 与 $\\max  + \\operatorname{mby} + {mc} = 0\\left( {m \\neq  0}\\right)$ 表示的是同一条直线 (当然, 作为二元一次方程而言, 它们也是同解的方程).\n\n令人惊奇的是,一般式方程竟然揭示了直线的一个重要几何性质:以它的一次项系数为坐标的向量是直线的法向量! 法向量的自然出现使得向量成为解析几何里研究直线的重要工具, 对这一点应该在本节予以强调, 同时要指出本章后面几节将看到法向量的作用.\n\n6. 与直线相关的向量还有直线的方向向量, 它最直观的定义是由直线上两个不同点分别作为起点和终点的向量. 例 9 中的向量 $\\overrightarrow{AB}$ 和点法式方程推导过程中的向量 $\\overrightarrow{MP}$ 都是直线 $l$ 的方向向量. 当然,直线的方向向量作平移后还是这条直线的方向向量, 因为平移前后的向量是同一个向量. 因此, 方向向量也可以定义为 “与直线上任何两点构成的向量均平行的非零向量” (见习题 1.2B 组第 11 题), 这里的“均”在定义时强调, 实际只要对直线上一条非零向量验证就可以了. 因为法向量垂直于直线上的任何向量, 方向向量平行于直线上的任何向量, 所以方向向量垂直于法向量, 直线的方向向量还可以定义为 “与直线的法向量垂直的非零向量”.\n\n和法向量类似, 方向向量也具备普适性, 可以替代法向量处理本节的所有问题, 适用于所有直线, 没有例外. 教材采用法向量可以说只是一种选择. 一般式方程①所表示直线的方向向量也可以从方程①的表达式中读出: 因为 $\\left( {a, b}\\right)$ 是直线的法向量,而 $\\left( {a, b}\\right)  \\cdot  \\left( {b, - a}\\right)  = 0$ ,所以向量 $\\left( {b, - a}\\right)$ 是这条直线的方向向量.\n\n### 教学建议\n\n在本节的第 1 小节, 要特别重视点斜式方程的学习, 因为它是我们学习的第一种直线方程. 教材在点斜式方程的引入上做足了文章. 先是在上一节预置了例 3 , 承上启下, 实际上求出了一个点斜式方程, 但未出现直线方程的概念, 留待本节第 1 小节引言对例 3 的结果加以复述, 引出直线方程的概念; 然后就一般的情形推导点斜式方程, 强调直线方程验证的两个方向. 两点式方程的推导本质上还是点斜式方程的推导, 不过从给定斜率改为从已知两点求出斜率. 两点式方程的推导几乎就是上一节例 3 的翻版, 只不过把具体的数字改为字母. 教材设计这样的往复循环, 是为了让学生一开始就能由浅入深, 对直线的点斜式方程与两点式方程有很好的理解和把握.\n\n前文已经说明,两点式方程和点斜式方程可以理解为 “两点确定一条直线” 和 “经过直线外的一点, 有且只有一条直线与已知直线平行”这些几何命题在解析几何语境下的实现. 这样体现数形结合的数学思想在教学中要尽量展现.\n\n一般式方程宜从代数角度引入. 因为直线的点斜式与两点式等特殊形式的方程都可以化为形如①式的方程,只要再验证了所有形如①式的方程都表示一条直线以后, 就可以称形如①式的方程为直线的一般式方程.\n\n在一般式方程教学中,学生真正可能产生认知困难的是当 $a\\text{、}b$ 恰好有一个是零时如何理解方程 (或者学生忽略这种情况,只会形式地标注 “ $a\\text{、}b$ 不同时为零”). 要让学生区分关于 $x\\text{、}y$ 的二元一次方程 $x + c = 0$ 与一元一次方程 $x + c = 0$ ,前者的解集应该在平面直角坐标系中描述,是过点 $\\left( {-c,0}\\right)$ 且垂直于 $x$ 轴的直线,而后者的解集应该在数轴上描述,是一个坐标为 $- c$ 的点.\n\n除了教材所提供的点法式方程的推导过程外, 可以从另一个角度 “直观地” 验证方程②是过点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 且有法向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 的直线的方程:由一般式方程系数的性质得知,方程②所表示的直线有法向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ ,再把 $x = {x}_{0}, y = {y}_{0}$ 代入,立刻就验证了这条直线过点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ .\n\n点法式方程在数学思想上可以类比点斜式方程. 法向量和斜率都决定了平面上一组平行线 (即决定了平面上的一个方向), 再添加一个定点, 就把一条直线确定下来了. 这本质上是欧几里得第五公设.\n\n教材反复出现关于“直线方程”概念的描述,关键是要双向验证点的坐标与方程的解的关系, 即给定直线上的任意一点的坐标都是给定方程的解, 反过来, 以给定方程的解为坐标的点一定在给定的直线上. 教材有层次地推进这个概念的认识, 从具体数字的例子(第一台阶)到一般的论述(第二台阶), 两个方向的验证还可以用充要条件表述(教材中关于点法式方程的说明). 所有这些素材应该结合每次出现的情境因势利导, 潜移默化地渗透在教学过程中, 避免生硬的灌输.\n\n本节的例题较多, 多数例题教材上没有给出图形, 教学时应尽可能画出示意图, 帮助学生积累直线与坐标平面的直观经验, 培养数形结合的意识.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 152,
+        "end": 289
+      }
+    ],
+    "teacher_only": true,
+    "id": "x1-1-2-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "1 几种特殊形式的直线方程",
+    "markdown": "### 1 几种特殊形式的直线方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 153,
+        "end": 153
+      }
+    ],
+    "id": "x1-1-2-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "本章 1.1 节的例 3 中我们证明了与点 $A\\left( {-1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right)$ 共线的点 $C\\left( {x, y}\\right)$ 的坐标一定满足关系式 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ . 反过来, 也容易验证: 如果点 $C\\left( {x, y}\\right)$ 的坐标满足关系式 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ , 那么点 $C\\left( {x, y}\\right)$ 一定与点 $A\\left( {-1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right)$ 共线. 这就是说, 经过点 $A\\left( {-1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right)$ 的直线 ${AB}$ 上的点正好是以方程 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ 的解作为坐标的点. 在这种情况下,我们说 “直线 ${AB}$ 的方程是 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ ”,或者说 “方程 $y - 2 = \\frac{1}{2}\\left( {x + 1}\\right)$ 表示了直线 ${AB}$ ”. 可见,直线 ${AB}$ 的方程是一个关于 $x$ 与 $y$ 的二元一次方程. 本节中我们将看到,任何直线的方程都是关于 $x$ 与 $y$ 的二元一次方程,反过来,任何关于 $x$ 与 $y$ 的二元一次方程都表示一条直线. 而且, 这个方程实质上是唯一的, 即同一直线的不同方程通过简单变形可以互化. 然而, 不同形式的直线方程关注直线的不同几何要素, 在解决具体问题时也会有各自不同的作用.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 154,
+        "end": 156
+      }
+    ],
+    "id": "x1-1-2-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "(1)直线的点斜式方程",
+    "markdown": "#### (1)直线的点斜式方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 157,
+        "end": 157
+      }
+    ],
+    "id": "x1-1-2-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "现在我们讨论, 在平面直角坐标系中, 当直线的斜率存在时,如何通过直线上的一个点 $M$ 和直线的斜率 $k$ 来求直线的方程.\n\n![bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg](images/book-510a42bc51ced1018306.jpg)\n\n图 1-2-1\n\n如图 1-2-1,在平面直角坐标系中,设 $P\\left( {x, y}\\right)$ 是过点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 、斜率为 $k$ 的直线 $l$ 上的任意一点. 当点 $P\\left( {x, y}\\right)$ 与点 $M$ 不重合时,由 $k = \\frac{y - {y}_{0}}{x - {x}_{0}}$ ,可得\n\n$$\ny - {y}_{0} = k\\left( {x - {x}_{0}}\\right) .\n$$\n\n①\n\n当点 $P\\left( {x, y}\\right)$ 与点 $M$ 重合时,点 $P$ 的坐标就是 $\\left( {{x}_{0},{y}_{0}}\\right)$ ,同样满足方程①. 这样,直线 $l$ 上任意一点的坐标 $\\left( {x, y}\\right)$ 都满足方程①.\n\n反之,可以证明以方程①的解为坐标的点一定在这条直线 $l$ 上: 若点 $Q$ 的坐标 $\\left( {{x}^{\\prime },{y}^{\\prime }}\\right)$ 满足方程①,即 ${y}^{\\prime } - {y}_{0} = k\\left( {{x}^{\\prime } - {x}_{0}}\\right)$ 成立. 当 ${x}^{\\prime } \\neq  {x}_{0}$ 时,直线 ${MQ}$ 经过点 $M$ 且斜率 ${k}_{MQ} = \\frac{{y}^{\\prime } - {y}_{0}}{{x}^{\\prime } - {x}_{0}} = k$ , 于是直线 ${MQ}$ 与 $l$ 重合,从而点 $Q$ 在 $l$ 上; 当 ${x}^{\\prime } = {x}_{0}$ 时,有 ${y}^{\\prime } = {y}_{0}$ ,点 $Q$ 与点 $M$ 重合,点 $Q$ 也在 $l$ 上.\n\n这就证明了方程①是经过定点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 且斜率为 $k$ 的直线的方程. 这种形式的直线方程叫做直线的点斜式方程.\n\n---\n\n本章 1.1 节中例 3 得到的方程就是一个点斜式方程.\n\n---\n\n在点斜式方程①中，如果把定点选成直线与 $y$ 轴的交点 $\\left( {0, b}\\right)$ ,那么方程改写为\n\n$$\ny = {kx} + b.\n$$\n\n②\n\n![bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg](images/book-0803699d4bd156a5aaa9.jpg)\n\n图 1-2-2\n\n其中，数值 $b$ 称为该直线在 $y$ 轴上的截距 (图1-2-2). 当然，直线在 $y$ 轴上的截距本质上是确定了直线上的一点 $\\left( {0, b}\\right)$ ,所以给定直线的斜率和在 $y$ 轴的截距,就唯一地确定了这条直线.\n\n方程②称为直线的斜截式方程. 当 $k \\neq  0$ 时，它表示 $y$ 是 $x$ 的一次函数,这个函数图像也就是我们所讨论的直线. 当 $k = 0$ 时,该直线与 $x$ 轴平行或重合,其方程为 $y = b$ .\n\n我们也可以定义直线在 $x$ 轴上的截距,它就是直线与 $x$ 轴交点 $\\left( {a,0}\\right)$ 的横坐标 $a$ (图 1-2-2).\n\n如果直线与 $y$ 轴平行或重合,它的斜率与在 $y$ 轴上的截距都不存在,但此时直线与 $x$ 轴垂直,设垂足为 $\\left( {a,0}\\right)$ ,那么该直线在 $x$ 轴上的截距为 $a$ ,且直线上所有点的横坐标都是 $a$ ,从而直线的方程是 $x = a$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 158,
+        "end": 204
+      }
+    ],
+    "emphases": [
+      {
+        "start": 991,
+        "end": 1077,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-5-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1306,
+        "end": 1430,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-5-1",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 1432,
+        "end": 1544,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-5-2",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-1-2-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 1",
+    "markdown": "例 1 求倾斜角是 $\\frac{2\\pi }{3}$ 且在 $x$ 轴上的截距是 -3 的直线 $l$ 的点斜式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 205,
+        "end": 206
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 205,
+        "end": 206
+      }
+    ],
+    "id": "x1-1-2-ex-1",
+    "category": "例题",
+    "answer": "解 因为 $l$ 在 $x$ 轴上的截距是 -3,所以 $l$ 经过点 $A\\left( {-3,0}\\right)$ . 因为 $l$ 的斜率 $k = \\tan \\frac{2\\pi }{3} =  - \\sqrt{3}$ ,所以 $l$ 的点斜式方程是 $y = \\; - \\sqrt{3}\\left( {x + 3}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 207,
+        "end": 208
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 2",
+    "markdown": "例 2 已知直线 $l$ 在 $x$ 轴、 $y$ 轴上的截距分别为 -2、 4, 求直线 $l$ 的方程,并判断点 $A\\left( {2,6}\\right)$ 是否在直线 $l$ 上.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 209,
+        "end": 210
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 209,
+        "end": 210
+      }
+    ],
+    "id": "x1-1-2-ex-2",
+    "category": "例题",
+    "answer": "解 因为 $l$ 在 $y$ 轴上的截距是 4 且斜率 $k$ 存在,所以可设 $l$ 的方程为 $y = {kx} + 4$ . 又因为 $l$ 经过点 $\\left( {-2,0}\\right)$ ,所以 $- {2k} + 4 = 0$ , 解得 $k = 2$ .\n\n所以, $l$ 的方程为 $y = {2x} + 4$ .\n\n因为 $6 \\neq  2 \\times  2 + 4$ ,所以点 $A\\left( {2,6}\\right)$ 不在直线 $l$ 上.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 211,
+        "end": 216
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(1)",
+    "markdown": "### 练习 1.2(1)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 217,
+        "end": 217
+      }
+    ],
+    "id": "x1-1-2-b8",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 1",
+    "markdown": "1. 求经过点 $P\\left( {-2,3}\\right)$ 且斜率为 -1 的直线 $l$ 的点斜式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 219,
+        "end": 220
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 219,
+        "end": 220
+      }
+    ],
+    "id": "x1-1-2-p121-1",
+    "category": "练习1.2(1)",
+    "answer": "1. $y - 3 = \\left( {-1}\\right)  \\cdot  \\left( {x + 2}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 572,
+        "end": 573
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 2",
+    "markdown": "2. 求倾斜角是 $\\frac{5\\pi }{6}$ 且在 $x$ 轴上的截距为 -1 的直线 $l$ 的点斜式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 221,
+        "end": 222
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 221,
+        "end": 222
+      }
+    ],
+    "id": "x1-1-2-p121-2",
+    "category": "练习1.2(1)",
+    "answer": "2. $y =  - \\frac{\\sqrt{3}}{3}\\left( {x + 1}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 574,
+        "end": 575
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 3",
+    "markdown": "3. 求经过点 $A\\left( {2,3}\\right)$ 且垂直于 $x$ 轴的直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 223,
+        "end": 224
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 223,
+        "end": 224
+      }
+    ],
+    "id": "x1-1-2-p121-3",
+    "category": "练习1.2(1)",
+    "answer": "3. $x = 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 576,
+        "end": 577
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(1) · 4",
+    "markdown": "4. 已知直线 $l$ 经过点 $M\\left( {-2, - 1}\\right)$ 且在 $x$ 轴、 $y$ 轴上截距相等,求 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 225,
+        "end": 226
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 225,
+        "end": 226
+      }
+    ],
+    "id": "x1-1-2-p121-4",
+    "category": "练习1.2(1)",
+    "answer": "4. $y =  - x - 3$ 或 $y = \\frac{1}{2}x$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 578,
+        "end": 579
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "(2)直线的两点式方程",
+    "markdown": "#### (2)直线的两点式方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 227,
+        "end": 227
+      }
+    ],
+    "id": "x1-1-2-b13",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "两点确定一条直线, 因此, 只要给定平面内两个点的坐标, 就可以写出过这两点的直线的方程. 如果两点的横坐标或纵坐标相同, 那么这条直线与某条坐标轴平行或重合, 这种情况前面已经讨论过了.\n\n现在考虑经过两点 $M\\left( {{x}_{1},{y}_{1}}\\right) \\text{ 、 }N\\left( {{x}_{2},{y}_{2}}\\right)$ ,并且不与任一坐标轴平行或重合的直线 $l$ ,可知 ${x}_{1} \\neq  {x}_{2}$ ,且 ${y}_{1} \\neq  {y}_{2}$ ,直线 $l$ 的斜率是 $k = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}$ ,于是该直线的点斜式方程为 $y - {y}_{1} = \\frac{{y}_{2} - {y}_{1}}{{x}_{2} - {x}_{1}}\\left( {x - {x}_{1}}\\right)$ , 整理成关于两个坐标对称的形式, 得\n\n---\n\n这就是本章 1.1 节中例 3 的解题过程。\n\n---\n\n$$\n\\frac{y - {y}_{1}}{{y}_{2} - {y}_{1}} = \\frac{x - {x}_{1}}{{x}_{2} - {x}_{1}}.\n$$\n\n③\n\n---\n\n直线的两点式方程也可以写成\n\n$\\left( {{x}_{2} - {x}_{1}}\\right) \\left( {y - {y}_{1}}\\right)  = \\; \\left( {{y}_{2} - {y}_{1}}\\right) \\left( {x - {x}_{1}}\\right) .$\n\n它对直线平行或重合于坐标轴的情形也适用.\n\n---",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 228,
+        "end": 254
+      }
+    ],
+    "id": "x1-1-2-b14",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "方程③称为直线的两点式方程.",
+    "markdown": "#### 方程③称为直线的两点式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 255,
+        "end": 255
+      }
+    ],
+    "id": "x1-1-2-b15",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 3",
+    "markdown": "例 3 已知直线 $l$ 经过点 $A\\left( {2,1}\\right) \\text{ 、 }B\\left( {4,4}\\right)$ ,求 $l$ 的方程.\n\n![bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg](images/book-0aa8765636284a38d4fb.jpg)\n\n图 1-2-3",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 257,
+        "end": 262
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 257,
+        "end": 262
+      }
+    ],
+    "id": "x1-1-2-ex-3",
+    "category": "例题",
+    "answer": "解 直接把点 $A\\text{ 、 }B$ 的坐标代入直线的两点式方程,得\n\n$$\n\\frac{y - 1}{4 - 1} = \\frac{x - 2}{4 - 2}\n$$\n\n化简, $l$ 的方程可写为 $y = \\frac{3}{2}x - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 263,
+        "end": 270
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 4",
+    "markdown": "例 4 如图 1-2-3, $\\bigtriangleup {ABC}$ 三个顶点的坐标分别为 $A\\left( {-2, - 2}\\right) \\text{ 、 }B\\left( {5,0}\\right) \\text{ 、 }C\\left( {-2,3}\\right)$ . 分别求边 ${AC}$ 所在直线的方程与边 ${AB}$ 上的中线 ${CD}$ 所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 271,
+        "end": 272
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 271,
+        "end": 272
+      }
+    ],
+    "id": "x1-1-2-ex-4",
+    "category": "例题",
+    "answer": "解 因为点 $A$ 与点 $C$ 的横坐标相等,所以 ${AC}$ 所在直线与 $x$ 轴垂直,从而边 ${AC}$ 所在直线的方程为 $x =  - 2$ .\n\n设点 $D$ 的坐标为 $\\left( {{x}_{0},{y}_{0}}\\right)$ ,则 $\\left\\{  \\begin{array}{l} {x}_{0} = \\frac{-2 + 5}{2} = \\frac{3}{2}, \\\\  {y}_{0} = \\frac{-2 + 0}{2} =  - 1. \\end{array}\\right.$ 所以, 点 $D$ 的坐标为 $\\left( {\\frac{3}{2}, - 1}\\right)$ .\n\n又因为点 $C$ 的坐标为 $\\left( {-2,3}\\right)$ ,所以 ${CD}$ 所在直线的两点式方程是 $\\frac{y - 3}{-1 - 3} = \\frac{x + 2}{\\frac{3}{2} + 2}$ ,化简,得 $y =  - \\frac{8}{7}x + \\frac{5}{7}$ .\n\n所以， $\\bigtriangleup  {ABC}$ 中边 ${AB}$ 上的中线 ${CD}$ 所在直线的方程为 $y =  - \\frac{8}{7}x + \\frac{5}{7}.$",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 273,
+        "end": 280
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 5",
+    "markdown": "例 5 已知直线 $l$ 与 $x$ 轴、 $y$ 轴分别交于 $A\\text{ 、 }B$ 两个不同的点且 $\\left| {OA}\\right|  = \\left| {OB}\\right|$ ,其中 $O$ 是坐标原点; 又点 $C\\left( {1, - 2}\\right)$ 在直线 $l$ 上. 求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 281,
+        "end": 282
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 281,
+        "end": 282
+      }
+    ],
+    "id": "x1-1-2-ex-5",
+    "category": "例题",
+    "answer": "解 设 $A\\text{ 、 }B$ 两点的坐标分别为 $\\left( {a,0}\\right) \\text{ 、 }\\left( {0, b}\\right)$ . 因为 $\\left| {OA}\\right|  = \\; \\left| {OB}\\right|$ ,所以 $b =  \\pm  a$ 且 $a \\neq  0$ .\n\n当 $b = a$ 时,直线 $l$ 的方程为 $\\frac{y - 0}{a - 0} = \\frac{x - a}{0 - a}$ ,即 $y =  - \\left( {x - a}\\right)$ .\n\n因为点 $C\\left( {1, - 2}\\right)$ 在直线 $l$ 上,所以 $- 2 =  - \\left( {1 - a}\\right)$ ,得 $a =  - 1$ . 所以,直线 $l$ 的方程为 $y =  - x - 1$ .\n\n同理,当 $b =  - a$ 时,可得直线 $l$ 的方程为 $y = x - 3$ .\n\n所以,直线 $l$ 的方程为 $y =  - x - 1$ 或 $y = x - 3$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 283,
+        "end": 292
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(2)",
+    "markdown": "### 练习 1.2(2)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 293,
+        "end": 293
+      }
+    ],
+    "id": "x1-1-2-b19",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(2) · 1",
+    "markdown": "1. 求经过点 $A\\left( {-2,3}\\right) \\text{ 、 }B\\left( {0,6}\\right)$ 的直线 $l$ 的两点式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 295,
+        "end": 296
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 295,
+        "end": 296
+      }
+    ],
+    "id": "x1-1-2-p122-1",
+    "category": "练习1.2(2)",
+    "answer": "1. $\\frac{y - 3}{6 - 3} = \\frac{x + 2}{0 - \\left( {-2}\\right) }$ ,即 $\\frac{y - 3}{3} = \\frac{x + 2}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 582,
+        "end": 583
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(2) · 2",
+    "markdown": "2. 已知三个不同的点 $A\\left( {3,1}\\right) \\text{ 、 }B\\left( {a + 1,3}\\right) \\text{ 、 }C\\left( {{2a} - 1,3 - a}\\right)$ 都在一条直线 $l$ 上,求实数 $a$ 的值和直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 297,
+        "end": 298
+      }
+    ],
+    "id": "x1-1-2-p122-2",
+    "category": "练习1.2(2)",
+    "answer": "2. $a =  - 2$ ,直线 $l$ 的方程为 $y =  - \\frac{1}{2}x + \\frac{5}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 584,
+        "end": 585
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(2) · 3",
+    "markdown": "3. 在平面直角坐标系中, $O$ 是坐标原点. 已知 $A\\text{ 、 }B$ 两点的坐标分别为 $\\left( {4,0}\\right)$ 、 $\\left( {0,3}\\right)$ ,分别求 $\\bigtriangleup {ABO}$ 的三条边上的中线所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 299,
+        "end": 300
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 299,
+        "end": 300
+      }
+    ],
+    "id": "x1-1-2-p122-3",
+    "category": "练习1.2(2)",
+    "answer": "3. 边 ${OA}\\text{、}{OB}$ 与 ${AB}$ 的中线所在直线的方程分别为 $y =  - \\frac{3}{2}x + 3, y =  - \\frac{3}{8}x + \\; \\frac{3}{2}$ 与 $y = \\frac{3}{4}x$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 586,
+        "end": 587
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "2 直线的一般式方程",
+    "markdown": "### 2 直线的一般式方程",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 301,
+        "end": 301
+      }
+    ],
+    "id": "x1-1-2-b23",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "由前面的讨论可以看到, 不管哪种形式的直线方程都是关于 $x\\text{ 、 }y$ 的二元一次方程,因此都可以化为如下二元一次方程的一般形式\n\n$$\n{ax} + {by} + c = 0\\text{ ( }a\\text{ 、 }b\\text{ 不同时为零). }\n$$\n\n④\n\n反过来, 二元一次方程④是否都表示一条直线呢?\n\n若 $b \\neq  0$ ,方程④化为 $y =  - \\frac{a}{b}x - \\frac{c}{b}$ ,它表示斜率为 $- \\frac{a}{b}$ , 在 $y$ 轴上的截距为 $- \\frac{c}{b}$ 的直线; 若 $b = 0$ ,则 $a \\neq  0$ ,方程④化为 $x =  - \\frac{c}{a}$ ,它表示过点 $\\left( {-\\frac{c}{a},0}\\right)$ 且与 $x$ 轴垂直的直线. 可见,只要 $a\\text{ 、 }b$ 不同时为零,方程④都表示平面直角坐标系中的一条直线. 我们把方程④称为直线的一般式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 302,
+        "end": 314
+      }
+    ],
+    "emphases": [
+      {
+        "start": 166,
+        "end": 456,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-24-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-1-2-b24",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 6",
+    "markdown": "例 6 在平面直角坐标系中, 根据所给直线方程, 作出相应图形,并求出该直线的斜率和在 $y$ 轴上的截距:\n\n(1) ${l}_{1} : {{2y} + 1} = 0$ ；\n\n(2) ${l}_{2} : x + {2y} + 1 = 0$ .\n\n![bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg](images/book-8bac2035b68f5da078e4.jpg)\n\n图 1-2-4",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 315,
+        "end": 324
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 315,
+        "end": 324
+      }
+    ],
+    "id": "x1-1-2-ex-6",
+    "category": "例题",
+    "answer": "解 (1) 因为 ${l}_{1} : y =  - \\frac{1}{2}$ ,所以该直线过点 $B\\left( {0, - \\frac{1}{2}}\\right)$ 且平行于 $x$ 轴 (图 1-2-4). 所以, ${l}_{1}$ 的斜率为 0 且在 $y$ 轴上的截距是 $- \\frac{1}{2}$ .\n\n(2)在方程 $x + {2y} + 1 = 0$ 中，令 $y = 0$ ，得 $x =  - 1$ ；令 $x = 0$ ， 得 $y =  - \\frac{1}{2}$ . 这就得到直线 ${l}_{2}$ 上两个不同的点 $A\\left( {-1,0}\\right) \\text{ 、 }B\\left( {0, - \\frac{1}{2}}\\right)$ , 连接 $A\\text{ 、 }B$ 两点的直线即为直线 ${l}_{2}$ (图 1-2-4).\n\n因为方程 $x + {2y} + 1 = 0$ 可化为 $y =  - \\frac{1}{2}x - \\frac{1}{2}$ ,所以直线 ${l}_{2}$ 的斜率是 $- \\frac{1}{2}$ ,在 $y$ 轴上的截距是 $- \\frac{1}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 325,
+        "end": 330
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 7",
+    "markdown": "例 7 已知直线 $l$ 的方程为 ${ax} + y + a + 1 = 0\\left( {a \\in  \\mathbf{R}}\\right)$ ,求证: 无论 $a$ 取何值时,直线 $l$ 都经过一个定点,并写出该定点的坐标.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 332
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 331,
+        "end": 332
+      }
+    ],
+    "id": "x1-1-2-ex-7",
+    "category": "例题",
+    "answer": "解 由 ${ax} + y + a + 1 = 0$ ,变形得 $y + 1 =  - a\\left( {x + 1}\\right)$ . 这是直线 $l$ 的点斜式方程, $- a$ 是 $l$ 的斜率,点 $\\left( {-1, - 1}\\right)$ 是 $l$ 经过的定点.\n\n所以，无论 $a$ 取何值时，直线 $l$ 都经过一个定点，该定点的坐标为 $\\left( {-1, - 1}\\right)$ .\n\n![bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg](images/private-9b3887bfe849369f8877.jpg)\n\n图 1-2-5",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 333,
+        "end": 340
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 8",
+    "markdown": "例 8 如图 1-2-5,直线 $l : \\left( {m + 1}\\right) x + {my} + 2 - m = 0$ 经过平面直角坐标系的第一、第二与第四象限. 求实数 $m$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 341,
+        "end": 342
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 341,
+        "end": 342
+      }
+    ],
+    "id": "x1-1-2-ex-8",
+    "category": "例题",
+    "answer": "解 当 $m = 0$ 时,直线 $l$ 的方程为 $x =  - 2$ ,它只经过第二、 第三象限,不符题意,所以 $m \\neq  0$ . 于是,直线 $l$ 的方程可化为\n\n$$\ny =  - \\frac{m + 1}{m}x + \\frac{m - 2}{m}.\n$$\n\n因为直线 $l$ 经过第一、第二与第四象限,所以其斜率小于 0, 且在 $y$ 轴上的截距大于 0,则\n\n$$\n\\left\\{  \\begin{array}{l}  - \\frac{m + 1}{m} < 0, \\\\  \\frac{m - 2}{m} > 0, \\end{array}\\right.\n$$\n\n解得 $m <  - 1$ 或 $m > 2$ .\n\n所以,实数 $m$ 的取值范围是 $\\left( {-\\infty , - 1}\\right)  \\cup  \\left( {2, + \\infty }\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 343,
+        "end": 358
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(3)",
+    "markdown": "### 练习 1.2(3)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 359,
+        "end": 359
+      }
+    ],
+    "id": "x1-1-2-b28",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(3) · 1",
+    "markdown": "1. 求下列方程所表示直线的斜率与倾斜角:\n\n(1) $x = 1$ ； (2) $x + y - 1 = 0$ ；\n\n(3) $x + {2y} - 1 = 0$ ； (4) $y = 1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 361,
+        "end": 366
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 361,
+        "end": 366
+      }
+    ],
+    "id": "x1-1-2-p123-1",
+    "category": "练习1.2(3)",
+    "answer": "1. (1)斜率不存在,倾斜角为 $\\frac{\\pi }{2}$ . (2)斜率为 -1,倾斜角为 $\\frac{3\\pi }{4}$ .\n\n(3)斜率为 $- \\frac{1}{2}$ ,倾斜角为 $\\pi  - \\arctan \\frac{1}{2}$ . (4)斜率为 0 ,倾斜角为 0 .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 590,
+        "end": 593
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(3) · 2",
+    "markdown": "2. 求证: 无论实数 $m$ 取何值,直线 $l : x + \\left( {m + 1}\\right) y + 1 = 0$ 都经过一个定点.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 367,
+        "end": 368
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 367,
+        "end": 368
+      }
+    ],
+    "id": "x1-1-2-p123-2",
+    "category": "练习1.2(3)",
+    "answer": "2. 证明略(过定点 $\\left( {-1,0}\\right)$ ).",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 594,
+        "end": 595
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(3) · 3",
+    "markdown": "3. 已知直线 $l : {kx} + {2y} + 3 - k = 0$ 经过平面直角坐标系的第二、第三与第四象限，求实数 $k$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 369,
+        "end": 370
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 369,
+        "end": 370
+      }
+    ],
+    "id": "x1-1-2-p123-3",
+    "category": "练习1.2(3)",
+    "answer": "3. $\\left( {0,3}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 596,
+        "end": 597
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 9",
+    "markdown": "例 9 已知点 $A\\left( {{x}_{1},{y}_{1}}\\right)$ 与 $B\\left( {{x}_{2},{y}_{2}}\\right)$ 是直线 $l : {ax} + {by} + c = 0$ ( $a\\text{ 、 }b$ 不同时为零) 上任意两点,且向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ . 求证: 向量 $\\overrightarrow{n}$ 与 $\\overrightarrow{AB}$ 垂直.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 371,
+        "end": 372
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 371,
+        "end": 372
+      }
+    ],
+    "id": "x1-1-2-ex-9",
+    "category": "例题",
+    "answer": "证明 因为点 $A\\left( {{x}_{1},{y}_{1}}\\right)$ 与 $B\\left( {{x}_{2},{y}_{2}}\\right)$ 在直线 $l$ 上,所以 $a{x}_{1} + \\; b{y}_{1} + c = 0$ 且 $a{x}_{2} + b{y}_{2} + c = 0$ . 两式相减,得 $a\\left( {{x}_{1} - {x}_{2}}\\right)  + \\; b\\left( {{y}_{1} - {y}_{2}}\\right)  = 0$ ,即 $\\overrightarrow{n} \\cdot  \\overrightarrow{AB} = 0$ ,所以向量 $\\overrightarrow{n}$ 与 $\\overrightarrow{AB}$ 垂直.",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 373,
+        "end": 374
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "例 9 中的向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 与直线 $l$ 上的任意一个向量都垂直. 一般地，与直线上任意一个向量都垂直的非零向量叫做该直线的法向量(normal vector). 于是，例 9 可以总结为如下结论:\n\n以直线 $l$ 的一般式方程 ${ax} + {by} + c = 0$ ( $a\\text{ 、 }b$ 不同时为零)的一次项系数为坐标的向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 是 $l$ 的一个法向量.\n\n如果知道了直线 $l$ 上的一个点 $M\\left( {{x}_{0},{y}_{0}}\\right)$ 和 $l$ 的一个法向量 $\\overrightarrow{n} = \\left( {a, b}\\right)$ ,那么平面上一点 $P\\left( {x, y}\\right)$ 在直线 $l$ 上的充要条件是 $\\overrightarrow{n} \\bot  \\overrightarrow{MP}$ ,或用向量数量积写成 $\\overrightarrow{n} \\cdot  \\overrightarrow{MP} = 0$ . 因为向量 $\\overrightarrow{MP} = \\; \\left( {x - {x}_{0}, y - {y}_{0}}\\right)$ ,所以平面上一点 $P\\left( {x, y}\\right)$ 在直线 $l$ 上的充要条件变成了\n\n$$\na\\left( {x - {x}_{0}}\\right)  + b\\left( {y - {y}_{0}}\\right)  = 0.\n$$\n\n⑤\n\n这又给出了直线 $l$ 的一个方程,这个方程称为直线的点法式方程, 它是一个几何意义明确、没有任何附加限制条件的直线方程. 只要令 $c =  - a{x}_{0} - b{y}_{0}$ ,直线的点法式方程⑤就化归为一般式方程④了.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 375,
+        "end": 388
+      }
+    ],
+    "emphases": [
+      {
+        "start": 273,
+        "end": 667,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-33-0",
+        "origin": "editorial-emphasis"
+      },
+      {
+        "start": 746,
+        "end": 863,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "x1-1-2-definition-33-1",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "x1-1-2-b33",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "例题 10",
+    "markdown": "例10 已知 $\\bigtriangleup {ABC}$ 的三个顶点的坐标分别是 $A\\left( {1,6}\\right)$ 、 $B\\left( {-1, - 2}\\right)$ 与 $C\\left( {6,3}\\right)$ ,求边 ${BC}$ 上的高 ${AD}$ 所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 390
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 389,
+        "end": 390
+      }
+    ],
+    "id": "x1-1-2-ex-10",
+    "category": "例题",
+    "answer": "解 因为 ${AD} \\bot  {BC}$ ,所以向量 $\\overrightarrow{BC} = \\left( {7,5}\\right)$ 是 ${AD}$ 所在直线的一个法向量; 又因为直线 ${AD}$ 经过点 $A\\left( {1,6}\\right)$ ,所以 ${AD}$ 所在直线的点法式方程是 $7\\left( {x - 1}\\right)  + 5\\left( {y - 6}\\right)  = 0$ .\n\n化简,得 $\\bigtriangleup {ABC}$ 的高 ${AD}$ 所在直线的方程为 ${7x} + {5y} - {37} = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 391,
+        "end": 394
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "例题 11",
+    "markdown": "例 11 已知直线 $l$ 经过点 $P\\left( {3,2}\\right)$ ，且 $\\overrightarrow{n} = \\left( {m,1 - m}\\right)$ 是它的一个法向量. 若 $l$ 与坐标轴围成的三角形的面积是 2,求实数 $m$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 395,
+        "end": 396
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 395,
+        "end": 396
+      }
+    ],
+    "id": "x1-1-2-ex-11",
+    "category": "例题",
+    "answer": "解 根据条件写出直线 $l$ 的点法式方程\n\n$$\nm\\left( {x - 3}\\right)  + \\left( {1 - m}\\right) \\left( {y - 2}\\right)  = 0.\n$$\n\n化简为\n\n$$\n{mx} + \\left( {1 - m}\\right) y - m - 2 = 0.\n$$\n\n如果 $m = 0$ 或 $m = 1$ ,直线 $l$ 与 $x$ 轴或 $y$ 轴平行,这样的直线无法与坐标轴围成三角形,所以 $m \\neq  0$ 且 $m \\neq  1$ .\n\n在上述方程中分别令 $y$ 与 $x$ 等于零,求得直线 $l$ 在 $x$ 轴与 $y$ 轴上的截距分别是 $\\frac{m + 2}{m}$ 与 $\\frac{m + 2}{1 - m}$ . 所以, $l$ 与坐标轴围成的三角形的面积为\n\n$$\n\\frac{1}{2} \\times  \\left| \\frac{m + 2}{m}\\right|  \\times  \\left| \\frac{m + 2}{1 - m}\\right|  = 2,\n$$\n\n解得 $m = \\frac{4 + 2\\sqrt{7}}{3}$ 或 $m = \\frac{4 - 2\\sqrt{7}}{3}$ .\n\n---\n\n如果 $\\overrightarrow{n} = \\left( {a, b}\\right)$ 是直线 $l$ 的一个法向量, 那么,只要 $k$ 是非零实数, $k\\overrightarrow{n} = \\left( {{ka},{kb}}\\right)$ 也是 $l$ 的法向量.\n\n---",
+    "answer_provenance": [
+      {
+        "source": "book",
+        "start": 397,
+        "end": 424
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "练习 1.2(4)",
+    "markdown": "### 练习 1.2(4)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 425,
+        "end": 425
+      }
+    ],
+    "id": "x1-1-2-b36",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(4) · 1",
+    "markdown": "1. 写出下列直线的一个法向量:\n\n(1) ${2x} - {3y} + 1 = 0$ ； (2) ${3x} + {2y} + 1 = 0$ ；\n\n(3) $x + 3 = 0$ ；\n\n(4) $y = \\frac{1}{2}x - 3$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 427,
+        "end": 434
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 427,
+        "end": 434
+      }
+    ],
+    "id": "x1-1-2-p124-1",
+    "category": "练习1.2(4)",
+    "answer": "1. (1) $\\left( {2, - 3}\\right)$ . (2) $\\left( {3,2}\\right)$ . 案不唯一)",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 600,
+        "end": 601
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(4) · 2",
+    "markdown": "2. 已知直线 $l$ 的方程是 $\\left( {a - 3}\\right) x + \\left( {{2a} + 1}\\right) y - 3 = 0$ ,它的一个法向量是 $\\overrightarrow{n} = \\left( {3,2}\\right)$ . 求实数 $a$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 435,
+        "end": 436
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 435,
+        "end": 436
+      }
+    ],
+    "id": "x1-1-2-p124-2",
+    "category": "练习1.2(4)",
+    "answer": "2. $a =  - \\frac{9}{4}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 602,
+        "end": 603
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "练习1.2(4) · 3",
+    "markdown": "3. 根据下列条件,求直线 $l$ 的方程:\n\n(1) $l$ 在 $x$ 轴上的截距为 -1，且 $l$ 的一个法向量是 $\\overrightarrow{n} = \\left( {-1,2}\\right)$ ；\n\n(2) $l$ 经过点 $\\left( {2,3}\\right)$ ，且 $l$ 上的任何向量都与向量 $\\overrightarrow{a} = \\left( {1,2}\\right)$ 平行.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 437,
+        "end": 442
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 437,
+        "end": 442
+      }
+    ],
+    "id": "x1-1-2-p124-3",
+    "category": "练习1.2(4)",
+    "answer": "3. (1) $x - {2y} + 1 = 0.\\;$ (2) ${2x} - y - 1 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 604,
+        "end": 605
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "习题 1.2",
+    "markdown": "### 习题 1.2",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 443,
+        "end": 443
+      }
+    ],
+    "id": "x1-1-2-b40",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "#### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 445,
+        "end": 445
+      }
+    ],
+    "id": "x1-1-2-b41",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 1",
+    "markdown": "1. 已知直线 $l$ 经过点 $P\\left( {3,5}\\right)$ ，倾斜角为 $\\alpha$ 且 $\\cos \\alpha  = \\frac{3}{5}$ . 求直线 $l$ 的点斜式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 447,
+        "end": 448
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 447,
+        "end": 448
+      }
+    ],
+    "id": "x1-1-2-h12A-1",
+    "category": "习题1.2A",
+    "answer": "1. $y - 5 = \\frac{4}{3}\\left( {x - 3}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 610,
+        "end": 611
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 2",
+    "markdown": "2. 已知直线 $l$ 在 $y$ 轴上的截距为 4,倾斜角为 $\\alpha$ 且 $\\sin \\alpha  = \\frac{3}{5}$ . 求直线 $l$ 的斜截式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 449,
+        "end": 450
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 449,
+        "end": 450
+      }
+    ],
+    "id": "x1-1-2-h12A-2",
+    "category": "习题1.2A",
+    "answer": "2. $y =  - \\frac{3}{4}x + 4$ 或 $y = \\frac{3}{4}x + 4$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 612,
+        "end": 613
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 3",
+    "markdown": "3. 求下列直线的斜率与在 $x\\text{ 、 }y$ 两坐标轴上的截距:\n\n(1) ${l}_{1} : {y + 1} =  - \\frac{\\sqrt{3}}{3}\\left( {x + 1}\\right)$ ；___\n\n(2) ${l}_{2} : y =  - {3x} + \\sqrt{3}$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 451,
+        "end": 456
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 451,
+        "end": 456
+      }
+    ],
+    "id": "x1-1-2-h12A-3",
+    "category": "习题1.2A",
+    "answer": "3. ( 1 ) ${l}_{1}$ 的斜率为 $- \\frac{\\sqrt{3}}{3}$ ,在 $x$ 轴上的截距为 $- \\sqrt{3} - 1$ ,在 $y$ 轴上的截距为 $- 1 - \\frac{\\sqrt{3}}{3}$ .\n\n(2) ${l}_{2}$ 的斜率为 -3,在 $x$ 轴上的截距为 $\\frac{\\sqrt{3}}{3}$ ,在 $y$ 轴上的截距为 $\\sqrt{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 614,
+        "end": 617
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 4",
+    "markdown": "4. 已知直线 $l : y = {kx} + 2$ 经过点 $\\left( {1, - 3}\\right)$ .\n\n(1)求 $l$ 的倾斜角的大小；\n\n(2)求 $l$ 在 $x$ 轴上的截距.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 457,
+        "end": 462
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 457,
+        "end": 462
+      }
+    ],
+    "id": "x1-1-2-h12A-4",
+    "category": "习题1.2A",
+    "answer": "4. (1) $\\pi$ -arctan 5 . (2) $\\frac{2}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 618,
+        "end": 619
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 5",
+    "markdown": "5. 直线 $l$ 经过点 $P\\left( {-2,1}\\right)$ ,在 $x$ 轴、 $y$ 轴上的截距分别为 $a\\text{ 、 }b$ . 已知 $a + b = 4$ ,求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 463,
+        "end": 464
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 463,
+        "end": 464
+      }
+    ],
+    "id": "x1-1-2-h12A-5",
+    "category": "习题1.2A",
+    "answer": "5. $y - 1 = \\frac{5 + \\sqrt{33}}{4}\\left( {x + 2}\\right)$ 或 $y - 1 = \\frac{5 - \\sqrt{33}}{4}\\left( {x + 2}\\right)$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 620,
+        "end": 621
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 6",
+    "markdown": "6. 根据给定条件,求下列直线的两点式方程:\n\n(1)直线 ${l}_{1}$ 经过点 $A\\left( {2,0}\\right)$ 、 $B\\left( {3,7}\\right)$ ；\n\n(2)直线 ${l}_{2}$ 与坐标轴的交点分别为 $\\left( {3,0}\\right) \\text{ 、 }\\left( {0, - 1}\\right)$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 465,
+        "end": 470
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 465,
+        "end": 470
+      }
+    ],
+    "id": "x1-1-2-h12A-6",
+    "category": "习题1.2A",
+    "answer": "6. (1) $\\frac{y - 0}{7 - 0} = \\frac{x - 2}{3 - 2}$ ,即 $\\frac{y}{7} = x - 2$ . (2) $\\frac{y - 0}{-1 - 0} = \\frac{x - 3}{0 - 3}$ ,即 $y = \\frac{x - 3}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 622,
+        "end": 623
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 7",
+    "markdown": "7. 已知 $\\bigtriangleup {ABC}$ 的三个顶点的坐标分别为 $A\\left( {3,8}\\right) \\text{ 、 }B\\left( {3, - 2}\\right) \\text{ 、 }C\\left( {-3,0}\\right)$ .\n\n(1)求边 ${BC}$ 所在直线的方程；\n\n(2)求边 ${BC}$ 上的中线所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 476
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 471,
+        "end": 476
+      }
+    ],
+    "id": "x1-1-2-h12A-7",
+    "category": "习题1.2A",
+    "answer": "7. (1) $x + {3y} + 3 = 0$ . (2) ${3x} - y - 1 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 624,
+        "end": 625
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 8",
+    "markdown": "8. 设直线 $l$ 在 $x$ 轴与 $y$ 轴上的截距分别是 $a$ 与 $b$ ,且 $a$ 与 $b$ 均不为零. 求证: 直线 $l$ 的方程可以写成 $\\frac{x}{a} + \\frac{y}{b} = 1$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 477,
+        "end": 478
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 477,
+        "end": 478
+      }
+    ],
+    "id": "x1-1-2-h12A-8",
+    "category": "习题1.2A",
+    "answer": "8. 证明略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 626,
+        "end": 627
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 9",
+    "markdown": "9. 一个弹簧在弹性限度内挂 $4\\mathrm{\\;{kg}}$ 的物体时弹簧长度为 ${20}\\mathrm{\\;{cm}}$ ,挂 $5\\mathrm{\\;{kg}}$ 物体时弹簧长度为 ${21.5}\\mathrm{\\;{cm}}$ . 已知在弹性限度内所挂物体的质量 $x$ (单位: $\\mathrm{{kg}}$ ) 与弹簧长度 $y$ (单位: $\\mathrm{{cm}}$ ) 的关系可以用直线的方程表示，求该直线的方程，并求弹簧自身的长度.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "id": "x1-1-2-h12A-9",
+    "category": "习题1.2A",
+    "answer": "9. $y = \\frac{3}{2}x + {14}$ ,弹簧自身长度为 ${14}\\mathrm{\\;{cm}}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 628,
+        "end": 629
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 10",
+    "markdown": "10. 在平面直角坐标系中, 作出下列直线, 并求它们的斜率与倾斜角.\n\n(1) ${l}_{1} : {3x} - y - 2 = 0;$\n\n(2) ${l}_{2} : {3x} + {2y} - 1 = 0.$",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 481,
+        "end": 486
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 481,
+        "end": 486
+      }
+    ],
+    "id": "x1-1-2-h12A-10",
+    "category": "习题1.2A",
+    "answer": "10.(1)斜率为 3,倾斜角为 $\\arctan 3$ .\n\n(2)斜率为 $- \\frac{3}{2}$ ,倾斜角为 $\\pi  - \\arctan \\frac{3}{2}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 630,
+        "end": 633
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 11",
+    "markdown": "11. 设直线 $l$ 的方程是 ${ax} + {by} + c = 0$ ，在下列条件下，求实数 $a$ 、 $b$ 、 $c$ 满足的条件:\n\n(1) $l$ 与 $x$ 轴、 $y$ 轴均相交；\n\n(2) $l$ 经过第二、第三、第四象限.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 487,
+        "end": 492
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 487,
+        "end": 492
+      }
+    ],
+    "id": "x1-1-2-h12A-11",
+    "category": "习题1.2A",
+    "answer": "11. (1) ${ab} \\neq  0$ . (2) ${ac} > 0$ 且 ${bc} > 0$ (即 $a$ 、 $b$ 、 $c$ 同号)",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 634,
+        "end": 635
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 12",
+    "markdown": "12. 已知直线 $l : {ax} + \\left( {4 - {2a}}\\right) y - 3 = 0$ ，根据下列条件，求实数 $a$ 的值:\n\n(1) $l$ 经过点 $\\left( {1,1}\\right)$ ；\n\n(2) $l$ 在两个坐标轴上的截距相等.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 493,
+        "end": 498
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 493,
+        "end": 498
+      }
+    ],
+    "id": "x1-1-2-h12A-12",
+    "category": "习题1.2A",
+    "answer": "12. (1) $a = 1$ . (2) $a = \\frac{4}{3}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 636,
+        "end": 637
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 13",
+    "markdown": "13. 已知 $A\\left( {7, - 4}\\right) \\text{ 、 }B\\left( {-5,6}\\right)$ 两点,求线段 ${AB}$ 的垂直平分线的点法式方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 499,
+        "end": 500
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 499,
+        "end": 500
+      }
+    ],
+    "id": "x1-1-2-h12A-13",
+    "category": "习题1.2A",
+    "answer": "13. $6\\left( {x - 1}\\right)  - 5\\left( {y - 1}\\right)  = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 638,
+        "end": 639
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2A · 14",
+    "markdown": "14. 已知直线 ${l}_{1} : {3kx} + \\left( {k + 2}\\right) y + 6 = 0$ ，直线 ${l}_{2} : {kx} + \\left( {{2k} - 3}\\right) y + 2 = 0$ . 若这两条直线的法向量互相垂直,求 $k$ 的值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 501,
+        "end": 502
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 501,
+        "end": 502
+      }
+    ],
+    "id": "x1-1-2-h12A-14",
+    "category": "习题1.2A",
+    "answer": "14. $k = 1$ 或 $- \\frac{6}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 640,
+        "end": 641
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "#### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 503,
+        "end": 503
+      }
+    ],
+    "id": "x1-1-2-b56",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 1",
+    "markdown": "1. 已知平行四边形 ${ABCD}$ 中,三个顶点的坐标分别为 $A\\left( {1,2}\\right) \\text{ 、 }B\\left( {3,4}\\right) \\text{ 、 }C\\left( {2,6}\\right)$ . 分别求边 ${AD}\\text{ 、 }{CD}$ 所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 505,
+        "end": 506
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 505,
+        "end": 506
+      }
+    ],
+    "id": "x1-1-2-h12B-1",
+    "category": "习题1.2B",
+    "answer": "1. 边 ${AD}\\text{、}{CD}$ 所在直线的方程分别为 ${2x} + y - 4 = 0, x - y + 4 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 644,
+        "end": 645
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 2",
+    "markdown": "2. 已知直线 $l$ 经过点 $P\\left( {2, - 1}\\right)$ ,与 $x$ 轴、 $y$ 轴分别交于 $A\\text{ 、 }B$ 两点. 若 $2\\overrightarrow{PA} + \\overrightarrow{PB} = \\; \\overrightarrow{0}$ ,求直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 507,
+        "end": 508
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 507,
+        "end": 508
+      }
+    ],
+    "id": "x1-1-2-h12B-2",
+    "category": "习题1.2B",
+    "answer": "2. $x - y - 3 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 646,
+        "end": 647
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 3",
+    "markdown": "3. 直线 $l : y = {kx} + b\\left( {k\\text{ 、 }b \\in  \\mathbf{R}}\\right)$ 与线段 ${AB}$ 相交，其中点 $A$ 为 $\\left( {4,2}\\right)$ ，点 $B$ 为 $\\left( {1,5}\\right)$ .\n\n(1)当 $b =  - 1$ 时，求 $k$ 的取值范围;\n\n(2)当 $k = 1$ 时，求 $b$ 的取值范围.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 509,
+        "end": 514
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 509,
+        "end": 514
+      }
+    ],
+    "id": "x1-1-2-h12B-3",
+    "category": "习题1.2B",
+    "answer": "3. (1) $\\left\\lbrack  {\\frac{3}{4},6}\\right\\rbrack$ . (2) $\\left\\lbrack  {-2,4}\\right\\rbrack$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 648,
+        "end": 649
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 4",
+    "markdown": "4. 已知 $\\bigtriangleup  {ABC}$ 中，两个顶点的坐标分别为 $A\\left( {-2,1}\\right)$ 、 $B\\left( {4, - 3}\\right)$ ，点 $G\\left( {0,2}\\right)$ 是此三角形的重心. 求边 ${BC}\\text{ 、 }{AC}$ 所在直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 515,
+        "end": 516
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 515,
+        "end": 516
+      }
+    ],
+    "id": "x1-1-2-h12B-4",
+    "category": "习题1.2B",
+    "answer": "4. 边 ${BC}\\text{、}{AC}$ 所在直线的方程分别为 ${11x} + {6y} - {26} = 0, x =  - 2$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 650,
+        "end": 651
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 5",
+    "markdown": "5. 若 $2{x}_{1} + 3{y}_{1} = 1,2{x}_{2} + 3{y}_{2} = 1$ ,且 ${x}_{1} \\neq  {x}_{2}$ . 求经过两点 $A\\left( {x}_{1}\\right.$ , $\\left. {y}_{1}\\right) \\text{ 、 }B\\left( {{x}_{2},{y}_{2}}\\right)$ 的直线 $l$ 的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 517,
+        "end": 522
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 517,
+        "end": 522
+      }
+    ],
+    "id": "x1-1-2-h12B-5",
+    "category": "习题1.2B",
+    "answer": "5. ${2x} + {3y} - 1 = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 652,
+        "end": 653
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 6",
+    "markdown": "6. 如图是一个 $\\mathrm{W}$ 形的霓虹灯 (灯管宽度忽略不计),每边长都是 $2\\mathrm{\\;m}$ , 每相邻两边相交所成的锐角都是 ${30}^{ \\circ  }$ . 试建立适当的平面直角坐标系, 写出此霓虹灯的每条边所在直线在这个坐标系中的方程.\n\n![bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg](images/book-b66ff40e9cc9c10ab480.jpg)\n\n(第 6 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 523,
+        "end": 524
+      },
+      {
+        "source": "book",
+        "start": 519,
+        "end": 521
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 523,
+        "end": 524
+      },
+      {
+        "source": "book",
+        "start": 519,
+        "end": 521
+      }
+    ],
+    "id": "x1-1-2-h12B-6",
+    "category": "习题1.2B",
+    "answer": "6. 如图 1-R2,以 $C$ 为坐标原点,以经过 $A\\text{、}E$ 的直线为 $x$ 轴, $\\overrightarrow{AE}$ 的方向为 $x$ 轴的正方向,过点 $C$ 且垂直于 ${AE}$ 的直线为 $y$ 轴,则 ${AB}\\text{、}{BC}\\text{、}{CD}\\text{、}{DE}$ 所在直线的方程分别为 $y =  - \\left( {2 + \\sqrt{3}}\\right) x - \\sqrt{6} - \\sqrt{2}, y = \\left( {2 + \\sqrt{3}}\\right) x, y =  - (2 + \\; \\sqrt{3})x, y = \\left( {2 + \\sqrt{3}}\\right) x - \\sqrt{6} - \\sqrt{2}$ . 本题答案不唯一,因为可以选择不同的坐标系, 从而会有不同的方程.\n\n![bo_d402onjef24c73d2tg30_40_1077_1646_338_320_0.jpg](images/private-cddfa046e981fa81ee15.jpg)\n\n图 1- R2",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 654,
+        "end": 659
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 7",
+    "markdown": "7. 证明: 直线 ${2x} + \\left( {1 - \\cos {2\\theta }}\\right) y - \\sin \\theta  = 0(\\theta  \\in  \\mathbf{R}$ 且不是 $\\pi$ 的整数倍) 和两坐标轴围成图形的面积是定值.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 525,
+        "end": 526
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 525,
+        "end": 526
+      }
+    ],
+    "id": "x1-1-2-h12B-7",
+    "category": "习题1.2B",
+    "answer": "7. 证明略(面积为 $\\frac{1}{8}$ ).",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 660,
+        "end": 661
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 8",
+    "markdown": "8. 已知直线 $l : \\left( {a - 1}\\right) x + \\left( {3 - {2a}}\\right) y + a + 1 = 0$ .\n\n(1)若直线的斜率 $k \\in  \\left\\lbrack  {-1,2}\\right\\rbrack$ ，求实数 $a$ 的取值范围；\n\n(2)求证:对任意实数 $a$ ，直线 $l$ 都经过一个定点.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 527,
+        "end": 532
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 527,
+        "end": 532
+      }
+    ],
+    "id": "x1-1-2-h12B-8",
+    "category": "习题1.2B",
+    "answer": "8. (1) $\\left( {-\\infty ,\\frac{4}{3}}\\right\\rbrack   \\cup  \\left\\lbrack  {\\frac{5}{3}, + \\infty }\\right)$ . (2)证明略(过定点 $\\left( {-5, - 2}\\right) )$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 662,
+        "end": 663
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 9",
+    "markdown": "9. 已知向量 $\\overrightarrow{n} = \\left( {5, - 1}\\right)$ 是直线 $l$ 的一个法向量，在下列条件下求直线 $l$ 的方程:\n\n(1)在 $x$ 轴、 $y$ 轴上的截距之和为 4 ；\n\n(2)与 $x$ 轴、 $y$ 轴围成的三角形面积为 20.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 533,
+        "end": 538
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 533,
+        "end": 538
+      }
+    ],
+    "id": "x1-1-2-h12B-9",
+    "category": "习题1.2B",
+    "answer": "如,(1) ${5x} - y + 5 = 0.\\;$ (2) ${5x} - y + {10}\\sqrt{2} = 0$ 或 ${5x} - y - {10}\\sqrt{2} = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 664,
+        "end": 665
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 10",
+    "markdown": "10. 已知 $\\overrightarrow{n} = \\left( {a, b}\\right)$ (其中 ${ab} \\neq  0$ ) 是直线 $l$ 的一个法向量,试用 $a\\text{ 、 }b$ 表示直线 $l$ 的倾斜角.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 539,
+        "end": 540
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 539,
+        "end": 540
+      }
+    ],
+    "id": "x1-1-2-h12B-10",
+    "category": "习题1.2B",
+    "answer": "10. 倾斜角为 $\\theta  = \\left\\{  \\begin{array}{ll} \\arctan \\left( {-\\frac{a}{b}}\\right) , & {ab} < 0, \\\\  \\pi  - \\arctan \\frac{a}{b}, & {ab} > 0. \\end{array}\\right.$",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 666,
+        "end": 667
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "习题1.2B · 11",
+    "markdown": "11. 我们把与直线上任意两点构成的向量均平行的非零向量称为该直线的方向向量. 求经过点 $P\\left( {{x}_{0},{y}_{0}}\\right)$ 且以 $\\overrightarrow{d} = \\left( {u, v}\\right)$ 为方向向量的直线的方程.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 541,
+        "end": 542
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 541,
+        "end": 542
+      }
+    ],
+    "id": "x1-1-2-h12B-11",
+    "category": "习题1.2B",
+    "answer": "11. $v\\left( {x - {x}_{0}}\\right)  - u\\left( {y - {y}_{0}}\\right)  = 0$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 668,
+        "end": 669
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  }
+]

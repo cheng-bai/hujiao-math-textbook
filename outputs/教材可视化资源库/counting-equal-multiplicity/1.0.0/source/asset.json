@@ -1,0 +1,136 @@
+{
+  "controls": [
+    {
+      "key": "scenario",
+      "label": "生成过程",
+      "options": [
+        {
+          "label": "六个不同元素取2，不放回",
+          "value": "distinct"
+        },
+        {
+          "label": "两枚公平骰子，允许同点数",
+          "value": "dice"
+        }
+      ],
+      "type": "select"
+    },
+    {
+      "key": "result",
+      "label": "选择最终结果，反查有序来源",
+      "options": [
+        {
+          "label": "{1,1}（同项仅骰子有效）",
+          "value": "1-1"
+        },
+        {
+          "label": "{1,2}",
+          "value": "1-2"
+        },
+        {
+          "label": "{1,3}",
+          "value": "1-3"
+        },
+        {
+          "label": "{1,4}",
+          "value": "1-4"
+        },
+        {
+          "label": "{1,5}",
+          "value": "1-5"
+        },
+        {
+          "label": "{1,6}",
+          "value": "1-6"
+        },
+        {
+          "label": "{2,2}（同项仅骰子有效）",
+          "value": "2-2"
+        },
+        {
+          "label": "{2,3}",
+          "value": "2-3"
+        },
+        {
+          "label": "{2,4}",
+          "value": "2-4"
+        },
+        {
+          "label": "{2,5}",
+          "value": "2-5"
+        },
+        {
+          "label": "{2,6}",
+          "value": "2-6"
+        },
+        {
+          "label": "{3,3}（同项仅骰子有效）",
+          "value": "3-3"
+        },
+        {
+          "label": "{3,4}",
+          "value": "3-4"
+        },
+        {
+          "label": "{3,5}",
+          "value": "3-5"
+        },
+        {
+          "label": "{3,6}",
+          "value": "3-6"
+        },
+        {
+          "label": "{4,4}（同项仅骰子有效）",
+          "value": "4-4"
+        },
+        {
+          "label": "{4,5}",
+          "value": "4-5"
+        },
+        {
+          "label": "{4,6}",
+          "value": "4-6"
+        },
+        {
+          "label": "{5,5}（同项仅骰子有效）",
+          "value": "5-5"
+        },
+        {
+          "label": "{5,6}",
+          "value": "5-6"
+        },
+        {
+          "label": "{6,6}（同项仅骰子有效）",
+          "value": "6-6"
+        }
+      ],
+      "type": "select"
+    }
+  ],
+  "explanationHtml": "<p>先问一个最终结果对应多少个有序生成过程，再判断这个数对所有最终结果是否一致。只有重复次数一致时，才可用有序结果总数统一相除。</p><p>从六个不同元素中不放回取两个。第一步有六种选择，第二步有五种选择，共三十个有序过程。对每组不同元素，两种次序都存在，且恰有这两种，因此：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mo>{</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>}</mo><mo>↔</mo><mo>(</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>)</mo><mo>、</mo><mo>(</mo><mi>j</mi><mo>,</mo><mi>i</mi><mo>)</mo><mo>，</mo><mi>i</mi><mo>≠</mo><mi>j</mi></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi mathvariant=\"normal\">C</mi><mn>6</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mrow><mn>6</mn><mo>×</mo><mn>5</mn></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>15</mn></math><p>换成两枚可区分的公平骰子独立投掷，有三十六个等可能有序结果。忽略顺序后，同点数组只有一种来源，异点数组有两种来源。六组同点数与十五组异点数共同组成二十一组，但被计次数并不统一：</p><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mn>36</mn><mo>=</mo><mn>6</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>15</mn><mo>×</mo><mn>2</mn><mo>，</mo><mn>21</mn><mo>=</mo><mn>6</mn><mo>+</mo><mn>15</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mi>P</mi><mo>(</mo><mo>{</mo><mi>i</mi><mo>,</mo><mi>i</mi><mo>}</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mn>1</mn></mrow><mrow><mn>36</mn></mrow></mfrac><mo>，</mo><mi>P</mi><mo>(</mo><mo>{</mo><mi>i</mi><mo>,</mo><mi>j</mi><mo>}</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn></mrow><mrow><mn>36</mn></mrow></mfrac><mo>，</mo><mi>i</mi><mo>≠</mo><mi>j</mi></math><p>因此不能用三十六统一除以二，也不能对无序结果直接使用“有利组数除以二十一”。这里最终结果写作无序对，花括号仅表示忽略顺序，不把同点数的两次出现删除。第一种场景选中同项时结果不存在，切换到骰子场景后才有效。左栏高亮逐一展示当前最终结果的全部来源。</p>",
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msubsup><mi mathvariant=\"normal\">C</mi><mn>6</mn><mn>2</mn></msubsup><mo>=</mo><mfrac><mrow><mn>6</mn><mo>×</mo><mn>5</mn></mrow><mrow><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>15</mn><mspace width=\"1em\"/><mn>36</mn><mo>=</mo><mn>6</mn><mo>×</mo><mn>1</mn><mo>+</mo><mn>15</mn><mo>×</mo><mn>2</mn></math>",
+  "goal": "选择一个最终结果，反查它对应的全部有序过程；比较统一重复与不统一重复，判断何时可以整体相除。",
+  "id": "counting-equal-multiplicity",
+  "initial": {
+    "result": "1-2",
+    "scenario": "distinct"
+  },
+  "placements": [
+    {
+      "afterBlockId": "x2-6-3-b10",
+      "rationale": "在排列与组合对应表后深化重复计数的条件，原公式推导和例题保持可见。",
+      "retainProse": true,
+      "sectionId": "x2-6-3"
+    }
+  ],
+  "stateKeys": {
+    "lesson": [],
+    "math": [
+      "scenario",
+      "result"
+    ],
+    "view": []
+  },
+  "summary": "场景一：从1至6六个不同元素中依次等可能地不放回取两个，共6×5=30个有序结果。忽略顺序后，每组{i,j}（i≠j）恰对应(i,j)、(j,i)，故共30÷2=15组。场景二：两枚可区分的公平骰子独立投掷，36个有序结果等可能；忽略顺序后，同点数组各有1个来源，异点数组各有2个来源，共6+15=21组。因此不能统一用36÷2计数，更不能把21个无序结果视为等可能：同点数组概率1/36，异点数组概率2/36。这里统一相除的依据是每个最终结果被计次数相同。选取重复项在不放回场景中无效，界面诚实保留该选择并标明结果不存在。",
+  "title": "为什么能除以重复次数：从有序过程到最终结果"
+}

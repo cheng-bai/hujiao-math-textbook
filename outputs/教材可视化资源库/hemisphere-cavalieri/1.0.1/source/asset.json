@@ -1,0 +1,36 @@
+{
+  "controls": [
+    {
+      "key": "level",
+      "label": "等高截面比例",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "range"
+    },
+    {
+      "key": "yaw",
+      "label": "观察视角（不改变数学关系）",
+      "max": 180,
+      "min": 0,
+      "step": 5,
+      "type": "range"
+    }
+  ],
+  "formula": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mi>S</mi><mtext>圆</mtext></msub><mo>=</mo><mi>π</mi><mo>(</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>h</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><msub><mi>S</mi><mtext>圆环</mtext></msub></math>",
+  "goal": "同步升降截面，比较圆盘与圆环的面积。",
+  "id": "hemisphere-cavalieri",
+  "initial": {
+    "level": 0.5,
+    "yaw": 35
+  },
+  "placements": [
+    {
+      "afterBlockId": "bx3-11-4-b12",
+      "rationale": "接替半球、圆柱减倒锥的截面面积推导。",
+      "sectionId": "bx3-11-4"
+    }
+  ],
+  "summary": "半径R的半球与同半径、同高R的圆柱挖去倒锥，在任意高度h的截面积同为π(R²−h²)。由祖暅原理得半球体积等于柱减锥，进而球体积为4πR³/3。",
+  "title": "球体积：半球与柱挖锥的截面对照"
+}

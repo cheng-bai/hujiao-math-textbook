@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "x1-3-3",
+  "book_id": "x1",
+  "section": "3.3",
+  "title": "空间向量的坐标表示",
+  "section_json": "batch/sections/x1/x1-3-3.json",
+  "output": "outputs/五册教材教参整合/x1/x1-3-3",
+  "fingerprint": "b8ae50cb58d8203b217f0a8c2a2710f8ae8567a8c37eeca6be1447136e4285b3",
+  "status": "rendered",
+  "questions": 13,
+  "answers": 13,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/private-d5b33d0f8bfacf1002fb.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_115_377_731_305_326_0.jpg",
+      "sha256": "d5b33d0f8bfacf1002fbe84f9b3c8af65a5ecb48b813ef36103a76367239dada",
+      "private": true
+    },
+    "images/private-9b194c8d4e305db706ae.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_115_827_730_304_329_0.jpg",
+      "sha256": "9b194c8d4e305db706aea660dba403ddf71fa992de48e9f90b331b5cbe1732ec",
+      "private": true
+    },
+    "images/book-84fdad60d1400243d152.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_12_265_1066_309_301_0.jpg",
+      "sha256": "84fdad60d1400243d1520939a1cf7cf9918144bd2dd893e9e1d85fb2e7f37166",
+      "private": false
+    },
+    "images/book-10491688c9e75864190a.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_12_698_1075_292_292_0.jpg",
+      "sha256": "10491688c9e75864190adafa8466c171d60b54daec2c3dec5a7379133aa99846",
+      "private": false
+    },
+    "images/book-9db05ef6761021751ce7.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_12_318_1802_221_258_0.jpg",
+      "sha256": "9db05ef6761021751ce7e65d19d2bc106957ce85e24f39d3c85d9ae9c9ec91eb",
+      "private": false
+    },
+    "images/book-307b4bc8bdcc34824dd1.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_12_708_1802_254_253_0.jpg",
+      "sha256": "307b4bc8bdcc34824dd1236230f5952331eccd08e706d36feb4bd47958bff00f",
+      "private": false
+    },
+    "images/book-41a53993e3cb79299f92.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_13_875_551_314_309_0.jpg",
+      "sha256": "41a53993e3cb79299f92649d8b6ed21ff13183196f78f9fcaee9ea10fd34c4f0",
+      "private": false
+    },
+    "images/private-660202ae5a565b4e12c6.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_13_866_1364_304_357_0.jpg",
+      "sha256": "660202ae5a565b4e12c6804f9820bdc2102518804206f71d4993229b9d32f58f",
+      "private": true
+    },
+    "images/book-b00d9dc06b625f1007b9.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_15_203_1706_310_332_0.jpg",
+      "sha256": "b00d9dc06b625f1007b9cedcb0606099e9491cff94c9048c09559c75b293b37a",
+      "private": false
+    },
+    "images/private-0e02fe520430eb9f0e40.jpg": {
+      "source": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/images/bo_d402onjef24c73d2tg30_124_1130_529_288_332_0.jpg",
+      "sha256": "0e02fe520430eb9f0e40be513f88a1049e1bdddec34c180a32f7257d011b97b3",
+      "private": true
+    },
+    "images/book-abe2861932c7f2a41a7d.jpg": {
+      "source": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_17_1204_584_280_410_0.jpg",
+      "sha256": "abe2861932c7f2a41a7d8f23dc490825e938220112f9b51575db2a964ca5ee57",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md": "1e3cd03d43dd2ceeb42039c755ee92003783dda82c509d0e747b4fd848d2b90f",
+    "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md": "2795fdb941767d4493f7f6181ceb749da23fc49866ab2bdb7cf6119fbd1c4405"
+  },
+  "student_images": [
+    "images/book-10491688c9e75864190a.jpg",
+    "images/book-307b4bc8bdcc34824dd1.jpg",
+    "images/book-41a53993e3cb79299f92.jpg",
+    "images/book-84fdad60d1400243d152.jpg",
+    "images/book-9db05ef6761021751ce7.jpg",
+    "images/book-abe2861932c7f2a41a7d.jpg",
+    "images/book-b00d9dc06b625f1007b9.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "1b662e1b81456c39176b553bf2665e784bc2fc69c87e7ab6a45d38f98f04e0a8",
+    "student.html": "b13ae1979fe1095a5bf64c9970d26a8d22b89ae93a882f83b8f7269f3342a967",
+    "student.zip": "a0d9ebb4ff524bd9fc8c0f9593aab1a3efedafcd03931fb25be584705220310f",
+    "content.json": "bb6b5fd3e531d60f1aa94d657286dd33056cbd4367be7988448f2578f1337dd7"
+  }
+}

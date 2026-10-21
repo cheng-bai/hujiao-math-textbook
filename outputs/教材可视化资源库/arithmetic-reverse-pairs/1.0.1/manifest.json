@@ -1,0 +1,303 @@
+{
+  "asset_id": "c507cea0-91d3-5c4c-b648-d51abecca3e0",
+  "contributors": [
+    {
+      "name": "Codex space-sequence implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:04Z",
+  "default_state": {
+    "lesson": {
+      "progress": 0.7
+    },
+    "math": {
+      "difference": 1,
+      "n": 7
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "space-sequence",
+    "source_build_sha256": "1ff2d8e0138635ff0850959a47e6f12bb62f1d3ed1431d8dfa9ea1d202834f6d",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x1-4-1-b14",
+          "rationale": "接替高斯算法、倒序相加与公式推导的逐行重复解释。",
+          "sectionId": "x1-4-1",
+          "sourceSha256": "0155871f17e9ad3f7dc87d0e953131be8cefda3060705bb270cd5cab85b9fdbc"
+        }
+      ],
+      "sections": [
+        "x1-4-1"
+      ]
+    },
+    "release_relocation": {
+      "previous_version": "1.0.0",
+      "reason": "Portable source provenance paths; mathematical runtime unchanged."
+    }
+  },
+  "files": [
+    {
+      "bytes": 31306,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "1ff2d8e0138635ff0850959a47e6f12bb62f1d3ed1431d8dfa9ea1d202834f6d"
+    },
+    {
+      "bytes": 6227,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "54128fedcfdee8a50ea061106359ee9b7c2cf9f9f174224468d305dc86449274"
+    },
+    {
+      "bytes": 19087,
+      "media_type": "text/javascript",
+      "path": "source/space-sequence.js",
+      "role": "source",
+      "sha256": "5e9da0fcec922d04f6ffd04a072ca2c0be145eb1d21fec34989e137e95ce818b"
+    },
+    {
+      "bytes": 29131,
+      "media_type": "application/json",
+      "path": "source/space-sequence.json",
+      "role": "source",
+      "sha256": "47e1ce8a020dc5ef5d51c7d2e33ba706a14e68baf7e553bcb144df1b18cf3bd6"
+    },
+    {
+      "bytes": 8068,
+      "media_type": "text/javascript",
+      "path": "source/test-space-sequence.mjs",
+      "role": "source",
+      "sha256": "9f9b52bb7d8573dbbcd667237ddd88bb319adc19165954d675a1cb4e5ebb3d24"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1396,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "1ff2f561a5f60988c5fbe8d3e53b3cdd600f1f9f42e85f93a3a848be4b888441"
+    },
+    {
+      "bytes": 3233,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "4010aded5d0fd267c6b08b107b36f22a51854779038c8d3b7686aa26aaddda0f"
+    },
+    {
+      "bytes": 1049,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "06014498630bc8b2c62fc42dff9c479a6d6082d0e793598acd7d8af385a77dbc"
+    },
+    {
+      "bytes": 2692,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "62a4dbcf9b0a1f66a1a861e0355f0ef18be93c5a96e07eac12674198b7a3d8e2"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "795dc9fb5a035d1dd42ab53bc2b6215cf188049b285887a2cf43580731a86704"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 520,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "90206662c8331d98af776ebd12db82be6ea58b4b713f2fb9b9d755c01157742c"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "等差数列正序与倒序逐项相加，每列之和都是首尾项和。共有n列，总和是原和的两倍，故前n项和为n倍首尾和的一半。图形示例取非负公差，代数方法不受此限制。"
+    ],
+    "learning_goals": [
+      "把倒序条形移到正序条形上，观察每列总和相同。"
+    ],
+    "objects": [
+      "等差求和：把倒序数列拼成等高列"
+    ],
+    "parameters": {
+      "difference": {
+        "default": 1,
+        "display_range": [
+          0,
+          4
+        ],
+        "domain": "本实验允许输入范围 [0, 4]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "n": {
+        "default": 7,
+        "display_range": [
+          2,
+          10
+        ],
+        "domain": "本实验允许输入范围 [2, 10]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "space-sequence"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "把倒序条形移到正序条形上，观察每列总和相同。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {
+          "progress": 0.7
+        },
+        "math": {
+          "difference": 1,
+          "n": 7
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "arithmetic-reverse-pairs",
+  "state_contract": {
+    "lesson": {
+      "progress": {
+        "maximum": 1,
+        "minimum": 0,
+        "type": "number"
+      }
+    },
+    "math": {
+      "difference": {
+        "maximum": 4,
+        "minimum": 0,
+        "type": "number"
+      },
+      "n": {
+        "maximum": 10,
+        "minimum": 2,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "等差求和：把倒序数列拼成等高列",
+  "updated_at": "2026-10-21T06:06:17.309761Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "Historical evidence only: source provenance was relocated for this release. Rerun required for the changed source hash.",
+      "status": "pending"
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128808Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "1ff2d8e0138635ff0850959a47e6f12bb62f1d3ed1431d8dfa9ea1d202834f6d"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.128808Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "1ff2d8e0138635ff0850959a47e6f12bb62f1d3ed1431d8dfa9ea1d202834f6d"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.1"
+}

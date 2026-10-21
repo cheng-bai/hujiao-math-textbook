@@ -1,0 +1,291 @@
+{
+  "asset_id": "3e237b17-5a27-5d2f-af44-1ad69ca9cbec",
+  "contributors": [
+    {
+      "name": "Codex foundations implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:02Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "angle": 45
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "foundations",
+    "source_build_sha256": "7cfcd286995593ad84b86e1eb175747f468675a9b248a436fd52adf99b13d5e8",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "bx2-6-1-b25",
+          "rationale": "覆盖本节原prose第25块：将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。；原文含定义、证明或表格，完整保留在可展开区，核心条件与结论在摘要/公式中常显。",
+          "sectionId": "bx2-6-1",
+          "sourceSha256": "eaa1ff37f3a3dd4ee760debda36c1ac128f059532bfd0072e9fd00f23bb640be"
+        }
+      ],
+      "sections": [
+        "bx2-6-1"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 25022,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "7cfcd286995593ad84b86e1eb175747f468675a9b248a436fd52adf99b13d5e8"
+    },
+    {
+      "bytes": 10410,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "f406400eb077399a08b11b53087ed12eda4e5fabc8746f886a5434f5837d00c1"
+    },
+    {
+      "bytes": 12180,
+      "media_type": "text/javascript",
+      "path": "source/foundations.js",
+      "role": "source",
+      "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+    },
+    {
+      "bytes": 31651,
+      "media_type": "application/json",
+      "path": "source/foundations.json",
+      "role": "source",
+      "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+    },
+    {
+      "bytes": 4611,
+      "media_type": "text/javascript",
+      "path": "source/test-foundations.mjs",
+      "role": "source",
+      "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1856,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "d82ffb023fd596ba6c89561ba41b4969fcd8a1fa57139f194637ac908142e3d3"
+    },
+    {
+      "bytes": 3140,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "41ce79c19ff43505aeae0de35011e4b8bcfb2044911984fb8b70aa4db6f68686"
+    },
+    {
+      "bytes": 1048,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "d18552b8e7e88de5c39b5e776812408d37e05ba02cfae079eb2463ae0883018e"
+    },
+    {
+      "bytes": 2427,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "fc9d9d3d55ae4fe5c49e0e353b1353050f8c2dbf4aa297bc0c112d9239e0cb2d"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "4ecc085d288400d41cc784c16ea4b28b50af0858bbcf044400bc46512ac22898"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 523,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "c2e2edcea6ddf828a1731f0979bb0ff6d1efbc350965b74a1d3bd8c25ab1eb02"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "将角顶点放在原点、始边放在 x 正半轴，终边任取非原点 P(x,y)，r 为到原点距离。锐角三角比推广为带符号坐标与 r 的比；取单位圆 r=1 后，横纵坐标直接成为 cos 与 sin。终边同向伸缩不改比值，转过整周也不改值；tan、cot 必须分别排除分母为零的情形。"
+    ],
+    "learning_goals": [
+      "将终边点的坐标与四种三角比联动，解释跨象限符号和不存在的比值。"
+    ],
+    "objects": [
+      "单位圆：带符号投影统一四种三角比"
+    ],
+    "parameters": {
+      "angle": {
+        "default": 45,
+        "display_range": [
+          -360,
+          720
+        ],
+        "domain": "本实验允许输入范围 [-360, 720]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "foundations"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "依照本地 Anatomy 数学交互规范新建教材专用纯模型场景；不改动或冒称复用既有题解资产。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "angle": 45
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "unit-circle-projection",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "angle": {
+        "maximum": 720,
+        "minimum": -360,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "单位圆：带符号投影统一四种三角比",
+  "updated_at": "2026-10-19T16:47:02Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/foundations.js",
+          "sha256": "79a405ea919e4b18238519c6b1a64c2226d22b85b2c577a15a06b606674022b8"
+        },
+        {
+          "path": "source/foundations.json",
+          "sha256": "6f63c2f719b4a85f7dfde161a909968a47fd886a800ae626edd17f61925851bf"
+        },
+        {
+          "path": "source/test-foundations.mjs",
+          "sha256": "6c52b8916b6008f7e58a0fe69edcd5abef61eba1e58cdcced9a27088d75282a0"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126234Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "7cfcd286995593ad84b86e1eb175747f468675a9b248a436fd52adf99b13d5e8"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.126234Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "7cfcd286995593ad84b86e1eb175747f468675a9b248a436fd52adf99b13d5e8"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

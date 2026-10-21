@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="student" data-section-id="x1-4-2"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>4.2 等比数列 · 学生阅读版</title><link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css"><link rel="stylesheet" href="../_shared/visual-book.css"><script defer src="../_shared/visual-assets/textbook-catalog-x1.js"></script><script defer src="../_shared/visual-assets/visual-manifest.js"></script><script defer src="../_shared/visual-assets/textbook-geometric-shift-cancel.js"></script><script defer src="../_shared/visual-assets/module-data-student.js"></script><script defer src="../_shared/visual-assets/conic-catalog.js"></script><script defer src="../_shared/visual-book.js"></script><style>
+.source-warning{border-color:#a43825;background:#fff0e5;color:#702b20}.source-warning h2{font-size:22px}
+.source-table{max-width:100%;overflow-x:auto;margin:16px 0}.source-table table{border-collapse:collapse;min-width:60%;font-size:.94em}.source-table td,.source-table th{border:1px solid var(--rule);padding:6px 10px;vertical-align:top}.source-table th{background:#edf0e7}
+@media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
+@media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
+</style><script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<body><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><aside class="sidebar"><a class="brand" href="#top">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">选择性必修第一册 / 第4章数列</div><div class="spine-number">4.2</div><nav aria-label="本节目录"><a href="#x1-4-2"><span>4.2</span>等比数列</a></nav><div class="sidebar-foot">沪教数学讲义<br>学生独立文件</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">学生阅读 <span class="subtle">/ 4.2</span></span><div class="controls"><span class="student-tag">学生阅读版 · 不含题答与教师内容</span><button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button><button id="visual-open">可视化模块</button></div></header><main id="reading"><header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION 4.2</div><p class="edition">学生阅读版 / 沪教版高中数学</p><h1>等比数列<span class="cover-dot">.</span></h1><p class="cover-deck">选择性必修第一册<br>第4章数列 · 保留教材主线与原题</p><div class="chapter-meta"><span>1 个阅读模块</span><span>8 个例题</span><span>23 道练习与习题</span></div></header><div class="book-body"><section class="content-module" data-module="x1-4-2" data-title="等比数列"><section class="section-heading" id="x1-4-2"><span class="section-number">4.2</span><div><h2>等比数列</h2><p>教材与正式教参整合</p></div></section><h3 class="group-heading" id="x1-4-2-b2">1 等比数列及其通项公式</h3><div class="prose" data-visual-source-sha="9c17ec0c4eddee728a28c7720ee731a1b2b384bfa8b9809138150bbd62a1438b" id="x1-4-2-b3"><p>观察以下数列, 看这些数列有什么共同特点.</p>
+<p>(1)-1 的 1 次幂、2 次幂、3 次幂、4 次幂……依次为</p>
+<div class="math display" data-tex="- 1,1, - 1,1,\cdots \text{ . }" data-display="true"></div>
+<p>①</p>
+<p>(2)科克雪花曲线. 即将一个边长为 1 的等边三角形的每条边三等分, 以中间一段为边向外作等边三角形, 并擦去中间一段, 如图 4-2-1, 如此继续下去得到图形的每条边的长度依次为</p>
+<div class="math display" data-tex="1,\frac{1}{3},\frac{1}{9},\frac{1}{27},\cdots" data-display="true"></div>
+<p>②</p>
+<p><img src="images/book-e9900d7bff180058709a.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-2-1</p>
+<p>(3)图 4-2-1 中的每个图形的边数依次为</p>
+<div class="math display" data-tex="3,{12},{48},{192},\cdots \text{ . }" data-display="true"></div>
+<p>③</p>
+<p>可以看到, 对于数列①, 从第 2 项起, 每一项与其前一项的比都等于 -1 ; 对于数列②, 从第 2 项起, 每一项与其前一项的比都等于 <span class="math" data-tex="\frac{1}{3}" data-display="false"></span> ; 对于数列③,从第 2 项起,每一项与其前一项的比都等于 4 .</p>
+<p>这些数列有一个共同特点: 从第 2 项起, 每一项与其前一项的比都等于同一个常数.</p>
+<aside class="key-point key-concept" id="x1-4-2-definition-3-0" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>定义 如果一个数列从第 2 项起, 每一项与其前一项的比都等于同一个非零常数, 这个数列就叫做等比数列 (geometric sequence), 而这个常数叫做等比数列的公比(common ratio). 公比通常用小写字母 <span class="math" data-tex="q\left( {q \neq  0}\right)" data-display="false"></span> 表示.</p>
+</aside><hr />
+<p>既是等差数列又是等比数列的数列存在吗? 如果存在, 你能举出例子吗?</p>
+<hr />
+<aside class="key-point key-concept" id="x1-4-2-definition-3-1" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>在两个非零实数 <span class="math" data-tex="a" data-display="false"></span> 与 <span class="math" data-tex="b" data-display="false"></span> 中间插入一个数 <span class="math" data-tex="G" data-display="false"></span> ,使 <span class="math" data-tex="a, G, b" data-display="false"></span> 成等比数列. 根据等比数列的定义,有 <span class="math" data-tex="\frac{G}{a} = \frac{b}{G}" data-display="false"></span> ,从而 <span class="math" data-tex="{G}^{2} = {ab}" data-display="false"></span> ,即 <span class="math" data-tex="G = \sqrt{ab}" data-display="false"></span> 或 <span class="math" data-tex="G =  - \sqrt{ab}" data-display="false"></span> . 这两种情形下, <span class="math" data-tex="a, G, b" data-display="false"></span> 均为等比数列. 此时, <span class="math" data-tex="G" data-display="false"></span> 叫做 <span class="math" data-tex="a" data-display="false"></span> 与 <span class="math" data-tex="b" data-display="false"></span> 的等比中项.</p>
+</aside><p>根据等比数列的定义,以 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 为首项、以 <span class="math" data-tex="q" data-display="false"></span> 为公比的等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="\frac{{a}_{n}}{{a}_{n - 1}} = q\left( {n \geq  2}\right)" data-display="false"></span> . 因此,当 <span class="math" data-tex="n \geq  2" data-display="false"></span> 时,有</p>
+<div class="math display" data-tex="\frac{{a}_{2}}{{a}_{1}} = q,\frac{{a}_{3}}{{a}_{2}} = q,\frac{{a}_{4}}{{a}_{3}} = q,\cdots ,\frac{{a}_{n}}{{a}_{n - 1}} = q." data-display="true"></div>
+<p>由此可得, <span class="math" data-tex="\frac{{a}_{n}}{{a}_{1}} = {q}^{n - 1}" data-display="false"></span> . 所以, <span class="math" data-tex="{a}_{n} = {a}_{1}{q}^{n - 1}\left( {n \geq  2}\right)" data-display="false"></span> . 而当 <span class="math" data-tex="n = 1" data-display="false"></span> 时,上面的等式也显然成立.</p>
+<p>因此,当 <span class="math" data-tex="n" data-display="false"></span> 为正整数时,等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的第 <span class="math" data-tex="n" data-display="false"></span> 项可表示为</p>
+<div class="math display" data-tex="{a}_{n} = {a}_{1}{q}^{n - 1}." data-display="true"></div>
+<aside class="key-point key-concept" id="x1-4-2-definition-3-2" data-emphasis="concept"><div class="key-label">编辑标注 · 关键概念</div><h3>教材概念与条件</h3><p>这称为等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式.</p>
+</aside></div><article class="question" id="x1-4-2-ex-1" data-question-id="x1-4-2-ex-1" data-category="example"><div class="question-label">例题 1</div><div class="question-body"><p>例 1 设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列.</p>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = 3" data-display="false"></span> ，公比 <span class="math" data-tex="q =  - 2" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{6}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{3} = {20},{a}_{6} = {160}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{n}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-ex-2" data-question-id="x1-4-2-ex-2" data-category="example"><div class="question-label">例题 2</div><div class="question-body"><p>例 2 某种放射性物质不断衰变为其他物质, 设每经过一年剩余的这种放射性物质是年初的 84%. 这种放射性物质的半衰期约为多少? (结果精确到 1 年)</p>
+</div></article><article class="question" id="x1-4-2-ex-3" data-question-id="x1-4-2-ex-3" data-category="example"><div class="question-label">例题 3</div><div class="question-body"><p>例 3 (1)已知 <span class="math" data-tex="a, b, c" data-display="false"></span> 成等差数列，其公差为 <span class="math" data-tex="d" data-display="false"></span> . 求证: <span class="math" data-tex="{3}^{a},{3}^{b},{3}^{c}" data-display="false"></span> 成等比数列.</p>
+<p>(2)已知正实数 <span class="math" data-tex="a, b, c" data-display="false"></span> 成等比数列，其公比为 <span class="math" data-tex="q" data-display="false"></span> . 求证: <span class="math" data-tex="\lg a,\lg b,\lg c" data-display="false"></span> 成等差数列.</p>
+</div></article><h3 class="group-heading" id="x1-4-2-b7">练习 4.2(1)</h3><article class="question" id="x1-4-2-p421-1" data-question-id="x1-4-2-p421-1" data-category="practice"><div class="question-label">练习4.2(1) · 1</div><div class="question-body"><ol>
+<li>下列数列中成等比数列的是 ( )</li>
+</ol>
+<p>A. <span class="math" data-tex="1,\frac{1}{4},\frac{1}{9},\frac{1}{16}" data-display="false"></span> ; B. <span class="math" data-tex="1,1, - 1, - 1" data-display="false"></span> ;</p>
+<p>C. <span class="math" data-tex="1,\frac{\sqrt{2}}{2},\frac{1}{2},\frac{\sqrt{2}}{4}" data-display="false"></span> ; D. <span class="math" data-tex="\frac{1}{2},2,\frac{1}{2},2" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-p421-2" data-question-id="x1-4-2-p421-2" data-category="practice"><div class="question-label">练习4.2(1) · 2</div><div class="question-body"><ol start="2">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其公比为 <span class="math" data-tex="q" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} =  - 3, q = 2" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{5}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} = 1, q = 2,{a}_{n} = {16}" data-display="false"></span> ，求 <span class="math" data-tex="n" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} = \frac{1}{3},{a}_{7} = 9" data-display="false"></span> ，求 <span class="math" data-tex="q" data-display="false"></span> ；</p>
+<p>(4)已知 <span class="math" data-tex="q =  - \frac{3}{2},{a}_{4} =  - {27}" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-p421-3" data-question-id="x1-4-2-p421-3" data-category="practice"><div class="question-label">练习4.2(1) · 3</div><div class="question-body"><ol start="3">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等比数列,正整数 <span class="math" data-tex="m\text{ 、 }n\text{ 、 }s\text{ 、 }t" data-display="false"></span> 满足 <span class="math" data-tex="m + n = s + t" data-display="false"></span> . 求证: <span class="math" data-tex="{a}_{m} \cdot  {a}_{n} = \; {a}_{s} \cdot  {a}_{t}" data-display="false"></span> .</li>
+</ol>
+</div></article><h3 class="group-heading" id="x1-4-2-b11">2 等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和</h3><div class="prose" data-visual-source-sha="d18dcd05b38ef3cf66cc9f922d17d79860f0941db4384acca38846bb883740ea" id="x1-4-2-b12"><p>国际象棋起源于古代印度. 发明者将棋盘划分为 8 行 8 列, 构成 64 个方格. 相传国王要奖励该发明者, 问他有什么要求. 发明者说: “请在棋盘的第 1 个格子里放上 1 颗麦粒, 在第 2 个格子里放上 2 颗麦粒, 在第 3 个格子里放上 4 颗麦粒, 依次类推, 每个格子里放的麦粒数都是前一个格子里放的麦粒数的 2 倍, 直到放完 64 个格子为止. 请给我足够的麦粒以实现上述要求. ”这位发明者要了多少颗麦粒？国王能实现他的要求吗?</p>
+<p><img src="images/book-dff2bc23229c853b249a.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>这实际上是求以 1 为首项、以 2 为公比的等比数列的前 64 项的和:</p>
+<div class="math display" data-tex="{S}_{64} = 1 + 2 + {2}^{2} + \cdots  + {2}^{62} + {2}^{63}." data-display="true"></div>
+<p>如果用公比 2 乘上述等式的两边, 就得到</p>
+<div class="math display" data-tex="2{S}_{64} = 2 + {2}^{2} + {2}^{3}\cdots  + {2}^{63} + {2}^{64}." data-display="true"></div>
+<p>可以发现, 上面两式中有许多相同的项, 两式相减可以消去这些项, 得到</p>
+<div class="math display" data-tex="{S}_{64} = {2}^{64} - 1." data-display="true"></div>
+<p>这是一个二十位数, 将这些小麦折算成质量 (每千粒麦子的质量设为 40 <span class="math" data-tex="\mathrm{g}" data-display="false"></span> ),会超过 7000 亿吨. 即使到小麦年产量比较高的现代，全世界小麦年总产量也远低于 10 亿吨，国王根本满足不了发明者的要求.</p>
+<p>一般地,设等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的公比为 <span class="math" data-tex="q" data-display="false"></span> ,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为</p>
+<div class="math display" data-tex="{S}_{n} = {a}_{1} + {a}_{1}q + {a}_{1}{q}^{2} + \cdots  + {a}_{1}{q}^{n - 1}." data-display="true"></div>
+<p>将上式两边同乘公比 <span class="math" data-tex="q" data-display="false"></span> ,可得</p>
+<div class="math display" data-tex="q{S}_{n} = {a}_{1}q + {a}_{1}{q}^{2} + {a}_{1}{q}^{3} + \cdots  + {a}_{1}{q}^{n}." data-display="true"></div>
+<p>将两式相减, 可得</p>
+<div class="math display" data-tex="{S}_{n} - q{S}_{n} = {a}_{1} - {a}_{1}{q}^{n}," data-display="true"></div>
+<p>即</p>
+<div class="math display" data-tex="\left( {1 - q}\right) {S}_{n} = {a}_{1}\left( {1 - {q}^{n}}\right) ." data-display="true"></div>
+<p>由此得到,当 <span class="math" data-tex="q \neq  1" data-display="false"></span> 时,等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和为</p>
+<div class="math display" data-tex="{S}_{n} = \frac{{a}_{1}\left( {1 - {q}^{n}}\right) }{1 - q}." data-display="true"></div>
+<aside class="key-point key-formula" id="x1-4-2-formula-12-0" data-emphasis="formula"><div class="key-label">编辑标注 · 重要公式</div><h3>教材公式</h3><p>综上所述,可以得到以 <span class="math" data-tex="{a}_{1}" data-display="false"></span> 为首项、以 <span class="math" data-tex="q\left( {q \neq  1}\right)" data-display="false"></span> 为公比的等比数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和公式为</p>
+<div class="math display" data-tex="{S}_{n} = \frac{{a}_{1}\left( {1 - {q}^{n}}\right) }{1 - q}\left( {q \neq  1}\right) ." data-display="true"></div>
+</aside><p>因为 <span class="math" data-tex="{a}_{n} = {a}_{1}{q}^{n - 1}" data-display="false"></span> ,所以上式又可写为</p>
+<div class="math display" data-tex="{S}_{n} = \frac{{a}_{1} - {a}_{n}q}{1 - q}\left( {q \neq  1}\right) ." data-display="true"></div>
+<p>而当 <span class="math" data-tex="q = 1" data-display="false"></span> 时,因为 <span class="math" data-tex="{a}_{1} = {a}_{2} = \cdots  = {a}_{n}" data-display="false"></span> ,所以 <span class="math" data-tex="{S}_{n} = n{a}_{1}" data-display="false"></span> .</p>
+</div><article class="question" id="x1-4-2-ex-4" data-question-id="x1-4-2-ex-4" data-category="example"><div class="question-label">例题 4</div><div class="question-body"><p>例 4 设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</p>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} =  - 4" data-display="false"></span> ，公比 <span class="math" data-tex="q =  - \frac{1}{2}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{10}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} = {27},{a}_{n} = \frac{1}{243}" data-display="false"></span> ，公比 <span class="math" data-tex="q =  - \frac{1}{3}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-ex-5" data-question-id="x1-4-2-ex-5" data-category="example"><div class="question-label">例题 5</div><div class="question-body"><p>例 5 在等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> . 已知 <span class="math" data-tex="{S}_{3} = \frac{7}{2}" data-display="false"></span> , <span class="math" data-tex="{S}_{6} = \frac{63}{2}" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{n}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-ex-6" data-question-id="x1-4-2-ex-6" data-category="example"><div class="question-label">例题 6</div><div class="question-body"><p>例 6 已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n} = {3}^{n} + a" data-display="false"></span> . 当常数 <span class="math" data-tex="a" data-display="false"></span> 满足什么条件时,数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是等比数列?</p>
+</div></article><h3 class="group-heading" id="x1-4-2-b16">练习 <span class="math" data-tex="\mathbf{{4.2}\left( 2\right) }" data-display="false"></span></h3><article class="question" id="x1-4-2-p422-1" data-question-id="x1-4-2-p422-1" data-category="practice"><div class="question-label">练习4.2(2) · 1</div><div class="question-body"><ol>
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = 3" data-display="false"></span> ，公比 <span class="math" data-tex="q = 2" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{6}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{1} =  - {2.7}" data-display="false"></span> ，公比 <span class="math" data-tex="q =  - \frac{1}{3}" data-display="false"></span> ， <span class="math" data-tex="{a}_{n} = \frac{1}{90}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-p422-2" data-question-id="x1-4-2-p422-2" data-category="practice"><div class="question-label">练习4.2(2) · 2</div><div class="question-body"><ol start="2">
+<li>已知等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 5 项和为 10，前 10 项和为 50 . 求这个数列的前 15 项和.</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-p422-3" data-question-id="x1-4-2-p422-3" data-category="practice"><div class="question-label">练习4.2(2) · 3</div><div class="question-body"><ol start="3">
+<li>中国古代数学著作《算法统宗》中有这样一个问题: “三百七十八里关，初行健步不为难，次日脚痛减一半，六朝才得到其关，要见次日行里数，请公仔细算相还.”其意思为:有一个人要走 378 里路，第一天健步行走，从第二天起因为脚痛，每天走的路程为前一天的一半, 走了 6 天后到达目的地. 请问第二天走了多少里.</li>
+</ol>
+<p>中国古代庄周所著的《庄子·天下篇》说:“一尺之棰，日取其半, 万世不竭. ”其含义是: 一根一尺长的木棒, 每天截取其一半, 这样的过程可以无限进行下去. 如果从第一天开始截取, 把木棒每天剩余的长度记录下来，可得到下面一个数列:</p>
+<div class="math display" data-tex="\frac{1}{2},\frac{1}{4},\frac{1}{8},\frac{1}{16},\cdots ,{\left( \frac{1}{2}\right) }^{n},\cdots ." data-display="true"></div>
+<hr />
+<p>一个数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 中, 如果当 <span class="math" data-tex="n" data-display="false"></span> 无限增大时, <span class="math" data-tex="{a}_{n}" data-display="false"></span> 的值越来越趋近于某个确定的数 <span class="math" data-tex="a" data-display="false"></span> ,那么称这个数列的极限为 <span class="math" data-tex="a" data-display="false"></span> ,记作 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{a}_{n} = a" data-display="false"></span> , 其中记号 <span class="math" data-tex="\lim" data-display="false"></span> 是英文单词 limit (极限) 的缩写.</p>
+<hr />
+<p>随着 <span class="math" data-tex="n" data-display="false"></span> 无限增大,此数列的第 <span class="math" data-tex="n" data-display="false"></span> 项 <span class="math" data-tex="{a}_{n} = {\left( \frac{1}{2}\right) }^{n}" data-display="false"></span> 的值越来越趋近于零,从而 <span class="math" data-tex="{a}_{n}" data-display="false"></span> 的极限为零. 记作 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{a}_{n} = 0" data-display="false"></span> .</p>
+<p>上述数列的前 <span class="math" data-tex="n" data-display="false"></span> 项之和为</p>
+<div class="math display" data-tex="{S}_{n} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots  + {\left( \frac{1}{2}\right) }^{n}" data-display="true"></div>
+<div class="math display" data-tex="= \frac{\frac{1}{2}\left\lbrack  {1 - {\left( \frac{1}{2}\right) }^{n}}\right\rbrack  }{1 - \frac{1}{2}}" data-display="true"></div>
+<div class="math display" data-tex="= 1 - {\left( \frac{1}{2}\right) }^{n}\text{ . }" data-display="true"></div>
+<p>随着 <span class="math" data-tex="n" data-display="false"></span> 无限增大, <span class="math" data-tex="{\left( \frac{1}{2}\right) }^{n}" data-display="false"></span> 的值越来越趋近于零, <span class="math" data-tex="{S}_{n}" data-display="false"></span> 的值越来越趋近于 1,从而 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 的极限为 1,记作 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{S}_{n} = 1" data-display="false"></span> .</p>
+<p>更一般地,对于首项为 <span class="math" data-tex="a" data-display="false"></span> 、公比为 <span class="math" data-tex="q" data-display="false"></span> 的等比数列:</p>
+<div class="math display" data-tex="{a}_{n} = a{q}^{n - 1}\text{ ( }n\text{ 为正整数), }" data-display="true"></div>
+<p>当 <span class="math" data-tex="0 &lt; \left| q\right|  &lt; 1" data-display="false"></span> 时,此数列的前 <span class="math" data-tex="n" data-display="false"></span> 项和为</p>
+<div class="math display" data-tex="{S}_{n} = a + {aq} + \cdots  + a{q}^{n - 1}" data-display="true"></div>
+<div class="math display" data-tex="= \frac{a}{1 - q}\left( {1 - {q}^{n}}\right) ." data-display="true"></div>
+<p>随着 <span class="math" data-tex="n" data-display="false"></span> 无限增大, <span class="math" data-tex="{q}^{n}" data-display="false"></span> 的值越来越趋近于零, <span class="math" data-tex="{S}_{n}" data-display="false"></span> 的值越来越趋近于 <span class="math" data-tex="\frac{a}{1 - q}" data-display="false"></span> ,从而 <span class="math" data-tex="{S}_{n}" data-display="false"></span> 的极限为 <span class="math" data-tex="\frac{a}{1 - q}" data-display="false"></span> ,记作 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{S}_{n} = \frac{a}{1 - q}" data-display="false"></span> .</p>
+<hr />
+<p>如果一个数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ,则 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{{+\infty }}{a}_{i}" data-display="false"></span> 表示 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{S}_{n}" data-display="false"></span> .</p>
+<hr />
+<p>综上所述，以 <span class="math" data-tex="a" data-display="false"></span> 为首项、 <span class="math" data-tex="q" data-display="false"></span> 为公比的等比数列，当公比 <span class="math" data-tex="0 &lt; \; \left| q\right|  &lt; 1" data-display="false"></span> 时,有</p>
+<div class="math display" data-tex="\mathop{\sum }\limits_{{i = 1}}^{{+\infty }}a{q}^{i - 1} = \frac{a}{1 - q}." data-display="true"></div>
+</div></article><article class="question" id="x1-4-2-ex-7" data-question-id="x1-4-2-ex-7" data-category="example"><div class="question-label">例题 7</div><div class="question-body"><p>例 7 化下列循环小数为分数:</p>
+<p>(1)0.29； (2)0.431 .</p>
+</div></article><article class="question" id="x1-4-2-ex-8" data-question-id="x1-4-2-ex-8" data-category="example"><div class="question-label">例题 8</div><div class="question-body"><p>例 8 如图 4-2-2,正方形 <span class="math" data-tex="{ABCD}" data-display="false"></span> 的边长等于 1,连接这个正方形各边的中点得到一个小正方形 <span class="math" data-tex="{A}_{1}{B}_{1}{C}_{1}{D}_{1}" data-display="false"></span> ; 又连接正方形 <span class="math" data-tex="{A}_{1}{B}_{1}{C}_{1}{D}_{1}" data-display="false"></span> 各边的中点得到一个更小的正方形 <span class="math" data-tex="{A}_{2}{B}_{2}{C}_{2}{D}_{2}" data-display="false"></span> ; 如此无限继续下去. 求所有这些正方形的周长的和与面积的和.</p>
+<div class="math display" data-tex="{0.4}\dot{3}\dot{1} = {0.4} + \frac{0.031}{1 - {0.01}} = \frac{4}{10} + \frac{31}{990} = \frac{427}{990}." data-display="true"></div>
+<p><img src="images/book-64e24eb3b4a4c0a248a4.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>图 4-2-2</p>
+</div></article><h3 class="group-heading" id="x1-4-2-b22">练习 4.2(3)</h3><article class="question" id="x1-4-2-p423-1" data-question-id="x1-4-2-p423-1" data-category="practice"><div class="question-label">练习4.2(3) · 1</div><div class="question-body"><ol>
+<li>计算 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 1}}^{{+\infty }}{\left( \frac{1}{3}\right) }^{i}" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-p423-2" data-question-id="x1-4-2-p423-2" data-category="practice"><div class="question-label">练习4.2(3) · 2</div><div class="question-body"><ol start="2">
+<li>化下列循环小数为分数:</li>
+</ol>
+<p>(1) <span class="math" data-tex="0.\dot{13}" data-display="false"></span> ;</p>
+<p>(2)1.332 .</p>
+</div></article><article class="question" id="x1-4-2-p423-3" data-question-id="x1-4-2-p423-3" data-category="practice"><div class="question-label">练习4.2(3) · 3</div><div class="question-body"><ol start="3">
+<li>如图,已知等边三角形 <span class="math" data-tex="{ABC}" data-display="false"></span> 的面积等于 1,连接这个三角形各边的中点得到一个小的三角形 <span class="math" data-tex="{A}_{1}{B}_{1}{C}_{1}" data-display="false"></span> ,又连接三角形 <span class="math" data-tex="{A}_{1}{B}_{1}{C}_{1}" data-display="false"></span> 各边的中点得到一个更小的三角形 <span class="math" data-tex="{A}_{2}{B}_{2}{C}_{2}" data-display="false"></span> ,这样的过程可以无限继续下去. 求所有三角形 <span class="math" data-tex="{A}_{i}{B}_{i}{C}_{i}\left( {i = 1,2,3,\cdots }\right)" data-display="false"></span> 的面积的和.</li>
+</ol>
+<p><img src="images/book-f6a45ba5868005af8057.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 3 题)</p>
+</div></article><h3 class="group-heading" id="x1-4-2-b26">习题 4.2</h3><h3 class="group-heading" id="x1-4-2-b27">A 组</h3><article class="question" id="x1-4-2-h42A-1" data-question-id="x1-4-2-h42A-1" data-category="homework"><div class="question-label">习题4.2A · 1</div><div class="question-body"><ol>
+<li>求下列各组数的等比中项:</li>
+</ol>
+<p>(1) <span class="math" data-tex="\sqrt{3} + 1" data-display="false"></span> 与 <span class="math" data-tex="\sqrt{3} - 1" data-display="false"></span> ；</p>
+<p>(2) <span class="math" data-tex="{a}^{4} + {a}^{2}{b}^{2}" data-display="false"></span> 与 <span class="math" data-tex="{b}^{4} + {a}^{2}{b}^{2}\left( {a \neq  0, b \neq  0}\right)" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-h42A-2" data-question-id="x1-4-2-h42A-2" data-category="homework"><div class="question-label">习题4.2A · 2</div><div class="question-body"><ol start="2">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其公比为 <span class="math" data-tex="q" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{5} = 8,{a}_{8} = 1" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{1}\text{ 、 }q" data-display="false"></span> ;</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{3} = 2, q =  - 1" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{15}" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{4} = {12},{a}_{8} = 6" data-display="false"></span> ，求 <span class="math" data-tex="{a}_{12}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-h42A-3" data-question-id="x1-4-2-h42A-3" data-category="homework"><div class="question-label">习题4.2A · 3</div><div class="question-body"><ol start="3">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其公比为 <span class="math" data-tex="q" data-display="false"></span> . 判断下列数列是否为等比数列. 如果是, 求其公比; 如果不是, 请说明理由.</li>
+</ol>
+<p>(1)数列 <span class="math" data-tex="\left\{  {2{a}_{n}}\right\}" data-display="false"></span> ；</p>
+<p>(2)数列 <span class="math" data-tex="\left\{  {{a}_{n} + {a}_{n + 1}}\right\}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-h42A-4" data-question-id="x1-4-2-h42A-4" data-category="homework"><div class="question-label">习题4.2A · 4</div><div class="question-body"><ol start="4">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 和数列 <span class="math" data-tex="\left\{  {b}_{n}\right\}" data-display="false"></span> 为项数相同的等比数列,公比分别为 <span class="math" data-tex="{q}_{1}" data-display="false"></span> 和 <span class="math" data-tex="{q}_{2}" data-display="false"></span> . 求证: 数列 <span class="math" data-tex="\left\{  {{a}_{n}{b}_{n}}\right\}" data-display="false"></span> 为等比数列,其公比为 <span class="math" data-tex="{q}_{1}{q}_{2}" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42A-5" data-question-id="x1-4-2-h42A-5" data-category="homework"><div class="question-label">习题4.2A · 5</div><div class="question-body"><ol start="5">
+<li>已知直角三角形的斜边长为 <span class="math" data-tex="c" data-display="false"></span> ,两条直角边长分别为 <span class="math" data-tex="a" data-display="false"></span> 和 <span class="math" data-tex="b\left( {a &lt; b}\right)" data-display="false"></span> ,且 <span class="math" data-tex="a, b, c" data-display="false"></span> 成等比数列. 求 <span class="math" data-tex="a : c" data-display="false"></span> 的值.</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42A-6" data-question-id="x1-4-2-h42A-6" data-category="homework"><div class="question-label">习题4.2A · 6</div><div class="question-body"><ol start="6">
+<li>某产品经过 4 次革新后, 成本由原来的 105 元下降到 60 元. 如果这种产品每次革新后成本下降的百分比相同,那么每次革新后成本下降的百分比是多少? (结果精确到 0.1%)</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42A-7" data-question-id="x1-4-2-h42A-7" data-category="homework"><div class="question-label">习题4.2A · 7</div><div class="question-body"><ol start="7">
+<li>设数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等比数列,其公比为 <span class="math" data-tex="q" data-display="false"></span> ,前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> .</li>
+</ol>
+<p>(1)已知 <span class="math" data-tex="{a}_{1} = 5, q = 3" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{5}" data-display="false"></span> ；</p>
+<p>(2)已知 <span class="math" data-tex="{a}_{8} = \frac{1}{16}, q = \frac{1}{2}" data-display="false"></span> ，求 <span class="math" data-tex="{S}_{8}" data-display="false"></span> ；</p>
+<p>(3)已知 <span class="math" data-tex="{a}_{1} =  - 2, q =  - \frac{1}{2},{a}_{n} = \frac{1}{1024}" data-display="false"></span> ,求 <span class="math" data-tex="{S}_{n}" data-display="false"></span> ;</p>
+<p>(4)已知 <span class="math" data-tex="{S}_{6} = \frac{189}{4}, q = \frac{1}{2}" data-display="false"></span> ,求 <span class="math" data-tex="{a}_{1}" data-display="false"></span> .</p>
+</div></article><article class="question" id="x1-4-2-h42A-8" data-question-id="x1-4-2-h42A-8" data-category="homework"><div class="question-label">习题4.2A · 8</div><div class="question-body"><ol start="8">
+<li>设等比数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的公比 <span class="math" data-tex="q &lt; 1" data-display="false"></span> ,前 <span class="math" data-tex="n" data-display="false"></span> 项和为 <span class="math" data-tex="{S}_{n}" data-display="false"></span> . 已知 <span class="math" data-tex="{a}_{3} = 2,{S}_{4} = 5{S}_{2}" data-display="false"></span> ,求数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式.</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42A-9" data-question-id="x1-4-2-h42A-9" data-category="homework"><div class="question-label">习题4.2A · 9</div><div class="question-body"><ol start="9">
+<li>一个球从 <span class="math" data-tex="{100}\mathrm{\;m}" data-display="false"></span> 高处自由落下,假设每次着地后又跳回到原高度的一半再落下.</li>
+</ol>
+<p>(1)当它第 10 次着地时,求它经过的总路程;</p>
+<p>(2)它可能在某次着地时，经过的总路程超过 <span class="math" data-tex="{300}\mathrm{\;m}" data-display="false"></span> 吗？如果可能，请说明是第几次着地首次超过 <span class="math" data-tex="{300}\mathrm{\;m}" data-display="false"></span> ；如果不可能，请说明理由.</p>
+</div></article><h3 class="group-heading" id="x1-4-2-b37">B 组</h3><article class="question" id="x1-4-2-h42B-1" data-question-id="x1-4-2-h42B-1" data-category="homework"><div class="question-label">习题4.2B · 1</div><div class="question-body"><ol>
+<li>已知 <span class="math" data-tex="b" data-display="false"></span> 是 <span class="math" data-tex="a" data-display="false"></span> 与 <span class="math" data-tex="c" data-display="false"></span> 的等比中项,且 <span class="math" data-tex="a\text{ 、 }b\text{ 、 }c" data-display="false"></span> 同号. 求证: <span class="math" data-tex="\frac{a + b + c}{3},\sqrt{\frac{{ab} + {bc} + {ca}}{3}}" data-display="false"></span> , <span class="math" data-tex="\sqrt[3]{abc}" data-display="false"></span> 成等比数列.</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42B-2" data-question-id="x1-4-2-h42B-2" data-category="homework"><div class="question-label">习题4.2B · 2</div><div class="question-body"><ol start="2">
+<li>已知 <span class="math" data-tex="a \neq  b" data-display="false"></span> ,且 <span class="math" data-tex="a\text{ 、 }b" data-display="false"></span> 都不为 0 . 设 <span class="math" data-tex="n" data-display="false"></span> 为正整数,写出 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 0}}^{n}{a}^{n - i}{b}^{i}" data-display="false"></span> 的具体展开式,并证明 <span class="math" data-tex="\mathop{\sum }\limits_{{i = 0}}^{n}{a}^{n - i}{b}^{i} = \frac{{a}^{n + 1} - {b}^{n + 1}}{a - b}" data-display="false"></span> .</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42B-3" data-question-id="x1-4-2-h42B-3" data-category="homework"><div class="question-label">习题4.2B · 3</div><div class="question-body"><ol start="3">
+<li>已知对任意给定的正整数 <span class="math" data-tex="n" data-display="false"></span> ,数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的前 <span class="math" data-tex="n" data-display="false"></span> 项和 <span class="math" data-tex="{S}_{n} = \frac{1 - {q}^{n}}{1 - q}\left( {q \neq  0\text{ 且 }q \neq  1}\right)" data-display="false"></span> . 判断 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 是否为等比数列,并说明理由.</li>
+</ol>
+</div></article><article class="question" id="x1-4-2-h42B-4" data-question-id="x1-4-2-h42B-4" data-category="homework"><div class="question-label">习题4.2B · 4</div><div class="question-body"><ol start="4">
+<li>已知数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 为等差数列,数列 <span class="math" data-tex="\left\{  {b}_{n}\right\}" data-display="false"></span> 满足 <span class="math" data-tex="{b}_{n} = {\left( \frac{1}{2}\right) }^{{a}_{n}}" data-display="false"></span> ( <span class="math" data-tex="n" data-display="false"></span> 为正整数).</li>
+</ol>
+<p>(1)求证:数列 <span class="math" data-tex="\left\{  {b}_{n}\right\}" data-display="false"></span> 为等比数列；</p>
+<p>(2)若 <span class="math" data-tex="{b}_{1} + {b}_{2} + {b}_{3} = \frac{21}{8},{b}_{1}{b}_{2}{b}_{3} = \frac{1}{8}" data-display="false"></span> ，求数列 <span class="math" data-tex="\left\{  {a}_{n}\right\}" data-display="false"></span> 的通项公式.</p>
+</div></article><article class="question" id="x1-4-2-h42B-5" data-question-id="x1-4-2-h42B-5" data-category="homework"><div class="question-label">习题4.2B · 5</div><div class="question-body"><ol start="5">
+<li>如图,已知直角三角形 <span class="math" data-tex="{AOB}" data-display="false"></span> 的两条直角边 <span class="math" data-tex="{AO}" data-display="false"></span> 和 <span class="math" data-tex="{BO}" data-display="false"></span> 的长分别为 5 和 12,点 <span class="math" data-tex="{O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots" data-display="false"></span> 在边 <span class="math" data-tex="{OB}" data-display="false"></span> 上,半圆 <span class="math" data-tex="{O}_{1}" data-display="false"></span> 与 <span class="math" data-tex="{AO}" data-display="false"></span> 和 <span class="math" data-tex="{AB}" data-display="false"></span> 所在直线均相切,半圆 <span class="math" data-tex="{O}_{2}\text{ 、 }{O}_{3}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots" data-display="false"></span> 与 <span class="math" data-tex="{AB}" data-display="false"></span> 所在直线相切,且与半圆 <span class="math" data-tex="{O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n - 1}\text{ 、 }\cdots" data-display="false"></span> 分别外切. 设这些半圆的半径分别为 <span class="math" data-tex="{r}_{1}\text{ 、 }{r}_{2}\text{ 、 }\cdots \text{ 、 }{r}_{n}\text{ 、 }\cdots" data-display="false"></span> .</li>
+</ol>
+<p>(1)求证:数列 <span class="math" data-tex="\left\{  {r}_{n}\right\}" data-display="false"></span> 为等比数列；</p>
+<p>(2)求前 <span class="math" data-tex="n" data-display="false"></span> 个半圆弧长的总和 <span class="math" data-tex="{L}_{n}" data-display="false"></span> ；</p>
+<p>(3)利用前 <span class="math" data-tex="n" data-display="false"></span> 个半圆弧长的总和 <span class="math" data-tex="{L}_{n}" data-display="false"></span> 的表达式,计算 <span class="math" data-tex="\mathop{\lim }\limits_{{n \rightarrow   + \infty }}{L}_{n}" data-display="false"></span> .</p>
+<p><img src="images/book-fd15caf69a8b6668c061.jpg" alt="教材或教参原图" loading="eager"></p>
+<p>(第 5 题)</p>
+</div></article></section></div><footer class="book-footer"><p>本文件为独立学生阅读版，不含答案、解析与教师材料。</p><a href="#top">返回本节开头 ↑</a></footer></main></div><dialog id="print-dialog" aria-labelledby="print-dialog-title"><div class="dialog-heading"><div><span class="eyebrow">PRINT EDITION</span><h2 id="print-dialog-title">按内容打印</h2></div><button type="button" id="print-close" aria-label="关闭打印设置">×</button></div>
+<p class="dialog-description">选择需要的内容，独立排为 A4。不会改变阅读页的展开状态。</p>
+<form id="print-form"><fieldset><legend>01 / 内容组合</legend><div class="print-modes"><label class="print-choice"><input type="radio" name="print-mode" value="all" checked><span>正文＋试题</span></label><label class="print-choice"><input type="radio" name="print-mode" value="text" ><span>仅正文</span></label><label class="print-choice"><input type="radio" name="print-mode" value="questions" ><span>仅试题</span></label></div></fieldset>
+<fieldset><legend>02 / 章节范围</legend><div class="scope-actions"><button type="button" id="scope-all">全选</button><button type="button" id="scope-none">清空</button></div><div class="print-scopes"><label><input type="checkbox" name="print-module" value="x1-4-2" checked>等比数列</label></div></fieldset>
+<fieldset><legend>03 / 题目范围</legend><div class="print-scopes"><label><input type="checkbox" name="print-category" value="example" checked>例题</label><label><input type="checkbox" name="print-category" value="practice" checked>课内练习</label><label><input type="checkbox" name="print-category" value="homework" checked>课后习题 A / B</label></div></fieldset>
+<div class="print-options"></div><p id="print-summary" role="status" aria-live="polite"></p><p class="print-help">“仅正文”不含例题、练习和题后解析；“仅试题”排除答案与批注。能放入一页的整题（含所选答案）尽量不跨页；超过一页的长题或解析允许续页。题图按原教材保留。建议A4、100%缩放，实际分页以系统打印预览为准。</p>
+<div class="dialog-actions"><button type="button" id="print-preview">内容预览</button><button type="submit" id="print-submit">打印 / 另存 PDF</button></div></form></dialog>
+<div id="print-preview-bar"><span>打印内容预览 <small>· 实际分页见系统打印</small></span><div><button id="print-back">返回阅读</button><button id="print-settings">调整范围</button><button id="print-now">打印 / 另存 PDF</button></div></div><div id="print-output"></div><div id="status" role="status" aria-live="polite"></div></body></html>

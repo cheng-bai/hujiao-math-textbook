@@ -1,0 +1,324 @@
+{
+  "asset_id": "49d89ccd-6847-5b04-be53-5c3f24f19de1",
+  "contributors": [
+    {
+      "name": "Codex calculus-stats implementation",
+      "role": "author"
+    },
+    {
+      "name": "Codex independent mathematical review",
+      "role": "reviewer"
+    }
+  ],
+  "created_at": "2026-10-19T16:47:05Z",
+  "default_state": {
+    "lesson": {},
+    "math": {
+      "col": 0.6,
+      "row": 0.4,
+      "total": 100
+    },
+    "view": {}
+  },
+  "entrypoints": {
+    "html": "index.html",
+    "svg": "previews/preview.svg"
+  },
+  "extensions": {
+    "family": "calculus-stats",
+    "source_build_sha256": "9aeb7a572af81d45c19452e99de8dc2b46deae5c2a4d075c7f1af700f494b361",
+    "textbook": {
+      "placements": [
+        {
+          "afterBlockId": "x2-8-3-b2",
+          "rationale": "该长段正文含本概念的定义/解释链；模块呈现变化关系，原文仍可展开供核对。 原段还含具体题设、数据表或其它推导，当前可视化仅替代其中对应解释，不得将整段默认折叠；正文常显。",
+          "retainProse": true,
+          "sectionId": "x2-8-3",
+          "sourceSha256": "0e398fb591f386df532675d94d7834c5bab706887220e1a4513d546929fdf6ea"
+        }
+      ],
+      "sections": [
+        "x2-8-3"
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 25201,
+      "media_type": "text/html",
+      "path": "index.html",
+      "role": "runtime",
+      "sha256": "9aeb7a572af81d45c19452e99de8dc2b46deae5c2a4d075c7f1af700f494b361"
+    },
+    {
+      "bytes": 3907,
+      "media_type": "image/svg+xml",
+      "path": "previews/preview.svg",
+      "role": "runtime",
+      "sha256": "3153081e41016964e0414563a75a65efdb3aec0878ad039de6009ba5cec9bb67"
+    },
+    {
+      "bytes": 12944,
+      "media_type": "text/javascript",
+      "path": "source/calculus-stats.js",
+      "role": "source",
+      "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+    },
+    {
+      "bytes": 26504,
+      "media_type": "application/json",
+      "path": "source/calculus-stats.json",
+      "role": "source",
+      "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+    },
+    {
+      "bytes": 5064,
+      "media_type": "text/javascript",
+      "path": "source/test-calculus-stats.mjs",
+      "role": "source",
+      "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+    },
+    {
+      "bytes": 2750,
+      "media_type": "text/javascript",
+      "path": "source/lab-core.js",
+      "role": "source",
+      "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+    },
+    {
+      "bytes": 4295,
+      "media_type": "text/javascript",
+      "path": "source/lab-runtime.js",
+      "role": "source",
+      "sha256": "56ed61334ed9efd2e6dbf62b1197596088a594dcb3e0b2224b7f07793aecd8e0"
+    },
+    {
+      "bytes": 3111,
+      "media_type": "text/css",
+      "path": "source/lab.css",
+      "role": "source",
+      "sha256": "1722c73f62baee11248d6c78463dc3aed1fef7628056619eaa981afcf7880376"
+    },
+    {
+      "bytes": 1689,
+      "media_type": "application/json",
+      "path": "source/asset.json",
+      "role": "source",
+      "sha256": "df5e6726a93882f88b7795300054de98709d272d8743c80323114874a08995bf"
+    },
+    {
+      "bytes": 4068,
+      "media_type": "text/markdown",
+      "path": "evidence/independent-review.md",
+      "role": "evidence",
+      "sha256": "e44aeb8fa89f5e4bfb3d1a0ccb1206ce45aef864a00729d62a339c2522f2dee3"
+    },
+    {
+      "bytes": 1088,
+      "media_type": "application/json",
+      "path": "evidence/model-tests.json",
+      "role": "evidence",
+      "sha256": "a7e298875d84bdfa028953f7047b0541543836610b63c9aea48755b71fc76e0e"
+    },
+    {
+      "bytes": 2484,
+      "media_type": "application/json",
+      "path": "evidence/browser-results.json",
+      "role": "evidence",
+      "sha256": "4ff66010f9b5fe61026e640fb3c34d483d134594cee8a9f551a78de52d2e7714"
+    },
+    {
+      "bytes": 299,
+      "media_type": "application/json",
+      "path": "evidence/offline-static.json",
+      "role": "evidence",
+      "sha256": "da098d9be2cf8f046ca89ed81af9adba93fc00c524759b1b103de0d80ee2324a"
+    },
+    {
+      "bytes": 225,
+      "media_type": "text/plain",
+      "path": "LICENSE.txt",
+      "role": "license",
+      "sha256": "06cff414e80b105bd45c6d20a5872fbbee4ae1b4a5478a0a354f3c5518eb4213"
+    },
+    {
+      "bytes": 505,
+      "media_type": "text/markdown",
+      "path": "README.md",
+      "role": "document",
+      "sha256": "058d10cf6a95eeaee04c986aa8dc2495fe6e6c12f9706ce0504c505c410b4815"
+    }
+  ],
+  "language": "zh-CN",
+  "math": {
+    "approximation": "曲线采样和数值指标为近似演示；具体限制见入口提示与纯模型复核。三维屏幕投影不表示真实长度角度。",
+    "audience": [
+      "高中数学教师",
+      "学生探索"
+    ],
+    "conditions": [
+      "在独立假设下，每格期望比例等于对应行与列边际比例之积，期望频数再乘总数 n。面积格图显示边际比例怎样决定期望值；期望频数允许非整数，且不等于观察频数。完整独立性检验还需观察值、检验统计量、适用条件和错误风险，不从检验结论推出因果。"
+    ],
+    "learning_goals": [
+      "调节边际分布，看到独立假设下每个格子的期望频数。"
+    ],
+    "objects": [
+      "独立假设下的期望频数"
+    ],
+    "parameters": {
+      "col": {
+        "default": 0.6,
+        "display_range": [
+          0.1,
+          0.9
+        ],
+        "domain": "本实验允许输入范围 [0.1, 0.9]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "row": {
+        "default": 0.4,
+        "display_range": [
+          0.1,
+          0.9
+        ],
+        "domain": "本实验允许输入范围 [0.1, 0.9]；不等同数学对象的一般定义域。",
+        "type": "number"
+      },
+      "total": {
+        "default": 100,
+        "display_range": [
+          20,
+          200
+        ],
+        "domain": "本实验允许输入范围 [20, 200]；不等同数学对象的一般定义域。",
+        "type": "integer"
+      }
+    },
+    "topics": [
+      "高中数学",
+      "calculus-stats"
+    ]
+  },
+  "provenance": {
+    "relations": [],
+    "sources": [
+      {
+        "note": "调节边际分布，看到独立假设下每个格子的期望频数。",
+        "title": "五册沪教教材与教参整合的教材专用实验"
+      }
+    ]
+  },
+  "rights": {
+    "attribution": "本地教师教材整合项目的AI辅助模块；原教材、教参与第三方素材权利归原权利人。",
+    "license": "LicenseRef-Private-Project-Use-No-Public-Grant"
+  },
+  "scenes": [
+    {
+      "id": "explore",
+      "state": {
+        "lesson": {},
+        "math": {
+          "col": 0.6,
+          "row": 0.4,
+          "total": 100
+        },
+        "view": {}
+      },
+      "title": "初始探索"
+    }
+  ],
+  "schema_version": "1.1",
+  "slug": "contingency-independent",
+  "state_contract": {
+    "lesson": {},
+    "math": {
+      "col": {
+        "maximum": 0.9,
+        "minimum": 0.1,
+        "type": "number"
+      },
+      "row": {
+        "maximum": 0.9,
+        "minimum": 0.1,
+        "type": "number"
+      },
+      "total": {
+        "maximum": 200,
+        "minimum": 20,
+        "type": "integer"
+      }
+    },
+    "view": {}
+  },
+  "state_link": "hash-json-v1",
+  "title": "独立假设下的期望频数",
+  "updated_at": "2026-10-19T16:47:05Z",
+  "validation": [
+    {
+      "checked_at": "2026-10-19T16:47:01Z",
+      "evidence": [
+        "evidence/model-tests.json",
+        "evidence/independent-review.md"
+      ],
+      "kind": "mathematics",
+      "scope": "当前纯模型的自动独立关系与边界测试通过；随附独立数学复核，不以动态取样代替全域证明。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "source/calculus-stats.js",
+          "sha256": "42b91b769d313a12c1cbb7b35ca42481d1469c4df00fd0b512a32cf31dd5abcd"
+        },
+        {
+          "path": "source/calculus-stats.json",
+          "sha256": "66542a1ede139397199283cc6db2951d683468aac1915c0b13c997c9528f45db"
+        },
+        {
+          "path": "source/test-calculus-stats.mjs",
+          "sha256": "f907caf8ac0d860a500e6d8318ac602ba8e4ffc432056254e70e517d6468ccb8"
+        },
+        {
+          "path": "source/lab-core.js",
+          "sha256": "bde4b0c876e88d557ec584fa88011c28445eea468ad21b20a45f24ad6500a668"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130446Z",
+      "evidence": [
+        "evidence/browser-results.json"
+      ],
+      "kind": "interaction",
+      "scope": "同一HTML哈希的真实浏览器检查；交互须含场景和hash-json状态恢复。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "9aeb7a572af81d45c19452e99de8dc2b46deae5c2a4d075c7f1af700f494b361"
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-10-19T16:43:55.130446Z",
+      "evidence": [
+        "evidence/browser-results.json",
+        "evidence/offline-static.json"
+      ],
+      "kind": "offline",
+      "scope": "同一HTML哈希的浏览器file离线检查；静态依赖检查单独附证。",
+      "status": "pass",
+      "tested_files": [
+        {
+          "path": "index.html",
+          "sha256": "9aeb7a572af81d45c19452e99de8dc2b46deae5c2a4d075c7f1af700f494b361"
+        }
+      ]
+    },
+    {
+      "evidence": [],
+      "kind": "visual",
+      "scope": "明确逐资产人工读图记录覆盖的截图；截图存在本身不等于视觉已检查。",
+      "status": "pending"
+    }
+  ],
+  "version": "1.0.0"
+}

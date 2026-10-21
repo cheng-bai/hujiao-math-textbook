@@ -1,0 +1,975 @@
+[
+  {
+    "type": "section",
+    "title": "章末阅读、内容提要与复习题",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1588,
+        "end": 1588
+      }
+    ],
+    "id": "bx3-chapter-end-10",
+    "number": "chapter-end-10",
+    "subtitle": "教材与正式教参整合",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "1. 立体几何中的公理及其推论\n\n(1)公理 1 如果一条直线上有两点在一个平面上，那么这条直线上所有的点都在这个平面上.\n\n(2)公理 2 不在同一直线上的三点确定一个平面.\n\n推论 1 一条直线和这条直线外的一点确定一个平面.\n\n推论 2 两条相交直线确定一个平面.\n\n推论 3 两条平行直线确定一个平面.\n\n(3)公理 3 如果两个不同的平面有一个公共点，那么它们有且只有一条过该点的公共直线.\n\n(4)公理 4 平行于同一条直线的两条直线互相平行.\n\n2. 直线与直线的位置关系\n\n(1)有三种可能的位置关系:相交、平行、异面.\n\n(2)等角定理 如果一个角的两边和另一个角的两边分别平行并且方向相同，那么这两个角相等.\n\n推论 1 如果一个角的两边和另一个角的两边分别平行，那么这两个角相等或者互补.\n\n推论 2 如果两条相交直线和另两条相交直线分别平行，那么这两组直线所成的锐角 (或直角)相等.\n\n(3)异面直线的定义 不同在任何一个平面上的两条直线叫做异面直线.\n\n(4)异面直线判定定理 过平面外一点与平面上一点的直线，和此平面上不经过该点的任何一条直线是异面直线.\n\n(5)异面直线所成角的定义 两条异面直线平移到相交位置时所得到的锐角或直角， 称为这两条异面直线所成的角.\n\n3. 直线与平面的位置关系\n\n(1)直线与平面平行的判定定理 如果不在平面上的一条直线与这个平面上的一条直线平行，那么该直线与这个平面平行.\n\n(2)直线与平面平行的性质定理 如果一条直线与一个平面平行，过这条直线的一个平面与此平面相交，那么其交线必与该直线平行.\n\n(3)线面垂直的定义 如果一条直线与平面上的任意一条直线都垂直，就说这条直线与这个平面互相垂直.\n\n(4)直线与平面垂直的判定定理 如果一条直线与一个平面上的两条相交直线都垂直，那么此直线与该平面垂直.\n\n(5)直线与平面垂直的性质定理 垂直于同一个平面的两条直线互相平行.\n\n推论 1 过一点有且只有一个平面与给定的直线垂直.\n\n推论 2 过一点有且只有一条直线与给定的平面垂直.\n\n(6)线面所成角的定义 平面的一条斜线和它在平面上的投影所成的锐角，叫做这条直线和这个平面所成的角.\n\n(7)三垂线定理 平面上的一条直线和这个平面的一条斜线垂直的充要条件是它和这条斜线在平面上的投影垂直.\n\n4. 平面与平面的位置关系\n\n(1)两个平面平行的判定定理 如果一个平面上的两条相交直线与另一个平面平行， 那么这两个平面平行.\n\n(2)两个平面平行的性质定理 如果两个平行平面同时和第三个平面相交，那么它们的交线平行.\n\n(3)从一条直线出发的两个半平面所组成的图形叫做二面角，一个二面角的大小等于它的平面角的大小.\n\n(4)平面与平面垂直的判定定理 如果一个平面经过另一个平面的一条垂线，那么这两个平面垂直.\n\n(5)平面与平面垂直的性质定理 如果两个平面垂直，那么其中一个平面上垂直于两平面交线的直线与另一个平面垂直.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1589,
+        "end": 1653
+      }
+    ],
+    "id": "bx3-chapter-end-10-b1",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "5. *异面直线间的距离",
+    "markdown": "## 5. *异面直线间的距离",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1654,
+        "end": 1654
+      }
+    ],
+    "id": "bx3-chapter-end-10-b2",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "(1)定理 对于任意给定的两条异面直线，存在唯一的一条直线与这两条直线都垂直并且相交.\n\n(2)定义 两条异面直线的公垂线段的长度叫做这两条异面直线的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1655,
+        "end": 1659
+      }
+    ],
+    "id": "bx3-chapter-end-10-b3",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "复习题",
+    "markdown": "## 复习题",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1660,
+        "end": 1660
+      }
+    ],
+    "id": "bx3-chapter-end-10-b4",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "A 组",
+    "markdown": "### A 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1662,
+        "end": 1662
+      }
+    ],
+    "id": "bx3-chapter-end-10-b5",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1663,
+        "end": 1667
+      }
+    ],
+    "id": "bx3-chapter-end-10-b6",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 1",
+    "markdown": "1. 如图，在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中， $E$ 为 ${A}_{1}{B}_{1}$ 的中点， ${AB} = {B{B}_{1}} = 2,{AC} = {2\\sqrt{5}}$ . 求异面直线 ${BE}$ 与 ${AC}$ 所成角的大小.\n\n![bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg](images/book-761944ad1909d33a23dd.jpg)\n\n(第 1 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1668,
+        "end": 1669
+      },
+      {
+        "source": "book",
+        "start": 1664,
+        "end": 1666
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1668,
+        "end": 1669
+      },
+      {
+        "source": "book",
+        "start": 1664,
+        "end": 1666
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-1",
+    "category": "复习题A",
+    "answer": "1. $\\arccos \\frac{1}{5}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 842,
+        "end": 843
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 2",
+    "markdown": "2. 如图,设 $P$ 为矩形 ${ABCD}$ 所在平面外的一点,矩形对角线的交点为 $O, M$ 为 ${PB}$ 的中点. 判断下列结论是否正确,并说明理由:\n\n(1) OM // PD ;\n\n(2) OM // 平面 PCD ;\n\n(3) OM //平面 ${PDA}$ ；\n\n(4) OM //平面 ${PBA}$ ；\n\n(5) OM // 平面 ${PBC}$ .\n\n![bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg](images/book-b004c1311976545c5e47.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1670,
+        "end": 1689
+      },
+      {
+        "source": "book",
+        "start": 1682,
+        "end": 1684
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1670,
+        "end": 1689
+      },
+      {
+        "source": "book",
+        "start": 1682,
+        "end": 1684
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-2",
+    "category": "复习题A",
+    "answer": "2.(1)正确,理由略. (2)正确,理由略. (3) 正确, 理由略. 正确. $M \\in$ 平面 ${PBC}$ . (5) 不正确. $M \\in$ 平面 ${PBC}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 844,
+        "end": 845
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 3",
+    "markdown": "3. 如图,正方体的棱长是 $a$ ,点 $E\\text{ 、 }F$ 分别是两条棱的中点.\n\n(1)求证:四边形 BDEF(图中阴影部分)是一个梯形；\n\n(2)求四边形 BDEF 的面积.\n\n![bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg](images/book-550535da6d38b66dd9be.jpg)\n\n(第 3 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1690,
+        "end": 1695
+      },
+      {
+        "source": "book",
+        "start": 1686,
+        "end": 1688
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1690,
+        "end": 1695
+      },
+      {
+        "source": "book",
+        "start": 1686,
+        "end": 1688
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-3",
+    "category": "复习题A",
+    "answer": "3.(1)提示: ${EF}$ 与 $\\frac{1}{2}{DB}$ 平行且相等. (2) $\\frac{9}{8}{a}^{2}$ . 提示:在梯形 ${EFBD}$ 上, 过 $F$ 作下底边 ${BD}$ 的垂线,垂足为 $M.{FM}$ 为 ${EF}$ 与 ${BD}$ 间的距离.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 846,
+        "end": 847
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 4",
+    "markdown": "4. 判断下列命题的真假, 并说明理由:\n\n(1)若直线 $l$ 与平面 $M$ 斜交，则 $M$ 内不存在与 $l$ 垂直的直线；\n\n(2)若直线 $l$ 上平面 $M$ ，则 $M$ 内不存在与 $l$ 不垂直的直线；\n\n(3)若直线 $l$ 与平面 $M$ 斜交，则 $M$ 内不存在与 $l$ 平行的直线；\n\n(4)若直线 $l//$ 平面 $M$ ，则 $M$ 内不存在与 $l$ 不平行的直线.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1696,
+        "end": 1705
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1696,
+        "end": 1705
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-4",
+    "category": "复习题A",
+    "answer": "4.(1)假命题,理由略. (2)真命题,理由略. (4)假命题,理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 848,
+        "end": 849
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 5",
+    "markdown": "5. 如果不在平面上的一条直线上有两点到这个平面的距离相等, 那么这条直线和这个平面有什么位置关系? 画示意图表示.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1706,
+        "end": 1707
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1706,
+        "end": 1707
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-5",
+    "category": "复习题A",
+    "answer": "5. 平行或相交. 图略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 850,
+        "end": 851
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 6",
+    "markdown": "6. 如图,直线 $A{A}^{\\prime }\\text{ 、 }B{B}^{\\prime }\\text{ 、 }C{C}^{\\prime }$ 相交于点 $O$ ,且 ${AO} = {A}^{\\prime }O,{BO} = {B}^{\\prime }O,{CO} = {C}^{\\prime }O$ . 求证: 平面 ${ABC}//$ 平面 ${A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ .\n\n![bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg](images/book-dff3c36dc4dfd0871e06.jpg)\n\n(第 6 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1708,
+        "end": 1717
+      },
+      {
+        "source": "book",
+        "start": 1710,
+        "end": 1712
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1708,
+        "end": 1717
+      },
+      {
+        "source": "book",
+        "start": 1710,
+        "end": 1712
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-6",
+    "category": "复习题A",
+    "answer": "6. 提示: 因为 $A{A}^{\\prime }$ 与 $B{B}^{\\prime }$ 相交于 $O$ ,且 ${AO} = {A}^{\\prime }O,{BO} = {B}^{\\prime }O$ ,所以 ${AB}//{A}^{\\prime }{B}^{\\prime }$ , 从而 ${AB}//$ 平面 ${A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ . 同理 ${BC}//$ 平面 ${A}^{\\prime }{B}^{\\prime }{C}^{\\prime }$ . 由 ${AB} \\cap  {BC} = B$ ,得证.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 852,
+        "end": 853
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 7",
+    "markdown": "7. 已知直线 $l\\bot$ 平面 $\\alpha$ ,直线 $m \\subset$ 平面 $\\beta$ ,判断下列命题的真假,并说明理由:\n\n(1)若 $\\alpha //\\beta$ ，则 $l\\bot m$ ；\n\n(2)若 $\\alpha \\bot \\beta$ ，则 $l//m$ ；\n\n(3)若 $l//m$ ，则 $\\alpha \\bot \\beta$ ；\n\n(4)若 $l\\bot m$ ，则 $\\alpha //\\beta$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1718,
+        "end": 1727
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1718,
+        "end": 1727
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-7",
+    "category": "复习题A",
+    "answer": "7. (1) 真命题, 理由略. (2)假命题,理由略. (3)真命题,理由略. (4)假命题,理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 854,
+        "end": 855
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 8",
+    "markdown": "8. 如图,已知线段 ${AB}$ 垂直于三角形 ${BCD}$ 所在的平面,且 ${AB} = {BC} = {CD} = 1$ , $\\angle {BCD} = {90}^{ \\circ  }$ . ${BE} \\bot  {AD}$ , $E$ 为垂足, $F$ 为 ${AC}$ 的中点. 求 ${EF}$ 的长.\n\n![bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg](images/book-9d880a28fa749d709faf.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1728,
+        "end": 1729
+      },
+      {
+        "source": "book",
+        "start": 1714,
+        "end": 1716
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1728,
+        "end": 1729
+      },
+      {
+        "source": "book",
+        "start": 1714,
+        "end": 1716
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-8",
+    "category": "复习题A",
+    "answer": "8. $\\frac{\\sqrt{6}}{6}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 856,
+        "end": 857
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题A · 9",
+    "markdown": "9. 设正六边形 ${ABCDEF}$ 的边长为 $a$ ,线段 ${PA}$ 垂直于正六边形所在的平面,且 ${PA} \\; = {2a}$ . 分别求点 $P$ 到 ${CD}\\text{ 、 }{DE}$ 与 ${BC}$ 所在直线的距离.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1730,
+        "end": 1731
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1730,
+        "end": 1731
+      }
+    ],
+    "id": "bx3-chapter-end-10-hA-9",
+    "category": "复习题A",
+    "answer": "9. $\\sqrt{7}a,\\sqrt{7}a,\\frac{\\sqrt{19}}{2}a$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 858,
+        "end": 859
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "B 组",
+    "markdown": "##### B 组",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1732,
+        "end": 1732
+      }
+    ],
+    "id": "bx3-chapter-end-10-b16",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 1",
+    "markdown": "1. 已知直线 $a\\text{ 、 }b$ 和平面 $\\alpha \\text{ 、 }\\beta$ ,判断下列命题的真假,并说明理由:\n\n(1)若 $a//\\alpha$ ， $b\\bot a$ ，则 $b\\bot \\alpha$ ；\n\n(2)若 $a//\\alpha$ ， $\\alpha \\bot \\beta$ ，则 $a\\bot \\beta$ ；\n\n(3)若 $a//b$ ， $b \\subset  \\alpha$ ，则 $a//\\alpha$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1734,
+        "end": 1741
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1734,
+        "end": 1741
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-1",
+    "category": "复习题B",
+    "answer": "1.(1)假命题,理由略. (2)假命题,理由略. (3)假命题, 理由略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 862,
+        "end": 863
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 2",
+    "markdown": "2. 证明: 如果平面 $\\alpha$ 和不在这个平面上的直线 $a$ 都垂直于平面 $\\beta$ ,那么直线 $a$ 必平行于平面 $\\alpha$ .",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1742,
+        "end": 1743
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1742,
+        "end": 1743
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-2",
+    "category": "复习题B",
+    "answer": "2. 因为 $\\alpha  \\bot  \\beta$ ,可在平面 $\\alpha$ 上作与两平面交线垂直的直线 $c$ ,使 $c \\bot  \\beta$ . 又 $a \\bot  \\beta$ , 所以 $a//c$ . 而 $c \\subset  \\alpha , a$ 不在平面 $\\alpha$ 上,根据线面平行的判定定理,可知 $a//\\alpha$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 864,
+        "end": 865
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 3",
+    "markdown": "3. 三个平面两两相交, 得到三条交线. 求证: 这三条交线交于一点或两两平行.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1744,
+        "end": 1745
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1744,
+        "end": 1745
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-3",
+    "category": "复习题B",
+    "answer": "3. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 866,
+        "end": 867
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 4",
+    "markdown": "4. 如图,已知 $\\bigtriangleup  {ABC}$ 是正三角形， ${EA}$ 、 ${CD}$ 都垂直于平面 ${ABC}$ ，且 ${EA} = {AB} = {2a}$ ， ${DC} = a, F$ 是 ${BE}$ 的中点.\n\n(1)求证: ${FD}//$ 平面 ${ABC}$ ；\n\n(2)求证: ${AF}\\bot$ 平面 ${EDB}$ .\n\n![bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg](images/book-702fd807b9a46cf91726.jpg)\n\n(第 4 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1746,
+        "end": 1759
+      },
+      {
+        "source": "book",
+        "start": 1752,
+        "end": 1754
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1746,
+        "end": 1759
+      },
+      {
+        "source": "book",
+        "start": 1752,
+        "end": 1754
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-4",
+    "category": "复习题B",
+    "answer": "4. 提示: 取 ${AB}$ 的中点 $G$ ,连接 ${FG}\\text{、}{CG}$ . (1) 只需证明 ${FD}//{CG}$ . $\\bigtriangleup {ABE}$ 为等腰三角形,得到 ${AF} \\bot  {BE}$ . 利用 ${CG} \\bot$ 平面 ${ABE}$ ,得 ${CG} \\bot  {AF}$ ,进而 ${FD} \\bot  {AF}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 868,
+        "end": 869
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 5",
+    "markdown": "5. 证明: 如果一个平面的一条平行线垂直于另一个平面, 那么这两个平面互相垂直.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1760,
+        "end": 1761
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1760,
+        "end": 1761
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-5",
+    "category": "复习题B",
+    "answer": "5. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 870,
+        "end": 871
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 6",
+    "markdown": "6. 如图,以等腰直角三角形 ${ABC}$ 斜边 ${BC}$ 上的高 ${AD}$ 为折痕,使 $\\bigtriangleup {ABD}$ 和 $\\bigtriangleup {ACD}$ 折成互相垂直的两个面. 求证: ${BD} \\bot  {CD}$ ,且 $\\angle {BAC} = {60}^{ \\circ  }$ .\n\n![bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg](images/book-28a74f909c4eaa665f99.jpg)\n\n(第 6 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1762,
+        "end": 1763
+      },
+      {
+        "source": "book",
+        "start": 1756,
+        "end": 1758
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1762,
+        "end": 1763
+      },
+      {
+        "source": "book",
+        "start": 1756,
+        "end": 1758
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-6",
+    "category": "复习题B",
+    "answer": "6. 提示: (1) $\\angle {BDC}$ 为平面 ${ABD}$ 与平面 ${ACD}$ 所成二面角的平面角. ${CD} = a$ ,则 ${AC} = {AB} = {BC} = \\sqrt{2}a$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 872,
+        "end": 873
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 7",
+    "markdown": "7. 证明: 如果共点的三条直线两两垂直, 那么它们中每两条直线所确定的平面也两两垂直.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1764,
+        "end": 1765
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1764,
+        "end": 1765
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-7",
+    "category": "复习题B",
+    "answer": "7. 略.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 874,
+        "end": 875
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 8",
+    "markdown": "8. 如图, $P$ 是平面 $\\alpha$ 外一点,直线 ${PA}$ 与平面 $\\alpha$ 斜交于点 $A$ ,从点 $P$ 作平面 $\\alpha$ 上的一条直线 ${OA}$ 的垂线 ${PO}$ ,垂足为 $O$ . 又设 $a$ 是平面 $\\alpha$ 上的一条直线,且 $a \\bot  {OA}, a \\bot  {PA}$ . 求证: ${PO} \\bot$ 平面 $\\alpha$ ,从而 ${OA}$ 是 ${PA}$ 在平面 $\\alpha$ 上的投影.\n\n![bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg](images/book-199bd84ddf2761b083cc.jpg)\n\n(第 8 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1766,
+        "end": 1775
+      },
+      {
+        "source": "book",
+        "start": 1768,
+        "end": 1770
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1766,
+        "end": 1775
+      },
+      {
+        "source": "book",
+        "start": 1768,
+        "end": 1770
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-8",
+    "category": "复习题B",
+    "answer": "8. 因为 $a \\bot  {OA}, a \\bot  {PA},{OA} \\cap  {PA} = A$ ,所以 $a \\bot$ 平面 ${POA}$ ,故 ${PO} \\bot  a$ . 又 ${PO} \\bot  {OA}, a$ 与 ${OA}$ 相交,所以 ${PO} \\bot  \\alpha$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 876,
+        "end": 877
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "复习题B · 9",
+    "markdown": "9. 如图,直角三角形 ${ABC}$ 在平面 $\\alpha$ 上,且 $\\angle {BAC} = {90}^{ \\circ  }$ . 以 $A$ 为垂足作 ${DA} \\bot  \\alpha$ ,在 ${DB}$ 上取一点 $E$ ,使 ${AE} \\bot  {DB}$ . 求证: ${CE} \\bot  {DB}$ .\n\n![bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg](images/book-d2664677053d20664a8c.jpg)\n\n(第 9 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1776,
+        "end": 1777
+      },
+      {
+        "source": "book",
+        "start": 1772,
+        "end": 1774
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1776,
+        "end": 1777
+      },
+      {
+        "source": "book",
+        "start": 1772,
+        "end": 1774
+      }
+    ],
+    "id": "bx3-chapter-end-10-hB-9",
+    "category": "复习题B",
+    "answer": "9. 提示: 因为 ${DA} \\bot  \\alpha$ ,又 ${CA} \\bot  {AB}$ ,所以由三垂线定理,得 ${CA} \\bot  {DB}$ . 又 ${CA} \\bot$ 平面 ${DAB}$ ,且 ${AE} \\bot  {DB}$ ,由三垂线定理,得 ${CE} \\bot  {DB}$ .",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 878,
+        "end": 879
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "拓展与思考",
+    "markdown": "## 拓展与思考",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1778,
+        "end": 1778
+      }
+    ],
+    "id": "bx3-chapter-end-10-b26",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 1",
+    "markdown": "1. 设平面 $\\alpha$ 与平面 $\\beta$ 平行, $A \\in  \\alpha , B \\in  \\beta , C$ 是 ${AB}$ 的中点. 当 $A\\text{ 、 }B$ 分别在 $\\alpha \\text{ 、 }\\beta$ 上运动时,所有的动点 $C$ 是否保持在同一个平面上? 证明你的结论.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1780,
+        "end": 1781
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1780,
+        "end": 1781
+      }
+    ],
+    "id": "bx3-chapter-end-10-t-1",
+    "category": "拓展与思考",
+    "answer": "1. 是的. 是位于两平面中间, 且到两平面距离相等的一个平面.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 882,
+        "end": 883
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "question",
+    "title": "拓展与思考 · 2",
+    "markdown": "2. 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,如果对角线 $A{C}_{1}$ 与过点 $A$ 的相邻三个面所成的角分别为 $\\alpha \\text{ 、 }\\beta \\text{ 、 }\\gamma$ ，那么 ${\\cos }^{2}\\alpha  + {\\cos }^{2}\\beta  + {\\cos }^{2}\\gamma  =$ ___.\n\n![bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg](images/book-b405a33b48cccb7bf2aa.jpg)\n\n(第 2 题)",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1782,
+        "end": 1787
+      },
+      {
+        "source": "book",
+        "start": 1784,
+        "end": 1786
+      }
+    ],
+    "provenance_question": [
+      {
+        "source": "book",
+        "start": 1782,
+        "end": 1787
+      },
+      {
+        "source": "book",
+        "start": 1784,
+        "end": 1786
+      }
+    ],
+    "id": "bx3-chapter-end-10-t-2",
+    "category": "拓展与思考",
+    "answer": "2. 2.",
+    "answer_provenance": [
+      {
+        "source": "teacher",
+        "start": 884,
+        "end": 885
+      }
+    ],
+    "teacher_analysis": "",
+    "analysis_provenance": []
+  },
+  {
+    "type": "heading",
+    "title": "探究与实践",
+    "markdown": "## 探究与实践",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1788,
+        "end": 1788
+      }
+    ],
+    "id": "bx3-chapter-end-10-b29",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "正方体的截面",
+    "markdown": "## 正方体的截面",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1790,
+        "end": 1790
+      }
+    ],
+    "id": "bx3-chapter-end-10-b30",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "我们知道, 用一把刀去切一个球形的西瓜, 其切口截面是一个圆. 但如果用一个平面去截一个正方体, 得到的截面会是什么图形呢?\n\n---\n\n用一个平面去截一个几何体，几何体表面与平面的交线所围成的平面图形叫做平面截几何体的截面.\n\n---\n\n平面截在正方体的不同位置时, 截面的形状会有所不同, 下面是正方体几种截面图形的示意图.\n\n三角形正方形矩形\n\n![bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg](images/book-beb5bfe4991464c52037.jpg)\n\n![bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg](images/book-d428ba5163fc3f650f89.jpg)\n\n![bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg](images/book-a47b3972b486ede429a8.jpg)\n\n梯形五边形六边形\n\n利用空间线面关系的有关性质, 我们可以准确地作出平面截正方体所得到的截面图形.\n\n![bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg](images/book-8cc672bd78901f4faa72.jpg)\n\n问题: 已知 $P\\text{ 、 }Q\\text{ 、 }R$ 分别是正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱 ${AB}\\text{ 、 }{BC}$ 和 ${D}_{1}{C}_{1}$ 的中点,如何作出过 $P\\text{ 、 }Q\\text{ 、 }R$ 三点的平面 $\\alpha$ 截正方体所得到的截面呢?\n\n作法:\n\n(1)取 ${A}_{1}{D}_{1}$ 的中点 $S$ ，连接 ${SR}$ . 由 ${SR}//{A}_{1}{C}_{1},{A}_{1}{C}_{1}//{AC}$ ， ${AC}//{PQ}$ ,知 ${SR}//{PQ}$ ,从而由两平行线 ${SR}$ 和 ${PQ}$ 确定的平面即为 $\\alpha$ ,从而 $S \\in  \\alpha$ .\n\n(2)延长 ${RS}$ ，交 ${B}_{1}{A}_{1}$ 的延长线于点 $M$ . 连接 ${MP}$ ，交 $A{A}_{1}$ 于点 $T$ . 由直线 ${SR} \\in  \\alpha$ ,知 $M \\in  \\alpha$ . 又由 $P \\in  \\alpha$ ,可得 $T \\in  \\alpha$ .\n\n(3)延长 ${PQ}$ ，交 ${DC}$ 的延长线于点 $N$ . 连接 ${NR}$ ，交 $C{C}_{1}$ 于点 $W$ . 同理可得 $W \\in  \\alpha$ ,从而 $P\\text{ 、 }Q\\text{ 、 }W\\text{ 、 }R\\text{ 、 }S\\text{ 、 }T$ 六点都在平面 $\\alpha$ 上.\n\n---\n\n连接 $P\\text{ 、 }Q\\text{ 、 }R$ 三点得到的三角形 ${PQR}$ 是所要求的截面吗? 为什么?\n\n---\n\n(4)连接线段 ${ST}$ 及 ${RW}$ ,得六边形 ${PQWRST}$ . 由于六边形 ${PQWRST}$ 各边的端点都在正方体的表面上, 因此六边形 PQWRST 的各条边也在正方体的表面上. 所以, 六边形 PQWRST 就是平面 $\\alpha$ 截正方体所得的截面.\n\n![bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg](images/book-4fc42b8e25eebacfa7fa.jpg)\n\n![bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg](images/book-6462cfb882e478395ebb.jpg)\n\n由上可知,作平面 $\\alpha$ 截正方体的截面的关键,是确定截面多边形的各个顶点:\n\n(1)要确保截面多边形的各个顶点都在平面 $\\alpha$ 上；\n\n(2)要确保截面多边形的相邻两个顶点都在正方体的同一表面上.\n\n由于正方体的棱所在直线是相邻两个表面的交线, 因此常利用棱上的点从一个表面转化到另一个表面.\n\n思考: 用一个平面截正方体.\n\n(1)如果截面是三角形，可以截出几类不同的三角形？为什么？\n\n(2)能否截出正五边形？为什么？\n\n(3)其截面有没有可能是边数超过 6 的多边形？为什么？",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1791,
+        "end": 1853
+      }
+    ],
+    "emphases": [
+      {
+        "start": 69,
+        "end": 113,
+        "kind": "concept",
+        "title": "教材概念与条件",
+        "id": "bx3-chapter-end-10-definition-31-0",
+        "origin": "editorial-emphasis"
+      }
+    ],
+    "id": "bx3-chapter-end-10-b31",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "课后阅读",
+    "markdown": "## 课后阅读",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1854,
+        "end": 1854
+      }
+    ],
+    "id": "bx3-chapter-end-10-b32",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "heading",
+    "title": "中国微分几何学派的创立者——苏步青",
+    "markdown": "## 中国微分几何学派的创立者——苏步青",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1856,
+        "end": 1856
+      }
+    ],
+    "id": "bx3-chapter-end-10-b33",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "prose",
+    "title": "",
+    "markdown": "苏步青(1902—2003)，著名数学家、教育家，中国微分几何学派的创始人，曾被誉为 “东方第一几何学家”. 1955 年当选为中国科学院学部委员(即后来的中国科学院院士). 苏步青主要从事微分几何学和计算几何学等方面的研究, 在仿射微分几何学和射影微分几何学等领域中取得杰出的研究成果, 在几何外型设计、计算机辅助几何设计等领域做出了开创性的成就. 他还是一位数学教育的大师.\n\n![bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg](images/book-65435ef3728d00028eda.jpg)\n\n苏步青于 1902 年出生在浙江省平阳县的一个小山村. 童年时代的他曾是牛背上的野孩子，小时候的求学路经历了从“背榜”到第一名的过程, 13 岁时苏步青考入在温州的浙江省立第十中学读书. 1919 年 7 月, 他在校长洪彦远先生的资助下到日本留学. 经过一个月的日语补习，1920 年 2 月参加东京高等工业学校招考，以优秀的成绩被录取到该校电机系学习. 后又报考日本东北帝国大学理学院数学系，以两门课均满分的成绩被录取. 在就读期间，苏步青在仿射微分几何领域就已取得了出色的研究成果，数学界称他为 “东方国度上升起的灿烂的数学明星”，并于 1931 年获得理学博士学位. 1931 年秋, 因与早于他留学日本的陈建功先生有约在先, 苏步青回到阔别 12 年的故土, 到浙江大学数学系任教. 经过多年的努力, 包括在抗战期间随浙江大学西迁贵州这一段颠沛流离的艰辛岁月中, 他们获得了一系列重要研究成果, 在国际上享有崇高的声誉, 以苏步青为首的浙江大学微分几何学派也开始形成. 两位先生创导的数学讨论班活动, 在培养学生上居功至伟. 浙江大学因而被英国科技史专家李约瑟(Joseph Needham)誉为“东方的剑桥”. 1952 年，全国高等院校院系调整，苏步青被调到复旦大学，从此创立于浙江大学的微分几何学派在复旦大学得到发扬和光大. 在 70 多岁高龄时，苏步青还结合解决船体数学放样的实际课题, 创建和开始了计算几何这一新的研究方向.\n\n除了出色的研究工作，苏步青还是一位优秀的教育家. 他一生教书育人，为祖国培养了一大批优秀的数学人才, 在他培养的学生中, 有多名是中国科学院院士. 苏步青也十分关注基础教育，曾领导编写过中学数学教材，多次给中小学生作报告，在晚年还亲自为提高中学数学教师的水平开办讲学班. 1991 年起设立的苏步青数学教育奖, 奖励为中学数学基础教育做出杰出贡献的教师，已成为我国中学数学教育的大奖.\n\n由于苏步青的杰出贡献，在他逝世后不久的 2003 年 8 月，国际工业与应用数学联合会(ICIAM)决定设立“ICIAM 苏步青奖”，奖励在数学对新兴经济和人类发展的应用方面做出突出贡献的个人. 这是国际工业与应用数学联合会继拉格朗日 (Lagrange) 奖、柯拉兹 (Collatz)奖、先驱(Pioneer)奖及麦克斯韦(Maxwell)奖后设立的第五个奖项，是第一个以中国科学家名字命名的国际数学大奖.",
+    "provenance": [
+      {
+        "source": "book",
+        "start": 1857,
+        "end": 1866
+      }
+    ],
+    "id": "bx3-chapter-end-10-b34",
+    "answer": "",
+    "teacher_analysis": ""
+  },
+  {
+    "type": "teacher",
+    "title": "正式教参 · 相关阅读材料",
+    "markdown": "#### 四、相关阅读材料\n\n### 阅读材料\n\n### 几何学寻踪\n\n几何学是数学中最古老的分支之一, 也是数学这个领域里最基础的分支之一. 几何学伴随人类文明而诞生,其绚丽的画卷在人类历史的长河中无处不见. 中国、古巴比伦、古埃及、古印度、古希腊都是几何学的重要发源地.\n\n公元前 300 年前后, 古希腊数学家欧几里得 (Euclid, 约公元前 330一前 275) 在前人工作的基础上,写成了《几何原本》[1] 这一数学巨著. 此书共十三卷,其中五卷为平面几何,三卷为立体几何,五卷为数和比例. 在这部著作里,全部几何知识都是从最初的几个假设出发, 运用逻辑推理的方法展开和叙述的. 欧几里得首先构造了一个由一些定义、公设和公理构成的系统, 由此演绎推导出一系列定理和其他各种结论, 几乎囊括了当时的全部几何学成就. 《几何原本》的伟大意义在于, 它是用公理法建立起演绎的数学体系的最早典范, 这本书对数学发展的影响超过任何其他的书. 它被誉为 “数学的圣经”.\n\n在几何学的发展历程里, 欧几里得第五公设占有极其重要的地位. 这个第五公设又被称为平行公设, 它有许多等价命题, 其中最简单的表述是, “过直线外一点, 有且只有一条直线与已知直线平行”. 自《几何原本》问世起,有许多数学家——也许包括欧几里得本人都对《几何原本》中的第五公设不满意,因为它不如其他公理、公设那样简明. 于是在其后二千多年的岁月里, 有很多的数学家孜孜不倦地试图证明第五公设, 结果他们都没有获得成功. 当时间的舞步来到 19 世纪 20 年代, 终于有数学家另辟蹊径,把欧几里得的第五公设替换成“过已知直线外一点至少可以作两条直线与已知直线平行”, 建立了现在称为罗巴切夫斯基几何或双曲几何的非欧几何. 有三位数学家在其中做出了决定性的贡献, 他们是俄国数学家罗巴切夫斯基 (H. И. Лобачевский, 1792—1856)、匈牙利数学家波尔约 (J. Bolyai, 1802—1860) 和德国数学家高斯 (C. F. Gauss, 1777—1855). 还有另一种非欧几何, 把欧几里得的第五公设替换成 “过已知直线外一点不能作直线与已知直线平行”,球面几何是其最自然的原型. 这种几何现在称为黎曼的非欧几何或者椭圆几何, 它是德国数学家黎曼 (G. F. B. Riemann, 1826-1866)从空间度量的角度进行研究的. 黎曼的理论把通常的欧几里得几何和两种非欧几何统一在黎曼几何的大旗下,只不过是空间度量曲率的差别而已. 当然, 这个理论的复杂与深入不是中学数学所能够涉猎的.\n\n非欧几何的诞生在数学的历史上具有里程碑意义, 它彻底解决了欧几里得第五公设问题, 引起了数学家们对几何基础的研究, 扩展了空间概念, 解放了人们的思想, 对数学乃至其他学科的发展具有深远的影响. 李忠的小册子《并不神秘的非欧几何》[2] 对非欧几何的前世今生有一个深入浅出的介绍.\n\n几何学的故事还可以有其他的主线: 比如从帕普斯 (Pappus, 约公元前 400 一前 300)到射影几何学,笛卡尔(R. Descartes,1596-1650)与解析几何,高斯、黎曼与微分几何学,庞加莱(J. H. Poincaré, 1854-1912)与拓扑学,等等. 如果你喜欢现代数学严密的公理化的体系,或许你可以来阅读《希尔伯特几何基础》[3]一书,由此, 数学基础将变得更加牢固.\n\n### 参考文献\n\n[1] 欧几里得. 几何原本[M]. 燕晓东,译. 南京:江苏人民出版社,2011.\n\n[2] 李忠. 并不神秘的非欧几何[M]. 北京:高等教育出版社,2013.\n\n[3] 希尔伯特. 希尔伯特几何基础[M]. 江泽涵,朱鼎勋,译. 北京:北京大学出版社, 2009.",
+    "provenance": [
+      {
+        "source": "teacher",
+        "start": 886,
+        "end": 908
+      }
+    ],
+    "teacher_only": true,
+    "id": "bx3-chapter-end-10-b35",
+    "answer": "",
+    "teacher_analysis": ""
+  }
+]

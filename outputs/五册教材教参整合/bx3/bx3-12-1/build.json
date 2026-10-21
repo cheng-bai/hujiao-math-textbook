@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "version": "batch-render-v1.4",
+  "id": "bx3-12-1",
+  "book_id": "bx3",
+  "section": "12.1",
+  "title": "随机现象与样本空间",
+  "section_json": "batch/sections/bx3/bx3-12-1.json",
+  "output": "outputs/五册教材教参整合/bx3/bx3-12-1",
+  "fingerprint": "04302ef57c4b14aea424c0d6e9df8b0c1b49039c7d0cd038dd6a5ec81f3298ed",
+  "status": "rendered",
+  "questions": 16,
+  "answers": 16,
+  "teacher_file": "teacher.html",
+  "student_file": "student.html",
+  "student_zip": "student.zip",
+  "assets": {
+    "images/book-4135bbf5a9c4f7280488.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg",
+      "sha256": "4135bbf5a9c4f7280488e5f02fefb020a2672bdc2d29a2ac3ed3f380ec45f099",
+      "private": false
+    },
+    "images/book-a01f29ae8e473c6c63cd.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_2_1204_484_188_236_0.jpg",
+      "sha256": "a01f29ae8e473c6c63cd8a7bb63b0d3b9e7e5e9d3304d81f149b33b24d558cac",
+      "private": false
+    },
+    "images/book-e76ec97cb50a203c0245.jpg": {
+      "source": "sources/textbooks/必修第三册/第12章概率初步/images/bo_d4slmlref24c73be0org_2_1214_1062_171_222_0.jpg",
+      "sha256": "e76ec97cb50a203c02457fa4ad10d123792da4a4bc2155d6516347c0e093ee30",
+      "private": false
+    }
+  },
+  "issues": [],
+  "source_hashes": {
+    "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md": "1c586666db23a88be1e8fb052628d87d997d96b3681f0c215c404dad798bde65",
+    "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md": "440056ebc94f25e9827125893fa650df0d3c00524488e5b16237101465b15299"
+  },
+  "student_images": [
+    "images/book-4135bbf5a9c4f7280488.jpg",
+    "images/book-a01f29ae8e473c6c63cd.jpg",
+    "images/book-e76ec97cb50a203c0245.jpg"
+  ],
+  "math_review": "separate",
+  "artifact_hashes": {
+    "teacher.html": "0032293581f8449a61e77bbf0996bd181bde506e0d9d792f8c577fab379ab588",
+    "student.html": "8c6a70b8a96a66ff394cdfb16d2f7a31ebd746ec14aca87b5dcf380663ded30e",
+    "student.zip": "da5564273ad08b9bd6d241b9136530d9ae9c04e846cca4efd6e29d68fdac4683",
+    "content.json": "e7a18d0c8cf03cf9b7ea8f98e7202529b292de2cdce7c151a20465fc9c2510cf"
+  }
+}

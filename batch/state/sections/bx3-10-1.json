@@ -1,0 +1,28 @@
+{
+  "id": "bx3-10-1",
+  "book_id": "bx3",
+  "section_path": "batch/sections/bx3/bx3-10-1.json",
+  "fingerprint": "1a93387d861fca161bb99f729fa698426ceae0f4f4d387f1c38bd3f614a175be",
+  "status": "validated",
+  "review": {
+    "status": "pending"
+  },
+  "stages": [
+    {
+      "script": "batch_validate.py",
+      "status": "passed",
+      "counts": {
+        "questions": 29,
+        "answers": 29,
+        "teacher_formulas": 485,
+        "student_formulas": 212,
+        "checks": 97,
+        "errors": 0,
+        "warnings": 0
+      },
+      "cached": false
+    }
+  ],
+  "elapsed_seconds": 11.99,
+  "finished_at": "2026-10-20T02:12:31+08:00"
+}
