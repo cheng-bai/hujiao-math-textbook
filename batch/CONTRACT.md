@@ -2,6 +2,8 @@
 
 源资料只读。优先顺序：x1选择性必修第一册，bx1必修第一册，bx2必修第二册，bx3必修第三册，x2选择性必修第二册；排除两本数学建模活动册。
 
+本文保留早期批量制作的分工与合同。当前产品状态、接手流程与安全修改边界见 [`PRODUCT.md`](../PRODUCT.md)；不要因接手而重新提取并覆盖已编辑底稿。公开副本使用项目根相对路径，运行时可解析为本机绝对路径。
+
 ## 文件与写入边界
 - parser agent: scripts/batch_extract.py，以及batch/manifests/、batch/sections/。只能自己写这些，不改共享book.css/book.js/build_sample.py。
 - renderer agent: scripts/batch_render.py、scripts/batch_validate.py，输出目录 outputs/五册教材教参整合/。不改parser或manifest/section JSON。
@@ -10,10 +12,10 @@
 
 ## 中间合同
 每节独立JSON: batch/sections/{book_id}/{section_id}.json
-字段：schema_version=1, id（册ID+节号避免跨册碰撞）, book_id, book_title, chapter（原章号字符串）, chapter_title, section（如1.1或chapter-end-1）, title, sources={book:绝对MD路径,teacher:绝对MD路径}, source_hashes={绝对路径:SHA256}, blocks, issues。
+字段：schema_version=1, id（册ID+节号避免跨册碰撞）, book_id, book_title, chapter（原章号字符串）, chapter_title, section（如1.1或chapter-end-1）, title, sources={book:项目根相对MD路径,teacher:项目根相对MD路径}, source_hashes={项目根相对路径:SHA256}, blocks, issues。
 blocks沿用scripts/build_sample.py现有格式：type(section/heading/prose/question/teacher/editor/intro)，title，markdown，provenance=[{source:book/teacher,start:原行,end:原行}]。
 section块含id,number,subtitle；question块含唯一稳定id,category(例题/练习…/习题…),provenance_question,answer,answer_provenance,teacher_analysis,analysis_provenance。teacher/editor应teacher_only=true。缺答案必须显式记录issue，不准猜填、静默错配或由题干冒充答案。
-所有Markdown图片先转成来源绝对路径（renderer复制到章节点内并替换成相对路径）；原始src和行号可追溯。其余源文尽量不动。emphases沿用{start,end,kind,title,id}标记已有内容，不重复公式。
+持久化Markdown图片使用项目根相对来源路径（renderer解析并复制到章节点内，替换成输出相对路径）；原始src和行号可追溯。其余源文尽量不动。emphases沿用{start,end,kind,title,id}标记已有内容，不重复公式。
 
 manifest: batch/manifests/catalog.json，顶层books数组；每book含id,title,chapters数组；每chapter含id,title,book_source,teacher_source,sections数组；每section含id,section,title,path(项目根相对JSON路径),status,issues摘要。保留章末阅读、内容提要、复习题，作为chapter-end节点，不吞入最后一节或删除。
 

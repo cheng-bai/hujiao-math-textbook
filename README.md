@@ -6,6 +6,12 @@
 
 [在线阅读](https://cheng-bai.github.io/hujiao-math-textbook/) · [源码仓库](https://github.com/cheng-bai/hujiao-math-textbook) · [持续检查](https://github.com/cheng-bai/hujiao-math-textbook/actions/workflows/ci.yml)
 
+## 维护者与 AI 接手入口
+
+先读 [产品概览](PRODUCT.md) 的“五分钟接手”，再按任务查阅 [详细产品与 AI 接手手册](docs/产品与AI接手手册.md) 中的架构、数据契约、修改流程、测试、发布和已知限制。[AGENTS.md](AGENTS.md) 提供 AI 自动发现的简短工作约定。
+
+**日常编辑从 `batch/sections/` 开始，不要为刷新网页重新提取全书。** 手册明确区分已实现能力、历史验证、未集成试点及后续建议，避免把生成成功当作数学与教学审定。
+
 ## 下载后直接使用
 
 1. 下载仓库 ZIP 并完整解压，或者 `git clone` 本仓库。
