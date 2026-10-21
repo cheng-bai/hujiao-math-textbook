@@ -4,11 +4,20 @@
 
 **仓库包含可直接使用的完整预构建网站，不需要 Codex、API Key、登录、数据库或在线公式服务。**
 
+[在线阅读](https://cheng-bai.github.io/hujiao-math-textbook/) · [源码仓库](https://github.com/cheng-bai/hujiao-math-textbook) · [持续检查](https://github.com/cheng-bai/hujiao-math-textbook/actions/workflows/ci.yml)
+
 ## 下载后直接使用
 
 1. 下载仓库 ZIP 并完整解压，或者 `git clone` 本仓库。
 2. 用 Chrome / Edge / Firefox 打开根目录 `index.html`，即可进入五册总目录。
 3. 也可以进入 `outputs/五册教材教参整合/index.html`。不要只下载单独一个 HTML 文件。
+
+使用 Git 下载：
+
+```sh
+git clone https://github.com/cheng-bai/hujiao-math-textbook.git
+cd hujiao-math-textbook
+```
 
 浏览、公式显示和现有交互所需资源已包含在仓库内。浏览器文件权限有差异，若本地文件模式受限，请使用以下本地服务器。
 
