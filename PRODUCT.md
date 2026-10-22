@@ -4,6 +4,8 @@
 
 **详细操作、数据契约、架构、测试与发布说明见 [产品与 AI 接手手册](docs/产品与AI接手手册.md)。** 不需要为一个局部任务通读整本手册或全书。
 
+模块边界与渐进迁移见 [AI 迭代架构](ARCHITECTURE.md)。按任务定位现有文件可运行 `python3 scripts/ai_context.py --task content --section x1-2-2`；它只读任务地图，不构建、不改文件。
+
 ## 五分钟接手
 
 1. 在正确仓库根检查 `git status --short`、`git remote -v`、`git log -3 --oneline`。原工作目录与发布副本可能并存，以当前 Git 和目标文件为准。

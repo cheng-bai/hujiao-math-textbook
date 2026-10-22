@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "purpose": "当前任务路由，不是自动依赖图、写权限或执行器。命令仅供审阅，不自动运行。",
+  "entrypoints": ["AGENTS.md", "PRODUCT.md", "ARCHITECTURE.md"],
+  "source_of_truth": "batch/sections/",
+  "readonly_inputs": ["sources/", "outputs/教材可视化资源库/"],
+  "generated_outputs": ["outputs/五册教材教参整合/", "batch/state/"],
+  "routes": {
+    "content": {
+      "title": "编辑单节题文、解答与重点",
+      "scope": "section",
+      "requires_section": true,
+      "read": ["{section_path}", "batch/CONTRACT.md"],
+      "edit": ["{section_path}"],
+      "outputs": ["{output_dir}/", "outputs/五册教材教参整合/", "batch/state/", "outputs/_shared/", "outputs/教材可视化编排小样/", "outputs/空间向量基本定理-最小试作/", "outputs/教材高清图与难度校准-20261021/"],
+      "commands": [
+        "python3 scripts/batch_render.py --section {section_path} --force",
+        "python3 scripts/batch_validate.py --section {section_path} --force",
+        "python3 scripts/batch_run.py --adopt-existing --section {section_id}",
+        "python3 scripts/check_release.py"
+      ],
+      "checks": ["按底稿 provenance 定向读取来源，不预读全书", "题意、答案、重点切片与图形独立复核", "学生 HTML/ZIP、公式和打印；只检查当前构建"],
+      "warnings": ["section 是编辑对象范围，不是命令实际写入闭包：渲染会写册级 _shared/_sources；adopt-existing 会刷新全站目录和状态、同步其他第一方页面门禁，包括可能存在的本地试点。执行前核对副作用，保留已有改动", "不运行 batch_extract.py 刷新正文", "数学补解须获准、标记编辑依据并独立复核；本工具不做数学判定"]
+    },
+    "guidance": {
+      "title": "调整例题教参说明归位",
+      "scope": "shared",
+      "requires_section": false,
+      "read": ["scripts/example_guidance.py", "docs/例题教参归位规则.md", "scripts/test_example_guidance.py"],
+      "edit": ["scripts/example_guidance.py", "scripts/test_example_guidance.py", "docs/例题教参归位规则.md"],
+      "outputs": ["outputs/五册教材教参整合/"],
+      "commands": ["python3 -m unittest discover -s scripts -p test_example_guidance.py -q", "python3 -m unittest discover -s scripts -p test_reading_features.py -q"],
+      "checks": ["先测同节、多例、跨节、续段、幂等及未匹配原文保留", "共享转换变更需定向重建受影响章节，再验证学生排除"],
+      "warnings": ["当前输出测试不能证明修改后新输出；必须先渲染再复验", "不能把含糊例号强行贴给最近一道题"]
+    },
+    "reader": {
+      "title": "阅读、索引和公式交互",
+      "scope": "shared",
+      "requires_section": false,
+      "read": ["scripts/book.js", "scripts/book.css", "scripts/batch_render.py", "scripts/test_reading_features.py"],
+      "edit": ["scripts/book.js", "scripts/book.css", "scripts/batch_render.py", "scripts/test_reading_features.py"],
+      "outputs": ["outputs/五册教材教参整合/"],
+      "commands": ["python3 -m unittest discover -s scripts -p test_reading_features.py -q", "python3 scripts/test_build_roundtrip.py"],
+      "checks": ["先完成一节重建与浏览器检查，再扩共享变更", "代表页 bx1-2-3、bx2-8-2、bx3-10-3、x1-2-2、x2-5-3：手机、锚点、解锁、公式、答案开关", "相关学生包、离线及打印不可退化"],
+      "warnings": ["不手改各册 _shared 副本", "本页索引不是全书全文搜索；DOM 选择器也是可视化和打印接口"]
+    },
+    "print": {
+      "title": "模块化打印与分页",
+      "scope": "shared",
+      "requires_section": false,
+      "read": ["scripts/book.js", "scripts/book.css", "scripts/build_sample.py", "scripts/batch_validate.py", "scripts/test_print.py"],
+      "edit": ["scripts/book.js", "scripts/book.css", "scripts/build_sample.py", "scripts/batch_validate.py", "scripts/test_print.py"],
+      "outputs": ["outputs/五册教材教参整合/"],
+      "commands": ["python3 -m unittest discover -s scripts -p test_reading_features.py -q"],
+      "checks": ["重建后用 batch_validate.py 定向验证五册代表节，单浏览器串行", "仅题、题答、正文及教师说明组合；带图题、长公式、超页长解答", "屏幕折叠状态不影响打印内容；长题允许说明后自然续页"],
+      "warnings": ["结构测试不能证明实际分页；必须看当前打印 PDF", "修改前核对旧专项脚本是否适配入口口令"]
+    },
+    "visuals": {
+      "title": "实验与可视化编排",
+      "scope": "shared",
+      "requires_section": false,
+      "read": ["scripts/visual-book.js", "scripts/visual-book.css", "docs/textbook-visual-selection.json", "scripts/textbook-labs/", "tools/anatomy/"],
+      "edit": ["scripts/visual-book.js", "scripts/visual-book.css", "scripts/textbook-labs/", "scripts/build_textbook_labs.py", "scripts/build_conic_labs.py", "scripts/package_textbook_labs.py"],
+      "outputs": ["scripts/visual-assets/", "outputs/教材可视化资源库/", "outputs/五册教材教参整合/"],
+      "commands": [],
+      "checks": ["先声明对应实验族与入口，再选择其模型/浏览器测试；不默认跑全量", "数学边界、教学价值、状态恢复、旧编排、学生载荷、离线与打印回退", "封存新增版本，不原地覆盖资源包"],
+      "warnings": ["资源库仅通过封存工具创建新版本；readonly_inputs 禁止的是手改旧包", "缺少明确理解障碍和可操作收益，不自动插入教材", "视觉专项旧脚本的口令适配状态须先检查"]
+    },
+    "build": {
+      "title": "渲染、缓存、状态与可移植性",
+      "scope": "shared",
+      "requires_section": false,
+      "read": ["scripts/batch_render.py", "scripts/batch_run.py", "scripts/batch_validate.py", "scripts/build_sample.py", "scripts/project_paths.py", "scripts/test_build_roundtrip.py"],
+      "edit": ["scripts/batch_render.py", "scripts/batch_run.py", "scripts/batch_validate.py", "scripts/build_sample.py", "scripts/project_paths.py", "scripts/test_build_roundtrip.py", "scripts/test_portability.py"],
+      "outputs": ["outputs/", "batch/state/"],
+      "commands": ["python3 scripts/test_build_roundtrip.py", "python3 -m unittest discover -s scripts -p test_portability.py -q", "python3 scripts/check_release.py"],
+      "checks": ["先做单模块/单节兼容提取，保留旧 CLI 与退出码", "冷/热缓存、来源漂移、资源删除、学生 ZIP 白名单与状态采用", "静态通过不代表浏览器、数学或教学已通过"],
+      "warnings": ["当前 runner 刷新目录时会同步其他第一方输出页的门禁，因此保守列出整个 outputs；不是只写选中章节。先核对 site_access.FIRST_PARTY_OUTPUTS 和未跟踪试点", "构建和调度指纹目前用途不同，不直接改为一个相等的值", "样章模块有启动 I/O，正式构建当前通过 AST 提取组件"]
+    },
+    "release": {
+      "title": "发布检查与部署",
+      "scope": "release",
+      "requires_section": false,
+      "read": ["README.md", ".github/workflows/ci.yml", ".github/workflows/pages.yml", "scripts/check_release.py", "scripts/site_access.py"],
+      "edit": [".github/workflows/ci.yml", ".github/workflows/pages.yml", "scripts/check_release.py", "scripts/site_access.py", "scripts/site-access.js", "scripts/site-access.css"],
+      "outputs": ["outputs/五册教材教参整合/"],
+      "commands": ["python3 scripts/check_release.py", "git diff --check"],
+      "checks": ["按文件白名单暂存，排除未跟踪本地试点", "先授权再提交/推送；部署还需单独核对当前授权", "区分本地、远端、CI、Pages 与线上实际内容"],
+      "warnings": ["本工具不会推送或触发部署", "Pages 当前手动触发；前端口令不是账号认证"]
+    },
+    "docs": {
+      "title": "产品文档、架构与 AI 接手工具",
+      "scope": "documentation",
+      "requires_section": false,
+      "read": ["AGENTS.md", "PRODUCT.md", "ARCHITECTURE.md", "architecture/task-map.json", "docs/产品与AI接手手册.md"],
+      "edit": ["AGENTS.md", "PRODUCT.md", "ARCHITECTURE.md", "README.md", "architecture/task-map.json", "docs/产品与AI接手手册.md", "scripts/ai_context.py", "scripts/test_ai_context.py", ".github/workflows/ci.yml"],
+      "outputs": [],
+      "commands": ["python3 scripts/ai_context.py --check", "python3 -m unittest discover -s scripts -p test_ai_context.py -q", "git diff --check"],
+      "checks": ["相对链接、示例命令、当前/目标状态不混淆", "更新共享模块时人工复核路由语义，路径检查不能代替依赖审查"],
+      "warnings": ["只改文档无需重新提取、全书渲染或 Pages 部署", "不把目标目录登记为当前可编辑路径"]
+    }
+  }
+}

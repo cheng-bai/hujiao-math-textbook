@@ -175,6 +175,8 @@
 
 ## 6. 技术架构
 
+本节描述当前运行结构；目标模块边界、兼容迁移和证据失效策略见 [AI 迭代架构](../ARCHITECTURE.md)。`scripts/ai_context.py` 与 `architecture/task-map.json` 是已落地的只读接手入口，目标 `hujiao/`、`reader/` 等目录仍属计划，不要当成已完成重构。
+
 ```text
 sources/textbooks/ + sources/paired/ + sources/visuals/
           | 来源快照、图片、历史配对与既有交互输入
