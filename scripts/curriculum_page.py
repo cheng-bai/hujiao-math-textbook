@@ -23,7 +23,7 @@ CASE_REFERENCE = re.compile(r'参见案例\s*(\d+(?:\s*[，,、~～〜至\-]\s*\
 
 
 def reviewed_source(raw):
-    corrections = json.loads((ASSETS / 'corrections.json').read_text())
+    corrections = json.loads((ASSETS / 'corrections.json').read_text(encoding='utf-8'))
     if hashlib.sha256(raw).hexdigest() != corrections['source_sha256']:
         raise ValueError('原稿指纹与校订依据不符，请先核对并更新 corrections.json')
     text = raw.decode('utf-8')
@@ -207,20 +207,20 @@ def render(source):
         children = ''.join(f'<a href="#{heading["id"]}">{html.escape(heading.get_text(" ", strip=True))}</a>' for heading in section.find_all('h3'))
         child_links = f'<div class="sub-links">{children}</div>' if children else ''
         navigation.append(f'<div class="toc-group"><a class="chapter-link" href="#{anchor}"><span>{number:02d}</span>{html.escape(title)}</a>{child_links}</div>')
-    css = (ROOT / 'scripts/curriculum_reader.css').read_text()
-    script = (ROOT / 'scripts/curriculum_reader.js').read_text()
+    css = (ROOT / 'scripts/curriculum_reader.css').read_text(encoding='utf-8')
+    script = (ROOT / 'scripts/curriculum_reader.js').read_text(encoding='utf-8')
     page = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>课程标准 · 沪教数学</title><link rel="stylesheet" href="bx1/_shared/vendor-katex/katex.min.css"><style>{css}</style>{access_head('../_shared/')}<script defer src="bx1/_shared/vendor-katex/katex.min.js"></script><script defer src="curriculum-2025/reader.js"></script></head><body><a class="skip" href="#content">跳到正文</a><header class="topline"><a href="index.html">← 教材与教参</a><span>沪教数学 · 课程依据</span><a href="curriculum-2025/source.md" download>原稿 ↓</a></header><div class="layout"><aside id="directory"><div class="directory-head"><strong>阅读目录</strong><button id="close-directory" type="button" aria-label="关闭目录">×</button></div><label class="search-label" for="search">全文定位</label><div class="search-box"><input id="search" type="search" placeholder="搜索关键词，如：核心素养" autocomplete="off"><button id="clear-search" type="button" aria-label="清空搜索">×</button></div><p id="search-status" role="status" aria-live="polite">输入关键词，定位到原文段落</p><div id="search-results"></div><nav aria-label="课标章节目录">{''.join(navigation)}</nav><div class="sidebar-note">2017 年版 · 2025 年修订<br>全文阅读 / 本地公式与图片</div></aside><main id="content"><div class="eyebrow">CURRICULUM / 数学课程标准</div><h1>普通高中数学<br>课程标准</h1><div class="edition"><span>2017 年版 · 2025 年修订</span><a href="#一课程性质">开始阅读 ↓</a></div><p class="intro">从课程目标到教学实施，沿着学科核心素养，查阅课程内容、学业要求与评价建议。</p><details class="source-note"><summary>来源与阅读说明 <span>OCR 转录，非官方发布页</span></summary><p>原稿名称：{html.escape(original_title)}。本页保留所提供转录稿的正文、图表与公式；案例可在正文引用处展开，同一案例多次引用时重复呈现。未逐条校订 OCR，亦未核验是否为官方最新版本。原稿第 1077 行列联表及案例 14 表格有识别或排版异常，案例 33 在原稿末尾截断；正式引用请核对权威原件。</p><a href="curriculum-2025/source.md" download>下载可编辑 Markdown 原稿</a><p id="math-status" role="status">公式准备中。</p></details>{source_toc}{''.join(str(section) for _, _, section in sections)}<footer class="reader-foot"><span>全文完 · 回到课程与教学本身</span><a href="index.html">返回教材主页 →</a></footer></main></div><div class="mobile-tools"><button id="open-directory" type="button" aria-controls="directory" aria-expanded="false">目录 / 搜索</button><a href="#content">回到顶部 ↑</a></div><button id="directory-backdrop" type="button" aria-label="关闭目录" hidden></button><noscript><p>请启用 JavaScript，以使用全文定位、公式渲染与站内访问入口。</p></noscript></body></html>'''
     page = page.replace('原稿第 1077 行列联表及案例 14 表格有识别或排版异常，案例 33 在原稿末尾截断；正式引用请核对权威原件。', '已对照用户提供的同版本 PDF：案例 14 的 200 项原始数据已补齐并与排序表逐项核对（PDF 第 126—128 页，印刷页 123—125）；案例 33 在印刷页 167 正常结束，无缺文，已修正标题中的加号及跨页断行。其他内容未逐条审校，原稿第 1077 行列联表仍待核。')
     page = page.replace('<p id="math-status"', '<p><a href="curriculum-2025/reviewed.md" download>下载局部校订版 Markdown</a> · <a href="curriculum-2025/corrections.json">查看校订依据</a></p><p id="math-status"')
     ASSETS.mkdir(parents=True, exist_ok=True)
     if source.resolve() != (ASSETS / 'source.md').resolve():
         shutil.copy2(source, ASSETS / 'source.md')
-    (ASSETS / 'reader.js').write_text(script)
-    (ASSETS / 'reviewed.md').write_text(reviewed)
-    (OUTPUT / 'curriculum-2025.html').write_text(page)
+    (ASSETS / 'reader.js').write_text(script, encoding='utf-8')
+    (ASSETS / 'reviewed.md').write_text(reviewed, encoding='utf-8')
+    (OUTPUT / 'curriculum-2025.html').write_text(page, encoding='utf-8')
     metadata = {'source_title': original_title, 'source_sha256': hashlib.sha256(raw).hexdigest(), 'images': images, 'tables': len(soup.find_all('table')) + sum(len(section.find_all('table')) for _, _, section in sections), 'math': sum(len(section.select('.math')) for _, _, section in sections), 'chapters': len(sections), 'case_references': reference_count, 'case_placements': placement_count}
     metadata.update({'reviewed_sha256': hashlib.sha256(reviewed.encode('utf-8')).hexdigest(), 'corrections_sha256': hashlib.sha256((ASSETS / 'corrections.json').read_bytes()).hexdigest(), 'reference_pdf_sha256': corrections['pdf_sha256']})
-    (ASSETS / 'build.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
+    (ASSETS / 'build.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(metadata, ensure_ascii=False))
 
 

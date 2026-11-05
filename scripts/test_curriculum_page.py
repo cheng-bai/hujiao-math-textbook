@@ -24,8 +24,8 @@ class CurriculumPageTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.assets = OUTPUT / 'curriculum-2025'
-        cls.page = BeautifulSoup((OUTPUT / 'curriculum-2025.html').read_text(), 'html.parser')
-        cls.build = json.loads((cls.assets / 'build.json').read_text())
+        cls.page = BeautifulSoup((OUTPUT / 'curriculum-2025.html').read_text(encoding='utf-8'), 'html.parser')
+        cls.build = json.loads((cls.assets / 'build.json').read_text(encoding='utf-8'))
         original = subprocess.run(['pandoc', '--from=markdown', '--to=html', '--katex', str(cls.assets / 'reviewed.md')], check=True, capture_output=True, text=True).stdout
         cls.original = BeautifulSoup(original, 'html.parser')
 
@@ -73,7 +73,7 @@ class CurriculumPageTest(unittest.TestCase):
 
     def test_verified_corrections(self):
         reviewed, corrections = reviewed_source((self.assets / 'source.md').read_bytes())
-        self.assertEqual(reviewed, (self.assets / 'reviewed.md').read_text())
+        self.assertEqual(reviewed, (self.assets / 'reviewed.md').read_text(encoding='utf-8'))
         self.assertEqual(hashlib.sha256(reviewed.encode()).hexdigest(), self.build['reviewed_sha256'])
         self.assertEqual(hashlib.sha256((self.assets / 'corrections.json').read_bytes()).hexdigest(), self.build['corrections_sha256'])
         self.assertEqual(corrections['pdf_sha256'], self.build['reference_pdf_sha256'])
@@ -112,7 +112,7 @@ class CurriculumPageTest(unittest.TestCase):
         self.assertIn('未逐条校订 OCR', self.page.get_text())
 
     def test_rebuild_from_repository_sources(self):
-        ast.parse((ROOT / 'scripts/curriculum_page.py').read_text(), feature_version=(3, 10))
+        ast.parse((ROOT / 'scripts/curriculum_page.py').read_text(encoding='utf-8'), feature_version=(3, 10))
         with tempfile.TemporaryDirectory(prefix='curriculum-test-') as temporary:
             output = Path(temporary)
             assets = output / 'curriculum-2025'
@@ -125,8 +125,8 @@ class CurriculumPageTest(unittest.TestCase):
                 self.assertEqual((assets / filename).read_bytes(), (self.assets / filename).read_bytes(), filename)
             # The shared access script may acquire a cache key after an existing page was built.
             normalize = lambda page: re.sub(r'(site-access\.js)(?:\?v=[a-f0-9]+)?', r'\1', page)
-            self.assertEqual(normalize((output / 'curriculum-2025.html').read_text()),
-                             normalize((OUTPUT / 'curriculum-2025.html').read_text()))
+            self.assertEqual(normalize((output / 'curriculum-2025.html').read_text(encoding='utf-8')),
+                             normalize((OUTPUT / 'curriculum-2025.html').read_text(encoding='utf-8')))
             self.assertTrue(all((assets / name).is_file() for name in self.build['images']))
 
 
