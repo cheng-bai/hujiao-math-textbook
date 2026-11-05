@@ -7,7 +7,7 @@
   "title": "集合及其表示",
   "section_json": "batch/sections/bx1/bx1-1-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-1-1",
-  "fingerprint": "f972a4c02783f70159512874e4e2f283fb355bbd06b31054c1393d635098d5e7",
+  "fingerprint": "7c049846d5b8ead6195692a35571752361402a77f14fb5f423ef89f951e42512",
   "status": "rendered",
   "questions": 36,
   "answers": 36,
@@ -236,9 +236,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "52554c9bcd044cf3fdb4050575e7d3704719aa4441be81ff54d17d9a3854ab23",
-    "student.html": "fec4c10ab6d79cf6ea5b90fc07f5979e08c8b2b4d1a5cf17688c792cf47c46b7",
-    "student.zip": "8bcf35d3c6bf29dfdd00a06341a64a26b57bbee1701f7fad673e425e08543a54",
+    "teacher.html": "33aa5495118751cac2a96d8bda40981c775f53346b2c9509bf3c3071248ccb4f",
+    "student.html": "529a550fe7c27fa2a08a2aebfc2cf5099dd3b9e07bd6168805903a9f6d0bef4c",
+    "student.zip": "036a8d3c10370b02368047750174fc79239afb5ef8ffa2e6de1449b176128550",
     "content.json": "629ff137fb30e7103adb04d50e04fe08dd3ded275488917a6198be53af42f429",
     "teacher-guidance.json": "bff23078c879d705ca4a105c0e406d841c65655005a588083341431821420887"
   }

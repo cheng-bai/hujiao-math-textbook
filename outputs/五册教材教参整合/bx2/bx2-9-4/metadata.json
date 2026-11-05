@@ -7,7 +7,7 @@
   "title": "复数的三角形式",
   "section_json": "batch/sections/bx2/bx2-9-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-4",
-  "fingerprint": "ef3246b1cad055364bb74bec201c0053f3719e40bb85e12f2adb9536129e9705",
+  "fingerprint": "b1d6255b93a275d6491174f4d69ce9d6feb9b4fb0b9022b6862e4b913648979f",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -138,9 +138,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "0d92d818da47af5c815ef203ccb4f8ea52650b4c3c9ef1ec5becf730b46887d7",
-    "student.html": "2bfb8bb5d79fb9d4a3ab9a11f3a9122e6515519ef1c0de6818d919d1912e580f",
-    "student.zip": "409120a37405ce46d8a2f97797287ef1a492472a061cb5c5f4f3e164ff6b3e2d",
+    "teacher.html": "d0cc7313573b6d62edc1eda3e980df1fdaf2cb2c92664e0f0267a6d627232304",
+    "student.html": "11cb7934f4f67e359f2221198af490cb319da0fb7d62b7e9fc0f70d1a8c70569",
+    "student.zip": "2ae0545d52a8ec346f138297d4a402ca3d0c50c0ff64fb0cfa65037df423c149",
     "content.json": "e2fb9e2d6ed0c0bc7abd8633ce57808c3a389d0b4d06eceda9e72693e82fa90c",
     "teacher-guidance.json": "4c63802996cb7b391df27bf8a72b101e4c39450640c4ccee5197a79100171b5d"
   }

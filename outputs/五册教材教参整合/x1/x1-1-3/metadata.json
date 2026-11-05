@@ -7,7 +7,7 @@
   "title": "两条直线的位置关系",
   "section_json": "batch/sections/x1/x1-1-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-3",
-  "fingerprint": "d6d22240e5674f5fb3b4c809056b4e6c2698c1badefc71c8efe1ef8a66dc21b5",
+  "fingerprint": "3809c523c8795dd3f3ea5b27e7b83d438da0544ad3083026253cc494a4ecb142",
   "status": "rendered",
   "questions": 33,
   "answers": 33,
@@ -144,9 +144,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9bb2e8b87d8d18b7d15fb9574ba19587a15ca09e47a3ffc64c271874e6001846",
-    "student.html": "20ac78722620edd59b81a3aed44bcc11303dcaa9be714c8cf89eac3c63822917",
-    "student.zip": "382af2e3008263537cb41f819e9db7e1dbca80aad43863cb723a343dc3f81de4",
+    "teacher.html": "ffa5ef72bb27f84f16b560be252152de72c8d853639b911f32cb0ed000d74eaf",
+    "student.html": "5bfb94b51d5ea4ae46395ced6053876526484c38858a9272a6312c8759ff040b",
+    "student.zip": "364014e45944962bd886cb76509e49185f0e851726c4b1abbf6f2fcc1b5b322b",
     "content.json": "983075d6fd2e9a3710324e081ddaca06de8aa6e0b1d7ca413f4404b4a5977ab7",
     "teacher-guidance.json": "19b8ca8127e875cc784132220eaf3ffafd692809aad1d768735a4e48845a9866"
   }

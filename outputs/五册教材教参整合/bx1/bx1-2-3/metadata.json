@@ -7,7 +7,7 @@
   "title": "基本不等式及其应用",
   "section_json": "batch/sections/bx1/bx1-2-3.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-2-3",
-  "fingerprint": "3aa4b009d0ee3507deb1566e429487cc9ec475a60b1f10acd9e21f0a5f904712",
+  "fingerprint": "5beec90991cea1526b260ee10fa10000e6b997dbd7ec0befd85e328ad2572b54",
   "status": "rendered",
   "questions": 31,
   "answers": 31,
@@ -169,9 +169,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "c22242fc0b84337fa89c6a8559a856681f85f26b02bba9564abc20a9917b7ec5",
-    "student.html": "d315d9ee2739091c7cd6980571b70d0d5ac08b6296bbb88faedd4de8d1954280",
-    "student.zip": "50f1c62cd5124fa5d0e271f9a8fbacd2164d5f894f50dc2f5a8c2faba2ba9021",
+    "teacher.html": "77b13120b81f053c3432aaa04fb9a7732f8664e31a20fd6745b77438e3bdc0c8",
+    "student.html": "4cee6edac72a09e47388704126761fa846951392ce5d6e1b4e3a132b9da7b948",
+    "student.zip": "1c9b7eeeba43216c094bbfe605b5f0535d61e50de5cf6383b07f8b5322e6e460",
     "content.json": "56e6ad8393f9bb2eb61e121a07fdea0c06f31b1e3958289aeae45d97de0df517",
     "teacher-guidance.json": "802223ff897dfc17385116a58d98f7c51491b5a188d7f97bdfeb000b07debd39"
   }

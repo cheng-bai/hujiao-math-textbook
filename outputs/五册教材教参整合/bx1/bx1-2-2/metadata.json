@@ -7,7 +7,7 @@
   "title": "不等式的求解",
   "section_json": "batch/sections/bx1/bx1-2-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-2-2",
-  "fingerprint": "e98ce9d82c98b7c29ceefebbd85dda728ce2f7d616370674dd080fdaa4c609f0",
+  "fingerprint": "cb3af854742cfc6fca33d8a2012a71f9ebb02748247087fdbc6f797d2b838140",
   "status": "rendered",
   "questions": 48,
   "answers": 48,
@@ -295,9 +295,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "32cf113d6eda5cf953663801546d43cd936ee2324d25d465bb3c73b1f8cdcac4",
-    "student.html": "462e190f518dbc8b4f5a4e374e604d92d2b8ca5351c918984246d9e26712d4e4",
-    "student.zip": "a4902926ec7dc7b2303b5557a0bddc50617305b5cef10a75f4b11282824fa654",
+    "teacher.html": "b8d18c01fe33f59382576edf37956c884f22a2c75f56f7cabcfe968a2cf4dba5",
+    "student.html": "69ad9bde16ffef38a412bd55b2cfe5f97314eda521eb7ddcb7d1c571bc9f6fe5",
+    "student.zip": "ee87362e680432c34585401c59dd73f2987a7ca923a3d070b805df39f082e955",
     "content.json": "2208adbad9ce8b3b37c6b75754d6727fa229ec2421ac9176f85ddda4656791d6",
     "teacher-guidance.json": "c948674f7e01cdf77b5c22f37b04557a16f3302e6514c36878598da49cda0eb8"
   }

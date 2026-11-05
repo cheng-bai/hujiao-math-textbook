@@ -7,7 +7,7 @@
   "title": "古典概率",
   "section_json": "batch/sections/bx3/bx3-12-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-2",
-  "fingerprint": "942af9e740da9b9790f023377bcebf2a4f5738dd96bddf5c3aff3ab7f0fa5389",
+  "fingerprint": "756afded67e1a0bcae7083042992bbdc4342f3fd1c9c567816279afc84d8b56e",
   "status": "rendered",
   "questions": 29,
   "answers": 29,
@@ -54,9 +54,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "893aed8efab5a08178575d54d1a723086192b1770bb2ac6b511bf5b8eb7cbe30",
-    "student.html": "e9148bb322c3bc2dd0c85f3d52708d13c6d1fddc08a4331b34d0b515d75b118f",
-    "student.zip": "183f369dd04c7ca00c76f37754378c53233cf7fac9f6309a84d5ad3e025a2e17",
+    "teacher.html": "9ead327fb10b0feca4e26e096bf32da5c67a02243a5ab738e68766223779d700",
+    "student.html": "cafa0e742c81579f27d5e4043dbd797d987a290e48505fd98b99a863d9d5044e",
+    "student.zip": "ac41fe484b57a947a5b39f2eb352584dc95932bc2ad35f6566553c83025c7d5b",
     "content.json": "b1a6df10c74ef87b1d9761d2d148c3b179eae4770194b7a76b3e71074c1dd3e4",
     "teacher-guidance.json": "d36ded34de93ca3627d1b1351b0f4126f1380a934cc549c623a7556689087b65"
   }

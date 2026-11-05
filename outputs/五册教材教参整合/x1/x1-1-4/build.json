@@ -7,7 +7,7 @@
   "title": "点到直线的距离",
   "section_json": "batch/sections/x1/x1-1-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-4",
-  "fingerprint": "fe1eccc81829c278741b590c7202cd51b1f57ffe46abeaa285255c46945d3a0b",
+  "fingerprint": "fc9270255a296304df02c757166e70dae972aecbbcded907f7c78bcdb9c6bdef",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -90,9 +90,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "08317c2bd05dde24a83330e3d3f407b0fb4f5db23b68244f10ec5936c8348074",
-    "student.html": "ea4da11a50b87dcdd893ed7c981aec6a861744568e7b92a8bc20ff86a64e3a48",
-    "student.zip": "ffe298fab0dd8f73d40bcf914246ac3958bfc419b9b42e4c5af283306c19540e",
+    "teacher.html": "0bd467d602d2f7a0968179705125e8eedc52d5807152cfe2dd43d41b75d2e5f4",
+    "student.html": "460c5c2096f57e9883646f91872c5444a05c891949058b96a002f2e30569cf83",
+    "student.zip": "f58bd7eb66f86c853702668e772561b628108540dc5f85bfa44931a8d3e5637b",
     "content.json": "cd815ccd4b7e1cf8d6b98de17b756f983fb6ba271abe98aeeed730cabecdf29a",
     "teacher-guidance.json": "721b49e43b84daaf00fdfb65ed7449e82bd582147fe7361cfdf90b439c12e5e7"
   }

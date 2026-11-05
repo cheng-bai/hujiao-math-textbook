@@ -133,19 +133,43 @@ navLinks.forEach(link => link.addEventListener('click', () => {
   revealAnchor(link.hash);
 }));
 addEventListener('hashchange', () => revealAnchor(location.hash));
+let searchEntries;
 addEventListener('book-layout-updated', () => {
+  searchEntries = undefined;
   // Re-open a directly linked concept if visualization layout folds its source again.
   revealAnchor(location.hash, false);
   scheduleToc();
+  if (tocSearch?.value.trim()) filterToc();
 });
+const normalizeSearch = text => text.toLocaleLowerCase().replace(/例题/g, '例').replace(/[\s·]/g, '');
+function getSearchEntries() {
+  if (searchEntries) return searchEntries;
+  const questionKinds = new Map();
+  navLinks.forEach(link => {
+    if (!questionKinds.has(link.hash)) questionKinds.set(link.hash, link.dataset.tocKind);
+  });
+  searchEntries = [...document.querySelectorAll('#reading h2, #reading h3, #reading h4, #reading p, #reading li, #reading td')]
+    .flatMap((element, index) => {
+      if (element.closest('.provenance, .teacher-brief') ||
+          (element.matches('p') && element.closest('li, td'))) return [];
+      const question = element.closest('.question');
+      const itemKind = (question && questionKinds.get(`#${question.id}`)) || 'content';
+      const excerpt = element.cloneNode(true);
+      excerpt.querySelectorAll('[data-tex]').forEach(math => {
+        math.replaceWith(document.createTextNode(math.dataset.tex));
+      });
+      const text = (excerpt.textContent || '').replace(/\s+/g, ' ').trim();
+      return [{ element, index, itemKind, text, normalized: normalizeSearch(text) }];
+    });
+  return searchEntries;
+}
 function filterToc() {
-  const normalize = text => text.toLocaleLowerCase().replace(/例题/g, '例').replace(/[\s·]/g, '');
-  const query = normalize((tocSearch?.value || '').trim());
+  const query = normalizeSearch((tocSearch?.value || '').trim());
   const kind = tocFilter?.value || 'all';
   let count = 0;
   navLinks.forEach(link => {
     link.hidden = !(kind === 'all' || link.dataset.tocKind === kind) ||
-      !normalize(link.dataset.tocLabel || link.textContent).includes(query);
+      !normalizeSearch(link.dataset.tocLabel || link.textContent).includes(query);
     if (!link.hidden) count++;
   });
   let results = toc?.querySelector('.toc-search-results');
@@ -157,20 +181,8 @@ function filterToc() {
   results?.replaceChildren();
   let matches = 0;
   if (query && results) {
-    const candidates = document.querySelectorAll('#reading h2, #reading h3, #reading h4, #reading p, #reading li, #reading td');
-    candidates.forEach((element, index) => {
-      if (element.closest('.provenance, .teacher-brief') ||
-          (element.matches('p') && element.closest('li, td'))) return;
-      const question = element.closest('.question');
-      const questionLink = question && navLinks.find(link => link.hash === `#${question.id}`);
-      const itemKind = questionLink?.dataset.tocKind || 'content';
+    getSearchEntries().forEach(({ element, index, itemKind, text, normalized }) => {
       if (kind !== 'all' && kind !== itemKind) return;
-      const excerpt = element.cloneNode(true);
-      excerpt.querySelectorAll('[data-tex]').forEach(math => {
-        math.replaceWith(document.createTextNode(math.dataset.tex));
-      });
-      const text = (excerpt.textContent || '').replace(/\s+/g, ' ').trim();
-      const normalized = normalize(text);
       if (!normalized.includes(query)) return;
       matches++;
       if (matches > 40) return;

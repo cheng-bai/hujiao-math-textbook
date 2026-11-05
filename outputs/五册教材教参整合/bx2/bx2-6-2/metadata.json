@@ -7,7 +7,7 @@
   "title": "常用三角公式",
   "section_json": "batch/sections/bx2/bx2-6-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-6-2",
-  "fingerprint": "44dc7274f419115c48129e93c60c199f391b84d385b6c5e0e597357de09735f7",
+  "fingerprint": "07778707284f5097ad84e0322f03616427ce9bc4053778721916e3a877ae121d",
   "status": "rendered",
   "questions": 51,
   "answers": 51,
@@ -271,9 +271,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1f348ffd968600a4ee126848661276a06b3581ded64a565ba9d358c3bc9f6736",
-    "student.html": "197c9cb65d284c4620f41247f027df4075ba7eb2347520779fae4c6f1c34ab5e",
-    "student.zip": "e2fd4139f627f7f28b4a1abeb5d117bcfadebca197e453a9b7bbb90891184a3d",
+    "teacher.html": "bc8edf76bcf1948df931e69caf63d168dc7f5b0c6a46957329848eb5aabf2954",
+    "student.html": "9c38e87d876bd061b43cc22c4d500e38fdb56d26532ad0242529a7809c0175e9",
+    "student.zip": "4909707274b6eab951c20fae6907f5d319c4f868402407d100dd4faf919e2913",
     "content.json": "eab7f671dd0de2f81c6c040d50721f06628b14b77aa0d81338a8354cc4174b30",
     "teacher-guidance.json": "e2173f457929cf397a81dc393ae0e69c7f2e5770647151b8279e07e56f1a54b9"
   }

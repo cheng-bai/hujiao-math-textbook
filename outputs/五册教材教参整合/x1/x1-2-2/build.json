@@ -7,7 +7,7 @@
   "title": "椭圆",
   "section_json": "batch/sections/x1/x1-2-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-2",
-  "fingerprint": "469c9a5a5cf65865711ec97f50a767f93ca01e272513908dac6eceee264df59c",
+  "fingerprint": "05b74633e2b85c9f6267a99c74475e1f05381cd7decc0caffb6901c95769b7a0",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -171,9 +171,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "899e04daf933655332c330fec4620dfe70e274cde9f0fa5e360da04b6d468835",
-    "student.html": "242e1aa39ed110a28bf4b1c7e0108c079a3dd958adef829686bed622fcbc7f02",
-    "student.zip": "64bbeebb8361317788b48816b0dc7b8e442d9aaf3c6f00f986daa45db3307568",
+    "teacher.html": "090b960213d73eb05e2f5bd3a245d8cd87c211b92399a59e50028cc2464938e1",
+    "student.html": "a69e461fb8300f0d020199e7c525b9ed47374c92962dad33b3083ff09d7746b3",
+    "student.zip": "327cb60269f0ac1e6b73a6be81d934dee536eabfb4c27a14d9cc6fb8a86e23e8",
     "content.json": "a2344d84c54be17b46029813d67e3b028b74c9710dc04ea550493122b7e2a0b6",
     "teacher-guidance.json": "e9d0ee333568ba5af169894f6eddc3bd1f2f33e9f8003500901c783c5e2a26db"
   }

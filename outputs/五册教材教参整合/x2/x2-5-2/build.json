@@ -7,7 +7,7 @@
   "title": "导数的运算",
   "section_json": "batch/sections/x2/x2-5-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-2",
-  "fingerprint": "c1d154ac5a9256f13268d226cf00ce1ab28703e5132242809c6fea4a6fa5f193",
+  "fingerprint": "68bedda5f567f8994d09ea64b318ec69d87b6e60da1dc80e6600aa4a885f94ba",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -161,9 +161,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "e95e32c3e12a1fb0bff56a8bad229223398263c5930e2511f4a46f8384b0bc30",
-    "student.html": "d0f59303f55a96c6fa2b7fc3f0378febc76920379998f91c7f5d6882a69a559d",
-    "student.zip": "c9ae5f51c3f6cd3dea721c0c786e8076368a116b479b21b2da625a0509391f54",
+    "teacher.html": "6cb40fdefbf72ac5bc35e5f17fa434af68d5860d76b297477cf5852b8d0b770b",
+    "student.html": "dd803eca39dff1a0dd9b8c5a93b03e4daf28b61a00daebf0a55cecc80289df82",
+    "student.zip": "f9bfde40e74df55a5c26940c3af5bb0fe9017f6196cf6a4fe76bc62017d42d28",
     "content.json": "baca2430776e7ad979faeb3a87d42c25dce6170a0421f1b19f02e151ecb97d56",
     "teacher-guidance.json": "e8e7e213f8450468794e483e82cc11cd0ba3efcf9fb6cc8d749d77f845653a5b"
   }

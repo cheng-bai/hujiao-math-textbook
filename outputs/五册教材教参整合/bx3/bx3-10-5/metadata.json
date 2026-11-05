@@ -7,7 +7,7 @@
   "title": "异面直线间的距离",
   "section_json": "batch/sections/bx3/bx3-10-5.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-5",
-  "fingerprint": "51d6e44fb8fe609b52404e43688777c45333a964c767dee487b61dcbb24b2134",
+  "fingerprint": "c92fef002be0fd8f378c1356a2f9d4a39800d5e6dc8a8cd8d02c1355bb662b0d",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -121,9 +121,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "8af85dcf2c01ed8f88e5099cfedff99c5020872726eb8ce591a5ef5b9a7e9161",
-    "student.html": "81904df0c19250e332017f62727f924f56f80a742996e6f9c068b269b1b63aa2",
-    "student.zip": "853e8af20605c847a27aa6fb6c168dd70f406177eb8a1379646af6503071819c",
+    "teacher.html": "857e31eb984f3f4be620d8b20cc38323e911ae5eba491c20f605b022d72c5466",
+    "student.html": "926d128b98da10e98de332769c7cbe00e23dd3485957ce6d81b97a461366496f",
+    "student.zip": "b6814c8ba4d678cc87523a73aec14bb67d9f4e8480d0db15e049c240540cac53",
     "content.json": "a6465afd54cffeaef3803d7db72e737371ec99dec8d7eb137ec5efe9d90b74b5",
     "teacher-guidance.json": "4a0e14185c59c29d2fb7787cf7fe3365bdf951db29a7abab65db6d076a6e0e31"
   }

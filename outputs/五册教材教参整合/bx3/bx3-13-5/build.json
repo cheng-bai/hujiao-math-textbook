@@ -7,7 +7,7 @@
   "title": "统计估计",
   "section_json": "batch/sections/bx3/bx3-13-5.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-5",
-  "fingerprint": "2c2789b85dd00ca5ccbcaefef4df08aab1278f4c77dff48bb09b30a4be3a5e0a",
+  "fingerprint": "2c6f2ccc794000ff5011d439f16ea3f3fedc3edf12d7830dcb913c64659b1b9a",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -161,9 +161,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "017348f2ec5155542025c47de0fec2fca90ae1d9c7f3d2552c91b16657239535",
-    "student.html": "16ed2d73861fe076d00433e23a968b33fe0d0cd72d0af4f416bdc7178ba520eb",
-    "student.zip": "9edbeb74695c90dbe003291ff510022e2615a23ce2528336f76ab47cb873e68d",
+    "teacher.html": "68e2ae361d480fc40656c32d00c587e229c921cb8cb84f048d901055524a66c8",
+    "student.html": "bed385ab45ff1d771dc604bd1d7691feb3873f2a38d3e30d0402fed251ed7177",
+    "student.zip": "9407ee1627cb407e95290aa64a2f39f9d0060cef589c325c8cbb763c9e049f66",
     "content.json": "dc065f26778172473276ac7fbf3e12b652f0fe1705638a001640547772759738",
     "teacher-guidance.json": "6b2498195dea8943f0f99a99b62c60d8db100cad9ca91c5bf5c0cb65086ae1dd"
   }

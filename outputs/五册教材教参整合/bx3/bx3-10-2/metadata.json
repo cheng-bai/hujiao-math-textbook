@@ -7,7 +7,7 @@
   "title": "直线与直线的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-2",
-  "fingerprint": "2a6a0bb4a34bf120e3d75e0a26037601d341dd6659c227e20de03fe0c4f5c279",
+  "fingerprint": "55194db316899cb0cfefdb5b787f6690e5101539c0a44810a1bb55256f45e17e",
   "status": "rendered",
   "questions": 26,
   "answers": 26,
@@ -292,9 +292,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "da55b5578b69bf7f0134482c6e5337ac0771f36669b0c50c351b2aacbecd0b20",
-    "student.html": "33d9e8f2402f663a2d157db365ec33c5dd3bfc6272acd5fb381fd51310a3c69c",
-    "student.zip": "5579052602211fa20ccbc088fe8b5515e514641123ed392238f51a1300cd2804",
+    "teacher.html": "9f755167b4c419a5f4ace27522f65c89e6a6b5dc36376748e383c47d79904ade",
+    "student.html": "5776b623b3df2e8ddd8287333e3f3953339b337cb0be9be3f654099083bc8fc2",
+    "student.zip": "80eff30055fd4e94eebfcfefa3a97ed23de3ab3e7516487653df13dfcd9c337a",
     "content.json": "5e78724673ee0b22bdc120f554e4c414ecd076bee11314e9dcc08dba80bf50e7",
     "teacher-guidance.json": "8d5e45e7879019179fd4eb63a48d3e404d5e1b0b8860d020c06fe3bf0a7a40a4"
   }

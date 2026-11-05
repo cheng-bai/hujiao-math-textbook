@@ -7,7 +7,7 @@
   "title": "计数原理在古典概率中的应用",
   "section_json": "batch/sections/x2/x2-6-4.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-4",
-  "fingerprint": "0c7fe9002674890d4d161cce3b5e92d3d80e01bdc1bf8597a50e9d79ea00dfb0",
+  "fingerprint": "98c40257605a1881e8d2ce793bd1d6c85fce49646671d0a338e178111ece981c",
   "status": "rendered",
   "questions": 10,
   "answers": 10,
@@ -77,9 +77,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d6e8ddf53eb6fabff9b1111e38309541ec0baff5f4f45c82c82863e2eaf53efe",
-    "student.html": "52e8557983ba063cec871e629c076dd3a48efd996eac47d4edf5b35482b01569",
-    "student.zip": "7ff9f4dbf48f350c7f5595981454944b4866ea80e2eb5cac585093d7be56f774",
+    "teacher.html": "20b8d012ff26d2909a80a9692469d8f01fea9e946f31d2f1ff517a3c726a8df6",
+    "student.html": "2cf609f961f79e94f5f33b06f012a823d52584a866504a3695ae8c1196f259af",
+    "student.zip": "b76a60f913873d75c3d776b0eab7379951b5da6db122ddb6ecf3fc1abdf127b6",
     "content.json": "0d3019a1b0d35621d5cad27101d664b6cd1cf574506f504d1fca0b2a156e5f63",
     "teacher-guidance.json": "c49429d2d10a4c582b6c9552540c2bebb5f61ace81c69032f6e499e162a5cc5c"
   }

@@ -7,7 +7,7 @@
   "title": "常用分布",
   "section_json": "batch/sections/x2/x2-7-3.json",
   "output": "outputs/五册教材教参整合/x2/x2-7-3",
-  "fingerprint": "6cd8dd0fe92d6738728f4cdda998cc9cb10839e0aaa452b3b64763b2516abcd4",
+  "fingerprint": "d976c13f6309981e0e2875a62383f17a80bf880dea6644f37ba420ab37d7ddd8",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -160,9 +160,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "b5fbed372a8dbab5e44a9eae9152556eb894f3c8fcf9ee524b3260ecc021b8dc",
-    "student.html": "653d18cc8ac4b7a168568e5193f99072724ace76919dfdf6b204ab24946a1cba",
-    "student.zip": "52d5cc30698718ce7d6631fec8bab745aa70f44a6b8fb83fe8520c0185d96ab4",
+    "teacher.html": "bc1b762330cb9ecdb648361079ffb614197f9161d9ab792127ee5a4d02f95ad4",
+    "student.html": "90217b8698b6cafb9f626b71e59f9bb0f90a4bb579a331989bbe9b610acbfccc",
+    "student.zip": "f15001987ad3a17ca375dd42bf06759c00fa7561bdb30780e6eb0bdf8e0a8ddc",
     "content.json": "9aaf33d74613a47b1424557b7b9ee9db3413366e2cbdf414ec1dc8ade3c1ea0c",
     "teacher-guidance.json": "1116d12733e28a365bb28fc62599e52c0554a49d47a6a2c93490a419c49e5049"
   }

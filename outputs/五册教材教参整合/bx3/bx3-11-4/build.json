@@ -7,7 +7,7 @@
   "title": "球",
   "section_json": "batch/sections/bx3/bx3-11-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-11-4",
-  "fingerprint": "7da5a389465c0a0cdd03e7581090171d05e8f3a689d285f963d4ca4af7bf36a2",
+  "fingerprint": "536c7c845991e4759092a92c75a235c5b597bdda42b8e670662cd5f03e645be7",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -156,9 +156,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "a745b4bb4f4a20b5fc1b877a418ab19f6ef7851e9074b3e4486417ec2fc5696b",
-    "student.html": "6631d5a1952ac5d43ec7fe84d80cfe4f5afc775b1ae028c3c4b835e728a3301b",
-    "student.zip": "8834718faef4d8a0ec16780d15e64b701d420a1633248d7a9194470e16eb3f04",
+    "teacher.html": "59d5061e52c800a661beb2585ba0291b3fe0e41e4c3191e2b6848a60f74bcd0e",
+    "student.html": "afa2fb0b68bb077ac86c6bf6a549f19d1db2a3e04f1ed0bb93ddbeb6010b18fb",
+    "student.zip": "666d527b74ad15308c40f6987dbf039fa4f658adb0aab848e538d25e29d9f301",
     "content.json": "a1c37a7b8b03c761572aeee4c49d962eefb637faa78ede34bcdca17f0d0568fe",
     "teacher-guidance.json": "81316eab5f42d12e40394a63a0875e5fbabb16c369c99dd668216885bd225008"
   }

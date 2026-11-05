@@ -7,7 +7,7 @@
   "title": "总体与样本",
   "section_json": "batch/sections/bx3/bx3-13-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-1",
-  "fingerprint": "39c82cb1dcdad876104a8d2cfc0805df9b42b0d575915172216cc58a39917635",
+  "fingerprint": "78777b8654becb207c6fc33c01464e5e65291a2aa2814af79e23d17e9a2686e9",
   "status": "rendered",
   "questions": 9,
   "answers": 9,
@@ -54,9 +54,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "14d89020f63e34c3498f5d315d25ed3bcf1d0e7a54a36ef6a962908c524dee15",
-    "student.html": "4f322046e61b70d655f7bca24746e98234bca0489e2c95e89d33f3bb3ac8b59c",
-    "student.zip": "d3ec0ee44b3f0505413fcbf12110184cfc0ad9072e2cb6de488f96f38f0eee22",
+    "teacher.html": "2b055ff6fceaa5547c6f089d98e0e66746b2fe89a39dac8ea27132bd1e2e8706",
+    "student.html": "caee4facbe5e28dc9b6fb1b766195030dc551449d131de0c485eeaa4205b2a4c",
+    "student.zip": "af25b5fe5e298946eef1650db8bbc7c70eb08037ac8d255fdb1853af570e316b",
     "content.json": "7d02a7fd2e0f06aec8a9cd1115b3e6575d073e5ec9317988c8fd8bdc9914206b",
     "teacher-guidance.json": "12ffbdc5053f14134b410f3212ea1e307c45d7d3ae8bf4a93fce88b86f462442"
   }

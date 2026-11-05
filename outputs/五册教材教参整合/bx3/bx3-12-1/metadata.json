@@ -7,7 +7,7 @@
   "title": "随机现象与样本空间",
   "section_json": "batch/sections/bx3/bx3-12-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-1",
-  "fingerprint": "d414b0b0315a396e0c02847aada1d5b9d5dae294baf65f7d56cce4c8b1c7768c",
+  "fingerprint": "444b0d612c3a45f030035f29a1bbacaba0a5340ae80e4626b62f38b6a71e4c65",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -60,9 +60,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1f399bb3cf4d066e75127c1e9b4b48a095f6ecbca57a254ffa01e7bd46b51df6",
-    "student.html": "282d9de102503f7dae417e015d7e6398ac25002f4e250458c99777b09cf2b2f6",
-    "student.zip": "8f426863008200ba1c2ff30a7c0e5b5aa17fa77649aa583f892d1e3a6c9f4f9f",
+    "teacher.html": "2edeeca37e144e9c93daa16fade2eca16cbc3f4a2a8898ab118f9e22b7b5fe15",
+    "student.html": "c1584ac2300aa303dda9c5da318b233abbba22b2054e98024557a64d4363b2ad",
+    "student.zip": "1e250e8d04ec5fb11d8f44ef0e5fd824a285312d4e9add4f67fb0834a57587f5",
     "content.json": "e7a18d0c8cf03cf9b7ea8f98e7202529b292de2cdce7c151a20465fc9c2510cf",
     "teacher-guidance.json": "f5a8a3d16a60994d574dacc2fc0e146437f3040d1e221855ba624cffdffe94ba"
   }

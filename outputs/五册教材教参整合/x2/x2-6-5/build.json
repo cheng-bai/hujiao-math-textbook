@@ -7,7 +7,7 @@
   "title": "二项式定理",
   "section_json": "batch/sections/x2/x2-6-5.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-5",
-  "fingerprint": "2308e093a9172bf8e8cfb75f511323a03e613194aee82b49cb7a4f9cbdbc5f29",
+  "fingerprint": "4e1c13f7f3f1a5ad0fa70672c76b826428a320cdb35a1b0b38e3274566a26433",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -127,9 +127,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "0888cc4c6da129f2b08b179617af23d77d366b5f3b9c36a9c1f6404628f46788",
-    "student.html": "a2c19573486d93186d80fc9b8ee85f06bf17ee28b19b4745298dcc42787258c1",
-    "student.zip": "abadae3b8b316370fabc27827ffa41137d88394c80cf73bcc54b0c70705cc98f",
+    "teacher.html": "f6d9d04b3f6f50520c52daea7dfa2d417661c9e2cf39ef5a0ed7339f063021fa",
+    "student.html": "fa99ff2f23db124b81d008c1f995d99ee1d9665815ad816259a295c1c44717c0",
+    "student.zip": "e76a2c480572285afd8ba9054a13a68363b6b37a99bdd961c88682d211f2144f",
     "content.json": "0f6028a34f9309c3fe29b19ed4d032028f12cd964388dc1ea3620f7c29389b54",
     "teacher-guidance.json": "a7cd2dd3881c7a9eba71c672c0a1e9504cd15e74281f43bff83636143eadb9d8"
   }

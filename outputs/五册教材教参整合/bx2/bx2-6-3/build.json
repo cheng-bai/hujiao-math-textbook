@@ -7,7 +7,7 @@
   "title": "解三角形",
   "section_json": "batch/sections/bx2/bx2-6-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-6-3",
-  "fingerprint": "cabec7afa39554c01b194086b428d66be5a52986c45931654d900824d9e0cd5a",
+  "fingerprint": "75d8ab6b2a932b2f063eadd4645624eb4d477a885e3b5c3dc459262d67eb2b30",
   "status": "rendered",
   "questions": 43,
   "answers": 43,
@@ -229,9 +229,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1f8301796b83f919fcbefe63de2f08b735fe319ce6b211bcbf7a2a8dba6bb546",
-    "student.html": "ce3f280d2380c3c66a07c05d4330c883aef71886a122d09bb8185c42796e23e9",
-    "student.zip": "93cdd65c151a133dedded702af49e3f244cf720a781d17ae6d825cea49f67d03",
+    "teacher.html": "a2a4748fd5febb971b965f6161b24d23d8b2bbf5e6f64ef06ffc1310f0d430e2",
+    "student.html": "883ddc69ce1fade16a921a02a2853e196ce6b35e002c488b3ee8d2e60ad49308",
+    "student.zip": "968ef1955c0be5fd2c776b1007905bb1367344aba84a2b9847430c715bc0a8f6",
     "content.json": "25d17314cde8edf4c07736134153ddb23bdea48b217c731dc6c5b841241185c3",
     "teacher-guidance.json": "a971d9e9d2e501504f0cb8121a09ca7c2fd2c664aee8fc28d7d60b1d9709a88b"
   }

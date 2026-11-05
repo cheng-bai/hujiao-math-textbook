@@ -81,6 +81,37 @@ class PageSearchTests(unittest.TestCase):
         self.page.locator('#toc-search').fill('')
         self.assertEqual(self.page.locator('.toc-search-result').count(), 0)
 
+    def test_search_index_is_lazy_reused_and_invalidated(self):
+        self.context.add_init_script("""(() => {
+            const original = Element.prototype.cloneNode;
+            window.searchCloneCount = 0;
+            Element.prototype.cloneNode = function(...args) {
+                if (this.matches('#reading h2, #reading h3, #reading h4, #reading p, #reading li, #reading td')) {
+                    window.searchCloneCount++;
+                }
+                return original.apply(this, args);
+            };
+        })()""")
+        self.open_page('student.html')
+        before = self.page.evaluate('window.searchCloneCount')
+        self.assertEqual(before, 0)
+        self.page.locator('#toc-search').fill('函数')
+        first = self.page.evaluate('window.searchCloneCount')
+        self.assertGreater(first, before)
+        self.page.locator('#toc-search').fill('定义域')
+        self.page.locator('#toc-filter').select_option('example')
+        self.assertEqual(self.page.evaluate('window.searchCloneCount'), first)
+        self.page.locator('#toc-filter').select_option('all')
+        self.page.evaluate("""() => {
+            const paragraph = document.createElement('p');
+            paragraph.textContent = '索引更新验证文字';
+            document.querySelector('#reading').append(paragraph);
+            window.dispatchEvent(new Event('book-layout-updated'));
+        }""")
+        self.assertGreater(self.page.evaluate('window.searchCloneCount'), first)
+        self.page.locator('#toc-search').fill('索引更新验证文字')
+        self.assertTrue(self.page.locator('.toc-search-result').filter(has_text='索引更新验证文字').is_visible())
+
     def test_question_filters_and_hidden_answer_navigation(self):
         self.open_page('teacher.html')
         self.page.locator('#toc-search').fill('求下列函数的定义域')

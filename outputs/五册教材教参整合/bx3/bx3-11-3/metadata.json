@@ -7,7 +7,7 @@
   "title": "多面体与旋转体",
   "section_json": "batch/sections/bx3/bx3-11-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-11-3",
-  "fingerprint": "e9c339077af892fab0059498bfba7bee6ed2e624ab8cf13fe76a2a91df9cca08",
+  "fingerprint": "8968680222b2824796b327aadb056854f47af7aed1e02934743f731505c16b0d",
   "status": "rendered",
   "questions": 9,
   "answers": 9,
@@ -124,9 +124,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "8d5680fd6fc4148fd2a83a997b3f972265885aa5601e12bd92aefd5f8a3d1d1b",
-    "student.html": "9b27991ad053f4cc62e5289f2f8111e56f96b7a2328b5aba742e10bdb4bf2d43",
-    "student.zip": "19bc6e9ad1baed32d047a349e32bfb6168717536e0f4cc77e590c0137f9a2326",
+    "teacher.html": "70066e15df77c35247851e60e60b2116dec2635fd2e91838912650e68222e263",
+    "student.html": "488d5b3d7c5e176992d6053b70284927ec5a37333a92120b50416db3de25e416",
+    "student.zip": "f81eb0380725d346cc9a4713263f91a8144eded4365a9104d367cdaddfd48902",
     "content.json": "5478497fc65b7b018c2418ca91eea8e490647e10300b505f02fb6e1138f19c5c",
     "teacher-guidance.json": "a8ba41842db1d0333703cbb195b671b4ceff6c529ba4cce9d0f1229573c506bb"
   }

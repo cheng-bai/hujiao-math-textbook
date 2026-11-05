@@ -7,7 +7,7 @@
   "title": "一元线性回归分析",
   "section_json": "batch/sections/x2/x2-8-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-8-2",
-  "fingerprint": "09186154b74415f47ada79169a28bb3e79b515455316ed457ba25a348e69ef4c",
+  "fingerprint": "bcc44b02118c9c155565fd13a611b87afdea6a838610160f57070204a1b541b8",
   "status": "rendered",
   "questions": 15,
   "answers": 15,
@@ -158,9 +158,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "960d999d2a1f1e5d1f236aaa9d9378b643389c1ef959ddb8b7558c887608f3a4",
-    "student.html": "47af2d0765849975f0ad458c26359b47fb92ce9f707669174bafc084d15b5e2e",
-    "student.zip": "b76c0b55d475546406fcff8e66ef577f2641eb392393898c7862d79ad4362712",
+    "teacher.html": "3e961605a57890eeac9793c1e240993af9ee555ca18c9e59a13fe07c098a6b00",
+    "student.html": "0230c12310095ba552e29f611d63f42f83ce27aa9af70947fe101f042476f2a0",
+    "student.zip": "e7bfc88788de0265f46c702421e878de3745eafc11fcbc11edb7c0b2e13bf620",
     "content.json": "7b568d23d2e7347aaa7f92091322632f567a34b51abbae68e79a66de679939c4",
     "teacher-guidance.json": "d22e19d81a34eb801aca02bd9763d5ea97cdc8cbc8127f25ef3c59aec8444b7f"
   }

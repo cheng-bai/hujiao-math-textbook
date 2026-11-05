@@ -7,7 +7,7 @@
   "title": "频率与概率",
   "section_json": "batch/sections/bx3/bx3-12-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-3",
-  "fingerprint": "9baa5fd48a9cb5736a7b48cf7e86771caf18267cfbfe534e89551e0b58d77a04",
+  "fingerprint": "7821ac1831db8babb8ef77c17e48544d7da2811b153d6049a2bbdad46bb975b6",
   "status": "rendered",
   "questions": 7,
   "answers": 7,
@@ -54,9 +54,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "3d99e21bad7ff0e4a9070c1c79ab8da4f65c303bfcc2d6f71a8b5acadf37d39f",
-    "student.html": "e8a387f2ff3f786b9c9b44a8958cbd238b510698cd0baff62b83051052fa2515",
-    "student.zip": "d02b611fb767c70dbc8edf861f1c3c9398b7c704e34aaa3664e032e5ce1621ed",
+    "teacher.html": "1bc6d8917835cbf86bc885f7f51e8e5f8ba5416452c3a31631596cc159388cd1",
+    "student.html": "c025a6fd98a5a6ca3464f51e0dc8d27149ca5e75959d33aca83a0d996fd9019b",
+    "student.zip": "9877a5c039889d5a898a40596c92527a448eb8f9c8abcb52441b82be8de9beb0",
     "content.json": "2e07dc1a03490d258757da1ac2f522f3f59daf40d92cbfa1851732eba19b3d58",
     "teacher-guidance.json": "0298f94a5380b67508c648290f198f81228271b426cd1c06e1482d211fef083a"
   }
