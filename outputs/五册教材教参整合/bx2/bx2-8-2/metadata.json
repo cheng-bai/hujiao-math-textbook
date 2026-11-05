@@ -7,7 +7,7 @@
   "title": "向量的数量积",
   "section_json": "batch/sections/bx2/bx2-8-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-2",
-  "fingerprint": "2edede3361978008ab67762b6cb5904629679e42f8091ab5619d48f16f4a2420",
+  "fingerprint": "c60efee33915866b69cd1efd0acaf39a713689c9fabb15f050ae94af34f693ae",
   "status": "rendered",
   "questions": 32,
   "answers": 32,
@@ -83,9 +83,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "94efb373570e14ebbda52674e0fb31248df66966bf68351c92ea3a207cc45a1b",
-    "student.html": "cd18c52a380aca055916acdbc043e99fc9f8376280f1dbf945694095a57ae705",
-    "student.zip": "c974ba5fff5474f0732e8038d5bc4e3a4a9121d858a3af48d2fe467259d7d57f",
+    "teacher.html": "28db0205ec18f58637f83f1bfa9f74a0f171018a569892e187325d08e779d1d3",
+    "student.html": "f8d22408d2f193fc6826eff4fe0f5d2b8f3103bdf230738f70ff93bd53c1d5cc",
+    "student.zip": "5788587976d831cfe060581dd896fbf93cce0c2369d4fa50a818702d31cdd612",
     "content.json": "b898cec15888cb1ac151c382170b1b115f522f6584cf240cd04dd2e1a0d5f96e",
     "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }

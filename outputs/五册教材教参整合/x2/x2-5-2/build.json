@@ -7,7 +7,7 @@
   "title": "导数的运算",
   "section_json": "batch/sections/x2/x2-5-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-2",
-  "fingerprint": "d301c9c907d64834140b0696bddc674686fb366227d866469cd6c2688d0cfb61",
+  "fingerprint": "c1d154ac5a9256f13268d226cf00ce1ab28703e5132242809c6fea4a6fa5f193",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -161,9 +161,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "402f605715501b0d8de4da52240aa04323fa54b8aa39f0e917ea24d46128905a",
-    "student.html": "6339422ebac91e20e4080344790a49152c18b6fb4b99e4d4a17723d6d0606a75",
-    "student.zip": "45da6e59539160838071a697f6d7db941336e74f27e6a3db91c2133f2c48f32e",
+    "teacher.html": "e95e32c3e12a1fb0bff56a8bad229223398263c5930e2511f4a46f8384b0bc30",
+    "student.html": "d0f59303f55a96c6fa2b7fc3f0378febc76920379998f91c7f5d6882a69a559d",
+    "student.zip": "c9ae5f51c3f6cd3dea721c0c786e8076368a116b479b21b2da625a0509391f54",
     "content.json": "baca2430776e7ad979faeb3a87d42c25dce6170a0421f1b19f02e151ecb97d56",
     "teacher-guidance.json": "e8e7e213f8450468794e483e82cc11cd0ba3efcf9fb6cc8d749d77f845653a5b"
   }

@@ -7,7 +7,7 @@
   "title": "等差数列",
   "section_json": "batch/sections/x1/x1-4-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-1",
-  "fingerprint": "96c5f2a5bdae26e12cda9389f01e217b4ce3e267d90ad295c83f2a8f2a07e4d1",
+  "fingerprint": "54c6a06351844f58f5daa9d9921e926246dccfdf4e07aa870a075a50a563c75b",
   "status": "rendered",
   "questions": 27,
   "answers": 27,
@@ -145,9 +145,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2de4dc6b369d8c57bf113a8bd5144842cd9c4fe2e1b9d527aef3d5d5fc71b74e",
-    "student.html": "e1b4baef1d37393bc36db77dd7fd2adf01d9a7b5970979727af168080d591b69",
-    "student.zip": "2f23b3adc95b210974fc93f819e6b25faf00db87880e149dd44125ab471656b6",
+    "teacher.html": "68bea7b8e54ef8772f78aa5fb6089567778cc8b74bf0b6a8ef24fc131ffe3815",
+    "student.html": "42f00ca5353f033bdd2ced3d567d81c83f5e861f051f57d20ecd149e4bb18f26",
+    "student.zip": "b9ec3aeef37237a7e0cccf3ea5c4c66a69c7b91f1eac1268b96d40249424b341",
     "content.json": "a9328090d97d982c06751d3118808e631fc9e427b327b38d54d26908e31ba30e",
     "teacher-guidance.json": "1e04da56eb8978cdcc94005ae3904579873df967016a9ff009760feeb079d94e"
   }

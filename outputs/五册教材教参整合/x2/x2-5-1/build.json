@@ -7,7 +7,7 @@
   "title": "导数的概念及意义",
   "section_json": "batch/sections/x2/x2-5-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-1",
-  "fingerprint": "8046bd017bb66807fc703cff2ba49cedc9996f3db49a4d59795d4e5cf809a643",
+  "fingerprint": "18b96a02bcc0ab1cdb8cd4f035ee17a7737d871ed23c2ce72264b0cad076131d",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -144,9 +144,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1fc5ee46d563f2102ae8e67243d5bb90a6c06ba6f78f6ba7d6a0160fad38d74c",
-    "student.html": "2d7660fe2670a99b866af3eb823929e20774c463f44d4ee4a87b798aa9bfb013",
-    "student.zip": "865684ceb264cfe507f9cc79a41043119745e19ce7a169000c044790533b8c3b",
+    "teacher.html": "cc22d3fc90d6bb93abfe14b06299ffcd24bc511197c7169b8480888657295168",
+    "student.html": "425ab7f5dea75801a4b3e5bfb60c1b5882a743b909defbed2f1d6e5312954366",
+    "student.zip": "9ace7c707a2f7487b0e3baf059bc6a2a1e929b4be665b04d71c450201ebbdc7a",
     "content.json": "af560c959f4103564ee4290e0130dd6079d48f6410a2bf4943f7035f83e837aa",
     "teacher-guidance.json": "e0932ce98312b62a11f51a2141fce1b63e4d60e1a973bcb25a49d122fa0c0bff"
   }

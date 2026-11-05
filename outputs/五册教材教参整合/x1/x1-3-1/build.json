@@ -7,7 +7,7 @@
   "title": "空间向量及其运算",
   "section_json": "batch/sections/x1/x1-3-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-1",
-  "fingerprint": "e9453863427ceeba49a593693433ee6bc6def8b064eb0fa3f8624031a8458049",
+  "fingerprint": "1658cd170e371d3d78ff3b08656b839f2c78841b51b37af3990099f3ff456aaa",
   "status": "rendered",
   "questions": 18,
   "answers": 18,
@@ -178,9 +178,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "34d41fb6cffcc7d321bcd70cc559274aada214a3974c25f087847d8978b78fe8",
-    "student.html": "7bd7a8c6d2badc4013bf39c33b26f65fea4cd78b41ba8ce4c164c75e682528e0",
-    "student.zip": "95d4ae8b906ec7cc57a1f7d6722ffd4930df8dfe4d6253f701f6657ff7d84a9c",
+    "teacher.html": "759dfc95765561149a6264780615b9265a017d8d5cfb49fc8711833831c438c2",
+    "student.html": "dcb2084bded77b191235a8115faf04bbf3b82acf69b077d0579ae33ecb075cc8",
+    "student.zip": "0ba0be8d8b00875b23eb2aa5ef24dc1edf3d681569bcac64f856d8e244f312cd",
     "content.json": "4b5a3d497cb60b50c1f6da8a5233ef04071a7851e1c505d45ad6a5426338322c",
     "teacher-guidance.json": "64e85bfd745b392353ef35e8db0ec59302e86cff79e3e473f2b01ea17b05ab6f"
   }

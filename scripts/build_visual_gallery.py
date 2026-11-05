@@ -22,6 +22,7 @@ BOOK_NAMES = {
     'bx1': '必修第一册', 'bx2': '必修第二册', 'bx3': '必修第三册',
     'x1': '选择性必修第一册', 'x2': '选择性必修第二册',
 }
+BOOK_ORDER = ('bx1', 'bx2', 'bx3', 'x1', 'x2')
 
 
 def esc(value: object) -> str:
@@ -110,7 +111,7 @@ def main() -> None:
     groups = []
     missing_previews = []
     missing_pages = []
-    for book in catalog['books']:
+    for book in sorted(catalog['books'], key=lambda item: BOOK_ORDER.index(item['id'])):
         book_id = book['id']
         chapter_groups = []
         for chapter in book['chapters']:
@@ -191,7 +192,7 @@ def main() -> None:
 @media(max-width:650px){{.wrap{{padding-top:18px}}.hero{{grid-template-columns:1fr;align-items:start;gap:13px}}.counts{{justify-content:flex-start}}.book-head{{align-items:flex-start;flex-direction:column;gap:2px}}.nodes{{grid-template-columns:1fr}}.asset-card{{grid-template-columns:102px minmax(0,1fr);gap:9px;padding:9px}}.asset-title h4{{font-size:14px}}.preview{{aspect-ratio:1/1}}}}
 @media print{{body{{background:white}}.wrap{{max-width:none;padding:0 8mm}}.book-nav{{display:none}}.chapter,.node,.asset-card{{break-inside:avoid}}.nodes{{grid-template-columns:repeat(2,minmax(0,1fr))}}.skipped:not([open]){{display:none}}a{{color:inherit}}}}
 </style></head><body><main class="wrap"><header class="hero"><div><div class="eyebrow">SHANGHAI MATHEMATICS · INTERACTIVE INDEX</div><h1>把静止教材，变成可观察的数学</h1><p>五册教材的高价值动态图索引。只选动态画面确实能替代冗长解释、呈现变化或边界的内容；简单定义与公式保留清晰静态表达。</p></div><div class="counts"><span class="count"><b>{section_total}</b> 阅读节点</span><span class="count"><b>{inserted_assets}</b> 模块</span><span class="count"><b>{unique_placements}</b> 落点</span><span class="count"><b>{visible_sections}</b> 接入阅读节点（含复用）</span><span class="count"><b>{skip_total}</b> 有理由跳过</span></div></header>
-<nav class="book-nav" aria-label="按册跳转">{''.join(f'<a href="#{esc(book["id"])}">{esc(BOOK_NAMES.get(book["id"], book["id"]))}</a>' for book in sorted(catalog['books'], key=lambda item: ('bx1', 'bx2', 'bx3', 'x1', 'x2').index(item['id'])))}</nav>
+<nav class="book-nav" aria-label="按册跳转"><a href="index.html">← 五册首页</a>{''.join(f'<a href="#{esc(book["id"])}">{esc(BOOK_NAMES.get(book["id"], book["id"]))}</a>' for book in sorted(catalog['books'], key=lambda item: BOOK_ORDER.index(item['id'])))}</nav>
 <section class="principle"><strong>阅读方式</strong><p>动态图旁保留必要条件与结论；被替代的教材解释仍可展开，打印时恢复原文。另有 <b>{mixed_visible_blocks}</b> 个混合内容段落含题设、数据或其他未被可视化的解释链，保持正文常显；旧圆锥曲线模块另有常显标准方程卡。教师版、学生版均从本地教材页面进入，学生资源与教师推导分开提供。</p></section>
 <section class="verify"><h2>验证记录与边界</h2>{verification}{generated_missing}</section>{''.join(groups)}
 <footer>本索引根据可视化选择清单与教材章节目录生成。页面与缩略图使用本地相对链接；资源未生成时显示待重建提示。可视化交互用于解释数学关系，不替代完整证明、题答校核或全书内容审定。</footer></main></body></html>'''

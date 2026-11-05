@@ -7,7 +7,7 @@
   "title": "抽样方法",
   "section_json": "batch/sections/bx3/bx3-13-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-3",
-  "fingerprint": "f9a5ae5b67caa91a6c3d8f508da89b1a206ab6945226162e03215bbafe0285c9",
+  "fingerprint": "d1227a7f8c72321052eb6c7435a6ee6df27eb0b14b6eb91917b620b59eebc7da",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -79,9 +79,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "da33f5c4720891ea37fe6446f810c0fc99bd19f83a446309f5f01d4b73816e9c",
-    "student.html": "b644fc0ca08d0b44cc76252bb18b8104b4d0aeac3f3408a7846bf8a818bc9407",
-    "student.zip": "d7062036298da3678c15b6f552d33be62ac26cce8448566efc36071a7ef9cc12",
+    "teacher.html": "e7bb2f6f2c8163396604fcc93e71fafa67b61db53e9a06910468daefb75c8429",
+    "student.html": "57a4797f69dd5440c41b632ae40bac9d57fe03826e3453854bdaaa7f91f8b5a5",
+    "student.zip": "5ca0a1b5cc42b98478a24a1c2ac0cdc28f3e7ad936c3366edab593802bae37fe",
     "content.json": "c39e222e2485466d2d467b96e96ea97fe4edb0131bf20515a1719dd37041ec96",
     "teacher-guidance.json": "0cfa8abe1002cbdfdd71df279afe162e8eaee60e10538f6d588600c4169abb6d"
   }

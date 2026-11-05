@@ -7,7 +7,7 @@
   "title": "条件概率与相关公式",
   "section_json": "batch/sections/x2/x2-7-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-7-1",
-  "fingerprint": "0624e24f6b46cfe5d967893ee22a179387606a9b532206dc397e61bac728c3c8",
+  "fingerprint": "5e6858be202ce1ed259ee1456157a2af7086e1aff351ded304ddba3b908a6b1d",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -133,9 +133,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "5679a352b6778242e2082fe97c58633d7dd623f901a40114c51901a0ea4b43db",
-    "student.html": "3a2479614c3467e08c2fea3092ff48eb8515c679165860a2468efee0f8964c07",
-    "student.zip": "456d935c60dcf8fb84dedca3103c47a4b91c6b39229420d1f39ed30585a5d8c7",
+    "teacher.html": "29872d828fe0c51e8f1664b75e72dee01ebc7e2cee7710a78b94eedfbb7fb3b6",
+    "student.html": "c866257539447013b1daf9bec7e3a963b76b184f82570ade8a59c173cc642870",
+    "student.zip": "d99828c0918ac049e8335ee7acd663273c294fdda8ca6fa458f7221770a8827c",
     "content.json": "80e6cb7ea0a841d39c10d733269e99f48f5bed092a4518b6f4fc58d84186c86c",
     "teacher-guidance.json": "327b2a404f5efa621466005796ed10282ecca7833230c35e5de90478a76de0b6"
   }

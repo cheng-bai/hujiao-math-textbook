@@ -7,7 +7,7 @@
   "title": "随机变量的分布与特征",
   "section_json": "batch/sections/x2/x2-7-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-7-2",
-  "fingerprint": "5d601f8794bcd12520b633dddf912f0b228523aae7d9cacafdec5d3fe71c6bf2",
+  "fingerprint": "0e299a527a9a1d72aaad01b48ff242ef3a0fffbdd2acbb1c98aff3b26a1a344b",
   "status": "rendered",
   "questions": 21,
   "answers": 21,
@@ -131,9 +131,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7f5cf2e92aac6479e4ca95429bd8c982547e3377fd65bd8409729952217749d7",
-    "student.html": "0b482f7cbb563302554ea8a4b4ad5fd27ce53e022648ea2bb424ced5e164a38e",
-    "student.zip": "d035eae29f16b56803b617b2c68782c3ef4087ade9c4568874d4fb8e3883255f",
+    "teacher.html": "8a3dae690651f5bd773b1699519f9589ff7925f831c9632536b84d8dcec1aecf",
+    "student.html": "527ac063539b327f5c4f9a55848c03f3987afa623dfaa787bcb27a00c63b5098",
+    "student.zip": "d0b99460e5b726ccbcb60f0af81a4f5f995f277cd42b60d8cff84dea6220761f",
     "content.json": "fb61d02b945a43f5b01840055af9d3493bda1c720814c7334c1b6292468e93f8",
     "teacher-guidance.json": "70a581d5ef60d9d7b67f8edcabd52d9e7d8eaed6cdb1a733eedff6aecd6a8079"
   }

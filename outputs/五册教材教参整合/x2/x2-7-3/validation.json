@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "x2-7-3",
   "version": "batch-validate-v1.5",
-  "fingerprint": "98496b159d9c69c07afefd7c048c00883f2dfb12c3fe64573b6b14e13d300fda",
-  "build_fingerprint": "5d0c1f36f51b479cc1ab0f4ae4582464a31e7b3d4ea1a2baa77fb7d8b3ff3356",
+  "fingerprint": "da62342626aa642620610cd4d6e28ff1a252d9a22a7f1473ae40373068c64c71",
+  "build_fingerprint": "6cd8dd0fe92d6738728f4cdda998cc9cb10839e0aaa452b3b64763b2516abcd4",
   "status": "passed",
   "checks": [
     {
@@ -47,8 +47,8 @@
       "name": "teacher_formula_count_and_errors",
       "passed": true,
       "detail": {
-        "expected": 370,
-        "actual": 370,
+        "expected": 371,
+        "actual": 371,
         "errors": []
       }
     },
@@ -743,7 +743,7 @@
   "counts": {
     "questions": 19,
     "answers": 19,
-    "teacher_formulas": 370,
+    "teacher_formulas": 371,
     "student_formulas": 129,
     "checks": 77,
     "errors": 0,

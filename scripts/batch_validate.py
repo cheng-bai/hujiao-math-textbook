@@ -66,6 +66,7 @@ def rendered_source_formula_count(page):
         if (original) prose.replaceChildren(...original.childNodes);
       });
       copy.querySelectorAll('.visual-module').forEach(el => el.remove());
+      copy.querySelectorAll('.teacher-brief').forEach(el => el.remove());
       return copy.querySelectorAll('.katex').length;
     }''')
 

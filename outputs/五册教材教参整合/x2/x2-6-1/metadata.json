@@ -7,7 +7,7 @@
   "title": "乘法原理与加法原理",
   "section_json": "batch/sections/x2/x2-6-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-1",
-  "fingerprint": "2ade86fa7cbbdca18d76b2012fad0bab498a25cc106188b0f0de4e03d13c7daa",
+  "fingerprint": "fc042aeb028e67b6ea6202ff90227407fa3f5c16e9f6aac51ef4de9914413a23",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -139,9 +139,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "f965b601f6d634ad9ed7bfb1602f7450cac9a75f20838fbe34ef7d82cffc8999",
-    "student.html": "398893e11992d5e82b63b7378136c72afa7697b3c419f302b45ecf09aa33c962",
-    "student.zip": "67665c5dcc1e65d6ac91eab6312cccf8ecf3ab32c92d04f28e7ead5f4077fc57",
+    "teacher.html": "85bcc4ed8f224b819876a23f97be4a581d23344cd9faec556f7b57c74c801d8b",
+    "student.html": "e2a81702de788474767f9d395f7b5fcce6cdaf0dd7761417d6c80856d5646750",
+    "student.zip": "3daa000f178840f1ae170e43691079f9f5f17ce91e652dd13b3bafa3bb4368af",
     "content.json": "a465b118fdaa4b8b399334e20ffe326be8b913ea7078dd46680ee0276032c7b0",
     "teacher-guidance.json": "ae53df1634471b2d2492b4f2e895fb54b60565cabe5bba1b80fade8fd18b26cc"
   }

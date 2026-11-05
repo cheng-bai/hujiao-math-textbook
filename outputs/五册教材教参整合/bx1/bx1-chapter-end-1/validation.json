@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "bx1-chapter-end-1",
   "version": "batch-validate-v1.5",
-  "fingerprint": "7bd3d943263758d1e28f9e2ac67c83461e553c88bc5a7c9d3402939651efd45b",
-  "build_fingerprint": "17ef379c284949ae8fed5c6a3f9306a7a5edb9fda61f1d1cb2ce1b24fc49b957",
+  "fingerprint": "252ac016410d15040a2944b85b8297e1a434461f8b1537ca8a758e214dc08574",
+  "build_fingerprint": "c7b4c8838516eb31272c607ceab9eb9d7bd89a6d23fefcd735a6bc1e7ddc705a",
   "status": "passed",
   "checks": [
     {

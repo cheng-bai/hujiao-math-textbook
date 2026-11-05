@@ -47,13 +47,37 @@ notesToggle?.addEventListener('click', () => {
 });
 
 const toc = document.querySelector('.page-toc');
-const navLinks = [...document.querySelectorAll('nav a')];
+const navLinks = [...document.querySelectorAll('.page-toc a')];
 const tocSearch = document.querySelector('#toc-search');
 const tocFilter = document.querySelector('#toc-filter');
 const tocToggle = document.querySelector('#toc-toggle');
 const tocDismiss = document.querySelector('#toc-dismiss');
 const tocBackdrop = document.querySelector('#toc-backdrop');
 const sidebar = document.querySelector('#page-sidebar');
+const tocGroups = [...document.querySelectorAll('.review-toc-group')];
+function setGroupOpen(group, open) {
+  const button = group.querySelector('.review-toc-toggle');
+  group.querySelector('.review-toc-children').hidden = !open;
+  button.setAttribute('aria-expanded', String(open));
+  button.setAttribute('aria-label', `${open ? '收起' : '展开'}${group.querySelector('.toc-heading').textContent.trim()}题号`);
+  button.textContent = open ? '−' : '+';
+}
+function syncTocGroups() {
+  const filtering = Boolean(tocSearch?.value.trim()) || tocFilter?.value !== 'all';
+  tocGroups.forEach(group => {
+    const hasMatches = [...group.querySelectorAll('.review-toc-children .toc-link')].some(link => !link.hidden);
+    group.hidden = group.querySelector('.toc-heading').hidden && !hasMatches;
+    setGroupOpen(group, filtering ? hasMatches : group.dataset.manualOpen === 'true');
+    group.classList.toggle('has-current', Boolean(group.querySelector('.toc-link.active')));
+  });
+}
+tocGroups.forEach(group => {
+  group.querySelector('.review-toc-toggle').addEventListener('click', () => {
+    const open = group.querySelector('.review-toc-toggle').getAttribute('aria-expanded') !== 'true';
+    group.dataset.manualOpen = String(open);
+    setGroupOpen(group, open);
+  });
+});
 const readerToolbar = document.querySelector('.toolbar');
 function syncReaderOffset() {
   document.documentElement.style.setProperty('--reader-offset', `${Math.ceil(readerToolbar?.getBoundingClientRect().height || 0) + 12}px`);
@@ -124,8 +148,58 @@ function filterToc() {
       !normalize(link.dataset.tocLabel || link.textContent).includes(query);
     if (!link.hidden) count++;
   });
+  let results = toc?.querySelector('.toc-search-results');
+  if (!results && toc) {
+    results = document.createElement('div');
+    results.className = 'toc-search-results';
+    toc.append(results);
+  }
+  results?.replaceChildren();
+  let matches = 0;
+  if (query && results) {
+    const candidates = document.querySelectorAll('#reading h2, #reading h3, #reading h4, #reading p, #reading li, #reading td');
+    candidates.forEach((element, index) => {
+      if (element.closest('.provenance, .teacher-brief') ||
+          (element.matches('p') && element.closest('li, td'))) return;
+      const question = element.closest('.question');
+      const questionLink = question && navLinks.find(link => link.hash === `#${question.id}`);
+      const itemKind = questionLink?.dataset.tocKind || 'content';
+      if (kind !== 'all' && kind !== itemKind) return;
+      const excerpt = element.cloneNode(true);
+      excerpt.querySelectorAll('[data-tex]').forEach(math => {
+        math.replaceWith(document.createTextNode(math.dataset.tex));
+      });
+      const text = (excerpt.textContent || '').replace(/\s+/g, ' ').trim();
+      const normalized = normalize(text);
+      if (!normalized.includes(query)) return;
+      matches++;
+      if (matches > 40) return;
+      if (!element.id) {
+        let id = `page-search-${index}`;
+        while (document.getElementById(id)) id += '-result';
+        element.id = id;
+      }
+      const link = document.createElement('a');
+      link.className = 'toc-link toc-search-result';
+      link.href = `#${encodeURIComponent(element.id)}`;
+      const position = text.toLocaleLowerCase().indexOf((tocSearch.value || '').trim().toLocaleLowerCase());
+      const start = Math.max(0, position - 18);
+      link.textContent = `${start ? '…' : ''}${text.slice(start, start + 55)}${text.length > start + 55 ? '…' : ''}`;
+      link.addEventListener('click', event => {
+        event.preventDefault();
+        if (element.closest('.teacher-only') && document.body.classList.contains('notes-hidden')) notesToggle?.click();
+        if (element.closest('.answer, .question-analysis') && document.body.classList.contains('answers-hidden')) answerToggle?.click();
+        setTocOpen(false);
+        revealAnchor(link.hash);
+      });
+      results.append(link);
+    });
+  }
   const status = document.querySelector('#toc-count');
-  if (status) status.textContent = count ? `${count} 处可跳转位置` : '没有匹配位置，请调整关键词或筛选';
+  if (status) status.textContent = query
+    ? (count || matches ? `${count} 处目录 · ${matches > 40 ? '40+' : matches} 处正文匹配` : '没有匹配位置，请调整关键词或筛选')
+    : `${count} 处可跳转位置`;
+  syncTocGroups();
 }
 tocSearch?.addEventListener('input', filterToc);
 tocFilter?.addEventListener('change', filterToc);
@@ -149,8 +223,11 @@ function updateToc() {
   activeToc = current?.link;
   activeToc?.classList.add('active');
   activeToc?.setAttribute('aria-current', 'location');
-  if (toc && activeToc && !activeToc.hidden && !toc.matches(':hover') && !sidebar?.contains(document.activeElement)) {
-    const box = activeToc.getBoundingClientRect(), bounds = toc.getBoundingClientRect();
+  tocGroups.forEach(group => group.classList.toggle('has-current', Boolean(group.querySelector('.toc-link.active'))));
+  const activeGroup = activeToc?.closest('.review-toc-group');
+  const currentMarker = activeGroup?.querySelector('.review-toc-children').hidden ? activeGroup.querySelector('.toc-heading') : activeToc;
+  if (toc && currentMarker && !currentMarker.hidden && !toc.matches(':hover') && !sidebar?.contains(document.activeElement)) {
+    const box = currentMarker.getBoundingClientRect(), bounds = toc.getBoundingClientRect();
     if (box.top < bounds.top || box.bottom > bounds.bottom) toc.scrollTop += box.top - bounds.top - toc.clientHeight / 3;
   }
 }
@@ -172,17 +249,43 @@ addEventListener('scroll', updateProgress, { passive: true });
 addEventListener('resize', updateProgress);
 updateProgress();
 
-document.querySelector('#density-toggle').addEventListener('click', (event) => {
+const densityToggle = document.querySelector('#density-toggle');
+const densityKey = 'hujiao-reading-density-v1';
+try { document.body.classList.toggle('spacious', localStorage.getItem(densityKey) === 'spacious'); } catch (_) { /* Reading still works without storage. */ }
+function updateDensityLabel() {
+  const spacious = document.body.classList.contains('spacious');
+  densityToggle.setAttribute('aria-pressed', String(spacious));
+  densityToggle.textContent = spacious ? '紧凑阅读' : '舒展阅读';
+}
+updateDensityLabel();
+densityToggle.addEventListener('click', () => {
   const atTop = scrollY < 30;
   const anchor = [...document.querySelectorAll('.content-module > *')]
     .find(el => el.getBoundingClientRect().bottom > 140);
   const previousTop = anchor?.getBoundingClientRect().top;
   const spacious = document.body.classList.toggle('spacious');
-  event.currentTarget.setAttribute('aria-pressed', String(spacious));
-  event.currentTarget.textContent = spacious ? '紧凑阅读' : '舒展阅读';
+  updateDensityLabel();
+  try { localStorage.setItem(densityKey, spacious ? 'spacious' : 'compact'); } catch (_) { /* Preference is optional. */ }
   if (!atTop && anchor) scrollBy({ top: anchor.getBoundingClientRect().top - previousTop, behavior: 'instant' });
   updateProgress();
 });
+
+const readerMore = document.querySelector('.reader-more');
+if (readerMore) {
+  const narrow = matchMedia('(max-width: 720px)');
+  const updateMore = () => { readerMore.open = !narrow.matches; };
+  updateMore();
+  narrow.addEventListener('change', updateMore);
+  document.addEventListener('click', event => {
+    if (narrow.matches && readerMore.open && !readerMore.contains(event.target)) readerMore.open = false;
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && narrow.matches && readerMore.open) {
+      readerMore.open = false;
+      readerMore.querySelector('summary').focus();
+    }
+  });
+}
 
 const printDialog = document.querySelector('#print-dialog');
 const printForm = document.querySelector('#print-form');
@@ -247,6 +350,13 @@ function buildPrintOutput() {
     section.append(heading);
     for (const item of module.items) {
       const copy = item.cloneNode(true);
+      if (copy.matches('.teacher')) {
+        copy.querySelector('.teacher-brief')?.remove();
+        copy.querySelectorAll('.teacher-guidance-source').forEach(details => {
+          details.querySelector(':scope > summary')?.remove();
+          details.replaceWith(...details.childNodes);
+        });
+      }
       // Printing uses the untouched original, not both summary and original prose.
       if (copy.matches('.visual-condensed')) {
         const original = copy.querySelector(':scope > .visual-original > .visual-original-body');

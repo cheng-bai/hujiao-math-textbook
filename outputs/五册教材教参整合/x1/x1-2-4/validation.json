@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "x1-2-4",
   "version": "batch-validate-v1.5",
-  "fingerprint": "3a5ee6835cd72f7dd277100547d81f376b09920f112652eae34fa8e68b97f7a2",
-  "build_fingerprint": "4e1aaf27188b290ffed8cd4b5d9e56beff732979e6d1ff8fec0485247bbf2936",
+  "fingerprint": "fe9c1f97892182f78e4b9eeba1eda960cc7aa237eb49f45cdcd3e3688182a318",
+  "build_fingerprint": "84a7f3b6f8950bdb116c8284bf700bc1be248da31e2bc61b0389dc2f2d2a5f81",
   "status": "passed",
   "checks": [
     {

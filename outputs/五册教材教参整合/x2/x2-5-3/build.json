@@ -7,7 +7,7 @@
   "title": "导数的应用",
   "section_json": "batch/sections/x2/x2-5-3.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-3",
-  "fingerprint": "4d540b3b4d7615b16987536e5560d3bd5ceffd5896c618550cdc017c7ea2ca94",
+  "fingerprint": "48aec9e39cbd519c462a114dbc74c151694bd41a6a5a17aa265f9d5270a077eb",
   "status": "rendered",
   "questions": 35,
   "answers": 35,
@@ -259,9 +259,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "34f04d78d336542ed94e2eb238fe3f2de90f98f9fb84bf2629fbe0d3d8642d19",
-    "student.html": "fb4c6e2dbeb5fde29f730e33f9507ffded359036c38464ea0d58fe3d1ea37782",
-    "student.zip": "d7f378679758d43599e1810d42329e48b1d05282f52aa2173cf88526e907aa57",
+    "teacher.html": "c63e47241ff744c5a5ccc4615a5a8e96daeb96613ead7a75de63b1d7b0cec113",
+    "student.html": "e4031a9a60aa2e61540694ebc08ee0d956965dede88ff3f7255a7d7fd04afec6",
+    "student.zip": "51760eb650f7d7447b35d26b343648f54a6f303bb769deeac158678a13f88b15",
     "content.json": "5f1d4e9956d5ac5aeb2899a88a3afb800bc1d4da741ccab7419967e4d38bdb3b",
     "teacher-guidance.json": "7f6c03a3ce6f89520b49ff0e23eb1f6ed2fe119a84d9dbe84c81240bb83df913"
   }

@@ -7,7 +7,7 @@
   "title": "等式与不等式的性质",
   "section_json": "batch/sections/bx1/bx1-2-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-2-1",
-  "fingerprint": "6e63a7e41733311add1d53ae9ddcd06b42fb33752ccf697eda09720ea7f98c90",
+  "fingerprint": "bef2325e322fcfd80d953a3cbce69a0072d5368c2b6f0d4b7fd5290c7cfcdf87",
   "status": "rendered",
   "questions": 46,
   "answers": 46,
@@ -234,9 +234,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ac8eb9c94de7ed78b50ce550290a0295ca5455fd0008ad64d20ad8d7ffbd9f07",
-    "student.html": "68d2480e684db2490595d136f65b51b423ae3cafab9375e3413da470e81d6f40",
-    "student.zip": "1c4f9d33d876ed6eb20e9b6ee178fff2ae019bc91e50acf3e6e7b882fb751740",
+    "teacher.html": "e3fb1d2f2408e4a5b3f3c1f2ef00f9fb8f51824ea4f759089ebc96fca2be7a8f",
+    "student.html": "b7eb09095302832503d735097284f85dbacc1b2880b734c8a0e372a579ff4fe2",
+    "student.zip": "912134abe6d64e0cf9aa58201bf83c22333f7f260e9bb61d225e1975951c6a14",
     "content.json": "d691b465ab247459284ef14af13d45e4a53f6bac06494a233286d0462ec6ed61",
     "teacher-guidance.json": "c51889c9384bcaaf6ef3e12d473dfe6f00b27a58ea4ca8da4fd5fef84f1f16c8"
   }

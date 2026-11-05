@@ -237,28 +237,60 @@ def page_index(blocks, components, student=False):
         if kind in ['section', 'heading', 'question']:
             preview = ''
             if kind == 'question':
-                stem = IMAGE_RE.sub(' ', block.get('markdown', ''))
-                stem = re.sub(r'\$\$[\s\S]*?\$\$|(?<!\$)\$[^$\n]*\$', ' ', stem)
-                stem = re.sub(r'\\[A-Za-z]+|[\\{}_^`*>#]', ' ', stem)
-                stem = re.sub(r'\s+', ' ', stem).strip(' .,;:，。；：、')
-                stem = stem[:72].rstrip()
-                if len(re.sub(r'\s+', ' ', block.get('markdown', '')).strip()) > 72 and stem:
-                    stem += '…'
-                if stem:
-                    preview = f'<small class="toc-preview">{esc(stem)}</small>'
+                raw = IMAGE_RE.sub(' ', block.get('markdown', ''))
+                raw = re.sub(r'\s+', ' ', raw).strip()
+                tokens = re.split(r'(\$\$[\s\S]*?\$\$|(?<!\$)\$(?!\$)[^$\n]+\$)', raw)
+                snippets, search, size, truncated = [], [], 0, False
+                for token in tokens:
+                    if not token:
+                        continue
+                    if token.startswith('$') and token.endswith('$'):
+                        tex = token.strip('$').strip()
+                        if size >= 72 or len(tex) > 120:
+                            truncated = True
+                            break
+                        snippets.append(f'<span class="math" data-tex="{esc(tex)}" data-display="false"></span>')
+                        search.append(tex)
+                        size += min(len(tex), 20)
+                    else:
+                        text = re.sub(r'[`*>#]', '', token)
+                        remaining = 72 - size
+                        if len(text) > remaining:
+                            snippets.append(esc(text[:max(remaining, 0)].rstrip()))
+                            search.append(text[:max(remaining, 0)])
+                            truncated = True
+                            break
+                        snippets.append(esc(text))
+                        search.append(text)
+                        size += len(text)
+                stem = re.sub(r'\s+', ' ', ''.join(search)).strip()
+                if snippets:
+                    preview = '<small class="toc-preview">' + ''.join(snippets) + ('…' if truncated else '') + '</small>'
             search_label = title + (' ' + stem if kind == 'question' and stem else '')
-            links.append(f'<a class="toc-link toc-{kind}" href="#{esc(block["id"])}" data-toc-kind="{filter_kind}" data-toc-label="{esc(search_label)}">{number}<span class="toc-title">{inline}</span>{preview}</a>')
+            links.append(f'<a class="toc-link toc-{kind}" href="#{esc(block["id"])}" data-toc-kind="{filter_kind}" data-toc-label="{esc(search_label)}">{number}<span class="toc-title">{inline}</span></a>')
         for mark in block.get('emphases', []):
             links.append(f'<a class="toc-link toc-key" href="#{esc(mark["id"])}" data-toc-kind="content" data-toc-label="{esc(mark["title"])}">{esc(mark["title"])}</a>')
-    return ''.join(links)
+    nav = ''.join(links)
+    for block in blocks:
+        title = block.get('title', '').strip()
+        if block['type'] != 'heading' or not (re.fullmatch(r'[ABＡＢ]\s*组', title, re.I) or title == '拓展与思考' or title.startswith('练习')):
+            continue
+        anchor = esc(block['id'])
+        pattern = rf'(<a class="toc-link toc-heading" href="#{re.escape(anchor)}"[^>]*>.*?</a>)((?:<a class="toc-link toc-question".*?</a>)+)'
+        label = esc(title)
+        nav = re.sub(pattern, lambda match: f'<div class="review-toc-group"><div class="review-toc-row">{match[1]}<button type="button" class="review-toc-toggle" aria-expanded="false" aria-controls="toc-group-{anchor}" aria-label="展开{label}题号">+</button></div><div class="review-toc-children" id="toc-group-{anchor}" hidden>{match[2]}</div></div>', nav, count=1)
+    return nav
 
 
 def page(data, blocks, components, student=False):
     esc = lambda s: html.escape(str(s), quote=True)
     section, title = esc(data['section']), esc(data['title'])
+    review_sample = data['id'] == 'bx3-chapter-end-10' and not student
+    review_links = []
     questions = [b for b in blocks if b['type'] == 'question' and not b.get('teacher_only')]
     parts, active = [], False
     source_hashes = {b.get('id', safe(data['id']) + f'-b{i}'): hashlib.sha256(json.dumps(b, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest() for i, b in enumerate(data['blocks'])}
+    formal_teacher_done = False
     for b in blocks:
         if student and (b.get('teacher_only') or b['type'] in ['intro', 'teacher', 'editor']):
             continue
@@ -268,6 +300,39 @@ def page(data, blocks, components, student=False):
             parts.append(f'<section class="content-module" data-module="{esc(b["id"])}" data-title="{esc(b["title"])}">')
             active = True
         rendered = components['render_block'](b, student)
+        if review_sample and b['id'] in ('bx3-chapter-end-10-hA-2', 'bx3-chapter-end-10-hA-4'):
+            def mark_uncertain_answer(match):
+                answer = re.sub(r'\s+(?=\([2-5]\))', '<br>', match.group(2))
+                note = '教参转录文本缺少（4）编号，相关结论待对照纸本核验。' if b['id'].endswith('-2') else '教参转录文本缺少（3）；题干（2）的符号也待对照原件核验。'
+                return match.group(1) + '<p class="review-source-warning">来源核验提示：' + note + '</p>' + answer + match.group(3)
+            rendered = re.sub(r'(<div class="answer-body">)(.*?)(</div>)', mark_uncertain_answer, rendered, count=1, flags=re.S)
+        if review_sample and b['id'] == 'bx3-chapter-end-10-b1':
+            def review_heading(match):
+                number = match['number'] or '1'
+                anchor = f'{b["id"]}-topic-{number}'
+                label = f'{number}. {match["title"]}'
+                review_links.append(f'<a class="toc-link toc-heading" href="#{anchor}" data-toc-kind="content" data-toc-label="{esc(label)}"><span class="toc-title">{label}</span></a>')
+                return f'<h3 class="review-heading" id="{anchor}">{label}</h3>'
+            rendered = re.sub(r'<ol(?: start="(?P<number>[1-4])")?>\s*<li>(?P<title>[^<]+)</li>\s*</ol>', review_heading, rendered)
+        if review_sample and b['id'] == 'bx3-chapter-end-10-b2':
+            rendered = f'<h3 class="review-heading" id="{esc(b["id"])}">{esc(b["title"])}</h3>'
+        if review_sample and b['id'] in ('bx3-chapter-end-10-b1', 'bx3-chapter-end-10-b3'):
+            rendered = re.sub(
+                r'(<p>(?:\(\d+\))?)(?P<term>(?:公理|推论)\s*\d+|[\u4e00-\u9fff]{0,24}(?:定义|定理))(?=\s)',
+                lambda match: match.group(1) + '<strong class="review-term">' + match['term'] + '</strong>',
+                rendered,
+            )
+        if b['type'] == 'teacher' and b.get('title') == '正式教参 · 教材分析与教学建议' and not formal_teacher_done and not student:
+            formal_teacher_done = True
+            focus = re.search(r'(?m)^#{1,6}\s*(?:教学重点|对学重点|数学重点)\s*\n+([^\n]+)', b.get('markdown', ''))
+            brief = ''
+            if focus and len(focus.group(1)) <= 500:
+                brief = '<div class="teacher-brief"><strong>教参重点摘录</strong>' + components['render_md'](focus.group(1)) + '</div>'
+            # Keep the complete source and provenance intact inside the disclosure.
+            marker = '</h3>'
+            if marker in rendered:
+                rendered = rendered.replace(marker, marker + brief + '<details class="teacher-guidance-source"><summary>展开完整教参说明</summary>', 1)
+                rendered = rendered.replace('</aside>', '</details></aside>', 1)
         if b['type'] == 'prose' and b['id'] in source_hashes:
             rendered = rendered.replace(' id="' + esc(b['id']) + '"', ' data-visual-source-sha="' + source_hashes[b['id']] + '" id="' + esc(b['id']) + '"', 1)
         parts.append(rendered)
@@ -275,11 +340,16 @@ def page(data, blocks, components, student=False):
         parts.append('</section>')
     modules = [b for b in blocks if b['type'] == 'section' and not (student and b.get('teacher_only'))]
     nav = page_index(blocks, components, student)
-    controls = '<span class="student-tag">学生阅读版 · 不含题答与教师内容</span>' if student else '<button id="answer-toggle" aria-pressed="false">隐藏全部答案</button><button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a>'
-    controls = '<button id="toc-toggle" aria-expanded="false" aria-controls="page-sidebar">本页索引</button>' + controls
-    controls += '<button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="print-open">按内容打印</button>'
+    if review_sample:
+        nav = nav.replace('</a>', '</a>' + ''.join(review_links), 1)
+        nav = re.sub(r'(<a class="toc-link toc-heading" href="#bx3-chapter-end-10-b2"[^>]*><span class="toc-title">).*?(</span></a>)', r'\g<1>5. *异面直线间的距离\2', nav, flags=re.S)
+    controls = '<button id="toc-toggle" aria-expanded="false" aria-controls="page-sidebar">本页索引</button>'
+    controls += '<span class="student-tag">学生阅读版 · 不含题答与教师内容</span>' if student else '<button id="answer-toggle" aria-pressed="false">隐藏全部答案</button>'
+    controls += '<button id="print-open">按内容打印</button>'
+    more = '' if student else '<button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a>'
+    more += '<button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="visual-open">可视化模块</button>'
+    controls += '<details class="reader-more" open><summary>更多</summary><div class="reader-more-items">' + more + '</div></details>'
     visual_assets = ''
-    controls += '<button id="visual-open">可视化模块</button>'
     names = visual_files(data, student)
     visual_assets = '<link rel="stylesheet" href="../_shared/visual-book.css">'
     visual_assets += ''.join(f'<script defer src="../_shared/visual-assets/{name}"></script>' for name in names if name.endswith('.js'))
@@ -287,6 +357,7 @@ def page(data, blocks, components, student=False):
     examples = sum(q['category'] == '例题' for q in questions)
     foot = '本文件为独立学生阅读版，不含答案、解析与教师材料。' if student else '原始教材与教参只读保留；缺答、来源疑点与校核状态见本节检查记录。结构、离线渲染和打印检查不代替数学复核。'
     mode = 'student' if student else 'teacher'
+    access_assets = access_head('../_shared/').replace('site-access.js"', f'site-access.js?v={sha(ROOT / "scripts/site-access.js")[:12]}"')
     blocking = [i for i in data.get('issues', []) if isinstance(i, dict) and i.get('severity') in ['blocking', 'error', 'critical']]
     warning = ''
     if blocking and not student:
@@ -298,10 +369,36 @@ def page(data, blocks, components, student=False):
 @media screen and (max-width:720px){.math:not(.display){display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle}.source-table table{min-width:100%}}
 @media print{.source-table{overflow:visible}.source-table table{max-width:100%;font-size:9pt}.source-table tr{break-inside:avoid}#print-output .question p:has(>img){break-after:auto}#print-output .print-module:last-child>.question:last-child{margin-top:-1mm!important;margin-bottom:0!important}}
 </style>'''
+    if review_sample:
+        extra_style += '''<style>
+@media screen{
+.chapter-cover .eyebrow,.spine-number,.section-number,.toolbar-label .subtle,.toc-section>span:not(.toc-title){display:none}
+.section-heading{gap:0}
+.chapter-cover h1{font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;font-weight:600;letter-spacing:0;line-height:1.38;text-wrap:balance}
+.chapter-cover .cover-dot{display:none}
+.book-body :is(.prose,.question-body,.answer-body,.teacher,.editor,.intro) p{text-align:justify;text-spacing-trim:trim-start;line-height:1.85}
+.book-body :is(.prose,.question-body,.answer-body,.teacher,.editor,.intro) p:has(> img){text-align:center}
+.book-body h3.review-heading{font-family:inherit;font-size:22px;font-weight:700;line-height:1.6;color:#245b52;background:#e7efea;border-top:1px solid #c0d3c9;border-bottom:1px solid #c0d3c9;padding:10px 14px;margin:30px 0 16px;text-align:start;text-wrap:balance;letter-spacing:0}
+.book-body .review-term{color:#245b52;font-weight:700}
+.book-body .feedback-trigger{font:500 12px/1.4 sans-serif;color:#315447;background:transparent;border:1px solid transparent;border-radius:4px;padding:3px 8px;margin:4px 8px;cursor:pointer}
+.book-body .feedback-trigger:hover,.book-body .feedback-trigger:focus-visible{background:#e2ebe5;border-color:#aabbb1}
+@media (hover:none),(max-width:720px){.book-body .feedback-trigger{min-height:44px;padding:8px 12px;background:#f7f6ee;border-color:#aabbb1}}
+.book-body .question:target{outline:2px solid #9bb8a5;outline-offset:4px}
+.book-body .group-heading{color:#9a4b31;border-bottom-color:#d9bca9}
+.book-body .section-heading h2{color:#245b52}
+.book-body .answer{background:#edf2ef;border-color:#c8d8ce}
+.book-body .answer summary{color:#245b52}
+.book-body .review-source-warning{padding:8px 12px;border-left:3px solid #b87942;background:#fff8eb;color:#754b2b;font-size:.9em}
+@media(max-width:720px){body:not(.spacious) .chapter-cover h1{font-size:clamp(27px,6.8vw,32px);line-height:1.45}}
+.book-body h3.review-heading{scroll-margin-top:16px}
+@media(max-width:720px){.book-body h3.review-heading{font-size:19px;padding:9px 12px}}
+}
+</style>'''
+    review_script = ''
     return f'''<!doctype html>
-<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{section} {title} · {'学生阅读版' if student else '教师整合版'}</title>{access_head('../_shared/')}<link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css">{visual_assets}{extra_style}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js"></script></head>
+<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{section} {title} · {'学生阅读版' if student else '教师整合版'}</title>{access_assets}<link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css?v={sha(ROOT / 'scripts/book.css')[:12]}">{visual_assets}{extra_style}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js?v={sha(ROOT / 'scripts/book.js')[:12]}"></script></head>
 <body><noscript><p>请启用 JavaScript，再输入访问口令进入阅读。</p></noscript><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><button id="toc-backdrop" aria-label="关闭本页索引" tabindex="-1" hidden></button><aside class="sidebar" id="page-sidebar"><button id="toc-dismiss" aria-label="关闭本页索引">×</button><a class="brand" href="{'#top' if student else '../index.html'}">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">{esc(data['book_title'])} / {esc(data.get('chapter_title', ''))}</div><div class="spine-number">{section}</div><div class="toc-tools"><label for="toc-search">本页索引</label><input type="search" id="toc-search" placeholder="查找正文、例题或题号"><select id="toc-filter" aria-label="索引内容筛选"><option value="all">全部位置</option><option value="content">正文与概念</option><option value="example">只看例题</option><option value="exercise">练习与习题</option></select><p id="toc-count" role="status" aria-live="polite"></p></div><nav class="page-toc" aria-label="本节目录">{nav}</nav><div class="sidebar-foot">{'学生独立文件' if student else '教师阅读 / 备课'} · 点击索引定位</div></aside>
-<div class="book-shell"><header class="toolbar"><span class="toolbar-label">{'学生阅读' if student else '教师阅读'} <span class="subtle">/ {section}</span></span><div class="controls">{controls}</div></header><main id="reading">{warning}<header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION {section}</div><p class="edition">{'学生阅读版' if student else '教师整合版'} / 沪教版高中数学</p><h1>{title}<span class="cover-dot">.</span></h1><p class="cover-deck">{esc(data['book_title'])}<br>{esc(data.get('chapter_title',''))} · 保留教材主线与原题</p><div class="chapter-meta"><span>{len(modules)} 个阅读模块</span><span>{examples} 个例题</span><span>{len(questions)-examples} 道练习与习题</span></div></header><div class="book-body">{''.join(parts)}</div><footer class="book-footer"><p>{foot}</p><a href="#top">返回本节开头 ↑</a></footer></main></div>{components['print_panel'](student)}<div id="status" role="status" aria-live="polite"></div></body></html>'''
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">{'学生阅读' if student else '教师阅读'} <span class="subtle">/ {section}</span></span><div class="controls">{controls}</div></header><main id="reading">{warning}<header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION {section}</div><p class="edition">{'学生阅读版' if student else '教师整合版'} / 沪教版高中数学</p><h1>{title}<span class="cover-dot">.</span></h1><p class="cover-deck">{esc(data['book_title'])}<br>{esc(data.get('chapter_title',''))} · 保留教材主线与原题</p><div class="chapter-meta"><span>{len(modules)} 个阅读模块</span><span>{examples} 个例题</span><span>{len(questions)-examples} 道练习与习题</span></div></header><div class="book-body">{''.join(parts)}</div><footer class="book-footer"><p>{foot}</p><a href="#top">返回本节开头 ↑</a></footer></main></div>{components['print_panel'](student)}<div id="status" role="status" aria-live="polite"></div>{review_script}</body></html>'''
 
 
 def render_section(path, force=False):

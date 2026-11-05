@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-10-22T00:16:10+08:00",
+  "updated_at": "2026-11-05T11:45:29+08:00",
   "books": [
     {
       "id": "x1",
       "title": "选择性必修第一册",
       "sections": 22,
-      "validated": 1,
+      "validated": 22,
       "blocked": 0,
-      "queued": 21,
+      "queued": 0,
       "questions": 511
     },
     {
       "id": "bx1",
       "title": "必修第一册",
       "sections": 19,
-      "validated": 1,
+      "validated": 19,
       "blocked": 0,
-      "queued": 18,
+      "queued": 0,
       "questions": 508
     },
     {
       "id": "bx2",
       "title": "必修第二册",
       "sections": 19,
-      "validated": 1,
+      "validated": 19,
       "blocked": 0,
-      "queued": 18,
+      "queued": 0,
       "questions": 541
     },
     {
       "id": "bx3",
       "title": "必修第三册",
       "sections": 23,
-      "validated": 1,
+      "validated": 23,
       "blocked": 0,
-      "queued": 22,
+      "queued": 0,
       "questions": 421
     },
     {
       "id": "x2",
       "title": "选择性必修第二册",
       "sections": 18,
-      "validated": 1,
+      "validated": 18,
       "blocked": 0,
-      "queued": 17,
+      "queued": 0,
       "questions": 356
     }
   ],
   "totals": {
     "sections": 101,
-    "validated": 5,
+    "validated": 101,
     "blocked": 0,
-    "queued": 96,
+    "queued": 0,
     "questions": 2337
   }
 }

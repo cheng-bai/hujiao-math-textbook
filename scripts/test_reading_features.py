@@ -49,13 +49,14 @@ class ReadingFeatureTests(unittest.TestCase):
             folder = OUT / book / sid
             for edition in ['teacher', 'student']:
                 soup = BeautifulSoup((folder / f'{edition}.html').read_text(encoding='utf-8'), 'html.parser')
-                self.assertEqual(len(soup.select('script[src$="site-access.js"]')), 1, sid)
+                self.assertEqual(len(soup.select('script[src*="site-access.js"]')), 1, sid)
                 self.assertEqual(len(soup.select('link[href$="site-access.css"]')), 1, sid)
             with zipfile.ZipFile(folder / 'student.zip') as archive:
                 self.assertIsNone(archive.testzip(), sid)
                 self.assertIn('site-access.js', archive.namelist())
                 self.assertIn('site-access.css', archive.namelist())
                 self.assertEqual(archive.read('site-access.js'), (ROOT / 'scripts/site-access.js').read_bytes())
+                self.assertEqual(archive.read('book.css'), (ROOT / 'scripts/book.css').read_bytes(), sid)
                 self.assertNotIn('../', archive.read('student.html').decode('utf-8'))
             for name in ['book.js', 'book.css', 'visual-book.js', 'site-access.js', 'site-access.css']:
                 self.assertEqual((OUT / book / '_shared' / name).read_bytes(), (ROOT / 'scripts' / name).read_bytes())

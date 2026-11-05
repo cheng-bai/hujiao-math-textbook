@@ -7,7 +7,7 @@
   "title": "平面与平面的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-4",
-  "fingerprint": "2c8cee277992d7e82f1086c4e063feb4db27610b2448e2815f3bcb32d48c5f57",
+  "fingerprint": "fa038fce34c46c757d60a86a9a57dab1e87ae72c3345465568b8248113ea8734",
   "status": "rendered",
   "questions": 25,
   "answers": 25,
@@ -196,9 +196,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "0894c0e918efa40a98494dfab5a63dee3a7ee0c6cb9233cab825a35f1e775acd",
-    "student.html": "456f7bd80a1dd3108fc08f7efb47640e33bf5f93aa70023de47a18065881b388",
-    "student.zip": "860f47b17f8d52ff8499dfe8c9c5ce58b9606bea7d35712d65cf1e7f350cd2a1",
+    "teacher.html": "1ac8dd8db3a49e4ae44d70cf0ab52ce8614246b1036fd870a8d46dfd9ae2c6ef",
+    "student.html": "f6f1afa6417750a2e6cac6ea13dbc19aadc29013fb3abb4240c8f19fa534cae6",
+    "student.zip": "8c18a8fae2107ec6a886f6140b18e143c1a0227d2b9338b56e39de43ea902ec3",
     "content.json": "da610aa9378dcee1ff7c2e468b3eaef48586b35b16634e976bd651ca49393d1b",
     "teacher-guidance.json": "f643e7abd3e10c5b40ea48f507a2886b67bb2c295119bd86c9f2f5e8f3873925"
   }

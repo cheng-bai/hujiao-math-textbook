@@ -7,7 +7,7 @@
   "title": "2×2 列联表",
   "section_json": "batch/sections/x2/x2-8-3.json",
   "output": "outputs/五册教材教参整合/x2/x2-8-3",
-  "fingerprint": "831c3a1630c5031f75b4f93abdc2a27851629d611ab5f4aabae3eeea0f749be6",
+  "fingerprint": "f609608b5ea5a48a3cc3ebbad57d2e2ad2129164849597e9803446fd883e60e6",
   "status": "rendered",
   "questions": 8,
   "answers": 8,
@@ -40,9 +40,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "92f2f45554f645370c8cabe61170436b1467be4e3afbf4652928ffa5a73b3907",
-    "student.html": "80570cde716a9faea179e8a4992a196084048b3082c46f57800e6964722f4d28",
-    "student.zip": "242590e1cdfa88372fdb6f605e459d69044bd8f3ba8b60512620e2fe3491e393",
+    "teacher.html": "fdfe40f1bb90772fcb2789764ef3e27a770ac11fa70e3c8bc376a4715596e5ed",
+    "student.html": "083225836fd3e5d769ca56787abae50d0db9fe2b3e0c6cb8acc2ca65361b1439",
+    "student.zip": "e940cc220af33e97610a572c2270d732a2f85823454bef03f07c778c9afd3878",
     "content.json": "18b24c1bc6c3dd24c9c5cf108d9c5a6bbfbdb7e856046f65a3851a7ea0ae791c",
     "teacher-guidance.json": "b9fae47dd3f7d69d5bba57b8d90c9f9b14163cbc77bd5cb6406751e311cdbcd4"
   }

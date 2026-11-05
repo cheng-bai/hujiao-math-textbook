@@ -7,7 +7,7 @@
   "title": "正弦型函数的图像",
   "section_json": "batch/sections/bx2/bx2-7-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-3",
-  "fingerprint": "123d509f75ca0d3761c1e9f9b128824abe50c3e4c3307000680d673c4444addb",
+  "fingerprint": "f064b1228a95568a52ec33efcf4c0c2f65082c836277c77aa52d71bd1c36ffe4",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -163,9 +163,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "747a2ce48686915dac55b08be62ebf75525a7c59b165cca419a5caa71b2040f4",
-    "student.html": "471fb13b71a30dd67e5c26f2f0c1bc00abdcb4b01c491d27d4bc3b8a17b4b562",
-    "student.zip": "4b1365a6e198c831dc0200a903fefe30615804afdd6659102dccfe42e5be92e9",
+    "teacher.html": "efa5ac0f6765dc04bb6432cee9f3617a0c9f2e4d044e951b96299f1a300641bf",
+    "student.html": "d49c34eadbab2b9b8e5553210413d65eda5bca7e3005f23528c6e498955d103d",
+    "student.zip": "2bbb7aea8b82e1354f5da7ab4c50ef190a8859d6fd4d0d197583f8c02394056b",
     "content.json": "d3e350f250e488c99587c8f2cc68f09a2ecdee93e67bfc3d1e3996e6d58212a4",
     "teacher-guidance.json": "30a0a5236750e78e3c352c89bc6601716fc6c23ab4dda6d3d5acbb1c387f86cd"
   }

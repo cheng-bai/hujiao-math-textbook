@@ -71,7 +71,7 @@
       window.dispatchEvent(new Event('site-access-locked'));
       input.focus({ preventScroll: true });
     });
-    (document.querySelector('.toolbar .controls') || document.body).append(lock);
+    (document.querySelector('.reader-more-items') || document.querySelector('.toolbar .controls') || document.body).append(lock);
     gate.hidden = granted;
     if (!granted) input.focus({ preventScroll: true });
   }

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "x1-1-1",
   "version": "batch-validate-v1.5",
-  "fingerprint": "2f6518c470fafa5b36f405a9e15a565abf9a947961e7e30ea83f851af6348888",
-  "build_fingerprint": "8075b3ec29ef2c4f37ac61fe0e17291ee5eb80aca06f8830c686015a7a63a485",
+  "fingerprint": "f56006f6f9f1da3bfca9352dc7cf52a28098aebf57fe7ee70fad6aecf4045e21",
+  "build_fingerprint": "b0da473b07a7817cc70e50b28a4779cc2c91ed3b04d56ac247f7ce1dc9cd9bb1",
   "status": "passed",
   "checks": [
     {
@@ -77,7 +77,19 @@
       "passed": true
     },
     {
-      "name": "shared_component_regression_cached",
+      "name": "shared_component_modes_categories_scopes_and_dom",
+      "passed": true,
+      "detail": {
+        "combinations": 19,
+        "questions": 14
+      }
+    },
+    {
+      "name": "shared_density_toggle",
+      "passed": true
+    },
+    {
+      "name": "shared_answer_toggle",
       "passed": true
     },
     {
@@ -605,7 +617,7 @@
     "answers": 14,
     "teacher_formulas": 248,
     "student_formulas": 127,
-    "checks": 67,
+    "checks": 69,
     "errors": 0,
     "warnings": 0
   }

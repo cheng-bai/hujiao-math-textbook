@@ -7,7 +7,7 @@
   "title": "函数",
   "section_json": "batch/sections/bx1/bx1-5-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-5-1",
-  "fingerprint": "7226286b1710c873ac36198a3a00ba39f6caba3a957b9abd53cc6b5636d6746f",
+  "fingerprint": "f1e443ff5ed3cb557fea2a2c0cb556280c965b12e48a2fa572ca91fca6bc0f97",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -173,9 +173,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "f211c8aaec8d48b7e24862796fea034868f414f25e1a5927193c6dc59c2a35f2",
-    "student.html": "1ee8614835f6f3014b6df7f3408a348ea445684664ce9f7633cb8b7a20975bc0",
-    "student.zip": "6b95bb3c095b790b9fcfb92c6a3372b9ff02b03b0c1ee787061cb658ae69bee9",
+    "teacher.html": "96e7bf4f4393974bdc8a69b2ad2b101279c9359946a7105b582f3b2370265e85",
+    "student.html": "bd759fa72c912c2233245637ba5dddcd586cf8513aa9097701a274478e2faed3",
+    "student.zip": "9ad90ce0786f07124f642f6bc64f460c09c2cd532e752f5a63b03887251a767d",
     "content.json": "41df0b49906e7edb0dd3fa4162c20cae4f252feda906498361ac0eab768aec63",
     "teacher-guidance.json": "2a11f7c688d7fccc58970909f9e164388265464c1f517bdfd7518ed3d5129a38"
   }

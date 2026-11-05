@@ -13,6 +13,7 @@ import re
 import time
 import traceback
 from site_access import install_project_pages
+from portal_index import render_portal_index
 
 ROOT = Path(__file__).resolve().parents[1]
 BATCH = ROOT / 'batch'
@@ -101,7 +102,7 @@ def write_portal(catalog):
     OUTPUT.mkdir(parents=True, exist_ok=True)
     css = '''*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#e5eadb,transparent 60%),#f6f3eb;color:#203a2b;font:17px/1.8 "Songti SC",serif}main{max-width:1080px;margin:auto;padding:40px 28px}h1{font-size:38px;margin:5px 0 12px}h2{border-top:2px solid #304f39;padding-top:18px;margin-top:32px}h3{font-size:19px;margin:20px 0 8px}a{color:#295c43;text-underline-offset:4px}small,.muted{color:#697667;font-size:13px}.row{display:flex;gap:15px;align-items:baseline;padding:9px 0;border-bottom:1px solid #d7ddcf;flex-wrap:wrap}.title{flex:1;min-width:230px}.status{font:12px/1.6 "PingFang SC",sans-serif;padding:2px 8px;background:#e5eadc}.warning{color:#975322;background:#eee2d4}.books{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}.notice{padding:12px 17px;border-left:3px solid #a5683f;background:#ede8dd;font-size:14px}.metrics{font-family:"PingFang SC",sans-serif;font-size:13px}button{font:inherit}@media(max-width:600px){main{padding:24px 18px}h1{font-size:29px}.row{gap:8px}.title{min-width:100%;font-size:16px}}'''
     totals = {'sections': 0, 'validated': 0, 'blocked': 0, 'queued': 0, 'questions': 0}
-    index_rows, book_summaries, pending_rows = [], [], []
+    book_summaries, pending_rows = [], []
     for book in sorted(catalog['books'], key=lambda b: PRIORITY.index(b['id'])):
         directory = OUTPUT / book['id']
         directory.mkdir(exist_ok=True)
@@ -144,10 +145,9 @@ def write_portal(catalog):
         title = html.escape(book['title'])
         document = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} · 教材教参整合</title><style>{css}</style></head><body><main><small>沪教数学 / 教材 × 教参整合</small><h1>{title}</h1><p class="metrics">{stats['validated']} / {stats['sections']} 个节点显示与打印通过 · {stats['blocked']} 个需修复</p><p><a href="../index.html">← 五册总目录</a> · <a href="../visual-index.html">动态图总览</a> · <a href="../交付与核验说明.md">使用与核验说明</a></p><p class="notice">教师使用为主。只把各节的学生ZIP发给学生；教师页、整册目录及来源含答案。显示与打印通过不等于所有题目已重新计算，独立审校范围见交付说明和审校记录。</p>{''.join(chapter_rows)}</main></body></html>'''
         (directory / 'index.html').write_text(document, encoding='utf-8')
-        index_rows.append(f'<div class="row"><a class="title" href="{book["id"]}/index.html">{title}</a><span class="status">{stats["validated"]}/{stats["sections"]} 节点通过</span><small>{stats["blocked"]} 需修复</small></div>')
         book_summaries.append({'id': book['id'], 'title': book['title'], **stats})
     now = datetime.datetime.now().astimezone().isoformat(timespec='seconds')
-    index = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>沪教数学 · 五册教材教参整合</title><style>{css}</style></head><body><main><small>LOCAL EDITION · SOURCE-TRACEABLE</small><h1>教材与教参，一起读。</h1><p>保留教材主线、原题和原图，在需要的位置补入教师视角。</p><p class="notice"><a href="deep-index.html">新：7个深度探究 →</a> · <a href="visual-index.html">打开五册可视化总览 →</a> · 逐节筛选，只用动态图解释真正需要观察变化的内容；可查看每个插入位置与跳过理由。可视化专项验证与原题审校分开记录。</p><p class="notice">优先推进选择性必修第一册。其余为必修第一、二、三册及选择性必修第二册；两册数学建模活动册不在本批五册范围。每节可隐藏答案并按模块打印，学生分享使用独立ZIP。</p>{''.join(index_rows)}<p><a href="章节修复记录-20261020.md">查看章节修复记录与验收边界 →</a></p><h2>当前显示与打印核验</h2><p class="metrics">{totals['validated']}/{totals['sections']} 节点显示/打印通过；{totals['blocked']} 个需修复，{totals['queued']} 个待检查。</p><p><a href="交付与核验说明.md">使用说明 / 检查范围 / 未通过节点</a></p><p class="muted">这里的计数来自当前章节检查；显示与打印通过不等于全书逐题数学审定。已知章节修复与独立复核范围见修复记录，可视化专项检查见总览。最后更新 {now}。</p></main></body></html>'''
+    index = render_portal_index(catalog, book_summaries, totals, now, OUTPUT)
     (OUTPUT / 'index.html').write_text(index, encoding='utf-8')
     summary = {'updated_at': now, 'books': book_summaries, 'totals': totals}
     atomic_json(BATCH / 'state/progress.json', summary)

@@ -7,7 +7,7 @@
   "title": "数学归纳法",
   "section_json": "batch/sections/x1/x1-4-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-4",
-  "fingerprint": "9adda70c5c3e1a25bd00e22e5e6309c64434217c46798f535cb7dc2340260c70",
+  "fingerprint": "415e01c1bec2f2bb43e30c8aab1db5892d40c977c824e7b429e82f59355ddd81",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -86,9 +86,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1cf0d5a9395dc83e4d61c25a334d68a9466ca2376226880d6120c4f37aa5c0a5",
-    "student.html": "3d0bcb5b13c0a4be25be72c7194e8c3dcd12b312bc9a2ac904109b5925ddcc56",
-    "student.zip": "194e71e6491c6fc32fd83326363084984ac34f0fc8c6d4dd8aec03c4f04b5c7e",
+    "teacher.html": "7adf1f49c8976d1a606b0312858c6424039edbb274ba0700415cffc2d4e7dc7c",
+    "student.html": "616a7bcfeb8c2314e74508ed04af641a4a78b2e6527ff19220c32a5202c5838f",
+    "student.zip": "bdc391ea747fd7265fad100487c73e5a1c8e1152ed17d735d697152a0c0951f0",
     "content.json": "24106f4abfe4693c5f3746ced8e321c6bb5f373d5ea68fcdbb05bf93d2df507f",
     "teacher-guidance.json": "9f4ff1143c65bcc40588a72f72d17ab42af8b6ca12265e80bf475ecc4b4458ca"
   }
