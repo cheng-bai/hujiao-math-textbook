@@ -17,9 +17,31 @@ def add_curriculum_link(page):
                         '.tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));', 1)
 
 
+def add_knowledge_map_link(page):
+    href = '../课本知识地图/index.html'
+    if f'href="{href}"' in page:
+        return page
+    marker = '</nav><section aria-labelledby="books-title">'
+    if page.count(marker) != 1:
+        raise ValueError('Cannot identify the portal tools navigation end')
+    link = (f'<a class="tool" href="{href}"><span><strong>知识地图</strong>'
+            '<small>探索概念之间的联系</small></span><span aria-hidden="true">↗</span></a>')
+    page = page.replace(marker, link + marker, 1)
+    for old, new in [('repeat(3,minmax(0,1fr))', 'repeat(4,minmax(0,1fr))'),
+                     ('1fr 1fr', 'repeat(3,minmax(0,1fr))')]:
+        css = f'.tools{{display:grid;grid-template-columns:{old};'
+        if css in page:
+            return page.replace(css, f'.tools{{display:grid;grid-template-columns:{new};', 1)
+    raise ValueError('Cannot identify the portal tools grid')
+
+
 def render_portal_index(catalog, book_summaries, totals, updated_at, output):
     page = _render_portal_index(catalog, book_summaries, totals, updated_at, output)
-    return add_curriculum_link(page) if (output / 'curriculum-2025.html').is_file() else page
+    if (output / 'curriculum-2025.html').is_file():
+        page = add_curriculum_link(page)
+    if (output.parent / '课本知识地图' / 'index.html').is_file():
+        page = add_knowledge_map_link(page)
+    return page
 
 
 def _render_portal_index(catalog, book_summaries, totals, updated_at, output):

@@ -521,6 +521,8 @@ git diff --check
 
 ## 16. Git、CI 与 Pages 发布
 
+下一阶段的白名单、候选版本和确认发布设计见 [发布架构与候选版本方案](发布架构与候选版本方案.md)。它当前仅为方案，以下仍描述实际运行流程；没有新增组装器、候选 artifact 或审批门槛。
+
 仓库：[cheng-bai/hujiao-math-textbook](https://github.com/cheng-bai/hujiao-math-textbook)。
 线上：[GitHub Pages 阅读入口](https://cheng-bai.github.io/hujiao-math-textbook/)。
 

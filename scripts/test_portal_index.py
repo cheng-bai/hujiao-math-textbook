@@ -4,7 +4,7 @@ import tempfile
 from html.parser import HTMLParser
 from pathlib import Path
 
-from portal_index import render_portal_index
+from portal_index import add_knowledge_map_link, render_portal_index
 from site_access import access_version, install_page
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,7 +33,8 @@ class PortalIndexTest(unittest.TestCase):
         parser = PortalParser()
         parser.feed(page)
         self.assertEqual(parser.details, len(catalog['books']))
-        book_links = [target for target in parser.links if target.endswith('/index.html')]
+        book_links = [target for target in parser.links if target in
+                      [f'{book_id}/index.html' for book_id in ['bx1', 'bx2', 'bx3', 'x1', 'x2']]]
         self.assertEqual(book_links, [f'{book_id}/index.html' for book_id in ['bx1', 'bx2', 'bx3', 'x1', 'x2']])
         sections = [section for book in catalog['books'] for chapter in book['chapters'] for section in chapter['sections']]
         self.assertEqual(len(sections), 101)
@@ -46,9 +47,37 @@ class PortalIndexTest(unittest.TestCase):
             self.assertTrue((OUTPUT / target).is_file(), target)
         self.assertIn(f'../_shared/site-access.js?v={access_version()}', page)
         self.assertEqual('curriculum-2025.html' in parser.links, (OUTPUT / 'curriculum-2025.html').is_file())
-        self.assertEqual('grid-template-columns:repeat(3,minmax(0,1fr))' in page,
-                         (OUTPUT / 'curriculum-2025.html').is_file())
+        self.assertEqual('../课本知识地图/index.html' in parser.links,
+                         (OUTPUT.parent / '课本知识地图/index.html').is_file())
         self.assertIn('不等于全书逐题数学审定', page)
+
+    def test_optional_tools_and_grid(self):
+        catalog = {'books': []}
+        totals = {'validated': 0, 'sections': 0, 'blocked': 0, 'queued': 0}
+        for curriculum in (False, True):
+            for knowledge_map in (False, True):
+                with self.subTest(curriculum=curriculum, knowledge_map=knowledge_map), \
+                        tempfile.TemporaryDirectory() as directory:
+                    output = Path(directory) / 'book'
+                    output.mkdir()
+                    if curriculum:
+                        (output / 'curriculum-2025.html').touch()
+                    if knowledge_map:
+                        map_dir = output.parent / '课本知识地图'
+                        map_dir.mkdir()
+                        (map_dir / 'index.html').touch()
+                    page = render_portal_index(catalog, [], totals, 'now', output)
+                    parser = PortalParser()
+                    parser.feed(page)
+                    self.assertEqual(parser.links.count('curriculum-2025.html'), int(curriculum))
+                    self.assertEqual(parser.links.count('../课本知识地图/index.html'), int(knowledge_map))
+                    columns = 2 + curriculum + knowledge_map
+                    grid = '1fr 1fr' if columns == 2 else f'repeat({columns},minmax(0,1fr))'
+                    self.assertIn(f'.tools{{display:grid;grid-template-columns:{grid};', page)
+                    self.assertIn('@media(max-width:650px)', page)
+                    self.assertIn('.tools{grid-template-columns:1fr}', page)
+                    if knowledge_map:
+                        self.assertEqual(add_knowledge_map_link(page), page)
 
     def test_existing_gate_reference_gets_current_version(self):
         for suffix in ['', '?v=previous']:
