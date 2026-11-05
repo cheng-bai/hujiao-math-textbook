@@ -7,7 +7,7 @@
   "title": "复数的几何意义",
   "section_json": "batch/sections/bx2/bx2-9-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-2",
-  "fingerprint": "ea7f8938b84ffa81df571537d52cd8cc36d8c40d381d4119ccd07958657bde9f",
+  "fingerprint": "8a616128468a90d269bf111598661a459f7f97f6f603c7ae14c4a1c8661d5144",
   "status": "rendered",
   "questions": 34,
   "answers": 34,
@@ -209,9 +209,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2f73b12d689903ee1e030694503967a1e8867bc69ecff6bb2bf157b2d2f5ddd9",
-    "student.html": "fd8b05cd431b47b59b50567f3897c19489c91569878f967b9c2a3e3f69f6385f",
-    "student.zip": "669b5bc535552289ea34d52110100e6cb9d12cf65cdc1f28b2425e43922f4025",
+    "teacher.html": "4b56eb492b1d38949c1bcdf4cf959291edb7390cc26575cda12cf141b36b6234",
+    "student.html": "a728e1871500e38023db1b8fb849e31bf6d67ef041b94eea5f41b74f7baa70c7",
+    "student.zip": "6d5a94ae0a43c9b605f3af3161d81831a21228fce8bee9b004beb1ff1249245f",
     "content.json": "e6e059a1e74071243f27c716ac8537140629900551a439a1aa913c2e4cba008a",
     "teacher-guidance.json": "9b842bfa61c0ea4cd5d837e176649f0267fb70fc7ce67e1afa5b40205e27433f"
   }

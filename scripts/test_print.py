@@ -9,7 +9,7 @@ import json
 import fitz
 from playwright.sync_api import sync_playwright
 
-TEST_PASSPHRASE = 'xdf3.1415926'
+TEST_PASSPHRASE = 'xdf'
 
 
 def unlock_access(page):

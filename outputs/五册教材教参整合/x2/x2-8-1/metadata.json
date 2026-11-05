@@ -7,7 +7,7 @@
   "title": "成对数据的相关分析",
   "section_json": "batch/sections/x2/x2-8-1.json",
   "output": "outputs/五册教材教参整合/x2/x2-8-1",
-  "fingerprint": "5b687e89de3c973417fbe669e5cf122b22e630caa7c1b47112e57fc6abebeefd",
+  "fingerprint": "d8e05bb871d42f19032b8dd268c4c404323c9ff65b7d14318c72e1ab00c170ce",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -134,9 +134,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "1bbb2e53de4e6a702517c328bc1ebf35c704692d153a17cab6e111e6ac3bbe93",
-    "student.html": "0691e2bc56f72bc49acc85460565ea320c98cc31527fe541bde40f086e9a6089",
-    "student.zip": "06dcc26cd194caa700f85945a07fd248aeb2734d2e959300567638f1e019b242",
+    "teacher.html": "ad2715fb0d177940f28829f796ef400975ecf87e3328451415483aafeb36660b",
+    "student.html": "70a6cdac242d4373c0c15d3084590b8562eebc6ab773f1f461c619d7349c4b40",
+    "student.zip": "b6573ce63e869c0ddef7f7281ba55e2ce57ad42248b93ccb25f2298631ba1934",
     "content.json": "2534ef1f70e7c80650fcd48a4d5acfb71b7047bc7fdfbc8871f0d9b450b0fb76",
     "teacher-guidance.json": "4e18c95a3799ca241fc8d1ef6c2bfaceb777454a9edaee56d9a41d20acd85490"
   }

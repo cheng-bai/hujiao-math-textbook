@@ -7,7 +7,7 @@
   "title": "用迭代序列求 √2的近似值",
   "section_json": "batch/sections/x1/x1-4-5.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-5",
-  "fingerprint": "920c2176359fea518a719343528a4764ccb51b85580546ea6c01d37c3300ba58",
+  "fingerprint": "1911db4cca8d71d8f3eadb5a9ca4ae66aaba01c2b307b507fff658ff2b3eb190",
   "status": "rendered",
   "questions": 3,
   "answers": 3,
@@ -40,9 +40,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "20a549207c86dc949e2021688e6c6449759957a0b3c735920d98dcba63600f3a",
-    "student.html": "dd808083dce5899b4373d561cd19dee02613b19c61779bf3b6ba247c722c70c6",
-    "student.zip": "9fb105f4f905663b193991fa407a4eb1ceb7955aaa3e7f44c8aed551391a008b",
+    "teacher.html": "e23ca2e608411f54af6365d30481d9aa3b5933ca10eb76a5fca2f328347d916e",
+    "student.html": "fb1a2e3e77df68b4de0295069c3ca7b0df2fb7411bac486701a1d464b87e150c",
+    "student.zip": "78d5a3ea4d863d6872eeb2b0e1ad2109610eeed979c330c06e5778a984d72cac",
     "content.json": "6df2ff57524efbfbd70d9f3af81f259334c5de60e898cfbc693d9bb8ccd09869",
     "teacher-guidance.json": "8ed0127615d206e7949ff66657dd8208e411aa6c1ddc52208f023aceeaa0ca41"
   }

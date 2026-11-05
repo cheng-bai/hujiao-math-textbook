@@ -7,7 +7,7 @@
   "title": "函数的应用",
   "section_json": "batch/sections/bx1/bx1-5-3.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-5-3",
-  "fingerprint": "c1b199f33a562769db70d80d39e8a875082eb418878463565c9ecf7b73f137cb",
+  "fingerprint": "c711f589c835af558ee387b4f4fd5f221f917710f9bab09ad64b73462659b309",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -185,9 +185,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "238bc4c8dbf02abce394ccd7541c0c978ac0ffb015381e30de854b2fdbb08362",
-    "student.html": "e80b761e0e32a5f763b0e725a479372f980a72324827f28d289dca16f3ccc47f",
-    "student.zip": "c5f3b8f29c4881c699767808844496c2fe07951a6757fdb9a185c15790e4baab",
+    "teacher.html": "06105d5bdb358b816d56d95ffe9bff9e5473e40f147282f743ba08ee12786819",
+    "student.html": "9f630488912fc66d3c4f946d594763690ee2c442b23042de76d419f5bb02ab75",
+    "student.zip": "4f01e2659e79a41b64b493787f07c0cb236d1b08621281c25bbf6cbde861566f",
     "content.json": "6cff303a8a816a502980f52433025c5d64515dbd101bad3167a93bef0ee69ae0",
     "teacher-guidance.json": "7ce819ccb1297e707fb956ba10a3b833810c38a93677284f10d020709afa9dad"
   }

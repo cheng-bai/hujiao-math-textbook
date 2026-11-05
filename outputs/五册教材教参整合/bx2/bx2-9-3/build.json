@@ -7,7 +7,7 @@
   "title": "实系数一元二次方程",
   "section_json": "batch/sections/bx2/bx2-9-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-3",
-  "fingerprint": "e020c2db48c2838a414c58dd117edc1947908381b02086614ee636c65a89d297",
+  "fingerprint": "d6ab46f0b8e66a78e78a9dd27ada6feb58c05bc0a495318c339a0ccd90de1c07",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -89,9 +89,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "4e8c9ce78f614a51c8888e73a8d5dac6fa0b1c8441fac7eb3895dd2d875243e3",
-    "student.html": "6c404a24ed46370fa3fbfb850a5fea68420d33f2ab0ef2d6e400d1a01fa8952f",
-    "student.zip": "bd844b3a04c093d886b420bf040ea3f808084e17b303b348dd77787edfb1813f",
+    "teacher.html": "1eb15d33e6c571acb4fa2e9ccd3aa278901ef953248d806cda32379c97ab159f",
+    "student.html": "07acb285a72bb9c24baa347d6ebdeb3f665c2a2e04602d95310e30b0bb045ee7",
+    "student.zip": "97f4751f4d192ab8f11715ed5f47443fb7a13ef769aa5a330082243975afa925",
     "content.json": "1389c9a5ea1315a3db5a44685880d5facd025251e96f862abf445e3dc4596ece",
     "teacher-guidance.json": "51bb8b3f7cce3552a1a4f9a02fce0bed5cacff4151636db0103fcf84e02b5390"
   }

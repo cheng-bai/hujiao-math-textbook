@@ -7,7 +7,7 @@
   "title": "平面及其基本性质",
   "section_json": "batch/sections/bx3/bx3-10-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-1",
-  "fingerprint": "032e7539b5bbe19736b60560cce25429e24aea88d82ec1b8ca313ad36bf5b94e",
+  "fingerprint": "3b98b80d5dd83f700b7dfc2d8b5cc80d5e0d9606a5826a3cacb6139620b6c3de",
   "status": "rendered",
   "questions": 29,
   "answers": 29,
@@ -267,9 +267,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2927b4a4d303fa7193e59b67fe2a20fe6803ac5ea7ee3aa93ef22ab0b3aaf218",
-    "student.html": "457f3a6c68ba841006c8d3986056d877f44caf238741649587a9c5221ef7dd85",
-    "student.zip": "f054e4b935e9819bec8b315f846b3b4103b1fb71daecd655a77de9d016087b73",
+    "teacher.html": "a6966dcca4a70e56288fe23b7d1c44b3a265aa1aaf26dbf3c75ac7e6fba9cb87",
+    "student.html": "591f6de76371d1745c452bf0056bf46276743edaac5d82e4bbca430a04d4c429",
+    "student.zip": "9d59c8aa3f3e8d60024a352ade4c0885bc47b57607e1dafe8a69f86ffc6b7ba0",
     "content.json": "507ad02d4e091fcbe7ab920060010b4eac6511b61c6c58e3c8a93f9ff851128e",
     "teacher-guidance.json": "0005a1595d0fdb46b4ddba6901433c25de09c8900ef31bfc6eca9362d571f97f"
   }

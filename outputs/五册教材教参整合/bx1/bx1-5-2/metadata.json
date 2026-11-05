@@ -7,7 +7,7 @@
   "title": "函数的基本性质",
   "section_json": "batch/sections/bx1/bx1-5-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-5-2",
-  "fingerprint": "44e9f1f5a64c2d5a2eac49bc2cc22750167386b9b74acfc177f31234c6ee6dda",
+  "fingerprint": "59dd89454e1d0450f4073ba2875c86c0494fcecba2ced13c0322c32b0ace180b",
   "status": "rendered",
   "questions": 43,
   "answers": 43,
@@ -231,9 +231,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "06a80feda024d8982f6d1b8db93e3e13e20e47e1c75ffc62890a01308c53af3b",
-    "student.html": "5c8162a911a30f50bd80e5820d7f04192e4e771523cd92176fc0540f980a3e66",
-    "student.zip": "feac3cf549e62f3dbcfaf01ed42d33cf969a773481f400684a29bf49c5892306",
+    "teacher.html": "8dacae547d0eda0188f135aba57af6f892fbf80e4204c578a994a3a9f64f521b",
+    "student.html": "49fefdb3ae1b686c9aed2233508bcc3ec9a0b57c0cb32c6fa867382a2c7a28bd",
+    "student.zip": "0a65323c1c04156646d7c9fbf9d43a5e1aef23873ecd97af48ad9fee4866673b",
     "content.json": "2e411c4f5bc23320e8ffa81fd225bd8f049768f02140944bb8326cb8c47acac9",
     "teacher-guidance.json": "f318a6c0a510b873ea796c52b751df413c3039bc40f507cf60ccb730986195de"
   }

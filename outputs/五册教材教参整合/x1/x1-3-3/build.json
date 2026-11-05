@@ -7,7 +7,7 @@
   "title": "空间向量的坐标表示",
   "section_json": "batch/sections/x1/x1-3-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-3",
-  "fingerprint": "4611fd085b122e914bdd8f09cdb838aeab07a44ecee0a23ef7bb4c6a2ad3d6e3",
+  "fingerprint": "8c8cbaf726d261c3a84831e2860a722ab26ce4df31d9fa1081b16e1bacac1729",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -129,9 +129,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "343ef426f6fad40f842ac6a62f523b52994f0a621a94a4d8d94e514fa5f7d46d",
-    "student.html": "98c30bf8833ec0f1b01ec0efc7ddd75e6e8f1f81ddce7de4c3a2b549df271074",
-    "student.zip": "ff7afbd16a1eceaeacccd49f09cd636bb7879bd8b196d12e1c63499a83b181cb",
+    "teacher.html": "af933300886849786437b38de5cc869fc48dbb2f9fea2c85f115ba4648662cd6",
+    "student.html": "c15535d2f64ad64ce570c94184bb52e4816f88cd4b5af270661a5d188ba5c3ce",
+    "student.zip": "24a363e7d98ac657289276b89bda9ac143fb88f3b636cb3a51fe9008e1fc547a",
     "content.json": "525cebf070b466b2dd51b247ebb411766e37921e8625bf9b44e3adfebdbb1c4d",
     "teacher-guidance.json": "faa201cb9d96418183a32932a7a8388e792e166e4ad7ee72f5a008507f7ffbc5"
   }

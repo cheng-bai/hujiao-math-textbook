@@ -7,7 +7,7 @@
   "title": "幂函数",
   "section_json": "batch/sections/bx1/bx1-4-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-4-1",
-  "fingerprint": "de312d834321a0bda3f079b1384c32ef6c99c3f7d4ee8444f7c2c11eaf79ec0c",
+  "fingerprint": "c78a63e2d1ec18554653a82f2cef9337d5b1d4f54f2584b0308ca57a716816f6",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -151,9 +151,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "f8c76242083404b3cfc0e9c3882dae7600e0e87026811332ba5ed946acb5cfee",
-    "student.html": "197af6a1cfa42dc01a8e1ad09e00215411920febac5439ed2096746ec16867ad",
-    "student.zip": "dd99f461491dd90554547392f0079657f7e617fee8bb8897be2ccd2185c0049d",
+    "teacher.html": "572e9d08bd662f5ce7489a862ae95cc47a963f85a40559b7e1d693263eb35574",
+    "student.html": "c7ff2930a6bc63d1566416c132a8af7f99b6ed766bbaf9c6c13af6af2e5e2c47",
+    "student.zip": "cb10259c8bd30c649dec03b041121b33795736bbba5c533c4cfc2af52069c8d3",
     "content.json": "ae97890faa4b2de09c899da692a2a01ec182ba70b0af54adca447ac03cd26e46",
     "teacher-guidance.json": "568452713f621a675afca99c9bf32ad9f68a259780516199d4b9ef2970ed4993"
   }

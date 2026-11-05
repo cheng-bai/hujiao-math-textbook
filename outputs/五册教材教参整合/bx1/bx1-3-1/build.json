@@ -7,7 +7,7 @@
   "title": "幂与指数",
   "section_json": "batch/sections/bx1/bx1-3-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-3-1",
-  "fingerprint": "6679f3c3c066c25d20d1d5ae98cd1bea31311f0825417ce48875b909128dca5e",
+  "fingerprint": "8a3513d243b39060e5f1d7603fcb11a84efbaf03052370f2479168146353b4a8",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -109,9 +109,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "cc9ac2edace69cb7ea68f2830af848a5ccc5cdf526b33b43d78c63178f1b7b05",
-    "student.html": "5f85a7459a21bd72b9b4b9ee24b8bfa6143b4b8202b144fc24019a44cb0ca4b8",
-    "student.zip": "f455e03fd4c474455d5a93c8327268142b78003044318f0d6a4d11e54a523cf0",
+    "teacher.html": "2aaf6f620b7fcff0fe0447b4d791f5c5682fe466ddf5d7a5d1d021dade762860",
+    "student.html": "de28b7c7bb3629fc1c38e16446397cfe68e85991a911f27d6663e803bd00a2ce",
+    "student.zip": "0bd728b3427d2a15cc148174361cb34c15eca4d01c55513bfe087fd5c0856a55",
     "content.json": "e98c4e200ad90b5428e16885517bca1942e59a475c1047550012bd01c2d9d8e9",
     "teacher-guidance.json": "ac0e14e7539f8234e0bdb3b1e523eaa315f21ec30e9828eef7d97b18a4df1b32"
   }

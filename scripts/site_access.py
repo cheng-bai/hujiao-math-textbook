@@ -2,6 +2,8 @@
 """Install the explicitly non-secure reading gate on first-party static pages."""
 from pathlib import Path
 import os
+import hashlib
+import re
 import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,7 +15,11 @@ FIRST_PARTY_OUTPUTS = ('五册教材教参整合', '教材可视化编排小样'
 
 def access_head(prefix):
     return (f'<link rel="stylesheet" href="{prefix}site-access.css">'
-            f'<script defer src="{prefix}site-access.js"></script>')
+            f'<script defer src="{prefix}site-access.js?v={access_version()}"></script>')
+
+
+def access_version():
+    return hashlib.sha256((ROOT / 'scripts/site-access.js').read_bytes()).hexdigest()[:12]
 
 
 def install_assets(destination=PUBLIC):
@@ -27,7 +33,12 @@ def install_assets(destination=PUBLIC):
 def install_page(path):
     text = path.read_text(encoding='utf-8')
     if 'site-access.js' in text:
-        return False
+        updated = re.sub(r'(src="[^"\n]*site-access\.js)(?:\?[^"\n]*)?"',
+                         rf'\g<1>?v={access_version()}"', text)
+        if updated == text:
+            return False
+        path.write_text(updated, encoding='utf-8')
+        return True
     prefix = Path(os.path.relpath(PUBLIC, path.parent)).as_posix() + '/'
     text = text.replace('</head>', access_head(prefix) + '</head>', 1)
     if '<body' in text:

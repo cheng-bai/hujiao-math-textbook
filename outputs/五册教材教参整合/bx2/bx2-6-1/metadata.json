@@ -7,7 +7,7 @@
   "title": "正弦、余弦、正切、余切",
   "section_json": "batch/sections/bx2/bx2-6-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-6-1",
-  "fingerprint": "0555c7465cda403aa044fe6d19d367b34bfb33409fdb6da4b40b46edf3d333cc",
+  "fingerprint": "5cd47b3d54ab8d8b4e4f112d67dfc8e668d2e142fdc255b57b380a539827f1b0",
   "status": "rendered",
   "questions": 72,
   "answers": 72,
@@ -395,9 +395,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "14a1c28485ffa99226164466125e9f06162245233166c7b099d37de61b9be4f5",
-    "student.html": "f072b3402e3b11cf8a2d2fccdab83299f955af09e7df56345187816c21d03fd8",
-    "student.zip": "b21f7b27e07a2a440e7f952b812ac1ea93f31fbcb31230048627f3c678d2ae83",
+    "teacher.html": "b1f7c45859638452a6031d060fc13bac6a0ac153a92fbb8f356b21bab49eae2e",
+    "student.html": "5c9b593697f2f68e544c0bef62a481affd3d1caaff67a68ecab70282be13ab35",
+    "student.zip": "cb1bd58af0233556c6460b345cb10c7527f13231b37895a844349435e09875e5",
     "content.json": "070ec0731967c6d989f60f941ca596789638655f28067efc30a309698d2c5665",
     "teacher-guidance.json": "9f97fd8eb9e2042038a14a069f1fbfbbff75b7fdf8a6e6b741a8f2b91bf3a03e"
   }

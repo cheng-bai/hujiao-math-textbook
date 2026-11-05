@@ -7,7 +7,7 @@
   "title": "空间向量在立体几何中的应用",
   "section_json": "batch/sections/x1/x1-3-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-4",
-  "fingerprint": "99e1c1391bc23b78c5e59908610d318178c08a1df58fb89ff2912af38009f035",
+  "fingerprint": "985a8dea172eb0c7393ca3da2a19b420e1bc7b673fc38b0acf332d674db9adfb",
   "status": "rendered",
   "questions": 28,
   "answers": 28,
@@ -258,9 +258,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "705a291c751bd674320b272a0985195ff69ce2f22829a78ba036976b4245deca",
-    "student.html": "d703379176f720d7c18bb109687e7c0bfcbc752ffc633408ac87131de2f8d8af",
-    "student.zip": "c1ed7ed70a8eb3bafbf464a6c19e0f2d8d0e9c722aa31379f4770923707dbdd1",
+    "teacher.html": "9383f4507e98539ddae250b5ae7d638aca22fe849a63f89b6c6ba2991a49e367",
+    "student.html": "e0dd5c0efc93fd86213a41473a9ecd5fa6eba3012b16113d92f9878572f90f8b",
+    "student.zip": "93babf09351970b1b9635644f6c5afe0b4c33d62abe2aa4deb800054e5c92393",
     "content.json": "b89e38cfbcd042e9c63c55eb3a43c393386819dfb9f71eaaff60f2d8599a8716",
     "teacher-guidance.json": "3c47a613ac3fb12b36a34d9b1e440475d54c66790c648f903675daff76f54d68"
   }

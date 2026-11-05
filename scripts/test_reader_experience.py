@@ -60,6 +60,19 @@ class ReaderExperienceTests(unittest.TestCase):
         self.page.locator('.toolbar').wait_for(state='visible')
         self.assertEqual(self.page.evaluate('window.__mathErrors'), [])
 
+    def test_gate_password_and_previous_session(self):
+        self.page.add_init_script("sessionStorage.setItem('hujiao.textbook.reading.gate.v1', 'granted')")
+        self.page.goto(self.base + 'bx1/bx1-1-1/teacher.html')
+        self.assertTrue(self.page.locator('#access-form').is_visible())
+        self.page.locator('#access-passphrase').fill('incorrect')
+        self.page.locator('#access-form button[type="submit"]').click()
+        self.assertEqual(self.page.locator('#access-passphrase').get_attribute('aria-invalid'), 'true')
+        self.assertTrue(self.page.locator('#access-form').is_visible())
+        unlock_access(self.page)
+        self.assertEqual(self.page.evaluate('document.documentElement.dataset.accessState'), 'granted')
+        self.page.goto(self.base + 'bx1/bx1-1-1/student.html')
+        self.assertEqual(self.page.evaluate('document.documentElement.dataset.accessState'), 'granted')
+
     def test_guidance_index_and_print(self):
         for section in ['bx3/bx3-11-4', 'x1/x1-2-2', 'bx1/bx1-4-3']:
             with self.subTest(section=section):

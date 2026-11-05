@@ -357,7 +357,7 @@ def page(data, blocks, components, student=False):
     examples = sum(q['category'] == '例题' for q in questions)
     foot = '本文件为独立学生阅读版，不含答案、解析与教师材料。' if student else '原始教材与教参只读保留；缺答、来源疑点与校核状态见本节检查记录。结构、离线渲染和打印检查不代替数学复核。'
     mode = 'student' if student else 'teacher'
-    access_assets = access_head('../_shared/').replace('site-access.js"', f'site-access.js?v={sha(ROOT / "scripts/site-access.js")[:12]}"')
+    access_assets = access_head('../_shared/')
     blocking = [i for i in data.get('issues', []) if isinstance(i, dict) and i.get('severity') in ['blocking', 'error', 'critical']]
     warning = ''
     if blocking and not student:

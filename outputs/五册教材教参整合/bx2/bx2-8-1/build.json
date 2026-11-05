@@ -7,7 +7,7 @@
   "title": "向量的概念和线性运算",
   "section_json": "batch/sections/bx2/bx2-8-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-1",
-  "fingerprint": "c9afd97a8e7a23d90d14a89bc73b82ce6f76512776c1ef1c949b9b79d6883cb0",
+  "fingerprint": "f7c1b1f896d40c4d3ba7e6e83986c81f7b425cdbae4062edc781b0f214f756df",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -177,9 +177,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9b6a5b89f4c79aef59fbb553e8259db45d5dbcd87c4b4ff12ecc64d7e6496626",
-    "student.html": "d75dbc1212818436fe49e982e1e911777136e22849a09033dd28db27057a5270",
-    "student.zip": "6cd1542a5d057163c0bde6c2cfbed74733873f39da8e9412516110fe8bfa16e0",
+    "teacher.html": "732259641dab7bbdf69b5b682968e708630c2d9b715483567074191119b75b7b",
+    "student.html": "b1d41b5a7b5467778c35eab52d2a01cf0b73008386b294d961f10101204b6dea",
+    "student.zip": "87f23218d00b5698960b2967a11563cbe0145aa2c9e81f573b7bed32613e4de8",
     "content.json": "74e8b973464843a07f3ce4fb9b7bf34ced84a7847736ae6d1cb31500ddbee2b4",
     "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }

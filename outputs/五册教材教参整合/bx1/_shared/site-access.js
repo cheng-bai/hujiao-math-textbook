@@ -1,8 +1,8 @@
 /* A shared reading gate, not authentication or protection for public files. */
 (() => {
   'use strict';
-  const key = ['hujiao', 'textbook', 'reading', 'gate', 'v1'].join('.');
-  const passphrase = 'xdf3.1415926';
+  const key = ['hujiao', 'textbook', 'reading', 'gate', 'v2'].join('.');
+  const passphrase = 'xdf';
   const root = document.documentElement;
   let granted = false;
   try { granted = sessionStorage.getItem(key) === 'granted'; } catch (_) { /* File storage can be unavailable. */ }
