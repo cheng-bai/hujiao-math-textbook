@@ -387,7 +387,7 @@ analysis_provenance  教参说明来源
 
 ### 共享口令不是账号认证
 
-当前口令为 `xdf3.1415926`，源配置在 `scripts/site-access.js`，通过标记使用 `sessionStorage`；输入口令本身不保存，页面提供重新锁定。
+当前口令为 `xdf`，源配置在 `scripts/site-access.js`，通过标记使用 `sessionStorage`；输入口令本身不保存，页面提供重新锁定。
 
 这是公开源码中的前端门禁，可被绕过；原文件、ZIP 和封存资源仍公开。封存 HTML 未统一加入门禁，以免破坏哈希。关闭存储或 `file://` 限制可能导致每页重复输入。
 

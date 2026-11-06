@@ -70,7 +70,7 @@
 
 `scripts/book.*` 管阅读与打印，`batch_render.py` 管正式构建，`build_sample.py` 仍提供复用组件；`designs/` 仍含被构建器使用的 KaTeX，不能作为“旧稿”整目录清除。
 
-口令 `xdf3.1415926` 配置于 `scripts/site-access.js`，只做公开静态站的轻量入口，不是认证。浏览器编排保存在本地，换设备前导出 JSON，没有云同步。
+口令 `xdf` 配置于 `scripts/site-access.js`，只做公开静态站的轻量入口，不是认证。浏览器编排保存在本地，换设备前导出 JSON，没有云同步。
 
 ## 任务路由表
 
