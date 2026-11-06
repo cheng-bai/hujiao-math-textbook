@@ -1,0 +1,198 @@
+{
+  "generated_at": "2026-11-06T16:44:41+00:00",
+  "mode": "apply",
+  "replace_count": 10,
+  "skip_count": 0,
+  "results": [
+    {
+      "section_id": "x1-2-2",
+      "figure": "图2-2-1",
+      "original_path": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/images/bo_d4sln7jef24c73be0pd0_14_1111_1096_348_230_0.jpg",
+      "svg": "svg/x1-2-2_图2-2-1_椭圆拉绳.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-518957a1cd89b7e58740.jpg",
+      "new_ref": "images/book-518957a1cd89b7e58740.svg",
+      "original_sha256": "518957a1cd89b7e58740ede0a2214de4eb6de591e6cd2b231327f628c3d09787",
+      "svg_sha256": "3b878dd0dbfa55e04f6bf8fb1a3b1e24fb1fffd611bb0af49c8f58ab6c434bb6",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "x1-3-1",
+      "figure": "图3-1-2",
+      "original_path": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/images/bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg",
+      "svg": "svg/x1-3-1_图3-1-2_长方体向量.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/private-47274f5aa899f7a484d1.jpg",
+      "new_ref": "images/private-47274f5aa899f7a484d1.svg",
+      "original_sha256": "47274f5aa899f7a484d1a169082d43e2b922958cc4c196bcdab46615e88dffaa",
+      "svg_sha256": "3d77d695a9dcb256ce8a20ed3620701dad5dd62e17fe36b720d723f46fbabf08",
+      "private": true,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 0,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx1-4-2",
+      "figure": "图4-2-1",
+      "original_path": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
+      "svg": "svg/bx1-4-2_图4-2-1_指数函数2与3.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/private-4e8212eae4f9cce5a605.jpg",
+      "new_ref": "images/private-4e8212eae4f9cce5a605.svg",
+      "original_sha256": "4e8212eae4f9cce5a6053cefdd348404e3570d5bcc62417150a701742546a3e8",
+      "svg_sha256": "c5dde7ae0c45948fd2fe882d87fcfbe380fdc92ed5d46a6285374e1c9184be6b",
+      "private": true,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 0,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx1-4-3",
+      "figure": "图4-3-1",
+      "original_path": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_15_172_1013_348_270_0.jpg",
+      "svg": "svg/bx1-4-3_图4-3-1_对数函数2与3.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/private-b857aa082a588fe5c3b4.jpg",
+      "new_ref": "images/private-b857aa082a588fe5c3b4.svg",
+      "original_sha256": "b857aa082a588fe5c3b47bee092441973ddb8bfbd5a26d173dce2743302293e9",
+      "svg_sha256": "c3616aae5a4426f003e39429e9fce60c85c1501976c268eca029e875f7a4af1a",
+      "private": true,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 0,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx2-7-1",
+      "figure": "图7-1-4",
+      "original_path": "sources/textbooks/必修第二册/第7章三角函数/images/bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg",
+      "svg": "svg/bx2-7-1_图7-1-4_正弦五点.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-4659e86836f96a48d39c.jpg",
+      "new_ref": "images/book-4659e86836f96a48d39c.svg",
+      "original_sha256": "4659e86836f96a48d39cba2461f2edfb81826e38c728f13bcc7f27f3b0f89bc1",
+      "svg_sha256": "aeebdd10d4375f014916c1006f62ed0997c375d817783cab17fc2b5994366414",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx2-8-1",
+      "figure": "图8-1-4",
+      "original_path": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg",
+      "svg": "svg/bx2-8-1_图8-1-4_等边三角形中点.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-6dc493987a7216835fab.jpg",
+      "new_ref": "images/book-6dc493987a7216835fab.svg",
+      "original_sha256": "6dc493987a7216835fab1e71db6769b8493f42074807203fb06009b90f3acca0",
+      "svg_sha256": "342146e0ca636647cea60794b69d54c714469bbec15daae649066ad8077b6641",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 2,
+        "student.html": 2,
+        "content.json": 2
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx3-10-1",
+      "figure": "图10-1-5",
+      "original_path": "sources/textbooks/必修第三册/第10章空间直线与平面/images/bo_d4slm1v7aajc73fspjsg_3_708_399_630_240_0.jpg",
+      "svg": "svg/bx3-10-1_图10-1-5_线面两种关系.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-b5ef9a22b43838ca9cfd.jpg",
+      "new_ref": "images/book-b5ef9a22b43838ca9cfd.svg",
+      "original_sha256": "b5ef9a22b43838ca9cfdeb0081fef5a098817f19fcc83c3ee4043865bf0412d3",
+      "svg_sha256": "8f289b364e770e381fe1ab1bb89e9ca09ec0adb46422eff99c946da1fa20e40b",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "bx3-11-1",
+      "figure": "图11-1-1",
+      "original_path": "sources/textbooks/必修第三册/第11章简单几何体/images/bo_d4slmdf7aajc73fspjug_1_542_1495_967_337_0.jpg",
+      "svg": "svg/bx3-11-1_图11-1-1_三种棱柱.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-83079c506d37dd4e2e3a.jpg",
+      "new_ref": "images/book-83079c506d37dd4e2e3a.svg",
+      "original_sha256": "83079c506d37dd4e2e3a83be7435ce4af56850751110ff1e68ce75a07432465d",
+      "svg_sha256": "b0409c664f068a007e8a477af383454d7aa22f7a51a6ba1b526709a8d48d4e0d",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "x2-5-1",
+      "figure": "图5-1-3",
+      "original_path": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg",
+      "svg": "svg/x2-5-1_图5-1-3_半圆割线.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-3a32fecae05c35515254.jpg",
+      "new_ref": "images/book-3a32fecae05c35515254.svg",
+      "original_sha256": "3a32fecae05c35515254ed23e14ca2aec39054bf4785cf48f77e6c83d7d960d8",
+      "svg_sha256": "b0d73bbead90f9b9d1b54772c5effd819b914d178036ab4ecbb8f3312377993c",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    },
+    {
+      "section_id": "x2-8-2",
+      "figure": "图8-2-1",
+      "original_path": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/images/bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg",
+      "svg": "svg/x2-8-2_图8-2-1_散点与候选直线.svg",
+      "status": "replace",
+      "reason": "all checks passed",
+      "old_ref": "images/book-73ae20f7f6df456d6a03.jpg",
+      "new_ref": "images/book-73ae20f7f6df456d6a03.svg",
+      "original_sha256": "73ae20f7f6df456d6a03294e0b5896b708f27be6c4e2befce041c134c47186b6",
+      "svg_sha256": "d68ea69261a728652e089dba1e09f6bf321e88343e809bd04dfeba4cb22346d4",
+      "private": false,
+      "reference_counts": {
+        "teacher.html": 1,
+        "student.html": 1,
+        "content.json": 1
+      },
+      "applied": true
+    }
+  ]
+}

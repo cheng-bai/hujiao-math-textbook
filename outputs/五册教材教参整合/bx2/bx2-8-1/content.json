@@ -115,7 +115,7 @@
   {
     "type": "question",
     "title": "例题 01",
-    "markdown": "例 1 如图 8-1-4,在等边三角形 ${ABC}$ 中, $D\\text{ 、 }E\\text{ 、 }F$ 分别是边 ${BC}\\text{ 、 }{AB}\\text{ 、 }{AC}$ 的中点. 写出图中与向量 $\\overrightarrow{EF}$ 平行和相等的向量.\n\n![](images/book-6dc493987a7216835fab.jpg)\n\n图 8-1-4",
+    "markdown": "例 1 如图 8-1-4,在等边三角形 ${ABC}$ 中, $D\\text{ 、 }E\\text{ 、 }F$ 分别是边 ${BC}\\text{ 、 }{AB}\\text{ 、 }{AC}$ 的中点. 写出图中与向量 $\\overrightarrow{EF}$ 平行和相等的向量.\n\n![](images/book-6dc493987a7216835fab.svg)\n\n图 8-1-4",
     "provenance": [],
     "id": "bx2-c8-s81-ex1",
     "provenance_question": [
@@ -167,7 +167,7 @@
   {
     "type": "question",
     "title": "例题 02",
-    "markdown": "例 2 在图 8-1-4 中，写出向量 $\\overrightarrow{AE}$ 的负向量.\n\n![](images/book-6dc493987a7216835fab.jpg)\n\n图 8-1-4",
+    "markdown": "例 2 在图 8-1-4 中，写出向量 $\\overrightarrow{AE}$ 的负向量.\n\n![](images/book-6dc493987a7216835fab.svg)\n\n图 8-1-4",
     "provenance": [],
     "id": "bx2-c8-s81-ex2",
     "provenance_question": [

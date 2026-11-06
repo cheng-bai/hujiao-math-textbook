@@ -30,11 +30,6 @@
       "sha256": "fadc1c0f1398226900dd7cfffbec27a051f83efa51d65d749380e782528ca853",
       "private": false
     },
-    "images/book-3a32fecae05c35515254.jpg": {
-      "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg",
-      "sha256": "3a32fecae05c35515254ed23e14ca2aec39054bf4785cf48f77e6c83d7d960d8",
-      "private": false
-    },
     "images/private-32c03fde5b2e19832cb6.jpg": {
       "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_6_1110_1835_357_208_0.jpg",
       "sha256": "32c03fde5b2e19832cb6c5be0877abb5c2e0e3df704995dae5af372424507377",
@@ -49,6 +44,14 @@
       "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_9_626_1380_422_239_0.jpg",
       "sha256": "296dd9a5b3ed4711d03b13782ca8cddbe9d32e782a35a4705cdcc945325124b7",
       "private": false
+    },
+    "images/book-3a32fecae05c35515254.svg": {
+      "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg",
+      "sha256": "b0d73bbead90f9b9d1b54772c5effd819b914d178036ab4ecbb8f3312377993c",
+      "private": false,
+      "format": "svg",
+      "redrawn_from": "images/book-3a32fecae05c35515254.jpg",
+      "original_sha256": "3a32fecae05c35515254ed23e14ca2aec39054bf4785cf48f77e6c83d7d960d8"
     }
   },
   "issues": [],
@@ -144,10 +147,19 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "75178d94df62f26cd3b0efebd8bc38b07a250a203a4ecfd1e07f8f91df37946a",
-    "student.html": "3e09db79d71802f56902ccf1ee36f65bbdfc8f7f9c51621ccab9ae1aec153d06",
-    "student.zip": "2a96d073fb0267b82f95996ff63164af032de54583e7a74ba393a8149c827bcc",
-    "content.json": "af560c959f4103564ee4290e0130dd6079d48f6410a2bf4943f7035f83e837aa",
+    "teacher.html": "5c615c6220c91bbb2d1771649331350b43bc89ce14d14427d71acc0674770318",
+    "student.html": "f41e67c2ee626e137ceb8e492dc43f32eb8ddbeb0f5117e26099d08c378cb9ad",
+    "student.zip": "511caaee3c7373aa6c5805d0d4cf3f54156ca1d45a9989feab761688073550fe",
+    "content.json": "4c6338e7be8a3560e767457dc560f33f28a9db92888d8bcc781f15f4d40fffd4",
     "teacher-guidance.json": "e0932ce98312b62a11f51a2141fce1b63e4d60e1a973bcb25a49d122fa0c0bff"
-  }
+  },
+  "redrawn_assets": [
+    {
+      "ref": "images/book-3a32fecae05c35515254.svg",
+      "from": "images/book-3a32fecae05c35515254.jpg",
+      "source": "sources/textbooks/选择性必修第二册/第5章导数及其应用/images/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg",
+      "original_sha256": "3a32fecae05c35515254ed23e14ca2aec39054bf4785cf48f77e6c83d7d960d8",
+      "svg_sha256": "b0d73bbead90f9b9d1b54772c5effd819b914d178036ab4ecbb8f3312377993c"
+    }
+  ]
 }

@@ -30,11 +30,6 @@
       "sha256": "38432d345682cddc49529e4c06fcb320368797c5d0b2e4aa7c5e8e983bcf9523",
       "private": false
     },
-    "images/book-6dc493987a7216835fab.jpg": {
-      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg",
-      "sha256": "6dc493987a7216835fab1e71db6769b8493f42074807203fb06009b90f3acca0",
-      "private": false
-    },
     "images/book-0252fc2a2aff1aca3843.jpg": {
       "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg",
       "sha256": "0252fc2a2aff1aca38430927503668846619e2290b4ccf441778cf2efc24cb6f",
@@ -129,6 +124,14 @@
       "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg",
       "sha256": "638a7da40dc4399861e6f9048c1704b392db2aaf7678172be5b72d66304c6368",
       "private": false
+    },
+    "images/book-6dc493987a7216835fab.svg": {
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg",
+      "sha256": "342146e0ca636647cea60794b69d54c714469bbec15daae649066ad8077b6641",
+      "private": false,
+      "format": "svg",
+      "redrawn_from": "images/book-6dc493987a7216835fab.jpg",
+      "original_sha256": "6dc493987a7216835fab1e71db6769b8493f42074807203fb06009b90f3acca0"
     }
   },
   "issues": [],
@@ -177,10 +180,19 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "732259641dab7bbdf69b5b682968e708630c2d9b715483567074191119b75b7b",
-    "student.html": "b1d41b5a7b5467778c35eab52d2a01cf0b73008386b294d961f10101204b6dea",
-    "student.zip": "87f23218d00b5698960b2967a11563cbe0145aa2c9e81f573b7bed32613e4de8",
-    "content.json": "74e8b973464843a07f3ce4fb9b7bf34ced84a7847736ae6d1cb31500ddbee2b4",
+    "teacher.html": "329b1e068b5bad314bbc10d1840a1370cc0c4887cad96bf0bbabedd38a860044",
+    "student.html": "9c0bc9198dbb7b88cc5825f06460231e1dcbd685c3cfaf4341630acb4d174423",
+    "student.zip": "a3e2575665e1ec6122b22b16a5baf82ec67b10bc34589927c2f6dcc968926925",
+    "content.json": "176fd6a22fc8a5df02807d8edaa1ce70ad333cdce378b18cffbc5e2817c83580",
     "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
-  }
+  },
+  "redrawn_assets": [
+    {
+      "ref": "images/book-6dc493987a7216835fab.svg",
+      "from": "images/book-6dc493987a7216835fab.jpg",
+      "source": "sources/textbooks/必修第二册/第8章平面向量/images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg",
+      "original_sha256": "6dc493987a7216835fab1e71db6769b8493f42074807203fb06009b90f3acca0",
+      "svg_sha256": "342146e0ca636647cea60794b69d54c714469bbec15daae649066ad8077b6641"
+    }
+  ]
 }

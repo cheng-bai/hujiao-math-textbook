@@ -76,8 +76,16 @@ def pdf(page, filename, expected_questions):
 
 
 def main():
-    REPORT.mkdir(exist_ok=True)
-    before = json.loads((REPORT / 'density-before.json').read_text(encoding='utf-8'))
+    REPORT.mkdir(parents=True, exist_ok=True)
+    baseline_path = REPORT / 'density-before.json'
+    baseline_status = 'verified'
+    if baseline_path.exists():
+        before = json.loads(baseline_path.read_text(encoding='utf-8'))
+    else:
+        # The historical baseline is not part of the repository; keep print
+        # checks runnable without inventing comparison data.
+        baseline_status = 'not_available'
+        before = None
     densities, pdfs = {}, []
     with sync_playwright() as pw:
         browser = launch_browser(pw, headless=True)
@@ -88,7 +96,10 @@ def main():
         for name, width, height in [('desktop', 1440, 1000), ('mobile', 390, 844)]:
             page.set_viewport_size({'width': width, 'height': height})
             densities[name] = page.evaluate('({height:document.documentElement.scrollHeight,cover:document.querySelector(".chapter-cover").getBoundingClientRect().height,font:getComputedStyle(document.body).fontSize})')
-            check(name + ' 内容未缩字号且页面变短', densities[name]['font'] == before[name]['font'] and densities[name]['height'] < before[name]['height'] * .9)
+            if before is not None:
+                check(name + ' 内容未缩字号且页面变短', densities[name]['font'] == before[name]['font'] and densities[name]['height'] < before[name]['height'] * .9)
+            else:
+                CHECKS.append({'check': name + ' 历史密度对比', 'passed': None, 'status': 'not_verified', 'reason': '缺少历史 density-before.json'})
             check(name + ' 无页面横向溢出', page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'))
             page.evaluate('scrollTo({top:0,behavior:"instant"})')
             page.screenshot(path=str(REPORT / f'{name}-after.png'))
@@ -152,7 +163,7 @@ def main():
         check('学生所选PDF不含答案', '答案与解析' not in text and '教参原文' not in text)
         check('全过程无浏览器异常', not errors)
         browser.close()
-    report = {'checks': CHECKS, 'passed': len(CHECKS), 'density_before': before, 'density_after': densities, 'pdfs': pdfs, 'limits': ['Chrome系统打印路径与浏览器PDF验证，未实测实体打印机、Safari或Firefox', 'PDF视觉检查另记，不以文本提取代替目视验收', '源教材正文与题答未重写，保留原有图略和证明略']}
+    report = {'checks': CHECKS, 'passed': sum(item['passed'] is True for item in CHECKS), 'density_baseline_status': baseline_status, 'density_before': before, 'density_after': densities, 'pdfs': pdfs, 'limits': ['Chrome系统打印路径与浏览器PDF验证，未实测实体打印机、Safari或Firefox', 'PDF视觉检查另记，不以文本提取代替目视验收', '历史密度基线缺失时仅记录当前密度，不把当前值冒充历史对比', '源教材正文与题答未重写，保留原有图略和证明略']}
     (REPORT / 'browser-print-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps(report, ensure_ascii=False, indent=2))
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" role="img" aria-labelledby="title">
+<title id="title">等边三角形及三边中点</title>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#232c33"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M340.000,50.000 L150.000,379.090 L530.000,379.090 Z" fill="none" stroke="#232c33" stroke-width="2.3"/>
+<path d="M340.000,379.090 L245.000,214.545 L435.000,214.545 Z" fill="none" stroke="#232c33" stroke-width="2.3"/>
+<text x="340.000" y="35.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">A</text>
+<text x="132.000" y="393.090" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">B</text>
+<text x="548.000" y="393.090" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">C</text>
+<text x="340.000" y="409.090" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">D</text>
+<text x="225.000" y="214.545" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">E</text>
+<text x="455.000" y="214.545" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">F</text>
+</g></svg>

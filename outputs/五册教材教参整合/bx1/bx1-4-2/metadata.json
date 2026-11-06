@@ -15,11 +15,6 @@
   "student_file": "student.html",
   "student_zip": "student.zip",
   "assets": {
-    "images/private-4e8212eae4f9cce5a605.jpg": {
-      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
-      "sha256": "4e8212eae4f9cce5a6053cefdd348404e3570d5bcc62417150a701742546a3e8",
-      "private": true
-    },
     "images/book-d24a8ed6ad121d083348.jpg": {
       "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg",
       "sha256": "d24a8ed6ad121d083348cf125d59a57de7bb26361fcc3df12745493f35310589",
@@ -39,6 +34,14 @@
       "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg",
       "sha256": "e27d01a399fa9703b4042fc5e6cedb440f6fe0738e3a21ba09188d48d9839870",
       "private": false
+    },
+    "images/private-4e8212eae4f9cce5a605.svg": {
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
+      "sha256": "c5dde7ae0c45948fd2fe882d87fcfbe380fdc92ed5d46a6285374e1c9184be6b",
+      "private": true,
+      "format": "svg",
+      "redrawn_from": "images/private-4e8212eae4f9cce5a605.jpg",
+      "original_sha256": "4e8212eae4f9cce5a6053cefdd348404e3570d5bcc62417150a701742546a3e8"
     }
   },
   "issues": [],
@@ -204,10 +207,19 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "c133e666c476272f944b7650d6c83e17b320d4f86ac77a4dfe5b7502c881ba28",
+    "teacher.html": "ab5cf63b312aedae1096091899dd807a4ff2aa243388a376ba1cc09315f99b24",
     "student.html": "97a9576b363b3023de8a1c5265e7ba500618e4b06e95eeaa740ab4a097d82abd",
     "student.zip": "8452c97d677e130a53122755defc17c544614df957e8934de0d8d63caed26f1c",
-    "content.json": "23c2c854462f9fa33862d1800904fdf19ca26bb722a6b5a05f9c7b9420285c22",
+    "content.json": "40181aa8582068a737d14945186e53da007f896e803e6e70eb05476066262dc6",
     "teacher-guidance.json": "adf9f2a7e0c8b75d3c6c208481556434d3bc978592fd94cacca8c7db38c6c8fe"
-  }
+  },
+  "redrawn_assets": [
+    {
+      "ref": "images/private-4e8212eae4f9cce5a605.svg",
+      "from": "images/private-4e8212eae4f9cce5a605.jpg",
+      "source": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg",
+      "original_sha256": "4e8212eae4f9cce5a6053cefdd348404e3570d5bcc62417150a701742546a3e8",
+      "svg_sha256": "c5dde7ae0c45948fd2fe882d87fcfbe380fdc92ed5d46a6285374e1c9184be6b"
+    }
+  ]
 }
