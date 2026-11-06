@@ -1,0 +1,23 @@
+html:not([data-access-state="granted"]) body > :not(#site-access):not(noscript){display:none!important}
+html:not([data-access-state="granted"]) body{overflow:hidden!important}
+#site-access[hidden]{display:none!important}
+#site-access{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;overflow:auto;padding:24px;background:radial-gradient(ellipse at 75% 15%,#dce6d4 0,transparent 55%),#f8f6f0;color:#26372e;font:16px/1.7 "Songti SC","STSong",serif;box-sizing:border-box}
+#site-access *{box-sizing:border-box}
+.access-card{width:min(100%,440px);margin:auto;padding:38px 36px 28px;background:#fcfbf7;border:1px solid #d4dbce;box-shadow:0 24px 80px #234c3a0d}
+.access-eyebrow{margin:0;color:#7a533a;font:10px/1.5 "PingFang SC",sans-serif;letter-spacing:2px}
+.access-rule{width:38px;height:3px;background:#aa583e;margin:22px 0}
+#site-access h1{font-size:34px;line-height:1.35;letter-spacing:1px;margin:0 0 18px;color:#234c3a}
+#site-access h1 span{font-size:25px;letter-spacing:0}
+.access-intro{font-size:14px;color:#697365;margin:0 0 28px}
+#access-form label{display:block;font:13px/1.6 "PingFang SC",sans-serif;margin:0 0 8px}
+#access-passphrase{display:block;width:100%;height:46px;border:1px solid #9cae94;border-radius:3px;background:#fff;padding:10px 12px;font-size:18px;color:#26372e;letter-spacing:1px}
+#access-passphrase:focus{outline:2px solid #234c3a;outline-offset:2px}
+#access-passphrase[aria-invalid="true"]{border-color:#a43825}
+#access-error{min-height:23px;margin:7px 0;font:12px/1.6 "PingFang SC",sans-serif;color:#a43825}
+#access-form button{display:flex;align-items:center;justify-content:space-between;width:100%;border:0;border-radius:3px;background:#234c3a;color:white;padding:12px 16px;font:14px/1.6 "PingFang SC",sans-serif;cursor:pointer}
+#access-form button:hover{background:#315f48}
+#access-help,.access-boundary{font:11px/1.8 "PingFang SC",sans-serif;color:#707b69;margin:16px 0 0}
+.access-boundary{border-top:1px solid #e3e6dc;padding-top:14px}
+body>.site-lock-action{position:fixed;right:16px;bottom:16px;z-index:45;border:1px solid #c1ccba;background:#fcfbf7;color:#234c3a;border-radius:4px;padding:7px 12px;font:12px/1.6 "PingFang SC",sans-serif;cursor:pointer}
+@media(max-width:480px){.access-card{padding:28px 24px}.access-intro{margin-bottom:20px}}
+@media print{#site-access,.site-lock-action{display:none!important}html:not([data-access-state="granted"]) body:after{display:block;content:"请先输入访问口令，再打印所选内容。"}}

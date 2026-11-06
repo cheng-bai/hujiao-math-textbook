@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 430" role="img" aria-labelledby="title">
+<title id="title">斜三棱柱、直四棱柱、正六棱柱</title>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#232c33"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M75.000,325.000 L137.000,357.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M137.000,357.000 L275.000,325.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M275.000,325.000 L75.000,325.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M113.800,166.800 L175.800,198.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M175.800,198.800 L313.800,166.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M313.800,166.800 L113.800,166.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M75.000,325.000 L113.800,166.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M137.000,357.000 L175.800,198.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M275.000,325.000 L313.800,166.800" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<text x="65.000" y="347.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A</text>
+<text x="145.000" y="379.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B</text>
+<text x="283.000" y="347.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C</text>
+<text x="103.800" y="154.800" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A′</text>
+<text x="183.800" y="186.800" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B′</text>
+<text x="321.800" y="154.800" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C′</text>
+<path d="M450.000,330.000 L600.000,330.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M600.000,330.000 L645.000,295.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M645.000,295.000 L495.000,295.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M495.000,295.000 L450.000,330.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M450.000,162.000 L600.000,162.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M600.000,162.000 L645.000,127.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M645.000,127.000 L495.000,127.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M495.000,127.000 L450.000,162.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M450.000,330.000 L450.000,162.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M600.000,330.000 L600.000,162.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M645.000,295.000 L645.000,127.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M495.000,295.000 L495.000,127.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<text x="440.000" y="352.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A</text>
+<text x="608.000" y="352.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B</text>
+<text x="653.000" y="317.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C</text>
+<text x="503.000" y="317.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">D</text>
+<text x="440.000" y="150.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A′</text>
+<text x="608.000" y="150.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B′</text>
+<text x="653.000" y="115.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C′</text>
+<text x="503.000" y="115.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">D′</text>
+<path d="M841.000,327.272 L869.000,297.272" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M869.000,297.272 L883.000,200.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M883.000,200.000 L869.000,132.728" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M869.000,132.728 L841.000,162.728" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M841.000,162.728 L827.000,260.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M827.000,260.000 L841.000,327.272" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1030.750,327.272 L1058.750,297.272" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1058.750,297.272 L1072.750,200.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1072.750,200.000 L1058.750,132.728" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1058.750,132.728 L1030.750,162.728" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1030.750,162.728 L1016.750,260.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M1016.750,260.000 L1030.750,327.272" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M841.000,327.272 L1030.750,327.272" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M869.000,297.272 L1058.750,297.272" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M883.000,200.000 L1072.750,200.000" fill="none" stroke="#232c33" stroke-width="1.8" stroke-dasharray="6 5"/>
+<path d="M869.000,132.728 L1058.750,132.728" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M841.000,162.728 L1030.750,162.728" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<path d="M827.000,260.000 L1016.750,260.000" fill="none" stroke="#232c33" stroke-width="1.8"/>
+<text x="831.000" y="349.272" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A</text>
+<text x="877.000" y="319.272" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B</text>
+<text x="891.000" y="222.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C</text>
+<text x="877.000" y="154.728" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">D</text>
+<text x="849.000" y="184.728" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">E</text>
+<text x="835.000" y="282.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">F</text>
+<text x="1020.750" y="315.272" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">A′</text>
+<text x="1066.750" y="285.272" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">B′</text>
+<text x="1080.750" y="188.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">C′</text>
+<text x="1066.750" y="120.728" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">D′</text>
+<text x="1038.750" y="150.728" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">E′</text>
+<text x="1024.750" y="248.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="20">F′</text>
+<text x="220.000" y="405.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">(1)</text>
+<text x="560.000" y="405.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">(2)</text>
+<text x="950.000" y="405.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">(3)</text>
+</g></svg>

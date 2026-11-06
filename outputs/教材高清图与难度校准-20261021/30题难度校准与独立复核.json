@@ -1,0 +1,767 @@
+{
+  "rubric": "教学结构五星试行-v0.1",
+  "not_hct": true,
+  "scope": "相对所属课程；只用当前节与前置知识；非实测正确率。",
+  "selection": "每册题目序列六个等间距位置；覆盖例题、练习与章末拓展，不代表全书难度分布。",
+  "independent_review": "独立agent未见主评星级；双方均读取来源答案，属于回顾性分析。",
+  "agreement": {
+    "sampled": 30,
+    "eligible": 26,
+    "initial_same_star": 22,
+    "eligible_agreement": 0.8461538461538461,
+    "one_star_disagreements": [
+      "bx1-5-1-h51A-3",
+      "bx2-9-1-ex-3",
+      "x2-5-3-p533-1",
+      "x2-chapter-end-8-t-3"
+    ],
+    "unresolved_source_items": [
+      "bx3-chapter-end-11-t-1",
+      "bx3-chapter-end-12-hB-4",
+      "bx3-chapter-end-13-hB-4",
+      "x2-6-2-h62A-1"
+    ]
+  },
+  "freeze_status": "未冻结：尚有4题来源/模型/范围待核；没有已确认的五星边界样例。本轮不启动全量打标。",
+  "items": [
+    {
+      "number": 1,
+      "question_id": "x1-1-1-ex-1",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "直线的倾斜角与斜率",
+      "primary_star": 1,
+      "independent_star": 1,
+      "suggested_star": 1,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "两点斜率公式直接给出 $k=4/3$，再由 $0<\\theta<\\pi/2$ 得 $\\theta=\\arctan(4/3)$。入口明确，不因出现反三角记号升星。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-1-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 51,
+          "end": 52
+        }
+      ],
+      "source_block_sha256": "15b86cf87f8e7dc3c22fde2802b976c97952d0ae8562b47bc59f94e19c467fd6"
+    },
+    {
+      "number": 2,
+      "question_id": "x1-1-4-h14A-2",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "点到直线的距离",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "距离公式化为 $|3a-28|/5=4$，保留绝对值的两个分支，得 $a=8/3$ 或 $16$。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-1-4.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 967,
+          "end": 968
+        }
+      ],
+      "source_block_sha256": "2336fe94dfe73613a0a11f1710331f44f739a3701a589ad9554c0a8259e85bc4"
+    },
+    {
+      "number": 3,
+      "question_id": "x1-2-3-p232-1",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "双曲线",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [
+        2,
+        1
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "第(1)问先除以144得标准式，再用 $c^2=a^2+b^2$；第(2)问已是标准式，只需识别焦轴在 $y$ 轴。两问分别2星、1星。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-2-3.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1363,
+          "end": 1366
+        }
+      ],
+      "source_block_sha256": "4f42efed823e88226e662bfcddb8327b875e1580a29332a72bab888a25eeaca0"
+    },
+    {
+      "number": 4,
+      "question_id": "x1-3-1-ex-2",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "空间向量及其运算",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "沿棱作有向路径分解，四个结果依次为 $\\vec a+\\vec b+\\vec c$、$\\vec b-\\vec c$、$\\vec a+\\vec c-\\vec b$、$2\\vec a+\\vec b+\\vec c$。重点是反向符号与 $CE=2CC_1$，不是新构造。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-3-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 65,
+          "end": 68
+        }
+      ],
+      "source_block_sha256": "91c8ac471f2ffba2f3923c77b94d9295943008b8523c69463ba16d3e597c85ed"
+    },
+    {
+      "number": 5,
+      "question_id": "x1-4-1-h41A-6",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "等差数列",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [
+        2,
+        2
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "将已知项与前项和转为 $a_1,d$ 的二元一次方程，代入求和公式。两问核得 $44$、$-82/5$。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-4-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 437,
+          "end": 442
+        }
+      ],
+      "source_block_sha256": "d230c1b3f322ba29c865767bdbbe5113dff6561dbf5bbc50cc653a15dfe15df6"
+    },
+    {
+      "number": 6,
+      "question_id": "x1-chapter-end-4-t-2",
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 4,
+      "independent_star": 4,
+      "suggested_star": 4,
+      "subquestion_stars": [
+        2,
+        4,
+        2
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "第(1)问 $L_n=3(4/3)^{n-1}$；第(2)问需把每轮新增三角形的个数与面积相乘，再累加等比数列，得到 $A_n=2\\sqrt3/5-(3\\sqrt3/20)(4/9)^{n-1}$；第(3)问可引用前问，极限为 $2\\sqrt3/5$。主要门槛在新增面积的组织。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x1/x1-chapter-end-4.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 2051,
+          "end": 2061
+        },
+        {
+          "source": "book",
+          "start": 2053,
+          "end": 2055
+        }
+      ],
+      "source_block_sha256": "3f0dcf581f5e7421477296ea8d019c56b73cf266998f2962ca402542e1518c75"
+    },
+    {
+      "number": 7,
+      "question_id": "bx1-1-1-ex-1",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "集合及其表示",
+      "primary_star": 1,
+      "independent_star": 1,
+      "suggested_star": 1,
+      "subquestion_stars": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "按有限集与无限集定义判断。数量很大仍可能有限，线段长度有限不意味着点的个数有限。四问均为直接概念识别。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx1/bx1-1-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 47,
+          "end": 56
+        }
+      ],
+      "source_block_sha256": "532756935036fec7e07d6c6917eabc25b6ee0de2b198390fb3eb22c3dcf8e3ea"
+    },
+    {
+      "number": 8,
+      "question_id": "bx1-2-1-h21A-1",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "等式与不等式的性质",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "除以参数前分 $a=0$ 与 $a\\ne0$；分别为空集与 $\\{2/a\\}$。分类局部而直接。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx1/bx1-2-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 453,
+          "end": 454
+        }
+      ],
+      "source_block_sha256": "9393d6340a1d12413dacc7e9ae981996f0aa40971150fe16845cce0cff5cf54f"
+    },
+    {
+      "number": 9,
+      "question_id": "bx1-2-3-h23B-8",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "基本不等式及其应用",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "把原式转为 $|x-1|\\le |x+2|+3$，识别三角不等式；等号条件 $(x+2)(-3)\\ge0$ 给出 $x\\le-2$。需要完成转化和等号闭合。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx1/bx1-2-3.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1379,
+          "end": 1380
+        }
+      ],
+      "source_block_sha256": "dc088afb95a6087e68313746768c65e5cf0852941f6e5b2077fef01870cfc3d9"
+    },
+    {
+      "number": 10,
+      "question_id": "bx1-4-1-ex-5",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "幂函数",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "对应点由 $(a,1/a)$ 变为 $(a+2,1/a)$，解释向右平移2；作图须同步移动竖直渐近线，不能只移动一条分支。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx1/bx1-4-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 203,
+          "end": 204
+        }
+      ],
+      "source_block_sha256": "76315f4e05976a8a61dfd2bc5db05619d61a55be6ea00c7afb6e8f32441edc59"
+    },
+    {
+      "number": 11,
+      "question_id": "bx1-5-1-h51A-3",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "函数",
+      "primary_star": 1,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [
+        2,
+        1,
+        1
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "第一幅的值域为 $[0,1]\\cup\\{2\\}$，必须保留孤立值2；另外两幅分别为 $[0,2]$、$[-1,3]$。图像读取中的离散值筛选使第一问不是机械读区间。",
+      "discussion": "主评1星、复核2星。复议保留2星：第一幅包含孤立值2，要进行取值集合筛选，而非只读上下界。",
+      "source_json": "batch/sections/bx1/bx1-5-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 267,
+          "end": 272
+        }
+      ],
+      "source_block_sha256": "d8e99a3514db9080f353c906fa78a0ae4dc84bc1a027f670a961071c67ac69f6"
+    },
+    {
+      "number": 12,
+      "question_id": "bx1-chapter-end-5-t-4",
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [
+        3,
+        3
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "反函数定义域是 $f(\\mathbf R)$。奇性要先证明该值域关于原点对称，再用逆对应证明；保序性需取两个值域元素并比较其原像。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx1/bx1-chapter-end-5.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1345,
+          "end": 1349
+        }
+      ],
+      "source_block_sha256": "82f3a80ecbadf1e6bc4d0b3ec6c117309f78bf29ea16ac64cef0ed903ac82afa"
+    },
+    {
+      "number": 13,
+      "question_id": "bx2-6-1-ex-1",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "正弦、余弦、正切、余切",
+      "primary_star": 1,
+      "independent_star": 1,
+      "suggested_star": 1,
+      "subquestion_stars": [
+        1,
+        1
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "分别加减整周角得到120°与300°，因此为第二、第四象限。两问均为直接应用。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx2/bx2-6-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 79,
+          "end": 82
+        }
+      ],
+      "source_block_sha256": "e1d6b547e0121c59c65112312c4e44503052956a52ce5f37bcea9c040e7567fa"
+    },
+    {
+      "number": 14,
+      "question_id": "bx2-6-2-h62A-5",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "常用三角公式",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "和角公式给出 $\\tan(\\alpha+\\beta)=-1$，结合 $0<\\alpha+\\beta<\\pi$ 得 $3\\pi/4$；范围用于排除周期歧义。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx2/bx2-6-2.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1707,
+          "end": 1708
+        }
+      ],
+      "source_block_sha256": "21ae980dea73a263870b6be8d50975a1a1eeb90bd7c863d7b0500be6b56d4576"
+    },
+    {
+      "number": 15,
+      "question_id": "bx2-7-1-h71A-6",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "正弦函数的图像与性质",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [
+        1,
+        3
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "第一问直接用第一象限单调性。第二问先化为 $-\\sin(\\pi/11)$ 与 $-\\sin(\\pi/12)$，再比较；周期、诱导公式与单调性形成依赖链。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx2/bx2-7-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 521,
+          "end": 524
+        }
+      ],
+      "source_block_sha256": "5171efe99b2a84439158f35c8e3d3fa643d588883f9554846d5d59d4347c8949"
+    },
+    {
+      "number": 16,
+      "question_id": "bx2-c8-s82-l1-q3",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "向量的数量积",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "夹角在 $[0,\\pi]$，由 $\\sin\\theta=0.6$ 得 $\\cos\\theta=\\pm0.8$。数量投影为 $\\pm4.8$，投影向量为 $\\pm(24/25)\\vec a$，两处符号对应一致。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx2/bx2-8-2.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 569,
+          "end": 570
+        }
+      ],
+      "source_block_sha256": "bb913018f673068b24ad9673d22624468201b2c50349577ec221184b4bab852f"
+    },
+    {
+      "number": 17,
+      "question_id": "bx2-9-1-ex-3",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "复数及其四则运算",
+      "primary_star": 1,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [
+        2,
+        2
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "需把四周期推广到任意整数指数（含0与负整数），再提出 $i^m$，由 $1+i+i^2+i^3=0$ 得和为0。这比只计算四个正整数次幂多一步概括。",
+      "discussion": "主评1星、复核2星。复议保留2星：题目要求找规律并覆盖任意整数指数，含从计算到概括的转换。",
+      "source_json": "batch/sections/bx2/bx2-9-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 173,
+          "end": 176
+        }
+      ],
+      "source_block_sha256": "b2a1de576b7d906376e13c88fc01a16edbc6220a1845ca77f7a5090fcd9b7218"
+    },
+    {
+      "number": 18,
+      "question_id": "bx2-chapter-end-9-t-2",
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "共轭给出 $z_1-z_2=-2-3i$，用平方差得 $(3-5i)(-2-3i)=-21+i$；不必分别求两个复数。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx2/bx2-chapter-end-9.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1417,
+          "end": 1417
+        }
+      ],
+      "source_block_sha256": "3f03aa1408481062f6de7335ea4e9d396f5eccb5a954df3b8217286a357c0c13"
+    },
+    {
+      "number": 19,
+      "question_id": "bx3-10-1-ex-1",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "平面及其基本性质",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "取 $AB$ 中点 $M$；由两点在面内得直线 $AB$ 在面内，继而 $M$ 在面内；再得中线 $CM$ 在面内，重心 $G$ 在面内。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx3/bx3-10-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 79,
+          "end": 80
+        }
+      ],
+      "source_block_sha256": "32a34af7c978db9d96f031f530a8ed3df132b4ea66e51800ed9d2395778d7296"
+    },
+    {
+      "number": 20,
+      "question_id": "bx3-10-3-h103A-6",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "直线与平面的位置关系",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "将 $AB\\perp PC$、$AB\\perp PD$ 汇聚成 $AB\\perp$ 平面 $PCD$，再得 $AB\\perp CD$。两条线面垂直条件需要通过辅助平面连接。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx3/bx3-10-3.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1162,
+          "end": 1163
+        }
+      ],
+      "source_block_sha256": "162309e57dce1b01de00f9f38dbf660cd6380abd271bc738d4cfede6ed036b24"
+    },
+    {
+      "number": 21,
+      "question_id": "bx3-11-1-h111A-3",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "柱体",
+      "primary_star": 1,
+      "independent_star": 1,
+      "suggested_star": 1,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "正六边形底面积为 $6\\sqrt3$，乘高4得到 $24\\sqrt3$；直接应用柱体体积公式。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/bx3/bx3-11-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 229,
+          "end": 230
+        }
+      ],
+      "source_block_sha256": "c3a8f81a30a51e3821fdbb53f0dbb1b45de3b4f4c0a7a49682db5c044e713c1c"
+    },
+    {
+      "number": 22,
+      "question_id": "bx3-chapter-end-11-t-1",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 3,
+      "independent_star": 4,
+      "suggested_star": null,
+      "subquestion_stars": [],
+      "status": "构型待核",
+      "evidence_markdown": "在标准正放构型下，正方体边长 $s$ 满足 $s/\\sqrt2=r(h-s)/h$，解得 $s=\\sqrt2rh/(h+\\sqrt2r)$。但题块没有配图，必须确认“内接”具体构型后才能定星。",
+      "discussion": "主评3星、复核4星候选。暂不解决：先核对原页的内接构型；不以高星掩盖条件缺失。",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-11.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1063,
+          "end": 1064
+        }
+      ],
+      "source_block_sha256": "c8bc607916cf74186bafb4a69119b10d192bb513d82f4238b0ac80d5f113b7cd"
+    },
+    {
+      "number": 23,
+      "question_id": "bx3-chapter-end-12-hB-4",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": null,
+      "independent_star": null,
+      "suggested_star": null,
+      "subquestion_stars": [],
+      "status": "模型数据冲突",
+      "evidence_markdown": "若黑白棋子各至少2粒，有限总体不放回抽取时，同色概率不小于 $1/3$；给定两概率之和却为 $13/42<1/3$。形式相加虽简单，模型条件不可实现，不能确定星级。",
+      "discussion": "双方均认为不能对矛盾模型定星。",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-12.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1315,
+          "end": 1316
+        }
+      ],
+      "source_block_sha256": "557752c60f037f88ec0774338bd4d023270129b8c6c430c205214521a806717c"
+    },
+    {
+      "number": 24,
+      "question_id": "bx3-chapter-end-13-hB-4",
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": null,
+      "subquestion_stars": [],
+      "status": "原解与周期问题",
+      "evidence_markdown": "样本中位数为 $(1223+1239)/2=1231$，不是1226。“基本奖50%中的至多10%”对应总体至多5%，不是10%；应考察第95百分位数。样本上半月与奖励整月周期也不一致，抽样估计不能保证总体比例。",
+      "discussion": "双方候选3星，但原解需修复且计奖周期需明确，暂不进入量表冻结。样本P95=1752，严格高于此数的1人占基本奖15人的1/15。",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-13.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1341,
+          "end": 1346
+        }
+      ],
+      "source_block_sha256": "10d46ed96ba54c0dfd9526dc96e68730b960fa6fbd13414c588a7db99ad912a3"
+    },
+    {
+      "number": 25,
+      "question_id": "x2-5-1-ex-1",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "导数的概念及意义",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "本节用差商定义：$[5(2+h)^2-20]/h=20+5h$，令 $h\\to0$ 得20 m/s。不能用后学求导法则将概念任务降为一行代入。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x2/x2-5-1.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 33,
+          "end": 34
+        }
+      ],
+      "source_block_sha256": "ede2e816adccffcc63269c2410e722ddd504f7617449f2bb245e96795aa3c56f"
+    },
+    {
+      "number": 26,
+      "question_id": "x2-5-3-p533-1",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "导数的应用",
+      "primary_star": 2,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [
+        3,
+        1,
+        2,
+        2
+      ],
+      "status": "双评复议完成",
+      "evidence_markdown": "第(1)问需构造“某极大值低于另一极小值”的反例；第(2)问直接由定义成立；第(3)(4)问区分局部极值与全局最值。可用 $f(x)=x+2\\sin x$ 跨周期的极值作为第(1)问反例。",
+      "discussion": "主评2星、复核3星。复议保留3星：第一小问必须给出有效反例或论证，不能只凭概念印象判断。",
+      "source_json": "batch/sections/x2/x2-5-3.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 997,
+          "end": 1006
+        }
+      ],
+      "source_block_sha256": "26484856d65c27d5c6002e2ab2c4aeee0eeb82bdf75c72fb179a389298053e39"
+    },
+    {
+      "number": 27,
+      "question_id": "x2-6-2-h62A-1",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "排列",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": null,
+      "subquestion_stars": [
+        2,
+        2
+      ],
+      "status": "题答范围不一致",
+      "evidence_markdown": "按字面允许1至4位：总数 $4+12+24+24=64$；偶数按末位为2或4计数，$2+6+12+12=32$。原答案24、12仅对应四位数，不能静默补入“四位”。",
+      "discussion": "双方候选2星；独立复核最初将偶数总数误写44，经按位数重新计数更正为32。题答范围冲突仍未解决。",
+      "source_json": "batch/sections/x2/x2-6-2.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 711,
+          "end": 712
+        }
+      ],
+      "source_block_sha256": "267fc7d905675f523467a13e6b04a07f124376e4bba798a54104b66fb84bf5b4"
+    },
+    {
+      "number": 28,
+      "question_id": "x2-6-5-h65B-3",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "二项式定理",
+      "primary_star": 3,
+      "independent_star": 3,
+      "suggested_star": 3,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "一次项系数得 $m+n=11$；二次项系数为 $(m^2+n^2-11)/2$，定和下平方和最小须在正整数中取相邻的5与6。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x2/x2-6-5.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1605,
+          "end": 1606
+        }
+      ],
+      "source_block_sha256": "e677b597cfdc693b7ab94a2d03aaa3dc8cba3fec18820aa0f2fea31fd48dc44b"
+    },
+    {
+      "number": 29,
+      "question_id": "x2-7-3-p733-2",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "常用分布",
+      "primary_star": 2,
+      "independent_star": 2,
+      "suggested_star": 2,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "均值为100，区间[80,120]关于均值对称，区间外概率为1/4，两尾各1/8。所求人数为 $1600/8=200$，选D。",
+      "discussion": "初评同星；保留具体数学依据。",
+      "source_json": "batch/sections/x2/x2-7-3.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 1185,
+          "end": 1188
+        }
+      ],
+      "source_block_sha256": "a3a05e52209aa0f27e8a4f139913875bcd94e709a1780c8a3fadb173904d118e"
+    },
+    {
+      "number": 30,
+      "question_id": "x2-chapter-end-8-t-3",
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_title": "章末阅读、内容提要与复习题",
+      "primary_star": 3,
+      "independent_star": 4,
+      "suggested_star": 4,
+      "subquestion_stars": [],
+      "status": "双评复议完成",
+      "evidence_markdown": "80组数据复算得到 $r=-0.3609897$、线性回归 $y=-925.265535x+31291.279929$。对数变换给出 $y=31599.619523e^{-0.068655659x}$。难点是模型诊断和变换选择，不是数据行数；指数拟合仍只是探索性候选，不推出因果。",
+      "discussion": "主评3星、复核4星。复议保留4星：题面未指定模型，线性诊断、变量变换和结果解释构成方法选择负担。",
+      "source_json": "batch/sections/x2/x2-chapter-end-8.json",
+      "source_provenance": [
+        {
+          "source": "book",
+          "start": 905,
+          "end": 909
+        }
+      ],
+      "source_block_sha256": "d35687a70e980a617b873067849d7a683de32b09f96bdd935626c58a2073be1b"
+    }
+  ]
+}

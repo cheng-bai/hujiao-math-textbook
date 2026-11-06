@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title">
+<title id="title">直线与平面的相交与平行</title>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#232c33"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<path d="M50.000,240.000 L310.000,240.000 L400.000,130.000 L140.000,130.000 Z" fill="#f4f7f8" stroke="#232c33" stroke-width="1.8"/>
+<text x="105.000" y="222.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="26">α</text>
+<path d="M490.000,240.000 L750.000,240.000 L840.000,130.000 L580.000,130.000 Z" fill="#f4f7f8" stroke="#232c33" stroke-width="1.8"/>
+<text x="545.000" y="222.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="26">α</text>
+<path d="M155.000,55.000 L230.000,196.000" fill="none" stroke="#232c33" stroke-width="2"/>
+<path d="M230.000,196.000 L253.400,240.000" fill="none" stroke="#232c33" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M253.400,240.000 L288.000,305.000" fill="none" stroke="#232c33" stroke-width="2"/>
+<circle cx="230.000" cy="196.000" r="4" fill="#232c33"/>
+<text x="250.000" y="183.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">A</text>
+<text x="180.000" y="70.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">l</text>
+<path d="M540.000,100.000 L805.000,100.000" fill="none" stroke="#232c33" stroke-width="2"/>
+<text x="825.000" y="109.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">l</text>
+<text x="230.000" y="340.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">(1)</text>
+<text x="680.000" y="340.000" fill="#232c33" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="23">(2)</text>
+</g></svg>

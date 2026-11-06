@@ -1,0 +1,1300 @@
+{
+  "selection": "每册题目序列六个等间距位置；覆盖例题、练习与章末拓展，不代表全书难度分布。",
+  "items": [
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-1-1",
+      "section_title": "直线的倾斜角与斜率",
+      "source_json": "batch/sections/x1/x1-1-1.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 1",
+        "markdown": "例 1 已知直线 $l$ 经过点 $A\\left( {-1, - 1}\\right)$ 、 $B\\left( {2,3}\\right)$ ，求它的斜率与倾斜角.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 51,
+            "end": 52
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 51,
+            "end": 52
+          }
+        ],
+        "id": "x1-1-1-ex-1",
+        "category": "例题",
+        "answer": "解 设直线 $l$ 的斜率为 $k$ ,倾斜角为 $\\theta$ ,则\n\n$$\nk = \\tan \\theta  = \\frac{3 - \\left( {-1}\\right) }{2 - \\left( {-1}\\right) } = \\frac{4}{3},\n$$\n\n从而 $\\theta  = \\arctan \\frac{4}{3}$ .",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 53,
+            "end": 60
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-1-4",
+      "section_title": "点到直线的距离",
+      "source_json": "batch/sections/x1/x1-1-4.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第1章平面直角坐标系中的直线/第1章平面直角坐标系中的直线-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/01 选必第一册 第1章 平面直角坐标系中的直线.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题1.4A · 2",
+        "markdown": "2. 已知点 $A\\left( {a,6}\\right)$ 到直线 ${3x} - {4y} - 4 = 0$ 的距离等于 4,求实数 $a$ 的值.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 967,
+            "end": 968
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 967,
+            "end": 968
+          }
+        ],
+        "id": "x1-1-4-h14A-2",
+        "category": "习题1.4A",
+        "answer": "2. $a = \\frac{8}{3}$ 或 $a = {16}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 752,
+            "end": 753
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-2-3",
+      "section_title": "双曲线",
+      "source_json": "batch/sections/x1/x1-2-3.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第2章圆锥曲线/第2章圆锥曲线-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/02 选必第一册 第2章 圆锥曲线.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "练习2.3(2) · 1",
+        "markdown": "1. 分别写出下列双曲线的实半轴长、虚半轴长、离心率、焦点坐标、顶点坐标和渐近线方程:\n\n(1) $9{x}^{2} - {16}{y}^{2} = {144}$ ； (2) $\\frac{{y}^{2}}{4} - \\frac{{x}^{2}}{3} = 1$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1363,
+            "end": 1366
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1363,
+            "end": 1366
+          }
+        ],
+        "id": "x1-2-3-p232-1",
+        "category": "练习2.3(2)",
+        "answer": "1.(1)实半轴长 4,虚半轴长 3,离心率为 $\\frac{5}{4}$ ,焦点坐标为 $\\left( {-5,0}\\right)$ 、 $\\left( {5,0}\\right)$ ,顶点坐标为 $\\left( {-4,0}\\right) \\text{、}\\left( {4,0}\\right)$ ,渐近线方程为 $y = \\frac{3}{4}x$ 和 $y =  - \\frac{3}{4}x$ .\n\n(2)实半轴长 2,虚半轴长 $\\sqrt{3}$ ,离心率为 $\\frac{\\sqrt{7}}{2}$ ,焦点坐标为 $\\left( {0, - \\sqrt{7}}\\right)$ 、 $\\left( {0,\\sqrt{7}}\\right)$ , 顶点坐标为 $\\left( {0, - 2}\\right) \\text{、}\\left( {0,2}\\right)$ ,渐近线方程为 $y = \\frac{2\\sqrt{3}}{3}x$ 和 $y =  - \\frac{2\\sqrt{3}}{3}x$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 1124,
+            "end": 1127
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-3-1",
+      "section_title": "空间向量及其运算",
+      "source_json": "batch/sections/x1/x1-3-1.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第3章空间向量及其应用/第3章空间向量及其应用-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/03 选必第一册 第3章 空间向量及其应用.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 2",
+        "markdown": "例 2 如图 3-1-2,在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,点 $E$ 在棱 $C{C}_{1}$ 的延长线上,且 $\\left| {{C}_{1}E}\\right|  = \\left| {C{C}_{1}}\\right|$ . 设 $\\overrightarrow{A{A}_{1}} = \\overrightarrow{a}$ , $\\overrightarrow{AB} = \\overrightarrow{b},\\overrightarrow{AD} = \\overrightarrow{c}$ ,试用 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 的线性组合表示下列向量:\n\n(1) $\\overrightarrow{A{C}_{1}}$ ；(2) $\\overrightarrow{{D}_{1}{B}_{1}}$ ；(3) $\\overrightarrow{B{D}_{1}}$ ；(4) $\\overrightarrow{AE}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 65,
+            "end": 68
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 65,
+            "end": 68
+          }
+        ],
+        "id": "x1-3-1-ex-2",
+        "category": "例题",
+        "answer": "解 (1) $\\overrightarrow{A{C}_{1}} = \\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{C{C}_{1}} = \\overrightarrow{AB} + \\overrightarrow{AD} + \\overrightarrow{A{A}_{1}} = \\overrightarrow{b} + \\; \\overrightarrow{c} + \\overrightarrow{a}$ .\n\n(2) $\\overrightarrow{{D}_{1}{B}_{1}} = \\overrightarrow{{A}_{1}{B}_{1}} - \\overrightarrow{{A}_{1}{D}_{1}} = \\overrightarrow{AB} - \\overrightarrow{AD} = \\overrightarrow{b} - \\overrightarrow{c}$ .\n\n(3) $\\overrightarrow{B{D}_{1}} = \\overrightarrow{BA} + \\overrightarrow{A{A}_{1}} + \\overrightarrow{{A}_{1}{D}_{1}} =  - \\overrightarrow{AB} + \\overrightarrow{A{A}_{1}} + \\overrightarrow{AD} =  - \\overrightarrow{b} + \\; \\overrightarrow{a} + \\overrightarrow{c}$ .\n\n(4) $\\overrightarrow{AE} = \\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CE} = \\overrightarrow{AB} + \\overrightarrow{AD} + 2\\overrightarrow{C{C}_{1}} = \\overrightarrow{AB} + \\overrightarrow{AD} + \\; 2\\overrightarrow{A{A}_{1}} = \\overrightarrow{b} + \\overrightarrow{c} + 2\\overrightarrow{a}.$",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 69,
+            "end": 76
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-4-1",
+      "section_title": "等差数列",
+      "source_json": "batch/sections/x1/x1-4-1.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题4.1A · 6",
+        "markdown": "6. 设数列 $\\left\\{  {a}_{n}\\right\\}$ 为等差数列,其前 $n$ 项和为 ${S}_{n}$ .\n\n(1)已知 ${a}_{6} = {10},{S}_{5} = 5$ ,求 ${S}_{8}$ ；\n\n(2)已知 ${S}_{4} = 2,{S}_{9} =  - 6$ ，求 ${S}_{12}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 437,
+            "end": 442
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 437,
+            "end": 442
+          }
+        ],
+        "id": "x1-4-1-h41A-6",
+        "category": "习题4.1A",
+        "answer": "6.(1) ${S}_{8} = {44}$ . (2) ${S}_{12} =  - \\frac{82}{5}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 328,
+            "end": 329
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x1",
+      "book_title": "选择性必修第一册",
+      "section_id": "x1-chapter-end-4",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/x1/x1-chapter-end-4.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第一册/第4章数列/第4章数列-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第一册/沪教版教参选择性必修第一册分章/04 选必第一册 第4章 数 列.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "拓展与思考 · 2",
+        "markdown": "2. 如图, 将一个边长为 1 的正三角形的每条边三等分, 以中间一段为边向外作正三角形, 并擦去中间这一段, 如此继续下去得到的曲线称为科克雪花曲线. 将下面的图形依次记作 ${M}_{1}\\text{ 、 }{M}_{2}\\text{ 、 }{M}_{3}\\text{ 、 }\\cdots \\text{ 、 }{M}_{n}\\text{ 、 }\\cdots$ .\n\n\n(1)求 ${M}_{n}$ 的周长;\n\n(2)求 ${M}_{n}$ 的面积；\n\n(3)当 $n \\rightarrow   + \\infty$ 时,科克雪花曲线所围成的图形是周长无限增大而面积却有极限的图形吗? 若是, 请求出其面积的极限; 若不是, 请说明理由.\n\n![bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg](sources/textbooks/选择性必修第一册/第4章数列/images/bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg)\n\n(第 2 题)",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 2051,
+            "end": 2061
+          },
+          {
+            "source": "book",
+            "start": 2053,
+            "end": 2055
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 2051,
+            "end": 2061
+          },
+          {
+            "source": "book",
+            "start": 2053,
+            "end": 2055
+          }
+        ],
+        "id": "x1-chapter-end-4-t-2",
+        "category": "拓展与思考",
+        "answer": "2. (1)设 ${M}_{n}$ 的周长为 ${L}_{n}$ ,其通项公式为 ${L}_{n} = 3 \\cdot  {\\left( \\frac{4}{3}\\right) }^{n - 1}$ .\n\n(2)设 ${M}_{n}$ 的面积为 ${A}_{n}$ ,可证明 ${A}_{n} = \\frac{2\\sqrt{3}}{5} - \\frac{3\\sqrt{3}}{20} \\cdot  {\\left( \\frac{4}{9}\\right) }^{n - 1}$ .\n\n(3)当 $n$ 无限增大时, ${L}_{n}$ 也随之无限增大,而 $\\mathop{\\lim }\\limits_{{n \\rightarrow  \\infty }}{A}_{n} = \\frac{2\\sqrt{3}}{5}$ .\n\n因此, 科克雪花曲线所围成的图形是周长无限增大而面积却有极限的图形, 且面积的极限为 $\\frac{2\\sqrt{3}}{5}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 642,
+            "end": 649
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-1-1",
+      "section_title": "集合及其表示",
+      "source_json": "batch/sections/bx1/bx1-1-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第1章集合与逻辑/第1章集合与逻辑-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/01 必修第一册 第1章 集合与逻辑.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 1",
+        "markdown": "例 1 判断下列集合是有限集还是无限集, 并说明理由:\n\n(1)6 的正整数倍的全体组成的集合;\n\n(2)600 的正约数的全体组成的集合;\n\n(3)2019 年在上海出生的所有人组成的集合;\n\n(4)给定的一条长度为 1 的线段上的所有点组成的集合.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 47,
+            "end": 56
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 47,
+            "end": 56
+          }
+        ],
+        "id": "bx1-1-1-ex-1",
+        "category": "例题",
+        "answer": "解(1)6 的正整数倍可表示为 ${6n}$ ，其中 $n$ 是正整数. 因为正整数有无限个, 所以 6 的正整数倍的全体组成的集合是一个无限集.\n\n(2)600 的正约数一定是小于或等于 600 的正整数，其个数不超过 600 . 所以 600 的正约数的全体组成的集合是一个有限集.\n\n(3)虽然 2019 年出生在上海的人比较多，但总数还是有限的. 所以 2019 年在上海出生的所有人组成的集合是一个有限集.\n\n(4)因为该线段的二等分点、三等分点、四等分点……都是该集合中的元素，所以一条给定的长度为 1 的线段上的所有点组成的集合是一个无限集.\n\n数学中, 常常需要用到数的集合. 数的集合简称数集. 常用的数集可用以下特定的符号来表示，见表 1-1.\n\n表 1-1 常用数集的符号\n\n<table><tr><td>数集</td><td>符号</td></tr><tr><td>自然数集</td><td>N</td></tr><tr><td>整数集</td><td>Z</td></tr><tr><td>有理数集</td><td>Q</td></tr><tr><td>实数集</td><td>R</td></tr></table>",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 57,
+            "end": 70
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-2-1",
+      "section_title": "等式与不等式的性质",
+      "source_json": "batch/sections/bx1/bx1-2-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/02 必修第一册 第2章 等式与不等式.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题2.1A · 1",
+        "markdown": "1. 设 $a \\in  \\mathbf{R}$ ,求关于 $x$ 的方程 ${ax} = 2$ 的解集.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 453,
+            "end": 454
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 453,
+            "end": 454
+          }
+        ],
+        "id": "bx1-2-1-h21A-1",
+        "category": "习题2.1A",
+        "answer": "1. 当 $a \\neq  0$ 时,解集为 $\\left\\{  \\frac{2}{a}\\right\\}$ ; 当 $a = 0$ 时,解集为 $\\varnothing$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 592,
+            "end": 593
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-2-3",
+      "section_title": "基本不等式及其应用",
+      "source_json": "batch/sections/bx1/bx1-2-3.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第2章等式与不等式/第2章等式与不等式-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/02 必修第一册 第2章 等式与不等式.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题2.3B · 8",
+        "markdown": "8. 证明: $\\left| {x + 2}\\right|  - \\left| {x - 1}\\right|  \\geq   - 3$ ,对所有实数 $x$ 均成立,并求等号成立时 $x$ 的取值范围.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1379,
+            "end": 1380
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1379,
+            "end": 1380
+          }
+        ],
+        "id": "bx1-2-3-h23B-8",
+        "category": "习题2.3B",
+        "answer": "8. 证明: 原不等式等价于 $\\left| {x - 1}\\right|  \\leq  \\left| {x + 2}\\right|  + 3$ . 注意到 $x - 1 = \\left( {x + 2}\\right)  + \\left( {-3}\\right)$ , 令 $a = x + 2, b =  - 3$ ,应用三角不等式 $\\left| {a + b}\\right|  \\leq  \\left| a\\right|  + \\left| b\\right|$ ,原不等式即可得证. 等号当且仅当 $\\left( {x + 2}\\right) \\left( {-3}\\right)  \\geq  0$ ,即 $x \\leq   - 2$ 时成立.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 824,
+            "end": 825
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-4-1",
+      "section_title": "幂函数",
+      "source_json": "batch/sections/bx1/bx1-4-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/第4章幂函数、指数函数与对数函数-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/04 必修第一册 第4章 幂函数、指数函数 与对数函数.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 5",
+        "markdown": "例 5 已知函数 $y = \\frac{1}{x}$ 和 $y = \\frac{1}{x - 2}$ ,说明这两个函数图像之间的关系, 并在同一平面直角坐标系中作出它们的大致图像.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 203,
+            "end": 204
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 203,
+            "end": 204
+          }
+        ],
+        "id": "bx1-4-1-ex-5",
+        "category": "例题",
+        "answer": "解 在幂函数 $y = \\frac{1}{x}$ 的图像上任取一点 $P\\left( {a,\\frac{1}{a}}\\right)$ ,易得点 ${P}^{\\prime }\\left( {a + 2,\\frac{1}{a}}\\right)$ 一定在函数 $y = \\frac{1}{x - 2}$ 的图像上,而将点 $P$ 向右平移 2 个单位就与点 ${P}^{\\prime }$ 重合. 反之亦然. 因此,将函数 $y = \\frac{1}{x}$ 的图像向右平移 2 个单位就得到函数 $y = \\frac{1}{x - 2}$ 的图像. 反之,将函数 $y = \\frac{1}{x - 2}$ 的图像向左平移 2 个单位就得到函数 $y = \\frac{1}{x}$ 的图像,如图 4-1-6 所示.\n\n![bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg](sources/textbooks/必修第一册/第4章幂函数、指数函数与对数函数/images/bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg)\n\n图 4-1-6",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 205,
+            "end": 210
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-5-1",
+      "section_title": "函数",
+      "source_json": "batch/sections/bx1/bx1-5-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题5.1A · 3",
+        "markdown": "3. 观察下列函数的图像，并写出它们的值域：\n\n![第 3 题](sources/textbooks/必修第一册/第5章函数的概念、性质及应用/images/bo_d4slo4v7aajc73fspkhg_8_269_967_1077_331_0.jpg)\n\n**(第 3 题)**",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 267,
+            "end": 272
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 267,
+            "end": 272
+          }
+        ],
+        "id": "bx1-5-1-h51A-3",
+        "category": "习题5.1A",
+        "answer": "3. (1) $\\left\\lbrack  {0,1}\\right\\rbrack   \\cup  \\{ 2\\}$ . (2) $\\left\\lbrack  {0,2}\\right\\rbrack$ . (3) $\\left\\lbrack  {-1,3}\\right\\rbrack$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 340,
+            "end": 341
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx1",
+      "book_title": "必修第一册",
+      "section_id": "bx1-chapter-end-5",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/bx1/bx1-chapter-end-5.json",
+      "sources": {
+        "book": "sources/textbooks/必修第一册/第5章函数的概念、性质及应用/第5章函数的概念、性质及应用-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第一册/沪教版教参必修第一册分章/05 必修第一册 第5章 函数的概念、性质及应用.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "拓展与思考 · *4",
+        "markdown": "*4. 设函数 $y = f(x), x \\in \\mathbf{R}$ 的反函数是 $y = f^{-1}(x)$。\n\n(1) 如果 $y = f(x)$ 是奇函数，那么 $y = f^{-1}(x)$ 的奇偶性如何？\n\n(2) 如果 $y = f(x)$ 在定义域上是严格增函数，那么 $y = f^{-1}(x)$ 的单调性如何？",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1345,
+            "end": 1349
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1345,
+            "end": 1349
+          }
+        ],
+        "id": "bx1-chapter-end-5-t-4",
+        "category": "拓展与思考",
+        "answer": "4.(1)在函数 $y = {f}^{-1}\\left( x\\right)$ 的定义域 $f\\left( \\mathbf{R}\\right)$ 中任取一个数 $x$ ,因 $y = {f}^{-1}\\left( x\\right)$ 的定义域是 $y = f\\left( x\\right)$ 的值域,故存在 $y = f\\left( x\\right)$ 的定义域 $\\mathbf{R}$ 中的一个数 $t$ ,使得 $x = f\\left( t\\right)$ .\n\n因 $y = f\\left( x\\right)$ 是奇函数,故 $f\\left( {-t}\\right)  =  - f\\left( t\\right)  =  - x \\in  f\\left( \\mathbf{R}\\right)$ ,从而 $- x$ 也在 $y = \\; {f}^{-1}\\left( x\\right)$ 的定义域中. 由于 ${f}^{-1}\\left( x\\right)  = t$ ,且 ${f}^{-1}\\left( {-x}\\right)  =  - t$ ,它们互为相反数,因此 $y = {f}^{-1}\\left( x\\right)$ 是奇函数.\n\n(2)对于 $f\\left( \\mathbf{R}\\right)$ 中的任意给定的两个实数 ${x}_{1}\\text{、}{x}_{2}$ ,设 ${t}_{1} = {f}^{-1}\\left( {x}_{1}\\right) ,{t}_{2} = \\; {f}^{-1}\\left( {x}_{2}\\right)$ ,即 $f\\left( {t}_{1}\\right)  = {x}_{1}, f\\left( {t}_{2}\\right)  = {x}_{2}$ . 如果 $y = f\\left( x\\right)$ 是严格增函数,那么当 ${x}_{1} < {x}_{2}$ 时, $f\\left( {t}_{1}\\right)  < f\\left( {t}_{2}\\right)$ .\n\n如果 ${t}_{1} \\geq  {t}_{2}$ ,根据 $f$ 的单调性得 $f\\left( {t}_{1}\\right)  \\geq  f\\left( {t}_{2}\\right)$ ,与 $f\\left( {t}_{1}\\right)  < f\\left( {t}_{2}\\right)$ 矛盾,因此必有 ${t}_{1} < {t}_{2}$ ,即 ${f}^{-1}\\left( {x}_{1}\\right)  < {f}^{-1}\\left( {x}_{2}\\right)$ . 这说明 $y = {f}^{-1}\\left( x\\right)$ 是一个严格增函数.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 638,
+            "end": 644
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": [],
+        "answer_editorial": {
+          "kind": "manual-source-match",
+          "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+        }
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-6-1",
+      "section_title": "正弦、余弦、正切、余切",
+      "source_json": "batch/sections/bx2/bx2-6-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 1",
+        "markdown": "例 1 判断下列各角分别属于哪个象限:\n\n(1) $- {240}^{ \\circ  }$ ； (2) ${2100}^{ \\circ  }$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 79,
+            "end": 82
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 79,
+            "end": 82
+          }
+        ],
+        "id": "bx2-6-1-ex-1",
+        "category": "例题",
+        "answer": "解(1)因为 $- {240}^{ \\circ  } =  - {360}^{ \\circ  } + {120}^{ \\circ  }$ ，而 ${120}^{ \\circ  }$ 的角属于第二象限, 所以 -240° 的角属于第二象限.\n\n(2)因为 ${2100}^{ \\circ  } = 5 \\times  {360}^{ \\circ  } + {300}^{ \\circ  }$ ,而 ${300}^{ \\circ  }$ 的角属于第四象限, 所以 2 ${100}^{ \\circ  }$ 的角属于第四象限.",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 83,
+            "end": 86
+          }
+        ],
+        "teacher_analysis": "例 1 旨在说明任意角总可以转化为一个在 ${0}^{ \\circ  } \\sim  {360}^{ \\circ  }$ 范围内的终边相同的角,进而可判断角所属的象限.",
+        "analysis_provenance": [
+          {
+            "source": "teacher",
+            "start": 96,
+            "end": 96
+          }
+        ]
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-6-2",
+      "section_title": "常用三角公式",
+      "source_json": "batch/sections/bx2/bx2-6-2.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第6章三角/第6章三角-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/01 必修第二册 第6章 三角.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题6.2A · 5",
+        "markdown": "5. 已知 $\\tan \\alpha  = 2,\\tan \\beta  = 3$ ,其中 $\\alpha$ 及 $\\beta$ 均为锐角. 求 $\\alpha  + \\beta$ 的值.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1707,
+            "end": 1708
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1707,
+            "end": 1708
+          }
+        ],
+        "id": "bx2-6-2-h62A-5",
+        "category": "习题6.2A",
+        "answer": "5. $\\tan \\left( {\\alpha  + \\beta }\\right)  =  - 1$ 且 $0 < \\alpha  + \\beta  < \\pi$ ,故 $\\alpha  + \\beta  = \\frac{3\\pi }{4}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 486,
+            "end": 487
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-7-1",
+      "section_title": "正弦函数的图像与性质",
+      "source_json": "batch/sections/bx2/bx2-7-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第7章三角函数/第7章三角函数-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/02 必修第二册 第7章 三角函数.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题7.1A · 6",
+        "markdown": "6. 利用函数的单调性, 比较下列各组数的大小:\n\n(1) $\\sin \\frac{3\\pi }{11}$ 与 $\\sin \\frac{5\\pi }{12}$ ； (2) $\\sin \\left( {-\\frac{76\\pi }{11}}\\right)$ 与 $\\sin \\frac{85\\pi }{12}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 521,
+            "end": 524
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 521,
+            "end": 524
+          }
+        ],
+        "id": "bx2-7-1-h71A-6",
+        "category": "习题7.1A",
+        "answer": "6. (1) $\\sin \\frac{3\\pi }{11} < \\sin \\frac{5\\pi }{12}.\\;$ (2) $\\sin \\left( {-\\frac{76\\pi }{11}}\\right)  < \\sin \\frac{85\\pi }{12}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 334,
+            "end": 334
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": [],
+        "answer_editorial": {
+          "kind": "manual-source-match",
+          "reason": "逐题核对教材题面与教参实际内容，恢复因OCR题号缺失而停止的整组配对。"
+        }
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-8-2",
+      "section_title": "向量的数量积",
+      "source_json": "batch/sections/bx2/bx2-8-2.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第8章平面向量/第8章平面向量-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/03 必修第二册 第8章 平面向量.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "练习8.2（1） · 3",
+        "markdown": "3. 已知 $\\left| \\overrightarrow{a}\\right|  = 5,\\left| \\overrightarrow{b}\\right|  = 6,\\sin \\langle \\overrightarrow{a},\\overrightarrow{b}\\rangle  = {0.6}$ ，求 $\\overrightarrow{b}$ 在 $\\overrightarrow{a}$ 方向上的投影与数量投影.\n\n",
+        "provenance": [],
+        "id": "bx2-c8-s82-l1-q3",
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 569,
+            "end": 570
+          }
+        ],
+        "answer": "3. $\\pm  \\frac{24}{25}\\overrightarrow{a}, \\pm  {4.8}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 472,
+            "end": 473
+          }
+        ],
+        "teacher_analysis": "",
+        "category": "练习8.2（1）"
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-9-1",
+      "section_title": "复数及其四则运算",
+      "source_json": "batch/sections/bx2/bx2-9-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 3",
+        "markdown": "例 3 (1)计算虚数单位 i 的整数次幂，并找出规律；\n\n(2)对任意整数 $m$ ，计算 ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 173,
+            "end": 176
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 173,
+            "end": 176
+          }
+        ],
+        "id": "bx2-9-1-ex-3",
+        "category": "例题",
+        "answer": "解(1)我们有\n\n$$\n{\\mathrm{i}}^{1} = \\mathrm{i},{\\mathrm{i}}^{2} =  - 1,{\\mathrm{i}}^{3} = {\\mathrm{i}}^{2} \\times  \\mathrm{i} =  - 1 \\times  \\mathrm{i} =  - \\mathrm{i},{\\mathrm{i}}^{4} = {\\left( {\\mathrm{i}}^{2}\\right) }^{2} = {\\left( -1\\right) }^{2} = 1.\n$$\n\n由最后一个等式,推知对任意整数 $n,{\\mathrm{i}}^{4n} = {\\left( {\\mathrm{i}}^{4}\\right) }^{n} = {1}^{n} = 1$ . 因此,\n\ni 的幂的一般规律是:对任意给定的整数 $n$ ，均有\n\n$$\n{\\mathrm{i}}^{4n} = 1,{\\mathrm{i}}^{{4n} + 1} = \\mathrm{i},{\\mathrm{i}}^{{4n} + 2} =  - 1,{\\mathrm{i}}^{{4n} + 3} =  - \\mathrm{i}.\n$$\n\n(2) ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3} = {\\mathrm{i}}^{m}\\left( {1 + \\mathrm{i} + {\\mathrm{i}}^{2} + {\\mathrm{i}}^{3}}\\right)$\n\n$$\n= {\\mathrm{i}}^{m}\\left\\lbrack  {1 + \\mathrm{i} + \\left( {-1}\\right)  + \\left( {-\\mathrm{i}}\\right) }\\right\\rbrack   = 0.\n$$",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 177,
+            "end": 196
+          }
+        ],
+        "teacher_analysis": "例 3 展示虚数单位 $\\mathrm{i}$ 的整数次幂的周期性. 教学中可引导学生从 $\\mathrm{i}$ 开始自主探究发现规律,并通过讨论交流,提炼、概括 “对任意整数 $m$ ,都有 ${\\mathrm{i}}^{m} + {\\mathrm{i}}^{m + 1} + {\\mathrm{i}}^{m + 2} + {\\mathrm{i}}^{m + 3} =$ 0”的结论, 其中应注意引导学生体会, 以符号语言呈现的上述结论与自然语言表达“i 的四个连续整数次幂之和为零”的相互转换.",
+        "analysis_provenance": [
+          {
+            "source": "teacher",
+            "start": 118,
+            "end": 118
+          }
+        ]
+      }
+    },
+    {
+      "book_id": "bx2",
+      "book_title": "必修第二册",
+      "section_id": "bx2-chapter-end-9",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/bx2/bx2-chapter-end-9.json",
+      "sources": {
+        "book": "sources/textbooks/必修第二册/第9章复数/第9章复数-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第二册/沪教版教参必修第二册分章/04 必修第二册 第9章 复数.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "拓展与思考 · 2",
+        "markdown": "2. 已知复数 ${z}_{1}$ 和复数 ${z}_{2}$ 满足 ${z}_{1} + {z}_{2} = 3 - 5\\mathrm{i},\\overline{{z}_{1}} - \\overline{{z}_{2}} =  - 2 + 3\\mathrm{i}$ . 求 ${z}_{1}^{2} - {z}_{2}^{2}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1417,
+            "end": 1417
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1417,
+            "end": 1417
+          }
+        ],
+        "id": "bx2-chapter-end-9-t-2",
+        "category": "拓展与思考",
+        "answer": "2. $- {21} + \\mathrm{i}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 522,
+            "end": 523
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-10-1",
+      "section_title": "平面及其基本性质",
+      "source_json": "batch/sections/bx3/bx3-10-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 1",
+        "markdown": "例 1 已知三角形 ${ABC}$ 的三个顶点 $A\\text{ 、 }B\\text{ 、 }C$ 都在平面 $\\alpha$ 上，求证:该三角形的重心 $G$ 也在平面 $\\alpha$ 上.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 79,
+            "end": 80
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 79,
+            "end": 80
+          }
+        ],
+        "id": "bx3-10-1-ex-1",
+        "category": "例题",
+        "answer": "证明 如图 10-1-7,记线段 ${AB}$ 的中点为 $M$ . 因为 $A \\in  \\alpha$ , $B \\in  \\alpha$ ,由公理 1 可知,直线 ${AB} \\subset  \\alpha$ ,而 $M \\in  {AB}$ ,从而 $M \\in  \\alpha$ .\n\n又因为 $C \\in  \\alpha$ ,仍由公理 1 知, ${CM} \\subset  \\alpha$ . 由于重心 $G$ 是线段 ${CM}$ 的一个三等分点,因此 $G \\in  \\alpha$ .",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 81,
+            "end": 84
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-10-3",
+      "section_title": "直线与平面的位置关系",
+      "source_json": "batch/sections/bx3/bx3-10-3.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第10章空间直线与平面/第10章空间直线与平面-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/01 必修第三册 第10章 空间直线与平面.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题10.3A · 6",
+        "markdown": "6. 已知平面 $\\alpha$ 与平面 $\\beta$ 相交于直线 ${AB}$ ,直线 ${PC}$ 垂直于平面 $\\alpha$ ,直线 ${PD}$ 垂直于平面 $\\beta$ ,其垂足分别为 $C\\text{ 、 }D$ . 求证: ${AB} \\bot  {CD}$ .",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1162,
+            "end": 1163
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1162,
+            "end": 1163
+          }
+        ],
+        "id": "bx3-10-3-h103A-6",
+        "category": "习题10.3A",
+        "answer": "6. 提示: ${AB} \\bot$ 平面 ${PCD}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 718,
+            "end": 719
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-11-1",
+      "section_title": "柱体",
+      "source_json": "batch/sections/bx3/bx3-11-1.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第11章简单几何体/第11章简单几何体-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/02 必修第三册 第11章 简单几何体.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题11.1A · 3",
+        "markdown": "3. 若正六棱柱的高为 4，底面边长为 2，则这个正六棱柱的体积是___.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 229,
+            "end": 230
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 229,
+            "end": 230
+          }
+        ],
+        "id": "bx3-11-1-h111A-3",
+        "category": "习题11.1A",
+        "answer": "3. ${24}\\sqrt{3}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 298,
+            "end": 299
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-chapter-end-11",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-11.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第11章简单几何体/第11章简单几何体-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/02 必修第三册 第11章 简单几何体.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "拓展与思考 · 1",
+        "markdown": "1. 已知圆锥的底面半径为 $r$ ,高为 $h$ ,正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 内接于该圆锥. 求这个正方体的棱长.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1063,
+            "end": 1064
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1063,
+            "end": 1064
+          }
+        ],
+        "id": "bx3-chapter-end-11-t-1",
+        "category": "拓展与思考",
+        "answer": "1. $x = \\frac{\\sqrt{2}{rh}}{\\sqrt{2}r + h}$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 502,
+            "end": 503
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-chapter-end-12",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-12.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第12章概率初步/第12章概率初步-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/03 必修第三册 第12章 概率初步.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "复习题B · 4",
+        "markdown": "4. 盒子中有散落的黑白棋子若干粒,已知从中取出 2 粒都是黑子的概率是 $\\frac{1}{7}$ ,从中取出 2 粒都是白子的概率是 $\\frac{1}{6}$ . 问: 从中任意取出 2 粒恰好是同一颜色的概率是多少?",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1315,
+            "end": 1316
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1315,
+            "end": 1316
+          }
+        ],
+        "id": "bx3-chapter-end-12-hB-4",
+        "category": "复习题B",
+        "answer": "【编辑补写】\n\n若仅按互斥事件加法公式作形式运算，“两粒都是黑子”与“两粒都是白子”的并是“同一颜色”，于是得到原题预期值 $\\frac17+\\frac16=\\frac{13}{42}$。\n\n【编辑校注：原题数据存在模型冲突】在通常的有限盒中不放回任取两粒的模型下，实际上不存在满足这两个概率条件的黑白棋子数量，不能把上面的形式运算值当作可实现模型的概率。\n\n设黑、白棋子数分别为 $b,w$，总数为 $n=b+w$。因两种同色事件的概率均为正，故 $b,w\\ge2$，从而 $n\\ge4$。同色概率应为\n$$P=\\frac{b(b-1)+w(w-1)}{n(n-1)}.$$\n由 $(b-w)^2\\ge0$ 得 $b^2+w^2\\ge n^2/2$，因此\n$$P\\ge\\frac{n^2/2-n}{n(n-1)}=\\frac{n-2}{2(n-1)}\\ge\\frac13,$$\n最后一个不等式等价于 $n\\ge4$。但题设相加所得 $13/42<1/3$，矛盾。\n\n综上，$13/42$ 是题设数值相加的预期形式答案；原题的两项概率不能同时来自所描述的有限黑白棋子盒。此处保留原题与预期值，并标明数据冲突，不擅改任一分数。",
+        "answer_provenance": [],
+        "teacher_analysis": "",
+        "analysis_provenance": [],
+        "editorial_answer": {
+          "status": "authored",
+          "by": "repair-bx3-v1",
+          "basis": [
+            {
+              "source": "book",
+              "start": 1315,
+              "end": 1316
+            }
+          ]
+        },
+        "editorial_conflict": {
+          "kind": "source-model-inconsistency",
+          "status": "disclosed-with-proof",
+          "formal_expected_answer": "13/42",
+          "reason": "Finite black-white population with both colors at least 2 has same-color probability at least 1/3.",
+          "source_question_preserved": true
+        }
+      }
+    },
+    {
+      "book_id": "bx3",
+      "book_title": "必修第三册",
+      "section_id": "bx3-chapter-end-13",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/bx3/bx3-chapter-end-13.json",
+      "sources": {
+        "book": "sources/textbooks/必修第三册/第13章统计/第13章统计-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参必修第三册/沪教版教参必修第三册分章/04 必修第三册 第13章 统计.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "复习题B · 4",
+        "markdown": "4. 某客服部门计划根据员工每个月接通的电话数给予奖金奖励，并且要保证 50% 的员工能拿到基本奖励，拿到基本奖励的员工中至多 10% 的人能够拿到额外奖励. 该部门随机抽取了 30 名员工，调查了他们上半个月与客户的通话数量，数据如下:\n\n<table><tr><td>1344</td><td>1428</td><td>1083</td><td>1239</td><td>1381</td><td>1099</td><td>1607</td><td>1041</td><td>1130</td><td>1610</td></tr><tr><td>1445</td><td>921</td><td>931</td><td>1100</td><td>1197</td><td>1282</td><td>1549</td><td>1463</td><td>901</td><td>1354</td></tr><tr><td>1378</td><td>1752</td><td>1032</td><td>968</td><td>902</td><td>1804</td><td>1051</td><td>1319</td><td>1223</td><td>1124</td></tr></table>\n\n请利用百分位数来为该部门设计奖励方案.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1341,
+            "end": 1346
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1341,
+            "end": 1346
+          }
+        ],
+        "id": "bx3-chapter-end-13-hB-4",
+        "category": "复习题B",
+        "answer": "4. 要保证 50% 的员工能拿到基本奖励,拿到基本奖励的员工中至多 10% 的人能够拿到额外奖励, 则需要知道该客服部门员工通话数量的第 50 百分位数和第 90 百分位数. 现有随机抽取的 30 名员工的通话数量, 先算出该样本的第 50 百分位数和第 90 百分位数.\n\n对样本从小到大进行排序:\n\n$\\begin{array}{llllllllll} {901} & {902} & {921} & {931} & {968} & {1032} & {1041} & {1051} & {1083} & {1099} \\end{array}$\n\n110011241130 1197 1223 1239 1282 1319 1344 1354\n\n1378 1381 1428 1445 1463 1549 1607 1610 1752 1804\n\n由 ${30} \\times  {50}\\%  = {15}$ ,得第 50 百分位数为有序样本中第 15 个数 1223 和第 16 个数 1239 的平均数,为 1226 . 由 ${30} \\times  {90}\\%  = {27}$ ,得第 90 百分位数为有序样本中第 27 个数 1607 和第 28 个数 1610 的平均数, 为 1608.5 , 为便于操作, 我们取 1609 . 由于样本是随机抽取的, 我们可以估计该客服部门员工通话数量的第 50 百分位数和第 90 百分位数分别为 1226 和 1609 . 我们可以规定奖励方案如下:每个月与客户通话数量高于 1226 的员工可以拿到基本奖励; 每个月与客户通话数量高于 1609 的员工还可以拿到额外奖励.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 778,
+            "end": 789
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-5-1",
+      "section_title": "导数的概念及意义",
+      "source_json": "batch/sections/x2/x2-5-1.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第5章导数及其应用/第5章导数及其应用-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/01 选必第二册 第5章 导数及其应用.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "例题 1",
+        "markdown": "例 1 自由落体运动中，物体下落的距离 $d$ (单位: $\\mathrm{m}$ ) 与时间 $t$ (单位: $\\mathrm{s}$ )近似满足函数关系 $d = 5{t}^{2}$ . 试求物体在 $t = 2$ 时的瞬时速度.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 33,
+            "end": 34
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 33,
+            "end": 34
+          }
+        ],
+        "id": "x2-5-1-ex-1",
+        "category": "例题",
+        "answer": "解 对不同时间段长度值 $\\left| h\\right| , t = 2$ 附近时间段 $\\left\\lbrack  {2 + h,2}\\right\\rbrack \\; \\left( {h < 0}\\right)$ 或者 $\\left\\lbrack  {2,2 + h}\\right\\rbrack  \\left( {h > 0}\\right)$ 内的平均速度为\n\n$$\n\\bar{v} = \\frac{d\\left( {2 + h}\\right)  - d\\left( 2\\right) }{h} = \\frac{5 \\times  {\\left( 2 + h\\right) }^{2} - 5 \\times  {2}^{2}}{h},\n$$\n\n得到表 5-1.\n\n表 5-1\n\n<table><tr><td>$h\\left( { < 0}\\right)$</td><td>$\\left\\lbrack  {2 + h,2}\\right\\rbrack$ 上的 $\\bar{v}$</td><td>$h\\left( { > 0}\\right)$</td><td>$\\left\\lbrack  {2,2 + h}\\right\\rbrack$ 上的 $\\bar{v}$</td></tr><tr><td>-0.1</td><td>19.5</td><td>0.1</td><td>20.5</td></tr><tr><td>-0.01</td><td>19.95</td><td>0.01</td><td>20.05</td></tr><tr><td>-0.001</td><td>19.995</td><td>0.001</td><td>20.005</td></tr><tr><td>-0.000 1</td><td>19.9995</td><td>0.000 1</td><td>20.000 5</td></tr><tr><td>-0.000 01</td><td>19.999 95</td><td>0.000 01</td><td>20.000 05</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></table>\n\n在表 5-1 中,我们通过不断缩小 $h$ 的绝对值,发现在 $h$ 趋近于 0 时, 平均速度趋近于一个确定的值 20. 因此, 从表中数值我们可以初步判断物体在 $t = 2$ 时的瞬时速度为 ${20}\\mathrm{\\;m}/\\mathrm{s}$ .\n\n下面用数学的计算与推理证实我们的判断.\n\n当 $h \\neq  0$ 时, $t = 2$ 附近时间段 $\\left\\lbrack  {2 + h,2}\\right\\rbrack  \\left( {h < 0}\\right)$ 或者 $\\left\\lbrack  {2,2 + h}\\right\\rbrack \\; \\left( {h > 0}\\right)$ 的平均速度是\n\n$$\n\\bar{v} = \\frac{d\\left( {2 + h}\\right)  - d\\left( 2\\right) }{h} = \\frac{5 \\times  {\\left( 2 + h\\right) }^{2} - 5 \\times  {2}^{2}}{h} = \\frac{{20h} + 5{h}^{2}}{h} = {20} + {5h}.\n$$\n\n因为当 $h$ 趋近于 0 时, $\\bar{v}$ 趋近于 20,所以物体在 $t = 2$ 时的瞬时速度为 ${20}\\mathrm{\\;m}/\\mathrm{s}$ .\n\n---\n\n左边的式子在 $h > 0$ 时是显然的. 在 $h < 0$ 时，时间段 $\\left\\lbrack  {2 + h,2}\\right\\rbrack$ 上的平均速度一开始应写为 $\\frac{d\\left( 2\\right)  - d\\left( {2 + h}\\right) }{\\left| h\\right| } = \\; \\frac{d\\left( 2\\right)  - d\\left( {2 + h}\\right) }{-h}$ ,它和 $h > 0$ 时一样,也可统一地写为 $\\frac{d\\left( {2 + h}\\right)  - d\\left( 2\\right) }{h}$ .\n\n---",
+        "answer_provenance": [
+          {
+            "source": "book",
+            "start": 35,
+            "end": 64
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-5-3",
+      "section_title": "导数的应用",
+      "source_json": "batch/sections/x2/x2-5-3.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第5章导数及其应用/第5章导数及其应用-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/01 选必第二册 第5章 导数及其应用.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "练习5.3(3) · 1",
+        "markdown": "1. 判断下列说法是否正确，并说明理由:\n\n(1)函数在某区间上的极大值不会小于它的极小值；\n\n(2)函数在某区间上的最大值不会小于它的最小值；\n\n(3)函数在某区间上的极大值就是它在该区间上的最大值；\n\n(4)函数在某区间上的最大值就是它在该区间上的极大值.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 997,
+            "end": 1006
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 997,
+            "end": 1006
+          }
+        ],
+        "id": "x2-5-3-p533-1",
+        "category": "练习5.3(3)",
+        "answer": "1. 由最大值的定义可知, (2) 正确; (1) (3) (4)不正确, 理由略. 提示: 可借助函数图像举反例.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 431,
+            "end": 431
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-6-2",
+      "section_title": "排列",
+      "source_json": "batch/sections/x2/x2-6-2.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题6.2A · 1",
+        "markdown": "1. 用 1、2、3、4 可以组成多少个没有重复数字的正整数? 其中有多少个偶数?",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 711,
+            "end": 712
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 711,
+            "end": 712
+          }
+        ],
+        "id": "x2-6-2-h62A-1",
+        "category": "习题6.2A",
+        "answer": "1.24; 12.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 277,
+            "end": 278
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-6-5",
+      "section_title": "二项式定理",
+      "source_json": "batch/sections/x2/x2-6-5.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第6章计数原理/第6章计数原理-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/02 选必第二册 第6章 计数原理.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "习题6.5B · 3",
+        "markdown": "3. 设 $f\\left( x\\right)  = {\\left( 1 + x\\right) }^{m} + {\\left( 1 + x\\right) }^{n}\\left( {m\\text{ 、 }n}\\right.$ 为正整数 $)$ . 若二项展开式中关于 $x$ 的一次项系数之和为 11,则当 $m\\text{ 、 }n$ 为何值时,含 ${x}^{2}$ 项的系数取得最小值?",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1605,
+            "end": 1606
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1605,
+            "end": 1606
+          }
+        ],
+        "id": "x2-6-5-h65B-3",
+        "category": "习题6.5B",
+        "answer": "3. $m = 5, n = 6$ 或 $m = 6, n = 5$ .",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 425,
+            "end": 426
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-7-3",
+      "section_title": "常用分布",
+      "source_json": "batch/sections/x2/x2-7-3.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第7章概率初步(续)/第7章概率初步(续)-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/03 选必第二册 第7章 概率初步(续).md"
+      },
+      "block": {
+        "type": "question",
+        "title": "练习7.3(3) · 2",
+        "markdown": "2. 某校高中三年级 1600 名学生参加了区第一次高考模拟统一考试, 已知数学考试成绩 $X$ 服从正态分布 $N\\left( {{100},{\\sigma }^{2}}\\right)$ (试卷满分为 150 分). 统计结果显示,数学考试成绩在 80 分到 120 分之间的人数约为总人数的 $\\frac{3}{4}$ ，则此次统考中成绩不低于 120 分的学生人数约为 ( )\n\nA. 80 ; B. 100 ; C. 120 ; D. 200.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 1185,
+            "end": 1188
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 1185,
+            "end": 1188
+          }
+        ],
+        "id": "x2-7-3-p733-2",
+        "category": "练习7.3(3)",
+        "answer": "2. D.",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 455,
+            "end": 456
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    },
+    {
+      "book_id": "x2",
+      "book_title": "选择性必修第二册",
+      "section_id": "x2-chapter-end-8",
+      "section_title": "章末阅读、内容提要与复习题",
+      "source_json": "batch/sections/x2/x2-chapter-end-8.json",
+      "sources": {
+        "book": "sources/textbooks/选择性必修第二册/第8章成对数据的统计分析/第8章成对数据的统计分析-dollar.md",
+        "teacher": "sources/textbooks/教参与课标/沪教版教参选择性必修第二册/沪教版教参选择性必修第二册分章/04 选必第二册 第8章 成对数据的统计分析.md"
+      },
+      "block": {
+        "type": "question",
+        "title": "拓展与思考 · 3",
+        "markdown": "3. 某地区市场上有 80 种品牌的饼干, 它们近一段时间内的平均售价 (以下简称“价格”)和销售量的数据如下表所示.\n\n<table id=\"cross-table-4\"><tr><td>品牌编号</td><td>价格/(元/千克)</td><td>销售量/千克</td><td>品牌编号</td><td>价格/(元/千克)</td><td>销售量/千克</td></tr><tr><td>1</td><td>14</td><td>1231.85</td><td>23</td><td>31.41</td><td>5865.45</td></tr><tr><td>2</td><td>34.62</td><td>1465.89</td><td>24</td><td>23.48</td><td>6103.94</td></tr><tr><td>3</td><td>30.86</td><td>1774.29</td><td>25</td><td>23.6</td><td>6 243.10</td></tr><tr><td>4</td><td>14</td><td>1892.91</td><td>26</td><td>22.13</td><td>6509.67</td></tr><tr><td>5</td><td>36</td><td>2324.44</td><td>27</td><td>21.48</td><td>6758.18</td></tr><tr><td>6</td><td>28.41</td><td>2480.04</td><td>28</td><td>25.03</td><td>7100.93</td></tr><tr><td>7</td><td>9.09</td><td>2545.33</td><td>29</td><td>19.55</td><td>7356.44</td></tr><tr><td>8</td><td>44.84</td><td>2568.11</td><td>30</td><td>24.81</td><td>7439.63</td></tr><tr><td>9</td><td>31.68</td><td>2638.48</td><td>31</td><td>20.92</td><td>7627.28</td></tr><tr><td>10</td><td>20</td><td>3233.99</td><td>32</td><td>17.7</td><td>7740.45</td></tr><tr><td>11</td><td>14.67</td><td>3518.17</td><td>33</td><td>20.79</td><td>7744.67</td></tr><tr><td>12</td><td>19.09</td><td>3566.58</td><td>34</td><td>24.63</td><td>7 989.30</td></tr><tr><td>13</td><td>26.67</td><td>4264.28</td><td>35</td><td>13.59</td><td>7996.84</td></tr><tr><td>14</td><td>17.51</td><td>4672.33</td><td>36</td><td>19.29</td><td>8151.09</td></tr><tr><td>15</td><td>13</td><td>4752.20</td><td>37</td><td>20</td><td>8231.85</td></tr><tr><td>16</td><td>25.24</td><td>4865.42</td><td>38</td><td>22.03</td><td>8289.18</td></tr><tr><td>17</td><td>31.1</td><td>5042.91</td><td>39</td><td>20.08</td><td>8524.06</td></tr><tr><td>18</td><td>26.24</td><td>5108.73</td><td>40</td><td>19.03</td><td>8689.36</td></tr><tr><td>19</td><td>25.88</td><td>5367.70</td><td>41</td><td>16.67</td><td>8874.66</td></tr><tr><td>20</td><td>17.81</td><td>5465.26</td><td>42</td><td>16.04</td><td>8888.74</td></tr><tr><td>21</td><td>29.56</td><td>5 500.35</td><td>43</td><td>14.12</td><td>9005.62</td></tr><tr><td>22</td><td>25</td><td>5 655.53</td><td>44</td><td>13.75</td><td>9046.93</td></tr><tr></tr><tr><td>45</td><td>19.87</td><td>9384.98</td><td>63</td><td>11.89</td><td>15175.16</td></tr><tr><td>46</td><td>15.72</td><td>9414.11</td><td>64</td><td>10.08</td><td>17658.74</td></tr><tr><td>47</td><td>25.04</td><td>9454.50</td><td>65</td><td>6.13</td><td>18058.67</td></tr><tr><td>48</td><td>14</td><td>9731.32</td><td>66</td><td>10.4</td><td>19 937.88</td></tr><tr><td>49</td><td>11.26</td><td>9762.08</td><td>67</td><td>12.7</td><td>23 055.87</td></tr><tr><td>50</td><td>11.25</td><td>9809.51</td><td>68</td><td>9.19</td><td>26 508.14</td></tr><tr><td>51</td><td>20.92</td><td>9924.99</td><td>69</td><td>8</td><td>29 504.40</td></tr><tr><td>52</td><td>16.95</td><td>10101.74</td><td>70</td><td>5.22</td><td>31693.07</td></tr><tr><td>53</td><td>15.38</td><td>10461.08</td><td>71</td><td>9.23</td><td>32 123.53</td></tr><tr><td>54</td><td>13.88</td><td>10 561.53</td><td>72</td><td>7.6</td><td>34732.28</td></tr><tr><td>55</td><td>13.04</td><td>10 960.55</td><td>73</td><td>8.33</td><td>36321.39</td></tr><tr><td>56</td><td>29.33</td><td>11 627.43</td><td>74</td><td>9.25</td><td>36898.25</td></tr><tr><td>57</td><td>4.9</td><td>11838.62</td><td>75</td><td>9.36</td><td>38 343.50</td></tr><tr><td>58</td><td>11.91</td><td>12 303.55</td><td>76</td><td>8.42</td><td>39033.51</td></tr><tr><td>59</td><td>13.9</td><td>12713.01</td><td>77</td><td>6.25</td><td>43832.88</td></tr><tr><td>60</td><td>17.78</td><td>12830.94</td><td>78</td><td>23.01</td><td>112827.40</td></tr><tr><td>61</td><td>17.31</td><td>13 686.17</td><td>79</td><td>8.7</td><td>139 493.10</td></tr><tr><td>62</td><td>12.27</td><td>14 181.94</td><td>80</td><td>12.32</td><td>21 134.65</td></tr></table>\n\n试对这 80 种品牌饼干近一段时间内的价格和销售量进行回归分析.",
+        "provenance": [
+          {
+            "source": "book",
+            "start": 905,
+            "end": 909
+          }
+        ],
+        "provenance_question": [
+          {
+            "source": "book",
+            "start": 905,
+            "end": 909
+          }
+        ],
+        "id": "x2-chapter-end-8-t-3",
+        "category": "拓展与思考",
+        "answer": "3. 价格与销售量的散点图为:\n\n![bo_d402pi3ef24c73d2tha0_99_225_399_1030_408_0.jpg](sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_99_225_399_1030_408_0.jpg)\n\n计算得到: 价格与销售量的相关系数为 -0.361 , 回归直线方程 y = -925.266x+ 31291.280.\n\n![bo_d402pi3ef24c73d2tha0_99_225_955_1029_434_0.jpg](sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_99_225_955_1029_434_0.jpg)\n\n由于相关系数比较小, 于是再观察散点图, 发现价格与销量之间不是线性关系, 而是呈现出明显的指数下降趋势. 将饼干的销售量取自然对数再进行线性回归分析, 得到 $y = {31599.62}{\\mathrm{e}}^{-{0.069x}}$ .\n\n![bo_d402pi3ef24c73d2tha0_99_210_1610_1050_438_0.jpg](sources/textbooks/教参与课标/沪教版教参选择性必修第二册/images/bo_d402pi3ef24c73d2tha0_99_210_1610_1050_438_0.jpg)",
+        "answer_provenance": [
+          {
+            "source": "teacher",
+            "start": 588,
+            "end": 599
+          }
+        ],
+        "teacher_analysis": "",
+        "analysis_provenance": []
+      }
+    }
+  ]
+}
