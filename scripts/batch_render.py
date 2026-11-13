@@ -79,6 +79,25 @@ def output_dir(data):
     return OUTPUT / safe(data['book_id']) / safe(data['id'])
 
 
+def section_reader_labels(data):
+    """Human-facing section labels; chapter-end nodes use titles only."""
+    section = data['section']
+    title = data['title']
+    if section.startswith('chapter-end-'):
+        return {
+            'document_title': title,
+            'toolbar_ref': '章末',
+            'spine': '章末',
+            'eyebrow': 'CHAPTER REVIEW',
+        }
+    return {
+        'document_title': f'{section} {title}',
+        'toolbar_ref': section,
+        'spine': section,
+        'eyebrow': f'SECTION {section}',
+    }
+
+
 def textbook_assets(book_id):
     path = ROOT / 'scripts/visual-assets' / f'textbook-catalog-{book_id}.js'
     if not path.exists():
@@ -103,7 +122,7 @@ def shared_assets(book_id):
     dest = OUTPUT / safe(book_id) / '_shared'
     dest.mkdir(parents=True, exist_ok=True)
     install_assets(dest)
-    for name in ['book.css', 'book.js']:
+    for name in ['book.css', 'book.js', 'teacher-highlights.css', 'teacher-highlights.js']:
         source, target = ROOT / 'scripts' / name, dest / name
         if not target.exists() or sha(source) != sha(target):
             shutil.copy2(source, target)
@@ -160,7 +179,8 @@ def shared_assets(book_id):
 
 def fingerprint(path, data):
     parts = [VERSION, sha(__file__), sha(path), sha(TEMPLATE)]
-    extras = [ROOT / 'scripts/book.css', ROOT / 'scripts/book.js', ROOT / 'scripts/site_access.py', ROOT / 'scripts/example_guidance.py',
+    extras = [ROOT / 'scripts/book.css', ROOT / 'scripts/book.js', ROOT / 'scripts/teacher-highlights.css',
+              ROOT / 'scripts/teacher-highlights.js', ROOT / 'scripts/site_access.py', ROOT / 'scripts/example_guidance.py',
               *(ROOT / 'scripts' / name for name in ACCESS_NAMES), *sorted(VENDOR.rglob('*'))]
     if data['book_id'] in ['bx1', 'bx2', 'bx3', 'x1', 'x2']:
         extras.extend([ROOT / 'scripts/visual-book.css', ROOT / 'scripts/visual-book.js', *sorted((ROOT / 'scripts/visual-assets').glob('*'))])
@@ -285,6 +305,11 @@ def page_index(blocks, components, student=False):
 def page(data, blocks, components, student=False):
     esc = lambda s: html.escape(str(s), quote=True)
     section, title = esc(data['section']), esc(data['title'])
+    labels = section_reader_labels(data)
+    document_title = esc(labels['document_title'])
+    toolbar_ref = esc(labels['toolbar_ref'])
+    spine = esc(labels['spine'])
+    eyebrow = esc(labels['eyebrow'])
     review_sample = data['id'] == 'bx3-chapter-end-10' and not student
     review_links = []
     questions = [b for b in blocks if b['type'] == 'question' and not b.get('teacher_only')]
@@ -346,7 +371,7 @@ def page(data, blocks, components, student=False):
     controls = '<button id="toc-toggle" aria-expanded="false" aria-controls="page-sidebar">本页索引</button>'
     controls += '<span class="student-tag">学生阅读版 · 不含题答与教师内容</span>' if student else '<button id="answer-toggle" aria-pressed="false">隐藏全部答案</button>'
     controls += '<button id="print-open">按内容打印</button>'
-    more = '' if student else '<button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a>'
+    more = '' if student else '<button id="notes-toggle" aria-pressed="false">隐藏教师批注</button><button type="button" id="highlights-open">我的高亮</button><a class="mode-link" href="student.html">学生预览 ↗</a><a class="package-link" href="student.zip" download>学生包 ↓</a>'
     more += '<button id="density-toggle" aria-pressed="false">舒展阅读</button><button id="visual-open">可视化模块</button>'
     controls += '<details class="reader-more" open><summary>更多</summary><div class="reader-more-items">' + more + '</div></details>'
     visual_assets = ''
@@ -394,11 +419,17 @@ def page(data, blocks, components, student=False):
 @media(max-width:720px){.book-body h3.review-heading{font-size:19px;padding:9px 12px}}
 }
 </style>'''
+    highlight_assets = ''
+    if not student:
+        highlight_assets = (
+            f'<link rel="stylesheet" href="../_shared/teacher-highlights.css?v={sha(ROOT / "scripts/teacher-highlights.css")[:12]}">'
+            f'<script defer src="../_shared/teacher-highlights.js?v={sha(ROOT / "scripts/teacher-highlights.js")[:12]}"></script>'
+        )
     review_script = ''
     return f'''<!doctype html>
-<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{section} {title} · {'学生阅读版' if student else '教师整合版'}</title>{access_assets}<link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css?v={sha(ROOT / 'scripts/book.css')[:12]}">{visual_assets}{extra_style}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js?v={sha(ROOT / 'scripts/book.js')[:12]}"></script></head>
-<body><noscript><p>请启用 JavaScript，再输入访问口令进入阅读。</p></noscript><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><button id="toc-backdrop" aria-label="关闭本页索引" tabindex="-1" hidden></button><aside class="sidebar" id="page-sidebar"><button id="toc-dismiss" aria-label="关闭本页索引">×</button><a class="brand" href="{'#top' if student else '../index.html'}">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">{esc(data['book_title'])} / {esc(data.get('chapter_title', ''))}</div><div class="spine-number">{section}</div><div class="toc-tools"><label for="toc-search">本页索引</label><input type="search" id="toc-search" placeholder="查找正文、例题或题号"><select id="toc-filter" aria-label="索引内容筛选"><option value="all">全部位置</option><option value="content">正文与概念</option><option value="example">只看例题</option><option value="exercise">练习与习题</option></select><p id="toc-count" role="status" aria-live="polite"></p></div><nav class="page-toc" aria-label="本节目录">{nav}</nav><div class="sidebar-foot">{'学生独立文件' if student else '教师阅读 / 备课'} · 点击索引定位</div></aside>
-<div class="book-shell"><header class="toolbar"><span class="toolbar-label">{'学生阅读' if student else '教师阅读'} <span class="subtle">/ {section}</span></span><div class="controls">{controls}</div></header><main id="reading">{warning}<header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · SECTION {section}</div><p class="edition">{'学生阅读版' if student else '教师整合版'} / 沪教版高中数学</p><h1>{title}<span class="cover-dot">.</span></h1><p class="cover-deck">{esc(data['book_title'])}<br>{esc(data.get('chapter_title',''))} · 保留教材主线与原题</p><div class="chapter-meta"><span>{len(modules)} 个阅读模块</span><span>{examples} 个例题</span><span>{len(questions)-examples} 道练习与习题</span></div></header><div class="book-body">{''.join(parts)}</div><footer class="book-footer"><p>{foot}</p><a href="#top">返回本节开头 ↑</a></footer></main></div>{components['print_panel'](student)}<div id="status" role="status" aria-live="polite"></div>{review_script}</body></html>'''
+<html lang="zh-CN" data-mode="{mode}" data-section-id="{esc(data['id'])}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="chengbai"><title>{document_title} · {'学生阅读版' if student else '教师整合版'}</title>{access_assets}<link rel="stylesheet" href="../_shared/vendor-katex/katex.min.css"><link rel="stylesheet" href="../_shared/book.css?v={sha(ROOT / 'scripts/book.css')[:12]}">{visual_assets}{extra_style}{highlight_assets}<script defer src="../_shared/vendor-katex/katex.min.js"></script><script defer src="../_shared/book.js?v={sha(ROOT / 'scripts/book.js')[:12]}"></script></head>
+<body><noscript><p>请启用 JavaScript，再输入访问口令进入阅读。</p></noscript><a class="skip" href="#reading">跳到正文</a><div class="reading-progress" aria-hidden="true"></div><button id="toc-backdrop" aria-label="关闭本页索引" tabindex="-1" hidden></button><aside class="sidebar" id="page-sidebar"><button id="toc-dismiss" aria-label="关闭本页索引">×</button><a class="brand" href="{'#top' if student else '../index.html'}">沪教数学<span>教材 × 教参 · 整合书</span></a><div class="volume-label">{esc(data['book_title'])} / {esc(data.get('chapter_title', ''))}</div><div class="spine-number">{spine}</div><div class="toc-tools"><label for="toc-search">本页索引</label><input type="search" id="toc-search" placeholder="查找正文、例题或题号"><select id="toc-filter" aria-label="索引内容筛选"><option value="all">全部位置</option><option value="content">正文与概念</option><option value="example">只看例题</option><option value="exercise">练习与习题</option></select><p id="toc-count" role="status" aria-live="polite"></p></div><nav class="page-toc" aria-label="本节目录">{nav}</nav><div class="sidebar-foot">{'学生独立文件' if student else '教师阅读 / 备课'} · 点击索引定位</div></aside>
+<div class="book-shell"><header class="toolbar"><span class="toolbar-label">{'学生阅读' if student else '教师阅读'} <span class="subtle">/ {toolbar_ref}</span></span><div class="controls">{controls}</div></header><main id="reading">{warning}<header class="chapter-cover" id="top"><div class="eyebrow">SHANGHAI MATHEMATICS · {eyebrow}</div><p class="edition">{'学生阅读版' if student else '教师整合版'} / 沪教版高中数学</p><h1>{title}<span class="cover-dot">.</span></h1><p class="cover-deck">{esc(data['book_title'])}<br>{esc(data.get('chapter_title',''))} · 保留教材主线与原题</p><div class="chapter-meta"><span>{len(modules)} 个阅读模块</span><span>{examples} 个例题</span><span>{len(questions)-examples} 道练习与习题</span></div></header><div class="book-body">{''.join(parts)}</div><footer class="book-footer"><p>{foot}</p><a href="#top">返回本节开头 ↑</a></footer></main></div>{components['print_panel'](student)}<div id="status" role="status" aria-live="polite"></div>{review_script}</body></html>'''
 
 
 def render_section(path, force=False):

@@ -7,7 +7,7 @@
   "title": "随机事件的独立性",
   "section_json": "batch/sections/bx3/bx3-12-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-4",
-  "fingerprint": "9c5f7cea99d498fcb5e07feb307566aa7b782b55039c4c6e40cb04d2f94b9c7d",
+  "fingerprint": "0c1abdf2e49db82883b31d643139298221a2307beb2953b20bffe922c996916d",
   "status": "rendered",
   "questions": 17,
   "answers": 17,
@@ -65,9 +65,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "36a0be84d26d3ab5f5253ff546c3f44d111b5b65cdae3d43984832cce4423c47",
+    "teacher.html": "8fee425290903ebeac9e99d6c5030dc25d3105eb4d815bcb83e1286c5ec93428",
     "student.html": "44e7c8efc4c437fb20473ae130045e5de05ee95ca84cfcd295d899c54a26492d",
-    "student.zip": "e88c4ea490b068f716bc558c2a5aed4439dab850a76a92961b46d4dbfeb594c1",
+    "student.zip": "3b42d951aa3e7a943db3a7191a5fd32d9a13b2b81200bfd74c705e0956597203",
     "content.json": "60698edd735eb5c669423512a040b675b648e313c8c32b8964a097925d395dea",
     "teacher-guidance.json": "dd00e82f107a3e40e6e30b014b202c5f5e732f8f246437d321c23a1dd2d76d48"
   }

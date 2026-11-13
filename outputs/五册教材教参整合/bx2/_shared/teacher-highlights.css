@@ -1,0 +1,26 @@
+mark.teacher-highlight{background:#f6e6a8;color:inherit;padding:0 .08em;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+mark.teacher-highlight[data-color=green]{background:#d5ebc9}
+mark.teacher-highlight[data-color=blue]{background:#cfe8f4}
+mark.teacher-highlight-note{cursor:pointer}
+#teacher-highlight-popover{position:fixed;z-index:45;display:flex;gap:6px;align-items:center;padding:6px 8px;background:#fffef8;border:1px solid #d5d9cb;border-radius:4px;box-shadow:0 4px 18px #243c2918;font:12px/1.4 "PingFang SC",sans-serif}
+#teacher-highlight-popover[hidden]{display:none!important}
+#teacher-highlight-popover button{border:1px solid #bdc5b6;border-radius:2px;background:transparent;padding:6px 10px;color:var(--forest)}
+#teacher-highlight-popover button.primary{background:var(--forest);color:#fff;border-color:var(--forest)}
+#teacher-highlights-dialog{width:min(520px,calc(100vw - 24px));max-height:min(80vh,640px);padding:0;border:1px solid #ccd5c5}
+#teacher-highlights-dialog::backdrop{background:#16251c55}
+.thl-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 18px 10px;border-bottom:1px solid var(--rule)}
+.thl-head h2{margin:0;font:600 17px/1.4 "PingFang SC",sans-serif;color:var(--forest)}
+.thl-body{padding:12px 18px 18px;overflow:auto;max-height:calc(80vh - 170px)}
+.thl-body p.help{margin:0 0 12px;font:12px/1.6 "PingFang SC",sans-serif;color:var(--muted)}
+.thl-list{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.thl-item{border:1px solid #dde3d6;background:#faf9f4;padding:10px 12px;border-radius:3px}
+.thl-item blockquote{margin:0 0 8px;padding-left:10px;border-left:3px solid #e0c57a;color:#4f5f52;font-size:14px;line-height:1.6}
+.thl-item textarea{width:100%;min-height:52px;border:1px solid #c9d4c4;border-radius:2px;padding:8px;font:13px/1.5 "PingFang SC",sans-serif;resize:vertical}
+.thl-item .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.thl-item button{font:12px/1.4 "PingFang SC",sans-serif;border:1px solid #bdc5b6;background:#fff;padding:5px 9px;color:var(--forest)}
+.thl-item .warn{color:#a34c2c;font-size:12px;margin:6px 0 0}
+.thl-foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 18px 16px;border-top:1px solid var(--rule)}
+.thl-foot button{font:12px/1.4 "PingFang SC",sans-serif;border:1px solid #bdc5b6;background:#fff;padding:7px 11px;color:var(--forest)}
+.thl-foot input[type=file]{display:none}
+@media(max-width:720px){#teacher-highlight-popover{left:12px!important;right:12px!important;bottom:72px!important;top:auto!important;justify-content:center}}
+@media print{#teacher-highlight-popover,#teacher-highlights-dialog,button#highlights-open{display:none!important}mark.teacher-highlight{background:transparent!important;border-bottom:1px solid #e5cba0}}

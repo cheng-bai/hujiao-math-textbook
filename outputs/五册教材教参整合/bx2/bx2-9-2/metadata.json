@@ -7,7 +7,7 @@
   "title": "复数的几何意义",
   "section_json": "batch/sections/bx2/bx2-9-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-2",
-  "fingerprint": "8a616128468a90d269bf111598661a459f7f97f6f603c7ae14c4a1c8661d5144",
+  "fingerprint": "dbfd5e143c9ca0b155e807f5fa23f6d7c538e0fda754c9f3e3f452505510c20f",
   "status": "rendered",
   "questions": 34,
   "answers": 34,
@@ -209,9 +209,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "4b56eb492b1d38949c1bcdf4cf959291edb7390cc26575cda12cf141b36b6234",
+    "teacher.html": "bb8267e0138bc3f97cf4d871946d861a29485ab5ac194b3ff25aabbd2f89faeb",
     "student.html": "a728e1871500e38023db1b8fb849e31bf6d67ef041b94eea5f41b74f7baa70c7",
-    "student.zip": "6d5a94ae0a43c9b605f3af3161d81831a21228fce8bee9b004beb1ff1249245f",
+    "student.zip": "5ecdcdc88d47f447a1e4d16ca4ba55e7f43d4fff37e2404221fd72bb4ccfdff8",
     "content.json": "e6e059a1e74071243f27c716ac8537140629900551a439a1aa913c2e4cba008a",
     "teacher-guidance.json": "9b842bfa61c0ea4cd5d837e176649f0267fb70fc7ce67e1afa5b40205e27433f"
   }
