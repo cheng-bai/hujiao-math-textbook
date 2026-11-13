@@ -7,7 +7,7 @@
   "title": "向量的坐标表示",
   "section_json": "batch/sections/bx2/bx2-8-3.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-3",
-  "fingerprint": "733c32daf967b1d62e11078bf56dfe61f99fa80105adaeca2becd3467fa98a78",
+  "fingerprint": "39602554d065861c8b0bf58739dca9df26bd0e502c64a629edabc6ce5ff3d467",
   "status": "rendered",
   "questions": 32,
   "answers": 32,
@@ -175,9 +175,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "bbb4b7a460557b677fd51a42903177262ea8e3cdb89af91151a10776f8d05440",
+    "teacher.html": "e0643d29c2d69d7525005a693df3310a318530180977de31c21aeb09d7a9309f",
     "student.html": "6e1ec7f4b9f94b0f432414c4f4aa3f4117635c844bc2d52f0747edd0c8c2db83",
-    "student.zip": "d828490189c36ac1483ee8225930e5466602d6198bab8edc6028e087d3fcb20b",
+    "student.zip": "2f66b7e7b635b77e2fc4ba9ef03dbd5fac34838cc9256a817bbe2c2869ad2ed8",
     "content.json": "dca9f48ccd0d1400fc7a0e24dcc61eb556ecda0ae2257b6b129cddcb534433af",
     "teacher-guidance.json": "c15576a706d93dfc1997b34baa775a374bd335140c013fc4564e7e6ddc6bdb2a"
   }

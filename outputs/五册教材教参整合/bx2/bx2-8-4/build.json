@@ -7,7 +7,7 @@
   "title": "向量的应用",
   "section_json": "batch/sections/bx2/bx2-8-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-4",
-  "fingerprint": "ac17c38f4b5b01e45e2f39d4683f6b8009a6f09f7efb15948b30d20af4e78cd9",
+  "fingerprint": "158339e2ecf9cc93a16af35700b262de4dbcbdb67e9220f5083ef3296eebd2dd",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -157,9 +157,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "2ada07a3cec79e685826fccb675605d3170ebad289de3b55ccede172612be6c4",
+    "teacher.html": "637ae9f8bff91c46061b72c568230d1078e88ba8a26138cf913f5cd2aa143fbf",
     "student.html": "c10be5eff9c26effc0ea15dcd6c8cda3618e0fd9f1e3526dad64fbfdc83c3d4f",
-    "student.zip": "1b1e6398761ded0acc8f871332ffea9e6e84b0d45afa411e823d89df7fe8478c",
+    "student.zip": "57b66e228eaa301419f682b8e1a62d6d312400b4fe0a336eb52e64f5c86700b7",
     "content.json": "b3fb504a2c8a06fdc7db01e058e2b626cd4e063e85bf2ba181417f7b45361444",
     "teacher-guidance.json": "065e4aa2aba1ef4d30805bf5e2429ca0f11db02e7ebaa5ffd4f85b0e30e4839d"
   }

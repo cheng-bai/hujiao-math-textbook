@@ -7,7 +7,7 @@
   "title": "空间向量基本定理",
   "section_json": "batch/sections/x1/x1-3-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-3-2",
-  "fingerprint": "310a60ad7cfaffe32c71213defc1d2e89376d01652c2a2e3811f4656b5b90caf",
+  "fingerprint": "620e05c4eb16db1823db9a991ce51e39473705568e748dc53c6deee90e3057c8",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -127,9 +127,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "b485ca296b393eb38b6bde02e210339678c9cfa35fec452342c597d354082fcd",
+    "teacher.html": "6b384d2e90e954f97ee1b7db5a7f8d8a01ef10ae35926b0659dff848bcc3c83b",
     "student.html": "09cafc2dc0223070dca8297d850e006dd1f7f3a2615e3f712070e974b57520e4",
-    "student.zip": "b026b2cf69a9893b536a9563a2616279acd38cb9b319c0bed04df61272765320",
+    "student.zip": "849fb9cef053183de3ee424e318bb03a439c7aadbbae1a5b9381209708dc9950",
     "content.json": "4c8a4855cfe4b6a5d0565862b06e2476994eb40c4f42e1d4ab3f4221ac237476",
     "teacher-guidance.json": "0746e02b3edc0de03ab222fd1a3e7b69a68956c9a14c452b31a938bc9df44810"
   }

@@ -7,7 +7,7 @@
   "title": "复数及其四则运算",
   "section_json": "batch/sections/bx2/bx2-9-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-9-1",
-  "fingerprint": "be6a7474ab7e71cb5a4688b23b92c93abccc935c3e6f2253c939ccec8cec9cec",
+  "fingerprint": "3bbc5b0405115c302914d63436e93fcd8bc62df1e9e3d848b8bf881b12a3e6f5",
   "status": "rendered",
   "questions": 34,
   "answers": 34,
@@ -137,9 +137,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "8b336ee3c737aa192003240bbd7211ff794f9676164da2754090eb25c5343975",
+    "teacher.html": "afb84b831ebfefd2e35da175ecf31b96e36525dabd3df93c55b434779ad963e3",
     "student.html": "2eebc0d8754df45f5e30e4cc855ebcbc1c23059b5180fe96591bcfc17502f6ff",
-    "student.zip": "2c876dd212a1b5e255013335f465919390fbafb470e7a988ed708ece33873695",
+    "student.zip": "d37968ed8504c7061d91da67ddd081feca019843daf79f871cbe29f311b5261c",
     "content.json": "c533afb09c79ddd3b2a9d3871fca88593ea83e94aac2b6ec58ee8426711e6723",
     "teacher-guidance.json": "84a6fe1e9262024f136c9eccc3f704dbf0e2ee006ea2db5dc6c492fc62991e7c"
   }

@@ -7,7 +7,7 @@
   "title": "直线的方程",
   "section_json": "batch/sections/x1/x1-1-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-2",
-  "fingerprint": "96e8d8a1b14dea582d4d1dc8cb9a392175e06019cc0abda1bc0ad69c01101396",
+  "fingerprint": "8f7176dadc144d70ff3a533d6172f5429abbc2122e5ac37f940226f103d4fddf",
   "status": "rendered",
   "questions": 49,
   "answers": 49,
@@ -215,9 +215,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "6ab81a9940ba08605df03a5c80ae2ae31913429d648ae96ee073ffb2b63bb8c6",
+    "teacher.html": "42cf35e1532ecc4f49f5ac9ed54a8f6ad82b67b0886b6a850767db933aa10016",
     "student.html": "a6d5bd6a5ccdf949d0a28fc5700611445d40d3180a79b877611fe6dff5d10f18",
-    "student.zip": "35c7e372211ca1e9d67c79bfe4cb442e84c59ec86d0338964ad6447323c67813",
+    "student.zip": "6373a19e65f45e2ba9774915971100bbc8fdc5efec5924435c8122f39f291b6a",
     "content.json": "687749383b0da28e5e623b611f6e6f4d665409eb193098c66caa1ef555323e57",
     "teacher-guidance.json": "4e25f642763c4f7d6f2bc410482ca93a7bae7d3883cbb3a8eb55a4ca0b36e752"
   }

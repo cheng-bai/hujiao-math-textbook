@@ -236,7 +236,7 @@ def validate_section(path, browser, force=False):
         check('question_ids_unique',len(ids)==len(set(ids)))
         check('question_answer_and_provenance_complete',all(q['markdown'].strip() and q['answer'].strip() and q['provenance_question'] and has_answer_basis(q) for q in questions))
         html=(out/'student.html').read_text(encoding='utf-8')
-        check('student_html_physically_excludes_private_content',all(token not in html for token in ['class="answer"','teacher-only','question-analysis','_sources/','images/private-','href="teacher.html"','隐藏全部答案']))
+        check('student_html_physically_excludes_private_content',all(token not in html for token in ['class="answer"','teacher-only','question-analysis','_sources/','images/private-','href="teacher.html"','隐藏全部答案','teacher-highlights','highlights-open','id="highlights-open"']))
         with zipfile.ZipFile(out/'student.zip') as archive:
             names=archive.namelist()
             check('student_zip_crc',archive.testzip() is None)
