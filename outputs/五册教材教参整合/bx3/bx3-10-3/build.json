@@ -7,7 +7,7 @@
   "title": "直线与平面的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-3",
-  "fingerprint": "5071c62e94c67ffe0dd97a72fc326569bb8197469a155ff1d9c63bcb2b43ea58",
+  "fingerprint": "b43818488e9c1685cab58cbdc570bd1b0a3ee68c41a66eecb599f25f947f3c0e",
   "status": "rendered",
   "questions": 39,
   "answers": 39,
@@ -301,9 +301,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "dac93ebc72e3de91bd76a6069b82231f583de0deb49ca07fad21bc4e68e73c40",
+    "teacher.html": "88c0dea968d72b53aab5758d2b02bdda96a9e862ebf6f1afcb31afe924760088",
     "student.html": "0888e2caa497134e22bf5db672d7cb25de89aa68e73d7aaffa653bfa713ed75c",
-    "student.zip": "f088edfcc63b0717e223584771171f388c59a2b632f1184ced54f16561bc7f8b",
+    "student.zip": "07f39158c8c4e6b5f8e48434ac080a105edda5f56734e3d0293c8f501fdff43b",
     "content.json": "0ea02ab6608a5135849d3b830badbd121e2029159564f892354918825efddf31",
     "teacher-guidance.json": "a30f88efebfa0109336a89918529e1623430d6abe5642cdfdb70ce4c44c0e147"
   }

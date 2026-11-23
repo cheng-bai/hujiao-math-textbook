@@ -7,7 +7,7 @@
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/x1/x1-chapter-end-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-chapter-end-2",
-  "fingerprint": "8e6ce7466428c19d43968fe0afa6bbcd8d3129365cffcfba3e3a06415e945c9b",
+  "fingerprint": "75e76c595312b8507ea63105db441710966e301f70aced96acd6ab2ba69caaeb",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -40,9 +40,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "49c334134a81ed7a52d2b604f6ab57c2794e3a5b9b585d801f2966e5276f9562",
-    "student.html": "82226e4ae60f02ee10b7078208bfec15e45e53b2c2396e345ceffb2918f974dd",
-    "student.zip": "3692db473af47570d2b825679564d4e382f27bcf5e7583fb504e6c79eecc84ac",
+    "teacher.html": "b44f9b355afc5d17c427084a60147872101fa61fecffd965d894a79fe19c7290",
+    "student.html": "bdee7b922463fd12af9f02579ac5adaa0efcade6d38947d27cad1958935bfb82",
+    "student.zip": "6fc4cdbed0713fb8301869baff3b2eb65b7fa860086335d1c8b3d8b585ab76c3",
     "content.json": "11434db90d7b383e5f1e6a7063a5705bb5a68f8fc82721976f76d65aa41cb74c",
     "teacher-guidance.json": "7769805fd643d901f8aca249e7f22f4f5d2d305b4c9ceea50b1c9e7119b2f42b"
   }

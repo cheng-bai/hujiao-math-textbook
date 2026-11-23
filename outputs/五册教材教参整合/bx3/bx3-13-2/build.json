@@ -7,7 +7,7 @@
   "title": "数据的获取",
   "section_json": "batch/sections/bx3/bx3-13-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-2",
-  "fingerprint": "a195eb83c03ab75f1bda9d26a3c6296c6ceccaf289a59af9ad3095b3ad4b97bf",
+  "fingerprint": "7795ddfda1267a1ef01f70edc38ac5826108d323cdafb5807a1fe8571ba409c8",
   "status": "rendered",
   "questions": 10,
   "answers": 10,
@@ -73,9 +73,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "dab3c012beaa6eb350ace7a43af7f7d8316a7e2474bdf4dbbb9b164a772b7389",
+    "teacher.html": "e578edffa1e0b9c2bb8d2a9394d9e8f72ebeb1b097cf489e76aebf04723bc48a",
     "student.html": "a1677878a8d58d3db84b745d87e2d91e2ecb8fc322c3188bf79704d83b696ef2",
-    "student.zip": "cfd4ccdfbc7e49d46b5caa0143d152b1bdac222be826477d9f1b045ea124d499",
+    "student.zip": "9d9304dd4a5db430aa98b3b4212ff6415a748342d499be1514741cfe5c79119e",
     "content.json": "87af77e66bf020053e3458547afe91aceabe80e2eacbb6a723484ba511937c15",
     "teacher-guidance.json": "c3626850b7149fa33d62e1b3cf86ab1eca338147ea681ebfa018a010b156314e"
   }

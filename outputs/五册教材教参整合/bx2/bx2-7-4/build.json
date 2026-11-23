@@ -7,7 +7,7 @@
   "title": "正切函数的图像与性质",
   "section_json": "batch/sections/bx2/bx2-7-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-4",
-  "fingerprint": "e3cd697f284edbcdb095c0fefc7bafa98c667b418076705b4b50a7e6135e94f8",
+  "fingerprint": "43ce668dd8e150e6732fec9afc07f97ce3fd8d3cc27552906ccac5d26900a03b",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -109,9 +109,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7fd8b716c539c904d2a36e44024ab1926536e047eba1a5dd4c785e517f1124c1",
+    "teacher.html": "e9e94f8d2dc747d68c03887274ad43b5ac6d58e7f93adfc587a3c064f096afdc",
     "student.html": "ef9ab6a1269b311217678e2d77f3cbe65b2bb6fbcc6b35c2f1a5d4d02ac0abd3",
-    "student.zip": "3c0cd8fc7ad645e37258a45deb8fc7b3d5eb8f962c73b47e4e6a3abc28cd6835",
+    "student.zip": "ed6853455eeb451729e41a5be4846003361027baa3cd9cd754ab9a5eb1386a79",
     "content.json": "cf7d5e75eaa5f76665bba9ec18572f76b1c81af790f566f731ad96ebacf4bfe0",
     "teacher-guidance.json": "b76255a8ca53e6f778645c82ecc7424e5424e13bde791a5a05c9b620d3c47103"
   }

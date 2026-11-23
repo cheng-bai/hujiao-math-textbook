@@ -7,7 +7,7 @@
   "title": "等比数列",
   "section_json": "batch/sections/x1/x1-4-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-2",
-  "fingerprint": "03573e7e7ab0ffde2513f443fc3d6f2cda34bd162965c8427923fbd8d89e93d3",
+  "fingerprint": "52f938d20d814a4409edbe8050ecee5a1f14991242c80105b5c462e7a42ba4ce",
   "status": "rendered",
   "questions": 31,
   "answers": 31,
@@ -169,9 +169,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "3fe28ebb644bdadb68d6776d0d0190027b6c7eb1487d1e410ffba12e4805424e",
+    "teacher.html": "6bf255d929048c174b7a737297496e1a8f838f3e658e0a779fdcb2b9e29b0753",
     "student.html": "8be0e7dc1bc310c33b5194ce3dbf196f0e3bf50f6aabb4e114d0873b490bd08e",
-    "student.zip": "0d2330e326da83c46d6e2e375adbefb79564853a02269dc6a584e83dda2a5d36",
+    "student.zip": "8796c5b21f40129b832bdb97cd3f2909bcf3019b0f89f7fa3f910b5bbb99ee97",
     "content.json": "69165c78bd722456c33c1ea42114b1b165bf8a1ccc6fc724f7b5592f40750f06",
     "teacher-guidance.json": "d9a85e2ea7078c9f00b790bfa253e0f7a718976efff28e2956c0647a8f48c33d"
   }

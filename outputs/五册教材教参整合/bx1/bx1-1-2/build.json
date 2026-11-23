@@ -7,7 +7,7 @@
   "title": "常用逻辑用语",
   "section_json": "batch/sections/bx1/bx1-1-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-1-2",
-  "fingerprint": "bce845a60757d5ffa6fd5ecba952468e1974cf34ff38b82f8b1f681e40351083",
+  "fingerprint": "bd9b346db44995623a371b7606e95b3d88145ad5bc62ff8094ff7bf644f0c3ee",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -137,9 +137,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "44a56c038f3c576990c8bde58a7c3f3ecb40a93323c59c32ee87714858fb5810",
+    "teacher.html": "861d082ab447547b244c355cd690f0b11763810c557a5ba10dd7f661783ebbb1",
     "student.html": "c7989197cf34e3a68633e8a3162ba9d45004d9c60899f795812d450a1b84e408",
-    "student.zip": "035919a766175700ff89b24023bd3c766d418c1e78a03a6002e4af83e5c23edf",
+    "student.zip": "ffa829306c82a447754e8f450f0f710f96b37610ffb344e82b7adfdd15d670cf",
     "content.json": "91c3b65c53775f9d7d1603fbd617182291348dd859049c80cb4d2c674e939503",
     "teacher-guidance.json": "ed207c5a9adbd70675e4aeb866aff1752617be2260100bf3bd78243107658cc3"
   }

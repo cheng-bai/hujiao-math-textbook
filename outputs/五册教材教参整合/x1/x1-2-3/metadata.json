@@ -7,7 +7,7 @@
   "title": "双曲线",
   "section_json": "batch/sections/x1/x1-2-3.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-3",
-  "fingerprint": "e3f651ad8a45e0e419aa6f753ed195c73bc6d78a08b90a0240e6625160ddf09a",
+  "fingerprint": "0288e5d277ae13c0daeaa6c89c54fb5c50a1f59cc8d3dca12f6636e425261609",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -224,9 +224,9 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "bf80a4ac5f9a9a342ea94d84f49619bad2847778ad0551b5263a20a3752187cb",
+    "teacher.html": "126ba4e7c79da077fda78e70bbbb692a4f599eda952500466183a8d867a16187",
     "student.html": "73676c932ca93eaf45b6bf4b3e91590f52e23e2da31dc9f91444f7b8bd0ef846",
-    "student.zip": "dd4dd45a768e1197d8879bbf2e46ed19e094bba88e577ccfa62a8acca0179532",
+    "student.zip": "23f6307491e8c14677b35e6028834d8209bff4315fcce2f8fb05208d806d94a1",
     "content.json": "f0c0c57638c19b3642fa868726d1d8ea0c9887ba32fd49656260e9022d292694",
     "teacher-guidance.json": "8d23dac986394d35a41e2b514f0d6acfd605fe16d575c2f35ea8d53e91b05d5f"
   }
