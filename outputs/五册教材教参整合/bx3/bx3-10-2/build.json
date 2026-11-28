@@ -7,7 +7,7 @@
   "title": "直线与直线的位置关系",
   "section_json": "batch/sections/bx3/bx3-10-2.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-2",
-  "fingerprint": "704ef29fc66355c12745e08e97d93f47f5bdf186ef71008d7c504625e03a66bb",
+  "fingerprint": "c123613bf850170d92f7de5a464f13c1432ff57b5f183bf613b84e6fa9dd5eab",
   "status": "rendered",
   "questions": 26,
   "answers": 26,
@@ -292,7 +292,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7288047423f20cbb6237c971f283775a659d5b6c60a3b7614a4aca319a89aea6",
+    "teacher.html": "dcf5ad44e28623ee14a42a17c55b6a8d502c886d90b8c51575593858a4bf741e",
     "student.html": "68dee2e6021e81925c4dcfc11803e14b0b5b3468dec576bff5014d1a7ef299f6",
     "student.zip": "55bd0afae31a1e4ade08310c61fcaf877f8987ef37c754ec3129cffecefe7529",
     "content.json": "5e78724673ee0b22bdc120f554e4c414ecd076bee11314e9dcc08dba80bf50e7",

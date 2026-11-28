@@ -7,7 +7,7 @@
   "title": "章末阅读、内容提要与复习题",
   "section_json": "batch/sections/bx2/bx2-chapter-end-6.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-chapter-end-6",
-  "fingerprint": "68197c62566465ad9b52a0d1919c5ff88ae0c3a865b904c23e7232a6f87c0bf0",
+  "fingerprint": "26c5f15f83ecc4b441d4fb9256d12909b960bc836101e26c38778784422bd36b",
   "status": "rendered",
   "questions": 24,
   "answers": 24,
@@ -64,7 +64,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "59b7ac9ec5337dd960327bfb5aa51e617ceb0772aed4ed5a8bcb65b63aaf7344",
+    "teacher.html": "dc725f20360d7442a547f5becb5f479d815c3693b62719c8939fcc6525a0cb40",
     "student.html": "9c78bf37e07d26109f0638115d83eae89d6abdc31a0b7225f2cb56af53a17ffa",
     "student.zip": "3276cca90a8987a3fd733cbc606fe43a0d4dc247199470c8c4844f9ad58607a6",
     "content.json": "972f5e9b058a4806f710b9fb454158424063a9e4ab34b758876f22b348d5278d",

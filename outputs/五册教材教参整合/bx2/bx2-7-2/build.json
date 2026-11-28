@@ -7,7 +7,7 @@
   "title": "余弦函数的图像与性质",
   "section_json": "batch/sections/bx2/bx2-7-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-2",
-  "fingerprint": "d4de66197d35bed7781fc9d1b61e04ea522261ec2669e1e74f882195a90ff03c",
+  "fingerprint": "dfb39f42a93e957d3fce5b5f06a4dfee07a21d67cf63b02d342e27d661f013ef",
   "status": "rendered",
   "questions": 13,
   "answers": 13,
@@ -79,7 +79,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "327d436f5425fadd2e832bab5f227ebeacc51b51eb4bc13314c36811056007ed",
+    "teacher.html": "09ca604e4ee6c40e0c418b91782ef3013904058e2bbfa496172697071e561aab",
     "student.html": "f2791237e04baff1de7cffe9e4bc47596e5e0c07b251d276b2d7961445e28e6e",
     "student.zip": "8761d958f171c61443cb1626a89c64b9b2c8a2b0df9a86eb1e6644c2411a1ee6",
     "content.json": "4bd22c50527d6d7f5fcc1549c315c37e12c295a4bf2e152a192eea220a88b176",

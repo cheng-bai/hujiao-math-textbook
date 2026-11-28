@@ -7,7 +7,7 @@
   "title": "函数的基本性质",
   "section_json": "batch/sections/bx1/bx1-5-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-5-2",
-  "fingerprint": "36ffbf830fc42091054313c1c731ba151561f39c7835c0bab43b5d5f1cab2652",
+  "fingerprint": "683910422ab3ccacb51c9284dab06b1999e174776d16d9ba91df0a1e532da991",
   "status": "rendered",
   "questions": 43,
   "answers": 43,
@@ -231,7 +231,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "981fd47ebdb0eb3df75c5cd7d19abf3ac60a5fef6500c0117c24478541c74300",
+    "teacher.html": "8b90c90a033ead18b2dad8bdbde8811468872a6e958ba49f44bc183bdfed9ed8",
     "student.html": "49fefdb3ae1b686c9aed2233508bcc3ec9a0b57c0cb32c6fa867382a2c7a28bd",
     "student.zip": "70680bc9785859315bce66c73a395ffacab9c871c7c71817108cd465600ee225",
     "content.json": "2e411c4f5bc23320e8ffa81fd225bd8f049768f02140944bb8326cb8c47acac9",

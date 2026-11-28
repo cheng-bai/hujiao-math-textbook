@@ -7,7 +7,7 @@
   "title": "用迭代序列求 √2的近似值",
   "section_json": "batch/sections/x1/x1-4-5.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-5",
-  "fingerprint": "fe41ff23572c421ae2dedab8ab7c40ce58d280ca978719b0445aa7b474e7a04a",
+  "fingerprint": "83c8b75b6c2fb22c446b88a125b9f9af41a03feecbaa14fb73dbff076900d15a",
   "status": "rendered",
   "questions": 3,
   "answers": 3,
@@ -40,7 +40,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "71f0f44ff896d22f00efecd7437bbc29ed454ba7b3c5d74933339a991378ddd6",
+    "teacher.html": "cdd37b1c77ad19b659e1bd8220895ac418863177906c74697de4ebf7061953b9",
     "student.html": "fb1a2e3e77df68b4de0295069c3ca7b0df2fb7411bac486701a1d464b87e150c",
     "student.zip": "8606292e6595c5c748c691a03d86d108a5a1e2939636292b1efed8edca3f2adc",
     "content.json": "6df2ff57524efbfbd70d9f3af81f259334c5de60e898cfbc693d9bb8ccd09869",

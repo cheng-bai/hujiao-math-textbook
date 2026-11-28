@@ -7,7 +7,7 @@
   "title": "抛物线",
   "section_json": "batch/sections/x1/x1-2-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-4",
-  "fingerprint": "52b2ed02a9abcb83656f7afe030cecb5da06d91862ca541c15e9410fb275cc64",
+  "fingerprint": "1f0749ed089eb27c8dc289fdb689414391eee022349731fdcc3242d04462b2cb",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -162,7 +162,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "68cc30d2f8aad53ec02e8cf2ab1b3ec1554f1ae3920678e5b2f2ea7e59953fb9",
+    "teacher.html": "6477eb6537b00b23398aa7d5af67e365ec72cd15f922a66b10eb5fdeb62ad43a",
     "student.html": "378f48a8d8b527a134e91d804c8d7de6f0dc080751dc6116192f55183a6c645e",
     "student.zip": "adf931b474909f2fe5bf2b34c4352919373818ad022c8c56e25db3ea4562a4b2",
     "content.json": "98fd715c80f70a0729ec5669a54783f35cdfe92f0b2f2a44f3d4b5cb463c340d",

@@ -7,7 +7,7 @@
   "title": "对数",
   "section_json": "batch/sections/bx1/bx1-3-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-3-2",
-  "fingerprint": "c2e3777fd72bcedacee4f0b22dbeba75ce2dcf26416a469ccf87653eb0602e77",
+  "fingerprint": "e053c2fe9b2f1422b47afcfd801e777aee9a6470a5e2dfd61107b2c2cc79d1ee",
   "status": "rendered",
   "questions": 30,
   "answers": 30,
@@ -139,7 +139,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "5e50705b51a568fe2e8889475078fca0ebd19099a1bdd6af247fa3ce20df1bf6",
+    "teacher.html": "f781856cf205765b84ccafaac2e3515302db514a4dc4e7644a8563e28d070394",
     "student.html": "e53ed165978366f0245dc5157bc391ac5606b0961e7f7561068af01bbbc82c32",
     "student.zip": "5ace7f6ba125a50bd0b0a59b9cef2134e1915911940e1c046085e83625f07525",
     "content.json": "511e75cf2cceb2408f9eef4d584718abd6ec04c017aab14b35040cceea0bcd57",

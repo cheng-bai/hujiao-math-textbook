@@ -22,3 +22,14 @@ jobs:
       - run: python scripts/test_portability.py
       - run: python -m pip install markdown-it-py==4.0.0
       - run: python scripts/test_build_roundtrip.py
+  teacher-highlight-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m playwright install --with-deps --only-shell chromium
+      - run: python -m unittest discover -s scripts -p test_teacher_highlights_browser.py -v

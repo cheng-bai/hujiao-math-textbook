@@ -7,7 +7,7 @@
   "title": "二项式定理",
   "section_json": "batch/sections/x2/x2-6-5.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-5",
-  "fingerprint": "87fbd8667f2ba86a960bed07a2bd47104afd0aa6a550c768eb536b3c17aaab2d",
+  "fingerprint": "bf4c8a1a2a1b8e0e7dbd8552e6ec94a9d94a363c30bd4175152929641faca740",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -127,7 +127,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7fa2f37c48f3d0b0072094ddd540e5246742188e901535eb3b0189b1360f9f0d",
+    "teacher.html": "2dd343ffe96b05aa0a3e6e63eb3e9b2cf2902920203695280e565643bae5c18f",
     "student.html": "4bdd4a5fdf52dc4669e5c13adba9916f6645d224306e6513434ec452b28d9b46",
     "student.zip": "7620213847a29c102342147fe90ff2fa8a91c77e1d77969afb282d05cc3a71fa",
     "content.json": "0f6028a34f9309c3fe29b19ed4d032028f12cd964388dc1ea3620f7c29389b54",

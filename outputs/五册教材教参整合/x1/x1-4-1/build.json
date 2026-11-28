@@ -7,7 +7,7 @@
   "title": "等差数列",
   "section_json": "batch/sections/x1/x1-4-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-1",
-  "fingerprint": "caa1312302621a359a07617693fd89f357ba27b57f01c27d8ba4ed50c8e1fc2f",
+  "fingerprint": "19d6b80f7be2e2c79b5c0e2cc77a27b11b51b374eed89d81646345a1db7a4a5f",
   "status": "rendered",
   "questions": 27,
   "answers": 27,
@@ -145,7 +145,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "b49555d493dd40a71a0f580b3594c6100fff48bc6d40975e915816358d968614",
+    "teacher.html": "e9c79082fd359b4bdd5a2ee80fed1fa7994bf50bbc0310331160798f7c2379cb",
     "student.html": "dd14cb903c596dde8a45a2ce5fca1b8eb5d1e30e06c0efa99b7dca7ba846b8fb",
     "student.zip": "75838b7d9b8fe308c7ed77568c5e7cdf602fc8ad32e7f17521c2dc5f24569047",
     "content.json": "a9328090d97d982c06751d3118808e631fc9e427b327b38d54d26908e31ba30e",

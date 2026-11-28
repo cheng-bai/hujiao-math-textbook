@@ -7,7 +7,7 @@
   "title": "排列",
   "section_json": "batch/sections/x2/x2-6-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-6-2",
-  "fingerprint": "bdb208d428c491a81bae276f2bb69d24a7388d5f00288d34495299564e2cc190",
+  "fingerprint": "437ab0c1a23a77f05681ca77b9792bbbb96b21b5e85c851a8122f5832c013fce",
   "status": "rendered",
   "questions": 30,
   "answers": 30,
@@ -179,7 +179,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "65a141fd9069db59e065aeefcfb545947df006533a0ee2ec39a7dc728b556463",
+    "teacher.html": "3f4b92ef6730592ce11eedc88550620f17903e948e6df3cd3ceb215b286734a1",
     "student.html": "d28caf29f7f4376b997af2ffcf5cac82cd69f8eae504d0c0eb2adee5c948a233",
     "student.zip": "c9afcb0721a75f6190b46cd355ecaa379d7b12b5cb37b3ad310f3818c627098f",
     "content.json": "52009ce98c6fa4ccda9bd1d834ad64cb72ef7eed428c5f528dc21092b4d5b8d0",

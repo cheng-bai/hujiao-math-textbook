@@ -7,7 +7,7 @@
   "title": "正弦函数的图像与性质",
   "section_json": "batch/sections/bx2/bx2-7-1.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-7-1",
-  "fingerprint": "caf4a9fdb711c1256c7fb958b5d3df8b8ba70d461c1ed94058a14e6be219a2cd",
+  "fingerprint": "af5dbc087417b0f5008ceaae46765078f86ae91c009d362a1ebc82ae42773a8f",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -241,7 +241,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "787f976773562962037acf8e690abbf527d7e3ab2af5325e2b3cae2e49c025ba",
+    "teacher.html": "be5d6425d31bd7868885a5bba4698318db16f0f3e712a8c7d1687bb39c89a28a",
     "student.html": "d59c191de5cd2ea839cf8a920eb5436b46812870d34937153671243d22dfc737",
     "student.zip": "8ebd4d5a2562b947879289576062207e516e289c17e41cf2e225147c580a74e3",
     "content.json": "226aa7f2a8f585588dd84393df1567d2506324db86b598c9b58b34a7d643e0b5",

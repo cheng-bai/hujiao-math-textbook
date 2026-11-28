@@ -7,7 +7,7 @@
   "title": "总体与样本",
   "section_json": "batch/sections/bx3/bx3-13-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-13-1",
-  "fingerprint": "4586ccc485d1b61491bae144a3a5090a64e27a424b627f4ebaf16132a0c6493c",
+  "fingerprint": "207c09ec9529ef8be4d08bf8c9afd41f7a2341737bdf81830a6fb072aaac52c9",
   "status": "rendered",
   "questions": 9,
   "answers": 9,
@@ -54,7 +54,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "649b78e68110592ca28fe0e3be2d36858873635ccc76d14a58987b3ec1eca116",
+    "teacher.html": "8c206cdcb2e0c9f5cb57efb25761554a2f521b95a257f09b6197f70cd08a5730",
     "student.html": "89551fe0747d4a222038471ac857bca564f0952726e433a36e7b8cbc15eaeb78",
     "student.zip": "8b8e8bdfb9f2a5199b8bc93c0f9a3987950c2645e7c1fa0458e09348f0101bce",
     "content.json": "7d02a7fd2e0f06aec8a9cd1115b3e6575d073e5ec9317988c8fd8bdc9914206b",

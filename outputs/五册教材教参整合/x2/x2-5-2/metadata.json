@@ -7,7 +7,7 @@
   "title": "导数的运算",
   "section_json": "batch/sections/x2/x2-5-2.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-2",
-  "fingerprint": "84f2d5bf1d42938feaaae751dd2a27dcca0107e274bb909ae29ec9d8069beded",
+  "fingerprint": "df8c21a5759feb908af05acf31b68aeb1792a09ea0000e70d660c2e3a8eafb09",
   "status": "rendered",
   "questions": 37,
   "answers": 37,
@@ -161,7 +161,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "b2478cd14411fdc9076be1561518d100dd08eb8306ed63142a0cf689cd7a1200",
+    "teacher.html": "6c1f5edb885c850db8a87bd24dbda525d17b047b728682a9a9f0858b1fad4259",
     "student.html": "608d4dda04db70da592237c77ee3b5a12f536ca8dab116a29922bf808fd5d5bc",
     "student.zip": "dc1ceb3eec167b385706fe1bd60a7ed6a84b2906db0035a577a95e7d76bdb60a",
     "content.json": "baca2430776e7ad979faeb3a87d42c25dce6170a0421f1b19f02e151ecb97d56",

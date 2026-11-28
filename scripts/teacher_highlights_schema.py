@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime
 from typing import Any
 
@@ -24,7 +25,7 @@ def export_document(section_id: str, annotations: list[dict[str, Any]]) -> dict[
 
 
 def sanitize_annotation(item: dict[str, Any]) -> dict[str, Any]:
-    return {
+    annotation = {
         'id': str(item.get('id', '')),
         'blockId': str(item.get('blockId', '')),
         'quote': str(item.get('quote', '')),
@@ -32,6 +33,9 @@ def sanitize_annotation(item: dict[str, Any]) -> dict[str, Any]:
         'color': item.get('color', 'warm') if item.get('color') in {'warm', 'green', 'blue'} else 'warm',
         'createdAt': str(item.get('createdAt', '')),
     }
+    if 'paragraphTag' in item:
+        annotation['paragraphTag'] = item['paragraphTag']
+    return annotation
 
 
 def validate_import(raw: str | bytes | dict[str, Any], section_id: str) -> tuple[list[dict[str, Any]], list[str]]:
@@ -60,6 +64,10 @@ def validate_import(raw: str | bytes | dict[str, Any], section_id: str) -> tuple
         block_id = str(row.get('blockId', '')).strip()
         if not quote or not block_id:
             errors.append(f'第 {index + 1} 条缺少 blockId 或 quote')
+            continue
+        tag = row.get('paragraphTag')
+        if 'paragraphTag' in row and (not isinstance(tag, str) or not re.fullmatch(r'[a-z][a-z0-9]*', tag)):
+            errors.append(f'第 {index + 1} 条段落高亮格式无效')
             continue
         items.append(sanitize_annotation(row))
     return items, errors

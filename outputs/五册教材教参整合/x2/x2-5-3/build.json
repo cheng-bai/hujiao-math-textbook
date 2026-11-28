@@ -7,7 +7,7 @@
   "title": "导数的应用",
   "section_json": "batch/sections/x2/x2-5-3.json",
   "output": "outputs/五册教材教参整合/x2/x2-5-3",
-  "fingerprint": "65e88c82c6282b4015d29c2847404985a4370ce934385859dca643a6997f824c",
+  "fingerprint": "5f6152909c3f96496195c3d22d0c249164aa6a5b65fcea2f0725bf88c86aa3d9",
   "status": "rendered",
   "questions": 35,
   "answers": 35,
@@ -259,7 +259,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "20babd5313f607bd9225facb939580bb9dba5ca7fb43d643b1f4c352cf711cd4",
+    "teacher.html": "ca0c16244656fd86b2dc9a3555df22c8a89e0367f5ebb5e887d3444758cc17dc",
     "student.html": "4251f4ee5a450b7381bed46a56be6a9f7742624c59d2d28dd004d5e81725e612",
     "student.zip": "e48b898d87a167bca03039aac98c840d0ea52b47aec0b9e1c24f2ca3e7546b1a",
     "content.json": "5f1d4e9956d5ac5aeb2899a88a3afb800bc1d4da741ccab7419967e4d38bdb3b",

@@ -7,7 +7,7 @@
   "title": "曲线与方程",
   "section_json": "batch/sections/x1/x1-2-5.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-5",
-  "fingerprint": "f1fd8761a66d4403ede6f09603496017924563b2a2e483ddd46b6fb4e875c83c",
+  "fingerprint": "56b4f9575cdfe678f3ae930920d17d2443dd9c34aa3d77f558c4d4858f1e7fad",
   "status": "rendered",
   "questions": 41,
   "answers": 41,
@@ -293,7 +293,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d6ddb93d959c295c7556c18dc228c0b52e8f41235411e619b7dafda519187a02",
+    "teacher.html": "58fcc275c9bc6687e4bbcb5bfe8d0b652ed19f96ea6093ce302adf281e276372",
     "student.html": "9cf29d735338d860a5303c9e19ca51808ae8a13ce8c7f7a771d8331f35a0ad19",
     "student.zip": "13e20d9e5d774b15aa73e8e6e2f4de61932bf51e4dac39a6e4a22a0b49d0b940",
     "content.json": "bb12292982d875301a4ecde4e437ec43ed634561c4c278752ff8dacfa5c4662f",

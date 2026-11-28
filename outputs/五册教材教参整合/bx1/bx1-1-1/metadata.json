@@ -7,7 +7,7 @@
   "title": "集合及其表示",
   "section_json": "batch/sections/bx1/bx1-1-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-1-1",
-  "fingerprint": "d87178bf810fd4d28cdf7cc64b2782a59cfb5e565cbe4389af30b36c648ac98a",
+  "fingerprint": "02a35bf0f22408b0ca0628def3c1e32af50a9215dd9a36d53d6344906a0e02fa",
   "status": "rendered",
   "questions": 36,
   "answers": 36,
@@ -236,7 +236,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "dc0288c8d11d4b48041ca7eb3a4007ee644a5219bde7ae689a060580fc473f7f",
+    "teacher.html": "2912b19c28b4955f30d59d4e69645d10fa8dba5dc0bcd0c71e826e6f75683d1e",
     "student.html": "afd26e1a1e0a1a77be90ee96d1cc30e7de843d47369dda4e5dba1685c0e003d4",
     "student.zip": "67930495d86d27d3c822189126599171d6184b3e51a381275a758e543ef7f1bd",
     "content.json": "629ff137fb30e7103adb04d50e04fe08dd3ded275488917a6198be53af42f429",

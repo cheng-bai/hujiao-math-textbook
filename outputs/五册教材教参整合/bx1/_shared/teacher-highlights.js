@@ -6,12 +6,15 @@
   const storageKey = `hujiao-teacher-highlights-v${STORAGE_VERSION}:${sectionId}`;
   const body = document.querySelector('.book-body');
   if (!body || !sectionId) return;
+  const paragraphSelector = 'p,li,td,th,h1,h2,h3,h4,h5,h6,.question-body,.question-label,.group-heading,.math.display';
 
   const popover = document.createElement('div');
   popover.id = 'teacher-highlight-popover';
   popover.hidden = true;
   popover.innerHTML = '<button type="button" class="primary" data-action="add">高亮</button><button type="button" data-action="block">高亮此段</button><button type="button" data-action="dismiss">取消</button>';
   document.body.append(popover);
+  const textAction = popover.querySelector('[data-action="add"]');
+  const paragraphAction = popover.querySelector('[data-action="block"]');
 
   const dialog = document.createElement('dialog');
   dialog.id = 'teacher-highlights-dialog';
@@ -19,7 +22,7 @@
     <div class="thl-head"><h2>我的高亮</h2><button type="button" data-close aria-label="关闭">×</button></div>
     <div class="thl-body">
       <p class="help">仅保存在本浏览器，按稳定题块/段落 ID 定位。换设备请导出 JSON 再导入。</p>
-      <p class="help">公式内划选可能不稳定；可改用「高亮此段」。KaTeX 区域请高亮整段。</p>
+      <p class="help">划选文字可高亮选区；选区含公式时可用「高亮此段」。</p>
       <ul class="thl-list" id="teacher-highlights-list"></ul>
     </div>
     <div class="thl-foot">
@@ -30,9 +33,10 @@
 
   const list = dialog.querySelector('#teacher-highlights-list');
   const status = document.querySelector('#status');
+  const placedMarks = new Map();
   let saved = [];
-  let pendingRange = null;
-  let pendingBlockQuote = null;
+  let pendingText = null;
+  let pendingParagraph = null;
 
   function announce(message) {
     if (!message) return;
@@ -61,7 +65,7 @@
           group = null;
           return;
         }
-        if (node.matches('p,li,td,th,h1,h2,h3,h4,h5,h6,.question-body,.question-label,.group-heading')) {
+        if (node.matches(paragraphSelector)) {
           container = node;
         }
       }
@@ -80,12 +84,33 @@
   }
 
   function stableBlock(node) {
-    const block = node?.parentElement?.closest('[id]');
-    if (!block?.closest('.book-body')) return null;
+    const block = elementFor(node)?.closest('[id]');
+    if (!block || !body.contains(block)) return null;
     return block;
   }
 
-  function locate(item) {
+  function elementFor(node) {
+    return node?.nodeType === Node.ELEMENT_NODE ? node : node?.parentElement;
+  }
+
+  function paragraphQuote(paragraph) {
+    const clone = paragraph.cloneNode(true);
+    const formulas = clone.matches('[data-tex]') ? [clone] : clone.querySelectorAll('[data-tex]');
+    for (const formula of formulas) formula.textContent = ` $${formula.dataset.tex}$ `;
+    return clone.textContent.replace(/\s+/g, ' ').trim();
+  }
+
+  function locateParagraph(item) {
+    const block = document.getElementById(item.blockId);
+    if (!block || !body.contains(block)) return null;
+    const candidates = [...block.querySelectorAll(paragraphSelector)];
+    if (block.matches(paragraphSelector)) candidates.unshift(block);
+    const matches = candidates.filter((paragraph) => paragraph.localName === item.paragraphTag
+      && stableBlock(paragraph) === block && paragraphQuote(paragraph) === item.quote);
+    return matches.length === 1 ? matches[0] : null;
+  }
+
+  function locateText(item) {
     const block = document.getElementById(item.blockId);
     if (!block || !item.quote) return null;
     const matches = [];
@@ -109,6 +134,10 @@
   }
 
   function clearMarks() {
+    body.querySelectorAll('.teacher-highlight-paragraph').forEach((paragraph) => {
+      paragraph.classList.remove('teacher-highlight-paragraph');
+      delete paragraph.dataset.paragraphHighlightColor;
+    });
     document.querySelectorAll('mark.teacher-highlight').forEach((mark) => {
       const parent = mark.parentNode;
       parent?.replaceChild(document.createTextNode(mark.textContent), mark);
@@ -118,8 +147,18 @@
 
   function applyMarks() {
     clearMarks();
+    placedMarks.clear();
     for (const item of saved) {
-      const parts = locate(item);
+      if (item.paragraphTag) {
+        const paragraph = locateParagraph(item);
+        if (paragraph) {
+          paragraph.classList.add('teacher-highlight-paragraph');
+          paragraph.dataset.paragraphHighlightColor = item.color || 'warm';
+          placedMarks.set(item, paragraph);
+        }
+        continue;
+      }
+      const parts = locateText(item);
       if (!parts?.length) continue;
       for (const part of parts.slice().reverse()) {
         const range = document.createRange();
@@ -140,6 +179,7 @@
         });
         try {
           range.surroundContents(mark);
+          placedMarks.set(item, mark);
         } catch {
           /* Range may split nodes after DOM updates; skip this mark. */
         }
@@ -147,12 +187,33 @@
     }
   }
 
-  function persist() {
+  function persist(items = saved) {
     try {
-      localStorage.setItem(storageKey, JSON.stringify(saved));
+      localStorage.setItem(storageKey, JSON.stringify(items));
+      return true;
     } catch {
       announce('保存失败，请检查浏览器存储空间。');
+      return false;
     }
+  }
+
+  function jumpToMark(item) {
+    const mark = placedMarks.get(item);
+    const unavailable = '无法唯一定位；未在正文高亮。';
+    if (!mark?.isConnected) return unavailable;
+    if (mark.closest('.notes-hidden .teacher-only')) return '这处高亮在隐藏的教师批注中，请先显示教师批注。';
+    if (mark.closest('.answers-hidden .answer, .answers-hidden .question-analysis')) {
+      return '这处高亮在隐藏的答案或解析中，请先显示答案。';
+    }
+    for (let ancestor = mark.parentElement; ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.matches('details')) ancestor.open = true;
+    }
+    if (!mark.getClientRects().length) return '这处高亮当前未显示，请检查阅读设置。';
+    dialog.close();
+    mark.tabIndex = -1;
+    mark.focus({ preventScroll: true });
+    mark.scrollIntoView({ block: 'center', behavior: 'instant' });
+    return '';
   }
 
   function renderList() {
@@ -185,10 +246,12 @@
       const jump = document.createElement('button');
       jump.type = 'button';
       jump.textContent = '定位';
+      const warn = document.createElement('p');
+      warn.className = 'warn';
+      warn.setAttribute('role', 'status');
+      if (!placedMarks.has(item)) warn.textContent = '无法唯一定位；未在正文高亮。';
       jump.addEventListener('click', () => {
-        const mark = document.querySelector(`mark.teacher-highlight[data-highlight-id="${item.id}"]`);
-        if (mark) mark.scrollIntoView({ block: 'center', behavior: 'smooth' });
-        else announce('无法唯一定位；原文可能已更新。');
+        warn.textContent = jumpToMark(item);
       });
       const remove = document.createElement('button');
       remove.type = 'button';
@@ -200,13 +263,7 @@
         renderList();
       });
       row.append(jump, remove);
-      li.append(quote, note, row);
-      if (!locate(item)) {
-        const warn = document.createElement('p');
-        warn.className = 'warn';
-        warn.textContent = '无法唯一定位；未在正文高亮。';
-        li.append(warn);
-      }
+      li.append(quote, note, row, warn);
       list.append(li);
     }
   }
@@ -218,71 +275,68 @@
 
   function hidePopover() {
     popover.hidden = true;
-    pendingRange = null;
-    pendingBlockQuote = null;
+    pendingText = null;
+    pendingParagraph = null;
   }
 
   function selectionIsValid(range) {
     const node = range.startContainer;
     const endNode = range.endContainer;
     if (node.nodeType !== Node.TEXT_NODE || endNode.nodeType !== Node.TEXT_NODE) return false;
-  const block = stableBlock(node);
+    const block = stableBlock(node);
     if (!block || block !== stableBlock(endNode)) return false;
-    const paragraph = node.parentElement?.closest('p,li,td,th,h1,h2,h3,h4,h5,h6,.question-body,.question-label');
-    const endParagraph = endNode.parentElement?.closest('p,li,td,th,h1,h2,h3,h4,h5,h6,.question-body,.question-label');
-    if (!paragraph || paragraph !== endParagraph) return false;
     if (node.parentElement?.closest('.math,.katex,mark') || endNode.parentElement?.closest('.math,.katex,mark')) return false;
     const fragment = range.cloneContents();
     if (fragment.querySelector?.('.math,.katex,mark,img,br,svg,canvas')) return false;
     return true;
   }
 
-  function addItem(blockId, quote) {
+  function addItem(anchor) {
     const candidate = {
       id: crypto.randomUUID(),
-      blockId,
-      quote,
+      ...anchor,
       note: '',
       color: 'warm',
       createdAt: new Date().toISOString(),
     };
-    if (!quote.trim() || !locate(candidate)) {
+    if (candidate.paragraphTag) {
+      const paragraph = locateParagraph(candidate);
+      if (!paragraph) {
+        announce('这段内容无法唯一定位，未添加高亮。');
+        return;
+      }
+      if (paragraph.classList.contains('teacher-highlight-paragraph')) {
+        announce('这段已高亮。');
+        return;
+      }
+    } else if (!locateText(candidate)) {
       announce('文字为空或在该内容块中不唯一，请调整选区或使用「高亮此段」。');
-      return false;
+      return;
     }
-    saved.push(candidate);
-    persist();
+    const updated = [...saved, candidate];
+    if (!persist(updated)) return;
+    saved = updated;
     applyMarks();
     renderList();
     announce('已添加高亮');
-    return true;
   }
 
-  function addFromSelection() {
-    if (!pendingRange) return;
-    const range = pendingRange;
-    const block = stableBlock(range.startContainer);
-    if (!block) return;
-    const quote = range.toString();
+  function addFromSelection(anchor) {
+    if (!anchor) return;
     window.getSelection()?.removeAllRanges();
     hidePopover();
-    addItem(block.id, quote);
-  }
-
-  function addFromBlock() {
-    if (!pendingBlockQuote) return;
-    const { blockId, quote } = pendingBlockQuote;
-    hidePopover();
-    addItem(blockId, quote);
+    addItem(anchor);
   }
 
   function showPopover(clientX, clientY) {
+    textAction.hidden = !pendingText;
+    paragraphAction.hidden = !pendingParagraph;
+    popover.hidden = false;
     const rect = popover.getBoundingClientRect();
     const left = Math.min(Math.max(12, clientX - rect.width / 2), innerWidth - rect.width - 12);
     const top = Math.min(Math.max(12, clientY - 48), innerHeight - rect.height - 12);
     popover.style.left = `${left}px`;
     popover.style.top = `${top}px`;
-    popover.hidden = false;
   }
 
   function captureSelection(event) {
@@ -296,24 +350,20 @@
       hidePopover();
       return;
     }
-    if (selectionIsValid(range)) {
-      pendingRange = range.cloneRange();
-      pendingBlockQuote = null;
-      showPopover(event.clientX || innerWidth / 2, event.clientY || innerHeight / 3);
-      return;
-    }
-    const block = stableBlock(range.startContainer) || stableBlock(range.commonAncestorContainer);
-    if (!block) {
+    const paragraph = elementFor(range.startContainer)?.closest(paragraphSelector);
+    const block = stableBlock(paragraph);
+    const selected = range.toString();
+    if (!block || paragraph !== elementFor(range.endContainer)?.closest(paragraphSelector) || !selected.trim()) {
       hidePopover();
       return;
     }
-    const text = block.textContent?.replace(/\s+/g, ' ').trim() || '';
-    if (text.length < 8 || text.length > 240) {
+    const quote = paragraphQuote(paragraph);
+    pendingParagraph = quote ? { blockId: block.id, paragraphTag: paragraph.localName, quote } : null;
+    pendingText = selectionIsValid(range) ? { blockId: stableBlock(range.startContainer).id, quote: selected } : null;
+    if (!pendingText && !pendingParagraph) {
       hidePopover();
       return;
     }
-    pendingRange = null;
-    pendingBlockQuote = { blockId: block.id, quote: text.slice(0, Math.min(text.length, 160)) };
     showPopover(event.clientX || innerWidth / 2, event.clientY || innerHeight / 3);
   }
 
@@ -321,8 +371,8 @@
   body.addEventListener('touchend', (event) => setTimeout(() => captureSelection(event), 80));
   popover.addEventListener('click', (event) => {
     const action = event.target.closest('[data-action]')?.dataset.action;
-    if (action === 'add') addFromSelection();
-    else if (action === 'block') addFromBlock();
+    if (action === 'add') addFromSelection(pendingText);
+    else if (action === 'block') addFromSelection(pendingParagraph);
     else hidePopover();
   });
   document.addEventListener('mousedown', (event) => {
@@ -358,16 +408,22 @@
         if (!Array.isArray(data.annotations)) throw new Error('缺少 annotations');
         const incoming = data.annotations.filter((row) => row?.blockId && row?.quote);
         if (!incoming.length) throw new Error('没有可导入的高亮');
+        if (incoming.some((row) => 'paragraphTag' in row
+          && (typeof row.paragraphTag !== 'string' || !/^[a-z][a-z0-9]*$/.test(row.paragraphTag)))) {
+          throw new Error('段落高亮格式无效');
+        }
         if (!confirm(`导入 ${incoming.length} 条高亮？将覆盖本页当前记录。`)) return;
-        saved = incoming.map((row) => ({
+        const updated = incoming.map((row) => ({
           id: row.id || crypto.randomUUID(),
           blockId: row.blockId,
           quote: row.quote,
+          ...(row.paragraphTag ? { paragraphTag: row.paragraphTag } : {}),
           note: row.note || '',
           color: row.color || 'warm',
           createdAt: row.createdAt || new Date().toISOString(),
         }));
-        persist();
+        if (!persist(updated)) return;
+        saved = updated;
         applyMarks();
         renderList();
         announce('导入完成');

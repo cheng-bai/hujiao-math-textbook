@@ -2,6 +2,9 @@ mark.teacher-highlight{background:#f6e6a8;color:inherit;padding:0 .08em;border-r
 mark.teacher-highlight[data-color=green]{background:#d5ebc9}
 mark.teacher-highlight[data-color=blue]{background:#cfe8f4}
 mark.teacher-highlight-note{cursor:pointer}
+.teacher-highlight-paragraph{background-color:#f6e6a8;border-radius:2px}
+.teacher-highlight-paragraph[data-paragraph-highlight-color=green]{background-color:#d5ebc9}
+.teacher-highlight-paragraph[data-paragraph-highlight-color=blue]{background-color:#cfe8f4}
 #teacher-highlight-popover{position:fixed;z-index:45;display:flex;gap:6px;align-items:center;padding:6px 8px;background:#fffef8;border:1px solid #d5d9cb;border-radius:4px;box-shadow:0 4px 18px #243c2918;font:12px/1.4 "PingFang SC",sans-serif}
 #teacher-highlight-popover[hidden]{display:none!important}
 #teacher-highlight-popover button{border:1px solid #bdc5b6;border-radius:2px;background:transparent;padding:6px 10px;color:var(--forest)}
@@ -19,8 +22,10 @@ mark.teacher-highlight-note{cursor:pointer}
 .thl-item .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .thl-item button{font:12px/1.4 "PingFang SC",sans-serif;border:1px solid #bdc5b6;background:#fff;padding:5px 9px;color:var(--forest)}
 .thl-item .warn{color:#a34c2c;font-size:12px;margin:6px 0 0}
+.thl-item .warn:empty{margin:0}
 .thl-foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:12px 18px 16px;border-top:1px solid var(--rule)}
 .thl-foot button{font:12px/1.4 "PingFang SC",sans-serif;border:1px solid #bdc5b6;background:#fff;padding:7px 11px;color:var(--forest)}
 .thl-foot input[type=file]{display:none}
 @media(max-width:720px){#teacher-highlight-popover{left:12px!important;right:12px!important;bottom:72px!important;top:auto!important;justify-content:center}}
 @media print{#teacher-highlight-popover,#teacher-highlights-dialog,button#highlights-open{display:none!important}mark.teacher-highlight{background:transparent!important;border-bottom:1px solid #e5cba0}}
+@media print{.teacher-highlight-paragraph{background-color:transparent!important;border-bottom:1px solid #e5cba0}}

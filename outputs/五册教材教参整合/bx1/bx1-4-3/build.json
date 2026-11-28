@@ -7,7 +7,7 @@
   "title": "对数函数",
   "section_json": "batch/sections/bx1/bx1-4-3.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-4-3",
-  "fingerprint": "cf2c59c6abac86133375ba63a3272862259f3ea0e6b6d53fd5abd4b7d01484a4",
+  "fingerprint": "c7c192bc68382ef962c705b6401a2035a5fff514813f046f39e83c5e492b25e4",
   "status": "rendered",
   "questions": 29,
   "answers": 29,
@@ -195,7 +195,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "d5f61eb5e2cb12abb7a41db272bb6a5fb11ecbd789c0646cca0b214bc7116126",
+    "teacher.html": "ec6c529ecd79c2b301e28e400cf109b3aaaa130c94ebedbb5d32810c76439a71",
     "student.html": "a519693575266c37db23c5c6566219f58577607394dbbce3c1637b17ac01841d",
     "student.zip": "feb0225f48ab64c07efacae956b2239b820a427308879f0db1813ae33c2b3304",
     "content.json": "f123c122917aba4d3b8cf8def60c315872b25287e34eb714ea39d43b92338d2b",

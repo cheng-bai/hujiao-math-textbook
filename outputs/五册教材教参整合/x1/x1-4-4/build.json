@@ -7,7 +7,7 @@
   "title": "数学归纳法",
   "section_json": "batch/sections/x1/x1-4-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-4-4",
-  "fingerprint": "f4ee4f113bdc992d1d2410a968ec3f2db53f0e61268893179263bfc4a3e4e794",
+  "fingerprint": "71852811bc4344576fdaf3905916fd549443c7953e2c24fba337e4680e645f44",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -86,7 +86,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "7303555ab9f389cb8a2484f64428de4677d1f70600588dc5aa5b17e9a6e80bcc",
+    "teacher.html": "88dfd24ff568a66728a00681c0334ff56e2d64ccd3187583691880d4b6e1922b",
     "student.html": "291dc132a193d732ccc6b19a3948919d5c54cb49366354e840128ef79ba39896",
     "student.zip": "f0ebb2aad67b5b69aadab0e09f24925cf1c96cd02ff17f48623f470afe40639e",
     "content.json": "24106f4abfe4693c5f3746ced8e321c6bb5f373d5ea68fcdbb05bf93d2df507f",

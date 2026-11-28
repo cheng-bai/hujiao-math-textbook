@@ -7,7 +7,7 @@
   "title": "频率与概率",
   "section_json": "batch/sections/bx3/bx3-12-3.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-3",
-  "fingerprint": "01703355d6b370a56de99950392c9672a20856d92844dea4cee402a623a0acb6",
+  "fingerprint": "77abf7012714838141241831bdbea774d74975a1af6e348f62d81f82e255cee1",
   "status": "rendered",
   "questions": 7,
   "answers": 7,
@@ -54,7 +54,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "890713eb4c8f5b441f7c8277a6af6921bb6e613c4ee152cc2264918a67e1d74c",
+    "teacher.html": "cfbab50d97332737b5bc23d9f66d26b4865f88cd3b519c790100f408380dcf53",
     "student.html": "e079b7d414a174a7673b98028cc60465f466bb7f261e8d79a128da2adcdbdb1f",
     "student.zip": "c3d4cd16f06b651a346f1dbecf4a00ef75f694bef09d1b2fc29ea7bc76d5b6ec",
     "content.json": "2e07dc1a03490d258757da1ac2f522f3f59daf40d92cbfa1851732eba19b3d58",

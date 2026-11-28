@@ -7,7 +7,7 @@
   "title": "异面直线间的距离",
   "section_json": "batch/sections/bx3/bx3-10-5.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-10-5",
-  "fingerprint": "b5ddbe9291905429f32b694fdd09e9f6041f0701efff66e9550032ec9afcd9d8",
+  "fingerprint": "6569ea01d4f1be9e988643464a7b51c1119a906994848c318cd1721c069a3ac1",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -121,7 +121,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9061eb8ea49a9824aeebfe6b52ba7a278054576e8d88a2c5ed073e180be909f9",
+    "teacher.html": "b5514a3f0b27a684f0a60f2c60bcd1bdf817cfab48625b2dbe0fa40785bb94dc",
     "student.html": "6a13d104e54793193b39693354caa7765a5305b41364b640c76c8d8189548820",
     "student.zip": "ca0ab256a33c4a0292e4cfc33bdb96ca3b3bb372351b7fef73cb4ab5313230c5",
     "content.json": "a6465afd54cffeaef3803d7db72e737371ec99dec8d7eb137ec5efe9d90b74b5",

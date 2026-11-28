@@ -7,7 +7,7 @@
   "title": "球",
   "section_json": "batch/sections/bx3/bx3-11-4.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-11-4",
-  "fingerprint": "825227871c0f7a74b9512de76a961d068cc2e357e8714b73aac5c91c56b4acec",
+  "fingerprint": "bcea18109ef52840f16be5de8d36e6ab70cbf6e3bde19ac7b1e815f2f201e672",
   "status": "rendered",
   "questions": 19,
   "answers": 19,
@@ -156,7 +156,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "8b51ce1d1da25d8040ab109a5c2b0335db5682d89f2604086b57e46095a26419",
+    "teacher.html": "cb36bb366130831fbac7d4dd8eac3645197556ee8dad54424223a757411bfac4",
     "student.html": "698d9385fabec775825563fc5946efdd3dc34e6d40288c91656e198095764936",
     "student.zip": "1f0bb3bdc712e392d4273dcb22bcd064b182e389156d34ab19c09681669f91b4",
     "content.json": "a1c37a7b8b03c761572aeee4c49d962eefb637faa78ede34bcdca17f0d0568fe",

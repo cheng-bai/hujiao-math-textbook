@@ -7,7 +7,7 @@
   "title": "向量的应用",
   "section_json": "batch/sections/bx2/bx2-8-4.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-4",
-  "fingerprint": "158339e2ecf9cc93a16af35700b262de4dbcbdb67e9220f5083ef3296eebd2dd",
+  "fingerprint": "4e31029a8a39e277052412609ebb349a2589c2842e86b5e365b228107d36c4c7",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -157,7 +157,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "637ae9f8bff91c46061b72c568230d1078e88ba8a26138cf913f5cd2aa143fbf",
+    "teacher.html": "6e46c01fdd888c354476f6048d621fffce7d23d55c1a8632970f5387ea3daa60",
     "student.html": "c10be5eff9c26effc0ea15dcd6c8cda3618e0fd9f1e3526dad64fbfdc83c3d4f",
     "student.zip": "57b66e228eaa301419f682b8e1a62d6d312400b4fe0a336eb52e64f5c86700b7",
     "content.json": "b3fb504a2c8a06fdc7db01e058e2b626cd4e063e85bf2ba181417f7b45361444",

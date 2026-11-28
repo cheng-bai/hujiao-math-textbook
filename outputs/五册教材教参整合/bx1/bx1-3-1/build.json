@@ -7,7 +7,7 @@
   "title": "幂与指数",
   "section_json": "batch/sections/bx1/bx1-3-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-3-1",
-  "fingerprint": "e82c2cf89f79d6d7b30b67d0fa69ea688374bfaf61c13ba74d88d63c51569e54",
+  "fingerprint": "9273052c3dbf820348e8b62754871ee88d4e0c88799e685e91b99f95f2b704c8",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -109,7 +109,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "379b371fe764e3f6c564c1ee9281e8ff5116d2259b802b21dd45b830a3a881bf",
+    "teacher.html": "a8e9afca62d840fb4b40a039e5b275eed68194dd93490a70023b38db89937239",
     "student.html": "de28b7c7bb3629fc1c38e16446397cfe68e85991a911f27d6663e803bd00a2ce",
     "student.zip": "d2baf0a541fec58205edfc26cc444bd8ee135dd0d8901f1753fc77a6a2f2efc8",
     "content.json": "e98c4e200ad90b5428e16885517bca1942e59a475c1047550012bd01c2d9d8e9",

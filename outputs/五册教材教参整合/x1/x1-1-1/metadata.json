@@ -7,7 +7,7 @@
   "title": "直线的倾斜角与斜率",
   "section_json": "batch/sections/x1/x1-1-1.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-1",
-  "fingerprint": "4d0651dbdefbced3bfa49d2954b4b05c3f994a3bff1fb6d96a1e3944ce270c8f",
+  "fingerprint": "41f4abbda1182644a192585b858287b68d14f648e81bdf583591e56163c4b6e2",
   "status": "rendered",
   "questions": 14,
   "answers": 14,
@@ -133,7 +133,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "15c0e01dc036733cdc8a50a6d0124bf35a7399655167fd003f1c4a537f088922",
+    "teacher.html": "3e893e9318f0bfd3880de037ea4d9ab4ae05c82f09de9629097367d88e7e6e6c",
     "student.html": "f2e130426bc6f868c69ba9f4daac3af325215c8483fada6fc337ac67d1b9cac2",
     "student.zip": "57205e4c7fca6cd5d88b377986111de5c311e5e6d24cbe82a09e12962db8b81e",
     "content.json": "d5aea3d3c0937f1e4598124718b5ea4f0ceb690046af238c057e7fb57eab19a5",

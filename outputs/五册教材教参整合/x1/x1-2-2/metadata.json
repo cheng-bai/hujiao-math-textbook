@@ -7,7 +7,7 @@
   "title": "椭圆",
   "section_json": "batch/sections/x1/x1-2-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-2-2",
-  "fingerprint": "7e68074ef504db7426e3adc4f004ae85470101c7ea880a32617f30f09ca74195",
+  "fingerprint": "5e39dbc9000ce3a8b32f381d1310394ede8bcf6bb670c6262a45452ad9650ac7",
   "status": "rendered",
   "questions": 20,
   "answers": 20,
@@ -171,7 +171,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "ae212254cc070c2315a9132e13102d50362c1444d12949fff8c84eddf86d8999",
+    "teacher.html": "83bb0191f97c4c24afc41f24214f9d0c98ad3953ea5a282d3856d8777a0d3d8c",
     "student.html": "5ae7b517490823e6dcfc8640a634c5f155f3dbf8c4c5c81225dfcc081f6b48f4",
     "student.zip": "f33b686cd69718f17e33250d8d8dee663419abebe1095fb966b9922064784ab5",
     "content.json": "a2344d84c54be17b46029813d67e3b028b74c9710dc04ea550493122b7e2a0b6",

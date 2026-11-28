@@ -7,7 +7,7 @@
   "title": "反函数",
   "section_json": "batch/sections/bx1/bx1-5-4.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-5-4",
-  "fingerprint": "4f52dbf6f289dab550b132813b0a06aa3460fd365d9927e56d9a3a5b28c89c72",
+  "fingerprint": "da1b22ab6e1b756fea350e7c25e7c0008e4e2a4ec66d2d1c53efe9e5dd2a7369",
   "status": "rendered",
   "questions": 15,
   "answers": 15,
@@ -108,7 +108,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "200bd24f108defa2881efa7ff2ffb9e364a2d3327ea323f7f06decd045abb558",
+    "teacher.html": "8e2030de95dcf442cc9e3cd8eaf32599181f065b72bfacc79734a6b3d2622e9a",
     "student.html": "e086dbea8d4324dcbf41aa8806d19ed47a443c76519e9f0d6ac2fd37ed01867b",
     "student.zip": "4da292aaf137f14c36769d5ff4e6effc296017f5f446b3d86e930dcf834ba3ac",
     "content.json": "5d9a6a47b2c9d534c385658fb1651564f1f870d20e0ecce17e08750fb8f9076f",

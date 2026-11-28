@@ -7,7 +7,7 @@
   "title": "随机现象与样本空间",
   "section_json": "batch/sections/bx3/bx3-12-1.json",
   "output": "outputs/五册教材教参整合/bx3/bx3-12-1",
-  "fingerprint": "f80ea220855399adeb5d0c92ce359e98fd3ed2271a7c735e22922b839631ea94",
+  "fingerprint": "e7cface3f19e86e06fc53f44bbe82edf2f494a2bd7c22da08900f3a40c9e2253",
   "status": "rendered",
   "questions": 16,
   "answers": 16,
@@ -60,7 +60,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "63ab19afba0a708cc4533f60d95e5739eb7cbc6e669fea4824ef89fba64a9d94",
+    "teacher.html": "acdff10ed5dcf44af0a12e3a93ecec4ff933656bac3cab42c0f56164edc6d0ca",
     "student.html": "e6505562abcbeaf1b6baeefd249a427f434f685fc2baac84039b77088fee0bad",
     "student.zip": "3b04e57e44421211f2ae78ec543c0eb4295b648e3fac383167534d5c58312978",
     "content.json": "e7a18d0c8cf03cf9b7ea8f98e7202529b292de2cdce7c151a20465fc9c2510cf",

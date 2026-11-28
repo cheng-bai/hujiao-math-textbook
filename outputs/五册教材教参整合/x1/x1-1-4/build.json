@@ -7,7 +7,7 @@
   "title": "点到直线的距离",
   "section_json": "batch/sections/x1/x1-1-4.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-4",
-  "fingerprint": "2c4fc32e83c3c65d43a1bd1cabf9f73e3d7431d9f5420de894bfcfca4fa94ae6",
+  "fingerprint": "62200d311ae65b8fdbaa911d07414319b12dbadd685c1eda9c07d9700f525e42",
   "status": "rendered",
   "questions": 12,
   "answers": 12,
@@ -90,7 +90,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "e1859def9ebcc171a6b70281744f207e7f2a269d6418ac278155b938b44dc766",
+    "teacher.html": "c178938de8f42611feef898315faf9ce8a3753b5393c73eca64ad7825744984a",
     "student.html": "fbe8ddeb69228d78d6e55e391e79826ce6287967aa757c7625a8e4ecbf250fe3",
     "student.zip": "798a65d69b20e2e9c6dc991eed477a2c68498ca49483c3ac47b9ac0cd3d8a55b",
     "content.json": "cd815ccd4b7e1cf8d6b98de17b756f983fb6ba271abe98aeeed730cabecdf29a",

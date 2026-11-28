@@ -7,7 +7,7 @@
   "title": "常用三角公式",
   "section_json": "batch/sections/bx2/bx2-6-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-6-2",
-  "fingerprint": "7e1dea9100545709274b72a5521730536c2c352eeaa55853cec1e8f9785dc28b",
+  "fingerprint": "cf9f1527cf64d6a37aee9f14e96b7e63d96ccd1b732f54a5b6b2bb4d31c9052d",
   "status": "rendered",
   "questions": 51,
   "answers": 51,
@@ -271,7 +271,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "9ec21979f45323ba4049434c77306583b205efc429e7f3b74d787042a891b359",
+    "teacher.html": "59d734e125c94f87c6a7ef5f63f456a3dfba0e84e91337c6ec9dd3743d6a848a",
     "student.html": "c43d690b9010ed1c3ea25f3887a6d5498b37f9c5b6dd782ed9e6a59fa5bf8e32",
     "student.zip": "f7e11abbd3fc1e411af22e5db2625ebb0c327893e84bc80faaa8c527da05065f",
     "content.json": "eab7f671dd0de2f81c6c040d50721f06628b14b77aa0d81338a8354cc4174b30",

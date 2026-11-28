@@ -7,7 +7,7 @@
   "title": "指数函数",
   "section_json": "batch/sections/bx1/bx1-4-2.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-4-2",
-  "fingerprint": "c7ddc732fd8a8d5bb9ce9116c98aaad9580f2121754c16e03358f9dbc32c77b9",
+  "fingerprint": "10c4d1f4aa3753cdea7a1f20ca099b3edd743a346f209978e5c677ae852b5ddd",
   "status": "rendered",
   "questions": 30,
   "answers": 30,
@@ -204,7 +204,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "a0184aa503384fcc0680329b9b1cb96511e9ef0520644a3a301635536ff78f99",
+    "teacher.html": "dbd0aa32edde803c0943e52f0b4da468071a989cefb0419f48cc9163cf3b28ea",
     "student.html": "97a9576b363b3023de8a1c5265e7ba500618e4b06e95eeaa740ab4a097d82abd",
     "student.zip": "27e7fbac580ac654df0207d2c6de4daf56babe5545f0e84de4d3c38734c068aa",
     "content.json": "23c2c854462f9fa33862d1800904fdf19ca26bb722a6b5a05f9c7b9420285c22",

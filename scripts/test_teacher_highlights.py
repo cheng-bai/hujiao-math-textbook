@@ -99,6 +99,19 @@ class TeacherHighlightsTests(unittest.TestCase):
         self.assertTrue(errors)
         self.assertEqual(storage_key(section_id), 'hujiao-teacher-highlights-v1:sample-section-a')
 
+    def test_paragraph_anchor_survives_export_and_import(self):
+        section_id = 'sample-section-a'
+        item = {'id': 'paragraph', 'blockId': 'sample-section-a-b3', 'quote': '直线的斜率为 $k$。', 'paragraphTag': 'p'}
+        payload = export_document(section_id, [item])
+        imported, errors = validate_import(payload, section_id)
+        self.assertEqual(errors, [])
+        self.assertEqual(imported[0]['paragraphTag'], 'p')
+        self.assertEqual(imported[0]['quote'], item['quote'])
+        payload['annotations'][0]['paragraphTag'] = []
+        imported, errors = validate_import(payload, section_id)
+        self.assertEqual(imported, [])
+        self.assertTrue(errors)
+
 
 if __name__ == '__main__':
     unittest.main()

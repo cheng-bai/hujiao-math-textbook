@@ -7,7 +7,7 @@
   "title": "幂函数",
   "section_json": "batch/sections/bx1/bx1-4-1.json",
   "output": "outputs/五册教材教参整合/bx1/bx1-4-1",
-  "fingerprint": "a2d40f8b60ee1dfbc18302bf08173c1d8c995d7fffde269a66f70218f822d33d",
+  "fingerprint": "2a201a7e8a85ecaf5995bfa1c7b89d347477edbe265c8217babcff28a5773549",
   "status": "rendered",
   "questions": 22,
   "answers": 22,
@@ -151,7 +151,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "79479920d8bfbbb12fa008c53a416bdcda717ac7a0e60f3879b245afaa046b89",
+    "teacher.html": "3f23a20e0a962a44a327d69df34de9b721a2a79fb459edae3c143f7b07d11bdb",
     "student.html": "c7ff2930a6bc63d1566416c132a8af7f99b6ed766bbaf9c6c13af6af2e5e2c47",
     "student.zip": "ddf117536f7163a94ae8e7eb9989481776e862b132422fdd489d766300a30f04",
     "content.json": "ae97890faa4b2de09c899da692a2a01ec182ba70b0af54adca447ac03cd26e46",

@@ -7,7 +7,7 @@
   "title": "向量的数量积",
   "section_json": "batch/sections/bx2/bx2-8-2.json",
   "output": "outputs/五册教材教参整合/bx2/bx2-8-2",
-  "fingerprint": "f219e0f30bd92940b82a705145b3b70b00b5f61cd91f205a486b64717bae974f",
+  "fingerprint": "92a16ea8ccb9666bad6652743de6c4b70020b2c60202c9ce240a0174078e76e0",
   "status": "rendered",
   "questions": 32,
   "answers": 32,
@@ -83,7 +83,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "89eeaada7dc445ed180d07ab78b8b1c294047420d14bba7943c3a6d8ba797468",
+    "teacher.html": "c7be49c77a081800fc127e7909d44183b8722a69d2a1e287611cb31f4ed0adf7",
     "student.html": "42548775d921d8ba6eb4f27adf7362fe899ddcd3c75254934635cca9ce903a88",
     "student.zip": "d268f392379af982866bd1b621cde45554aed1238ab34105351dfe542997396a",
     "content.json": "b898cec15888cb1ac151c382170b1b115f522f6584cf240cd04dd2e1a0d5f96e",

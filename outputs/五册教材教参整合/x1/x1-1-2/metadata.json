@@ -7,7 +7,7 @@
   "title": "直线的方程",
   "section_json": "batch/sections/x1/x1-1-2.json",
   "output": "outputs/五册教材教参整合/x1/x1-1-2",
-  "fingerprint": "8f7176dadc144d70ff3a533d6172f5429abbc2122e5ac37f940226f103d4fddf",
+  "fingerprint": "791886b527bd43f5fb3e71bc0378f34973d6601734bdefb89754fc5973acc5f5",
   "status": "rendered",
   "questions": 49,
   "answers": 49,
@@ -215,7 +215,7 @@
   },
   "math_review": "separate",
   "artifact_hashes": {
-    "teacher.html": "42cf35e1532ecc4f49f5ac9ed54a8f6ad82b67b0886b6a850767db933aa10016",
+    "teacher.html": "c8377457d32ba7863dd1583bb563f7f3a0bb1db3397b6346fece404ece663c55",
     "student.html": "a6d5bd6a5ccdf949d0a28fc5700611445d40d3180a79b877611fe6dff5d10f18",
     "student.zip": "6373a19e65f45e2ba9774915971100bbc8fdc5efec5924435c8122f39f291b6a",
     "content.json": "687749383b0da28e5e623b611f6e6f4d665409eb193098c66caa1ef555323e57",
